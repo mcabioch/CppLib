@@ -1,0 +1,6 @@
+<map id="mcd::Animal::attack" name="mcd::Animal::attack">
+<area shape="rect" id="node2" href="$d3/d52/a00023.php#abd9ce3c297f4c21fc7f51f4e0f0c3ea8" title="Get the Hotsile&#39;s target. " alt="" coords="192,56,351,83"/>
+<area shape="rect" id="node3" href="$d3/d52/a00023.php#a5f7ce99ca0b7a957e608e1d9ad73621e" title="Print the infos in the instance of the class in stream. " alt="" coords="399,5,557,32"/>
+<area shape="rect" id="node4" href="$d3/d52/a00023.php#afbaa53140e5e1bf40606e4ff3d4a947d" title="Hurt the target. " alt="" coords="415,56,541,83"/>
+<area shape="rect" id="node5" href="$d3/d52/a00023.php#a7443b49cf0f2564e4209b3ae6867b5cc" title="Attack. " alt="" coords="408,107,548,133"/>
+</map>

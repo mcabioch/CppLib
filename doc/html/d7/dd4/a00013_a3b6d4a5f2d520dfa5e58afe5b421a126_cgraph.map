@@ -1,0 +1,5 @@
+<map id="Contraption::getLevel" name="Contraption::getLevel">
+<area shape="rect" id="node2" href="$d7/dd4/a00013.php#a6dedcd33d891a22ae7d6ce4d7e1d6a37" title="Print the infos in the instance of the class in stream. " alt="" coords="210,5,361,32"/>
+<area shape="rect" id="node3" href="$d7/dd4/a00013.php#ad4558d52105c2ad89f7eef6ead603286" title="Compute a z with the obstacles. " alt="" coords="200,56,371,83"/>
+<area shape="rect" id="node4" href="$d7/dd4/a00013.php#a6cbb52b9ef8ee0ffba677c79290da3a5" title="Add coordinates to the actual position. " alt="" coords="203,107,368,133"/>
+</map>

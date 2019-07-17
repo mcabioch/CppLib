@@ -1,0 +1,7 @@
+<map id="Pathfinding" name="Pathfinding">
+<area shape="rect" id="node2" href="$d2/d79/a00051.php" title="A class to group every pathfinding problems in one way to use it. " alt="" coords="769,117,904,143"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="149,47,272,74"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="153,118,269,145"/>
+<area shape="rect" id="node9" href="$d5/de0/a00050.php" title="A node for the path. " alt="" coords="151,207,270,234"/>
+<area shape="rect" id="node11" href="$d3/dea/a00046.php" title="A class to manage a path computed by the map. " alt="" coords="690,258,739,285"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="mcd::BDD::applyForEach" name="mcd::BDD::applyForEach">
+<area shape="rect" id="node2" href="$d8/dba/a00773.php#afaa6ffe0e76f80fce06afc6b914e56fc" title="Get all the columns of a table with their attributes. " alt="" coords="239,5,402,32"/>
+<area shape="rect" id="node3" href="$d8/dba/a00773.php#a00133efd5df6057d0b4490caf3860f3b" title="Format the values string. " alt="" coords="236,56,405,83"/>
+<area shape="rect" id="node4" href="$d8/dba/a00773.php#a1e45e19e9942001e5a46e0e3586b869f" title="Format the conditions string. " alt="" coords="225,107,416,133"/>
+<area shape="rect" id="node5" href="$d8/dba/a00773.php#a1462638a412851e385fee49dce16738e" title="Format values for the bdd. " alt="" coords="245,157,397,184"/>
+</map>

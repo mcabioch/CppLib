@@ -1,0 +1,15 @@
+<map id="Time::~Time" name="Time::~Time">
+<area shape="rect" id="node2" href="$d9/db3/a00066.php#a99596125e906e4c90db644d0b3607847" title="Time::hour" alt="" coords="158,5,242,32"/>
+<area shape="rect" id="node3" href="$d9/db3/a00066.php#aac8ea25e5e86f8fbbe80006f1d75f915" title="Time::minute" alt="" coords="151,56,249,83"/>
+<area shape="rect" id="node4" href="$d9/db3/a00066.php#a33d3b8dc2789c79ca70587b6471c3a91" title="Time::second" alt="" coords="149,107,251,133"/>
+<area shape="rect" id="node5" href="$d9/db3/a00066.php#acd572fe30b35218965c1d2e81a2614ef" title="Time::milli" alt="" coords="159,157,241,184"/>
+<area shape="rect" id="node6" href="$d9/db3/a00066.php#ac626e60d7767728dca61c1095cb9678c" title="Time::init" alt="" coords="162,208,238,235"/>
+<area shape="rect" id="node7" href="$d9/db3/a00066.php#afe661f7ba15818a24bf76e83da2889a0" title="Time::reset" alt="" coords="156,259,244,285"/>
+<area shape="rect" id="node8" href="$dc/dfe/a00125.php#a2176bf97f6b18969bb71b7c3f2e56234" title="operator\&lt;" alt="" coords="161,309,239,336"/>
+<area shape="rect" id="node9" href="$dc/dfe/a00125.php#a7f236759032a4630990af05bd6c8530b" title="operator==" alt="" coords="157,360,243,387"/>
+<area shape="rect" id="node10" href="$dc/dfe/a00125.php#a9ccc494b666d059616ff7511d7f8488d" title="operator!=" alt="" coords="159,411,241,437"/>
+<area shape="rect" id="node11" href="$dc/dfe/a00125.php#a8527bf1c14fd3ecf9d5ad2f3e2706ab3" title="operator\&gt;" alt="" coords="161,461,239,488"/>
+<area shape="rect" id="node12" href="$dc/dfe/a00125.php#a6a0cd3c0e9278655b3751210ee91ab22" title="operator\&lt;=" alt="" coords="157,512,243,539"/>
+<area shape="rect" id="node13" href="$dc/dfe/a00125.php#a4c81c1c1150b34a04ec6951f24e830ae" title="operator\&gt;=" alt="" coords="157,563,243,589"/>
+<area shape="rect" id="node14" href="$dc/dfe/a00125.php#aa153c7e397eda8644c840a97f6036c5b" title="operator\&lt;\&lt;" alt="" coords="157,613,243,640"/>
+</map>

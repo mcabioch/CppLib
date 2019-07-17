@@ -1,0 +1,4 @@
+<map id="Contraption::turnRight" name="Contraption::turnRight">
+<area shape="rect" id="node2" href="$d2/de7/a00014.php#adc32e0091645e3ff58587b3915680d81" title="Set the angle. " alt="" coords="204,5,328,32"/>
+<area shape="rect" id="node3" href="$d2/de7/a00014.php#a8078072bd826e3494d66a82ebf21754e" title="Contraption::getA" alt="" coords="204,56,328,83"/>
+</map>
