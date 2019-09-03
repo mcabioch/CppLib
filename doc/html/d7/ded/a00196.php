@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Jul 8 2019 17:26:13 for C++ by";
+				$text = "Generated on Sun Sep 1 2019 17:28:12 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -753,9 +753,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a0d72a06346182146581ff63f2fa70580"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#a0d72a06346182146581ff63f2fa70580">exec</a> (const std::string &amp;cmd, bool force=false)</td></tr>
 <tr class="memdesc:a0d72a06346182146581ff63f2fa70580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use system in an IF and say if there is an error.  <a href="#a0d72a06346182146581ff63f2fa70580">More...</a><br /></td></tr>
 <tr class="separator:a0d72a06346182146581ff63f2fa70580"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a155269c9fad29a14bef48adb96534b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#a5a155269c9fad29a14bef48adb96534b">servLog</a> (const std::string &amp;str)</td></tr>
-<tr class="memdesc:a5a155269c9fad29a14bef48adb96534b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a string in cout like in a server.  <a href="#a5a155269c9fad29a14bef48adb96534b">More...</a><br /></td></tr>
-<tr class="separator:a5a155269c9fad29a14bef48adb96534b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcc09c3d97d72792032b5615d41aa1c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#abcc09c3d97d72792032b5615d41aa1c5">servLog</a> (const std::string &amp;str, bool server=false, const std::string &amp;name=&quot;Server&quot;)</td></tr>
+<tr class="memdesc:abcc09c3d97d72792032b5615d41aa1c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a string in cout like in a server.  <a href="#abcc09c3d97d72792032b5615d41aa1c5">More...</a><br /></td></tr>
+<tr class="separator:abcc09c3d97d72792032b5615d41aa1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3a0bfd8107f1a0512e3daccbe8ec32a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#ab3a0bfd8107f1a0512e3daccbe8ec32a">operator&lt;</a> (const <a class="el" href="../../d7/d59/a01013.php">Time</a> &amp;a, const <a class="el" href="../../d7/d59/a01013.php">Time</a> &amp;b)</td></tr>
 <tr class="separator:ab3a0bfd8107f1a0512e3daccbe8ec32a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b7c3b86bf4f3323ec303cf6caf4657d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#a1b7c3b86bf4f3323ec303cf6caf4657d">operator==</a> (const <a class="el" href="../../d7/d59/a01013.php">Time</a> &amp;a, const <a class="el" href="../../d7/d59/a01013.php">Time</a> &amp;b)</td></tr>
@@ -5288,8 +5288,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a5a155269c9fad29a14bef48adb96534b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a155269c9fad29a14bef48adb96534b">&#9670;&nbsp;</a></span>servLog()</h2>
+<a id="abcc09c3d97d72792032b5615d41aa1c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcc09c3d97d72792032b5615d41aa1c5">&#9670;&nbsp;</a></span>servLog()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5298,8 +5298,24 @@ Here is the call graph for this function:</div>
           <td class="memname">void mcd::servLog </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>str</em></td><td>)</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>server</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;Server&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

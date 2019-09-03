@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Jul 8 2019 17:26:13 for C++ by";
+				$text = "Generated on Sun Sep 1 2019 17:28:12 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -449,7 +449,7 @@ $(document).ready(function(){initNavTree('namespacemembers.php','');});
 
 <h3><a id="index_s"></a>- s -</h3><ul>
 <li>servLog()
-: <a class="el" href="d7/ded/a00196.php#a5a155269c9fad29a14bef48adb96534b">mcd</a>
+: <a class="el" href="d7/ded/a00196.php#abcc09c3d97d72792032b5615d41aa1c5">mcd</a>
 </li>
 <li>setlines()
 : <a class="el" href="d7/ded/a00196.php#a9ba7233f51d28a1a9c7f7e066007b3ac">mcd</a>

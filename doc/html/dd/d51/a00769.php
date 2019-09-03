@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Jul 8 2019 17:26:13 for C++ by";
+				$text = "Generated on Sun Sep 1 2019 17:28:12 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -132,7 +132,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0566f226253ef02ac813bad965f647b9 inherit pub_methods_a00765"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de2/a00765.php#a0566f226253ef02ac813bad965f647b9">queue</a> ()</td></tr>
 <tr class="separator:a0566f226253ef02ac813bad965f647b9 inherit pub_methods_a00765"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c9c5803f41517e0b1b8d75441cd4b09 inherit pub_methods_a00765"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de2/a00765.php#a9c9c5803f41517e0b1b8d75441cd4b09">pop</a> ()</td></tr>
-<tr class="memdesc:a9c9c5803f41517e0b1b8d75441cd4b09 inherit pub_methods_a00765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the first element of the queue and erase it from the queue.  <a href="../../dc/de2/a00765.php#a9c9c5803f41517e0b1b8d75441cd4b09">More...</a><br /></td></tr>
+<tr class="memdesc:a9c9c5803f41517e0b1b8d75441cd4b09 inherit pub_methods_a00765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase the first element of the queue.  <a href="../../dc/de2/a00765.php#a9c9c5803f41517e0b1b8d75441cd4b09">More...</a><br /></td></tr>
 <tr class="separator:a9c9c5803f41517e0b1b8d75441cd4b09 inherit pub_methods_a00765"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a148295001e6effa1aa1217af766e021f inherit pub_methods_a00765"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de2/a00765.php#a148295001e6effa1aa1217af766e021f">get</a> ()</td></tr>
 <tr class="memdesc:a148295001e6effa1aa1217af766e021f inherit pub_methods_a00765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the first element of the queue and erase it from the queue.  <a href="../../dc/de2/a00765.php#a148295001e6effa1aa1217af766e021f">More...</a><br /></td></tr>

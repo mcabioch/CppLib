@@ -310,7 +310,7 @@ remove:
 	$(RM) $(RMFLAGS) configure.ac
 	$(RM) $(RMFLAGS) autom4te.cache
 
-PHONY += run install remake lib
+PHONY += run install remake lib libs
 
 run:
 	@./$(BINDIR)/$(EXE) res/makefile.mk res/makefile
@@ -327,6 +327,18 @@ else
 	make doc
 	$(AR) $(ARFLAGS) $(LIBDIR)/$(EXE).a $(OBJ)
 endif
+
+libs:
+	make clean
+	make lib -j4
+	make clean
+#	make lib TARGET=rpi1 -j4
+	make clean
+	make lib TARGET=rpi2 -j4
+	make clean
+	make lib TARGET=rpi3 -j4
+	make clean
+	make lib TARGET=beaglebb -j4
 
 PHONY += gdb valgrind check
 

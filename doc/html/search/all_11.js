@@ -3,7 +3,7 @@ var searchData=
   ['save',['save',['../d0/d82/a00857.php#ab58627fbfed0b6cabd5030943113e5e5',1,'mcd::ConsoleCursor::save()'],['../d0/d5b/a00933.php#a5962b156a6ac1a9b3086f54ae6289121',1,'mcd::Map::save()']]],
   ['second',['second',['../d7/ded/a00196.php#add070f6dc7f62980568fb3e4e65a8059',1,'mcd::trio::second()'],['../d7/ded/a00196.php#a04fed1e7cdd9a52f5a8d3f49a4a2c741',1,'mcd::quatuor::second()'],['../d7/d59/a01013.php#a5a3510ec96b9698b8cf601a2a1b9d90c',1,'mcd::Time::second()']]],
   ['sender',['sender',['../d9/d22/a00873.php#a6ee6d1b64b6b88068a2165a1824a5af2',1,'mcd::Contraption']]],
-  ['servlog',['servLog',['../d7/ded/a00196.php#a5a155269c9fad29a14bef48adb96534b',1,'mcd']]],
+  ['servlog',['servLog',['../d7/ded/a00196.php#abcc09c3d97d72792032b5615d41aa1c5',1,'mcd']]],
   ['set',['set',['../de/d01/a00897.php#ac9fb4557d7fab62e3df37e391a499a3e',1,'mcd::Date::set()'],['../d7/d59/a01013.php#a0cf41690082cda14c3aafb0b91056195',1,'mcd::Time::set()']]],
   ['seta',['setA',['../d9/d22/a00873.php#a73a47e55e554e7c7f357a74276368186',1,'mcd::Contraption']]],
   ['setage',['setAge',['../de/dc3/a00909.php#ac84c283da82f389088715485d2fc57d1',1,'mcd::Entity']]],

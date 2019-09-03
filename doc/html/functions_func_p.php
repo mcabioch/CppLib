@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Jul 8 2019 17:26:13 for C++ by";
+				$text = "Generated on Sun Sep 1 2019 17:28:12 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -155,7 +155,7 @@ $(document).ready(function(){initNavTree('functions_func_p.php','');});
 , <a class="el" href="d3/d4f/a00761.php#ac52e7cd746a8da37bc0d9aba1b44a12a">mcd::t_stack&lt; T, Container &gt;</a>
 </li>
 <li>put()
-: <a class="el" href="d0/d82/a00857.php#a187539d96e4d226cf2f0f77d7861a62f">mcd::ConsoleCursor</a>
+: <a class="el" href="d0/d82/a00857.php#a6c45379b4d8cbccef8c0809d318eae0c">mcd::ConsoleCursor</a>
 </li>
 <li>putEntity()
 : <a class="el" href="d0/d5b/a00933.php#a8cea2526dc276cce694e31a6053d5522">mcd::Map</a>

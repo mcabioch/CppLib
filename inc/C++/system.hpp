@@ -15,7 +15,7 @@ namespace mcd {
 	void exec(const std::string& cmd, bool force = false);
 
 	/*! \brief	Write a string in cout like in a server */
-	void servLog(const std::string& str);
+	void servLog(const std::string& str, bool server = false, const std::string& name = "Server");
 }
 
 #endif //HEADER_CPP_SYSTEM

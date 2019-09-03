@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Jul 8 2019 17:26:13 for C++ by";
+				$text = "Generated on Sun Sep 1 2019 17:28:12 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('d0/d82/a00857.php','../../');});
   <tr><td class="entry"><a class="el" href="../../d0/d82/a00857.php#a75615abf8f124c460b9b163868c89b7e">home</a>()</td><td class="entry"><a class="el" href="../../d0/d82/a00857.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../da/d0a/a00993.php#ab67f25d69c1686f95be6fbfcc4ac4663">PureVirtual</a>()</td><td class="entry"><a class="el" href="../../da/d0a/a00993.php">mcd::PureVirtual</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../da/d0a/a00993.php#a1885fa694cc2d28cb55186fb3b53615d">PureVirtualMethod</a>() final=0</td><td class="entry"><a class="el" href="../../da/d0a/a00993.php">mcd::PureVirtual</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d82/a00857.php#a187539d96e4d226cf2f0f77d7861a62f">put</a>(std::string str, T x, T y, Color color=Reinit())</td><td class="entry"><a class="el" href="../../d0/d82/a00857.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/d82/a00857.php#a6c45379b4d8cbccef8c0809d318eae0c">put</a>(std::string str, T x, T y, Color color=0)</td><td class="entry"><a class="el" href="../../d0/d82/a00857.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d0/d82/a00857.php#a6f731b973f917b6c2f3a04267f12c851">restore</a>()</td><td class="entry"><a class="el" href="../../d0/d82/a00857.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d0/d82/a00857.php#ab58627fbfed0b6cabd5030943113e5e5">save</a>()</td><td class="entry"><a class="el" href="../../d0/d82/a00857.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../da/d0a/a00993.php#acb8cb10e007f7c5f6ac757843a212598">~PureVirtual</a>()</td><td class="entry"><a class="el" href="../../da/d0a/a00993.php">mcd::PureVirtual</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>

@@ -215,7 +215,7 @@ namespace mcd {
 			*		\return			void
 			*/
 			template<typename T>
-			static void put(std::string str, T x, T y, Color color = Reinit()){
+			static void put(std::string str, T x, T y, Color color = 0){
 				ConsoleCursor::save();
 
 				ConsoleCursor::goTo(x, y);

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Jul 8 2019 17:26:13 for C++ by";
+				$text = "Generated on Sun Sep 1 2019 17:28:12 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -180,9 +180,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a0d72a06346182146581ff63f2fa70580"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#a0d72a06346182146581ff63f2fa70580">mcd::exec</a> (const std::string &amp;cmd, bool force=false)</td></tr>
 <tr class="memdesc:a0d72a06346182146581ff63f2fa70580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use system in an IF and say if there is an error.  <a href="../../d7/ded/a00196.php#a0d72a06346182146581ff63f2fa70580">More...</a><br /></td></tr>
 <tr class="separator:a0d72a06346182146581ff63f2fa70580"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a155269c9fad29a14bef48adb96534b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#a5a155269c9fad29a14bef48adb96534b">mcd::servLog</a> (const std::string &amp;str)</td></tr>
-<tr class="memdesc:a5a155269c9fad29a14bef48adb96534b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a string in cout like in a server.  <a href="../../d7/ded/a00196.php#a5a155269c9fad29a14bef48adb96534b">More...</a><br /></td></tr>
-<tr class="separator:a5a155269c9fad29a14bef48adb96534b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcc09c3d97d72792032b5615d41aa1c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#abcc09c3d97d72792032b5615d41aa1c5">mcd::servLog</a> (const std::string &amp;str, bool server=false, const std::string &amp;name=&quot;Server&quot;)</td></tr>
+<tr class="memdesc:abcc09c3d97d72792032b5615d41aa1c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a string in cout like in a server.  <a href="../../d7/ded/a00196.php#abcc09c3d97d72792032b5615d41aa1c5">More...</a><br /></td></tr>
+<tr class="separator:abcc09c3d97d72792032b5615d41aa1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>

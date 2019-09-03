@@ -2,7 +2,7 @@
 *
 *	\file		array.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	April, 24 2019
+*	\modified	September, 01 2019
 *
 */
 #ifndef HEADER_CPP_ARRAY
@@ -507,7 +507,7 @@ namespace mcd {
 			{}
 
 			/* Getters */
-				/*! \brief	Return the first element of the queue and erase it from the queue */
+				/*! \brief	Erase the first element of the queue */
 				void pop(){
 					if(!this->empty()){
 						std::queue<T, Container>::pop();
