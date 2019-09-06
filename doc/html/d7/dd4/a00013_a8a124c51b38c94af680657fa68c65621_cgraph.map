@@ -1,5 +1,0 @@
-<map id="ConsoleCursor::put" name="ConsoleCursor::put">
-<area shape="rect" id="node2" href="$d7/dd4/a00013.php#a3b03a811157d84449f3cf467c1f4758e" title="Save the actual cursor position. " alt="" coords="194,5,339,32"/>
-<area shape="rect" id="node3" href="$d7/dd4/a00013.php#a007a2a8bda4e52a48930875f4ee8616e" title="Go to an x/y position. " alt="" coords="193,56,340,83"/>
-<area shape="rect" id="node4" href="$d7/dd4/a00013.php#aceee1a7bd3a4ff19cd06170c15048142" title="Restore the cursor&#39;s saved position. " alt="" coords="188,107,345,133"/>
-</map>

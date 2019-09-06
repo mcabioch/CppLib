@@ -1,5 +1,0 @@
-<map id="mcd::Hostile::getTarget" name="mcd::Hostile::getTarget">
-<area shape="rect" id="node2" href="$d3/d52/a00023.php#a5f7ce99ca0b7a957e608e1d9ad73621e" title="Print the infos in the instance of the class in stream. " alt="" coords="212,5,371,32"/>
-<area shape="rect" id="node3" href="$d3/d52/a00023.php#afbaa53140e5e1bf40606e4ff3d4a947d" title="Hurt the target. " alt="" coords="228,56,355,83"/>
-<area shape="rect" id="node4" href="$d3/d52/a00023.php#a7443b49cf0f2564e4209b3ae6867b5cc" title="Attack. " alt="" coords="221,107,361,133"/>
-</map>

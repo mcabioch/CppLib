@@ -1,6 +1,0 @@
-<map id="ppcm" name="ppcm">
-<area shape="rect" id="node2" href="$d1/dc1/a00092.php#a6e9b223b45f9c0ef8d93fa65db1a8f98" title="Return the result of the pgcd. " alt="" coords="108,5,159,32"/>
-<area shape="rect" id="node3" href="$d1/dc1/a00092.php#a9f362f22a77587bb719f13bc7fb185a2" title="Return the modulo of two numbers. " alt="" coords="207,5,253,32"/>
-<area shape="rect" id="node4" href="$d1/dc1/a00092.php#a6a8af65111300da455bef67651f83c73" title="Return the decimal part of the given number. " alt="" coords="301,5,392,32"/>
-<area shape="rect" id="node5" href="$d1/dc1/a00092.php#ab5254a19797bf686467bc0f475bf6fdd" title="Return the whole part of the given number. " alt="" coords="440,5,520,32"/>
-</map>

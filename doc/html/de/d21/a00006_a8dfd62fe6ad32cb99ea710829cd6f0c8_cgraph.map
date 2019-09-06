@@ -1,8 +1,0 @@
-<map id="mcd::BDD::undebug" name="mcd::BDD::undebug">
-<area shape="rect" id="node2" href="$de/d21/a00006.php#afaa6ffe0e76f80fce06afc6b914e56fc" title="Get all the columns of a table with their attributes. " alt="" coords="212,5,375,32"/>
-<area shape="rect" id="node3" href="$de/d21/a00006.php#a76d9ee7bb1183b2a524d03a49fd5b6f9" title="Verify if a table contains an autoincremented column. " alt="" coords="195,56,392,83"/>
-<area shape="rect" id="node4" href="$de/d21/a00006.php#a10adb3234bd843d49771fdf135d9d1df" title="Get the number of lines with the conditions. " alt="" coords="221,107,366,133"/>
-<area shape="rect" id="node5" href="$de/d21/a00006.php#afc849e1567062c32a5ab6ff83c1005dd" title="Get all the tables of the database. " alt="" coords="230,157,357,184"/>
-<area shape="rect" id="node6" href="$de/d21/a00006.php#a2af8494da2ae649370116bcb1d52347a" title="Get the last created id in the table. " alt="" coords="231,208,355,235"/>
-<area shape="rect" id="node7" href="$de/d21/a00006.php#a85f42e3b392de864a33bc7dbd357d02a" title="Format a column name for text. " alt="" coords="206,259,381,285"/>
-</map>

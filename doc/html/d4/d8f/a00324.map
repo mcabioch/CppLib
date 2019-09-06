@@ -1,7 +1,0 @@
-<map id="mcd::Pathfinding" name="mcd::Pathfinding">
-<area shape="rect" id="node2" href="$d5/df9/a00044.php" title="A class to manage a path computed by the map. " alt="" coords="727,5,809,32"/>
-<area shape="rect" id="node3" href="$d4/dca/a00048.php" title="A node for the path. " alt="" coords="149,64,300,91"/>
-<area shape="rect" id="node4" href="$d2/dee/a00049.php" title="A class to group every pathfinding problems in one way to use it. " alt="" coords="833,173,1001,200"/>
-<area shape="rect" id="node6" title="STL class. " alt="" coords="163,220,286,247"/>
-<area shape="rect" id="node11" title="STL class. " alt="" coords="167,144,283,171"/>
-</map>
