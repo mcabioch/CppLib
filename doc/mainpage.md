@@ -82,8 +82,8 @@ My own C++ features
 		mcd::randStr(size_t nb, unsigned short flags)
 
 \section		upd_sec			Updates
-	\subsection	upd_sec_20190416_subsec		September, 06 2019
-		Correction of some bugs.
+	\subsection	upd_sec_20190906_subsec		September, 06 2019
+		Correction of some bugs.\n
 		Added to <a class="el" href="https://github.com/mcabioch/CppLib" target="_blank">GitHub</a>.
 	\subsection	upd_sec_20190416_subsec		April, 16 2019
 		Creation of the \ref mcd namespace.

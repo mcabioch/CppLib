@@ -1,3 +1,2 @@
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:88: warning: multiple use of section label 'upd_sec_20190416_subsec' while adding section, (first occurrence: /home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md, line 85)
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/timeFunctions.hpp:3: warning: the name `time.hpp' supplied as the second argument in the \file statement is not an input file
 /home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:68: warning: unable to resolve reference to `mcd::bdd' for \ref command

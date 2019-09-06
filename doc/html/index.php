@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 6 2019 16:16:43 for C++ by";
+				$text = "Generated on Fri Sep 6 2019 16:18:01 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -108,7 +108,8 @@ $(document).ready(function(){initNavTree('index.php','');});
 <li class="level2"><a href="#imp_sec_fun_subsec">Functions</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#upd_sec">Updates</a><ul><li class="level2"><a href="#upd_sec_20190416_subsec">September, 06 2019</a></li>
+<li class="level1"><a href="#upd_sec">Updates</a><ul><li class="level2"><a href="#upd_sec_20190906_subsec">September, 06 2019</a></li>
+<li class="level2"><a href="#upd_sec_20190416_subsec">April, 16 2019</a></li>
 </ul>
 </li>
 <li class="level1"><a href="#dow_sec">Downloads</a></li>
@@ -215,11 +216,12 @@ Functions</h2>
  <a class="el" href="d7/ded/a00196.php#a1ddd069f38e7407563a5d8e763d7dc90" title="Create a random string. ">mcd::randStr(size_t nb, unsigned short flags)</a></p>
 <h1><a class="anchor" id="upd_sec"></a>
 Updates</h1>
-<h2><a class="anchor" id="upd_sec_20190416_subsec"></a>
+<h2><a class="anchor" id="upd_sec_20190906_subsec"></a>
 September, 06 2019</h2>
-<p>Correction of some bugs. Added to <a href="https://github.com/mcabioch/CppLib" class="el" target="_blank">GitHub</a>. </p>
+<p>Correction of some bugs.<br />
+ Added to <a href="https://github.com/mcabioch/CppLib" class="el" target="_blank">GitHub</a>. </p>
 <h2><a class="anchor" id="upd_sec_20190416_subsec"></a>
-September, 06 2019</h2>
+April, 16 2019</h2>
 <p>Creation of the <a class="el" href="d7/ded/a00196.php">mcd</a> namespace.</p>
 <h1><a class="anchor" id="dow_sec"></a>
 Downloads</h1>
