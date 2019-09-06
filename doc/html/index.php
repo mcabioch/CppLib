@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 6 2019 16:09:07 for C++ by";
+				$text = "Generated on Fri Sep 6 2019 16:15:09 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -108,9 +108,10 @@ $(document).ready(function(){initNavTree('index.php','');});
 <li class="level2"><a href="#imp_sec_fun_subsec">Functions</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#upd_sec">Updates</a><ul><li class="level2"><a href="#upd_sec_20190416_subsec">April, 16 2019</a></li>
+<li class="level1"><a href="#upd_sec">Updates</a><ul><li class="level2"><a href="#upd_sec_20190416_subsec">September, 06 2019</a></li>
 </ul>
 </li>
+<li class="level1"><a href="#dow_sec">Downloads</a></li>
 </ul>
 </div>
 <div class="textblock"><dl class="section date"><dt>Date</dt><dd>Created : February 2017 </dd>
@@ -215,8 +216,14 @@ Functions</h2>
 <h1><a class="anchor" id="upd_sec"></a>
 Updates</h1>
 <h2><a class="anchor" id="upd_sec_20190416_subsec"></a>
-April, 16 2019</h2>
-<p>Creation of the <a class="el" href="d7/ded/a00196.php">mcd</a> namespace. </p>
+September, 06 2019</h2>
+<p>Correction of some bugs. Added to <a href="https://github.com/mcabioch/CppLib" class="el" target="_blank">GitHub</a>. </p>
+<h2><a class="anchor" id="upd_sec_20190416_subsec"></a>
+September, 06 2019</h2>
+<p>Creation of the <a class="el" href="d7/ded/a00196.php">mcd</a> namespace.</p>
+<h1><a class="anchor" id="dow_sec"></a>
+Downloads</h1>
+<p><a href="https://github.com/mcabioch/CppLib" class="el" target="_blank">GitHub</a> link. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

@@ -17,8 +17,9 @@ var NAVTREE =
         [ "Functions", "index.php#imp_sec_fun_subsec", null ]
       ] ],
       [ "Updates", "index.php#upd_sec", [
-        [ "April, 16 2019", "index.php#upd_sec_20190416_subsec", null ]
-      ] ]
+        [ "September, 06 2019", "index.php#upd_sec_20190416_subsec", null ]
+      ] ],
+      [ "Downloads", "index.php#dow_sec", null ]
     ] ],
     [ "Todo List", "dc/d57/a00194.php", null ],
     [ "Namespaces", null, [
