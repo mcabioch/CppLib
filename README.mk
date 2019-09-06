@@ -1,2 +1,0 @@
-The documentation is on [matcab.fr/docs](https://matcab.fr/docs/CPP-doc).
-[GitHub](http://github.com)
