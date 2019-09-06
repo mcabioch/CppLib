@@ -1,5 +1,5 @@
 My own C++ features
-=================
+===================
 
 \created	February 2017
 \date		Last modification on \htmlonly<?php echo $lastModif; ?>\endhtmlonly
@@ -11,7 +11,8 @@ My own C++ features
 \tableofcontents
 
 \section		int_sec			Introduction
-	This is y own C++ library using C++14.
+	This is my own C++ library using C++14.
+	All of the features are in the mcd::namespace.
 
 \section		con_sec			Content
 	\subsection	con_sec_obj_subsec		Objects
