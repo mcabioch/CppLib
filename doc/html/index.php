@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Sep 1 2019 17:28:12 for C++ by";
+				$text = "Generated on Fri Sep 6 2019 16:09:07 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -121,7 +121,7 @@ Last modification on <?php echo $lastModif; ?> </dd></dl>
 </dd></dl>
 <h1><a class="anchor" id="int_sec"></a>
 Introduction</h1>
-<p>This is y own C++ library using C++14.</p>
+<p>This is my own C++ library using C++14. All of the features are in the mcd::namespace.</p>
 <h1><a class="anchor" id="con_sec"></a>
 Content</h1>
 <h2><a class="anchor" id="con_sec_obj_subsec"></a>
