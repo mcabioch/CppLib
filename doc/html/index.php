@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 6 2019 16:18:01 for C++ by";
+				$text = "Generated on Fri Sep 6 2019 16:21:37 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -225,7 +225,7 @@ April, 16 2019</h2>
 <p>Creation of the <a class="el" href="d7/ded/a00196.php">mcd</a> namespace.</p>
 <h1><a class="anchor" id="dow_sec"></a>
 Downloads</h1>
-<p><a href="https://github.com/mcabioch/CppLib" class="el" target="_blank">GitHub</a> link. </p>
+<p>The <a href="https://github.com/mcabioch/CppLib" class="el" target="_blank">GitHub</a> link. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

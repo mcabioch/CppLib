@@ -89,4 +89,4 @@ My own C++ features
 		Creation of the \ref mcd namespace.
 
 \section		dow_sec			Downloads
-	<a class="el" href="https://github.com/mcabioch/CppLib" target="_blank">GitHub</a> link.
+	The <a class="el" href="https://github.com/mcabioch/CppLib" target="_blank">GitHub</a> link.
