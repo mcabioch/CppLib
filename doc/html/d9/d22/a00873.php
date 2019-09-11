@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 6 2019 18:14:51 for C++ by";
+				$text = "Generated on Tue Sep 10 2019 19:02:52 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -780,8 +780,6 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d22/a00873_a9c5a7acde997e12d99e717f182c5ced7_cgraph.png" border="0" usemap="#d9/d22/a00873_a9c5a7acde997e12d99e717f182c5ced7_cgraph" alt=""/></div>
-<map name="d9/d22/a00873_a9c5a7acde997e12d99e717f182c5ced7_cgraph" id="d9/d22/a00873_a9c5a7acde997e12d99e717f182c5ced7_cgraph">
-</map>
 </div>
 
 </div>

@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Class Members</title>
+		<title>C++: C++ Directory Reference</title>
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('functions_h.php','');});
+$(document).ready(function(){initNavTree('dir_2916f9fbcacdf2e5f0583aa159c707b6.php','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -88,58 +88,24 @@ $(document).ready(function(){initNavTree('functions_h.php','');});
 </iframe>
 </div>
 
+<div class="header">
+  <div class="headertitle">
+<div class="title">C++ Directory Reference</div>  </div>
+</div><!--header-->
 <div class="contents">
-<div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
-
-<h3><a id="index_h"></a>- h -</h3><ul>
-<li>h
-: <a class="el" href="d7/ded/a00196.php#aed95108125aaaa616352928dcf421b1e">mcd::ContraptionAttr</a>
-, <a class="el" href="db/d18/a00885.php#a53cfb8aef4749f35c4714b3ba88e5a4c">mcd::SHA2</a>
-, <a class="el" href="d7/ded/a00196.php#abe35d460277b28d79aa0261fd58b89da">mcd::WorldDimensions</a>
-</li>
-<li>has_istream_operator()
-: <a class="el" href="d6/d8b/a00821.php#a6343682f15ad178aa8883b61094b7d2a">mcd::Check::has_istream_operator&lt; T &gt;</a>
-</li>
-<li>has_ostream_operator()
-: <a class="el" href="de/d9d/a00813.php#a62ae1424b1e158747fdc66486da0f519">mcd::Check::has_ostream_operator&lt; T &gt;</a>
-</li>
-<li>has_size_method()
-: <a class="el" href="dd/d7e/a00809.php#a7d782a43bfd471bf7a32ac0dfafe1041">mcd::Check::has_size_method&lt; T &gt;</a>
-</li>
-<li>hasNext()
-: <a class="el" href="d5/da3/a00953.php#afd0df5fe1e5540b30d54718372191686">mcd::Path</a>
-</li>
-<li>hasToStop()
-: <a class="el" href="d7/ded/a01009.php#a804393d97a319c38afa593072bd0ead9">mcd::Threadable&lt; C &gt;</a>
-</li>
-<li>headers()
-: <a class="el" href="d3/db2/a00869.php#a1878d602fe475fb47a2aca063e7cb9d6">mcd::ConsoleTable</a>
-</li>
-<li>height()
-: <a class="el" href="db/d23/a01025.php#a069d03de16fc9d3db25d7ec67ed6811b">mcd::Tree&lt; T &gt;</a>
-</li>
-<li>hit()
-: <a class="el" href="de/dc3/a00909.php#a8022eec71c62bbc06651cf7607d3824a">mcd::Entity</a>
-</li>
-<li>home()
-: <a class="el" href="d0/d82/a00857.php#a75615abf8f124c460b9b163868c89b7e">mcd::ConsoleCursor</a>
-</li>
-<li>Hostile()
-: <a class="el" href="d9/dfb/a00913.php#a08a1386aff1a9289823113ef90c14927">mcd::Hostile</a>
-</li>
-<li>hour()
-: <a class="el" href="d7/d59/a01013.php#afc42ec7546725501d6cd8eb069e92a52">mcd::Time</a>
-</li>
-<li>hurt()
-: <a class="el" href="d9/dfb/a00913.php#afbaa53140e5e1bf40606e4ff3d4a947d">mcd::Hostile</a>
-</li>
-</ul>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="subdirs"></a>
+Directories</h2></td></tr>
+<tr class="memitem:dir_e5f6fd24547953d942a0a0f82724438a"><td class="memItemLeft" align="right" valign="top">directory &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_e5f6fd24547953d942a0a0f82724438a.php">inc</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="dir_2916f9fbcacdf2e5f0583aa159c707b6.php">C++</a></li>
 		<li class="footer">
 			<?php
 				echo $text;
