@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 12 2019 17:17:41 for C++ by";
+				$text = "Generated on Fri Sep 13 2019 18:57:53 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -3279,7 +3279,8 @@ template&lt;typename V , typename U &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The value to compute </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The value to compute</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The max value of the modulo </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">positive</td><td>If set to <em>true</em>, the result will be between 0 and <em>b</em> </td></tr>
   </table>
   </dd>
 </dl>

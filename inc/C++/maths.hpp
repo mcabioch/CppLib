@@ -49,8 +49,9 @@ namespace mcd {
 
 	/*!
 	* \brief	Return the modulo of two numbers
-	*		\param[in]		a		The value to compute
-	*		\param[in]		b		The value to compute
+	*		\param[in]		a				The value to compute
+	*		\param[in]		b				The max value of the modulo
+	*		\param[in]		positive		If set to \a true, the result will be between 0 and \a b
 	*
 	*		\return			Return the result of the modulo
 	*/
