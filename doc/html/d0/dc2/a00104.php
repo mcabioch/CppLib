@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 10 2019 19:02:52 for C++ by";
+				$text = "Generated on Thu Sep 12 2019 17:17:41 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -189,10 +189,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a0598b7abd7e7441f6553f1b486053945"><td class="memTemplItemLeft" align="right" valign="top">V&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#a0598b7abd7e7441f6553f1b486053945">mcd::decimalPart</a> (V a)</td></tr>
 <tr class="memdesc:a0598b7abd7e7441f6553f1b486053945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the decimal part of the given number.  <a href="../../d7/ded/a00196.php#a0598b7abd7e7441f6553f1b486053945">More...</a><br /></td></tr>
 <tr class="separator:a0598b7abd7e7441f6553f1b486053945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfe3028b29e2d1391ce179a858ac2505"><td class="memTemplParams" colspan="2">template&lt;typename V , typename U &gt; </td></tr>
-<tr class="memitem:adfe3028b29e2d1391ce179a858ac2505"><td class="memTemplItemLeft" align="right" valign="top">V&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#adfe3028b29e2d1391ce179a858ac2505">mcd::mod</a> (V a, U b)</td></tr>
-<tr class="memdesc:adfe3028b29e2d1391ce179a858ac2505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the modulo of two numbers.  <a href="../../d7/ded/a00196.php#adfe3028b29e2d1391ce179a858ac2505">More...</a><br /></td></tr>
-<tr class="separator:adfe3028b29e2d1391ce179a858ac2505"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af44c5ff8cc0a054f720ed177e7e44265"><td class="memTemplParams" colspan="2">template&lt;typename V , typename U &gt; </td></tr>
+<tr class="memitem:af44c5ff8cc0a054f720ed177e7e44265"><td class="memTemplItemLeft" align="right" valign="top">V&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#af44c5ff8cc0a054f720ed177e7e44265">mcd::mod</a> (V a, U b, bool positive=false)</td></tr>
+<tr class="memdesc:af44c5ff8cc0a054f720ed177e7e44265"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the modulo of two numbers.  <a href="../../d7/ded/a00196.php#af44c5ff8cc0a054f720ed177e7e44265">More...</a><br /></td></tr>
+<tr class="separator:af44c5ff8cc0a054f720ed177e7e44265"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f3f4e24615446479ff59ce15ce61cde"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
 <tr class="memitem:a0f3f4e24615446479ff59ce15ce61cde"><td class="memTemplItemLeft" align="right" valign="top">V&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#a0f3f4e24615446479ff59ce15ce61cde">mcd::pgcd</a> (V a, V b)</td></tr>
 <tr class="memdesc:a0f3f4e24615446479ff59ce15ce61cde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the result of the pgcd.  <a href="../../d7/ded/a00196.php#a0f3f4e24615446479ff59ce15ce61cde">More...</a><br /></td></tr>
@@ -246,14 +246,14 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : August, 14 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Last modification : September, 12 2018 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_2916f9fbcacdf2e5f0583aa159c707b6.php">C++</a></li><li class="navelem"><a class="el" href="../../dir_e5f6fd24547953d942a0a0f82724438a.php">inc</a></li><li class="navelem"><a class="el" href="../../dir_7cc6fd68714449ef7dd32dbd84633489.php">C++</a></li><li class="navelem"><a class="el" href="../../d0/dc2/a00104.php">maths.hpp</a></li>
+		<li class="navelem"><a class="el" href="../../dir_bfccd401955b95cf8c75461437045ac0.php">inc</a></li><li class="navelem"><a class="el" href="../../dir_2ce2ad1ea5ded593884489da6d66e532.php">C++</a></li><li class="navelem"><a class="el" href="../../d0/dc2/a00104.php">maths.hpp</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -13,7 +13,7 @@ var a00104 =
     [ "luhn", "d0/dc2/a00104.php#a176933d706495ddff7385a68319e7169", null ],
     [ "max", "d0/dc2/a00104.php#a50e5370a188b7230c0dce47cc746f533", null ],
     [ "min", "d0/dc2/a00104.php#abc683613235e8674b000071c25747728", null ],
-    [ "mod", "d0/dc2/a00104.php#adfe3028b29e2d1391ce179a858ac2505", null ],
+    [ "mod", "d0/dc2/a00104.php#af44c5ff8cc0a054f720ed177e7e44265", null ],
     [ "pgcd", "d0/dc2/a00104.php#a0f3f4e24615446479ff59ce15ce61cde", null ],
     [ "round", "d0/dc2/a00104.php#a7e1c88cc52e517f309354a546e78f403", null ],
     [ "sigmoide", "d0/dc2/a00104.php#a2d67b0e24c6216a693a903f5bc8c31a0", null ],

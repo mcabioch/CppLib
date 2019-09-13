@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 10 2019 19:02:52 for C++ by";
+				$text = "Generated on Thu Sep 12 2019 17:17:41 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -635,10 +635,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a0598b7abd7e7441f6553f1b486053945"><td class="memTemplItemLeft" align="right" valign="top">V&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#a0598b7abd7e7441f6553f1b486053945">decimalPart</a> (V a)</td></tr>
 <tr class="memdesc:a0598b7abd7e7441f6553f1b486053945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the decimal part of the given number.  <a href="#a0598b7abd7e7441f6553f1b486053945">More...</a><br /></td></tr>
 <tr class="separator:a0598b7abd7e7441f6553f1b486053945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfe3028b29e2d1391ce179a858ac2505"><td class="memTemplParams" colspan="2">template&lt;typename V , typename U &gt; </td></tr>
-<tr class="memitem:adfe3028b29e2d1391ce179a858ac2505"><td class="memTemplItemLeft" align="right" valign="top">V&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#adfe3028b29e2d1391ce179a858ac2505">mod</a> (V a, U b)</td></tr>
-<tr class="memdesc:adfe3028b29e2d1391ce179a858ac2505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the modulo of two numbers.  <a href="#adfe3028b29e2d1391ce179a858ac2505">More...</a><br /></td></tr>
-<tr class="separator:adfe3028b29e2d1391ce179a858ac2505"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af44c5ff8cc0a054f720ed177e7e44265"><td class="memTemplParams" colspan="2">template&lt;typename V , typename U &gt; </td></tr>
+<tr class="memitem:af44c5ff8cc0a054f720ed177e7e44265"><td class="memTemplItemLeft" align="right" valign="top">V&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#af44c5ff8cc0a054f720ed177e7e44265">mod</a> (V a, U b, bool positive=false)</td></tr>
+<tr class="memdesc:af44c5ff8cc0a054f720ed177e7e44265"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the modulo of two numbers.  <a href="#af44c5ff8cc0a054f720ed177e7e44265">More...</a><br /></td></tr>
+<tr class="separator:af44c5ff8cc0a054f720ed177e7e44265"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f3f4e24615446479ff59ce15ce61cde"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
 <tr class="memitem:a0f3f4e24615446479ff59ce15ce61cde"><td class="memTemplItemLeft" align="right" valign="top">V&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/ded/a00196.php#a0f3f4e24615446479ff59ce15ce61cde">pgcd</a> (V a, V b)</td></tr>
 <tr class="memdesc:a0f3f4e24615446479ff59ce15ce61cde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the result of the pgcd.  <a href="#a0f3f4e24615446479ff59ce15ce61cde">More...</a><br /></td></tr>
@@ -3241,8 +3241,8 @@ template&lt;typename T , typename V , typename U  = typename std::conditional&lt
 
 </div>
 </div>
-<a id="adfe3028b29e2d1391ce179a858ac2505"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfe3028b29e2d1391ce179a858ac2505">&#9670;&nbsp;</a></span>mod()</h2>
+<a id="af44c5ff8cc0a054f720ed177e7e44265"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af44c5ff8cc0a054f720ed177e7e44265">&#9670;&nbsp;</a></span>mod()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3259,7 +3259,13 @@ template&lt;typename V , typename U &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">U&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>positive</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3281,8 +3287,8 @@ template&lt;typename V , typename U &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/ded/a00196_adfe3028b29e2d1391ce179a858ac2505_cgraph.png" border="0" usemap="#d7/ded/a00196_adfe3028b29e2d1391ce179a858ac2505_cgraph" alt=""/></div>
-<map name="d7/ded/a00196_adfe3028b29e2d1391ce179a858ac2505_cgraph" id="d7/ded/a00196_adfe3028b29e2d1391ce179a858ac2505_cgraph">
+<div class="center"><img src="../../d7/ded/a00196_af44c5ff8cc0a054f720ed177e7e44265_cgraph.png" border="0" usemap="#d7/ded/a00196_af44c5ff8cc0a054f720ed177e7e44265_cgraph" alt=""/></div>
+<map name="d7/ded/a00196_af44c5ff8cc0a054f720ed177e7e44265_cgraph" id="d7/ded/a00196_af44c5ff8cc0a054f720ed177e7e44265_cgraph">
 <area shape="rect" id="node2" href="../../d7/ded/a00196.php#a0598b7abd7e7441f6553f1b486053945" title="Return the decimal part of the given number. " alt="" coords="133,5,257,32"/>
 <area shape="rect" id="node3" href="../../d7/ded/a00196.php#af9443ebf71fe196006831fe344a09f13" title="Return the whole part of the given number. " alt="" coords="305,5,419,32"/>
 </map>
@@ -4701,7 +4707,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/ded/a00196_a0f3f4e24615446479ff59ce15ce61cde_cgraph.png" border="0" usemap="#d7/ded/a00196_a0f3f4e24615446479ff59ce15ce61cde_cgraph" alt=""/></div>
 <map name="d7/ded/a00196_a0f3f4e24615446479ff59ce15ce61cde_cgraph" id="d7/ded/a00196_a0f3f4e24615446479ff59ce15ce61cde_cgraph">
-<area shape="rect" id="node2" href="../../d7/ded/a00196.php#adfe3028b29e2d1391ce179a858ac2505" title="Return the modulo of two numbers. " alt="" coords="136,5,216,32"/>
+<area shape="rect" id="node2" href="../../d7/ded/a00196.php#af44c5ff8cc0a054f720ed177e7e44265" title="Return the modulo of two numbers. " alt="" coords="136,5,216,32"/>
 <area shape="rect" id="node3" href="../../d7/ded/a00196.php#a0598b7abd7e7441f6553f1b486053945" title="Return the decimal part of the given number. " alt="" coords="264,5,388,32"/>
 <area shape="rect" id="node4" href="../../d7/ded/a00196.php#af9443ebf71fe196006831fe344a09f13" title="Return the whole part of the given number. " alt="" coords="436,5,549,32"/>
 </map>
@@ -4788,7 +4794,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="../../d7/ded/a00196_ad6ca3061a339d883c257105bd831efd1_cgraph.png" border="0" usemap="#d7/ded/a00196_ad6ca3061a339d883c257105bd831efd1_cgraph" alt=""/></div>
 <map name="d7/ded/a00196_ad6ca3061a339d883c257105bd831efd1_cgraph" id="d7/ded/a00196_ad6ca3061a339d883c257105bd831efd1_cgraph">
 <area shape="rect" id="node2" href="../../d7/ded/a00196.php#a0f3f4e24615446479ff59ce15ce61cde" title="Return the result of the pgcd. " alt="" coords="140,5,223,32"/>
-<area shape="rect" id="node3" href="../../d7/ded/a00196.php#adfe3028b29e2d1391ce179a858ac2505" title="Return the modulo of two numbers. " alt="" coords="271,5,351,32"/>
+<area shape="rect" id="node3" href="../../d7/ded/a00196.php#af44c5ff8cc0a054f720ed177e7e44265" title="Return the modulo of two numbers. " alt="" coords="271,5,351,32"/>
 <area shape="rect" id="node4" href="../../d7/ded/a00196.php#a0598b7abd7e7441f6553f1b486053945" title="Return the decimal part of the given number. " alt="" coords="399,5,523,32"/>
 <area shape="rect" id="node5" href="../../d7/ded/a00196.php#af9443ebf71fe196006831fe344a09f13" title="Return the whole part of the given number. " alt="" coords="571,5,684,32"/>
 </map>

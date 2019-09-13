@@ -2,7 +2,7 @@
 *
 *	\file		maths.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	August, 14 2018
+*	\modified	September, 12 2018
 *
 */
 #ifndef HEADER_CPP_MATHS
@@ -54,7 +54,7 @@ namespace mcd {
 	*
 	*		\return			Return the result of the modulo
 	*/
-	template<typename V, typename U> V mod(V a, U b){
+	template<typename V, typename U> V mod(V a, U b, bool positive = false){
 		double64_t factA;
 		double64_t factB;
 
@@ -63,6 +63,9 @@ namespace mcd {
 
 		V out = static_cast<V>(static_cast<long long int>(a*factA) % static_cast<long long int>(b*factB)) / static_cast<V>(factA*factB);
 		//out = static_cast<V>(static_cast<long long int>(a) % static_cast<long long int>(b));
+		if(positive && out < 0){
+			out += static_cast<V>(b);
+		}
 
 		return out;
 	}
