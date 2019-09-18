@@ -10,24 +10,24 @@ ARCHIVE = tar
 libCreate = $(TEMPDIR)/libCreate
 
 ifeq ($(TARGET),rpi1)
-	CXX = arm-linux-gnueabihf-g++
-	CC = arm-linux-gnueabihf-gcc
+	CXX = arm-linux-gnueabihf-
+	CC = arm-linux-gnueabihf-
 else ifeq ($(TARGET),rpi2)
-	CXX = arm-linux-gnueabihf-g++
-	CC = arm-linux-gnueabihf-gcc
+	CXX = arm-linux-gnueabihf-
+	CC = arm-linux-gnueabihf-
 else ifeq ($(TARGET),rpi3)
-	CXX = arm-linux-gnueabihf-g++
-	CC = arm-linux-gnueabihf-gcc
+	CXX = arm-linux-gnueabihf-
+	CC = arm-linux-gnueabihf-
 else ifeq ($(TARGET),beaglebb)
-	CXX = arm-linux-gnueabihf-g++
-	CC = arm-linux-gnueabihf-gcc
+	CXX = arm-linux-gnueabihf-
+	CC = arm-linux-gnueabihf-
 else ifeq ($(TARGET),win)
-	CXX = x86_64-w64-mingw32-g++
-	CC = x86_64-w64-mingw32-gcc
-else
-	CXX = g++
-	CC = gcc
+	CXX = x86_64-w64-mingw32-
+	CC = x86_64-w64-mingw32-
 endif
+
+CXX +=g++
+CC +=gcc
 
 #
 #	OS
@@ -63,21 +63,15 @@ CXXINC := $(wildcard $(INCDIR)/*.hpp)
 OBJ := $(addprefix $(OBJDIR)/, $(addsuffix .o, $(NAME)))
 DOC := $(wildcard doc/*.doxyfile)
 
-ifeq ($(TARGET),rpi1)
-	LIB := $(wildcard $(LIBDIR)/*-$(TARGET).a)
-else ifeq ($(TARGET),rpi2)
-	LIB := $(wildcard $(LIBDIR)/*-$(TARGET).a)
-else ifeq ($(TARGET),rpi3)
-	LIB := $(wildcard $(LIBDIR)/*-$(TARGET).a)
-else ifeq ($(TARGET),beaglebb)
-	LIB := $(wildcard $(LIBDIR)/*-$(TARGET).a)
-else ifeq ($(TARGET),win)
+ifneq ($(TARGET),)
 	LIB := $(wildcard $(LIBDIR)/*-$(TARGET).a)
 else
 	LIB := $(filter-out $(wildcard $(LIBDIR)/*-*.a), $(wildcard $(LIBDIR)/*.a))
 endif
 
 LIBS := $(addprefix -l, $(subst lib, , $(subst .a, , $(LIB))))
+
+ISSFML = $(basename $(notdir $(wildcard $(LIBDIR)/SFML.a)))
 
 #
 #	Output software name
@@ -126,8 +120,10 @@ endif
 #
 UNKNOWNLIBS = -Wl,--no-as-needed
 
-OPENGLLIBS =# -lGL -lGLU
-SFMLLIBS = -L/usr/local/lib -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lsfml-network-s -lsfml-audio-s $(OPENGLLIBS)
+ifeq ($(ISSFML),SFML)
+	OPENGLLIBS =# -lGL -lGLU
+	SFMLLIBS = -L/usr/local/lib -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lsfml-network-s -lsfml-audio-s $(OPENGLLIBS)
+endif
 
 BDDLIBS =# -lmysqlcppconn-static
 PTHREADLIBS = -pthread -lpthread
@@ -136,6 +132,8 @@ CXXLIBS = -lm $(PTHREADLIBS) -static
 ifeq ($(TARGET),win)
 	CXXLIBS += -static-libstdc++
 endif
+
+QTLIBS = $(LIB) $(BDDLIBS) -lm $(PTHREADLIBS)
 
 LDFLAGS = $(LIB) $(SFMLLIBS) $(BDDLIBS) $(CXXLIBS)# -lOpenCL
 
@@ -155,7 +153,7 @@ else ifeq ($(TARGET),beaglebb)
 	EXTENSION = -beaglebb
 	NETTARGET = `cat config | grep -i "$(TARGET)" | cut --delimiter='|' -f 2`
 else ifeq ($(TARGET),win)
-	EXTENSION = -win
+	EXTENSION = -win.exe
 endif
 
 ifeq ($(DETECTED_OS), Windows)
@@ -210,8 +208,7 @@ SFMLRESIN = ~/Bureau/Algo/SFMLWidgetsTests/SFML/res/*
 SFMLRESOUT = $(RESDIR)/
 
 QTIN = ~/Bureau/Algo/QTTests/Widgets
-QTOUT = ./Widgets
-QTLIBS = $(LIB) $(BDDLIBS) $(CXXLIBS)
+QTOUT = ./inc/Widgets
 
 PROJECTFILE = $(wildcard *.pro)
 
@@ -223,6 +220,8 @@ LIBCPPOUT = $(addprefix $(LIBDIR)/, $(notdir $(LIBCPPIN)))
 
 LIBSFMLIN = $(wildcard ~/Bureau/Algo/SFMLWidgetsTests/SFML/lib/*.a)
 LIBSFMLOUT = $(addprefix $(LIBDIR)/, $(notdir $(LIBSFMLIN)))
+
+ARCHNAME = $(EXE)
 
 #
 #	Rules
@@ -260,8 +259,10 @@ createDirs:
 	mkdir -p $(OBJDIR)
 	mkdir -p $(SQLDIR)
 	mkdir -p $(SRCDIR)
+#
 	mkdir -p $(RESDIR)
 	mkdir -p $(RESDIR)/imgs
+#
 	make doxyfile
 
 create: createDirs
@@ -269,18 +270,21 @@ create: createDirs
 	cp "$(TEMPDIR)/CPP$(FUNCTFILEC)" "$(SRCDIR)/$(FUNCTFILEC)"
 	cp "$(TEMPDIR)/CPP$(FUNCTFILEH)" "$(INCDIR)/$(FUNCTFILEH)"
 	cp "$(TEMPDIR)/CPP$(CONFIG)" "$(CONFIG)"
+#
 	make libcpp
 
 createC: createDirs
 	cp "$(TEMPDIR)/C$(CMAINFILE)" "$(SRCDIR)/$(CMAINFILE)"
 	cp "$(TEMPDIR)/C$(CFUNCTFILEC)" "$(SRCDIR)/$(CFUNCTFILEC)"
 	cp "$(TEMPDIR)/C$(CFUNCTFILEH)" "$(INCDIR)/$(CFUNCTFILEH)"
+#
 	make libc
 
 createSFML: createDirs
 	cp "$(TEMPDIR)/SFML$(MAINFILE)" "$(SRCDIR)/$(MAINFILE)"
 	cp "$(TEMPDIR)/SFML$(FUNCTFILEC)" "$(SRCDIR)/$(FUNCTFILEC)"
 	cp "$(TEMPDIR)/SFML$(FUNCTFILEH)" "$(INCDIR)/$(FUNCTFILEH)"
+#
 	make libsfml
 	make addWindowSfml NAME_NEW_FILE="MainWindow"
 
@@ -288,6 +292,7 @@ createSFMLOPENGL: createDirs
 	cp "$(TEMPDIR)/OPENGL$(MAINFILE)" "$(SRCDIR)/$(MAINFILE)"
 	cp "$(TEMPDIR)/OPENGL$(FUNCTFILEC)" "$(SRCDIR)/$(FUNCTFILEC)"
 	cp "$(TEMPDIR)/OPENGL$(FUNCTFILEH)" "$(INCDIR)/$(FUNCTFILEH)"
+#
 	make libsfml
 	make addWindowOpenGL NAME_NEW_FILE="MainWindow"
 
@@ -295,16 +300,20 @@ PHONY += clean mrproper remove
 
 clean:
 	$(RM) $(RMFLAGS) $(OBJDIR)/*
+#
 	$(RM) $(RMFLAGS) autoscan.log
 	$(RM) $(RMFLAGS) config.in
 	$(RM) $(RMFLAGS) configure
 	$(RM) $(RMFLAGS) configure.ac
 	$(RM) $(RMFLAGS) autom4te.cache
+#
+	$(RM) $(RMFLAGS) $(ARCHNAME)
+	$(RM) $(RMFLAGS) $(EXE).tar
 
 mrproper: clean
 	$(RM) $(RMFLAGS) ./$(BINDIR)/*
 
-remove:
+remove: clean
 	$(RM) $(RMFLAGS) $(BINDIR)
 	$(RM) $(RMFLAGS) $(DOCDIR)
 	$(RM) $(RMFLAGS) $(INCDIR)
@@ -313,19 +322,14 @@ remove:
 	$(RM) $(RMFLAGS) $(SQLDIR)
 	$(RM) $(RMFLAGS) $(SRCDIR)
 	$(RM) $(RMFLAGS) $(RESDIR)
+#
 	$(RM) $(RMFLAGS) $(DOXYLN)
 	$(RM) $(RMFLAGS) $(HTMLLN)
-	$(RM) $(RMFLAGS) $(EXE).tar
-	$(RM) $(RMFLAGS) autoscan.log
-	$(RM) $(RMFLAGS) config.in
-	$(RM) $(RMFLAGS) configure
-	$(RM) $(RMFLAGS) configure.ac
-	$(RM) $(RMFLAGS) autom4te.cache
 
 PHONY += run install remake lib libs
 
 run:
-	@./$(BINDIR)/$(EXE) res/makefile.mk res/makefile
+	@./$(BINDIR)/$(EXE)
 
 install: clean
 	make all
@@ -336,8 +340,8 @@ lib: clean $(OBJ)
 ifeq ($(DEBUG),yes)
 	make lib DEBUG=no
 else
-	make doc
 	$(AR) $(ARFLAGS) $(LIBDIR)/$(EXE).a $(OBJ)
+	make doc
 endif
 
 libs:
@@ -371,7 +375,9 @@ valgrind: all
 check:
 	make gdb
 	make valgrind
+#
 	read a
+#
 	make remake
 	make run
 
@@ -381,26 +387,32 @@ createQt: createDirs
 	cp "$(TEMPDIR)/QT$(MAINFILE)" "$(SRCDIR)/$(MAINFILE)"
 	cp "$(TEMPDIR)/QT$(MAINWINDOWC)" "$(SRCDIR)/$(MAINWINDOWC)"
 	cp "$(TEMPDIR)/QT$(MAINWINDOWH)" "$(INCDIR)/$(MAINWINDOWH)"
+#
 	make libqt
 
 libqt: libcpp
 	rm -rf $(BINDIR)
 	rm -rf $(OBJDIR)
+#
 	ln -sfn $(QTIN) $(QTOUT)
 
 qt:
 	qmake -project
 	echo "\nQT += gui core widgets" >> $(PROJECTFILE)
+#
 	qmake
 	echo "\nCXXFLAGS +=  -std=c++14 -Iinc" >> Makefile
+#
 	$(MAKE) -f Makefile all SUBLIBS="$(QTLIBS)"
 
-qtRemake: remake
+qtRemake: mrproper
 	rm -rf *.pro
 	rm -rf Makefile
 	rm -rf moc_*
 	rm -rf *.o
 	rm -rf $(EXE)
+#
+	make qt
 
 qtClean: clean
 	make -f Makefile clean
@@ -421,17 +433,14 @@ qtRun:
 PHONY += doxyfile doc
 
 doxyfile:
-	"$(TEMPDIR)/addDoxyfile" "$(TEMPDIR)"
-	ln -sf $(CURDIR)/$(DOCDIR)/$(DOXYFILE) $(DOXYLN)
-	mkdir -p $(DOCDIR)/html
-	ln -sfn $(CURDIR)/$(DOCDIR)/html $(HTMLLN)
+	"$(TEMPDIR)/addDoxyfile" "$(TEMPDIR)" "$(CURDIR)" "$(DOCDIR)" "$(DOXYFILE)" "$(DOXYLN)" "$(HTMLLN)"
 
 doc:
 ifneq (,$(wildcard $(DOCDIR)/$(DOXYFILE)))
 	doxygen $(DOCDIR)/$(DOXYFILE)
 endif
 
-PHONY += dist configure
+PHONY += dist configure export
 
 dist: remake
 	make configure
@@ -445,7 +454,17 @@ configure:
 	mv config.h.in config.in
 	autoconf
 
-PHONY += info move edit send
+export: mrproper doc
+	$(RM) $(RMFLAGS) $(ARCHNAME)
+#
+	mkdir -p $(ARCHNAME)
+	rsync -avrL --exclude="$(ARCHNAME)" ./ $(ARCHNAME)
+#
+	$(ARCHIVE) $(ARCHFLAGS) $(ARCHNAME).tar $(ARCHNAME)
+#
+	$(RM) $(RMFLAGS) $(ARCHNAME)
+
+PHONY += info move edit
 
 info: doc
 	$(INFO) $(INFOFLAGS) $(DOC)
@@ -512,4 +531,4 @@ ifdef NETTARGET
 endif
 
 .PHONY: $(PHONY) see
-#gdb valgrind check qt clean qtClean mrproper install qtInstall dist info run qtRun remake qtRemake lib edit create createSFML createSFMLOPENGL createQt createDirs createC addClassCpp addPathfindingCpp addExceptionCpp addClassSfml addWindowSfml addWindowOpenGL remove qtRemove libcpp libsfml libqt libc move doxyfile configure doc send
+
