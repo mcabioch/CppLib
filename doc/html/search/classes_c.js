@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['referenced',['Referenced',['../d0/d28/a00997.php',1,'mcd']]],
-  ['reinit',['Reinit',['../de/d37/a00849.php',1,'mcd']]],
-  ['rng',['RNG',['../df/d59/a01001.php',1,'mcd']]],
-  ['rsa',['RSA',['../dc/d2c/a00893.php',1,'mcd']]]
+  ['quatuor',['quatuor',['../d3/dd1/a00214.php#d0/d90/a01059',1,'mcd']]],
+  ['queue',['queue',['../dc/d0c/a00783.php',1,'mcd']]]
 ];

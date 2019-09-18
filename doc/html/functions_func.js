@@ -9,6 +9,7 @@ var functions_func =
     [ "g", "functions_func_g.php", null ],
     [ "h", "functions_func_h.php", null ],
     [ "i", "functions_func_i.php", null ],
+    [ "j", "functions_func_j.php", null ],
     [ "l", "functions_func_l.php", null ],
     [ "m", "functions_func_m.php", null ],
     [ "n", "functions_func_n.php", null ],

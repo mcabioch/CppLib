@@ -1,19 +1,27 @@
 var a00197 =
 [
-    [ "has_istream_operator", "d6/d8b/a00821.php", "d6/d8b/a00821" ],
-    [ "has_ostream_operator", "de/d9d/a00813.php", "de/d9d/a00813" ],
-    [ "has_size_method", "dd/d7e/a00809.php", "dd/d7e/a00809" ],
-    [ "is_array", "d2/d02/a00777.php", "d2/d02/a00777" ],
-    [ "is_duration", "d7/dff/a00805.php", "d7/dff/a00805" ],
-    [ "is_minded_ptr", "da/deb/a00985.php", "da/deb/a00985" ],
-    [ "is_object", "dc/d6e/a00833.php", "dc/d6e/a00833" ],
-    [ "is_pair", "d3/d00/a00785.php", "d3/d00/a00785" ],
-    [ "is_printable", "d1/dea/a00829.php", "d1/dea/a00829" ],
-    [ "is_quatuor", "d4/dd7/a00793.php", "d4/dd7/a00793" ],
-    [ "is_smatch", "d7/d0a/a00801.php", "d7/d0a/a00801" ],
-    [ "is_special_struct", "d1/de6/a00837.php", "d1/de6/a00837" ],
-    [ "is_string", "da/db8/a00797.php", "da/db8/a00797" ],
-    [ "is_thread_ptr", "d4/d95/a00989.php", "d4/d95/a00989" ],
-    [ "is_trio", "d8/d7d/a00789.php", "d8/d7d/a00789" ],
-    [ "is_vector", "d6/d86/a00781.php", "d6/d86/a00781" ]
+    [ "Node", "d3/dd1/a00214.php#db/dbb/a01047", [
+      [ "initialized", "d3/dd1/a00214.php#a4be9be6714e8c7fa10acc26a20d46193", null ],
+      [ "left", "d3/dd1/a00214.php#af4ea821acbfe4f8eb18a223a586c48c9", null ],
+      [ "right", "d3/dd1/a00214.php#aed7cc9cc3f81747b93f4e93dcd41db02", null ],
+      [ "values", "d3/dd1/a00214.php#a56cd61aea5d46ecf42aa3959086b7d96", null ],
+      [ "weight", "d3/dd1/a00214.php#ae9c3c7c184c194240178a2cf11f24566", null ]
+    ] ],
+    [ "Tree", "d3/d42/a01051.php", "d3/d42/a01051" ],
+    [ "NodeWeight", "de/db1/a00197.php#a0d3d39a7992ee9e893a83ab18066f79d", null ],
+    [ "TREE_DIRECTION", "de/db1/a00197.php#ae3ee27656d8eb6e8a09407841cd00898", [
+      [ "RIGHT", "de/db1/a00197.php#ae3ee27656d8eb6e8a09407841cd00898a13d6f38e0f10d479e85a13dcf6a8957f", null ],
+      [ "RIGHT", "de/db1/a00197.php#ae3ee27656d8eb6e8a09407841cd00898a21507b40c80068eda19865706fdc2403", null ],
+      [ "LEFT", "de/db1/a00197.php#ae3ee27656d8eb6e8a09407841cd00898a52aa7e4298499294d2e07e10c6af50a7", null ],
+      [ "LEFT", "de/db1/a00197.php#ae3ee27656d8eb6e8a09407841cd00898a684d325a7303f52e64011467ff5c5758", null ],
+      [ "NONE", "de/db1/a00197.php#ae3ee27656d8eb6e8a09407841cd00898a2d73725011f55395bc0e113263b5b874", null ],
+      [ "NONE", "de/db1/a00197.php#ae3ee27656d8eb6e8a09407841cd00898ab50339a10e1de285ac99d4c3990b8693", null ],
+      [ "NONE", "de/db1/a00197.php#ae3ee27656d8eb6e8a09407841cd00898ab50339a10e1de285ac99d4c3990b8693", null ]
+    ] ],
+    [ "TREE_SORT", "de/db1/a00197.php#a476a24d6aeedfa55efcaee6379946a75", [
+      [ "ASC", "de/db1/a00197.php#a476a24d6aeedfa55efcaee6379946a75a8f22891e42808a1ec2280811f4954151", null ],
+      [ "DESC", "de/db1/a00197.php#a476a24d6aeedfa55efcaee6379946a75acec043bd98e586f6d34ee5a4aefda509", null ]
+    ] ],
+    [ "treeAscSorter", "de/db1/a00197.php#aa17a2314efb86933584ae451318a17da", null ],
+    [ "treeDescSorter", "de/db1/a00197.php#a1865ef6e7eed9ac5fa5b177b3f8dd1e9", null ]
 ];

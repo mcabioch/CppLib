@@ -2,7 +2,7 @@
 *
 *	\file		maths.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	September, 12 2018
+*	\modified	September, 17 2019
 *
 */
 #ifndef HEADER_CPP_MATHS
@@ -56,14 +56,49 @@ namespace mcd {
 	*		\return			Return the result of the modulo
 	*/
 	template<typename V, typename U> V mod(V a, U b, bool positive = false){
-		double64_t factA;
-		double64_t factB;
+		V factA;
+		U factB;
 
 		for(factA = 1; decimalPart(a*factA) != 0; factA *= 10){}
 		for(factB = 1; decimalPart(b*factB) != 0; factB *= 10){}
 
-		V out = static_cast<V>(static_cast<long long int>(a*factA) % static_cast<long long int>(b*factB)) / static_cast<V>(factA*factB);
-		//out = static_cast<V>(static_cast<long long int>(a) % static_cast<long long int>(b));
+		V out = static_cast<V>(
+					static_cast<double>(static_cast<long long int>(a*factA) % static_cast<long long int>(b*factB))
+				) / static_cast<V>(factA*static_cast<V>(factB));
+
+		if(positive && out < 0){
+			out += static_cast<V>(b);
+		}
+
+		return out;
+	}
+
+	/*!
+	* \brief	Return the modular inverse of a number
+	*		\param[in]		a				The value to compute
+	*		\param[in]		b				The max value of the modulo
+	*		\param[in]		positive		If set to \a true, the result will be between 0 and \a b
+	*
+	*		\return			Return the result of the modulo
+	*/
+	template<typename V, typename U> V invmod(V a, U b, bool positive = false){
+		V out;
+
+		while(a < 0){
+			a += b;
+		}
+
+		for(V n = 0; n < b; ++n){
+			if((a * n) % b == 1){
+				out = n;
+				break;
+			} else if(n == (b - 1)){
+				throw std::string("Error invmod : the number is not prime with modulo !");
+			} else {
+				continue;
+			}
+		}
+
 		if(positive && out < 0){
 			out += static_cast<V>(b);
 		}
@@ -81,11 +116,27 @@ namespace mcd {
 	template<typename V> V pgcd(V a, V b){
 		V r(0);
 
+		if(a < 0){
+			a *= -1;
+		}
+		if(b < 0){
+			b *= -1;
+		}
+
+		if(a == 0 && b == 0){
+			return 0;
+		}
+		if(a == 0 || b == 0){
+			return 1;
+		}
+
 		if(a < b){
 			std::swap(a, b);
 		}
 
-		if(!(r = mod(a, b))){
+		r = mod(a, b);
+
+		if(r == 0){
 			return b;
 		} else {
 			return pgcd(b, r);

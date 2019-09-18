@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 13 2019 18:57:54 for C++ by";
+				$text = "Generated on Tue Sep 17 2019 17:17:10 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,10 +93,10 @@ $(document).ready(function(){initNavTree('functions_func_w.php','');});
 
 <h3><a id="index_w"></a>- w -</h3><ul>
 <li>weekDay()
-: <a class="el" href="de/d01/a00897.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
+: <a class="el" href="d2/d5e/a00915.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
 </li>
 <li>what()
-: <a class="el" href="d3/dcd/a00965.php#a92a9aea3e0fc189dc0c17a78ffa68bdf">mcd::PathfindingException</a>
+: <a class="el" href="df/d2f/a00991.php#a92a9aea3e0fc189dc0c17a78ffa68bdf">mcd::PathfindingException</a>
 </li>
 </ul>
 </div><!-- contents -->

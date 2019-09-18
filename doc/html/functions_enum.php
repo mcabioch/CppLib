@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 13 2019 18:57:54 for C++ by";
+				$text = "Generated on Tue Sep 17 2019 17:17:10 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('functions_enum.php','');});
 <div class="contents">
 &#160;<ul>
 <li>PathfindingErrorCode
-: <a class="el" href="d3/dcd/a00965.php#a699cc4df8cc94d467e7372072d230b58">mcd::PathfindingException</a>
+: <a class="el" href="df/d2f/a00991.php#a699cc4df8cc94d467e7372072d230b58">mcd::PathfindingException</a>
 </li>
 </ul>
 </div><!-- contents -->

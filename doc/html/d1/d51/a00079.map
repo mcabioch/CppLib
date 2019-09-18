@@ -1,12 +1,12 @@
 <map id="Entity.hpp" name="Entity.hpp">
-<area shape="rect" id="node2" href="$da/d2a/a00086.php" title="Hostile.hpp" alt="" coords="21,80,109,107"/>
-<area shape="rect" id="node9" href="$da/d15/a00188.php" title="Vegetal.hpp" alt="" coords="117,155,207,181"/>
+<area shape="rect" id="node2" href="$db/dab/a00089.php" title="Hostile.hpp" alt="" coords="21,80,109,107"/>
+<area shape="rect" id="node9" href="$d5/df1/a00206.php" title="Vegetal.hpp" alt="" coords="117,155,207,181"/>
 <area shape="rect" id="node3" href="$d7/d46/a00002.php" title="Animal.hpp" alt="" coords="5,155,92,181"/>
 <area shape="rect" id="node4" href="$dd/dad/a00005.php" title="Ant.hpp" alt="" coords="15,229,82,256"/>
 <area shape="rect" id="node5" href="$db/db6/a00074.php" title="Entities.hpp" alt="" coords="115,304,206,331"/>
-<area shape="rect" id="node6" href="$d5/db1/a00140.php" title="PlayerAbstraction.hpp" alt="" coords="85,379,236,405"/>
-<area shape="rect" id="node7" href="$d2/df5/a00137.php" title="Player.hpp" alt="" coords="119,453,203,480"/>
+<area shape="rect" id="node6" href="$d6/db8/a00158.php" title="PlayerAbstraction.hpp" alt="" coords="85,379,236,405"/>
+<area shape="rect" id="node7" href="$d3/df8/a00155.php" title="Player.hpp" alt="" coords="119,453,203,480"/>
 <area shape="rect" id="node8" href="$d8/d41/a00038.php" title="C++Entities.hpp" alt="" coords="102,528,219,555"/>
-<area shape="rect" id="node10" href="$df/d98/a00107.php" title="Mushroom.hpp" alt="" coords="107,229,215,256"/>
-<area shape="rect" id="node11" href="$de/d76/a00134.php" title="Plant.hpp" alt="" coords="239,229,317,256"/>
+<area shape="rect" id="node10" href="$dc/dfe/a00125.php" title="Mushroom.hpp" alt="" coords="107,229,215,256"/>
+<area shape="rect" id="node11" href="$d7/d9a/a00152.php" title="Plant.hpp" alt="" coords="239,229,317,256"/>
 </map>

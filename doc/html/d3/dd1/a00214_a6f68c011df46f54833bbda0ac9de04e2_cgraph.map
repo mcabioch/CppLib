@@ -1,0 +1,6 @@
+<map id="mcd::invmod" name="mcd::invmod">
+<area shape="rect" id="node2" href="$d3/dd1/a00214.php#a0f3f4e24615446479ff59ce15ce61cde" title="Return the result of the pgcd. " alt="" coords="151,5,233,32"/>
+<area shape="rect" id="node3" href="$d3/dd1/a00214.php#af44c5ff8cc0a054f720ed177e7e44265" title="Return the modulo of two numbers. " alt="" coords="281,5,361,32"/>
+<area shape="rect" id="node4" href="$d3/dd1/a00214.php#a0598b7abd7e7441f6553f1b486053945" title="Return the decimal part of the given number. " alt="" coords="409,5,533,32"/>
+<area shape="rect" id="node5" href="$d3/dd1/a00214.php#af9443ebf71fe196006831fe344a09f13" title="Return the whole part of the given number. " alt="" coords="581,5,695,32"/>
+</map>

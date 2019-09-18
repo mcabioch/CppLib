@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 13 2019 18:57:54 for C++ by";
+				$text = "Generated on Tue Sep 17 2019 17:17:10 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,16 +93,16 @@ $(document).ready(function(){initNavTree('functions_b.php','');});
 
 <h3><a id="index_b"></a>- b -</h3><ul>
 <li>Big()
-: <a class="el" href="d8/dba/a00773.php#a9bf22e73a5a3631f06200da9a86e926b">mcd::Big</a>
+: <a class="el" href="d4/d45/a00791.php#a9bf22e73a5a3631f06200da9a86e926b">mcd::Big</a>
 </li>
 <li>block
-: <a class="el" href="db/d18/a00885.php#aa50ce5e9d8271080d4dd30b9afe50e89">mcd::SHA2</a>
+: <a class="el" href="d4/d1c/a00903.php#aa50ce5e9d8271080d4dd30b9afe50e89">mcd::SHA2</a>
 </li>
 <li>BLOCK_SIZE
-: <a class="el" href="db/d18/a00885.php#ae41078716ddc513c6af9a825448cbabd">mcd::SHA2</a>
+: <a class="el" href="d4/d1c/a00903.php#ae41078716ddc513c6af9a825448cbabd">mcd::SHA2</a>
 </li>
 <li>bot()
-: <a class="el" href="d2/d41/a01037.php#a5742950964b2f239930071518ea83364">mcd::Point</a>
+: <a class="el" href="de/de6/a01063.php#a5742950964b2f239930071518ea83364">mcd::Point</a>
 </li>
 </ul>
 </div><!-- contents -->

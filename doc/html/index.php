@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 13 2019 18:57:54 for C++ by";
+				$text = "Generated on Tue Sep 17 2019 17:17:10 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -152,68 +152,68 @@ Tips and Advice</h2>
 </p>
 <h2><a class="anchor" id="imp_sec_obj_subsec"></a>
 Objects</h2>
-<p><a class="el" href="d8/dba/a00773.php">mcd::Big</a><br />
- <a class="el" href="d2/d41/a01037.php">mcd::Point</a><br />
+<p><a class="el" href="d4/d45/a00791.php">mcd::Big</a><br />
+ <a class="el" href="de/de6/a01063.php">mcd::Point</a><br />
  PathfindingDijkstra<br />
  Threadable<br />
- <a class="el" href="d7/ded/a00196.php#d0/daa/a01029">mcd::trio</a><br />
- <a class="el" href="d7/ded/a00196.php#d2/d57/a01033">mcd::quatuor</a><br />
- <a class="el" href="d3/d95/a00757.php">mcd::stack</a><br />
- <a class="el" href="dc/de2/a00765.php">mcd::queue</a><br />
+ <a class="el" href="d3/dd1/a00214.php#d2/d71/a01055">mcd::trio</a><br />
+ <a class="el" href="d3/dd1/a00214.php#d0/d90/a01059">mcd::quatuor</a><br />
+ <a class="el" href="dc/d5d/a00775.php">mcd::stack</a><br />
+ <a class="el" href="dc/d0c/a00783.php">mcd::queue</a><br />
 </p><ul>
-<li><a class="el" href="d9/d22/a00873.php">mcd::Contraption</a><ul>
-<li><a class="el" href="d1/db0/a00945.php">mcd::Object</a><ul>
-<li><a class="el" href="d7/d06/a01005.php">mcd::Stone</a></li>
+<li><a class="el" href="de/dfc/a00891.php">mcd::Contraption</a><ul>
+<li><a class="el" href="d0/d3c/a00971.php">mcd::Object</a><ul>
+<li><a class="el" href="d6/dcf/a01031.php">mcd::Stone</a></li>
 </ul>
 </li>
-<li><a class="el" href="de/dc3/a00909.php">mcd::Entity</a><ul>
-<li><a class="el" href="d1/d79/a00745.php">mcd::Animal</a><ul>
-<li><a class="el" href="d5/de8/a00749.php">mcd::Ant</a></li>
+<li><a class="el" href="dd/d98/a00927.php">mcd::Entity</a><ul>
+<li><a class="el" href="d3/de3/a00763.php">mcd::Animal</a><ul>
+<li><a class="el" href="d5/dae/a00767.php">mcd::Ant</a></li>
 </ul>
 </li>
-<li><a class="el" href="d1/d83/a01041.php">mcd::Vegetal</a><ul>
-<li><a class="el" href="d3/da5/a00973.php">mcd::Plant</a></li>
-<li><a class="el" href="de/db9/a00937.php">mcd::Mushroom</a></li>
+<li><a class="el" href="d2/d49/a01067.php">mcd::Vegetal</a><ul>
+<li><a class="el" href="de/de2/a00999.php">mcd::Plant</a></li>
+<li><a class="el" href="de/dad/a00963.php">mcd::Mushroom</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a class="el" href="d5/d6c/a00977.php">mcd::Player</a> </li>
+<li><a class="el" href="dc/d10/a01003.php">mcd::Player</a> </li>
 </ul>
 <h2><a class="anchor" id="imp_sec_var_subsec"></a>
 Variables</h2>
 <p>mcd::bdd<br />
- <a class="el" href="d7/ded/a00196.php#a08ac826a0e7f64dc1b04036ecec50ed1">mcd::rng</a><br />
- <a class="el" href="d7/ded/a00196.php#aa0ce198f34851e093bbc38dfd975e339">mcd::sha2</a> </p>
+ <a class="el" href="d3/dd1/a00214.php#a08ac826a0e7f64dc1b04036ecec50ed1">mcd::rng</a><br />
+ <a class="el" href="d3/dd1/a00214.php#aa0ce198f34851e093bbc38dfd975e339">mcd::sha2</a> </p>
 <h2><a class="anchor" id="imp_sec_def_subsec"></a>
 Structures &amp; Defines</h2>
-<p><a class="el" href="d7/ded/a00196.php#ae124ce77f8e386663ac11e2e35e6070a">mcd::Colors</a><br />
- <a class="el" href="d7/ded/a00196.php#a55fd359a467c1bfe9d2f72c227bb1706">mcd::Direction</a><br />
- <a class="el" href="d7/ded/a00196.php#a372ef82d72716aed789680d0a84c06d3">mcd::CaractSet</a><br />
- <a class="el" href="d7/ded/a00196.php#adda27badcbfcfc854854c6ab094cf34e">mcd::double64_t</a><br />
- <a class="el" href="d7/ded/a00196.php#a20cc1353da1673066a19b886e7e5c61e">mcd::vector_str</a><br />
- <a class="el" href="d7/ded/a00196.php#a38f7073118052c23b1e5051bbafacac3">mcd::map_str</a><br />
- <a class="el" href="d7/ded/a00196.php#aba609827ae566c40802bf828ab5a5a3c">mcd::pair_str</a><br />
- <a class="el" href="d7/ded/a00196.php#adc4a4720990996356b2c954e9d611e9b">mcd::trio_str</a><br />
- <a class="el" href="d7/ded/a00196.php#aaa50b5dcb5cb495757e7084494fd482d">mcd::quatuor_str</a><br />
+<p><a class="el" href="d3/dd1/a00214.php#ae124ce77f8e386663ac11e2e35e6070a">mcd::Colors</a><br />
+ <a class="el" href="d3/dd1/a00214.php#a55fd359a467c1bfe9d2f72c227bb1706">mcd::Direction</a><br />
+ <a class="el" href="d3/dd1/a00214.php#a372ef82d72716aed789680d0a84c06d3">mcd::CaractSet</a><br />
+ <a class="el" href="d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">mcd::double64_t</a><br />
+ <a class="el" href="d3/dd1/a00214.php#a20cc1353da1673066a19b886e7e5c61e">mcd::vector_str</a><br />
+ <a class="el" href="d3/dd1/a00214.php#a38f7073118052c23b1e5051bbafacac3">mcd::map_str</a><br />
+ <a class="el" href="d3/dd1/a00214.php#aba609827ae566c40802bf828ab5a5a3c">mcd::pair_str</a><br />
+ <a class="el" href="d3/dd1/a00214.php#adc4a4720990996356b2c954e9d611e9b">mcd::trio_str</a><br />
+ <a class="el" href="d3/dd1/a00214.php#aaa50b5dcb5cb495757e7084494fd482d">mcd::quatuor_str</a><br />
  <a class="el" href="d5/d16/a00029.php#aa7b6d263fd9b5d3381ca7e6af68a1ac9">BIG_E</a><br />
  <a class="el" href="d5/d16/a00029.php#abded7950b004fc558461964290e7573c">BIG_PI</a><br />
  <a class="el" href="da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">line_number</a><br />
- <a class="el" href="dc/de6/a00167.php#a09979566ade438911265d3e17ecc3abc">THREADABLE</a><br />
- <a class="el" href="dc/de6/a00167.php#a3a0fe346d6bb1356037b21f558e5c308">THREADABLE_LOCK</a> </p>
+ <a class="el" href="de/df3/a00185.php#a09979566ade438911265d3e17ecc3abc">THREADABLE</a><br />
+ <a class="el" href="de/df3/a00185.php#a3a0fe346d6bb1356037b21f558e5c308">THREADABLE_LOCK</a> </p>
 <h2><a class="anchor" id="imp_sec_fun_subsec"></a>
 Functions</h2>
-<p><a class="el" href="d7/ded/a00196.php#ae44c2e346da18a7424d97535fb654448" title="Return true if the file exists. ">mcd::fileExists(const std::string&amp; path)</a><br />
- <a class="el" href="d7/ded/a00196.php#a176933d706495ddff7385a68319e7169" title="Compute the checksum number. ">mcd::luhn(const std::string&amp; num)</a><br />
- <a class="el" href="d7/ded/a00196.php#a0003c12a7cc73a35e488f59ad14770bf" title="Sleep the thread during duration seconds. ">mcd::sleep(size_t duration)</a><br />
- <a class="el" href="d7/ded/a00196.php#a95b30a0f37ef4accc8c762eee75bcc12" title="Prints approximately everything. ">mcd::print_all(Something data, bool change)</a><br />
- <a class="el" href="d7/ded/a00196.php#a5046a9dfac4629babcb20cf7b914415e" title="Print the size of obj type. ">printSize&lt;Type&gt;()</a><br />
- <a class="el" href="d7/ded/a00196.php#a2bb83762638ce787815f3699d67faa92" title="Print the type of obj. ">mcd::printType(const C&amp; obj)</a><br />
- <a class="el" href="de/db1/a00197.php#a2bef56760d8ffae969e8a1347194b42c" title="A function that say if a type has an ostream operator(&lt;&lt;) ">mcd::Check::printable(const T&amp;)</a><br />
- <a class="el" href="d7/ded/a00196.php#a31744f235bdcd875c6e69661a4f0a490" title="Replace all the accents of a string. ">mcd::removeAccents(std::string str)</a><br />
- <a class="el" href="d7/ded/a00196.php#a1ddd069f38e7407563a5d8e763d7dc90" title="Create a random string. ">mcd::randStr(size_t nb, unsigned short flags)</a></p>
+<p><a class="el" href="d3/dd1/a00214.php#ae44c2e346da18a7424d97535fb654448" title="Return true if the file exists. ">mcd::fileExists(const std::string&amp; path)</a><br />
+ <a class="el" href="d3/dd1/a00214.php#a176933d706495ddff7385a68319e7169" title="Compute the checksum number. ">mcd::luhn(const std::string&amp; num)</a><br />
+ <a class="el" href="d3/dd1/a00214.php#a0003c12a7cc73a35e488f59ad14770bf" title="Sleep the thread during duration seconds. ">mcd::sleep(size_t duration)</a><br />
+ <a class="el" href="d3/dd1/a00214.php#a95b30a0f37ef4accc8c762eee75bcc12" title="Prints approximately everything. ">mcd::print_all(Something data, bool change)</a><br />
+ <a class="el" href="d3/dd1/a00214.php#a5046a9dfac4629babcb20cf7b914415e" title="Print the size of obj type. ">printSize&lt;Type&gt;()</a><br />
+ <a class="el" href="d3/dd1/a00214.php#a2bb83762638ce787815f3699d67faa92" title="Print the type of obj. ">mcd::printType(const C&amp; obj)</a><br />
+ <a class="el" href="d3/dd5/a00215.php#a2bef56760d8ffae969e8a1347194b42c" title="A function that say if a type has an ostream operator(&lt;&lt;) ">mcd::Check::printable(const T&amp;)</a><br />
+ <a class="el" href="d3/dd1/a00214.php#a31744f235bdcd875c6e69661a4f0a490" title="Replace all the accents of a string. ">mcd::removeAccents(std::string str)</a><br />
+ <a class="el" href="d3/dd1/a00214.php#a1ddd069f38e7407563a5d8e763d7dc90" title="Create a random string. ">mcd::randStr(size_t nb, unsigned short flags)</a></p>
 <h1><a class="anchor" id="upd_sec"></a>
 Updates</h1>
 <h2><a class="anchor" id="upd_sec_20190906_subsec"></a>
@@ -222,7 +222,7 @@ September, 06 2019</h2>
  Added to <a href="https://github.com/mcabioch/CppLib" class="el" target="_blank">GitHub</a>. </p>
 <h2><a class="anchor" id="upd_sec_20190416_subsec"></a>
 April, 16 2019</h2>
-<p>Creation of the <a class="el" href="d7/ded/a00196.php">mcd</a> namespace.</p>
+<p>Creation of the <a class="el" href="d3/dd1/a00214.php">mcd</a> namespace.</p>
 <h1><a class="anchor" id="dow_sec"></a>
 Downloads</h1>
 <p>The <a href="https://github.com/mcabioch/CppLib" class="el" target="_blank">GitHub</a> link. </p>

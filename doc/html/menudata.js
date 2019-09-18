@@ -62,6 +62,7 @@ var menudata={children:[
 {text:"g",url:"functions_g.php#index_g"},
 {text:"h",url:"functions_h.php#index_h"},
 {text:"i",url:"functions_i.php#index_i"},
+{text:"j",url:"functions_j.php#index_j"},
 {text:"l",url:"functions_l.php#index_l"},
 {text:"m",url:"functions_m.php#index_m"},
 {text:"n",url:"functions_n.php#index_n"},
@@ -88,6 +89,7 @@ var menudata={children:[
 {text:"g",url:"functions_func_g.php#index_g"},
 {text:"h",url:"functions_func_h.php#index_h"},
 {text:"i",url:"functions_func_i.php#index_i"},
+{text:"j",url:"functions_func_j.php#index_j"},
 {text:"l",url:"functions_func_l.php#index_l"},
 {text:"m",url:"functions_func_m.php#index_m"},
 {text:"n",url:"functions_func_n.php#index_n"},
@@ -129,6 +131,7 @@ var menudata={children:[
 {text:"Enumerator",url:"functions_eval.php"},
 {text:"Related Functions",url:"functions_rela.php",children:[
 {text:"c",url:"functions_rela.php#index_c"},
+{text:"g",url:"functions_rela.php#index_g"},
 {text:"m",url:"functions_rela.php#index_m"},
 {text:"n",url:"functions_rela.php#index_n"},
 {text:"o",url:"functions_rela.php#index_o"},
@@ -137,4 +140,5 @@ var menudata={children:[
 {text:"File List",url:"files.php"},
 {text:"File Members",url:"globals.php",children:[
 {text:"All",url:"globals.php"},
+{text:"Functions",url:"globals_func.php"},
 {text:"Macros",url:"globals_defs.php"}]}]}]}

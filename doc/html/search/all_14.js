@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['value',['value',['../d2/d02/a00777.php#a0158c050746b586a1c8e800a68968879',1,'mcd::Check::is_array::value()'],['../d6/d86/a00781.php#ab81fa142d6e7d3c98a4dae1f0ca3dfd5',1,'mcd::Check::is_vector::value()'],['../d3/d00/a00785.php#ac3fa87bfb2551b3a98cac89a0c39b2ba',1,'mcd::Check::is_pair::value()'],['../d8/d7d/a00789.php#a35b153eb448f4f520fbab10d63317262',1,'mcd::Check::is_trio::value()'],['../d4/dd7/a00793.php#a89743328c29104ad4f66261b0ba77611',1,'mcd::Check::is_quatuor::value()'],['../da/db8/a00797.php#af2c46fb3d97ce2190260c2ddcb2d33d4',1,'mcd::Check::is_string::value()'],['../d7/d0a/a00801.php#a573e824f7b1584fa564c91c1e5814453',1,'mcd::Check::is_smatch::value()'],['../d7/dff/a00805.php#a344818944230a22a8c7988dd3ba8e2f9',1,'mcd::Check::is_duration::value()'],['../dd/d7e/a00809.php#a08b55ec77a90295c1e84f63021bc89a2',1,'mcd::Check::has_size_method::value()'],['../de/d9d/a00813.php#ad1cf88abd079ce2df64d1d4f8e256a8a',1,'mcd::Check::has_ostream_operator::value()'],['../d6/d8b/a00821.php#a4ea6d2bc4fe8e15561698f6ea66d021b',1,'mcd::Check::has_istream_operator::value()'],['../d1/dea/a00829.php#ae62c92a381f9915ca93aeb48aadeeebc',1,'mcd::Check::is_printable::value()'],['../dc/d6e/a00833.php#aba4751c5acee27e01be8c2b8abc0888b',1,'mcd::Check::is_object::value()'],['../d1/de6/a00837.php#a9347b60a434f2cfd40453cc7856c3918',1,'mcd::Check::is_special_struct::value()'],['../da/deb/a00985.php#a76170894810e15b11dafb7f34965aef4',1,'mcd::Check::is_minded_ptr::value()'],['../d4/d95/a00989.php#aeaf71256c26f5b5be4a5e5db9035500b',1,'mcd::Check::is_thread_ptr::value()']]],
-  ['values',['values',['../d7/ded/a00196.php#a56cd61aea5d46ecf42aa3959086b7d96',1,'mcd::Node']]],
-  ['vector_5fstr',['vector_str',['../d7/ded/a00196.php#a20cc1353da1673066a19b886e7e5c61e',1,'mcd']]],
-  ['vegetal',['Vegetal',['../d1/d83/a01041.php',1,'mcd::Vegetal'],['../d1/d83/a01041.php#a092e520f079ed706c3ac50e667653a0e',1,'mcd::Vegetal::Vegetal()']]],
-  ['vegetal_2ehpp',['Vegetal.hpp',['../da/d15/a00188.php',1,'']]],
-  ['vi',['VI',['../d7/ded/a00196.php#a4f9ca17904646128f443f674efa71c1c',1,'mcd']]]
+  ['underline',['UNDERLINE',['../d3/dd1/a00214.php#ae124ce77f8e386663ac11e2e35e6070aa0086c73c90c261db630b4dc8aea09bcf',1,'mcd']]],
+  ['untarget',['untarget',['../d8/d19/a00935.php#a3e31fc96bd37fc2a8811ecfe600c62a0',1,'mcd::Hostile']]],
+  ['up',['UP',['../d3/dd1/a00214.php#a55fd359a467c1bfe9d2f72c227bb1706afbaedde498cdead4f2780217646e9ba1',1,'mcd']]],
+  ['update',['update',['../d4/d1c/a00903.php#a2a9dc41a2367f4dabb2c345ee0bf51c6',1,'mcd::SHA2::update()'],['../d8/d27/a01043.php#aa0825ee9a421da67ddac15fd45632d4e',1,'mcd::Timer::update()']]],
+  ['upper',['UPPER',['../d3/dd1/a00214.php#a372ef82d72716aed789680d0a84c06d3abe645a90a98231a6ec57513cbcd0d7e2',1,'mcd']]],
+  ['uppercase',['uppercase',['../d3/dd1/a00214.php#a9b1fa9cade94967538723cead132456c',1,'mcd::uppercase(std::string str, std::string::iterator begin, std::string::iterator end)'],['../d3/dd1/a00214.php#a6bcf7344b39a112c02618ee2831e7188',1,'mcd::uppercase(std::string str)']]],
+  ['usefulldefines_2ehpp',['UsefullDefines.hpp',['../de/d79/a00203.php',1,'']]]
 ];

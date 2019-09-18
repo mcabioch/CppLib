@@ -1,22 +1,21 @@
 var a00104 =
 [
-    [ "abs", "d0/dc2/a00104.php#a4af7738b8b199b0b0868819828bf3f4f", null ],
-    [ "decimalPart", "d0/dc2/a00104.php#a0598b7abd7e7441f6553f1b486053945", null ],
-    [ "dist", "d0/dc2/a00104.php#a4d75f23c9b03fd2c56324895d0ff3c58", null ],
-    [ "dist", "d0/dc2/a00104.php#a900f9e45ac94dbf01c4b67fb40682118", null ],
-    [ "dsigmoide", "d0/dc2/a00104.php#a9042d2e8e9a6311b4260c6f376f4072c", null ],
-    [ "eucl", "d0/dc2/a00104.php#a10764d50321a1ff81cc7cd4a9f7e42bc", null ],
-    [ "isLuhn", "d0/dc2/a00104.php#ab001b84d20c0fffe59c7a55ed872d300", null ],
-    [ "isNumber", "d0/dc2/a00104.php#a6a0096efe278298f80c641af617dd216", null ],
-    [ "isPrime", "d0/dc2/a00104.php#ad3913978376bb08e036a7bf0b21d6b50", null ],
-    [ "log2p", "d0/dc2/a00104.php#a69d6be0b9d139073dda5e708c76dccdd", null ],
-    [ "luhn", "d0/dc2/a00104.php#a176933d706495ddff7385a68319e7169", null ],
-    [ "max", "d0/dc2/a00104.php#a50e5370a188b7230c0dce47cc746f533", null ],
-    [ "min", "d0/dc2/a00104.php#abc683613235e8674b000071c25747728", null ],
-    [ "mod", "d0/dc2/a00104.php#af44c5ff8cc0a054f720ed177e7e44265", null ],
-    [ "pgcd", "d0/dc2/a00104.php#a0f3f4e24615446479ff59ce15ce61cde", null ],
-    [ "round", "d0/dc2/a00104.php#a7e1c88cc52e517f309354a546e78f403", null ],
-    [ "sigmoide", "d0/dc2/a00104.php#a2d67b0e24c6216a693a903f5bc8c31a0", null ],
-    [ "sq", "d0/dc2/a00104.php#a9adc0354f681800c75d220e526377397", null ],
-    [ "wholePart", "d0/dc2/a00104.php#af9443ebf71fe196006831fe344a09f13", null ]
+    [ "WorldDimensions", "d3/dd1/a00214.php#d3/d29/a00947", [
+      [ "h", "d3/dd1/a00214.php#abe35d460277b28d79aa0261fd58b89da", null ],
+      [ "w", "d3/dd1/a00214.php#a5e12726e58baa05036bc160c31d08016", null ],
+      [ "z", "d3/dd1/a00214.php#a6e818e561922fa511658e15bec5fa55d", null ]
+    ] ],
+    [ "MapMove", "d3/dd1/a00214.php#dc/da0/a00951", [
+      [ "end", "d3/dd1/a00214.php#a2f707d77cfeffb93eceecea7c25a7cc6", null ],
+      [ "next", "d3/dd1/a00214.php#a61ee478b9a87acbd0fb2299f867a1bea", null ]
+    ] ],
+    [ "Map", "dc/db6/a00955.php", "dc/db6/a00955" ],
+    [ "MapArray", "d0/dc2/a00104.php#a4da80d0816a366662f2bd5bd8740af79", null ],
+    [ "MapLine", "d0/dc2/a00104.php#a626eae05d907e09e182c9772e1aa04e6", null ],
+    [ "Tile", "d0/dc2/a00104.php#a7350be9df9566241dfb80071a89f9ede", [
+      [ "NONE", "d0/dc2/a00104.php#ae3ee27656d8eb6e8a09407841cd00898ab50339a10e1de285ac99d4c3990b8693", null ],
+      [ "OBSTACLE", "d0/dc2/a00104.php#a7350be9df9566241dfb80071a89f9edea2399122c182da0d5946e2937bb73edf2", null ],
+      [ "GROUND", "d0/dc2/a00104.php#a7350be9df9566241dfb80071a89f9edeadedcb56e75fe1488e20865e0ea36d0b9", null ],
+      [ "ERROR", "d0/dc2/a00104.php#a7350be9df9566241dfb80071a89f9edeabb1ca97ec761fc37101737ba0aa2e7c5", null ]
+    ] ]
 ];

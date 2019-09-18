@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 13 2019 18:57:54 for C++ by";
+				$text = "Generated on Tue Sep 17 2019 17:17:10 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,13 +93,16 @@ $(document).ready(function(){initNavTree('functions_func_n.php','');});
 
 <h3><a id="index_n"></a>- n -</h3><ul>
 <li>next()
-: <a class="el" href="d5/da3/a00953.php#ac24764eca1f5c6a54322d4a19d4ac68f">mcd::Path</a>
+: <a class="el" href="d8/d49/a00979.php#ac24764eca1f5c6a54322d4a19d4ac68f">mcd::Path</a>
 </li>
 <li>NotCopyable()
-: <a class="el" href="d6/dad/a00941.php#aa40da048522b578e9c2cc9f73c1a0d92">mcd::NotCopyable</a>
+: <a class="el" href="d4/d94/a00967.php#aa40da048522b578e9c2cc9f73c1a0d92">mcd::NotCopyable</a>
 </li>
 <li>notInUse()
-: <a class="el" href="d7/ded/a01009.php#a0b2419ec1119f28dc2440e202f0d2c8e">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="de/d26/a01035.php#a0b2419ec1119f28dc2440e202f0d2c8e">mcd::Threadable&lt; C &gt;</a>
+</li>
+<li>numerator()
+: <a class="el" href="df/dbc/a00931.php#a17e4466c06be8e1bff20fe204d4ff110">mcd::Fraction</a>
 </li>
 </ul>
 </div><!-- contents -->

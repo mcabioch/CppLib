@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 13 2019 18:57:54 for C++ by";
+				$text = "Generated on Tue Sep 17 2019 17:17:10 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,25 +93,31 @@ $(document).ready(function(){initNavTree('functions_func_d.php','');});
 
 <h3><a id="index_d"></a>- d -</h3><ul>
 <li>Date()
-: <a class="el" href="de/d01/a00897.php#a032af1a0d48dcd6e6728b1855a75321d">mcd::Date</a>
+: <a class="el" href="d2/d5e/a00915.php#a032af1a0d48dcd6e6728b1855a75321d">mcd::Date</a>
 </li>
 <li>DateTime()
-: <a class="el" href="d0/dac/a00901.php#a27522461f3954da96d58a5a82db34675">mcd::DateTime</a>
+: <a class="el" href="d1/d0b/a00919.php#a27522461f3954da96d58a5a82db34675">mcd::DateTime</a>
 </li>
 <li>day()
-: <a class="el" href="de/d01/a00897.php#a10a48f5b93ee6c3e7ba43c5de5fa56bd">mcd::Date</a>
+: <a class="el" href="d2/d5e/a00915.php#a10a48f5b93ee6c3e7ba43c5de5fa56bd">mcd::Date</a>
 </li>
 <li>decrypt()
-: <a class="el" href="df/d41/a00881.php#a3368134737d4f820661e03afbc91b8f1">mcd::Cesar</a>
-, <a class="el" href="d1/de7/a00877.php#a4d131065e81529530b7907ba397af30d">mcd::Crypto</a>
-, <a class="el" href="de/dc8/a00889.php#a18850d238fad5966016ef020c05f82ce">mcd::MyCrypt</a>
-, <a class="el" href="dc/d2c/a00893.php#ad831bd26ceeff7ad460bcabcad213155">mcd::RSA</a>
+: <a class="el" href="d3/d8a/a00899.php#a3368134737d4f820661e03afbc91b8f1">mcd::Cesar</a>
+, <a class="el" href="d2/d21/a00895.php#a4d131065e81529530b7907ba397af30d">mcd::Crypto</a>
+, <a class="el" href="d5/d89/a00907.php#a18850d238fad5966016ef020c05f82ce">mcd::MyCrypt</a>
+, <a class="el" href="d7/d12/a00911.php#ad831bd26ceeff7ad460bcabcad213155">mcd::RSA</a>
+</li>
+<li>denominator()
+: <a class="el" href="df/dbc/a00931.php#a5868b5e5c36d3277d651c3fd731ebe84">mcd::Fraction</a>
 </li>
 <li>desc()
-: <a class="el" href="db/d23/a01025.php#a52f3b03c077b82ded999b5cbd197f1e3">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d3/d42/a01051.php#a52f3b03c077b82ded999b5cbd197f1e3">mcd::Tree&lt; T &gt;</a>
+</li>
+<li>det()
+: <a class="el" href="db/d40/a00959.php#ace95025dd985ddaa6c1ed72e8b464a0a">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>dijkstra()
-: <a class="el" href="d0/d5b/a00933.php#a1d96c02df00df52c98d68ea541e944e8">mcd::Map</a>
+: <a class="el" href="dc/db6/a00955.php#a793304f9b5fb060a085ea0653d83e96f">mcd::Map</a>
 </li>
 </ul>
 </div><!-- contents -->

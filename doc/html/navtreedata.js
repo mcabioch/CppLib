@@ -22,7 +22,7 @@ var NAVTREE =
       ] ],
       [ "Downloads", "index.php#dow_sec", null ]
     ] ],
-    [ "Todo List", "dc/d57/a00194.php", null ],
+    [ "Todo List", "dd/dc1/a00212.php", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.php", "namespaces" ],
       [ "Namespace Members", "namespacemembers.php", [
@@ -51,6 +51,7 @@ var NAVTREE =
       [ "File List", "files.php", "files" ],
       [ "File Members", "globals.php", [
         [ "All", "globals.php", null ],
+        [ "Functions", "globals_func.php", null ],
         [ "Macros", "globals_defs.php", null ]
       ] ]
     ] ]
@@ -60,9 +61,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.php",
-"d4/dd7/a00793.php#a89743328c29104ad4f66261b0ba77611",
-"d7/ded/a01009.php#a0d2496ea879c9a8933fe714ffce9639a",
-"dc/de6/a00167.php#a3a0fe346d6bb1356037b21f558e5c308"
+"d4/d45/a00791.php",
+"d8/d27/a01043.php#aa0825ee9a421da67ddac15fd45632d4e",
+"dd/d48/a00995.php#af2aa5f359715262ae600422bb49e79af",
+"functions_c.php"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

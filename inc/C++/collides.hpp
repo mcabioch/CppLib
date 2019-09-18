@@ -2,13 +2,13 @@
 *
 *	\file		collides.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	July, 31 2018
+*	\modified	September, 17 2019
 *
 */
 #ifndef HEADER_CPP_COLLIDES
 #define HEADER_CPP_COLLIDES
 
-#include "C++/maths.hpp"
+#include "C++/Matrix.hpp"
 
 namespace mcd {
 	/*!

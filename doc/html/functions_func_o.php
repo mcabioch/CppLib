@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 13 2019 18:57:54 for C++ by";
+				$text = "Generated on Tue Sep 17 2019 17:17:10 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,42 +93,98 @@ $(document).ready(function(){initNavTree('functions_func_o.php','');});
 
 <h3><a id="index_o"></a>- o -</h3><ul>
 <li>Object()
-: <a class="el" href="d1/db0/a00945.php#ad332f3a57527a6ede1be2e18b65615a5">mcd::Object</a>
+: <a class="el" href="d0/d3c/a00971.php#ad332f3a57527a6ede1be2e18b65615a5">mcd::Object</a>
 </li>
 <li>onCompare()
-: <a class="el" href="db/d23/a01025.php#a279d0472004ed9618dde58fcfd6bb508">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d3/d42/a01051.php#a279d0472004ed9618dde58fcfd6bb508">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>onDelete()
-: <a class="el" href="db/d23/a01025.php#ad9cda4b45c11828381cde08fa48ae94d">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d3/d42/a01051.php#ad9cda4b45c11828381cde08fa48ae94d">mcd::Tree&lt; T &gt;</a>
+</li>
+<li>operator double()
+: <a class="el" href="df/dbc/a00931.php#a06b912775eecd0a5bfbf2259488e81d8">mcd::Fraction</a>
 </li>
 <li>operator std::string()
-: <a class="el" href="d8/dba/a00773.php#a638fbd4ccaffb7b432c7c78d2f510134">mcd::Big</a>
+: <a class="el" href="d4/d45/a00791.php#a638fbd4ccaffb7b432c7c78d2f510134">mcd::Big</a>
+</li>
+<li>operator!=()
+: <a class="el" href="df/dbc/a00931.php#a210c0fcacfd6acc5cad7507600838bce">mcd::Fraction</a>
+</li>
+<li>operator%()
+: <a class="el" href="df/dbc/a00931.php#ab8fa894cd94bc38e9a43a7cb937c610e">mcd::Fraction</a>
 </li>
 <li>operator%=()
-: <a class="el" href="d8/dba/a00773.php#a078be418a37b709c8124ec69cfd66836">mcd::Big</a>
+: <a class="el" href="d4/d45/a00791.php#a078be418a37b709c8124ec69cfd66836">mcd::Big</a>
+, <a class="el" href="df/dbc/a00931.php#a7b6753a02a790ffbb75c36920237167c">mcd::Fraction</a>
 </li>
 <li>operator()()
-: <a class="el" href="d0/d5b/a00933.php#a1809056415a86a4627e0cad3bbb0b3b0">mcd::Map</a>
-, <a class="el" href="df/d59/a01001.php#a717048eaee5dc829e132237026beaecc">mcd::RNG&lt; T, U &gt;</a>
+: <a class="el" href="dc/db6/a00955.php#a1809056415a86a4627e0cad3bbb0b3b0">mcd::Map</a>
+, <a class="el" href="db/d40/a00959.php#ab2e5889d3ce0c0a97ec6f7c35b424f23">mcd::Matrix&lt; C &gt;</a>
+, <a class="el" href="dd/dfd/a01027.php#a717048eaee5dc829e132237026beaecc">mcd::RNG&lt; T, U &gt;</a>
+</li>
+<li>operator*()
+: <a class="el" href="df/dbc/a00931.php#a224a0bda38b059346391792d27124f89">mcd::Fraction</a>
+, <a class="el" href="db/d40/a00959.php#a61b1b866f822f492dd94f0178de09f0e">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>operator*=()
-: <a class="el" href="d8/dba/a00773.php#aee0004ba93bf9b5e84bc6069b2e70330">mcd::Big</a>
+: <a class="el" href="d4/d45/a00791.php#aee0004ba93bf9b5e84bc6069b2e70330">mcd::Big</a>
+, <a class="el" href="df/dbc/a00931.php#aae423fa04b3025e509901155241b5402">mcd::Fraction</a>
+, <a class="el" href="db/d40/a00959.php#a309672571879a0b44bf9c91b26b51a21">mcd::Matrix&lt; C &gt;</a>
+</li>
+<li>operator+()
+: <a class="el" href="df/dbc/a00931.php#a54d794692193c950001c5c85026e6e3b">mcd::Fraction</a>
+, <a class="el" href="db/d40/a00959.php#ac2adb934f2c26b12d6b5f5981c0e4d7a">mcd::Matrix&lt; C &gt;</a>
+</li>
+<li>operator++()
+: <a class="el" href="df/dbc/a00931.php#af066abb5b8fe5db0e0c4ce7d125f0c5e">mcd::Fraction</a>
 </li>
 <li>operator+=()
-: <a class="el" href="d8/dba/a00773.php#a71c734bca411504941a7a5a611b8e285">mcd::Big</a>
+: <a class="el" href="d4/d45/a00791.php#a71c734bca411504941a7a5a611b8e285">mcd::Big</a>
+, <a class="el" href="df/dbc/a00931.php#a76f6e7a0b34f33d8d53bc993b7c0ac89">mcd::Fraction</a>
+, <a class="el" href="db/d40/a00959.php#ab65365129992bf5a53b62e3bd3955135">mcd::Matrix&lt; C &gt;</a>
+</li>
+<li>operator-()
+: <a class="el" href="df/dbc/a00931.php#a4ec513f026f862be80860890590d8a2f">mcd::Fraction</a>
+, <a class="el" href="db/d40/a00959.php#a0e53fd790079347de2d5d5e132a4c37b">mcd::Matrix&lt; C &gt;</a>
+</li>
+<li>operator--()
+: <a class="el" href="df/dbc/a00931.php#a34e188b2c7100e21fe387855ca963f52">mcd::Fraction</a>
 </li>
 <li>operator-=()
-: <a class="el" href="d8/dba/a00773.php#aa11404d0af642fa7e89fc484445200d5">mcd::Big</a>
+: <a class="el" href="d4/d45/a00791.php#aa11404d0af642fa7e89fc484445200d5">mcd::Big</a>
+, <a class="el" href="df/dbc/a00931.php#a455683f59112555055fc6c5686a9621a">mcd::Fraction</a>
+, <a class="el" href="db/d40/a00959.php#a8c4a74722881f5fdb1a1135b36808f47">mcd::Matrix&lt; C &gt;</a>
+</li>
+<li>operator/()
+: <a class="el" href="df/dbc/a00931.php#a3b0f022bd55759c7bc1ea252946b4714">mcd::Fraction</a>
+, <a class="el" href="db/d40/a00959.php#aead70f5313e4a9a9c39321d41c2c3d10">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>operator/=()
-: <a class="el" href="d8/dba/a00773.php#aed2dc1aa4bd20abbe2c48aefe115b57d">mcd::Big</a>
+: <a class="el" href="d4/d45/a00791.php#aed2dc1aa4bd20abbe2c48aefe115b57d">mcd::Big</a>
+, <a class="el" href="df/dbc/a00931.php#a4942772dfaef8d5158163f7fcca98b57">mcd::Fraction</a>
+, <a class="el" href="db/d40/a00959.php#ad60adce66964625f49ed954456ef08af">mcd::Matrix&lt; C &gt;</a>
+</li>
+<li>operator&lt;()
+: <a class="el" href="df/dbc/a00931.php#aa9c375ae1a1d2a7eb9feb0eda3440343">mcd::Fraction</a>
+</li>
+<li>operator&lt;=()
+: <a class="el" href="df/dbc/a00931.php#add6d3ff26c1c87e2d645ad37e751bdac">mcd::Fraction</a>
 </li>
 <li>operator=()
-: <a class="el" href="d8/dba/a00773.php#adc8b04536591da50d9c9342a5eccaf42">mcd::Big</a>
-, <a class="el" href="d2/d41/a01037.php#a220f83e0ebfaa9b2884530cfcac6f6df">mcd::Point</a>
+: <a class="el" href="d4/d45/a00791.php#a280921a6fccbc4255f53889d4189706b">mcd::Big</a>
+, <a class="el" href="de/de6/a01063.php#a220f83e0ebfaa9b2884530cfcac6f6df">mcd::Point</a>
+</li>
+<li>operator==()
+: <a class="el" href="df/dbc/a00931.php#af019282c8e827f162ca7cfca808d5ad4">mcd::Fraction</a>
+</li>
+<li>operator&gt;()
+: <a class="el" href="df/dbc/a00931.php#adab724613972d2c51d68c9cac006fea6">mcd::Fraction</a>
+</li>
+<li>operator&gt;=()
+: <a class="el" href="df/dbc/a00931.php#ada1de0f48df79dc6231a01598d7c4590">mcd::Fraction</a>
 </li>
 <li>operator[]()
-: <a class="el" href="dc/dd0/a00753.php#a3afcd48b173c2c0f17c74a99b3a6b413">mcd::Arguments</a>
+: <a class="el" href="dd/de5/a00771.php#a3afcd48b173c2c0f17c74a99b3a6b413">mcd::Arguments</a>
 </li>
 </ul>
 </div><!-- contents -->

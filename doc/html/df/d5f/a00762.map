@@ -1,0 +1,6 @@
+<map id="mcd::Animal" name="mcd::Animal">
+<area shape="rect" id="node5" href="$d5/dae/a00767.php" title="An ant. " alt="" coords="88,229,163,256"/>
+<area shape="rect" id="node2" href="$dd/d98/a00927.php" title="An entity. " alt="" coords="22,80,111,107"/>
+<area shape="rect" id="node3" href="$de/dfc/a00891.php" title="A contraption. " alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node4" href="$d8/d19/a00935.php" title="A class to derivate from when the thing can attack. " alt="" coords="136,80,232,107"/>
+</map>
