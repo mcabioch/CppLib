@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 17 2019 17:17:10 for C++ by";
+				$text = "Generated on Wed Sep 18 2019 11:06:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -108,7 +108,7 @@ $(document).ready(function(){initNavTree('index.php','');});
 <li class="level2"><a href="#imp_sec_fun_subsec">Functions</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#upd_sec">Updates</a><ul><li class="level2"><a href="#upd_sec_20190906_subsec">September, 06 2019</a></li>
+<li class="level1"><a href="#upd_sec">Updates</a><ul><li class="level2"><a href="#upd_sec_20190906_subsec">September, 17 2019</a></li>
 <li class="level2"><a href="#upd_sec_20190416_subsec">April, 16 2019</a></li>
 </ul>
 </li>
@@ -217,7 +217,11 @@ Functions</h2>
 <h1><a class="anchor" id="upd_sec"></a>
 Updates</h1>
 <h2><a class="anchor" id="upd_sec_20190906_subsec"></a>
-September, 06 2019</h2>
+September, 17 2019</h2>
+<p>Adding a class to use matrices.<br />
+ Adding a class to use rational fractions. </p>
+<h2><a class="anchor" id="upd_sec_20190906_subsec"></a>
+September, 17 2019</h2>
 <p>Correction of some bugs.<br />
  Added to <a href="https://github.com/mcabioch/CppLib" class="el" target="_blank">GitHub</a>. </p>
 <h2><a class="anchor" id="upd_sec_20190416_subsec"></a>

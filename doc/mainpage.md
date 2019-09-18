@@ -82,6 +82,9 @@ My own C++ features
 		mcd::randStr(size_t nb, unsigned short flags)
 
 \section		upd_sec			Updates
+	\subsection	upd_sec_20190906_subsec		September, 17 2019
+		Adding a class to use matrices.\n
+		Adding a class to use rational fractions.
 	\subsection	upd_sec_20190906_subsec		September, 06 2019
 		Correction of some bugs.\n
 		Added to <a class="el" href="https://github.com/mcabioch/CppLib" target="_blank">GitHub</a>.
