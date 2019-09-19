@@ -32,6 +32,10 @@ endif
 CXX = $(CXXExtension)g++
 CC = $(CCExtension)gcc
 
+ifeq ($(TARGET),win)
+	CXX = x86_64-w64-mingw32-g++-win32
+endif
+
 #
 #	OS
 #
