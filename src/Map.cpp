@@ -61,16 +61,8 @@ namespace mcd {
 	}
 
 	Tile Map::operator()(size_t i, size_t j) const {
-		if(j < _h && i < _w){
-			return _map[j][i];
-		} else {
-			error_log(line_number,
-					  "Map operator() error",
-					  "The value of w(", i, ") or h(", j, ") is wrong !",
-					  "\nMax values are : w = ", _w, " and h = ", _h
-					 );
-			return _errorTile;
-		}
+		const Tile& tile = operator()(i, j);
+		return tile;
 	}
 
 	/* Others */
