@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 18:57:47 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 18:58:40 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -974,7 +974,8 @@ struct mcd::Node&lt; T &gt;</h3>
 Collaboration diagram for mcd::Node&lt; T &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/d56/a01042.png" border="0" usemap="#mcd_1_1Node_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
-<!-- MAP 0 -->
+<map name="mcd_1_1Node_3_01T_01_4_coll__map" id="mcd_1_1Node_3_01T_01_4_coll__map">
+</map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
@@ -1031,7 +1032,8 @@ class mcd::quatuor&lt; T, U, V, W &gt;</h3>
 Collaboration diagram for mcd::quatuor&lt; T, U, V, W &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/d57/a01054.png" border="0" usemap="#mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map" alt="Collaboration graph"/></div>
-<!-- MAP 1 -->
+<map name="mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map" id="mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map">
+</map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
@@ -1082,7 +1084,8 @@ class mcd::trio&lt; T, U, V &gt;</h3>
 Collaboration diagram for mcd::trio&lt; T, U, V &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d8e/a01050.png" border="0" usemap="#mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map" alt="Collaboration graph"/></div>
-<!-- MAP 2 -->
+<map name="mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map" id="mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map">
+</map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
