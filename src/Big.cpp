@@ -54,7 +54,7 @@ namespace mcd {
 	Big Big::invert()const {
 		Big out(*this);
 
-		if(out != 0){
+		if(out != Big(0)){
 			out._neg = !out._neg;
 		}
 
@@ -62,11 +62,11 @@ namespace mcd {
 	}
 
 	void Big::minusDivide(Big& val, const Big& other, Big& increment, long int factor){
-		Big loop = other * factor;
+		Big loop = other * Big(factor);
 
 		while(val >= loop){
 			val -= loop;
-			increment += factor;
+			increment += Big(factor);
 		}
 	}
 
@@ -107,7 +107,7 @@ namespace mcd {
 
 		val = val.substr(i);
 		r = newVal;
-		q = 0;
+		q = Big(0);
 
 		if(r < d){
 			qVal += "0";

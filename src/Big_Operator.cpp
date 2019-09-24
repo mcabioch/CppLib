@@ -27,6 +27,10 @@ namespace mcd {
 		return ((_neg)?"-":"") + _val.substr(i);
 	}
 
+	Big::operator bool()const noexcept {
+		return (*this != Big(0));
+	}
+
 	std::ostream& operator<<(std::ostream& os, const Big& other) noexcept {
 		os << std::string(other);
 		return os;

@@ -3,7 +3,7 @@
 namespace mcd {
 	bool isLuhn(const std::string& num){
 		Big val(num.substr(num.size() - 1));
-		Big tmp = luhn(num.substr(0, num.size() - 1));
+		Big tmp(luhn(num.substr(0, num.size() - 1)));
 
 		return (tmp == val);
 	}

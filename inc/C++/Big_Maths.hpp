@@ -10,7 +10,7 @@ namespace mcd {
 	*	\return			Return the square of \a a
 	*/
 	inline Big sq(const Big& a){
-		return pow(a, 2);
+		return pow(a, Big(2));
 	}
 
 	/*!
@@ -39,7 +39,7 @@ namespace mcd {
 	*	\return			Return \b true or \b false
 	*/
 	inline bool isDivisor(const Big& a, const Big& b) {
-		return ((a % b) == 0);
+		return ((a % b) == Big(0));
 	}
 
 	/*!
@@ -48,7 +48,7 @@ namespace mcd {
 	*	\return			Return the absolute value of \a a
 	*/
 	inline Big abs(const Big& a){
-		return (a < 0)?(a * -1):a;
+		return (a < Big(0))?(a * Big(-1)):a;
 	}
 
 	#if 0

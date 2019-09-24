@@ -3,7 +3,7 @@
 *	\file		Big.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	August, 01 2018 10:15:16
-*	\modified	August, 19 2018
+*	\modified	September, 24 2019
 *
 */
 #ifndef HEADER_BIG
@@ -66,7 +66,7 @@ namespace mcd {
 			/* Constructors & Destructor of Big */
 				/*! \brief	The constructor of the class */
 				template<typename T, class = std::enable_if_t<std::is_arithmetic<T>::value> >
-				Big(T val);
+				explicit Big(T val);
 				Big(std::string val);
 				Big();
 				virtual ~Big();
@@ -106,6 +106,10 @@ namespace mcd {
 				Big& operator%=(const Big& other);
 
 				operator std::string()const noexcept;
+				operator bool()const noexcept;
+
+				template<typename T, class = std::enable_if_t<std::is_arithmetic<T>::value> >
+				explicit operator T()const noexcept;
 			/* Friends of Big */
 				friend std::ostream& operator<<(std::ostream& os, const Big& other) noexcept;
 				friend std::istream& operator>>(std::istream& is, Big& other) noexcept;
@@ -140,7 +144,7 @@ namespace mcd {
 				/*! \brief	Big != Big */
 				friend inline bool operator!=(const Big& a, const Big& b) noexcept;
 				/*! \brief	Big ! Big */
-				friend inline bool operator!(const Big& a) noexcept{ return (a == 0); }
+				friend inline bool operator!(const Big& a) noexcept{ return (a == Big(0)); }
 				/*! \brief	Big <= Big */
 				friend inline bool operator<=(const Big& a, const Big& b) noexcept;
 				/*! \brief	Big >= Big */

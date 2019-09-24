@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 18 2019 20:20:56 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 18:56:58 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,50 +93,50 @@ $(document).ready(function(){initNavTree('functions_func_i.php','');});
 
 <h3><a id="index_i"></a>- i -</h3><ul>
 <li>i()
-: <a class="el" href="db/d40/a00959.php#a9823b15f6575c9007b734e505ea772b5">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="d3/de5/a00956.php#a9823b15f6575c9007b734e505ea772b5">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>Identifier()
-: <a class="el" href="dd/d20/a00939.php#a1496891d2323d1023ebfd086b84faf8d">mcd::Identifier</a>
+: <a class="el" href="dc/d2b/a00936.php#a1496891d2323d1023ebfd086b84faf8d">mcd::Identifier</a>
 </li>
 <li>init()
-: <a class="el" href="d2/d5e/a00915.php#a17a08ca52b3ec69d178a997c07a5ca1c">mcd::Date</a>
-, <a class="el" href="df/d21/a01039.php#a3e19605ece31340f27255a79beb193d4">mcd::Time</a>
+: <a class="el" href="df/da5/a00912.php#a17a08ca52b3ec69d178a997c07a5ca1c">mcd::Date</a>
+, <a class="el" href="d8/d79/a01036.php#a3e19605ece31340f27255a79beb193d4">mcd::Time</a>
 </li>
 <li>insert()
-: <a class="el" href="d3/d42/a01051.php#a53cd621cced254067f1ebac4e2abe8df">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d5/de7/a01048.php#a53cd621cced254067f1ebac4e2abe8df">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>inUse()
-: <a class="el" href="de/d26/a01035.php#af6a411164d64b1b04b731f29d54e016a">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="df/d89/a01032.php#af6a411164d64b1b04b731f29d54e016a">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>inverted()
-: <a class="el" href="db/d40/a00959.php#af0390771523fc535079faa2a7b7c29ce">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="d3/de5/a00956.php#af0390771523fc535079faa2a7b7c29ce">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>IOConfig()
-: <a class="el" href="d1/ddd/a00943.php#a8638a62e7967b56a444ee42d3ea55878">mcd::IOConfig</a>
+: <a class="el" href="d7/db6/a00940.php#a8638a62e7967b56a444ee42d3ea55878">mcd::IOConfig</a>
 </li>
 <li>isFree()
-: <a class="el" href="dc/db6/a00955.php#a1784239c1be09cc3c9a7a4652292149d">mcd::Map</a>
+: <a class="el" href="de/d49/a00952.php#a1784239c1be09cc3c9a7a4652292149d">mcd::Map</a>
 </li>
 <li>isInit()
-: <a class="el" href="d6/d8d/a01007.php#abdb489c22b76cb09daefb8f05b2f515c">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/dbc/a01004.php#abdb489c22b76cb09daefb8f05b2f515c">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>isLost()
-: <a class="el" href="d6/d8d/a01007.php#ae441783e58a888696f8dc24f4cdfcce5">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/dbc/a01004.php#ae441783e58a888696f8dc24f4cdfcce5">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>isOnGround()
-: <a class="el" href="dc/db6/a00955.php#ac5e6be35eea3af084431715595c1138b">mcd::Map</a>
+: <a class="el" href="de/d49/a00952.php#ac5e6be35eea3af084431715595c1138b">mcd::Map</a>
 </li>
 <li>isPaused()
-: <a class="el" href="d6/d8d/a01007.php#a81a1ea7b3b306b10af787c353c92cc2e">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/dbc/a01004.php#a81a1ea7b3b306b10af787c353c92cc2e">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>isSquare()
-: <a class="el" href="db/d40/a00959.php#a3885a9068844517cbbd58cfed57eb5c4">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="d3/de5/a00956.php#a3885a9068844517cbbd58cfed57eb5c4">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>isXIn()
-: <a class="el" href="dc/db6/a00955.php#a86d2ef9c24b540688cbfaa12d9225c35">mcd::Map</a>
+: <a class="el" href="de/d49/a00952.php#a86d2ef9c24b540688cbfaa12d9225c35">mcd::Map</a>
 </li>
 <li>isYIn()
-: <a class="el" href="dc/db6/a00955.php#a45adc028ccfb00ef4f66225e244956fd">mcd::Map</a>
+: <a class="el" href="de/d49/a00952.php#a45adc028ccfb00ef4f66225e244956fd">mcd::Map</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"functions_b.php":[3,3,0,2],
 "functions_c.php":[3,3,0,3],
 "functions_d.php":[3,3,0,4],
 "functions_e.php":[3,3,0,5],

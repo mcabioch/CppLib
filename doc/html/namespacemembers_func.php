@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 18 2019 20:20:56 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 18:56:58 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,365 +93,365 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 
 <h3><a id="index_a"></a>- a -</h3><ul>
 <li>abs()
-: <a class="el" href="d3/dd1/a00214.php#a50868f33f43952d24f8449e883d3fd99">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a50868f33f43952d24f8449e883d3fd99">mcd</a>
 </li>
 <li>array1Dto2D()
-: <a class="el" href="d3/dd1/a00214.php#a040a2aa0625adc9f13e6568d906a20a2">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a040a2aa0625adc9f13e6568d906a20a2">mcd</a>
 </li>
 <li>array2Dto1D()
-: <a class="el" href="d3/dd1/a00214.php#af1c42a8b9412d2afa3b486c5e629f752">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#af1c42a8b9412d2afa3b486c5e629f752">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>collidesC()
-: <a class="el" href="d3/dd1/a00214.php#ace8a4328114062b56cf578ad92df821f">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ace8a4328114062b56cf578ad92df821f">mcd</a>
 </li>
 <li>collidesPC()
-: <a class="el" href="d3/dd1/a00214.php#ae694a8102421f25c163a0ef7a9e903e2">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ae694a8102421f25c163a0ef7a9e903e2">mcd</a>
 </li>
 <li>collidesPR()
-: <a class="el" href="d3/dd1/a00214.php#a3c001118da32a4466802e0b378af661b">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a3c001118da32a4466802e0b378af661b">mcd</a>
 </li>
 <li>collidesR()
-: <a class="el" href="d3/dd1/a00214.php#ab43dbb509e6ac3b52cd7767a1fb6bdaa">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ab43dbb509e6ac3b52cd7767a1fb6bdaa">mcd</a>
 </li>
 <li>collidesRC()
-: <a class="el" href="d3/dd1/a00214.php#adbb1b1f3a194f48bab3af872f65b9757">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#adbb1b1f3a194f48bab3af872f65b9757">mcd</a>
 </li>
 <li>contains()
-: <a class="el" href="d3/dd1/a00214.php#a3ac7c03f689e82ab37f28905b06cedbd">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a3ac7c03f689e82ab37f28905b06cedbd">mcd</a>
 </li>
 <li>count()
-: <a class="el" href="d3/dd1/a00214.php#ad9a09991409b1fa61f97f8519efcaf30">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ad9a09991409b1fa61f97f8519efcaf30">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_d"></a>- d -</h3><ul>
 <li>decimalPart()
-: <a class="el" href="d3/dd1/a00214.php#a0598b7abd7e7441f6553f1b486053945">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a0598b7abd7e7441f6553f1b486053945">mcd</a>
 </li>
 <li>deletePtr()
-: <a class="el" href="d3/dd1/a00214.php#ad32e282421be0e66b0288fe7634ad183">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ad32e282421be0e66b0288fe7634ad183">mcd</a>
 </li>
 <li>dist()
-: <a class="el" href="d3/dd1/a00214.php#a900f9e45ac94dbf01c4b67fb40682118">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a900f9e45ac94dbf01c4b67fb40682118">mcd</a>
 </li>
 <li>dsigmoide()
-: <a class="el" href="d3/dd1/a00214.php#a9042d2e8e9a6311b4260c6f376f4072c">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a9042d2e8e9a6311b4260c6f376f4072c">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_e"></a>- e -</h3><ul>
 <li>error_log()
-: <a class="el" href="d3/dd1/a00214.php#a1a14f66f0c6eba0c77338364977658e1">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a1a14f66f0c6eba0c77338364977658e1">mcd</a>
 </li>
 <li>eucl()
-: <a class="el" href="d3/dd1/a00214.php#a10764d50321a1ff81cc7cd4a9f7e42bc">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a10764d50321a1ff81cc7cd4a9f7e42bc">mcd</a>
 </li>
 <li>exec()
-: <a class="el" href="d3/dd1/a00214.php#a0d72a06346182146581ff63f2fa70580">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a0d72a06346182146581ff63f2fa70580">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_f"></a>- f -</h3><ul>
 <li>fileExists()
-: <a class="el" href="d3/dd1/a00214.php#ae44c2e346da18a7424d97535fb654448">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ae44c2e346da18a7424d97535fb654448">mcd</a>
 </li>
 <li>fileFormat()
-: <a class="el" href="d3/dd1/a00214.php#aada88379a63c49987a295485391aa192">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#aada88379a63c49987a295485391aa192">mcd</a>
 </li>
 <li>fromBigVal()
-: <a class="el" href="d3/dd1/a00214.php#aea3616a95b7e00c3c401fe7f5d907ba8">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#aea3616a95b7e00c3c401fe7f5d907ba8">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_g"></a>- g -</h3><ul>
 <li>getall()
-: <a class="el" href="d3/dd1/a00214.php#a057304d2908e871b3c8f65db3b41057a">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a057304d2908e871b3c8f65db3b41057a">mcd</a>
 </li>
 <li>getFileSize()
-: <a class="el" href="d3/dd1/a00214.php#a97dfa91f19b9e2175dddbf65285663a2">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a97dfa91f19b9e2175dddbf65285663a2">mcd</a>
 </li>
 <li>getlines()
-: <a class="el" href="d3/dd1/a00214.php#a1dd313ef15241c8adf795cbcc5c77048">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a1dd313ef15241c8adf795cbcc5c77048">mcd</a>
 </li>
 <li>getMilli()
-: <a class="el" href="d3/dd1/a00214.php#ac4573282fe9cf6a0af8de786baaf6456">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ac4573282fe9cf6a0af8de786baaf6456">mcd</a>
 </li>
 <li>getSec()
-: <a class="el" href="d3/dd1/a00214.php#a49144605ea2f1f8a9463ae309c293628">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a49144605ea2f1f8a9463ae309c293628">mcd</a>
 </li>
 <li>getType()
-: <a class="el" href="d3/dd1/a00214.php#aad6c9253e2099a49d163fad90ef6f5f5">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#aad6c9253e2099a49d163fad90ef6f5f5">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_i"></a>- i -</h3><ul>
 <li>implode()
-: <a class="el" href="d3/dd1/a00214.php#ad688e3c0cf0c670ae196d83a4c6dd0d6">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ad688e3c0cf0c670ae196d83a4c6dd0d6">mcd</a>
 </li>
 <li>info_log()
-: <a class="el" href="d3/dd1/a00214.php#af0b4fd6390d33edc9719d42b26f6e29f">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#af0b4fd6390d33edc9719d42b26f6e29f">mcd</a>
 </li>
 <li>invmod()
-: <a class="el" href="d3/dd1/a00214.php#a6f68c011df46f54833bbda0ac9de04e2">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a6f68c011df46f54833bbda0ac9de04e2">mcd</a>
 </li>
 <li>isDivisor()
-: <a class="el" href="d3/dd1/a00214.php#a23f629777bd39a54b33491cb1223da01">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a23f629777bd39a54b33491cb1223da01">mcd</a>
 </li>
 <li>isLuhn()
-: <a class="el" href="d3/dd1/a00214.php#ab001b84d20c0fffe59c7a55ed872d300">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ab001b84d20c0fffe59c7a55ed872d300">mcd</a>
 </li>
 <li>isNumber()
-: <a class="el" href="d3/dd1/a00214.php#a6a0096efe278298f80c641af617dd216">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a6a0096efe278298f80c641af617dd216">mcd</a>
 </li>
 <li>isPrime()
-: <a class="el" href="d3/dd1/a00214.php#ad3913978376bb08e036a7bf0b21d6b50">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ad3913978376bb08e036a7bf0b21d6b50">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_l"></a>- l -</h3><ul>
 <li>log2p()
-: <a class="el" href="d3/dd1/a00214.php#a69d6be0b9d139073dda5e708c76dccdd">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a69d6be0b9d139073dda5e708c76dccdd">mcd</a>
 </li>
 <li>lowercase()
-: <a class="el" href="d3/dd1/a00214.php#a8401081694d2f40477e24639f48ae3d6">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a8401081694d2f40477e24639f48ae3d6">mcd</a>
 </li>
 <li>luhn()
-: <a class="el" href="d3/dd1/a00214.php#a176933d706495ddff7385a68319e7169">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a176933d706495ddff7385a68319e7169">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_m"></a>- m -</h3><ul>
 <li>max()
-: <a class="el" href="d3/dd1/a00214.php#a50e5370a188b7230c0dce47cc746f533">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a50e5370a188b7230c0dce47cc746f533">mcd</a>
 </li>
 <li>microSleep()
-: <a class="el" href="d3/dd1/a00214.php#a773d8ead6e35e10f86f4285f3f79ecb9">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a773d8ead6e35e10f86f4285f3f79ecb9">mcd</a>
 </li>
 <li>milliSleep()
-: <a class="el" href="d3/dd1/a00214.php#a30ed8e5c290433011b9855598cfc050a">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a30ed8e5c290433011b9855598cfc050a">mcd</a>
 </li>
 <li>min()
-: <a class="el" href="d3/dd1/a00214.php#abc683613235e8674b000071c25747728">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#abc683613235e8674b000071c25747728">mcd</a>
 </li>
 <li>mod()
-: <a class="el" href="d3/dd1/a00214.php#af44c5ff8cc0a054f720ed177e7e44265">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#af44c5ff8cc0a054f720ed177e7e44265">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_n"></a>- n -</h3><ul>
 <li>nanoSleep()
-: <a class="el" href="d3/dd1/a00214.php#a5b2e0c30451ea35d0cc5eb9badea5be0">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a5b2e0c30451ea35d0cc5eb9badea5be0">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_o"></a>- o -</h3><ul>
 <li>operator!=()
-: <a class="el" href="d3/dd1/a00214.php#a8106aa588d48c9fbed5e30e22fd55f76">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a8106aa588d48c9fbed5e30e22fd55f76">mcd</a>
 </li>
 <li>operator%()
-: <a class="el" href="d3/dd1/a00214.php#ade36d3312ff7c93578e529d00411c67a">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ade36d3312ff7c93578e529d00411c67a">mcd</a>
 </li>
 <li>operator%=()
-: <a class="el" href="d3/dd1/a00214.php#a2e6ec1508e48530c9ea83c090cfe9ea1">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a2e6ec1508e48530c9ea83c090cfe9ea1">mcd</a>
 </li>
 <li>operator+()
-: <a class="el" href="d3/dd1/a00214.php#aea330903a85d1247751d666e798ead28">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#aea330903a85d1247751d666e798ead28">mcd</a>
 </li>
 <li>operator++()
-: <a class="el" href="d3/dd1/a00214.php#a164a9c100a128e971c6becd38fe7db82">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a164a9c100a128e971c6becd38fe7db82">mcd</a>
 </li>
 <li>operator+=()
-: <a class="el" href="d3/dd1/a00214.php#a2e20a60d52caf65d9d57c170efc7d56a">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a2e20a60d52caf65d9d57c170efc7d56a">mcd</a>
 </li>
 <li>operator-()
-: <a class="el" href="d3/dd1/a00214.php#a643c3473b3bce61f2ac50e63b8003994">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a643c3473b3bce61f2ac50e63b8003994">mcd</a>
 </li>
 <li>operator--()
-: <a class="el" href="d3/dd1/a00214.php#ad41a22ed7df2868dc7c42872004fc957">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ad41a22ed7df2868dc7c42872004fc957">mcd</a>
 </li>
 <li>operator-=()
-: <a class="el" href="d3/dd1/a00214.php#a50233faf9e0e108078af975455fad0b9">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a50233faf9e0e108078af975455fad0b9">mcd</a>
 </li>
 <li>operator&lt;()
-: <a class="el" href="d3/dd1/a00214.php#a72149c6d15e16114c649ecb03aec7f81">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a72149c6d15e16114c649ecb03aec7f81">mcd</a>
 </li>
 <li>operator&lt;&lt;()
-: <a class="el" href="d3/dd1/a00214.php#a0e76ac5c4df82149886b58edcfc7090a">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a0e76ac5c4df82149886b58edcfc7090a">mcd</a>
 </li>
 <li>operator&lt;=()
-: <a class="el" href="d3/dd1/a00214.php#a57c7184396da7d8b9972ac64f37fc019">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a57c7184396da7d8b9972ac64f37fc019">mcd</a>
 </li>
 <li>operator==()
-: <a class="el" href="d3/dd1/a00214.php#a4ba723943a9c71f6b716cfff3862b656">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a4ba723943a9c71f6b716cfff3862b656">mcd</a>
 </li>
 <li>operator&gt;()
-: <a class="el" href="d3/dd1/a00214.php#aa246dbc03b543a0a767df8e486189488">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#aa246dbc03b543a0a767df8e486189488">mcd</a>
 </li>
 <li>operator&gt;=()
-: <a class="el" href="d3/dd1/a00214.php#ab2490b5d2fcccd5d4fcd7539a3e9ec8f">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ab2490b5d2fcccd5d4fcd7539a3e9ec8f">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_p"></a>- p -</h3><ul>
 <li>pgcd()
-: <a class="el" href="d3/dd1/a00214.php#a0f3f4e24615446479ff59ce15ce61cde">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a0f3f4e24615446479ff59ce15ce61cde">mcd</a>
 </li>
 <li>pop()
-: <a class="el" href="d3/dd1/a00214.php#aad6be0710fa6c480619505eae0afd547">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#aad6be0710fa6c480619505eae0afd547">mcd</a>
 </li>
 <li>ppcm()
-: <a class="el" href="d3/dd1/a00214.php#ad6ca3061a339d883c257105bd831efd1">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ad6ca3061a339d883c257105bd831efd1">mcd</a>
 </li>
 <li>print_all()
-: <a class="el" href="d3/dd1/a00214.php#a95b30a0f37ef4accc8c762eee75bcc12">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a95b30a0f37ef4accc8c762eee75bcc12">mcd</a>
 </li>
 <li>print_r()
-: <a class="el" href="d3/dd1/a00214.php#a49514e6c6c7518d6207a0f707ec92529">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a49514e6c6c7518d6207a0f707ec92529">mcd</a>
 </li>
 <li>printable()
-: <a class="el" href="d3/dd5/a00215.php#a2bef56760d8ffae969e8a1347194b42c">mcd::Check</a>
+: <a class="el" href="dd/dc1/a00212.php#a2bef56760d8ffae969e8a1347194b42c">mcd::Check</a>
 </li>
 <li>printSize()
-: <a class="el" href="d3/dd1/a00214.php#a5046a9dfac4629babcb20cf7b914415e">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a5046a9dfac4629babcb20cf7b914415e">mcd</a>
 </li>
 <li>printType()
-: <a class="el" href="d3/dd1/a00214.php#a2bb83762638ce787815f3699d67faa92">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a2bb83762638ce787815f3699d67faa92">mcd</a>
 </li>
 <li>ProjectionSurSegment()
-: <a class="el" href="d3/dd1/a00214.php#af6f9411fa8041c4f9f81519deeba4a0a">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#af6f9411fa8041c4f9f81519deeba4a0a">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_r"></a>- r -</h3><ul>
 <li>randStr()
-: <a class="el" href="d3/dd1/a00214.php#a1ddd069f38e7407563a5d8e763d7dc90">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a1ddd069f38e7407563a5d8e763d7dc90">mcd</a>
 </li>
 <li>ref()
-: <a class="el" href="d3/dd1/a00214.php#a25c5de928e67bd9c01f720f39329f04c">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a25c5de928e67bd9c01f720f39329f04c">mcd</a>
 </li>
 <li>removeAccents()
-: <a class="el" href="d3/dd1/a00214.php#a31744f235bdcd875c6e69661a4f0a490">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a31744f235bdcd875c6e69661a4f0a490">mcd</a>
 </li>
 <li>replace()
-: <a class="el" href="d3/dd1/a00214.php#a127c51f4d8bd9fdb9eaef6a5173a5d03">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a127c51f4d8bd9fdb9eaef6a5173a5d03">mcd</a>
 </li>
 <li>rewrite()
-: <a class="el" href="d3/dd1/a00214.php#ab06f1dc4b0034eb8041c40a16b70e4ca">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ab06f1dc4b0034eb8041c40a16b70e4ca">mcd</a>
 </li>
 <li>rngRange()
-: <a class="el" href="d3/dd1/a00214.php#a95489209bc34099d9508c0e22a279bb0">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a95489209bc34099d9508c0e22a279bb0">mcd</a>
 </li>
 <li>round()
-: <a class="el" href="d3/dd1/a00214.php#a7e1c88cc52e517f309354a546e78f403">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a7e1c88cc52e517f309354a546e78f403">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_s"></a>- s -</h3><ul>
 <li>servLog()
-: <a class="el" href="d3/dd1/a00214.php#abcc09c3d97d72792032b5615d41aa1c5">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#abcc09c3d97d72792032b5615d41aa1c5">mcd</a>
 </li>
 <li>setlines()
-: <a class="el" href="d3/dd1/a00214.php#a9ba7233f51d28a1a9c7f7e066007b3ac">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a9ba7233f51d28a1a9c7f7e066007b3ac">mcd</a>
 </li>
 <li>sigmoide()
-: <a class="el" href="d3/dd1/a00214.php#a2d67b0e24c6216a693a903f5bc8c31a0">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a2d67b0e24c6216a693a903f5bc8c31a0">mcd</a>
 </li>
 <li>sleep()
-: <a class="el" href="d3/dd1/a00214.php#a0003c12a7cc73a35e488f59ad14770bf">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a0003c12a7cc73a35e488f59ad14770bf">mcd</a>
 </li>
 <li>sortAsc()
-: <a class="el" href="d3/dd1/a00214.php#aded48db1a26c07f913737ebb691c64bf">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#aded48db1a26c07f913737ebb691c64bf">mcd</a>
 </li>
 <li>sortDesc()
-: <a class="el" href="d3/dd1/a00214.php#a878c72753e2d2de82e186351a5314bb6">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a878c72753e2d2de82e186351a5314bb6">mcd</a>
 </li>
 <li>split()
-: <a class="el" href="d3/dd1/a00214.php#a1462df0e8bb2fe7f5bb61bca736ecffa">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a1462df0e8bb2fe7f5bb61bca736ecffa">mcd</a>
 </li>
 <li>sq()
-: <a class="el" href="d3/dd1/a00214.php#a9adc0354f681800c75d220e526377397">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a9adc0354f681800c75d220e526377397">mcd</a>
 </li>
 <li>sqrt()
-: <a class="el" href="d3/dd1/a00214.php#ae3a712e4de66375b1a188fa464c968e2">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ae3a712e4de66375b1a188fa464c968e2">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_t"></a>- t -</h3><ul>
 <li>tob()
-: <a class="el" href="d3/dd1/a00214.php#af64dff777bec7ba0d0dd8ad991a0a513">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#af64dff777bec7ba0d0dd8ad991a0a513">mcd</a>
 </li>
 <li>toBigVal()
-: <a class="el" href="d3/dd1/a00214.php#a66e560b6579bb202abdcee37283121a0">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a66e560b6579bb202abdcee37283121a0">mcd</a>
 </li>
 <li>tod()
-: <a class="el" href="d3/dd1/a00214.php#a04a4013b5e7e102afa595db39c2c51d0">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a04a4013b5e7e102afa595db39c2c51d0">mcd</a>
 </li>
 <li>tof()
-: <a class="el" href="d3/dd1/a00214.php#aff767f9afbaa05b8075ddb95ed1005ec">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#aff767f9afbaa05b8075ddb95ed1005ec">mcd</a>
 </li>
 <li>toi()
-: <a class="el" href="d3/dd1/a00214.php#a394c6f6e658ef68f7fa628a4ef1a27d8">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a394c6f6e658ef68f7fa628a4ef1a27d8">mcd</a>
 </li>
 <li>tomilli()
-: <a class="el" href="d3/dd1/a00214.php#aebefabfd65c7a5f04f743779483dabbc">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#aebefabfd65c7a5f04f743779483dabbc">mcd</a>
 </li>
 <li>tos()
-: <a class="el" href="d3/dd1/a00214.php#a4a881e27c7ab22bb256fe6fa915a53f3">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a4a881e27c7ab22bb256fe6fa915a53f3">mcd</a>
 </li>
 <li>tosh()
-: <a class="el" href="d3/dd1/a00214.php#affda53dfde66654c598d454cffb0e68c">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#affda53dfde66654c598d454cffb0e68c">mcd</a>
 </li>
 <li>tost()
-: <a class="el" href="d3/dd1/a00214.php#a19f7b1d39da03306645ea0d3cf20ac57">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a19f7b1d39da03306645ea0d3cf20ac57">mcd</a>
 </li>
 <li>tou()
-: <a class="el" href="d3/dd1/a00214.php#ad6f79ef9559f97a0c2df2ae9a2823b2d">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ad6f79ef9559f97a0c2df2ae9a2823b2d">mcd</a>
 </li>
 <li>tov()
-: <a class="el" href="d3/dd1/a00214.php#aac31252127b23397d1d2a33edcbef372">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#aac31252127b23397d1d2a33edcbef372">mcd</a>
 </li>
 <li>treeAscSorter()
-: <a class="el" href="d3/dd1/a00214.php#aa17a2314efb86933584ae451318a17da">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#aa17a2314efb86933584ae451318a17da">mcd</a>
 </li>
 <li>treeDescSorter()
-: <a class="el" href="d3/dd1/a00214.php#a1865ef6e7eed9ac5fa5b177b3f8dd1e9">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a1865ef6e7eed9ac5fa5b177b3f8dd1e9">mcd</a>
 </li>
 <li>trim()
-: <a class="el" href="d3/dd1/a00214.php#aa97708c3c4ad49b7e60d30c66bfad80a">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#aa97708c3c4ad49b7e60d30c66bfad80a">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_u"></a>- u -</h3><ul>
 <li>uppercase()
-: <a class="el" href="d3/dd1/a00214.php#a9b1fa9cade94967538723cead132456c">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a9b1fa9cade94967538723cead132456c">mcd</a>
 </li>
 </ul>
 
 
 <h3><a id="index_w"></a>- w -</h3><ul>
 <li>warning_log()
-: <a class="el" href="d3/dd1/a00214.php#ac625de83fcace96567aecd1363297776">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ac625de83fcace96567aecd1363297776">mcd</a>
 </li>
 <li>wholePart()
-: <a class="el" href="d3/dd1/a00214.php#af9443ebf71fe196006831fe344a09f13">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#af9443ebf71fe196006831fe344a09f13">mcd</a>
 </li>
 </ul>
 </div><!-- contents -->

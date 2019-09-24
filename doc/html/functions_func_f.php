@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 18 2019 20:20:56 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 18:56:58 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,13 +93,13 @@ $(document).ready(function(){initNavTree('functions_func_f.php','');});
 
 <h3><a id="index_f"></a>- f -</h3><ul>
 <li>final()
-: <a class="el" href="d4/d1c/a00903.php#a46a2f66f96d1152c972b8fc2c228db77">mcd::SHA2</a>
+: <a class="el" href="d9/db0/a00900.php#a46a2f66f96d1152c972b8fc2c228db77">mcd::SHA2</a>
 </li>
 <li>find()
-: <a class="el" href="d3/d42/a01051.php#a5f28587248a842f1ff72837a8132c00e">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d5/de7/a01048.php#a5f28587248a842f1ff72837a8132c00e">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>Fraction()
-: <a class="el" href="df/dbc/a00931.php#a9397e2e1fbfba88c48928e5135925f8d">mcd::Fraction</a>
+: <a class="el" href="dd/d38/a00928.php#a9397e2e1fbfba88c48928e5135925f8d">mcd::Fraction</a>
 </li>
 </ul>
 </div><!-- contents -->

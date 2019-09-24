@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Check::is_thread_ptr&lt; T &gt; Class Template Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 17 2019 11:06:05 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 18:56:58 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d4/d95/a00989.php','../../');});
+$(document).ready(function(){initNavTree('d7/d76/a00992.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,64 +89,27 @@ $(document).ready(function(){initNavTree('d4/d95/a00989.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="../../d3/d7b/a00986.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_thread_ptr&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::PathfindingProblem Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A template class to test if T is a std::shared_ptr&lt;std::thread&gt;, a std::unique_ptr&lt;std::thread&gt;, a std::weak_ptr&lt;std::thread&gt; or a std::thread*.  
- <a href="../../d4/d95/a00989.php#details">More...</a></p>
-
-<p><code>#include &lt;pointers.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:aeaf71256c26f5b5be4a5e5db9035500b"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/a00989.php#aeaf71256c26f5b5be4a5e5db9035500b">value</a> = false</td></tr>
-<tr class="separator:aeaf71256c26f5b5be4a5e5db9035500b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_thread_ptr&lt; T &gt;</h3>
-
-<p>A template class to test if T is a std::shared_ptr&lt;std::thread&gt;, a std::unique_ptr&lt;std::thread&gt;, a std::weak_ptr&lt;std::thread&gt; or a std::thread*. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="aeaf71256c26f5b5be4a5e5db9035500b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeaf71256c26f5b5be4a5e5db9035500b">&#9670;&nbsp;</a></span>value</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const bool <a class="el" href="../../d4/d95/a00989.php">mcd::Check::is_thread_ptr</a>&lt; T &gt;::value = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d7/dce/a00143.php">pointers.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d7/d76/a00992.php">mcd::PathfindingProblem</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d76/a00992.php#a70c60dedee9b93e8bcd750a60e37ecfd">computed</a></td><td class="entry"><a class="el" href="../../d7/d76/a00992.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d76/a00992.php#ae7e5173f36187aeb5e1c334d60f2c914">distances</a></td><td class="entry"><a class="el" href="../../d7/d76/a00992.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d76/a00992.php#a87c634685eea28780ddc10b7aa08af07">nbNodes</a></td><td class="entry"><a class="el" href="../../d7/d76/a00992.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d76/a00992.php#adb3befe767011d5d5738d1e4cb756e09">nodes</a></td><td class="entry"><a class="el" href="../../d7/d76/a00992.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d76/a00992.php#af2aa5f359715262ae600422bb49e79af">PathfindingProblem</a>(std::vector&lt; PathfindingNode &gt; nodes, std::map&lt; size_t, std::map&lt; size_t, double64_t &gt; &gt; distances)</td><td class="entry"><a class="el" href="../../d7/d76/a00992.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d76/a00992.php#a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0">PathfindingProblem</a>(std::vector&lt; PathfindingNode &gt; nodes, std::map&lt; size_t, std::map&lt; size_t, double64_t &gt; &gt; distances, std::map&lt; size_t, std::map&lt; size_t, double64_t &gt; &gt; weights)</td><td class="entry"><a class="el" href="../../d7/d76/a00992.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d76/a00992.php#ab5fbef9d1844f398fffd1dbc2870adef">weights</a></td><td class="entry"><a class="el" href="../../d7/d76/a00992.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d76/a00992.php#a0bf356ad792ba79df121cedf0501f6f1">~PathfindingProblem</a>()</td><td class="entry"><a class="el" href="../../d7/d76/a00992.php">mcd::PathfindingProblem</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d7/ded/a00196.php">mcd</a></li><li class="navelem"><a class="el" href="../../de/db1/a00197.php">Check</a></li><li class="navelem"><a class="el" href="../../d4/d95/a00989.php">is_thread_ptr</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

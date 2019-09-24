@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Check::is_pair&lt; T &gt; Class Template Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 17 2019 11:06:05 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 18:56:58 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d3/d00/a00785.php','../../');});
+$(document).ready(function(){initNavTree('df/d0c/a00788.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,64 +89,61 @@ $(document).ready(function(){initNavTree('d3/d00/a00785.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="../../da/d96/a00782.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_pair&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Big Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A template class to test if T is a std::pair.  
- <a href="../../d3/d00/a00785.php#details">More...</a></p>
-
-<p><code>#include &lt;check.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:ac3fa87bfb2551b3a98cac89a0c39b2ba"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d00/a00785.php#ac3fa87bfb2551b3a98cac89a0c39b2ba">value</a> = false</td></tr>
-<tr class="separator:ac3fa87bfb2551b3a98cac89a0c39b2ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_pair&lt; T &gt;</h3>
-
-<p>A template class to test if T is a std::pair. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac3fa87bfb2551b3a98cac89a0c39b2ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3fa87bfb2551b3a98cac89a0c39b2ba">&#9670;&nbsp;</a></span>value</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const bool <a class="el" href="../../d3/d00/a00785.php">mcd::Check::is_pair</a>&lt; T &gt;::value = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../dd/d32/a00041.php">check.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../df/d0c/a00788.php">mcd::Big</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a9bf22e73a5a3631f06200da9a86e926b">Big</a>(T val)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#af4971f6581c28b8889e9ce407187d957">Big</a>(std::string val)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a0c0fb68d6f3b4fe4c389d8644d9cbb83">Big</a>()</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#ada4cda942288d227526a61802989e7c9">Big</a>(const Big &amp;other)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#ac7c89a72ade9c9e245646b8828a2c033">Big</a>(const Big &amp;&amp;other)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a2ed0b910c5ed7ec9875836082c63baa8">mod</a>(const Big &amp;a, const Big &amp;b)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a21b8fc95f6ce377054c153aa5f1e871c">nroot</a>(const Big &amp;a, size_t exp)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#ac482f8c9f482ce76ed197faf07d24617">operator bool</a>() const noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a638fbd4ccaffb7b432c7c78d2f510134">operator std::string</a>() const noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a42a1a05e756cde973a62bede71473069">operator T</a>() const noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#aaeca4e372966fe2b3b857d52880ca210">operator!</a>(const Big &amp;a) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#ad9c55799e64051a79feb72642bacc2bd">operator!=</a>(const Big &amp;a, const Big &amp;b) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a8082f5075921a15bedfa304ddc5f0bfa">operator%</a>(const Big &amp;a, const Big &amp;b)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a078be418a37b709c8124ec69cfd66836">operator%=</a>(const Big &amp;other)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#aef65b2815526a32f3da7094648cb5ef7">operator*</a>(const Big &amp;a, const Big &amp;b) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#aee0004ba93bf9b5e84bc6069b2e70330">operator*=</a>(const Big &amp;other) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#ad475b8459ee2ea450eecbc0b2a49f221">operator+</a>(const Big &amp;in) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a4097440072b14b44b9f362be9bc7faa0">operator+</a>(const Big &amp;a, const Big &amp;b) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a561b68f0811a35c5af315d6b52f8c858">operator++</a>(Big &amp;in) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a428362bc3ba31175efe0bd92444b0272">operator++</a>(Big &amp;in, int) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a71c734bca411504941a7a5a611b8e285">operator+=</a>(const Big &amp;other) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a8d411571b65ece2daacc12f0293850e8">operator-</a>(const Big &amp;in) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#aa7b2588e5feb48f5dd51983be1ee0457">operator-</a>(const Big &amp;a, const Big &amp;b) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a5226a81d618e406ae59842011efff7f0">operator--</a>(Big &amp;in) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a7c31262f77d5d61aba3f990ff998c913">operator--</a>(Big &amp;in, int) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#aa11404d0af642fa7e89fc484445200d5">operator-=</a>(const Big &amp;other) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#aa0213bc63f03a5db6ec4d081b9320a96">operator/</a>(const Big &amp;a, const Big &amp;b)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#aed2dc1aa4bd20abbe2c48aefe115b57d">operator/=</a>(const Big &amp;other)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a9c625348272715ed4dad2c1420fb5bd0">operator&lt;</a>(const Big &amp;a, const Big &amp;b) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a6d1ae6342e0dd6f689535b21fd46a023">operator&lt;&lt;</a>(std::ostream &amp;os, const Big &amp;other) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a74e55e1a85a44b255d0f8e1158e02658">operator&lt;=</a>(const Big &amp;a, const Big &amp;b) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a280921a6fccbc4255f53889d4189706b">operator=</a>(const Big &amp;other) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#adc8b04536591da50d9c9342a5eccaf42">operator=</a>(const Big &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a5eed09966f2142f9d979e7be4643c06a">operator==</a>(const Big &amp;a, const Big &amp;b) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#ac75c3d550acaece7444e1d3373e0ced6">operator&gt;</a>(const Big &amp;a, const Big &amp;b) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#adf83d734f0c4b777bb675bf327996987">operator&gt;=</a>(const Big &amp;a, const Big &amp;b) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a91ce80d3959e1d2a891e58c940c8631b">operator&gt;&gt;</a>(std::istream &amp;is, Big &amp;other) noexcept</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#aa6a7af66a5c239b2b46979e998c43679">pgcd</a>(const Big &amp;a, const Big &amp;b)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a9d40406ec9457a1565a2b0c60585ae9b">pow</a>(const Big &amp;a, const Big &amp;exp)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a47a5b6f09008ce7cba2a498211a97073">prime</a>() const</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a2ba3bebe48bb259b18c9b67d57231dfa">size</a>() const</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#aff6ef43d1ad143b805150718c0f75c84">~Big</a>()</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d7/ded/a00196.php">mcd</a></li><li class="navelem"><a class="el" href="../../de/db1/a00197.php">Check</a></li><li class="navelem"><a class="el" href="../../d3/d00/a00785.php">is_pair</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

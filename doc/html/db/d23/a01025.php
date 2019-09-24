@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Tree&lt; T &gt; Class Template Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 17 2019 11:06:05 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 18:56:58 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('db/d23/a01025.php','../../');});
+$(document).ready(function(){initNavTree('db/d08/a01028.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,710 +89,53 @@ $(document).ready(function(){initNavTree('db/d23/a01025.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="../../d1/dd8/a01022.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Tree&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Stone Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to manage a binary tree.  
- <a href="../../db/d23/a01025.php#details">More...</a></p>
-
-<p><code>#include &lt;Tree.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a93774d1792effab8a46379c6781729f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a93774d1792effab8a46379c6781729f0">Tree</a> (<a class="el" href="../../d7/ded/a00196.php#a476a24d6aeedfa55efcaee6379946a75">TREE_SORT</a> sorting=<a class="el" href="../../d7/ded/a00196.php#a476a24d6aeedfa55efcaee6379946a75a8f22891e42808a1ec2280811f4954151">ASC</a>)</td></tr>
-<tr class="separator:a93774d1792effab8a46379c6781729f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44571a01497b2ac582c292c8bad9de33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a44571a01497b2ac582c292c8bad9de33">~Tree</a> ()</td></tr>
-<tr class="separator:a44571a01497b2ac582c292c8bad9de33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f28587248a842f1ff72837a8132c00e"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="../../d7/ded/a00196.php#d5/dfb/a01021">Node</a>&lt; T &gt; *, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a5f28587248a842f1ff72837a8132c00e">find</a> (T value)</td></tr>
-<tr class="memdesc:a5f28587248a842f1ff72837a8132c00e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a value in the tree and return the node and the path to the node.  <a href="#a5f28587248a842f1ff72837a8132c00e">More...</a><br /></td></tr>
-<tr class="separator:a5f28587248a842f1ff72837a8132c00e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada7f6fc4dba1856a8aae67983ba5544b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#ada7f6fc4dba1856a8aae67983ba5544b">getRightCount</a> (<a class="el" href="../../d7/ded/a00196.php#d5/dfb/a01021">Node</a>&lt; T &gt; *node)</td></tr>
-<tr class="memdesc:ada7f6fc4dba1856a8aae67983ba5544b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the depth on right.  <a href="#ada7f6fc4dba1856a8aae67983ba5544b">More...</a><br /></td></tr>
-<tr class="separator:ada7f6fc4dba1856a8aae67983ba5544b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a634efe609117c9533707b9f30bd0c488"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a634efe609117c9533707b9f30bd0c488">getLeftCount</a> (<a class="el" href="../../d7/ded/a00196.php#d5/dfb/a01021">Node</a>&lt; T &gt; *node)</td></tr>
-<tr class="memdesc:a634efe609117c9533707b9f30bd0c488"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the depth on left.  <a href="#a634efe609117c9533707b9f30bd0c488">More...</a><br /></td></tr>
-<tr class="separator:a634efe609117c9533707b9f30bd0c488"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e6f8d4ad100be50a970848a0c8437d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a1e6f8d4ad100be50a970848a0c8437d1">print</a> ()</td></tr>
-<tr class="memdesc:a1e6f8d4ad100be50a970848a0c8437d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the tree.  <a href="#a1e6f8d4ad100be50a970848a0c8437d1">More...</a><br /></td></tr>
-<tr class="separator:a1e6f8d4ad100be50a970848a0c8437d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1c0e2b0a15c31c48ed5cade92c4ae3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#aa1c0e2b0a15c31c48ed5cade92c4ae3d">applyForEach</a> (void(*func)(<a class="el" href="../../d7/ded/a00196.php#d5/dfb/a01021">Node</a>&lt; T &gt; *, long int))</td></tr>
-<tr class="memdesc:aa1c0e2b0a15c31c48ed5cade92c4ae3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do something for each node.  <a href="#aa1c0e2b0a15c31c48ed5cade92c4ae3d">More...</a><br /></td></tr>
-<tr class="separator:aa1c0e2b0a15c31c48ed5cade92c4ae3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a069d03de16fc9d3db25d7ec67ed6811b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a069d03de16fc9d3db25d7ec67ed6811b">height</a> ()</td></tr>
-<tr class="memdesc:a069d03de16fc9d3db25d7ec67ed6811b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the height of the tree.  <a href="#a069d03de16fc9d3db25d7ec67ed6811b">More...</a><br /></td></tr>
-<tr class="separator:a069d03de16fc9d3db25d7ec67ed6811b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53cd621cced254067f1ebac4e2abe8df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a53cd621cced254067f1ebac4e2abe8df">insert</a> (std::pair&lt; T, <a class="el" href="../../d7/ded/a00196.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a> &gt; datas)</td></tr>
-<tr class="memdesc:a53cd621cced254067f1ebac4e2abe8df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert datas in the tree.  <a href="#a53cd621cced254067f1ebac4e2abe8df">More...</a><br /></td></tr>
-<tr class="separator:a53cd621cced254067f1ebac4e2abe8df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a02b5886471e9607d6dd9caa3216657"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a3a02b5886471e9607d6dd9caa3216657">create</a> (std::vector&lt; std::pair&lt; T, <a class="el" href="../../d7/ded/a00196.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a> &gt;&gt; datas)</td></tr>
-<tr class="memdesc:a3a02b5886471e9607d6dd9caa3216657"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a binary tree with a custom sort function.  <a href="#a3a02b5886471e9607d6dd9caa3216657">More...</a><br /></td></tr>
-<tr class="separator:a3a02b5886471e9607d6dd9caa3216657"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20ba766efa9e94d90d156432d6f101b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a20ba766efa9e94d90d156432d6f101b1">add</a> (T data, <a class="el" href="../../d7/ded/a00196.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a> weight)</td></tr>
-<tr class="memdesc:a20ba766efa9e94d90d156432d6f101b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add datas in the tree.  <a href="#a20ba766efa9e94d90d156432d6f101b1">More...</a><br /></td></tr>
-<tr class="separator:a20ba766efa9e94d90d156432d6f101b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38b40b07bade18a081d80596983dd16c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a38b40b07bade18a081d80596983dd16c">equilibrate</a> (<a class="el" href="../../d7/ded/a00196.php#a476a24d6aeedfa55efcaee6379946a75">TREE_SORT</a> sort=<a class="el" href="../../d7/ded/a00196.php#a476a24d6aeedfa55efcaee6379946a75a8f22891e42808a1ec2280811f4954151">ASC</a>)</td></tr>
-<tr class="memdesc:a38b40b07bade18a081d80596983dd16c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equilibrate the tree.  <a href="#a38b40b07bade18a081d80596983dd16c">More...</a><br /></td></tr>
-<tr class="separator:a38b40b07bade18a081d80596983dd16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9cda4b45c11828381cde08fa48ae94d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#ad9cda4b45c11828381cde08fa48ae94d">onDelete</a> (void(*func)(<a class="el" href="../../d7/ded/a00196.php#d5/dfb/a01021">Node</a>&lt; T &gt; *))</td></tr>
-<tr class="memdesc:ad9cda4b45c11828381cde08fa48ae94d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A setter for the deletion function.  <a href="#ad9cda4b45c11828381cde08fa48ae94d">More...</a><br /></td></tr>
-<tr class="separator:ad9cda4b45c11828381cde08fa48ae94d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a279d0472004ed9618dde58fcfd6bb508"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a279d0472004ed9618dde58fcfd6bb508">onCompare</a> (void(*func)(<a class="el" href="../../d7/ded/a00196.php#d5/dfb/a01021">Node</a>&lt; T &gt; *, <a class="el" href="../../d7/ded/a00196.php#d5/dfb/a01021">Node</a>&lt; T &gt; *))</td></tr>
-<tr class="memdesc:a279d0472004ed9618dde58fcfd6bb508"><td class="mdescLeft">&#160;</td><td class="mdescRight">A setter for the comparator function.  <a href="#a279d0472004ed9618dde58fcfd6bb508">More...</a><br /></td></tr>
-<tr class="separator:a279d0472004ed9618dde58fcfd6bb508"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf42d9cae430064e1b52b8cd3e57ee42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#aaf42d9cae430064e1b52b8cd3e57ee42">asc</a> ()</td></tr>
-<tr class="memdesc:aaf42d9cae430064e1b52b8cd3e57ee42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the sorter ascending.  <a href="#aaf42d9cae430064e1b52b8cd3e57ee42">More...</a><br /></td></tr>
-<tr class="separator:aaf42d9cae430064e1b52b8cd3e57ee42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52f3b03c077b82ded999b5cbd197f1e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a52f3b03c077b82ded999b5cbd197f1e3">desc</a> ()</td></tr>
-<tr class="memdesc:a52f3b03c077b82ded999b5cbd197f1e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the sorter descending.  <a href="#a52f3b03c077b82ded999b5cbd197f1e3">More...</a><br /></td></tr>
-<tr class="separator:a52f3b03c077b82ded999b5cbd197f1e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a22b22135964e818cd9d0ef9ded9f39de"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
-<tr class="memitem:a22b22135964e818cd9d0ef9ded9f39de"><td class="memTemplItemLeft" align="right" valign="top">static std::vector&lt; std::pair&lt; T, <a class="el" href="../../d7/ded/a00196.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a> &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a22b22135964e818cd9d0ef9ded9f39de">convert</a> (std::vector&lt; std::pair&lt; T, U &gt;&gt; in)</td></tr>
-<tr class="memdesc:a22b22135964e818cd9d0ef9ded9f39de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an array format for the tree.  <a href="#a22b22135964e818cd9d0ef9ded9f39de">More...</a><br /></td></tr>
-<tr class="separator:a22b22135964e818cd9d0ef9ded9f39de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Tree&lt; T &gt;</h3>
-
-<p>A class to manage a binary tree. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a93774d1792effab8a46379c6781729f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93774d1792effab8a46379c6781729f0">&#9670;&nbsp;</a></span>Tree()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::<a class="el" href="../../db/d23/a01025.php">Tree</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/ded/a00196.php#a476a24d6aeedfa55efcaee6379946a75">TREE_SORT</a>&#160;</td>
-          <td class="paramname"><em>sorting</em> = <code><a class="el" href="../../d7/ded/a00196.php#a476a24d6aeedfa55efcaee6379946a75a8f22891e42808a1ec2280811f4954151">ASC</a></code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../db/d23/a01025_a93774d1792effab8a46379c6781729f0_cgraph.png" border="0" usemap="#db/d23/a01025_a93774d1792effab8a46379c6781729f0_cgraph" alt=""/></div>
-<map name="db/d23/a01025_a93774d1792effab8a46379c6781729f0_cgraph" id="db/d23/a01025_a93774d1792effab8a46379c6781729f0_cgraph">
-<area shape="rect" id="node2" href="../../d7/ded/a00196.php#aa17a2314efb86933584ae451318a17da" title="Function to sort a tree ascendently depending on weights. " alt="" coords="172,5,307,32"/>
-<area shape="rect" id="node3" href="../../d7/ded/a00196.php#a1865ef6e7eed9ac5fa5b177b3f8dd1e9" title="Function to sort a tree descendently depending on weights. " alt="" coords="168,56,311,83"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a44571a01497b2ac582c292c8bad9de33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44571a01497b2ac582c292c8bad9de33">&#9670;&nbsp;</a></span>~Tree()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::~<a class="el" href="../../db/d23/a01025.php">Tree</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a20ba766efa9e94d90d156432d6f101b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20ba766efa9e94d90d156432d6f101b1">&#9670;&nbsp;</a></span>add()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::add </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/ded/a00196.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a>&#160;</td>
-          <td class="paramname"><em>weight</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Add datas in the tree. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>The data to add </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">weight</td><td>The weight of the data</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
-
-</div>
-</div>
-<a id="aa1c0e2b0a15c31c48ed5cade92c4ae3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1c0e2b0a15c31c48ed5cade92c4ae3d">&#9670;&nbsp;</a></span>applyForEach()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::applyForEach </td>
-          <td>(</td>
-          <td class="paramtype">void(*)(<a class="el" href="../../d7/ded/a00196.php#d5/dfb/a01021">Node</a>&lt; T &gt; *, long int)&#160;</td>
-          <td class="paramname"><em>func</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Do something for each node. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The function to apply</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="aaf42d9cae430064e1b52b8cd3e57ee42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf42d9cae430064e1b52b8cd3e57ee42">&#9670;&nbsp;</a></span>asc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::asc </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the sorter ascending. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../db/d23/a01025_aaf42d9cae430064e1b52b8cd3e57ee42_cgraph.png" border="0" usemap="#db/d23/a01025_aaf42d9cae430064e1b52b8cd3e57ee42_cgraph" alt=""/></div>
-<map name="db/d23/a01025_aaf42d9cae430064e1b52b8cd3e57ee42_cgraph" id="db/d23/a01025_aaf42d9cae430064e1b52b8cd3e57ee42_cgraph">
-<area shape="rect" id="node2" href="../../d7/ded/a00196.php#aa17a2314efb86933584ae451318a17da" title="Function to sort a tree ascendently depending on weights. " alt="" coords="164,5,299,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a22b22135964e818cd9d0ef9ded9f39de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22b22135964e818cd9d0ef9ded9f39de">&#9670;&nbsp;</a></span>convert()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<div class="memtemplate">
-template&lt;typename U &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static std::vector&lt;std::pair&lt;T, <a class="el" href="../../d7/ded/a00196.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a>&gt; &gt; <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::convert </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::pair&lt; T, U &gt;&gt;&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return an array format for the tree. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The value to convert</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return <em>in</em> converted for the tree </dd></dl>
-
-</div>
-</div>
-<a id="a3a02b5886471e9607d6dd9caa3216657"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a02b5886471e9607d6dd9caa3216657">&#9670;&nbsp;</a></span>create()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::create </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::pair&lt; T, <a class="el" href="../../d7/ded/a00196.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a> &gt;&gt;&#160;</td>
-          <td class="paramname"><em>datas</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Create a binary tree with a custom sort function. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">datas</td><td>All the datas for the tree</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a52f3b03c077b82ded999b5cbd197f1e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52f3b03c077b82ded999b5cbd197f1e3">&#9670;&nbsp;</a></span>desc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::desc </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the sorter descending. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../db/d23/a01025_a52f3b03c077b82ded999b5cbd197f1e3_cgraph.png" border="0" usemap="#db/d23/a01025_a52f3b03c077b82ded999b5cbd197f1e3_cgraph" alt=""/></div>
-<map name="db/d23/a01025_a52f3b03c077b82ded999b5cbd197f1e3_cgraph" id="db/d23/a01025_a52f3b03c077b82ded999b5cbd197f1e3_cgraph">
-<area shape="rect" id="node2" href="../../d7/ded/a00196.php#a1865ef6e7eed9ac5fa5b177b3f8dd1e9" title="Function to sort a tree descendently depending on weights. " alt="" coords="171,5,313,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a38b40b07bade18a081d80596983dd16c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38b40b07bade18a081d80596983dd16c">&#9670;&nbsp;</a></span>equilibrate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::equilibrate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/ded/a00196.php#a476a24d6aeedfa55efcaee6379946a75">TREE_SORT</a>&#160;</td>
-          <td class="paramname"><em>sort</em> = <code><a class="el" href="../../d7/ded/a00196.php#a476a24d6aeedfa55efcaee6379946a75a8f22891e42808a1ec2280811f4954151">ASC</a></code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Equilibrate the tree. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">sort</td><td>Choose the sorting order with a TREE_SORT</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a5f28587248a842f1ff72837a8132c00e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f28587248a842f1ff72837a8132c00e">&#9670;&nbsp;</a></span>find()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::pair&lt;<a class="el" href="../../d7/ded/a00196.php#d5/dfb/a01021">Node</a>&lt;T&gt;*, std::string&gt; <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::find </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Find a value in the tree and return the node and the path to the node. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The value to find in the tree</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the node and the path to this node from the root </dd></dl>
-
-</div>
-</div>
-<a id="a634efe609117c9533707b9f30bd0c488"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a634efe609117c9533707b9f30bd0c488">&#9670;&nbsp;</a></span>getLeftCount()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::getLeftCount </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/ded/a00196.php#d5/dfb/a01021">Node</a>&lt; T &gt; *&#160;</td>
-          <td class="paramname"><em>node</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the depth on left. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">node</td><td>The root node of the tree</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the number of nodes on the left </dd></dl>
-
-</div>
-</div>
-<a id="ada7f6fc4dba1856a8aae67983ba5544b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada7f6fc4dba1856a8aae67983ba5544b">&#9670;&nbsp;</a></span>getRightCount()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::getRightCount </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/ded/a00196.php#d5/dfb/a01021">Node</a>&lt; T &gt; *&#160;</td>
-          <td class="paramname"><em>node</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the depth on right. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">node</td><td>The root node of the tree</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the number of nodes on the right </dd></dl>
-
-</div>
-</div>
-<a id="a069d03de16fc9d3db25d7ec67ed6811b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a069d03de16fc9d3db25d7ec67ed6811b">&#9670;&nbsp;</a></span>height()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::height </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the height of the tree. </p>
-<dl class="section return"><dt>Returns</dt><dd>Return the height of the tree </dd></dl>
-
-</div>
-</div>
-<a id="a53cd621cced254067f1ebac4e2abe8df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53cd621cced254067f1ebac4e2abe8df">&#9670;&nbsp;</a></span>insert()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::insert </td>
-          <td>(</td>
-          <td class="paramtype">std::pair&lt; T, <a class="el" href="../../d7/ded/a00196.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a> &gt;&#160;</td>
-          <td class="paramname"><em>datas</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Insert datas in the tree. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">datas</td><td>The datas for the new node</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a279d0472004ed9618dde58fcfd6bb508"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a279d0472004ed9618dde58fcfd6bb508">&#9670;&nbsp;</a></span>onCompare()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::onCompare </td>
-          <td>(</td>
-          <td class="paramtype">void(*)(<a class="el" href="../../d7/ded/a00196.php#d5/dfb/a01021">Node</a>&lt; T &gt; *, <a class="el" href="../../d7/ded/a00196.php#d5/dfb/a01021">Node</a>&lt; T &gt; *)&#160;</td>
-          <td class="paramname"><em>func</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>A setter for the comparator function. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The function to use to the weights' comparison</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="ad9cda4b45c11828381cde08fa48ae94d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9cda4b45c11828381cde08fa48ae94d">&#9670;&nbsp;</a></span>onDelete()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::onDelete </td>
-          <td>(</td>
-          <td class="paramtype">void(*)(<a class="el" href="../../d7/ded/a00196.php#d5/dfb/a01021">Node</a>&lt; T &gt; *)&#160;</td>
-          <td class="paramname"><em>func</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>A setter for the deletion function. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The function to use on the destroy of the object</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a1e6f8d4ad100be50a970848a0c8437d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e6f8d4ad100be50a970848a0c8437d1">&#9670;&nbsp;</a></span>print()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::Tree</a>&lt; T &gt;::print </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Print the tree. </p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../db/dd9/a00179.php">Tree.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../db/d08/a01028.php">mcd::Stone</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a7f4fa78c938b90c034ad0fe98a293a3c">addPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a807590a9e81f34ba22aca08ddd986db7">Contraption</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a580eafa58a93d9ab4264c4cbac2f4167">getA</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#aa36a1788770d7667d8a2848ff1e3f0c6">getAttributes</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#aec81012bc23935e626500734007d5fb5">getH</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a2f6cf40462b5dba5f7743c83cc2389f1">getLevel</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a393c4ec6fd375809fbcf1cfeab44ed25">getMap</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#ac95da2f760e8ba07a54ac849c5a3307f">getPosition</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a20dee618b85a3f841921a534bd5dfd37">getRelativeZ</a>(Contraption &amp;obj)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#ad12fd1c5a207f169edc619e09a5a969f">getW</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a6e7d791e4289bd253a357be80f8131ee">getX</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a153124dd434c08a943f60d7b43c2ffab">getY</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a6ac6575807535f3d9aeb251ce3cceaed">getZ</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/dd4/a00968.php#ad332f3a57527a6ede1be2e18b65615a5">Object</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d7/dd4/a00968.php">mcd::Object</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d08/a01028.php#ad23699d742569bc0eb2e9724a37b6cdf">printInfos</a>(std::ostream &amp;stream) const override</td><td class="entry"><a class="el" href="../../db/d08/a01028.php">mcd::Stone</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a6ee6d1b64b6b88068a2165a1824a5af2">sender</a>(std::string, vector_str)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a73a47e55e554e7c7f357a74276368186">setA</a>(double64_t angle)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a9c5a7acde997e12d99e717f182c5ced7">setAttributes</a>(ContraptionAttr attr)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#ae44610d2144faf1550f8cc6ec860fb71">setAttributes</a>(double64_t w, double64_t h, double64_t angle=0)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a060b6ee9401bd8c9a03c5cecdbfa1942">setH</a>(double64_t h)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a332ecd56522af01cf41b9c4a69449bd0">setLevel</a>(size_t level)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a8a6c84d9d5f814fe553b731d841a5266">setMap</a>(Map *map)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a2974b562f55f65a1b992ff849eea43cf">setPosition</a>(Point pt)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#aae0d0bd5e4613514eb5cda66eaeabbcb">setPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a2a00e0217550c3b79434659e04d40aef">setW</a>(double64_t w)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#abbaabb4c71f560de8c85a859c11dd57a">setX</a>(double64_t x)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a3e1fc3a4ee923891fa0c523f129c45af">setY</a>(double64_t y)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a08c1de8034f9e3985a24dd78d37a3d44">setZ</a>(double64_t z)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d08/a01028.php#a0b078b3e2aea50454478300140675661">Stone</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../db/d08/a01028.php">mcd::Stone</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a10b4b5c4cd47da89e672c64c41b23162">turnLeft</a>()</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a4f7cef1423cf575fabafa2143a588788">turnRight</a>()</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a17bb565b03902a28211f8609ac04d01b">~Contraption</a>()</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd4/a00968.php#a400f71c448a89abecda88ba70ab5029f">~Object</a>()</td><td class="entry"><a class="el" href="../../d7/dd4/a00968.php">mcd::Object</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/d08/a01028.php#aa34b6384ef8063fdf92582115c0765c1">~Stone</a>()</td><td class="entry"><a class="el" href="../../db/d08/a01028.php">mcd::Stone</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d7/ded/a00196.php">mcd</a></li><li class="navelem"><a class="el" href="../../db/d23/a01025.php">Tree</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

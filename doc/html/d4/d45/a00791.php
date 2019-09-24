@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 18 2019 20:20:55 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 14:43:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -139,6 +139,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a078be418a37b709c8124ec69cfd66836"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a638fbd4ccaffb7b432c7c78d2f510134"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a00791.php#a638fbd4ccaffb7b432c7c78d2f510134">operator std::string</a> () const noexcept</td></tr>
 <tr class="separator:a638fbd4ccaffb7b432c7c78d2f510134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac482f8c9f482ce76ed197faf07d24617"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a00791.php#ac482f8c9f482ce76ed197faf07d24617">operator bool</a> () const noexcept</td></tr>
+<tr class="separator:ac482f8c9f482ce76ed197faf07d24617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a1a05e756cde973a62bede71473069"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = std::enable_if_t&lt;std::is_arithmetic&lt;T&gt;::value&gt;&gt; </td></tr>
+<tr class="memitem:a42a1a05e756cde973a62bede71473069"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d45/a00791.php#a42a1a05e756cde973a62bede71473069">operator T</a> () const noexcept</td></tr>
+<tr class="separator:a42a1a05e756cde973a62bede71473069"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47a5b6f09008ce7cba2a498211a97073"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a00791.php#a47a5b6f09008ce7cba2a498211a97073">prime</a> () const</td></tr>
 <tr class="memdesc:a47a5b6f09008ce7cba2a498211a97073"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <b>true</b> if the number is a prime number.  <a href="#a47a5b6f09008ce7cba2a498211a97073">More...</a><br /></td></tr>
 <tr class="separator:a47a5b6f09008ce7cba2a498211a97073"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -230,6 +235,9 @@ Friends</h2></td></tr>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T , class  = std::enable_if_t&lt;std::is_arithmetic&lt;T&gt;::value&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">mcd::Big::Big </td>
@@ -239,6 +247,11 @@ template&lt;typename T , class  = std::enable_if_t&lt;std::is_arithmetic&lt;T&gt
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>The constructor of the class. </p>
@@ -359,6 +372,31 @@ template&lt;typename T , class  = std::enable_if_t&lt;std::is_arithmetic&lt;T&gt
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac482f8c9f482ce76ed197faf07d24617"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac482f8c9f482ce76ed197faf07d24617">&#9670;&nbsp;</a></span>operator bool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Big::operator bool </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a638fbd4ccaffb7b432c7c78d2f510134"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a638fbd4ccaffb7b432c7c78d2f510134">&#9670;&nbsp;</a></span>operator std::string()</h2>
 
@@ -378,6 +416,33 @@ template&lt;typename T , class  = std::enable_if_t&lt;std::is_arithmetic&lt;T&gt
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42a1a05e756cde973a62bede71473069"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42a1a05e756cde973a62bede71473069">&#9670;&nbsp;</a></span>operator T()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = std::enable_if_t&lt;std::is_arithmetic&lt;T&gt;::value&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Big::operator T </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1502,6 +1567,7 @@ template&lt;typename T , class  = std::enable_if_t&lt;std::is_arithmetic&lt;T&gt
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="../../db/db2/a00020.php">Big.hpp</a></li>
 <li><a class="el" href="../../d6/d5b/a00026.php">Big_Constructor.hpp</a></li>
+<li><a class="el" href="../../dc/d87/a00032.php">Big_Operator.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

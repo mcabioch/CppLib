@@ -1,4 +1,4 @@
-<map id="mcd::Hostile" name="mcd::Hostile">
-<area shape="rect" id="node2" href="$d3/de3/a00763.php" title="An animal. " alt="" coords="6,80,101,107"/>
-<area shape="rect" id="node3" href="$d5/dae/a00767.php" title="An ant. " alt="" coords="16,155,91,181"/>
+<map id="mcd::Identifier" name="mcd::Identifier">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="29,96,109,123"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="5,5,132,47"/>
 </map>

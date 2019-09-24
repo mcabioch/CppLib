@@ -32,13 +32,13 @@ namespace mcd {
 	}
 
 	Big& Big::operator+=(const Big& other) noexcept {
-		if(other == 0){}
-		else if(*this == 0){
+		if(other == Big(0)){}
+		else if(*this == Big(0)){
 			*this = other;
-		} else if(*this < 0){
+		} else if(*this < Big(0)){
 			*this = this->invert() - other;
 			*this = this->invert();
-		} else if(other < 0){
+		} else if(other < Big(0)){
 			*this = *this - other.invert();
 		}else {
 			std::string val = _val;
@@ -73,14 +73,14 @@ namespace mcd {
 	}
 
 	Big& Big::operator-=(const Big& other) noexcept {
-		if(other == 0){}
-		else if(*this == 0){
+		if(other == Big(0)){}
+		else if(*this == Big(0)){
 			*this = other;
 			*this = this->invert();
-		} else if(*this < 0){
+		} else if(*this < Big(0)){
 			*this = this->invert() + other;
 			*this = this->invert();
-		} else if(other < 0){
+		} else if(other < Big(0)){
 			*this = *this + other.invert();
 		} else if(other > *this){
 			*this = other - *this;
@@ -119,14 +119,14 @@ namespace mcd {
 	}
 
 	Big& Big::operator*=(const Big& other) noexcept {
-		if(other == 0 || *this == 0){
-			*this = 0;
-		} else if(other == 1){}
-		else if(*this == 1){
+		if(other == Big(0) || *this == Big(0)){
+			*this = Big(0);
+		} else if(other == Big(1)){}
+		else if(*this == Big(1)){
 			*this = other;
-		} else if(other == -1){
+		} else if(other == Big(-1)){
 			*this = this->invert();
-		} else if(*this == -1){
+		} else if(*this == Big(-1)){
 			*this = other;
 			*this = this->invert();
 		} else {
@@ -157,7 +157,7 @@ namespace mcd {
 
 			int a, b;
 
-			Big bigTemp = 0;
+			Big bigTemp(0);
 
 			for(size_t i{tmp.size()}; i > 0; i -= step){
 				b = fromBigVal(tmp.substr(i - step, step));
@@ -177,7 +177,7 @@ namespace mcd {
 			temp = bigTemp._val + zerosA + zerosB;
 
 			this->set(temp);
-			if(other < 0){
+			if(other < Big(0)){
 				*this = this->invert();
 			}
 		}
@@ -186,22 +186,22 @@ namespace mcd {
 	}
 
 	Big& Big::operator/=(const Big& other) {
-		if(*this == 0){}
-		else if(other == 0){
+		if(*this == Big(0)){}
+		else if(other == Big(0)){
 			throw std::overflow_error("Divide by zero exception");
-		} else if(other == 1){}
-		else if(other == -1){
+		} else if(other == Big(1)){}
+		else if(other == Big(-1)){
 			*this = this->invert();
 		} else {
 			std::string val;
-			if(*this < 0){
+			if(*this < Big(0)){
 				val = std::string(-*this);
 			} else {
 				val = std::string(*this);
 			}
 			Big q;
 
-			if(other < 0){
+			if(other < Big(0)){
 				this->division(val, -other, q);
 				*this = this->invert();
 			} else {
@@ -214,21 +214,21 @@ namespace mcd {
 	}
 
 	Big& Big::operator%=(const Big& other) {
-		if(*this == 0){}
-		else if(other == 0){
+		if(*this == Big(0)){}
+		else if(other == Big(0)){
 			throw std::overflow_error("Divide by zero exception");
-		} else if(other == 1 || other == -1){
-			*this = 0;
+		} else if(other == Big(1) || other == Big(-1)){
+			*this = Big(0);
 		} else {
 			std::string val;
-			if(*this < 0){
+			if(*this < Big(0)){
 				val = std::string(-*this);
 			} else {
 				val = std::string(*this);
 			}
 			Big q;
 
-			if(other < 0){
+			if(other < Big(0)){
 				this->set(this->division(val, -other, q)._val);
 			} else {
 				this->set(this->division(val, other, q)._val);
@@ -239,9 +239,9 @@ namespace mcd {
 	}
 
 	Big pow(const Big& a, const Big& exp){
-		Big out = 1;
+		Big out(1);
 
-		for(Big i = 0; i < exp; ++i){
+		for(Big i(0); i < exp; ++i){
 			out *= a;
 		}
 
@@ -259,7 +259,7 @@ namespace mcd {
 	size_t Big::notNull(std::vector<std::vector<Big> >& array, size_t column){
 		for(size_t i{array.size()}; i > 0; --i){
 			auto& line = array[i - 1];
-			if(line[column] != 0){
+			if(line[column] != Big(0)){
 				return i - 1;
 			}
 		}
@@ -310,7 +310,7 @@ namespace mcd {
 			while(loop && !next){
 				for(size_t index{0}, i{0}; i < exp; ++i, ++index){
 
-					lineArray.push_back(array[Big::notNull(array, 0)][0] + 1);
+					lineArray.push_back(array[Big::notNull(array, 0)][0] + Big(1));
 
 					for(size_t j{1}; j + i < exp - 1; ++j){
 						lineArray.push_back(array[Big::notNull(array, j)][j] + lineArray[j - 1]);
@@ -319,7 +319,7 @@ namespace mcd {
 					if(i == 0){
 						lineArray.push_back(array[Big::notNull(array, exp - 1)][exp - 1] - lineArray[exp - 2]);
 
-						if(lineArray[exp-1] == 0){
+						if(lineArray[exp-1] == Big(0)){
 							loop = false;
 						}
 						if(lineArray[exp - 1] < lineArray[exp - 2]){
@@ -332,7 +332,7 @@ namespace mcd {
 					}
 
 					for(size_t j{lineArray.size()}; j < exp; ++j){
-						lineArray.push_back(0);
+						lineArray.push_back(Big(0));
 					}
 
 					array.push_back(lineArray);
@@ -342,7 +342,7 @@ namespace mcd {
 
 			if(next){
 				Big tmp = array[Big::notNull(array, array[arrayIndex].size() - 1)][array[arrayIndex].size() - 2];
-				val = array[Big::notNull(array, array[arrayIndex].size() - 1)][array[arrayIndex].size() - 1];
+				val = static_cast<std::string>(array[Big::notNull(array, array[arrayIndex].size() - 1)][array[arrayIndex].size() - 1]);
 
 				if(tmp <= val){
 					val = "";
@@ -351,7 +351,7 @@ namespace mcd {
 				Big::addZeros(array, val, slices);
 				Big::nthroot(val, exp, r, array, slices);
 			} else {
-				r = (array[array.size() - 1][0] + exp - 1) / exp;
+				r = (array[array.size() - 1][0] + Big(exp) - Big(1)) / Big(exp);
 			}
 		}
 	}
@@ -384,7 +384,7 @@ namespace mcd {
 		val += std::string(slices[slices.size() - 1]);
 
 		for(size_t i{0}; i < exp - 1; ++i){
-			lineArray.push_back(0);
+			lineArray.push_back(Big(0));
 		}
 		lineArray.push_back(val);
 
@@ -393,19 +393,19 @@ namespace mcd {
 
 		Big::nthroot("", exp, r, array, slices);
 
-		r = (array[array.size() - 1][0] + exp - 1) / exp;
+		r = (array[array.size() - 1][0] + Big(exp) - Big(1)) / Big(exp);
 	}
 
 	Big pgcd(const Big& a, const Big& b){
-		Big A = (a < 0)?a.invert():a;
-		Big B = (b < 0)?b.invert():b;
+		Big A = (a < Big(0))?a.invert():a;
+		Big B = (b < Big(0))?b.invert():b;
 
 		Big mini = (A < B)?A:B;
 		Big maxi = (A > B)?A:B;
 
 		Big r = maxi % mini;
 
-		if(r == 0){
+		if(!r){
 			return mini;
 		}
 
@@ -413,7 +413,7 @@ namespace mcd {
 	}
 
 	bool Big::prime()const {
-		Big root = sqrt(*this) + 1;
+		Big root = sqrt(*this) + Big(1);
 
 		for(Big i{2}; i < root + 1; ++i){
 			if(i != *this && isDivisor(*this, i)){
@@ -428,8 +428,8 @@ namespace mcd {
 		Big n0 = n;
 		Big b0 = b;
 
-		Big t0 = 0;
-		Big t = 1;
+		Big t0(0);
+		Big t(1);
 
 		Big q = n0 / b0;
 		Big r = n0 - q * b0;

@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Matrix_core.hpp File Reference</title>
+		<title>C++: Matrix_functions.hpp File Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 18 2019 20:20:55 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 18:56:58 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -89,22 +89,154 @@ $(document).ready(function(){initNavTree('d4/d3e/a00116.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Matrix_core.hpp File Reference</div>  </div>
+<div class="title">Matrix_functions.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aca9f092b9b733cf1ec9c0644e6208e98"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:aca9f092b9b733cf1ec9c0644e6208e98"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d3e/a00116.php#aca9f092b9b733cf1ec9c0644e6208e98">GaussJordan</a> (Matrix&lt; C &gt; M, Matrix&lt; C &gt; &amp;I, size_t i, size_t j)</td></tr>
+<tr class="separator:aca9f092b9b733cf1ec9c0644e6208e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41e28ae3928eb58bf4c83bc0815baf08"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a41e28ae3928eb58bf4c83bc0815baf08"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d3e/a00116.php#a41e28ae3928eb58bf4c83bc0815baf08">operator&lt;&lt;</a> (std::ostream &amp;os, const Matrix&lt; C &gt; &amp;M)</td></tr>
+<tr class="separator:a41e28ae3928eb58bf4c83bc0815baf08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f75c65ca4bf71b05a5bb41e6562cb48"><td class="memTemplParams" colspan="2">template&lt;class C , typename U &gt; </td></tr>
+<tr class="memitem:a3f75c65ca4bf71b05a5bb41e6562cb48"><td class="memTemplItemLeft" align="right" valign="top">Matrix&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d3e/a00116.php#a3f75c65ca4bf71b05a5bb41e6562cb48">mod</a> (const Matrix&lt; C &gt; M, U b, bool positive=false)</td></tr>
+<tr class="separator:a3f75c65ca4bf71b05a5bb41e6562cb48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Created : Sunday September, 15 2019 19:17:03 </dd>
 <dd>
-Last modification : Sunday September, 16 2019 </dd></dl>
-</div></div><!-- contents -->
+Last modification : Sunday September, 17 2019 </dd></dl>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="aca9f092b9b733cf1ec9c0644e6208e98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca9f092b9b733cf1ec9c0644e6208e98">&#9670;&nbsp;</a></span>GaussJordan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void GaussJordan </td>
+          <td>(</td>
+          <td class="paramtype">Matrix&lt; C &gt;&#160;</td>
+          <td class="paramname"><em>M</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Matrix&lt; C &gt; &amp;&#160;</td>
+          <td class="paramname"><em>I</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f75c65ca4bf71b05a5bb41e6562cb48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f75c65ca4bf71b05a5bb41e6562cb48">&#9670;&nbsp;</a></span>mod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C , typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">Matrix&lt;C&gt; mod </td>
+          <td>(</td>
+          <td class="paramtype">const Matrix&lt; C &gt;&#160;</td>
+          <td class="paramname"><em>M</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>positive</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41e28ae3928eb58bf4c83bc0815baf08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41e28ae3928eb58bf4c83bc0815baf08">&#9670;&nbsp;</a></span>operator<<()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Matrix&lt; C &gt; &amp;&#160;</td>
+          <td class="paramname"><em>M</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d3e/a00116_a41e28ae3928eb58bf4c83bc0815baf08_cgraph.png" border="0" usemap="#d4/d3e/a00116_a41e28ae3928eb58bf4c83bc0815baf08_cgraph" alt=""/></div>
+<map name="d4/d3e/a00116_a41e28ae3928eb58bf4c83bc0815baf08_cgraph" id="d4/d3e/a00116_a41e28ae3928eb58bf4c83bc0815baf08_cgraph">
+<area shape="rect" id="node2" href="../../dd/ded/a00211.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="139,5,212,32"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_bfccd401955b95cf8c75461437045ac0.php">inc</a></li><li class="navelem"><a class="el" href="../../dir_2ce2ad1ea5ded593884489da6d66e532.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/d3e/a00116.php">Matrix_core.hpp</a></li>
+		<li class="navelem"><a class="el" href="../../dir_bfccd401955b95cf8c75461437045ac0.php">inc</a></li><li class="navelem"><a class="el" href="../../dir_2ce2ad1ea5ded593884489da6d66e532.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/d3e/a00116.php">Matrix_functions.hpp</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -1,5 +1,4 @@
-<map id="mcd::PathfindingProblem" name="mcd::PathfindingProblem">
-<area shape="rect" id="node3" title="STL class. " alt="" coords="163,58,286,85"/>
-<area shape="rect" id="node9" title="STL class. " alt="" coords="167,130,283,157"/>
-<area shape="rect" id="node8" href="$df/dc6/a00949.php" title="A node for the path. " alt="" coords="149,181,300,207"/>
+<map id="mcd::Object" name="mcd::Object">
+<area shape="rect" id="node3" href="$db/d08/a01028.php" title="A stone. " alt="" coords="22,155,111,181"/>
+<area shape="rect" id="node2" href="$dd/d94/a00888.php" title="A contraption. " alt="" coords="5,5,128,32"/>
 </map>
