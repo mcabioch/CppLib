@@ -2,7 +2,7 @@
 *
 *	\file		Tree.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		July, 25 2018
+*	\date		September, 25 2019
 *
 */
 #ifndef HEADER_CPP_TREE
@@ -84,6 +84,7 @@ namespace mcd {
 	/*!
 	*	\class	Tree
 	*	\brief	A class to manage a binary tree
+	*	\todo	Refactoring
 	*/
 	template<typename T>
 	class Tree {
