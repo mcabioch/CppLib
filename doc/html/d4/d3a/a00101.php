@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 19:16:23 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 19:59:50 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -213,7 +213,7 @@ Enumerations</h2></td></tr>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Created : July, 29 2018 14:27:51 </dd>
 <dd>
-Last modification : August, 16 2018 </dd></dl>
+Last modification : September, 24 2019 </dd></dl>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="d9/dce/a00944" id="d9/dce/a00944"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#d9/dce/a00944">&#9670;&nbsp;</a></span>mcd::WorldDimensions</h2>

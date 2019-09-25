@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 19:16:23 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 19:59:50 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -137,7 +137,7 @@ $(document).ready(function(){initNavTree('annotated.php','');});
 <tr id="row_0_22_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="dd/ded/a00211.php#d8/d18/a00948" target="_self">MapMove</a></td><td class="desc">A struct to know informations about th movement of something in the map </td></tr>
 <tr id="row_0_23_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d3/de5/a00956.php" target="_self">Matrix</a></td><td class="desc">A class to represent matrix </td></tr>
 <tr id="row_0_24_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="dd/d11/a00960.php" target="_self">Mushroom</a></td><td class="desc">A mushroom </td></tr>
-<tr id="row_0_25_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d8/d0a/a00904.php" target="_self">MyCrypt</a></td><td class="desc">A class to use the <a class="el" href="d0/d85/a00908.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption </td></tr>
+<tr id="row_0_25_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d8/d0a/a00904.php" target="_self">MyCrypt</a></td><td class="desc">A class to test a homemade algorithm for encryption </td></tr>
 <tr id="row_0_26_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="dd/ded/a00211.php#d0/ddd/a01044" target="_self">Node</a></td><td class="desc">A struct to define a node for the tree </td></tr>
 <tr id="row_0_27_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="da/d17/a00964.php" target="_self">NotCopyable</a></td><td class="desc">A class to let some other not to be copyable </td></tr>
 <tr id="row_0_28_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d7/dd4/a00968.php" target="_self">Object</a></td><td class="desc">An object </td></tr>

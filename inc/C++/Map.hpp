@@ -3,7 +3,7 @@
 *	\file		Map.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	July, 29 2018 14:27:51
-*	\modified	August, 16 2018
+*	\modified	September, 24 2019
 *
 */
 #ifndef HEADER_CPP_MAP

@@ -3,7 +3,7 @@
 *	\file		IOConfig.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	Saturday January, 19 2019 17:09:41
-*	\modified	Saturday January, 19 2019
+*	\modified	September, 24 2019
 *
 */
 #ifndef HEADER_IOCONFIG
@@ -21,58 +21,10 @@ namespace mcd {
 			typedef std::numeric_limits<double> dbl;
 		/* Members of IOConfig */
 		public:
-			/* Internal enums of IOConfig */
-			
 			/* Constructors & Destructor of IOConfig */
 				/*! \brief	The constructor of the class */
 				IOConfig();
 				virtual ~IOConfig();
-			/* Getters of IOConfig */
-			
-			/* Setters of IOConfig */
-			
-			/* Statics of IOConfig */
-			
-			/* Operators of IOConfig */
-			
-			/* Friends of IOConfig */
-			
-			/* Others members of IOConfig */
-			
-
-		protected:
-			/* Getters of IOConfig */
-			
-			/* Setters of IOConfig */
-			
-			/* Statics of IOConfig */
-			
-			/* Friends of IOConfig */
-			
-			/* Others members of IOConfig */
-			
-
-		private:
-		
-
-		/* Atttributes of IOConfig */
-		public:
-			/* Global */
-			
-			/* Local */
-			
-
-		protected:
-			/* Global */
-			
-			/* Local */
-			
-
-		private:
-			/* Global */
-			
-			/* Local */
-			
 	};
 }
 

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 19:16:23 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 19:59:50 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -257,7 +257,7 @@ $(document).ready(function(){initNavTree('hierarchy.php','');});
 <area shape="rect" id="node1" href="da/d17/a00964.php" title="A class to let some other not to be copyable. " alt="" coords="5,81,136,108"/>
 <area shape="rect" id="node2" href="d0/de2/a00892.php" title="A class to be the parent for every crypt class. " alt="" coords="184,81,279,108"/>
 <area shape="rect" id="node3" href="da/dd6/a00896.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="334,5,425,32"/>
-<area shape="rect" id="node4" href="d8/d0a/a00904.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="327,56,432,83"/>
+<area shape="rect" id="node4" href="d8/d0a/a00904.php" title="A class to test a homemade algorithm for encryption. " alt="" coords="327,56,432,83"/>
 <area shape="rect" id="node5" href="d0/d85/a00908.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="338,107,421,133"/>
 <area shape="rect" id="node6" href="d9/db0/a00900.php" title="An implementation of sha256 encryption. " alt="" coords="334,157,425,184"/>
 </map>

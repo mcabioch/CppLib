@@ -1,6 +1,6 @@
 <map id="mcd::Crypto" name="mcd::Crypto">
 <area shape="rect" id="node3" href="$da/dd6/a00896.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="5,155,96,181"/>
-<area shape="rect" id="node4" href="$d8/d0a/a00904.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="121,155,226,181"/>
+<area shape="rect" id="node4" href="$d8/d0a/a00904.php" title="A class to test a homemade algorithm for encryption. " alt="" coords="121,155,226,181"/>
 <area shape="rect" id="node5" href="$d0/d85/a00908.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="249,155,332,181"/>
 <area shape="rect" id="node6" href="$d9/db0/a00900.php" title="An implementation of sha256 encryption. " alt="" coords="356,155,447,181"/>
 <area shape="rect" id="node2" href="$da/d17/a00964.php" title="A class to let some other not to be copyable. " alt="" coords="167,5,297,32"/>

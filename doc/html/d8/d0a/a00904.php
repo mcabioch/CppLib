@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 19:16:23 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 19:59:50 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d8/d0a/a00904.php','../../');});
 </div><!--header-->
 <div class="contents">
 
-<p>A class to use the <a class="el" href="../../d0/d85/a00908.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption.  
+<p>A class to test a homemade algorithm for encryption.  
  <a href="../../d8/d0a/a00904.php#details">More...</a></p>
 
 <p><code>#include &lt;cryptage.hpp&gt;</code></p>
@@ -151,7 +151,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5efcd02383468e37e9c960f3d6f9d14c inherit pub_methods_a00964"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to use the <a class="el" href="../../d0/d85/a00908.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption. </p>
+<div class="textblock"><p>A class to test a homemade algorithm for encryption. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac618fc32b73d9bb13b07bc9db802cbef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac618fc32b73d9bb13b07bc9db802cbef">&#9670;&nbsp;</a></span>MyCrypt()</h2>

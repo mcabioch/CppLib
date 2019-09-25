@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 19:16:23 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 19:59:50 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -108,7 +108,7 @@ Inheritance diagram for mcd::NotCopyable:</div>
 <map name="mcd_1_1NotCopyable_inherit__map" id="mcd_1_1NotCopyable_inherit__map">
 <area shape="rect" id="node2" href="../../d0/de2/a00892.php" title="A class to be the parent for every crypt class. " alt="" coords="185,80,279,107"/>
 <area shape="rect" id="node3" href="../../da/dd6/a00896.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="5,155,96,181"/>
-<area shape="rect" id="node4" href="../../d8/d0a/a00904.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="121,155,226,181"/>
+<area shape="rect" id="node4" href="../../d8/d0a/a00904.php" title="A class to test a homemade algorithm for encryption. " alt="" coords="121,155,226,181"/>
 <area shape="rect" id="node5" href="../../d0/d85/a00908.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="249,155,332,181"/>
 <area shape="rect" id="node6" href="../../d9/db0/a00900.php" title="An implementation of sha256 encryption. " alt="" coords="356,155,447,181"/>
 </map>

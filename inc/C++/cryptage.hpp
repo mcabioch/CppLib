@@ -2,7 +2,7 @@
 *
 *	\file		cryptage.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	August, 17 2018
+*	\modified	September, 24 2019
 *
 */
 #ifndef HEADER_CPP_CRYPTAGE
@@ -174,7 +174,7 @@ namespace mcd {
 
 	/*!
 	* \class	MyCrypt
-	* \brief	A class to use the RSA algorithm for encryption
+	* \brief	A class to test a homemade algorithm for encryption
 	*/
 	class MyCrypt : public Crypto {
 		public:

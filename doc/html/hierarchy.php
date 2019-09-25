@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 19:16:23 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 19:59:50 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -152,7 +152,7 @@ This inheritance list is sorted roughly, but not completely, alphabetically:</di
 <tr id="row_34_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_34_" class="arrow" onclick="toggleFolder('34_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="da/d17/a00964.php" target="_self">mcd::NotCopyable</a></td><td class="desc">A class to let some other not to be copyable </td></tr>
 <tr id="row_34_0_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_34_0_" class="arrow" onclick="toggleFolder('34_0_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d0/de2/a00892.php" target="_self">mcd::Crypto</a></td><td class="desc">A class to be the parent for every crypt class </td></tr>
 <tr id="row_34_0_0_" class="even"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="da/dd6/a00896.php" target="_self">mcd::Cesar</a></td><td class="desc">A class to use the cesar algorithm for encryption </td></tr>
-<tr id="row_34_0_1_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d8/d0a/a00904.php" target="_self">mcd::MyCrypt</a></td><td class="desc">A class to use the <a class="el" href="d0/d85/a00908.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption </td></tr>
+<tr id="row_34_0_1_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d8/d0a/a00904.php" target="_self">mcd::MyCrypt</a></td><td class="desc">A class to test a homemade algorithm for encryption </td></tr>
 <tr id="row_34_0_2_" class="even"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d0/d85/a00908.php" target="_self">mcd::RSA</a></td><td class="desc">A class to use the <a class="el" href="d0/d85/a00908.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption </td></tr>
 <tr id="row_34_0_3_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d9/db0/a00900.php" target="_self">mcd::SHA2</a></td><td class="desc">An implementation of sha256 encryption </td></tr>
 <tr id="row_35_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d0/d85/a00976.php" target="_self">mcd::Path</a></td><td class="desc">A class to manage a path computed by the map </td></tr>

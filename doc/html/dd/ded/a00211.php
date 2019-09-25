@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 19:16:23 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 19:59:50 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -181,7 +181,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A mushroom.  <a href="../../dd/d11/a00960.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0a/a00904.php">MyCrypt</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use the <a class="el" href="../../d0/d85/a00908.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption.  <a href="../../d8/d0a/a00904.php#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to test a homemade algorithm for encryption.  <a href="../../d8/d0a/a00904.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d0/ddd/a01044"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#d0/ddd/a01044">Node</a></td></tr>
 <tr class="memdesc:d0/ddd/a01044"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a node for the tree.  <a href="../../dd/ded/a00211.php#d0/ddd/a01044">More...</a><br /></td></tr>
@@ -873,7 +873,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:aa0ce198f34851e093bbc38dfd975e339"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global sha2 variable to crypt messages.  <a href="#aa0ce198f34851e093bbc38dfd975e339">More...</a><br /></td></tr>
 <tr class="separator:aa0ce198f34851e093bbc38dfd975e339"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a302b261a28cb48198b26b85ab682bfab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d0a/a00904.php">MyCrypt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a302b261a28cb48198b26b85ab682bfab">mycrypt</a></td></tr>
-<tr class="memdesc:a302b261a28cb48198b26b85ab682bfab"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global <a class="el" href="../../d8/d0a/a00904.php" title="A class to use the RSA algorithm for encryption. ">MyCrypt</a> variable to crypt messages.  <a href="#a302b261a28cb48198b26b85ab682bfab">More...</a><br /></td></tr>
+<tr class="memdesc:a302b261a28cb48198b26b85ab682bfab"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global <a class="el" href="../../d8/d0a/a00904.php" title="A class to test a homemade algorithm for encryption. ">MyCrypt</a> variable to crypt messages.  <a href="#a302b261a28cb48198b26b85ab682bfab">More...</a><br /></td></tr>
 <tr class="separator:a302b261a28cb48198b26b85ab682bfab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8860bcba5ad1fad5c14e9f8a69b8bc51"><td class="memItemLeft" align="right" valign="top">std::ifstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a8860bcba5ad1fad5c14e9f8a69b8bc51">reader</a></td></tr>
 <tr class="memdesc:a8860bcba5ad1fad5c14e9f8a69b8bc51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a global file reader.  <a href="#a8860bcba5ad1fad5c14e9f8a69b8bc51">More...</a><br /></td></tr>
@@ -6496,7 +6496,7 @@ template&lt;typename V &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>A global <a class="el" href="../../d8/d0a/a00904.php" title="A class to use the RSA algorithm for encryption. ">MyCrypt</a> variable to crypt messages. </p>
+<p>A global <a class="el" href="../../d8/d0a/a00904.php" title="A class to test a homemade algorithm for encryption. ">MyCrypt</a> variable to crypt messages. </p>
 
 </div>
 </div>
