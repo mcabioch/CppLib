@@ -73,7 +73,6 @@ namespace mcd {
 	Big Big::division(std::string val, const Big& d, Big& q){
 		Big r;
 		std::string rVal = "";
-		std::string qVal = std::string(q);
 
 		size_t i{0};
 		rVal = "0";

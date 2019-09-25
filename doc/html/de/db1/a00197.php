@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 20:08:41 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -258,7 +258,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : August, 14 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Last modification : September, 24 2019 </dd></dl>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="d9/dce/a01052" id="d9/dce/a01052"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#d9/dce/a01052">&#9670;&nbsp;</a></span>mcd::trio</h2>

@@ -3,7 +3,7 @@
 *	\file		Fraction.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	Monday September, 16 2019 17:05:47
-*	\modified	Monday September, 17 2019
+*	\modified	September, 24 2019
 *
 */
 #ifndef HEADER_FRACTION
@@ -39,27 +39,27 @@ namespace mcd {
 				
 			/* Operators of Fraction */
 				Fraction& operator+=(const Fraction& b);
-				Fraction operator+(const Fraction& b);
+				Fraction operator+(const Fraction& b)const;
 
 				Fraction& operator-=(const Fraction& b);
-				Fraction operator-(const Fraction& b);
+				Fraction operator-(const Fraction& b)const;
 
 				Fraction& operator*=(const Fraction& b);
-				Fraction operator*(const Fraction& b);
+				Fraction operator*(const Fraction& b)const;
 
 				Fraction& operator/=(const Fraction& b);
-				Fraction operator/(const Fraction& b);
+				Fraction operator/(const Fraction& b)const;
 
 				Fraction& operator%=(const Fraction& b);
-				Fraction operator%(const Fraction& b);
+				Fraction operator%(const Fraction& b)const;
 
-				bool operator==(const Fraction& b);
-				bool operator>(const Fraction& b);
-				bool operator<(const Fraction& b);
+				bool operator==(const Fraction& b)const;
+				bool operator>(const Fraction& b)const;
+				bool operator<(const Fraction& b)const;
 
-				bool operator!=(const Fraction& b);
-				bool operator>=(const Fraction& b);
-				bool operator<=(const Fraction& b);
+				bool operator!=(const Fraction& b)const;
+				bool operator>=(const Fraction& b)const;
+				bool operator<=(const Fraction& b)const;
 
 				Fraction& operator++();
 				Fraction& operator--();
@@ -140,7 +140,7 @@ namespace mcd {
 					return (*this <= Fraction(static_cast<double>(b)));
 				}
 
-				operator double(){ return static_cast<double>(_numerator) / static_cast<double>(_denominator); }
+				operator double()const { return static_cast<double>(_numerator) / static_cast<double>(_denominator); }
 			/* Friends of Fraction */
 				friend std::ostream& operator<<(std::ostream& os, const Fraction& frac);
 			/* Others members of Fraction */

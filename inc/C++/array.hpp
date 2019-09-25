@@ -2,7 +2,7 @@
 *
 *	\file		array.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	September, 01 2019
+*	\modified	September, 24 2019
 *
 */
 #ifndef HEADER_CPP_ARRAY

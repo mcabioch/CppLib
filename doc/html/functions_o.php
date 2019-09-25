@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 20:08:41 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('functions_o.php','');});
 : <a class="el" href="df/d0c/a00788.php#ac482f8c9f482ce76ed197faf07d24617">mcd::Big</a>
 </li>
 <li>operator double()
-: <a class="el" href="dd/d38/a00928.php#a06b912775eecd0a5bfbf2259488e81d8">mcd::Fraction</a>
+: <a class="el" href="dd/d38/a00928.php#a285e38748cb55302c43feab8fa4a29f5">mcd::Fraction</a>
 </li>
 <li>operator std::string()
 : <a class="el" href="df/d0c/a00788.php#a638fbd4ccaffb7b432c7c78d2f510134">mcd::Big</a>
@@ -119,13 +119,13 @@ $(document).ready(function(){initNavTree('functions_o.php','');});
 <li>operator!=
 : <a class="el" href="df/d0c/a00788.php#ad9c55799e64051a79feb72642bacc2bd">mcd::Big</a>
 , <a class="el" href="d6/d66/a00916.php#a3887764124eb590ec7c7bd63263b5dcc">mcd::DateTime</a>
-, <a class="el" href="dd/d38/a00928.php#a210c0fcacfd6acc5cad7507600838bce">mcd::Fraction</a>
+, <a class="el" href="dd/d38/a00928.php#a728b8777d909549030d50032783761dc">mcd::Fraction</a>
 , <a class="el" href="de/d4e/a00972.php#a3fe0870c6659f0faf93353dae13f198b">mcd::PathfindingNode</a>
 , <a class="el" href="d5/d16/a01060.php#a6bea9cfb4049115f767ed658959d6648">mcd::Point</a>
 </li>
 <li>operator%
 : <a class="el" href="df/d0c/a00788.php#a8082f5075921a15bedfa304ddc5f0bfa">mcd::Big</a>
-, <a class="el" href="dd/d38/a00928.php#ab8fa894cd94bc38e9a43a7cb937c610e">mcd::Fraction</a>
+, <a class="el" href="dd/d38/a00928.php#a619d937a957bc1f2516066ebb3501951">mcd::Fraction</a>
 </li>
 <li>operator%=()
 : <a class="el" href="df/d0c/a00788.php#a078be418a37b709c8124ec69cfd66836">mcd::Big</a>
@@ -138,7 +138,7 @@ $(document).ready(function(){initNavTree('functions_o.php','');});
 </li>
 <li>operator*
 : <a class="el" href="df/d0c/a00788.php#aef65b2815526a32f3da7094648cb5ef7">mcd::Big</a>
-, <a class="el" href="dd/d38/a00928.php#a224a0bda38b059346391792d27124f89">mcd::Fraction</a>
+, <a class="el" href="dd/d38/a00928.php#aece90dc9d246328147f02da505af1050">mcd::Fraction</a>
 , <a class="el" href="d3/de5/a00956.php#a37a33064fb7f3599b1e3127d13cd87f9">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>operator*=()
@@ -148,7 +148,7 @@ $(document).ready(function(){initNavTree('functions_o.php','');});
 </li>
 <li>operator+
 : <a class="el" href="df/d0c/a00788.php#ad475b8459ee2ea450eecbc0b2a49f221">mcd::Big</a>
-, <a class="el" href="dd/d38/a00928.php#aa952fcf37c3568c169fdb9d7f25c6342">mcd::Fraction</a>
+, <a class="el" href="dd/d38/a00928.php#a0897ad5e88848032ff6570bd83ddbef7">mcd::Fraction</a>
 , <a class="el" href="d3/de5/a00956.php#ac2adb934f2c26b12d6b5f5981c0e4d7a">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>operator++
@@ -162,7 +162,7 @@ $(document).ready(function(){initNavTree('functions_o.php','');});
 </li>
 <li>operator-
 : <a class="el" href="df/d0c/a00788.php#a8d411571b65ece2daacc12f0293850e8">mcd::Big</a>
-, <a class="el" href="dd/d38/a00928.php#a4ec513f026f862be80860890590d8a2f">mcd::Fraction</a>
+, <a class="el" href="dd/d38/a00928.php#a7a16f5b2182b2752cfbef72018e7636e">mcd::Fraction</a>
 , <a class="el" href="d3/de5/a00956.php#a0e53fd790079347de2d5d5e132a4c37b">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>operator--
@@ -187,7 +187,7 @@ $(document).ready(function(){initNavTree('functions_o.php','');});
 <li>operator&lt;
 : <a class="el" href="df/d0c/a00788.php#a9c625348272715ed4dad2c1420fb5bd0">mcd::Big</a>
 , <a class="el" href="d6/d66/a00916.php#aaec41bb6ed721384b089c34fd87e0085">mcd::DateTime</a>
-, <a class="el" href="dd/d38/a00928.php#a7f8a40bd59c6bf525ca3aaf7f1535ca7">mcd::Fraction</a>
+, <a class="el" href="dd/d38/a00928.php#a4c0588f44c0f24a7cb2fe0d1a4c05ad5">mcd::Fraction</a>
 , <a class="el" href="de/d4e/a00972.php#accb5b160fd3f52084b8b83c8dddaae93">mcd::PathfindingNode</a>
 </li>
 <li>operator&lt;&lt;
@@ -220,7 +220,7 @@ $(document).ready(function(){initNavTree('functions_o.php','');});
 <li>operator&gt;
 : <a class="el" href="df/d0c/a00788.php#ac75c3d550acaece7444e1d3373e0ced6">mcd::Big</a>
 , <a class="el" href="d6/d66/a00916.php#adabc4caa88be53935e7c3d210821c97a">mcd::DateTime</a>
-, <a class="el" href="dd/d38/a00928.php#adab724613972d2c51d68c9cac006fea6">mcd::Fraction</a>
+, <a class="el" href="dd/d38/a00928.php#a379d98c2c6ae1962fc2089b599fc48df">mcd::Fraction</a>
 , <a class="el" href="de/d4e/a00972.php#aeba800fc4624a565bb41c02943679938">mcd::PathfindingNode</a>
 </li>
 <li>operator&gt;=

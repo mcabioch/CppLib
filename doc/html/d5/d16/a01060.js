@@ -1,11 +1,11 @@
 var a01060 =
 [
-    [ "bot", "d5/d16/a01060.php#a5742950964b2f239930071518ea83364", null ],
-    [ "left", "d5/d16/a01060.php#a0af78259e9502c202a50ec899c9c3cce", null ],
+    [ "bot", "d5/d16/a01060.php#a2beb84069e438adcccfa4b6ed9794c0c", null ],
+    [ "left", "d5/d16/a01060.php#a91941563ecc020a510832ba8869e5ded", null ],
     [ "operator=", "d5/d16/a01060.php#a6ebbd086a808f7fb8bd49bda00b8df12", null ],
     [ "operator=", "d5/d16/a01060.php#a220f83e0ebfaa9b2884530cfcac6f6df", null ],
-    [ "right", "d5/d16/a01060.php#aa5fb38df3a537526cd7657d84ce89872", null ],
-    [ "top", "d5/d16/a01060.php#a8bac7e9b617cb3ce22c7bb9ffc75ea12", null ],
+    [ "right", "d5/d16/a01060.php#a613a9be49ee0cbe55e10e75db1d59faa", null ],
+    [ "top", "d5/d16/a01060.php#afd57961d22ce89d783303c0fbbdc4f83", null ],
     [ "operator!=", "d5/d16/a01060.php#a6bea9cfb4049115f767ed658959d6648", null ],
     [ "operator<<", "d5/d16/a01060.php#a55681886ec7c5d7c0210fa0611bc84ea", null ],
     [ "operator==", "d5/d16/a01060.php#a177528c8a1eee37fcda25a89084b8ed6", null ],

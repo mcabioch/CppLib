@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 20:08:41 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -149,9 +149,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7e8255ee949b38d843e908e20e03aa87"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d49/a00952.php#a7e8255ee949b38d843e908e20e03aa87">load</a> (std::string file)</td></tr>
 <tr class="memdesc:a7e8255ee949b38d843e908e20e03aa87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the map from a file.  <a href="#a7e8255ee949b38d843e908e20e03aa87">More...</a><br /></td></tr>
 <tr class="separator:a7e8255ee949b38d843e908e20e03aa87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5962b156a6ac1a9b3086f54ae6289121"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d49/a00952.php#a5962b156a6ac1a9b3086f54ae6289121">save</a> (std::string file)</td></tr>
-<tr class="memdesc:a5962b156a6ac1a9b3086f54ae6289121"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the map in a file.  <a href="#a5962b156a6ac1a9b3086f54ae6289121">More...</a><br /></td></tr>
-<tr class="separator:a5962b156a6ac1a9b3086f54ae6289121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae97bd301b582dcb303507d5df1189588"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d49/a00952.php#ae97bd301b582dcb303507d5df1189588">save</a> (std::string file) const</td></tr>
+<tr class="memdesc:ae97bd301b582dcb303507d5df1189588"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the map in a file.  <a href="#ae97bd301b582dcb303507d5df1189588">More...</a><br /></td></tr>
+<tr class="separator:ae97bd301b582dcb303507d5df1189588"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cea2526dc276cce694e31a6053d5522"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d49/a00952.php#a8cea2526dc276cce694e31a6053d5522">putEntity</a> (size_t &amp;id, <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x, <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y, <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> w, <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> h)</td></tr>
 <tr class="memdesc:a8cea2526dc276cce694e31a6053d5522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put an entity on the given position.  <a href="#a8cea2526dc276cce694e31a6053d5522">More...</a><br /></td></tr>
 <tr class="separator:a8cea2526dc276cce694e31a6053d5522"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -888,8 +888,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5962b156a6ac1a9b3086f54ae6289121"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5962b156a6ac1a9b3086f54ae6289121">&#9670;&nbsp;</a></span>save()</h2>
+<a id="ae97bd301b582dcb303507d5df1189588"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae97bd301b582dcb303507d5df1189588">&#9670;&nbsp;</a></span>save()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -899,7 +899,7 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>file</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">

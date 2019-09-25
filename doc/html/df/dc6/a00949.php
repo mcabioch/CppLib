@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 20:08:41 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('de/d49/a00952.php','../../');});
   <tr class="even"><td class="entry"><a class="el" href="../../de/d49/a00952.php#a105197d7158b9387782b28583c6c07ba">operator()</a>(size_t i, size_t j) const</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../de/d49/a00952.php#a8cea2526dc276cce694e31a6053d5522">putEntity</a>(size_t &amp;id, double64_t x, double64_t y, double64_t w, double64_t h)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../de/d49/a00952.php#ac8ecf45b42aed2736d04081639b460f6">resetSim</a>(Path &amp;path)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d49/a00952.php#a5962b156a6ac1a9b3086f54ae6289121">save</a>(std::string file)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d49/a00952.php#ae97bd301b582dcb303507d5df1189588">save</a>(std::string file) const</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../de/d49/a00952.php#a0d89a93779f04f96e43a883c6e021d04">setEntity</a>(size_t id, double64_t x, double64_t y)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../de/d49/a00952.php#af75d4f3db3cf7cbba6ae20628ecc2e04">setH</a>(size_t h)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../de/d49/a00952.php#adab97ef85198947deb95164f9d240e30">setSize</a>(WorldDimensions dimensions)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>

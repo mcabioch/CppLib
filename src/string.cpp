@@ -18,7 +18,6 @@ namespace mcd {
 
 		if(part != ""){
 			out.push_back(part);
-			part = "";
 		}
 
 		return out;

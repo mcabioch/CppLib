@@ -125,7 +125,7 @@ namespace mcd {
 		return true;
 	}
 
-	bool Map::save(std::string file){
+	bool Map::save(std::string file)const {
 		std::ofstream output;
 		std::string path = file + ".map";
 
@@ -294,7 +294,7 @@ namespace mcd {
 		}
 	}
 
-	bool Map::printEntity(size_t x, size_t y){
+	bool Map::printEntity(size_t x, size_t y)const {
 		for(auto& entity : _entities){
 			auto& pos = entity.first;
 

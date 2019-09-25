@@ -47,7 +47,6 @@ namespace mcd {
 		out = message;
 		auto lowerStr = lowercase(out, out.begin(), out.end());
 		lowerStr = replace(lowerStr, " ", "");
-		out = "";
 
 		size_t maxi = 0;
 		char c = 'a';
@@ -100,8 +99,7 @@ namespace mcd {
 		this->update(message);
 		this->final(digest);
 
-		char buf[2*SHA2::DIGEST_SIZE + 1];
-		buf[2*SHA2::DIGEST_SIZE] = 0;
+		char buf[2*SHA2::DIGEST_SIZE + 1] = {0};
 
 		for(size_t i{0}; i < SHA2::DIGEST_SIZE; ++i){
 			sprintf(buf + i*2, "%02x", digest[i]);
@@ -473,11 +471,11 @@ namespace mcd {
 		return out;
 	}
 
-	std::string RSA::getPublic(){
+	std::string RSA::getPublic()const {
 		return publicK;
 	}
 
-	std::string RSA::getPrivate(){
+	std::string RSA::getPrivate()const {
 		return privateK;
 	}
 }

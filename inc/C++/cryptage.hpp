@@ -234,12 +234,12 @@ namespace mcd {
 			* \brief	Get the public key
 			*		\return			Return the public key of the object
 			*/
-			std::string getPublic();
+			std::string getPublic()const;
 			/*!
 			* \brief	Get the private key
 			*		\return			Return the private key of the object
 			*/
-			std::string getPrivate();
+			std::string getPrivate()const;
 
 			/* Setters */
 			/*!

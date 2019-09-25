@@ -155,16 +155,14 @@ namespace mcd {
 			std::string multZeros = "";
 			std::string lineMultZeros;
 
-			int a, b;
-
 			Big bigTemp(0);
 
 			for(size_t i{tmp.size()}; i > 0; i -= step){
-				b = fromBigVal(tmp.substr(i - step, step));
+				int b = fromBigVal(tmp.substr(i - step, step));
 				lineMultZeros = "";
 
 				for(size_t j{val.size()}; j > 0; j -= step){
-					a = fromBigVal(val.substr(j - step, step));
+					int a = fromBigVal(val.substr(j - step, step));
 
 					bigTemp += Big(toBigVal(a * b) + lineMultZeros + multZeros);
 

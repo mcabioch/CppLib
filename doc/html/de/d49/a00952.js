@@ -22,7 +22,7 @@ var a00952 =
     [ "operator()", "de/d49/a00952.php#a105197d7158b9387782b28583c6c07ba", null ],
     [ "putEntity", "de/d49/a00952.php#a8cea2526dc276cce694e31a6053d5522", null ],
     [ "resetSim", "de/d49/a00952.php#ac8ecf45b42aed2736d04081639b460f6", null ],
-    [ "save", "de/d49/a00952.php#a5962b156a6ac1a9b3086f54ae6289121", null ],
+    [ "save", "de/d49/a00952.php#ae97bd301b582dcb303507d5df1189588", null ],
     [ "setEntity", "de/d49/a00952.php#a0d89a93779f04f96e43a883c6e021d04", null ],
     [ "setH", "de/d49/a00952.php#af75d4f3db3cf7cbba6ae20628ecc2e04", null ],
     [ "setSize", "de/d49/a00952.php#adab97ef85198947deb95164f9d240e30", null ],

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 20:08:41 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('functions_b.php','');});
 : <a class="el" href="d9/db0/a00900.php#ae41078716ddc513c6af9a825448cbabd">mcd::SHA2</a>
 </li>
 <li>bot()
-: <a class="el" href="d5/d16/a01060.php#a5742950964b2f239930071518ea83364">mcd::Point</a>
+: <a class="el" href="d5/d16/a01060.php#a2beb84069e438adcccfa4b6ed9794c0c">mcd::Point</a>
 </li>
 </ul>
 </div><!-- contents -->

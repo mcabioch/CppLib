@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 20:08:41 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -120,36 +120,36 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5868b5e5c36d3277d651c3fd731ebe84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76f6e7a0b34f33d8d53bc993b7c0ac89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a76f6e7a0b34f33d8d53bc993b7c0ac89">operator+=</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
 <tr class="separator:a76f6e7a0b34f33d8d53bc993b7c0ac89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa952fcf37c3568c169fdb9d7f25c6342"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#aa952fcf37c3568c169fdb9d7f25c6342">operator+</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
-<tr class="separator:aa952fcf37c3568c169fdb9d7f25c6342"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0897ad5e88848032ff6570bd83ddbef7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a0897ad5e88848032ff6570bd83ddbef7">operator+</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a0897ad5e88848032ff6570bd83ddbef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a455683f59112555055fc6c5686a9621a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a455683f59112555055fc6c5686a9621a">operator-=</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
 <tr class="separator:a455683f59112555055fc6c5686a9621a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ec513f026f862be80860890590d8a2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a4ec513f026f862be80860890590d8a2f">operator-</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
-<tr class="separator:a4ec513f026f862be80860890590d8a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a16f5b2182b2752cfbef72018e7636e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a7a16f5b2182b2752cfbef72018e7636e">operator-</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a7a16f5b2182b2752cfbef72018e7636e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae423fa04b3025e509901155241b5402"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#aae423fa04b3025e509901155241b5402">operator*=</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
 <tr class="separator:aae423fa04b3025e509901155241b5402"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a224a0bda38b059346391792d27124f89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a224a0bda38b059346391792d27124f89">operator*</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
-<tr class="separator:a224a0bda38b059346391792d27124f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aece90dc9d246328147f02da505af1050"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#aece90dc9d246328147f02da505af1050">operator*</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:aece90dc9d246328147f02da505af1050"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3379901d123c7d545bd8a4f9ebe48b8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a3379901d123c7d545bd8a4f9ebe48b8e">operator/=</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
 <tr class="separator:a3379901d123c7d545bd8a4f9ebe48b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b0f022bd55759c7bc1ea252946b4714"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a3b0f022bd55759c7bc1ea252946b4714">operator/</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
-<tr class="separator:a3b0f022bd55759c7bc1ea252946b4714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ffeec4d80502f0173a03d7b3aa361db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a0ffeec4d80502f0173a03d7b3aa361db">operator/</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a0ffeec4d80502f0173a03d7b3aa361db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b6753a02a790ffbb75c36920237167c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a7b6753a02a790ffbb75c36920237167c">operator%=</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
 <tr class="separator:a7b6753a02a790ffbb75c36920237167c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8fa894cd94bc38e9a43a7cb937c610e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#ab8fa894cd94bc38e9a43a7cb937c610e">operator%</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
-<tr class="separator:ab8fa894cd94bc38e9a43a7cb937c610e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af019282c8e827f162ca7cfca808d5ad4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#af019282c8e827f162ca7cfca808d5ad4">operator==</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
-<tr class="separator:af019282c8e827f162ca7cfca808d5ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adab724613972d2c51d68c9cac006fea6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#adab724613972d2c51d68c9cac006fea6">operator&gt;</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
-<tr class="separator:adab724613972d2c51d68c9cac006fea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f8a40bd59c6bf525ca3aaf7f1535ca7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a7f8a40bd59c6bf525ca3aaf7f1535ca7">operator&lt;</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
-<tr class="separator:a7f8a40bd59c6bf525ca3aaf7f1535ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a210c0fcacfd6acc5cad7507600838bce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a210c0fcacfd6acc5cad7507600838bce">operator!=</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
-<tr class="separator:a210c0fcacfd6acc5cad7507600838bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada1de0f48df79dc6231a01598d7c4590"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#ada1de0f48df79dc6231a01598d7c4590">operator&gt;=</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
-<tr class="separator:ada1de0f48df79dc6231a01598d7c4590"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a776c79b18566a7786b149ca198c788e7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a776c79b18566a7786b149ca198c788e7">operator&lt;=</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b)</td></tr>
-<tr class="separator:a776c79b18566a7786b149ca198c788e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619d937a957bc1f2516066ebb3501951"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a619d937a957bc1f2516066ebb3501951">operator%</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a619d937a957bc1f2516066ebb3501951"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a300ed85793b7aece141599c82524f8d9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a300ed85793b7aece141599c82524f8d9">operator==</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a300ed85793b7aece141599c82524f8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a379d98c2c6ae1962fc2089b599fc48df"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a379d98c2c6ae1962fc2089b599fc48df">operator&gt;</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a379d98c2c6ae1962fc2089b599fc48df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c0588f44c0f24a7cb2fe0d1a4c05ad5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a4c0588f44c0f24a7cb2fe0d1a4c05ad5">operator&lt;</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a4c0588f44c0f24a7cb2fe0d1a4c05ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728b8777d909549030d50032783761dc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a728b8777d909549030d50032783761dc">operator!=</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a728b8777d909549030d50032783761dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf88d0c6bfb21b64dcec572fd4691cd7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#aaf88d0c6bfb21b64dcec572fd4691cd7">operator&gt;=</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:aaf88d0c6bfb21b64dcec572fd4691cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e8c0cf1fdef5dd32409c5d0b660fb1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#ac1e8c0cf1fdef5dd32409c5d0b660fb1">operator&lt;=</a> (const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:ac1e8c0cf1fdef5dd32409c5d0b660fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af066abb5b8fe5db0e0c4ce7d125f0c5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#af066abb5b8fe5db0e0c4ce7d125f0c5e">operator++</a> ()</td></tr>
 <tr class="separator:af066abb5b8fe5db0e0c4ce7d125f0c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34e188b2c7100e21fe387855ca963f52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a34e188b2c7100e21fe387855ca963f52">operator--</a> ()</td></tr>
@@ -202,8 +202,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:add6d3ff26c1c87e2d645ad37e751bdac"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
 <tr class="memitem:add6d3ff26c1c87e2d645ad37e751bdac"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#add6d3ff26c1c87e2d645ad37e751bdac">operator&lt;=</a> (const T &amp;b)</td></tr>
 <tr class="separator:add6d3ff26c1c87e2d645ad37e751bdac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06b912775eecd0a5bfbf2259488e81d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a06b912775eecd0a5bfbf2259488e81d8">operator double</a> ()</td></tr>
-<tr class="separator:a06b912775eecd0a5bfbf2259488e81d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a285e38748cb55302c43feab8fa4a29f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a00928.php#a285e38748cb55302c43feab8fa4a29f5">operator double</a> () const</td></tr>
+<tr class="separator:a285e38748cb55302c43feab8fa4a29f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -332,21 +332,21 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="../../dd/d38/a00928_a5868b5e5c36d3277d651c3fd731ebe84_cgraph.png" border="0" usemap="#dd/d38/a00928_a5868b5e5c36d3277d651c3fd731ebe84_cgraph" alt=""/></div>
 <map name="dd/d38/a00928_a5868b5e5c36d3277d651c3fd731ebe84_cgraph" id="dd/d38/a00928_a5868b5e5c36d3277d651c3fd731ebe84_cgraph">
 <area shape="rect" id="node2" href="../../dd/d38/a00928.php#a76f6e7a0b34f33d8d53bc993b7c0ac89" title="mcd::Fraction::operator+=" alt="" coords="237,5,410,32"/>
-<area shape="rect" id="node3" href="../../dd/d38/a00928.php#aa952fcf37c3568c169fdb9d7f25c6342" title="mcd::Fraction::operator+" alt="" coords="241,56,406,83"/>
+<area shape="rect" id="node3" href="../../dd/d38/a00928.php#a0897ad5e88848032ff6570bd83ddbef7" title="mcd::Fraction::operator+" alt="" coords="241,56,406,83"/>
 <area shape="rect" id="node4" href="../../dd/d38/a00928.php#a455683f59112555055fc6c5686a9621a" title="mcd::Fraction::operator&#45;=" alt="" coords="239,107,408,133"/>
-<area shape="rect" id="node5" href="../../dd/d38/a00928.php#a4ec513f026f862be80860890590d8a2f" title="mcd::Fraction::operator&#45;" alt="" coords="243,157,404,184"/>
+<area shape="rect" id="node5" href="../../dd/d38/a00928.php#a7a16f5b2182b2752cfbef72018e7636e" title="mcd::Fraction::operator&#45;" alt="" coords="243,157,404,184"/>
 <area shape="rect" id="node6" href="../../dd/d38/a00928.php#aae423fa04b3025e509901155241b5402" title="mcd::Fraction::operator*=" alt="" coords="238,208,409,235"/>
-<area shape="rect" id="node7" href="../../dd/d38/a00928.php#a224a0bda38b059346391792d27124f89" title="mcd::Fraction::operator*" alt="" coords="242,259,405,285"/>
+<area shape="rect" id="node7" href="../../dd/d38/a00928.php#aece90dc9d246328147f02da505af1050" title="mcd::Fraction::operator*" alt="" coords="242,259,405,285"/>
 <area shape="rect" id="node8" href="../../dd/d38/a00928.php#a3379901d123c7d545bd8a4f9ebe48b8e" title="mcd::Fraction::operator/=" alt="" coords="239,309,408,336"/>
-<area shape="rect" id="node9" href="../../dd/d38/a00928.php#a3b0f022bd55759c7bc1ea252946b4714" title="mcd::Fraction::operator/" alt="" coords="243,360,404,387"/>
+<area shape="rect" id="node9" href="../../dd/d38/a00928.php#a0ffeec4d80502f0173a03d7b3aa361db" title="mcd::Fraction::operator/" alt="" coords="243,360,404,387"/>
 <area shape="rect" id="node10" href="../../dd/d38/a00928.php#a7b6753a02a790ffbb75c36920237167c" title="mcd::Fraction::operator%=" alt="" coords="235,411,412,437"/>
-<area shape="rect" id="node11" href="../../dd/d38/a00928.php#ab8fa894cd94bc38e9a43a7cb937c610e" title="mcd::Fraction::operator%" alt="" coords="239,461,408,488"/>
-<area shape="rect" id="node12" href="../../dd/d38/a00928.php#af019282c8e827f162ca7cfca808d5ad4" title="mcd::Fraction::operator==" alt="" coords="237,512,410,539"/>
-<area shape="rect" id="node13" href="../../dd/d38/a00928.php#adab724613972d2c51d68c9cac006fea6" title="mcd::Fraction::operator\&gt;" alt="" coords="241,563,406,589"/>
-<area shape="rect" id="node14" href="../../dd/d38/a00928.php#a7f8a40bd59c6bf525ca3aaf7f1535ca7" title="mcd::Fraction::operator\&lt;" alt="" coords="241,613,406,640"/>
-<area shape="rect" id="node15" href="../../dd/d38/a00928.php#a210c0fcacfd6acc5cad7507600838bce" title="mcd::Fraction::operator!=" alt="" coords="239,664,408,691"/>
-<area shape="rect" id="node16" href="../../dd/d38/a00928.php#ada1de0f48df79dc6231a01598d7c4590" title="mcd::Fraction::operator\&gt;=" alt="" coords="237,715,410,741"/>
-<area shape="rect" id="node17" href="../../dd/d38/a00928.php#a776c79b18566a7786b149ca198c788e7" title="mcd::Fraction::operator\&lt;=" alt="" coords="237,765,410,792"/>
+<area shape="rect" id="node11" href="../../dd/d38/a00928.php#a619d937a957bc1f2516066ebb3501951" title="mcd::Fraction::operator%" alt="" coords="239,461,408,488"/>
+<area shape="rect" id="node12" href="../../dd/d38/a00928.php#a300ed85793b7aece141599c82524f8d9" title="mcd::Fraction::operator==" alt="" coords="237,512,410,539"/>
+<area shape="rect" id="node13" href="../../dd/d38/a00928.php#a379d98c2c6ae1962fc2089b599fc48df" title="mcd::Fraction::operator\&gt;" alt="" coords="241,563,406,589"/>
+<area shape="rect" id="node14" href="../../dd/d38/a00928.php#a4c0588f44c0f24a7cb2fe0d1a4c05ad5" title="mcd::Fraction::operator\&lt;" alt="" coords="241,613,406,640"/>
+<area shape="rect" id="node15" href="../../dd/d38/a00928.php#a728b8777d909549030d50032783761dc" title="mcd::Fraction::operator!=" alt="" coords="239,664,408,691"/>
+<area shape="rect" id="node16" href="../../dd/d38/a00928.php#aaf88d0c6bfb21b64dcec572fd4691cd7" title="mcd::Fraction::operator\&gt;=" alt="" coords="237,715,410,741"/>
+<area shape="rect" id="node17" href="../../dd/d38/a00928.php#ac1e8c0cf1fdef5dd32409c5d0b660fb1" title="mcd::Fraction::operator\&lt;=" alt="" coords="237,765,410,792"/>
 <area shape="rect" id="node18" href="../../dd/d38/a00928.php#af066abb5b8fe5db0e0c4ce7d125f0c5e" title="mcd::Fraction::operator++" alt="" coords="237,816,410,843"/>
 <area shape="rect" id="node19" href="../../dd/d38/a00928.php#a34e188b2c7100e21fe387855ca963f52" title="mcd::Fraction::operator&#45;&#45;" alt="" coords="241,867,406,893"/>
 </map>
@@ -379,8 +379,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a06b912775eecd0a5bfbf2259488e81d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06b912775eecd0a5bfbf2259488e81d8">&#9670;&nbsp;</a></span>operator double()</h2>
+<a id="a285e38748cb55302c43feab8fa4a29f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a285e38748cb55302c43feab8fa4a29f5">&#9670;&nbsp;</a></span>operator double()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -392,7 +392,7 @@ Here is the call graph for this function:</div>
           <td class="memname">mcd::Fraction::operator double </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -404,8 +404,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a210c0fcacfd6acc5cad7507600838bce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a210c0fcacfd6acc5cad7507600838bce">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[1/2]</span></h2>
+<a id="a728b8777d909549030d50032783761dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a728b8777d909549030d50032783761dc">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -415,7 +415,7 @@ Here is the call graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -458,8 +458,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ab8fa894cd94bc38e9a43a7cb937c610e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8fa894cd94bc38e9a43a7cb937c610e">&#9670;&nbsp;</a></span>operator%() <span class="overload">[1/2]</span></h2>
+<a id="a619d937a957bc1f2516066ebb3501951"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a619d937a957bc1f2516066ebb3501951">&#9670;&nbsp;</a></span>operator%() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -469,7 +469,7 @@ Here is the call graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -566,8 +566,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a224a0bda38b059346391792d27124f89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a224a0bda38b059346391792d27124f89">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
+<a id="aece90dc9d246328147f02da505af1050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aece90dc9d246328147f02da505af1050">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -577,7 +577,7 @@ Here is the call graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -674,8 +674,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aa952fcf37c3568c169fdb9d7f25c6342"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa952fcf37c3568c169fdb9d7f25c6342">&#9670;&nbsp;</a></span>operator+() <span class="overload">[1/2]</span></h2>
+<a id="a0897ad5e88848032ff6570bd83ddbef7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0897ad5e88848032ff6570bd83ddbef7">&#9670;&nbsp;</a></span>operator+() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -685,7 +685,7 @@ Here is the call graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -799,8 +799,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a4ec513f026f862be80860890590d8a2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ec513f026f862be80860890590d8a2f">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/2]</span></h2>
+<a id="a7a16f5b2182b2752cfbef72018e7636e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a16f5b2182b2752cfbef72018e7636e">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -810,7 +810,7 @@ Here is the call graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -924,8 +924,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a3b0f022bd55759c7bc1ea252946b4714"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b0f022bd55759c7bc1ea252946b4714">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
+<a id="a0ffeec4d80502f0173a03d7b3aa361db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ffeec4d80502f0173a03d7b3aa361db">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -935,7 +935,7 @@ Here is the call graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1032,8 +1032,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a7f8a40bd59c6bf525ca3aaf7f1535ca7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f8a40bd59c6bf525ca3aaf7f1535ca7">&#9670;&nbsp;</a></span>operator<() <span class="overload">[1/2]</span></h2>
+<a id="a4c0588f44c0f24a7cb2fe0d1a4c05ad5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c0588f44c0f24a7cb2fe0d1a4c05ad5">&#9670;&nbsp;</a></span>operator<() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1043,7 +1043,7 @@ Here is the call graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1086,8 +1086,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a776c79b18566a7786b149ca198c788e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a776c79b18566a7786b149ca198c788e7">&#9670;&nbsp;</a></span>operator<=() <span class="overload">[1/2]</span></h2>
+<a id="ac1e8c0cf1fdef5dd32409c5d0b660fb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1e8c0cf1fdef5dd32409c5d0b660fb1">&#9670;&nbsp;</a></span>operator<=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1097,7 +1097,7 @@ Here is the call graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1140,8 +1140,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="af019282c8e827f162ca7cfca808d5ad4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af019282c8e827f162ca7cfca808d5ad4">&#9670;&nbsp;</a></span>operator==() <span class="overload">[1/2]</span></h2>
+<a id="a300ed85793b7aece141599c82524f8d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a300ed85793b7aece141599c82524f8d9">&#9670;&nbsp;</a></span>operator==() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1151,7 +1151,7 @@ Here is the call graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1194,8 +1194,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="adab724613972d2c51d68c9cac006fea6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adab724613972d2c51d68c9cac006fea6">&#9670;&nbsp;</a></span>operator>() <span class="overload">[1/2]</span></h2>
+<a id="a379d98c2c6ae1962fc2089b599fc48df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a379d98c2c6ae1962fc2089b599fc48df">&#9670;&nbsp;</a></span>operator>() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1205,7 +1205,7 @@ Here is the call graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1248,8 +1248,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ada1de0f48df79dc6231a01598d7c4590"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada1de0f48df79dc6231a01598d7c4590">&#9670;&nbsp;</a></span>operator>=() <span class="overload">[1/2]</span></h2>
+<a id="aaf88d0c6bfb21b64dcec572fd4691cd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf88d0c6bfb21b64dcec572fd4691cd7">&#9670;&nbsp;</a></span>operator>=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1259,7 +1259,7 @@ Here is the call graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dd/d38/a00928.php">Fraction</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">

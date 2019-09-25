@@ -167,7 +167,7 @@ namespace mcd {
 		return *this;
 	}
 
-	Fraction Fraction::operator+(const Fraction& b){
+	Fraction Fraction::operator+(const Fraction& b)const {
 		Fraction c = *this;
 		c += b;
 		return c;
@@ -196,7 +196,7 @@ namespace mcd {
 		return *this;
 	}
 
-	Fraction Fraction::operator-(const Fraction& b){
+	Fraction Fraction::operator-(const Fraction& b)const {
 		Fraction c = *this;
 		c -= b;
 		return c;
@@ -218,7 +218,7 @@ namespace mcd {
 		return *this;
 	}
 
-	Fraction Fraction::operator*(const Fraction& b){
+	Fraction Fraction::operator*(const Fraction& b)const {
 		Fraction c = *this;
 		c *= b;
 		return c;
@@ -240,7 +240,7 @@ namespace mcd {
 		return *this;
 	}
 
-	Fraction Fraction::operator/(const Fraction& b){
+	Fraction Fraction::operator/(const Fraction& b)const {
 		Fraction c = *this;
 		c /= b;
 		return c;
@@ -256,17 +256,17 @@ namespace mcd {
 		return *this;
 	}
 
-	Fraction Fraction::operator%(const Fraction& b){
+	Fraction Fraction::operator%(const Fraction& b)const {
 		Fraction c = *this;
 		c %= b;
 		return c;
 	}
 
-	bool Fraction::operator==(const Fraction& b){
+	bool Fraction::operator==(const Fraction& b)const {
 		return ((_numerator == b._numerator) && (_denominator == b._denominator));
 	}
 
-	bool Fraction::operator>(const Fraction& b){
+	bool Fraction::operator>(const Fraction& b)const {
 		auto an = _numerator;
 		auto ad = _denominator;
 		auto bn = b._numerator;
@@ -290,7 +290,7 @@ namespace mcd {
 		return false;
 	}
 
-	bool Fraction::operator<(const Fraction& b){
+	bool Fraction::operator<(const Fraction& b)const {
 		auto an = _numerator;
 		auto ad = _denominator;
 		auto bn = b._numerator;
@@ -314,15 +314,15 @@ namespace mcd {
 		return false;
 	}
 
-	bool Fraction::operator!=(const Fraction& b){
+	bool Fraction::operator!=(const Fraction& b)const {
 		return !(*this == b);
 	}
 
-	bool Fraction::operator>=(const Fraction& b){
+	bool Fraction::operator>=(const Fraction& b)const {
 		return ((*this > b) || (*this == b));
 	}
 
-	bool Fraction::operator<=(const Fraction& b){
+	bool Fraction::operator<=(const Fraction& b)const {
 		return ((*this < b) || (*this == b));
 	}
 

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 20:08:41 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d0/d85/a00976.php','../../');});
 <p>This is the complete list of members for <a class="el" href="../../d0/d85/a00976.php">mcd::Path</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="../../d0/d85/a00976.php#a3b461b7f35d6914a627e52e20f79f6ce">end</a></td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d85/a00976.php#afd0df5fe1e5540b30d54718372191686">hasNext</a>()</td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/d85/a00976.php#a7928f59acfc984899a12b52ab2e5ddca">hasNext</a>() const</td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d0/d85/a00976.php#a2ae56317713ca93848b0c47bc401cbf4">length</a>() const</td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d0/d85/a00976.php#ac24764eca1f5c6a54322d4a19d4ac68f">next</a>(PathfindingNode &amp;node)</td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d0/d85/a00976.php#a19773c31a6467b9b61b440135863290e">Path</a>()</td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"></td></tr>

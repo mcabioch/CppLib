@@ -2,7 +2,7 @@
 *
 *	\file		types.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	August, 14 2018
+*	\modified	September, 24 2019
 *
 */
 #ifndef HEADER_CPP_TYPES
@@ -121,11 +121,9 @@ namespace mcd {
 				type.erase(type.begin()+pos, type.end());
 			}
 
-			std::string first = "";
-			std::string second = "";
+			std::string first = "> >";
+			std::string second = ">>";
 
-			first = "> >";
-			second = ">>";
 			do {
 				pos = type.find(first);
 				if(pos != std::string::npos){
@@ -181,16 +179,16 @@ namespace mcd {
 		/*! Z position */
 		double64_t z = 0;
 
-		Point top(){
+		Point top()const {
 			return {x, y-1};
 		}
-		Point bot(){
+		Point bot()const {
 			return {x, y+1};
 		}
-		Point left(){
+		Point left()const {
 			return {x-1, y};
 		}
-		Point right(){
+		Point right()const {
 			return {x+1, y};
 		}
 

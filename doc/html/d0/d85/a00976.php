@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 20:08:41 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -121,9 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac24764eca1f5c6a54322d4a19d4ac68f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d85/a00976.php#ac24764eca1f5c6a54322d4a19d4ac68f">next</a> (<a class="el" href="../../de/d4e/a00972.php">PathfindingNode</a> &amp;node)</td></tr>
 <tr class="memdesc:ac24764eca1f5c6a54322d4a19d4ac68f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put the next node in <em>node</em>.  <a href="#ac24764eca1f5c6a54322d4a19d4ac68f">More...</a><br /></td></tr>
 <tr class="separator:ac24764eca1f5c6a54322d4a19d4ac68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd0df5fe1e5540b30d54718372191686"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d85/a00976.php#afd0df5fe1e5540b30d54718372191686">hasNext</a> ()</td></tr>
-<tr class="memdesc:afd0df5fe1e5540b30d54718372191686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <b>true</b> if the path has a next node.  <a href="#afd0df5fe1e5540b30d54718372191686">More...</a><br /></td></tr>
-<tr class="separator:afd0df5fe1e5540b30d54718372191686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7928f59acfc984899a12b52ab2e5ddca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d85/a00976.php#a7928f59acfc984899a12b52ab2e5ddca">hasNext</a> () const</td></tr>
+<tr class="memdesc:a7928f59acfc984899a12b52ab2e5ddca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <b>true</b> if the path has a next node.  <a href="#a7928f59acfc984899a12b52ab2e5ddca">More...</a><br /></td></tr>
+<tr class="separator:a7928f59acfc984899a12b52ab2e5ddca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6941e224d3239f1c5aeda5b309aa5c81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d85/a00976.php#a6941e224d3239f1c5aeda5b309aa5c81">reset</a> ()</td></tr>
 <tr class="memdesc:a6941e224d3239f1c5aeda5b309aa5c81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the path counter to restart the path.  <a href="#a6941e224d3239f1c5aeda5b309aa5c81">More...</a><br /></td></tr>
 <tr class="separator:a6941e224d3239f1c5aeda5b309aa5c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,8 +195,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="afd0df5fe1e5540b30d54718372191686"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd0df5fe1e5540b30d54718372191686">&#9670;&nbsp;</a></span>hasNext()</h2>
+<a id="a7928f59acfc984899a12b52ab2e5ddca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7928f59acfc984899a12b52ab2e5ddca">&#9670;&nbsp;</a></span>hasNext()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,7 +205,7 @@ Public Attributes</h2></td></tr>
           <td class="memname">bool mcd::Path::hasNext </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">

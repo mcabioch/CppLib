@@ -24,7 +24,7 @@ namespace mcd {
 		return true;
 	}
 
-	bool Path::hasNext(){
+	bool Path::hasNext()const {
 		if(_index >= _path.size()){ return false; }
 		return true;
 	}

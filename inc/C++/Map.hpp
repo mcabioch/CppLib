@@ -151,7 +151,7 @@ namespace mcd {
 				*
 				*		\return			\b true or \b false
 				*/
-				bool save(std::string file);
+				bool save(std::string file)const;
 
 				/*!
 				* \brief	Put an entity on the given position
@@ -261,7 +261,7 @@ namespace mcd {
 			
 
 		private:
-			bool printEntity(size_t x, size_t y);
+			bool printEntity(size_t x, size_t y)const;
 			void validArrival(const Point& from, Point& to);
 
 		/* Atttributes of Map */

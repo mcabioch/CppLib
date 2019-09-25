@@ -3,7 +3,7 @@
 *	\file		Path.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	July, 29 2018 16:12:40
-*	\modified	August, 15 2018
+*	\modified	September, 24 2019
 *
 */
 #ifndef HEADER_CPP_MAP_PATH
@@ -67,7 +67,7 @@ namespace mcd {
 				bool next(PathfindingNode& node);
 
 				/*! \brief	Return \b true if the path has a next node */
-				bool hasNext();
+				bool hasNext()const;
 
 				/*! \brief	Reset the path counter to restart the path */
 				void reset();

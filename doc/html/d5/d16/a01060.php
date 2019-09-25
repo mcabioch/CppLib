@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 20:08:41 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -106,14 +106,14 @@ $(document).ready(function(){initNavTree('d5/d16/a01060.php','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8bac7e9b617cb3ce22c7bb9ffc75ea12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a01060.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a8bac7e9b617cb3ce22c7bb9ffc75ea12">top</a> ()</td></tr>
-<tr class="separator:a8bac7e9b617cb3ce22c7bb9ffc75ea12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5742950964b2f239930071518ea83364"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a01060.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a5742950964b2f239930071518ea83364">bot</a> ()</td></tr>
-<tr class="separator:a5742950964b2f239930071518ea83364"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0af78259e9502c202a50ec899c9c3cce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a01060.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a0af78259e9502c202a50ec899c9c3cce">left</a> ()</td></tr>
-<tr class="separator:a0af78259e9502c202a50ec899c9c3cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5fb38df3a537526cd7657d84ce89872"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a01060.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#aa5fb38df3a537526cd7657d84ce89872">right</a> ()</td></tr>
-<tr class="separator:aa5fb38df3a537526cd7657d84ce89872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd57961d22ce89d783303c0fbbdc4f83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a01060.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#afd57961d22ce89d783303c0fbbdc4f83">top</a> () const</td></tr>
+<tr class="separator:afd57961d22ce89d783303c0fbbdc4f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2beb84069e438adcccfa4b6ed9794c0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a01060.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a2beb84069e438adcccfa4b6ed9794c0c">bot</a> () const</td></tr>
+<tr class="separator:a2beb84069e438adcccfa4b6ed9794c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91941563ecc020a510832ba8869e5ded"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a01060.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a91941563ecc020a510832ba8869e5ded">left</a> () const</td></tr>
+<tr class="separator:a91941563ecc020a510832ba8869e5ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a613a9be49ee0cbe55e10e75db1d59faa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a01060.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a613a9be49ee0cbe55e10e75db1d59faa">right</a> () const</td></tr>
+<tr class="separator:a613a9be49ee0cbe55e10e75db1d59faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ebbd086a808f7fb8bd49bda00b8df12"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
 <tr class="memitem:a6ebbd086a808f7fb8bd49bda00b8df12"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value &amp;&amp;std::is_arithmetic&lt; U &gt;::value, <a class="el" href="../../d5/d16/a01060.php">Point</a> &amp; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a6ebbd086a808f7fb8bd49bda00b8df12">operator=</a> (const std::pair&lt; T, U &gt; &amp;o)</td></tr>
 <tr class="separator:a6ebbd086a808f7fb8bd49bda00b8df12"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,8 +142,8 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A struct to define a point in space. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5742950964b2f239930071518ea83364"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5742950964b2f239930071518ea83364">&#9670;&nbsp;</a></span>bot()</h2>
+<a id="a2beb84069e438adcccfa4b6ed9794c0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2beb84069e438adcccfa4b6ed9794c0c">&#9670;&nbsp;</a></span>bot()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -155,7 +155,7 @@ Friends</h2></td></tr>
           <td class="memname"><a class="el" href="../../d5/d16/a01060.php">Point</a> mcd::Point::bot </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -167,8 +167,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a0af78259e9502c202a50ec899c9c3cce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0af78259e9502c202a50ec899c9c3cce">&#9670;&nbsp;</a></span>left()</h2>
+<a id="a91941563ecc020a510832ba8869e5ded"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91941563ecc020a510832ba8869e5ded">&#9670;&nbsp;</a></span>left()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,7 +180,7 @@ Friends</h2></td></tr>
           <td class="memname"><a class="el" href="../../d5/d16/a01060.php">Point</a> mcd::Point::left </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -248,8 +248,8 @@ template&lt;class T , class U , class V &gt; </div>
 
 </div>
 </div>
-<a id="aa5fb38df3a537526cd7657d84ce89872"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5fb38df3a537526cd7657d84ce89872">&#9670;&nbsp;</a></span>right()</h2>
+<a id="a613a9be49ee0cbe55e10e75db1d59faa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a613a9be49ee0cbe55e10e75db1d59faa">&#9670;&nbsp;</a></span>right()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -261,7 +261,7 @@ template&lt;class T , class U , class V &gt; </div>
           <td class="memname"><a class="el" href="../../d5/d16/a01060.php">Point</a> mcd::Point::right </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -273,8 +273,8 @@ template&lt;class T , class U , class V &gt; </div>
 
 </div>
 </div>
-<a id="a8bac7e9b617cb3ce22c7bb9ffc75ea12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bac7e9b617cb3ce22c7bb9ffc75ea12">&#9670;&nbsp;</a></span>top()</h2>
+<a id="afd57961d22ce89d783303c0fbbdc4f83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd57961d22ce89d783303c0fbbdc4f83">&#9670;&nbsp;</a></span>top()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,7 +286,7 @@ template&lt;class T , class U , class V &gt; </div>
           <td class="memname"><a class="el" href="../../d5/d16/a01060.php">Point</a> mcd::Point::top </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>

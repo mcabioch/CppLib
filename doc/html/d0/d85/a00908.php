@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 20:08:41 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -129,12 +129,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a022907735103df44ce25774a289cede1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d09972656fd75b2377a173a30692db6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d85/a00908.php#a9d09972656fd75b2377a173a30692db6">~RSA</a> ()</td></tr>
 <tr class="separator:a9d09972656fd75b2377a173a30692db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a885a265a104f87c77bc96f9ae55ae0d6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d85/a00908.php#a885a265a104f87c77bc96f9ae55ae0d6">getPublic</a> ()</td></tr>
-<tr class="memdesc:a885a265a104f87c77bc96f9ae55ae0d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the public key.  <a href="#a885a265a104f87c77bc96f9ae55ae0d6">More...</a><br /></td></tr>
-<tr class="separator:a885a265a104f87c77bc96f9ae55ae0d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa09a88145f53f850b55f9224a17ee35"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d85/a00908.php#aaa09a88145f53f850b55f9224a17ee35">getPrivate</a> ()</td></tr>
-<tr class="memdesc:aaa09a88145f53f850b55f9224a17ee35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the private key.  <a href="#aaa09a88145f53f850b55f9224a17ee35">More...</a><br /></td></tr>
-<tr class="separator:aaa09a88145f53f850b55f9224a17ee35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fdf2f24700983208b6bfab8df8ef911"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d85/a00908.php#a7fdf2f24700983208b6bfab8df8ef911">getPublic</a> () const</td></tr>
+<tr class="memdesc:a7fdf2f24700983208b6bfab8df8ef911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the public key.  <a href="#a7fdf2f24700983208b6bfab8df8ef911">More...</a><br /></td></tr>
+<tr class="separator:a7fdf2f24700983208b6bfab8df8ef911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac38c1c5dff307a8dd9ce9c00b8df8b87"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d85/a00908.php#ac38c1c5dff307a8dd9ce9c00b8df8b87">getPrivate</a> () const</td></tr>
+<tr class="memdesc:ac38c1c5dff307a8dd9ce9c00b8df8b87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the private key.  <a href="#ac38c1c5dff307a8dd9ce9c00b8df8b87">More...</a><br /></td></tr>
+<tr class="separator:ac38c1c5dff307a8dd9ce9c00b8df8b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fcb230195d7b3fb73b8f62488dcc2e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d85/a00908.php#a4fcb230195d7b3fb73b8f62488dcc2e5">setPublic</a> (const std::string &amp;key=&quot;&quot;)</td></tr>
 <tr class="memdesc:a4fcb230195d7b3fb73b8f62488dcc2e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the public key.  <a href="#a4fcb230195d7b3fb73b8f62488dcc2e5">More...</a><br /></td></tr>
 <tr class="separator:a4fcb230195d7b3fb73b8f62488dcc2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,8 +296,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aaa09a88145f53f850b55f9224a17ee35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa09a88145f53f850b55f9224a17ee35">&#9670;&nbsp;</a></span>getPrivate()</h2>
+<a id="ac38c1c5dff307a8dd9ce9c00b8df8b87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac38c1c5dff307a8dd9ce9c00b8df8b87">&#9670;&nbsp;</a></span>getPrivate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -306,7 +306,7 @@ Here is the call graph for this function:</div>
           <td class="memname">std::string mcd::RSA::getPrivate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -316,8 +316,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a885a265a104f87c77bc96f9ae55ae0d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a885a265a104f87c77bc96f9ae55ae0d6">&#9670;&nbsp;</a></span>getPublic()</h2>
+<a id="a7fdf2f24700983208b6bfab8df8ef911"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fdf2f24700983208b6bfab8df8ef911">&#9670;&nbsp;</a></span>getPublic()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -326,7 +326,7 @@ Here is the call graph for this function:</div>
           <td class="memname">std::string mcd::RSA::getPublic </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">

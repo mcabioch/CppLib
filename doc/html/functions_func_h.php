@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 20:08:41 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('functions_func_h.php','');});
 : <a class="el" href="d8/d1c/a00824.php#a7d782a43bfd471bf7a32ac0dfafe1041">mcd::Check::has_size_method&lt; T &gt;</a>
 </li>
 <li>hasNext()
-: <a class="el" href="d0/d85/a00976.php#afd0df5fe1e5540b30d54718372191686">mcd::Path</a>
+: <a class="el" href="d0/d85/a00976.php#a7928f59acfc984899a12b52ab2e5ddca">mcd::Path</a>
 </li>
 <li>hasToStop()
 : <a class="el" href="df/d89/a01032.php#a804393d97a319c38afa593072bd0ead9">mcd::Threadable&lt; C &gt;</a>

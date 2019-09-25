@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['save',['save',['../dc/d17/a00872.php#ab58627fbfed0b6cabd5030943113e5e5',1,'mcd::ConsoleCursor::save()'],['../de/d49/a00952.php#a5962b156a6ac1a9b3086f54ae6289121',1,'mcd::Map::save()']]],
+  ['save',['save',['../dc/d17/a00872.php#ab58627fbfed0b6cabd5030943113e5e5',1,'mcd::ConsoleCursor::save()'],['../de/d49/a00952.php#ae97bd301b582dcb303507d5df1189588',1,'mcd::Map::save()']]],
   ['second',['second',['../dd/ded/a00211.php#add070f6dc7f62980568fb3e4e65a8059',1,'mcd::trio::second()'],['../dd/ded/a00211.php#a04fed1e7cdd9a52f5a8d3f49a4a2c741',1,'mcd::quatuor::second()'],['../d8/d79/a01036.php#a5a3510ec96b9698b8cf601a2a1b9d90c',1,'mcd::Time::second()']]],
   ['sender',['sender',['../dd/d94/a00888.php#a6ee6d1b64b6b88068a2165a1824a5af2',1,'mcd::Contraption']]],
   ['servlog',['servLog',['../dd/ded/a00211.php#abcc09c3d97d72792032b5615d41aa1c5',1,'mcd']]],

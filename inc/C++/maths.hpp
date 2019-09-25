@@ -2,7 +2,7 @@
 *
 *	\file		maths.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	September, 17 2019
+*	\modified	September, 24 2019
 *
 */
 #ifndef HEADER_CPP_MATHS
@@ -152,11 +152,10 @@ namespace mcd {
 	*/
 	template<typename V> V eucl(V a, V b){
 		V r(a), u(1), v(0), r2(b), u2(0), v2(1);
-		int q;
 		V rs, us, vs;
 
 		while(r2){
-			q = static_cast<int>(r/r2);
+			int q = static_cast<int>(r/r2);
 
 			rs = r;
 			us = u;

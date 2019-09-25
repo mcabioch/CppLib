@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 20:08:41 for C++ by";
+				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -99,8 +99,8 @@ $(document).ready(function(){initNavTree('d0/d85/a00908.php','../../');});
   <tr class="even"><td class="entry"><a class="el" href="../../d0/d85/a00908.php#ad080bbc2c65c9690f38fa376ca65a985">crypt</a>(const std::string &amp;message) override</td><td class="entry"><a class="el" href="../../d0/d85/a00908.php">mcd::RSA</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d0/de2/a00892.php#a3f598383428868a9f69502e5de031ea5">Crypto</a>()</td><td class="entry"><a class="el" href="../../d0/de2/a00892.php">mcd::Crypto</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d0/d85/a00908.php#ad831bd26ceeff7ad460bcabcad213155">decrypt</a>(const std::string &amp;message) override</td><td class="entry"><a class="el" href="../../d0/d85/a00908.php">mcd::RSA</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d85/a00908.php#aaa09a88145f53f850b55f9224a17ee35">getPrivate</a>()</td><td class="entry"><a class="el" href="../../d0/d85/a00908.php">mcd::RSA</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d85/a00908.php#a885a265a104f87c77bc96f9ae55ae0d6">getPublic</a>()</td><td class="entry"><a class="el" href="../../d0/d85/a00908.php">mcd::RSA</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/d85/a00908.php#ac38c1c5dff307a8dd9ce9c00b8df8b87">getPrivate</a>() const</td><td class="entry"><a class="el" href="../../d0/d85/a00908.php">mcd::RSA</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/d85/a00908.php#a7fdf2f24700983208b6bfab8df8ef911">getPublic</a>() const</td><td class="entry"><a class="el" href="../../d0/d85/a00908.php">mcd::RSA</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../da/d17/a00964.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a>()</td><td class="entry"><a class="el" href="../../da/d17/a00964.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d0/d85/a00908.php#a41496cdf1557d2e3dda4d0f414738af5">privateK</a></td><td class="entry"><a class="el" href="../../d0/d85/a00908.php">mcd::RSA</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d0/d85/a00908.php#ae37f658e3ba447726e0a0abd0f1ac5c8">publicK</a></td><td class="entry"><a class="el" href="../../d0/d85/a00908.php">mcd::RSA</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
