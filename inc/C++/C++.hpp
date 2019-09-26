@@ -2,7 +2,7 @@
 *
 *	\file		C++.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	April, 16 2019
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_CPP
