@@ -176,6 +176,20 @@ $(OBJDIR)/%.o: $(SRCDIR)/%.cpp $(CXXINC)
 #
 PHONY =
 
+PHONY += createDirs
+
+createDirs:
+	mkdir -p $(BINDIR)
+	mkdir -p $(DOCDIR)
+	mkdir -p $(INCDIR)
+	mkdir -p $(LIBDIR)
+	mkdir -p $(OBJDIR)
+	mkdir -p $(SQLDIR)
+	mkdir -p $(SRCDIR)
+#
+	mkdir -p $(RESDIR)
+	mkdir -p $(RESDIR)/imgs
+
 PHONY += cleanConfigure clean
 
 cleanConfigure:
@@ -193,7 +207,7 @@ clean: cleanConfigure
 
 PHONY += lib
 
-lib: $(OBJ)
+lib: createDirs $(OBJ)
 ifeq ($(DEBUG),yes)
 	make lib DEBUG=no
 else
