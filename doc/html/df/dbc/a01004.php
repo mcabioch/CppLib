@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -128,15 +128,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abde0c45c79e9cb030711f77d73fdc5a8"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#abde0c45c79e9cb030711f77d73fdc5a8">~PlayerAbstraction</a> ()</td></tr>
 <tr class="memdesc:abde0c45c79e9cb030711f77d73fdc5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#abde0c45c79e9cb030711f77d73fdc5a8">More...</a><br /></td></tr>
 <tr class="separator:abde0c45c79e9cb030711f77d73fdc5a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42c70de66bff8acacb5f3fe9b1d68b66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a42c70de66bff8acacb5f3fe9b1d68b66">setMail</a> (const std::string mail)</td></tr>
-<tr class="memdesc:a42c70de66bff8acacb5f3fe9b1d68b66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d7/df2/a01000.php" title="A player that can be a child from any class. ">Player</a>'smail.  <a href="#a42c70de66bff8acacb5f3fe9b1d68b66">More...</a><br /></td></tr>
-<tr class="separator:a42c70de66bff8acacb5f3fe9b1d68b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd43768fd6e0cef44f01eda62c12709d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#afd43768fd6e0cef44f01eda62c12709d">setExperience</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> experience)</td></tr>
-<tr class="memdesc:afd43768fd6e0cef44f01eda62c12709d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d7/df2/a01000.php" title="A player that can be a child from any class. ">Player</a>'s experience.  <a href="#afd43768fd6e0cef44f01eda62c12709d">More...</a><br /></td></tr>
-<tr class="separator:afd43768fd6e0cef44f01eda62c12709d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a359eee2f7927489351f40177a5da91fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a359eee2f7927489351f40177a5da91fe">setExperienceMax</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> experienceMax)</td></tr>
-<tr class="memdesc:a359eee2f7927489351f40177a5da91fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d7/df2/a01000.php" title="A player that can be a child from any class. ">Player</a>'s max experience.  <a href="#a359eee2f7927489351f40177a5da91fe">More...</a><br /></td></tr>
-<tr class="separator:a359eee2f7927489351f40177a5da91fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6441d9b85821e4e20639fe5082795a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#ac6441d9b85821e4e20639fe5082795a5">setMail</a> (const std::string &amp;mail)</td></tr>
+<tr class="memdesc:ac6441d9b85821e4e20639fe5082795a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d7/df2/a01000.php" title="A player that can be a child from any class. ">Player</a>'smail.  <a href="#ac6441d9b85821e4e20639fe5082795a5">More...</a><br /></td></tr>
+<tr class="separator:ac6441d9b85821e4e20639fe5082795a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a368cb45cbd8f4bcd470628f4d0783b07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a368cb45cbd8f4bcd470628f4d0783b07">setExperience</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;experience)</td></tr>
+<tr class="memdesc:a368cb45cbd8f4bcd470628f4d0783b07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d7/df2/a01000.php" title="A player that can be a child from any class. ">Player</a>'s experience.  <a href="#a368cb45cbd8f4bcd470628f4d0783b07">More...</a><br /></td></tr>
+<tr class="separator:a368cb45cbd8f4bcd470628f4d0783b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e2dc719465b4100436d08def34378f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a7e2dc719465b4100436d08def34378f4">setExperienceMax</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;experienceMax)</td></tr>
+<tr class="memdesc:a7e2dc719465b4100436d08def34378f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d7/df2/a01000.php" title="A player that can be a child from any class. ">Player</a>'s max experience.  <a href="#a7e2dc719465b4100436d08def34378f4">More...</a><br /></td></tr>
+<tr class="separator:a7e2dc719465b4100436d08def34378f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada35a68939571761734d82bf83e6c634"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#ada35a68939571761734d82bf83e6c634">getMail</a> () const</td></tr>
 <tr class="separator:ada35a68939571761734d82bf83e6c634"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4b6c4845dcc12c9feed1910e7de9334"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#af4b6c4845dcc12c9feed1910e7de9334">getExperience</a> () const</td></tr>
@@ -606,8 +606,8 @@ template&lt;class PlayerParent &gt; </div>
 
 </div>
 </div>
-<a id="afd43768fd6e0cef44f01eda62c12709d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd43768fd6e0cef44f01eda62c12709d">&#9670;&nbsp;</a></span>setExperience()</h2>
+<a id="a368cb45cbd8f4bcd470628f4d0783b07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a368cb45cbd8f4bcd470628f4d0783b07">&#9670;&nbsp;</a></span>setExperience()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -620,7 +620,7 @@ template&lt;class PlayerParent &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::setExperience </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;&#160;</td>
           <td class="paramname"><em>experience</em></td><td>)</td>
           <td></td>
         </tr>
@@ -643,8 +643,8 @@ template&lt;class PlayerParent &gt; </div>
 
 </div>
 </div>
-<a id="a359eee2f7927489351f40177a5da91fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a359eee2f7927489351f40177a5da91fe">&#9670;&nbsp;</a></span>setExperienceMax()</h2>
+<a id="a7e2dc719465b4100436d08def34378f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e2dc719465b4100436d08def34378f4">&#9670;&nbsp;</a></span>setExperienceMax()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -657,7 +657,7 @@ template&lt;class PlayerParent &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::setExperienceMax </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;&#160;</td>
           <td class="paramname"><em>experienceMax</em></td><td>)</td>
           <td></td>
         </tr>
@@ -680,8 +680,8 @@ template&lt;class PlayerParent &gt; </div>
 
 </div>
 </div>
-<a id="a42c70de66bff8acacb5f3fe9b1d68b66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42c70de66bff8acacb5f3fe9b1d68b66">&#9670;&nbsp;</a></span>setMail()</h2>
+<a id="ac6441d9b85821e4e20639fe5082795a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6441d9b85821e4e20639fe5082795a5">&#9670;&nbsp;</a></span>setMail()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -694,7 +694,7 @@ template&lt;class PlayerParent &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::setMail </td>
           <td>(</td>
-          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>mail</em></td><td>)</td>
           <td></td>
         </tr>

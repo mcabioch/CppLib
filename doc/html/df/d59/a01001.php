@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -114,9 +114,9 @@ $(document).ready(function(){initNavTree('df/dbc/a01004.php','../../');});
   <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#ac6d60013def2f34160fda9a990cf2da5">printInfos</a>(std::ostream &amp;stream) const override</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#a4670bc4130ffbdd8fd198ab020a7ffe3">resume</a>()</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#ac4a98e2f186ed9702f90362a158a9f2f">retreive</a>()</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#afd43768fd6e0cef44f01eda62c12709d">setExperience</a>(const double64_t experience)</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#a359eee2f7927489351f40177a5da91fe">setExperienceMax</a>(const double64_t experienceMax)</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#a42c70de66bff8acacb5f3fe9b1d68b66">setMail</a>(const std::string mail)</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#a368cb45cbd8f4bcd470628f4d0783b07">setExperience</a>(const double64_t &amp;experience)</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#a7e2dc719465b4100436d08def34378f4">setExperienceMax</a>(const double64_t &amp;experienceMax)</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#ac6441d9b85821e4e20639fe5082795a5">setMail</a>(const std::string &amp;mail)</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#abde0c45c79e9cb030711f77d73fdc5a8">~PlayerAbstraction</a>()</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->

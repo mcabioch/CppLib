@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -120,9 +120,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a29db3ebe9dfbf77bc04967565c0dcf6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d89/a01032.php#a29db3ebe9dfbf77bc04967565c0dcf6e">Threadable</a> (<a class="el" href="../../df/d89/a01032.php">Threadable</a>&lt; C &gt; &amp;other)</td></tr>
 <tr class="memdesc:a29db3ebe9dfbf77bc04967565c0dcf6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy constructor of the <a class="el" href="../../df/d89/a01032.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class.  <a href="#a29db3ebe9dfbf77bc04967565c0dcf6e">More...</a><br /></td></tr>
 <tr class="separator:a29db3ebe9dfbf77bc04967565c0dcf6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cbceb43796de6c36a5cd4f35a6402cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d89/a01032.php#a4cbceb43796de6c36a5cd4f35a6402cb">Threadable</a> (<a class="el" href="../../df/d89/a01032.php">Threadable</a>&lt; C &gt; &amp;&amp;other)</td></tr>
+<tr class="memdesc:a4cbceb43796de6c36a5cd4f35a6402cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The move constructor of the <a class="el" href="../../df/d89/a01032.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class.  <a href="#a4cbceb43796de6c36a5cd4f35a6402cb">More...</a><br /></td></tr>
+<tr class="separator:a4cbceb43796de6c36a5cd4f35a6402cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab98cd8e5cd8832dfd6e82c17d1a689d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d89/a01032.php#aab98cd8e5cd8832dfd6e82c17d1a689d">~Threadable</a> ()</td></tr>
 <tr class="memdesc:aab98cd8e5cd8832dfd6e82c17d1a689d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The destructor of the <a class="el" href="../../df/d89/a01032.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class.  <a href="#aab98cd8e5cd8832dfd6e82c17d1a689d">More...</a><br /></td></tr>
 <tr class="separator:aab98cd8e5cd8832dfd6e82c17d1a689d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede63b72f054d20e35d22153af8313c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d89/a01032.php">Threadable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d89/a01032.php#aede63b72f054d20e35d22153af8313c8">operator=</a> (<a class="el" href="../../df/d89/a01032.php">Threadable</a>&lt; C &gt; &amp;other) noexcept</td></tr>
+<tr class="memdesc:aede63b72f054d20e35d22153af8313c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy operator of the class.  <a href="#aede63b72f054d20e35d22153af8313c8">More...</a><br /></td></tr>
+<tr class="separator:aede63b72f054d20e35d22153af8313c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab51cdb23e70b6ab97afb529098eb20c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d89/a01032.php">Threadable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d89/a01032.php#ab51cdb23e70b6ab97afb529098eb20c0">operator=</a> (<a class="el" href="../../df/d89/a01032.php">Threadable</a>&lt; C &gt; &amp;&amp;other) noexcept</td></tr>
+<tr class="memdesc:ab51cdb23e70b6ab97afb529098eb20c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The move operator of the class.  <a href="#ab51cdb23e70b6ab97afb529098eb20c0">More...</a><br /></td></tr>
+<tr class="separator:ab51cdb23e70b6ab97afb529098eb20c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eb0985252b04c90761f92432ef4216d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d89/a01032.php#a1eb0985252b04c90761f92432ef4216d">launch</a> ()=0</td></tr>
 <tr class="memdesc:a1eb0985252b04c90761f92432ef4216d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the thread.  <a href="#a1eb0985252b04c90761f92432ef4216d">More...</a><br /></td></tr>
 <tr class="separator:a1eb0985252b04c90761f92432ef4216d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,7 +176,7 @@ class mcd::Threadable&lt; C &gt;</h3>
 </ul>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a04bdb4a894312f6671680c2f103b8a63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04bdb4a894312f6671680c2f103b8a63">&#9670;&nbsp;</a></span>Threadable() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a04bdb4a894312f6671680c2f103b8a63">&#9670;&nbsp;</a></span>Threadable() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -196,7 +205,7 @@ template&lt;class C&gt; </div>
 </div>
 </div>
 <a id="a29db3ebe9dfbf77bc04967565c0dcf6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29db3ebe9dfbf77bc04967565c0dcf6e">&#9670;&nbsp;</a></span>Threadable() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a29db3ebe9dfbf77bc04967565c0dcf6e">&#9670;&nbsp;</a></span>Threadable() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -222,6 +231,36 @@ template&lt;class C&gt; </div>
 </div><div class="memdoc">
 
 <p>The copy constructor of the <a class="el" href="../../df/d89/a01032.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class. </p>
+
+</div>
+</div>
+<a id="a4cbceb43796de6c36a5cd4f35a6402cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cbceb43796de6c36a5cd4f35a6402cb">&#9670;&nbsp;</a></span>Threadable() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable</a>&lt; C &gt;::<a class="el" href="../../df/d89/a01032.php">Threadable</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d89/a01032.php">Threadable</a>&lt; C &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The move constructor of the <a class="el" href="../../df/d89/a01032.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class. </p>
 
 </div>
 </div>
@@ -399,6 +438,78 @@ template&lt;class C&gt; </div>
 </div><div class="memdoc">
 
 <p>Set that the thread is not used. </p>
+
+</div>
+</div>
+<a id="aede63b72f054d20e35d22153af8313c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aede63b72f054d20e35d22153af8313c8">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d89/a01032.php">Threadable</a>&amp; <a class="el" href="../../df/d89/a01032.php">mcd::Threadable</a>&lt; C &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d89/a01032.php">Threadable</a>&lt; C &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The copy operator of the class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The class' instance for copying </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab51cdb23e70b6ab97afb529098eb20c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab51cdb23e70b6ab97afb529098eb20c0">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d89/a01032.php">Threadable</a>&amp; <a class="el" href="../../df/d89/a01032.php">mcd::Threadable</a>&lt; C &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d89/a01032.php">Threadable</a>&lt; C &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The move operator of the class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The class' instance for moving </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

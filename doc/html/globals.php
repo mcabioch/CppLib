@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:55 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -121,7 +121,7 @@ $(document).ready(function(){initNavTree('globals.php','');});
 : <a class="el" href="d1/d09/a00077.php#a05518c3c201982924254d7df8cc2d910">errors.hpp</a>
 </li>
 <li>GaussJordan()
-: <a class="el" href="d4/d3e/a00116.php#aca9f092b9b733cf1ec9c0644e6208e98">Matrix_functions.hpp</a>
+: <a class="el" href="d4/d3e/a00116.php#ac334e87277dcb1be7586d7825d5def38">Matrix_functions.hpp</a>
 </li>
 <li>has_method
 : <a class="el" href="d8/d41/a00038.php#a92713af8c651ed158031ed7d3fd15977">check.hpp</a>
@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('globals.php','');});
 : <a class="el" href="d1/d09/a00077.php#a08ee21f84a6b44ca59d7f045b55d6bfc">errors.hpp</a>
 </li>
 <li>mod()
-: <a class="el" href="d4/d3e/a00116.php#a3f75c65ca4bf71b05a5bb41e6562cb48">Matrix_functions.hpp</a>
+: <a class="el" href="d4/d3e/a00116.php#ac79943d7aebf62ae9c882752261ee7cb">Matrix_functions.hpp</a>
 </li>
 <li>MUTEX_RECREATE
 : <a class="el" href="d6/db8/a00158.php#a6fbaf936dc811e3422bec35b026f4983">pointers.hpp</a>

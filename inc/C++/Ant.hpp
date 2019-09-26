@@ -35,7 +35,7 @@ namespace mcd {
 				*
 				*		\return			void
 				*/
-				void setCaste(const std::string caste){ _caste = caste; }
+				void setCaste(const std::string& caste){ _caste = caste; }
 
 				/*!
 				* \brief	Se the stone for the ant
@@ -43,14 +43,14 @@ namespace mcd {
 				*
 				*		\return			void
 				*/
-				void setStone(const double64_t stone){ _stone = stone; }
+				void setStone(const double64_t& stone){ _stone = stone; }
 				/*!
 				* \brief	Set the maximum stone for the ant
 				*		\param[in]		stoneMax		The maximum stone to set
 				*
 				*		\return			void
 				*/
-				void setStoneMax(const double64_t stoneMax){ _stoneMax = stoneMax; }
+				void setStoneMax(const double64_t& stoneMax){ _stoneMax = stoneMax; }
 
 			/* Getters */
 				/*! \return			Return the caste */

@@ -2,7 +2,7 @@
 *
 *	\file		Tree.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		September, 25 2019
+*	\date		September, 26 2019
 *
 */
 #ifndef HEADER_CPP_TREE
@@ -238,6 +238,10 @@ namespace mcd {
 			*		\return			void
 			*/
 			void create(std::vector<std::pair<T, NodeWeight>> datas){
+				if(_root != nullptr){
+					delete _root;
+				}
+
 				_root = new Node<T>;
 
 				for(auto data : datas){

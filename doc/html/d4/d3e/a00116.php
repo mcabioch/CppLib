@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:24 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -98,24 +98,24 @@ $(document).ready(function(){initNavTree('d4/d3e/a00116.php','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aca9f092b9b733cf1ec9c0644e6208e98"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:aca9f092b9b733cf1ec9c0644e6208e98"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d3e/a00116.php#aca9f092b9b733cf1ec9c0644e6208e98">GaussJordan</a> (Matrix&lt; C &gt; M, Matrix&lt; C &gt; &amp;I, size_t i, size_t j)</td></tr>
-<tr class="separator:aca9f092b9b733cf1ec9c0644e6208e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac334e87277dcb1be7586d7825d5def38"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:ac334e87277dcb1be7586d7825d5def38"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d3e/a00116.php#ac334e87277dcb1be7586d7825d5def38">GaussJordan</a> (const Matrix&lt; C &gt; &amp;M, Matrix&lt; C &gt; &amp;I, size_t i, size_t j)</td></tr>
+<tr class="separator:ac334e87277dcb1be7586d7825d5def38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41e28ae3928eb58bf4c83bc0815baf08"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
 <tr class="memitem:a41e28ae3928eb58bf4c83bc0815baf08"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d3e/a00116.php#a41e28ae3928eb58bf4c83bc0815baf08">operator&lt;&lt;</a> (std::ostream &amp;os, const Matrix&lt; C &gt; &amp;M)</td></tr>
 <tr class="separator:a41e28ae3928eb58bf4c83bc0815baf08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f75c65ca4bf71b05a5bb41e6562cb48"><td class="memTemplParams" colspan="2">template&lt;class C , typename U &gt; </td></tr>
-<tr class="memitem:a3f75c65ca4bf71b05a5bb41e6562cb48"><td class="memTemplItemLeft" align="right" valign="top">Matrix&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d3e/a00116.php#a3f75c65ca4bf71b05a5bb41e6562cb48">mod</a> (const Matrix&lt; C &gt; M, U b, bool positive=false)</td></tr>
-<tr class="separator:a3f75c65ca4bf71b05a5bb41e6562cb48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac79943d7aebf62ae9c882752261ee7cb"><td class="memTemplParams" colspan="2">template&lt;class C , typename U &gt; </td></tr>
+<tr class="memitem:ac79943d7aebf62ae9c882752261ee7cb"><td class="memTemplItemLeft" align="right" valign="top">Matrix&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d3e/a00116.php#ac79943d7aebf62ae9c882752261ee7cb">mod</a> (const Matrix&lt; C &gt; &amp;M, U b, bool positive=false)</td></tr>
+<tr class="separator:ac79943d7aebf62ae9c882752261ee7cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Created : Sunday September, 15 2019 19:17:03 </dd>
 <dd>
-Last modification : Sunday September, 17 2019 </dd></dl>
+Last modification : September, 26 2019 </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="aca9f092b9b733cf1ec9c0644e6208e98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca9f092b9b733cf1ec9c0644e6208e98">&#9670;&nbsp;</a></span>GaussJordan()</h2>
+<a id="ac334e87277dcb1be7586d7825d5def38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac334e87277dcb1be7586d7825d5def38">&#9670;&nbsp;</a></span>GaussJordan()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125,7 +125,7 @@ template&lt;class C &gt; </div>
         <tr>
           <td class="memname">void GaussJordan </td>
           <td>(</td>
-          <td class="paramtype">Matrix&lt; C &gt;&#160;</td>
+          <td class="paramtype">const Matrix&lt; C &gt; &amp;&#160;</td>
           <td class="paramname"><em>M</em>, </td>
         </tr>
         <tr>
@@ -156,8 +156,8 @@ template&lt;class C &gt; </div>
 
 </div>
 </div>
-<a id="a3f75c65ca4bf71b05a5bb41e6562cb48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f75c65ca4bf71b05a5bb41e6562cb48">&#9670;&nbsp;</a></span>mod()</h2>
+<a id="ac79943d7aebf62ae9c882752261ee7cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac79943d7aebf62ae9c882752261ee7cb">&#9670;&nbsp;</a></span>mod()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -167,7 +167,7 @@ template&lt;class C , typename U &gt; </div>
         <tr>
           <td class="memname">Matrix&lt;C&gt; mod </td>
           <td>(</td>
-          <td class="paramtype">const Matrix&lt; C &gt;&#160;</td>
+          <td class="paramtype">const Matrix&lt; C &gt; &amp;&#160;</td>
           <td class="paramname"><em>M</em>, </td>
         </tr>
         <tr>

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:24 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -132,21 +132,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a18d820cdedb08f543b2d3a0fd83e7f72"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a18d820cdedb08f543b2d3a0fd83e7f72">~Animal</a> ()</td></tr>
 <tr class="memdesc:a18d820cdedb08f543b2d3a0fd83e7f72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#a18d820cdedb08f543b2d3a0fd83e7f72">More...</a><br /></td></tr>
 <tr class="separator:a18d820cdedb08f543b2d3a0fd83e7f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a516b431cd984071937ff20d442fdd57c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a516b431cd984071937ff20d442fdd57c">setSpeed</a> (<a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> speed)</td></tr>
-<tr class="memdesc:a516b431cd984071937ff20d442fdd57c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the speed.  <a href="#a516b431cd984071937ff20d442fdd57c">More...</a><br /></td></tr>
-<tr class="separator:a516b431cd984071937ff20d442fdd57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a2f256abea78b4748f1d54ba0478784"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a3a2f256abea78b4748f1d54ba0478784">setFood</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> food)</td></tr>
-<tr class="memdesc:a3a2f256abea78b4748f1d54ba0478784"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the food.  <a href="#a3a2f256abea78b4748f1d54ba0478784">More...</a><br /></td></tr>
-<tr class="separator:a3a2f256abea78b4748f1d54ba0478784"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe46a436e2bb2e8afe318e2bf82ea9dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#afe46a436e2bb2e8afe318e2bf82ea9dd">setFoodMax</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> foodMax)</td></tr>
-<tr class="memdesc:afe46a436e2bb2e8afe318e2bf82ea9dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum food.  <a href="#afe46a436e2bb2e8afe318e2bf82ea9dd">More...</a><br /></td></tr>
-<tr class="separator:afe46a436e2bb2e8afe318e2bf82ea9dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5b13d529bb710fd1be140e2a0986c8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#af5b13d529bb710fd1be140e2a0986c8f">setSpecies</a> (const std::string species)</td></tr>
-<tr class="memdesc:af5b13d529bb710fd1be140e2a0986c8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the species.  <a href="#af5b13d529bb710fd1be140e2a0986c8f">More...</a><br /></td></tr>
-<tr class="separator:af5b13d529bb710fd1be140e2a0986c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d617d74e3a516b49219f0efdee182a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a3d617d74e3a516b49219f0efdee182a3">setSpecialAttack</a> (const std::string specialAttack)</td></tr>
-<tr class="memdesc:a3d617d74e3a516b49219f0efdee182a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the special attack.  <a href="#a3d617d74e3a516b49219f0efdee182a3">More...</a><br /></td></tr>
-<tr class="separator:a3d617d74e3a516b49219f0efdee182a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ff6872a3b990ab0ca9309f84076ec0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a4ff6872a3b990ab0ca9309f84076ec0a">setSpeed</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;speed)</td></tr>
+<tr class="memdesc:a4ff6872a3b990ab0ca9309f84076ec0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the speed.  <a href="#a4ff6872a3b990ab0ca9309f84076ec0a">More...</a><br /></td></tr>
+<tr class="separator:a4ff6872a3b990ab0ca9309f84076ec0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab240f045e3b150a3c1b7ba7b8cad72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#afab240f045e3b150a3c1b7ba7b8cad72">setFood</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;food)</td></tr>
+<tr class="memdesc:afab240f045e3b150a3c1b7ba7b8cad72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the food.  <a href="#afab240f045e3b150a3c1b7ba7b8cad72">More...</a><br /></td></tr>
+<tr class="separator:afab240f045e3b150a3c1b7ba7b8cad72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f42d55cc53501c0e05b5c8a79888a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a48f42d55cc53501c0e05b5c8a79888a2">setFoodMax</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;foodMax)</td></tr>
+<tr class="memdesc:a48f42d55cc53501c0e05b5c8a79888a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum food.  <a href="#a48f42d55cc53501c0e05b5c8a79888a2">More...</a><br /></td></tr>
+<tr class="separator:a48f42d55cc53501c0e05b5c8a79888a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c0928be79e1be03389e1e74746bee6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a2c0928be79e1be03389e1e74746bee6b">setSpecies</a> (const std::string &amp;species)</td></tr>
+<tr class="memdesc:a2c0928be79e1be03389e1e74746bee6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the species.  <a href="#a2c0928be79e1be03389e1e74746bee6b">More...</a><br /></td></tr>
+<tr class="separator:a2c0928be79e1be03389e1e74746bee6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a929d7b3bf6637bd3e45c24ed050a2c55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a929d7b3bf6637bd3e45c24ed050a2c55">setSpecialAttack</a> (const std::string &amp;specialAttack)</td></tr>
+<tr class="memdesc:a929d7b3bf6637bd3e45c24ed050a2c55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the special attack.  <a href="#a929d7b3bf6637bd3e45c24ed050a2c55">More...</a><br /></td></tr>
+<tr class="separator:a929d7b3bf6637bd3e45c24ed050a2c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaa526abac4337a8be4836b0c99a9f9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#acaa526abac4337a8be4836b0c99a9f9b">getSpeed</a> () const</td></tr>
 <tr class="separator:acaa526abac4337a8be4836b0c99a9f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa200ce00d14dc675aed8467ca0fa8760"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#aa200ce00d14dc675aed8467ca0fa8760">getFood</a> () const</td></tr>
@@ -1137,8 +1137,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a3a2f256abea78b4748f1d54ba0478784"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a2f256abea78b4748f1d54ba0478784">&#9670;&nbsp;</a></span>setFood()</h2>
+<a id="afab240f045e3b150a3c1b7ba7b8cad72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab240f045e3b150a3c1b7ba7b8cad72">&#9670;&nbsp;</a></span>setFood()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1149,7 +1149,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void mcd::Animal::setFood </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;&#160;</td>
           <td class="paramname"><em>food</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1172,8 +1172,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="afe46a436e2bb2e8afe318e2bf82ea9dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe46a436e2bb2e8afe318e2bf82ea9dd">&#9670;&nbsp;</a></span>setFoodMax()</h2>
+<a id="a48f42d55cc53501c0e05b5c8a79888a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48f42d55cc53501c0e05b5c8a79888a2">&#9670;&nbsp;</a></span>setFoodMax()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1184,7 +1184,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void mcd::Animal::setFoodMax </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;&#160;</td>
           <td class="paramname"><em>foodMax</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1207,8 +1207,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a3d617d74e3a516b49219f0efdee182a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d617d74e3a516b49219f0efdee182a3">&#9670;&nbsp;</a></span>setSpecialAttack()</h2>
+<a id="a929d7b3bf6637bd3e45c24ed050a2c55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a929d7b3bf6637bd3e45c24ed050a2c55">&#9670;&nbsp;</a></span>setSpecialAttack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1219,7 +1219,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void mcd::Animal::setSpecialAttack </td>
           <td>(</td>
-          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>specialAttack</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1242,8 +1242,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="af5b13d529bb710fd1be140e2a0986c8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5b13d529bb710fd1be140e2a0986c8f">&#9670;&nbsp;</a></span>setSpecies()</h2>
+<a id="a2c0928be79e1be03389e1e74746bee6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c0928be79e1be03389e1e74746bee6b">&#9670;&nbsp;</a></span>setSpecies()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1254,7 +1254,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void mcd::Animal::setSpecies </td>
           <td>(</td>
-          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>species</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1277,8 +1277,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a516b431cd984071937ff20d442fdd57c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a516b431cd984071937ff20d442fdd57c">&#9670;&nbsp;</a></span>setSpeed()</h2>
+<a id="a4ff6872a3b990ab0ca9309f84076ec0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ff6872a3b990ab0ca9309f84076ec0a">&#9670;&nbsp;</a></span>setSpeed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1289,7 +1289,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void mcd::Animal::setSpeed </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;&#160;</td>
           <td class="paramname"><em>speed</em></td><td>)</td>
           <td></td>
         </tr>

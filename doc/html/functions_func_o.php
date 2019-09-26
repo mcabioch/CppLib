@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:55 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -158,12 +158,12 @@ $(document).ready(function(){initNavTree('functions_func_o.php','');});
 </li>
 <li>operator-=()
 : <a class="el" href="df/d0c/a00788.php#aa11404d0af642fa7e89fc484445200d5">mcd::Big</a>
-, <a class="el" href="dd/d38/a00928.php#a455683f59112555055fc6c5686a9621a">mcd::Fraction</a>
+, <a class="el" href="dd/d38/a00928.php#a53b141f48ecc61069385e16cf51524dc">mcd::Fraction</a>
 , <a class="el" href="d3/de5/a00956.php#a8c4a74722881f5fdb1a1135b36808f47">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>operator/()
 : <a class="el" href="dd/d38/a00928.php#a0ffeec4d80502f0173a03d7b3aa361db">mcd::Fraction</a>
-, <a class="el" href="d3/de5/a00956.php#a116e84cdee4fae72b8cdaabcc4f749ad">mcd::Matrix&lt; C &gt;</a>
+, <a class="el" href="d3/de5/a00956.php#aead70f5313e4a9a9c39321d41c2c3d10">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>operator/=()
 : <a class="el" href="df/d0c/a00788.php#aed2dc1aa4bd20abbe2c48aefe115b57d">mcd::Big</a>
@@ -174,17 +174,18 @@ $(document).ready(function(){initNavTree('functions_func_o.php','');});
 : <a class="el" href="dd/d38/a00928.php#a4c0588f44c0f24a7cb2fe0d1a4c05ad5">mcd::Fraction</a>
 </li>
 <li>operator&lt;=()
-: <a class="el" href="dd/d38/a00928.php#add6d3ff26c1c87e2d645ad37e751bdac">mcd::Fraction</a>
+: <a class="el" href="dd/d38/a00928.php#ac1e8c0cf1fdef5dd32409c5d0b660fb1">mcd::Fraction</a>
 </li>
 <li>operator=()
-: <a class="el" href="df/d0c/a00788.php#a280921a6fccbc4255f53889d4189706b">mcd::Big</a>
-, <a class="el" href="d5/d16/a01060.php#a220f83e0ebfaa9b2884530cfcac6f6df">mcd::Point</a>
+: <a class="el" href="df/d0c/a00788.php#adc8b04536591da50d9c9342a5eccaf42">mcd::Big</a>
+, <a class="el" href="d5/d16/a01060.php#a6ebbd086a808f7fb8bd49bda00b8df12">mcd::Point</a>
+, <a class="el" href="df/d89/a01032.php#aede63b72f054d20e35d22153af8313c8">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>operator==()
-: <a class="el" href="dd/d38/a00928.php#a300ed85793b7aece141599c82524f8d9">mcd::Fraction</a>
+: <a class="el" href="dd/d38/a00928.php#a986f1f323f69858991a54320af44b6a5">mcd::Fraction</a>
 </li>
 <li>operator&gt;()
-: <a class="el" href="dd/d38/a00928.php#a5160d78b6f8e8269aacac56fb50346df">mcd::Fraction</a>
+: <a class="el" href="dd/d38/a00928.php#a379d98c2c6ae1962fc2089b599fc48df">mcd::Fraction</a>
 </li>
 <li>operator&gt;=()
 : <a class="el" href="dd/d38/a00928.php#ac4dcbd6c3961244afb7bbcb90c5b01da">mcd::Fraction</a>

@@ -2,7 +2,7 @@
 *
 *	\file		Threadable.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	August, 17 2018
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_CPP_THREADABLE
@@ -62,14 +62,32 @@ namespace mcd {
 				_mutex(),
 				sleeper(0)
 			{}
+
 			/*! \brief	The copy constructor of the Threadable class */
 			Threadable(Threadable<C>& other) : 
-				m_loopThread(nullptr),
-				m_threadStopper(false),
-				used(false),
-				_mutex(),
-				sleeper(0)
+				Threadable()
 			{
+				*this = other;
+			}
+			/*! \brief	The move constructor of the Threadable class */
+			Threadable(Threadable<C>&& other) :
+				Threadable()
+			{
+				*this = std::move(other);
+			}
+
+			/*! \brief	The destructor of the Threadable class */
+			virtual ~Threadable(){
+				this->stop();
+			}
+
+			/*!
+			* \brief	The copy operator of the class
+			*	\param[in]		other		The class' instance for copying
+			*/
+			Threadable& operator=(Threadable<C>& other) noexcept {
+				if(this == &other){ return *this; }
+
 				other._mutex.lock();
 					_mutex.lock();
 						m_loopThread = other.m_loopThread;
@@ -78,10 +96,26 @@ namespace mcd {
 						sleeper = other.sleeper;
 					_mutex.unlock();
 				other._mutex.unlock();
+
+				return *this;
 			}
-			/*! \brief	The destructor of the Threadable class */
-			virtual ~Threadable(){
-				this->stop();
+			/*!
+			* \brief	The move operator of the class
+			*	\param[in]		other		The class' instance for moving
+			*/
+			Threadable& operator=(Threadable<C>&& other) noexcept {
+				if(this == &other){ return *this; }
+
+				other._mutex.lock();
+					_mutex.lock();
+						m_loopThread = other.m_loopThread;
+						m_threadStopper = other.m_threadStopper;
+						used = other.used;
+						sleeper = other.sleeper;
+					_mutex.unlock();
+				other._mutex.unlock();
+
+				return *this;
 			}
 
 			#ifndef DOXYGEN_SHOULD_SKIP_THIS

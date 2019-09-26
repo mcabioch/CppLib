@@ -2,7 +2,7 @@ var searchData=
 [
   ['abs',['abs',['../dd/ded/a00211.php#a50868f33f43952d24f8449e883d3fd99',1,'mcd::abs(const Big &amp;a)'],['../dd/ded/a00211.php#a4af7738b8b199b0b0868819828bf3f4f',1,'mcd::abs(T in)']]],
   ['add',['add',['../d8/d20/a00768.php#a0d178470f50f3a3f12b2dab7aa40f004',1,'mcd::Arguments::add()'],['../d5/de7/a01048.php#a20ba766efa9e94d90d156432d6f101b1',1,'mcd::Tree::add()']]],
-  ['addcolors',['addColors',['../d2/d5e/a00860.php#af4f6325cc63bd229cdf19df24a6e4f6e',1,'mcd::Color::addColors(int color)'],['../d2/d5e/a00860.php#ae732af32fdbea05950d39bd9532121cf',1,'mcd::Color::addColors(int color, Args... args)'],['../d2/d5e/a00860.php#a2763ec2ead72b9b5dabc5b8678a3cac1',1,'mcd::Color::addColors(Colors color)'],['../d2/d5e/a00860.php#a1bbeef7225d8e84a02fca3e32a325b45',1,'mcd::Color::addColors(Colors color, Args... args)']]],
+  ['addcolors',['addColors',['../d2/d5e/a00860.php#af4f6325cc63bd229cdf19df24a6e4f6e',1,'mcd::Color::addColors(int color)'],['../d2/d5e/a00860.php#ae732af32fdbea05950d39bd9532121cf',1,'mcd::Color::addColors(int color, Args... args)'],['../d2/d5e/a00860.php#a8dd730c3b59730b786d059a507d03fca',1,'mcd::Color::addColors(const Colors &amp;color)'],['../d2/d5e/a00860.php#ada095941e4b1c3757618959df513af9a',1,'mcd::Color::addColors(const Colors &amp;color, Args... args)']]],
   ['addposition',['addPosition',['../dd/d94/a00888.php#a7f4fa78c938b90c034ad0fe98a293a3c',1,'mcd::Contraption']]],
   ['addprog',['addProg',['../d8/d20/a00768.php#a1eabf4c8408ded2b8deca24d99fd3234',1,'mcd::Arguments']]],
   ['alias_5ftemplate_5ffunction',['ALIAS_TEMPLATE_FUNCTION',['../d1/d44/a00098.php#a4a9a280c3a601b98a7d1694f622a269c',1,'macro.hpp']]],

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:55 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('functions_func_s.php','');});
 : <a class="el" href="dd/d94/a00888.php#a9c5a7acde997e12d99e717f182c5ced7">mcd::Contraption</a>
 </li>
 <li>setCaste()
-: <a class="el" href="d3/d2c/a00764.php#a11134d67d002ff6f00036f75f625097e">mcd::Ant</a>
+: <a class="el" href="d3/d2c/a00764.php#a63fc83db2b90de339f8fea94358d6b09">mcd::Ant</a>
 </li>
 <li>setDamages()
 : <a class="el" href="de/d62/a00924.php#a4eac4847127344d9d2feb09176e2950c">mcd::Entity</a>
@@ -125,16 +125,16 @@ $(document).ready(function(){initNavTree('functions_func_s.php','');});
 : <a class="el" href="de/d49/a00952.php#a0d89a93779f04f96e43a883c6e021d04">mcd::Map</a>
 </li>
 <li>setExperience()
-: <a class="el" href="df/dbc/a01004.php#afd43768fd6e0cef44f01eda62c12709d">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/dbc/a01004.php#a368cb45cbd8f4bcd470628f4d0783b07">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>setExperienceMax()
-: <a class="el" href="df/dbc/a01004.php#a359eee2f7927489351f40177a5da91fe">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/dbc/a01004.php#a7e2dc719465b4100436d08def34378f4">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>setFood()
-: <a class="el" href="d8/db4/a00760.php#a3a2f256abea78b4748f1d54ba0478784">mcd::Animal</a>
+: <a class="el" href="d8/db4/a00760.php#afab240f045e3b150a3c1b7ba7b8cad72">mcd::Animal</a>
 </li>
 <li>setFoodMax()
-: <a class="el" href="d8/db4/a00760.php#afe46a436e2bb2e8afe318e2bf82ea9dd">mcd::Animal</a>
+: <a class="el" href="d8/db4/a00760.php#a48f42d55cc53501c0e05b5c8a79888a2">mcd::Animal</a>
 </li>
 <li>setH()
 : <a class="el" href="dd/d94/a00888.php#a060b6ee9401bd8c9a03c5cecdbfa1942">mcd::Contraption</a>
@@ -150,13 +150,13 @@ $(document).ready(function(){initNavTree('functions_func_s.php','');});
 : <a class="el" href="de/d62/a00924.php#afbdb1bf0f0dfd91f0217c88b08d94535">mcd::Entity</a>
 </li>
 <li>setMail()
-: <a class="el" href="df/dbc/a01004.php#a42c70de66bff8acacb5f3fe9b1d68b66">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/dbc/a01004.php#ac6441d9b85821e4e20639fe5082795a5">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>setMap()
 : <a class="el" href="dd/d94/a00888.php#a8a6c84d9d5f814fe553b731d841a5266">mcd::Contraption</a>
 </li>
 <li>setPassword()
-: <a class="el" href="dc/d2b/a00936.php#a53d4547cb792d88243c6448849fc40f3">mcd::Identifier</a>
+: <a class="el" href="dc/d2b/a00936.php#a5b0a0e637d443935ae770bf90b652dea">mcd::Identifier</a>
 </li>
 <li>setPosition()
 : <a class="el" href="dd/d94/a00888.php#a2974b562f55f65a1b992ff849eea43cf">mcd::Contraption</a>
@@ -180,19 +180,19 @@ $(document).ready(function(){initNavTree('functions_func_s.php','');});
 : <a class="el" href="de/d49/a00952.php#adab97ef85198947deb95164f9d240e30">mcd::Map</a>
 </li>
 <li>setSpecialAttack()
-: <a class="el" href="d8/db4/a00760.php#a3d617d74e3a516b49219f0efdee182a3">mcd::Animal</a>
+: <a class="el" href="d8/db4/a00760.php#a929d7b3bf6637bd3e45c24ed050a2c55">mcd::Animal</a>
 </li>
 <li>setSpecies()
-: <a class="el" href="d8/db4/a00760.php#af5b13d529bb710fd1be140e2a0986c8f">mcd::Animal</a>
+: <a class="el" href="d8/db4/a00760.php#a2c0928be79e1be03389e1e74746bee6b">mcd::Animal</a>
 </li>
 <li>setSpeed()
-: <a class="el" href="d8/db4/a00760.php#a516b431cd984071937ff20d442fdd57c">mcd::Animal</a>
+: <a class="el" href="d8/db4/a00760.php#a4ff6872a3b990ab0ca9309f84076ec0a">mcd::Animal</a>
 </li>
 <li>setStone()
-: <a class="el" href="d3/d2c/a00764.php#aa1b0af968166d77df1a8f916e2b72f7f">mcd::Ant</a>
+: <a class="el" href="d3/d2c/a00764.php#a03f3b31e549e9c7a7bf0dac610acf998">mcd::Ant</a>
 </li>
 <li>setStoneMax()
-: <a class="el" href="d3/d2c/a00764.php#a6c25377be80e76335799108cdd68b9cf">mcd::Ant</a>
+: <a class="el" href="d3/d2c/a00764.php#a3397f0142a9bc430d1026b253c8f3a30">mcd::Ant</a>
 </li>
 <li>setStrength()
 : <a class="el" href="d8/dbb/a00932.php#a8de9dffab818f0e4f742bb9709ee86c7">mcd::Hostile</a>
@@ -213,7 +213,7 @@ $(document).ready(function(){initNavTree('functions_func_s.php','');});
 : <a class="el" href="de/d62/a00924.php#a5d8126cf2cf5f72e8a58f1e97071806f">mcd::Entity</a>
 </li>
 <li>setUsername()
-: <a class="el" href="dc/d2b/a00936.php#a8e39d490b0b94678150e8c2b1d156e51">mcd::Identifier</a>
+: <a class="el" href="dc/d2b/a00936.php#a7487ac9cac4531aad529994927c0e69f">mcd::Identifier</a>
 </li>
 <li>setW()
 : <a class="el" href="dd/d94/a00888.php#a2a00e0217550c3b79434659e04d40aef">mcd::Contraption</a>

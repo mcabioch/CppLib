@@ -141,7 +141,7 @@ Matrix<C>& Matrix<C>::operator*=(const Matrix<D>& A) {
 		}
 	}
 
-	_i = _i;
+	//_i = _i;
 	_j = A._j;
 	test_square();
 

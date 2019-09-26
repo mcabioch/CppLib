@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -140,9 +140,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a29db3ebe9dfbf77bc04967565c0dcf6e inherit pub_methods_a01032"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d89/a01032.php#a29db3ebe9dfbf77bc04967565c0dcf6e">Threadable</a> (<a class="el" href="../../df/d89/a01032.php">Threadable</a>&lt; <a class="el" href="../../db/d14/a01040.php">Timer</a> &gt; &amp;other)</td></tr>
 <tr class="memdesc:a29db3ebe9dfbf77bc04967565c0dcf6e inherit pub_methods_a01032"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy constructor of the Threadable class.  <a href="../../df/d89/a01032.php#a29db3ebe9dfbf77bc04967565c0dcf6e">More...</a><br /></td></tr>
 <tr class="separator:a29db3ebe9dfbf77bc04967565c0dcf6e inherit pub_methods_a01032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cbceb43796de6c36a5cd4f35a6402cb inherit pub_methods_a01032"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d89/a01032.php#a4cbceb43796de6c36a5cd4f35a6402cb">Threadable</a> (<a class="el" href="../../df/d89/a01032.php">Threadable</a>&lt; <a class="el" href="../../db/d14/a01040.php">Timer</a> &gt; &amp;&amp;other)</td></tr>
+<tr class="memdesc:a4cbceb43796de6c36a5cd4f35a6402cb inherit pub_methods_a01032"><td class="mdescLeft">&#160;</td><td class="mdescRight">The move constructor of the Threadable class.  <a href="../../df/d89/a01032.php#a4cbceb43796de6c36a5cd4f35a6402cb">More...</a><br /></td></tr>
+<tr class="separator:a4cbceb43796de6c36a5cd4f35a6402cb inherit pub_methods_a01032"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab98cd8e5cd8832dfd6e82c17d1a689d inherit pub_methods_a01032"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d89/a01032.php#aab98cd8e5cd8832dfd6e82c17d1a689d">~Threadable</a> ()</td></tr>
 <tr class="memdesc:aab98cd8e5cd8832dfd6e82c17d1a689d inherit pub_methods_a01032"><td class="mdescLeft">&#160;</td><td class="mdescRight">The destructor of the Threadable class.  <a href="../../df/d89/a01032.php#aab98cd8e5cd8832dfd6e82c17d1a689d">More...</a><br /></td></tr>
 <tr class="separator:aab98cd8e5cd8832dfd6e82c17d1a689d inherit pub_methods_a01032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede63b72f054d20e35d22153af8313c8 inherit pub_methods_a01032"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d89/a01032.php">Threadable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d89/a01032.php#aede63b72f054d20e35d22153af8313c8">operator=</a> (<a class="el" href="../../df/d89/a01032.php">Threadable</a>&lt; <a class="el" href="../../db/d14/a01040.php">Timer</a> &gt; &amp;other) noexcept</td></tr>
+<tr class="memdesc:aede63b72f054d20e35d22153af8313c8 inherit pub_methods_a01032"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy operator of the class.  <a href="../../df/d89/a01032.php#aede63b72f054d20e35d22153af8313c8">More...</a><br /></td></tr>
+<tr class="separator:aede63b72f054d20e35d22153af8313c8 inherit pub_methods_a01032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab51cdb23e70b6ab97afb529098eb20c0 inherit pub_methods_a01032"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d89/a01032.php">Threadable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d89/a01032.php#ab51cdb23e70b6ab97afb529098eb20c0">operator=</a> (<a class="el" href="../../df/d89/a01032.php">Threadable</a>&lt; <a class="el" href="../../db/d14/a01040.php">Timer</a> &gt; &amp;&amp;other) noexcept</td></tr>
+<tr class="memdesc:ab51cdb23e70b6ab97afb529098eb20c0 inherit pub_methods_a01032"><td class="mdescLeft">&#160;</td><td class="mdescRight">The move operator of the class.  <a href="../../df/d89/a01032.php#ab51cdb23e70b6ab97afb529098eb20c0">More...</a><br /></td></tr>
+<tr class="separator:ab51cdb23e70b6ab97afb529098eb20c0 inherit pub_methods_a01032"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eb0985252b04c90761f92432ef4216d inherit pub_methods_a01032"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d89/a01032.php#a1eb0985252b04c90761f92432ef4216d">launch</a> ()=0</td></tr>
 <tr class="memdesc:a1eb0985252b04c90761f92432ef4216d inherit pub_methods_a01032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the thread.  <a href="../../df/d89/a01032.php#a1eb0985252b04c90761f92432ef4216d">More...</a><br /></td></tr>
 <tr class="separator:a1eb0985252b04c90761f92432ef4216d inherit pub_methods_a01032"><td class="memSeparator" colspan="2">&#160;</td></tr>

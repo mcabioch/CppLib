@@ -3,7 +3,7 @@
 *	\file		Matrix.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	Sunday September, 15 2019 19:17:03
-*	\modified	Sunday September, 17 2019
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_MATRIX

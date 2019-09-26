@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -139,13 +139,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae732af32fdbea05950d39bd9532121cf inherit pub_methods_a00860"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00860.php#ae732af32fdbea05950d39bd9532121cf">addColors</a> (int color, Args... args)</td></tr>
 <tr class="memdesc:ae732af32fdbea05950d39bd9532121cf inherit pub_methods_a00860"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="../../d2/d5e/a00860.php#ae732af32fdbea05950d39bd9532121cf">More...</a><br /></td></tr>
 <tr class="separator:ae732af32fdbea05950d39bd9532121cf inherit pub_methods_a00860"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2763ec2ead72b9b5dabc5b8678a3cac1 inherit pub_methods_a00860"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00860.php#a2763ec2ead72b9b5dabc5b8678a3cac1">addColors</a> (<a class="el" href="../../dd/ded/a00211.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> color)</td></tr>
-<tr class="memdesc:a2763ec2ead72b9b5dabc5b8678a3cac1 inherit pub_methods_a00860"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="../../d2/d5e/a00860.php#a2763ec2ead72b9b5dabc5b8678a3cac1">More...</a><br /></td></tr>
-<tr class="separator:a2763ec2ead72b9b5dabc5b8678a3cac1 inherit pub_methods_a00860"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bbeef7225d8e84a02fca3e32a325b45 inherit pub_methods_a00860"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
-<tr class="memitem:a1bbeef7225d8e84a02fca3e32a325b45 inherit pub_methods_a00860"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00860.php#a1bbeef7225d8e84a02fca3e32a325b45">addColors</a> (<a class="el" href="../../dd/ded/a00211.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> color, Args... args)</td></tr>
-<tr class="memdesc:a1bbeef7225d8e84a02fca3e32a325b45 inherit pub_methods_a00860"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="../../d2/d5e/a00860.php#a1bbeef7225d8e84a02fca3e32a325b45">More...</a><br /></td></tr>
-<tr class="separator:a1bbeef7225d8e84a02fca3e32a325b45 inherit pub_methods_a00860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dd730c3b59730b786d059a507d03fca inherit pub_methods_a00860"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00860.php#a8dd730c3b59730b786d059a507d03fca">addColors</a> (const <a class="el" href="../../dd/ded/a00211.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> &amp;color)</td></tr>
+<tr class="memdesc:a8dd730c3b59730b786d059a507d03fca inherit pub_methods_a00860"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="../../d2/d5e/a00860.php#a8dd730c3b59730b786d059a507d03fca">More...</a><br /></td></tr>
+<tr class="separator:a8dd730c3b59730b786d059a507d03fca inherit pub_methods_a00860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada095941e4b1c3757618959df513af9a inherit pub_methods_a00860"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
+<tr class="memitem:ada095941e4b1c3757618959df513af9a inherit pub_methods_a00860"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00860.php#ada095941e4b1c3757618959df513af9a">addColors</a> (const <a class="el" href="../../dd/ded/a00211.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> &amp;color, Args... args)</td></tr>
+<tr class="memdesc:ada095941e4b1c3757618959df513af9a inherit pub_methods_a00860"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="../../d2/d5e/a00860.php#ada095941e4b1c3757618959df513af9a">More...</a><br /></td></tr>
+<tr class="separator:ada095941e4b1c3757618959df513af9a inherit pub_methods_a00860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../d7/d1b/a00864.php" title="Reinit the color in the console. ">Reinit</a> the color in the console. </p>

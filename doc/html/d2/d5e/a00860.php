@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -130,13 +130,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae732af32fdbea05950d39bd9532121cf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00860.php#ae732af32fdbea05950d39bd9532121cf">addColors</a> (int color, Args... args)</td></tr>
 <tr class="memdesc:ae732af32fdbea05950d39bd9532121cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#ae732af32fdbea05950d39bd9532121cf">More...</a><br /></td></tr>
 <tr class="separator:ae732af32fdbea05950d39bd9532121cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2763ec2ead72b9b5dabc5b8678a3cac1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00860.php#a2763ec2ead72b9b5dabc5b8678a3cac1">addColors</a> (<a class="el" href="../../dd/ded/a00211.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> color)</td></tr>
-<tr class="memdesc:a2763ec2ead72b9b5dabc5b8678a3cac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="#a2763ec2ead72b9b5dabc5b8678a3cac1">More...</a><br /></td></tr>
-<tr class="separator:a2763ec2ead72b9b5dabc5b8678a3cac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bbeef7225d8e84a02fca3e32a325b45"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
-<tr class="memitem:a1bbeef7225d8e84a02fca3e32a325b45"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00860.php#a1bbeef7225d8e84a02fca3e32a325b45">addColors</a> (<a class="el" href="../../dd/ded/a00211.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> color, Args... args)</td></tr>
-<tr class="memdesc:a1bbeef7225d8e84a02fca3e32a325b45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#a1bbeef7225d8e84a02fca3e32a325b45">More...</a><br /></td></tr>
-<tr class="separator:a1bbeef7225d8e84a02fca3e32a325b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dd730c3b59730b786d059a507d03fca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00860.php#a8dd730c3b59730b786d059a507d03fca">addColors</a> (const <a class="el" href="../../dd/ded/a00211.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> &amp;color)</td></tr>
+<tr class="memdesc:a8dd730c3b59730b786d059a507d03fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="#a8dd730c3b59730b786d059a507d03fca">More...</a><br /></td></tr>
+<tr class="separator:a8dd730c3b59730b786d059a507d03fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada095941e4b1c3757618959df513af9a"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
+<tr class="memitem:ada095941e4b1c3757618959df513af9a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00860.php#ada095941e4b1c3757618959df513af9a">addColors</a> (const <a class="el" href="../../dd/ded/a00211.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> &amp;color, Args... args)</td></tr>
+<tr class="memdesc:ada095941e4b1c3757618959df513af9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#ada095941e4b1c3757618959df513af9a">More...</a><br /></td></tr>
+<tr class="separator:ada095941e4b1c3757618959df513af9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -332,8 +332,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a2763ec2ead72b9b5dabc5b8678a3cac1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2763ec2ead72b9b5dabc5b8678a3cac1">&#9670;&nbsp;</a></span>addColors() <span class="overload">[3/4]</span></h2>
+<a id="a8dd730c3b59730b786d059a507d03fca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dd730c3b59730b786d059a507d03fca">&#9670;&nbsp;</a></span>addColors() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -344,7 +344,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void mcd::Color::addColors </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/ded/a00211.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> &amp;&#160;</td>
           <td class="paramname"><em>color</em></td><td>)</td>
           <td></td>
         </tr>
@@ -367,16 +367,16 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d2/d5e/a00860_a2763ec2ead72b9b5dabc5b8678a3cac1_cgraph.png" border="0" usemap="#d2/d5e/a00860_a2763ec2ead72b9b5dabc5b8678a3cac1_cgraph" alt=""/></div>
-<map name="d2/d5e/a00860_a2763ec2ead72b9b5dabc5b8678a3cac1_cgraph" id="d2/d5e/a00860_a2763ec2ead72b9b5dabc5b8678a3cac1_cgraph">
+<div class="center"><img src="../../d2/d5e/a00860_a8dd730c3b59730b786d059a507d03fca_cgraph.png" border="0" usemap="#d2/d5e/a00860_a8dd730c3b59730b786d059a507d03fca_cgraph" alt=""/></div>
+<map name="d2/d5e/a00860_a8dd730c3b59730b786d059a507d03fca_cgraph" id="d2/d5e/a00860_a8dd730c3b59730b786d059a507d03fca_cgraph">
 <area shape="rect" id="node2" href="../../dd/ded/a00211.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="207,5,280,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a1bbeef7225d8e84a02fca3e32a325b45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bbeef7225d8e84a02fca3e32a325b45">&#9670;&nbsp;</a></span>addColors() <span class="overload">[4/4]</span></h2>
+<a id="ada095941e4b1c3757618959df513af9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada095941e4b1c3757618959df513af9a">&#9670;&nbsp;</a></span>addColors() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -389,7 +389,7 @@ template&lt;class ... Args&gt; </div>
         <tr>
           <td class="memname">void mcd::Color::addColors </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/ded/a00211.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> &amp;&#160;</td>
           <td class="paramname"><em>color</em>, </td>
         </tr>
         <tr>
@@ -423,8 +423,8 @@ template&lt;class ... Args&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d2/d5e/a00860_a1bbeef7225d8e84a02fca3e32a325b45_cgraph.png" border="0" usemap="#d2/d5e/a00860_a1bbeef7225d8e84a02fca3e32a325b45_cgraph" alt=""/></div>
-<map name="d2/d5e/a00860_a1bbeef7225d8e84a02fca3e32a325b45_cgraph" id="d2/d5e/a00860_a1bbeef7225d8e84a02fca3e32a325b45_cgraph">
+<div class="center"><img src="../../d2/d5e/a00860_ada095941e4b1c3757618959df513af9a_cgraph.png" border="0" usemap="#d2/d5e/a00860_ada095941e4b1c3757618959df513af9a_cgraph" alt=""/></div>
+<map name="d2/d5e/a00860_ada095941e4b1c3757618959df513af9a_cgraph" id="d2/d5e/a00860_ada095941e4b1c3757618959df513af9a_cgraph">
 <area shape="rect" id="node2" href="../../dd/ded/a00211.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="207,5,280,32"/>
 </map>
 </div>

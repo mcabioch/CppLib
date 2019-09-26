@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -104,8 +104,8 @@ $(document).ready(function(){initNavTree('dc/d2b/a00936.php','../../');});
   <tr><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a6108c8a63af7595ff4d9a4f2ad868b1e">getUsername</a>() const</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a1496891d2323d1023ebfd086b84faf8d">Identifier</a>()</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a593e0be0e4c8e17b22507e7f7d933ded">setId</a>(size_t id)</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a53d4547cb792d88243c6448849fc40f3">setPassword</a>(std::string password)</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a8e39d490b0b94678150e8c2b1d156e51">setUsername</a>(std::string username)</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a5b0a0e637d443935ae770bf90b652dea">setPassword</a>(const std::string &amp;password)</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a7487ac9cac4531aad529994927c0e69f">setUsername</a>(const std::string &amp;username)</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a87dbdb0f9b391d6a78d61463e8823628">~Identifier</a>()</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->

@@ -2,7 +2,7 @@
 *
 *	\file		PlayerAbstraction.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	August, 17 2018
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_CPP_PLAYER_ABSTRACTION
@@ -44,7 +44,7 @@ namespace mcd {
 				*
 				*		\return			void
 				*/
-				void setMail(const std::string mail){ _mail =mail; }
+				void setMail(const std::string& mail){ _mail = mail; }
 
 				/*!
 				* \brief	Set the Player's experience
@@ -52,14 +52,14 @@ namespace mcd {
 				*
 				*		\return			void
 				*/
-				void setExperience(const double64_t experience){ _experience = experience; }
+				void setExperience(const double64_t& experience){ _experience = experience; }
 				/*!
 				* \brief	Set the Player's max experience
 				*		\param[in]		experienceMax		The new experience max
 				*
 				*		\return			void
 				*/
-				void setExperienceMax(const double64_t experienceMax){ _experienceMax = experienceMax; }
+				void setExperienceMax(const double64_t& experienceMax){ _experienceMax = experienceMax; }
 
 			/* Getters */
 				/*! \return			Return themail */

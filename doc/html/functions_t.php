@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:55 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('functions_t.php','');});
 : <a class="el" href="de/d49/a00952.php#ad35cfe5bfd6ba316a796c7969c04d283">mcd::Map</a>
 </li>
 <li>Threadable()
-: <a class="el" href="df/d89/a01032.php#a04bdb4a894312f6671680c2f103b8a63">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="df/d89/a01032.php#a4cbceb43796de6c36a5cd4f35a6402cb">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>ThreadCout()
 : <a class="el" href="d1/d8f/a00880.php#adacc9d5343e07aa8396f8b1edd92bb39">mcd::ThreadCout</a>

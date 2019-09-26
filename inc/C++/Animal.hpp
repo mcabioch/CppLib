@@ -2,7 +2,7 @@
 *
 *	\file		Animal.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	August, 17 2018
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_CPP_ANIMAL
@@ -35,7 +35,7 @@ namespace mcd {
 				*
 				*		\return			void
 				*/
-				void setSpeed(double64_t speed){ _speed = speed; }
+				void setSpeed(const double64_t& speed){ _speed = speed; }
 
 				/*!
 				* \brief	Set the food
@@ -43,14 +43,14 @@ namespace mcd {
 				*
 				*		\return			void
 				*/
-				void setFood(const double64_t food){ _food = food; }
+				void setFood(const double64_t& food){ _food = food; }
 				/*!
 				* \brief	Set the maximum food
 				*		\param[in]		foodMax				The value to set
 				*
 				*		\return			void
 				*/
-				void setFoodMax(const double64_t foodMax){ _foodMax = foodMax; }
+				void setFoodMax(const double64_t& foodMax){ _foodMax = foodMax; }
 
 				/*!
 				* \brief	Set the species
@@ -58,7 +58,7 @@ namespace mcd {
 				*
 				*		\return			void
 				*/
-				void setSpecies(const std::string species){ _species = species; }
+				void setSpecies(const std::string& species){ _species = species; }
 
 				/*!
 				* \brief	Set the special attack
@@ -66,7 +66,7 @@ namespace mcd {
 				*
 				*		\return			void
 				*/
-				void setSpecialAttack(const std::string specialAttack){ _specialAttack = specialAttack; }
+				void setSpecialAttack(const std::string& specialAttack){ _specialAttack = specialAttack; }
 
 			/* Getters */
 				/*! \return			Return the speed */

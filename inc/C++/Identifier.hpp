@@ -2,7 +2,7 @@
 *
 *	\file		Identifier.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	August, 15 2018
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_CPP_IDENTIFIER
@@ -31,14 +31,14 @@ namespace mcd {
 				*
 				*		\return			void
 				*/
-				void setUsername(std::string username){ _username = username; }
+				void setUsername(const std::string& username){ _username = username; }
 				/*!
 				* \brief	Set the Player's password
 				*		\param[in]		password			The new password
 				*
 				*		\return			void
 				*/
-				void setPassword(std::string password){ _password = password; }
+				void setPassword(const std::string& password){ _password = password; }
 
 				/*!
 				* \brief	Set the Player's id

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:24 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -132,15 +132,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0a75a4c7e0556ec237ce6d526d12c2e1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.php#a0a75a4c7e0556ec237ce6d526d12c2e1">~Ant</a> ()</td></tr>
 <tr class="memdesc:a0a75a4c7e0556ec237ce6d526d12c2e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#a0a75a4c7e0556ec237ce6d526d12c2e1">More...</a><br /></td></tr>
 <tr class="separator:a0a75a4c7e0556ec237ce6d526d12c2e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11134d67d002ff6f00036f75f625097e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.php#a11134d67d002ff6f00036f75f625097e">setCaste</a> (const std::string caste)</td></tr>
-<tr class="memdesc:a11134d67d002ff6f00036f75f625097e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the caste of the ant.  <a href="#a11134d67d002ff6f00036f75f625097e">More...</a><br /></td></tr>
-<tr class="separator:a11134d67d002ff6f00036f75f625097e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1b0af968166d77df1a8f916e2b72f7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.php#aa1b0af968166d77df1a8f916e2b72f7f">setStone</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> stone)</td></tr>
-<tr class="memdesc:aa1b0af968166d77df1a8f916e2b72f7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Se the stone for the ant.  <a href="#aa1b0af968166d77df1a8f916e2b72f7f">More...</a><br /></td></tr>
-<tr class="separator:aa1b0af968166d77df1a8f916e2b72f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c25377be80e76335799108cdd68b9cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.php#a6c25377be80e76335799108cdd68b9cf">setStoneMax</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> stoneMax)</td></tr>
-<tr class="memdesc:a6c25377be80e76335799108cdd68b9cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum stone for the ant.  <a href="#a6c25377be80e76335799108cdd68b9cf">More...</a><br /></td></tr>
-<tr class="separator:a6c25377be80e76335799108cdd68b9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63fc83db2b90de339f8fea94358d6b09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.php#a63fc83db2b90de339f8fea94358d6b09">setCaste</a> (const std::string &amp;caste)</td></tr>
+<tr class="memdesc:a63fc83db2b90de339f8fea94358d6b09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the caste of the ant.  <a href="#a63fc83db2b90de339f8fea94358d6b09">More...</a><br /></td></tr>
+<tr class="separator:a63fc83db2b90de339f8fea94358d6b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03f3b31e549e9c7a7bf0dac610acf998"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.php#a03f3b31e549e9c7a7bf0dac610acf998">setStone</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;stone)</td></tr>
+<tr class="memdesc:a03f3b31e549e9c7a7bf0dac610acf998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Se the stone for the ant.  <a href="#a03f3b31e549e9c7a7bf0dac610acf998">More...</a><br /></td></tr>
+<tr class="separator:a03f3b31e549e9c7a7bf0dac610acf998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3397f0142a9bc430d1026b253c8f3a30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.php#a3397f0142a9bc430d1026b253c8f3a30">setStoneMax</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;stoneMax)</td></tr>
+<tr class="memdesc:a3397f0142a9bc430d1026b253c8f3a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum stone for the ant.  <a href="#a3397f0142a9bc430d1026b253c8f3a30">More...</a><br /></td></tr>
+<tr class="separator:a3397f0142a9bc430d1026b253c8f3a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefe83b0ef881a901834a3dc32f60fa10"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.php#aefe83b0ef881a901834a3dc32f60fa10">getCaste</a> () const</td></tr>
 <tr class="separator:aefe83b0ef881a901834a3dc32f60fa10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba7dfff3a965c52127afa152a66a32fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.php#aba7dfff3a965c52127afa152a66a32fa">getStone</a> () const</td></tr>
@@ -157,21 +157,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a18d820cdedb08f543b2d3a0fd83e7f72 inherit pub_methods_a00760"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a18d820cdedb08f543b2d3a0fd83e7f72">~Animal</a> ()</td></tr>
 <tr class="memdesc:a18d820cdedb08f543b2d3a0fd83e7f72 inherit pub_methods_a00760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="../../d8/db4/a00760.php#a18d820cdedb08f543b2d3a0fd83e7f72">More...</a><br /></td></tr>
 <tr class="separator:a18d820cdedb08f543b2d3a0fd83e7f72 inherit pub_methods_a00760"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a516b431cd984071937ff20d442fdd57c inherit pub_methods_a00760"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a516b431cd984071937ff20d442fdd57c">setSpeed</a> (<a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> speed)</td></tr>
-<tr class="memdesc:a516b431cd984071937ff20d442fdd57c inherit pub_methods_a00760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the speed.  <a href="../../d8/db4/a00760.php#a516b431cd984071937ff20d442fdd57c">More...</a><br /></td></tr>
-<tr class="separator:a516b431cd984071937ff20d442fdd57c inherit pub_methods_a00760"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a2f256abea78b4748f1d54ba0478784 inherit pub_methods_a00760"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a3a2f256abea78b4748f1d54ba0478784">setFood</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> food)</td></tr>
-<tr class="memdesc:a3a2f256abea78b4748f1d54ba0478784 inherit pub_methods_a00760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the food.  <a href="../../d8/db4/a00760.php#a3a2f256abea78b4748f1d54ba0478784">More...</a><br /></td></tr>
-<tr class="separator:a3a2f256abea78b4748f1d54ba0478784 inherit pub_methods_a00760"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe46a436e2bb2e8afe318e2bf82ea9dd inherit pub_methods_a00760"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#afe46a436e2bb2e8afe318e2bf82ea9dd">setFoodMax</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> foodMax)</td></tr>
-<tr class="memdesc:afe46a436e2bb2e8afe318e2bf82ea9dd inherit pub_methods_a00760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum food.  <a href="../../d8/db4/a00760.php#afe46a436e2bb2e8afe318e2bf82ea9dd">More...</a><br /></td></tr>
-<tr class="separator:afe46a436e2bb2e8afe318e2bf82ea9dd inherit pub_methods_a00760"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5b13d529bb710fd1be140e2a0986c8f inherit pub_methods_a00760"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#af5b13d529bb710fd1be140e2a0986c8f">setSpecies</a> (const std::string species)</td></tr>
-<tr class="memdesc:af5b13d529bb710fd1be140e2a0986c8f inherit pub_methods_a00760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the species.  <a href="../../d8/db4/a00760.php#af5b13d529bb710fd1be140e2a0986c8f">More...</a><br /></td></tr>
-<tr class="separator:af5b13d529bb710fd1be140e2a0986c8f inherit pub_methods_a00760"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d617d74e3a516b49219f0efdee182a3 inherit pub_methods_a00760"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a3d617d74e3a516b49219f0efdee182a3">setSpecialAttack</a> (const std::string specialAttack)</td></tr>
-<tr class="memdesc:a3d617d74e3a516b49219f0efdee182a3 inherit pub_methods_a00760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the special attack.  <a href="../../d8/db4/a00760.php#a3d617d74e3a516b49219f0efdee182a3">More...</a><br /></td></tr>
-<tr class="separator:a3d617d74e3a516b49219f0efdee182a3 inherit pub_methods_a00760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ff6872a3b990ab0ca9309f84076ec0a inherit pub_methods_a00760"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a4ff6872a3b990ab0ca9309f84076ec0a">setSpeed</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;speed)</td></tr>
+<tr class="memdesc:a4ff6872a3b990ab0ca9309f84076ec0a inherit pub_methods_a00760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the speed.  <a href="../../d8/db4/a00760.php#a4ff6872a3b990ab0ca9309f84076ec0a">More...</a><br /></td></tr>
+<tr class="separator:a4ff6872a3b990ab0ca9309f84076ec0a inherit pub_methods_a00760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab240f045e3b150a3c1b7ba7b8cad72 inherit pub_methods_a00760"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#afab240f045e3b150a3c1b7ba7b8cad72">setFood</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;food)</td></tr>
+<tr class="memdesc:afab240f045e3b150a3c1b7ba7b8cad72 inherit pub_methods_a00760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the food.  <a href="../../d8/db4/a00760.php#afab240f045e3b150a3c1b7ba7b8cad72">More...</a><br /></td></tr>
+<tr class="separator:afab240f045e3b150a3c1b7ba7b8cad72 inherit pub_methods_a00760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f42d55cc53501c0e05b5c8a79888a2 inherit pub_methods_a00760"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a48f42d55cc53501c0e05b5c8a79888a2">setFoodMax</a> (const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;foodMax)</td></tr>
+<tr class="memdesc:a48f42d55cc53501c0e05b5c8a79888a2 inherit pub_methods_a00760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum food.  <a href="../../d8/db4/a00760.php#a48f42d55cc53501c0e05b5c8a79888a2">More...</a><br /></td></tr>
+<tr class="separator:a48f42d55cc53501c0e05b5c8a79888a2 inherit pub_methods_a00760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c0928be79e1be03389e1e74746bee6b inherit pub_methods_a00760"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a2c0928be79e1be03389e1e74746bee6b">setSpecies</a> (const std::string &amp;species)</td></tr>
+<tr class="memdesc:a2c0928be79e1be03389e1e74746bee6b inherit pub_methods_a00760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the species.  <a href="../../d8/db4/a00760.php#a2c0928be79e1be03389e1e74746bee6b">More...</a><br /></td></tr>
+<tr class="separator:a2c0928be79e1be03389e1e74746bee6b inherit pub_methods_a00760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a929d7b3bf6637bd3e45c24ed050a2c55 inherit pub_methods_a00760"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#a929d7b3bf6637bd3e45c24ed050a2c55">setSpecialAttack</a> (const std::string &amp;specialAttack)</td></tr>
+<tr class="memdesc:a929d7b3bf6637bd3e45c24ed050a2c55 inherit pub_methods_a00760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the special attack.  <a href="../../d8/db4/a00760.php#a929d7b3bf6637bd3e45c24ed050a2c55">More...</a><br /></td></tr>
+<tr class="separator:a929d7b3bf6637bd3e45c24ed050a2c55 inherit pub_methods_a00760"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaa526abac4337a8be4836b0c99a9f9b inherit pub_methods_a00760"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#acaa526abac4337a8be4836b0c99a9f9b">getSpeed</a> () const</td></tr>
 <tr class="separator:acaa526abac4337a8be4836b0c99a9f9b inherit pub_methods_a00760"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa200ce00d14dc675aed8467ca0fa8760 inherit pub_methods_a00760"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db4/a00760.php#aa200ce00d14dc675aed8467ca0fa8760">getFood</a> () const</td></tr>
@@ -617,8 +617,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a11134d67d002ff6f00036f75f625097e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11134d67d002ff6f00036f75f625097e">&#9670;&nbsp;</a></span>setCaste()</h2>
+<a id="a63fc83db2b90de339f8fea94358d6b09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63fc83db2b90de339f8fea94358d6b09">&#9670;&nbsp;</a></span>setCaste()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -629,7 +629,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void mcd::Ant::setCaste </td>
           <td>(</td>
-          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>caste</em></td><td>)</td>
           <td></td>
         </tr>
@@ -652,8 +652,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aa1b0af968166d77df1a8f916e2b72f7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1b0af968166d77df1a8f916e2b72f7f">&#9670;&nbsp;</a></span>setStone()</h2>
+<a id="a03f3b31e549e9c7a7bf0dac610acf998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03f3b31e549e9c7a7bf0dac610acf998">&#9670;&nbsp;</a></span>setStone()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -664,7 +664,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void mcd::Ant::setStone </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;&#160;</td>
           <td class="paramname"><em>stone</em></td><td>)</td>
           <td></td>
         </tr>
@@ -687,8 +687,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a6c25377be80e76335799108cdd68b9cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c25377be80e76335799108cdd68b9cf">&#9670;&nbsp;</a></span>setStoneMax()</h2>
+<a id="a3397f0142a9bc430d1026b253c8f3a30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3397f0142a9bc430d1026b253c8f3a30">&#9670;&nbsp;</a></span>setStoneMax()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -699,7 +699,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void mcd::Ant::setStoneMax </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;&#160;</td>
           <td class="paramname"><em>stoneMax</em></td><td>)</td>
           <td></td>
         </tr>

@@ -2,7 +2,7 @@
 *
 *	\file		console.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	April, 24 2019
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_CPP_CONSOLE
@@ -118,7 +118,7 @@ namespace mcd {
 			*
 			*		\return			void
 			*/
-			void addColors(Colors color){
+			void addColors(const Colors& color){
 				colors += tos(color);
 			}
 			/* Variadic template addColors(Colors) member */
@@ -129,7 +129,7 @@ namespace mcd {
 			*
 			*		\return			void
 			*/
-			template<class ...Args> void addColors(Colors color, Args... args){
+			template<class ...Args> void addColors(const Colors& color, Args... args){
 				colors += tos(color) + ";";
 				addColors(args...);
 			}
@@ -215,7 +215,7 @@ namespace mcd {
 			*		\return			void
 			*/
 			template<typename T>
-			static void put(const std::string& str, T x, T y, Color color = 0){
+			static void put(const std::string& str, T x, T y, const Color& color = 0){
 				ConsoleCursor::save();
 
 				ConsoleCursor::goTo(x, y);

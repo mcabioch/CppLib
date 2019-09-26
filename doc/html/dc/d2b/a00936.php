@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -126,12 +126,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1496891d2323d1023ebfd086b84faf8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87dbdb0f9b391d6a78d61463e8823628"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2b/a00936.php#a87dbdb0f9b391d6a78d61463e8823628">~Identifier</a> ()</td></tr>
 <tr class="separator:a87dbdb0f9b391d6a78d61463e8823628"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e39d490b0b94678150e8c2b1d156e51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2b/a00936.php#a8e39d490b0b94678150e8c2b1d156e51">setUsername</a> (std::string username)</td></tr>
-<tr class="memdesc:a8e39d490b0b94678150e8c2b1d156e51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d7/df2/a01000.php" title="A player that can be a child from any class. ">Player</a>'s username.  <a href="#a8e39d490b0b94678150e8c2b1d156e51">More...</a><br /></td></tr>
-<tr class="separator:a8e39d490b0b94678150e8c2b1d156e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53d4547cb792d88243c6448849fc40f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2b/a00936.php#a53d4547cb792d88243c6448849fc40f3">setPassword</a> (std::string password)</td></tr>
-<tr class="memdesc:a53d4547cb792d88243c6448849fc40f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d7/df2/a01000.php" title="A player that can be a child from any class. ">Player</a>'s password.  <a href="#a53d4547cb792d88243c6448849fc40f3">More...</a><br /></td></tr>
-<tr class="separator:a53d4547cb792d88243c6448849fc40f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7487ac9cac4531aad529994927c0e69f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2b/a00936.php#a7487ac9cac4531aad529994927c0e69f">setUsername</a> (const std::string &amp;username)</td></tr>
+<tr class="memdesc:a7487ac9cac4531aad529994927c0e69f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d7/df2/a01000.php" title="A player that can be a child from any class. ">Player</a>'s username.  <a href="#a7487ac9cac4531aad529994927c0e69f">More...</a><br /></td></tr>
+<tr class="separator:a7487ac9cac4531aad529994927c0e69f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b0a0e637d443935ae770bf90b652dea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2b/a00936.php#a5b0a0e637d443935ae770bf90b652dea">setPassword</a> (const std::string &amp;password)</td></tr>
+<tr class="memdesc:a5b0a0e637d443935ae770bf90b652dea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d7/df2/a01000.php" title="A player that can be a child from any class. ">Player</a>'s password.  <a href="#a5b0a0e637d443935ae770bf90b652dea">More...</a><br /></td></tr>
+<tr class="separator:a5b0a0e637d443935ae770bf90b652dea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a593e0be0e4c8e17b22507e7f7d933ded"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2b/a00936.php#a593e0be0e4c8e17b22507e7f7d933ded">setId</a> (size_t id)</td></tr>
 <tr class="memdesc:a593e0be0e4c8e17b22507e7f7d933ded"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d7/df2/a01000.php" title="A player that can be a child from any class. ">Player</a>'s id.  <a href="#a593e0be0e4c8e17b22507e7f7d933ded">More...</a><br /></td></tr>
 <tr class="separator:a593e0be0e4c8e17b22507e7f7d933ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -318,8 +318,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a53d4547cb792d88243c6448849fc40f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53d4547cb792d88243c6448849fc40f3">&#9670;&nbsp;</a></span>setPassword()</h2>
+<a id="a5b0a0e637d443935ae770bf90b652dea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b0a0e637d443935ae770bf90b652dea">&#9670;&nbsp;</a></span>setPassword()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -330,7 +330,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void mcd::Identifier::setPassword </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>password</em></td><td>)</td>
           <td></td>
         </tr>
@@ -353,8 +353,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8e39d490b0b94678150e8c2b1d156e51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e39d490b0b94678150e8c2b1d156e51">&#9670;&nbsp;</a></span>setUsername()</h2>
+<a id="a7487ac9cac4531aad529994927c0e69f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7487ac9cac4531aad529994927c0e69f">&#9670;&nbsp;</a></span>setUsername()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -365,7 +365,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void mcd::Identifier::setUsername </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>username</em></td><td>)</td>
           <td></td>
         </tr>

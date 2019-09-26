@@ -3,50 +3,52 @@
 *	\file		Matrix_functions.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	Sunday September, 15 2019 19:17:03
-*	\modified	Sunday September, 17 2019
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_MATRIX_FUNCTIONS
 #define HEADER_MATRIX_FUNCTIONS
 
 template<class C>
-void GaussJordan(Matrix<C> M, Matrix<C>& I, size_t i, size_t j){
+void GaussJordan(const Matrix<C>& M, Matrix<C>& I, size_t i, size_t j){
 	if(i == 0 || j == 0 || i > M._i || j > M._j){
 		throw std::string("Error : GaussJordan : Wrong boundaries !");
 	}
 
-	for(size_t index_i = 0; index_i < M._i && M._datas[i-1][j-1] == 0; ++index_i){
+	Matrix<C> inside_M = M;
+
+	for(size_t index_i = 0; index_i < inside_M._i && inside_M._datas[i-1][j-1] == 0; ++index_i){
 		if(index_i == i-1){
 			continue;
 		}
 
-		if(M._datas[index_i][j-1] != 0){
-			auto tmp = M._datas[index_i];
-			M._datas[index_i] = M._datas[i-1];
-			M._datas[i-1] = tmp;
+		if(inside_M._datas[index_i][j-1] != 0){
+			auto tmp = inside_M._datas[index_i];
+			inside_M._datas[index_i] = inside_M._datas[i-1];
+			inside_M._datas[i-1] = tmp;
 		}
 	}
 
-	for(size_t index_i = 0; index_i < M._i; ++index_i){
-		auto coef = M._datas[index_i][j-1] / M._datas[i-1][j-1];
+	for(size_t index_i = 0; index_i < inside_M._i; ++index_i){
+		auto coef = inside_M._datas[index_i][j-1] / inside_M._datas[i-1][j-1];
 
-		for(size_t index_j = 0; index_j < M._j; ++index_j){
+		for(size_t index_j = 0; index_j < inside_M._j; ++index_j){
 			if(index_i == i-1){
-				M._datas[index_i][index_j] /= coef;
+				inside_M._datas[index_i][index_j] /= coef;
 				I._datas[index_i][index_j] /= coef;
 			} else {
-				M._datas[index_i][index_j] -= coef*M._datas[i-1][index_j];
+				inside_M._datas[index_i][index_j] -= coef*inside_M._datas[i-1][index_j];
 				I._datas[index_i][index_j] -= coef*I._datas[i-1][index_j];
 			}
 		}
 	}
 
-	if(i == M._i){
-		for(size_t index_i = 0; index_i < M._i; ++index_i){
-			auto coef = M._datas[index_i][index_i];
+	if(i == inside_M._i){
+		for(size_t index_i = 0; index_i < inside_M._i; ++index_i){
+			auto coef = inside_M._datas[index_i][index_i];
 
-			for(size_t index_j = 0; index_j < M._j; ++index_j){
-				M._datas[index_i][index_j] /= coef;
+			for(size_t index_j = 0; index_j < inside_M._j; ++index_j){
+				inside_M._datas[index_i][index_j] /= coef;
 				I._datas[index_i][index_j] /= coef;
 			}
 		}
@@ -54,7 +56,7 @@ void GaussJordan(Matrix<C> M, Matrix<C>& I, size_t i, size_t j){
 		return;
 	}
 
-	GaussJordan(M, I, i+1, j+1);
+	GaussJordan(inside_M, I, i+1, j+1);
 }
 
 template<class C>
@@ -94,7 +96,7 @@ std::ostream& operator<<(std::ostream& os, const Matrix<C>& M){
 }
 
 template<class C, typename U>
-Matrix<C> mod(const Matrix<C> M, U b, bool positive = false){
+Matrix<C> mod(const Matrix<C>& M, U b, bool positive = false){
 	Matrix<C> out = M;
 
 	for(size_t i = 0; i < out.i(); ++i){
