@@ -2,7 +2,7 @@ var searchData=
 [
   ['i',['i',['../d3/de5/a00956.php#a9823b15f6575c9007b734e505ea772b5',1,'mcd::Matrix']]],
   ['identifier',['Identifier',['../dc/d2b/a00936.php#a1496891d2323d1023ebfd086b84faf8d',1,'mcd::Identifier']]],
-  ['implode',['implode',['../dd/ded/a00211.php#ad688e3c0cf0c670ae196d83a4c6dd0d6',1,'mcd']]],
+  ['implode',['implode',['../dd/ded/a00211.php#a2db82764bac2a48879000848b3af7c79',1,'mcd']]],
   ['info_5flog',['info_log',['../dd/ded/a00211.php#af0b4fd6390d33edc9719d42b26f6e29f',1,'mcd']]],
   ['init',['init',['../df/da5/a00912.php#a17a08ca52b3ec69d178a997c07a5ca1c',1,'mcd::Date::init()'],['../d8/d79/a01036.php#a3e19605ece31340f27255a79beb193d4',1,'mcd::Time::init()']]],
   ['insert',['insert',['../d5/de7/a01048.php#a53cd621cced254067f1ebac4e2abe8df',1,'mcd::Tree']]],

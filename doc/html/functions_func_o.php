@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -190,7 +190,7 @@ $(document).ready(function(){initNavTree('functions_func_o.php','');});
 : <a class="el" href="dd/d38/a00928.php#ac4dcbd6c3961244afb7bbcb90c5b01da">mcd::Fraction</a>
 </li>
 <li>operator[]()
-: <a class="el" href="d8/d20/a00768.php#a3afcd48b173c2c0f17c74a99b3a6b413">mcd::Arguments</a>
+: <a class="el" href="d8/d20/a00768.php#ae401cb47faea064ac04133ea929c0f94">mcd::Arguments</a>
 </li>
 </ul>
 </div><!-- contents -->

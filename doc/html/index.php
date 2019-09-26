@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -212,7 +212,7 @@ Functions</h2>
  <a class="el" href="dd/ded/a00211.php#a5046a9dfac4629babcb20cf7b914415e" title="Print the size of obj type. ">printSize&lt;Type&gt;()</a><br />
  <a class="el" href="dd/ded/a00211.php#a2bb83762638ce787815f3699d67faa92" title="Print the type of obj. ">mcd::printType(const C&amp; obj)</a><br />
  <a class="el" href="dd/dc1/a00212.php#a2bef56760d8ffae969e8a1347194b42c" title="A function that say if a type has an ostream operator(&lt;&lt;) ">mcd::Check::printable(const T&amp;)</a><br />
- <a class="el" href="dd/ded/a00211.php#a31744f235bdcd875c6e69661a4f0a490" title="Replace all the accents of a string. ">mcd::removeAccents(std::string str)</a><br />
+ mcd::removeAccents(std::string str)<br />
  <a class="el" href="dd/ded/a00211.php#a1ddd069f38e7407563a5d8e763d7dc90" title="Create a random string. ">mcd::randStr(size_t nb, unsigned short flags)</a></p>
 <h1><a class="anchor" id="upd_sec"></a>
 Updates</h1>

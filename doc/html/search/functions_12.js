@@ -6,7 +6,7 @@ var searchData=
   ['threadable',['Threadable',['../df/d89/a01032.php#a04bdb4a894312f6671680c2f103b8a63',1,'mcd::Threadable::Threadable()'],['../df/d89/a01032.php#a29db3ebe9dfbf77bc04967565c0dcf6e',1,'mcd::Threadable::Threadable(Threadable&lt; C &gt; &amp;other)']]],
   ['threadcout',['ThreadCout',['../d1/d8f/a00880.php#adacc9d5343e07aa8396f8b1edd92bb39',1,'mcd::ThreadCout']]],
   ['threadendlcout',['ThreadEndlCout',['../d2/dac/a00876.php#a53ccbe8d25d6cb23a3621a5c6d62598d',1,'mcd::ThreadEndlCout']]],
-  ['time',['Time',['../d8/d79/a01036.php#ac802213e9ca41cc731f14619534e0249',1,'mcd::Time::Time()'],['../d8/d79/a01036.php#a3ab062ff131d69347b10b8f8ba20f1f0',1,'mcd::Time::Time(std::string time)']]],
+  ['time',['Time',['../d8/d79/a01036.php#ac802213e9ca41cc731f14619534e0249',1,'mcd::Time::Time()'],['../d8/d79/a01036.php#afa17085534ed1da008f6dd39cef039f2',1,'mcd::Time::Time(const std::string &amp;time)']]],
   ['timer',['Timer',['../db/d14/a01040.php#ae2847ca8c851863418d57e80e972095a',1,'mcd::Timer']]],
   ['tob',['tob',['../dd/ded/a00211.php#af64dff777bec7ba0d0dd8ad991a0a513',1,'mcd']]],
   ['tobigval',['toBigVal',['../dd/ded/a00211.php#a66e560b6579bb202abdcee37283121a0',1,'mcd']]],

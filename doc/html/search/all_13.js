@@ -11,7 +11,7 @@ var searchData=
   ['threadcout',['ThreadCout',['../d1/d8f/a00880.php',1,'mcd::ThreadCout'],['../d1/d8f/a00880.php#adacc9d5343e07aa8396f8b1edd92bb39',1,'mcd::ThreadCout::ThreadCout()']]],
   ['threadendlcout',['ThreadEndlCout',['../d2/dac/a00876.php',1,'mcd::ThreadEndlCout'],['../d2/dac/a00876.php#a53ccbe8d25d6cb23a3621a5c6d62598d',1,'mcd::ThreadEndlCout::ThreadEndlCout()']]],
   ['tile',['Tile',['../dd/ded/a00211.php#a7350be9df9566241dfb80071a89f9ede',1,'mcd']]],
-  ['time',['Time',['../d8/d79/a01036.php',1,'mcd::Time'],['../d8/d79/a01036.php#ac802213e9ca41cc731f14619534e0249',1,'mcd::Time::Time()'],['../d8/d79/a01036.php#a3ab062ff131d69347b10b8f8ba20f1f0',1,'mcd::Time::Time(std::string time)']]],
+  ['time',['Time',['../d8/d79/a01036.php',1,'mcd::Time'],['../d8/d79/a01036.php#ac802213e9ca41cc731f14619534e0249',1,'mcd::Time::Time()'],['../d8/d79/a01036.php#afa17085534ed1da008f6dd39cef039f2',1,'mcd::Time::Time(const std::string &amp;time)']]],
   ['time_2ehpp',['Time.hpp',['../de/df3/a00185.php',1,'']]],
   ['timefunctions_2ehpp',['timeFunctions.hpp',['../da/d15/a00188.php',1,'']]],
   ['timer',['Timer',['../db/d14/a01040.php',1,'mcd::Timer'],['../db/d14/a01040.php#ae2847ca8c851863418d57e80e972095a',1,'mcd::Timer::Timer()']]],

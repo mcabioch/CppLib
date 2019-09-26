@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:24 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -200,49 +200,49 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0f44d33dc7a87f999c8a168d159b7b7c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a0f44d33dc7a87f999c8a168d159b7b7c">mcd::split</a> (std::string in, char separator=' ')</td></tr>
-<tr class="memdesc:a0f44d33dc7a87f999c8a168d159b7b7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given caracter.  <a href="../../dd/ded/a00211.php#a0f44d33dc7a87f999c8a168d159b7b7c">More...</a><br /></td></tr>
-<tr class="separator:a0f44d33dc7a87f999c8a168d159b7b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15734b133c7e5ce88308110f4efb3bfa"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a15734b133c7e5ce88308110f4efb3bfa">mcd::split</a> (std::string in, std::string c)</td></tr>
-<tr class="memdesc:a15734b133c7e5ce88308110f4efb3bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given string.  <a href="../../dd/ded/a00211.php#a15734b133c7e5ce88308110f4efb3bfa">More...</a><br /></td></tr>
-<tr class="separator:a15734b133c7e5ce88308110f4efb3bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1462df0e8bb2fe7f5bb61bca736ecffa"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a1462df0e8bb2fe7f5bb61bca736ecffa">mcd::split</a> (std::string in, std::vector&lt; std::string &gt; cars)</td></tr>
-<tr class="memdesc:a1462df0e8bb2fe7f5bb61bca736ecffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given separators.  <a href="../../dd/ded/a00211.php#a1462df0e8bb2fe7f5bb61bca736ecffa">More...</a><br /></td></tr>
-<tr class="separator:a1462df0e8bb2fe7f5bb61bca736ecffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f5effb1d0789a63d9c71c5549f3eacf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a3f5effb1d0789a63d9c71c5549f3eacf">mcd::split</a> (const std::string &amp;in, char separator=' ')</td></tr>
+<tr class="memdesc:a3f5effb1d0789a63d9c71c5549f3eacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given caracter.  <a href="../../dd/ded/a00211.php#a3f5effb1d0789a63d9c71c5549f3eacf">More...</a><br /></td></tr>
+<tr class="separator:a3f5effb1d0789a63d9c71c5549f3eacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfdec07a9d46365ed68092ec70b96d41"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#acfdec07a9d46365ed68092ec70b96d41">mcd::split</a> (const std::string &amp;in, const std::string &amp;c)</td></tr>
+<tr class="memdesc:acfdec07a9d46365ed68092ec70b96d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given string.  <a href="../../dd/ded/a00211.php#acfdec07a9d46365ed68092ec70b96d41">More...</a><br /></td></tr>
+<tr class="separator:acfdec07a9d46365ed68092ec70b96d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5257fd1ac4e72cf72335af2444a8bea9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a5257fd1ac4e72cf72335af2444a8bea9">mcd::split</a> (const std::string &amp;in, std::vector&lt; std::string &gt; cars)</td></tr>
+<tr class="memdesc:a5257fd1ac4e72cf72335af2444a8bea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given separators.  <a href="../../dd/ded/a00211.php#a5257fd1ac4e72cf72335af2444a8bea9">More...</a><br /></td></tr>
+<tr class="separator:a5257fd1ac4e72cf72335af2444a8bea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa97708c3c4ad49b7e60d30c66bfad80a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#aa97708c3c4ad49b7e60d30c66bfad80a">mcd::trim</a> (std::string &amp;in)</td></tr>
 <tr class="memdesc:aa97708c3c4ad49b7e60d30c66bfad80a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for <b>split</b>.  <a href="../../dd/ded/a00211.php#aa97708c3c4ad49b7e60d30c66bfad80a">More...</a><br /></td></tr>
 <tr class="separator:aa97708c3c4ad49b7e60d30c66bfad80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b1fa9cade94967538723cead132456c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a9b1fa9cade94967538723cead132456c">mcd::uppercase</a> (std::string str, std::string::iterator begin, std::string::iterator end)</td></tr>
-<tr class="memdesc:a9b1fa9cade94967538723cead132456c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given interval to uppercase.  <a href="../../dd/ded/a00211.php#a9b1fa9cade94967538723cead132456c">More...</a><br /></td></tr>
-<tr class="separator:a9b1fa9cade94967538723cead132456c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8401081694d2f40477e24639f48ae3d6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a8401081694d2f40477e24639f48ae3d6">mcd::lowercase</a> (std::string str, std::string::iterator begin, std::string::iterator end)</td></tr>
-<tr class="memdesc:a8401081694d2f40477e24639f48ae3d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given interval to lowercase.  <a href="../../dd/ded/a00211.php#a8401081694d2f40477e24639f48ae3d6">More...</a><br /></td></tr>
-<tr class="separator:a8401081694d2f40477e24639f48ae3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bcf7344b39a112c02618ee2831e7188"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a6bcf7344b39a112c02618ee2831e7188">mcd::uppercase</a> (std::string str)</td></tr>
-<tr class="memdesc:a6bcf7344b39a112c02618ee2831e7188"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given string to uppercase.  <a href="../../dd/ded/a00211.php#a6bcf7344b39a112c02618ee2831e7188">More...</a><br /></td></tr>
-<tr class="separator:a6bcf7344b39a112c02618ee2831e7188"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7305496cd0af7ff6f673de5b9d5d8837"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a7305496cd0af7ff6f673de5b9d5d8837">mcd::lowercase</a> (std::string str)</td></tr>
-<tr class="memdesc:a7305496cd0af7ff6f673de5b9d5d8837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given string to lowercase.  <a href="../../dd/ded/a00211.php#a7305496cd0af7ff6f673de5b9d5d8837">More...</a><br /></td></tr>
-<tr class="separator:a7305496cd0af7ff6f673de5b9d5d8837"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a127c51f4d8bd9fdb9eaef6a5173a5d03"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a127c51f4d8bd9fdb9eaef6a5173a5d03">mcd::replace</a> (std::string str, std::string from, std::string to, bool regex=false, bool word=false, bool insensitive=false)</td></tr>
-<tr class="memdesc:a127c51f4d8bd9fdb9eaef6a5173a5d03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace something by something else in a string using regex_replace.  <a href="../../dd/ded/a00211.php#a127c51f4d8bd9fdb9eaef6a5173a5d03">More...</a><br /></td></tr>
-<tr class="separator:a127c51f4d8bd9fdb9eaef6a5173a5d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334e09619932c4b2c193abe4fc9c3306"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a334e09619932c4b2c193abe4fc9c3306">mcd::uppercase</a> (const std::string &amp;str, std::string::iterator begin, std::string::iterator end)</td></tr>
+<tr class="memdesc:a334e09619932c4b2c193abe4fc9c3306"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given interval to uppercase.  <a href="../../dd/ded/a00211.php#a334e09619932c4b2c193abe4fc9c3306">More...</a><br /></td></tr>
+<tr class="separator:a334e09619932c4b2c193abe4fc9c3306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c6d83e8654926ceebd7777a9ada0652"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a0c6d83e8654926ceebd7777a9ada0652">mcd::lowercase</a> (const std::string &amp;str, std::string::iterator begin, std::string::iterator end)</td></tr>
+<tr class="memdesc:a0c6d83e8654926ceebd7777a9ada0652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given interval to lowercase.  <a href="../../dd/ded/a00211.php#a0c6d83e8654926ceebd7777a9ada0652">More...</a><br /></td></tr>
+<tr class="separator:a0c6d83e8654926ceebd7777a9ada0652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39b79dedb67710e8708dfec2985c6406"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a39b79dedb67710e8708dfec2985c6406">mcd::uppercase</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:a39b79dedb67710e8708dfec2985c6406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given string to uppercase.  <a href="../../dd/ded/a00211.php#a39b79dedb67710e8708dfec2985c6406">More...</a><br /></td></tr>
+<tr class="separator:a39b79dedb67710e8708dfec2985c6406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0762354667dfb9f9e539e501399a9a00"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a0762354667dfb9f9e539e501399a9a00">mcd::lowercase</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:a0762354667dfb9f9e539e501399a9a00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given string to lowercase.  <a href="../../dd/ded/a00211.php#a0762354667dfb9f9e539e501399a9a00">More...</a><br /></td></tr>
+<tr class="separator:a0762354667dfb9f9e539e501399a9a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae61cb7564bc3b0ccbcad0b991b74635d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#ae61cb7564bc3b0ccbcad0b991b74635d">mcd::replace</a> (const std::string &amp;str, const std::string &amp;from, const std::string &amp;to, bool regex=false, bool word=false, bool insensitive=false)</td></tr>
+<tr class="memdesc:ae61cb7564bc3b0ccbcad0b991b74635d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace something by something else in a string using regex_replace.  <a href="../../dd/ded/a00211.php#ae61cb7564bc3b0ccbcad0b991b74635d">More...</a><br /></td></tr>
+<tr class="separator:ae61cb7564bc3b0ccbcad0b991b74635d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ddd069f38e7407563a5d8e763d7dc90"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a1ddd069f38e7407563a5d8e763d7dc90">mcd::randStr</a> (size_t nb, unsigned short flags=CaractSet::ALL)</td></tr>
 <tr class="memdesc:a1ddd069f38e7407563a5d8e763d7dc90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a random string.  <a href="../../dd/ded/a00211.php#a1ddd069f38e7407563a5d8e763d7dc90">More...</a><br /></td></tr>
 <tr class="separator:a1ddd069f38e7407563a5d8e763d7dc90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9a09991409b1fa61f97f8519efcaf30"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#ad9a09991409b1fa61f97f8519efcaf30">mcd::count</a> (std::string text, char c)</td></tr>
-<tr class="memdesc:ad9a09991409b1fa61f97f8519efcaf30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count the number of appearances.  <a href="../../dd/ded/a00211.php#ad9a09991409b1fa61f97f8519efcaf30">More...</a><br /></td></tr>
-<tr class="separator:ad9a09991409b1fa61f97f8519efcaf30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a057304d2908e871b3c8f65db3b41057a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a057304d2908e871b3c8f65db3b41057a">mcd::getall</a> (std::string str_regex, std::string str, bool insensitive=false)</td></tr>
-<tr class="memdesc:a057304d2908e871b3c8f65db3b41057a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all occurences of a regex in a string.  <a href="../../dd/ded/a00211.php#a057304d2908e871b3c8f65db3b41057a">More...</a><br /></td></tr>
-<tr class="separator:a057304d2908e871b3c8f65db3b41057a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31744f235bdcd875c6e69661a4f0a490"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a31744f235bdcd875c6e69661a4f0a490">mcd::removeAccents</a> (std::string str)</td></tr>
-<tr class="memdesc:a31744f235bdcd875c6e69661a4f0a490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace all the accents of a string.  <a href="../../dd/ded/a00211.php#a31744f235bdcd875c6e69661a4f0a490">More...</a><br /></td></tr>
-<tr class="separator:a31744f235bdcd875c6e69661a4f0a490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95be8eb46f76298e1218183421d13825"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a95be8eb46f76298e1218183421d13825">mcd::count</a> (const std::string &amp;text, char c)</td></tr>
+<tr class="memdesc:a95be8eb46f76298e1218183421d13825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count the number of appearances.  <a href="../../dd/ded/a00211.php#a95be8eb46f76298e1218183421d13825">More...</a><br /></td></tr>
+<tr class="separator:a95be8eb46f76298e1218183421d13825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad903ee1a5cdf033a289168423cc0cf46"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#ad903ee1a5cdf033a289168423cc0cf46">mcd::getall</a> (const std::string &amp;str_regex, const std::string &amp;str, bool insensitive=false)</td></tr>
+<tr class="memdesc:ad903ee1a5cdf033a289168423cc0cf46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all occurences of a regex in a string.  <a href="../../dd/ded/a00211.php#ad903ee1a5cdf033a289168423cc0cf46">More...</a><br /></td></tr>
+<tr class="separator:ad903ee1a5cdf033a289168423cc0cf46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a685af449d029b7793f497633bbafbcbb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a685af449d029b7793f497633bbafbcbb">mcd::removeAccents</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:a685af449d029b7793f497633bbafbcbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace all the accents of a string.  <a href="../../dd/ded/a00211.php#a685af449d029b7793f497633bbafbcbb">More...</a><br /></td></tr>
+<tr class="separator:a685af449d029b7793f497633bbafbcbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : October, 12 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Last modification : September, 25 2019 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

@@ -144,14 +144,14 @@ namespace mcd {
 				*
 				*		\return			\b true or \b false
 				*/
-				bool load(std::string file);
+				bool load(const std::string& file);
 				/*!
 				* \brief	Save the map in a file
 				*		\param[in]		file		The file to save in
 				*
 				*		\return			\b true or \b false
 				*/
-				bool save(std::string file)const;
+				bool save(const std::string& file)const;
 
 				/*!
 				* \brief	Put an entity on the given position

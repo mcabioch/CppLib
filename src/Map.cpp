@@ -93,7 +93,7 @@ namespace mcd {
 		return true;
 	}
 
-	bool Map::load(std::string file){
+	bool Map::load(const std::string& file){
 		std::ifstream input;
 		std::string path = file + ".map";
 
@@ -125,7 +125,7 @@ namespace mcd {
 		return true;
 	}
 
-	bool Map::save(std::string file)const {
+	bool Map::save(const std::string& file)const {
 		std::ofstream output;
 		std::string path = file + ".map";
 

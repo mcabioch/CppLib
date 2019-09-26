@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -131,9 +131,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a468ceec0e52bd2d0843313bf80691625"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d48/a00988.php#a468ceec0e52bd2d0843313bf80691625">PathfindingException</a> (<a class="el" href="../../d6/d48/a00988.php#a699cc4df8cc94d467e7372072d230b58">PathfindingErrorCode</a> error=PathfindingErrorCode::NONE, std::string const &amp;explaination=&quot;&quot;)  throw ()</td></tr>
-<tr class="memdesc:a468ceec0e52bd2d0843313bf80691625"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a468ceec0e52bd2d0843313bf80691625">More...</a><br /></td></tr>
-<tr class="separator:a468ceec0e52bd2d0843313bf80691625"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac73bb217b98d679eaab9fe9fe4e5c9b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d48/a00988.php#ac73bb217b98d679eaab9fe9fe4e5c9b0">PathfindingException</a> (<a class="el" href="../../d6/d48/a00988.php#a699cc4df8cc94d467e7372072d230b58">PathfindingErrorCode</a> error=PathfindingErrorCode::NONE, const std::string &amp;explaination=&quot;&quot;)  throw ()</td></tr>
+<tr class="memdesc:ac73bb217b98d679eaab9fe9fe4e5c9b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#ac73bb217b98d679eaab9fe9fe4e5c9b0">More...</a><br /></td></tr>
+<tr class="separator:ac73bb217b98d679eaab9fe9fe4e5c9b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22d196716aa61adb8fa0e0d48320c9ab"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d48/a00988.php#a22d196716aa61adb8fa0e0d48320c9ab">~PathfindingException</a> ()  throw ()</td></tr>
 <tr class="separator:a22d196716aa61adb8fa0e0d48320c9ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71da44443282ca94d2c9e10a9be0dafc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d48/a00988.php#a71da44443282ca94d2c9e10a9be0dafc">PathfindingException</a> (const <a class="el" href="../../d6/d48/a00988.php">PathfindingException</a> &amp;other)  throw ()</td></tr>
@@ -176,8 +176,8 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a468ceec0e52bd2d0843313bf80691625"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a468ceec0e52bd2d0843313bf80691625">&#9670;&nbsp;</a></span>PathfindingException() <span class="overload">[1/2]</span></h2>
+<a id="ac73bb217b98d679eaab9fe9fe4e5c9b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac73bb217b98d679eaab9fe9fe4e5c9b0">&#9670;&nbsp;</a></span>PathfindingException() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -191,7 +191,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>explaination</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>

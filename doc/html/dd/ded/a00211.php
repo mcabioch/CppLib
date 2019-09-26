@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:24 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -421,10 +421,10 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad688e3c0cf0c670ae196d83a4c6dd0d6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ad688e3c0cf0c670ae196d83a4c6dd0d6"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#ad688e3c0cf0c670ae196d83a4c6dd0d6">implode</a> (std::vector&lt; T &gt; a, std::string glue=&quot;&quot;)</td></tr>
-<tr class="memdesc:ad688e3c0cf0c670ae196d83a4c6dd0d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="#ad688e3c0cf0c670ae196d83a4c6dd0d6">More...</a><br /></td></tr>
-<tr class="separator:ad688e3c0cf0c670ae196d83a4c6dd0d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2db82764bac2a48879000848b3af7c79"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2db82764bac2a48879000848b3af7c79"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a2db82764bac2a48879000848b3af7c79">implode</a> (std::vector&lt; T &gt; a, const std::string &amp;glue=&quot;&quot;)</td></tr>
+<tr class="memdesc:a2db82764bac2a48879000848b3af7c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="#a2db82764bac2a48879000848b3af7c79">More...</a><br /></td></tr>
+<tr class="separator:a2db82764bac2a48879000848b3af7c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49514e6c6c7518d6207a0f707ec92529"><td class="memTemplParams" colspan="2">template&lt;typename Array &gt; </td></tr>
 <tr class="memitem:a49514e6c6c7518d6207a0f707ec92529"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a49514e6c6c7518d6207a0f707ec92529">print_r</a> (Array a)</td></tr>
 <tr class="memdesc:a49514e6c6c7518d6207a0f707ec92529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="#a49514e6c6c7518d6207a0f707ec92529">More...</a><br /></td></tr>
@@ -475,9 +475,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aea3616a95b7e00c3c401fe7f5d907ba8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#aea3616a95b7e00c3c401fe7f5d907ba8">fromBigVal</a> (char in)</td></tr>
 <tr class="memdesc:aea3616a95b7e00c3c401fe7f5d907ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a char in an int.  <a href="#aea3616a95b7e00c3c401fe7f5d907ba8">More...</a><br /></td></tr>
 <tr class="separator:aea3616a95b7e00c3c401fe7f5d907ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf62573f8a0746e5576e00fc475bcdfb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#aaf62573f8a0746e5576e00fc475bcdfb">fromBigVal</a> (std::string in)</td></tr>
-<tr class="memdesc:aaf62573f8a0746e5576e00fc475bcdfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a std::string in an int.  <a href="#aaf62573f8a0746e5576e00fc475bcdfb">More...</a><br /></td></tr>
-<tr class="separator:aaf62573f8a0746e5576e00fc475bcdfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ebc06a4ba39c08505854aa29dcd0f0e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a6ebc06a4ba39c08505854aa29dcd0f0e">fromBigVal</a> (const std::string &amp;in)</td></tr>
+<tr class="memdesc:a6ebc06a4ba39c08505854aa29dcd0f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a std::string in an int.  <a href="#a6ebc06a4ba39c08505854aa29dcd0f0e">More...</a><br /></td></tr>
+<tr class="separator:a6ebc06a4ba39c08505854aa29dcd0f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a49c8e33d55da52fabdb3f09f2fd3e5b2">operator==</a> (const <a class="el" href="../../df/d0c/a00788.php">Big</a> &amp;a, const <a class="el" href="../../df/d0c/a00788.php">Big</a> &amp;b) noexcept</td></tr>
 <tr class="memdesc:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <a class="el" href="../../df/d0c/a00788.php" title="A new huge arithmetic variable. ">Big</a>.  <a href="#a49c8e33d55da52fabdb3f09f2fd3e5b2">More...</a><br /></td></tr>
 <tr class="separator:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -721,45 +721,45 @@ Functions</h2></td></tr>
 <tr class="memitem:a878c72753e2d2de82e186351a5314bb6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a878c72753e2d2de82e186351a5314bb6">sortDesc</a> (std::map&lt; Key, Value &gt; map)</td></tr>
 <tr class="memdesc:a878c72753e2d2de82e186351a5314bb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a map descendently.  <a href="#a878c72753e2d2de82e186351a5314bb6">More...</a><br /></td></tr>
 <tr class="separator:a878c72753e2d2de82e186351a5314bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f44d33dc7a87f999c8a168d159b7b7c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a0f44d33dc7a87f999c8a168d159b7b7c">split</a> (std::string in, char separator=' ')</td></tr>
-<tr class="memdesc:a0f44d33dc7a87f999c8a168d159b7b7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given caracter.  <a href="#a0f44d33dc7a87f999c8a168d159b7b7c">More...</a><br /></td></tr>
-<tr class="separator:a0f44d33dc7a87f999c8a168d159b7b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15734b133c7e5ce88308110f4efb3bfa"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a15734b133c7e5ce88308110f4efb3bfa">split</a> (std::string in, std::string c)</td></tr>
-<tr class="memdesc:a15734b133c7e5ce88308110f4efb3bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given string.  <a href="#a15734b133c7e5ce88308110f4efb3bfa">More...</a><br /></td></tr>
-<tr class="separator:a15734b133c7e5ce88308110f4efb3bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1462df0e8bb2fe7f5bb61bca736ecffa"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a1462df0e8bb2fe7f5bb61bca736ecffa">split</a> (std::string in, std::vector&lt; std::string &gt; cars)</td></tr>
-<tr class="memdesc:a1462df0e8bb2fe7f5bb61bca736ecffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given separators.  <a href="#a1462df0e8bb2fe7f5bb61bca736ecffa">More...</a><br /></td></tr>
-<tr class="separator:a1462df0e8bb2fe7f5bb61bca736ecffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f5effb1d0789a63d9c71c5549f3eacf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a3f5effb1d0789a63d9c71c5549f3eacf">split</a> (const std::string &amp;in, char separator=' ')</td></tr>
+<tr class="memdesc:a3f5effb1d0789a63d9c71c5549f3eacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given caracter.  <a href="#a3f5effb1d0789a63d9c71c5549f3eacf">More...</a><br /></td></tr>
+<tr class="separator:a3f5effb1d0789a63d9c71c5549f3eacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfdec07a9d46365ed68092ec70b96d41"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#acfdec07a9d46365ed68092ec70b96d41">split</a> (const std::string &amp;in, const std::string &amp;c)</td></tr>
+<tr class="memdesc:acfdec07a9d46365ed68092ec70b96d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given string.  <a href="#acfdec07a9d46365ed68092ec70b96d41">More...</a><br /></td></tr>
+<tr class="separator:acfdec07a9d46365ed68092ec70b96d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5257fd1ac4e72cf72335af2444a8bea9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a5257fd1ac4e72cf72335af2444a8bea9">split</a> (const std::string &amp;in, std::vector&lt; std::string &gt; cars)</td></tr>
+<tr class="memdesc:a5257fd1ac4e72cf72335af2444a8bea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given separators.  <a href="#a5257fd1ac4e72cf72335af2444a8bea9">More...</a><br /></td></tr>
+<tr class="separator:a5257fd1ac4e72cf72335af2444a8bea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa97708c3c4ad49b7e60d30c66bfad80a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#aa97708c3c4ad49b7e60d30c66bfad80a">trim</a> (std::string &amp;in)</td></tr>
 <tr class="memdesc:aa97708c3c4ad49b7e60d30c66bfad80a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for <b>split</b>.  <a href="#aa97708c3c4ad49b7e60d30c66bfad80a">More...</a><br /></td></tr>
 <tr class="separator:aa97708c3c4ad49b7e60d30c66bfad80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b1fa9cade94967538723cead132456c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a9b1fa9cade94967538723cead132456c">uppercase</a> (std::string str, std::string::iterator begin, std::string::iterator end)</td></tr>
-<tr class="memdesc:a9b1fa9cade94967538723cead132456c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given interval to uppercase.  <a href="#a9b1fa9cade94967538723cead132456c">More...</a><br /></td></tr>
-<tr class="separator:a9b1fa9cade94967538723cead132456c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8401081694d2f40477e24639f48ae3d6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a8401081694d2f40477e24639f48ae3d6">lowercase</a> (std::string str, std::string::iterator begin, std::string::iterator end)</td></tr>
-<tr class="memdesc:a8401081694d2f40477e24639f48ae3d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given interval to lowercase.  <a href="#a8401081694d2f40477e24639f48ae3d6">More...</a><br /></td></tr>
-<tr class="separator:a8401081694d2f40477e24639f48ae3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bcf7344b39a112c02618ee2831e7188"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a6bcf7344b39a112c02618ee2831e7188">uppercase</a> (std::string str)</td></tr>
-<tr class="memdesc:a6bcf7344b39a112c02618ee2831e7188"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given string to uppercase.  <a href="#a6bcf7344b39a112c02618ee2831e7188">More...</a><br /></td></tr>
-<tr class="separator:a6bcf7344b39a112c02618ee2831e7188"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7305496cd0af7ff6f673de5b9d5d8837"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a7305496cd0af7ff6f673de5b9d5d8837">lowercase</a> (std::string str)</td></tr>
-<tr class="memdesc:a7305496cd0af7ff6f673de5b9d5d8837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given string to lowercase.  <a href="#a7305496cd0af7ff6f673de5b9d5d8837">More...</a><br /></td></tr>
-<tr class="separator:a7305496cd0af7ff6f673de5b9d5d8837"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a127c51f4d8bd9fdb9eaef6a5173a5d03"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a127c51f4d8bd9fdb9eaef6a5173a5d03">replace</a> (std::string str, std::string from, std::string to, bool regex=false, bool word=false, bool insensitive=false)</td></tr>
-<tr class="memdesc:a127c51f4d8bd9fdb9eaef6a5173a5d03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace something by something else in a string using regex_replace.  <a href="#a127c51f4d8bd9fdb9eaef6a5173a5d03">More...</a><br /></td></tr>
-<tr class="separator:a127c51f4d8bd9fdb9eaef6a5173a5d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334e09619932c4b2c193abe4fc9c3306"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a334e09619932c4b2c193abe4fc9c3306">uppercase</a> (const std::string &amp;str, std::string::iterator begin, std::string::iterator end)</td></tr>
+<tr class="memdesc:a334e09619932c4b2c193abe4fc9c3306"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given interval to uppercase.  <a href="#a334e09619932c4b2c193abe4fc9c3306">More...</a><br /></td></tr>
+<tr class="separator:a334e09619932c4b2c193abe4fc9c3306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c6d83e8654926ceebd7777a9ada0652"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a0c6d83e8654926ceebd7777a9ada0652">lowercase</a> (const std::string &amp;str, std::string::iterator begin, std::string::iterator end)</td></tr>
+<tr class="memdesc:a0c6d83e8654926ceebd7777a9ada0652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given interval to lowercase.  <a href="#a0c6d83e8654926ceebd7777a9ada0652">More...</a><br /></td></tr>
+<tr class="separator:a0c6d83e8654926ceebd7777a9ada0652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39b79dedb67710e8708dfec2985c6406"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a39b79dedb67710e8708dfec2985c6406">uppercase</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:a39b79dedb67710e8708dfec2985c6406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given string to uppercase.  <a href="#a39b79dedb67710e8708dfec2985c6406">More...</a><br /></td></tr>
+<tr class="separator:a39b79dedb67710e8708dfec2985c6406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0762354667dfb9f9e539e501399a9a00"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a0762354667dfb9f9e539e501399a9a00">lowercase</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:a0762354667dfb9f9e539e501399a9a00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given string to lowercase.  <a href="#a0762354667dfb9f9e539e501399a9a00">More...</a><br /></td></tr>
+<tr class="separator:a0762354667dfb9f9e539e501399a9a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae61cb7564bc3b0ccbcad0b991b74635d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#ae61cb7564bc3b0ccbcad0b991b74635d">replace</a> (const std::string &amp;str, const std::string &amp;from, const std::string &amp;to, bool regex=false, bool word=false, bool insensitive=false)</td></tr>
+<tr class="memdesc:ae61cb7564bc3b0ccbcad0b991b74635d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace something by something else in a string using regex_replace.  <a href="#ae61cb7564bc3b0ccbcad0b991b74635d">More...</a><br /></td></tr>
+<tr class="separator:ae61cb7564bc3b0ccbcad0b991b74635d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ddd069f38e7407563a5d8e763d7dc90"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a1ddd069f38e7407563a5d8e763d7dc90">randStr</a> (size_t nb, unsigned short flags=CaractSet::ALL)</td></tr>
 <tr class="memdesc:a1ddd069f38e7407563a5d8e763d7dc90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a random string.  <a href="#a1ddd069f38e7407563a5d8e763d7dc90">More...</a><br /></td></tr>
 <tr class="separator:a1ddd069f38e7407563a5d8e763d7dc90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9a09991409b1fa61f97f8519efcaf30"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#ad9a09991409b1fa61f97f8519efcaf30">count</a> (std::string text, char c)</td></tr>
-<tr class="memdesc:ad9a09991409b1fa61f97f8519efcaf30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count the number of appearances.  <a href="#ad9a09991409b1fa61f97f8519efcaf30">More...</a><br /></td></tr>
-<tr class="separator:ad9a09991409b1fa61f97f8519efcaf30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a057304d2908e871b3c8f65db3b41057a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a057304d2908e871b3c8f65db3b41057a">getall</a> (std::string str_regex, std::string str, bool insensitive=false)</td></tr>
-<tr class="memdesc:a057304d2908e871b3c8f65db3b41057a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all occurences of a regex in a string.  <a href="#a057304d2908e871b3c8f65db3b41057a">More...</a><br /></td></tr>
-<tr class="separator:a057304d2908e871b3c8f65db3b41057a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31744f235bdcd875c6e69661a4f0a490"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a31744f235bdcd875c6e69661a4f0a490">removeAccents</a> (std::string str)</td></tr>
-<tr class="memdesc:a31744f235bdcd875c6e69661a4f0a490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace all the accents of a string.  <a href="#a31744f235bdcd875c6e69661a4f0a490">More...</a><br /></td></tr>
-<tr class="separator:a31744f235bdcd875c6e69661a4f0a490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95be8eb46f76298e1218183421d13825"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a95be8eb46f76298e1218183421d13825">count</a> (const std::string &amp;text, char c)</td></tr>
+<tr class="memdesc:a95be8eb46f76298e1218183421d13825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count the number of appearances.  <a href="#a95be8eb46f76298e1218183421d13825">More...</a><br /></td></tr>
+<tr class="separator:a95be8eb46f76298e1218183421d13825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad903ee1a5cdf033a289168423cc0cf46"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#ad903ee1a5cdf033a289168423cc0cf46">getall</a> (const std::string &amp;str_regex, const std::string &amp;str, bool insensitive=false)</td></tr>
+<tr class="memdesc:ad903ee1a5cdf033a289168423cc0cf46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all occurences of a regex in a string.  <a href="#ad903ee1a5cdf033a289168423cc0cf46">More...</a><br /></td></tr>
+<tr class="separator:ad903ee1a5cdf033a289168423cc0cf46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a685af449d029b7793f497633bbafbcbb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a685af449d029b7793f497633bbafbcbb">removeAccents</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:a685af449d029b7793f497633bbafbcbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace all the accents of a string.  <a href="#a685af449d029b7793f497633bbafbcbb">More...</a><br /></td></tr>
+<tr class="separator:a685af449d029b7793f497633bbafbcbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d72a06346182146581ff63f2fa70580"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a0d72a06346182146581ff63f2fa70580">exec</a> (const std::string &amp;cmd, bool force=false)</td></tr>
 <tr class="memdesc:a0d72a06346182146581ff63f2fa70580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use system in an IF and say if there is an error.  <a href="#a0d72a06346182146581ff63f2fa70580">More...</a><br /></td></tr>
 <tr class="separator:a0d72a06346182146581ff63f2fa70580"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2091,8 +2091,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ad9a09991409b1fa61f97f8519efcaf30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9a09991409b1fa61f97f8519efcaf30">&#9670;&nbsp;</a></span>count()</h2>
+<a id="a95be8eb46f76298e1218183421d13825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95be8eb46f76298e1218183421d13825">&#9670;&nbsp;</a></span>count()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2100,7 +2100,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">size_t mcd::count </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>text</em>, </td>
         </tr>
         <tr>
@@ -2576,8 +2576,8 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="aaf62573f8a0746e5576e00fc475bcdfb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf62573f8a0746e5576e00fc475bcdfb">&#9670;&nbsp;</a></span>fromBigVal() <span class="overload">[2/2]</span></h2>
+<a id="a6ebc06a4ba39c08505854aa29dcd0f0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ebc06a4ba39c08505854aa29dcd0f0e">&#9670;&nbsp;</a></span>fromBigVal() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2585,7 +2585,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">int mcd::fromBigVal </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2602,8 +2602,8 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="a057304d2908e871b3c8f65db3b41057a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a057304d2908e871b3c8f65db3b41057a">&#9670;&nbsp;</a></span>getall()</h2>
+<a id="ad903ee1a5cdf033a289168423cc0cf46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad903ee1a5cdf033a289168423cc0cf46">&#9670;&nbsp;</a></span>getall()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2611,13 +2611,13 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; mcd::getall </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str_regex</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
@@ -2763,8 +2763,8 @@ template&lt;class C &gt; </div>
 
 </div>
 </div>
-<a id="ad688e3c0cf0c670ae196d83a4c6dd0d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad688e3c0cf0c670ae196d83a4c6dd0d6">&#9670;&nbsp;</a></span>implode()</h2>
+<a id="a2db82764bac2a48879000848b3af7c79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2db82764bac2a48879000848b3af7c79">&#9670;&nbsp;</a></span>implode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2780,7 +2780,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>glue</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
@@ -2803,8 +2803,8 @@ template&lt;typename T &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/ded/a00211_ad688e3c0cf0c670ae196d83a4c6dd0d6_cgraph.png" border="0" usemap="#dd/ded/a00211_ad688e3c0cf0c670ae196d83a4c6dd0d6_cgraph" alt=""/></div>
-<map name="dd/ded/a00211_ad688e3c0cf0c670ae196d83a4c6dd0d6_cgraph" id="dd/ded/a00211_ad688e3c0cf0c670ae196d83a4c6dd0d6_cgraph">
+<div class="center"><img src="../../dd/ded/a00211_a2db82764bac2a48879000848b3af7c79_cgraph.png" border="0" usemap="#dd/ded/a00211_a2db82764bac2a48879000848b3af7c79_cgraph" alt=""/></div>
+<map name="dd/ded/a00211_a2db82764bac2a48879000848b3af7c79_cgraph" id="dd/ded/a00211_a2db82764bac2a48879000848b3af7c79_cgraph">
 <area shape="rect" id="node2" href="../../dd/ded/a00211.php#a49514e6c6c7518d6207a0f707ec92529" title="Print the content of an array. " alt="" coords="153,5,244,32"/>
 </map>
 </div>
@@ -3067,8 +3067,8 @@ template&lt;typename V , typename U &gt; </div>
 
 </div>
 </div>
-<a id="a8401081694d2f40477e24639f48ae3d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8401081694d2f40477e24639f48ae3d6">&#9670;&nbsp;</a></span>lowercase() <span class="overload">[1/2]</span></h2>
+<a id="a0c6d83e8654926ceebd7777a9ada0652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c6d83e8654926ceebd7777a9ada0652">&#9670;&nbsp;</a></span>lowercase() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3076,7 +3076,7 @@ template&lt;typename V , typename U &gt; </div>
         <tr>
           <td class="memname">std::string mcd::lowercase </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
@@ -3112,8 +3112,8 @@ template&lt;typename V , typename U &gt; </div>
 
 </div>
 </div>
-<a id="a7305496cd0af7ff6f673de5b9d5d8837"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7305496cd0af7ff6f673de5b9d5d8837">&#9670;&nbsp;</a></span>lowercase() <span class="overload">[2/2]</span></h2>
+<a id="a0762354667dfb9f9e539e501399a9a00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0762354667dfb9f9e539e501399a9a00">&#9670;&nbsp;</a></span>lowercase() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3121,7 +3121,7 @@ template&lt;typename V , typename U &gt; </div>
         <tr>
           <td class="memname">std::string mcd::lowercase </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5130,8 +5130,8 @@ template&lt;class C &gt; </div>
 
 </div>
 </div>
-<a id="a31744f235bdcd875c6e69661a4f0a490"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31744f235bdcd875c6e69661a4f0a490">&#9670;&nbsp;</a></span>removeAccents()</h2>
+<a id="a685af449d029b7793f497633bbafbcbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a685af449d029b7793f497633bbafbcbb">&#9670;&nbsp;</a></span>removeAccents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5139,7 +5139,7 @@ template&lt;class C &gt; </div>
         <tr>
           <td class="memname">std::string mcd::removeAccents </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5157,8 +5157,8 @@ template&lt;class C &gt; </div>
 
 </div>
 </div>
-<a id="a127c51f4d8bd9fdb9eaef6a5173a5d03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a127c51f4d8bd9fdb9eaef6a5173a5d03">&#9670;&nbsp;</a></span>replace()</h2>
+<a id="ae61cb7564bc3b0ccbcad0b991b74635d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae61cb7564bc3b0ccbcad0b991b74635d">&#9670;&nbsp;</a></span>replace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5166,19 +5166,19 @@ template&lt;class C &gt; </div>
         <tr>
           <td class="memname">std::string mcd::replace </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>from</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>to</em>, </td>
         </tr>
         <tr>
@@ -5545,8 +5545,8 @@ template&lt;class Key , class Value &gt; </div>
 
 </div>
 </div>
-<a id="a0f44d33dc7a87f999c8a168d159b7b7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f44d33dc7a87f999c8a168d159b7b7c">&#9670;&nbsp;</a></span>split() <span class="overload">[1/3]</span></h2>
+<a id="a3f5effb1d0789a63d9c71c5549f3eacf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f5effb1d0789a63d9c71c5549f3eacf">&#9670;&nbsp;</a></span>split() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5554,7 +5554,7 @@ template&lt;class Key , class Value &gt; </div>
         <tr>
           <td class="memname">std::vector&lt;std::string&gt; mcd::split </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>in</em>, </td>
         </tr>
         <tr>
@@ -5583,8 +5583,8 @@ template&lt;class Key , class Value &gt; </div>
 
 </div>
 </div>
-<a id="a15734b133c7e5ce88308110f4efb3bfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15734b133c7e5ce88308110f4efb3bfa">&#9670;&nbsp;</a></span>split() <span class="overload">[2/3]</span></h2>
+<a id="acfdec07a9d46365ed68092ec70b96d41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfdec07a9d46365ed68092ec70b96d41">&#9670;&nbsp;</a></span>split() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5592,13 +5592,13 @@ template&lt;class Key , class Value &gt; </div>
         <tr>
           <td class="memname">std::vector&lt;std::string&gt; mcd::split </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>in</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>c</em>&#160;</td>
         </tr>
         <tr>
@@ -5621,8 +5621,8 @@ template&lt;class Key , class Value &gt; </div>
 
 </div>
 </div>
-<a id="a1462df0e8bb2fe7f5bb61bca736ecffa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1462df0e8bb2fe7f5bb61bca736ecffa">&#9670;&nbsp;</a></span>split() <span class="overload">[3/3]</span></h2>
+<a id="a5257fd1ac4e72cf72335af2444a8bea9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5257fd1ac4e72cf72335af2444a8bea9">&#9670;&nbsp;</a></span>split() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5630,7 +5630,7 @@ template&lt;class Key , class Value &gt; </div>
         <tr>
           <td class="memname">std::vector&lt;std::string&gt; mcd::split </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>in</em>, </td>
         </tr>
         <tr>
@@ -6271,8 +6271,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a9b1fa9cade94967538723cead132456c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b1fa9cade94967538723cead132456c">&#9670;&nbsp;</a></span>uppercase() <span class="overload">[1/2]</span></h2>
+<a id="a334e09619932c4b2c193abe4fc9c3306"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a334e09619932c4b2c193abe4fc9c3306">&#9670;&nbsp;</a></span>uppercase() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6280,7 +6280,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname">std::string mcd::uppercase </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
@@ -6316,8 +6316,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a6bcf7344b39a112c02618ee2831e7188"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bcf7344b39a112c02618ee2831e7188">&#9670;&nbsp;</a></span>uppercase() <span class="overload">[2/2]</span></h2>
+<a id="a39b79dedb67710e8708dfec2985c6406"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39b79dedb67710e8708dfec2985c6406">&#9670;&nbsp;</a></span>uppercase() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6325,7 +6325,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname">std::string mcd::uppercase </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
         </tr>

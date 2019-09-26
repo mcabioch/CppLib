@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:24 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -109,8 +109,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9bf22e73a5a3631f06200da9a86e926b"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d0c/a00788.php#a9bf22e73a5a3631f06200da9a86e926b">Big</a> (T val)</td></tr>
 <tr class="memdesc:a9bf22e73a5a3631f06200da9a86e926b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a9bf22e73a5a3631f06200da9a86e926b">More...</a><br /></td></tr>
 <tr class="separator:a9bf22e73a5a3631f06200da9a86e926b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4971f6581c28b8889e9ce407187d957"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0c/a00788.php#af4971f6581c28b8889e9ce407187d957">Big</a> (std::string val)</td></tr>
-<tr class="separator:af4971f6581c28b8889e9ce407187d957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83ae4d9a82a8b82472160e532d8bb1ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0c/a00788.php#a83ae4d9a82a8b82472160e532d8bb1ac">Big</a> (const std::string &amp;val)</td></tr>
+<tr class="separator:a83ae4d9a82a8b82472160e532d8bb1ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c0fb68d6f3b4fe4c389d8644d9cbb83"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0c/a00788.php#a0c0fb68d6f3b4fe4c389d8644d9cbb83">Big</a> ()</td></tr>
 <tr class="separator:a0c0fb68d6f3b4fe4c389d8644d9cbb83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff6ef43d1ad143b805150718c0f75c84"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0c/a00788.php#aff6ef43d1ad143b805150718c0f75c84">~Big</a> ()</td></tr>
@@ -259,8 +259,8 @@ template&lt;typename T , class  = std::enable_if_t&lt;std::is_arithmetic&lt;T&gt
 
 </div>
 </div>
-<a id="af4971f6581c28b8889e9ce407187d957"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4971f6581c28b8889e9ce407187d957">&#9670;&nbsp;</a></span>Big() <span class="overload">[2/5]</span></h2>
+<a id="a83ae4d9a82a8b82472160e532d8bb1ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83ae4d9a82a8b82472160e532d8bb1ac">&#9670;&nbsp;</a></span>Big() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,7 +268,7 @@ template&lt;typename T , class  = std::enable_if_t&lt;std::is_arithmetic&lt;T&gt
         <tr>
           <td class="memname">mcd::Big::Big </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
           <td></td>
         </tr>

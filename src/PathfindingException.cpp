@@ -1,7 +1,7 @@
 #include "C++/PathfindingException.hpp"
 
 namespace mcd {
-	PathfindingException::PathfindingException(PathfindingErrorCode error, std::string const& explaination) throw() :
+	PathfindingException::PathfindingException(PathfindingErrorCode error, const std::string& explaination) throw() :
 		_error(error),
 		_explaination(explaination)
 	{}

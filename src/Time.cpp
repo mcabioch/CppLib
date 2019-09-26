@@ -10,7 +10,7 @@ namespace mcd {
 		this->init();
 	}
 
-	Time::Time(std::string time) :
+	Time::Time(const std::string& time) :
 		_act(),
 		_dAct(),
 		_milli(0),
@@ -60,8 +60,9 @@ namespace mcd {
 		return _milli;
 	}
 
-	std::string Time::get(std::string format)const {
+	std::string Time::get(const std::string& format)const {
 		std::map<std::string, std::string> corres;
+		auto inside_format = format;
 
 		corres["%H"] = ((this->hour() < 10)?"0":"") + tos(this->hour());
 		corres["%I"] = ((toi(corres["%H"]) % 12 < 10)?"0":"") + tos(toi(corres["%H"]) % 12);
@@ -76,13 +77,13 @@ namespace mcd {
 		corres["%p"] = lowercase(corres["%P"]);
 
 		for(auto d : corres){
-			format = replace(format, d.first, d.second);
+			inside_format = replace(inside_format, d.first, d.second);
 		}
 
-		return format;
+		return inside_format;
 	}
 
-	void Time::set(std::string time){
+	void Time::set(const std::string& time){
 		_time = time;
 		this->reset();
 	}

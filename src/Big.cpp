@@ -19,36 +19,38 @@ namespace mcd {
 		}
 	}
 
-	void Big::set(std::string val){
-		for(size_t i{0}; i < val.size() && val[i] == ' ';){ val = val.substr(i + 1); }
+	void Big::set(const std::string& val){
+		auto inside_val = val;
 
-		if(val.size() == 0){
-			val = "0";
+		for(size_t i{0}; i < inside_val.size() && inside_val[i] == ' ';){ inside_val = inside_val.substr(i + 1); }
+
+		if(inside_val.size() == 0){
+			inside_val = "0";
 		} else {
-			if(val[0] == '-' || val[0] == '+'){
-				_neg = (val[0] == '-');
-				val = val.substr(1);
+			if(inside_val[0] == '-' || inside_val[0] == '+'){
+				_neg = (inside_val[0] == '-');
+				inside_val = inside_val.substr(1);
 			}
 
-			std::string tmp = val;
-			val = "";
+			std::string tmp = inside_val;
+			inside_val = "";
 
 			for(auto& c : tmp){
 				if(c >= '0' && c <= '9'){
-					val += c;
+					inside_val += c;
 				}
 			}
 
-			for(size_t i{0}; i < val.size() && val[i] == '0';){ val = val.substr(i + 1); }
-			if(val == ""){ val = "0"; }
+			for(size_t i{0}; i < inside_val.size() && inside_val[i] == '0';){ inside_val = inside_val.substr(i + 1); }
+			if(inside_val == ""){ inside_val = "0"; }
 		}
 
-		if(val == "0"){
+		if(inside_val == "0"){
 			_neg = false;
 		}
 
-		Big::equalize(val, "");
-		_val = val;
+		Big::equalize(inside_val, "");
+		_val = inside_val;
 	}
 
 	Big Big::invert()const {
@@ -70,41 +72,43 @@ namespace mcd {
 		}
 	}
 
-	Big Big::division(std::string val, const Big& d, Big& q){
+	Big Big::division(const std::string& val, const Big& d, Big& q){
 		Big r;
 		std::string rVal = "";
+		auto inside_val = val;
 
 		size_t i{0};
 		rVal = "0";
 
-		while(rVal < d && i <= val.size()){
+		while(rVal < d && i <= inside_val.size()){
 			i++;
-			rVal = val.substr(0, i);
+			rVal = inside_val.substr(0, i);
 		}
 
-		val = val.substr(rVal.size());
+		inside_val = inside_val.substr(rVal.size());
 		r = rVal;
 
 		this->minusDivide(r, d, q, 1);
 
-		this->divide(val, d, q, r);
+		this->divide(inside_val, d, q, r);
 
 		return r;
 	}
 
-	void Big::divide(std::string val, const Big& d, Big& q, Big& r){
+	void Big::divide(const std::string& val, const Big& d, Big& q, Big& r){
 		size_t i{1};
 		std::string rVal = std::string(r);
 		std::string qVal = std::string(q);
 
 		std::string newVal = "0";
+		auto inside_val = val;
 
-		if(i > val.size()){
+		if(i > inside_val.size()){
 			return;
 		}
-		newVal = rVal + val.substr(0, i);
+		newVal = rVal + inside_val.substr(0, i);
 
-		val = val.substr(i);
+		inside_val = inside_val.substr(i);
 		r = newVal;
 		q = Big(0);
 
@@ -112,14 +116,14 @@ namespace mcd {
 			qVal += "0";
 			q = qVal;
 
-			this->divide(val, d, q, r);
+			this->divide(inside_val, d, q, r);
 		} else {
 			this->minusDivide(r, d, q, 1);
 
 			qVal += static_cast<std::string>(q);
 			q = qVal;
 
-			this->divide(val, d, q, r);
+			this->divide(inside_val, d, q, r);
 		}
 
 		return;

@@ -27,7 +27,7 @@ namespace mcd {
 
 	#ifndef DOXYGEN_SHOULD_SKIP_THIS
 		template<typename T>
-		void printArguments(Colors color, std::string arg, T in, size_t line){
+		void printArguments(Colors color, const std::string& arg, T in, size_t line){
 			cout << Color(color);
 			cout << Color(Colors::NORMAL, color) << "# ";
 			cout << Color(Colors::BOLD, color) << arg;

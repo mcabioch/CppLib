@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -125,17 +125,17 @@ Collaboration diagram for mcd::DateTime:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a29a8b25abb19ebb2d5cce889ea81dd5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/a00916.php#a29a8b25abb19ebb2d5cce889ea81dd5a">DateTime</a> ()</td></tr>
 <tr class="separator:a29a8b25abb19ebb2d5cce889ea81dd5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27522461f3954da96d58a5a82db34675"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/a00916.php#a27522461f3954da96d58a5a82db34675">DateTime</a> (std::string datetime)</td></tr>
-<tr class="separator:a27522461f3954da96d58a5a82db34675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75ee007e7111b318ad38a7b53cdd48ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/a00916.php#a75ee007e7111b318ad38a7b53cdd48ae">DateTime</a> (const std::string &amp;datetime)</td></tr>
+<tr class="separator:a75ee007e7111b318ad38a7b53cdd48ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabf1f35c1bad4f58eddd773836bbe766"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/a00916.php#aabf1f35c1bad4f58eddd773836bbe766">~DateTime</a> ()</td></tr>
 <tr class="separator:aabf1f35c1bad4f58eddd773836bbe766"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af11146f03ef10a03b88d46e54e782747"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/a00916.php#af11146f03ef10a03b88d46e54e782747">get</a> (std::string format=&quot;%Y-%m-%d %H:%M:%S&quot;) const override</td></tr>
-<tr class="separator:af11146f03ef10a03b88d46e54e782747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b25df777f0b2b3ac2396538eb3ca028"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/a00916.php#a7b25df777f0b2b3ac2396538eb3ca028">get</a> (const std::string &amp;format=&quot;%Y-%m-%d %H:%M:%S&quot;) const override</td></tr>
+<tr class="separator:a7b25df777f0b2b3ac2396538eb3ca028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_a00912"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00912')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../df/da5/a00912.php">mcd::Date</a></td></tr>
 <tr class="memitem:a032af1a0d48dcd6e6728b1855a75321d inherit pub_methods_a00912"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#a032af1a0d48dcd6e6728b1855a75321d">Date</a> ()</td></tr>
 <tr class="separator:a032af1a0d48dcd6e6728b1855a75321d inherit pub_methods_a00912"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd7aa05c6b0ea16321dce8b8dfb09f33 inherit pub_methods_a00912"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#acd7aa05c6b0ea16321dce8b8dfb09f33">Date</a> (std::string date)</td></tr>
-<tr class="separator:acd7aa05c6b0ea16321dce8b8dfb09f33 inherit pub_methods_a00912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f9647d3123f16fafaed55d9e75df6d7 inherit pub_methods_a00912"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#a6f9647d3123f16fafaed55d9e75df6d7">Date</a> (const std::string &amp;date)</td></tr>
+<tr class="separator:a6f9647d3123f16fafaed55d9e75df6d7 inherit pub_methods_a00912"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5 inherit pub_methods_a00912"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5">~Date</a> ()</td></tr>
 <tr class="separator:acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5 inherit pub_methods_a00912"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10a48f5b93ee6c3e7ba43c5de5fa56bd inherit pub_methods_a00912"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#a10a48f5b93ee6c3e7ba43c5de5fa56bd">day</a> () const</td></tr>
@@ -156,13 +156,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a09230be2f6ef6b2620dec0023bd1b1a0 inherit pub_methods_a00912"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30f0e5cc134d8da80f4b68aad4f92674 inherit pub_methods_a00912"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#a30f0e5cc134d8da80f4b68aad4f92674">year</a> () const</td></tr>
 <tr class="separator:a30f0e5cc134d8da80f4b68aad4f92674 inherit pub_methods_a00912"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9fb4557d7fab62e3df37e391a499a3e inherit pub_methods_a00912"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#ac9fb4557d7fab62e3df37e391a499a3e">set</a> (std::string date)</td></tr>
-<tr class="separator:ac9fb4557d7fab62e3df37e391a499a3e inherit pub_methods_a00912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63132b3cb9cc7cf1640fa1165a14d9a8 inherit pub_methods_a00912"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#a63132b3cb9cc7cf1640fa1165a14d9a8">set</a> (const std::string &amp;date)</td></tr>
+<tr class="separator:a63132b3cb9cc7cf1640fa1165a14d9a8 inherit pub_methods_a00912"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_a01036"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a01036')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td></tr>
 <tr class="memitem:ac802213e9ca41cc731f14619534e0249 inherit pub_methods_a01036"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d79/a01036.php#ac802213e9ca41cc731f14619534e0249">Time</a> ()</td></tr>
 <tr class="separator:ac802213e9ca41cc731f14619534e0249 inherit pub_methods_a01036"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ab062ff131d69347b10b8f8ba20f1f0 inherit pub_methods_a01036"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d79/a01036.php#a3ab062ff131d69347b10b8f8ba20f1f0">Time</a> (std::string time)</td></tr>
-<tr class="separator:a3ab062ff131d69347b10b8f8ba20f1f0 inherit pub_methods_a01036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa17085534ed1da008f6dd39cef039f2 inherit pub_methods_a01036"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d79/a01036.php#afa17085534ed1da008f6dd39cef039f2">Time</a> (const std::string &amp;time)</td></tr>
+<tr class="separator:afa17085534ed1da008f6dd39cef039f2 inherit pub_methods_a01036"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef071966b669112898476801bf63bcba inherit pub_methods_a01036"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d79/a01036.php#aef071966b669112898476801bf63bcba">~Time</a> ()</td></tr>
 <tr class="separator:aef071966b669112898476801bf63bcba inherit pub_methods_a01036"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc42ec7546725501d6cd8eb069e92a52 inherit pub_methods_a01036"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d79/a01036.php#afc42ec7546725501d6cd8eb069e92a52">hour</a> () const</td></tr>
@@ -173,8 +173,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5a3510ec96b9698b8cf601a2a1b9d90c inherit pub_methods_a01036"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22a7371879c50752d94338e631ab37a7 inherit pub_methods_a01036"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d79/a01036.php#a22a7371879c50752d94338e631ab37a7">milli</a> () const</td></tr>
 <tr class="separator:a22a7371879c50752d94338e631ab37a7 inherit pub_methods_a01036"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cf41690082cda14c3aafb0b91056195 inherit pub_methods_a01036"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d79/a01036.php#a0cf41690082cda14c3aafb0b91056195">set</a> (std::string time)</td></tr>
-<tr class="separator:a0cf41690082cda14c3aafb0b91056195 inherit pub_methods_a01036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa843463db53892a16778dd0d71ec2dad inherit pub_methods_a01036"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d79/a01036.php#aa843463db53892a16778dd0d71ec2dad">set</a> (const std::string &amp;time)</td></tr>
+<tr class="separator:aa843463db53892a16778dd0d71ec2dad inherit pub_methods_a01036"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -224,8 +224,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a27522461f3954da96d58a5a82db34675"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27522461f3954da96d58a5a82db34675">&#9670;&nbsp;</a></span>DateTime() <span class="overload">[2/2]</span></h2>
+<a id="a75ee007e7111b318ad38a7b53cdd48ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75ee007e7111b318ad38a7b53cdd48ae">&#9670;&nbsp;</a></span>DateTime() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -233,7 +233,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">mcd::DateTime::DateTime </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>datetime</em></td><td>)</td>
           <td></td>
         </tr>
@@ -276,8 +276,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af11146f03ef10a03b88d46e54e782747"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af11146f03ef10a03b88d46e54e782747">&#9670;&nbsp;</a></span>get()</h2>
+<a id="a7b25df777f0b2b3ac2396538eb3ca028"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b25df777f0b2b3ac2396538eb3ca028">&#9670;&nbsp;</a></span>get()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,7 +288,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">virtual std::string mcd::DateTime::get </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>format</em> = <code>&quot;%Y-%m-%d&#160;%H:%M:%S&quot;</code></td><td>)</td>
           <td> const</td>
         </tr>
@@ -300,7 +300,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="../../df/da5/a00912.php#ae49213decf493093a5cb259af8d46aae">mcd::Date</a>.</p>
+<p>Reimplemented from <a class="el" href="../../df/da5/a00912.php#a8573428b5d4557473120c24e1e52d543">mcd::Date</a>.</p>
 
 </div>
 </div>

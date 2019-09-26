@@ -2,7 +2,7 @@
 *
 *	\file		Date.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	August, 17 2018
+*	\modified	September, 25 2019
 *
 *	\details	Formats disponibles afin de récupérer la date\n
 *				\%A : Return the complete name of the day\n
@@ -37,7 +37,7 @@ namespace mcd {
 	class Date {
 		public:
 			Date();
-			Date(std::string date);
+			Date(const std::string& date);
 
 			virtual ~Date(){}
 
@@ -55,10 +55,10 @@ namespace mcd {
 
 			int year()const;
 
-			virtual std::string get(std::string format = "%Y-%m-%d")const;
+			virtual std::string get(const std::string& format = "%Y-%m-%d")const;
 
 			/* Setters */
-			void set(std::string date);
+			void set(const std::string& date);
 
 		protected:
 			void init();

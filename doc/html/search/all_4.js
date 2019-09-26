@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['date',['Date',['../df/da5/a00912.php',1,'mcd::Date'],['../df/da5/a00912.php#a032af1a0d48dcd6e6728b1855a75321d',1,'mcd::Date::Date()'],['../df/da5/a00912.php#acd7aa05c6b0ea16321dce8b8dfb09f33',1,'mcd::Date::Date(std::string date)']]],
+  ['date',['Date',['../df/da5/a00912.php',1,'mcd::Date'],['../df/da5/a00912.php#a032af1a0d48dcd6e6728b1855a75321d',1,'mcd::Date::Date()'],['../df/da5/a00912.php#a6f9647d3123f16fafaed55d9e75df6d7',1,'mcd::Date::Date(const std::string &amp;date)']]],
   ['date_2ehpp',['Date.hpp',['../df/d03/a00062.php',1,'']]],
-  ['datetime',['DateTime',['../d6/d66/a00916.php',1,'mcd::DateTime'],['../d6/d66/a00916.php#a29a8b25abb19ebb2d5cce889ea81dd5a',1,'mcd::DateTime::DateTime()'],['../d6/d66/a00916.php#a27522461f3954da96d58a5a82db34675',1,'mcd::DateTime::DateTime(std::string datetime)']]],
+  ['datetime',['DateTime',['../d6/d66/a00916.php',1,'mcd::DateTime'],['../d6/d66/a00916.php#a29a8b25abb19ebb2d5cce889ea81dd5a',1,'mcd::DateTime::DateTime()'],['../d6/d66/a00916.php#a75ee007e7111b318ad38a7b53cdd48ae',1,'mcd::DateTime::DateTime(const std::string &amp;datetime)']]],
   ['datetime_2ehpp',['DateTime.hpp',['../de/de1/a00065.php',1,'']]],
   ['day',['day',['../df/da5/a00912.php#a10a48f5b93ee6c3e7ba43c5de5fa56bd',1,'mcd::Date']]],
   ['debug_5felog',['debug_elog',['../d1/d09/a00077.php#abfef935e08c6c7f3d9247920b01659b1',1,'errors.hpp']]],

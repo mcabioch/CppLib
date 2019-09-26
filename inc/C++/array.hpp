@@ -22,7 +22,7 @@ namespace mcd {
 	*		\return			Return a string of the array
 	*/
 	template<typename T>
-	std::string implode(std::vector<T> a, std::string glue = ""){
+	std::string implode(std::vector<T> a, const std::string& glue = ""){
 		std::string out{""};
 		size_t size = a.size();
 		size_t index = 0;
@@ -148,7 +148,7 @@ namespace mcd {
 									!Check::is_printable<T>::value &&
 									!Check::is_minded_ptr<T>::value
 									>
-			print_all(T, bool = false, std::string decal = "");
+			print_all(T, bool = false, const std::string& decal = "");
 
 			template<typename T>
 			typename std::enable_if_t<
@@ -156,7 +156,7 @@ namespace mcd {
 									!Check::is_printable<T>::value &&
 									!Check::is_minded_ptr<T>::value
 									>
-			print_all(T* data, bool change = false, std::string decal = "");
+			print_all(T* data, bool change = false, const std::string& decal = "");
 
 			template<typename T>
 			typename std::enable_if_t<
@@ -164,7 +164,7 @@ namespace mcd {
 									Check::is_printable<T>::value &&
 									Check::is_minded_ptr<T>::value
 									>
-			print_all(T data, bool change = false, std::string decal = "");
+			print_all(T data, bool change = false, const std::string& decal = "");
 
 			template<typename T>
 			typename std::enable_if_t<
@@ -175,7 +175,7 @@ namespace mcd {
 									Check::is_printable<T>::value &&
 									!Check::is_minded_ptr<T>::value
 									>
-			print_all(T data, bool = false, std::string decal = "");
+			print_all(T data, bool = false, const std::string& decal = "");
 
 			template<typename T>
 			typename std::enable_if_t<
@@ -184,34 +184,34 @@ namespace mcd {
 									Check::is_printable<T>::value &&
 									!Check::is_minded_ptr<T>::value
 									>
-			print_all(T data, bool = false, std::string decal = "");
+			print_all(T data, bool = false, const std::string& decal = "");
 
-			void print_all(std::smatch data, bool change = false, std::string decal = "");
+			void print_all(std::smatch data, bool change = false, const std::string& decal = "");
 
 			template<typename T>
 			typename std::enable_if_t<
 									Check::is_array<T>::value
 									>
-			print_all(T* data, bool change = false, std::string decal = "");
+			print_all(T* data, bool change = false, const std::string& decal = "");
 
 			template<typename T>
 			typename std::enable_if_t<
 									Check::is_array<T>::value &&
 									!Check::is_vector<T>::value
 									>
-			print_all(T data, bool change = false, std::string decal = "");
+			print_all(T data, bool change = false, const std::string& decal = "");
 
 			template<typename T>
-			void print_all(std::vector<T> data, bool change = false, std::string decal = "");
+			void print_all(std::vector<T> data, bool change = false, const std::string& decal = "");
 
 			template<typename T, typename U>
-			void print_all(std::pair<T, U> data, bool change = false, std::string decal = "");
+			void print_all(std::pair<T, U> data, bool change = false, const std::string& decal = "");
 
 			template<typename T, typename U, typename V>
-			void print_all(trio<T, U, V> data, bool change = false, std::string decal = "");
+			void print_all(trio<T, U, V> data, bool change = false, const std::string& decal = "");
 
 			template<typename T, typename U, typename V, typename W>
-			void print_all(quatuor<T, U, V, W> data, bool change = false, std::string decal = "");
+			void print_all(quatuor<T, U, V, W> data, bool change = false, const std::string& decal = "");
 
 			/* End */
 				template<typename T>
@@ -221,7 +221,7 @@ namespace mcd {
 										!Check::is_printable<T>::value &&
 										!Check::is_minded_ptr<T>::value
 										>
-				print_all(T, bool, std::string decal){
+				print_all(T, bool, const std::string& decal){
 					std::cout << decal << "Object" << std::endl;
 				}
 
@@ -231,7 +231,7 @@ namespace mcd {
 										!Check::is_printable<T>::value &&
 										!Check::is_minded_ptr<T>::value
 										>
-				print_all(T* data, bool change, std::string decal){
+				print_all(T* data, bool change, const std::string& decal){
 					if(change){
 						std::cout << decal << "(" << data << ")" << std::endl;
 					} else {
@@ -245,7 +245,7 @@ namespace mcd {
 										Check::is_printable<T>::value &&
 										Check::is_minded_ptr<T>::value
 										>
-				print_all(T data, bool change, std::string decal){
+				print_all(T data, bool change, const std::string& decal){
 					if(change){
 						std::cout << decal << "(" << data << ")" << std::endl;
 					} else {
@@ -262,7 +262,7 @@ namespace mcd {
 										Check::is_printable<T>::value &&
 										!Check::is_minded_ptr<T>::value
 										>
-				print_all(T data, bool, std::string decal){
+				print_all(T data, bool, const std::string& decal){
 					std::cout << decal << "'" << data << "'" << std::endl;
 				}
 
@@ -273,20 +273,20 @@ namespace mcd {
 										Check::is_printable<T>::value &&
 										!Check::is_minded_ptr<T>::value
 										>
-				print_all(T data, bool, std::string decal){
+				print_all(T data, bool, const std::string& decal){
 					std::cout << decal << data << std::endl;
 				}
 			/*******/
 
 			template<typename T, typename U>
-			void print_all(std::pair<T, U> data, bool change, std::string decal){
+			void print_all(std::pair<T, U> data, bool change, const std::string& decal){
 				std::cout << decal << "pair" << std::endl;
 				print_all(data.first, change, decal + "--");
 				print_all(data.second, change, decal + "--");
 			}
 
 			template<typename T, typename U, typename V>
-			void print_all(trio<T, U, V> data, bool change, std::string decal){
+			void print_all(trio<T, U, V> data, bool change, const std::string& decal){
 				std::cout << decal << "trio" << std::endl;
 				print_all(data.first, change, decal + "--");
 				print_all(data.second, change, decal + "--");
@@ -294,7 +294,7 @@ namespace mcd {
 			}
 
 			template<typename T, typename U, typename V, typename W>
-			void print_all(quatuor<T, U, V, W> data, bool change, std::string decal){
+			void print_all(quatuor<T, U, V, W> data, bool change, const std::string& decal){
 				std::cout << decal << "quatuor" << std::endl;
 				print_all(data.first, change, decal + "--");
 				print_all(data.second, change, decal + "--");
@@ -306,7 +306,7 @@ namespace mcd {
 			typename std::enable_if_t<
 									Check::is_array<T>::value
 									>
-			print_all(T* data, bool change, std::string decal){
+			print_all(T* data, bool change, const std::string& decal){
 				if(change){
 					std::cout << decal << "(" << data << ")[" << data->size() << "]" << std::endl;
 				} else {
@@ -319,7 +319,7 @@ namespace mcd {
 									Check::is_array<T>::value &&
 									!Check::is_vector<T>::value
 									>
-			print_all(T data, bool change, std::string decal){
+			print_all(T data, bool change, const std::string& decal){
 				std::cout << decal << "array[" << data.size() << "]" << std::endl;
 				size_t i{0};
 				for(auto d : data){
@@ -329,7 +329,7 @@ namespace mcd {
 			}
 
 			template<typename T>
-			void print_all(std::vector<T> data, bool change, std::string decal){
+			void print_all(std::vector<T> data, bool change, const std::string& decal){
 				std::cout << decal << "vector[" << data.size() << "]" << std::endl;
 				size_t i{0};
 				for(auto d : data){

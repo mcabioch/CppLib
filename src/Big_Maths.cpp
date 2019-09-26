@@ -265,13 +265,15 @@ namespace mcd {
 		return 0;
 	}
 
-	bool Big::addZeros(std::vector<std::vector<Big> >& array, std::string val, std::vector<std::string>& slices){
+	bool Big::addZeros(std::vector<std::vector<Big> >& array, const std::string& val, std::vector<std::string>& slices){
 		size_t arrayIndex = array.size();
+		auto inside_val = val;
+
 		array.push_back(array[arrayIndex - 1]);
 
 		if(slices.size() == 0){ return false; }
 
-		val += std::string(slices[slices.size() - 1]);
+		inside_val += std::string(slices[slices.size() - 1]);
 
 		std::string zeros = "";
 
@@ -280,27 +282,28 @@ namespace mcd {
 			zeros += "0";
 			cell._val = std::string(array[Big::notNull(array, i)][i]) + zeros;
 		}
-		array[arrayIndex][array[arrayIndex].size() - 1] = val;
+		array[arrayIndex][array[arrayIndex].size() - 1] = inside_val;
 
 		return true;
 	}
 
-	void Big::nthroot(std::string val, size_t exp, Big& r, std::vector<std::vector<Big> >& array, std::vector<std::string>& slices){
+	void Big::nthroot(const std::string& val, size_t exp, Big& r, std::vector<std::vector<Big> >& array, std::vector<std::string>& slices){
 		if(slices.size() == 0){
 			return;
 		}
 
 		std::vector<Big> lineArray;
+		auto inside_val = val;
 
-		val += std::string(slices[slices.size() - 1]);
+		inside_val += std::string(slices[slices.size() - 1]);
 		slices.erase(slices.end());
 		slices.shrink_to_fit();
 
 		size_t arrayIndex = array.size() - 1;
 
-		if(array[arrayIndex][array[arrayIndex].size() - 2] > val){
-			Big::addZeros(array, val, slices);
-			Big::nthroot(val, exp, r, array, slices);
+		if(array[arrayIndex][array[arrayIndex].size() - 2] > inside_val){
+			Big::addZeros(array, inside_val, slices);
+			Big::nthroot(inside_val, exp, r, array, slices);
 		} else {
 			bool loop = true;
 			bool next = false;
@@ -340,51 +343,52 @@ namespace mcd {
 
 			if(next){
 				Big tmp = array[Big::notNull(array, array[arrayIndex].size() - 1)][array[arrayIndex].size() - 2];
-				val = static_cast<std::string>(array[Big::notNull(array, array[arrayIndex].size() - 1)][array[arrayIndex].size() - 1]);
+				inside_val = static_cast<std::string>(array[Big::notNull(array, array[arrayIndex].size() - 1)][array[arrayIndex].size() - 1]);
 
-				if(tmp <= val){
-					val = "";
+				if(tmp <= inside_val){
+					inside_val = "";
 				}
 
-				Big::addZeros(array, val, slices);
-				Big::nthroot(val, exp, r, array, slices);
+				Big::addZeros(array, inside_val, slices);
+				Big::nthroot(inside_val, exp, r, array, slices);
 			} else {
 				r = (array[array.size() - 1][0] + Big(exp) - Big(1)) / Big(exp);
 			}
 		}
 	}
 
-	void Big::nroot(std::string val, size_t exp, Big& r){
+	void Big::nroot(const std::string& val, size_t exp, Big& r){
 		std::vector<std::vector<Big>> array;
 		std::vector<std::string> slices;
+		auto inside_val = val;
 
-		for(size_t i{val.size()}; i > 0; --i){
+		for(size_t i{inside_val.size()}; i > 0; --i){
 			size_t pos = 0;
 			size_t len = 0;
 
-			if(val.size() >= exp){
+			if(inside_val.size() >= exp){
 				pos = i;
 				len = exp;
 
 				i -= (exp - 1);
 			} else {
 				pos = i;
-				len = val.size();
+				len = inside_val.size();
 			}
 
 			if(len > 0){
-				slices.push_back(val.substr(pos - len, len));
-				val = val.substr(0, pos - len);
+				slices.push_back(inside_val.substr(pos - len, len));
+				inside_val = inside_val.substr(0, pos - len);
 			}
 		}
 
 		std::vector<Big> lineArray;
-		val += std::string(slices[slices.size() - 1]);
+		inside_val += std::string(slices[slices.size() - 1]);
 
 		for(size_t i{0}; i < exp - 1; ++i){
 			lineArray.push_back(Big(0));
 		}
-		lineArray.push_back(val);
+		lineArray.push_back(inside_val);
 
 		array.push_back(lineArray);
 		lineArray.clear();

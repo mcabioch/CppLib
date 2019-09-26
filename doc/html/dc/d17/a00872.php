@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -133,10 +133,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a75615abf8f124c460b9b163868c89b7e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d17/a00872.php#a75615abf8f124c460b9b163868c89b7e">home</a> ()</td></tr>
 <tr class="memdesc:a75615abf8f124c460b9b163868c89b7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the restore member.  <a href="#a75615abf8f124c460b9b163868c89b7e">More...</a><br /></td></tr>
 <tr class="separator:a75615abf8f124c460b9b163868c89b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c45379b4d8cbccef8c0809d318eae0c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a6c45379b4d8cbccef8c0809d318eae0c"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d17/a00872.php#a6c45379b4d8cbccef8c0809d318eae0c">put</a> (std::string str, T x, T y, <a class="el" href="../../d2/d5e/a00860.php">Color</a> color=0)</td></tr>
-<tr class="memdesc:a6c45379b4d8cbccef8c0809d318eae0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write something to the given position.  <a href="#a6c45379b4d8cbccef8c0809d318eae0c">More...</a><br /></td></tr>
-<tr class="separator:a6c45379b4d8cbccef8c0809d318eae0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae889a57eea460f03a04f8f928cbbce8a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ae889a57eea460f03a04f8f928cbbce8a"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d17/a00872.php#ae889a57eea460f03a04f8f928cbbce8a">put</a> (const std::string &amp;str, T x, T y, <a class="el" href="../../d2/d5e/a00860.php">Color</a> color=0)</td></tr>
+<tr class="memdesc:ae889a57eea460f03a04f8f928cbbce8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write something to the given position.  <a href="#ae889a57eea460f03a04f8f928cbbce8a">More...</a><br /></td></tr>
+<tr class="separator:ae889a57eea460f03a04f8f928cbbce8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -229,8 +229,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a6c45379b4d8cbccef8c0809d318eae0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c45379b4d8cbccef8c0809d318eae0c">&#9670;&nbsp;</a></span>put()</h2>
+<a id="ae889a57eea460f03a04f8f928cbbce8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae889a57eea460f03a04f8f928cbbce8a">&#9670;&nbsp;</a></span>put()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -243,7 +243,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">static void mcd::ConsoleCursor::put </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
@@ -291,8 +291,8 @@ template&lt;typename T &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dc/d17/a00872_a6c45379b4d8cbccef8c0809d318eae0c_cgraph.png" border="0" usemap="#dc/d17/a00872_a6c45379b4d8cbccef8c0809d318eae0c_cgraph" alt=""/></div>
-<map name="dc/d17/a00872_a6c45379b4d8cbccef8c0809d318eae0c_cgraph" id="dc/d17/a00872_a6c45379b4d8cbccef8c0809d318eae0c_cgraph">
+<div class="center"><img src="../../dc/d17/a00872_ae889a57eea460f03a04f8f928cbbce8a_cgraph.png" border="0" usemap="#dc/d17/a00872_ae889a57eea460f03a04f8f928cbbce8a_cgraph" alt=""/></div>
+<map name="dc/d17/a00872_ae889a57eea460f03a04f8f928cbbce8a_cgraph" id="dc/d17/a00872_ae889a57eea460f03a04f8f928cbbce8a_cgraph">
 <area shape="rect" id="node2" href="../../dc/d17/a00872.php#ab58627fbfed0b6cabd5030943113e5e5" title="Save the actual cursor position. " alt="" coords="221,5,364,47"/>
 <area shape="rect" id="node3" href="../../dc/d17/a00872.php#a191575f00626575e84455dfae871f502" title="Go to an x/y position. " alt="" coords="221,71,364,112"/>
 <area shape="rect" id="node4" href="../../dc/d17/a00872.php#a6f731b973f917b6c2f3a04267f12c851" title="Restore the cursor&#39;s saved position. " alt="" coords="221,136,364,177"/>

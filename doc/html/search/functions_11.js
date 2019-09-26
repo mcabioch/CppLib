@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['save',['save',['../dc/d17/a00872.php#ab58627fbfed0b6cabd5030943113e5e5',1,'mcd::ConsoleCursor::save()'],['../de/d49/a00952.php#ae97bd301b582dcb303507d5df1189588',1,'mcd::Map::save()']]],
+  ['save',['save',['../dc/d17/a00872.php#ab58627fbfed0b6cabd5030943113e5e5',1,'mcd::ConsoleCursor::save()'],['../de/d49/a00952.php#a4b402d37424b8fc5a5036ecc78781d6a',1,'mcd::Map::save()']]],
   ['second',['second',['../d8/d79/a01036.php#a5a3510ec96b9698b8cf601a2a1b9d90c',1,'mcd::Time']]],
   ['sender',['sender',['../dd/d94/a00888.php#a6ee6d1b64b6b88068a2165a1824a5af2',1,'mcd::Contraption']]],
   ['servlog',['servLog',['../dd/ded/a00211.php#abcc09c3d97d72792032b5615d41aa1c5',1,'mcd']]],
-  ['set',['set',['../df/da5/a00912.php#ac9fb4557d7fab62e3df37e391a499a3e',1,'mcd::Date::set()'],['../d8/d79/a01036.php#a0cf41690082cda14c3aafb0b91056195',1,'mcd::Time::set()']]],
+  ['set',['set',['../df/da5/a00912.php#a63132b3cb9cc7cf1640fa1165a14d9a8',1,'mcd::Date::set()'],['../d8/d79/a01036.php#aa843463db53892a16778dd0d71ec2dad',1,'mcd::Time::set()']]],
   ['seta',['setA',['../dd/d94/a00888.php#a73a47e55e554e7c7f357a74276368186',1,'mcd::Contraption']]],
   ['setage',['setAge',['../de/d62/a00924.php#ac84c283da82f389088715485d2fc57d1',1,'mcd::Entity']]],
   ['setattributes',['setAttributes',['../dd/d94/a00888.php#a9c5a7acde997e12d99e717f182c5ced7',1,'mcd::Contraption::setAttributes(ContraptionAttr attr)'],['../dd/d94/a00888.php#ae44610d2144faf1550f8cc6ec860fb71',1,'mcd::Contraption::setAttributes(double64_t w, double64_t h, double64_t angle=0)']]],
@@ -52,7 +52,7 @@ var searchData=
   ['sleep',['sleep',['../dd/ded/a00211.php#a0003c12a7cc73a35e488f59ad14770bf',1,'mcd']]],
   ['sortasc',['sortAsc',['../dd/ded/a00211.php#aded48db1a26c07f913737ebb691c64bf',1,'mcd']]],
   ['sortdesc',['sortDesc',['../dd/ded/a00211.php#a878c72753e2d2de82e186351a5314bb6',1,'mcd']]],
-  ['split',['split',['../dd/ded/a00211.php#a0f44d33dc7a87f999c8a168d159b7b7c',1,'mcd::split(std::string in, char separator=&apos; &apos;)'],['../dd/ded/a00211.php#a15734b133c7e5ce88308110f4efb3bfa',1,'mcd::split(std::string in, std::string c)'],['../dd/ded/a00211.php#a1462df0e8bb2fe7f5bb61bca736ecffa',1,'mcd::split(std::string in, std::vector&lt; std::string &gt; cars)']]],
+  ['split',['split',['../dd/ded/a00211.php#a3f5effb1d0789a63d9c71c5549f3eacf',1,'mcd::split(const std::string &amp;in, char separator=&apos; &apos;)'],['../dd/ded/a00211.php#acfdec07a9d46365ed68092ec70b96d41',1,'mcd::split(const std::string &amp;in, const std::string &amp;c)'],['../dd/ded/a00211.php#a5257fd1ac4e72cf72335af2444a8bea9',1,'mcd::split(const std::string &amp;in, std::vector&lt; std::string &gt; cars)']]],
   ['sq',['sq',['../dd/ded/a00211.php#a31eb09e89b0015d54768c4510e59c780',1,'mcd::sq(const Big &amp;a)'],['../dd/ded/a00211.php#a9adc0354f681800c75d220e526377397',1,'mcd::sq(T in)']]],
   ['sqrt',['sqrt',['../dd/ded/a00211.php#ae3a712e4de66375b1a188fa464c968e2',1,'mcd']]],
   ['stack',['stack',['../d9/d9c/a00772.php#aa9d55e0af1d4e27cc1abba7a2d399afc',1,'mcd::stack']]],

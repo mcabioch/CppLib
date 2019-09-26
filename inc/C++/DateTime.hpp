@@ -2,7 +2,7 @@
 *
 *	\file		DateTime.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	August, 17 2018
+*	\modified	September, 25 2019
 *
 */
 #ifndef HEADER_CPP_DATETIME
@@ -19,12 +19,12 @@ namespace mcd {
 	class DateTime : public Date, public Time {
 		public:
 			DateTime();
-			DateTime(std::string datetime);
+			DateTime(const std::string& datetime);
 
 			virtual ~DateTime(){}
 
 			/* Getters */
-			virtual std::string get(std::string format = "%Y-%m-%d %H:%M:%S")const override;
+			virtual std::string get(const std::string& format = "%Y-%m-%d %H:%M:%S")const override;
 
 			/* Operators */
 			friend bool operator<(const DateTime& a, const DateTime& b);

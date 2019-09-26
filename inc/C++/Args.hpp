@@ -45,7 +45,7 @@ namespace mcd {
 				*		\return			\b true or \b false
 				*/
 				template<typename T>
-				bool add(std::string category, T value){
+				bool add(const std::string& category, T value){
 					mutex.lock();
 						if(contains(indexs, category)){
 							auto& cat = args[category];
@@ -71,7 +71,7 @@ namespace mcd {
 				*
 				*		\return			Return a vector that contains the arguments
 				*/
-				std::vector<std::string>& operator[](std::string index);
+				std::vector<std::string>& operator[](const std::string& index);
 
 			/* Others */
 				/*!
@@ -80,7 +80,7 @@ namespace mcd {
 				*
 				*		\return			void
 				*/
-				void print(std::string index = "");
+				void print(const std::string& index = "");
 
 		private:
 			std::map<std::string, std::vector<std::string> > args;

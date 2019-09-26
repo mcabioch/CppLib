@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('functions_s.php','');});
 <h3><a id="index_s"></a>- s -</h3><ul>
 <li>save()
 : <a class="el" href="dc/d17/a00872.php#ab58627fbfed0b6cabd5030943113e5e5">mcd::ConsoleCursor</a>
-, <a class="el" href="de/d49/a00952.php#ae97bd301b582dcb303507d5df1189588">mcd::Map</a>
+, <a class="el" href="de/d49/a00952.php#a4b402d37424b8fc5a5036ecc78781d6a">mcd::Map</a>
 </li>
 <li>second
 : <a class="el" href="dd/ded/a00211.php#a04fed1e7cdd9a52f5a8d3f49a4a2c741">mcd::quatuor&lt; T, U, V, W &gt;</a>
@@ -105,8 +105,8 @@ $(document).ready(function(){initNavTree('functions_s.php','');});
 : <a class="el" href="dd/d94/a00888.php#a6ee6d1b64b6b88068a2165a1824a5af2">mcd::Contraption</a>
 </li>
 <li>set()
-: <a class="el" href="df/da5/a00912.php#ac9fb4557d7fab62e3df37e391a499a3e">mcd::Date</a>
-, <a class="el" href="d8/d79/a01036.php#a0cf41690082cda14c3aafb0b91056195">mcd::Time</a>
+: <a class="el" href="df/da5/a00912.php#a63132b3cb9cc7cf1640fa1165a14d9a8">mcd::Date</a>
+, <a class="el" href="d8/d79/a01036.php#aa843463db53892a16778dd0d71ec2dad">mcd::Time</a>
 </li>
 <li>setA()
 : <a class="el" href="dd/d94/a00888.php#a73a47e55e554e7c7f357a74276368186">mcd::Contraption</a>

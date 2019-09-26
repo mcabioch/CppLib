@@ -6,7 +6,7 @@ var a00988 =
       [ "LOST", "d6/d48/a00988.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995", null ],
       [ "OTHER", "d6/d48/a00988.php#a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982", null ]
     ] ],
-    [ "PathfindingException", "d6/d48/a00988.php#a468ceec0e52bd2d0843313bf80691625", null ],
+    [ "PathfindingException", "d6/d48/a00988.php#ac73bb217b98d679eaab9fe9fe4e5c9b0", null ],
     [ "~PathfindingException", "d6/d48/a00988.php#a22d196716aa61adb8fa0e0d48320c9ab", null ],
     [ "PathfindingException", "d6/d48/a00988.php#a71da44443282ca94d2c9e10a9be0dafc", null ],
     [ "Arrived", "d6/d48/a00988.php#a9fcff7a44db764decbb680479144b97b", null ],

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,12 +93,12 @@ $(document).ready(function(){initNavTree('functions_func_g.php','');});
 
 <h3><a id="index_g"></a>- g -</h3><ul>
 <li>get()
-: <a class="el" href="df/da5/a00912.php#ae49213decf493093a5cb259af8d46aae">mcd::Date</a>
-, <a class="el" href="d6/d66/a00916.php#af11146f03ef10a03b88d46e54e782747">mcd::DateTime</a>
+: <a class="el" href="df/da5/a00912.php#a8573428b5d4557473120c24e1e52d543">mcd::Date</a>
+, <a class="el" href="d6/d66/a00916.php#a7b25df777f0b2b3ac2396538eb3ca028">mcd::DateTime</a>
 , <a class="el" href="de/d49/a00952.php#a04a6f229a4697e8945922ed23b52f7d6">mcd::Map</a>
 , <a class="el" href="de/d42/a00780.php#a148295001e6effa1aa1217af766e021f">mcd::queue&lt; T, Container &gt;</a>
 , <a class="el" href="d9/d9c/a00772.php#ac779733da952e8cfda80b14655a07172">mcd::stack&lt; T, Container &gt;</a>
-, <a class="el" href="d8/d79/a01036.php#a19950fbbe056d0049cec7c70805593d8">mcd::Time</a>
+, <a class="el" href="d8/d79/a01036.php#af9360f3323012f2572ffb3f8924fca62">mcd::Time</a>
 </li>
 <li>getA()
 : <a class="el" href="dd/d94/a00888.php#a580eafa58a93d9ab4264c4cbac2f4167">mcd::Contraption</a>

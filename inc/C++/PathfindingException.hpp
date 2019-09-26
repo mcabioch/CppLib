@@ -3,7 +3,7 @@
 *	\file		PathfindingException.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	July, 30 2018 09:25:28
-*	\modified	August, 15 2018
+*	\modified	September, 25 2019
 *
 */
 #ifndef HEADER_CPP_PATHFINDING_EXCEPTION
@@ -28,7 +28,7 @@ namespace mcd {
 
 			/* Constructors & Destructor of PathfindingException */
 				/*! \brief	The constructor of the class */
-				PathfindingException(PathfindingErrorCode error = PathfindingErrorCode::NONE, std::string const& explaination = "") throw();
+				PathfindingException(PathfindingErrorCode error = PathfindingErrorCode::NONE, const std::string& explaination = "") throw();
 				virtual ~PathfindingException() throw();
 
 				PathfindingException(const PathfindingException& other) throw();

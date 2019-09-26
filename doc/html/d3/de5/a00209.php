@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:24 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -99,7 +99,9 @@ $(document).ready(function(){initNavTree('d3/de5/a00209.php','../../');});
 <dt><a class="anchor" id="_todo000002"></a>Class <a class="el" href="../../d0/d85/a00908.php">mcd::RSA</a>  </dt>
 <dd>Create the class  </dd>
 <dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../db/d14/a01040.php">mcd::Timer</a>  </dt>
-<dd>Create the class </dd>
+<dd>Create the class  </dd>
+<dt><a class="anchor" id="_todo000004"></a>Class <a class="el" href="../../d5/de7/a01048.php">mcd::Tree&lt; T &gt;</a>  </dt>
+<dd>Refactoring </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->

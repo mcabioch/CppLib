@@ -54,7 +54,7 @@ namespace mcd {
 		return out;
 	}
 
-	int fromBigVal(std::string in){
+	int fromBigVal(const std::string& in){
 		std::stringstream tmp;
 		int out;
 

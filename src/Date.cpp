@@ -9,7 +9,7 @@ namespace mcd {
 		this->init();
 	}
 
-	Date::Date(std::string date) :
+	Date::Date(const std::string& date) :
 		_act(),
 		_dAct(),
 		_date(date)
@@ -137,8 +137,9 @@ namespace mcd {
 		return 1900 + _dAct.tm_year;
 	}
 
-	std::string Date::get(std::string format)const {
+	std::string Date::get(const std::string& format)const {
 		std::map<std::string, std::string> corres;
+		auto inside_format = format;
 
 		corres["%A"] = tos(this->strDay());
 		corres["%a"] = corres["%A"].substr(0, 3);
@@ -160,13 +161,13 @@ namespace mcd {
 		corres["%y"] = corres["%Y"].substr(2, 2);
 
 		for(auto d : corres){
-			format = replace(format, d.first, d.second);
+			inside_format = replace(inside_format, d.first, d.second);
 		}
 
-		return format;
+		return inside_format;
 	}
 
-	void Date::set(std::string date){
+	void Date::set(const std::string& date){
 		_date = date;
 		this->reset();
 	}

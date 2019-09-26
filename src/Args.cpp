@@ -18,7 +18,7 @@ namespace mcd {
 		return out;
 	}
 
-	std::vector<std::string>& Arguments::operator[](std::string index){
+	std::vector<std::string>& Arguments::operator[](const std::string& index){
 		mutex.lock();
 		if(!contains(indexs, index)){
 			mutex.unlock();
@@ -29,7 +29,7 @@ namespace mcd {
 		}
 	}
 
-	void Arguments::print(std::string index){
+	void Arguments::print(const std::string& index){
 		mutex.lock();
 		if(index == ""){
 			for(size_t i{0}; i < indexs.size(); ++i){

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('functions_d.php','');});
 : <a class="el" href="df/da5/a00912.php#a032af1a0d48dcd6e6728b1855a75321d">mcd::Date</a>
 </li>
 <li>DateTime()
-: <a class="el" href="d6/d66/a00916.php#a27522461f3954da96d58a5a82db34675">mcd::DateTime</a>
+: <a class="el" href="d6/d66/a00916.php#a75ee007e7111b318ad38a7b53cdd48ae">mcd::DateTime</a>
 </li>
 <li>day()
 : <a class="el" href="df/da5/a00912.php#a10a48f5b93ee6c3e7ba43c5de5fa56bd">mcd::Date</a>

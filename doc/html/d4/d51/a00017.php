@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:33 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:24 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -204,15 +204,15 @@ Functions</h2></td></tr>
 <tr class="memitem:aea3616a95b7e00c3c401fe7f5d907ba8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#aea3616a95b7e00c3c401fe7f5d907ba8">mcd::fromBigVal</a> (char in)</td></tr>
 <tr class="memdesc:aea3616a95b7e00c3c401fe7f5d907ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a char in an int.  <a href="../../dd/ded/a00211.php#aea3616a95b7e00c3c401fe7f5d907ba8">More...</a><br /></td></tr>
 <tr class="separator:aea3616a95b7e00c3c401fe7f5d907ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf62573f8a0746e5576e00fc475bcdfb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#aaf62573f8a0746e5576e00fc475bcdfb">mcd::fromBigVal</a> (std::string in)</td></tr>
-<tr class="memdesc:aaf62573f8a0746e5576e00fc475bcdfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a std::string in an int.  <a href="../../dd/ded/a00211.php#aaf62573f8a0746e5576e00fc475bcdfb">More...</a><br /></td></tr>
-<tr class="separator:aaf62573f8a0746e5576e00fc475bcdfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ebc06a4ba39c08505854aa29dcd0f0e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a6ebc06a4ba39c08505854aa29dcd0f0e">mcd::fromBigVal</a> (const std::string &amp;in)</td></tr>
+<tr class="memdesc:a6ebc06a4ba39c08505854aa29dcd0f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a std::string in an int.  <a href="../../dd/ded/a00211.php#a6ebc06a4ba39c08505854aa29dcd0f0e">More...</a><br /></td></tr>
+<tr class="separator:a6ebc06a4ba39c08505854aa29dcd0f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Created : August, 01 2018 10:15:16 </dd>
 <dd>
-Last modification : September, 24 2019 </dd></dl>
+Last modification : September, 25 2019 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -146,12 +146,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a45adc028ccfb00ef4f66225e244956fd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d49/a00952.php#a45adc028ccfb00ef4f66225e244956fd">isYIn</a> (<a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> pt, <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> dim)</td></tr>
 <tr class="memdesc:a45adc028ccfb00ef4f66225e244956fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if the point is in map on Y axis.  <a href="#a45adc028ccfb00ef4f66225e244956fd">More...</a><br /></td></tr>
 <tr class="separator:a45adc028ccfb00ef4f66225e244956fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e8255ee949b38d843e908e20e03aa87"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d49/a00952.php#a7e8255ee949b38d843e908e20e03aa87">load</a> (std::string file)</td></tr>
-<tr class="memdesc:a7e8255ee949b38d843e908e20e03aa87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the map from a file.  <a href="#a7e8255ee949b38d843e908e20e03aa87">More...</a><br /></td></tr>
-<tr class="separator:a7e8255ee949b38d843e908e20e03aa87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae97bd301b582dcb303507d5df1189588"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d49/a00952.php#ae97bd301b582dcb303507d5df1189588">save</a> (std::string file) const</td></tr>
-<tr class="memdesc:ae97bd301b582dcb303507d5df1189588"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the map in a file.  <a href="#ae97bd301b582dcb303507d5df1189588">More...</a><br /></td></tr>
-<tr class="separator:ae97bd301b582dcb303507d5df1189588"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaa0863e1b2dfa4b35f6b5582d26798c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d49/a00952.php#aaaa0863e1b2dfa4b35f6b5582d26798c">load</a> (const std::string &amp;file)</td></tr>
+<tr class="memdesc:aaaa0863e1b2dfa4b35f6b5582d26798c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the map from a file.  <a href="#aaaa0863e1b2dfa4b35f6b5582d26798c">More...</a><br /></td></tr>
+<tr class="separator:aaaa0863e1b2dfa4b35f6b5582d26798c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b402d37424b8fc5a5036ecc78781d6a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d49/a00952.php#a4b402d37424b8fc5a5036ecc78781d6a">save</a> (const std::string &amp;file) const</td></tr>
+<tr class="memdesc:a4b402d37424b8fc5a5036ecc78781d6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the map in a file.  <a href="#a4b402d37424b8fc5a5036ecc78781d6a">More...</a><br /></td></tr>
+<tr class="separator:a4b402d37424b8fc5a5036ecc78781d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cea2526dc276cce694e31a6053d5522"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d49/a00952.php#a8cea2526dc276cce694e31a6053d5522">putEntity</a> (size_t &amp;id, <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x, <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y, <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> w, <a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> h)</td></tr>
 <tr class="memdesc:a8cea2526dc276cce694e31a6053d5522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put an entity on the given position.  <a href="#a8cea2526dc276cce694e31a6053d5522">More...</a><br /></td></tr>
 <tr class="separator:a8cea2526dc276cce694e31a6053d5522"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -648,8 +648,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7e8255ee949b38d843e908e20e03aa87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e8255ee949b38d843e908e20e03aa87">&#9670;&nbsp;</a></span>load()</h2>
+<a id="aaaa0863e1b2dfa4b35f6b5582d26798c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaa0863e1b2dfa4b35f6b5582d26798c">&#9670;&nbsp;</a></span>load()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -657,7 +657,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool mcd::Map::load </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>file</em></td><td>)</td>
           <td></td>
         </tr>
@@ -888,8 +888,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae97bd301b582dcb303507d5df1189588"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae97bd301b582dcb303507d5df1189588">&#9670;&nbsp;</a></span>save()</h2>
+<a id="a4b402d37424b8fc5a5036ecc78781d6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b402d37424b8fc5a5036ecc78781d6a">&#9670;&nbsp;</a></span>save()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -897,7 +897,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool mcd::Map::save </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>file</em></td><td>)</td>
           <td> const</td>
         </tr>

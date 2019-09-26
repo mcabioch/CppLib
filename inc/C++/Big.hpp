@@ -3,7 +3,7 @@
 *	\file		Big.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	August, 01 2018 10:15:16
-*	\modified	September, 24 2019
+*	\modified	September, 25 2019
 *
 */
 #ifndef HEADER_BIG
@@ -48,7 +48,7 @@ namespace mcd {
 	* \brief	Convert a std::string in an int
 	*	\param[in]		in		The value to convert
 	*/
-	int fromBigVal(std::string in);
+	int fromBigVal(const std::string& in);
 
 	/*!
 	* \class	Big
@@ -67,7 +67,7 @@ namespace mcd {
 				/*! \brief	The constructor of the class */
 				template<typename T, class = std::enable_if_t<std::is_arithmetic<T>::value> >
 				explicit Big(T val);
-				Big(std::string val);
+				Big(const std::string& val);
 				Big();
 				virtual ~Big();
 
@@ -199,18 +199,18 @@ namespace mcd {
 			static void equalize(std::string& val, const std::string& shape);
 
 			/* Compute a nth-root */
-				static void nroot(std::string val, size_t exp, Big& r);
-				static void nthroot(std::string val, size_t exp, Big& r, std::vector<std::vector<Big> >& array, std::vector<std::string>& slices);
+				static void nroot(const std::string& val, size_t exp, Big& r);
+				static void nthroot(const std::string& val, size_t exp, Big& r, std::vector<std::vector<Big> >& array, std::vector<std::string>& slices);
 
 				static size_t notNull(std::vector<std::vector<Big> >& array, size_t column);
-				static bool addZeros(std::vector<std::vector<Big> >& array, std::string val, std::vector<std::string>& slices);
+				static bool addZeros(std::vector<std::vector<Big> >& array, const std::string& val, std::vector<std::string>& slices);
 			/**********************/
 
-			void set(std::string val);
+			void set(const std::string& val);
 			void minusDivide(Big& val, const Big& other, Big& increment, long int factor);
 
-			Big division(std::string val, const Big& dividend, Big& quotient);
-			void divide(std::string val, const Big& dividend, Big& quotient, Big& rest);
+			Big division(const std::string& val, const Big& dividend, Big& quotient);
+			void divide(const std::string& val, const Big& dividend, Big& quotient, Big& rest);
 
 			Big invert()const;
 

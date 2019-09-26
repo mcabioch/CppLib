@@ -8,7 +8,7 @@ namespace mcd {
 	
 	}
 
-	DateTime::DateTime(std::string datetime) :
+	DateTime::DateTime(const std::string& datetime) :
 		DateTime()
 	{
 		auto parts = split(datetime);
@@ -16,7 +16,7 @@ namespace mcd {
 		if(parts.size() > 1){ time.set(parts[1]); }
 	}
 
-	std::string DateTime::get(std::string format)const {
+	std::string DateTime::get(const std::string& format)const {
 		return date.get(time.get(format));
 	}
 

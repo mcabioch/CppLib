@@ -1,7 +1,7 @@
 #include "C++/string.hpp"
 
 namespace mcd {
-	std::vector<std::string> split(std::string in, char separator){
+	std::vector<std::string> split(const std::string& in, char separator){
 		std::vector<std::string> out;
 		std::string part{""};
 
@@ -23,30 +23,32 @@ namespace mcd {
 		return out;
 	}
 
-	std::vector<std::string> split(std::string in, std::string c){
+	std::vector<std::string> split(const std::string& in, const std::string& c){
 		std::vector<std::string> out;
+		auto inside_in = in;
 		size_t pos{0};
 
-		while((pos = in.find(c)) != std::string::npos){
-			out.push_back(in.substr(0, pos));
-			in = in.substr(pos+c.size(), in.size());
+		while((pos = inside_in.find(c)) != std::string::npos){
+			out.push_back(inside_in.substr(0, pos));
+			inside_in = inside_in.substr(pos+c.size(), inside_in.size());
 		}
 
-		if(in.size()){
-			out.push_back(in.substr(0, in.size()));
+		if(inside_in.size()){
+			out.push_back(inside_in.substr(0, inside_in.size()));
 		}
 
 		return out;
 	}
 
-	std::vector<std::string> split(std::string in, std::vector<std::string> cars){
+	std::vector<std::string> split(const std::string& in, std::vector<std::string> cars){
 		std::vector<std::string> out;
 		std::string mask = "&*-/_=";
+		auto inside_in = in;
 
 		for(auto car : cars){
-			in = replace(in, car, mask);
+			inside_in = replace(inside_in, car, mask);
 		}
-		out = explode(in, mask);
+		out = explode(inside_in, mask);
 
 		return out;
 	}
@@ -62,7 +64,7 @@ namespace mcd {
 		}
 	}
 
-	std::string uppercase(std::string str, std::string::iterator begin, std::string::iterator end){
+	std::string uppercase(const std::string& str, std::string::iterator begin, std::string::iterator end){
 		std::string out = "";
 		short modify = 0;
 
@@ -82,7 +84,7 @@ namespace mcd {
 
 		return out;
 	}
-	std::string lowercase(std::string str, std::string::iterator begin, std::string::iterator end){
+	std::string lowercase(const std::string& str, std::string::iterator begin, std::string::iterator end){
 		std::string out = "";
 		short modify = 0;
 
@@ -103,15 +105,19 @@ namespace mcd {
 		return out;
 	}
 
-	std::string uppercase(std::string str){
-		return uppercase(str, str.begin(), str.end());
+	std::string uppercase(const std::string& str){
+		auto inside_str = str;
+		return uppercase(str, inside_str.begin(), inside_str.end());
 	}
-	std::string lowercase(std::string str){
-		return lowercase(str, str.begin(), str.end());
+	std::string lowercase(const std::string& str){
+		auto inside_str = str;
+		return lowercase(str, inside_str.begin(), inside_str.end());
 	}
 
-	std::string replace(std::string str, std::string from, std::string to, bool regex, bool word, bool insensitive){
+	std::string replace(const std::string& str, const std::string& from, const std::string& to, bool regex, bool word, bool insensitive){
 		std::regex str_regex;
+		auto inside_from = from;
+		auto inside_to = to;
 
 		try {
 			if(!regex){
@@ -136,22 +142,22 @@ namespace mcd {
 				masks.push_back(std::make_pair("\\$", "\\$"));
 
 				for(auto mask : masks){
-					from = replace(from, mask.first, mask.second, true);
+					inside_from = replace(inside_from, mask.first, mask.second, true);
 				}
 			}
 
 			if(word){
-				from = "([^a-zA-Z0-9_-])" + from + "(?![a-zA-Z0-9_-])";
-				to = "$1" + to;
+				inside_from = "([^a-zA-Z0-9_-])" + inside_from + "(?![a-zA-Z0-9_-])";
+				inside_to = "$1" + inside_to;
 			}
 
 			if(insensitive){ str_regex.assign(from, std::regex_constants::icase); }
-			else{ str_regex.assign(from); }
+			else{ str_regex.assign(inside_from); }
 		} catch(std::regex_error& e){
-			error_log(line_number, "Regex Error", "An error occured during the replacement in \n'" , str, "'\n where '", from, "' has to be replaced by '", to, "'\n", e.what());
+			error_log(line_number, "Regex Error", "An error occured during the replacement in \n'" , str, "'\n where '", inside_from, "' has to be replaced by '", inside_to, "'\n", e.what());
 		}
 
-		return std::regex_replace(str, str_regex, to);
+		return std::regex_replace(str, str_regex, inside_to);
 	}
 
 	std::string randStr(size_t nb, unsigned short flags){
@@ -193,7 +199,7 @@ namespace mcd {
 		return out;
 	}
 
-	size_t count(std::string text, char c){
+	size_t count(const std::string& text, char c){
 		size_t nb{0};
 
 		for(auto car : text){
@@ -205,7 +211,7 @@ namespace mcd {
 		return nb;
 	}
 
-	std::vector<std::vector<std::string>> getall(std::string str_regex, std::string str, bool insensitive){
+	std::vector<std::vector<std::string>> getall(const std::string& str_regex, const std::string& str, bool insensitive){
 		std::regex regex;
 		if(insensitive){ regex.assign(str_regex, std::regex_constants::icase); }
 		else{ regex.assign(str_regex); }
@@ -236,19 +242,21 @@ namespace mcd {
 		return out;
 	}
 
-	std::string removeAccents(std::string str){
-		str = replace(str, "(é|è|ê|ë)", "e", true);
-		str = replace(str, "(É|È|Ê|Ë)", "E", true);
-		str = replace(str, "(à|â|ä)", "a", true);
-		str = replace(str, "(À|Â|Ä)", "A", true);
-		str = replace(str, "(ç)", "c", true);
-		str = replace(str, "(Ç)", "C", true);
-		str = replace(str, "(î|ï|ì)", "i", true);
-		str = replace(str, "(Î|Ï|Ì)", "I", true);
-		str = replace(str, "(ô|ö|ò)", "o", true);
-		str = replace(str, "(Ô|Ö|Ò)", "O", true);
-		str = replace(str, "(û|ù|ü)", "u", true);
-		str = replace(str, "(Û|Ù|Ü)", "U", true);
+	std::string removeAccents(const std::string& str){
+		auto inside_str = str;
+
+		inside_str = replace(inside_str, "(é|è|ê|ë)", "e", true);
+		inside_str = replace(inside_str, "(É|È|Ê|Ë)", "E", true);
+		inside_str = replace(inside_str, "(à|â|ä)", "a", true);
+		inside_str = replace(inside_str, "(À|Â|Ä)", "A", true);
+		inside_str = replace(inside_str, "(ç)", "c", true);
+		inside_str = replace(inside_str, "(Ç)", "C", true);
+		inside_str = replace(inside_str, "(î|ï|ì)", "i", true);
+		inside_str = replace(inside_str, "(Î|Ï|Ì)", "I", true);
+		inside_str = replace(inside_str, "(ô|ö|ò)", "o", true);
+		inside_str = replace(inside_str, "(Ô|Ö|Ò)", "O", true);
+		inside_str = replace(inside_str, "(û|ù|ü)", "u", true);
+		inside_str = replace(inside_str, "(Û|Ù|Ü)", "U", true);
 
 		return str;
 	}

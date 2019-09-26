@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -124,7 +124,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="dd/ded/a00211.php#a3ac7c03f689e82ab37f28905b06cedbd">mcd</a>
 </li>
 <li>count()
-: <a class="el" href="dd/ded/a00211.php#ad9a09991409b1fa61f97f8519efcaf30">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a95be8eb46f76298e1218183421d13825">mcd</a>
 </li>
 </ul>
 
@@ -173,7 +173,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 
 <h3><a id="index_g"></a>- g -</h3><ul>
 <li>getall()
-: <a class="el" href="dd/ded/a00211.php#a057304d2908e871b3c8f65db3b41057a">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ad903ee1a5cdf033a289168423cc0cf46">mcd</a>
 </li>
 <li>getFileSize()
 : <a class="el" href="dd/ded/a00211.php#a97dfa91f19b9e2175dddbf65285663a2">mcd</a>
@@ -195,7 +195,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 
 <h3><a id="index_i"></a>- i -</h3><ul>
 <li>implode()
-: <a class="el" href="dd/ded/a00211.php#ad688e3c0cf0c670ae196d83a4c6dd0d6">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a2db82764bac2a48879000848b3af7c79">mcd</a>
 </li>
 <li>info_log()
 : <a class="el" href="dd/ded/a00211.php#af0b4fd6390d33edc9719d42b26f6e29f">mcd</a>
@@ -223,7 +223,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="dd/ded/a00211.php#a69d6be0b9d139073dda5e708c76dccdd">mcd</a>
 </li>
 <li>lowercase()
-: <a class="el" href="dd/ded/a00211.php#a8401081694d2f40477e24639f48ae3d6">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a0c6d83e8654926ceebd7777a9ada0652">mcd</a>
 </li>
 <li>luhn()
 : <a class="el" href="dd/ded/a00211.php#a176933d706495ddff7385a68319e7169">mcd</a>
@@ -345,10 +345,10 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="dd/ded/a00211.php#a25c5de928e67bd9c01f720f39329f04c">mcd</a>
 </li>
 <li>removeAccents()
-: <a class="el" href="dd/ded/a00211.php#a31744f235bdcd875c6e69661a4f0a490">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a685af449d029b7793f497633bbafbcbb">mcd</a>
 </li>
 <li>replace()
-: <a class="el" href="dd/ded/a00211.php#a127c51f4d8bd9fdb9eaef6a5173a5d03">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#ae61cb7564bc3b0ccbcad0b991b74635d">mcd</a>
 </li>
 <li>rewrite()
 : <a class="el" href="dd/ded/a00211.php#ab06f1dc4b0034eb8041c40a16b70e4ca">mcd</a>
@@ -382,7 +382,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="dd/ded/a00211.php#a878c72753e2d2de82e186351a5314bb6">mcd</a>
 </li>
 <li>split()
-: <a class="el" href="dd/ded/a00211.php#a1462df0e8bb2fe7f5bb61bca736ecffa">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a5257fd1ac4e72cf72335af2444a8bea9">mcd</a>
 </li>
 <li>sq()
 : <a class="el" href="dd/ded/a00211.php#a9adc0354f681800c75d220e526377397">mcd</a>
@@ -441,7 +441,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 
 <h3><a id="index_u"></a>- u -</h3><ul>
 <li>uppercase()
-: <a class="el" href="dd/ded/a00211.php#a9b1fa9cade94967538723cead132456c">mcd</a>
+: <a class="el" href="dd/ded/a00211.php#a334e09619932c4b2c193abe4fc9c3306">mcd</a>
 </li>
 </ul>
 

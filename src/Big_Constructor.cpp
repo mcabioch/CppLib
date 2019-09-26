@@ -1,7 +1,7 @@
 #include "C++/Big.hpp"
 
 namespace mcd {
-	Big::Big(std::string val) :
+	Big::Big(const std::string& val) :
 		_val(""),
 		_neg(false)
 	{

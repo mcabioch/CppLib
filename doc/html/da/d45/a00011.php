@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:33 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:24 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -197,10 +197,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad688e3c0cf0c670ae196d83a4c6dd0d6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ad688e3c0cf0c670ae196d83a4c6dd0d6"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#ad688e3c0cf0c670ae196d83a4c6dd0d6">mcd::implode</a> (std::vector&lt; T &gt; a, std::string glue=&quot;&quot;)</td></tr>
-<tr class="memdesc:ad688e3c0cf0c670ae196d83a4c6dd0d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="../../dd/ded/a00211.php#ad688e3c0cf0c670ae196d83a4c6dd0d6">More...</a><br /></td></tr>
-<tr class="separator:ad688e3c0cf0c670ae196d83a4c6dd0d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2db82764bac2a48879000848b3af7c79"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2db82764bac2a48879000848b3af7c79"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a2db82764bac2a48879000848b3af7c79">mcd::implode</a> (std::vector&lt; T &gt; a, const std::string &amp;glue=&quot;&quot;)</td></tr>
+<tr class="memdesc:a2db82764bac2a48879000848b3af7c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="../../dd/ded/a00211.php#a2db82764bac2a48879000848b3af7c79">More...</a><br /></td></tr>
+<tr class="separator:a2db82764bac2a48879000848b3af7c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49514e6c6c7518d6207a0f707ec92529"><td class="memTemplParams" colspan="2">template&lt;typename Array &gt; </td></tr>
 <tr class="memitem:a49514e6c6c7518d6207a0f707ec92529"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/ded/a00211.php#a49514e6c6c7518d6207a0f707ec92529">mcd::print_r</a> (Array a)</td></tr>
 <tr class="memdesc:a49514e6c6c7518d6207a0f707ec92529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="../../dd/ded/a00211.php#a49514e6c6c7518d6207a0f707ec92529">More...</a><br /></td></tr>

@@ -2,7 +2,7 @@
 *
 *	\file		string.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	October, 12 2018
+*	\modified	September, 25 2019
 *
 */
 #ifndef HEADER_CPP_STRING
@@ -33,7 +33,7 @@ namespace mcd {
 	*
 	*		\return			Return an array with the differents parts of the cut string
 	*/
-	std::vector<std::string> split(std::string in, char separator = ' ');
+	std::vector<std::string> split(const std::string& in, char separator = ' ');
 	/*!
 	* \brief	Explode a string in an array with the given string
 	*		\param[in]		in		The string to cut
@@ -41,7 +41,7 @@ namespace mcd {
 	*
 	*		\return			void
 	*/
-	std::vector<std::string> split(std::string in, std::string c);
+	std::vector<std::string> split(const std::string& in, const std::string& c);
 	/*!
 	* \brief	Explode a string in an array with the given separators
 	*		\param[in]		in		The string to cut
@@ -49,7 +49,7 @@ namespace mcd {
 	*
 	*		\return			void
 	*/
-	std::vector<std::string> split(std::string in, std::vector<std::string> cars);
+	std::vector<std::string> split(const std::string& in, std::vector<std::string> cars);
 
 
 	/*! \brief Alias for \b split */
@@ -72,7 +72,7 @@ namespace mcd {
 	*
 	*		\return			Return the changed string
 	*/
-	std::string uppercase(std::string str, std::string::iterator begin, std::string::iterator end);
+	std::string uppercase(const std::string& str, std::string::iterator begin, std::string::iterator end);
 	/*!
 	* \brief	Set the given interval to lowercase
 	*		\param[in]		str		The string to treat
@@ -81,7 +81,7 @@ namespace mcd {
 	*
 	*		\return			Return the changed string
 	*/
-	std::string lowercase(std::string str, std::string::iterator begin, std::string::iterator end);
+	std::string lowercase(const std::string& str, std::string::iterator begin, std::string::iterator end);
 
 	/*!
 	* \brief	Set the given string to uppercase
@@ -89,14 +89,14 @@ namespace mcd {
 	*
 	*		\return			Return the changed string
 	*/
-	std::string uppercase(std::string str);
+	std::string uppercase(const std::string& str);
 	/*!
 	* \brief	Set the given string to lowercase
 	*		\param[in]		str		The string to treat
 	*
 	*		\return			Return the changed string
 	*/
-	std::string lowercase(std::string str);
+	std::string lowercase(const std::string& str);
 
 	/*!
 	* \brief	Replace something by something else in a string using regex_replace
@@ -109,7 +109,7 @@ namespace mcd {
 	*
 	*		\return			Return the changed string
 	*/
-	std::string replace(std::string str, std::string from, std::string to, bool regex = false, bool word = false, bool insensitive = false);
+	std::string replace(const std::string& str, const std::string& from, const std::string& to, bool regex = false, bool word = false, bool insensitive = false);
 
 	/*!
 	* \brief	Create a random string
@@ -126,7 +126,7 @@ namespace mcd {
 	*		\param[in]			c				The caracter to find
 	*		\return				Return number of appearances
 	*/
-	size_t count(std::string text, char c);
+	size_t count(const std::string& text, char c);
 
 	/*!
 	* \brief	Return all occurences of a regex in a string
@@ -135,14 +135,14 @@ namespace mcd {
 	*		\param[in]			insensitive		\b true or \b false to enable/disablecase sensitive
 	*		\return				Return a vector of string with the occurences
 	*/
-	std::vector<std::vector<std::string>> getall(std::string str_regex, std::string str, bool insensitive = false);
+	std::vector<std::vector<std::string>> getall(const std::string& str_regex, const std::string& str, bool insensitive = false);
 
 	/*!
 	* \brief	Replace all the accents of a string
 	*		\param[in]			str				The string in which to replace
 	*		\return				Return the string without any accents
 	*/
-	std::string removeAccents(std::string str);
+	std::string removeAccents(const std::string& str);
 }
 
 #endif //HEADER_CPP_STRING

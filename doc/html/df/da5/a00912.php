@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 21:29:34 for C++ by";
+				$text = "Generated on Wed Sep 25 2019 20:37:25 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -115,8 +115,8 @@ Inheritance diagram for mcd::Date:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a032af1a0d48dcd6e6728b1855a75321d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#a032af1a0d48dcd6e6728b1855a75321d">Date</a> ()</td></tr>
 <tr class="separator:a032af1a0d48dcd6e6728b1855a75321d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd7aa05c6b0ea16321dce8b8dfb09f33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#acd7aa05c6b0ea16321dce8b8dfb09f33">Date</a> (std::string date)</td></tr>
-<tr class="separator:acd7aa05c6b0ea16321dce8b8dfb09f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f9647d3123f16fafaed55d9e75df6d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#a6f9647d3123f16fafaed55d9e75df6d7">Date</a> (const std::string &amp;date)</td></tr>
+<tr class="separator:a6f9647d3123f16fafaed55d9e75df6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5">~Date</a> ()</td></tr>
 <tr class="separator:acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10a48f5b93ee6c3e7ba43c5de5fa56bd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#a10a48f5b93ee6c3e7ba43c5de5fa56bd">day</a> () const</td></tr>
@@ -137,10 +137,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a09230be2f6ef6b2620dec0023bd1b1a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30f0e5cc134d8da80f4b68aad4f92674"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#a30f0e5cc134d8da80f4b68aad4f92674">year</a> () const</td></tr>
 <tr class="separator:a30f0e5cc134d8da80f4b68aad4f92674"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae49213decf493093a5cb259af8d46aae"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#ae49213decf493093a5cb259af8d46aae">get</a> (std::string format=&quot;%Y-%m-%d&quot;) const</td></tr>
-<tr class="separator:ae49213decf493093a5cb259af8d46aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9fb4557d7fab62e3df37e391a499a3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#ac9fb4557d7fab62e3df37e391a499a3e">set</a> (std::string date)</td></tr>
-<tr class="separator:ac9fb4557d7fab62e3df37e391a499a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8573428b5d4557473120c24e1e52d543"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#a8573428b5d4557473120c24e1e52d543">get</a> (const std::string &amp;format=&quot;%Y-%m-%d&quot;) const</td></tr>
+<tr class="separator:a8573428b5d4557473120c24e1e52d543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63132b3cb9cc7cf1640fa1165a14d9a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/a00912.php#a63132b3cb9cc7cf1640fa1165a14d9a8">set</a> (const std::string &amp;date)</td></tr>
+<tr class="separator:a63132b3cb9cc7cf1640fa1165a14d9a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -169,8 +169,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acd7aa05c6b0ea16321dce8b8dfb09f33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd7aa05c6b0ea16321dce8b8dfb09f33">&#9670;&nbsp;</a></span>Date() <span class="overload">[2/2]</span></h2>
+<a id="a6f9647d3123f16fafaed55d9e75df6d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f9647d3123f16fafaed55d9e75df6d7">&#9670;&nbsp;</a></span>Date() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -178,7 +178,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">mcd::Date::Date </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>date</em></td><td>)</td>
           <td></td>
         </tr>
@@ -255,8 +255,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ae49213decf493093a5cb259af8d46aae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae49213decf493093a5cb259af8d46aae">&#9670;&nbsp;</a></span>get()</h2>
+<a id="a8573428b5d4557473120c24e1e52d543"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8573428b5d4557473120c24e1e52d543">&#9670;&nbsp;</a></span>get()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,7 +267,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">virtual std::string mcd::Date::get </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>format</em> = <code>&quot;%Y-%m-%d&quot;</code></td><td>)</td>
           <td> const</td>
         </tr>
@@ -279,7 +279,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="../../d6/d66/a00916.php#af11146f03ef10a03b88d46e54e782747">mcd::DateTime</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d6/d66/a00916.php#a7b25df777f0b2b3ac2396538eb3ca028">mcd::DateTime</a>.</p>
 
 </div>
 </div>
@@ -367,8 +367,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ac9fb4557d7fab62e3df37e391a499a3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9fb4557d7fab62e3df37e391a499a3e">&#9670;&nbsp;</a></span>set()</h2>
+<a id="a63132b3cb9cc7cf1640fa1165a14d9a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63132b3cb9cc7cf1640fa1165a14d9a8">&#9670;&nbsp;</a></span>set()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -376,7 +376,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void mcd::Date::set </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>date</em></td><td>)</td>
           <td></td>
         </tr>
