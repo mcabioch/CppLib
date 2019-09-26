@@ -3,7 +3,7 @@
 *	\file		Map.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	July, 29 2018 14:27:51
-*	\modified	September, 24 2019
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_CPP_MAP
@@ -52,7 +52,7 @@ namespace mcd {
 				* \brief	The constructor of the map that initialize it
 				*		\param[in]		dimensions		The dimensions of the map
 				*/
-				Map(WorldDimensions dimensions);
+				explicit Map(WorldDimensions dimensions);
 				virtual ~Map();
 			/* Getters of Map */
 				/*! \return			Return the size */

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 11:50:15 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -264,6 +264,9 @@ template&lt;typename T , class  = std::enable_if_t&lt;std::is_arithmetic&lt;T&gt
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">mcd::Big::Big </td>
@@ -273,6 +276,11 @@ template&lt;typename T , class  = std::enable_if_t&lt;std::is_arithmetic&lt;T&gt
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

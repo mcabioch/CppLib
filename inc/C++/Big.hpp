@@ -3,7 +3,7 @@
 *	\file		Big.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	August, 01 2018 10:15:16
-*	\modified	September, 25 2019
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_BIG
@@ -67,7 +67,7 @@ namespace mcd {
 				/*! \brief	The constructor of the class */
 				template<typename T, class = std::enable_if_t<std::is_arithmetic<T>::value> >
 				explicit Big(T val);
-				Big(const std::string& val);
+				explicit Big(const std::string& val);
 				Big();
 				virtual ~Big();
 

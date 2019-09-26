@@ -40,7 +40,7 @@ namespace mcd {
 		std::string val;
 
 		is >> val;
-		other = val;
+		other = Big(val);
 
 		return is;
 	}

@@ -2,7 +2,7 @@
 *
 *	\file		DateTime.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	September, 25 2019
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_CPP_DATETIME
@@ -19,7 +19,7 @@ namespace mcd {
 	class DateTime : public Date, public Time {
 		public:
 			DateTime();
-			DateTime(const std::string& datetime);
+			explicit DateTime(const std::string& datetime);
 
 			virtual ~DateTime(){}
 

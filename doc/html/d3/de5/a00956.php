@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 11:50:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -266,6 +266,9 @@ template&lt;class C&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix</a>&lt; C &gt;::<a class="el" href="../../d3/de5/a00956.php">Matrix</a> </td>
@@ -275,6 +278,11 @@ template&lt;class C&gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -288,6 +296,9 @@ template&lt;class C&gt; </div>
 template&lt;class C&gt; </div>
 <div class="memtemplate">
 template&lt;std::size_t M, std::size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix</a>&lt; C &gt;::<a class="el" href="../../d3/de5/a00956.php">Matrix</a> </td>
@@ -297,6 +308,11 @@ template&lt;std::size_t M, std::size_t N&gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

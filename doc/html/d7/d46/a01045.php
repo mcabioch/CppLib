@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 11:50:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('d5/de7/a01048.php','../../');});
   <tr class="even"><td class="entry"><a class="el" href="../../d5/de7/a01048.php#a279d0472004ed9618dde58fcfd6bb508">onCompare</a>(void(*func)(Node&lt; T &gt; *, Node&lt; T &gt; *))</td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d5/de7/a01048.php#ad9cda4b45c11828381cde08fa48ae94d">onDelete</a>(void(*func)(Node&lt; T &gt; *))</td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d5/de7/a01048.php#a1e6f8d4ad100be50a970848a0c8437d1">print</a>()</td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/de7/a01048.php#a93774d1792effab8a46379c6781729f0">Tree</a>(TREE_SORT sorting=ASC)</td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/de7/a01048.php#a93774d1792effab8a46379c6781729f0">Tree</a>(TREE_SORT sorting=ASC)</td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d5/de7/a01048.php#a44571a01497b2ac582c292c8bad9de33">~Tree</a>()</td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->

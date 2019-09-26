@@ -49,8 +49,7 @@ namespace mcd {
 			for(auto& linkedNode : linkedNodes){
 				auto newWeight = _weights.at(node) + _problem.distances.at(node).at(linkedNode);
 				if(
-					(!_computed.at(linkedNode)) ||
-					(_computed.at(linkedNode) && _weights.at(linkedNode) > newWeight)
+					(!_computed.at(linkedNode)) || (_weights.at(linkedNode) > newWeight)
 				){
 					_weights.at(linkedNode) = newWeight;
 					_computed.at(linkedNode) = true;

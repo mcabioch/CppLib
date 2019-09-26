@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 11:50:15 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -101,8 +101,8 @@ $(document).ready(function(){initNavTree('d2/d5e/a00860.php','../../');});
   <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00860.php#a8dd730c3b59730b786d059a507d03fca">addColors</a>(const Colors &amp;color)</td><td class="entry"><a class="el" href="../../d2/d5e/a00860.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d2/d5e/a00860.php#ada095941e4b1c3757618959df513af9a">addColors</a>(const Colors &amp;color, Args... args)</td><td class="entry"><a class="el" href="../../d2/d5e/a00860.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00860.php#a37c42c3a0b8af325e746f536a6a51305">Cls</a> class</td><td class="entry"><a class="el" href="../../d2/d5e/a00860.php">mcd::Color</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00860.php#a81a4808e8eb05c0a23cd90da4d8569ec">Color</a>(const std::string &amp;color)</td><td class="entry"><a class="el" href="../../d2/d5e/a00860.php">mcd::Color</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00860.php#a26072dbd1f7f739ff3be1e98357b446e">Color</a>(Args... args)</td><td class="entry"><a class="el" href="../../d2/d5e/a00860.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00860.php#a81a4808e8eb05c0a23cd90da4d8569ec">Color</a>(const std::string &amp;color)</td><td class="entry"><a class="el" href="../../d2/d5e/a00860.php">mcd::Color</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00860.php#ac3843a894efef061a84ac802d316fd86">Color</a>(Colors color, Args... args)</td><td class="entry"><a class="el" href="../../d2/d5e/a00860.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d2/d5e/a00860.php#a84513fec989f2f817d2b1c5e6989450e">operator&lt;&lt;</a>(std::ostream &amp;stream, Color const &amp;c)</td><td class="entry"><a class="el" href="../../d2/d5e/a00860.php">mcd::Color</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00860.php#a4db298b6e4ff50cf961dc90449468952">~Color</a>()</td><td class="entry"><a class="el" href="../../d2/d5e/a00860.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->

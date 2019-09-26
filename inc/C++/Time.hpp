@@ -2,7 +2,7 @@
 *
 *	\file		Time.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	September, 25 2019
+*	\modified	September, 26 2019
 *
 *	\details	Formats disponibles afin de récupérer l'heure\n
 *				\%H : Return the number of hours of the day between 00 and 24\n
@@ -31,7 +31,7 @@ namespace mcd {
 	class Time {
 		public:
 			Time();
-			Time(const std::string& time);
+			explicit Time(const std::string& time);
 
 			virtual ~Time(){}
 

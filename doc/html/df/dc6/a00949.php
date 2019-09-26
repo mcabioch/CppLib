@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 11:50:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('de/d49/a00952.php','../../');});
   <tr class="even"><td class="entry"><a class="el" href="../../de/d49/a00952.php#a86d2ef9c24b540688cbfaa12d9225c35">isXIn</a>(double64_t pt, double64_t dim)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../de/d49/a00952.php#a45adc028ccfb00ef4f66225e244956fd">isYIn</a>(double64_t pt, double64_t dim)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../de/d49/a00952.php#aaaa0863e1b2dfa4b35f6b5582d26798c">load</a>(const std::string &amp;file)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d49/a00952.php#a3512d2f37cf42ca70fbeedaf6dbd179b">Map</a>(WorldDimensions dimensions)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d49/a00952.php#a3512d2f37cf42ca70fbeedaf6dbd179b">Map</a>(WorldDimensions dimensions)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../de/d49/a00952.php#a54b56015950d08fd043e0906875519e3">moveEntity</a>(size_t id, Path &amp;path, double64_t x, double64_t y)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../de/d49/a00952.php#a1809056415a86a4627e0cad3bbb0b3b0">operator()</a>(size_t i, size_t j)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../de/d49/a00952.php#a105197d7158b9387782b28583c6c07ba">operator()</a>(size_t i, size_t j) const</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::Map</a></td><td class="entry"></td></tr>

@@ -282,7 +282,7 @@ namespace mcd {
 			zeros += "0";
 			cell._val = std::string(array[Big::notNull(array, i)][i]) + zeros;
 		}
-		array[arrayIndex][array[arrayIndex].size() - 1] = inside_val;
+		array[arrayIndex][array[arrayIndex].size() - 1] = Big(inside_val);
 
 		return true;
 	}
@@ -301,7 +301,7 @@ namespace mcd {
 
 		size_t arrayIndex = array.size() - 1;
 
-		if(array[arrayIndex][array[arrayIndex].size() - 2] > inside_val){
+		if(array[arrayIndex][array[arrayIndex].size() - 2] > Big(inside_val)){
 			Big::addZeros(array, inside_val, slices);
 			Big::nthroot(inside_val, exp, r, array, slices);
 		} else {
@@ -345,7 +345,7 @@ namespace mcd {
 				Big tmp = array[Big::notNull(array, array[arrayIndex].size() - 1)][array[arrayIndex].size() - 2];
 				inside_val = static_cast<std::string>(array[Big::notNull(array, array[arrayIndex].size() - 1)][array[arrayIndex].size() - 1]);
 
-				if(tmp <= inside_val){
+				if(tmp <= Big(inside_val)){
 					inside_val = "";
 				}
 
@@ -388,7 +388,7 @@ namespace mcd {
 		for(size_t i{0}; i < exp - 1; ++i){
 			lineArray.push_back(Big(0));
 		}
-		lineArray.push_back(inside_val);
+		lineArray.push_back(Big(inside_val));
 
 		array.push_back(lineArray);
 		lineArray.clear();

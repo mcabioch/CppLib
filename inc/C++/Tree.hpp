@@ -89,7 +89,7 @@ namespace mcd {
 	template<typename T>
 	class Tree {
 		public:
-			Tree(TREE_SORT sorting = ASC) :
+			explicit Tree(TREE_SORT sorting = ASC) :
 				_root(nullptr)
 			{
 				this->envoid();

@@ -3,7 +3,7 @@
 *	\file		Referenced.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	July, 26 2018 08:47:36
-*	\modified	August, 14 2018
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_REFERENCED
@@ -21,7 +21,7 @@ namespace mcd {
 		/* Members of Referenced */
 		public:
 			/* Constructor of Referenced */
-				Referenced(C* her) :
+				explicit Referenced(C* her) :
 					_her(*her)
 				{}
 

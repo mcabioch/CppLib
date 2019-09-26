@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 11:50:15 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('df/d0c/a00788.php','../../');});
 <p>This is the complete list of members for <a class="el" href="../../df/d0c/a00788.php">mcd::Big</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a9bf22e73a5a3631f06200da9a86e926b">Big</a>(T val)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a83ae4d9a82a8b82472160e532d8bb1ac">Big</a>(const std::string &amp;val)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a83ae4d9a82a8b82472160e532d8bb1ac">Big</a>(const std::string &amp;val)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#a0c0fb68d6f3b4fe4c389d8644d9cbb83">Big</a>()</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../df/d0c/a00788.php#ada4cda942288d227526a61802989e7c9">Big</a>(const Big &amp;other)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../df/d0c/a00788.php#ac7c89a72ade9c9e245646b8828a2c033">Big</a>(const Big &amp;&amp;other)</td><td class="entry"><a class="el" href="../../df/d0c/a00788.php">mcd::Big</a></td><td class="entry"></td></tr>

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 11:50:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -105,8 +105,8 @@ $(document).ready(function(){initNavTree('d3/de5/a00956.php','../../');});
   <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a3885a9068844517cbbd58cfed57eb5c4">isSquare</a>() const</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#adc00ecac929d1e153082d6a61879d4e2">j</a>() const</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a222bcb9024bd8d24b105f9d6be5dd391">Matrix</a>()</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a4f2cef0c1ab7ebbbecbe0dc22de5eeeb">Matrix</a>(const std::vector&lt; std::vector&lt; C &gt;&gt; &amp;datas)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a5cfebad51878a28020f44f6aacc6f29a">Matrix</a>(std::array&lt; std::array&lt; C, M &gt;, N &gt; &amp;datas)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a4f2cef0c1ab7ebbbecbe0dc22de5eeeb">Matrix</a>(const std::vector&lt; std::vector&lt; C &gt;&gt; &amp;datas)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a5cfebad51878a28020f44f6aacc6f29a">Matrix</a>(std::array&lt; std::array&lt; C, M &gt;, N &gt; &amp;datas)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a8919e7b6753c1f480d89106a0e993d57">Matrix</a>()</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a13b069e43b69c428da1868baa888f8a7">Matrix</a>(const std::vector&lt; std::vector&lt; C &gt;&gt; &amp;datas)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a5cfebad51878a28020f44f6aacc6f29a">Matrix</a>(std::array&lt; std::array&lt; C, M &gt;, N &gt; &amp;datas)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>

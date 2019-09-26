@@ -3,7 +3,7 @@
 *	\file		Fraction.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	Monday September, 16 2019 17:05:47
-*	\modified	September, 24 2019
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_FRACTION
@@ -27,7 +27,7 @@ namespace mcd {
 			/* Constructors & Destructor of Fraction */
 				/*! \brief	The constructor of the class */
 				Fraction();
-				Fraction(double value);
+				explicit Fraction(double value);
 				Fraction(long num, long denom);
 				virtual ~Fraction();
 			/* Getters of Fraction */

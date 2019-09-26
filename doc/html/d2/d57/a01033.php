@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 11:50:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('d8/d79/a01036.php','../../');});
   <tr class="even"><td class="entry"><a class="el" href="../../d8/d79/a01036.php#a5a3510ec96b9698b8cf601a2a1b9d90c">second</a>() const</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../d8/d79/a01036.php#aa843463db53892a16778dd0d71ec2dad">set</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d8/d79/a01036.php#ac802213e9ca41cc731f14619534e0249">Time</a>()</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d79/a01036.php#afa17085534ed1da008f6dd39cef039f2">Time</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/d79/a01036.php#afa17085534ed1da008f6dd39cef039f2">Time</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d8/d79/a01036.php#aef071966b669112898476801bf63bcba">~Time</a>()</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->

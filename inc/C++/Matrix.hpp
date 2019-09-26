@@ -27,8 +27,9 @@ namespace mcd {
 			/* Constructors & Destructor of Matrix */
 				/*! \brief	The constructor of the class */
 				Matrix();
-				Matrix(const std::vector<std::vector<C>>& datas);
-				template<std::size_t M, std::size_t N> Matrix(std::array<std::array<C, M>, N>& datas);
+				explicit Matrix(const std::vector<std::vector<C>>& datas);
+				template<std::size_t M, std::size_t N>
+				explicit Matrix(std::array<std::array<C, M>, N>& datas);
 				virtual ~Matrix(){}
 			/* Getters of Matrix */
 				size_t i()const { return _i; }

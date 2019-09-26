@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 11:50:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d0/d43/a01020.php','../../');});
 <p>This is the complete list of members for <a class="el" href="../../d0/d43/a01020.php">mcd::Referenced&lt; C &gt;</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="../../d0/d43/a01020.php#a3aadcf63bff72dd8c87f4c1d7a3bd240">_her</a></td><td class="entry"><a class="el" href="../../d0/d43/a01020.php">mcd::Referenced&lt; C &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d43/a01020.php#a23a4eee18708dae4eff05079a345c375">Referenced</a>(C *her)</td><td class="entry"><a class="el" href="../../d0/d43/a01020.php">mcd::Referenced&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/d43/a01020.php#a23a4eee18708dae4eff05079a345c375">Referenced</a>(C *her)</td><td class="entry"><a class="el" href="../../d0/d43/a01020.php">mcd::Referenced&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

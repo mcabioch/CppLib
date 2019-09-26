@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 10:38:54 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 11:50:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('dd/d38/a00928.php','../../');});
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a5868b5e5c36d3277d651c3fd731ebe84">denominator</a>() const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#aff15244127221e0d190260b62caef134">Fraction</a>()</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a9397e2e1fbfba88c48928e5135925f8d">Fraction</a>(double value)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a9397e2e1fbfba88c48928e5135925f8d">Fraction</a>(double value)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#ac4085029b32d447dfbe9146a3cdf1f67">Fraction</a>(long num, long denom)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a17e4466c06be8e1bff20fe204d4ff110">numerator</a>() const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a285e38748cb55302c43feab8fa4a29f5">operator double</a>() const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>

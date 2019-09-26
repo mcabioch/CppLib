@@ -12,7 +12,7 @@ var searchData=
   ['collidesr',['collidesR',['../dd/ded/a00211.php#ab43dbb509e6ac3b52cd7767a1fb6bdaa',1,'mcd']]],
   ['collidesrc',['collidesRC',['../dd/ded/a00211.php#adbb1b1f3a194f48bab3af872f65b9757',1,'mcd']]],
   ['collidesrect',['collidesRect',['../d8/db4/a00760.php#a0a1bd6e6440207bf2f281dcca32e7f25',1,'mcd::Animal::collidesRect(Contraption &amp;other)'],['../d8/db4/a00760.php#a890805b7e76b34fd00417d6884ac7972',1,'mcd::Animal::collidesRect(Contraption *other=nullptr)']]],
-  ['color',['Color',['../d2/d5e/a00860.php#a81a4808e8eb05c0a23cd90da4d8569ec',1,'mcd::Color::Color(const std::string &amp;color)'],['../d2/d5e/a00860.php#a26072dbd1f7f739ff3be1e98357b446e',1,'mcd::Color::Color(Args... args)']]],
+  ['color',['Color',['../d2/d5e/a00860.php#a81a4808e8eb05c0a23cd90da4d8569ec',1,'mcd::Color::Color(const std::string &amp;color)'],['../d2/d5e/a00860.php#ac3843a894efef061a84ac802d316fd86',1,'mcd::Color::Color(Colors color, Args... args)']]],
   ['consoleprint',['consolePrint',['../de/d49/a00952.php#afc568b008b11652ff93bf281f16f9f86',1,'mcd::Map']]],
   ['consoletable',['ConsoleTable',['../dd/d08/a00884.php#acc7af9ad8f4b7175a82acb2edfce15b2',1,'mcd::ConsoleTable']]],
   ['contains',['contains',['../dd/ded/a00211.php#a3ac7c03f689e82ab37f28905b06cedbd',1,'mcd']]],

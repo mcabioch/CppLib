@@ -3,7 +3,7 @@
 *	\file		PathfindingDijkstra.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	July, 30 2018 11:12:40
-*	\modified	August, 17 2018
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_CPP_PATHFINDING_DIJKSTRA

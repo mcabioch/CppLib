@@ -80,13 +80,13 @@ namespace mcd {
 		size_t i{0};
 		rVal = "0";
 
-		while(rVal < d && i <= inside_val.size()){
+		while(Big(rVal) < d && i <= inside_val.size()){
 			i++;
 			rVal = inside_val.substr(0, i);
 		}
 
 		inside_val = inside_val.substr(rVal.size());
-		r = rVal;
+		r = Big(rVal);
 
 		this->minusDivide(r, d, q, 1);
 
@@ -109,19 +109,19 @@ namespace mcd {
 		newVal = rVal + inside_val.substr(0, i);
 
 		inside_val = inside_val.substr(i);
-		r = newVal;
+		r = Big(newVal);
 		q = Big(0);
 
 		if(r < d){
 			qVal += "0";
-			q = qVal;
+			q = Big(qVal);
 
 			this->divide(inside_val, d, q, r);
 		} else {
 			this->minusDivide(r, d, q, 1);
 
 			qVal += static_cast<std::string>(q);
-			q = qVal;
+			q = Big(qVal);
 
 			this->divide(inside_val, d, q, r);
 		}

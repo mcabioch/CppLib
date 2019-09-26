@@ -67,19 +67,20 @@ namespace mcd {
 			/*!
 			* \brief	Construct a Color object with a first color
 			*/
-			Color(const std::string& color);
+			explicit Color(const std::string& color);
 			virtual ~Color(){}
 
 			/* Variadic template constructor */
 			/*!
 			* \brief	Construct a Color object with colors
 			*/
-			template<class ...Args> Color(Args... args) :
+			template<class ...Args>
+			 Color(Colors color, Args... args) :
 				code1("\033["),
 				colors(""),
 				code2("m")
 			{
-				addColors(args...);
+				addColors(color, args...);
 			}
 
 			/* Use the class in output stream */
