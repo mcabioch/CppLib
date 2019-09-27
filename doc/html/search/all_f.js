@@ -24,7 +24,7 @@ var searchData=
   ['playerabstraction_2ehpp',['PlayerAbstraction.hpp',['../d6/db8/a00158.php',1,'']]],
   ['point',['Point',['../d7/df7/a01074.php',1,'mcd']]],
   ['pointers_2ehpp',['pointers.hpp',['../d6/d7d/a00161.php',1,'']]],
-  ['pop',['pop',['../d0/d7d/a00786.php#a9c9c5803f41517e0b1b8d75441cd4b09',1,'mcd::queue::pop()'],['../db/dba/a01078.php#a58c2e9df00704c786bfcfcca5a383a0e',1,'mcd::vector::pop()'],['../df/d24/a00217.php#aad6be0710fa6c480619505eae0afd547',1,'mcd::pop()']]],
+  ['pop',['pop',['../d0/d7d/a00786.php#a9c9c5803f41517e0b1b8d75441cd4b09',1,'mcd::queue::pop()'],['../db/dba/a01078.php#a58c2e9df00704c786bfcfcca5a383a0e',1,'mcd::vector::pop()']]],
   ['pow',['pow',['../d5/d12/a00794.php#a9d40406ec9457a1565a2b0c60585ae9b',1,'mcd::Big']]],
   ['ppcm',['ppcm',['../df/d24/a00217.php#ad6ca3061a339d883c257105bd831efd1',1,'mcd']]],
   ['prime',['prime',['../d5/d12/a00794.php#a47a5b6f09008ce7cba2a498211a97073',1,'mcd::Big']]],

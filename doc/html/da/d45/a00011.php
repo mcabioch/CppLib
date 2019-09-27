@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 01:18:24 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:33:06 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -219,27 +219,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a95b30a0f37ef4accc8c762eee75bcc12"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a95b30a0f37ef4accc8c762eee75bcc12">mcd::print_all</a> (Something data, bool change=false)</td></tr>
 <tr class="memdesc:a95b30a0f37ef4accc8c762eee75bcc12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints approximately everything.  <a href="../../df/d24/a00217.php#a95b30a0f37ef4accc8c762eee75bcc12">More...</a><br /></td></tr>
 <tr class="separator:a95b30a0f37ef4accc8c762eee75bcc12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e20a60d52caf65d9d57c170efc7d56a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a2e20a60d52caf65d9d57c170efc7d56a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a2e20a60d52caf65d9d57c170efc7d56a">mcd::operator+=</a> (std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:a2e20a60d52caf65d9d57c170efc7d56a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea330903a85d1247751d666e798ead28"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aea330903a85d1247751d666e798ead28"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#aea330903a85d1247751d666e798ead28">mcd::operator+</a> (const std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:aea330903a85d1247751d666e798ead28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50233faf9e0e108078af975455fad0b9"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a50233faf9e0e108078af975455fad0b9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a50233faf9e0e108078af975455fad0b9">mcd::operator-=</a> (std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:a50233faf9e0e108078af975455fad0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a643c3473b3bce61f2ac50e63b8003994"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a643c3473b3bce61f2ac50e63b8003994"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a643c3473b3bce61f2ac50e63b8003994">mcd::operator-</a> (const std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:a643c3473b3bce61f2ac50e63b8003994"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e6ec1508e48530c9ea83c090cfe9ea1"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a2e6ec1508e48530c9ea83c090cfe9ea1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a2e6ec1508e48530c9ea83c090cfe9ea1">mcd::operator%=</a> (std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:a2e6ec1508e48530c9ea83c090cfe9ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade36d3312ff7c93578e529d00411c67a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ade36d3312ff7c93578e529d00411c67a"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#ade36d3312ff7c93578e529d00411c67a">mcd::operator%</a> (const std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:ade36d3312ff7c93578e529d00411c67a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad6be0710fa6c480619505eae0afd547"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aad6be0710fa6c480619505eae0afd547"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#aad6be0710fa6c480619505eae0afd547">mcd::pop</a> (std::vector&lt; T &gt; &amp;a, size_t pos=0)</td></tr>
-<tr class="separator:aad6be0710fa6c480619505eae0afd547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1c42a8b9412d2afa3b486c5e629f752"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#af1c42a8b9412d2afa3b486c5e629f752">mcd::array2Dto1D</a> (size_t x, size_t y, size_t maxX)</td></tr>
 <tr class="separator:af1c42a8b9412d2afa3b486c5e629f752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a040a2aa0625adc9f13e6568d906a20a2"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a040a2aa0625adc9f13e6568d906a20a2">mcd::array1Dto2D</a> (size_t index, size_t maxX)</td></tr>
@@ -249,7 +228,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : September, 24 2019 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Last modification : September, 26 2019 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

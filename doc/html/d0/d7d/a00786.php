@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 01:18:24 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:33:06 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -190,14 +190,6 @@ template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Return the first element of the queue and erase it from the queue. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d0/d7d/a00786_a148295001e6effa1aa1217af766e021f_cgraph.png" border="0" usemap="#d0/d7d/a00786_a148295001e6effa1aa1217af766e021f_cgraph" alt=""/></div>
-<map name="d0/d7d/a00786_a148295001e6effa1aa1217af766e021f_cgraph" id="d0/d7d/a00786_a148295001e6effa1aa1217af766e021f_cgraph">
-<area shape="rect" id="node2" href="../../df/d24/a00217.php#aad6be0710fa6c480619505eae0afd547" title="mcd::pop" alt="" coords="169,5,245,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -227,14 +219,6 @@ template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Erase the first element of the queue. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d0/d7d/a00786_a9c9c5803f41517e0b1b8d75441cd4b09_cgraph.png" border="0" usemap="#d0/d7d/a00786_a9c9c5803f41517e0b1b8d75441cd4b09_cgraph" alt=""/></div>
-<map name="d0/d7d/a00786_a9c9c5803f41517e0b1b8d75441cd4b09_cgraph" id="d0/d7d/a00786_a9c9c5803f41517e0b1b8d75441cd4b09_cgraph">
-<area shape="rect" id="node2" href="../../df/d24/a00217.php#aad6be0710fa6c480619505eae0afd547" title="mcd::pop" alt="" coords="172,5,248,32"/>
-</map>
-</div>
 
 </div>
 </div>

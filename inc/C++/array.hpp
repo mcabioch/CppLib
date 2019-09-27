@@ -2,7 +2,7 @@
 *
 *	\file		array.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	September, 24 2019
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_CPP_ARRAY
@@ -357,65 +357,6 @@ namespace mcd {
 			}
 		/**********************/
 	#endif //DOXYGEN_SHOULD_SKIP_THIS
-
-	/* Some std::vector operators */
-		template<class T>
-		void operator+=(std::vector<T>& a, const std::vector<T>& b){
-			for(const auto& val : b){
-				a.push_back(val);
-			}
-		}
-
-		template<class T>
-		std::vector<T> operator+(const std::vector<T>& a, const std::vector<T>& b){
-			std::vector<T> c = a;
-			c += b;
-			return c;
-		}
-
-		template<class T>
-		void operator-=(std::vector<T>& a, const std::vector<T>& b){
-			for(const auto& val : b){
-				auto it_pos = std::find(a.begin(), a.end(), val);
-				if(it_pos != a.end()){
-					a.erase(it_pos);
-					a.shrink_to_fit();
-				}
-			}
-		}
-
-		template<class T>
-		std::vector<T> operator-(const std::vector<T>& a, const std::vector<T>& b){
-			std::vector<T> c = a;
-			c -= b;
-			return c;
-		}
-
-		template<class T>
-		void operator%=(std::vector<T>& a, const std::vector<T>& b){
-			a -= (a - b);
-		}
-
-		template<class T>
-		std::vector<T> operator%(const std::vector<T>& a, const std::vector<T>& b){
-			std::vector<T> c = a;
-			c %= b;
-			return c;
-		}
-	/******************************/
-	/* Some std::vector features */
-		/*
-		* \brief	Erase an element from a vector on the position pos
-		*		\param		a			The array
-		*		\param		pos			The position to erase
-		*/
-		template<typename T>
-		void pop(std::vector<T>& a, size_t pos = 0){
-			if(pos >= a.size()){ return; }
-
-			a.erase(a.begin() + pos);
-		}
-	/*****************************/
 
 	/*
 	* \brief	Convert 2D coords to 1D coords

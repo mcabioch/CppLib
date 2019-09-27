@@ -10,7 +10,7 @@ var searchData=
   ['plant',['Plant',['../d0/d2b/a01010.php#aa13b2031cba87d6dc205951aa5df9f42',1,'mcd::Plant']]],
   ['player',['Player',['../d0/d56/a01014.php#aa2e12089a072fbc695087df2b474af5c',1,'mcd::Player']]],
   ['playerabstraction',['PlayerAbstraction',['../d3/d08/a01018.php#acd7472274e5fd10845893208d604617f',1,'mcd::PlayerAbstraction']]],
-  ['pop',['pop',['../d0/d7d/a00786.php#a9c9c5803f41517e0b1b8d75441cd4b09',1,'mcd::queue::pop()'],['../db/dba/a01078.php#a58c2e9df00704c786bfcfcca5a383a0e',1,'mcd::vector::pop()'],['../df/d24/a00217.php#aad6be0710fa6c480619505eae0afd547',1,'mcd::pop()']]],
+  ['pop',['pop',['../d0/d7d/a00786.php#a9c9c5803f41517e0b1b8d75441cd4b09',1,'mcd::queue::pop()'],['../db/dba/a01078.php#a58c2e9df00704c786bfcfcca5a383a0e',1,'mcd::vector::pop()']]],
   ['ppcm',['ppcm',['../df/d24/a00217.php#ad6ca3061a339d883c257105bd831efd1',1,'mcd']]],
   ['prime',['prime',['../d5/d12/a00794.php#a47a5b6f09008ce7cba2a498211a97073',1,'mcd::Big']]],
   ['print',['print',['../d3/dee/a00774.php#ab25a5cb9e0a7d21921baa90a95cd99b8',1,'mcd::Arguments::print()'],['../d5/dcd/a00802.php#aa74a5770d24b1278271c585382eaf030',1,'mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::print(const T &amp;in, size_t multiple=8)'],['../d5/dcd/a00802.php#a19199d5410d2586642819f9a64bf4f76',1,'mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::print(size_t multiple=8) const'],['../d4/d8a/a01062.php#a1e6f8d4ad100be50a970848a0c8437d1',1,'mcd::Tree::print()']]],

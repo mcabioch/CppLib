@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 01:18:24 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:33:06 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -449,27 +449,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a95b30a0f37ef4accc8c762eee75bcc12"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a95b30a0f37ef4accc8c762eee75bcc12">print_all</a> (Something data, bool change=false)</td></tr>
 <tr class="memdesc:a95b30a0f37ef4accc8c762eee75bcc12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints approximately everything.  <a href="#a95b30a0f37ef4accc8c762eee75bcc12">More...</a><br /></td></tr>
 <tr class="separator:a95b30a0f37ef4accc8c762eee75bcc12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e20a60d52caf65d9d57c170efc7d56a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a2e20a60d52caf65d9d57c170efc7d56a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a2e20a60d52caf65d9d57c170efc7d56a">operator+=</a> (std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:a2e20a60d52caf65d9d57c170efc7d56a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea330903a85d1247751d666e798ead28"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aea330903a85d1247751d666e798ead28"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#aea330903a85d1247751d666e798ead28">operator+</a> (const std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:aea330903a85d1247751d666e798ead28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50233faf9e0e108078af975455fad0b9"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a50233faf9e0e108078af975455fad0b9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a50233faf9e0e108078af975455fad0b9">operator-=</a> (std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:a50233faf9e0e108078af975455fad0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a643c3473b3bce61f2ac50e63b8003994"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a643c3473b3bce61f2ac50e63b8003994"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a643c3473b3bce61f2ac50e63b8003994">operator-</a> (const std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:a643c3473b3bce61f2ac50e63b8003994"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e6ec1508e48530c9ea83c090cfe9ea1"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a2e6ec1508e48530c9ea83c090cfe9ea1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a2e6ec1508e48530c9ea83c090cfe9ea1">operator%=</a> (std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:a2e6ec1508e48530c9ea83c090cfe9ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade36d3312ff7c93578e529d00411c67a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ade36d3312ff7c93578e529d00411c67a"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#ade36d3312ff7c93578e529d00411c67a">operator%</a> (const std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:ade36d3312ff7c93578e529d00411c67a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad6be0710fa6c480619505eae0afd547"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aad6be0710fa6c480619505eae0afd547"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#aad6be0710fa6c480619505eae0afd547">pop</a> (std::vector&lt; T &gt; &amp;a, size_t pos=0)</td></tr>
-<tr class="separator:aad6be0710fa6c480619505eae0afd547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1c42a8b9412d2afa3b486c5e629f752"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#af1c42a8b9412d2afa3b486c5e629f752">array2Dto1D</a> (size_t x, size_t y, size_t maxX)</td></tr>
 <tr class="separator:af1c42a8b9412d2afa3b486c5e629f752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a040a2aa0625adc9f13e6568d906a20a2"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a040a2aa0625adc9f13e6568d906a20a2">array1Dto2D</a> (size_t index, size_t maxX)</td></tr>
@@ -3561,68 +3540,8 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
 
 </div>
 </div>
-<a id="ade36d3312ff7c93578e529d00411c67a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade36d3312ff7c93578e529d00411c67a">&#9670;&nbsp;</a></span>operator%()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;T&gt; mcd::operator% </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2e6ec1508e48530c9ea83c090cfe9ea1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e6ec1508e48530c9ea83c090cfe9ea1">&#9670;&nbsp;</a></span>operator%=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::operator%= </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a68941be2cb0a91ce0a75b0992c772e19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68941be2cb0a91ce0a75b0992c772e19">&#9670;&nbsp;</a></span>operator+() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a68941be2cb0a91ce0a75b0992c772e19">&#9670;&nbsp;</a></span>operator+()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3646,36 +3565,6 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>+Big </p>
-
-</div>
-</div>
-<a id="aea330903a85d1247751d666e798ead28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea330903a85d1247751d666e798ead28">&#9670;&nbsp;</a></span>operator+() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;T&gt; mcd::operator+ </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -3745,38 +3634,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a2e20a60d52caf65d9d57c170efc7d56a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e20a60d52caf65d9d57c170efc7d56a">&#9670;&nbsp;</a></span>operator+=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::operator+= </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa34a809adea5c0391ccc070f4b6fac4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa34a809adea5c0391ccc070f4b6fac4b">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa34a809adea5c0391ccc070f4b6fac4b">&#9670;&nbsp;</a></span>operator-()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3800,36 +3659,6 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>-Big </p>
-
-</div>
-</div>
-<a id="a643c3473b3bce61f2ac50e63b8003994"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a643c3473b3bce61f2ac50e63b8003994">&#9670;&nbsp;</a></span>operator-() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;T&gt; mcd::operator- </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -3896,36 +3725,6 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p><a class="el" href="../../d5/d12/a00794.php" title="A new huge arithmetic variable. ">Big</a>&ndash;. </p>
-
-</div>
-</div>
-<a id="a50233faf9e0e108078af975455fad0b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50233faf9e0e108078af975455fad0b9">&#9670;&nbsp;</a></span>operator-=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::operator-= </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -4796,36 +4595,6 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node4" href="../../df/d24/a00217.php#af9443ebf71fe196006831fe344a09f13" title="Return the whole part of the given number. " alt="" coords="436,5,549,32"/>
 </map>
 </div>
-
-</div>
-</div>
-<a id="aad6be0710fa6c480619505eae0afd547"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad6be0710fa6c480619505eae0afd547">&#9670;&nbsp;</a></span>pop()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::pop </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

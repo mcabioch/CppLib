@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 01:18:24 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:33:06 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -187,14 +187,6 @@ template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Return the first element of the stack and erase it from the stack. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d6/d17/a00778_ac779733da952e8cfda80b14655a07172_cgraph.png" border="0" usemap="#d6/d17/a00778_ac779733da952e8cfda80b14655a07172_cgraph" alt=""/></div>
-<map name="d6/d17/a00778_ac779733da952e8cfda80b14655a07172_cgraph" id="d6/d17/a00778_ac779733da952e8cfda80b14655a07172_cgraph">
-<area shape="rect" id="node2" href="../../df/d24/a00217.php#aad6be0710fa6c480619505eae0afd547" title="mcd::pop" alt="" coords="167,5,243,32"/>
-</map>
-</div>
 
 </div>
 </div>

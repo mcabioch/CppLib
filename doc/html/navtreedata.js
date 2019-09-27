@@ -63,8 +63,8 @@ var NAVTREEINDEX =
 "annotated.php",
 "d3/db1/a00200.php#adda27badcbfcfc854854c6ab094cf34e",
 "d5/dd3/a00902.php",
-"da/d90/a00826.php",
-"df/d24/a00217.php#ae9c3c7c184c194240178a2cf11f24566"
+"da/d98/a00870.php#a20216632ae0d7b1504060826edfdd062",
+"df/d24/a00217.php#d5/d67/a01070"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
