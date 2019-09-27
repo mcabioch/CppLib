@@ -1,4 +1,3 @@
-<map id="mcd::SHA2" name="mcd::SHA2">
-<area shape="rect" id="node2" href="$d2/d21/a00895.php" title="A class to be the parent for every crypt class. " alt="" coords="23,80,118,107"/>
-<area shape="rect" id="node3" href="$d4/d94/a00967.php" title="A class to let some other not to be copyable. " alt="" coords="5,5,136,32"/>
+<map id="mcd::Crypto" name="mcd::Crypto">
+<area shape="rect" id="node2" href="$db/dbf/a00975.php" title="A class to let some other not to be copyable. " alt="" coords="5,5,136,32"/>
 </map>

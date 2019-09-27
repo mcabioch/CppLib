@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('pages.php','');});
 <div class="contents">
 <div class="textblock">Here is a list of all related documentation pages:</div><div class="directory">
 <table class="directory">
-<tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="d3/de5/a00209.php" target="_self">Todo List</a></td><td class="desc"></td></tr>
+<tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="dd/dc1/a00212.php" target="_self">Todo List</a></td><td class="desc"></td></tr>
 </table>
 </div><!-- directory -->
 </div><!-- contents -->

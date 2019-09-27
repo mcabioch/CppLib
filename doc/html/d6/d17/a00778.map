@@ -1,3 +1,4 @@
-<map id="mcd::queue&lt; T, Container &gt;" name="mcd::queue&lt; T, Container &gt;">
-<area shape="rect" id="node2" title="STL class. " alt="" coords="9,95,188,121"/>
+<map id="mcd::t_stack&lt; T, Container &gt;" name="mcd::t_stack&lt; T, Container &gt;">
+<area shape="rect" id="node2" href="$dc/d5d/a00775.php" title="An implementation of std::stack. " alt="" coords="11,80,194,107"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="15,5,191,32"/>
 </map>

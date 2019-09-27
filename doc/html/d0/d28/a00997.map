@@ -1,5 +1,3 @@
-<map id="mcd::Plant" name="mcd::Plant">
-<area shape="rect" id="node2" href="$d2/d49/a01067.php" title="A vegetal. " alt="" coords="17,155,116,181"/>
-<area shape="rect" id="node3" href="$dd/d98/a00927.php" title="An entity. " alt="" coords="22,80,111,107"/>
-<area shape="rect" id="node4" href="$de/dfc/a00891.php" title="A contraption. " alt="" coords="5,5,128,32"/>
+<map id="mcd::PathfindingException" name="mcd::PathfindingException">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="43,5,147,32"/>
 </map>

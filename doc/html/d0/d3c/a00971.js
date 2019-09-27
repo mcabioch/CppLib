@@ -1,6 +1,6 @@
 var a00971 =
 [
-    [ "Object", "d0/d3c/a00971.php#ad332f3a57527a6ede1be2e18b65615a5", null ],
-    [ "~Object", "d0/d3c/a00971.php#a400f71c448a89abecda88ba70ab5029f", null ],
-    [ "printInfos", "d0/d3c/a00971.php#aaae968dcea4a9aa8a530dc95b24848d0", null ]
+    [ "Mushroom", "d0/d3c/a00971.php#aa3f3f1ad0542e087b039ce1586c0c907", null ],
+    [ "~Mushroom", "d0/d3c/a00971.php#afba77573c7fb8dfdbf6f73192fe64fde", null ],
+    [ "printInfos", "d0/d3c/a00971.php#a7f5b4cb7d65beddc201434f2e8cc1f15", null ]
 ];

@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Check::is_pair&lt; T &gt; Class Template Reference</title>
+		<title>C++: mcd::Check::is_array&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 14:43:16 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,28 +93,28 @@ $(document).ready(function(){initNavTree('d5/d72/a00803.php','../../');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../df/d0e/a00800.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_pair&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Check::is_array&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A template class to test if T is a std::pair.  
+<p>A template class to test if T is an array, a vector or a map.  
  <a href="../../d5/d72/a00803.php#details">More...</a></p>
 
 <p><code>#include &lt;check.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:ac3fa87bfb2551b3a98cac89a0c39b2ba"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d72/a00803.php#ac3fa87bfb2551b3a98cac89a0c39b2ba">value</a> = false</td></tr>
-<tr class="separator:ac3fa87bfb2551b3a98cac89a0c39b2ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0158c050746b586a1c8e800a68968879"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d72/a00803.php#a0158c050746b586a1c8e800a68968879">value</a> = false</td></tr>
+<tr class="separator:a0158c050746b586a1c8e800a68968879"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_pair&lt; T &gt;</h3>
+class mcd::Check::is_array&lt; T &gt;</h3>
 
-<p>A template class to test if T is a std::pair. </p>
+<p>A template class to test if T is an array, a vector or a map. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac3fa87bfb2551b3a98cac89a0c39b2ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3fa87bfb2551b3a98cac89a0c39b2ba">&#9670;&nbsp;</a></span>value</h2>
+<a id="a0158c050746b586a1c8e800a68968879"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0158c050746b586a1c8e800a68968879">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125,7 +125,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const bool <a class="el" href="../../d5/d72/a00803.php">mcd::Check::is_pair</a>&lt; T &gt;::value = false</td>
+          <td class="memname">const bool <a class="el" href="../../d5/d72/a00803.php">mcd::Check::is_array</a>&lt; T &gt;::value = false</td>
         </tr>
       </table>
   </td>
@@ -146,7 +146,7 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../d3/dd5/a00215.php">Check</a></li><li class="navelem"><a class="el" href="../../d5/d72/a00803.php">is_pair</a></li>
+		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../d3/dd5/a00215.php">Check</a></li><li class="navelem"><a class="el" href="../../d5/d72/a00803.php">is_array</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::RNG&lt; T, U &gt; Class Template Reference</title>
+		<title>C++: mcd::PureVirtual Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 14:43:16 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,42 +93,66 @@ $(document).ready(function(){initNavTree('dd/dfd/a01027.php','../../');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../d4/dc5/a01024.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::RNG&lt; T, U &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::PureVirtual Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to simplify the use of random.  
+<p>A class to make some other to be abstract class.  
  <a href="../../dd/dfd/a01027.php#details">More...</a></p>
 
-<p><code>#include &lt;RNG.hpp&gt;</code></p>
+<p><code>#include &lt;PureVirtual.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::PureVirtual:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/d02/a01026.png" border="0" usemap="#mcd_1_1PureVirtual_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1PureVirtual_inherit__map" id="mcd_1_1PureVirtual_inherit__map">
+<area shape="rect" id="node2" href="../../d7/d34/a00883.php" title="A class to play with the cursor in the console. " alt="" coords="5,80,148,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ada6783e2f83f41b11d72687c90c29ead"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a01027.php#ada6783e2f83f41b11d72687c90c29ead">RNG</a> ()</td></tr>
-<tr class="separator:ada6783e2f83f41b11d72687c90c29ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a717048eaee5dc829e132237026beaecc"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a01027.php#a717048eaee5dc829e132237026beaecc">operator()</a> (T a, T b)</td></tr>
-<tr class="memdesc:a717048eaee5dc829e132237026beaecc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The definition of the operator ()  <a href="#a717048eaee5dc829e132237026beaecc">More...</a><br /></td></tr>
-<tr class="separator:a717048eaee5dc829e132237026beaecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab67f25d69c1686f95be6fbfcc4ac4663"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a01027.php#ab67f25d69c1686f95be6fbfcc4ac4663">PureVirtual</a> ()</td></tr>
+<tr class="memdesc:ab67f25d69c1686f95be6fbfcc4ac4663"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#ab67f25d69c1686f95be6fbfcc4ac4663">More...</a><br /></td></tr>
+<tr class="separator:ab67f25d69c1686f95be6fbfcc4ac4663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb8cb10e007f7c5f6ac757843a212598"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a01027.php#acb8cb10e007f7c5f6ac757843a212598">~PureVirtual</a> ()</td></tr>
+<tr class="separator:acb8cb10e007f7c5f6ac757843a212598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1885fa694cc2d28cb55186fb3b53615d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a01027.php#a1885fa694cc2d28cb55186fb3b53615d">PureVirtualMethod</a> () final=0</td></tr>
+<tr class="separator:a1885fa694cc2d28cb55186fb3b53615d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T, typename U&gt;<br />
-class mcd::RNG&lt; T, U &gt;</h3>
-
-<p>A class to simplify the use of random. </p>
+<div class="textblock"><p>A class to make some other to be abstract class. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ada6783e2f83f41b11d72687c90c29ead"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada6783e2f83f41b11d72687c90c29ead">&#9670;&nbsp;</a></span>RNG()</h2>
+<a id="ab67f25d69c1686f95be6fbfcc4ac4663"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab67f25d69c1686f95be6fbfcc4ac4663">&#9670;&nbsp;</a></span>PureVirtual()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::PureVirtual::PureVirtual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+
+</div>
+</div>
+<a id="acb8cb10e007f7c5f6ac757843a212598"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb8cb10e007f7c5f6ac757843a212598">&#9670;&nbsp;</a></span>~PureVirtual()</h2>
+
+<div class="memitem">
+<div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dfd/a01027.php">mcd::RNG</a>&lt; T, U &gt;::<a class="el" href="../../dd/dfd/a01027.php">RNG</a> </td>
+          <td class="memname">virtual mcd::PureVirtual::~PureVirtual </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -136,7 +160,7 @@ template&lt;typename T , typename U &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -144,65 +168,33 @@ template&lt;typename T , typename U &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a717048eaee5dc829e132237026beaecc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a717048eaee5dc829e132237026beaecc">&#9670;&nbsp;</a></span>operator()()</h2>
+<a id="a1885fa694cc2d28cb55186fb3b53615d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1885fa694cc2d28cb55186fb3b53615d">&#9670;&nbsp;</a></span>PureVirtualMethod()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename U &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="../../dd/dfd/a01027.php">mcd::RNG</a>&lt; T, U &gt;::operator() </td>
+          <td class="memname">virtual void mcd::PureVirtual::PureVirtualMethod </td>
           <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>The definition of the operator () </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The first boundary </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The first boundary</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a random number between <em>a</em> and <em>b</em> </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dd/dfd/a01027_a717048eaee5dc829e132237026beaecc_cgraph.png" border="0" usemap="#dd/dfd/a01027_a717048eaee5dc829e132237026beaecc_cgraph" alt=""/></div>
-<map name="dd/dfd/a01027_a717048eaee5dc829e132237026beaecc_cgraph" id="dd/dfd/a01027_a717048eaee5dc829e132237026beaecc_cgraph">
-<area shape="rect" id="node2" href="../../d3/dd1/a00214.php#a4d75f23c9b03fd2c56324895d0ff3c58" title="Return the distance of the given coordinates. " alt="" coords="201,5,277,32"/>
-<area shape="rect" id="node3" href="../../d3/dd1/a00214.php#ae3a712e4de66375b1a188fa464c968e2" title="Compute the squareroot of a. " alt="" coords="325,5,403,32"/>
-</map>
-</div>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d5/dcb/a00170.php">RNG.hpp</a></li>
+<li><a class="el" href="../../db/ddf/a00164.php">PureVirtual.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -210,7 +202,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/dfd/a01027.php">RNG</a></li>
+		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/dfd/a01027.php">PureVirtual</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

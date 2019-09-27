@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Cesar Class Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:34 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('da/dd6/a00896.php','../../');});
+$(document).ready(function(){initNavTree('d3/d8a/a00899.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,250 +89,50 @@ $(document).ready(function(){initNavTree('da/dd6/a00896.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../dc/d2c/a00893.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Cesar Class Reference</div>  </div>
+<div class="title">mcd::Contraption Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to use the cesar algorithm for encryption.  
- <a href="../../da/dd6/a00896.php#details">More...</a></p>
-
-<p><code>#include &lt;cryptage.hpp&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for mcd::Cesar:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/d21/a00895.png" border="0" usemap="#mcd_1_1Cesar_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1Cesar_inherit__map" id="mcd_1_1Cesar_inherit__map">
-<area shape="rect" id="node2" href="../../d0/de2/a00892.php" title="A class to be the parent for every crypt class. " alt="" coords="23,80,118,107"/>
-<area shape="rect" id="node3" href="../../da/d17/a00964.php" title="A class to let some other not to be copyable. " alt="" coords="5,5,136,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for mcd::Cesar:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/dfa/a00894.png" border="0" usemap="#mcd_1_1Cesar_coll__map" alt="Collaboration graph"/></div>
-<map name="mcd_1_1Cesar_coll__map" id="mcd_1_1Cesar_coll__map">
-<area shape="rect" id="node2" href="../../d0/de2/a00892.php" title="A class to be the parent for every crypt class. " alt="" coords="23,80,118,107"/>
-<area shape="rect" id="node3" href="../../da/d17/a00964.php" title="A class to let some other not to be copyable. " alt="" coords="5,5,136,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a01dc2192c075a4cbed0a72a9c35e1a4b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd6/a00896.php#a01dc2192c075a4cbed0a72a9c35e1a4b">Cesar</a> ()</td></tr>
-<tr class="separator:a01dc2192c075a4cbed0a72a9c35e1a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65a181afa9b857412b3a317b725e1331"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd6/a00896.php#a65a181afa9b857412b3a317b725e1331">~Cesar</a> ()</td></tr>
-<tr class="separator:a65a181afa9b857412b3a317b725e1331"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97036e8c40e9aafa4a0d7f44df6fcac7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd6/a00896.php#a97036e8c40e9aafa4a0d7f44df6fcac7">crypt</a> (const std::string &amp;message, int decal)</td></tr>
-<tr class="memdesc:a97036e8c40e9aafa4a0d7f44df6fcac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the crypt <a class="el" href="../../d0/de2/a00892.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method.  <a href="#a97036e8c40e9aafa4a0d7f44df6fcac7">More...</a><br /></td></tr>
-<tr class="separator:a97036e8c40e9aafa4a0d7f44df6fcac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83018ea2d4b8530ccfe03d58b6bbff9b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd6/a00896.php#a83018ea2d4b8530ccfe03d58b6bbff9b">decrypt</a> (const std::string &amp;message, int decal)</td></tr>
-<tr class="memdesc:a83018ea2d4b8530ccfe03d58b6bbff9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the decrypt <a class="el" href="../../d0/de2/a00892.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method.  <a href="#a83018ea2d4b8530ccfe03d58b6bbff9b">More...</a><br /></td></tr>
-<tr class="separator:a83018ea2d4b8530ccfe03d58b6bbff9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3368134737d4f820661e03afbc91b8f1"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd6/a00896.php#a3368134737d4f820661e03afbc91b8f1">decrypt</a> (const std::string &amp;message) override</td></tr>
-<tr class="memdesc:a3368134737d4f820661e03afbc91b8f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the decrypt <a class="el" href="../../d0/de2/a00892.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method in brut force.  <a href="#a3368134737d4f820661e03afbc91b8f1">More...</a><br /></td></tr>
-<tr class="separator:a3368134737d4f820661e03afbc91b8f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00892"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00892')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d0/de2/a00892.php">mcd::Crypto</a></td></tr>
-<tr class="memitem:a3f598383428868a9f69502e5de031ea5 inherit pub_methods_a00892"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de2/a00892.php#a3f598383428868a9f69502e5de031ea5">Crypto</a> ()</td></tr>
-<tr class="separator:a3f598383428868a9f69502e5de031ea5 inherit pub_methods_a00892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16276f74e2eac6b2174d06361791f056 inherit pub_methods_a00892"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de2/a00892.php#a16276f74e2eac6b2174d06361791f056">~Crypto</a> ()</td></tr>
-<tr class="separator:a16276f74e2eac6b2174d06361791f056 inherit pub_methods_a00892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00964"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00964')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../da/d17/a00964.php">mcd::NotCopyable</a></td></tr>
-<tr class="memitem:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a00964"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d17/a00964.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a> ()</td></tr>
-<tr class="memdesc:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a00964"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../da/d17/a00964.php#aa40da048522b578e9c2cc9f73c1a0d92">More...</a><br /></td></tr>
-<tr class="separator:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a00964"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5efcd02383468e37e9c960f3d6f9d14c inherit pub_methods_a00964"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d17/a00964.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a> ()</td></tr>
-<tr class="separator:a5efcd02383468e37e9c960f3d6f9d14c inherit pub_methods_a00964"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to use the cesar algorithm for encryption. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a01dc2192c075a4cbed0a72a9c35e1a4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01dc2192c075a4cbed0a72a9c35e1a4b">&#9670;&nbsp;</a></span>Cesar()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::Cesar::Cesar </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a65a181afa9b857412b3a317b725e1331"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65a181afa9b857412b3a317b725e1331">&#9670;&nbsp;</a></span>~Cesar()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual mcd::Cesar::~Cesar </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../da/dd6/a00896_a65a181afa9b857412b3a317b725e1331_cgraph.png" border="0" usemap="#da/dd6/a00896_a65a181afa9b857412b3a317b725e1331_cgraph" alt=""/></div>
-<map name="da/dd6/a00896_a65a181afa9b857412b3a317b725e1331_cgraph" id="da/dd6/a00896_a65a181afa9b857412b3a317b725e1331_cgraph">
-<area shape="rect" id="node2" href="../../d0/de2/a00892.php#a2949148382033667a765326066311f21" title="mcd::Crypto::crypt" alt="" coords="202,5,333,32"/>
-<area shape="rect" id="node3" href="../../d0/de2/a00892.php#a4d131065e81529530b7907ba397af30d" title="mcd::Crypto::decrypt" alt="" coords="195,56,340,83"/>
-</map>
-</div>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a97036e8c40e9aafa4a0d7f44df6fcac7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97036e8c40e9aafa4a0d7f44df6fcac7">&#9670;&nbsp;</a></span>crypt()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string mcd::Cesar::crypt </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>decal</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Overload of the crypt <a class="el" href="../../d0/de2/a00892.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">message</td><td>The message to encrypt </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">decal</td><td>The shift to crypt the message</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the crypted message </dd></dl>
-
-</div>
-</div>
-<a id="a83018ea2d4b8530ccfe03d58b6bbff9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83018ea2d4b8530ccfe03d58b6bbff9b">&#9670;&nbsp;</a></span>decrypt() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string mcd::Cesar::decrypt </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>decal</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Overload of the decrypt <a class="el" href="../../d0/de2/a00892.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">message</td><td>The message to decrypt </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">decal</td><td>The shift to decrypt the message</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the decrypted message </dd></dl>
-
-</div>
-</div>
-<a id="a3368134737d4f820661e03afbc91b8f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3368134737d4f820661e03afbc91b8f1">&#9670;&nbsp;</a></span>decrypt() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::string mcd::Cesar::decrypt </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>message</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Overload of the decrypt <a class="el" href="../../d0/de2/a00892.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method in brut force. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">message</td><td>The message to decrypt</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the decrypted message </dd></dl>
-
-<p>Implements <a class="el" href="../../d0/de2/a00892.php#a4d131065e81529530b7907ba397af30d">mcd::Crypto</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d3/d8b/a00059.php">cryptage.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a7f4fa78c938b90c034ad0fe98a293a3c">addPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a807590a9e81f34ba22aca08ddd986db7">Contraption</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a580eafa58a93d9ab4264c4cbac2f4167">getA</a>() const</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#aa36a1788770d7667d8a2848ff1e3f0c6">getAttributes</a>() const</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#aec81012bc23935e626500734007d5fb5">getH</a>() const</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a2f6cf40462b5dba5f7743c83cc2389f1">getLevel</a>() const</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a393c4ec6fd375809fbcf1cfeab44ed25">getMap</a>() const</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#ac95da2f760e8ba07a54ac849c5a3307f">getPosition</a>() const</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a20dee618b85a3f841921a534bd5dfd37">getRelativeZ</a>(Contraption &amp;obj)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#ad12fd1c5a207f169edc619e09a5a969f">getW</a>() const</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a6e7d791e4289bd253a357be80f8131ee">getX</a>() const</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a153124dd434c08a943f60d7b43c2ffab">getY</a>() const</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a6ac6575807535f3d9aeb251ce3cceaed">getZ</a>() const</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a763a20bdd6cf99e565f2516d1c4bb161">operator&lt;&lt;</a>(std::ostream &amp;stream, Contraption const &amp;in)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a5cb6af540ebec175e270980217ff9de7">printInfos</a>(std::ostream &amp;stream) const</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a6ee6d1b64b6b88068a2165a1824a5af2">sender</a>(std::string, vector_str)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a73a47e55e554e7c7f357a74276368186">setA</a>(double64_t angle)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a9c5a7acde997e12d99e717f182c5ced7">setAttributes</a>(ContraptionAttr attr)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#ae44610d2144faf1550f8cc6ec860fb71">setAttributes</a>(double64_t w, double64_t h, double64_t angle=0)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a060b6ee9401bd8c9a03c5cecdbfa1942">setH</a>(double64_t h)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a332ecd56522af01cf41b9c4a69449bd0">setLevel</a>(size_t level)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a8a6c84d9d5f814fe553b731d841a5266">setMap</a>(Map *map)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a2974b562f55f65a1b992ff849eea43cf">setPosition</a>(Point pt)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#aae0d0bd5e4613514eb5cda66eaeabbcb">setPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a2a00e0217550c3b79434659e04d40aef">setW</a>(double64_t w)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#abbaabb4c71f560de8c85a859c11dd57a">setX</a>(double64_t x)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a3e1fc3a4ee923891fa0c523f129c45af">setY</a>(double64_t y)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a08c1de8034f9e3985a24dd78d37a3d44">setZ</a>(double64_t z)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a10b4b5c4cd47da89e672c64c41b23162">turnLeft</a>()</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a4f7cef1423cf575fabafa2143a588788">turnRight</a>()</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a17bb565b03902a28211f8609ac04d01b">~Contraption</a>()</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dd/ded/a00211.php">mcd</a></li><li class="navelem"><a class="el" href="../../da/dd6/a00896.php">Cesar</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

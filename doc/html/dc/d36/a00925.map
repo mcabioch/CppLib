@@ -1,3 +1,4 @@
-<map id="mcd::Entity" name="mcd::Entity">
-<area shape="rect" id="node2" href="$de/dfc/a00891.php" title="A contraption. " alt="" coords="5,5,128,32"/>
+<map id="mcd::DateTime" name="mcd::DateTime">
+<area shape="rect" id="node2" href="$df/de9/a00923.php" title="A class to play with dates. " alt="" coords="5,5,88,32"/>
+<area shape="rect" id="node3" href="$db/dbb/a01047.php" title="A class to play with dates. " alt="" coords="113,5,197,32"/>
 </map>

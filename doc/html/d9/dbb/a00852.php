@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Check::is_special_struct&lt; T &gt; Class Template Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d9/dbb/a00852.php','../../');});
+$(document).ready(function(){initNavTree('da/de6/a00855.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,64 +89,20 @@ $(document).ready(function(){initNavTree('d9/dbb/a00852.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="../../de/d37/a00849.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_special_struct&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Check::is_printable&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A template class to test if T is a special struct.  
- <a href="../../d9/dbb/a00852.php#details">More...</a></p>
-
-<p><code>#include &lt;check.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a9347b60a434f2cfd40453cc7856c3918"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dbb/a00852.php#a9347b60a434f2cfd40453cc7856c3918">value</a></td></tr>
-<tr class="separator:a9347b60a434f2cfd40453cc7856c3918"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_special_struct&lt; T &gt;</h3>
-
-<p>A template class to test if T is a special struct. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a9347b60a434f2cfd40453cc7856c3918"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9347b60a434f2cfd40453cc7856c3918">&#9670;&nbsp;</a></span>value</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const bool <a class="el" href="../../d9/dbb/a00852.php">mcd::Check::is_special_struct</a>&lt; T &gt;::value</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= <a class="code" href="../../df/d0e/a00800.php#ac3fa87bfb2551b3a98cac89a0c39b2ba">is_pair&lt;T&gt;::value</a> ||</div><div class="line">                                          <a class="code" href="../../d1/dd1/a00804.php#a35b153eb448f4f520fbab10d63317262">is_trio&lt;T&gt;::value</a> ||</div><div class="line">                                          <a class="code" href="../../d7/dc8/a00808.php#a89743328c29104ad4f66261b0ba77611">is_quatuor&lt;T&gt;::value</a></div></div><!-- fragment -->
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d8/d41/a00038.php">check.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../da/de6/a00855.php">mcd::Check::is_printable&lt; T &gt;</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../da/de6/a00855.php#ae62c92a381f9915ca93aeb48aadeeebc">value</a></td><td class="entry"><a class="el" href="../../da/de6/a00855.php">mcd::Check::is_printable&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dd/ded/a00211.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/dc1/a00212.php">Check</a></li><li class="navelem"><a class="el" href="../../d9/dbb/a00852.php">is_special_struct</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

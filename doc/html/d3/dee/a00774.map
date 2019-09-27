@@ -1,4 +1,4 @@
-<map id="mcd::t_stack&lt; T, Container &gt;" name="mcd::t_stack&lt; T, Container &gt;">
-<area shape="rect" id="node2" href="$d9/d9c/a00772.php" title="An implementation of std::stack. " alt="" coords="11,171,194,197"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="15,95,191,121"/>
+<map id="mcd::stack&lt; T, Container &gt;" name="mcd::stack&lt; T, Container &gt;">
+<area shape="rect" id="node3" href="$d3/d95/a00779.php" title="An thread&#45;safe implementation of stack. " alt="" coords="5,155,200,181"/>
+<area shape="rect" id="node2" title="STL class. " alt="" coords="15,5,191,32"/>
 </map>

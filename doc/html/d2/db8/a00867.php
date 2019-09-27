@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Reinit Class Reference</title>
+		<title>C++: mcd::Clock Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 14:43:16 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -91,73 +91,51 @@ $(document).ready(function(){initNavTree('d2/db8/a00867.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d7/d1b/a00864.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Reinit Class Reference</div>  </div>
+<div class="title">mcd::Clock Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="../../d2/db8/a00867.php" title="Reinit the color in the console. ">Reinit</a> the color in the console.  
+<p>A clock to measure the elapsed time.  
  <a href="../../d2/db8/a00867.php#details">More...</a></p>
 
-<p><code>#include &lt;console.hpp&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for mcd::Reinit:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dd/db2/a00866.png" border="0" usemap="#mcd_1_1Reinit_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1Reinit_inherit__map" id="mcd_1_1Reinit_inherit__map">
-<area shape="rect" id="node2" href="../../d7/d49/a00863.php" title="Change the text color in the console. " alt="" coords="7,5,93,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for mcd::Reinit:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dd/d7b/a00865.png" border="0" usemap="#mcd_1_1Reinit_coll__map" alt="Collaboration graph"/></div>
-<map name="mcd_1_1Reinit_coll__map" id="mcd_1_1Reinit_coll__map">
-<area shape="rect" id="node2" href="../../d7/d49/a00863.php" title="Change the text color in the console. " alt="" coords="7,5,93,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<p><code>#include &lt;Clock.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a551e27ee03f69ab98899f261c3ab89e3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db8/a00867.php#a551e27ee03f69ab98899f261c3ab89e3">Reinit</a> ()</td></tr>
-<tr class="separator:a551e27ee03f69ab98899f261c3ab89e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00863"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00863')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d7/d49/a00863.php">mcd::Color</a></td></tr>
-<tr class="memitem:a81a4808e8eb05c0a23cd90da4d8569ec inherit pub_methods_a00863"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d49/a00863.php#a81a4808e8eb05c0a23cd90da4d8569ec">Color</a> (const std::string &amp;color)</td></tr>
-<tr class="memdesc:a81a4808e8eb05c0a23cd90da4d8569ec inherit pub_methods_a00863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d7/d49/a00863.php" title="Change the text color in the console. ">Color</a> object with a first color.  <a href="../../d7/d49/a00863.php#a81a4808e8eb05c0a23cd90da4d8569ec">More...</a><br /></td></tr>
-<tr class="separator:a81a4808e8eb05c0a23cd90da4d8569ec inherit pub_methods_a00863"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4db298b6e4ff50cf961dc90449468952 inherit pub_methods_a00863"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d49/a00863.php#a4db298b6e4ff50cf961dc90449468952">~Color</a> ()</td></tr>
-<tr class="separator:a4db298b6e4ff50cf961dc90449468952 inherit pub_methods_a00863"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26072dbd1f7f739ff3be1e98357b446e inherit pub_methods_a00863"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
-<tr class="memitem:a26072dbd1f7f739ff3be1e98357b446e inherit pub_methods_a00863"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d49/a00863.php#a26072dbd1f7f739ff3be1e98357b446e">Color</a> (Args... args)</td></tr>
-<tr class="memdesc:a26072dbd1f7f739ff3be1e98357b446e inherit pub_methods_a00863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d7/d49/a00863.php" title="Change the text color in the console. ">Color</a> object with colors.  <a href="../../d7/d49/a00863.php#a26072dbd1f7f739ff3be1e98357b446e">More...</a><br /></td></tr>
-<tr class="separator:a26072dbd1f7f739ff3be1e98357b446e inherit pub_methods_a00863"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4f6325cc63bd229cdf19df24a6e4f6e inherit pub_methods_a00863"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d49/a00863.php#af4f6325cc63bd229cdf19df24a6e4f6e">addColors</a> (int color)</td></tr>
-<tr class="memdesc:af4f6325cc63bd229cdf19df24a6e4f6e inherit pub_methods_a00863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="../../d7/d49/a00863.php#af4f6325cc63bd229cdf19df24a6e4f6e">More...</a><br /></td></tr>
-<tr class="separator:af4f6325cc63bd229cdf19df24a6e4f6e inherit pub_methods_a00863"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae732af32fdbea05950d39bd9532121cf inherit pub_methods_a00863"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
-<tr class="memitem:ae732af32fdbea05950d39bd9532121cf inherit pub_methods_a00863"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d49/a00863.php#ae732af32fdbea05950d39bd9532121cf">addColors</a> (int color, Args... args)</td></tr>
-<tr class="memdesc:ae732af32fdbea05950d39bd9532121cf inherit pub_methods_a00863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="../../d7/d49/a00863.php#ae732af32fdbea05950d39bd9532121cf">More...</a><br /></td></tr>
-<tr class="separator:ae732af32fdbea05950d39bd9532121cf inherit pub_methods_a00863"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2763ec2ead72b9b5dabc5b8678a3cac1 inherit pub_methods_a00863"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d49/a00863.php#a2763ec2ead72b9b5dabc5b8678a3cac1">addColors</a> (<a class="el" href="../../d3/dd1/a00214.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> color)</td></tr>
-<tr class="memdesc:a2763ec2ead72b9b5dabc5b8678a3cac1 inherit pub_methods_a00863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="../../d7/d49/a00863.php#a2763ec2ead72b9b5dabc5b8678a3cac1">More...</a><br /></td></tr>
-<tr class="separator:a2763ec2ead72b9b5dabc5b8678a3cac1 inherit pub_methods_a00863"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bbeef7225d8e84a02fca3e32a325b45 inherit pub_methods_a00863"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
-<tr class="memitem:a1bbeef7225d8e84a02fca3e32a325b45 inherit pub_methods_a00863"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d49/a00863.php#a1bbeef7225d8e84a02fca3e32a325b45">addColors</a> (<a class="el" href="../../d3/dd1/a00214.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> color, Args... args)</td></tr>
-<tr class="memdesc:a1bbeef7225d8e84a02fca3e32a325b45 inherit pub_methods_a00863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="../../d7/d49/a00863.php#a1bbeef7225d8e84a02fca3e32a325b45">More...</a><br /></td></tr>
-<tr class="separator:a1bbeef7225d8e84a02fca3e32a325b45 inherit pub_methods_a00863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0aa0853cddce8c1e8c4339eb7016223"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db8/a00867.php#ae0aa0853cddce8c1e8c4339eb7016223">Clock</a> ()</td></tr>
+<tr class="separator:ae0aa0853cddce8c1e8c4339eb7016223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ce94671d48c1f42862771174c86810"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db8/a00867.php#a47ce94671d48c1f42862771174c86810">getElapsed</a> ()</td></tr>
+<tr class="memdesc:a47ce94671d48c1f42862771174c86810"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get time elapsed.  <a href="#a47ce94671d48c1f42862771174c86810">More...</a><br /></td></tr>
+<tr class="separator:a47ce94671d48c1f42862771174c86810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276d9d978a8670e8354cac2b589c60ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db8/a00867.php#a276d9d978a8670e8354cac2b589c60ce">getStart</a> () const</td></tr>
+<tr class="memdesc:a276d9d978a8670e8354cac2b589c60ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the time start.  <a href="#a276d9d978a8670e8354cac2b589c60ce">More...</a><br /></td></tr>
+<tr class="separator:a276d9d978a8670e8354cac2b589c60ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b787edba50392a8f18995a6ae6dc9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db8/a00867.php#a25b787edba50392a8f18995a6ae6dc9e">start</a> ()</td></tr>
+<tr class="separator:a25b787edba50392a8f18995a6ae6dc9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3008b7b555fb4e6c3415aec152b5de2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db8/a00867.php#a3008b7b555fb4e6c3415aec152b5de2d">restart</a> ()</td></tr>
+<tr class="separator:a3008b7b555fb4e6c3415aec152b5de2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a9714489f034bfffabff995741d899513"><td class="memItemLeft" align="right" valign="top">std::chrono::high_resolution_clock::time_point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db8/a00867.php#a9714489f034bfffabff995741d899513">m_start</a></td></tr>
+<tr class="separator:a9714489f034bfffabff995741d899513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20216632ae0d7b1504060826edfdd062"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db8/a00867.php#a20216632ae0d7b1504060826edfdd062">started</a></td></tr>
+<tr class="separator:a20216632ae0d7b1504060826edfdd062"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="../../d2/db8/a00867.php" title="Reinit the color in the console. ">Reinit</a> the color in the console. </p>
+<div class="textblock"><p>A clock to measure the elapsed time. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a551e27ee03f69ab98899f261c3ab89e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a551e27ee03f69ab98899f261c3ab89e3">&#9670;&nbsp;</a></span>Reinit()</h2>
+<a id="ae0aa0853cddce8c1e8c4339eb7016223"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0aa0853cddce8c1e8c4339eb7016223">&#9670;&nbsp;</a></span>Clock()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::Reinit::Reinit </td>
+          <td class="memname">mcd::Clock::Clock </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -167,8 +145,147 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a47ce94671d48c1f42862771174c86810"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ce94671d48c1f42862771174c86810">&#9670;&nbsp;</a></span>getElapsed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Clock::getElapsed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get time elapsed. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return time elapsed since the clock started in microseconds </dd></dl>
+
+</div>
+</div>
+<a id="a276d9d978a8670e8354cac2b589c60ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a276d9d978a8670e8354cac2b589c60ce">&#9670;&nbsp;</a></span>getStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Clock::getStart </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the time start. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return the start time since last clock start in microseconds </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/db8/a00867_a276d9d978a8670e8354cac2b589c60ce_cgraph.png" border="0" usemap="#d2/db8/a00867_a276d9d978a8670e8354cac2b589c60ce_cgraph" alt=""/></div>
+<map name="d2/db8/a00867_a276d9d978a8670e8354cac2b589c60ce_cgraph" id="d2/db8/a00867_a276d9d978a8670e8354cac2b589c60ce_cgraph">
+<area shape="rect" id="node2" href="../../d2/db8/a00867.php#a25b787edba50392a8f18995a6ae6dc9e" title="mcd::Clock::start" alt="" coords="202,5,325,32"/>
+<area shape="rect" id="node3" href="../../d2/db8/a00867.php#a3008b7b555fb4e6c3415aec152b5de2d" title="mcd::Clock::restart" alt="" coords="196,56,331,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3008b7b555fb4e6c3415aec152b5de2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3008b7b555fb4e6c3415aec152b5de2d">&#9670;&nbsp;</a></span>restart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Clock::restart </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Restart the clock </p>
+
+</div>
+</div>
+<a id="a25b787edba50392a8f18995a6ae6dc9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25b787edba50392a8f18995a6ae6dc9e">&#9670;&nbsp;</a></span>start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Clock::start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Start the clock </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9714489f034bfffabff995741d899513"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9714489f034bfffabff995741d899513">&#9670;&nbsp;</a></span>m_start</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::chrono::high_resolution_clock::time_point mcd::Clock::m_start</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20216632ae0d7b1504060826edfdd062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20216632ae0d7b1504060826edfdd062">&#9670;&nbsp;</a></span>started</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Clock::started</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d5/de0/a00050.php">console.hpp</a></li>
+<li><a class="el" href="../../d5/df9/a00044.php">Clock.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -176,7 +293,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../d2/db8/a00867.php">Reinit</a></li>
+		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../d2/db8/a00867.php">Clock</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

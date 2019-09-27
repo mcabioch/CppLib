@@ -2,13 +2,13 @@
 *
 *	\file		maths.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	September, 24 2019
+*	\modified	September, 26 2019
 *
 */
 #ifndef HEADER_CPP_MATHS
 #define HEADER_CPP_MATHS
 
-#include "C++/pointers.hpp"
+#include "C++/Binary.hpp"
 
 namespace mcd {
 	/*!

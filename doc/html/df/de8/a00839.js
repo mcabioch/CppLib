@@ -1,6 +1,6 @@
 var a00839 =
 [
-    [ "has_istream_operator", "df/de8/a00839.php#a6343682f15ad178aa8883b61094b7d2a", null ],
-    [ "~has_istream_operator", "df/de8/a00839.php#a4381564142a22fed101f4a2b2b7728b4", null ],
-    [ "value", "df/de8/a00839.php#a4ea6d2bc4fe8e15561698f6ea66d021b", null ]
+    [ "has_ostream_operator", "df/de8/a00839.php#a62ae1424b1e158747fdc66486da0f519", null ],
+    [ "~has_ostream_operator", "df/de8/a00839.php#a46e086e27236a65d185a87b1d20b4139", null ],
+    [ "value", "df/de8/a00839.php#ad1cf88abd079ce2df64d1d4f8e256a8a", null ]
 ];

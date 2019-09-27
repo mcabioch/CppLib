@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::PathfindingNode Struct Reference</title>
+		<title>C++: mcd::NotCopyable Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 14:43:16 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,44 +90,43 @@ $(document).ready(function(){initNavTree('db/dbf/a00975.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#friends">Friends</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../de/d4e/a00972.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::PathfindingNode Struct Reference</div>  </div>
+<div class="title">mcd::NotCopyable Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A node for the path.  
+<p>A class to let some other not to be copyable.  
  <a href="../../db/dbf/a00975.php#details">More...</a></p>
 
-<p><code>#include &lt;Path.hpp&gt;</code></p>
+<p><code>#include &lt;NotCopyable.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::NotCopyable:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/dce/a00974.png" border="0" usemap="#mcd_1_1NotCopyable_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1NotCopyable_inherit__map" id="mcd_1_1NotCopyable_inherit__map">
+<area shape="rect" id="node2" href="../../d4/d1c/a00903.php" title="A class to be the parent for every crypt class. " alt="" coords="185,80,279,107"/>
+<area shape="rect" id="node3" href="../../d5/d89/a00907.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="5,155,96,181"/>
+<area shape="rect" id="node4" href="../../d2/d5e/a00915.php" title="A class to test a homemade algorithm for encryption. " alt="" coords="121,155,226,181"/>
+<area shape="rect" id="node5" href="../../d1/d0b/a00919.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="249,155,332,181"/>
+<area shape="rect" id="node6" href="../../d7/d12/a00911.php" title="An implementation of sha256 encryption. " alt="" coords="356,155,447,181"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ac252a8bf89c83a96e63604fdb8eb144b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbf/a00975.php#ac252a8bf89c83a96e63604fdb8eb144b">id</a></td></tr>
-<tr class="separator:ac252a8bf89c83a96e63604fdb8eb144b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:af8e324237235cd148492d82eadf94e0c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbf/a00975.php#af8e324237235cd148492d82eadf94e0c">operator==</a> (const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;a, const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;b)</td></tr>
-<tr class="separator:af8e324237235cd148492d82eadf94e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accb5b160fd3f52084b8b83c8dddaae93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbf/a00975.php#accb5b160fd3f52084b8b83c8dddaae93">operator&lt;</a> (const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;a, const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;b)</td></tr>
-<tr class="separator:accb5b160fd3f52084b8b83c8dddaae93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeba800fc4624a565bb41c02943679938"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbf/a00975.php#aeba800fc4624a565bb41c02943679938">operator&gt;</a> (const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;a, const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;b)</td></tr>
-<tr class="separator:aeba800fc4624a565bb41c02943679938"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fe0870c6659f0faf93353dae13f198b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbf/a00975.php#a3fe0870c6659f0faf93353dae13f198b">operator!=</a> (const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;a, const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;b)</td></tr>
-<tr class="separator:a3fe0870c6659f0faf93353dae13f198b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a838d53f4f20b9d921b88c936c9b0c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbf/a00975.php#a3a838d53f4f20b9d921b88c936c9b0c6">operator&lt;=</a> (const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;a, const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;b)</td></tr>
-<tr class="separator:a3a838d53f4f20b9d921b88c936c9b0c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50c4ea549ad84f73f8eb09fc5aa2bff3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbf/a00975.php#a50c4ea549ad84f73f8eb09fc5aa2bff3">operator&gt;=</a> (const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;a, const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;b)</td></tr>
-<tr class="separator:a50c4ea549ad84f73f8eb09fc5aa2bff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aa40da048522b578e9c2cc9f73c1a0d92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbf/a00975.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a> ()</td></tr>
+<tr class="memdesc:aa40da048522b578e9c2cc9f73c1a0d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#aa40da048522b578e9c2cc9f73c1a0d92">More...</a><br /></td></tr>
+<tr class="separator:aa40da048522b578e9c2cc9f73c1a0d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5efcd02383468e37e9c960f3d6f9d14c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbf/a00975.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a> ()</td></tr>
+<tr class="separator:a5efcd02383468e37e9c960f3d6f9d14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A node for the path. </p>
-</div><h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a3fe0870c6659f0faf93353dae13f198b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fe0870c6659f0faf93353dae13f198b">&#9670;&nbsp;</a></span>operator!=</h2>
+<div class="textblock"><p>A class to let some other not to be copyable. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa40da048522b578e9c2cc9f73c1a0d92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa40da048522b578e9c2cc9f73c1a0d92">&#9670;&nbsp;</a></span>NotCopyable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,34 +135,25 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool operator!= </td>
+          <td class="memname">mcd::NotCopyable::NotCopyable </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>The constructor of the class. </p>
+
 </div>
 </div>
-<a id="accb5b160fd3f52084b8b83c8dddaae93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accb5b160fd3f52084b8b83c8dddaae93">&#9670;&nbsp;</a></span>operator<</h2>
+<a id="a5efcd02383468e37e9c960f3d6f9d14c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5efcd02383468e37e9c960f3d6f9d14c">&#9670;&nbsp;</a></span>~NotCopyable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -172,193 +162,31 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool operator&lt; </td>
+          <td class="memname">virtual mcd::NotCopyable::~NotCopyable </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/dbf/a00975_a5efcd02383468e37e9c960f3d6f9d14c_cgraph.png" border="0" usemap="#db/dbf/a00975_a5efcd02383468e37e9c960f3d6f9d14c_cgraph" alt=""/></div>
+<map name="db/dbf/a00975_a5efcd02383468e37e9c960f3d6f9d14c_cgraph" id="db/dbf/a00975_a5efcd02383468e37e9c960f3d6f9d14c_cgraph">
+<area shape="rect" id="node2" href="../../db/dbf/a00975.php#aa40da048522b578e9c2cc9f73c1a0d92" title="The constructor of the class. " alt="" coords="192,13,407,39"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="a3a838d53f4f20b9d921b88c936c9b0c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a838d53f4f20b9d921b88c936c9b0c6">&#9670;&nbsp;</a></span>operator<=</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator&lt;= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af8e324237235cd148492d82eadf94e0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8e324237235cd148492d82eadf94e0c">&#9670;&nbsp;</a></span>operator==</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aeba800fc4624a565bb41c02943679938"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeba800fc4624a565bb41c02943679938">&#9670;&nbsp;</a></span>operator></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator&gt; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a50c4ea549ad84f73f8eb09fc5aa2bff3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50c4ea549ad84f73f8eb09fc5aa2bff3">&#9670;&nbsp;</a></span>operator>=</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator&gt;= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac252a8bf89c83a96e63604fdb8eb144b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac252a8bf89c83a96e63604fdb8eb144b">&#9670;&nbsp;</a></span>id</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t mcd::PathfindingNode::id</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../de/d76/a00134.php">Path.hpp</a></li>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d1/d88/a00128.php">NotCopyable.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -366,7 +194,7 @@ Friends</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a></li>
+		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../db/dbf/a00975.php">NotCopyable</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

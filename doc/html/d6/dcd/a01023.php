@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Referenced&lt; C &gt; Class Template Reference</title>
+		<title>C++: mcd::Check::is_thread_ptr&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 14:43:16 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,82 +90,47 @@ $(document).ready(function(){initNavTree('d6/dcd/a01023.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../d0/d43/a01020.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Referenced&lt; C &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Check::is_thread_ptr&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to have a reference to the class' pointer.  
+<p>A template class to test if T is a std::shared_ptr&lt;std::thread&gt;, a std::unique_ptr&lt;std::thread&gt;, a std::weak_ptr&lt;std::thread&gt; or a std::thread*.  
  <a href="../../d6/dcd/a01023.php#details">More...</a></p>
 
-<p><code>#include &lt;Referenced.hpp&gt;</code></p>
+<p><code>#include &lt;pointers.hpp&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a23a4eee18708dae4eff05079a345c375"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dcd/a01023.php#a23a4eee18708dae4eff05079a345c375">Referenced</a> (C *her)</td></tr>
-<tr class="separator:a23a4eee18708dae4eff05079a345c375"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a3aadcf63bff72dd8c87f4c1d7a3bd240"><td class="memItemLeft" align="right" valign="top">C &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dcd/a01023.php#a3aadcf63bff72dd8c87f4c1d7a3bd240">_her</a></td></tr>
-<tr class="separator:a3aadcf63bff72dd8c87f4c1d7a3bd240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aeaf71256c26f5b5be4a5e5db9035500b"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dcd/a01023.php#aeaf71256c26f5b5be4a5e5db9035500b">value</a> = false</td></tr>
+<tr class="separator:aeaf71256c26f5b5be4a5e5db9035500b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class C&gt;<br />
-class mcd::Referenced&lt; C &gt;</h3>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class mcd::Check::is_thread_ptr&lt; T &gt;</h3>
 
-<p>A class to have a reference to the class' pointer. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a23a4eee18708dae4eff05079a345c375"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23a4eee18708dae4eff05079a345c375">&#9670;&nbsp;</a></span>Referenced()</h2>
+<p>A template class to test if T is a std::shared_ptr&lt;std::thread&gt;, a std::unique_ptr&lt;std::thread&gt;, a std::weak_ptr&lt;std::thread&gt; or a std::thread*. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="aeaf71256c26f5b5be4a5e5db9035500b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaf71256c26f5b5be4a5e5db9035500b">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class C &gt; </div>
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/dcd/a01023.php">mcd::Referenced</a>&lt; C &gt;::<a class="el" href="../../d6/dcd/a01023.php">Referenced</a> </td>
-          <td>(</td>
-          <td class="paramtype">C *&#160;</td>
-          <td class="paramname"><em>her</em></td><td>)</td>
-          <td></td>
+          <td class="memname">const bool <a class="el" href="../../d6/dcd/a01023.php">mcd::Check::is_thread_ptr</a>&lt; T &gt;::value = false</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a3aadcf63bff72dd8c87f4c1d7a3bd240"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3aadcf63bff72dd8c87f4c1d7a3bd240">&#9670;&nbsp;</a></span>_her</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">C&amp; <a class="el" href="../../d6/dcd/a01023.php">mcd::Referenced</a>&lt; C &gt;::_her</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -173,7 +138,7 @@ template&lt;class C &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../dc/de6/a00167.php">Referenced.hpp</a></li>
+<li><a class="el" href="../../d6/d7d/a00161.php">pointers.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -181,7 +146,7 @@ template&lt;class C &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../d6/dcd/a01023.php">Referenced</a></li>
+		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../d3/dd5/a00215.php">Check</a></li><li class="navelem"><a class="el" href="../../d6/dcd/a01023.php">is_thread_ptr</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

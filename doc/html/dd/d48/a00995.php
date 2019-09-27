@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::PathfindingProblem Class Reference</title>
+		<title>C++: mcd::PathfindingDijkstra Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 14:43:16 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -91,71 +91,96 @@ $(document).ready(function(){initNavTree('dd/d48/a00995.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d7/d76/a00992.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::PathfindingProblem Class Reference</div>  </div>
+<div class="title">mcd::PathfindingDijkstra Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to group every pathfinding problems in one way to use it.  
+<p>An implementation of the Dijkstra algorithm.  
  <a href="../../dd/d48/a00995.php#details">More...</a></p>
 
-<p><code>#include &lt;PathfindingProblem.hpp&gt;</code></p>
+<p><code>#include &lt;PathfindingDijkstra.hpp&gt;</code></p>
 <div class="dynheader">
-Collaboration diagram for mcd::PathfindingProblem:</div>
+Inheritance diagram for mcd::PathfindingDijkstra:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/d0a/a00993.png" border="0" usemap="#mcd_1_1PathfindingProblem_coll__map" alt="Collaboration graph"/></div>
-<map name="mcd_1_1PathfindingProblem_coll__map" id="mcd_1_1PathfindingProblem_coll__map">
-<area shape="rect" id="node3" title="STL class. " alt="" coords="163,58,286,85"/>
-<area shape="rect" id="node9" title="STL class. " alt="" coords="167,130,283,157"/>
-<area shape="rect" id="node8" href="../../db/dbf/a00975.php" title="A node for the path. " alt="" coords="149,181,300,207"/>
+<div class="center"><img src="../../d4/dd0/a00994.png" border="0" usemap="#mcd_1_1PathfindingDijkstra_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1PathfindingDijkstra_inherit__map" id="mcd_1_1PathfindingDijkstra_inherit__map">
+<area shape="rect" id="node2" href="../../df/d2f/a00991.php" title="A class to implement some pathfinding algorithms. " alt="" coords="28,5,148,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::PathfindingDijkstra:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d0a/a00993.png" border="0" usemap="#mcd_1_1PathfindingDijkstra_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1PathfindingDijkstra_coll__map" id="mcd_1_1PathfindingDijkstra_coll__map">
+<area shape="rect" id="node2" href="../../df/d2f/a00991.php" title="A class to implement some pathfinding algorithms. " alt="" coords="1107,64,1227,91"/>
+<area shape="rect" id="node3" href="../../d4/d21/a00987.php" title="A class to manage a path computed by the map. " alt="" coords="727,5,809,32"/>
+<area shape="rect" id="node4" href="../../d7/d98/a00983.php" title="A node for the path. " alt="" coords="149,64,300,91"/>
+<area shape="rect" id="node5" href="../../dc/d10/a01003.php" title="A class to group every pathfinding problems in one way to use it. " alt="" coords="833,167,1001,193"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="163,220,286,247"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="167,144,283,171"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af2aa5f359715262ae600422bb49e79af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d48/a00995.php#af2aa5f359715262ae600422bb49e79af">PathfindingProblem</a> (std::vector&lt; <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &gt; <a class="el" href="../../dd/d48/a00995.php#adb3befe767011d5d5738d1e4cb756e09">nodes</a>, std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt; <a class="el" href="../../dd/d48/a00995.php#ae7e5173f36187aeb5e1c334d60f2c914">distances</a>)</td></tr>
-<tr class="memdesc:af2aa5f359715262ae600422bb49e79af"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#af2aa5f359715262ae600422bb49e79af">More...</a><br /></td></tr>
-<tr class="separator:af2aa5f359715262ae600422bb49e79af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d48/a00995.php#a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0">PathfindingProblem</a> (std::vector&lt; <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &gt; <a class="el" href="../../dd/d48/a00995.php#adb3befe767011d5d5738d1e4cb756e09">nodes</a>, std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt; <a class="el" href="../../dd/d48/a00995.php#ae7e5173f36187aeb5e1c334d60f2c914">distances</a>, std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt; <a class="el" href="../../dd/d48/a00995.php#ab5fbef9d1844f398fffd1dbc2870adef">weights</a>)</td></tr>
-<tr class="separator:a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bf356ad792ba79df121cedf0501f6f1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d48/a00995.php#a0bf356ad792ba79df121cedf0501f6f1">~PathfindingProblem</a> ()</td></tr>
-<tr class="separator:a0bf356ad792ba79df121cedf0501f6f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e8246fb84c8dd3bf9e522f3fca7b39e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d48/a00995.php#a8e8246fb84c8dd3bf9e522f3fca7b39e">PathfindingDijkstra</a> (const <a class="el" href="../../dc/d10/a01003.php">PathfindingProblem</a> &amp;problem, const <a class="el" href="../../d7/d98/a00983.php">PathfindingNode</a> &amp;start, const <a class="el" href="../../d7/d98/a00983.php">PathfindingNode</a> &amp;end)</td></tr>
+<tr class="memdesc:a8e8246fb84c8dd3bf9e522f3fca7b39e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a8e8246fb84c8dd3bf9e522f3fca7b39e">More...</a><br /></td></tr>
+<tr class="separator:a8e8246fb84c8dd3bf9e522f3fca7b39e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae9b7cf4f57d826b9f7e65d9410b572e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d48/a00995.php#aae9b7cf4f57d826b9f7e65d9410b572e">~PathfindingDijkstra</a> ()</td></tr>
+<tr class="separator:aae9b7cf4f57d826b9f7e65d9410b572e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b2872207d45871fcbcfa01e216090dd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d21/a00987.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d48/a00995.php#a7b2872207d45871fcbcfa01e216090dd">createPath</a> () override</td></tr>
+<tr class="memdesc:a7b2872207d45871fcbcfa01e216090dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the path to follow.  <a href="#a7b2872207d45871fcbcfa01e216090dd">More...</a><br /></td></tr>
+<tr class="separator:a7b2872207d45871fcbcfa01e216090dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00991"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00991')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../df/d2f/a00991.php">mcd::Pathfinding</a></td></tr>
+<tr class="memitem:aca54568ec2e832b3f08ef6f86c7184f2 inherit pub_methods_a00991"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2f/a00991.php#aca54568ec2e832b3f08ef6f86c7184f2">Pathfinding</a> (const <a class="el" href="../../dc/d10/a01003.php">PathfindingProblem</a> &amp;problem, const <a class="el" href="../../d7/d98/a00983.php">PathfindingNode</a> &amp;start, const <a class="el" href="../../d7/d98/a00983.php">PathfindingNode</a> &amp;end)</td></tr>
+<tr class="memdesc:aca54568ec2e832b3f08ef6f86c7184f2 inherit pub_methods_a00991"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../df/d2f/a00991.php#aca54568ec2e832b3f08ef6f86c7184f2">More...</a><br /></td></tr>
+<tr class="separator:aca54568ec2e832b3f08ef6f86c7184f2 inherit pub_methods_a00991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cb06bc7729ad6371ad3380e0fd54f51 inherit pub_methods_a00991"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2f/a00991.php#a4cb06bc7729ad6371ad3380e0fd54f51">~Pathfinding</a> ()</td></tr>
+<tr class="separator:a4cb06bc7729ad6371ad3380e0fd54f51 inherit pub_methods_a00991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac59e95d415c520941c5bac355537df7f inherit pub_methods_a00991"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d21/a00987.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2f/a00991.php#ac59e95d415c520941c5bac355537df7f">getPath</a> ()</td></tr>
+<tr class="memdesc:ac59e95d415c520941c5bac355537df7f inherit pub_methods_a00991"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the path to follow.  <a href="../../df/d2f/a00991.php#ac59e95d415c520941c5bac355537df7f">More...</a><br /></td></tr>
+<tr class="separator:ac59e95d415c520941c5bac355537df7f inherit pub_methods_a00991"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:adb3befe767011d5d5738d1e4cb756e09"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d48/a00995.php#adb3befe767011d5d5738d1e4cb756e09">nodes</a></td></tr>
-<tr class="separator:adb3befe767011d5d5738d1e4cb756e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87c634685eea28780ddc10b7aa08af07"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d48/a00995.php#a87c634685eea28780ddc10b7aa08af07">nbNodes</a></td></tr>
-<tr class="separator:a87c634685eea28780ddc10b7aa08af07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7e5173f36187aeb5e1c334d60f2c914"><td class="memItemLeft" align="right" valign="top">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d48/a00995.php#ae7e5173f36187aeb5e1c334d60f2c914">distances</a></td></tr>
-<tr class="separator:ae7e5173f36187aeb5e1c334d60f2c914"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5fbef9d1844f398fffd1dbc2870adef"><td class="memItemLeft" align="right" valign="top">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d48/a00995.php#ab5fbef9d1844f398fffd1dbc2870adef">weights</a></td></tr>
-<tr class="separator:ab5fbef9d1844f398fffd1dbc2870adef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70c60dedee9b93e8bcd750a60e37ecfd"><td class="memItemLeft" align="right" valign="top">std::map&lt; size_t, std::map&lt; size_t, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d48/a00995.php#a70c60dedee9b93e8bcd750a60e37ecfd">computed</a></td></tr>
-<tr class="separator:a70c60dedee9b93e8bcd750a60e37ecfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_a00991"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00991')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../df/d2f/a00991.php">mcd::Pathfinding</a></td></tr>
+<tr class="memitem:a8432f285b7015512efbe0a9a47bc76d7 inherit pro_attribs_a00991"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d10/a01003.php">PathfindingProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2f/a00991.php#a8432f285b7015512efbe0a9a47bc76d7">_problem</a></td></tr>
+<tr class="separator:a8432f285b7015512efbe0a9a47bc76d7 inherit pro_attribs_a00991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc13e2aa513059f91865021b9b13eed inherit pro_attribs_a00991"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d98/a00983.php">PathfindingNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2f/a00991.php#a6fc13e2aa513059f91865021b9b13eed">_start</a></td></tr>
+<tr class="separator:a6fc13e2aa513059f91865021b9b13eed inherit pro_attribs_a00991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f42595f214b1d2328d40c7fcf371626 inherit pro_attribs_a00991"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d98/a00983.php">PathfindingNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2f/a00991.php#a6f42595f214b1d2328d40c7fcf371626">_end</a></td></tr>
+<tr class="separator:a6f42595f214b1d2328d40c7fcf371626 inherit pro_attribs_a00991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa7ec4aec9e8ed4aba2c3110ca86273f inherit pro_attribs_a00991"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d21/a00987.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2f/a00991.php#afa7ec4aec9e8ed4aba2c3110ca86273f">_path</a></td></tr>
+<tr class="separator:afa7ec4aec9e8ed4aba2c3110ca86273f inherit pro_attribs_a00991"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to group every pathfinding problems in one way to use it. </p>
+<div class="textblock"><p>An implementation of the Dijkstra algorithm. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af2aa5f359715262ae600422bb49e79af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2aa5f359715262ae600422bb49e79af">&#9670;&nbsp;</a></span>PathfindingProblem() <span class="overload">[1/2]</span></h2>
+<a id="a8e8246fb84c8dd3bf9e522f3fca7b39e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e8246fb84c8dd3bf9e522f3fca7b39e">&#9670;&nbsp;</a></span>PathfindingDijkstra()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::PathfindingProblem::PathfindingProblem </td>
+          <td class="memname">mcd::PathfindingDijkstra::PathfindingDijkstra </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &gt;&#160;</td>
-          <td class="paramname"><em>nodes</em>, </td>
+          <td class="paramtype">const <a class="el" href="../../dc/d10/a01003.php">PathfindingProblem</a> &amp;&#160;</td>
+          <td class="paramname"><em>problem</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td>
-          <td class="paramname"><em>distances</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d7/d98/a00983.php">PathfindingNode</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d7/d98/a00983.php">PathfindingNode</a> &amp;&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -166,45 +191,19 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The constructor of the class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">problem</td><td>The problem to solve </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start</td><td>The start point index </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end</td><td>The end point index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0">&#9670;&nbsp;</a></span>PathfindingProblem() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::PathfindingProblem::PathfindingProblem </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a> &gt;&#160;</td>
-          <td class="paramname"><em>nodes</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td>
-          <td class="paramname"><em>distances</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td>
-          <td class="paramname"><em>weights</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0bf356ad792ba79df121cedf0501f6f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bf356ad792ba79df121cedf0501f6f1">&#9670;&nbsp;</a></span>~PathfindingProblem()</h2>
+<a id="aae9b7cf4f57d826b9f7e65d9410b572e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae9b7cf4f57d826b9f7e65d9410b572e">&#9670;&nbsp;</a></span>~PathfindingDijkstra()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,7 +212,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::PathfindingProblem::~PathfindingProblem </td>
+          <td class="memname">virtual mcd::PathfindingDijkstra::~PathfindingDijkstra </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -228,79 +227,38 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a70c60dedee9b93e8bcd750a60e37ecfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70c60dedee9b93e8bcd750a60e37ecfd">&#9670;&nbsp;</a></span>computed</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7b2872207d45871fcbcfa01e216090dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b2872207d45871fcbcfa01e216090dd">&#9670;&nbsp;</a></span>createPath()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;size_t, std::map&lt;size_t, bool&gt; &gt; mcd::PathfindingProblem::computed</td>
+          <td class="memname">virtual <a class="el" href="../../d4/d21/a00987.php">Path</a> mcd::PathfindingDijkstra::createPath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ae7e5173f36187aeb5e1c334d60f2c914"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7e5173f36187aeb5e1c334d60f2c914">&#9670;&nbsp;</a></span>distances</h2>
+<p>Compute the path to follow. </p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;size_t, std::map&lt;size_t, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&gt; &gt; mcd::PathfindingProblem::distances</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a87c634685eea28780ddc10b7aa08af07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87c634685eea28780ddc10b7aa08af07">&#9670;&nbsp;</a></span>nbNodes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t mcd::PathfindingProblem::nbNodes</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adb3befe767011d5d5738d1e4cb756e09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb3befe767011d5d5738d1e4cb756e09">&#9670;&nbsp;</a></span>nodes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a>&gt; mcd::PathfindingProblem::nodes</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab5fbef9d1844f398fffd1dbc2870adef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5fbef9d1844f398fffd1dbc2870adef">&#9670;&nbsp;</a></span>weights</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;size_t, std::map&lt;size_t, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&gt; &gt; mcd::PathfindingProblem::weights</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Implements <a class="el" href="../../df/d2f/a00991.php#a9a82c779fba2fba8d5adbd1c22ea8c0d">mcd::Pathfinding</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../da/d1e/a00149.php">PathfindingProblem.hpp</a></li>
+<li><a class="el" href="../../d7/dce/a00143.php">PathfindingDijkstra.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -308,7 +266,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d48/a00995.php">PathfindingProblem</a></li>
+		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d48/a00995.php">PathfindingDijkstra</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

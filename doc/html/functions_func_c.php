@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,60 +93,60 @@ $(document).ready(function(){initNavTree('functions_func_c.php','');});
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>Cesar()
-: <a class="el" href="da/dd6/a00896.php#a01dc2192c075a4cbed0a72a9c35e1a4b">mcd::Cesar</a>
+: <a class="el" href="d5/d89/a00907.php#a01dc2192c075a4cbed0a72a9c35e1a4b">mcd::Cesar</a>
 </li>
 <li>clear()
-: <a class="el" href="de/d49/a00952.php#ab8a3794bcdcff4ad8875c6799eb4ab58">mcd::Map</a>
+: <a class="el" href="de/dad/a00963.php#ab8a3794bcdcff4ad8875c6799eb4ab58">mcd::Map</a>
 </li>
 <li>Clock()
-: <a class="el" href="da/de3/a00856.php#ae0aa0853cddce8c1e8c4339eb7016223">mcd::Clock</a>
+: <a class="el" href="d2/db8/a00867.php#ae0aa0853cddce8c1e8c4339eb7016223">mcd::Clock</a>
 </li>
 <li>Cls()
-: <a class="el" href="da/d5b/a00868.php#a77e97110dfe29cae01d63a618cff4ed4">mcd::Cls</a>
+: <a class="el" href="d2/da1/a00879.php#a77e97110dfe29cae01d63a618cff4ed4">mcd::Cls</a>
 </li>
 <li>collides()
-: <a class="el" href="d8/db4/a00760.php#a840fecd8d230987dbd76d241df6557ec">mcd::Animal</a>
+: <a class="el" href="d3/de3/a00763.php#a840fecd8d230987dbd76d241df6557ec">mcd::Animal</a>
 </li>
 <li>collidesCircle()
-: <a class="el" href="d8/db4/a00760.php#acc4dd4c0013f6496706bc2c23824cbf9">mcd::Animal</a>
+: <a class="el" href="d3/de3/a00763.php#acc4dd4c0013f6496706bc2c23824cbf9">mcd::Animal</a>
 </li>
 <li>collidesRect()
-: <a class="el" href="d8/db4/a00760.php#a0a1bd6e6440207bf2f281dcca32e7f25">mcd::Animal</a>
+: <a class="el" href="d3/de3/a00763.php#a0a1bd6e6440207bf2f281dcca32e7f25">mcd::Animal</a>
 </li>
 <li>Color()
-: <a class="el" href="d2/d5e/a00860.php#a81a4808e8eb05c0a23cd90da4d8569ec">mcd::Color</a>
+: <a class="el" href="dd/de1/a00871.php#a81a4808e8eb05c0a23cd90da4d8569ec">mcd::Color</a>
 </li>
 <li>consolePrint()
-: <a class="el" href="de/d49/a00952.php#afc568b008b11652ff93bf281f16f9f86">mcd::Map</a>
+: <a class="el" href="de/dad/a00963.php#afc568b008b11652ff93bf281f16f9f86">mcd::Map</a>
 </li>
 <li>ConsoleTable()
-: <a class="el" href="dd/d08/a00884.php#acc7af9ad8f4b7175a82acb2edfce15b2">mcd::ConsoleTable</a>
+: <a class="el" href="d2/d21/a00895.php#acc7af9ad8f4b7175a82acb2edfce15b2">mcd::ConsoleTable</a>
 </li>
 <li>Contraption()
-: <a class="el" href="dd/d94/a00888.php#a807590a9e81f34ba22aca08ddd986db7">mcd::Contraption</a>
+: <a class="el" href="d3/d8a/a00899.php#a807590a9e81f34ba22aca08ddd986db7">mcd::Contraption</a>
 </li>
 <li>convert()
-: <a class="el" href="d5/de7/a01048.php#a22b22135964e818cd9d0ef9ded9f39de">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d0/d90/a01059.php#a22b22135964e818cd9d0ef9ded9f39de">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>create()
-: <a class="el" href="d5/de7/a01048.php#a3a02b5886471e9607d6dd9caa3216657">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d0/d90/a01059.php#a3a02b5886471e9607d6dd9caa3216657">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>createPath()
-: <a class="el" href="db/d20/a00980.php#a9a82c779fba2fba8d5adbd1c22ea8c0d">mcd::Pathfinding</a>
-, <a class="el" href="d2/d4c/a00984.php#a7b2872207d45871fcbcfa01e216090dd">mcd::PathfindingDijkstra</a>
+: <a class="el" href="df/d2f/a00991.php#a9a82c779fba2fba8d5adbd1c22ea8c0d">mcd::Pathfinding</a>
+, <a class="el" href="dd/d48/a00995.php#a7b2872207d45871fcbcfa01e216090dd">mcd::PathfindingDijkstra</a>
 </li>
 <li>crypt()
-: <a class="el" href="da/dd6/a00896.php#a97036e8c40e9aafa4a0d7f44df6fcac7">mcd::Cesar</a>
-, <a class="el" href="d0/de2/a00892.php#a2949148382033667a765326066311f21">mcd::Crypto</a>
-, <a class="el" href="d8/d0a/a00904.php#a73db8d36191071f9ca2e5fe62d75a0d0">mcd::MyCrypt</a>
-, <a class="el" href="d0/d85/a00908.php#ad080bbc2c65c9690f38fa376ca65a985">mcd::RSA</a>
-, <a class="el" href="d9/db0/a00900.php#ad8366a3e1e990f5faaf956599832fa8b">mcd::SHA2</a>
+: <a class="el" href="d5/d89/a00907.php#a97036e8c40e9aafa4a0d7f44df6fcac7">mcd::Cesar</a>
+, <a class="el" href="d4/d1c/a00903.php#a2949148382033667a765326066311f21">mcd::Crypto</a>
+, <a class="el" href="d2/d5e/a00915.php#a73db8d36191071f9ca2e5fe62d75a0d0">mcd::MyCrypt</a>
+, <a class="el" href="d1/d0b/a00919.php#ad080bbc2c65c9690f38fa376ca65a985">mcd::RSA</a>
+, <a class="el" href="d7/d12/a00911.php#ad8366a3e1e990f5faaf956599832fa8b">mcd::SHA2</a>
 </li>
 <li>Crypto()
-: <a class="el" href="d0/de2/a00892.php#a3f598383428868a9f69502e5de031ea5">mcd::Crypto</a>
+: <a class="el" href="d4/d1c/a00903.php#a3f598383428868a9f69502e5de031ea5">mcd::Crypto</a>
 </li>
 <li>cut()
-: <a class="el" href="d9/db3/a01064.php#aaefd316150694e10be401d7f6ef2d973">mcd::Vegetal</a>
+: <a class="el" href="dd/d80/a01075.php#aaefd316150694e10be401d7f6ef2d973">mcd::Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

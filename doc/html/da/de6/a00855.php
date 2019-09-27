@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Check::is_special_struct&lt; T &gt; Class Template Reference</title>
+		<title>C++: mcd::Check::is_printable&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 14:43:16 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,28 +93,28 @@ $(document).ready(function(){initNavTree('da/de6/a00855.php','../../');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../d9/dbb/a00852.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_special_struct&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Check::is_printable&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A template class to test if T is a special struct.  
+<p>A template class to test if T is printable.  
  <a href="../../da/de6/a00855.php#details">More...</a></p>
 
 <p><code>#include &lt;check.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a9347b60a434f2cfd40453cc7856c3918"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/de6/a00855.php#a9347b60a434f2cfd40453cc7856c3918">value</a></td></tr>
-<tr class="separator:a9347b60a434f2cfd40453cc7856c3918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae62c92a381f9915ca93aeb48aadeeebc"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/de6/a00855.php#ae62c92a381f9915ca93aeb48aadeeebc">value</a> = <a class="el" href="../../df/de8/a00839.php">has_ostream_operator</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:ae62c92a381f9915ca93aeb48aadeeebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_special_struct&lt; T &gt;</h3>
+class mcd::Check::is_printable&lt; T &gt;</h3>
 
-<p>A template class to test if T is a special struct. </p>
+<p>A template class to test if T is printable. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a9347b60a434f2cfd40453cc7856c3918"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9347b60a434f2cfd40453cc7856c3918">&#9670;&nbsp;</a></span>value</h2>
+<a id="ae62c92a381f9915ca93aeb48aadeeebc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae62c92a381f9915ca93aeb48aadeeebc">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125,7 +125,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const bool <a class="el" href="../../da/de6/a00855.php">mcd::Check::is_special_struct</a>&lt; T &gt;::value</td>
+          <td class="memname">const bool <a class="el" href="../../da/de6/a00855.php">mcd::Check::is_printable</a>&lt; T &gt;::value = <a class="el" href="../../df/de8/a00839.php">has_ostream_operator</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>
@@ -134,7 +134,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= <a class="code" href="../../d5/d72/a00803.php#ac3fa87bfb2551b3a98cac89a0c39b2ba">is_pair&lt;T&gt;::value</a> ||</div><div class="line">                                          <a class="code" href="../../df/dc7/a00807.php#a35b153eb448f4f520fbab10d63317262">is_trio&lt;T&gt;::value</a> ||</div><div class="line">                                          <a class="code" href="../../dd/d07/a00811.php#a89743328c29104ad4f66261b0ba77611">is_quatuor&lt;T&gt;::value</a></div></div><!-- fragment -->
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -146,7 +146,7 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../d3/dd5/a00215.php">Check</a></li><li class="navelem"><a class="el" href="../../da/de6/a00855.php">is_special_struct</a></li>
+		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../d3/dd5/a00215.php">Check</a></li><li class="navelem"><a class="el" href="../../da/de6/a00855.php">is_printable</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

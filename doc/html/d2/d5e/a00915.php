@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Date Class Reference</title>
+		<title>C++: mcd::MyCrypt Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 14:43:16 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -91,104 +91,70 @@ $(document).ready(function(){initNavTree('d2/d5e/a00915.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="../../df/da5/a00912.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Date Class Reference</div>  </div>
+<div class="title">mcd::MyCrypt Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to play with dates.  
+<p>A class to test a homemade algorithm for encryption.  
  <a href="../../d2/d5e/a00915.php#details">More...</a></p>
 
-<p><code>#include &lt;Date.hpp&gt;</code></p>
+<p><code>#include &lt;cryptage.hpp&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for mcd::Date:</div>
+Inheritance diagram for mcd::MyCrypt:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/dd1/a00914.png" border="0" usemap="#mcd_1_1Date_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1Date_inherit__map" id="mcd_1_1Date_inherit__map">
-<area shape="rect" id="node2" href="../../d1/d0b/a00919.php" title="A class to play with dates and times. " alt="" coords="5,80,117,107"/>
+<div class="center"><img src="../../d3/dd1/a00914.png" border="0" usemap="#mcd_1_1MyCrypt_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1MyCrypt_inherit__map" id="mcd_1_1MyCrypt_inherit__map">
+<area shape="rect" id="node2" href="../../d4/d1c/a00903.php" title="A class to be the parent for every crypt class. " alt="" coords="23,80,118,107"/>
+<area shape="rect" id="node3" href="../../db/dbf/a00975.php" title="A class to let some other not to be copyable. " alt="" coords="5,5,136,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::MyCrypt:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/dfb/a00913.png" border="0" usemap="#mcd_1_1MyCrypt_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1MyCrypt_coll__map" id="mcd_1_1MyCrypt_coll__map">
+<area shape="rect" id="node2" href="../../d4/d1c/a00903.php" title="A class to be the parent for every crypt class. " alt="" coords="23,80,118,107"/>
+<area shape="rect" id="node3" href="../../db/dbf/a00975.php" title="A class to let some other not to be copyable. " alt="" coords="5,5,136,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a032af1a0d48dcd6e6728b1855a75321d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#a032af1a0d48dcd6e6728b1855a75321d">Date</a> ()</td></tr>
-<tr class="separator:a032af1a0d48dcd6e6728b1855a75321d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd7aa05c6b0ea16321dce8b8dfb09f33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#acd7aa05c6b0ea16321dce8b8dfb09f33">Date</a> (std::string date)</td></tr>
-<tr class="separator:acd7aa05c6b0ea16321dce8b8dfb09f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5">~Date</a> ()</td></tr>
-<tr class="separator:acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10a48f5b93ee6c3e7ba43c5de5fa56bd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#a10a48f5b93ee6c3e7ba43c5de5fa56bd">day</a> () const</td></tr>
-<tr class="separator:a10a48f5b93ee6c3e7ba43c5de5fa56bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3682f8457850fbb2899afc7967dc9bc9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#a3682f8457850fbb2899afc7967dc9bc9">strDay</a> () const</td></tr>
-<tr class="separator:a3682f8457850fbb2899afc7967dc9bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a96b0ddfd20e6cc5da855b70be4c1f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">weekDay</a> () const</td></tr>
-<tr class="separator:a9a96b0ddfd20e6cc5da855b70be4c1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9af5d47e5785c0c16217e5b4914bc9a0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#a9af5d47e5785c0c16217e5b4914bc9a0">yearDay</a> () const</td></tr>
-<tr class="separator:a9af5d47e5785c0c16217e5b4914bc9a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1b8bcad43aa4fa7f5bccf350c348bbf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#aa1b8bcad43aa4fa7f5bccf350c348bbf">monthWeek</a> () const</td></tr>
-<tr class="separator:aa1b8bcad43aa4fa7f5bccf350c348bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a211971964081aac6bf13b0c670307b54"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#a211971964081aac6bf13b0c670307b54">yearWeek</a> () const</td></tr>
-<tr class="separator:a211971964081aac6bf13b0c670307b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaf4a92c344f8b9d8b88e22cbc710013"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#aeaf4a92c344f8b9d8b88e22cbc710013">month</a> () const</td></tr>
-<tr class="separator:aeaf4a92c344f8b9d8b88e22cbc710013"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09230be2f6ef6b2620dec0023bd1b1a0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#a09230be2f6ef6b2620dec0023bd1b1a0">strMonth</a> () const</td></tr>
-<tr class="separator:a09230be2f6ef6b2620dec0023bd1b1a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30f0e5cc134d8da80f4b68aad4f92674"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#a30f0e5cc134d8da80f4b68aad4f92674">year</a> () const</td></tr>
-<tr class="separator:a30f0e5cc134d8da80f4b68aad4f92674"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae49213decf493093a5cb259af8d46aae"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#ae49213decf493093a5cb259af8d46aae">get</a> (std::string format=&quot;%Y-%m-%d&quot;) const</td></tr>
-<tr class="separator:ae49213decf493093a5cb259af8d46aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9fb4557d7fab62e3df37e391a499a3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#ac9fb4557d7fab62e3df37e391a499a3e">set</a> (std::string date)</td></tr>
-<tr class="separator:ac9fb4557d7fab62e3df37e391a499a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a17a08ca52b3ec69d178a997c07a5ca1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#a17a08ca52b3ec69d178a997c07a5ca1c">init</a> ()</td></tr>
-<tr class="separator:a17a08ca52b3ec69d178a997c07a5ca1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22f293eaa9698511e9657c60ee1557f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#a22f293eaa9698511e9657c60ee1557f7">reset</a> ()</td></tr>
-<tr class="separator:a22f293eaa9698511e9657c60ee1557f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac618fc32b73d9bb13b07bc9db802cbef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#ac618fc32b73d9bb13b07bc9db802cbef">MyCrypt</a> ()</td></tr>
+<tr class="separator:ac618fc32b73d9bb13b07bc9db802cbef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e5b32554500cf6843d09009fbaafbc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#a3e5b32554500cf6843d09009fbaafbc9">~MyCrypt</a> ()</td></tr>
+<tr class="separator:a3e5b32554500cf6843d09009fbaafbc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73db8d36191071f9ca2e5fe62d75a0d0"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#a73db8d36191071f9ca2e5fe62d75a0d0">crypt</a> (const std::string &amp;str, const std::string &amp;key)</td></tr>
+<tr class="memdesc:a73db8d36191071f9ca2e5fe62d75a0d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crypt the message with a pass key.  <a href="#a73db8d36191071f9ca2e5fe62d75a0d0">More...</a><br /></td></tr>
+<tr class="separator:a73db8d36191071f9ca2e5fe62d75a0d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18850d238fad5966016ef020c05f82ce"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#a18850d238fad5966016ef020c05f82ce">decrypt</a> (const std::string &amp;str, const std::string &amp;key)</td></tr>
+<tr class="memdesc:a18850d238fad5966016ef020c05f82ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrypt the message with a pass key.  <a href="#a18850d238fad5966016ef020c05f82ce">More...</a><br /></td></tr>
+<tr class="separator:a18850d238fad5966016ef020c05f82ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee90d618d42b9a7d9057a0bfc1f769c2"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#aee90d618d42b9a7d9057a0bfc1f769c2">crypt</a> (const std::string &amp;str) override</td></tr>
+<tr class="memdesc:aee90d618d42b9a7d9057a0bfc1f769c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the crypt <a class="el" href="../../d4/d1c/a00903.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method.  <a href="#aee90d618d42b9a7d9057a0bfc1f769c2">More...</a><br /></td></tr>
+<tr class="separator:aee90d618d42b9a7d9057a0bfc1f769c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1f14b79c663f1347bef0d7ba017449d"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php#ac1f14b79c663f1347bef0d7ba017449d">decrypt</a> (const std::string &amp;str) override</td></tr>
+<tr class="memdesc:ac1f14b79c663f1347bef0d7ba017449d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the decrypt <a class="el" href="../../d4/d1c/a00903.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method.  <a href="#ac1f14b79c663f1347bef0d7ba017449d">More...</a><br /></td></tr>
+<tr class="separator:ac1f14b79c663f1347bef0d7ba017449d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00903"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00903')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d4/d1c/a00903.php">mcd::Crypto</a></td></tr>
+<tr class="memitem:a3f598383428868a9f69502e5de031ea5 inherit pub_methods_a00903"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1c/a00903.php#a3f598383428868a9f69502e5de031ea5">Crypto</a> ()</td></tr>
+<tr class="separator:a3f598383428868a9f69502e5de031ea5 inherit pub_methods_a00903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16276f74e2eac6b2174d06361791f056 inherit pub_methods_a00903"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1c/a00903.php#a16276f74e2eac6b2174d06361791f056">~Crypto</a> ()</td></tr>
+<tr class="separator:a16276f74e2eac6b2174d06361791f056 inherit pub_methods_a00903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00975"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00975')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../db/dbf/a00975.php">mcd::NotCopyable</a></td></tr>
+<tr class="memitem:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a00975"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbf/a00975.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a> ()</td></tr>
+<tr class="memdesc:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a00975"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../db/dbf/a00975.php#aa40da048522b578e9c2cc9f73c1a0d92">More...</a><br /></td></tr>
+<tr class="separator:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a00975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5efcd02383468e37e9c960f3d6f9d14c inherit pub_methods_a00975"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbf/a00975.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a> ()</td></tr>
+<tr class="separator:a5efcd02383468e37e9c960f3d6f9d14c inherit pub_methods_a00975"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to play with dates. </p>
+<div class="textblock"><p>A class to test a homemade algorithm for encryption. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a032af1a0d48dcd6e6728b1855a75321d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a032af1a0d48dcd6e6728b1855a75321d">&#9670;&nbsp;</a></span>Date() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::Date::Date </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acd7aa05c6b0ea16321dce8b8dfb09f33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd7aa05c6b0ea16321dce8b8dfb09f33">&#9670;&nbsp;</a></span>Date() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::Date::Date </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>date</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5">&#9670;&nbsp;</a></span>~Date()</h2>
+<a id="ac618fc32b73d9bb13b07bc9db802cbef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac618fc32b73d9bb13b07bc9db802cbef">&#9670;&nbsp;</a></span>MyCrypt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -197,7 +163,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::Date::~Date </td>
+          <td class="memname">mcd::MyCrypt::MyCrypt </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -205,58 +171,15 @@ Protected Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/d5e/a00915_acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5_cgraph.png" border="0" usemap="#d2/d5e/a00915_acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5_cgraph" alt=""/></div>
-<map name="d2/d5e/a00915_acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5_cgraph" id="d2/d5e/a00915_acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5_cgraph">
-<area shape="rect" id="node2" href="../../d2/d5e/a00915.php#a10a48f5b93ee6c3e7ba43c5de5fa56bd" title="mcd::Date::day" alt="" coords="205,5,317,32"/>
-<area shape="rect" id="node3" href="../../d2/d5e/a00915.php#a3682f8457850fbb2899afc7967dc9bc9" title="mcd::Date::strDay" alt="" coords="195,56,326,83"/>
-<area shape="rect" id="node4" href="../../d2/d5e/a00915.php#a9a96b0ddfd20e6cc5da855b70be4c1f1" title="mcd::Date::weekDay" alt="" coords="187,107,334,133"/>
-<area shape="rect" id="node5" href="../../d2/d5e/a00915.php#a9af5d47e5785c0c16217e5b4914bc9a0" title="mcd::Date::yearDay" alt="" coords="191,157,331,184"/>
-<area shape="rect" id="node6" href="../../d2/d5e/a00915.php#aa1b8bcad43aa4fa7f5bccf350c348bbf" title="mcd::Date::monthWeek" alt="" coords="180,208,341,235"/>
-<area shape="rect" id="node7" href="../../d2/d5e/a00915.php#a211971964081aac6bf13b0c670307b54" title="mcd::Date::yearWeek" alt="" coords="185,259,336,285"/>
-<area shape="rect" id="node8" href="../../d2/d5e/a00915.php#aeaf4a92c344f8b9d8b88e22cbc710013" title="mcd::Date::month" alt="" coords="197,309,324,336"/>
-<area shape="rect" id="node9" href="../../d2/d5e/a00915.php#a09230be2f6ef6b2620dec0023bd1b1a0" title="mcd::Date::strMonth" alt="" coords="189,360,332,387"/>
-<area shape="rect" id="node10" href="../../d2/d5e/a00915.php#a30f0e5cc134d8da80f4b68aad4f92674" title="mcd::Date::year" alt="" coords="203,411,319,437"/>
-<area shape="rect" id="node11" href="../../d2/d5e/a00915.php#a17a08ca52b3ec69d178a997c07a5ca1c" title="mcd::Date::init" alt="" coords="207,461,315,488"/>
-<area shape="rect" id="node12" href="../../d2/d5e/a00915.php#a22f293eaa9698511e9657c60ee1557f7" title="mcd::Date::reset" alt="" coords="201,512,321,539"/>
-<area shape="rect" id="node13" href="../../d3/dd1/a00214.php#a72149c6d15e16114c649ecb03aec7f81" title="Compare two Big. " alt="" coords="205,563,316,589"/>
-<area shape="rect" id="node14" href="../../d3/dd1/a00214.php#a49c8e33d55da52fabdb3f09f2fd3e5b2" title="Compare two Big. " alt="" coords="201,613,320,640"/>
-<area shape="rect" id="node15" href="../../d3/dd1/a00214.php#a8106aa588d48c9fbed5e30e22fd55f76" title="Compare two Big. " alt="" coords="203,664,318,691"/>
-<area shape="rect" id="node16" href="../../d3/dd1/a00214.php#a4390d2726279039c439ba3b866fa2e50" title="mcd::operator\&gt;" alt="" coords="205,715,316,741"/>
-<area shape="rect" id="node17" href="../../d3/dd1/a00214.php#a61257b7f63f915629b98d2b57933d65e" title="Compare two Big. " alt="" coords="201,765,320,792"/>
-<area shape="rect" id="node18" href="../../d3/dd1/a00214.php#a83c8849718e8a8532282e6f1c80ceca0" title="Compare two Big. " alt="" coords="201,816,320,843"/>
-<area shape="rect" id="node19" href="../../d3/dd1/a00214.php#a0e76ac5c4df82149886b58edcfc7090a" title="mcd::operator\&lt;\&lt;" alt="" coords="201,867,320,893"/>
-</map>
-</div>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a10a48f5b93ee6c3e7ba43c5de5fa56bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10a48f5b93ee6c3e7ba43c5de5fa56bd">&#9670;&nbsp;</a></span>day()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int mcd::Date::day </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae49213decf493093a5cb259af8d46aae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae49213decf493093a5cb259af8d46aae">&#9670;&nbsp;</a></span>get()</h2>
+<a id="a3e5b32554500cf6843d09009fbaafbc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e5b32554500cf6843d09009fbaafbc9">&#9670;&nbsp;</a></span>~MyCrypt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,11 +188,56 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::string mcd::Date::get </td>
+          <td class="memname">mcd::MyCrypt::~MyCrypt </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>format</em> = <code>&quot;%Y-%m-%d&quot;</code></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d5e/a00915_a3e5b32554500cf6843d09009fbaafbc9_cgraph.png" border="0" usemap="#d2/d5e/a00915_a3e5b32554500cf6843d09009fbaafbc9_cgraph" alt=""/></div>
+<map name="d2/d5e/a00915_a3e5b32554500cf6843d09009fbaafbc9_cgraph" id="d2/d5e/a00915_a3e5b32554500cf6843d09009fbaafbc9_cgraph">
+<area shape="rect" id="node2" href="../../d4/d1c/a00903.php#a2949148382033667a765326066311f21" title="mcd::Crypto::crypt" alt="" coords="231,5,362,32"/>
+<area shape="rect" id="node3" href="../../d4/d1c/a00903.php#a4d131065e81529530b7907ba397af30d" title="mcd::Crypto::decrypt" alt="" coords="224,56,369,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a73db8d36191071f9ca2e5fe62d75a0d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73db8d36191071f9ca2e5fe62d75a0d0">&#9670;&nbsp;</a></span>crypt() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string mcd::MyCrypt::crypt </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -279,71 +247,20 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="../../d1/d0b/a00919.php#af11146f03ef10a03b88d46e54e782747">mcd::DateTime</a>.</p>
+<p>Crypt the message with a pass key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The message to encrypt </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The key to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the encrypted message </dd></dl>
 
 </div>
 </div>
-<a id="a17a08ca52b3ec69d178a997c07a5ca1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17a08ca52b3ec69d178a997c07a5ca1c">&#9670;&nbsp;</a></span>init()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Date::init </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aeaf4a92c344f8b9d8b88e22cbc710013"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeaf4a92c344f8b9d8b88e22cbc710013">&#9670;&nbsp;</a></span>month()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int mcd::Date::month </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa1b8bcad43aa4fa7f5bccf350c348bbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1b8bcad43aa4fa7f5bccf350c348bbf">&#9670;&nbsp;</a></span>monthWeek()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int mcd::Date::monthWeek </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a22f293eaa9698511e9657c60ee1557f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22f293eaa9698511e9657c60ee1557f7">&#9670;&nbsp;</a></span>reset()</h2>
+<a id="aee90d618d42b9a7d9057a0bfc1f769c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee90d618d42b9a7d9057a0bfc1f769c2">&#9670;&nbsp;</a></span>crypt() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -352,143 +269,118 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void mcd::Date::reset </td>
+          <td class="memname">virtual std::string mcd::MyCrypt::crypt </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Overload of the crypt <a class="el" href="../../d4/d1c/a00903.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The message to encrypt</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the encrypted message </dd></dl>
+
+<p>Implements <a class="el" href="../../d4/d1c/a00903.php#a2949148382033667a765326066311f21">mcd::Crypto</a>.</p>
+
 </div>
 </div>
-<a id="ac9fb4557d7fab62e3df37e391a499a3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9fb4557d7fab62e3df37e391a499a3e">&#9670;&nbsp;</a></span>set()</h2>
+<a id="a18850d238fad5966016ef020c05f82ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18850d238fad5966016ef020c05f82ce">&#9670;&nbsp;</a></span>decrypt() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void mcd::Date::set </td>
+          <td class="memname">virtual std::string mcd::MyCrypt::decrypt </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>date</em></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Decrypt the message with a pass key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The message to decrypt </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The key to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the decrypted message </dd></dl>
+
+</div>
+</div>
+<a id="ac1f14b79c663f1347bef0d7ba017449d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1f14b79c663f1347bef0d7ba017449d">&#9670;&nbsp;</a></span>decrypt() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string mcd::MyCrypt::decrypt </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a3682f8457850fbb2899afc7967dc9bc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3682f8457850fbb2899afc7967dc9bc9">&#9670;&nbsp;</a></span>strDay()</h2>
+<p>Overload of the decrypt <a class="el" href="../../d4/d1c/a00903.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The message to decrypt</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the decrypted message </dd></dl>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string mcd::Date::strDay </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a09230be2f6ef6b2620dec0023bd1b1a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09230be2f6ef6b2620dec0023bd1b1a0">&#9670;&nbsp;</a></span>strMonth()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string mcd::Date::strMonth </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9a96b0ddfd20e6cc5da855b70be4c1f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a96b0ddfd20e6cc5da855b70be4c1f1">&#9670;&nbsp;</a></span>weekDay()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int mcd::Date::weekDay </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a30f0e5cc134d8da80f4b68aad4f92674"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30f0e5cc134d8da80f4b68aad4f92674">&#9670;&nbsp;</a></span>year()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int mcd::Date::year </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9af5d47e5785c0c16217e5b4914bc9a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9af5d47e5785c0c16217e5b4914bc9a0">&#9670;&nbsp;</a></span>yearDay()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int mcd::Date::yearDay </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a211971964081aac6bf13b0c670307b54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a211971964081aac6bf13b0c670307b54">&#9670;&nbsp;</a></span>yearWeek()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int mcd::Date::yearWeek </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Implements <a class="el" href="../../d4/d1c/a00903.php#a4d131065e81529530b7907ba397af30d">mcd::Crypto</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../de/de1/a00065.php">Date.hpp</a></li>
+<li><a class="el" href="../../df/d03/a00062.php">cryptage.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -496,7 +388,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../d2/d5e/a00915.php">Date</a></li>
+		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../d2/d5e/a00915.php">MyCrypt</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

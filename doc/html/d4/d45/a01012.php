@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Check::is_thread_ptr&lt; T &gt; Class Template Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d4/d45/a01012.php','../../');});
+$(document).ready(function(){initNavTree('d1/dac/a01015.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,64 +89,41 @@ $(document).ready(function(){initNavTree('d4/d45/a01012.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="../../d7/ded/a01009.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_thread_ptr&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::PlayerAbstraction&lt; PlayerParent &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A template class to test if T is a std::shared_ptr&lt;std::thread&gt;, a std::unique_ptr&lt;std::thread&gt;, a std::weak_ptr&lt;std::thread&gt; or a std::thread*.  
- <a href="../../d4/d45/a01012.php#details">More...</a></p>
-
-<p><code>#include &lt;pointers.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:aeaf71256c26f5b5be4a5e5db9035500b"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a01012.php#aeaf71256c26f5b5be4a5e5db9035500b">value</a> = false</td></tr>
-<tr class="separator:aeaf71256c26f5b5be4a5e5db9035500b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_thread_ptr&lt; T &gt;</h3>
-
-<p>A template class to test if T is a std::shared_ptr&lt;std::thread&gt;, a std::unique_ptr&lt;std::thread&gt;, a std::weak_ptr&lt;std::thread&gt; or a std::thread*. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="aeaf71256c26f5b5be4a5e5db9035500b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeaf71256c26f5b5be4a5e5db9035500b">&#9670;&nbsp;</a></span>value</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const bool <a class="el" href="../../d4/d45/a01012.php">mcd::Check::is_thread_ptr</a>&lt; T &gt;::value = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d6/db8/a00158.php">pointers.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#ae561b7817c64610317799205afa306cd">_experience</a></td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a3800d1590d75f762d41be6349556707d">_experienceMax</a></td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#abffa7d0ae3461370c932f0732367c93b">_init</a></td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#aee72e21c73d5bbf23c831514cd6cd58b">_losted</a></td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#ad9199142db686c7745b21429e7061823">_mail</a></td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a005074efa352510f2dc316404195946c">_paused</a></td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#af4b6c4845dcc12c9feed1910e7de9334">getExperience</a>() const</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a3d9f0332994725fceb7f785fd83e1802">getExperienceMax</a>() const</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#ada35a68939571761734d82bf83e6c634">getMail</a>() const</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#abdb489c22b76cb09daefb8f05b2f515c">isInit</a>() const</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#ae441783e58a888696f8dc24f4cdfcce5">isLost</a>() const</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a81a1ea7b3b306b10af787c353c92cc2e">isPaused</a>() const</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a7582710c11a7b92d9912f414a5296975">lost</a>()</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a57f10ce6fa33a36671c750dd68dc1a13">pause</a>()</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#acd7472274e5fd10845893208d604617f">PlayerAbstraction</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#ac6d60013def2f34160fda9a990cf2da5">printInfos</a>(std::ostream &amp;stream) const override</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a4670bc4130ffbdd8fd198ab020a7ffe3">resume</a>()</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#ac4a98e2f186ed9702f90362a158a9f2f">retreive</a>()</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a368cb45cbd8f4bcd470628f4d0783b07">setExperience</a>(const double64_t &amp;experience)</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a7e2dc719465b4100436d08def34378f4">setExperienceMax</a>(const double64_t &amp;experienceMax)</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#ac6441d9b85821e4e20639fe5082795a5">setMail</a>(const std::string &amp;mail)</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#abde0c45c79e9cb030711f77d73fdc5a8">~PlayerAbstraction</a>()</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dd/ded/a00211.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/dc1/a00212.php">Check</a></li><li class="navelem"><a class="el" href="../../d4/d45/a01012.php">is_thread_ptr</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

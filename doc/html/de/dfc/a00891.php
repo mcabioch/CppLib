@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Contraption Class Reference</title>
+		<title>C++: mcd::ThreadCout Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 14:43:16 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -94,168 +94,57 @@ $(document).ready(function(){initNavTree('de/dfc/a00891.php','../../');});
 <a href="#friends">Friends</a> &#124;
 <a href="../../dd/d94/a00888.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Contraption Class Reference</div>  </div>
+<div class="title">mcd::ThreadCout Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A contraption.  
+<p>A class to use std::cout thread safe.  
  <a href="../../de/dfc/a00891.php#details">More...</a></p>
 
-<p><code>#include &lt;Contraption.hpp&gt;</code></p>
+<p><code>#include &lt;console.hpp&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for mcd::Contraption:</div>
+Inheritance diagram for mcd::ThreadCout:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/d46/a00890.png" border="0" usemap="#mcd_1_1Contraption_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1Contraption_inherit__map" id="mcd_1_1Contraption_inherit__map">
-<area shape="rect" id="node2" href="../../dd/d98/a00927.php" title="An entity. " alt="" coords="129,80,219,107"/>
-<area shape="rect" id="node8" href="../../d0/d3c/a00971.php" title="An object. " alt="" coords="245,80,338,107"/>
-<area shape="rect" id="node3" href="../../d3/de3/a00763.php" title="An animal. " alt="" coords="5,155,100,181"/>
-<area shape="rect" id="node5" href="../../d2/d49/a01067.php" title="A vegetal. " alt="" coords="125,155,223,181"/>
-<area shape="rect" id="node4" href="../../d5/dae/a00767.php" title="An ant. " alt="" coords="15,229,90,256"/>
-<area shape="rect" id="node6" href="../../de/dad/a00963.php" title="A mushroom. " alt="" coords="115,229,231,256"/>
-<area shape="rect" id="node7" href="../../de/de2/a00999.php" title="A plant. " alt="" coords="255,229,341,256"/>
-<area shape="rect" id="node9" href="../../d6/dcf/a01031.php" title="A stone. " alt="" coords="248,155,337,181"/>
+<div class="center"><img src="../../d7/d46/a00890.png" border="0" usemap="#mcd_1_1ThreadCout_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1ThreadCout_inherit__map" id="mcd_1_1ThreadCout_inherit__map">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="35,244,130,271"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="16,155,149,196"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="5,80,160,107"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="33,5,133,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::ThreadCout:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/dc8/a00889.png" border="0" usemap="#mcd_1_1ThreadCout_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1ThreadCout_coll__map" id="mcd_1_1ThreadCout_coll__map">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="35,244,130,271"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="16,155,149,196"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="5,80,160,107"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="33,5,133,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a807590a9e81f34ba22aca08ddd986db7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a807590a9e81f34ba22aca08ddd986db7">Contraption</a> (<a class="el" href="../../dc/db6/a00955.php">Map</a> *map=nullptr, <a class="el" href="../../de/de6/a01063.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d3/dd1/a00214.php#df/de9/a00923">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
-<tr class="memdesc:a807590a9e81f34ba22aca08ddd986db7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#a807590a9e81f34ba22aca08ddd986db7">More...</a><br /></td></tr>
-<tr class="separator:a807590a9e81f34ba22aca08ddd986db7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17bb565b03902a28211f8609ac04d01b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a17bb565b03902a28211f8609ac04d01b">~Contraption</a> ()</td></tr>
-<tr class="memdesc:a17bb565b03902a28211f8609ac04d01b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#a17bb565b03902a28211f8609ac04d01b">More...</a><br /></td></tr>
-<tr class="separator:a17bb565b03902a28211f8609ac04d01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2974b562f55f65a1b992ff849eea43cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a2974b562f55f65a1b992ff849eea43cf">setPosition</a> (<a class="el" href="../../de/de6/a01063.php">Point</a> pt)</td></tr>
-<tr class="memdesc:a2974b562f55f65a1b992ff849eea43cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the position.  <a href="#a2974b562f55f65a1b992ff849eea43cf">More...</a><br /></td></tr>
-<tr class="separator:a2974b562f55f65a1b992ff849eea43cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae0d0bd5e4613514eb5cda66eaeabbcb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#aae0d0bd5e4613514eb5cda66eaeabbcb">setPosition</a> (<a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> z=0)</td></tr>
-<tr class="memdesc:aae0d0bd5e4613514eb5cda66eaeabbcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the position.  <a href="#aae0d0bd5e4613514eb5cda66eaeabbcb">More...</a><br /></td></tr>
-<tr class="separator:aae0d0bd5e4613514eb5cda66eaeabbcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbaabb4c71f560de8c85a859c11dd57a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#abbaabb4c71f560de8c85a859c11dd57a">setX</a> (<a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x)</td></tr>
-<tr class="memdesc:abbaabb4c71f560de8c85a859c11dd57a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the x coordinate.  <a href="#abbaabb4c71f560de8c85a859c11dd57a">More...</a><br /></td></tr>
-<tr class="separator:abbaabb4c71f560de8c85a859c11dd57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e1fc3a4ee923891fa0c523f129c45af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a3e1fc3a4ee923891fa0c523f129c45af">setY</a> (<a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y)</td></tr>
-<tr class="memdesc:a3e1fc3a4ee923891fa0c523f129c45af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the y coordinate.  <a href="#a3e1fc3a4ee923891fa0c523f129c45af">More...</a><br /></td></tr>
-<tr class="separator:a3e1fc3a4ee923891fa0c523f129c45af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08c1de8034f9e3985a24dd78d37a3d44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a08c1de8034f9e3985a24dd78d37a3d44">setZ</a> (<a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> z)</td></tr>
-<tr class="memdesc:a08c1de8034f9e3985a24dd78d37a3d44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the z coordinate.  <a href="#a08c1de8034f9e3985a24dd78d37a3d44">More...</a><br /></td></tr>
-<tr class="separator:a08c1de8034f9e3985a24dd78d37a3d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c5a7acde997e12d99e717f182c5ced7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a9c5a7acde997e12d99e717f182c5ced7">setAttributes</a> (<a class="el" href="../../d3/dd1/a00214.php#df/de9/a00923">ContraptionAttr</a> attr)</td></tr>
-<tr class="memdesc:a9c5a7acde997e12d99e717f182c5ced7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the attributes.  <a href="#a9c5a7acde997e12d99e717f182c5ced7">More...</a><br /></td></tr>
-<tr class="separator:a9c5a7acde997e12d99e717f182c5ced7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae44610d2144faf1550f8cc6ec860fb71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#ae44610d2144faf1550f8cc6ec860fb71">setAttributes</a> (<a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> w, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> h, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> angle=0)</td></tr>
-<tr class="memdesc:ae44610d2144faf1550f8cc6ec860fb71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the attributes.  <a href="#ae44610d2144faf1550f8cc6ec860fb71">More...</a><br /></td></tr>
-<tr class="separator:ae44610d2144faf1550f8cc6ec860fb71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a00e0217550c3b79434659e04d40aef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a2a00e0217550c3b79434659e04d40aef">setW</a> (<a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> w)</td></tr>
-<tr class="memdesc:a2a00e0217550c3b79434659e04d40aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the width.  <a href="#a2a00e0217550c3b79434659e04d40aef">More...</a><br /></td></tr>
-<tr class="separator:a2a00e0217550c3b79434659e04d40aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a060b6ee9401bd8c9a03c5cecdbfa1942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a060b6ee9401bd8c9a03c5cecdbfa1942">setH</a> (<a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> h)</td></tr>
-<tr class="memdesc:a060b6ee9401bd8c9a03c5cecdbfa1942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the height.  <a href="#a060b6ee9401bd8c9a03c5cecdbfa1942">More...</a><br /></td></tr>
-<tr class="separator:a060b6ee9401bd8c9a03c5cecdbfa1942"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73a47e55e554e7c7f357a74276368186"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a73a47e55e554e7c7f357a74276368186">setA</a> (<a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> angle)</td></tr>
-<tr class="memdesc:a73a47e55e554e7c7f357a74276368186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the angle.  <a href="#a73a47e55e554e7c7f357a74276368186">More...</a><br /></td></tr>
-<tr class="separator:a73a47e55e554e7c7f357a74276368186"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a6c84d9d5f814fe553b731d841a5266"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a8a6c84d9d5f814fe553b731d841a5266">setMap</a> (<a class="el" href="../../dc/db6/a00955.php">Map</a> *map)</td></tr>
-<tr class="memdesc:a8a6c84d9d5f814fe553b731d841a5266"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the map.  <a href="#a8a6c84d9d5f814fe553b731d841a5266">More...</a><br /></td></tr>
-<tr class="separator:a8a6c84d9d5f814fe553b731d841a5266"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a332ecd56522af01cf41b9c4a69449bd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a332ecd56522af01cf41b9c4a69449bd0">setLevel</a> (size_t level)</td></tr>
-<tr class="memdesc:a332ecd56522af01cf41b9c4a69449bd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the level.  <a href="#a332ecd56522af01cf41b9c4a69449bd0">More...</a><br /></td></tr>
-<tr class="separator:a332ecd56522af01cf41b9c4a69449bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac95da2f760e8ba07a54ac849c5a3307f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/de6/a01063.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#ac95da2f760e8ba07a54ac849c5a3307f">getPosition</a> () const</td></tr>
-<tr class="separator:ac95da2f760e8ba07a54ac849c5a3307f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e7d791e4289bd253a357be80f8131ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a6e7d791e4289bd253a357be80f8131ee">getX</a> () const</td></tr>
-<tr class="separator:a6e7d791e4289bd253a357be80f8131ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a153124dd434c08a943f60d7b43c2ffab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a153124dd434c08a943f60d7b43c2ffab">getY</a> () const</td></tr>
-<tr class="separator:a153124dd434c08a943f60d7b43c2ffab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ac6575807535f3d9aeb251ce3cceaed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a6ac6575807535f3d9aeb251ce3cceaed">getZ</a> () const</td></tr>
-<tr class="separator:a6ac6575807535f3d9aeb251ce3cceaed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa36a1788770d7667d8a2848ff1e3f0c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#df/de9/a00923">ContraptionAttr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#aa36a1788770d7667d8a2848ff1e3f0c6">getAttributes</a> () const</td></tr>
-<tr class="separator:aa36a1788770d7667d8a2848ff1e3f0c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad12fd1c5a207f169edc619e09a5a969f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#ad12fd1c5a207f169edc619e09a5a969f">getW</a> () const</td></tr>
-<tr class="separator:ad12fd1c5a207f169edc619e09a5a969f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec81012bc23935e626500734007d5fb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#aec81012bc23935e626500734007d5fb5">getH</a> () const</td></tr>
-<tr class="separator:aec81012bc23935e626500734007d5fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a580eafa58a93d9ab4264c4cbac2f4167"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a580eafa58a93d9ab4264c4cbac2f4167">getA</a> () const</td></tr>
-<tr class="separator:a580eafa58a93d9ab4264c4cbac2f4167"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a393c4ec6fd375809fbcf1cfeab44ed25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a393c4ec6fd375809fbcf1cfeab44ed25">getMap</a> () const</td></tr>
-<tr class="separator:a393c4ec6fd375809fbcf1cfeab44ed25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f6cf40462b5dba5f7743c83cc2389f1"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a2f6cf40462b5dba5f7743c83cc2389f1">getLevel</a> () const</td></tr>
-<tr class="separator:a2f6cf40462b5dba5f7743c83cc2389f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cb6af540ebec175e270980217ff9de7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a5cb6af540ebec175e270980217ff9de7">printInfos</a> (std::ostream &amp;stream) const</td></tr>
-<tr class="memdesc:a5cb6af540ebec175e270980217ff9de7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the infos in the instance of the class in <em>stream</em>.  <a href="#a5cb6af540ebec175e270980217ff9de7">More...</a><br /></td></tr>
-<tr class="separator:a5cb6af540ebec175e270980217ff9de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20dee618b85a3f841921a534bd5dfd37"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a20dee618b85a3f841921a534bd5dfd37">getRelativeZ</a> (<a class="el" href="../../de/dfc/a00891.php">Contraption</a> &amp;obj)</td></tr>
-<tr class="memdesc:a20dee618b85a3f841921a534bd5dfd37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a z with the obstacles.  <a href="#a20dee618b85a3f841921a534bd5dfd37">More...</a><br /></td></tr>
-<tr class="separator:a20dee618b85a3f841921a534bd5dfd37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f4fa78c938b90c034ad0fe98a293a3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a7f4fa78c938b90c034ad0fe98a293a3c">addPosition</a> (<a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> z=0)</td></tr>
-<tr class="memdesc:a7f4fa78c938b90c034ad0fe98a293a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add coordinates to the actual position.  <a href="#a7f4fa78c938b90c034ad0fe98a293a3c">More...</a><br /></td></tr>
-<tr class="separator:a7f4fa78c938b90c034ad0fe98a293a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10b4b5c4cd47da89e672c64c41b23162"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a10b4b5c4cd47da89e672c64c41b23162">turnLeft</a> ()</td></tr>
-<tr class="memdesc:a10b4b5c4cd47da89e672c64c41b23162"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn the <a class="el" href="../../de/dfc/a00891.php" title="A contraption. ">Contraption</a> to the left.  <a href="#a10b4b5c4cd47da89e672c64c41b23162">More...</a><br /></td></tr>
-<tr class="separator:a10b4b5c4cd47da89e672c64c41b23162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f7cef1423cf575fabafa2143a588788"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a4f7cef1423cf575fabafa2143a588788">turnRight</a> ()</td></tr>
-<tr class="memdesc:a4f7cef1423cf575fabafa2143a588788"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn the <a class="el" href="../../de/dfc/a00891.php" title="A contraption. ">Contraption</a> to the right.  <a href="#a4f7cef1423cf575fabafa2143a588788">More...</a><br /></td></tr>
-<tr class="separator:a4f7cef1423cf575fabafa2143a588788"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ee6d1b64b6b88068a2165a1824a5af2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a6ee6d1b64b6b88068a2165a1824a5af2">sender</a> (std::string, <a class="el" href="../../d3/dd1/a00214.php#a20cc1353da1673066a19b886e7e5c61e">vector_str</a>)</td></tr>
-<tr class="memdesc:a6ee6d1b64b6b88068a2165a1824a5af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite it to send infos.  <a href="#a6ee6d1b64b6b88068a2165a1824a5af2">More...</a><br /></td></tr>
-<tr class="separator:a6ee6d1b64b6b88068a2165a1824a5af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adacc9d5343e07aa8396f8b1edd92bb39"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#adacc9d5343e07aa8396f8b1edd92bb39">ThreadCout</a> ()</td></tr>
+<tr class="separator:adacc9d5343e07aa8396f8b1edd92bb39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b2683a0e3d46205643de53236dc4f8"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a43b2683a0e3d46205643de53236dc4f8">~ThreadCout</a> ()</td></tr>
+<tr class="separator:a43b2683a0e3d46205643de53236dc4f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a763a20bdd6cf99e565f2516d1c4bb161"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a763a20bdd6cf99e565f2516d1c4bb161">operator&lt;&lt;</a> (std::ostream &amp;stream, <a class="el" href="../../de/dfc/a00891.php">Contraption</a> const &amp;in)</td></tr>
-<tr class="memdesc:a763a20bdd6cf99e565f2516d1c4bb161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the &lt;&lt; operator.  <a href="#a763a20bdd6cf99e565f2516d1c4bb161">More...</a><br /></td></tr>
-<tr class="separator:a763a20bdd6cf99e565f2516d1c4bb161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a358d316052544257ab9aee6f1fe762dc"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a358d316052544257ab9aee6f1fe762dc"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/dfc/a00891.php">ThreadCout</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a358d316052544257ab9aee6f1fe762dc">operator&lt;&lt;</a> (<a class="el" href="../../de/dfc/a00891.php">ThreadCout</a> &amp;os, T obj)</td></tr>
+<tr class="separator:a358d316052544257ab9aee6f1fe762dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b27881bbb3b1a50ddf821d8ce62e4d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dfc/a00891.php">ThreadCout</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php#a8b27881bbb3b1a50ddf821d8ce62e4d6">operator&lt;&lt;</a> (<a class="el" href="../../de/dfc/a00891.php">ThreadCout</a> &amp;os, <a class="el" href="../../d7/d92/a00887.php">ThreadEndlCout</a> &amp;)</td></tr>
+<tr class="separator:a8b27881bbb3b1a50ddf821d8ce62e4d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A contraption. </p>
+<div class="textblock"><p>A class to use std::cout thread safe. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a807590a9e81f34ba22aca08ddd986db7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a807590a9e81f34ba22aca08ddd986db7">&#9670;&nbsp;</a></span>Contraption()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::Contraption::Contraption </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/db6/a00955.php">Map</a> *&#160;</td>
-          <td class="paramname"><em>map</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/de6/a01063.php">Point</a>&#160;</td>
-          <td class="paramname"><em>pt</em> = <code>{0,&#160;0,&#160;0}</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#df/de9/a00923">ContraptionAttr</a>&#160;</td>
-          <td class="paramname"><em>attr</em> = <code>{0,&#160;0,&#160;0}</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Constructor of the class. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">map</td><td>The map where it is </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>The position in the map </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">attr</td><td>The attributes of the object(width, height, angle) </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a17bb565b03902a28211f8609ac04d01b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17bb565b03902a28211f8609ac04d01b">&#9670;&nbsp;</a></span>~Contraption()</h2>
+<a id="adacc9d5343e07aa8396f8b1edd92bb39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adacc9d5343e07aa8396f8b1edd92bb39">&#9670;&nbsp;</a></span>ThreadCout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,83 +153,10 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::Contraption::~Contraption </td>
+          <td class="memname">mcd::ThreadCout::ThreadCout </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Virtual destructor. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7f4fa78c938b90c034ad0fe98a293a3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f4fa78c938b90c034ad0fe98a293a3c">&#9670;&nbsp;</a></span>addPosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::addPosition </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>z</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Add coordinates to the actual position. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>X coordinate </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>Y coordinate </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">z</td><td>Z coordinate</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a580eafa58a93d9ab4264c4cbac2f4167"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a580eafa58a93d9ab4264c4cbac2f4167">&#9670;&nbsp;</a></span>getA()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Contraption::getA </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
         </tr>
       </table>
   </td>
@@ -349,12 +165,11 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Return the angle </dd></dl>
 
 </div>
 </div>
-<a id="aa36a1788770d7667d8a2848ff1e3f0c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa36a1788770d7667d8a2848ff1e3f0c6">&#9670;&nbsp;</a></span>getAttributes()</h2>
+<a id="a43b2683a0e3d46205643de53236dc4f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43b2683a0e3d46205643de53236dc4f8">&#9670;&nbsp;</a></span>~ThreadCout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -363,339 +178,10 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#df/de9/a00923">ContraptionAttr</a> mcd::Contraption::getAttributes </td>
+          <td class="memname">virtual mcd::ThreadCout::~ThreadCout </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Return the attributes </dd></dl>
-
-</div>
-</div>
-<a id="aec81012bc23935e626500734007d5fb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec81012bc23935e626500734007d5fb5">&#9670;&nbsp;</a></span>getH()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Contraption::getH </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Return the height </dd></dl>
-
-</div>
-</div>
-<a id="a2f6cf40462b5dba5f7743c83cc2389f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f6cf40462b5dba5f7743c83cc2389f1">&#9670;&nbsp;</a></span>getLevel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t mcd::Contraption::getLevel </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Return the level </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/dfc/a00891_a2f6cf40462b5dba5f7743c83cc2389f1_cgraph.png" border="0" usemap="#de/dfc/a00891_a2f6cf40462b5dba5f7743c83cc2389f1_cgraph" alt=""/></div>
-<map name="de/dfc/a00891_a2f6cf40462b5dba5f7743c83cc2389f1_cgraph" id="de/dfc/a00891_a2f6cf40462b5dba5f7743c83cc2389f1_cgraph">
-<area shape="rect" id="node2" href="../../de/dfc/a00891.php#a5cb6af540ebec175e270980217ff9de7" title="Print the infos in the instance of the class in stream. " alt="" coords="242,5,426,32"/>
-<area shape="rect" id="node3" href="../../de/dfc/a00891.php#a20dee618b85a3f841921a534bd5dfd37" title="Compute a z with the obstacles. " alt="" coords="232,56,436,83"/>
-<area shape="rect" id="node4" href="../../de/dfc/a00891.php#a7f4fa78c938b90c034ad0fe98a293a3c" title="Add coordinates to the actual position. " alt="" coords="235,107,433,133"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a393c4ec6fd375809fbcf1cfeab44ed25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a393c4ec6fd375809fbcf1cfeab44ed25">&#9670;&nbsp;</a></span>getMap()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Map</a>* mcd::Contraption::getMap </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Return the map </dd></dl>
-
-</div>
-</div>
-<a id="ac95da2f760e8ba07a54ac849c5a3307f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac95da2f760e8ba07a54ac849c5a3307f">&#9670;&nbsp;</a></span>getPosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/de6/a01063.php">Point</a> mcd::Contraption::getPosition </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Return the position </dd></dl>
-
-</div>
-</div>
-<a id="a20dee618b85a3f841921a534bd5dfd37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20dee618b85a3f841921a534bd5dfd37">&#9670;&nbsp;</a></span>getRelativeZ()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Contraption::getRelativeZ </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/dfc/a00891.php">Contraption</a> &amp;&#160;</td>
-          <td class="paramname"><em>obj</em></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Compute a z with the obstacles. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The obstacle to compute z with</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the computed z </dd></dl>
-
-<p>Reimplemented in <a class="el" href="../../d3/de3/a00763.php#a2ce9aecbe210f893028b8e9ad44a2b7b">mcd::Animal</a>.</p>
-
-</div>
-</div>
-<a id="ad12fd1c5a207f169edc619e09a5a969f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad12fd1c5a207f169edc619e09a5a969f">&#9670;&nbsp;</a></span>getW()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Contraption::getW </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Return the width </dd></dl>
-
-</div>
-</div>
-<a id="a6e7d791e4289bd253a357be80f8131ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e7d791e4289bd253a357be80f8131ee">&#9670;&nbsp;</a></span>getX()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Contraption::getX </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Return the X position </dd></dl>
-
-</div>
-</div>
-<a id="a153124dd434c08a943f60d7b43c2ffab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a153124dd434c08a943f60d7b43c2ffab">&#9670;&nbsp;</a></span>getY()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Contraption::getY </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Return the Y position </dd></dl>
-
-</div>
-</div>
-<a id="a6ac6575807535f3d9aeb251ce3cceaed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ac6575807535f3d9aeb251ce3cceaed">&#9670;&nbsp;</a></span>getZ()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Contraption::getZ </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Return the Z position </dd></dl>
-
-</div>
-</div>
-<a id="a5cb6af540ebec175e270980217ff9de7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cb6af540ebec175e270980217ff9de7">&#9670;&nbsp;</a></span>printInfos()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void mcd::Contraption::printInfos </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>stream</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Print the infos in the instance of the class in <em>stream</em>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>The output stream</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Reimplemented in <a class="el" href="../../d3/de3/a00763.php#a64f627cdca203c3df393fd87c4d47bbb">mcd::Animal</a>, <a class="el" href="../../dd/d98/a00927.php#a76cee6abf0facaffdca9b893634578dd">mcd::Entity</a>, <a class="el" href="../../d5/dae/a00767.php#a2be4df8048e84830aca6eb2ac249e099">mcd::Ant</a>, <a class="el" href="../../de/dad/a00963.php#a7f5b4cb7d65beddc201434f2e8cc1f15">mcd::Mushroom</a>, <a class="el" href="../../d0/d3c/a00971.php#aaae968dcea4a9aa8a530dc95b24848d0">mcd::Object</a>, <a class="el" href="../../de/de2/a00999.php#ac195816160e5c7a010d1d50bbe8cfbb8">mcd::Plant</a>, <a class="el" href="../../d6/dcf/a01031.php#ad23699d742569bc0eb2e9724a37b6cdf">mcd::Stone</a>, and <a class="el" href="../../d2/d49/a01067.php#aade1d1606fa71e19708719f2668a24b0">mcd::Vegetal</a>.</p>
-
-</div>
-</div>
-<a id="a6ee6d1b64b6b88068a2165a1824a5af2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ee6d1b64b6b88068a2165a1824a5af2">&#9670;&nbsp;</a></span>sender()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void mcd::Contraption::sender </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#a20cc1353da1673066a19b886e7e5c61e">vector_str</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -705,543 +191,31 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Rewrite it to send infos. </p>
-
-</div>
-</div>
-<a id="a73a47e55e554e7c7f357a74276368186"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73a47e55e554e7c7f357a74276368186">&#9670;&nbsp;</a></span>setA()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::setA </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>angle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the angle. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">angle</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a9c5a7acde997e12d99e717f182c5ced7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c5a7acde997e12d99e717f182c5ced7">&#9670;&nbsp;</a></span>setAttributes() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::setAttributes </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#df/de9/a00923">ContraptionAttr</a>&#160;</td>
-          <td class="paramname"><em>attr</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the attributes. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">attr</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/dfc/a00891_a9c5a7acde997e12d99e717f182c5ced7_cgraph.png" border="0" usemap="#de/dfc/a00891_a9c5a7acde997e12d99e717f182c5ced7_cgraph" alt=""/></div>
-</div>
-
-</div>
-</div>
-<a id="ae44610d2144faf1550f8cc6ec860fb71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae44610d2144faf1550f8cc6ec860fb71">&#9670;&nbsp;</a></span>setAttributes() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::setAttributes </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>h</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>angle</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the attributes. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>The width to set </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>The height to set </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">angle</td><td>The angle to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a060b6ee9401bd8c9a03c5cecdbfa1942"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a060b6ee9401bd8c9a03c5cecdbfa1942">&#9670;&nbsp;</a></span>setH()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::setH </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>h</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the height. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a332ecd56522af01cf41b9c4a69449bd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a332ecd56522af01cf41b9c4a69449bd0">&#9670;&nbsp;</a></span>setLevel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::setLevel </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>level</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the level. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">level</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a8a6c84d9d5f814fe553b731d841a5266"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a6c84d9d5f814fe553b731d841a5266">&#9670;&nbsp;</a></span>setMap()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::setMap </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/db6/a00955.php">Map</a> *&#160;</td>
-          <td class="paramname"><em>map</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the map. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">map</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a2974b562f55f65a1b992ff849eea43cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2974b562f55f65a1b992ff849eea43cf">&#9670;&nbsp;</a></span>setPosition() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::setPosition </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/de6/a01063.php">Point</a>&#160;</td>
-          <td class="paramname"><em>pt</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the position. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/dfc/a00891_a2974b562f55f65a1b992ff849eea43cf_cgraph.png" border="0" usemap="#de/dfc/a00891_a2974b562f55f65a1b992ff849eea43cf_cgraph" alt=""/></div>
-<map name="de/dfc/a00891_a2974b562f55f65a1b992ff849eea43cf_cgraph" id="de/dfc/a00891_a2974b562f55f65a1b992ff849eea43cf_cgraph">
-<area shape="rect" id="node2" href="../../de/dfc/a00891.php#abbaabb4c71f560de8c85a859c11dd57a" title="Set the x coordinate. " alt="" coords="248,5,405,32"/>
-<area shape="rect" id="node3" href="../../de/dfc/a00891.php#a3e1fc3a4ee923891fa0c523f129c45af" title="Set the y coordinate. " alt="" coords="248,56,405,83"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="aae0d0bd5e4613514eb5cda66eaeabbcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae0d0bd5e4613514eb5cda66eaeabbcb">&#9670;&nbsp;</a></span>setPosition() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::setPosition </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>z</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the position. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x to set </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The y to set </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">z</td><td>The z to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a2a00e0217550c3b79434659e04d40aef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a00e0217550c3b79434659e04d40aef">&#9670;&nbsp;</a></span>setW()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::setW </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>w</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the width. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="abbaabb4c71f560de8c85a859c11dd57a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbaabb4c71f560de8c85a859c11dd57a">&#9670;&nbsp;</a></span>setX()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::setX </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>x</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the x coordinate. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a3e1fc3a4ee923891fa0c523f129c45af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e1fc3a4ee923891fa0c523f129c45af">&#9670;&nbsp;</a></span>setY()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::setY </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>y</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the y coordinate. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a08c1de8034f9e3985a24dd78d37a3d44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08c1de8034f9e3985a24dd78d37a3d44">&#9670;&nbsp;</a></span>setZ()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::setZ </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>z</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the z coordinate. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">z</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a10b4b5c4cd47da89e672c64c41b23162"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10b4b5c4cd47da89e672c64c41b23162">&#9670;&nbsp;</a></span>turnLeft()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::turnLeft </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Turn the <a class="el" href="../../de/dfc/a00891.php" title="A contraption. ">Contraption</a> to the left. </p>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/dfc/a00891_a10b4b5c4cd47da89e672c64c41b23162_cgraph.png" border="0" usemap="#de/dfc/a00891_a10b4b5c4cd47da89e672c64c41b23162_cgraph" alt=""/></div>
-<map name="de/dfc/a00891_a10b4b5c4cd47da89e672c64c41b23162_cgraph" id="de/dfc/a00891_a10b4b5c4cd47da89e672c64c41b23162_cgraph">
-<area shape="rect" id="node2" href="../../de/dfc/a00891.php#a73a47e55e554e7c7f357a74276368186" title="Set the angle. " alt="" coords="228,5,385,32"/>
-<area shape="rect" id="node3" href="../../de/dfc/a00891.php#a580eafa58a93d9ab4264c4cbac2f4167" title="mcd::Contraption::getA" alt="" coords="228,56,385,83"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a4f7cef1423cf575fabafa2143a588788"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f7cef1423cf575fabafa2143a588788">&#9670;&nbsp;</a></span>turnRight()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Contraption::turnRight </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Turn the <a class="el" href="../../de/dfc/a00891.php" title="A contraption. ">Contraption</a> to the right. </p>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/dfc/a00891_a4f7cef1423cf575fabafa2143a588788_cgraph.png" border="0" usemap="#de/dfc/a00891_a4f7cef1423cf575fabafa2143a588788_cgraph" alt=""/></div>
-<map name="de/dfc/a00891_a4f7cef1423cf575fabafa2143a588788_cgraph" id="de/dfc/a00891_a4f7cef1423cf575fabafa2143a588788_cgraph">
-<area shape="rect" id="node2" href="../../de/dfc/a00891.php#a73a47e55e554e7c7f357a74276368186" title="Set the angle. " alt="" coords="236,5,393,32"/>
-<area shape="rect" id="node3" href="../../de/dfc/a00891.php#a580eafa58a93d9ab4264c4cbac2f4167" title="mcd::Contraption::getA" alt="" coords="236,56,393,83"/>
-</map>
-</div>
-
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a763a20bdd6cf99e565f2516d1c4bb161"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a763a20bdd6cf99e565f2516d1c4bb161">&#9670;&nbsp;</a></span>operator<<</h2>
+<a id="a358d316052544257ab9aee6f1fe762dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a358d316052544257ab9aee6f1fe762dc">&#9670;&nbsp;</a></span>operator<< <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td class="memname"><a class="el" href="../../de/dfc/a00891.php">ThreadCout</a>&amp; operator&lt;&lt; </td>
           <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>stream</em>, </td>
+          <td class="paramtype"><a class="el" href="../../de/dfc/a00891.php">ThreadCout</a> &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../de/dfc/a00891.php">Contraption</a> const &amp;&#160;</td>
-          <td class="paramname"><em>in</em>&#160;</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>obj</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1256,13 +230,46 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Overload of the &lt;&lt; operator. </p>
-<p>Allow you to put a <a class="el" href="../../de/dfc/a00891.php" title="A contraption. ">Contraption</a> object in an output stream </p>
+</div>
+</div>
+<a id="a8b27881bbb3b1a50ddf821d8ce62e4d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b27881bbb3b1a50ddf821d8ce62e4d6">&#9670;&nbsp;</a></span>operator<< <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/dfc/a00891.php">ThreadCout</a>&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/dfc/a00891.php">ThreadCout</a> &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/d92/a00887.php">ThreadEndlCout</a> &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d9/d2e/a00056.php">Contraption.hpp</a></li>
+<li><a class="el" href="../../d5/de0/a00050.php">console.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1270,7 +277,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../de/dfc/a00891.php">Contraption</a></li>
+		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../de/dfc/a00891.php">ThreadCout</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

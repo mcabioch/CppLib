@@ -1,7 +1,8 @@
 var a00883 =
 [
-    [ "ThreadCout", "d7/d34/a00883.php#adacc9d5343e07aa8396f8b1edd92bb39", null ],
-    [ "~ThreadCout", "d7/d34/a00883.php#a43b2683a0e3d46205643de53236dc4f8", null ],
-    [ "operator<<", "d7/d34/a00883.php#a358d316052544257ab9aee6f1fe762dc", null ],
-    [ "operator<<", "d7/d34/a00883.php#a8b27881bbb3b1a50ddf821d8ce62e4d6", null ]
+    [ "goTo", "d7/d34/a00883.php#a191575f00626575e84455dfae871f502", null ],
+    [ "home", "d7/d34/a00883.php#a75615abf8f124c460b9b163868c89b7e", null ],
+    [ "put", "d7/d34/a00883.php#a2ca0b4e7146c9b27b2396c2ba114c923", null ],
+    [ "restore", "d7/d34/a00883.php#a6f731b973f917b6c2f3a04267f12c851", null ],
+    [ "save", "d7/d34/a00883.php#ab58627fbfed0b6cabd5030943113e5e5", null ]
 ];

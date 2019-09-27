@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 14:43:16 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -120,137 +120,142 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a00791.php">Big</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A new huge arithmetic variable.  <a href="../../d4/d45/a00791.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8a/a00899.php">Cesar</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use the cesar algorithm for encryption.  <a href="../../d3/d8a/a00899.php#details">More...</a><br /></td></tr>
+<tr class="memitem:dd/d7a/a00795"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#dd/d7a/a00795">Binary</a></td></tr>
+<tr class="memdesc:dd/d7a/a00795"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage binary values easily.  <a href="../../d3/dd1/a00214.php#dd/d7a/a00795">More...</a><br /></td></tr>
+<tr class="separator:dd/d7a/a00795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7d/a00799.php">Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8c/a00859.php">Clock</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A clock to measure the elapsed time.  <a href="../../dc/d8c/a00859.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d89/a00907.php">Cesar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use the cesar algorithm for encryption.  <a href="../../d5/d89/a00907.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de1/a00871.php">Cls</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the console.  <a href="../../dd/de1/a00871.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db8/a00867.php">Clock</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A clock to measure the elapsed time.  <a href="../../d2/db8/a00867.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d49/a00863.php">Color</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the text color in the console.  <a href="../../d7/d49/a00863.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da1/a00879.php">Cls</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the console.  <a href="../../d2/da1/a00879.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d93/a00875.php">ConsoleCursor</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with the cursor in the console.  <a href="../../d1/d93/a00875.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de1/a00871.php">Color</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the text color in the console.  <a href="../../dd/de1/a00871.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d92/a00887.php">ConsoleTable</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to print a table in the console.  <a href="../../d7/d92/a00887.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/a00883.php">ConsoleCursor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with the cursor in the console.  <a href="../../d7/d34/a00883.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php">Contraption</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A contraption.  <a href="../../de/dfc/a00891.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d21/a00895.php">ConsoleTable</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to print a table in the console.  <a href="../../d2/d21/a00895.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:df/de9/a00923"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#df/de9/a00923">ContraptionAttr</a></td></tr>
-<tr class="memdesc:df/de9/a00923"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define <b><a class="el" href="../../de/dfc/a00891.php" title="A contraption. ">Contraption</a></b> attributes.  <a href="../../d3/dd1/a00214.php#df/de9/a00923">More...</a><br /></td></tr>
-<tr class="separator:df/de9/a00923"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d21/a00895.php">Crypto</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to be the parent for every crypt class.  <a href="../../d2/d21/a00895.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8a/a00899.php">Contraption</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A contraption.  <a href="../../d3/d8a/a00899.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php">Date</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with dates.  <a href="../../d2/d5e/a00915.php#details">More...</a><br /></td></tr>
+<tr class="memitem:df/dbc/a00931"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#df/dbc/a00931">ContraptionAttr</a></td></tr>
+<tr class="memdesc:df/dbc/a00931"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define <b><a class="el" href="../../d3/d8a/a00899.php" title="A contraption. ">Contraption</a></b> attributes.  <a href="../../d3/dd1/a00214.php#df/dbc/a00931">More...</a><br /></td></tr>
+<tr class="separator:df/dbc/a00931"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1c/a00903.php">Crypto</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to be the parent for every crypt class.  <a href="../../d4/d1c/a00903.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d0b/a00919.php">DateTime</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with dates and times.  <a href="../../d1/d0b/a00919.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de9/a00923.php">Date</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with dates.  <a href="../../df/de9/a00923.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d98/a00927.php">Entity</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An entity.  <a href="../../dd/d98/a00927.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d98/a00927.php">DateTime</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with dates and times.  <a href="../../dd/d98/a00927.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a00931.php">Fraction</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage fractions.  <a href="../../df/dbc/a00931.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d19/a00935.php">Entity</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An entity.  <a href="../../d8/d19/a00935.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d19/a00935.php">Hostile</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to derivate from when the thing can attack.  <a href="../../d8/d19/a00935.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php">Fraction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage fractions.  <a href="../../dd/d20/a00939.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php">Identifier</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to store some identify datas.  <a href="../../dd/d20/a00939.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddd/a00943.php">Hostile</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to derivate from when the thing can attack.  <a href="../../d1/ddd/a00943.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddd/a00943.php">IOConfig</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to configure inputs and outputs.  <a href="../../d1/ddd/a00943.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d29/a00947.php">Identifier</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to store some identify datas.  <a href="../../d3/d29/a00947.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php">Map</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a map and that implement some pathfinding algorithms.  <a href="../../dc/db6/a00955.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da0/a00951.php">IOConfig</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to configure inputs and outputs.  <a href="../../dc/da0/a00951.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dc/da0/a00951"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#dc/da0/a00951">MapMove</a></td></tr>
-<tr class="memdesc:dc/da0/a00951"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to know informations about th movement of something in the map.  <a href="../../d3/dd1/a00214.php#dc/da0/a00951">More...</a><br /></td></tr>
-<tr class="separator:dc/da0/a00951"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d40/a00959.php">Matrix</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to represent matrix.  <a href="../../db/d40/a00959.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dad/a00963.php">Map</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a map and that implement some pathfinding algorithms.  <a href="../../de/dad/a00963.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dad/a00963.php">Mushroom</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A mushroom.  <a href="../../de/dad/a00963.php#details">More...</a><br /></td></tr>
+<tr class="memitem:db/d40/a00959"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#db/d40/a00959">MapMove</a></td></tr>
+<tr class="memdesc:db/d40/a00959"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to know informations about th movement of something in the map.  <a href="../../d3/dd1/a00214.php#db/d40/a00959">More...</a><br /></td></tr>
+<tr class="separator:db/d40/a00959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d94/a00967.php">Matrix</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to represent matrix.  <a href="../../d4/d94/a00967.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d89/a00907.php">MyCrypt</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use the <a class="el" href="../../d7/d12/a00911.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption.  <a href="../../d5/d89/a00907.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d3c/a00971.php">Mushroom</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A mushroom.  <a href="../../d0/d3c/a00971.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:db/dbb/a01047"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#db/dbb/a01047">Node</a></td></tr>
-<tr class="memdesc:db/dbb/a01047"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a node for the tree.  <a href="../../d3/dd1/a00214.php#db/dbb/a01047">More...</a><br /></td></tr>
-<tr class="separator:db/dbb/a01047"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d94/a00967.php">NotCopyable</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to let some other not to be copyable.  <a href="../../d4/d94/a00967.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00915.php">MyCrypt</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to test a homemade algorithm for encryption.  <a href="../../d2/d5e/a00915.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d3c/a00971.php">Object</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object.  <a href="../../d0/d3c/a00971.php#details">More...</a><br /></td></tr>
+<tr class="memitem:d2/d71/a01055"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">Node</a></td></tr>
+<tr class="memdesc:d2/d71/a01055"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a node for the tree.  <a href="../../d3/dd1/a00214.php#d2/d71/a01055">More...</a><br /></td></tr>
+<tr class="separator:d2/d71/a01055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbf/a00975.php">NotCopyable</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to let some other not to be copyable.  <a href="../../db/dbf/a00975.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d49/a00979.php">Path</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a path computed by the map.  <a href="../../d8/d49/a00979.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d49/a00979.php">Object</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object.  <a href="../../d8/d49/a00979.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d98/a00983.php">Pathfinding</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to implement some pathfinding algorithms.  <a href="../../d7/d98/a00983.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d21/a00987.php">Path</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a path computed by the map.  <a href="../../d4/d21/a00987.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d21/a00987.php">PathfindingDijkstra</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of the Dijkstra algorithm.  <a href="../../d4/d21/a00987.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2f/a00991.php">Pathfinding</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to implement some pathfinding algorithms.  <a href="../../df/d2f/a00991.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2f/a00991.php">PathfindingException</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">All exceptions that could be thrown by the pathfinding algorithm.  <a href="../../df/d2f/a00991.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d48/a00995.php">PathfindingDijkstra</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of the Dijkstra algorithm.  <a href="../../dd/d48/a00995.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbf/a00975.php">PathfindingNode</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A node for the path.  <a href="../../db/dbf/a00975.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de2/a00999.php">PathfindingException</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">All exceptions that could be thrown by the pathfinding algorithm.  <a href="../../de/de2/a00999.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d48/a00995.php">PathfindingProblem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to group every pathfinding problems in one way to use it.  <a href="../../dd/d48/a00995.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d98/a00983.php">PathfindingNode</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A node for the path.  <a href="../../d7/d98/a00983.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de2/a00999.php">Plant</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A plant.  <a href="../../de/de2/a00999.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d10/a01003.php">PathfindingProblem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to group every pathfinding problems in one way to use it.  <a href="../../dc/d10/a01003.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d10/a01003.php">Player</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A player that can be a child from any class.  <a href="../../dc/d10/a01003.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a01007.php">Plant</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A plant.  <a href="../../d6/d8d/a01007.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a01007.php">PlayerAbstraction</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A player that can be a child from any class.  <a href="../../d6/d8d/a01007.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d36/a01011.php">Player</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A player that can be a child from any class.  <a href="../../d6/d36/a01011.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php">Point</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a point in space.  <a href="../../de/de6/a01063.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dac/a01015.php">PlayerAbstraction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A player that can be a child from any class.  <a href="../../d1/dac/a01015.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/daf/a01019.php">PureVirtual</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to make some other to be abstract class.  <a href="../../db/daf/a01019.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d18/a01071.php">Point</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a point in space.  <a href="../../df/d18/a01071.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d0/d90/a01059"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a></td></tr>
-<tr class="memdesc:d0/d90/a01059"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for four values.  <a href="../../d3/dd1/a00214.php#d0/d90/a01059">More...</a><br /></td></tr>
-<tr class="separator:d0/d90/a01059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a01027.php">PureVirtual</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to make some other to be abstract class.  <a href="../../dd/dfd/a01027.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d2/d49/a01067"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a></td></tr>
+<tr class="memdesc:d2/d49/a01067"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for four values.  <a href="../../d3/dd1/a00214.php#d2/d49/a01067">More...</a><br /></td></tr>
+<tr class="separator:d2/d49/a01067"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/a00783.php">queue</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of std::queue.  <a href="../../dc/d0c/a00783.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dcd/a01023.php">Referenced</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to have a reference to the class' pointer.  <a href="../../d6/dcd/a01023.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dcf/a01031.php">Referenced</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to have a reference to the class' pointer.  <a href="../../d6/dcf/a01031.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db8/a00867.php">Reinit</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d2/db8/a00867.php" title="Reinit the color in the console. ">Reinit</a> the color in the console.  <a href="../../d2/db8/a00867.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d93/a00875.php">Reinit</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d1/d93/a00875.php" title="Reinit the color in the console. ">Reinit</a> the color in the console.  <a href="../../d1/d93/a00875.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a01027.php">RNG</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to simplify the use of random.  <a href="../../dd/dfd/a01027.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d26/a01035.php">RNG</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to simplify the use of random.  <a href="../../de/d26/a01035.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d12/a00911.php">RSA</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use the <a class="el" href="../../d7/d12/a00911.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption.  <a href="../../d7/d12/a00911.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d0b/a00919.php">RSA</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use the <a class="el" href="../../d1/d0b/a00919.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption.  <a href="../../d1/d0b/a00919.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1c/a00903.php">SHA2</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of sha256 encryption.  <a href="../../d4/d1c/a00903.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d12/a00911.php">SHA2</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of sha256 encryption.  <a href="../../d7/d12/a00911.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d5d/a00775.php">stack</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of std::stack.  <a href="../../dc/d5d/a00775.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dcf/a01031.php">Stone</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A stone.  <a href="../../d6/dcf/a01031.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d21/a01039.php">Stone</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A stone.  <a href="../../df/d21/a01039.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7f/a00787.php">t_queue</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An thread-safe implementation of queue.  <a href="../../d8/d7f/a00787.php#details">More...</a><br /></td></tr>
@@ -258,33 +263,33 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d95/a00779.php">t_stack</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An thread-safe implementation of stack.  <a href="../../d3/d95/a00779.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d26/a01035.php">Threadable</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to let another one to be threadable with update() member in a thread.  <a href="../../de/d26/a01035.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d27/a01043.php">Threadable</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to let another one to be threadable with update() member in a thread.  <a href="../../d8/d27/a01043.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/a00883.php">ThreadCout</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::cout thread safe.  <a href="../../d7/d34/a00883.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfc/a00891.php">ThreadCout</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::cout thread safe.  <a href="../../de/dfc/a00891.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da1/a00879.php">ThreadEndlCout</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::endl in <a class="el" href="../../d7/d34/a00883.php" title="A class to use std::cout thread safe. ">ThreadCout</a>.  <a href="../../d2/da1/a00879.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d92/a00887.php">ThreadEndlCout</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::endl in <a class="el" href="../../de/dfc/a00891.php" title="A class to use std::cout thread safe. ">ThreadCout</a>.  <a href="../../d7/d92/a00887.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d21/a01039.php">Time</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with dates.  <a href="../../df/d21/a01039.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbb/a01047.php">Time</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with dates.  <a href="../../db/dbb/a01047.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d27/a01043.php">Timer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A timer to do something at the end.  <a href="../../d8/d27/a01043.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d42/a01051.php">Timer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A timer to do something at the end.  <a href="../../d3/d42/a01051.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d42/a01051.php">Tree</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a binary tree.  <a href="../../d3/d42/a01051.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d90/a01059.php">Tree</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a binary tree.  <a href="../../d0/d90/a01059.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d2/d71/a01055"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a></td></tr>
-<tr class="memdesc:d2/d71/a01055"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for three values.  <a href="../../d3/dd1/a00214.php#d2/d71/a01055">More...</a><br /></td></tr>
-<tr class="separator:d2/d71/a01055"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d49/a01067.php">Vegetal</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A vegetal.  <a href="../../d2/d49/a01067.php#details">More...</a><br /></td></tr>
+<tr class="memitem:de/de6/a01063"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a></td></tr>
+<tr class="memdesc:de/de6/a01063"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for three values.  <a href="../../d3/dd1/a00214.php#de/de6/a01063">More...</a><br /></td></tr>
+<tr class="separator:de/de6/a01063"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d80/a01075.php">Vegetal</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A vegetal.  <a href="../../dd/d80/a01075.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d3/d29/a00947"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#d3/d29/a00947">WorldDimensions</a></td></tr>
-<tr class="memdesc:d3/d29/a00947"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object to group the dimensions of the world.  <a href="../../d3/dd1/a00214.php#d3/d29/a00947">More...</a><br /></td></tr>
-<tr class="separator:d3/d29/a00947"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dc/db6/a00955"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#dc/db6/a00955">WorldDimensions</a></td></tr>
+<tr class="memdesc:dc/db6/a00955"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object to group the dimensions of the world.  <a href="../../d3/dd1/a00214.php#dc/db6/a00955">More...</a><br /></td></tr>
+<tr class="separator:dc/db6/a00955"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -310,9 +315,9 @@ Typedefs</h2></td></tr>
 <tr class="separator:a6982966fec37b802e584caec858e2e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adda27badcbfcfc854854c6ab094cf34e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> = long double</td></tr>
 <tr class="separator:adda27badcbfcfc854854c6ab094cf34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc4a4720990996356b2c954e9d611e9b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#adc4a4720990996356b2c954e9d611e9b">trio_str</a> = <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; std::string &gt;</td></tr>
+<tr class="memitem:adc4a4720990996356b2c954e9d611e9b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#adc4a4720990996356b2c954e9d611e9b">trio_str</a> = <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; std::string &gt;</td></tr>
 <tr class="separator:adc4a4720990996356b2c954e9d611e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa50b5dcb5cb495757e7084494fd482d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aaa50b5dcb5cb495757e7084494fd482d">quatuor_str</a> = <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; std::string &gt;</td></tr>
+<tr class="memitem:aaa50b5dcb5cb495757e7084494fd482d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aaa50b5dcb5cb495757e7084494fd482d">quatuor_str</a> = <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; std::string &gt;</td></tr>
 <tr class="separator:aaa50b5dcb5cb495757e7084494fd482d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -421,10 +426,10 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad688e3c0cf0c670ae196d83a4c6dd0d6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ad688e3c0cf0c670ae196d83a4c6dd0d6"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ad688e3c0cf0c670ae196d83a4c6dd0d6">implode</a> (std::vector&lt; T &gt; a, std::string glue=&quot;&quot;)</td></tr>
-<tr class="memdesc:ad688e3c0cf0c670ae196d83a4c6dd0d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="#ad688e3c0cf0c670ae196d83a4c6dd0d6">More...</a><br /></td></tr>
-<tr class="separator:ad688e3c0cf0c670ae196d83a4c6dd0d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2db82764bac2a48879000848b3af7c79"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2db82764bac2a48879000848b3af7c79"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a2db82764bac2a48879000848b3af7c79">implode</a> (std::vector&lt; T &gt; a, const std::string &amp;glue=&quot;&quot;)</td></tr>
+<tr class="memdesc:a2db82764bac2a48879000848b3af7c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="#a2db82764bac2a48879000848b3af7c79">More...</a><br /></td></tr>
+<tr class="separator:a2db82764bac2a48879000848b3af7c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49514e6c6c7518d6207a0f707ec92529"><td class="memTemplParams" colspan="2">template&lt;typename Array &gt; </td></tr>
 <tr class="memitem:a49514e6c6c7518d6207a0f707ec92529"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a49514e6c6c7518d6207a0f707ec92529">print_r</a> (Array a)</td></tr>
 <tr class="memdesc:a49514e6c6c7518d6207a0f707ec92529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="#a49514e6c6c7518d6207a0f707ec92529">More...</a><br /></td></tr>
@@ -466,7 +471,7 @@ Functions</h2></td></tr>
 <tr class="separator:af1c42a8b9412d2afa3b486c5e629f752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a040a2aa0625adc9f13e6568d906a20a2"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a040a2aa0625adc9f13e6568d906a20a2">array1Dto2D</a> (size_t index, size_t maxX)</td></tr>
 <tr class="separator:a040a2aa0625adc9f13e6568d906a20a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2539eedc8c5dcf1f8f7801eeb919de42"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a2539eedc8c5dcf1f8f7801eeb919de42">array2Dto1D</a> (<a class="el" href="../../de/de6/a01063.php">Point</a> pt, size_t maxX)</td></tr>
+<tr class="memitem:a2539eedc8c5dcf1f8f7801eeb919de42"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a2539eedc8c5dcf1f8f7801eeb919de42">array2Dto1D</a> (<a class="el" href="../../df/d18/a01071.php">Point</a> pt, size_t maxX)</td></tr>
 <tr class="separator:a2539eedc8c5dcf1f8f7801eeb919de42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66e560b6579bb202abdcee37283121a0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a66e560b6579bb202abdcee37283121a0"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a66e560b6579bb202abdcee37283121a0">toBigVal</a> (T in)</td></tr>
@@ -475,9 +480,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aea3616a95b7e00c3c401fe7f5d907ba8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aea3616a95b7e00c3c401fe7f5d907ba8">fromBigVal</a> (char in)</td></tr>
 <tr class="memdesc:aea3616a95b7e00c3c401fe7f5d907ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a char in an int.  <a href="#aea3616a95b7e00c3c401fe7f5d907ba8">More...</a><br /></td></tr>
 <tr class="separator:aea3616a95b7e00c3c401fe7f5d907ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf62573f8a0746e5576e00fc475bcdfb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aaf62573f8a0746e5576e00fc475bcdfb">fromBigVal</a> (std::string in)</td></tr>
-<tr class="memdesc:aaf62573f8a0746e5576e00fc475bcdfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a std::string in an int.  <a href="#aaf62573f8a0746e5576e00fc475bcdfb">More...</a><br /></td></tr>
-<tr class="separator:aaf62573f8a0746e5576e00fc475bcdfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ebc06a4ba39c08505854aa29dcd0f0e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a6ebc06a4ba39c08505854aa29dcd0f0e">fromBigVal</a> (const std::string &amp;in)</td></tr>
+<tr class="memdesc:a6ebc06a4ba39c08505854aa29dcd0f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a std::string in an int.  <a href="#a6ebc06a4ba39c08505854aa29dcd0f0e">More...</a><br /></td></tr>
+<tr class="separator:a6ebc06a4ba39c08505854aa29dcd0f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a49c8e33d55da52fabdb3f09f2fd3e5b2">operator==</a> (const <a class="el" href="../../d4/d45/a00791.php">Big</a> &amp;a, const <a class="el" href="../../d4/d45/a00791.php">Big</a> &amp;b) noexcept</td></tr>
 <tr class="memdesc:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <a class="el" href="../../d4/d45/a00791.php" title="A new huge arithmetic variable. ">Big</a>.  <a href="#a49c8e33d55da52fabdb3f09f2fd3e5b2">More...</a><br /></td></tr>
 <tr class="separator:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -584,21 +589,21 @@ Functions</h2></td></tr>
 <tr class="memitem:aebefabfd65c7a5f04f743779483dabbc"><td class="memTemplItemLeft" align="right" valign="top">std::chrono::milliseconds&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aebefabfd65c7a5f04f743779483dabbc">tomilli</a> (V in)</td></tr>
 <tr class="memdesc:aebefabfd65c7a5f04f743779483dabbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in std::chrono::milliseconds.  <a href="#aebefabfd65c7a5f04f743779483dabbc">More...</a><br /></td></tr>
 <tr class="separator:aebefabfd65c7a5f04f743779483dabbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74705a4e1fb16838be02655f4ea61e11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a74705a4e1fb16838be02655f4ea61e11">operator&lt;</a> (const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;a, const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;b)</td></tr>
+<tr class="memitem:a74705a4e1fb16838be02655f4ea61e11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a74705a4e1fb16838be02655f4ea61e11">operator&lt;</a> (const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;a, const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;b)</td></tr>
 <tr class="separator:a74705a4e1fb16838be02655f4ea61e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91f197d1381e789ce2295059d4d02c13"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a91f197d1381e789ce2295059d4d02c13">operator==</a> (const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;a, const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;b)</td></tr>
+<tr class="memitem:a91f197d1381e789ce2295059d4d02c13"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a91f197d1381e789ce2295059d4d02c13">operator==</a> (const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;a, const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;b)</td></tr>
 <tr class="separator:a91f197d1381e789ce2295059d4d02c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8ebb26f5618a66bc7e9bf3317a0477f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ad8ebb26f5618a66bc7e9bf3317a0477f">operator!=</a> (const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;a, const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;b)</td></tr>
+<tr class="memitem:ad8ebb26f5618a66bc7e9bf3317a0477f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ad8ebb26f5618a66bc7e9bf3317a0477f">operator!=</a> (const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;a, const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;b)</td></tr>
 <tr class="separator:ad8ebb26f5618a66bc7e9bf3317a0477f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4390d2726279039c439ba3b866fa2e50"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a4390d2726279039c439ba3b866fa2e50">operator&gt;</a> (const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;a, const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;b)</td></tr>
+<tr class="memitem:a4390d2726279039c439ba3b866fa2e50"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a4390d2726279039c439ba3b866fa2e50">operator&gt;</a> (const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;a, const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;b)</td></tr>
 <tr class="separator:a4390d2726279039c439ba3b866fa2e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57c7184396da7d8b9972ac64f37fc019"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a57c7184396da7d8b9972ac64f37fc019">operator&lt;=</a> (const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;a, const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;b)</td></tr>
+<tr class="memitem:a57c7184396da7d8b9972ac64f37fc019"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a57c7184396da7d8b9972ac64f37fc019">operator&lt;=</a> (const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;a, const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;b)</td></tr>
 <tr class="separator:a57c7184396da7d8b9972ac64f37fc019"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacc2b27f076a57eb6664e7d920a52c7e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aacc2b27f076a57eb6664e7d920a52c7e">operator&gt;=</a> (const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;a, const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;b)</td></tr>
+<tr class="memitem:aacc2b27f076a57eb6664e7d920a52c7e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aacc2b27f076a57eb6664e7d920a52c7e">operator&gt;=</a> (const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;a, const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;b)</td></tr>
 <tr class="separator:aacc2b27f076a57eb6664e7d920a52c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e76ac5c4df82149886b58edcfc7090a"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a0e76ac5c4df82149886b58edcfc7090a">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;date)</td></tr>
+<tr class="memitem:a0e76ac5c4df82149886b58edcfc7090a"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a0e76ac5c4df82149886b58edcfc7090a">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;date)</td></tr>
 <tr class="separator:a0e76ac5c4df82149886b58edcfc7090a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94817d75f824097e42c5a7fdf72907f9"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a94817d75f824097e42c5a7fdf72907f9">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="../../d1/d0b/a00919.php">DateTime</a> datetime)</td></tr>
+<tr class="memitem:a94817d75f824097e42c5a7fdf72907f9"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a94817d75f824097e42c5a7fdf72907f9">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="../../dd/d98/a00927.php">DateTime</a> datetime)</td></tr>
 <tr class="separator:a94817d75f824097e42c5a7fdf72907f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a14f66f0c6eba0c77338364977658e1"><td class="memTemplParams" colspan="2">template&lt;class T , class ... Args&gt; </td></tr>
 <tr class="memitem:a1a14f66f0c6eba0c77338364977658e1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a1a14f66f0c6eba0c77338364977658e1">error_log</a> (size_t line, T in, Args... args)</td></tr>
@@ -661,7 +666,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a4d75f23c9b03fd2c56324895d0ff3c58"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a4d75f23c9b03fd2c56324895d0ff3c58">dist</a> (T x1, T x2, T y1, T y2, T z1=0, T z2=0)</td></tr>
 <tr class="memdesc:a4d75f23c9b03fd2c56324895d0ff3c58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the distance of the given coordinates.  <a href="#a4d75f23c9b03fd2c56324895d0ff3c58">More...</a><br /></td></tr>
 <tr class="separator:a4d75f23c9b03fd2c56324895d0ff3c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a900f9e45ac94dbf01c4b67fb40682118"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a900f9e45ac94dbf01c4b67fb40682118">dist</a> (const <a class="el" href="../../de/de6/a01063.php">Point</a> &amp;ptA, const <a class="el" href="../../de/de6/a01063.php">Point</a> &amp;ptB)</td></tr>
+<tr class="memitem:a900f9e45ac94dbf01c4b67fb40682118"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a900f9e45ac94dbf01c4b67fb40682118">dist</a> (const <a class="el" href="../../df/d18/a01071.php">Point</a> &amp;ptA, const <a class="el" href="../../df/d18/a01071.php">Point</a> &amp;ptB)</td></tr>
 <tr class="memdesc:a900f9e45ac94dbf01c4b67fb40682118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the distance between the two given points.  <a href="#a900f9e45ac94dbf01c4b67fb40682118">More...</a><br /></td></tr>
 <tr class="separator:a900f9e45ac94dbf01c4b67fb40682118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9adc0354f681800c75d220e526377397"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
@@ -700,7 +705,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a69d6be0b9d139073dda5e708c76dccdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do the log of x in base 2.  <a href="#a69d6be0b9d139073dda5e708c76dccdd">More...</a><br /></td></tr>
 <tr class="separator:a69d6be0b9d139073dda5e708c76dccdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad32e282421be0e66b0288fe7634ad183"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ad32e282421be0e66b0288fe7634ad183"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_pointer&lt; T &gt;::value||<a class="el" href="../../d6/d36/a01011.php">Check::is_minded_ptr</a>&lt; T &gt;::value &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ad32e282421be0e66b0288fe7634ad183">deletePtr</a> (T &amp;pointer)</td></tr>
+<tr class="memitem:ad32e282421be0e66b0288fe7634ad183"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_pointer&lt; T &gt;::value||<a class="el" href="../../db/daf/a01019.php">Check::is_minded_ptr</a>&lt; T &gt;::value &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ad32e282421be0e66b0288fe7634ad183">deletePtr</a> (T &amp;pointer)</td></tr>
 <tr class="memdesc:ad32e282421be0e66b0288fe7634ad183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a pointer.  <a href="#ad32e282421be0e66b0288fe7634ad183">More...</a><br /></td></tr>
 <tr class="separator:ad32e282421be0e66b0288fe7634ad183"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25c5de928e67bd9c01f720f39329f04c"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
@@ -721,64 +726,64 @@ Functions</h2></td></tr>
 <tr class="memitem:a878c72753e2d2de82e186351a5314bb6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a878c72753e2d2de82e186351a5314bb6">sortDesc</a> (std::map&lt; Key, Value &gt; map)</td></tr>
 <tr class="memdesc:a878c72753e2d2de82e186351a5314bb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a map descendently.  <a href="#a878c72753e2d2de82e186351a5314bb6">More...</a><br /></td></tr>
 <tr class="separator:a878c72753e2d2de82e186351a5314bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f44d33dc7a87f999c8a168d159b7b7c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a0f44d33dc7a87f999c8a168d159b7b7c">split</a> (std::string in, char separator=' ')</td></tr>
-<tr class="memdesc:a0f44d33dc7a87f999c8a168d159b7b7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given caracter.  <a href="#a0f44d33dc7a87f999c8a168d159b7b7c">More...</a><br /></td></tr>
-<tr class="separator:a0f44d33dc7a87f999c8a168d159b7b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15734b133c7e5ce88308110f4efb3bfa"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a15734b133c7e5ce88308110f4efb3bfa">split</a> (std::string in, std::string c)</td></tr>
-<tr class="memdesc:a15734b133c7e5ce88308110f4efb3bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given string.  <a href="#a15734b133c7e5ce88308110f4efb3bfa">More...</a><br /></td></tr>
-<tr class="separator:a15734b133c7e5ce88308110f4efb3bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1462df0e8bb2fe7f5bb61bca736ecffa"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a1462df0e8bb2fe7f5bb61bca736ecffa">split</a> (std::string in, std::vector&lt; std::string &gt; cars)</td></tr>
-<tr class="memdesc:a1462df0e8bb2fe7f5bb61bca736ecffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given separators.  <a href="#a1462df0e8bb2fe7f5bb61bca736ecffa">More...</a><br /></td></tr>
-<tr class="separator:a1462df0e8bb2fe7f5bb61bca736ecffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f5effb1d0789a63d9c71c5549f3eacf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a3f5effb1d0789a63d9c71c5549f3eacf">split</a> (const std::string &amp;in, char separator=' ')</td></tr>
+<tr class="memdesc:a3f5effb1d0789a63d9c71c5549f3eacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given caracter.  <a href="#a3f5effb1d0789a63d9c71c5549f3eacf">More...</a><br /></td></tr>
+<tr class="separator:a3f5effb1d0789a63d9c71c5549f3eacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfdec07a9d46365ed68092ec70b96d41"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#acfdec07a9d46365ed68092ec70b96d41">split</a> (const std::string &amp;in, const std::string &amp;c)</td></tr>
+<tr class="memdesc:acfdec07a9d46365ed68092ec70b96d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given string.  <a href="#acfdec07a9d46365ed68092ec70b96d41">More...</a><br /></td></tr>
+<tr class="separator:acfdec07a9d46365ed68092ec70b96d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5257fd1ac4e72cf72335af2444a8bea9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a5257fd1ac4e72cf72335af2444a8bea9">split</a> (const std::string &amp;in, std::vector&lt; std::string &gt; cars)</td></tr>
+<tr class="memdesc:a5257fd1ac4e72cf72335af2444a8bea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given separators.  <a href="#a5257fd1ac4e72cf72335af2444a8bea9">More...</a><br /></td></tr>
+<tr class="separator:a5257fd1ac4e72cf72335af2444a8bea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa97708c3c4ad49b7e60d30c66bfad80a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aa97708c3c4ad49b7e60d30c66bfad80a">trim</a> (std::string &amp;in)</td></tr>
 <tr class="memdesc:aa97708c3c4ad49b7e60d30c66bfad80a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for <b>split</b>.  <a href="#aa97708c3c4ad49b7e60d30c66bfad80a">More...</a><br /></td></tr>
 <tr class="separator:aa97708c3c4ad49b7e60d30c66bfad80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b1fa9cade94967538723cead132456c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a9b1fa9cade94967538723cead132456c">uppercase</a> (std::string str, std::string::iterator begin, std::string::iterator end)</td></tr>
-<tr class="memdesc:a9b1fa9cade94967538723cead132456c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given interval to uppercase.  <a href="#a9b1fa9cade94967538723cead132456c">More...</a><br /></td></tr>
-<tr class="separator:a9b1fa9cade94967538723cead132456c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8401081694d2f40477e24639f48ae3d6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a8401081694d2f40477e24639f48ae3d6">lowercase</a> (std::string str, std::string::iterator begin, std::string::iterator end)</td></tr>
-<tr class="memdesc:a8401081694d2f40477e24639f48ae3d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given interval to lowercase.  <a href="#a8401081694d2f40477e24639f48ae3d6">More...</a><br /></td></tr>
-<tr class="separator:a8401081694d2f40477e24639f48ae3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bcf7344b39a112c02618ee2831e7188"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a6bcf7344b39a112c02618ee2831e7188">uppercase</a> (std::string str)</td></tr>
-<tr class="memdesc:a6bcf7344b39a112c02618ee2831e7188"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given string to uppercase.  <a href="#a6bcf7344b39a112c02618ee2831e7188">More...</a><br /></td></tr>
-<tr class="separator:a6bcf7344b39a112c02618ee2831e7188"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7305496cd0af7ff6f673de5b9d5d8837"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a7305496cd0af7ff6f673de5b9d5d8837">lowercase</a> (std::string str)</td></tr>
-<tr class="memdesc:a7305496cd0af7ff6f673de5b9d5d8837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given string to lowercase.  <a href="#a7305496cd0af7ff6f673de5b9d5d8837">More...</a><br /></td></tr>
-<tr class="separator:a7305496cd0af7ff6f673de5b9d5d8837"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a127c51f4d8bd9fdb9eaef6a5173a5d03"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a127c51f4d8bd9fdb9eaef6a5173a5d03">replace</a> (std::string str, std::string from, std::string to, bool regex=false, bool word=false, bool insensitive=false)</td></tr>
-<tr class="memdesc:a127c51f4d8bd9fdb9eaef6a5173a5d03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace something by something else in a string using regex_replace.  <a href="#a127c51f4d8bd9fdb9eaef6a5173a5d03">More...</a><br /></td></tr>
-<tr class="separator:a127c51f4d8bd9fdb9eaef6a5173a5d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334e09619932c4b2c193abe4fc9c3306"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a334e09619932c4b2c193abe4fc9c3306">uppercase</a> (const std::string &amp;str, std::string::iterator begin, std::string::iterator end)</td></tr>
+<tr class="memdesc:a334e09619932c4b2c193abe4fc9c3306"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given interval to uppercase.  <a href="#a334e09619932c4b2c193abe4fc9c3306">More...</a><br /></td></tr>
+<tr class="separator:a334e09619932c4b2c193abe4fc9c3306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c6d83e8654926ceebd7777a9ada0652"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a0c6d83e8654926ceebd7777a9ada0652">lowercase</a> (const std::string &amp;str, std::string::iterator begin, std::string::iterator end)</td></tr>
+<tr class="memdesc:a0c6d83e8654926ceebd7777a9ada0652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given interval to lowercase.  <a href="#a0c6d83e8654926ceebd7777a9ada0652">More...</a><br /></td></tr>
+<tr class="separator:a0c6d83e8654926ceebd7777a9ada0652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39b79dedb67710e8708dfec2985c6406"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a39b79dedb67710e8708dfec2985c6406">uppercase</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:a39b79dedb67710e8708dfec2985c6406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given string to uppercase.  <a href="#a39b79dedb67710e8708dfec2985c6406">More...</a><br /></td></tr>
+<tr class="separator:a39b79dedb67710e8708dfec2985c6406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0762354667dfb9f9e539e501399a9a00"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a0762354667dfb9f9e539e501399a9a00">lowercase</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:a0762354667dfb9f9e539e501399a9a00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given string to lowercase.  <a href="#a0762354667dfb9f9e539e501399a9a00">More...</a><br /></td></tr>
+<tr class="separator:a0762354667dfb9f9e539e501399a9a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae61cb7564bc3b0ccbcad0b991b74635d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ae61cb7564bc3b0ccbcad0b991b74635d">replace</a> (const std::string &amp;str, const std::string &amp;from, const std::string &amp;to, bool regex=false, bool word=false, bool insensitive=false)</td></tr>
+<tr class="memdesc:ae61cb7564bc3b0ccbcad0b991b74635d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace something by something else in a string using regex_replace.  <a href="#ae61cb7564bc3b0ccbcad0b991b74635d">More...</a><br /></td></tr>
+<tr class="separator:ae61cb7564bc3b0ccbcad0b991b74635d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ddd069f38e7407563a5d8e763d7dc90"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a1ddd069f38e7407563a5d8e763d7dc90">randStr</a> (size_t nb, unsigned short flags=CaractSet::ALL)</td></tr>
 <tr class="memdesc:a1ddd069f38e7407563a5d8e763d7dc90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a random string.  <a href="#a1ddd069f38e7407563a5d8e763d7dc90">More...</a><br /></td></tr>
 <tr class="separator:a1ddd069f38e7407563a5d8e763d7dc90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9a09991409b1fa61f97f8519efcaf30"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ad9a09991409b1fa61f97f8519efcaf30">count</a> (std::string text, char c)</td></tr>
-<tr class="memdesc:ad9a09991409b1fa61f97f8519efcaf30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count the number of appearances.  <a href="#ad9a09991409b1fa61f97f8519efcaf30">More...</a><br /></td></tr>
-<tr class="separator:ad9a09991409b1fa61f97f8519efcaf30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a057304d2908e871b3c8f65db3b41057a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a057304d2908e871b3c8f65db3b41057a">getall</a> (std::string str_regex, std::string str, bool insensitive=false)</td></tr>
-<tr class="memdesc:a057304d2908e871b3c8f65db3b41057a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all occurences of a regex in a string.  <a href="#a057304d2908e871b3c8f65db3b41057a">More...</a><br /></td></tr>
-<tr class="separator:a057304d2908e871b3c8f65db3b41057a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31744f235bdcd875c6e69661a4f0a490"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a31744f235bdcd875c6e69661a4f0a490">removeAccents</a> (std::string str)</td></tr>
-<tr class="memdesc:a31744f235bdcd875c6e69661a4f0a490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace all the accents of a string.  <a href="#a31744f235bdcd875c6e69661a4f0a490">More...</a><br /></td></tr>
-<tr class="separator:a31744f235bdcd875c6e69661a4f0a490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95be8eb46f76298e1218183421d13825"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a95be8eb46f76298e1218183421d13825">count</a> (const std::string &amp;text, char c)</td></tr>
+<tr class="memdesc:a95be8eb46f76298e1218183421d13825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count the number of appearances.  <a href="#a95be8eb46f76298e1218183421d13825">More...</a><br /></td></tr>
+<tr class="separator:a95be8eb46f76298e1218183421d13825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad903ee1a5cdf033a289168423cc0cf46"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ad903ee1a5cdf033a289168423cc0cf46">getall</a> (const std::string &amp;str_regex, const std::string &amp;str, bool insensitive=false)</td></tr>
+<tr class="memdesc:ad903ee1a5cdf033a289168423cc0cf46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all occurences of a regex in a string.  <a href="#ad903ee1a5cdf033a289168423cc0cf46">More...</a><br /></td></tr>
+<tr class="separator:ad903ee1a5cdf033a289168423cc0cf46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a685af449d029b7793f497633bbafbcbb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a685af449d029b7793f497633bbafbcbb">removeAccents</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:a685af449d029b7793f497633bbafbcbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace all the accents of a string.  <a href="#a685af449d029b7793f497633bbafbcbb">More...</a><br /></td></tr>
+<tr class="separator:a685af449d029b7793f497633bbafbcbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d72a06346182146581ff63f2fa70580"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a0d72a06346182146581ff63f2fa70580">exec</a> (const std::string &amp;cmd, bool force=false)</td></tr>
 <tr class="memdesc:a0d72a06346182146581ff63f2fa70580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use system in an IF and say if there is an error.  <a href="#a0d72a06346182146581ff63f2fa70580">More...</a><br /></td></tr>
 <tr class="separator:a0d72a06346182146581ff63f2fa70580"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcc09c3d97d72792032b5615d41aa1c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#abcc09c3d97d72792032b5615d41aa1c5">servLog</a> (const std::string &amp;str, bool server=false, const std::string &amp;name=&quot;Server&quot;)</td></tr>
 <tr class="memdesc:abcc09c3d97d72792032b5615d41aa1c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a string in cout like in a server.  <a href="#abcc09c3d97d72792032b5615d41aa1c5">More...</a><br /></td></tr>
 <tr class="separator:abcc09c3d97d72792032b5615d41aa1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3a0bfd8107f1a0512e3daccbe8ec32a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ab3a0bfd8107f1a0512e3daccbe8ec32a">operator&lt;</a> (const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;a, const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;b)</td></tr>
+<tr class="memitem:ab3a0bfd8107f1a0512e3daccbe8ec32a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ab3a0bfd8107f1a0512e3daccbe8ec32a">operator&lt;</a> (const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;a, const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;b)</td></tr>
 <tr class="separator:ab3a0bfd8107f1a0512e3daccbe8ec32a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b7c3b86bf4f3323ec303cf6caf4657d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a1b7c3b86bf4f3323ec303cf6caf4657d">operator==</a> (const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;a, const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;b)</td></tr>
+<tr class="memitem:a1b7c3b86bf4f3323ec303cf6caf4657d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a1b7c3b86bf4f3323ec303cf6caf4657d">operator==</a> (const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;a, const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;b)</td></tr>
 <tr class="separator:a1b7c3b86bf4f3323ec303cf6caf4657d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e4a4fa2bc9dc1a79ba1c4e1326c4e86"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a6e4a4fa2bc9dc1a79ba1c4e1326c4e86">operator!=</a> (const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;a, const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;b)</td></tr>
+<tr class="memitem:a6e4a4fa2bc9dc1a79ba1c4e1326c4e86"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a6e4a4fa2bc9dc1a79ba1c4e1326c4e86">operator!=</a> (const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;a, const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;b)</td></tr>
 <tr class="separator:a6e4a4fa2bc9dc1a79ba1c4e1326c4e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eb9966b5003b5c69b1c19cf2c91da5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a0eb9966b5003b5c69b1c19cf2c91da5b">operator&gt;</a> (const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;a, const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;b)</td></tr>
+<tr class="memitem:a0eb9966b5003b5c69b1c19cf2c91da5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a0eb9966b5003b5c69b1c19cf2c91da5b">operator&gt;</a> (const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;a, const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;b)</td></tr>
 <tr class="separator:a0eb9966b5003b5c69b1c19cf2c91da5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35feb7b77517c8a067a4f631d0c01903"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a35feb7b77517c8a067a4f631d0c01903">operator&lt;=</a> (const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;a, const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;b)</td></tr>
+<tr class="memitem:a35feb7b77517c8a067a4f631d0c01903"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a35feb7b77517c8a067a4f631d0c01903">operator&lt;=</a> (const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;a, const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;b)</td></tr>
 <tr class="separator:a35feb7b77517c8a067a4f631d0c01903"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2490b5d2fcccd5d4fcd7539a3e9ec8f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ab2490b5d2fcccd5d4fcd7539a3e9ec8f">operator&gt;=</a> (const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;a, const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;b)</td></tr>
+<tr class="memitem:ab2490b5d2fcccd5d4fcd7539a3e9ec8f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ab2490b5d2fcccd5d4fcd7539a3e9ec8f">operator&gt;=</a> (const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;a, const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;b)</td></tr>
 <tr class="separator:ab2490b5d2fcccd5d4fcd7539a3e9ec8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac056cce1809ed32482358d31064dac84"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ac056cce1809ed32482358d31064dac84">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;time)</td></tr>
+<tr class="memitem:ac056cce1809ed32482358d31064dac84"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ac056cce1809ed32482358d31064dac84">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;time)</td></tr>
 <tr class="separator:ac056cce1809ed32482358d31064dac84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49144605ea2f1f8a9463ae309c293628"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a49144605ea2f1f8a9463ae309c293628">getSec</a> ()</td></tr>
 <tr class="memdesc:a49144605ea2f1f8a9463ae309c293628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of seconds since the Epoch.  <a href="#a49144605ea2f1f8a9463ae309c293628">More...</a><br /></td></tr>
@@ -807,40 +812,40 @@ Functions</h2></td></tr>
 <tr class="memdesc:a1865ef6e7eed9ac5fa5b177b3f8dd1e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to sort a tree descendently depending on weights.  <a href="#a1865ef6e7eed9ac5fa5b177b3f8dd1e9">More...</a><br /></td></tr>
 <tr class="separator:a1865ef6e7eed9ac5fa5b177b3f8dd1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a426eb225a242b41a1bd4a38a721bfa39"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V &gt; </td></tr>
-<tr class="memitem:a426eb225a242b41a1bd4a38a721bfa39"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a426eb225a242b41a1bd4a38a721bfa39">operator&lt;</a> (const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
+<tr class="memitem:a426eb225a242b41a1bd4a38a721bfa39"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a426eb225a242b41a1bd4a38a721bfa39">operator&lt;</a> (const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
 <tr class="separator:a426eb225a242b41a1bd4a38a721bfa39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ea1828f8233339ff4109a6d054a3f6e"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V &gt; </td></tr>
-<tr class="memitem:a9ea1828f8233339ff4109a6d054a3f6e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a9ea1828f8233339ff4109a6d054a3f6e">operator==</a> (const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
+<tr class="memitem:a9ea1828f8233339ff4109a6d054a3f6e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a9ea1828f8233339ff4109a6d054a3f6e">operator==</a> (const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
 <tr class="separator:a9ea1828f8233339ff4109a6d054a3f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8c157fea2d3cba9a23a3ff2878cc08e"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V &gt; </td></tr>
-<tr class="memitem:ae8c157fea2d3cba9a23a3ff2878cc08e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ae8c157fea2d3cba9a23a3ff2878cc08e">operator&gt;</a> (const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
+<tr class="memitem:ae8c157fea2d3cba9a23a3ff2878cc08e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ae8c157fea2d3cba9a23a3ff2878cc08e">operator&gt;</a> (const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
 <tr class="separator:ae8c157fea2d3cba9a23a3ff2878cc08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6fc9365b82f561a4603cb21b7d247ec"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V &gt; </td></tr>
-<tr class="memitem:ac6fc9365b82f561a4603cb21b7d247ec"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ac6fc9365b82f561a4603cb21b7d247ec">operator&gt;=</a> (const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
+<tr class="memitem:ac6fc9365b82f561a4603cb21b7d247ec"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ac6fc9365b82f561a4603cb21b7d247ec">operator&gt;=</a> (const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
 <tr class="separator:ac6fc9365b82f561a4603cb21b7d247ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af16116bb74326c4d798c387465347225"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V &gt; </td></tr>
-<tr class="memitem:af16116bb74326c4d798c387465347225"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#af16116bb74326c4d798c387465347225">operator&lt;=</a> (const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
+<tr class="memitem:af16116bb74326c4d798c387465347225"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#af16116bb74326c4d798c387465347225">operator&lt;=</a> (const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
 <tr class="separator:af16116bb74326c4d798c387465347225"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3c520cfb33cd0c457951ab10b3e6c28"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V &gt; </td></tr>
-<tr class="memitem:ad3c520cfb33cd0c457951ab10b3e6c28"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ad3c520cfb33cd0c457951ab10b3e6c28">operator!=</a> (const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
+<tr class="memitem:ad3c520cfb33cd0c457951ab10b3e6c28"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ad3c520cfb33cd0c457951ab10b3e6c28">operator!=</a> (const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
 <tr class="separator:ad3c520cfb33cd0c457951ab10b3e6c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad6aa36cdd6eeeda915b26366786f62e"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V , typename W &gt; </td></tr>
-<tr class="memitem:aad6aa36cdd6eeeda915b26366786f62e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aad6aa36cdd6eeeda915b26366786f62e">operator&lt;</a> (const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
+<tr class="memitem:aad6aa36cdd6eeeda915b26366786f62e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aad6aa36cdd6eeeda915b26366786f62e">operator&lt;</a> (const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
 <tr class="separator:aad6aa36cdd6eeeda915b26366786f62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ba723943a9c71f6b716cfff3862b656"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V , typename W &gt; </td></tr>
-<tr class="memitem:a4ba723943a9c71f6b716cfff3862b656"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a4ba723943a9c71f6b716cfff3862b656">operator==</a> (const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
+<tr class="memitem:a4ba723943a9c71f6b716cfff3862b656"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a4ba723943a9c71f6b716cfff3862b656">operator==</a> (const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
 <tr class="separator:a4ba723943a9c71f6b716cfff3862b656"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa246dbc03b543a0a767df8e486189488"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V , typename W &gt; </td></tr>
-<tr class="memitem:aa246dbc03b543a0a767df8e486189488"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aa246dbc03b543a0a767df8e486189488">operator&gt;</a> (const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
+<tr class="memitem:aa246dbc03b543a0a767df8e486189488"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aa246dbc03b543a0a767df8e486189488">operator&gt;</a> (const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
 <tr class="separator:aa246dbc03b543a0a767df8e486189488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab654d9827594410729bb1267af700f68"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V , typename W &gt; </td></tr>
-<tr class="memitem:ab654d9827594410729bb1267af700f68"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ab654d9827594410729bb1267af700f68">operator&gt;=</a> (const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
+<tr class="memitem:ab654d9827594410729bb1267af700f68"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ab654d9827594410729bb1267af700f68">operator&gt;=</a> (const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
 <tr class="separator:ab654d9827594410729bb1267af700f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6991b54e58e0a5b120f698f4e941ec86"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V , typename W &gt; </td></tr>
-<tr class="memitem:a6991b54e58e0a5b120f698f4e941ec86"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a6991b54e58e0a5b120f698f4e941ec86">operator&lt;=</a> (const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
+<tr class="memitem:a6991b54e58e0a5b120f698f4e941ec86"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a6991b54e58e0a5b120f698f4e941ec86">operator&lt;=</a> (const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
 <tr class="separator:a6991b54e58e0a5b120f698f4e941ec86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a263f600382a931b0f059dc90a834e8b0"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V , typename W &gt; </td></tr>
-<tr class="memitem:a263f600382a931b0f059dc90a834e8b0"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a263f600382a931b0f059dc90a834e8b0">operator!=</a> (const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
+<tr class="memitem:a263f600382a931b0f059dc90a834e8b0"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a263f600382a931b0f059dc90a834e8b0">operator!=</a> (const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
 <tr class="separator:a263f600382a931b0f059dc90a834e8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad6c9253e2099a49d163fad90ef6f5f5"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
 <tr class="memitem:aad6c9253e2099a49d163fad90ef6f5f5"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aad6c9253e2099a49d163fad90ef6f5f5">getType</a> (const C &amp;)</td></tr>
@@ -860,20 +865,20 @@ Variables</h2></td></tr>
 <tr class="memitem:a50b5129023a76b3bdb0bd01ee9e8b72e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/de5/a00771.php">Arguments</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a50b5129023a76b3bdb0bd01ee9e8b72e">arguments</a></td></tr>
 <tr class="memdesc:a50b5129023a76b3bdb0bd01ee9e8b72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global arguments variable to save and keep some arguments.  <a href="#a50b5129023a76b3bdb0bd01ee9e8b72e">More...</a><br /></td></tr>
 <tr class="separator:a50b5129023a76b3bdb0bd01ee9e8b72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad49187ab386f309e965f2f8e954c3c24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d34/a00883.php">ThreadCout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ad49187ab386f309e965f2f8e954c3c24">cout</a></td></tr>
+<tr class="memitem:ad49187ab386f309e965f2f8e954c3c24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dfc/a00891.php">ThreadCout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ad49187ab386f309e965f2f8e954c3c24">cout</a></td></tr>
 <tr class="memdesc:ad49187ab386f309e965f2f8e954c3c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">The thread safe version of std::cout.  <a href="#ad49187ab386f309e965f2f8e954c3c24">More...</a><br /></td></tr>
 <tr class="separator:ad49187ab386f309e965f2f8e954c3c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19aa3c3882eb7a0c0d4f6479a4bbf975"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/da1/a00879.php">ThreadEndlCout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a19aa3c3882eb7a0c0d4f6479a4bbf975">endl</a></td></tr>
+<tr class="memitem:a19aa3c3882eb7a0c0d4f6479a4bbf975"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d92/a00887.php">ThreadEndlCout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a19aa3c3882eb7a0c0d4f6479a4bbf975">endl</a></td></tr>
 <tr class="memdesc:a19aa3c3882eb7a0c0d4f6479a4bbf975"><td class="mdescLeft">&#160;</td><td class="mdescRight">The thread safe version of std::endl.  <a href="#a19aa3c3882eb7a0c0d4f6479a4bbf975">More...</a><br /></td></tr>
 <tr class="separator:a19aa3c3882eb7a0c0d4f6479a4bbf975"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8855b382bd52d4baffe3633dbe8fa3ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d8a/a00899.php">Cesar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a8855b382bd52d4baffe3633dbe8fa3ed">cesar</a></td></tr>
+<tr class="memitem:a8855b382bd52d4baffe3633dbe8fa3ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d89/a00907.php">Cesar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a8855b382bd52d4baffe3633dbe8fa3ed">cesar</a></td></tr>
 <tr class="memdesc:a8855b382bd52d4baffe3633dbe8fa3ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global cesar variable to crypt and decrypt messages.  <a href="#a8855b382bd52d4baffe3633dbe8fa3ed">More...</a><br /></td></tr>
 <tr class="separator:a8855b382bd52d4baffe3633dbe8fa3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0ce198f34851e093bbc38dfd975e339"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1c/a00903.php">SHA2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aa0ce198f34851e093bbc38dfd975e339">sha2</a></td></tr>
+<tr class="memitem:aa0ce198f34851e093bbc38dfd975e339"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d12/a00911.php">SHA2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aa0ce198f34851e093bbc38dfd975e339">sha2</a></td></tr>
 <tr class="memdesc:aa0ce198f34851e093bbc38dfd975e339"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global sha2 variable to crypt messages.  <a href="#aa0ce198f34851e093bbc38dfd975e339">More...</a><br /></td></tr>
 <tr class="separator:aa0ce198f34851e093bbc38dfd975e339"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a302b261a28cb48198b26b85ab682bfab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d89/a00907.php">MyCrypt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a302b261a28cb48198b26b85ab682bfab">mycrypt</a></td></tr>
-<tr class="memdesc:a302b261a28cb48198b26b85ab682bfab"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global <a class="el" href="../../d5/d89/a00907.php" title="A class to use the RSA algorithm for encryption. ">MyCrypt</a> variable to crypt messages.  <a href="#a302b261a28cb48198b26b85ab682bfab">More...</a><br /></td></tr>
+<tr class="memitem:a302b261a28cb48198b26b85ab682bfab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d5e/a00915.php">MyCrypt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a302b261a28cb48198b26b85ab682bfab">mycrypt</a></td></tr>
+<tr class="memdesc:a302b261a28cb48198b26b85ab682bfab"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global <a class="el" href="../../d2/d5e/a00915.php" title="A class to test a homemade algorithm for encryption. ">MyCrypt</a> variable to crypt messages.  <a href="#a302b261a28cb48198b26b85ab682bfab">More...</a><br /></td></tr>
 <tr class="separator:a302b261a28cb48198b26b85ab682bfab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8860bcba5ad1fad5c14e9f8a69b8bc51"><td class="memItemLeft" align="right" valign="top">std::ifstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a8860bcba5ad1fad5c14e9f8a69b8bc51">reader</a></td></tr>
 <tr class="memdesc:a8860bcba5ad1fad5c14e9f8a69b8bc51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a global file reader.  <a href="#a8860bcba5ad1fad5c14e9f8a69b8bc51">More...</a><br /></td></tr>
@@ -886,8 +891,26 @@ Variables</h2></td></tr>
 <tr class="separator:a08ac826a0e7f64dc1b04036ecec50ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="df/de9/a00923" id="df/de9/a00923"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#df/de9/a00923">&#9670;&nbsp;</a></span>mcd::ContraptionAttr</h2>
+<a name="dd/d7a/a00795" id="dd/d7a/a00795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dd/d7a/a00795">&#9670;&nbsp;</a></span>mcd::Binary</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">class mcd::Binary</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"><h3>template&lt;typename T, typename Enable = void&gt;<br />
+class mcd::Binary&lt; T, Enable &gt;</h3>
+
+<p>A class to manage binary values easily. </p>
+</div>
+</div>
+</div>
+<a name="df/dbc/a00931" id="df/dbc/a00931"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#df/dbc/a00931">&#9670;&nbsp;</a></span>mcd::ContraptionAttr</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -897,7 +920,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><p>A struct to define <b><a class="el" href="../../de/dfc/a00891.php" title="A contraption. ">Contraption</a></b> attributes. </p>
+<div class="textblock"><p>A struct to define <b><a class="el" href="../../d3/d8a/a00899.php" title="A contraption. ">Contraption</a></b> attributes. </p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
@@ -925,8 +948,8 @@ w</td>
 
 </div>
 </div>
-<a name="dc/da0/a00951" id="dc/da0/a00951"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dc/da0/a00951">&#9670;&nbsp;</a></span>mcd::MapMove</h2>
+<a name="db/d40/a00959" id="db/d40/a00959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#db/d40/a00959">&#9670;&nbsp;</a></span>mcd::MapMove</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -955,8 +978,8 @@ next</td>
 
 </div>
 </div>
-<a name="db/dbb/a01047" id="db/dbb/a01047"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#db/dbb/a01047">&#9670;&nbsp;</a></span>mcd::Node</h2>
+<a name="d2/d71/a01055" id="d2/d71/a01055"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d2/d71/a01055">&#9670;&nbsp;</a></span>mcd::Node</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -973,7 +996,7 @@ struct mcd::Node&lt; T &gt;</h3>
 </div><div class="dynheader">
 Collaboration diagram for mcd::Node&lt; T &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/d46/a01045.png" border="0" usemap="#mcd_1_1Node_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../dc/d99/a01053.png" border="0" usemap="#mcd_1_1Node_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="mcd_1_1Node_3_01T_01_4_coll__map" id="mcd_1_1Node_3_01T_01_4_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
@@ -986,13 +1009,13 @@ initialized</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af4ea821acbfe4f8eb18a223a586c48c9"></a><a class="el" href="../../d3/dd1/a00214.php#db/dbb/a01047">Node</a>&lt; T &gt; *</td>
+<a id="af4ea821acbfe4f8eb18a223a586c48c9"></a><a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">Node</a>&lt; T &gt; *</td>
 <td class="fieldname">
 left</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aed7cc9cc3f81747b93f4e93dcd41db02"></a><a class="el" href="../../d3/dd1/a00214.php#db/dbb/a01047">Node</a>&lt; T &gt; *</td>
+<a id="aed7cc9cc3f81747b93f4e93dcd41db02"></a><a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">Node</a>&lt; T &gt; *</td>
 <td class="fieldname">
 right</td>
 <td class="fielddoc">
@@ -1013,8 +1036,8 @@ weight</td>
 
 </div>
 </div>
-<a name="d0/d90/a01059" id="d0/d90/a01059"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d0/d90/a01059">&#9670;&nbsp;</a></span>mcd::quatuor</h2>
+<a name="d2/d49/a01067" id="d2/d49/a01067"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d2/d49/a01067">&#9670;&nbsp;</a></span>mcd::quatuor</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1031,7 +1054,7 @@ class mcd::quatuor&lt; T, U, V, W &gt;</h3>
 </div><div class="dynheader">
 Collaboration diagram for mcd::quatuor&lt; T, U, V, W &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d2/db8/a01057.png" border="0" usemap="#mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d0/dc9/a01065.png" border="0" usemap="#mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map" id="mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
@@ -1065,8 +1088,8 @@ ter</td>
 
 </div>
 </div>
-<a name="d2/d71/a01055" id="d2/d71/a01055"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d2/d71/a01055">&#9670;&nbsp;</a></span>mcd::trio</h2>
+<a name="de/de6/a01063" id="de/de6/a01063"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#de/de6/a01063">&#9670;&nbsp;</a></span>mcd::trio</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1083,7 +1106,7 @@ class mcd::trio&lt; T, U, V &gt;</h3>
 </div><div class="dynheader">
 Collaboration diagram for mcd::trio&lt; T, U, V &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dc/d99/a01053.png" border="0" usemap="#mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../de/d9e/a01061.png" border="0" usemap="#mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map" id="mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
@@ -1111,8 +1134,8 @@ ter</td>
 
 </div>
 </div>
-<a name="d3/d29/a00947" id="d3/d29/a00947"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d3/d29/a00947">&#9670;&nbsp;</a></span>mcd::WorldDimensions</h2>
+<a name="dc/db6/a00955" id="dc/db6/a00955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dc/db6/a00955">&#9670;&nbsp;</a></span>mcd::WorldDimensions</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1257,7 +1280,7 @@ z</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d3/dd1/a00214.php#aaa50b5dcb5cb495757e7084494fd482d">mcd::quatuor_str</a> = typedef <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt;std::string&gt;</td>
+          <td class="memname">using <a class="el" href="../../d3/dd1/a00214.php#aaa50b5dcb5cb495757e7084494fd482d">mcd::quatuor_str</a> = typedef <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt;std::string&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1271,7 +1294,7 @@ z</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d3/dd1/a00214.php#adc4a4720990996356b2c954e9d611e9b">mcd::trio_str</a> = typedef <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt;std::string&gt;</td>
+          <td class="memname">using <a class="el" href="../../d3/dd1/a00214.php#adc4a4720990996356b2c954e9d611e9b">mcd::trio_str</a> = typedef <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt;std::string&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1667,7 +1690,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname">size_t mcd::array2Dto1D </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/de6/a01063.php">Point</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../df/d18/a01071.php">Point</a>&#160;</td>
           <td class="paramname"><em>pt</em>, </td>
         </tr>
         <tr>
@@ -2091,8 +2114,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ad9a09991409b1fa61f97f8519efcaf30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9a09991409b1fa61f97f8519efcaf30">&#9670;&nbsp;</a></span>count()</h2>
+<a id="a95be8eb46f76298e1218183421d13825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95be8eb46f76298e1218183421d13825">&#9670;&nbsp;</a></span>count()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2100,7 +2123,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">size_t mcd::count </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>text</em>, </td>
         </tr>
         <tr>
@@ -2175,7 +2198,7 @@ Here is the call graph for this function:</div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::enable_if_t&lt;std::is_pointer&lt;T&gt;::value || <a class="el" href="../../d6/d36/a01011.php">Check::is_minded_ptr</a>&lt;T&gt;::value&gt; mcd::deletePtr </td>
+          <td class="memname">std::enable_if_t&lt;std::is_pointer&lt;T&gt;::value || <a class="el" href="../../db/daf/a01019.php">Check::is_minded_ptr</a>&lt;T&gt;::value&gt; mcd::deletePtr </td>
           <td>(</td>
           <td class="paramtype">T &amp;&#160;</td>
           <td class="paramname"><em>pointer</em></td><td>)</td>
@@ -2294,13 +2317,13 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::dist </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../de/de6/a01063.php">Point</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/d18/a01071.php">Point</a> &amp;&#160;</td>
           <td class="paramname"><em>ptA</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../de/de6/a01063.php">Point</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/d18/a01071.php">Point</a> &amp;&#160;</td>
           <td class="paramname"><em>ptB</em>&#160;</td>
         </tr>
         <tr>
@@ -2576,8 +2599,8 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="aaf62573f8a0746e5576e00fc475bcdfb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf62573f8a0746e5576e00fc475bcdfb">&#9670;&nbsp;</a></span>fromBigVal() <span class="overload">[2/2]</span></h2>
+<a id="a6ebc06a4ba39c08505854aa29dcd0f0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ebc06a4ba39c08505854aa29dcd0f0e">&#9670;&nbsp;</a></span>fromBigVal() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2585,7 +2608,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">int mcd::fromBigVal </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2602,8 +2625,8 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="a057304d2908e871b3c8f65db3b41057a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a057304d2908e871b3c8f65db3b41057a">&#9670;&nbsp;</a></span>getall()</h2>
+<a id="ad903ee1a5cdf033a289168423cc0cf46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad903ee1a5cdf033a289168423cc0cf46">&#9670;&nbsp;</a></span>getall()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2611,13 +2634,13 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; mcd::getall </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str_regex</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
@@ -2763,8 +2786,8 @@ template&lt;class C &gt; </div>
 
 </div>
 </div>
-<a id="ad688e3c0cf0c670ae196d83a4c6dd0d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad688e3c0cf0c670ae196d83a4c6dd0d6">&#9670;&nbsp;</a></span>implode()</h2>
+<a id="a2db82764bac2a48879000848b3af7c79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2db82764bac2a48879000848b3af7c79">&#9670;&nbsp;</a></span>implode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2780,7 +2803,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>glue</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
@@ -2803,8 +2826,8 @@ template&lt;typename T &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/dd1/a00214_ad688e3c0cf0c670ae196d83a4c6dd0d6_cgraph.png" border="0" usemap="#d3/dd1/a00214_ad688e3c0cf0c670ae196d83a4c6dd0d6_cgraph" alt=""/></div>
-<map name="d3/dd1/a00214_ad688e3c0cf0c670ae196d83a4c6dd0d6_cgraph" id="d3/dd1/a00214_ad688e3c0cf0c670ae196d83a4c6dd0d6_cgraph">
+<div class="center"><img src="../../d3/dd1/a00214_a2db82764bac2a48879000848b3af7c79_cgraph.png" border="0" usemap="#d3/dd1/a00214_a2db82764bac2a48879000848b3af7c79_cgraph" alt=""/></div>
+<map name="d3/dd1/a00214_a2db82764bac2a48879000848b3af7c79_cgraph" id="d3/dd1/a00214_a2db82764bac2a48879000848b3af7c79_cgraph">
 <area shape="rect" id="node2" href="../../d3/dd1/a00214.php#a49514e6c6c7518d6207a0f707ec92529" title="Print the content of an array. " alt="" coords="153,5,244,32"/>
 </map>
 </div>
@@ -3067,8 +3090,8 @@ template&lt;typename V , typename U &gt; </div>
 
 </div>
 </div>
-<a id="a8401081694d2f40477e24639f48ae3d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8401081694d2f40477e24639f48ae3d6">&#9670;&nbsp;</a></span>lowercase() <span class="overload">[1/2]</span></h2>
+<a id="a0c6d83e8654926ceebd7777a9ada0652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c6d83e8654926ceebd7777a9ada0652">&#9670;&nbsp;</a></span>lowercase() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3076,7 +3099,7 @@ template&lt;typename V , typename U &gt; </div>
         <tr>
           <td class="memname">std::string mcd::lowercase </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
@@ -3112,8 +3135,8 @@ template&lt;typename V , typename U &gt; </div>
 
 </div>
 </div>
-<a id="a7305496cd0af7ff6f673de5b9d5d8837"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7305496cd0af7ff6f673de5b9d5d8837">&#9670;&nbsp;</a></span>lowercase() <span class="overload">[2/2]</span></h2>
+<a id="a0762354667dfb9f9e539e501399a9a00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0762354667dfb9f9e539e501399a9a00">&#9670;&nbsp;</a></span>lowercase() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3121,7 +3144,7 @@ template&lt;typename V , typename U &gt; </div>
         <tr>
           <td class="memname">std::string mcd::lowercase </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
         </tr>
@@ -3430,13 +3453,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator!= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -3458,13 +3481,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator!= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -3486,13 +3509,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator!= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -3516,13 +3539,13 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator!= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -3953,13 +3976,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&lt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -3981,13 +4004,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&lt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4011,13 +4034,13 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&lt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4039,13 +4062,13 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&lt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4073,7 +4096,7 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d0b/a00919.php">DateTime</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/d98/a00927.php">DateTime</a>&#160;</td>
           <td class="paramname"><em>datetime</em>&#160;</td>
         </tr>
         <tr>
@@ -4101,7 +4124,7 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;&#160;</td>
           <td class="paramname"><em>time</em>&#160;</td>
         </tr>
         <tr>
@@ -4129,7 +4152,7 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;&#160;</td>
           <td class="paramname"><em>date</em>&#160;</td>
         </tr>
         <tr>
@@ -4192,13 +4215,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&lt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4220,13 +4243,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&lt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4248,13 +4271,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&lt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4278,13 +4301,13 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&lt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4347,13 +4370,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4375,13 +4398,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4403,13 +4426,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4433,13 +4456,13 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4463,13 +4486,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&gt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4491,13 +4514,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&gt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4519,13 +4542,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&gt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4549,13 +4572,13 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&gt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4618,13 +4641,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&gt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d71/a01055">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#de/de6/a01063">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4646,13 +4669,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&gt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../df/d21/a01039.php">Time</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/dbb/a01047.php">Time</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4674,13 +4697,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&gt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d2/d5e/a00915.php">Date</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/de9/a00923.php">Date</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4704,13 +4727,13 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&gt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d0/d90/a01059">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dd1/a00214.php#d2/d49/a01067">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -5130,8 +5153,8 @@ template&lt;class C &gt; </div>
 
 </div>
 </div>
-<a id="a31744f235bdcd875c6e69661a4f0a490"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31744f235bdcd875c6e69661a4f0a490">&#9670;&nbsp;</a></span>removeAccents()</h2>
+<a id="a685af449d029b7793f497633bbafbcbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a685af449d029b7793f497633bbafbcbb">&#9670;&nbsp;</a></span>removeAccents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5139,7 +5162,7 @@ template&lt;class C &gt; </div>
         <tr>
           <td class="memname">std::string mcd::removeAccents </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5157,8 +5180,8 @@ template&lt;class C &gt; </div>
 
 </div>
 </div>
-<a id="a127c51f4d8bd9fdb9eaef6a5173a5d03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a127c51f4d8bd9fdb9eaef6a5173a5d03">&#9670;&nbsp;</a></span>replace()</h2>
+<a id="ae61cb7564bc3b0ccbcad0b991b74635d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae61cb7564bc3b0ccbcad0b991b74635d">&#9670;&nbsp;</a></span>replace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5166,19 +5189,19 @@ template&lt;class C &gt; </div>
         <tr>
           <td class="memname">std::string mcd::replace </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>from</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>to</em>, </td>
         </tr>
         <tr>
@@ -5545,8 +5568,8 @@ template&lt;class Key , class Value &gt; </div>
 
 </div>
 </div>
-<a id="a0f44d33dc7a87f999c8a168d159b7b7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f44d33dc7a87f999c8a168d159b7b7c">&#9670;&nbsp;</a></span>split() <span class="overload">[1/3]</span></h2>
+<a id="a3f5effb1d0789a63d9c71c5549f3eacf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f5effb1d0789a63d9c71c5549f3eacf">&#9670;&nbsp;</a></span>split() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5554,7 +5577,7 @@ template&lt;class Key , class Value &gt; </div>
         <tr>
           <td class="memname">std::vector&lt;std::string&gt; mcd::split </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>in</em>, </td>
         </tr>
         <tr>
@@ -5583,8 +5606,8 @@ template&lt;class Key , class Value &gt; </div>
 
 </div>
 </div>
-<a id="a15734b133c7e5ce88308110f4efb3bfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15734b133c7e5ce88308110f4efb3bfa">&#9670;&nbsp;</a></span>split() <span class="overload">[2/3]</span></h2>
+<a id="acfdec07a9d46365ed68092ec70b96d41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfdec07a9d46365ed68092ec70b96d41">&#9670;&nbsp;</a></span>split() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5592,13 +5615,13 @@ template&lt;class Key , class Value &gt; </div>
         <tr>
           <td class="memname">std::vector&lt;std::string&gt; mcd::split </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>in</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>c</em>&#160;</td>
         </tr>
         <tr>
@@ -5621,8 +5644,8 @@ template&lt;class Key , class Value &gt; </div>
 
 </div>
 </div>
-<a id="a1462df0e8bb2fe7f5bb61bca736ecffa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1462df0e8bb2fe7f5bb61bca736ecffa">&#9670;&nbsp;</a></span>split() <span class="overload">[3/3]</span></h2>
+<a id="a5257fd1ac4e72cf72335af2444a8bea9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5257fd1ac4e72cf72335af2444a8bea9">&#9670;&nbsp;</a></span>split() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5630,7 +5653,7 @@ template&lt;class Key , class Value &gt; </div>
         <tr>
           <td class="memname">std::vector&lt;std::string&gt; mcd::split </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>in</em>, </td>
         </tr>
         <tr>
@@ -6271,8 +6294,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a9b1fa9cade94967538723cead132456c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b1fa9cade94967538723cead132456c">&#9670;&nbsp;</a></span>uppercase() <span class="overload">[1/2]</span></h2>
+<a id="a334e09619932c4b2c193abe4fc9c3306"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a334e09619932c4b2c193abe4fc9c3306">&#9670;&nbsp;</a></span>uppercase() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6280,7 +6303,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname">std::string mcd::uppercase </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
@@ -6316,8 +6339,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a6bcf7344b39a112c02618ee2831e7188"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bcf7344b39a112c02618ee2831e7188">&#9670;&nbsp;</a></span>uppercase() <span class="overload">[2/2]</span></h2>
+<a id="a39b79dedb67710e8708dfec2985c6406"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39b79dedb67710e8708dfec2985c6406">&#9670;&nbsp;</a></span>uppercase() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6325,7 +6348,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname">std::string mcd::uppercase </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
         </tr>
@@ -6443,7 +6466,7 @@ template&lt;typename V &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/d8a/a00899.php">Cesar</a> mcd::cesar</td>
+          <td class="memname"><a class="el" href="../../d5/d89/a00907.php">Cesar</a> mcd::cesar</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -6459,7 +6482,7 @@ template&lt;typename V &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/d34/a00883.php">ThreadCout</a> mcd::cout</td>
+          <td class="memname"><a class="el" href="../../de/dfc/a00891.php">ThreadCout</a> mcd::cout</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -6475,7 +6498,7 @@ template&lt;typename V &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/da1/a00879.php">ThreadEndlCout</a> mcd::endl</td>
+          <td class="memname"><a class="el" href="../../d7/d92/a00887.php">ThreadEndlCout</a> mcd::endl</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -6491,12 +6514,12 @@ template&lt;typename V &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d89/a00907.php">MyCrypt</a> mcd::mycrypt</td>
+          <td class="memname"><a class="el" href="../../d2/d5e/a00915.php">MyCrypt</a> mcd::mycrypt</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>A global <a class="el" href="../../d5/d89/a00907.php" title="A class to use the RSA algorithm for encryption. ">MyCrypt</a> variable to crypt messages. </p>
+<p>A global <a class="el" href="../../d2/d5e/a00915.php" title="A class to test a homemade algorithm for encryption. ">MyCrypt</a> variable to crypt messages. </p>
 
 </div>
 </div>
@@ -6540,7 +6563,7 @@ template&lt;typename V &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1c/a00903.php">SHA2</a> mcd::sha2</td>
+          <td class="memname"><a class="el" href="../../d7/d12/a00911.php">SHA2</a> mcd::sha2</td>
         </tr>
       </table>
 </div><div class="memdoc">

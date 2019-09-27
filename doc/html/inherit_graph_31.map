@@ -1,4 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$db/d20/a00980.php" title="A class to implement some pathfinding algorithms. " alt="" coords="5,5,125,32"/>
-<area shape="rect" id="node2" href="$d2/d4c/a00984.php" title="An implementation of the Dijkstra algorithm. " alt="" coords="173,5,339,32"/>
+<area shape="rect" id="node1" href="$db/dbf/a00975.php" title="A class to let some other not to be copyable. " alt="" coords="5,81,136,108"/>
+<area shape="rect" id="node2" href="$d4/d1c/a00903.php" title="A class to be the parent for every crypt class. " alt="" coords="184,81,279,108"/>
+<area shape="rect" id="node3" href="$d5/d89/a00907.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="334,5,425,32"/>
+<area shape="rect" id="node4" href="$d2/d5e/a00915.php" title="A class to test a homemade algorithm for encryption. " alt="" coords="327,56,432,83"/>
+<area shape="rect" id="node5" href="$d1/d0b/a00919.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="338,107,421,133"/>
+<area shape="rect" id="node6" href="$d7/d12/a00911.php" title="An implementation of sha256 encryption. " alt="" coords="334,157,425,184"/>
 </map>

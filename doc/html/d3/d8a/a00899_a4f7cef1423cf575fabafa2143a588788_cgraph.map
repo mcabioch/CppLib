@@ -1,0 +1,4 @@
+<map id="mcd::Contraption::turnRight" name="mcd::Contraption::turnRight">
+<area shape="rect" id="node2" href="$d3/d8a/a00899.php#a73a47e55e554e7c7f357a74276368186" title="Set the angle. " alt="" coords="236,5,393,32"/>
+<area shape="rect" id="node3" href="$d3/d8a/a00899.php#a580eafa58a93d9ab4264c4cbac2f4167" title="mcd::Contraption::getA" alt="" coords="236,56,393,83"/>
+</map>

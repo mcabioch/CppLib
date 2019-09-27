@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,10 +93,13 @@ $(document).ready(function(){initNavTree('functions_func_b.php','');});
 
 <h3><a id="index_b"></a>- b -</h3><ul>
 <li>Big()
-: <a class="el" href="df/d0c/a00788.php#a9bf22e73a5a3631f06200da9a86e926b">mcd::Big</a>
+: <a class="el" href="d4/d45/a00791.php#a9bf22e73a5a3631f06200da9a86e926b">mcd::Big</a>
+</li>
+<li>Binary()
+: <a class="el" href="d0/d7d/a00799.php#a29b9b7a89bae0c41f0ff5933406b8f4d">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>bot()
-: <a class="el" href="d5/d16/a01060.php#a2beb84069e438adcccfa4b6ed9794c0c">mcd::Point</a>
+: <a class="el" href="df/d18/a01071.php#a2beb84069e438adcccfa4b6ed9794c0c">mcd::Point</a>
 </li>
 </ul>
 </div><!-- contents -->

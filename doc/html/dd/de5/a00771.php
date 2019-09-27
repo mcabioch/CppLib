@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 14:43:16 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -112,16 +112,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1eabf4c8408ded2b8deca24d99fd3234"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de5/a00771.php#a1eabf4c8408ded2b8deca24d99fd3234">addProg</a> (int argc, char **argv)</td></tr>
 <tr class="memdesc:a1eabf4c8408ded2b8deca24d99fd3234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the arguments of theMay, n to the object.  <a href="#a1eabf4c8408ded2b8deca24d99fd3234">More...</a><br /></td></tr>
 <tr class="separator:a1eabf4c8408ded2b8deca24d99fd3234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a629190434d6d0ebbea88fa2ddfd87508"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a629190434d6d0ebbea88fa2ddfd87508"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/de5/a00771.php#a629190434d6d0ebbea88fa2ddfd87508">add</a> (std::string category, T value)</td></tr>
-<tr class="memdesc:a629190434d6d0ebbea88fa2ddfd87508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a value to a part of the array.  <a href="#a629190434d6d0ebbea88fa2ddfd87508">More...</a><br /></td></tr>
-<tr class="separator:a629190434d6d0ebbea88fa2ddfd87508"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3afcd48b173c2c0f17c74a99b3a6b413"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de5/a00771.php#a3afcd48b173c2c0f17c74a99b3a6b413">operator[]</a> (std::string index)</td></tr>
-<tr class="memdesc:a3afcd48b173c2c0f17c74a99b3a6b413"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the arguments in an index.  <a href="#a3afcd48b173c2c0f17c74a99b3a6b413">More...</a><br /></td></tr>
-<tr class="separator:a3afcd48b173c2c0f17c74a99b3a6b413"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a774bcfae81b16daaf3301852e9ad32ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de5/a00771.php#a774bcfae81b16daaf3301852e9ad32ce">print</a> (std::string index=&quot;&quot;)</td></tr>
-<tr class="memdesc:a774bcfae81b16daaf3301852e9ad32ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print all the arguments in the <em>index</em>.  <a href="#a774bcfae81b16daaf3301852e9ad32ce">More...</a><br /></td></tr>
-<tr class="separator:a774bcfae81b16daaf3301852e9ad32ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d178470f50f3a3f12b2dab7aa40f004"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0d178470f50f3a3f12b2dab7aa40f004"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/de5/a00771.php#a0d178470f50f3a3f12b2dab7aa40f004">add</a> (const std::string &amp;category, T value)</td></tr>
+<tr class="memdesc:a0d178470f50f3a3f12b2dab7aa40f004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a value to a part of the array.  <a href="#a0d178470f50f3a3f12b2dab7aa40f004">More...</a><br /></td></tr>
+<tr class="separator:a0d178470f50f3a3f12b2dab7aa40f004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae401cb47faea064ac04133ea929c0f94"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de5/a00771.php#ae401cb47faea064ac04133ea929c0f94">operator[]</a> (const std::string &amp;index)</td></tr>
+<tr class="memdesc:ae401cb47faea064ac04133ea929c0f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the arguments in an index.  <a href="#ae401cb47faea064ac04133ea929c0f94">More...</a><br /></td></tr>
+<tr class="separator:ae401cb47faea064ac04133ea929c0f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab25a5cb9e0a7d21921baa90a95cd99b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de5/a00771.php#ab25a5cb9e0a7d21921baa90a95cd99b8">print</a> (const std::string &amp;index=&quot;&quot;)</td></tr>
+<tr class="memdesc:ab25a5cb9e0a7d21921baa90a95cd99b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print all the arguments in the <em>index</em>.  <a href="#ab25a5cb9e0a7d21921baa90a95cd99b8">More...</a><br /></td></tr>
+<tr class="separator:ab25a5cb9e0a7d21921baa90a95cd99b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to manage the arguments. </p>
@@ -188,8 +188,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a629190434d6d0ebbea88fa2ddfd87508"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a629190434d6d0ebbea88fa2ddfd87508">&#9670;&nbsp;</a></span>add()</h2>
+<a id="a0d178470f50f3a3f12b2dab7aa40f004"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d178470f50f3a3f12b2dab7aa40f004">&#9670;&nbsp;</a></span>add()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202,7 +202,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">bool mcd::Arguments::add </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>category</em>, </td>
         </tr>
         <tr>
@@ -236,12 +236,12 @@ template&lt;typename T &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/de5/a00771_a629190434d6d0ebbea88fa2ddfd87508_cgraph.png" border="0" usemap="#dd/de5/a00771_a629190434d6d0ebbea88fa2ddfd87508_cgraph" alt=""/></div>
-<map name="dd/de5/a00771_a629190434d6d0ebbea88fa2ddfd87508_cgraph" id="dd/de5/a00771_a629190434d6d0ebbea88fa2ddfd87508_cgraph">
+<div class="center"><img src="../../dd/de5/a00771_a0d178470f50f3a3f12b2dab7aa40f004_cgraph.png" border="0" usemap="#dd/de5/a00771_a0d178470f50f3a3f12b2dab7aa40f004_cgraph" alt=""/></div>
+<map name="dd/de5/a00771_a0d178470f50f3a3f12b2dab7aa40f004_cgraph" id="dd/de5/a00771_a0d178470f50f3a3f12b2dab7aa40f004_cgraph">
 <area shape="rect" id="node2" href="../../d3/dd1/a00214.php#a3ac7c03f689e82ab37f28905b06cedbd" title="Verify if a vector contains or not something. " alt="" coords="239,5,343,32"/>
 <area shape="rect" id="node4" href="../../d3/dd1/a00214.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="254,56,327,83"/>
-<area shape="rect" id="node5" href="../../dd/de5/a00771.php#a3afcd48b173c2c0f17c74a99b3a6b413" title="Get the arguments in an index. " alt="" coords="200,107,381,133"/>
-<area shape="rect" id="node6" href="../../dd/de5/a00771.php#a774bcfae81b16daaf3301852e9ad32ce" title="Print all the arguments in the index. " alt="" coords="215,157,366,184"/>
+<area shape="rect" id="node5" href="../../dd/de5/a00771.php#ae401cb47faea064ac04133ea929c0f94" title="Get the arguments in an index. " alt="" coords="200,107,381,133"/>
+<area shape="rect" id="node6" href="../../dd/de5/a00771.php#ab25a5cb9e0a7d21921baa90a95cd99b8" title="Print all the arguments in the index. " alt="" coords="215,157,366,184"/>
 <area shape="rect" id="node3" href="../../d3/dd1/a00214.php#a95b30a0f37ef4accc8c762eee75bcc12" title="Prints approximately everything. " alt="" coords="429,5,529,32"/>
 </map>
 </div>
@@ -286,8 +286,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a3afcd48b173c2c0f17c74a99b3a6b413"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3afcd48b173c2c0f17c74a99b3a6b413">&#9670;&nbsp;</a></span>operator[]()</h2>
+<a id="ae401cb47faea064ac04133ea929c0f94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae401cb47faea064ac04133ea929c0f94">&#9670;&nbsp;</a></span>operator[]()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,7 +295,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">std::vector&lt;std::string&gt;&amp; mcd::Arguments::operator[] </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
           <td></td>
         </tr>
@@ -313,8 +313,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a774bcfae81b16daaf3301852e9ad32ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a774bcfae81b16daaf3301852e9ad32ce">&#9670;&nbsp;</a></span>print()</h2>
+<a id="ab25a5cb9e0a7d21921baa90a95cd99b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab25a5cb9e0a7d21921baa90a95cd99b8">&#9670;&nbsp;</a></span>print()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -322,7 +322,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void mcd::Arguments::print </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>index</em> = <code>&quot;&quot;</code></td><td>)</td>
           <td></td>
         </tr>

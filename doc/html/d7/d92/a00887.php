@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::ConsoleTable Class Reference</title>
+		<title>C++: mcd::ThreadEndlCout Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 14:43:16 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -91,93 +91,29 @@ $(document).ready(function(){initNavTree('d7/d92/a00887.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#friends">Friends</a> &#124;
 <a href="../../dd/d08/a00884.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::ConsoleTable Class Reference</div>  </div>
+<div class="title">mcd::ThreadEndlCout Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to print a table in the console.  
+<p>A class to use std::endl in <a class="el" href="../../de/dfc/a00891.php" title="A class to use std::cout thread safe. ">ThreadCout</a>.  
  <a href="../../d7/d92/a00887.php#details">More...</a></p>
 
-<p><code>#include &lt;ConsoleTable.hpp&gt;</code></p>
+<p><code>#include &lt;console.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acc7af9ad8f4b7175a82acb2edfce15b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d92/a00887.php#acc7af9ad8f4b7175a82acb2edfce15b2">ConsoleTable</a> ()</td></tr>
-<tr class="separator:acc7af9ad8f4b7175a82acb2edfce15b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1878d602fe475fb47a2aca063e7cb9d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d92/a00887.php#a1878d602fe475fb47a2aca063e7cb9d6">headers</a> (std::vector&lt; std::string &gt; h)</td></tr>
-<tr class="separator:a1878d602fe475fb47a2aca063e7cb9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefb00d9e2e5755c7e2fd60cba225f504"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d92/a00887.php#aefb00d9e2e5755c7e2fd60cba225f504">lines</a> (std::vector&lt; std::vector&lt; std::string &gt;&gt; ls)</td></tr>
-<tr class="separator:aefb00d9e2e5755c7e2fd60cba225f504"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3669c41beda1b667738b6e7c42663b29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d92/a00887.php#a3669c41beda1b667738b6e7c42663b29">line</a> (std::vector&lt; std::string &gt; l)</td></tr>
-<tr class="separator:a3669c41beda1b667738b6e7c42663b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:af23c547bfa2b35d582a6922d425d02f5"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d92/a00887.php#af23c547bfa2b35d582a6922d425d02f5">operator&lt;&lt;</a> (std::ostream &amp;str, <a class="el" href="../../d7/d92/a00887.php">ConsoleTable</a> &amp;t)</td></tr>
-<tr class="separator:af23c547bfa2b35d582a6922d425d02f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53ccbe8d25d6cb23a3621a5c6d62598d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d92/a00887.php#a53ccbe8d25d6cb23a3621a5c6d62598d">ThreadEndlCout</a> ()</td></tr>
+<tr class="separator:a53ccbe8d25d6cb23a3621a5c6d62598d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7add9326a30b5b2b77fd7352e12f4ec2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d92/a00887.php#a7add9326a30b5b2b77fd7352e12f4ec2">~ThreadEndlCout</a> ()</td></tr>
+<tr class="separator:a7add9326a30b5b2b77fd7352e12f4ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to print a table in the console. </p>
+<div class="textblock"><p>A class to use std::endl in <a class="el" href="../../de/dfc/a00891.php" title="A class to use std::cout thread safe. ">ThreadCout</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="acc7af9ad8f4b7175a82acb2edfce15b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc7af9ad8f4b7175a82acb2edfce15b2">&#9670;&nbsp;</a></span>ConsoleTable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::ConsoleTable::ConsoleTable </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1878d602fe475fb47a2aca063e7cb9d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1878d602fe475fb47a2aca063e7cb9d6">&#9670;&nbsp;</a></span>headers()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::ConsoleTable::headers </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
-          <td class="paramname"><em>h</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3669c41beda1b667738b6e7c42663b29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3669c41beda1b667738b6e7c42663b29">&#9670;&nbsp;</a></span>line()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::ConsoleTable::line </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
-          <td class="paramname"><em>l</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aefb00d9e2e5755c7e2fd60cba225f504"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefb00d9e2e5755c7e2fd60cba225f504">&#9670;&nbsp;</a></span>lines()</h2>
+<a id="a53ccbe8d25d6cb23a3621a5c6d62598d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53ccbe8d25d6cb23a3621a5c6d62598d">&#9670;&nbsp;</a></span>ThreadEndlCout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,10 +122,9 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void mcd::ConsoleTable::lines </td>
+          <td class="memname">mcd::ThreadEndlCout::ThreadEndlCout </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::vector&lt; std::string &gt;&gt;&#160;</td>
-          <td class="paramname"><em>ls</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -199,20 +134,11 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d7/d92/a00887_aefb00d9e2e5755c7e2fd60cba225f504_cgraph.png" border="0" usemap="#d7/d92/a00887_aefb00d9e2e5755c7e2fd60cba225f504_cgraph" alt=""/></div>
-<map name="d7/d92/a00887_aefb00d9e2e5755c7e2fd60cba225f504_cgraph" id="d7/d92/a00887_aefb00d9e2e5755c7e2fd60cba225f504_cgraph">
-<area shape="rect" id="node2" href="../../d7/d92/a00887.php#a3669c41beda1b667738b6e7c42663b29" title="mcd::ConsoleTable::line" alt="" coords="196,13,359,39"/>
-</map>
-</div>
 
 </div>
 </div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="af23c547bfa2b35d582a6922d425d02f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af23c547bfa2b35d582a6922d425d02f5">&#9670;&nbsp;</a></span>operator<<</h2>
+<a id="a7add9326a30b5b2b77fd7352e12f4ec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7add9326a30b5b2b77fd7352e12f4ec2">&#9670;&nbsp;</a></span>~ThreadEndlCout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,26 +147,15 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td class="memname">virtual mcd::ThreadEndlCout::~ThreadEndlCout </td>
           <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/d92/a00887.php">ConsoleTable</a> &amp;&#160;</td>
-          <td class="paramname"><em>t</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -248,7 +163,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../dc/dee/a00053.php">ConsoleTable.hpp</a></li>
+<li><a class="el" href="../../d5/de0/a00050.php">console.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -256,7 +171,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../d7/d92/a00887.php">ConsoleTable</a></li>
+		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../d7/d92/a00887.php">ThreadEndlCout</a></li>
 		<li class="footer">
 			<?php
 				echo $text;
