@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['s_5fprint',['s_print',['../d5/dcd/a00802.php#a51139eafa7f6dacbd7958fa9e8ce664b',1,'mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;']]],
   ['save',['save',['../d2/dab/a00886.php#ab58627fbfed0b6cabd5030943113e5e5',1,'mcd::ConsoleCursor::save()'],['../d2/d6e/a00966.php#a4b402d37424b8fc5a5036ecc78781d6a',1,'mcd::Map::save()']]],
   ['second',['second',['../d9/d8e/a01050.php#a5a3510ec96b9698b8cf601a2a1b9d90c',1,'mcd::Time']]],
   ['sender',['sender',['../d5/dd3/a00902.php#a6ee6d1b64b6b88068a2165a1824a5af2',1,'mcd::Contraption']]],

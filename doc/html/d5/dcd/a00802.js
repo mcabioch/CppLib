@@ -43,8 +43,8 @@ var a00802 =
     [ "operator|", "d5/dcd/a00802.php#a46d358cd82d56495acd0fe3c99db691b", null ],
     [ "operator|=", "d5/dcd/a00802.php#aab132724a94ba4e2f2318346a8ffae90", null ],
     [ "operator|=", "d5/dcd/a00802.php#a1727ca4ea2cdfdbba4ee404e8c3f5d26", null ],
-    [ "print", "d5/dcd/a00802.php#aa74a5770d24b1278271c585382eaf030", null ],
     [ "print", "d5/dcd/a00802.php#a19199d5410d2586642819f9a64bf4f76", null ],
+    [ "s_print", "d5/dcd/a00802.php#a51139eafa7f6dacbd7958fa9e8ce664b", null ],
     [ "set", "d5/dcd/a00802.php#a4cd5ecef05c71e597e58411bf6cc6455", null ],
     [ "operator<<", "d5/dcd/a00802.php#acd2465f87f784cedc37718af0bf50d17", null ]
 ];

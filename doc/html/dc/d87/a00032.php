@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 01:33:44 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 11:21:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -188,7 +188,7 @@ Namespaces</h2></td></tr>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Created : Thursday September, 26 2019 19:42:06 </dd>
 <dd>
-Last modification : Thursday September, 26 2019 </dd></dl>
+Last modification : September, 27 2019 </dd></dl>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="de/d79/a00798" id="de/d79/a00798"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#de/d79/a00798">&#9670;&nbsp;</a></span>mcd::Binary</h2>

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 01:33:45 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 11:21:12 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,6 +92,9 @@ $(document).ready(function(){initNavTree('functions_s.php','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_s"></a>- s -</h3><ul>
+<li>s_print()
+: <a class="el" href="d5/dcd/a00802.php#a51139eafa7f6dacbd7958fa9e8ce664b">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+</li>
 <li>save()
 : <a class="el" href="d2/dab/a00886.php#ab58627fbfed0b6cabd5030943113e5e5">mcd::ConsoleCursor</a>
 , <a class="el" href="d2/d6e/a00966.php#a4b402d37424b8fc5a5036ecc78781d6a">mcd::Map</a>

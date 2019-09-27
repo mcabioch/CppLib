@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 01:33:45 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 11:21:12 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('functions_func_p.php','');});
 </li>
 <li>print()
 : <a class="el" href="d3/dee/a00774.php#ab25a5cb9e0a7d21921baa90a95cd99b8">mcd::Arguments</a>
-, <a class="el" href="d5/dcd/a00802.php#aa74a5770d24b1278271c585382eaf030">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+, <a class="el" href="d5/dcd/a00802.php#a19199d5410d2586642819f9a64bf4f76">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 , <a class="el" href="d4/d8a/a01062.php#a1e6f8d4ad100be50a970848a0c8437d1">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>printInfos()
@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('functions_func_p.php','');});
 <li>push()
 : <a class="el" href="dd/d7a/a00990.php#a54d7d03099784e7f2e573ba17ebe499e">mcd::Path</a>
 , <a class="el" href="d3/daf/a00790.php#a7ccba4c88decd735670f069077bce0b0">mcd::t_queue&lt; T, Container &gt;</a>
-, <a class="el" href="da/d96/a00782.php#a366f9af743a2aa515c828da000add01a">mcd::t_stack&lt; T, Container &gt;</a>
+, <a class="el" href="da/d96/a00782.php#ac52e7cd746a8da37bc0d9aba1b44a12a">mcd::t_stack&lt; T, Container &gt;</a>
 </li>
 <li>put()
 : <a class="el" href="d2/dab/a00886.php#a2ca0b4e7146c9b27b2396c2ba114c923">mcd::ConsoleCursor</a>

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 01:33:44 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 11:21:12 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -198,9 +198,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aa74a5770d24b1278271c585382eaf030"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#aa74a5770d24b1278271c585382eaf030">print</a> (const T &amp;in, size_t multiple=8)</td></tr>
-<tr class="memdesc:aa74a5770d24b1278271c585382eaf030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print an arithmetic variable value in binary format.  <a href="#aa74a5770d24b1278271c585382eaf030">More...</a><br /></td></tr>
-<tr class="separator:aa74a5770d24b1278271c585382eaf030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51139eafa7f6dacbd7958fa9e8ce664b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a51139eafa7f6dacbd7958fa9e8ce664b">s_print</a> (const T &amp;in, size_t multiple=8)</td></tr>
+<tr class="memdesc:a51139eafa7f6dacbd7958fa9e8ce664b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print an arithmetic variable value in binary format.  <a href="#a51139eafa7f6dacbd7958fa9e8ce664b">More...</a><br /></td></tr>
+<tr class="separator:a51139eafa7f6dacbd7958fa9e8ce664b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -1413,56 +1413,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aa74a5770d24b1278271c585382eaf030"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa74a5770d24b1278271c585382eaf030">&#9670;&nbsp;</a></span>print() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void <a class="el" href="../../df/d24/a00217.php#de/d79/a00798">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::print </td>
-          <td>(</td>
-          <td class="paramtype">const T &amp;&#160;</td>
-          <td class="paramname"><em>in</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>multiple</em> = <code>8</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Print an arithmetic variable value in binary format. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The value to print </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">multiple</td><td>The number of bits inside a group</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
 <a id="a19199d5410d2586642819f9a64bf4f76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19199d5410d2586642819f9a64bf4f76">&#9670;&nbsp;</a></span>print() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a19199d5410d2586642819f9a64bf4f76">&#9670;&nbsp;</a></span>print()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1488,6 +1440,53 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Print the value in binary format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">multiple</td><td>The number of bits inside a group</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a51139eafa7f6dacbd7958fa9e8ce664b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51139eafa7f6dacbd7958fa9e8ce664b">&#9670;&nbsp;</a></span>s_print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="../../df/d24/a00217.php#de/d79/a00798">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::s_print </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>multiple</em> = <code>8</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Print an arithmetic variable value in binary format. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The value to print </td></tr>

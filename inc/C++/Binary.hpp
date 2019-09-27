@@ -3,7 +3,7 @@
 *	\file		Binary.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	Thursday September, 26 2019 19:42:06
-*	\modified	Thursday September, 26 2019
+*	\modified	September, 27 2019
 *
 */
 #ifndef HEADER_BINARY
@@ -45,9 +45,10 @@ namespace mcd {
 				*
 				* \return		void
 				*/
-				static void print(const T& in, size_t multiple = 8) {
+				static void s_print(const T& in, size_t multiple = 8) {
 					Binary b(in);
-					b.print(multiple);
+					b._print(std::cout, multiple);
+					std::cout << std::endl;
 				}
 			/* Operators of Binary */
 				Binary<T> operator+(const Binary<T>& b){
@@ -258,7 +259,6 @@ namespace mcd {
 			/* Others members of Binary */
 				/*!
 				* \brief		Print the value in binary format
-				*	\param[in]	in			The value to print
 				*	\param[in]	multiple	The number of bits inside a group
 				*
 				* \return		void
