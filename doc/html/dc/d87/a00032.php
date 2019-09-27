@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:01:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -151,7 +151,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node20" href="../../d1/d09/a00077.php" title="Entity.hpp" alt="" coords="180,1723,261,1749"/>
 <area shape="rect" id="node31" href="../../d7/d06/a00131.php" title="Object.hpp" alt="" coords="299,1723,385,1749"/>
 <area shape="rect" id="node21" href="../../db/dab/a00089.php" title="Hostile.hpp" alt="" coords="66,1797,154,1824"/>
-<area shape="rect" id="node28" href="../../d5/df1/a00206.php" title="Vegetal.hpp" alt="" coords="175,1872,266,1899"/>
+<area shape="rect" id="node28" href="../../d3/de5/a00209.php" title="Vegetal.hpp" alt="" coords="175,1872,266,1899"/>
 <area shape="rect" id="node22" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="37,1872,124,1899"/>
 <area shape="rect" id="node23" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="39,1947,106,1973"/>
 <area shape="rect" id="node24" href="../../db/db6/a00074.php" title="Entities.hpp" alt="" coords="257,2021,347,2048"/>
@@ -173,15 +173,15 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:dd/d7a/a00795"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#dd/d7a/a00795">mcd::Binary&lt; T, Enable &gt;</a></td></tr>
-<tr class="memdesc:dd/d7a/a00795"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage binary values easily.  <a href="../../d3/dd1/a00214.php#dd/d7a/a00795">More...</a><br /></td></tr>
-<tr class="separator:dd/d7a/a00795"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7d/a00799.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td></tr>
+<tr class="memitem:de/d79/a00798"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#de/d79/a00798">mcd::Binary&lt; T, Enable &gt;</a></td></tr>
+<tr class="memdesc:de/d79/a00798"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage binary values easily.  <a href="../../df/d24/a00217.php#de/d79/a00798">More...</a><br /></td></tr>
+<tr class="separator:de/d79/a00798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d3/dd1/a00214"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></td></tr>
+<tr class="memitem:df/d24/a00217"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -190,8 +190,8 @@ Namespaces</h2></td></tr>
 <dd>
 Last modification : Thursday September, 26 2019 </dd></dl>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="dd/d7a/a00795" id="dd/d7a/a00795"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dd/d7a/a00795">&#9670;&nbsp;</a></span>mcd::Binary</h2>
+<a name="de/d79/a00798" id="de/d79/a00798"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#de/d79/a00798">&#9670;&nbsp;</a></span>mcd::Binary</h2>
 
 <div class="memitem">
 <div class="memproto">

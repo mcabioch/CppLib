@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:01:21 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('functions_func_j.php','');});
 
 <h3><a id="index_j"></a>- j -</h3><ul>
 <li>j()
-: <a class="el" href="d4/d94/a00967.php#adc00ecac929d1e153082d6a61879d4e2">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="d0/daf/a00970.php#adc00ecac929d1e153082d6a61879d4e2">mcd::Matrix&lt; C &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

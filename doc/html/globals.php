@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:01:21 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -121,7 +121,7 @@ $(document).ready(function(){initNavTree('globals.php','');});
 : <a class="el" href="da/dec/a00080.php#a05518c3c201982924254d7df8cc2d910">errors.hpp</a>
 </li>
 <li>GaussJordan()
-: <a class="el" href="df/d6a/a00119.php#ac334e87277dcb1be7586d7825d5def38">Matrix_functions.hpp</a>
+: <a class="el" href="df/d6a/a00119.php#a9b0f04cced69a887b46bddde8e3f3c0a">Matrix_functions.hpp</a>
 </li>
 <li>has_method
 : <a class="el" href="dd/d32/a00041.php#a92713af8c651ed158031ed7d3fd15977">check.hpp</a>
@@ -145,7 +145,7 @@ $(document).ready(function(){initNavTree('globals.php','');});
 : <a class="el" href="d6/d7d/a00161.php#a5664112302c26ebee5460b2fcc0a7954">pointers.hpp</a>
 </li>
 <li>operator&lt;&lt;()
-: <a class="el" href="df/d6a/a00119.php#a41e28ae3928eb58bf4c83bc0815baf08">Matrix_functions.hpp</a>
+: <a class="el" href="df/d6a/a00119.php#a9a3710d279e209fbff51b625690ef630">Matrix_functions.hpp</a>
 </li>
 <li>THREADABLE
 : <a class="el" href="de/df3/a00185.php#a09979566ade438911265d3e17ecc3abc">Threadable.hpp</a>

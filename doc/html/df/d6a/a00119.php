@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:01:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -98,12 +98,12 @@ $(document).ready(function(){initNavTree('df/d6a/a00119.php','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac334e87277dcb1be7586d7825d5def38"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:ac334e87277dcb1be7586d7825d5def38"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d6a/a00119.php#ac334e87277dcb1be7586d7825d5def38">GaussJordan</a> (const Matrix&lt; C &gt; &amp;M, Matrix&lt; C &gt; &amp;I, size_t i, size_t j)</td></tr>
-<tr class="separator:ac334e87277dcb1be7586d7825d5def38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41e28ae3928eb58bf4c83bc0815baf08"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:a41e28ae3928eb58bf4c83bc0815baf08"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d6a/a00119.php#a41e28ae3928eb58bf4c83bc0815baf08">operator&lt;&lt;</a> (std::ostream &amp;os, const Matrix&lt; C &gt; &amp;M)</td></tr>
-<tr class="separator:a41e28ae3928eb58bf4c83bc0815baf08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b0f04cced69a887b46bddde8e3f3c0a"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a9b0f04cced69a887b46bddde8e3f3c0a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d6a/a00119.php#a9b0f04cced69a887b46bddde8e3f3c0a">GaussJordan</a> (const Matrix&lt; D &gt; &amp;M, Matrix&lt; D &gt; &amp;I, size_t i, size_t j)</td></tr>
+<tr class="separator:a9b0f04cced69a887b46bddde8e3f3c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a3710d279e209fbff51b625690ef630"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a9a3710d279e209fbff51b625690ef630"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d6a/a00119.php#a9a3710d279e209fbff51b625690ef630">operator&lt;&lt;</a> (std::ostream &amp;os, const Matrix&lt; D &gt; &amp;M)</td></tr>
+<tr class="separator:a9a3710d279e209fbff51b625690ef630"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac79943d7aebf62ae9c882752261ee7cb"><td class="memTemplParams" colspan="2">template&lt;class C , typename U &gt; </td></tr>
 <tr class="memitem:ac79943d7aebf62ae9c882752261ee7cb"><td class="memTemplItemLeft" align="right" valign="top">Matrix&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d6a/a00119.php#ac79943d7aebf62ae9c882752261ee7cb">mod</a> (const Matrix&lt; C &gt; &amp;M, U b, bool positive=false)</td></tr>
 <tr class="separator:ac79943d7aebf62ae9c882752261ee7cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,24 +114,24 @@ Functions</h2></td></tr>
 <dd>
 Last modification : September, 26 2019 </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="ac334e87277dcb1be7586d7825d5def38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac334e87277dcb1be7586d7825d5def38">&#9670;&nbsp;</a></span>GaussJordan()</h2>
+<a id="a9b0f04cced69a887b46bddde8e3f3c0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b0f04cced69a887b46bddde8e3f3c0a">&#9670;&nbsp;</a></span>GaussJordan()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class C &gt; </div>
+template&lt;class D &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void GaussJordan </td>
           <td>(</td>
-          <td class="paramtype">const Matrix&lt; C &gt; &amp;&#160;</td>
+          <td class="paramtype">const Matrix&lt; D &gt; &amp;&#160;</td>
           <td class="paramname"><em>M</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Matrix&lt; C &gt; &amp;&#160;</td>
+          <td class="paramtype">Matrix&lt; D &gt; &amp;&#160;</td>
           <td class="paramname"><em>I</em>, </td>
         </tr>
         <tr>
@@ -192,13 +192,13 @@ template&lt;class C , typename U &gt; </div>
 
 </div>
 </div>
-<a id="a41e28ae3928eb58bf4c83bc0815baf08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41e28ae3928eb58bf4c83bc0815baf08">&#9670;&nbsp;</a></span>operator<<()</h2>
+<a id="a9a3710d279e209fbff51b625690ef630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a3710d279e209fbff51b625690ef630">&#9670;&nbsp;</a></span>operator<<()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class C &gt; </div>
+template&lt;class D &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
@@ -209,7 +209,7 @@ template&lt;class C &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Matrix&lt; C &gt; &amp;&#160;</td>
+          <td class="paramtype">const Matrix&lt; D &gt; &amp;&#160;</td>
           <td class="paramname"><em>M</em>&#160;</td>
         </tr>
         <tr>
@@ -222,9 +222,9 @@ template&lt;class C &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../df/d6a/a00119_a41e28ae3928eb58bf4c83bc0815baf08_cgraph.png" border="0" usemap="#df/d6a/a00119_a41e28ae3928eb58bf4c83bc0815baf08_cgraph" alt=""/></div>
-<map name="df/d6a/a00119_a41e28ae3928eb58bf4c83bc0815baf08_cgraph" id="df/d6a/a00119_a41e28ae3928eb58bf4c83bc0815baf08_cgraph">
-<area shape="rect" id="node2" href="../../d3/dd1/a00214.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="139,5,212,32"/>
+<div class="center"><img src="../../df/d6a/a00119_a9a3710d279e209fbff51b625690ef630_cgraph.png" border="0" usemap="#df/d6a/a00119_a9a3710d279e209fbff51b625690ef630_cgraph" alt=""/></div>
+<map name="df/d6a/a00119_a9a3710d279e209fbff51b625690ef630_cgraph" id="df/d6a/a00119_a9a3710d279e209fbff51b625690ef630_cgraph">
+<area shape="rect" id="node2" href="../../df/d24/a00217.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="139,5,212,32"/>
 </map>
 </div>
 

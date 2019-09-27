@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Check::is_minded_ptr&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 17 2019 11:06:05 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:01:21 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('db/d23/a01025.php','../../');});
+$(document).ready(function(){initNavTree('d1/dd8/a01022.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,36 +89,64 @@ $(document).ready(function(){initNavTree('db/d23/a01025.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="../../db/daf/a01019.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Tree&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::Check::is_minded_ptr&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d23/a01025.php#a20ba766efa9e94d90d156432d6f101b1">add</a>(T data, NodeWeight weight)</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d23/a01025.php#aa1c0e2b0a15c31c48ed5cade92c4ae3d">applyForEach</a>(void(*func)(Node&lt; T &gt; *, long int))</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d23/a01025.php#aaf42d9cae430064e1b52b8cd3e57ee42">asc</a>()</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d23/a01025.php#a22b22135964e818cd9d0ef9ded9f39de">convert</a>(std::vector&lt; std::pair&lt; T, U &gt;&gt; in)</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d23/a01025.php#a3a02b5886471e9607d6dd9caa3216657">create</a>(std::vector&lt; std::pair&lt; T, NodeWeight &gt;&gt; datas)</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d23/a01025.php#a52f3b03c077b82ded999b5cbd197f1e3">desc</a>()</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d23/a01025.php#a38b40b07bade18a081d80596983dd16c">equilibrate</a>(TREE_SORT sort=ASC)</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d23/a01025.php#a5f28587248a842f1ff72837a8132c00e">find</a>(T value)</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d23/a01025.php#a634efe609117c9533707b9f30bd0c488">getLeftCount</a>(Node&lt; T &gt; *node)</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d23/a01025.php#ada7f6fc4dba1856a8aae67983ba5544b">getRightCount</a>(Node&lt; T &gt; *node)</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d23/a01025.php#a069d03de16fc9d3db25d7ec67ed6811b">height</a>()</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d23/a01025.php#a53cd621cced254067f1ebac4e2abe8df">insert</a>(std::pair&lt; T, NodeWeight &gt; datas)</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d23/a01025.php#a279d0472004ed9618dde58fcfd6bb508">onCompare</a>(void(*func)(Node&lt; T &gt; *, Node&lt; T &gt; *))</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d23/a01025.php#ad9cda4b45c11828381cde08fa48ae94d">onDelete</a>(void(*func)(Node&lt; T &gt; *))</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d23/a01025.php#a1e6f8d4ad100be50a970848a0c8437d1">print</a>()</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d23/a01025.php#a93774d1792effab8a46379c6781729f0">Tree</a>(TREE_SORT sorting=ASC)</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d23/a01025.php#a44571a01497b2ac582c292c8bad9de33">~Tree</a>()</td><td class="entry"><a class="el" href="../../db/d23/a01025.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-</table></div><!-- contents -->
+<p>A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr.  
+ <a href="../../d1/dd8/a01022.php#details">More...</a></p>
+
+<p><code>#include &lt;pointers.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a76170894810e15b11dafb7f34965aef4"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd8/a01022.php#a76170894810e15b11dafb7f34965aef4">value</a> = false</td></tr>
+<tr class="separator:a76170894810e15b11dafb7f34965aef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class mcd::Check::is_minded_ptr&lt; T &gt;</h3>
+
+<p>A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a76170894810e15b11dafb7f34965aef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76170894810e15b11dafb7f34965aef4">&#9670;&nbsp;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool <a class="el" href="../../d1/dd8/a01022.php">mcd::Check::is_minded_ptr</a>&lt; T &gt;::value = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d6/d7d/a00161.php">pointers.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../df/d24/a00217.php">mcd</a></li><li class="navelem"><a class="el" href="../../dc/d9a/a00218.php">Check</a></li><li class="navelem"><a class="el" href="../../d1/dd8/a01022.php">is_minded_ptr</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

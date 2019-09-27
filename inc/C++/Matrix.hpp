@@ -105,7 +105,7 @@ namespace mcd {
 				*	\return						void
 				*/
 				template<class D>
-				friend void GaussJordan(Matrix<D> M, Matrix<D>& I, size_t i, size_t j);
+				friend void GaussJordan(const Matrix<D>& M, Matrix<D>& I, size_t i, size_t j);
 
 				template<class D>
 				friend std::ostream& operator<<(std::ostream& os, const Matrix<D>& M);
@@ -147,7 +147,7 @@ namespace mcd {
 			Matrix<C> mineur(size_t i, size_t j);
 
 			template<class T>
-			std::string tos(T value);
+			static std::string tos(T value);
 
 		/* Atttributes of Matrix */
 		public:

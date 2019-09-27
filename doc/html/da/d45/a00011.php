@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:01:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -105,23 +105,24 @@ Include dependency graph for array.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../df/d86/a00012.png" border="0" usemap="#array_8hpp" alt=""/></div>
 <map name="array_8hpp" id="array_8hpp">
-<area shape="rect" id="node3" href="../../dd/d32/a00041.php" title="C++/check.hpp" alt="" coords="189,80,301,107"/>
-<area shape="rect" id="node42" href="../../d7/d3f/a00173.php" title="C++/sorting.hpp" alt="" coords="395,80,511,107"/>
-<area shape="rect" id="node7" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="408,155,571,181"/>
-<area shape="rect" id="node36" href="../../d6/d2d/a00047.php" title="C++/collides.hpp" alt="" coords="262,155,383,181"/>
-<area shape="rect" id="node14" href="../../d6/d7d/a00161.php" title="C++/pointers.hpp" alt="" coords="569,528,692,555"/>
-<area shape="rect" id="node17" href="../../d3/db1/a00200.php" title="C++/types.hpp" alt="" coords="684,603,793,629"/>
-<area shape="rect" id="node19" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="648,677,715,704"/>
-<area shape="rect" id="node34" href="../../db/ddf/a00164.php" title="PureVirtual.hpp" alt="" coords="739,677,850,704"/>
-<area shape="rect" id="node35" href="../../de/d79/a00203.php" title="UsefullDefines.hpp" alt="" coords="875,677,1008,704"/>
-<area shape="rect" id="node30" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="975,752,1145,779"/>
-<area shape="rect" id="node31" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1170,752,1323,779"/>
-<area shape="rect" id="node32" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1348,752,1521,779"/>
-<area shape="rect" id="node33" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1545,752,1684,779"/>
-<area shape="rect" id="node37" href="../../d4/d81/a00110.php" title="C++/Matrix.hpp" alt="" coords="86,229,199,256"/>
-<area shape="rect" id="node38" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="279,304,403,331"/>
-<area shape="rect" id="node39" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="285,379,398,405"/>
-<area shape="rect" id="node40" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="527,453,641,480"/>
+<area shape="rect" id="node3" href="../../dd/d32/a00041.php" title="C++/check.hpp" alt="" coords="273,80,385,107"/>
+<area shape="rect" id="node43" href="../../d7/d3f/a00173.php" title="C++/sorting.hpp" alt="" coords="467,80,583,107"/>
+<area shape="rect" id="node7" href="../../d5/df1/a00206.php" title="C++/vector.hpp" alt="" coords="498,155,611,181"/>
+<area shape="rect" id="node37" href="../../d6/d2d/a00047.php" title="C++/collides.hpp" alt="" coords="353,155,474,181"/>
+<area shape="rect" id="node8" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="519,229,681,256"/>
+<area shape="rect" id="node15" href="../../d6/d7d/a00161.php" title="C++/pointers.hpp" alt="" coords="481,528,604,555"/>
+<area shape="rect" id="node18" href="../../d3/db1/a00200.php" title="C++/types.hpp" alt="" coords="596,603,705,629"/>
+<area shape="rect" id="node20" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="560,677,627,704"/>
+<area shape="rect" id="node35" href="../../db/ddf/a00164.php" title="PureVirtual.hpp" alt="" coords="651,677,762,704"/>
+<area shape="rect" id="node36" href="../../de/d79/a00203.php" title="UsefullDefines.hpp" alt="" coords="787,677,920,704"/>
+<area shape="rect" id="node31" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="887,752,1057,779"/>
+<area shape="rect" id="node32" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1082,752,1235,779"/>
+<area shape="rect" id="node33" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1260,752,1433,779"/>
+<area shape="rect" id="node34" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1457,752,1596,779"/>
+<area shape="rect" id="node38" href="../../d4/d81/a00110.php" title="C++/Matrix.hpp" alt="" coords="311,229,425,256"/>
+<area shape="rect" id="node39" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="187,304,311,331"/>
+<area shape="rect" id="node40" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="193,379,306,405"/>
+<area shape="rect" id="node41" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="439,453,553,480"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -156,7 +157,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node14" href="../../d1/d09/a00077.php" title="Entity.hpp" alt="" coords="180,1275,261,1301"/>
 <area shape="rect" id="node25" href="../../d7/d06/a00131.php" title="Object.hpp" alt="" coords="299,1275,385,1301"/>
 <area shape="rect" id="node15" href="../../db/dab/a00089.php" title="Hostile.hpp" alt="" coords="66,1349,154,1376"/>
-<area shape="rect" id="node22" href="../../d5/df1/a00206.php" title="Vegetal.hpp" alt="" coords="175,1424,266,1451"/>
+<area shape="rect" id="node22" href="../../d3/de5/a00209.php" title="Vegetal.hpp" alt="" coords="175,1424,266,1451"/>
 <area shape="rect" id="node16" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="37,1424,124,1451"/>
 <area shape="rect" id="node17" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="39,1499,106,1525"/>
 <area shape="rect" id="node18" href="../../db/db6/a00074.php" title="Entities.hpp" alt="" coords="257,1573,347,1600"/>
@@ -178,72 +179,72 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d5d/a00775.php">mcd::stack&lt; T, Container &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of std::stack.  <a href="../../dc/d5d/a00775.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d17/a00778.php">mcd::stack&lt; T, Container &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of std::stack.  <a href="../../d6/d17/a00778.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d95/a00779.php">mcd::t_stack&lt; T, Container &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An thread-safe implementation of stack.  <a href="../../d3/d95/a00779.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d96/a00782.php">mcd::t_stack&lt; T, Container &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An thread-safe implementation of stack.  <a href="../../da/d96/a00782.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/a00783.php">mcd::queue&lt; T, Container &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of std::queue.  <a href="../../dc/d0c/a00783.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7d/a00786.php">mcd::queue&lt; T, Container &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of std::queue.  <a href="../../d0/d7d/a00786.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7f/a00787.php">mcd::t_queue&lt; T, Container &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An thread-safe implementation of queue.  <a href="../../d8/d7f/a00787.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/a00790.php">mcd::t_queue&lt; T, Container &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An thread-safe implementation of queue.  <a href="../../d3/daf/a00790.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d3/dd1/a00214"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></td></tr>
+<tr class="memitem:df/d24/a00217"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a2db82764bac2a48879000848b3af7c79"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a2db82764bac2a48879000848b3af7c79"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a2db82764bac2a48879000848b3af7c79">mcd::implode</a> (std::vector&lt; T &gt; a, const std::string &amp;glue=&quot;&quot;)</td></tr>
-<tr class="memdesc:a2db82764bac2a48879000848b3af7c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="../../d3/dd1/a00214.php#a2db82764bac2a48879000848b3af7c79">More...</a><br /></td></tr>
+<tr class="memitem:a2db82764bac2a48879000848b3af7c79"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a2db82764bac2a48879000848b3af7c79">mcd::implode</a> (std::vector&lt; T &gt; a, const std::string &amp;glue=&quot;&quot;)</td></tr>
+<tr class="memdesc:a2db82764bac2a48879000848b3af7c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="../../df/d24/a00217.php#a2db82764bac2a48879000848b3af7c79">More...</a><br /></td></tr>
 <tr class="separator:a2db82764bac2a48879000848b3af7c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49514e6c6c7518d6207a0f707ec92529"><td class="memTemplParams" colspan="2">template&lt;typename Array &gt; </td></tr>
-<tr class="memitem:a49514e6c6c7518d6207a0f707ec92529"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a49514e6c6c7518d6207a0f707ec92529">mcd::print_r</a> (Array a)</td></tr>
-<tr class="memdesc:a49514e6c6c7518d6207a0f707ec92529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="../../d3/dd1/a00214.php#a49514e6c6c7518d6207a0f707ec92529">More...</a><br /></td></tr>
+<tr class="memitem:a49514e6c6c7518d6207a0f707ec92529"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a49514e6c6c7518d6207a0f707ec92529">mcd::print_r</a> (Array a)</td></tr>
+<tr class="memdesc:a49514e6c6c7518d6207a0f707ec92529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="../../df/d24/a00217.php#a49514e6c6c7518d6207a0f707ec92529">More...</a><br /></td></tr>
 <tr class="separator:a49514e6c6c7518d6207a0f707ec92529"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab06f1dc4b0034eb8041c40a16b70e4ca"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:ab06f1dc4b0034eb8041c40a16b70e4ca"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ab06f1dc4b0034eb8041c40a16b70e4ca">mcd::rewrite</a> (std::vector&lt; V &gt; table, unsigned index)</td></tr>
-<tr class="memdesc:ab06f1dc4b0034eb8041c40a16b70e4ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="../../d3/dd1/a00214.php#ab06f1dc4b0034eb8041c40a16b70e4ca">More...</a><br /></td></tr>
+<tr class="memitem:ab06f1dc4b0034eb8041c40a16b70e4ca"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#ab06f1dc4b0034eb8041c40a16b70e4ca">mcd::rewrite</a> (std::vector&lt; V &gt; table, unsigned index)</td></tr>
+<tr class="memdesc:ab06f1dc4b0034eb8041c40a16b70e4ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="../../df/d24/a00217.php#ab06f1dc4b0034eb8041c40a16b70e4ca">More...</a><br /></td></tr>
 <tr class="separator:ab06f1dc4b0034eb8041c40a16b70e4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ac7c03f689e82ab37f28905b06cedbd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a3ac7c03f689e82ab37f28905b06cedbd"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a3ac7c03f689e82ab37f28905b06cedbd">mcd::contains</a> (std::vector&lt; T &gt; table, T value)</td></tr>
-<tr class="memdesc:a3ac7c03f689e82ab37f28905b06cedbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a vector contains or not something.  <a href="../../d3/dd1/a00214.php#a3ac7c03f689e82ab37f28905b06cedbd">More...</a><br /></td></tr>
+<tr class="memitem:a3ac7c03f689e82ab37f28905b06cedbd"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a3ac7c03f689e82ab37f28905b06cedbd">mcd::contains</a> (std::vector&lt; T &gt; table, T value)</td></tr>
+<tr class="memdesc:a3ac7c03f689e82ab37f28905b06cedbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a vector contains or not something.  <a href="../../df/d24/a00217.php#a3ac7c03f689e82ab37f28905b06cedbd">More...</a><br /></td></tr>
 <tr class="separator:a3ac7c03f689e82ab37f28905b06cedbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95b30a0f37ef4accc8c762eee75bcc12"><td class="memTemplParams" colspan="2">template&lt;typename Something &gt; </td></tr>
-<tr class="memitem:a95b30a0f37ef4accc8c762eee75bcc12"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a95b30a0f37ef4accc8c762eee75bcc12">mcd::print_all</a> (Something data, bool change=false)</td></tr>
-<tr class="memdesc:a95b30a0f37ef4accc8c762eee75bcc12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints approximately everything.  <a href="../../d3/dd1/a00214.php#a95b30a0f37ef4accc8c762eee75bcc12">More...</a><br /></td></tr>
+<tr class="memitem:a95b30a0f37ef4accc8c762eee75bcc12"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a95b30a0f37ef4accc8c762eee75bcc12">mcd::print_all</a> (Something data, bool change=false)</td></tr>
+<tr class="memdesc:a95b30a0f37ef4accc8c762eee75bcc12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints approximately everything.  <a href="../../df/d24/a00217.php#a95b30a0f37ef4accc8c762eee75bcc12">More...</a><br /></td></tr>
 <tr class="separator:a95b30a0f37ef4accc8c762eee75bcc12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e20a60d52caf65d9d57c170efc7d56a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a2e20a60d52caf65d9d57c170efc7d56a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a2e20a60d52caf65d9d57c170efc7d56a">mcd::operator+=</a> (std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
+<tr class="memitem:a2e20a60d52caf65d9d57c170efc7d56a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a2e20a60d52caf65d9d57c170efc7d56a">mcd::operator+=</a> (std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:a2e20a60d52caf65d9d57c170efc7d56a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea330903a85d1247751d666e798ead28"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aea330903a85d1247751d666e798ead28"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aea330903a85d1247751d666e798ead28">mcd::operator+</a> (const std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
+<tr class="memitem:aea330903a85d1247751d666e798ead28"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#aea330903a85d1247751d666e798ead28">mcd::operator+</a> (const std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:aea330903a85d1247751d666e798ead28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50233faf9e0e108078af975455fad0b9"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a50233faf9e0e108078af975455fad0b9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a50233faf9e0e108078af975455fad0b9">mcd::operator-=</a> (std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
+<tr class="memitem:a50233faf9e0e108078af975455fad0b9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a50233faf9e0e108078af975455fad0b9">mcd::operator-=</a> (std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:a50233faf9e0e108078af975455fad0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a643c3473b3bce61f2ac50e63b8003994"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a643c3473b3bce61f2ac50e63b8003994"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a643c3473b3bce61f2ac50e63b8003994">mcd::operator-</a> (const std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
+<tr class="memitem:a643c3473b3bce61f2ac50e63b8003994"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a643c3473b3bce61f2ac50e63b8003994">mcd::operator-</a> (const std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:a643c3473b3bce61f2ac50e63b8003994"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e6ec1508e48530c9ea83c090cfe9ea1"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a2e6ec1508e48530c9ea83c090cfe9ea1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a2e6ec1508e48530c9ea83c090cfe9ea1">mcd::operator%=</a> (std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
+<tr class="memitem:a2e6ec1508e48530c9ea83c090cfe9ea1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a2e6ec1508e48530c9ea83c090cfe9ea1">mcd::operator%=</a> (std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:a2e6ec1508e48530c9ea83c090cfe9ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade36d3312ff7c93578e529d00411c67a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ade36d3312ff7c93578e529d00411c67a"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ade36d3312ff7c93578e529d00411c67a">mcd::operator%</a> (const std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
+<tr class="memitem:ade36d3312ff7c93578e529d00411c67a"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#ade36d3312ff7c93578e529d00411c67a">mcd::operator%</a> (const std::vector&lt; T &gt; &amp;a, const std::vector&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:ade36d3312ff7c93578e529d00411c67a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad6be0710fa6c480619505eae0afd547"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aad6be0710fa6c480619505eae0afd547"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aad6be0710fa6c480619505eae0afd547">mcd::pop</a> (std::vector&lt; T &gt; &amp;a, size_t pos=0)</td></tr>
+<tr class="memitem:aad6be0710fa6c480619505eae0afd547"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#aad6be0710fa6c480619505eae0afd547">mcd::pop</a> (std::vector&lt; T &gt; &amp;a, size_t pos=0)</td></tr>
 <tr class="separator:aad6be0710fa6c480619505eae0afd547"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1c42a8b9412d2afa3b486c5e629f752"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#af1c42a8b9412d2afa3b486c5e629f752">mcd::array2Dto1D</a> (size_t x, size_t y, size_t maxX)</td></tr>
+<tr class="memitem:af1c42a8b9412d2afa3b486c5e629f752"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#af1c42a8b9412d2afa3b486c5e629f752">mcd::array2Dto1D</a> (size_t x, size_t y, size_t maxX)</td></tr>
 <tr class="separator:af1c42a8b9412d2afa3b486c5e629f752"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a040a2aa0625adc9f13e6568d906a20a2"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a040a2aa0625adc9f13e6568d906a20a2">mcd::array1Dto2D</a> (size_t index, size_t maxX)</td></tr>
+<tr class="memitem:a040a2aa0625adc9f13e6568d906a20a2"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a040a2aa0625adc9f13e6568d906a20a2">mcd::array1Dto2D</a> (size_t index, size_t maxX)</td></tr>
 <tr class="separator:a040a2aa0625adc9f13e6568d906a20a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2539eedc8c5dcf1f8f7801eeb919de42"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a2539eedc8c5dcf1f8f7801eeb919de42">mcd::array2Dto1D</a> (Point pt, size_t maxX)</td></tr>
+<tr class="memitem:a2539eedc8c5dcf1f8f7801eeb919de42"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a2539eedc8c5dcf1f8f7801eeb919de42">mcd::array2Dto1D</a> (Point pt, size_t maxX)</td></tr>
 <tr class="separator:a2539eedc8c5dcf1f8f7801eeb919de42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

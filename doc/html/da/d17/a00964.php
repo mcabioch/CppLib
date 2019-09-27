@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
+				$text = "Generated on Thu Sep 26 2019 23:42:10 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d4/d94/a00967.php','../../');});
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="../../d4/d94/a00967.php#ace95025dd985ddaa6c1ed72e8b464a0a">det</a>()</td><td class="entry"><a class="el" href="../../d4/d94/a00967.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../d4/d94/a00967.php#ae6b6255f5d5cd9a1684fcdb927978c18">enabled</a>() const</td><td class="entry"><a class="el" href="../../d4/d94/a00967.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d94/a00967.php#a5e13250be50a80b7e8cab73a741b9fd5">GaussJordan</a>(Matrix&lt; D &gt; M, Matrix&lt; D &gt; &amp;I, size_t i, size_t j)</td><td class="entry"><a class="el" href="../../d4/d94/a00967.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d94/a00967.php#a9b0f04cced69a887b46bddde8e3f3c0a">GaussJordan</a>(const Matrix&lt; D &gt; &amp;M, Matrix&lt; D &gt; &amp;I, size_t i, size_t j)</td><td class="entry"><a class="el" href="../../d4/d94/a00967.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d4/d94/a00967.php#aac5e5ab03fe97f3deb3f56b34b638638">getIdentity</a>()</td><td class="entry"><a class="el" href="../../d4/d94/a00967.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d4/d94/a00967.php#a9823b15f6575c9007b734e505ea772b5">i</a>() const</td><td class="entry"><a class="el" href="../../d4/d94/a00967.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d4/d94/a00967.php#af0390771523fc535079faa2a7b7c29ce">inverted</a>()</td><td class="entry"><a class="el" href="../../d4/d94/a00967.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>

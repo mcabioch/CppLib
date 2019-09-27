@@ -1,0 +1,10 @@
+<map id="mcd::Animal::anyObstacle" name="mcd::Animal::anyObstacle">
+<area shape="rect" id="node2" href="$d4/d13/a00766.php#a64f627cdca203c3df393fd87c4d47bbb" title="Print the infos in the instance of the class in stream. " alt="" coords="239,5,397,32"/>
+<area shape="rect" id="node3" href="$d4/d13/a00766.php#aa26f06d52070e9976a972d49c11723c1" title="Go to the left. " alt="" coords="249,56,387,83"/>
+<area shape="rect" id="node4" href="$d4/d13/a00766.php#ad3ce2b65cecda053e43eac7421224088" title="Go to the right. " alt="" coords="244,107,392,133"/>
+<area shape="rect" id="node5" href="$d4/d13/a00766.php#ac70088d58528c2bb5a3bd30bf176f2ea" title="Go to the top. " alt="" coords="249,157,387,184"/>
+<area shape="rect" id="node6" href="$d4/d13/a00766.php#aec9e7e9161766fa70a0f7e0f7dbd09f1" title="Go to the bot. " alt="" coords="249,208,387,235"/>
+<area shape="rect" id="node7" href="$d4/d13/a00766.php#a1fc1900b7667afcef8a6841a13fd06ee" title="Turn with a given angle. " alt="" coords="255,259,381,285"/>
+<area shape="rect" id="node8" href="$d4/d13/a00766.php#a2ce9aecbe210f893028b8e9ad44a2b7b" title="Compute the Z. " alt="" coords="229,309,407,336"/>
+<area shape="rect" id="node9" href="$d4/d13/a00766.php#a8bda2d04e74731997a8139ad620f0d92" title="Move to the actual direction. " alt="" coords="251,360,385,387"/>
+</map>

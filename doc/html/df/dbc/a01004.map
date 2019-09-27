@@ -1,4 +1,5 @@
-<map id="mcd::Stone" name="mcd::Stone">
-<area shape="rect" id="node2" href="$d1/db0/a00945.php" title="An object. " alt="" coords="20,80,113,107"/>
-<area shape="rect" id="node3" href="$d9/d22/a00873.php" title="A contraption. " alt="" coords="5,5,128,32"/>
+<map id="mcd::PathfindingProblem" name="mcd::PathfindingProblem">
+<area shape="rect" id="node3" title="STL class. " alt="" coords="163,58,286,85"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="167,130,283,157"/>
+<area shape="rect" id="node8" href="$d3/d7b/a00986.php" title="A node for the path. " alt="" coords="149,181,300,207"/>
 </map>

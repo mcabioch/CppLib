@@ -1,0 +1,5 @@
+<map id="mcd::ConsoleCursor::put" name="mcd::ConsoleCursor::put">
+<area shape="rect" id="node2" href="$d2/dab/a00886.php#ab58627fbfed0b6cabd5030943113e5e5" title="Save the actual cursor position. " alt="" coords="221,5,364,47"/>
+<area shape="rect" id="node3" href="$d2/dab/a00886.php#a191575f00626575e84455dfae871f502" title="Go to an x/y position. " alt="" coords="221,71,364,112"/>
+<area shape="rect" id="node4" href="$d2/dab/a00886.php#a6f731b973f917b6c2f3a04267f12c851" title="Restore the cursor&#39;s saved position. " alt="" coords="221,136,364,177"/>
+</map>

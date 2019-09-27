@@ -1,6 +1,5 @@
-<map id="mcd::Player&lt; PlayerParent &gt;" name="mcd::Player&lt; PlayerParent &gt;">
-<area shape="rect" id="node2" href="$d1/dac/a01015.php" title="A player that can be a child from any class. " alt="" coords="5,200,164,241"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="179,96,259,123"/>
-<area shape="rect" id="node6" href="$d3/d29/a00947.php" title="A class to store some identify datas. " alt="" coords="188,207,293,234"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="156,5,283,47"/>
+<map id="mcd::Plant" name="mcd::Plant">
+<area shape="rect" id="node2" href="$dd/df1/a01082.php" title="A vegetal. " alt="" coords="17,155,116,181"/>
+<area shape="rect" id="node3" href="$d5/d54/a00938.php" title="An entity. " alt="" coords="22,80,111,107"/>
+<area shape="rect" id="node4" href="$d5/dd3/a00902.php" title="A contraption. " alt="" coords="5,5,128,32"/>
 </map>

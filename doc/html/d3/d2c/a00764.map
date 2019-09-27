@@ -1,4 +1,5 @@
-<map id="mcd::queue&lt; T, Container &gt;" name="mcd::queue&lt; T, Container &gt;">
-<area shape="rect" id="node3" href="$dd/d51/a00769.php" title="An thread&#45;safe implementation of queue. " alt="" coords="5,155,203,181"/>
-<area shape="rect" id="node2" title="STL class. " alt="" coords="15,5,193,32"/>
+<map id="mcd::Animal" name="mcd::Animal">
+<area shape="rect" id="node2" href="$d5/d54/a00938.php" title="An entity. " alt="" coords="22,80,111,107"/>
+<area shape="rect" id="node3" href="$d5/dd3/a00902.php" title="A contraption. " alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node4" href="$da/d40/a00946.php" title="A class to derivate from when the thing can attack. " alt="" coords="136,80,232,107"/>
 </map>

@@ -84,6 +84,10 @@ namespace mcd {
 	}
 
 	void Fraction::reduice(){
+		if(_denominator == 0){
+			throw std::string("Error Fraction : divided by 0 !");
+		}
+
 		if(_numerator == 0){
 			_denominator = 1;
 		}

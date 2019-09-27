@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:01:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -96,22 +96,23 @@ $(document).ready(function(){initNavTree('d7/d3f/a00173.php','../../');});
 <div class="title">sorting.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d2/de7/a00014.php">C++/arraysIncludes.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d5/df1/a00206.php">C++/vector.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for sorting.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d8/df1/a00174.png" border="0" usemap="#sorting_8hpp" alt=""/></div>
 <map name="sorting_8hpp" id="sorting_8hpp">
-<area shape="rect" id="node2" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="215,80,377,107"/>
-<area shape="rect" id="node9" href="../../d6/d7d/a00161.php" title="C++/pointers.hpp" alt="" coords="568,155,691,181"/>
-<area shape="rect" id="node12" href="../../d3/db1/a00200.php" title="C++/types.hpp" alt="" coords="683,229,792,256"/>
-<area shape="rect" id="node14" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="648,304,715,331"/>
-<area shape="rect" id="node29" href="../../db/ddf/a00164.php" title="PureVirtual.hpp" alt="" coords="739,304,850,331"/>
-<area shape="rect" id="node30" href="../../de/d79/a00203.php" title="UsefullDefines.hpp" alt="" coords="875,304,1008,331"/>
-<area shape="rect" id="node25" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="975,379,1145,405"/>
-<area shape="rect" id="node26" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1170,379,1323,405"/>
-<area shape="rect" id="node27" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1348,379,1521,405"/>
-<area shape="rect" id="node28" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1545,379,1684,405"/>
+<area shape="rect" id="node2" href="../../d5/df1/a00206.php" title="C++/vector.hpp" alt="" coords="239,80,353,107"/>
+<area shape="rect" id="node3" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="215,155,377,181"/>
+<area shape="rect" id="node10" href="../../d6/d7d/a00161.php" title="C++/pointers.hpp" alt="" coords="568,229,691,256"/>
+<area shape="rect" id="node13" href="../../d3/db1/a00200.php" title="C++/types.hpp" alt="" coords="683,304,792,331"/>
+<area shape="rect" id="node15" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="648,379,715,405"/>
+<area shape="rect" id="node30" href="../../db/ddf/a00164.php" title="PureVirtual.hpp" alt="" coords="739,379,850,405"/>
+<area shape="rect" id="node31" href="../../de/d79/a00203.php" title="UsefullDefines.hpp" alt="" coords="875,379,1008,405"/>
+<area shape="rect" id="node26" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="975,453,1145,480"/>
+<area shape="rect" id="node27" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1170,453,1323,480"/>
+<area shape="rect" id="node28" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1348,453,1521,480"/>
+<area shape="rect" id="node29" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1545,453,1684,480"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -147,7 +148,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node15" href="../../d1/d09/a00077.php" title="Entity.hpp" alt="" coords="180,1349,261,1376"/>
 <area shape="rect" id="node26" href="../../d7/d06/a00131.php" title="Object.hpp" alt="" coords="299,1349,385,1376"/>
 <area shape="rect" id="node16" href="../../db/dab/a00089.php" title="Hostile.hpp" alt="" coords="66,1424,154,1451"/>
-<area shape="rect" id="node23" href="../../d5/df1/a00206.php" title="Vegetal.hpp" alt="" coords="175,1499,266,1525"/>
+<area shape="rect" id="node23" href="../../d3/de5/a00209.php" title="Vegetal.hpp" alt="" coords="175,1499,266,1525"/>
 <area shape="rect" id="node17" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="37,1499,124,1525"/>
 <area shape="rect" id="node18" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="39,1573,106,1600"/>
 <area shape="rect" id="node19" href="../../db/db6/a00074.php" title="Entities.hpp" alt="" coords="257,1648,347,1675"/>
@@ -169,18 +170,18 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d3/dd1/a00214"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></td></tr>
+<tr class="memitem:df/d24/a00217"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aded48db1a26c07f913737ebb691c64bf"><td class="memTemplParams" colspan="2">template&lt;typename Key , typename Value &gt; </td></tr>
-<tr class="memitem:aded48db1a26c07f913737ebb691c64bf"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aded48db1a26c07f913737ebb691c64bf">mcd::sortAsc</a> (std::map&lt; Key, Value &gt; map)</td></tr>
-<tr class="memdesc:aded48db1a26c07f913737ebb691c64bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort a map ascendently  <a href="../../d3/dd1/a00214.php#aded48db1a26c07f913737ebb691c64bf">More...</a><br /></td></tr>
+<tr class="memitem:aded48db1a26c07f913737ebb691c64bf"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#aded48db1a26c07f913737ebb691c64bf">mcd::sortAsc</a> (std::map&lt; Key, Value &gt; map)</td></tr>
+<tr class="memdesc:aded48db1a26c07f913737ebb691c64bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort a map ascendently  <a href="../../df/d24/a00217.php#aded48db1a26c07f913737ebb691c64bf">More...</a><br /></td></tr>
 <tr class="separator:aded48db1a26c07f913737ebb691c64bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a878c72753e2d2de82e186351a5314bb6"><td class="memTemplParams" colspan="2">template&lt;class Key , class Value &gt; </td></tr>
-<tr class="memitem:a878c72753e2d2de82e186351a5314bb6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a878c72753e2d2de82e186351a5314bb6">mcd::sortDesc</a> (std::map&lt; Key, Value &gt; map)</td></tr>
-<tr class="memdesc:a878c72753e2d2de82e186351a5314bb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a map descendently.  <a href="../../d3/dd1/a00214.php#a878c72753e2d2de82e186351a5314bb6">More...</a><br /></td></tr>
+<tr class="memitem:a878c72753e2d2de82e186351a5314bb6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a878c72753e2d2de82e186351a5314bb6">mcd::sortDesc</a> (std::map&lt; Key, Value &gt; map)</td></tr>
+<tr class="memdesc:a878c72753e2d2de82e186351a5314bb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a map descendently.  <a href="../../df/d24/a00217.php#a878c72753e2d2de82e186351a5314bb6">More...</a><br /></td></tr>
 <tr class="separator:a878c72753e2d2de82e186351a5314bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

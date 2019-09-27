@@ -40,6 +40,6 @@ var a00967 =
     [ "operator/=", "d4/d94/a00967.php#ad60adce66964625f49ed954456ef08af", null ],
     [ "tos", "d4/d94/a00967.php#adbfa246182cc089300f95cf1610a99ef", null ],
     [ "transposed", "d4/d94/a00967.php#a942e3d418da2bacad3193d82411e2cfc", null ],
-    [ "GaussJordan", "d4/d94/a00967.php#a5e13250be50a80b7e8cab73a741b9fd5", null ],
+    [ "GaussJordan", "d4/d94/a00967.php#a9b0f04cced69a887b46bddde8e3f3c0a", null ],
     [ "operator<<", "d4/d94/a00967.php#a9a3710d279e209fbff51b625690ef630", null ]
 ];

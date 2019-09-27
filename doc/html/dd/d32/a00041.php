@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:01:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -102,28 +102,29 @@ $(document).ready(function(){initNavTree('dd/d32/a00041.php','../../');});
 <div class="textblock"><code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;chrono&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/de7/a00014.php">C++/arraysIncludes.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/df1/a00206.php">C++/vector.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d2d/a00047.php">C++/collides.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for check.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/db6/a00042.png" border="0" usemap="#check_8hpp" alt=""/></div>
 <map name="check_8hpp" id="check_8hpp">
-<area shape="rect" id="node5" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="265,80,428,107"/>
-<area shape="rect" id="node34" href="../../d6/d2d/a00047.php" title="C++/collides.hpp" alt="" coords="561,80,682,107"/>
-<area shape="rect" id="node12" href="../../d6/d7d/a00161.php" title="C++/pointers.hpp" alt="" coords="567,453,689,480"/>
-<area shape="rect" id="node15" href="../../d3/db1/a00200.php" title="C++/types.hpp" alt="" coords="681,528,791,555"/>
-<area shape="rect" id="node17" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="645,603,712,629"/>
-<area shape="rect" id="node32" href="../../db/ddf/a00164.php" title="PureVirtual.hpp" alt="" coords="737,603,847,629"/>
-<area shape="rect" id="node33" href="../../de/d79/a00203.php" title="UsefullDefines.hpp" alt="" coords="872,603,1005,629"/>
-<area shape="rect" id="node28" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="972,677,1143,704"/>
-<area shape="rect" id="node29" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1167,677,1321,704"/>
-<area shape="rect" id="node30" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1345,677,1519,704"/>
-<area shape="rect" id="node31" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1543,677,1681,704"/>
-<area shape="rect" id="node35" href="../../d4/d81/a00110.php" title="C++/Matrix.hpp" alt="" coords="622,155,735,181"/>
-<area shape="rect" id="node36" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="619,229,743,256"/>
-<area shape="rect" id="node37" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="619,304,733,331"/>
-<area shape="rect" id="node38" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="619,379,733,405"/>
+<area shape="rect" id="node5" href="../../d5/df1/a00206.php" title="C++/vector.hpp" alt="" coords="317,80,430,107"/>
+<area shape="rect" id="node35" href="../../d6/d2d/a00047.php" title="C++/collides.hpp" alt="" coords="507,80,629,107"/>
+<area shape="rect" id="node6" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="264,155,427,181"/>
+<area shape="rect" id="node13" href="../../d6/d7d/a00161.php" title="C++/pointers.hpp" alt="" coords="567,453,689,480"/>
+<area shape="rect" id="node16" href="../../d3/db1/a00200.php" title="C++/types.hpp" alt="" coords="681,528,791,555"/>
+<area shape="rect" id="node18" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="645,603,712,629"/>
+<area shape="rect" id="node33" href="../../db/ddf/a00164.php" title="PureVirtual.hpp" alt="" coords="737,603,847,629"/>
+<area shape="rect" id="node34" href="../../de/d79/a00203.php" title="UsefullDefines.hpp" alt="" coords="872,603,1005,629"/>
+<area shape="rect" id="node29" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="972,677,1143,704"/>
+<area shape="rect" id="node30" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1167,677,1321,704"/>
+<area shape="rect" id="node31" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1345,677,1519,704"/>
+<area shape="rect" id="node32" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1543,677,1681,704"/>
+<area shape="rect" id="node36" href="../../d4/d81/a00110.php" title="C++/Matrix.hpp" alt="" coords="538,155,651,181"/>
+<area shape="rect" id="node37" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="619,229,743,256"/>
+<area shape="rect" id="node38" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="619,304,733,331"/>
+<area shape="rect" id="node39" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="619,379,733,405"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -159,7 +160,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node15" href="../../d1/d09/a00077.php" title="Entity.hpp" alt="" coords="180,1349,261,1376"/>
 <area shape="rect" id="node26" href="../../d7/d06/a00131.php" title="Object.hpp" alt="" coords="299,1349,385,1376"/>
 <area shape="rect" id="node16" href="../../db/dab/a00089.php" title="Hostile.hpp" alt="" coords="66,1424,154,1451"/>
-<area shape="rect" id="node23" href="../../d5/df1/a00206.php" title="Vegetal.hpp" alt="" coords="175,1499,266,1525"/>
+<area shape="rect" id="node23" href="../../d3/de5/a00209.php" title="Vegetal.hpp" alt="" coords="175,1499,266,1525"/>
 <area shape="rect" id="node17" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="37,1499,124,1525"/>
 <area shape="rect" id="node18" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="39,1573,106,1600"/>
 <area shape="rect" id="node19" href="../../db/db6/a00074.php" title="Entities.hpp" alt="" coords="257,1648,347,1675"/>
@@ -181,54 +182,54 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d72/a00803.php">mcd::Check::is_array&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is an array, a vector or a map.  <a href="../../d5/d72/a00803.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/a00806.php">mcd::Check::is_array&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is an array, a vector or a map.  <a href="../../d0/dad/a00806.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc7/a00807.php">mcd::Check::is_vector&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a vector.  <a href="../../df/dc7/a00807.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfd/a00810.php">mcd::Check::is_vector&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a vector.  <a href="../../d4/dfd/a00810.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d07/a00811.php">mcd::Check::is_pair&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::pair.  <a href="../../dd/d07/a00811.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d71/a00814.php">mcd::Check::is_pair&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::pair.  <a href="../../da/d71/a00814.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d2d/a00815.php">mcd::Check::is_trio&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::pair.  <a href="../../d8/d2d/a00815.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d60/a00818.php">mcd::Check::is_trio&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::pair.  <a href="../../d3/d60/a00818.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4f/a00819.php">mcd::Check::is_quatuor&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::pair.  <a href="../../d7/d4f/a00819.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a00822.php">mcd::Check::is_quatuor&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::pair.  <a href="../../d6/da7/a00822.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db4/a00823.php">mcd::Check::is_string&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::string.  <a href="../../d3/db4/a00823.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d90/a00826.php">mcd::Check::is_string&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::string.  <a href="../../da/d90/a00826.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1b/a00827.php">mcd::Check::is_smatch&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a string regex match.  <a href="../../dc/d1b/a00827.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/daf/a00830.php">mcd::Check::is_smatch&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a string regex match.  <a href="../../d9/daf/a00830.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/a00831.php">mcd::Check::is_duration&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a chrono::duration.  <a href="../../d7/d5f/a00831.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d02/a00834.php">mcd::Check::is_duration&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a chrono::duration.  <a href="../../d9/d02/a00834.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d70/a00835.php">mcd::Check::has_size_method&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if an object has a size method.  <a href="../../dd/d70/a00835.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc7/a00838.php">mcd::Check::has_size_method&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if an object has a size method.  <a href="../../d2/dc7/a00838.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de8/a00839.php">mcd::Check::has_ostream_operator&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T has an ostream operator.  <a href="../../df/de8/a00839.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d11/a00842.php">mcd::Check::has_ostream_operator&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T has an ostream operator.  <a href="../../d0/d11/a00842.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d60/a00847.php">mcd::Check::has_istream_operator&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T has an istream operator.  <a href="../../d4/d60/a00847.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0a/a00850.php">mcd::Check::has_istream_operator&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T has an istream operator.  <a href="../../dc/d0a/a00850.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/de6/a00855.php">mcd::Check::is_printable&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is printable.  <a href="../../da/de6/a00855.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/a00858.php">mcd::Check::is_printable&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is printable.  <a href="../../d0/d66/a00858.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8c/a00859.php">mcd::Check::is_object&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is an unknown object.  <a href="../../dc/d8c/a00859.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d41/a00862.php">mcd::Check::is_object&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is an unknown object.  <a href="../../dc/d41/a00862.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d49/a00863.php">mcd::Check::is_special_struct&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a special struct.  <a href="../../d7/d49/a00863.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/db2/a00866.php">mcd::Check::is_special_struct&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a special struct.  <a href="../../dd/db2/a00866.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d3/dd1/a00214"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></td></tr>
+<tr class="memitem:df/d24/a00217"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d3/dd5/a00215"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/a00215.php">mcd::Check</a></td></tr>
+<tr class="memitem:dc/d9a/a00218"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9a/a00218.php">mcd::Check</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -239,15 +240,15 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aba609827ae566c40802bf828ab5a5a3c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#aba609827ae566c40802bf828ab5a5a3c">mcd::pair_str</a> = std::pair&lt; std::string, std::string &gt;</td></tr>
-<tr class="memdesc:aba609827ae566c40802bf828ab5a5a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias.  <a href="../../d3/dd1/a00214.php#aba609827ae566c40802bf828ab5a5a3c">More...</a><br /></td></tr>
+<tr class="memitem:aba609827ae566c40802bf828ab5a5a3c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#aba609827ae566c40802bf828ab5a5a3c">mcd::pair_str</a> = std::pair&lt; std::string, std::string &gt;</td></tr>
+<tr class="memdesc:aba609827ae566c40802bf828ab5a5a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias.  <a href="../../df/d24/a00217.php#aba609827ae566c40802bf828ab5a5a3c">More...</a><br /></td></tr>
 <tr class="separator:aba609827ae566c40802bf828ab5a5a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a2bef56760d8ffae969e8a1347194b42c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a2bef56760d8ffae969e8a1347194b42c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd5/a00215.php#a2bef56760d8ffae969e8a1347194b42c">mcd::Check::printable</a> (const T &amp;)</td></tr>
-<tr class="memdesc:a2bef56760d8ffae969e8a1347194b42c"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that say if a type has an ostream operator(&lt;&lt;)  <a href="../../d3/dd5/a00215.php#a2bef56760d8ffae969e8a1347194b42c">More...</a><br /></td></tr>
+<tr class="memitem:a2bef56760d8ffae969e8a1347194b42c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d9a/a00218.php#a2bef56760d8ffae969e8a1347194b42c">mcd::Check::printable</a> (const T &amp;)</td></tr>
+<tr class="memdesc:a2bef56760d8ffae969e8a1347194b42c"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that say if a type has an ostream operator(&lt;&lt;)  <a href="../../dc/d9a/a00218.php#a2bef56760d8ffae969e8a1347194b42c">More...</a><br /></td></tr>
 <tr class="separator:a2bef56760d8ffae969e8a1347194b42c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

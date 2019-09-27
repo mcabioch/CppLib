@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:01:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -102,38 +102,39 @@ Include dependency graph for Pathfinding.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/ddd/a00138.png" border="0" usemap="#Pathfinding_8hpp" alt=""/></div>
 <map name="Pathfinding_8hpp" id="Pathfinding_8hpp">
-<area shape="rect" id="node2" href="../../da/d1e/a00149.php" title="C++/PathfindingProblem.hpp" alt="" coords="554,80,745,107"/>
-<area shape="rect" id="node3" href="../../d9/db6/a00146.php" title="C++/PathfindingException.hpp" alt="" coords="461,155,661,181"/>
-<area shape="rect" id="node67" href="../../de/d76/a00134.php" title="C++/Path.hpp" alt="" coords="685,155,789,181"/>
-<area shape="rect" id="node4" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="587,229,712,256"/>
-<area shape="rect" id="node5" href="../../d9/dd0/a00191.php" title="C++/timeFunctions.hpp" alt="" coords="179,304,338,331"/>
-<area shape="rect" id="node61" href="../../d1/d88/a00128.php" title="C++/NotCopyable.hpp" alt="" coords="362,304,515,331"/>
-<area shape="rect" id="node7" href="../../db/dd9/a00179.php" title="C++/string.hpp" alt="" coords="257,379,367,405"/>
-<area shape="rect" id="node9" href="../../d7/d25/a00182.php" title="C++/system.hpp" alt="" coords="184,453,304,480"/>
-<area shape="rect" id="node58" href="../../d5/dcb/a00170.php" title="C++/RNG.hpp" alt="" coords="328,453,435,480"/>
-<area shape="rect" id="node60" href="../../d4/d3a/a00101.php" title="C++/macro.hpp" alt="" coords="459,453,573,480"/>
-<area shape="rect" id="node10" href="../../da/dec/a00080.php" title="C++/errors.hpp" alt="" coords="189,528,299,555"/>
-<area shape="rect" id="node11" href="../../d5/de0/a00050.php" title="C++/console.hpp" alt="" coords="115,603,237,629"/>
-<area shape="rect" id="node56" href="../../d2/d1f/a00083.php" title="C++/files.hpp" alt="" coords="261,603,363,629"/>
-<area shape="rect" id="node12" href="../../d3/d8b/a00059.php" title="C++/convert.hpp" alt="" coords="125,677,245,704"/>
-<area shape="rect" id="node14" href="../../da/d45/a00011.php" title="C++/array.hpp" alt="" coords="192,752,299,779"/>
-<area shape="rect" id="node16" href="../../dd/d32/a00041.php" title="C++/check.hpp" alt="" coords="189,827,301,853"/>
-<area shape="rect" id="node55" href="../../d7/d3f/a00173.php" title="C++/sorting.hpp" alt="" coords="395,827,511,853"/>
-<area shape="rect" id="node20" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="408,901,571,928"/>
-<area shape="rect" id="node49" href="../../d6/d2d/a00047.php" title="C++/collides.hpp" alt="" coords="262,901,383,928"/>
-<area shape="rect" id="node27" href="../../d6/d7d/a00161.php" title="C++/pointers.hpp" alt="" coords="569,1275,692,1301"/>
-<area shape="rect" id="node30" href="../../d3/db1/a00200.php" title="C++/types.hpp" alt="" coords="684,1349,793,1376"/>
-<area shape="rect" id="node32" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="648,1424,715,1451"/>
-<area shape="rect" id="node47" href="../../db/ddf/a00164.php" title="PureVirtual.hpp" alt="" coords="739,1424,850,1451"/>
-<area shape="rect" id="node48" href="../../de/d79/a00203.php" title="UsefullDefines.hpp" alt="" coords="875,1424,1008,1451"/>
-<area shape="rect" id="node43" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="975,1499,1145,1525"/>
-<area shape="rect" id="node44" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1170,1499,1323,1525"/>
-<area shape="rect" id="node45" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1348,1499,1521,1525"/>
-<area shape="rect" id="node46" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1545,1499,1684,1525"/>
-<area shape="rect" id="node50" href="../../d4/d81/a00110.php" title="C++/Matrix.hpp" alt="" coords="86,976,199,1003"/>
-<area shape="rect" id="node51" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="279,1051,403,1077"/>
-<area shape="rect" id="node52" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="285,1125,398,1152"/>
-<area shape="rect" id="node53" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="527,1200,641,1227"/>
+<area shape="rect" id="node2" href="../../da/d1e/a00149.php" title="C++/PathfindingProblem.hpp" alt="" coords="638,80,829,107"/>
+<area shape="rect" id="node3" href="../../d9/db6/a00146.php" title="C++/PathfindingException.hpp" alt="" coords="545,155,745,181"/>
+<area shape="rect" id="node68" href="../../de/d76/a00134.php" title="C++/Path.hpp" alt="" coords="769,155,873,181"/>
+<area shape="rect" id="node4" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="671,229,796,256"/>
+<area shape="rect" id="node5" href="../../d9/dd0/a00191.php" title="C++/timeFunctions.hpp" alt="" coords="263,304,422,331"/>
+<area shape="rect" id="node62" href="../../d1/d88/a00128.php" title="C++/NotCopyable.hpp" alt="" coords="446,304,599,331"/>
+<area shape="rect" id="node7" href="../../db/dd9/a00179.php" title="C++/string.hpp" alt="" coords="341,379,451,405"/>
+<area shape="rect" id="node9" href="../../d7/d25/a00182.php" title="C++/system.hpp" alt="" coords="268,453,388,480"/>
+<area shape="rect" id="node59" href="../../d5/dcb/a00170.php" title="C++/RNG.hpp" alt="" coords="412,453,519,480"/>
+<area shape="rect" id="node61" href="../../d4/d3a/a00101.php" title="C++/macro.hpp" alt="" coords="543,453,657,480"/>
+<area shape="rect" id="node10" href="../../da/dec/a00080.php" title="C++/errors.hpp" alt="" coords="273,528,383,555"/>
+<area shape="rect" id="node11" href="../../d5/de0/a00050.php" title="C++/console.hpp" alt="" coords="199,603,321,629"/>
+<area shape="rect" id="node57" href="../../d2/d1f/a00083.php" title="C++/files.hpp" alt="" coords="345,603,447,629"/>
+<area shape="rect" id="node12" href="../../d3/d8b/a00059.php" title="C++/convert.hpp" alt="" coords="209,677,329,704"/>
+<area shape="rect" id="node14" href="../../da/d45/a00011.php" title="C++/array.hpp" alt="" coords="276,752,383,779"/>
+<area shape="rect" id="node16" href="../../dd/d32/a00041.php" title="C++/check.hpp" alt="" coords="273,827,385,853"/>
+<area shape="rect" id="node56" href="../../d7/d3f/a00173.php" title="C++/sorting.hpp" alt="" coords="467,827,583,853"/>
+<area shape="rect" id="node20" href="../../d5/df1/a00206.php" title="C++/vector.hpp" alt="" coords="498,901,611,928"/>
+<area shape="rect" id="node50" href="../../d6/d2d/a00047.php" title="C++/collides.hpp" alt="" coords="353,901,474,928"/>
+<area shape="rect" id="node21" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="519,976,681,1003"/>
+<area shape="rect" id="node28" href="../../d6/d7d/a00161.php" title="C++/pointers.hpp" alt="" coords="481,1275,604,1301"/>
+<area shape="rect" id="node31" href="../../d3/db1/a00200.php" title="C++/types.hpp" alt="" coords="596,1349,705,1376"/>
+<area shape="rect" id="node33" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="560,1424,627,1451"/>
+<area shape="rect" id="node48" href="../../db/ddf/a00164.php" title="PureVirtual.hpp" alt="" coords="651,1424,762,1451"/>
+<area shape="rect" id="node49" href="../../de/d79/a00203.php" title="UsefullDefines.hpp" alt="" coords="787,1424,920,1451"/>
+<area shape="rect" id="node44" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="887,1499,1057,1525"/>
+<area shape="rect" id="node45" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1082,1499,1235,1525"/>
+<area shape="rect" id="node46" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1260,1499,1433,1525"/>
+<area shape="rect" id="node47" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1457,1499,1596,1525"/>
+<area shape="rect" id="node51" href="../../d4/d81/a00110.php" title="C++/Matrix.hpp" alt="" coords="311,976,425,1003"/>
+<area shape="rect" id="node52" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="187,1051,311,1077"/>
+<area shape="rect" id="node53" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="193,1125,306,1152"/>
+<area shape="rect" id="node54" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="439,1200,553,1227"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -153,7 +154,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node8" href="../../d1/d09/a00077.php" title="Entity.hpp" alt="" coords="148,528,229,555"/>
 <area shape="rect" id="node19" href="../../d7/d06/a00131.php" title="Object.hpp" alt="" coords="267,528,353,555"/>
 <area shape="rect" id="node9" href="../../db/dab/a00089.php" title="Hostile.hpp" alt="" coords="34,603,122,629"/>
-<area shape="rect" id="node16" href="../../d5/df1/a00206.php" title="Vegetal.hpp" alt="" coords="143,677,234,704"/>
+<area shape="rect" id="node16" href="../../d3/de5/a00209.php" title="Vegetal.hpp" alt="" coords="143,677,234,704"/>
 <area shape="rect" id="node10" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="5,677,92,704"/>
 <area shape="rect" id="node11" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="7,752,74,779"/>
 <area shape="rect" id="node12" href="../../db/db6/a00074.php" title="Entities.hpp" alt="" coords="225,827,315,853"/>
@@ -168,13 +169,13 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2f/a00991.php">mcd::Pathfinding</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to implement some pathfinding algorithms.  <a href="../../df/d2f/a00991.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd0/a00994.php">mcd::Pathfinding</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to implement some pathfinding algorithms.  <a href="../../d4/dd0/a00994.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d3/dd1/a00214"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></td></tr>
+<tr class="memitem:df/d24/a00217"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

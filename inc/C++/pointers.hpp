@@ -2,7 +2,7 @@
 *
 *	\file		pointers.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified		April, 15 2019
+*	\modified	April, 15 2019
 *
 */
 #ifndef HEADER_CPP_POINTERS

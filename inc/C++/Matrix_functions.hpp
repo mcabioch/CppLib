@@ -9,13 +9,13 @@
 #ifndef HEADER_MATRIX_FUNCTIONS
 #define HEADER_MATRIX_FUNCTIONS
 
-template<class C>
-void GaussJordan(const Matrix<C>& M, Matrix<C>& I, size_t i, size_t j){
+template<class D>
+void GaussJordan(const Matrix<D>& M, Matrix<D>& I, size_t i, size_t j){
 	if(i == 0 || j == 0 || i > M._i || j > M._j){
 		throw std::string("Error : GaussJordan : Wrong boundaries !");
 	}
 
-	Matrix<C> inside_M = M;
+	Matrix<D> inside_M = M;
 
 	for(size_t index_i = 0; index_i < inside_M._i && inside_M._datas[i-1][j-1] == 0; ++index_i){
 		if(index_i == i-1){
@@ -59,13 +59,13 @@ void GaussJordan(const Matrix<C>& M, Matrix<C>& I, size_t i, size_t j){
 	GaussJordan(inside_M, I, i+1, j+1);
 }
 
-template<class C>
-std::ostream& operator<<(std::ostream& os, const Matrix<C>& M){
+template<class D>
+std::ostream& operator<<(std::ostream& os, const Matrix<D>& M){
 	size_t max_length = 0;
 
 	for(size_t i = 0; i < M._i; ++i){
 		for(size_t j = 0; j < M._j; ++j){
-			auto str_val = tos(M(i+1, j+1));
+			auto str_val = Matrix<D>::tos(M(i+1, j+1));
 
 			if(str_val.size() > max_length){
 				max_length = str_val.size();
@@ -75,7 +75,7 @@ std::ostream& operator<<(std::ostream& os, const Matrix<C>& M){
 
 	for(size_t i = 0; i < M._i; ++i){
 		for(size_t j = 0; j < M._j; ++j){
-			auto str_val = tos(M(i+1, j+1));
+			auto str_val = Matrix<D>::tos(M(i+1, j+1));
 
 			for(size_t spaces = 0; spaces < max_length-str_val.size(); ++spaces){
 				os << " ";

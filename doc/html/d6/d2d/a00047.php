@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:01:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -151,7 +151,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node16" href="../../d1/d09/a00077.php" title="Entity.hpp" alt="" coords="180,1424,261,1451"/>
 <area shape="rect" id="node27" href="../../d7/d06/a00131.php" title="Object.hpp" alt="" coords="299,1424,385,1451"/>
 <area shape="rect" id="node17" href="../../db/dab/a00089.php" title="Hostile.hpp" alt="" coords="66,1499,154,1525"/>
-<area shape="rect" id="node24" href="../../d5/df1/a00206.php" title="Vegetal.hpp" alt="" coords="175,1573,266,1600"/>
+<area shape="rect" id="node24" href="../../d3/de5/a00209.php" title="Vegetal.hpp" alt="" coords="175,1573,266,1600"/>
 <area shape="rect" id="node18" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="37,1573,124,1600"/>
 <area shape="rect" id="node19" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="39,1648,106,1675"/>
 <area shape="rect" id="node20" href="../../db/db6/a00074.php" title="Entities.hpp" alt="" coords="257,1723,347,1749"/>
@@ -173,28 +173,28 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d3/dd1/a00214"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></td></tr>
+<tr class="memitem:df/d24/a00217"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ace8a4328114062b56cf578ad92df821f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ace8a4328114062b56cf578ad92df821f">mcd::collidesC</a> (double64_t r1, double64_t x1, double64_t y1, double64_t r2, double64_t x2, double64_t y2)</td></tr>
-<tr class="memdesc:ace8a4328114062b56cf578ad92df821f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two circles.  <a href="../../d3/dd1/a00214.php#ace8a4328114062b56cf578ad92df821f">More...</a><br /></td></tr>
+<tr class="memitem:ace8a4328114062b56cf578ad92df821f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#ace8a4328114062b56cf578ad92df821f">mcd::collidesC</a> (double64_t r1, double64_t x1, double64_t y1, double64_t r2, double64_t x2, double64_t y2)</td></tr>
+<tr class="memdesc:ace8a4328114062b56cf578ad92df821f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two circles.  <a href="../../df/d24/a00217.php#ace8a4328114062b56cf578ad92df821f">More...</a><br /></td></tr>
 <tr class="separator:ace8a4328114062b56cf578ad92df821f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab43dbb509e6ac3b52cd7767a1fb6bdaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ab43dbb509e6ac3b52cd7767a1fb6bdaa">mcd::collidesR</a> (double64_t x1, double64_t y1, double64_t w1, double64_t h1, double64_t x2, double64_t y2, double64_t w2, double64_t h2)</td></tr>
-<tr class="memdesc:ab43dbb509e6ac3b52cd7767a1fb6bdaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two rectangles.  <a href="../../d3/dd1/a00214.php#ab43dbb509e6ac3b52cd7767a1fb6bdaa">More...</a><br /></td></tr>
+<tr class="memitem:ab43dbb509e6ac3b52cd7767a1fb6bdaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#ab43dbb509e6ac3b52cd7767a1fb6bdaa">mcd::collidesR</a> (double64_t x1, double64_t y1, double64_t w1, double64_t h1, double64_t x2, double64_t y2, double64_t w2, double64_t h2)</td></tr>
+<tr class="memdesc:ab43dbb509e6ac3b52cd7767a1fb6bdaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two rectangles.  <a href="../../df/d24/a00217.php#ab43dbb509e6ac3b52cd7767a1fb6bdaa">More...</a><br /></td></tr>
 <tr class="separator:ab43dbb509e6ac3b52cd7767a1fb6bdaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbb1b1f3a194f48bab3af872f65b9757"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#adbb1b1f3a194f48bab3af872f65b9757">mcd::collidesRC</a> (double64_t rx, double64_t ry, double64_t w, double64_t h, double64_t cx, double64_t cy, double64_t r)</td></tr>
-<tr class="memdesc:adbb1b1f3a194f48bab3af872f65b9757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a rectangle and a circle.  <a href="../../d3/dd1/a00214.php#adbb1b1f3a194f48bab3af872f65b9757">More...</a><br /></td></tr>
+<tr class="memitem:adbb1b1f3a194f48bab3af872f65b9757"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#adbb1b1f3a194f48bab3af872f65b9757">mcd::collidesRC</a> (double64_t rx, double64_t ry, double64_t w, double64_t h, double64_t cx, double64_t cy, double64_t r)</td></tr>
+<tr class="memdesc:adbb1b1f3a194f48bab3af872f65b9757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a rectangle and a circle.  <a href="../../df/d24/a00217.php#adbb1b1f3a194f48bab3af872f65b9757">More...</a><br /></td></tr>
 <tr class="separator:adbb1b1f3a194f48bab3af872f65b9757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae694a8102421f25c163a0ef7a9e903e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ae694a8102421f25c163a0ef7a9e903e2">mcd::collidesPC</a> (double64_t cx, double64_t cy, double64_t r, double64_t x, double64_t y)</td></tr>
-<tr class="memdesc:ae694a8102421f25c163a0ef7a9e903e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a circle.  <a href="../../d3/dd1/a00214.php#ae694a8102421f25c163a0ef7a9e903e2">More...</a><br /></td></tr>
+<tr class="memitem:ae694a8102421f25c163a0ef7a9e903e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#ae694a8102421f25c163a0ef7a9e903e2">mcd::collidesPC</a> (double64_t cx, double64_t cy, double64_t r, double64_t x, double64_t y)</td></tr>
+<tr class="memdesc:ae694a8102421f25c163a0ef7a9e903e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a circle.  <a href="../../df/d24/a00217.php#ae694a8102421f25c163a0ef7a9e903e2">More...</a><br /></td></tr>
 <tr class="separator:ae694a8102421f25c163a0ef7a9e903e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c001118da32a4466802e0b378af661b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a3c001118da32a4466802e0b378af661b">mcd::collidesPR</a> (double64_t rx, double64_t ry, double64_t w, double64_t h, double64_t x, double64_t y)</td></tr>
-<tr class="memdesc:a3c001118da32a4466802e0b378af661b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a rectangle.  <a href="../../d3/dd1/a00214.php#a3c001118da32a4466802e0b378af661b">More...</a><br /></td></tr>
+<tr class="memitem:a3c001118da32a4466802e0b378af661b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a3c001118da32a4466802e0b378af661b">mcd::collidesPR</a> (double64_t rx, double64_t ry, double64_t w, double64_t h, double64_t x, double64_t y)</td></tr>
+<tr class="memdesc:a3c001118da32a4466802e0b378af661b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a rectangle.  <a href="../../df/d24/a00217.php#a3c001118da32a4466802e0b378af661b">More...</a><br /></td></tr>
 <tr class="separator:a3c001118da32a4466802e0b378af661b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6f9411fa8041c4f9f81519deeba4a0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#af6f9411fa8041c4f9f81519deeba4a0a">mcd::ProjectionSurSegment</a> (double64_t Cx, double64_t Cy, double64_t Ax, double64_t Ay, double64_t Bx, double64_t By)</td></tr>
-<tr class="memdesc:af6f9411fa8041c4f9f81519deeba4a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision on a segment.  <a href="../../d3/dd1/a00214.php#af6f9411fa8041c4f9f81519deeba4a0a">More...</a><br /></td></tr>
+<tr class="memitem:af6f9411fa8041c4f9f81519deeba4a0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#af6f9411fa8041c4f9f81519deeba4a0a">mcd::ProjectionSurSegment</a> (double64_t Cx, double64_t Cy, double64_t Ax, double64_t Ay, double64_t Bx, double64_t By)</td></tr>
+<tr class="memdesc:af6f9411fa8041c4f9f81519deeba4a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision on a segment.  <a href="../../df/d24/a00217.php#af6f9411fa8041c4f9f81519deeba4a0a">More...</a><br /></td></tr>
 <tr class="separator:af6f9411fa8041c4f9f81519deeba4a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

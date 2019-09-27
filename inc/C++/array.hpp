@@ -204,6 +204,9 @@ namespace mcd {
 			template<typename T>
 			void print_all(std::vector<T> data, bool change = false, const std::string& decal = "");
 
+			template<typename T>
+			void print_all(mcd::vector<T> data, bool change = false, const std::string& decal = "");
+
 			template<typename T, typename U>
 			void print_all(std::pair<T, U> data, bool change = false, const std::string& decal = "");
 
@@ -346,6 +349,11 @@ namespace mcd {
 					print_all(d, change, decal + addDecal);
 					++i;
 				}
+			}
+
+			template<typename T>
+			void print_all(mcd::vector<T> data, bool change, const std::string& decal){
+				print_all(static_cast<std::vector<T>>(data), change, decal);
 			}
 		/**********************/
 	#endif //DOXYGEN_SHOULD_SKIP_THIS

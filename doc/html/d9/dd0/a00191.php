@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:01:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -103,32 +103,33 @@ Include dependency graph for timeFunctions.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/da2/a00192.png" border="0" usemap="#timeFunctions_8hpp" alt=""/></div>
 <map name="timeFunctions_8hpp" id="timeFunctions_8hpp">
-<area shape="rect" id="node3" href="../../db/dd9/a00179.php" title="C++/string.hpp" alt="" coords="257,80,367,107"/>
-<area shape="rect" id="node5" href="../../d7/d25/a00182.php" title="C++/system.hpp" alt="" coords="184,155,304,181"/>
-<area shape="rect" id="node54" href="../../d5/dcb/a00170.php" title="C++/RNG.hpp" alt="" coords="328,155,435,181"/>
-<area shape="rect" id="node56" href="../../d4/d3a/a00101.php" title="C++/macro.hpp" alt="" coords="459,155,573,181"/>
-<area shape="rect" id="node6" href="../../da/dec/a00080.php" title="C++/errors.hpp" alt="" coords="189,229,299,256"/>
-<area shape="rect" id="node7" href="../../d5/de0/a00050.php" title="C++/console.hpp" alt="" coords="115,304,237,331"/>
-<area shape="rect" id="node52" href="../../d2/d1f/a00083.php" title="C++/files.hpp" alt="" coords="261,304,363,331"/>
-<area shape="rect" id="node8" href="../../d3/d8b/a00059.php" title="C++/convert.hpp" alt="" coords="125,379,245,405"/>
-<area shape="rect" id="node10" href="../../da/d45/a00011.php" title="C++/array.hpp" alt="" coords="192,453,299,480"/>
-<area shape="rect" id="node12" href="../../dd/d32/a00041.php" title="C++/check.hpp" alt="" coords="189,528,301,555"/>
-<area shape="rect" id="node51" href="../../d7/d3f/a00173.php" title="C++/sorting.hpp" alt="" coords="395,528,511,555"/>
-<area shape="rect" id="node16" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="408,603,571,629"/>
-<area shape="rect" id="node45" href="../../d6/d2d/a00047.php" title="C++/collides.hpp" alt="" coords="262,603,383,629"/>
-<area shape="rect" id="node23" href="../../d6/d7d/a00161.php" title="C++/pointers.hpp" alt="" coords="569,976,692,1003"/>
-<area shape="rect" id="node26" href="../../d3/db1/a00200.php" title="C++/types.hpp" alt="" coords="684,1051,793,1077"/>
-<area shape="rect" id="node28" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="648,1125,715,1152"/>
-<area shape="rect" id="node43" href="../../db/ddf/a00164.php" title="PureVirtual.hpp" alt="" coords="739,1125,850,1152"/>
-<area shape="rect" id="node44" href="../../de/d79/a00203.php" title="UsefullDefines.hpp" alt="" coords="875,1125,1008,1152"/>
-<area shape="rect" id="node39" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="975,1200,1145,1227"/>
-<area shape="rect" id="node40" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1170,1200,1323,1227"/>
-<area shape="rect" id="node41" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1348,1200,1521,1227"/>
-<area shape="rect" id="node42" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1545,1200,1684,1227"/>
-<area shape="rect" id="node46" href="../../d4/d81/a00110.php" title="C++/Matrix.hpp" alt="" coords="86,677,199,704"/>
-<area shape="rect" id="node47" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="279,752,403,779"/>
-<area shape="rect" id="node48" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="285,827,398,853"/>
-<area shape="rect" id="node49" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="527,901,641,928"/>
+<area shape="rect" id="node3" href="../../db/dd9/a00179.php" title="C++/string.hpp" alt="" coords="341,80,451,107"/>
+<area shape="rect" id="node5" href="../../d7/d25/a00182.php" title="C++/system.hpp" alt="" coords="268,155,388,181"/>
+<area shape="rect" id="node55" href="../../d5/dcb/a00170.php" title="C++/RNG.hpp" alt="" coords="412,155,519,181"/>
+<area shape="rect" id="node57" href="../../d4/d3a/a00101.php" title="C++/macro.hpp" alt="" coords="543,155,657,181"/>
+<area shape="rect" id="node6" href="../../da/dec/a00080.php" title="C++/errors.hpp" alt="" coords="273,229,383,256"/>
+<area shape="rect" id="node7" href="../../d5/de0/a00050.php" title="C++/console.hpp" alt="" coords="199,304,321,331"/>
+<area shape="rect" id="node53" href="../../d2/d1f/a00083.php" title="C++/files.hpp" alt="" coords="345,304,447,331"/>
+<area shape="rect" id="node8" href="../../d3/d8b/a00059.php" title="C++/convert.hpp" alt="" coords="209,379,329,405"/>
+<area shape="rect" id="node10" href="../../da/d45/a00011.php" title="C++/array.hpp" alt="" coords="276,453,383,480"/>
+<area shape="rect" id="node12" href="../../dd/d32/a00041.php" title="C++/check.hpp" alt="" coords="273,528,385,555"/>
+<area shape="rect" id="node52" href="../../d7/d3f/a00173.php" title="C++/sorting.hpp" alt="" coords="467,528,583,555"/>
+<area shape="rect" id="node16" href="../../d5/df1/a00206.php" title="C++/vector.hpp" alt="" coords="498,603,611,629"/>
+<area shape="rect" id="node46" href="../../d6/d2d/a00047.php" title="C++/collides.hpp" alt="" coords="353,603,474,629"/>
+<area shape="rect" id="node17" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="519,677,681,704"/>
+<area shape="rect" id="node24" href="../../d6/d7d/a00161.php" title="C++/pointers.hpp" alt="" coords="481,976,604,1003"/>
+<area shape="rect" id="node27" href="../../d3/db1/a00200.php" title="C++/types.hpp" alt="" coords="596,1051,705,1077"/>
+<area shape="rect" id="node29" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="560,1125,627,1152"/>
+<area shape="rect" id="node44" href="../../db/ddf/a00164.php" title="PureVirtual.hpp" alt="" coords="651,1125,762,1152"/>
+<area shape="rect" id="node45" href="../../de/d79/a00203.php" title="UsefullDefines.hpp" alt="" coords="787,1125,920,1152"/>
+<area shape="rect" id="node40" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="887,1200,1057,1227"/>
+<area shape="rect" id="node41" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1082,1200,1235,1227"/>
+<area shape="rect" id="node42" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1260,1200,1433,1227"/>
+<area shape="rect" id="node43" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1457,1200,1596,1227"/>
+<area shape="rect" id="node47" href="../../d4/d81/a00110.php" title="C++/Matrix.hpp" alt="" coords="311,677,425,704"/>
+<area shape="rect" id="node48" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="187,752,311,779"/>
+<area shape="rect" id="node49" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="193,827,306,853"/>
+<area shape="rect" id="node50" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="439,901,553,928"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -156,7 +157,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node8" href="../../d1/d09/a00077.php" title="Entity.hpp" alt="" coords="180,827,261,853"/>
 <area shape="rect" id="node19" href="../../d7/d06/a00131.php" title="Object.hpp" alt="" coords="299,827,385,853"/>
 <area shape="rect" id="node9" href="../../db/dab/a00089.php" title="Hostile.hpp" alt="" coords="66,901,154,928"/>
-<area shape="rect" id="node16" href="../../d5/df1/a00206.php" title="Vegetal.hpp" alt="" coords="175,976,266,1003"/>
+<area shape="rect" id="node16" href="../../d3/de5/a00209.php" title="Vegetal.hpp" alt="" coords="175,976,266,1003"/>
 <area shape="rect" id="node10" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="37,976,124,1003"/>
 <area shape="rect" id="node11" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="39,1051,106,1077"/>
 <area shape="rect" id="node12" href="../../db/db6/a00074.php" title="Entities.hpp" alt="" coords="257,1125,347,1152"/>
@@ -178,28 +179,28 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d3/dd1/a00214"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></td></tr>
+<tr class="memitem:df/d24/a00217"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a49144605ea2f1f8a9463ae309c293628"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a49144605ea2f1f8a9463ae309c293628">mcd::getSec</a> ()</td></tr>
-<tr class="memdesc:a49144605ea2f1f8a9463ae309c293628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of seconds since the Epoch.  <a href="../../d3/dd1/a00214.php#a49144605ea2f1f8a9463ae309c293628">More...</a><br /></td></tr>
+<tr class="memitem:a49144605ea2f1f8a9463ae309c293628"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a49144605ea2f1f8a9463ae309c293628">mcd::getSec</a> ()</td></tr>
+<tr class="memdesc:a49144605ea2f1f8a9463ae309c293628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of seconds since the Epoch.  <a href="../../df/d24/a00217.php#a49144605ea2f1f8a9463ae309c293628">More...</a><br /></td></tr>
 <tr class="separator:a49144605ea2f1f8a9463ae309c293628"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4573282fe9cf6a0af8de786baaf6456"><td class="memItemLeft" align="right" valign="top">std::chrono::milliseconds&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ac4573282fe9cf6a0af8de786baaf6456">mcd::getMilli</a> ()</td></tr>
-<tr class="memdesc:ac4573282fe9cf6a0af8de786baaf6456"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the milliseconds since the Epoch.  <a href="../../d3/dd1/a00214.php#ac4573282fe9cf6a0af8de786baaf6456">More...</a><br /></td></tr>
+<tr class="memitem:ac4573282fe9cf6a0af8de786baaf6456"><td class="memItemLeft" align="right" valign="top">std::chrono::milliseconds&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#ac4573282fe9cf6a0af8de786baaf6456">mcd::getMilli</a> ()</td></tr>
+<tr class="memdesc:ac4573282fe9cf6a0af8de786baaf6456"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the milliseconds since the Epoch.  <a href="../../df/d24/a00217.php#ac4573282fe9cf6a0af8de786baaf6456">More...</a><br /></td></tr>
 <tr class="separator:ac4573282fe9cf6a0af8de786baaf6456"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0003c12a7cc73a35e488f59ad14770bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a0003c12a7cc73a35e488f59ad14770bf">mcd::sleep</a> (size_t duration)</td></tr>
-<tr class="memdesc:a0003c12a7cc73a35e488f59ad14770bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleep the thread during <em>duration</em> seconds.  <a href="../../d3/dd1/a00214.php#a0003c12a7cc73a35e488f59ad14770bf">More...</a><br /></td></tr>
+<tr class="memitem:a0003c12a7cc73a35e488f59ad14770bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a0003c12a7cc73a35e488f59ad14770bf">mcd::sleep</a> (size_t duration)</td></tr>
+<tr class="memdesc:a0003c12a7cc73a35e488f59ad14770bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleep the thread during <em>duration</em> seconds.  <a href="../../df/d24/a00217.php#a0003c12a7cc73a35e488f59ad14770bf">More...</a><br /></td></tr>
 <tr class="separator:a0003c12a7cc73a35e488f59ad14770bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30ed8e5c290433011b9855598cfc050a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a30ed8e5c290433011b9855598cfc050a">mcd::milliSleep</a> (size_t duration)</td></tr>
-<tr class="memdesc:a30ed8e5c290433011b9855598cfc050a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleep the thread during <em>duration</em> milliseconds.  <a href="../../d3/dd1/a00214.php#a30ed8e5c290433011b9855598cfc050a">More...</a><br /></td></tr>
+<tr class="memitem:a30ed8e5c290433011b9855598cfc050a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a30ed8e5c290433011b9855598cfc050a">mcd::milliSleep</a> (size_t duration)</td></tr>
+<tr class="memdesc:a30ed8e5c290433011b9855598cfc050a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleep the thread during <em>duration</em> milliseconds.  <a href="../../df/d24/a00217.php#a30ed8e5c290433011b9855598cfc050a">More...</a><br /></td></tr>
 <tr class="separator:a30ed8e5c290433011b9855598cfc050a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a773d8ead6e35e10f86f4285f3f79ecb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a773d8ead6e35e10f86f4285f3f79ecb9">mcd::microSleep</a> (size_t duration)</td></tr>
-<tr class="memdesc:a773d8ead6e35e10f86f4285f3f79ecb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleep the thread during <em>duration</em> microseconds.  <a href="../../d3/dd1/a00214.php#a773d8ead6e35e10f86f4285f3f79ecb9">More...</a><br /></td></tr>
+<tr class="memitem:a773d8ead6e35e10f86f4285f3f79ecb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a773d8ead6e35e10f86f4285f3f79ecb9">mcd::microSleep</a> (size_t duration)</td></tr>
+<tr class="memdesc:a773d8ead6e35e10f86f4285f3f79ecb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleep the thread during <em>duration</em> microseconds.  <a href="../../df/d24/a00217.php#a773d8ead6e35e10f86f4285f3f79ecb9">More...</a><br /></td></tr>
 <tr class="separator:a773d8ead6e35e10f86f4285f3f79ecb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b2e0c30451ea35d0cc5eb9badea5be0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a5b2e0c30451ea35d0cc5eb9badea5be0">mcd::nanoSleep</a> (size_t duration)</td></tr>
-<tr class="memdesc:a5b2e0c30451ea35d0cc5eb9badea5be0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleep the thread during <em>duration</em> nanoseconds.  <a href="../../d3/dd1/a00214.php#a5b2e0c30451ea35d0cc5eb9badea5be0">More...</a><br /></td></tr>
+<tr class="memitem:a5b2e0c30451ea35d0cc5eb9badea5be0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a5b2e0c30451ea35d0cc5eb9badea5be0">mcd::nanoSleep</a> (size_t duration)</td></tr>
+<tr class="memdesc:a5b2e0c30451ea35d0cc5eb9badea5be0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleep the thread during <em>duration</em> nanoseconds.  <a href="../../df/d24/a00217.php#a5b2e0c30451ea35d0cc5eb9badea5be0">More...</a><br /></td></tr>
 <tr class="separator:a5b2e0c30451ea35d0cc5eb9badea5be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

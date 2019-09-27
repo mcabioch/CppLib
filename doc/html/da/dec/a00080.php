@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:01:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -104,27 +104,28 @@ Include dependency graph for errors.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d8/d53/a00081.png" border="0" usemap="#errors_8hpp" alt=""/></div>
 <map name="errors_8hpp" id="errors_8hpp">
-<area shape="rect" id="node2" href="../../d5/de0/a00050.php" title="C++/console.hpp" alt="" coords="136,80,259,107"/>
-<area shape="rect" id="node47" href="../../d2/d1f/a00083.php" title="C++/files.hpp" alt="" coords="283,80,384,107"/>
-<area shape="rect" id="node3" href="../../d3/d8b/a00059.php" title="C++/convert.hpp" alt="" coords="147,155,267,181"/>
-<area shape="rect" id="node5" href="../../da/d45/a00011.php" title="C++/array.hpp" alt="" coords="213,229,320,256"/>
-<area shape="rect" id="node7" href="../../dd/d32/a00041.php" title="C++/check.hpp" alt="" coords="211,304,323,331"/>
-<area shape="rect" id="node46" href="../../d7/d3f/a00173.php" title="C++/sorting.hpp" alt="" coords="390,304,506,331"/>
-<area shape="rect" id="node11" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="408,379,571,405"/>
-<area shape="rect" id="node40" href="../../d6/d2d/a00047.php" title="C++/collides.hpp" alt="" coords="262,379,383,405"/>
-<area shape="rect" id="node18" href="../../d6/d7d/a00161.php" title="C++/pointers.hpp" alt="" coords="571,752,693,779"/>
-<area shape="rect" id="node21" href="../../d3/db1/a00200.php" title="C++/types.hpp" alt="" coords="685,827,795,853"/>
-<area shape="rect" id="node23" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="649,901,716,928"/>
-<area shape="rect" id="node38" href="../../db/ddf/a00164.php" title="PureVirtual.hpp" alt="" coords="741,901,851,928"/>
-<area shape="rect" id="node39" href="../../de/d79/a00203.php" title="UsefullDefines.hpp" alt="" coords="876,901,1009,928"/>
-<area shape="rect" id="node34" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="976,976,1147,1003"/>
-<area shape="rect" id="node35" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1171,976,1325,1003"/>
-<area shape="rect" id="node36" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1349,976,1523,1003"/>
-<area shape="rect" id="node37" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1547,976,1685,1003"/>
-<area shape="rect" id="node41" href="../../d4/d81/a00110.php" title="C++/Matrix.hpp" alt="" coords="87,453,201,480"/>
-<area shape="rect" id="node42" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="281,528,405,555"/>
-<area shape="rect" id="node43" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="286,603,399,629"/>
-<area shape="rect" id="node44" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="528,677,643,704"/>
+<area shape="rect" id="node2" href="../../d5/de0/a00050.php" title="C++/console.hpp" alt="" coords="227,80,349,107"/>
+<area shape="rect" id="node48" href="../../d2/d1f/a00083.php" title="C++/files.hpp" alt="" coords="373,80,475,107"/>
+<area shape="rect" id="node3" href="../../d3/d8b/a00059.php" title="C++/convert.hpp" alt="" coords="237,155,357,181"/>
+<area shape="rect" id="node5" href="../../da/d45/a00011.php" title="C++/array.hpp" alt="" coords="304,229,411,256"/>
+<area shape="rect" id="node7" href="../../dd/d32/a00041.php" title="C++/check.hpp" alt="" coords="301,304,413,331"/>
+<area shape="rect" id="node47" href="../../d7/d3f/a00173.php" title="C++/sorting.hpp" alt="" coords="467,304,583,331"/>
+<area shape="rect" id="node11" href="../../d5/df1/a00206.php" title="C++/vector.hpp" alt="" coords="498,379,611,405"/>
+<area shape="rect" id="node41" href="../../d6/d2d/a00047.php" title="C++/collides.hpp" alt="" coords="353,379,474,405"/>
+<area shape="rect" id="node12" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="519,453,681,480"/>
+<area shape="rect" id="node19" href="../../d6/d7d/a00161.php" title="C++/pointers.hpp" alt="" coords="481,752,604,779"/>
+<area shape="rect" id="node22" href="../../d3/db1/a00200.php" title="C++/types.hpp" alt="" coords="596,827,705,853"/>
+<area shape="rect" id="node24" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="560,901,627,928"/>
+<area shape="rect" id="node39" href="../../db/ddf/a00164.php" title="PureVirtual.hpp" alt="" coords="651,901,762,928"/>
+<area shape="rect" id="node40" href="../../de/d79/a00203.php" title="UsefullDefines.hpp" alt="" coords="787,901,920,928"/>
+<area shape="rect" id="node35" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="887,976,1057,1003"/>
+<area shape="rect" id="node36" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1082,976,1235,1003"/>
+<area shape="rect" id="node37" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1260,976,1433,1003"/>
+<area shape="rect" id="node38" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1457,976,1596,1003"/>
+<area shape="rect" id="node42" href="../../d4/d81/a00110.php" title="C++/Matrix.hpp" alt="" coords="311,453,425,480"/>
+<area shape="rect" id="node43" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="187,528,311,555"/>
+<area shape="rect" id="node44" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="193,603,306,629"/>
+<area shape="rect" id="node45" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="439,677,553,704"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -155,7 +156,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node11" href="../../d1/d09/a00077.php" title="Entity.hpp" alt="" coords="180,1051,261,1077"/>
 <area shape="rect" id="node22" href="../../d7/d06/a00131.php" title="Object.hpp" alt="" coords="299,1051,385,1077"/>
 <area shape="rect" id="node12" href="../../db/dab/a00089.php" title="Hostile.hpp" alt="" coords="66,1125,154,1152"/>
-<area shape="rect" id="node19" href="../../d5/df1/a00206.php" title="Vegetal.hpp" alt="" coords="175,1200,266,1227"/>
+<area shape="rect" id="node19" href="../../d3/de5/a00209.php" title="Vegetal.hpp" alt="" coords="175,1200,266,1227"/>
 <area shape="rect" id="node13" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="37,1200,124,1227"/>
 <area shape="rect" id="node14" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="39,1275,106,1301"/>
 <area shape="rect" id="node15" href="../../db/db6/a00074.php" title="Entities.hpp" alt="" coords="257,1349,347,1376"/>
@@ -177,7 +178,7 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d3/dd1/a00214"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></td></tr>
+<tr class="memitem:df/d24/a00217"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -201,16 +202,16 @@ Macros</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a1a14f66f0c6eba0c77338364977658e1"><td class="memTemplParams" colspan="2">template&lt;class T , class ... Args&gt; </td></tr>
-<tr class="memitem:a1a14f66f0c6eba0c77338364977658e1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a1a14f66f0c6eba0c77338364977658e1">mcd::error_log</a> (size_t line, T in, Args... args)</td></tr>
-<tr class="memdesc:a1a14f66f0c6eba0c77338364977658e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like an error.  <a href="../../d3/dd1/a00214.php#a1a14f66f0c6eba0c77338364977658e1">More...</a><br /></td></tr>
+<tr class="memitem:a1a14f66f0c6eba0c77338364977658e1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a1a14f66f0c6eba0c77338364977658e1">mcd::error_log</a> (size_t line, T in, Args... args)</td></tr>
+<tr class="memdesc:a1a14f66f0c6eba0c77338364977658e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like an error.  <a href="../../df/d24/a00217.php#a1a14f66f0c6eba0c77338364977658e1">More...</a><br /></td></tr>
 <tr class="separator:a1a14f66f0c6eba0c77338364977658e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac625de83fcace96567aecd1363297776"><td class="memTemplParams" colspan="2">template&lt;class T , class ... Args&gt; </td></tr>
-<tr class="memitem:ac625de83fcace96567aecd1363297776"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#ac625de83fcace96567aecd1363297776">mcd::warning_log</a> (size_t line, T in, Args... args)</td></tr>
-<tr class="memdesc:ac625de83fcace96567aecd1363297776"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like a warning.  <a href="../../d3/dd1/a00214.php#ac625de83fcace96567aecd1363297776">More...</a><br /></td></tr>
+<tr class="memitem:ac625de83fcace96567aecd1363297776"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#ac625de83fcace96567aecd1363297776">mcd::warning_log</a> (size_t line, T in, Args... args)</td></tr>
+<tr class="memdesc:ac625de83fcace96567aecd1363297776"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like a warning.  <a href="../../df/d24/a00217.php#ac625de83fcace96567aecd1363297776">More...</a><br /></td></tr>
 <tr class="separator:ac625de83fcace96567aecd1363297776"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0b4fd6390d33edc9719d42b26f6e29f"><td class="memTemplParams" colspan="2">template&lt;class T , class ... Args&gt; </td></tr>
-<tr class="memitem:af0b4fd6390d33edc9719d42b26f6e29f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#af0b4fd6390d33edc9719d42b26f6e29f">mcd::info_log</a> (size_t line, T in, Args... args)</td></tr>
-<tr class="memdesc:af0b4fd6390d33edc9719d42b26f6e29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like an information.  <a href="../../d3/dd1/a00214.php#af0b4fd6390d33edc9719d42b26f6e29f">More...</a><br /></td></tr>
+<tr class="memitem:af0b4fd6390d33edc9719d42b26f6e29f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#af0b4fd6390d33edc9719d42b26f6e29f">mcd::info_log</a> (size_t line, T in, Args... args)</td></tr>
+<tr class="memdesc:af0b4fd6390d33edc9719d42b26f6e29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like an information.  <a href="../../df/d24/a00217.php#af0b4fd6390d33edc9719d42b26f6e29f">More...</a><br /></td></tr>
 <tr class="separator:af0b4fd6390d33edc9719d42b26f6e29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

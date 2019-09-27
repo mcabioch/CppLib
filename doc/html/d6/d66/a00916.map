@@ -1,3 +1,4 @@
-<map id="mcd::Identifier" name="mcd::Identifier">
-<area shape="rect" id="node2" href="$d5/d6c/a00977.php" title="A player that can be a child from any class. " alt="" coords="5,80,196,107"/>
+<map id="mcd::MyCrypt" name="mcd::MyCrypt">
+<area shape="rect" id="node2" href="$da/dd8/a00906.php" title="A class to be the parent for every crypt class. " alt="" coords="23,80,118,107"/>
+<area shape="rect" id="node3" href="$d2/ddd/a00978.php" title="A class to let some other not to be copyable. " alt="" coords="5,5,136,32"/>
 </map>

@@ -8,7 +8,7 @@
 #ifndef HEADER_CPP_SORTING
 #define HEADER_CPP_SORTING
 
-#include "C++/arraysIncludes.hpp"
+#include "C++/vector.hpp"
 
 namespace mcd {
 	/*!

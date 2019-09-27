@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 21:18:11 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:01:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -102,28 +102,29 @@ Include dependency graph for system.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/d52/a00183.png" border="0" usemap="#system_8hpp" alt=""/></div>
 <map name="system_8hpp" id="system_8hpp">
-<area shape="rect" id="node2" href="../../da/dec/a00080.php" title="C++/errors.hpp" alt="" coords="210,80,321,107"/>
-<area shape="rect" id="node3" href="../../d5/de0/a00050.php" title="C++/console.hpp" alt="" coords="136,155,259,181"/>
-<area shape="rect" id="node48" href="../../d2/d1f/a00083.php" title="C++/files.hpp" alt="" coords="283,155,384,181"/>
-<area shape="rect" id="node4" href="../../d3/d8b/a00059.php" title="C++/convert.hpp" alt="" coords="147,229,267,256"/>
-<area shape="rect" id="node6" href="../../da/d45/a00011.php" title="C++/array.hpp" alt="" coords="213,304,320,331"/>
-<area shape="rect" id="node8" href="../../dd/d32/a00041.php" title="C++/check.hpp" alt="" coords="211,379,323,405"/>
-<area shape="rect" id="node47" href="../../d7/d3f/a00173.php" title="C++/sorting.hpp" alt="" coords="390,379,506,405"/>
-<area shape="rect" id="node12" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="408,453,571,480"/>
-<area shape="rect" id="node41" href="../../d6/d2d/a00047.php" title="C++/collides.hpp" alt="" coords="262,453,383,480"/>
-<area shape="rect" id="node19" href="../../d6/d7d/a00161.php" title="C++/pointers.hpp" alt="" coords="571,827,693,853"/>
-<area shape="rect" id="node22" href="../../d3/db1/a00200.php" title="C++/types.hpp" alt="" coords="685,901,795,928"/>
-<area shape="rect" id="node24" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="649,976,716,1003"/>
-<area shape="rect" id="node39" href="../../db/ddf/a00164.php" title="PureVirtual.hpp" alt="" coords="741,976,851,1003"/>
-<area shape="rect" id="node40" href="../../de/d79/a00203.php" title="UsefullDefines.hpp" alt="" coords="876,976,1009,1003"/>
-<area shape="rect" id="node35" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="976,1051,1147,1077"/>
-<area shape="rect" id="node36" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1171,1051,1325,1077"/>
-<area shape="rect" id="node37" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1349,1051,1523,1077"/>
-<area shape="rect" id="node38" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1547,1051,1685,1077"/>
-<area shape="rect" id="node42" href="../../d4/d81/a00110.php" title="C++/Matrix.hpp" alt="" coords="87,528,201,555"/>
-<area shape="rect" id="node43" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="281,603,405,629"/>
-<area shape="rect" id="node44" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="286,677,399,704"/>
-<area shape="rect" id="node45" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="528,752,643,779"/>
+<area shape="rect" id="node2" href="../../da/dec/a00080.php" title="C++/errors.hpp" alt="" coords="301,80,411,107"/>
+<area shape="rect" id="node3" href="../../d5/de0/a00050.php" title="C++/console.hpp" alt="" coords="227,155,349,181"/>
+<area shape="rect" id="node49" href="../../d2/d1f/a00083.php" title="C++/files.hpp" alt="" coords="373,155,475,181"/>
+<area shape="rect" id="node4" href="../../d3/d8b/a00059.php" title="C++/convert.hpp" alt="" coords="237,229,357,256"/>
+<area shape="rect" id="node6" href="../../da/d45/a00011.php" title="C++/array.hpp" alt="" coords="304,304,411,331"/>
+<area shape="rect" id="node8" href="../../dd/d32/a00041.php" title="C++/check.hpp" alt="" coords="301,379,413,405"/>
+<area shape="rect" id="node48" href="../../d7/d3f/a00173.php" title="C++/sorting.hpp" alt="" coords="467,379,583,405"/>
+<area shape="rect" id="node12" href="../../d5/df1/a00206.php" title="C++/vector.hpp" alt="" coords="498,453,611,480"/>
+<area shape="rect" id="node42" href="../../d6/d2d/a00047.php" title="C++/collides.hpp" alt="" coords="353,453,474,480"/>
+<area shape="rect" id="node13" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="519,528,681,555"/>
+<area shape="rect" id="node20" href="../../d6/d7d/a00161.php" title="C++/pointers.hpp" alt="" coords="481,827,604,853"/>
+<area shape="rect" id="node23" href="../../d3/db1/a00200.php" title="C++/types.hpp" alt="" coords="596,901,705,928"/>
+<area shape="rect" id="node25" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="560,976,627,1003"/>
+<area shape="rect" id="node40" href="../../db/ddf/a00164.php" title="PureVirtual.hpp" alt="" coords="651,976,762,1003"/>
+<area shape="rect" id="node41" href="../../de/d79/a00203.php" title="UsefullDefines.hpp" alt="" coords="787,976,920,1003"/>
+<area shape="rect" id="node36" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="887,1051,1057,1077"/>
+<area shape="rect" id="node37" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1082,1051,1235,1077"/>
+<area shape="rect" id="node38" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1260,1051,1433,1077"/>
+<area shape="rect" id="node39" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1457,1051,1596,1077"/>
+<area shape="rect" id="node43" href="../../d4/d81/a00110.php" title="C++/Matrix.hpp" alt="" coords="311,528,425,555"/>
+<area shape="rect" id="node44" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="187,603,311,629"/>
+<area shape="rect" id="node45" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="193,677,306,704"/>
+<area shape="rect" id="node46" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="439,752,553,779"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -153,7 +154,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node10" href="../../d1/d09/a00077.php" title="Entity.hpp" alt="" coords="180,976,261,1003"/>
 <area shape="rect" id="node21" href="../../d7/d06/a00131.php" title="Object.hpp" alt="" coords="299,976,385,1003"/>
 <area shape="rect" id="node11" href="../../db/dab/a00089.php" title="Hostile.hpp" alt="" coords="66,1051,154,1077"/>
-<area shape="rect" id="node18" href="../../d5/df1/a00206.php" title="Vegetal.hpp" alt="" coords="175,1125,266,1152"/>
+<area shape="rect" id="node18" href="../../d3/de5/a00209.php" title="Vegetal.hpp" alt="" coords="175,1125,266,1152"/>
 <area shape="rect" id="node12" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="37,1125,124,1152"/>
 <area shape="rect" id="node13" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="39,1200,106,1227"/>
 <area shape="rect" id="node14" href="../../db/db6/a00074.php" title="Entities.hpp" alt="" coords="257,1275,347,1301"/>
@@ -175,16 +176,16 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d3/dd1/a00214"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></td></tr>
+<tr class="memitem:df/d24/a00217"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0d72a06346182146581ff63f2fa70580"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#a0d72a06346182146581ff63f2fa70580">mcd::exec</a> (const std::string &amp;cmd, bool force=false)</td></tr>
-<tr class="memdesc:a0d72a06346182146581ff63f2fa70580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use system in an IF and say if there is an error.  <a href="../../d3/dd1/a00214.php#a0d72a06346182146581ff63f2fa70580">More...</a><br /></td></tr>
+<tr class="memitem:a0d72a06346182146581ff63f2fa70580"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#a0d72a06346182146581ff63f2fa70580">mcd::exec</a> (const std::string &amp;cmd, bool force=false)</td></tr>
+<tr class="memdesc:a0d72a06346182146581ff63f2fa70580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use system in an IF and say if there is an error.  <a href="../../df/d24/a00217.php#a0d72a06346182146581ff63f2fa70580">More...</a><br /></td></tr>
 <tr class="separator:a0d72a06346182146581ff63f2fa70580"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcc09c3d97d72792032b5615d41aa1c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00214.php#abcc09c3d97d72792032b5615d41aa1c5">mcd::servLog</a> (const std::string &amp;str, bool server=false, const std::string &amp;name=&quot;Server&quot;)</td></tr>
-<tr class="memdesc:abcc09c3d97d72792032b5615d41aa1c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a string in cout like in a server.  <a href="../../d3/dd1/a00214.php#abcc09c3d97d72792032b5615d41aa1c5">More...</a><br /></td></tr>
+<tr class="memitem:abcc09c3d97d72792032b5615d41aa1c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d24/a00217.php#abcc09c3d97d72792032b5615d41aa1c5">mcd::servLog</a> (const std::string &amp;str, bool server=false, const std::string &amp;name=&quot;Server&quot;)</td></tr>
+<tr class="memdesc:abcc09c3d97d72792032b5615d41aa1c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a string in cout like in a server.  <a href="../../df/d24/a00217.php#abcc09c3d97d72792032b5615d41aa1c5">More...</a><br /></td></tr>
 <tr class="separator:abcc09c3d97d72792032b5615d41aa1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
