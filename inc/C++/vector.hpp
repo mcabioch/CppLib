@@ -24,7 +24,7 @@ namespace mcd {
 				vector() :
 					std::vector<C>()
 				{}
-				vector(const std::vector<C>& v) :
+				explicit vector(const std::vector<C>& v) :
 					std::vector<C>(v)
 				{}
 

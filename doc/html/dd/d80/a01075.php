@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 01:01:21 for C++ by";
+				$text = "Generated on Fri Sep 27 2019 01:18:24 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -108,7 +108,7 @@ $(document).ready(function(){initNavTree('db/dba/a01078.php','../../');});
   <tr><td class="entry"><a class="el" href="../../db/dba/a01078.php#abc0583222abd8957c4a8502b7ba9272e">operator|=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../db/dba/a01078.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../db/dba/a01078.php#a58c2e9df00704c786bfcfcca5a383a0e">pop</a>(size_t pos=0)</td><td class="entry"><a class="el" href="../../db/dba/a01078.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../db/dba/a01078.php#a92e814868c4f4b6f3d0969b200b35c91">vector</a>()</td><td class="entry"><a class="el" href="../../db/dba/a01078.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/dba/a01078.php#aea718ab247c60108c5dd591905174a95">vector</a>(const std::vector&lt; C &gt; &amp;v)</td><td class="entry"><a class="el" href="../../db/dba/a01078.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/dba/a01078.php#aea718ab247c60108c5dd591905174a95">vector</a>(const std::vector&lt; C &gt; &amp;v)</td><td class="entry"><a class="el" href="../../db/dba/a01078.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
