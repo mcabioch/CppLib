@@ -9,8 +9,8 @@
 #ifndef HEADER_USEFULL_DEFINES
 #define HEADER_USEFULL_DEFINES
 
-#define COMMA ,
-
-namespace mcd {}
+namespace mcd {
+	#define COMMA ,
+}
 
 #endif //HEADER_USEFULL_DEFINES
