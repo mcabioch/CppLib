@@ -2,7 +2,7 @@
 *
 *	\file		check.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	August, 14 2018
+*	\modified	September, 30 2019
 *
 */
 #ifndef HEADER_CPP_CHECK
@@ -29,6 +29,12 @@ namespace mcd {
 		#ifndef DOXYGEN_SHOULD_SKIP_THIS
 			template<typename T>
 			class is_array<std::vector<T>>{
+				public:
+					const static bool value = true;
+			};
+
+			template<typename T>
+			class is_array<std::deque<T>>{
 				public:
 					const static bool value = true;
 			};
