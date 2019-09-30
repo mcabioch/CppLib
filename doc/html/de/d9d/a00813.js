@@ -1,6 +1,4 @@
 var a00813 =
 [
-    [ "has_ostream_operator", "de/d9d/a00813.php#a62ae1424b1e158747fdc66486da0f519", null ],
-    [ "~has_ostream_operator", "de/d9d/a00813.php#a46e086e27236a65d185a87b1d20b4139", null ],
-    [ "value", "de/d9d/a00813.php#ad1cf88abd079ce2df64d1d4f8e256a8a", null ]
+    [ "value", "de/d9d/a00813.php#ab81fa142d6e7d3c98a4dae1f0ca3dfd5", null ]
 ];

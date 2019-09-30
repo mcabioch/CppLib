@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Matrix&lt; C &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Sun Sep 29 2019 11:39:30 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d0/d85/a00976.php','../../');});
+$(document).ready(function(){initNavTree('d3/da5/a00973.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,30 +89,1290 @@ $(document).ready(function(){initNavTree('d0/d85/a00976.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
+<a href="../../d0/daf/a00970.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Path Member List</div>  </div>
+<div class="title">mcd::Matrix&lt; C &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d0/d85/a00976.php">mcd::Path</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d85/a00976.php#a3b461b7f35d6914a627e52e20f79f6ce">end</a></td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d85/a00976.php#a7928f59acfc984899a12b52ab2e5ddca">hasNext</a>() const</td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d85/a00976.php#a2ae56317713ca93848b0c47bc401cbf4">length</a>() const</td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d85/a00976.php#ac24764eca1f5c6a54322d4a19d4ac68f">next</a>(PathfindingNode &amp;node)</td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d85/a00976.php#a19773c31a6467b9b61b440135863290e">Path</a>()</td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d85/a00976.php#a54d7d03099784e7f2e573ba17ebe499e">push</a>(const PathfindingNode &amp;node)</td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d85/a00976.php#a6941e224d3239f1c5aeda5b309aa5c81">reset</a>()</td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d85/a00976.php#a1fb9d6aad58d7817692168eaea307a14">reverse</a>()</td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d85/a00976.php#a85140de1f8970b128a2501316a71e332">size</a>() const</td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d85/a00976.php#aeeee0a0ede330174785a5c7fe77d1681">start</a></td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d85/a00976.php#ae7ac83a2afcba63d1e8f17f314572a7f">~Path</a>()</td><td class="entry"><a class="el" href="../../d0/d85/a00976.php">mcd::Path</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to represent matrix.  
+ <a href="../../d3/da5/a00973.php#details">More...</a></p>
+
+<p><code>#include &lt;Matrix.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a222bcb9024bd8d24b105f9d6be5dd391"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a222bcb9024bd8d24b105f9d6be5dd391">Matrix</a> ()</td></tr>
+<tr class="memdesc:a222bcb9024bd8d24b105f9d6be5dd391"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a222bcb9024bd8d24b105f9d6be5dd391">More...</a><br /></td></tr>
+<tr class="separator:a222bcb9024bd8d24b105f9d6be5dd391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f2cef0c1ab7ebbbecbe0dc22de5eeeb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a4f2cef0c1ab7ebbbecbe0dc22de5eeeb">Matrix</a> (const std::vector&lt; std::vector&lt; C &gt;&gt; &amp;datas)</td></tr>
+<tr class="separator:a4f2cef0c1ab7ebbbecbe0dc22de5eeeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cfebad51878a28020f44f6aacc6f29a"><td class="memTemplParams" colspan="2">template&lt;std::size_t M, std::size_t N&gt; </td></tr>
+<tr class="memitem:a5cfebad51878a28020f44f6aacc6f29a"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a5cfebad51878a28020f44f6aacc6f29a">Matrix</a> (std::array&lt; std::array&lt; C, M &gt;, N &gt; &amp;datas)</td></tr>
+<tr class="separator:a5cfebad51878a28020f44f6aacc6f29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87e5bc598036e554e7fac18328bbb47b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a87e5bc598036e554e7fac18328bbb47b">~Matrix</a> ()</td></tr>
+<tr class="separator:a87e5bc598036e554e7fac18328bbb47b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9823b15f6575c9007b734e505ea772b5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a9823b15f6575c9007b734e505ea772b5">i</a> () const</td></tr>
+<tr class="separator:a9823b15f6575c9007b734e505ea772b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc00ecac929d1e153082d6a61879d4e2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#adc00ecac929d1e153082d6a61879d4e2">j</a> () const</td></tr>
+<tr class="separator:adc00ecac929d1e153082d6a61879d4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3885a9068844517cbbd58cfed57eb5c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a3885a9068844517cbbd58cfed57eb5c4">isSquare</a> () const</td></tr>
+<tr class="separator:a3885a9068844517cbbd58cfed57eb5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac5e5ab03fe97f3deb3f56b34b638638"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#aac5e5ab03fe97f3deb3f56b34b638638">getIdentity</a> ()</td></tr>
+<tr class="separator:aac5e5ab03fe97f3deb3f56b34b638638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a895533c348847ed307cafe3d85c8ebf9"><td class="memItemLeft" align="right" valign="top">C&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a895533c348847ed307cafe3d85c8ebf9">operator()</a> (size_t <a class="el" href="../../d3/da5/a00973.php#a9823b15f6575c9007b734e505ea772b5">i</a>, size_t <a class="el" href="../../d3/da5/a00973.php#adc00ecac929d1e153082d6a61879d4e2">j</a>) const</td></tr>
+<tr class="memdesc:a895533c348847ed307cafe3d85c8ebf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">operator() to get a value in the matrix  <a href="#a895533c348847ed307cafe3d85c8ebf9">More...</a><br /></td></tr>
+<tr class="separator:a895533c348847ed307cafe3d85c8ebf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2e5889d3ce0c0a97ec6f7c35b424f23"><td class="memItemLeft" align="right" valign="top">C &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#ab2e5889d3ce0c0a97ec6f7c35b424f23">operator()</a> (size_t <a class="el" href="../../d3/da5/a00973.php#a9823b15f6575c9007b734e505ea772b5">i</a>, size_t <a class="el" href="../../d3/da5/a00973.php#adc00ecac929d1e153082d6a61879d4e2">j</a>)</td></tr>
+<tr class="memdesc:ab2e5889d3ce0c0a97ec6f7c35b424f23"><td class="mdescLeft">&#160;</td><td class="mdescRight">operator() to get a value in the matrix  <a href="#ab2e5889d3ce0c0a97ec6f7c35b424f23">More...</a><br /></td></tr>
+<tr class="separator:ab2e5889d3ce0c0a97ec6f7c35b424f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab65365129992bf5a53b62e3bd3955135"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:ab65365129992bf5a53b62e3bd3955135"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#ab65365129992bf5a53b62e3bd3955135">operator+=</a> (const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;A)</td></tr>
+<tr class="separator:ab65365129992bf5a53b62e3bd3955135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2adb934f2c26b12d6b5f5981c0e4d7a"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:ac2adb934f2c26b12d6b5f5981c0e4d7a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#ac2adb934f2c26b12d6b5f5981c0e4d7a">operator+</a> (const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;A)</td></tr>
+<tr class="separator:ac2adb934f2c26b12d6b5f5981c0e4d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e53fd790079347de2d5d5e132a4c37b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a0e53fd790079347de2d5d5e132a4c37b">operator-</a> ()</td></tr>
+<tr class="separator:a0e53fd790079347de2d5d5e132a4c37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c4a74722881f5fdb1a1135b36808f47"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a8c4a74722881f5fdb1a1135b36808f47"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a8c4a74722881f5fdb1a1135b36808f47">operator-=</a> (const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;A)</td></tr>
+<tr class="separator:a8c4a74722881f5fdb1a1135b36808f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dc00dacaac8d2884d41d0f1057a098b"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a3dc00dacaac8d2884d41d0f1057a098b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a3dc00dacaac8d2884d41d0f1057a098b">operator-</a> (const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;A)</td></tr>
+<tr class="separator:a3dc00dacaac8d2884d41d0f1057a098b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a309672571879a0b44bf9c91b26b51a21"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a309672571879a0b44bf9c91b26b51a21"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a309672571879a0b44bf9c91b26b51a21">operator*=</a> (const D &amp;a)</td></tr>
+<tr class="separator:a309672571879a0b44bf9c91b26b51a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61b1b866f822f492dd94f0178de09f0e"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a61b1b866f822f492dd94f0178de09f0e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a61b1b866f822f492dd94f0178de09f0e">operator*</a> (const D &amp;a)</td></tr>
+<tr class="separator:a61b1b866f822f492dd94f0178de09f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a035e71a534c66ed739cdafccb5abc09b"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a035e71a534c66ed739cdafccb5abc09b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a035e71a534c66ed739cdafccb5abc09b">operator*=</a> (const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;A)</td></tr>
+<tr class="separator:a035e71a534c66ed739cdafccb5abc09b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37a33064fb7f3599b1e3127d13cd87f9"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a37a33064fb7f3599b1e3127d13cd87f9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a37a33064fb7f3599b1e3127d13cd87f9">operator*</a> (const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;A)</td></tr>
+<tr class="separator:a37a33064fb7f3599b1e3127d13cd87f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f1be652fdf748cc826d30cbb96745f0"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a8f1be652fdf748cc826d30cbb96745f0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a8f1be652fdf748cc826d30cbb96745f0">operator/=</a> (const D &amp;a)</td></tr>
+<tr class="separator:a8f1be652fdf748cc826d30cbb96745f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aead70f5313e4a9a9c39321d41c2c3d10"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:aead70f5313e4a9a9c39321d41c2c3d10"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#aead70f5313e4a9a9c39321d41c2c3d10">operator/</a> (const D &amp;a)</td></tr>
+<tr class="separator:aead70f5313e4a9a9c39321d41c2c3d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a942e3d418da2bacad3193d82411e2cfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a942e3d418da2bacad3193d82411e2cfc">transposed</a> ()</td></tr>
+<tr class="memdesc:a942e3d418da2bacad3193d82411e2cfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transpose the matrix.  <a href="#a942e3d418da2bacad3193d82411e2cfc">More...</a><br /></td></tr>
+<tr class="separator:a942e3d418da2bacad3193d82411e2cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace95025dd985ddaa6c1ed72e8b464a0a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#ace95025dd985ddaa6c1ed72e8b464a0a">det</a> ()</td></tr>
+<tr class="memdesc:ace95025dd985ddaa6c1ed72e8b464a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the determinant of the matrix.  <a href="#ace95025dd985ddaa6c1ed72e8b464a0a">More...</a><br /></td></tr>
+<tr class="separator:ace95025dd985ddaa6c1ed72e8b464a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0390771523fc535079faa2a7b7c29ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#af0390771523fc535079faa2a7b7c29ce">inverted</a> ()</td></tr>
+<tr class="memdesc:af0390771523fc535079faa2a7b7c29ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invert the matrix using Gaus-Jordan algorithm.  <a href="#af0390771523fc535079faa2a7b7c29ce">More...</a><br /></td></tr>
+<tr class="separator:af0390771523fc535079faa2a7b7c29ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8919e7b6753c1f480d89106a0e993d57"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a8919e7b6753c1f480d89106a0e993d57"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a8919e7b6753c1f480d89106a0e993d57">Matrix</a> ()</td></tr>
+<tr class="separator:a8919e7b6753c1f480d89106a0e993d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13b069e43b69c428da1868baa888f8a7"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a13b069e43b69c428da1868baa888f8a7"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a13b069e43b69c428da1868baa888f8a7">Matrix</a> (const std::vector&lt; std::vector&lt; C &gt;&gt; &amp;datas)</td></tr>
+<tr class="separator:a13b069e43b69c428da1868baa888f8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cfebad51878a28020f44f6aacc6f29a"><td class="memTemplParams" colspan="2">template&lt;std::size_t M, std::size_t N&gt; </td></tr>
+<tr class="memitem:a5cfebad51878a28020f44f6aacc6f29a"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a5cfebad51878a28020f44f6aacc6f29a">Matrix</a> (std::array&lt; std::array&lt; C, M &gt;, N &gt; &amp;datas)</td></tr>
+<tr class="separator:a5cfebad51878a28020f44f6aacc6f29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbfa246182cc089300f95cf1610a99ef"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:adbfa246182cc089300f95cf1610a99ef"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#adbfa246182cc089300f95cf1610a99ef">tos</a> (T value)</td></tr>
+<tr class="separator:adbfa246182cc089300f95cf1610a99ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab65365129992bf5a53b62e3bd3955135"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:ab65365129992bf5a53b62e3bd3955135"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#ab65365129992bf5a53b62e3bd3955135">operator+=</a> (const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;A)</td></tr>
+<tr class="separator:ab65365129992bf5a53b62e3bd3955135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2adb934f2c26b12d6b5f5981c0e4d7a"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:ac2adb934f2c26b12d6b5f5981c0e4d7a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#ac2adb934f2c26b12d6b5f5981c0e4d7a">operator+</a> (const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;A)</td></tr>
+<tr class="separator:ac2adb934f2c26b12d6b5f5981c0e4d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acff8e20e80d55f14e4ef611dc1c9b8ce"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:acff8e20e80d55f14e4ef611dc1c9b8ce"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#acff8e20e80d55f14e4ef611dc1c9b8ce">operator-</a> ()</td></tr>
+<tr class="separator:acff8e20e80d55f14e4ef611dc1c9b8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c4a74722881f5fdb1a1135b36808f47"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a8c4a74722881f5fdb1a1135b36808f47"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a8c4a74722881f5fdb1a1135b36808f47">operator-=</a> (const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;A)</td></tr>
+<tr class="separator:a8c4a74722881f5fdb1a1135b36808f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dc00dacaac8d2884d41d0f1057a098b"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a3dc00dacaac8d2884d41d0f1057a098b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a3dc00dacaac8d2884d41d0f1057a098b">operator-</a> (const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;A)</td></tr>
+<tr class="separator:a3dc00dacaac8d2884d41d0f1057a098b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a743ecbf9bc1defaa0d556a84f328906b"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a743ecbf9bc1defaa0d556a84f328906b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a743ecbf9bc1defaa0d556a84f328906b">operator*=</a> (const D &amp;A)</td></tr>
+<tr class="separator:a743ecbf9bc1defaa0d556a84f328906b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1a6b452f2b1878dbe72e1825f8dca12"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:ab1a6b452f2b1878dbe72e1825f8dca12"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#ab1a6b452f2b1878dbe72e1825f8dca12">operator*</a> (const D &amp;A)</td></tr>
+<tr class="separator:ab1a6b452f2b1878dbe72e1825f8dca12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a035e71a534c66ed739cdafccb5abc09b"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a035e71a534c66ed739cdafccb5abc09b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a035e71a534c66ed739cdafccb5abc09b">operator*=</a> (const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;A)</td></tr>
+<tr class="separator:a035e71a534c66ed739cdafccb5abc09b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37a33064fb7f3599b1e3127d13cd87f9"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a37a33064fb7f3599b1e3127d13cd87f9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a37a33064fb7f3599b1e3127d13cd87f9">operator*</a> (const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;A)</td></tr>
+<tr class="separator:a37a33064fb7f3599b1e3127d13cd87f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad60adce66964625f49ed954456ef08af"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:ad60adce66964625f49ed954456ef08af"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#ad60adce66964625f49ed954456ef08af">operator/=</a> (const D &amp;A)</td></tr>
+<tr class="separator:ad60adce66964625f49ed954456ef08af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a116e84cdee4fae72b8cdaabcc4f749ad"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a116e84cdee4fae72b8cdaabcc4f749ad"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a116e84cdee4fae72b8cdaabcc4f749ad">operator/</a> (const D &amp;A)</td></tr>
+<tr class="separator:a116e84cdee4fae72b8cdaabcc4f749ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ae6b6255f5d5cd9a1684fcdb927978c18"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#ae6b6255f5d5cd9a1684fcdb927978c18">enabled</a> () const</td></tr>
+<tr class="separator:ae6b6255f5d5cd9a1684fcdb927978c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a9b0f04cced69a887b46bddde8e3f3c0a"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a9b0f04cced69a887b46bddde8e3f3c0a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a9b0f04cced69a887b46bddde8e3f3c0a">GaussJordan</a> (const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;M, <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;I, size_t <a class="el" href="../../d3/da5/a00973.php#a9823b15f6575c9007b734e505ea772b5">i</a>, size_t <a class="el" href="../../d3/da5/a00973.php#adc00ecac929d1e153082d6a61879d4e2">j</a>)</td></tr>
+<tr class="memdesc:a9b0f04cced69a887b46bddde8e3f3c0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of the Gauss-Jordan algorithm.  <a href="#a9b0f04cced69a887b46bddde8e3f3c0a">More...</a><br /></td></tr>
+<tr class="separator:a9b0f04cced69a887b46bddde8e3f3c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a3710d279e209fbff51b625690ef630"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
+<tr class="memitem:a9a3710d279e209fbff51b625690ef630"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/da5/a00973.php#a9a3710d279e209fbff51b625690ef630">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;M)</td></tr>
+<tr class="separator:a9a3710d279e209fbff51b625690ef630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;class C&gt;<br />
+class mcd::Matrix&lt; C &gt;</h3>
+
+<p>A class to represent matrix. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a222bcb9024bd8d24b105f9d6be5dd391"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a222bcb9024bd8d24b105f9d6be5dd391">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::<a class="el" href="../../d3/da5/a00973.php">Matrix</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+
+</div>
+</div>
+<a id="a4f2cef0c1ab7ebbbecbe0dc22de5eeeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f2cef0c1ab7ebbbecbe0dc22de5eeeb">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::<a class="el" href="../../d3/da5/a00973.php">Matrix</a> </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; C &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>datas</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5cfebad51878a28020f44f6aacc6f29a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cfebad51878a28020f44f6aacc6f29a">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;std::size_t M, std::size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::<a class="el" href="../../d3/da5/a00973.php">Matrix</a> </td>
+          <td>(</td>
+          <td class="paramtype">std::array&lt; std::array&lt; C, M &gt;, N &gt; &amp;&#160;</td>
+          <td class="paramname"><em>datas</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87e5bc598036e554e7fac18328bbb47b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87e5bc598036e554e7fac18328bbb47b">&#9670;&nbsp;</a></span>~Matrix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::~<a class="el" href="../../d3/da5/a00973.php">Matrix</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8919e7b6753c1f480d89106a0e993d57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8919e7b6753c1f480d89106a0e993d57">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::<a class="el" href="../../d3/da5/a00973.php">Matrix</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13b069e43b69c428da1868baa888f8a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13b069e43b69c428da1868baa888f8a7">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::<a class="el" href="../../d3/da5/a00973.php">Matrix</a> </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; C &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>datas</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5cfebad51878a28020f44f6aacc6f29a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cfebad51878a28020f44f6aacc6f29a">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;std::size_t M, std::size_t N&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::<a class="el" href="../../d3/da5/a00973.php">Matrix</a> </td>
+          <td>(</td>
+          <td class="paramtype">std::array&lt; std::array&lt; C, M &gt;, N &gt; &amp;&#160;</td>
+          <td class="paramname"><em>datas</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/da5/a00973_a5cfebad51878a28020f44f6aacc6f29a_cgraph.png" border="0" usemap="#d3/da5/a00973_a5cfebad51878a28020f44f6aacc6f29a_cgraph" alt=""/></div>
+<map name="d3/da5/a00973_a5cfebad51878a28020f44f6aacc6f29a_cgraph" id="d3/da5/a00973_a5cfebad51878a28020f44f6aacc6f29a_cgraph">
+<area shape="rect" id="node2" href="../../d3/da5/a00973.php#a9823b15f6575c9007b734e505ea772b5" title="mcd::Matrix::i" alt="" coords="188,5,291,32"/>
+<area shape="rect" id="node3" href="../../d3/da5/a00973.php#adc00ecac929d1e153082d6a61879d4e2" title="mcd::Matrix::j" alt="" coords="188,56,291,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ace95025dd985ddaa6c1ed72e8b464a0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace95025dd985ddaa6c1ed72e8b464a0a">&#9670;&nbsp;</a></span>det()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix::det </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute the determinant of the matrix. </p>
+<dl class="section return"><dt>Returns</dt><dd>The value of the determinant </dd></dl>
+
+</div>
+</div>
+<a id="ae6b6255f5d5cd9a1684fcdb927978c18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6b6255f5d5cd9a1684fcdb927978c18">&#9670;&nbsp;</a></span>enabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::enabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac5e5ab03fe97f3deb3f56b34b638638"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac5e5ab03fe97f3deb3f56b34b638638">&#9670;&nbsp;</a></span>getIdentity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt; Matrix::getIdentity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9823b15f6575c9007b734e505ea772b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9823b15f6575c9007b734e505ea772b5">&#9670;&nbsp;</a></span>i()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::i </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0390771523fc535079faa2a7b7c29ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0390771523fc535079faa2a7b7c29ce">&#9670;&nbsp;</a></span>inverted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt; Matrix::inverted </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Invert the matrix using Gaus-Jordan algorithm. </p>
+<dl class="section return"><dt>Returns</dt><dd>The inverted matrix </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/da5/a00973_af0390771523fc535079faa2a7b7c29ce_cgraph.png" border="0" usemap="#d3/da5/a00973_af0390771523fc535079faa2a7b7c29ce_cgraph" alt=""/></div>
+<map name="d3/da5/a00973_af0390771523fc535079faa2a7b7c29ce_cgraph" id="d3/da5/a00973_af0390771523fc535079faa2a7b7c29ce_cgraph">
+<area shape="rect" id="node2" href="../../df/d6a/a00119.php#a9b0f04cced69a887b46bddde8e3f3c0a" title="GaussJordan" alt="" coords="199,5,297,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3885a9068844517cbbd58cfed57eb5c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3885a9068844517cbbd58cfed57eb5c4">&#9670;&nbsp;</a></span>isSquare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::isSquare </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/da5/a00973_a3885a9068844517cbbd58cfed57eb5c4_cgraph.png" border="0" usemap="#d3/da5/a00973_a3885a9068844517cbbd58cfed57eb5c4_cgraph" alt=""/></div>
+<map name="d3/da5/a00973_a3885a9068844517cbbd58cfed57eb5c4_cgraph" id="d3/da5/a00973_a3885a9068844517cbbd58cfed57eb5c4_cgraph">
+<area shape="rect" id="node2" href="../../d3/da5/a00973.php#aac5e5ab03fe97f3deb3f56b34b638638" title="mcd::Matrix::getIdentity" alt="" coords="204,5,364,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adc00ecac929d1e153082d6a61879d4e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc00ecac929d1e153082d6a61879d4e2">&#9670;&nbsp;</a></span>j()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::j </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a895533c348847ed307cafe3d85c8ebf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a895533c348847ed307cafe3d85c8ebf9">&#9670;&nbsp;</a></span>operator()() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">C <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator() </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>operator() to get a value in the matrix </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">i</td><td>A matrix place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">j</td><td>A matrix place </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The corresponding value </dd></dl>
+
+</div>
+</div>
+<a id="ab2e5889d3ce0c0a97ec6f7c35b424f23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2e5889d3ce0c0a97ec6f7c35b424f23">&#9670;&nbsp;</a></span>operator()() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">C&amp; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator() </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>operator() to get a value in the matrix </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">i</td><td>A matrix place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">j</td><td>A matrix place </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the corresponding value </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/da5/a00973_ab2e5889d3ce0c0a97ec6f7c35b424f23_cgraph.png" border="0" usemap="#d3/da5/a00973_ab2e5889d3ce0c0a97ec6f7c35b424f23_cgraph" alt=""/></div>
+<map name="d3/da5/a00973_ab2e5889d3ce0c0a97ec6f7c35b424f23_cgraph" id="d3/da5/a00973_ab2e5889d3ce0c0a97ec6f7c35b424f23_cgraph">
+<area shape="rect" id="node2" href="../../d3/da5/a00973.php#ab65365129992bf5a53b62e3bd3955135" title="mcd::Matrix::operator+=" alt="" coords="208,5,371,32"/>
+<area shape="rect" id="node3" href="../../d3/da5/a00973.php#ac2adb934f2c26b12d6b5f5981c0e4d7a" title="mcd::Matrix::operator+" alt="" coords="212,56,367,83"/>
+<area shape="rect" id="node4" href="../../d3/da5/a00973.php#a0e53fd790079347de2d5d5e132a4c37b" title="mcd::Matrix::operator&#45;" alt="" coords="214,107,365,133"/>
+<area shape="rect" id="node5" href="../../d3/da5/a00973.php#a8c4a74722881f5fdb1a1135b36808f47" title="mcd::Matrix::operator&#45;=" alt="" coords="210,157,369,184"/>
+<area shape="rect" id="node6" href="../../d3/da5/a00973.php#a309672571879a0b44bf9c91b26b51a21" title="mcd::Matrix::operator*=" alt="" coords="210,208,369,235"/>
+<area shape="rect" id="node7" href="../../d3/da5/a00973.php#a61b1b866f822f492dd94f0178de09f0e" title="mcd::Matrix::operator*" alt="" coords="214,259,365,285"/>
+<area shape="rect" id="node8" href="../../d3/da5/a00973.php#a8f1be652fdf748cc826d30cbb96745f0" title="mcd::Matrix::operator/=" alt="" coords="210,309,369,336"/>
+<area shape="rect" id="node9" href="../../d3/da5/a00973.php#aead70f5313e4a9a9c39321d41c2c3d10" title="mcd::Matrix::operator/" alt="" coords="214,360,365,387"/>
+<area shape="rect" id="node10" href="../../d3/da5/a00973.php#a9823b15f6575c9007b734e505ea772b5" title="mcd::Matrix::i" alt="" coords="238,411,341,437"/>
+<area shape="rect" id="node11" href="../../d3/da5/a00973.php#adc00ecac929d1e153082d6a61879d4e2" title="mcd::Matrix::j" alt="" coords="238,461,341,488"/>
+<area shape="rect" id="node12" href="../../d3/da5/a00973.php#a942e3d418da2bacad3193d82411e2cfc" title="Transpose the matrix. " alt="" coords="208,512,371,539"/>
+<area shape="rect" id="node13" href="../../d3/da5/a00973.php#ace95025dd985ddaa6c1ed72e8b464a0a" title="Compute the determinant of the matrix. " alt="" coords="231,563,348,589"/>
+<area shape="rect" id="node14" href="../../d3/da5/a00973.php#af0390771523fc535079faa2a7b7c29ce" title="Invert the matrix using Gaus&#45;Jordan algorithm. " alt="" coords="217,613,362,640"/>
+<area shape="rect" id="node15" href="../../df/d6a/a00119.php#a9b0f04cced69a887b46bddde8e3f3c0a" title="GaussJordan" alt="" coords="419,613,517,640"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a61b1b866f822f492dd94f0178de09f0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61b1b866f822f492dd94f0178de09f0e">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const D &amp;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37a33064fb7f3599b1e3127d13cd87f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37a33064fb7f3599b1e3127d13cd87f9">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1a6b452f2b1878dbe72e1825f8dca12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1a6b452f2b1878dbe72e1825f8dca12">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const D &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37a33064fb7f3599b1e3127d13cd87f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37a33064fb7f3599b1e3127d13cd87f9">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a309672571879a0b44bf9c91b26b51a21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a309672571879a0b44bf9c91b26b51a21">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt;&amp; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator*= </td>
+          <td>(</td>
+          <td class="paramtype">const D &amp;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a035e71a534c66ed739cdafccb5abc09b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a035e71a534c66ed739cdafccb5abc09b">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt;&amp; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator*= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a743ecbf9bc1defaa0d556a84f328906b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a743ecbf9bc1defaa0d556a84f328906b">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt;&amp; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator*= </td>
+          <td>(</td>
+          <td class="paramtype">const D &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a035e71a534c66ed739cdafccb5abc09b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a035e71a534c66ed739cdafccb5abc09b">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt;&amp; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator*= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/da5/a00973_a035e71a534c66ed739cdafccb5abc09b_cgraph.png" border="0" usemap="#d3/da5/a00973_a035e71a534c66ed739cdafccb5abc09b_cgraph" alt=""/></div>
+<map name="d3/da5/a00973_a035e71a534c66ed739cdafccb5abc09b_cgraph" id="d3/da5/a00973_a035e71a534c66ed739cdafccb5abc09b_cgraph">
+<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="212,5,285,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac2adb934f2c26b12d6b5f5981c0e4d7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2adb934f2c26b12d6b5f5981c0e4d7a">&#9670;&nbsp;</a></span>operator+() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2adb934f2c26b12d6b5f5981c0e4d7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2adb934f2c26b12d6b5f5981c0e4d7a">&#9670;&nbsp;</a></span>operator+() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab65365129992bf5a53b62e3bd3955135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab65365129992bf5a53b62e3bd3955135">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt;&amp; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab65365129992bf5a53b62e3bd3955135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab65365129992bf5a53b62e3bd3955135">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt;&amp; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acff8e20e80d55f14e4ef611dc1c9b8ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acff8e20e80d55f14e4ef611dc1c9b8ce">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator- </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3dc00dacaac8d2884d41d0f1057a098b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dc00dacaac8d2884d41d0f1057a098b">&#9670;&nbsp;</a></span>operator-() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator- </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e53fd790079347de2d5d5e132a4c37b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e53fd790079347de2d5d5e132a4c37b">&#9670;&nbsp;</a></span>operator-() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator- </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3dc00dacaac8d2884d41d0f1057a098b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dc00dacaac8d2884d41d0f1057a098b">&#9670;&nbsp;</a></span>operator-() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator- </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c4a74722881f5fdb1a1135b36808f47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c4a74722881f5fdb1a1135b36808f47">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt;&amp; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator-= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c4a74722881f5fdb1a1135b36808f47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c4a74722881f5fdb1a1135b36808f47">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt;&amp; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator-= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aead70f5313e4a9a9c39321d41c2c3d10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aead70f5313e4a9a9c39321d41c2c3d10">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator/ </td>
+          <td>(</td>
+          <td class="paramtype">const D &amp;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a116e84cdee4fae72b8cdaabcc4f749ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a116e84cdee4fae72b8cdaabcc4f749ad">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator/ </td>
+          <td>(</td>
+          <td class="paramtype">const D &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f1be652fdf748cc826d30cbb96745f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f1be652fdf748cc826d30cbb96745f0">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt;&amp; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator/= </td>
+          <td>(</td>
+          <td class="paramtype">const D &amp;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad60adce66964625f49ed954456ef08af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad60adce66964625f49ed954456ef08af">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt;C&gt;&amp; <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::operator/= </td>
+          <td>(</td>
+          <td class="paramtype">const D &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbfa246182cc089300f95cf1610a99ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbfa246182cc089300f95cf1610a99ef">&#9670;&nbsp;</a></span>tos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string <a class="el" href="../../d3/da5/a00973.php">mcd::Matrix</a>&lt; C &gt;::tos </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a942e3d418da2bacad3193d82411e2cfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a942e3d418da2bacad3193d82411e2cfc">&#9670;&nbsp;</a></span>transposed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; C &gt; Matrix::transposed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transpose the matrix. </p>
+<dl class="section return"><dt>Returns</dt><dd>The transposed matrix </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a9b0f04cced69a887b46bddde8e3f3c0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b0f04cced69a887b46bddde8e3f3c0a">&#9670;&nbsp;</a></span>GaussJordan</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GaussJordan </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>M</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>I</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implementation of the Gauss-Jordan algorithm. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">M</td><td>The matrix to invert </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">I</td><td>The matrix' identity </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i</td><td>A matrix place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">j</td><td>A matrix place </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a9a3710d279e209fbff51b625690ef630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a3710d279e209fbff51b625690ef630">&#9670;&nbsp;</a></span>operator<<</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d3/da5/a00973.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>M</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="../../d4/d81/a00110.php">Matrix.hpp</a></li>
+<li><a class="el" href="../../d3/d00/a00113.php">Matrix_constructs.hpp</a></li>
+<li><a class="el" href="../../d4/d3e/a00116.php">Matrix_core.hpp</a></li>
+<li><a class="el" href="../../df/dc8/a00122.php">Matrix_maths.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../d5/d0b/a00220.php">mcd</a></li><li class="navelem"><a class="el" href="../../d3/da5/a00973.php">Matrix</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

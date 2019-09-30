@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::NotCopyable Class Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 11:22:31 for C++ by";
+				$text = "Generated on Sun Sep 29 2019 11:39:30 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d2/ddd/a00978.php','../../');});
+$(document).ready(function(){initNavTree('dd/d24/a00981.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,112 +89,21 @@ $(document).ready(function(){initNavTree('d2/ddd/a00978.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../db/dbf/a00975.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::NotCopyable Class Reference</div>  </div>
+<div class="title">mcd::NotCopyable Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to let some other not to be copyable.  
- <a href="../../d2/ddd/a00978.php#details">More...</a></p>
-
-<p><code>#include &lt;NotCopyable.hpp&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for mcd::NotCopyable:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d5/d6c/a00977.png" border="0" usemap="#mcd_1_1NotCopyable_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1NotCopyable_inherit__map" id="mcd_1_1NotCopyable_inherit__map">
-<area shape="rect" id="node2" href="../../da/dd8/a00906.php" title="A class to be the parent for every crypt class. " alt="" coords="185,80,279,107"/>
-<area shape="rect" id="node3" href="../../d4/d12/a00910.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="5,155,96,181"/>
-<area shape="rect" id="node4" href="../../d0/ddf/a00918.php" title="A class to test a homemade algorithm for encryption. " alt="" coords="121,155,226,181"/>
-<area shape="rect" id="node5" href="../../dd/dcf/a00922.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="249,155,332,181"/>
-<area shape="rect" id="node6" href="../../d3/dd1/a00914.php" title="An implementation of sha256 encryption. " alt="" coords="356,155,447,181"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:aa40da048522b578e9c2cc9f73c1a0d92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/ddd/a00978.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a> ()</td></tr>
-<tr class="memdesc:aa40da048522b578e9c2cc9f73c1a0d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#aa40da048522b578e9c2cc9f73c1a0d92">More...</a><br /></td></tr>
-<tr class="separator:aa40da048522b578e9c2cc9f73c1a0d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5efcd02383468e37e9c960f3d6f9d14c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/ddd/a00978.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a> ()</td></tr>
-<tr class="separator:a5efcd02383468e37e9c960f3d6f9d14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to let some other not to be copyable. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa40da048522b578e9c2cc9f73c1a0d92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa40da048522b578e9c2cc9f73c1a0d92">&#9670;&nbsp;</a></span>NotCopyable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::NotCopyable::NotCopyable </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The constructor of the class. </p>
-
-</div>
-</div>
-<a id="a5efcd02383468e37e9c960f3d6f9d14c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5efcd02383468e37e9c960f3d6f9d14c">&#9670;&nbsp;</a></span>~NotCopyable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual mcd::NotCopyable::~NotCopyable </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/ddd/a00978_a5efcd02383468e37e9c960f3d6f9d14c_cgraph.png" border="0" usemap="#d2/ddd/a00978_a5efcd02383468e37e9c960f3d6f9d14c_cgraph" alt=""/></div>
-<map name="d2/ddd/a00978_a5efcd02383468e37e9c960f3d6f9d14c_cgraph" id="d2/ddd/a00978_a5efcd02383468e37e9c960f3d6f9d14c_cgraph">
-<area shape="rect" id="node2" href="../../d2/ddd/a00978.php#aa40da048522b578e9c2cc9f73c1a0d92" title="The constructor of the class. " alt="" coords="192,13,407,39"/>
-</map>
-</div>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d1/d88/a00128.php">NotCopyable.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../dd/d24/a00981.php">mcd::NotCopyable</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d24/a00981.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a>()</td><td class="entry"><a class="el" href="../../dd/d24/a00981.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d24/a00981.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a>()</td><td class="entry"><a class="el" href="../../dd/d24/a00981.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../df/d24/a00217.php">mcd</a></li><li class="navelem"><a class="el" href="../../d2/ddd/a00978.php">NotCopyable</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

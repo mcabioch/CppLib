@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$da/d17/a01046.php" title="A class to let another one to be threadable with update() member in a thread. " alt="" coords="5,5,159,32"/>
+<area shape="rect" id="node1" title="STL class. " alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node2" href="$d6/d86/a00781.php" title="An implementation of std::stack. " alt="" coords="165,5,348,32"/>
+<area shape="rect" id="node3" href="$d3/d00/a00785.php" title="An thread&#45;safe implementation of stack. " alt="" coords="396,5,591,32"/>
 </map>

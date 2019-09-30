@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::PlayerAbstraction&lt; PlayerParent &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Sun Sep 29 2019 11:39:30 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('db/d08/a01028.php','../../');});
+$(document).ready(function(){initNavTree('db/d23/a01025.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,53 +89,789 @@ $(document).ready(function(){initNavTree('db/d08/a01028.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="../../d1/dd8/a01022.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Stone Member List</div>  </div>
+<div class="title">mcd::PlayerAbstraction&lt; PlayerParent &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../db/d08/a01028.php">mcd::Stone</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a7f4fa78c938b90c034ad0fe98a293a3c">addPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a807590a9e81f34ba22aca08ddd986db7">Contraption</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a580eafa58a93d9ab4264c4cbac2f4167">getA</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#aa36a1788770d7667d8a2848ff1e3f0c6">getAttributes</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#aec81012bc23935e626500734007d5fb5">getH</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a2f6cf40462b5dba5f7743c83cc2389f1">getLevel</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a393c4ec6fd375809fbcf1cfeab44ed25">getMap</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#ac95da2f760e8ba07a54ac849c5a3307f">getPosition</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a20dee618b85a3f841921a534bd5dfd37">getRelativeZ</a>(Contraption &amp;obj)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#ad12fd1c5a207f169edc619e09a5a969f">getW</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a6e7d791e4289bd253a357be80f8131ee">getX</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a153124dd434c08a943f60d7b43c2ffab">getY</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a6ac6575807535f3d9aeb251ce3cceaed">getZ</a>() const</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dd4/a00968.php#ad332f3a57527a6ede1be2e18b65615a5">Object</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d7/dd4/a00968.php">mcd::Object</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d08/a01028.php#ad23699d742569bc0eb2e9724a37b6cdf">printInfos</a>(std::ostream &amp;stream) const override</td><td class="entry"><a class="el" href="../../db/d08/a01028.php">mcd::Stone</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a6ee6d1b64b6b88068a2165a1824a5af2">sender</a>(std::string, vector_str)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a73a47e55e554e7c7f357a74276368186">setA</a>(double64_t angle)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a9c5a7acde997e12d99e717f182c5ced7">setAttributes</a>(ContraptionAttr attr)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#ae44610d2144faf1550f8cc6ec860fb71">setAttributes</a>(double64_t w, double64_t h, double64_t angle=0)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a060b6ee9401bd8c9a03c5cecdbfa1942">setH</a>(double64_t h)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a332ecd56522af01cf41b9c4a69449bd0">setLevel</a>(size_t level)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a8a6c84d9d5f814fe553b731d841a5266">setMap</a>(Map *map)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a2974b562f55f65a1b992ff849eea43cf">setPosition</a>(Point pt)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#aae0d0bd5e4613514eb5cda66eaeabbcb">setPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a2a00e0217550c3b79434659e04d40aef">setW</a>(double64_t w)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#abbaabb4c71f560de8c85a859c11dd57a">setX</a>(double64_t x)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a3e1fc3a4ee923891fa0c523f129c45af">setY</a>(double64_t y)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a08c1de8034f9e3985a24dd78d37a3d44">setZ</a>(double64_t z)</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d08/a01028.php#a0b078b3e2aea50454478300140675661">Stone</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../db/d08/a01028.php">mcd::Stone</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a10b4b5c4cd47da89e672c64c41b23162">turnLeft</a>()</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a4f7cef1423cf575fabafa2143a588788">turnRight</a>()</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d94/a00888.php#a17bb565b03902a28211f8609ac04d01b">~Contraption</a>()</td><td class="entry"><a class="el" href="../../dd/d94/a00888.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd4/a00968.php#a400f71c448a89abecda88ba70ab5029f">~Object</a>()</td><td class="entry"><a class="el" href="../../d7/dd4/a00968.php">mcd::Object</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d08/a01028.php#aa34b6384ef8063fdf92582115c0765c1">~Stone</a>()</td><td class="entry"><a class="el" href="../../db/d08/a01028.php">mcd::Stone</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A player that can be a child from any class.  
+ <a href="../../db/d23/a01025.php#details">More...</a></p>
+
+<p><code>#include &lt;PlayerAbstraction.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::PlayerAbstraction&lt; PlayerParent &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/dc5/a01024.png" border="0" usemap="#mcd_1_1PlayerAbstraction_3_01PlayerParent_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1PlayerAbstraction_3_01PlayerParent_01_4_inherit__map" id="mcd_1_1PlayerAbstraction_3_01PlayerParent_01_4_inherit__map">
+<area shape="rect" id="node3" href="../../d5/dfb/a01021.php" title="A player that can be a child from any class. " alt="" coords="5,169,196,196"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::PlayerAbstraction&lt; PlayerParent &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/dcd/a01023.png" border="0" usemap="#mcd_1_1PlayerAbstraction_3_01PlayerParent_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1PlayerAbstraction_3_01PlayerParent_01_4_coll__map" id="mcd_1_1PlayerAbstraction_3_01PlayerParent_01_4_coll__map">
+<area shape="rect" id="node3" title="STL class. " alt="" coords="137,96,217,123"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="113,5,240,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:acd7472274e5fd10845893208d604617f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#acd7472274e5fd10845893208d604617f">PlayerAbstraction</a> (<a class="el" href="../../d7/dfd/a00969.php">Map</a> *map=nullptr, <a class="el" href="../../dd/dee/a01081.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d5/d0b/a00220.php#de/db9/a00937">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
+<tr class="memdesc:acd7472274e5fd10845893208d604617f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#acd7472274e5fd10845893208d604617f">More...</a><br /></td></tr>
+<tr class="separator:acd7472274e5fd10845893208d604617f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abde0c45c79e9cb030711f77d73fdc5a8"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#abde0c45c79e9cb030711f77d73fdc5a8">~PlayerAbstraction</a> ()</td></tr>
+<tr class="memdesc:abde0c45c79e9cb030711f77d73fdc5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#abde0c45c79e9cb030711f77d73fdc5a8">More...</a><br /></td></tr>
+<tr class="separator:abde0c45c79e9cb030711f77d73fdc5a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6441d9b85821e4e20639fe5082795a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#ac6441d9b85821e4e20639fe5082795a5">setMail</a> (const std::string &amp;mail)</td></tr>
+<tr class="memdesc:ac6441d9b85821e4e20639fe5082795a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d5/dfb/a01021.php" title="A player that can be a child from any class. ">Player</a>'smail.  <a href="#ac6441d9b85821e4e20639fe5082795a5">More...</a><br /></td></tr>
+<tr class="separator:ac6441d9b85821e4e20639fe5082795a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a368cb45cbd8f4bcd470628f4d0783b07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a368cb45cbd8f4bcd470628f4d0783b07">setExperience</a> (const <a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;experience)</td></tr>
+<tr class="memdesc:a368cb45cbd8f4bcd470628f4d0783b07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d5/dfb/a01021.php" title="A player that can be a child from any class. ">Player</a>'s experience.  <a href="#a368cb45cbd8f4bcd470628f4d0783b07">More...</a><br /></td></tr>
+<tr class="separator:a368cb45cbd8f4bcd470628f4d0783b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e2dc719465b4100436d08def34378f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a7e2dc719465b4100436d08def34378f4">setExperienceMax</a> (const <a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;experienceMax)</td></tr>
+<tr class="memdesc:a7e2dc719465b4100436d08def34378f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d5/dfb/a01021.php" title="A player that can be a child from any class. ">Player</a>'s max experience.  <a href="#a7e2dc719465b4100436d08def34378f4">More...</a><br /></td></tr>
+<tr class="separator:a7e2dc719465b4100436d08def34378f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada35a68939571761734d82bf83e6c634"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#ada35a68939571761734d82bf83e6c634">getMail</a> () const</td></tr>
+<tr class="separator:ada35a68939571761734d82bf83e6c634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b6c4845dcc12c9feed1910e7de9334"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#af4b6c4845dcc12c9feed1910e7de9334">getExperience</a> () const</td></tr>
+<tr class="separator:af4b6c4845dcc12c9feed1910e7de9334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d9f0332994725fceb7f785fd83e1802"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a3d9f0332994725fceb7f785fd83e1802">getExperienceMax</a> () const</td></tr>
+<tr class="separator:a3d9f0332994725fceb7f785fd83e1802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6d60013def2f34160fda9a990cf2da5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#ac6d60013def2f34160fda9a990cf2da5">printInfos</a> (std::ostream &amp;stream) const override</td></tr>
+<tr class="memdesc:ac6d60013def2f34160fda9a990cf2da5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the infos in the instance of the class in <em>stream</em>.  <a href="#ac6d60013def2f34160fda9a990cf2da5">More...</a><br /></td></tr>
+<tr class="separator:ac6d60013def2f34160fda9a990cf2da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57f10ce6fa33a36671c750dd68dc1a13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a57f10ce6fa33a36671c750dd68dc1a13">pause</a> ()</td></tr>
+<tr class="memdesc:a57f10ce6fa33a36671c750dd68dc1a13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pause the player.  <a href="#a57f10ce6fa33a36671c750dd68dc1a13">More...</a><br /></td></tr>
+<tr class="separator:a57f10ce6fa33a36671c750dd68dc1a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4670bc4130ffbdd8fd198ab020a7ffe3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a4670bc4130ffbdd8fd198ab020a7ffe3">resume</a> ()</td></tr>
+<tr class="memdesc:a4670bc4130ffbdd8fd198ab020a7ffe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resume the player.  <a href="#a4670bc4130ffbdd8fd198ab020a7ffe3">More...</a><br /></td></tr>
+<tr class="separator:a4670bc4130ffbdd8fd198ab020a7ffe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81a1ea7b3b306b10af787c353c92cc2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a81a1ea7b3b306b10af787c353c92cc2e">isPaused</a> () const</td></tr>
+<tr class="memdesc:a81a1ea7b3b306b10af787c353c92cc2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if the player is paused.  <a href="#a81a1ea7b3b306b10af787c353c92cc2e">More...</a><br /></td></tr>
+<tr class="separator:a81a1ea7b3b306b10af787c353c92cc2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7582710c11a7b92d9912f414a5296975"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a7582710c11a7b92d9912f414a5296975">lost</a> ()</td></tr>
+<tr class="memdesc:a7582710c11a7b92d9912f414a5296975"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lost the focus.  <a href="#a7582710c11a7b92d9912f414a5296975">More...</a><br /></td></tr>
+<tr class="separator:a7582710c11a7b92d9912f414a5296975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a98e2f186ed9702f90362a158a9f2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#ac4a98e2f186ed9702f90362a158a9f2f">retreive</a> ()</td></tr>
+<tr class="memdesc:ac4a98e2f186ed9702f90362a158a9f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Regain the focus.  <a href="#ac4a98e2f186ed9702f90362a158a9f2f">More...</a><br /></td></tr>
+<tr class="separator:ac4a98e2f186ed9702f90362a158a9f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae441783e58a888696f8dc24f4cdfcce5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#ae441783e58a888696f8dc24f4cdfcce5">isLost</a> () const</td></tr>
+<tr class="memdesc:ae441783e58a888696f8dc24f4cdfcce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if it has the focus.  <a href="#ae441783e58a888696f8dc24f4cdfcce5">More...</a><br /></td></tr>
+<tr class="separator:ae441783e58a888696f8dc24f4cdfcce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb489c22b76cb09daefb8f05b2f515c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#abdb489c22b76cb09daefb8f05b2f515c">isInit</a> () const</td></tr>
+<tr class="memdesc:abdb489c22b76cb09daefb8f05b2f515c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if the player is initialized.  <a href="#abdb489c22b76cb09daefb8f05b2f515c">More...</a><br /></td></tr>
+<tr class="separator:abdb489c22b76cb09daefb8f05b2f515c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:abffa7d0ae3461370c932f0732367c93b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#abffa7d0ae3461370c932f0732367c93b">_init</a></td></tr>
+<tr class="separator:abffa7d0ae3461370c932f0732367c93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a005074efa352510f2dc316404195946c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a005074efa352510f2dc316404195946c">_paused</a></td></tr>
+<tr class="separator:a005074efa352510f2dc316404195946c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee72e21c73d5bbf23c831514cd6cd58b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#aee72e21c73d5bbf23c831514cd6cd58b">_losted</a></td></tr>
+<tr class="separator:aee72e21c73d5bbf23c831514cd6cd58b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9199142db686c7745b21429e7061823"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#ad9199142db686c7745b21429e7061823">_mail</a></td></tr>
+<tr class="separator:ad9199142db686c7745b21429e7061823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae561b7817c64610317799205afa306cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#ae561b7817c64610317799205afa306cd">_experience</a></td></tr>
+<tr class="separator:ae561b7817c64610317799205afa306cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3800d1590d75f762d41be6349556707d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/a01025.php#a3800d1590d75f762d41be6349556707d">_experienceMax</a></td></tr>
+<tr class="separator:a3800d1590d75f762d41be6349556707d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;class PlayerParent&gt;<br />
+class mcd::PlayerAbstraction&lt; PlayerParent &gt;</h3>
+
+<p>A player that can be a child from any class. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="acd7472274e5fd10845893208d604617f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd7472274e5fd10845893208d604617f">&#9670;&nbsp;</a></span>PlayerAbstraction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::<a class="el" href="../../db/d23/a01025.php">PlayerAbstraction</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/dfd/a00969.php">Map</a> *&#160;</td>
+          <td class="paramname"><em>map</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/dee/a01081.php">Point</a>&#160;</td>
+          <td class="paramname"><em>pt</em> = <code>{0,&#160;0,&#160;0}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/d0b/a00220.php#de/db9/a00937">ContraptionAttr</a>&#160;</td>
+          <td class="paramname"><em>attr</em> = <code>{0,&#160;0,&#160;0}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor of the class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">map</td><td>The map where it is </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>The position in the map </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">attr</td><td>The attributes of the object(width, height, angle) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abde0c45c79e9cb030711f77d73fdc5a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abde0c45c79e9cb030711f77d73fdc5a8">&#9670;&nbsp;</a></span>~PlayerAbstraction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::~<a class="el" href="../../db/d23/a01025.php">PlayerAbstraction</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Virtual destructor. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="af4b6c4845dcc12c9feed1910e7de9334"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4b6c4845dcc12c9feed1910e7de9334">&#9670;&nbsp;</a></span>getExperience()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::getExperience </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Return the experience </dd></dl>
+
+</div>
+</div>
+<a id="a3d9f0332994725fceb7f785fd83e1802"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d9f0332994725fceb7f785fd83e1802">&#9670;&nbsp;</a></span>getExperienceMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::getExperienceMax </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Return the maximum experience </dd></dl>
+
+</div>
+</div>
+<a id="ada35a68939571761734d82bf83e6c634"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada35a68939571761734d82bf83e6c634">&#9670;&nbsp;</a></span>getMail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::getMail </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Return themail </dd></dl>
+
+</div>
+</div>
+<a id="abdb489c22b76cb09daefb8f05b2f515c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdb489c22b76cb09daefb8f05b2f515c">&#9670;&nbsp;</a></span>isInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::isInit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Verify if the player is initialized. </p>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a id="ae441783e58a888696f8dc24f4cdfcce5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae441783e58a888696f8dc24f4cdfcce5">&#9670;&nbsp;</a></span>isLost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::isLost </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Verify if it has the focus. </p>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a id="a81a1ea7b3b306b10af787c353c92cc2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81a1ea7b3b306b10af787c353c92cc2e">&#9670;&nbsp;</a></span>isPaused()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::isPaused </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Verify if the player is paused. </p>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a id="a7582710c11a7b92d9912f414a5296975"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7582710c11a7b92d9912f414a5296975">&#9670;&nbsp;</a></span>lost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::lost </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Lost the focus. </p>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a57f10ce6fa33a36671c750dd68dc1a13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57f10ce6fa33a36671c750dd68dc1a13">&#9670;&nbsp;</a></span>pause()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::pause </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pause the player. </p>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="ac6d60013def2f34160fda9a990cf2da5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6d60013def2f34160fda9a990cf2da5">&#9670;&nbsp;</a></span>printInfos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::printInfos </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Print the infos in the instance of the class in <em>stream</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>The output stream</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Reimplemented in <a class="el" href="../../d5/dfb/a01021.php#ae0258dbfcdecaaa58390125aac118fe8">mcd::Player&lt; PlayerParent &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a4670bc4130ffbdd8fd198ab020a7ffe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4670bc4130ffbdd8fd198ab020a7ffe3">&#9670;&nbsp;</a></span>resume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::resume </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resume the player. </p>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="ac4a98e2f186ed9702f90362a158a9f2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4a98e2f186ed9702f90362a158a9f2f">&#9670;&nbsp;</a></span>retreive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::retreive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Regain the focus. </p>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a368cb45cbd8f4bcd470628f4d0783b07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a368cb45cbd8f4bcd470628f4d0783b07">&#9670;&nbsp;</a></span>setExperience()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::setExperience </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>experience</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the <a class="el" href="../../d5/dfb/a01021.php" title="A player that can be a child from any class. ">Player</a>'s experience. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">experience</td><td>The new experience</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a7e2dc719465b4100436d08def34378f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e2dc719465b4100436d08def34378f4">&#9670;&nbsp;</a></span>setExperienceMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::setExperienceMax </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>experienceMax</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the <a class="el" href="../../d5/dfb/a01021.php" title="A player that can be a child from any class. ">Player</a>'s max experience. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">experienceMax</td><td>The new experience max</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="ac6441d9b85821e4e20639fe5082795a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6441d9b85821e4e20639fe5082795a5">&#9670;&nbsp;</a></span>setMail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::setMail </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>mail</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the <a class="el" href="../../d5/dfb/a01021.php" title="A player that can be a child from any class. ">Player</a>'smail. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mail</td><td>The newmail</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae561b7817c64610317799205afa306cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae561b7817c64610317799205afa306cd">&#9670;&nbsp;</a></span>_experience</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::_experience</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3800d1590d75f762d41be6349556707d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3800d1590d75f762d41be6349556707d">&#9670;&nbsp;</a></span>_experienceMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::_experienceMax</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abffa7d0ae3461370c932f0732367c93b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abffa7d0ae3461370c932f0732367c93b">&#9670;&nbsp;</a></span>_init</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::_init</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee72e21c73d5bbf23c831514cd6cd58b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee72e21c73d5bbf23c831514cd6cd58b">&#9670;&nbsp;</a></span>_losted</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::_losted</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9199142db686c7745b21429e7061823"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9199142db686c7745b21429e7061823">&#9670;&nbsp;</a></span>_mail</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::_mail</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a005074efa352510f2dc316404195946c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a005074efa352510f2dc316404195946c">&#9670;&nbsp;</a></span>_paused</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../db/d23/a01025.php">mcd::PlayerAbstraction</a>&lt; PlayerParent &gt;::_paused</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d6/d7d/a00161.php">PlayerAbstraction.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../d5/d0b/a00220.php">mcd</a></li><li class="navelem"><a class="el" href="../../db/d23/a01025.php">PlayerAbstraction</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

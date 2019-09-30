@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::RSA Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Sun Sep 29 2019 11:39:30 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('dd/d38/a00928.php','../../');});
+$(document).ready(function(){initNavTree('dc/d36/a00925.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,61 +89,362 @@ $(document).ready(function(){initNavTree('dd/d38/a00928.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="../../dd/dcf/a00922.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Fraction Member List</div>  </div>
+<div class="title">mcd::RSA Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a5868b5e5c36d3277d651c3fd731ebe84">denominator</a>() const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#aff15244127221e0d190260b62caef134">Fraction</a>()</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a9397e2e1fbfba88c48928e5135925f8d">Fraction</a>(double value)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#ac4085029b32d447dfbe9146a3cdf1f67">Fraction</a>(long num, long denom)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a17e4466c06be8e1bff20fe204d4ff110">numerator</a>() const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a285e38748cb55302c43feab8fa4a29f5">operator double</a>() const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a728b8777d909549030d50032783761dc">operator!=</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a9803ec99dc9da6df50c872a281a10c14">operator!=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a619d937a957bc1f2516066ebb3501951">operator%</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#ac7373abe86093f315b90682196406a7e">operator%</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a7b6753a02a790ffbb75c36920237167c">operator%=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a43f90dffa8573b6fbc49606f804bc941">operator%=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#aece90dc9d246328147f02da505af1050">operator*</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a37efbd11d27b9c2ba1c832d972c7968a">operator*</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#aae423fa04b3025e509901155241b5402">operator*=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#aa59ee30f1820c21567e2b53edb8bc1d3">operator*=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a0897ad5e88848032ff6570bd83ddbef7">operator+</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a54d794692193c950001c5c85026e6e3b">operator+</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#af066abb5b8fe5db0e0c4ce7d125f0c5e">operator++</a>()</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a76f6e7a0b34f33d8d53bc993b7c0ac89">operator+=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a008c1ea6fdcd24bc97c027c5b91a784c">operator+=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a7a16f5b2182b2752cfbef72018e7636e">operator-</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a50acfed23a831256b8f7bea5e6d2b74b">operator-</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a34e188b2c7100e21fe387855ca963f52">operator--</a>()</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a455683f59112555055fc6c5686a9621a">operator-=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a53b141f48ecc61069385e16cf51524dc">operator-=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a0ffeec4d80502f0173a03d7b3aa361db">operator/</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#aba54bcb1715fcfc8ce7d3a9576447aa2">operator/</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a3379901d123c7d545bd8a4f9ebe48b8e">operator/=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a4942772dfaef8d5158163f7fcca98b57">operator/=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a4c0588f44c0f24a7cb2fe0d1a4c05ad5">operator&lt;</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#aa9c375ae1a1d2a7eb9feb0eda3440343">operator&lt;</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a9313ed58249557fab9c0b6ab5e5f977f">operator&lt;&lt;</a>(std::ostream &amp;os, const Fraction &amp;frac)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#ac1e8c0cf1fdef5dd32409c5d0b660fb1">operator&lt;=</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#add6d3ff26c1c87e2d645ad37e751bdac">operator&lt;=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a300ed85793b7aece141599c82524f8d9">operator==</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a986f1f323f69858991a54320af44b6a5">operator==</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a379d98c2c6ae1962fc2089b599fc48df">operator&gt;</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#a5160d78b6f8e8269aacac56fb50346df">operator&gt;</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#aaf88d0c6bfb21b64dcec572fd4691cd7">operator&gt;=</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d38/a00928.php#ac4dcbd6c3961244afb7bbcb90c5b01da">operator&gt;=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d38/a00928.php#abf0eeef8a5b118feaad630e084c15d8e">~Fraction</a>()</td><td class="entry"><a class="el" href="../../dd/d38/a00928.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to use the <a class="el" href="../../dc/d36/a00925.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption.  
+ <a href="../../dc/d36/a00925.php#details">More...</a></p>
+
+<p><code>#include &lt;cryptage.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::RSA:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/d62/a00924.png" border="0" usemap="#mcd_1_1RSA_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1RSA_inherit__map" id="mcd_1_1RSA_inherit__map">
+<area shape="rect" id="node2" href="../../de/dc3/a00909.php" title="A class to be the parent for every crypt class. " alt="" coords="23,80,118,107"/>
+<area shape="rect" id="node3" href="../../dd/d24/a00981.php" title="A class to let some other not to be copyable. " alt="" coords="5,5,136,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::RSA:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/de9/a00923.png" border="0" usemap="#mcd_1_1RSA_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1RSA_coll__map" id="mcd_1_1RSA_coll__map">
+<area shape="rect" id="node2" href="../../de/dc3/a00909.php" title="A class to be the parent for every crypt class. " alt="" coords="34,96,129,123"/>
+<area shape="rect" id="node3" href="../../dd/d24/a00981.php" title="A class to let some other not to be copyable. " alt="" coords="5,13,136,39"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="173,96,253,123"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="161,5,287,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a022907735103df44ce25774a289cede1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d36/a00925.php#a022907735103df44ce25774a289cede1">RSA</a> ()</td></tr>
+<tr class="separator:a022907735103df44ce25774a289cede1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d09972656fd75b2377a173a30692db6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d36/a00925.php#a9d09972656fd75b2377a173a30692db6">~RSA</a> ()</td></tr>
+<tr class="separator:a9d09972656fd75b2377a173a30692db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fdf2f24700983208b6bfab8df8ef911"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d36/a00925.php#a7fdf2f24700983208b6bfab8df8ef911">getPublic</a> () const</td></tr>
+<tr class="memdesc:a7fdf2f24700983208b6bfab8df8ef911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the public key.  <a href="#a7fdf2f24700983208b6bfab8df8ef911">More...</a><br /></td></tr>
+<tr class="separator:a7fdf2f24700983208b6bfab8df8ef911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac38c1c5dff307a8dd9ce9c00b8df8b87"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d36/a00925.php#ac38c1c5dff307a8dd9ce9c00b8df8b87">getPrivate</a> () const</td></tr>
+<tr class="memdesc:ac38c1c5dff307a8dd9ce9c00b8df8b87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the private key.  <a href="#ac38c1c5dff307a8dd9ce9c00b8df8b87">More...</a><br /></td></tr>
+<tr class="separator:ac38c1c5dff307a8dd9ce9c00b8df8b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fcb230195d7b3fb73b8f62488dcc2e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d36/a00925.php#a4fcb230195d7b3fb73b8f62488dcc2e5">setPublic</a> (const std::string &amp;key=&quot;&quot;)</td></tr>
+<tr class="memdesc:a4fcb230195d7b3fb73b8f62488dcc2e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the public key.  <a href="#a4fcb230195d7b3fb73b8f62488dcc2e5">More...</a><br /></td></tr>
+<tr class="separator:a4fcb230195d7b3fb73b8f62488dcc2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9cb76b3198a8127bc0c771e3eb70b2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d36/a00925.php#aa9cb76b3198a8127bc0c771e3eb70b2d">setPrivate</a> (const std::string &amp;key=&quot;&quot;)</td></tr>
+<tr class="memdesc:aa9cb76b3198a8127bc0c771e3eb70b2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the private key.  <a href="#aa9cb76b3198a8127bc0c771e3eb70b2d">More...</a><br /></td></tr>
+<tr class="separator:aa9cb76b3198a8127bc0c771e3eb70b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad080bbc2c65c9690f38fa376ca65a985"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d36/a00925.php#ad080bbc2c65c9690f38fa376ca65a985">crypt</a> (const std::string &amp;message) override</td></tr>
+<tr class="memdesc:ad080bbc2c65c9690f38fa376ca65a985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the crypt <a class="el" href="../../de/dc3/a00909.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method.  <a href="#ad080bbc2c65c9690f38fa376ca65a985">More...</a><br /></td></tr>
+<tr class="separator:ad080bbc2c65c9690f38fa376ca65a985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad831bd26ceeff7ad460bcabcad213155"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d36/a00925.php#ad831bd26ceeff7ad460bcabcad213155">decrypt</a> (const std::string &amp;message) override</td></tr>
+<tr class="memdesc:ad831bd26ceeff7ad460bcabcad213155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the decrypt <a class="el" href="../../de/dc3/a00909.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method.  <a href="#ad831bd26ceeff7ad460bcabcad213155">More...</a><br /></td></tr>
+<tr class="separator:ad831bd26ceeff7ad460bcabcad213155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00909"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00909')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../de/dc3/a00909.php">mcd::Crypto</a></td></tr>
+<tr class="memitem:a3f598383428868a9f69502e5de031ea5 inherit pub_methods_a00909"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc3/a00909.php#a3f598383428868a9f69502e5de031ea5">Crypto</a> ()</td></tr>
+<tr class="separator:a3f598383428868a9f69502e5de031ea5 inherit pub_methods_a00909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16276f74e2eac6b2174d06361791f056 inherit pub_methods_a00909"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc3/a00909.php#a16276f74e2eac6b2174d06361791f056">~Crypto</a> ()</td></tr>
+<tr class="separator:a16276f74e2eac6b2174d06361791f056 inherit pub_methods_a00909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00981"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00981')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../dd/d24/a00981.php">mcd::NotCopyable</a></td></tr>
+<tr class="memitem:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a00981"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d24/a00981.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a> ()</td></tr>
+<tr class="memdesc:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a00981"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../dd/d24/a00981.php#aa40da048522b578e9c2cc9f73c1a0d92">More...</a><br /></td></tr>
+<tr class="separator:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a00981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5efcd02383468e37e9c960f3d6f9d14c inherit pub_methods_a00981"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d24/a00981.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a> ()</td></tr>
+<tr class="separator:a5efcd02383468e37e9c960f3d6f9d14c inherit pub_methods_a00981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ae37f658e3ba447726e0a0abd0f1ac5c8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d36/a00925.php#ae37f658e3ba447726e0a0abd0f1ac5c8">publicK</a></td></tr>
+<tr class="separator:ae37f658e3ba447726e0a0abd0f1ac5c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41496cdf1557d2e3dda4d0f414738af5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d36/a00925.php#a41496cdf1557d2e3dda4d0f414738af5">privateK</a></td></tr>
+<tr class="separator:a41496cdf1557d2e3dda4d0f414738af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to use the <a class="el" href="../../dc/d36/a00925.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption. </p>
+<dl class="todo"><dt><b><a class="el" href="../../dc/d9a/a00218.php#_todo000002">Todo:</a></b></dt><dd>Create the class </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a022907735103df44ce25774a289cede1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a022907735103df44ce25774a289cede1">&#9670;&nbsp;</a></span>RSA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::RSA::RSA </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d09972656fd75b2377a173a30692db6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d09972656fd75b2377a173a30692db6">&#9670;&nbsp;</a></span>~RSA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::RSA::~RSA </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/d36/a00925_a9d09972656fd75b2377a173a30692db6_cgraph.png" border="0" usemap="#dc/d36/a00925_a9d09972656fd75b2377a173a30692db6_cgraph" alt=""/></div>
+<map name="dc/d36/a00925_a9d09972656fd75b2377a173a30692db6_cgraph" id="dc/d36/a00925_a9d09972656fd75b2377a173a30692db6_cgraph">
+<area shape="rect" id="node2" href="../../de/dc3/a00909.php#a2949148382033667a765326066311f21" title="mcd::Crypto::crypt" alt="" coords="187,5,318,32"/>
+<area shape="rect" id="node3" href="../../de/dc3/a00909.php#a4d131065e81529530b7907ba397af30d" title="mcd::Crypto::decrypt" alt="" coords="180,56,325,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad080bbc2c65c9690f38fa376ca65a985"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad080bbc2c65c9690f38fa376ca65a985">&#9670;&nbsp;</a></span>crypt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string mcd::RSA::crypt </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overload of the crypt <a class="el" href="../../de/dc3/a00909.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">message</td><td>The message to encrypt</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the encrypted message </dd></dl>
+
+<p>Implements <a class="el" href="../../de/dc3/a00909.php#a2949148382033667a765326066311f21">mcd::Crypto</a>.</p>
+
+</div>
+</div>
+<a id="ad831bd26ceeff7ad460bcabcad213155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad831bd26ceeff7ad460bcabcad213155">&#9670;&nbsp;</a></span>decrypt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string mcd::RSA::decrypt </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overload of the decrypt <a class="el" href="../../de/dc3/a00909.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">message</td><td>The message to decrypt</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the decrypted message </dd></dl>
+
+<p>Implements <a class="el" href="../../de/dc3/a00909.php#a4d131065e81529530b7907ba397af30d">mcd::Crypto</a>.</p>
+
+</div>
+</div>
+<a id="ac38c1c5dff307a8dd9ce9c00b8df8b87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac38c1c5dff307a8dd9ce9c00b8df8b87">&#9670;&nbsp;</a></span>getPrivate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mcd::RSA::getPrivate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the private key. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return the private key of the object </dd></dl>
+
+</div>
+</div>
+<a id="a7fdf2f24700983208b6bfab8df8ef911"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fdf2f24700983208b6bfab8df8ef911">&#9670;&nbsp;</a></span>getPublic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mcd::RSA::getPublic </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the public key. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return the public key of the object </dd></dl>
+
+</div>
+</div>
+<a id="aa9cb76b3198a8127bc0c771e3eb70b2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9cb76b3198a8127bc0c771e3eb70b2d">&#9670;&nbsp;</a></span>setPrivate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::RSA::setPrivate </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em> = <code>&quot;&quot;</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the private key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The key</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a4fcb230195d7b3fb73b8f62488dcc2e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fcb230195d7b3fb73b8f62488dcc2e5">&#9670;&nbsp;</a></span>setPublic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::RSA::setPublic </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em> = <code>&quot;&quot;</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the public key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The key</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a41496cdf1557d2e3dda4d0f414738af5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41496cdf1557d2e3dda4d0f414738af5">&#9670;&nbsp;</a></span>privateK</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mcd::RSA::privateK</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae37f658e3ba447726e0a0abd0f1ac5c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae37f658e3ba447726e0a0abd0f1ac5c8">&#9670;&nbsp;</a></span>publicK</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mcd::RSA::publicK</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../df/d03/a00062.php">cryptage.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../d5/d0b/a00220.php">mcd</a></li><li class="navelem"><a class="el" href="../../dc/d36/a00925.php">RSA</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

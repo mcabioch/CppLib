@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::NotInstantiable Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Sun Sep 29 2019 11:39:30 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d6/d48/a00988.php','../../');});
+$(document).ready(function(){initNavTree('da/deb/a00985.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,31 +89,128 @@ $(document).ready(function(){initNavTree('d6/d48/a00988.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d1/d7a/a00982.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::PathfindingException Member List</div>  </div>
+<div class="title">mcd::NotInstantiable Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d6/d48/a00988.php">mcd::PathfindingException</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d48/a00988.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814">ARRIVED</a> enum value</td><td class="entry"><a class="el" href="../../d6/d48/a00988.php">mcd::PathfindingException</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d48/a00988.php#a9fcff7a44db764decbb680479144b97b">Arrived</a>()</td><td class="entry"><a class="el" href="../../d6/d48/a00988.php">mcd::PathfindingException</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d48/a00988.php#a922e8cbd5025f4f17e45889055df165c">getErrorCode</a>() const</td><td class="entry"><a class="el" href="../../d6/d48/a00988.php">mcd::PathfindingException</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d48/a00988.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995">LOST</a> enum value</td><td class="entry"><a class="el" href="../../d6/d48/a00988.php">mcd::PathfindingException</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d48/a00988.php#a933816a487769eec830729b051d0fbcd">Lost</a>()</td><td class="entry"><a class="el" href="../../d6/d48/a00988.php">mcd::PathfindingException</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d48/a00988.php#a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d">NONE</a> enum value</td><td class="entry"><a class="el" href="../../d6/d48/a00988.php">mcd::PathfindingException</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d48/a00988.php#a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982">OTHER</a> enum value</td><td class="entry"><a class="el" href="../../d6/d48/a00988.php">mcd::PathfindingException</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d48/a00988.php#a699cc4df8cc94d467e7372072d230b58">PathfindingErrorCode</a> enum name</td><td class="entry"><a class="el" href="../../d6/d48/a00988.php">mcd::PathfindingException</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d48/a00988.php#ac73bb217b98d679eaab9fe9fe4e5c9b0">PathfindingException</a>(PathfindingErrorCode error=PathfindingErrorCode::NONE, const std::string &amp;explaination=&quot;&quot;)</td><td class="entry"><a class="el" href="../../d6/d48/a00988.php">mcd::PathfindingException</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d48/a00988.php#a71da44443282ca94d2c9e10a9be0dafc">PathfindingException</a>(const PathfindingException &amp;other)</td><td class="entry"><a class="el" href="../../d6/d48/a00988.php">mcd::PathfindingException</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d48/a00988.php#a92a9aea3e0fc189dc0c17a78ffa68bdf">what</a>() const</td><td class="entry"><a class="el" href="../../d6/d48/a00988.php">mcd::PathfindingException</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d48/a00988.php#a22d196716aa61adb8fa0e0d48320c9ab">~PathfindingException</a>()</td><td class="entry"><a class="el" href="../../d6/d48/a00988.php">mcd::PathfindingException</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>Let a class being only an abstract class.  
+ <a href="../../da/deb/a00985.php#details">More...</a></p>
+
+<p><code>#include &lt;NotInstantiable.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a760ca4c32c24cf2b4c4c2ef07b51f997"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/a00985.php#a760ca4c32c24cf2b4c4c2ef07b51f997">NotInstantiable</a> ()</td></tr>
+<tr class="memdesc:a760ca4c32c24cf2b4c4c2ef07b51f997"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a760ca4c32c24cf2b4c4c2ef07b51f997">More...</a><br /></td></tr>
+<tr class="separator:a760ca4c32c24cf2b4c4c2ef07b51f997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a096b44b3d9fe8e567b179ac3d3dbacff"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/a00985.php#a096b44b3d9fe8e567b179ac3d3dbacff">~NotInstantiable</a> ()</td></tr>
+<tr class="separator:a096b44b3d9fe8e567b179ac3d3dbacff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19c59f78b217426061641970c9f11022"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/a00985.php#a19c59f78b217426061641970c9f11022">notInstantiable</a> () final=0</td></tr>
+<tr class="separator:a19c59f78b217426061641970c9f11022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Let a class being only an abstract class. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a760ca4c32c24cf2b4c4c2ef07b51f997"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a760ca4c32c24cf2b4c4c2ef07b51f997">&#9670;&nbsp;</a></span>NotInstantiable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::NotInstantiable::NotInstantiable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+
+</div>
+</div>
+<a id="a096b44b3d9fe8e567b179ac3d3dbacff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a096b44b3d9fe8e567b179ac3d3dbacff">&#9670;&nbsp;</a></span>~NotInstantiable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::NotInstantiable::~NotInstantiable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/deb/a00985_a096b44b3d9fe8e567b179ac3d3dbacff_cgraph.png" border="0" usemap="#da/deb/a00985_a096b44b3d9fe8e567b179ac3d3dbacff_cgraph" alt=""/></div>
+<map name="da/deb/a00985_a096b44b3d9fe8e567b179ac3d3dbacff_cgraph" id="da/deb/a00985_a096b44b3d9fe8e567b179ac3d3dbacff_cgraph">
+<area shape="rect" id="node2" href="../../da/deb/a00985.php#a19c59f78b217426061641970c9f11022" title="mcd::NotInstantiable\l::notInstantiable" alt="" coords="196,5,339,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a19c59f78b217426061641970c9f11022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19c59f78b217426061641970c9f11022">&#9670;&nbsp;</a></span>notInstantiable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void mcd::NotInstantiable::notInstantiable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d7/d06/a00131.php">NotInstantiable.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../d5/d0b/a00220.php">mcd</a></li><li class="navelem"><a class="el" href="../../da/deb/a00985.php">NotInstantiable</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

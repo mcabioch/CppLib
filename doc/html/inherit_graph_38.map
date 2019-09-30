@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d7/df7/a01074.php" title="A struct to define a point in space. " alt="" coords="5,5,91,32"/>
+<area shape="rect" id="node1" href="$d5/da3/a00953.php" title="A class to store some identify datas. " alt="" coords="177,5,283,32"/>
+<area shape="rect" id="node2" href="$d5/dfb/a01021.php" title="A player that can be a child from any class. " alt="" coords="357,35,548,61"/>
+<area shape="rect" id="node4" href="$db/d23/a01025.php" title="A player that can be a child from any class. " alt="" coords="151,57,309,98"/>
 </map>

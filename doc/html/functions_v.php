@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 11:22:31 for C++ by";
+				$text = "Generated on Sun Sep 29 2019 11:39:30 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,31 +93,31 @@ $(document).ready(function(){initNavTree('functions_v.php','');});
 
 <h3><a id="index_v"></a>- v -</h3><ul>
 <li>value
-: <a class="el" href="dc/d0a/a00850.php#a4ea6d2bc4fe8e15561698f6ea66d021b">mcd::Check::has_istream_operator&lt; T &gt;</a>
-, <a class="el" href="d0/d11/a00842.php#ad1cf88abd079ce2df64d1d4f8e256a8a">mcd::Check::has_ostream_operator&lt; T &gt;</a>
-, <a class="el" href="d2/dc7/a00838.php#a08b55ec77a90295c1e84f63021bc89a2">mcd::Check::has_size_method&lt; T &gt;</a>
-, <a class="el" href="d0/dad/a00806.php#a0158c050746b586a1c8e800a68968879">mcd::Check::is_array&lt; T &gt;</a>
-, <a class="el" href="d9/d02/a00834.php#a344818944230a22a8c7988dd3ba8e2f9">mcd::Check::is_duration&lt; T &gt;</a>
-, <a class="el" href="d1/dd8/a01022.php#a76170894810e15b11dafb7f34965aef4">mcd::Check::is_minded_ptr&lt; T &gt;</a>
-, <a class="el" href="dc/d41/a00862.php#aba4751c5acee27e01be8c2b8abc0888b">mcd::Check::is_object&lt; T &gt;</a>
-, <a class="el" href="da/d71/a00814.php#ac3fa87bfb2551b3a98cac89a0c39b2ba">mcd::Check::is_pair&lt; T &gt;</a>
-, <a class="el" href="d0/d66/a00858.php#ae62c92a381f9915ca93aeb48aadeeebc">mcd::Check::is_printable&lt; T &gt;</a>
-, <a class="el" href="d6/da7/a00822.php#a89743328c29104ad4f66261b0ba77611">mcd::Check::is_quatuor&lt; T &gt;</a>
-, <a class="el" href="d9/daf/a00830.php#a573e824f7b1584fa564c91c1e5814453">mcd::Check::is_smatch&lt; T &gt;</a>
-, <a class="el" href="dd/db2/a00866.php#a9347b60a434f2cfd40453cc7856c3918">mcd::Check::is_special_struct&lt; T &gt;</a>
-, <a class="el" href="da/d90/a00826.php#af2c46fb3d97ce2190260c2ddcb2d33d4">mcd::Check::is_string&lt; T &gt;</a>
-, <a class="el" href="de/d02/a01026.php#aeaf71256c26f5b5be4a5e5db9035500b">mcd::Check::is_thread_ptr&lt; T &gt;</a>
-, <a class="el" href="d3/d60/a00818.php#a35b153eb448f4f520fbab10d63317262">mcd::Check::is_trio&lt; T &gt;</a>
-, <a class="el" href="d4/dfd/a00810.php#ab81fa142d6e7d3c98a4dae1f0ca3dfd5">mcd::Check::is_vector&lt; T &gt;</a>
+: <a class="el" href="db/deb/a00853.php#a4ea6d2bc4fe8e15561698f6ea66d021b">mcd::Check::has_istream_operator&lt; T &gt;</a>
+, <a class="el" href="d7/dcf/a00845.php#ad1cf88abd079ce2df64d1d4f8e256a8a">mcd::Check::has_ostream_operator&lt; T &gt;</a>
+, <a class="el" href="d5/dac/a00841.php#a08b55ec77a90295c1e84f63021bc89a2">mcd::Check::has_size_method&lt; T &gt;</a>
+, <a class="el" href="dd/d7e/a00809.php#a0158c050746b586a1c8e800a68968879">mcd::Check::is_array&lt; T &gt;</a>
+, <a class="el" href="d1/de6/a00837.php#a344818944230a22a8c7988dd3ba8e2f9">mcd::Check::is_duration&lt; T &gt;</a>
+, <a class="el" href="d0/daa/a01029.php#a76170894810e15b11dafb7f34965aef4">mcd::Check::is_minded_ptr&lt; T &gt;</a>
+, <a class="el" href="dd/d7b/a00865.php#aba4751c5acee27e01be8c2b8abc0888b">mcd::Check::is_object&lt; T &gt;</a>
+, <a class="el" href="dc/d5e/a00817.php#ac3fa87bfb2551b3a98cac89a0c39b2ba">mcd::Check::is_pair&lt; T &gt;</a>
+, <a class="el" href="dd/dd5/a00861.php#ae62c92a381f9915ca93aeb48aadeeebc">mcd::Check::is_printable&lt; T &gt;</a>
+, <a class="el" href="dd/d5f/a00825.php#a89743328c29104ad4f66261b0ba77611">mcd::Check::is_quatuor&lt; T &gt;</a>
+, <a class="el" href="dc/d6e/a00833.php#a573e824f7b1584fa564c91c1e5814453">mcd::Check::is_smatch&lt; T &gt;</a>
+, <a class="el" href="d3/db2/a00869.php#a9347b60a434f2cfd40453cc7856c3918">mcd::Check::is_special_struct&lt; T &gt;</a>
+, <a class="el" href="d1/dea/a00829.php#af2c46fb3d97ce2190260c2ddcb2d33d4">mcd::Check::is_string&lt; T &gt;</a>
+, <a class="el" href="d2/d57/a01033.php#aeaf71256c26f5b5be4a5e5db9035500b">mcd::Check::is_thread_ptr&lt; T &gt;</a>
+, <a class="el" href="d6/d8b/a00821.php#a35b153eb448f4f520fbab10d63317262">mcd::Check::is_trio&lt; T &gt;</a>
+, <a class="el" href="de/d9d/a00813.php#ab81fa142d6e7d3c98a4dae1f0ca3dfd5">mcd::Check::is_vector&lt; T &gt;</a>
 </li>
 <li>values
-: <a class="el" href="df/d24/a00217.php#a56cd61aea5d46ecf42aa3959086b7d96">mcd::Node&lt; T &gt;</a>
+: <a class="el" href="d5/d0b/a00220.php#a56cd61aea5d46ecf42aa3959086b7d96">mcd::Node&lt; T &gt;</a>
 </li>
 <li>vector()
-: <a class="el" href="db/dba/a01078.php#aea718ab247c60108c5dd591905174a95">mcd::vector&lt; C &gt;</a>
+: <a class="el" href="d2/df3/a01085.php#aea718ab247c60108c5dd591905174a95">mcd::vector&lt; C &gt;</a>
 </li>
 <li>Vegetal()
-: <a class="el" href="dd/df1/a01082.php#a092e520f079ed706c3ac50e667653a0e">mcd::Vegetal</a>
+: <a class="el" href="d3/dc4/a01089.php#a092e520f079ed706c3ac50e667653a0e">mcd::Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

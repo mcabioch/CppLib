@@ -1,3 +1,5 @@
-<map id="mcd::PureVirtual" name="mcd::PureVirtual">
-<area shape="rect" id="node2" href="$dc/d17/a00872.php" title="A class to play with the cursor in the console. " alt="" coords="5,80,148,107"/>
+<map id="mcd::Plant" name="mcd::Plant">
+<area shape="rect" id="node2" href="$d3/dc4/a01089.php" title="A vegetal. " alt="" coords="17,155,116,181"/>
+<area shape="rect" id="node3" href="$d6/dad/a00941.php" title="An entity. " alt="" coords="22,80,111,107"/>
+<area shape="rect" id="node4" href="$da/d5b/a00905.php" title="A contraption. " alt="" coords="5,5,128,32"/>
 </map>

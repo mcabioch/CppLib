@@ -1,29 +1,7 @@
 var a00909 =
 [
-    [ "Entity", "de/dc3/a00909.php#a5b9f9a89a85d2c396e5556ad468131fa", null ],
-    [ "~Entity", "de/dc3/a00909.php#a0b92a99013b871922ff61e0e4eccb4a5", null ],
-    [ "getAge", "de/dc3/a00909.php#adc41605613a8d9420f9e9b7d5d1693c9", null ],
-    [ "getDamages", "de/dc3/a00909.php#a7bf4a1bb07d7a688bd2ea4c446aa6070", null ],
-    [ "getLife", "de/dc3/a00909.php#a90c6ecc6d1eb5f75555d350061e45851", null ],
-    [ "getLifeMax", "de/dc3/a00909.php#adbc4c4d4900f96af54a931cedf1d4c7b", null ],
-    [ "getReborn", "de/dc3/a00909.php#ad15b39d3c89a220d3a612bf7bcc8e3a9", null ],
-    [ "getRegen", "de/dc3/a00909.php#a89b212594457755f67a4cb98f8c1218b", null ],
-    [ "getResistance", "de/dc3/a00909.php#af381c01c6bea9908472377489ad6b4c0", null ],
-    [ "getTimeActReborn", "de/dc3/a00909.php#abca030f9d81cbba5aa08ac6c55aaf06b", null ],
-    [ "getTimeActRegen", "de/dc3/a00909.php#acf9d27e7d1cb3d983f407905e95bcc43", null ],
-    [ "getTimePrecReborn", "de/dc3/a00909.php#a88b90ea88f999bc11a2e07fdf1de1020", null ],
-    [ "getTimePrecRegen", "de/dc3/a00909.php#a5ad008ea31a40fad735680b4bdfb249e", null ],
-    [ "grow", "de/dc3/a00909.php#a4cae69f657ab66bdcc7b78accbb836a9", null ],
-    [ "hit", "de/dc3/a00909.php#a8022eec71c62bbc06651cf7607d3824a", null ],
-    [ "printInfos", "de/dc3/a00909.php#a76cee6abf0facaffdca9b893634578dd", null ],
-    [ "setAge", "de/dc3/a00909.php#ac84c283da82f389088715485d2fc57d1", null ],
-    [ "setDamages", "de/dc3/a00909.php#a4eac4847127344d9d2feb09176e2950c", null ],
-    [ "setLife", "de/dc3/a00909.php#afbdb1bf0f0dfd91f0217c88b08d94535", null ],
-    [ "setReborn", "de/dc3/a00909.php#abbd3e759ad9df66ce4f004a32066a941", null ],
-    [ "setRegen", "de/dc3/a00909.php#a45870e9b434c8b35a8181675cde66055", null ],
-    [ "setResistance", "de/dc3/a00909.php#a34dec699e223f0bb8b8e3dc044828bec", null ],
-    [ "setTimeActReborn", "de/dc3/a00909.php#a71ddff3d4384ed0528fad59c64c007e7", null ],
-    [ "setTimeActRegen", "de/dc3/a00909.php#ac79b1837862d7a98130ce020023445fa", null ],
-    [ "setTimePrecReborn", "de/dc3/a00909.php#a85f16baaef599076976b034d31ac7fec", null ],
-    [ "setTimePrecRegen", "de/dc3/a00909.php#a5d8126cf2cf5f72e8a58f1e97071806f", null ]
+    [ "Crypto", "de/dc3/a00909.php#a3f598383428868a9f69502e5de031ea5", null ],
+    [ "~Crypto", "de/dc3/a00909.php#a16276f74e2eac6b2174d06361791f056", null ],
+    [ "crypt", "de/dc3/a00909.php#a2949148382033667a765326066311f21", null ],
+    [ "decrypt", "de/dc3/a00909.php#a4d131065e81529530b7907ba397af30d", null ]
 ];

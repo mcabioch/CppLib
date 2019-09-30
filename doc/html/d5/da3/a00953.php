@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Identifier Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Sun Sep 29 2019 11:39:30 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d3/de5/a00956.php','../../');});
+$(document).ready(function(){initNavTree('d5/da3/a00953.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,61 +89,382 @@ $(document).ready(function(){initNavTree('d3/de5/a00956.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="../../df/d39/a00950.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Matrix&lt; C &gt; Member List</div>  </div>
+<div class="title">mcd::Identifier Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#ace95025dd985ddaa6c1ed72e8b464a0a">det</a>()</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#ae6b6255f5d5cd9a1684fcdb927978c18">enabled</a>() const</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a5e13250be50a80b7e8cab73a741b9fd5">GaussJordan</a>(Matrix&lt; D &gt; M, Matrix&lt; D &gt; &amp;I, size_t i, size_t j)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#aac5e5ab03fe97f3deb3f56b34b638638">getIdentity</a>()</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a9823b15f6575c9007b734e505ea772b5">i</a>() const</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#af0390771523fc535079faa2a7b7c29ce">inverted</a>()</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a3885a9068844517cbbd58cfed57eb5c4">isSquare</a>() const</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#adc00ecac929d1e153082d6a61879d4e2">j</a>() const</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a222bcb9024bd8d24b105f9d6be5dd391">Matrix</a>()</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a4f2cef0c1ab7ebbbecbe0dc22de5eeeb">Matrix</a>(const std::vector&lt; std::vector&lt; C &gt;&gt; &amp;datas)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a5cfebad51878a28020f44f6aacc6f29a">Matrix</a>(std::array&lt; std::array&lt; C, M &gt;, N &gt; &amp;datas)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a8919e7b6753c1f480d89106a0e993d57">Matrix</a>()</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a13b069e43b69c428da1868baa888f8a7">Matrix</a>(const std::vector&lt; std::vector&lt; C &gt;&gt; &amp;datas)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a5cfebad51878a28020f44f6aacc6f29a">Matrix</a>(std::array&lt; std::array&lt; C, M &gt;, N &gt; &amp;datas)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a895533c348847ed307cafe3d85c8ebf9">operator()</a>(size_t i, size_t j) const</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#ab2e5889d3ce0c0a97ec6f7c35b424f23">operator()</a>(size_t i, size_t j)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a61b1b866f822f492dd94f0178de09f0e">operator*</a>(const D &amp;a)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a37a33064fb7f3599b1e3127d13cd87f9">operator*</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#ab1a6b452f2b1878dbe72e1825f8dca12">operator*</a>(const D &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a37a33064fb7f3599b1e3127d13cd87f9">operator*</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a309672571879a0b44bf9c91b26b51a21">operator*=</a>(const D &amp;a)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a035e71a534c66ed739cdafccb5abc09b">operator*=</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a743ecbf9bc1defaa0d556a84f328906b">operator*=</a>(const D &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a035e71a534c66ed739cdafccb5abc09b">operator*=</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#ac2adb934f2c26b12d6b5f5981c0e4d7a">operator+</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#ac2adb934f2c26b12d6b5f5981c0e4d7a">operator+</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#ab65365129992bf5a53b62e3bd3955135">operator+=</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#ab65365129992bf5a53b62e3bd3955135">operator+=</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a0e53fd790079347de2d5d5e132a4c37b">operator-</a>()</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a3dc00dacaac8d2884d41d0f1057a098b">operator-</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#acff8e20e80d55f14e4ef611dc1c9b8ce">operator-</a>()</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a3dc00dacaac8d2884d41d0f1057a098b">operator-</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a8c4a74722881f5fdb1a1135b36808f47">operator-=</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a8c4a74722881f5fdb1a1135b36808f47">operator-=</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#aead70f5313e4a9a9c39321d41c2c3d10">operator/</a>(const D &amp;a)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a116e84cdee4fae72b8cdaabcc4f749ad">operator/</a>(const D &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a8f1be652fdf748cc826d30cbb96745f0">operator/=</a>(const D &amp;a)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#ad60adce66964625f49ed954456ef08af">operator/=</a>(const D &amp;A)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a9a3710d279e209fbff51b625690ef630">operator&lt;&lt;</a>(std::ostream &amp;os, const Matrix&lt; D &gt; &amp;M)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#adbfa246182cc089300f95cf1610a99ef">tos</a>(T value)</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a942e3d418da2bacad3193d82411e2cfc">transposed</a>()</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/de5/a00956.php#a87e5bc598036e554e7fac18328bbb47b">~Matrix</a>()</td><td class="entry"><a class="el" href="../../d3/de5/a00956.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to store some identify datas.  
+ <a href="../../d5/da3/a00953.php#details">More...</a></p>
+
+<p><code>#include &lt;Identifier.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::Identifier:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/d49/a00952.png" border="0" usemap="#mcd_1_1Identifier_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1Identifier_inherit__map" id="mcd_1_1Identifier_inherit__map">
+<area shape="rect" id="node2" href="../../d5/dfb/a01021.php" title="A player that can be a child from any class. " alt="" coords="5,80,196,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::Identifier:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/da0/a00951.png" border="0" usemap="#mcd_1_1Identifier_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1Identifier_coll__map" id="mcd_1_1Identifier_coll__map">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="29,96,109,123"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="5,5,132,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a1496891d2323d1023ebfd086b84faf8d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.php#a1496891d2323d1023ebfd086b84faf8d">Identifier</a> ()</td></tr>
+<tr class="separator:a1496891d2323d1023ebfd086b84faf8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87dbdb0f9b391d6a78d61463e8823628"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.php#a87dbdb0f9b391d6a78d61463e8823628">~Identifier</a> ()</td></tr>
+<tr class="separator:a87dbdb0f9b391d6a78d61463e8823628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7487ac9cac4531aad529994927c0e69f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.php#a7487ac9cac4531aad529994927c0e69f">setUsername</a> (const std::string &amp;username)</td></tr>
+<tr class="memdesc:a7487ac9cac4531aad529994927c0e69f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d5/dfb/a01021.php" title="A player that can be a child from any class. ">Player</a>'s username.  <a href="#a7487ac9cac4531aad529994927c0e69f">More...</a><br /></td></tr>
+<tr class="separator:a7487ac9cac4531aad529994927c0e69f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b0a0e637d443935ae770bf90b652dea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.php#a5b0a0e637d443935ae770bf90b652dea">setPassword</a> (const std::string &amp;password)</td></tr>
+<tr class="memdesc:a5b0a0e637d443935ae770bf90b652dea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d5/dfb/a01021.php" title="A player that can be a child from any class. ">Player</a>'s password.  <a href="#a5b0a0e637d443935ae770bf90b652dea">More...</a><br /></td></tr>
+<tr class="separator:a5b0a0e637d443935ae770bf90b652dea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a593e0be0e4c8e17b22507e7f7d933ded"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.php#a593e0be0e4c8e17b22507e7f7d933ded">setId</a> (size_t id)</td></tr>
+<tr class="memdesc:a593e0be0e4c8e17b22507e7f7d933ded"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d5/dfb/a01021.php" title="A player that can be a child from any class. ">Player</a>'s id.  <a href="#a593e0be0e4c8e17b22507e7f7d933ded">More...</a><br /></td></tr>
+<tr class="separator:a593e0be0e4c8e17b22507e7f7d933ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6108c8a63af7595ff4d9a4f2ad868b1e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.php#a6108c8a63af7595ff4d9a4f2ad868b1e">getUsername</a> () const</td></tr>
+<tr class="separator:a6108c8a63af7595ff4d9a4f2ad868b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dcb443f68200102b855f77878754af9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.php#a0dcb443f68200102b855f77878754af9">getPassword</a> () const</td></tr>
+<tr class="separator:a0dcb443f68200102b855f77878754af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc0c02ec636a63cf2086e6e98f194b63"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.php#abc0c02ec636a63cf2086e6e98f194b63">getId</a> () const</td></tr>
+<tr class="separator:abc0c02ec636a63cf2086e6e98f194b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a4a002c57b507ef0c744135eacfb82b6f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.php#a4a002c57b507ef0c744135eacfb82b6f">_username</a></td></tr>
+<tr class="separator:a4a002c57b507ef0c744135eacfb82b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95d479399de1b046aff00e83210b67ea"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.php#a95d479399de1b046aff00e83210b67ea">_password</a></td></tr>
+<tr class="separator:a95d479399de1b046aff00e83210b67ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6920412818f4d8a4478771fb767a2d07"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.php#a6920412818f4d8a4478771fb767a2d07">_id</a></td></tr>
+<tr class="separator:a6920412818f4d8a4478771fb767a2d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to store some identify datas. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a1496891d2323d1023ebfd086b84faf8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1496891d2323d1023ebfd086b84faf8d">&#9670;&nbsp;</a></span>Identifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Identifier::Identifier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87dbdb0f9b391d6a78d61463e8823628"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87dbdb0f9b391d6a78d61463e8823628">&#9670;&nbsp;</a></span>~Identifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::Identifier::~Identifier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="abc0c02ec636a63cf2086e6e98f194b63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc0c02ec636a63cf2086e6e98f194b63">&#9670;&nbsp;</a></span>getId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t mcd::Identifier::getId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Return the id </dd></dl>
+
+</div>
+</div>
+<a id="a0dcb443f68200102b855f77878754af9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dcb443f68200102b855f77878754af9">&#9670;&nbsp;</a></span>getPassword()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mcd::Identifier::getPassword </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Return the password </dd></dl>
+
+</div>
+</div>
+<a id="a6108c8a63af7595ff4d9a4f2ad868b1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6108c8a63af7595ff4d9a4f2ad868b1e">&#9670;&nbsp;</a></span>getUsername()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mcd::Identifier::getUsername </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Return the username </dd></dl>
+
+</div>
+</div>
+<a id="a593e0be0e4c8e17b22507e7f7d933ded"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a593e0be0e4c8e17b22507e7f7d933ded">&#9670;&nbsp;</a></span>setId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Identifier::setId </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the <a class="el" href="../../d5/dfb/a01021.php" title="A player that can be a child from any class. ">Player</a>'s id. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>The new id</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a5b0a0e637d443935ae770bf90b652dea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b0a0e637d443935ae770bf90b652dea">&#9670;&nbsp;</a></span>setPassword()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Identifier::setPassword </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>password</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the <a class="el" href="../../d5/dfb/a01021.php" title="A player that can be a child from any class. ">Player</a>'s password. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">password</td><td>The new password</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a7487ac9cac4531aad529994927c0e69f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7487ac9cac4531aad529994927c0e69f">&#9670;&nbsp;</a></span>setUsername()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Identifier::setUsername </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>username</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the <a class="el" href="../../d5/dfb/a01021.php" title="A player that can be a child from any class. ">Player</a>'s username. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">username</td><td>The new username</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6920412818f4d8a4478771fb767a2d07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6920412818f4d8a4478771fb767a2d07">&#9670;&nbsp;</a></span>_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t mcd::Identifier::_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a95d479399de1b046aff00e83210b67ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95d479399de1b046aff00e83210b67ea">&#9670;&nbsp;</a></span>_password</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mcd::Identifier::_password</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a002c57b507ef0c744135eacfb82b6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a002c57b507ef0c744135eacfb82b6f">&#9670;&nbsp;</a></span>_username</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mcd::Identifier::_username</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d1/dc1/a00092.php">Identifier.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../d5/d0b/a00220.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/da3/a00953.php">Identifier</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -1,6 +1,6 @@
 var a01005 =
 [
-    [ "Stone", "d7/d06/a01005.php#a0b078b3e2aea50454478300140675661", null ],
-    [ "~Stone", "d7/d06/a01005.php#aa34b6384ef8063fdf92582115c0765c1", null ],
-    [ "printInfos", "d7/d06/a01005.php#ad23699d742569bc0eb2e9724a37b6cdf", null ]
+    [ "PathfindingDijkstra", "d7/d06/a01005.php#a8e8246fb84c8dd3bf9e522f3fca7b39e", null ],
+    [ "~PathfindingDijkstra", "d7/d06/a01005.php#aae9b7cf4f57d826b9f7e65d9410b572e", null ],
+    [ "createPath", "d7/d06/a01005.php#a7b2872207d45871fcbcfa01e216090dd", null ]
 ];

@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Path Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Sun Sep 29 2019 11:39:30 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d7/df2/a01000.php','../../');});
+$(document).ready(function(){initNavTree('d0/d28/a00997.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,54 +89,332 @@ $(document).ready(function(){initNavTree('d7/df2/a01000.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="../../d4/dd0/a00994.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Player&lt; PlayerParent &gt; Member List</div>  </div>
+<div class="title">mcd::Path Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d7/df2/a01000.php">mcd::Player&lt; PlayerParent &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#ae561b7817c64610317799205afa306cd">_experience</a></td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#a3800d1590d75f762d41be6349556707d">_experienceMax</a></td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a6920412818f4d8a4478771fb767a2d07">_id</a></td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#abffa7d0ae3461370c932f0732367c93b">_init</a></td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#aee72e21c73d5bbf23c831514cd6cd58b">_losted</a></td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#ad9199142db686c7745b21429e7061823">_mail</a></td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a95d479399de1b046aff00e83210b67ea">_password</a></td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#a005074efa352510f2dc316404195946c">_paused</a></td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a4a002c57b507ef0c744135eacfb82b6f">_username</a></td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#af4b6c4845dcc12c9feed1910e7de9334">getExperience</a>() const</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#a3d9f0332994725fceb7f785fd83e1802">getExperienceMax</a>() const</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#abc0c02ec636a63cf2086e6e98f194b63">getId</a>() const</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#ada35a68939571761734d82bf83e6c634">getMail</a>() const</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a0dcb443f68200102b855f77878754af9">getPassword</a>() const</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a6108c8a63af7595ff4d9a4f2ad868b1e">getUsername</a>() const</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a1496891d2323d1023ebfd086b84faf8d">Identifier</a>()</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#abdb489c22b76cb09daefb8f05b2f515c">isInit</a>() const</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#ae441783e58a888696f8dc24f4cdfcce5">isLost</a>() const</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#a81a1ea7b3b306b10af787c353c92cc2e">isPaused</a>() const</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#a7582710c11a7b92d9912f414a5296975">lost</a>()</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#a57f10ce6fa33a36671c750dd68dc1a13">pause</a>()</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/df2/a01000.php#aa2e12089a072fbc695087df2b474af5c">Player</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d7/df2/a01000.php">mcd::Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#acd7472274e5fd10845893208d604617f">PlayerAbstraction</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/df2/a01000.php#ae0258dbfcdecaaa58390125aac118fe8">printInfos</a>(std::ostream &amp;stream) const override</td><td class="entry"><a class="el" href="../../d7/df2/a01000.php">mcd::Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#a4670bc4130ffbdd8fd198ab020a7ffe3">resume</a>()</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#ac4a98e2f186ed9702f90362a158a9f2f">retreive</a>()</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#a368cb45cbd8f4bcd470628f4d0783b07">setExperience</a>(const double64_t &amp;experience)</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#a7e2dc719465b4100436d08def34378f4">setExperienceMax</a>(const double64_t &amp;experienceMax)</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a593e0be0e4c8e17b22507e7f7d933ded">setId</a>(size_t id)</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dbc/a01004.php#ac6441d9b85821e4e20639fe5082795a5">setMail</a>(const std::string &amp;mail)</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a5b0a0e637d443935ae770bf90b652dea">setPassword</a>(const std::string &amp;password)</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a7487ac9cac4531aad529994927c0e69f">setUsername</a>(const std::string &amp;username)</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d2b/a00936.php#a87dbdb0f9b391d6a78d61463e8823628">~Identifier</a>()</td><td class="entry"><a class="el" href="../../dc/d2b/a00936.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/df2/a01000.php#a73fba351baf5641e985c76c0de4fe097">~Player</a>()</td><td class="entry"><a class="el" href="../../d7/df2/a01000.php">mcd::Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dbc/a01004.php#abde0c45c79e9cb030711f77d73fdc5a8">~PlayerAbstraction</a>()</td><td class="entry"><a class="el" href="../../df/dbc/a01004.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to manage a path computed by the map.  
+ <a href="../../d0/d28/a00997.php#details">More...</a></p>
+
+<p><code>#include &lt;Path.hpp&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for mcd::Path:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/d48/a00995.png" border="0" usemap="#mcd_1_1Path_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1Path_coll__map" id="mcd_1_1Path_coll__map">
+<area shape="rect" id="node2" href="../../da/d0a/a00993.php" title="A node for the path. " alt="" coords="5,5,156,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a19773c31a6467b9b61b440135863290e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d28/a00997.php#a19773c31a6467b9b61b440135863290e">Path</a> ()</td></tr>
+<tr class="memdesc:a19773c31a6467b9b61b440135863290e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a19773c31a6467b9b61b440135863290e">More...</a><br /></td></tr>
+<tr class="separator:a19773c31a6467b9b61b440135863290e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7ac83a2afcba63d1e8f17f314572a7f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d28/a00997.php#ae7ac83a2afcba63d1e8f17f314572a7f">~Path</a> ()</td></tr>
+<tr class="separator:ae7ac83a2afcba63d1e8f17f314572a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac24764eca1f5c6a54322d4a19d4ac68f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d28/a00997.php#ac24764eca1f5c6a54322d4a19d4ac68f">next</a> (<a class="el" href="../../da/d0a/a00993.php">PathfindingNode</a> &amp;node)</td></tr>
+<tr class="memdesc:ac24764eca1f5c6a54322d4a19d4ac68f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put the next node in <em>node</em>.  <a href="#ac24764eca1f5c6a54322d4a19d4ac68f">More...</a><br /></td></tr>
+<tr class="separator:ac24764eca1f5c6a54322d4a19d4ac68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7928f59acfc984899a12b52ab2e5ddca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d28/a00997.php#a7928f59acfc984899a12b52ab2e5ddca">hasNext</a> () const</td></tr>
+<tr class="memdesc:a7928f59acfc984899a12b52ab2e5ddca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <b>true</b> if the path has a next node.  <a href="#a7928f59acfc984899a12b52ab2e5ddca">More...</a><br /></td></tr>
+<tr class="separator:a7928f59acfc984899a12b52ab2e5ddca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6941e224d3239f1c5aeda5b309aa5c81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d28/a00997.php#a6941e224d3239f1c5aeda5b309aa5c81">reset</a> ()</td></tr>
+<tr class="memdesc:a6941e224d3239f1c5aeda5b309aa5c81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the path counter to restart the path.  <a href="#a6941e224d3239f1c5aeda5b309aa5c81">More...</a><br /></td></tr>
+<tr class="separator:a6941e224d3239f1c5aeda5b309aa5c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54d7d03099784e7f2e573ba17ebe499e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d28/a00997.php#a54d7d03099784e7f2e573ba17ebe499e">push</a> (const <a class="el" href="../../da/d0a/a00993.php">PathfindingNode</a> &amp;node)</td></tr>
+<tr class="memdesc:a54d7d03099784e7f2e573ba17ebe499e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push a new node in the path.  <a href="#a54d7d03099784e7f2e573ba17ebe499e">More...</a><br /></td></tr>
+<tr class="separator:a54d7d03099784e7f2e573ba17ebe499e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fb9d6aad58d7817692168eaea307a14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d28/a00997.php#a1fb9d6aad58d7817692168eaea307a14">reverse</a> ()</td></tr>
+<tr class="memdesc:a1fb9d6aad58d7817692168eaea307a14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverse the path.  <a href="#a1fb9d6aad58d7817692168eaea307a14">More...</a><br /></td></tr>
+<tr class="separator:a1fb9d6aad58d7817692168eaea307a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85140de1f8970b128a2501316a71e332"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d28/a00997.php#a85140de1f8970b128a2501316a71e332">size</a> () const</td></tr>
+<tr class="memdesc:a85140de1f8970b128a2501316a71e332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of node in the path.  <a href="#a85140de1f8970b128a2501316a71e332">More...</a><br /></td></tr>
+<tr class="separator:a85140de1f8970b128a2501316a71e332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ae56317713ca93848b0c47bc401cbf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d28/a00997.php#a2ae56317713ca93848b0c47bc401cbf4">length</a> () const</td></tr>
+<tr class="memdesc:a2ae56317713ca93848b0c47bc401cbf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the toal length of the path.  <a href="#a2ae56317713ca93848b0c47bc401cbf4">More...</a><br /></td></tr>
+<tr class="separator:a2ae56317713ca93848b0c47bc401cbf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aeeee0a0ede330174785a5c7fe77d1681"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d0a/a00993.php">PathfindingNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d28/a00997.php#aeeee0a0ede330174785a5c7fe77d1681">start</a></td></tr>
+<tr class="separator:aeeee0a0ede330174785a5c7fe77d1681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b461b7f35d6914a627e52e20f79f6ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d0a/a00993.php">PathfindingNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d28/a00997.php#a3b461b7f35d6914a627e52e20f79f6ce">end</a></td></tr>
+<tr class="separator:a3b461b7f35d6914a627e52e20f79f6ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to manage a path computed by the map. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a19773c31a6467b9b61b440135863290e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19773c31a6467b9b61b440135863290e">&#9670;&nbsp;</a></span>Path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Path::Path </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+
+</div>
+</div>
+<a id="ae7ac83a2afcba63d1e8f17f314572a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7ac83a2afcba63d1e8f17f314572a7f">&#9670;&nbsp;</a></span>~Path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::Path::~Path </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7928f59acfc984899a12b52ab2e5ddca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7928f59acfc984899a12b52ab2e5ddca">&#9670;&nbsp;</a></span>hasNext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Path::hasNext </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return <b>true</b> if the path has a next node. </p>
+
+</div>
+</div>
+<a id="a2ae56317713ca93848b0c47bc401cbf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ae56317713ca93848b0c47bc401cbf4">&#9670;&nbsp;</a></span>length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Path::length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the toal length of the path. </p>
+
+</div>
+</div>
+<a id="ac24764eca1f5c6a54322d4a19d4ac68f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac24764eca1f5c6a54322d4a19d4ac68f">&#9670;&nbsp;</a></span>next()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Path::next </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/d0a/a00993.php">PathfindingNode</a> &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Put the next node in <em>node</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">node</td><td>The last node and thenext node </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return <b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a id="a54d7d03099784e7f2e573ba17ebe499e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54d7d03099784e7f2e573ba17ebe499e">&#9670;&nbsp;</a></span>push()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Path::push </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../da/d0a/a00993.php">PathfindingNode</a> &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Push a new node in the path. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">node</td><td>The node to push </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return void </dd></dl>
+
+</div>
+</div>
+<a id="a6941e224d3239f1c5aeda5b309aa5c81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6941e224d3239f1c5aeda5b309aa5c81">&#9670;&nbsp;</a></span>reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Path::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset the path counter to restart the path. </p>
+
+</div>
+</div>
+<a id="a1fb9d6aad58d7817692168eaea307a14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fb9d6aad58d7817692168eaea307a14">&#9670;&nbsp;</a></span>reverse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Path::reverse </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reverse the path. </p>
+
+</div>
+</div>
+<a id="a85140de1f8970b128a2501316a71e332"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85140de1f8970b128a2501316a71e332">&#9670;&nbsp;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t mcd::Path::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the number of node in the path. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3b461b7f35d6914a627e52e20f79f6ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b461b7f35d6914a627e52e20f79f6ce">&#9670;&nbsp;</a></span>end</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d0a/a00993.php">PathfindingNode</a> mcd::Path::end</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeeee0a0ede330174785a5c7fe77d1681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeee0a0ede330174785a5c7fe77d1681">&#9670;&nbsp;</a></span>start</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d0a/a00993.php">PathfindingNode</a> mcd::Path::start</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d2/df5/a00137.php">Path.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../d5/d0b/a00220.php">mcd</a></li><li class="navelem"><a class="el" href="../../d0/d28/a00997.php">Path</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

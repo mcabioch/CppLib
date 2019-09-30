@@ -1,6 +1,6 @@
 var a00977 =
 [
-    [ "Player", "d5/d6c/a00977.php#aa2e12089a072fbc695087df2b474af5c", null ],
-    [ "~Player", "d5/d6c/a00977.php#a73fba351baf5641e985c76c0de4fe097", null ],
-    [ "printInfos", "d5/d6c/a00977.php#ae0258dbfcdecaaa58390125aac118fe8", null ]
+    [ "Mushroom", "d5/d6c/a00977.php#aa3f3f1ad0542e087b039ce1586c0c907", null ],
+    [ "~Mushroom", "d5/d6c/a00977.php#afba77573c7fb8dfdbf6f73192fe64fde", null ],
+    [ "printInfos", "d5/d6c/a00977.php#a7f5b4cb7d65beddc201434f2e8cc1f15", null ]
 ];

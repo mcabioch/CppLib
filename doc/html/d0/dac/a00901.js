@@ -1,13 +1,8 @@
 var a00901 =
 [
-    [ "DateTime", "d0/dac/a00901.php#a29a8b25abb19ebb2d5cce889ea81dd5a", null ],
-    [ "DateTime", "d0/dac/a00901.php#a27522461f3954da96d58a5a82db34675", null ],
-    [ "~DateTime", "d0/dac/a00901.php#aabf1f35c1bad4f58eddd773836bbe766", null ],
-    [ "get", "d0/dac/a00901.php#af11146f03ef10a03b88d46e54e782747", null ],
-    [ "operator!=", "d0/dac/a00901.php#a3887764124eb590ec7c7bd63263b5dcc", null ],
-    [ "operator<", "d0/dac/a00901.php#aaec41bb6ed721384b089c34fd87e0085", null ],
-    [ "operator<=", "d0/dac/a00901.php#abf9627c22b617dd531e214056bc67f92", null ],
-    [ "operator==", "d0/dac/a00901.php#a15ab62ed982a1d04015c4e94597e225e", null ],
-    [ "operator>", "d0/dac/a00901.php#adabc4caa88be53935e7c3d210821c97a", null ],
-    [ "operator>=", "d0/dac/a00901.php#a5a1cc8417dca4698082acedf1edb07cf", null ]
+    [ "ConsoleTable", "d0/dac/a00901.php#acc7af9ad8f4b7175a82acb2edfce15b2", null ],
+    [ "headers", "d0/dac/a00901.php#a1878d602fe475fb47a2aca063e7cb9d6", null ],
+    [ "line", "d0/dac/a00901.php#a3669c41beda1b667738b6e7c42663b29", null ],
+    [ "lines", "d0/dac/a00901.php#aefb00d9e2e5755c7e2fd60cba225f504", null ],
+    [ "operator<<", "d0/dac/a00901.php#af23c547bfa2b35d582a6922d425d02f5", null ]
 ];

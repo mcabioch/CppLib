@@ -1,3 +1,10 @@
-<map id="mcd::Crypto" name="mcd::Crypto">
-<area shape="rect" id="node2" href="$d2/ddd/a00978.php" title="A class to let some other not to be copyable. " alt="" coords="5,5,136,32"/>
+<map id="mcd::Contraption" name="mcd::Contraption">
+<area shape="rect" id="node2" href="$d6/dad/a00941.php" title="An entity. " alt="" coords="129,80,219,107"/>
+<area shape="rect" id="node8" href="$d4/d95/a00989.php" title="An object. " alt="" coords="245,80,338,107"/>
+<area shape="rect" id="node3" href="$dd/d51/a00769.php" title="An animal. " alt="" coords="5,155,100,181"/>
+<area shape="rect" id="node5" href="$d3/dc4/a01089.php" title="A vegetal. " alt="" coords="125,155,223,181"/>
+<area shape="rect" id="node4" href="$d8/dba/a00773.php" title="An ant. " alt="" coords="15,229,90,256"/>
+<area shape="rect" id="node6" href="$d5/d6c/a00977.php" title="A mushroom. " alt="" coords="115,229,231,256"/>
+<area shape="rect" id="node7" href="$d3/ded/a01017.php" title="A plant. " alt="" coords="255,229,341,256"/>
+<area shape="rect" id="node9" href="$d0/d22/a01049.php" title="A stone. " alt="" coords="248,155,337,181"/>
 </map>

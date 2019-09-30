@@ -1,12 +1,6 @@
 var a00845 =
 [
-    [ "Color", "d7/dcf/a00845.php#a81a4808e8eb05c0a23cd90da4d8569ec", null ],
-    [ "~Color", "d7/dcf/a00845.php#a4db298b6e4ff50cf961dc90449468952", null ],
-    [ "Color", "d7/dcf/a00845.php#a26072dbd1f7f739ff3be1e98357b446e", null ],
-    [ "addColors", "d7/dcf/a00845.php#af4f6325cc63bd229cdf19df24a6e4f6e", null ],
-    [ "addColors", "d7/dcf/a00845.php#ae732af32fdbea05950d39bd9532121cf", null ],
-    [ "addColors", "d7/dcf/a00845.php#a2763ec2ead72b9b5dabc5b8678a3cac1", null ],
-    [ "addColors", "d7/dcf/a00845.php#a1bbeef7225d8e84a02fca3e32a325b45", null ],
-    [ "Cls", "d7/dcf/a00845.php#a37c42c3a0b8af325e746f536a6a51305", null ],
-    [ "operator<<", "d7/dcf/a00845.php#a84513fec989f2f817d2b1c5e6989450e", null ]
+    [ "has_ostream_operator", "d7/dcf/a00845.php#a62ae1424b1e158747fdc66486da0f519", null ],
+    [ "~has_ostream_operator", "d7/dcf/a00845.php#a46e086e27236a65d185a87b1d20b4139", null ],
+    [ "value", "d7/dcf/a00845.php#ad1cf88abd079ce2df64d1d4f8e256a8a", null ]
 ];

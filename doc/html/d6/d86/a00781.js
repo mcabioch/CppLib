@@ -1,4 +1,5 @@
 var a00781 =
 [
-    [ "value", "d6/d86/a00781.php#ab81fa142d6e7d3c98a4dae1f0ca3dfd5", null ]
+    [ "stack", "d6/d86/a00781.php#aa9d55e0af1d4e27cc1abba7a2d399afc", null ],
+    [ "get", "d6/d86/a00781.php#ac779733da952e8cfda80b14655a07172", null ]
 ];

@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Check::is_minded_ptr&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Sun Sep 29 2019 11:39:30 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('df/d89/a01032.php','../../');});
+$(document).ready(function(){initNavTree('d0/daa/a01029.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,33 +89,64 @@ $(document).ready(function(){initNavTree('df/d89/a01032.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="../../de/d02/a01026.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Threadable&lt; C &gt; Member List</div>  </div>
+<div class="title">mcd::Check::is_minded_ptr&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d89/a01032.php#a0d2496ea879c9a8933fe714ffce9639a">_mutex</a></td><td class="entry"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d89/a01032.php#a804393d97a319c38afa593072bd0ead9">hasToStop</a>() const</td><td class="entry"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d89/a01032.php#af6a411164d64b1b04b731f29d54e016a">inUse</a>()</td><td class="entry"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d89/a01032.php#a1eb0985252b04c90761f92432ef4216d">launch</a>()=0</td><td class="entry"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d89/a01032.php#a156911948e5f5d2d5eeb0922ee3bd86d">launched</a>() const</td><td class="entry"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d89/a01032.php#a0b2419ec1119f28dc2440e202f0d2c8e">notInUse</a>()</td><td class="entry"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d89/a01032.php#aede63b72f054d20e35d22153af8313c8">operator=</a>(Threadable&lt; C &gt; &amp;other) noexcept</td><td class="entry"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d89/a01032.php#ab51cdb23e70b6ab97afb529098eb20c0">operator=</a>(Threadable&lt; C &gt; &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d89/a01032.php#a0351657024f3b0d37b54c08a09a156fa">sleeper</a></td><td class="entry"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d89/a01032.php#a4dd37d54456e167f8b42d30be7076939">stop</a>()</td><td class="entry"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d89/a01032.php#a04bdb4a894312f6671680c2f103b8a63">Threadable</a>()</td><td class="entry"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d89/a01032.php#a29db3ebe9dfbf77bc04967565c0dcf6e">Threadable</a>(Threadable&lt; C &gt; &amp;other)</td><td class="entry"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d89/a01032.php#a4cbceb43796de6c36a5cd4f35a6402cb">Threadable</a>(Threadable&lt; C &gt; &amp;&amp;other)</td><td class="entry"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d89/a01032.php#aab98cd8e5cd8832dfd6e82c17d1a689d">~Threadable</a>()</td><td class="entry"><a class="el" href="../../df/d89/a01032.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr.  
+ <a href="../../d0/daa/a01029.php#details">More...</a></p>
+
+<p><code>#include &lt;pointers.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a76170894810e15b11dafb7f34965aef4"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/a01029.php#a76170894810e15b11dafb7f34965aef4">value</a> = false</td></tr>
+<tr class="separator:a76170894810e15b11dafb7f34965aef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class mcd::Check::is_minded_ptr&lt; T &gt;</h3>
+
+<p>A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a76170894810e15b11dafb7f34965aef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76170894810e15b11dafb7f34965aef4">&#9670;&nbsp;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool <a class="el" href="../../d0/daa/a01029.php">mcd::Check::is_minded_ptr</a>&lt; T &gt;::value = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../db/ddf/a00164.php">pointers.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../d5/d0b/a00220.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d52/a00221.php">Check</a></li><li class="navelem"><a class="el" href="../../d0/daa/a01029.php">is_minded_ptr</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

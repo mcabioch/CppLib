@@ -1,14 +1,14 @@
 var a00953 =
 [
-    [ "Path", "d5/da3/a00953.php#a19773c31a6467b9b61b440135863290e", null ],
-    [ "~Path", "d5/da3/a00953.php#ae7ac83a2afcba63d1e8f17f314572a7f", null ],
-    [ "hasNext", "d5/da3/a00953.php#afd0df5fe1e5540b30d54718372191686", null ],
-    [ "length", "d5/da3/a00953.php#a2ae56317713ca93848b0c47bc401cbf4", null ],
-    [ "next", "d5/da3/a00953.php#ac24764eca1f5c6a54322d4a19d4ac68f", null ],
-    [ "push", "d5/da3/a00953.php#a54d7d03099784e7f2e573ba17ebe499e", null ],
-    [ "reset", "d5/da3/a00953.php#a6941e224d3239f1c5aeda5b309aa5c81", null ],
-    [ "reverse", "d5/da3/a00953.php#a1fb9d6aad58d7817692168eaea307a14", null ],
-    [ "size", "d5/da3/a00953.php#a85140de1f8970b128a2501316a71e332", null ],
-    [ "end", "d5/da3/a00953.php#a3b461b7f35d6914a627e52e20f79f6ce", null ],
-    [ "start", "d5/da3/a00953.php#aeeee0a0ede330174785a5c7fe77d1681", null ]
+    [ "Identifier", "d5/da3/a00953.php#a1496891d2323d1023ebfd086b84faf8d", null ],
+    [ "~Identifier", "d5/da3/a00953.php#a87dbdb0f9b391d6a78d61463e8823628", null ],
+    [ "getId", "d5/da3/a00953.php#abc0c02ec636a63cf2086e6e98f194b63", null ],
+    [ "getPassword", "d5/da3/a00953.php#a0dcb443f68200102b855f77878754af9", null ],
+    [ "getUsername", "d5/da3/a00953.php#a6108c8a63af7595ff4d9a4f2ad868b1e", null ],
+    [ "setId", "d5/da3/a00953.php#a593e0be0e4c8e17b22507e7f7d933ded", null ],
+    [ "setPassword", "d5/da3/a00953.php#a5b0a0e637d443935ae770bf90b652dea", null ],
+    [ "setUsername", "d5/da3/a00953.php#a7487ac9cac4531aad529994927c0e69f", null ],
+    [ "_id", "d5/da3/a00953.php#a6920412818f4d8a4478771fb767a2d07", null ],
+    [ "_password", "d5/da3/a00953.php#a95d479399de1b046aff00e83210b67ea", null ],
+    [ "_username", "d5/da3/a00953.php#a4a002c57b507ef0c744135eacfb82b6f", null ]
 ];

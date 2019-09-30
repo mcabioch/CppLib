@@ -1,4 +1,5 @@
-<map id="mcd::PlayerAbstraction&lt; PlayerParent &gt;" name="mcd::PlayerAbstraction&lt; PlayerParent &gt;">
-<area shape="rect" id="node3" title="STL class. " alt="" coords="137,96,217,123"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="113,5,240,47"/>
+<map id="mcd::Plant" name="mcd::Plant">
+<area shape="rect" id="node2" href="$d3/dc4/a01089.php" title="A vegetal. " alt="" coords="17,155,116,181"/>
+<area shape="rect" id="node3" href="$d6/dad/a00941.php" title="An entity. " alt="" coords="22,80,111,107"/>
+<area shape="rect" id="node4" href="$da/d5b/a00905.php" title="A contraption. " alt="" coords="5,5,128,32"/>
 </map>

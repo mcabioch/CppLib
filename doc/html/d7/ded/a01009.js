@@ -1,14 +1,16 @@
 var a01009 =
 [
-    [ "Threadable", "d7/ded/a01009.php#a04bdb4a894312f6671680c2f103b8a63", null ],
-    [ "Threadable", "d7/ded/a01009.php#a29db3ebe9dfbf77bc04967565c0dcf6e", null ],
-    [ "~Threadable", "d7/ded/a01009.php#aab98cd8e5cd8832dfd6e82c17d1a689d", null ],
-    [ "hasToStop", "d7/ded/a01009.php#a804393d97a319c38afa593072bd0ead9", null ],
-    [ "inUse", "d7/ded/a01009.php#af6a411164d64b1b04b731f29d54e016a", null ],
-    [ "launch", "d7/ded/a01009.php#a1eb0985252b04c90761f92432ef4216d", null ],
-    [ "launched", "d7/ded/a01009.php#a156911948e5f5d2d5eeb0922ee3bd86d", null ],
-    [ "notInUse", "d7/ded/a01009.php#a0b2419ec1119f28dc2440e202f0d2c8e", null ],
-    [ "stop", "d7/ded/a01009.php#a4dd37d54456e167f8b42d30be7076939", null ],
-    [ "_mutex", "d7/ded/a01009.php#a0d2496ea879c9a8933fe714ffce9639a", null ],
-    [ "sleeper", "d7/ded/a01009.php#a0351657024f3b0d37b54c08a09a156fa", null ]
+    [ "PathfindingErrorCode", "d7/ded/a01009.php#a699cc4df8cc94d467e7372072d230b58", [
+      [ "NONE", "d7/ded/a01009.php#a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d", null ],
+      [ "ARRIVED", "d7/ded/a01009.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814", null ],
+      [ "LOST", "d7/ded/a01009.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995", null ],
+      [ "OTHER", "d7/ded/a01009.php#a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982", null ]
+    ] ],
+    [ "PathfindingException", "d7/ded/a01009.php#ac73bb217b98d679eaab9fe9fe4e5c9b0", null ],
+    [ "~PathfindingException", "d7/ded/a01009.php#a22d196716aa61adb8fa0e0d48320c9ab", null ],
+    [ "PathfindingException", "d7/ded/a01009.php#a71da44443282ca94d2c9e10a9be0dafc", null ],
+    [ "Arrived", "d7/ded/a01009.php#a9fcff7a44db764decbb680479144b97b", null ],
+    [ "getErrorCode", "d7/ded/a01009.php#a922e8cbd5025f4f17e45889055df165c", null ],
+    [ "Lost", "d7/ded/a01009.php#a933816a487769eec830729b051d0fbcd", null ],
+    [ "what", "d7/ded/a01009.php#a92a9aea3e0fc189dc0c17a78ffa68bdf", null ]
 ];

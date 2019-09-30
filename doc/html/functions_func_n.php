@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 11:22:31 for C++ by";
+				$text = "Generated on Sun Sep 29 2019 11:39:30 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,16 +93,22 @@ $(document).ready(function(){initNavTree('functions_func_n.php','');});
 
 <h3><a id="index_n"></a>- n -</h3><ul>
 <li>next()
-: <a class="el" href="dd/d7a/a00990.php#ac24764eca1f5c6a54322d4a19d4ac68f">mcd::Path</a>
+: <a class="el" href="d0/d28/a00997.php#ac24764eca1f5c6a54322d4a19d4ac68f">mcd::Path</a>
 </li>
 <li>NotCopyable()
-: <a class="el" href="d2/ddd/a00978.php#aa40da048522b578e9c2cc9f73c1a0d92">mcd::NotCopyable</a>
+: <a class="el" href="dd/d24/a00981.php#aa40da048522b578e9c2cc9f73c1a0d92">mcd::NotCopyable</a>
+</li>
+<li>notInstantiable()
+: <a class="el" href="da/deb/a00985.php#a19c59f78b217426061641970c9f11022">mcd::NotInstantiable</a>
+</li>
+<li>NotInstantiable()
+: <a class="el" href="da/deb/a00985.php#a760ca4c32c24cf2b4c4c2ef07b51f997">mcd::NotInstantiable</a>
 </li>
 <li>notInUse()
-: <a class="el" href="da/d17/a01046.php#a0b2419ec1119f28dc2440e202f0d2c8e">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="dc/d99/a01053.php#a0b2419ec1119f28dc2440e202f0d2c8e">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>numerator()
-: <a class="el" href="df/d12/a00942.php#a17e4466c06be8e1bff20fe204d4ff110">mcd::Fraction</a>
+: <a class="el" href="d1/db0/a00945.php#a17e4466c06be8e1bff20fe204d4ff110">mcd::Fraction</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 11:22:31 for C++ by";
+				$text = "Generated on Sun Sep 29 2019 11:39:30 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('globals_defs.php','');});
 : <a class="el" href="d6/d5b/a00026.php#abded7950b004fc558461964290e7573c">Big_Maths.hpp</a>
 </li>
 <li>COMMA
-: <a class="el" href="de/d79/a00203.php#aa2f49001be13949a16a57e6c99ab00ad">UsefullDefines.hpp</a>
+: <a class="el" href="d5/df1/a00206.php#aa2f49001be13949a16a57e6c99ab00ad">UsefullDefines.hpp</a>
 </li>
 <li>debug_elog
 : <a class="el" href="da/dec/a00080.php#abfef935e08c6c7f3d9247920b01659b1">errors.hpp</a>
@@ -127,22 +127,22 @@ $(document).ready(function(){initNavTree('globals_defs.php','');});
 : <a class="el" href="da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">errors.hpp</a>
 </li>
 <li>MUTEX_RECREATE
-: <a class="el" href="d6/d7d/a00161.php#a6fbaf936dc811e3422bec35b026f4983">pointers.hpp</a>
+: <a class="el" href="db/ddf/a00164.php#a6fbaf936dc811e3422bec35b026f4983">pointers.hpp</a>
 </li>
 <li>MUTEX_RECREATE_ARGS
-: <a class="el" href="d6/d7d/a00161.php#a8614c85113bf4cfc4be80948688e9f5d">pointers.hpp</a>
+: <a class="el" href="db/ddf/a00164.php#a8614c85113bf4cfc4be80948688e9f5d">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_RECREATE
-: <a class="el" href="d6/d7d/a00161.php#a1268e33dd61371fb191a2e753e76f545">pointers.hpp</a>
+: <a class="el" href="db/ddf/a00164.php#a1268e33dd61371fb191a2e753e76f545">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_RECREATE_ARGS
-: <a class="el" href="d6/d7d/a00161.php#a5664112302c26ebee5460b2fcc0a7954">pointers.hpp</a>
+: <a class="el" href="db/ddf/a00164.php#a5664112302c26ebee5460b2fcc0a7954">pointers.hpp</a>
 </li>
 <li>THREADABLE
-: <a class="el" href="de/df3/a00185.php#a09979566ade438911265d3e17ecc3abc">Threadable.hpp</a>
+: <a class="el" href="da/d15/a00188.php#a09979566ade438911265d3e17ecc3abc">Threadable.hpp</a>
 </li>
 <li>THREADABLE_LOCK
-: <a class="el" href="de/df3/a00185.php#a3a0fe346d6bb1356037b21f558e5c308">Threadable.hpp</a>
+: <a class="el" href="da/d15/a00188.php#a3a0fe346d6bb1356037b21f558e5c308">Threadable.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->

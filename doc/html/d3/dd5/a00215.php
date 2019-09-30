@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Todo List</title>
+		<title>C++: mainpage.md File Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 11:22:31 for C++ by";
+				$text = "Generated on Sun Sep 29 2019 11:39:30 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,25 +90,16 @@ $(document).ready(function(){initNavTree('d3/dd5/a00215.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Todo List </div>  </div>
+<div class="title">mainpage.md File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000001"></a>Class <a class="el" href="../../d5/d12/a00794.php">mcd::Big</a>  </dt>
-<dd>Implement the coma  </dd>
-<dt><a class="anchor" id="_todo000002"></a>Class <a class="el" href="../../dd/dcf/a00922.php">mcd::RSA</a>  </dt>
-<dd>Create the class  </dd>
-<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../dd/d57/a01054.php">mcd::Timer</a>  </dt>
-<dd>Create the class  </dd>
-<dt><a class="anchor" id="_todo000004"></a>Class <a class="el" href="../../d4/d8a/a01062.php">mcd::Tree&lt; T &gt;</a>  </dt>
-<dd>Refactoring </dd>
-</dl>
-</div></div><!-- contents -->
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../d3/dd5/a00215.php">mainpage.md</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

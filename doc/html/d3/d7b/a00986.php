@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::PathfindingNode Struct Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 11:22:31 for C++ by";
+				$text = "Generated on Sun Sep 29 2019 11:39:30 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d3/d7b/a00986.php','../../');});
+$(document).ready(function(){initNavTree('d4/d95/a00989.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,284 +89,51 @@ $(document).ready(function(){initNavTree('d3/d7b/a00986.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#friends">Friends</a> &#124;
-<a href="../../d7/d98/a00983.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::PathfindingNode Struct Reference</div>  </div>
+<div class="title">mcd::Object Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A node for the path.  
- <a href="../../d3/d7b/a00986.php#details">More...</a></p>
-
-<p><code>#include &lt;Path.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ac252a8bf89c83a96e63604fdb8eb144b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7b/a00986.php#ac252a8bf89c83a96e63604fdb8eb144b">id</a></td></tr>
-<tr class="separator:ac252a8bf89c83a96e63604fdb8eb144b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:af8e324237235cd148492d82eadf94e0c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7b/a00986.php#af8e324237235cd148492d82eadf94e0c">operator==</a> (const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;a, const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;b)</td></tr>
-<tr class="separator:af8e324237235cd148492d82eadf94e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accb5b160fd3f52084b8b83c8dddaae93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7b/a00986.php#accb5b160fd3f52084b8b83c8dddaae93">operator&lt;</a> (const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;a, const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;b)</td></tr>
-<tr class="separator:accb5b160fd3f52084b8b83c8dddaae93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeba800fc4624a565bb41c02943679938"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7b/a00986.php#aeba800fc4624a565bb41c02943679938">operator&gt;</a> (const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;a, const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;b)</td></tr>
-<tr class="separator:aeba800fc4624a565bb41c02943679938"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fe0870c6659f0faf93353dae13f198b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7b/a00986.php#a3fe0870c6659f0faf93353dae13f198b">operator!=</a> (const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;a, const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;b)</td></tr>
-<tr class="separator:a3fe0870c6659f0faf93353dae13f198b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a838d53f4f20b9d921b88c936c9b0c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7b/a00986.php#a3a838d53f4f20b9d921b88c936c9b0c6">operator&lt;=</a> (const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;a, const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;b)</td></tr>
-<tr class="separator:a3a838d53f4f20b9d921b88c936c9b0c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50c4ea549ad84f73f8eb09fc5aa2bff3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7b/a00986.php#a50c4ea549ad84f73f8eb09fc5aa2bff3">operator&gt;=</a> (const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;a, const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;b)</td></tr>
-<tr class="separator:a50c4ea549ad84f73f8eb09fc5aa2bff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A node for the path. </p>
-</div><h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a3fe0870c6659f0faf93353dae13f198b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fe0870c6659f0faf93353dae13f198b">&#9670;&nbsp;</a></span>operator!=</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="accb5b160fd3f52084b8b83c8dddaae93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accb5b160fd3f52084b8b83c8dddaae93">&#9670;&nbsp;</a></span>operator<</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator&lt; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3a838d53f4f20b9d921b88c936c9b0c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a838d53f4f20b9d921b88c936c9b0c6">&#9670;&nbsp;</a></span>operator<=</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator&lt;= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af8e324237235cd148492d82eadf94e0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8e324237235cd148492d82eadf94e0c">&#9670;&nbsp;</a></span>operator==</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aeba800fc4624a565bb41c02943679938"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeba800fc4624a565bb41c02943679938">&#9670;&nbsp;</a></span>operator></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator&gt; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a50c4ea549ad84f73f8eb09fc5aa2bff3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50c4ea549ad84f73f8eb09fc5aa2bff3">&#9670;&nbsp;</a></span>operator>=</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator&gt;= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac252a8bf89c83a96e63604fdb8eb144b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac252a8bf89c83a96e63604fdb8eb144b">&#9670;&nbsp;</a></span>id</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t mcd::PathfindingNode::id</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../de/d76/a00134.php">Path.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d4/d95/a00989.php">mcd::Object</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a7f4fa78c938b90c034ad0fe98a293a3c">addPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a807590a9e81f34ba22aca08ddd986db7">Contraption</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a580eafa58a93d9ab4264c4cbac2f4167">getA</a>() const</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d5b/a00905.php#aa36a1788770d7667d8a2848ff1e3f0c6">getAttributes</a>() const</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#aec81012bc23935e626500734007d5fb5">getH</a>() const</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a2f6cf40462b5dba5f7743c83cc2389f1">getLevel</a>() const</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a393c4ec6fd375809fbcf1cfeab44ed25">getMap</a>() const</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d5b/a00905.php#ac95da2f760e8ba07a54ac849c5a3307f">getPosition</a>() const</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a20dee618b85a3f841921a534bd5dfd37">getRelativeZ</a>(Contraption &amp;obj)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d5b/a00905.php#ad12fd1c5a207f169edc619e09a5a969f">getW</a>() const</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a6e7d791e4289bd253a357be80f8131ee">getX</a>() const</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a153124dd434c08a943f60d7b43c2ffab">getY</a>() const</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a6ac6575807535f3d9aeb251ce3cceaed">getZ</a>() const</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/d95/a00989.php#ad332f3a57527a6ede1be2e18b65615a5">Object</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d4/d95/a00989.php">mcd::Object</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d95/a00989.php#aaae968dcea4a9aa8a530dc95b24848d0">printInfos</a>(std::ostream &amp;stream) const override</td><td class="entry"><a class="el" href="../../d4/d95/a00989.php">mcd::Object</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a6ee6d1b64b6b88068a2165a1824a5af2">sender</a>(std::string, vector_str)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a73a47e55e554e7c7f357a74276368186">setA</a>(double64_t angle)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a9c5a7acde997e12d99e717f182c5ced7">setAttributes</a>(ContraptionAttr attr)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#ae44610d2144faf1550f8cc6ec860fb71">setAttributes</a>(double64_t w, double64_t h, double64_t angle=0)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a060b6ee9401bd8c9a03c5cecdbfa1942">setH</a>(double64_t h)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a332ecd56522af01cf41b9c4a69449bd0">setLevel</a>(size_t level)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a8a6c84d9d5f814fe553b731d841a5266">setMap</a>(Map *map)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a2974b562f55f65a1b992ff849eea43cf">setPosition</a>(Point pt)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d5b/a00905.php#aae0d0bd5e4613514eb5cda66eaeabbcb">setPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a2a00e0217550c3b79434659e04d40aef">setW</a>(double64_t w)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d5b/a00905.php#abbaabb4c71f560de8c85a859c11dd57a">setX</a>(double64_t x)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a3e1fc3a4ee923891fa0c523f129c45af">setY</a>(double64_t y)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a08c1de8034f9e3985a24dd78d37a3d44">setZ</a>(double64_t z)</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a10b4b5c4cd47da89e672c64c41b23162">turnLeft</a>()</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a4f7cef1423cf575fabafa2143a588788">turnRight</a>()</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d5b/a00905.php#a17bb565b03902a28211f8609ac04d01b">~Contraption</a>()</td><td class="entry"><a class="el" href="../../da/d5b/a00905.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/d95/a00989.php#a400f71c448a89abecda88ba70ab5029f">~Object</a>()</td><td class="entry"><a class="el" href="../../d4/d95/a00989.php">mcd::Object</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../df/d24/a00217.php">mcd</a></li><li class="navelem"><a class="el" href="../../d3/d7b/a00986.php">PathfindingNode</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -1,25 +1,5 @@
 var a00981 =
 [
-    [ "PlayerAbstraction", "dd/d24/a00981.php#acd7472274e5fd10845893208d604617f", null ],
-    [ "~PlayerAbstraction", "dd/d24/a00981.php#abde0c45c79e9cb030711f77d73fdc5a8", null ],
-    [ "getExperience", "dd/d24/a00981.php#af4b6c4845dcc12c9feed1910e7de9334", null ],
-    [ "getExperienceMax", "dd/d24/a00981.php#a3d9f0332994725fceb7f785fd83e1802", null ],
-    [ "getMail", "dd/d24/a00981.php#ada35a68939571761734d82bf83e6c634", null ],
-    [ "isInit", "dd/d24/a00981.php#abdb489c22b76cb09daefb8f05b2f515c", null ],
-    [ "isLost", "dd/d24/a00981.php#ae441783e58a888696f8dc24f4cdfcce5", null ],
-    [ "isPaused", "dd/d24/a00981.php#a81a1ea7b3b306b10af787c353c92cc2e", null ],
-    [ "lost", "dd/d24/a00981.php#a7582710c11a7b92d9912f414a5296975", null ],
-    [ "pause", "dd/d24/a00981.php#a57f10ce6fa33a36671c750dd68dc1a13", null ],
-    [ "printInfos", "dd/d24/a00981.php#ac6d60013def2f34160fda9a990cf2da5", null ],
-    [ "resume", "dd/d24/a00981.php#a4670bc4130ffbdd8fd198ab020a7ffe3", null ],
-    [ "retreive", "dd/d24/a00981.php#ac4a98e2f186ed9702f90362a158a9f2f", null ],
-    [ "setExperience", "dd/d24/a00981.php#afd43768fd6e0cef44f01eda62c12709d", null ],
-    [ "setExperienceMax", "dd/d24/a00981.php#a359eee2f7927489351f40177a5da91fe", null ],
-    [ "setMail", "dd/d24/a00981.php#a42c70de66bff8acacb5f3fe9b1d68b66", null ],
-    [ "_experience", "dd/d24/a00981.php#ae561b7817c64610317799205afa306cd", null ],
-    [ "_experienceMax", "dd/d24/a00981.php#a3800d1590d75f762d41be6349556707d", null ],
-    [ "_init", "dd/d24/a00981.php#abffa7d0ae3461370c932f0732367c93b", null ],
-    [ "_losted", "dd/d24/a00981.php#aee72e21c73d5bbf23c831514cd6cd58b", null ],
-    [ "_mail", "dd/d24/a00981.php#ad9199142db686c7745b21429e7061823", null ],
-    [ "_paused", "dd/d24/a00981.php#a005074efa352510f2dc316404195946c", null ]
+    [ "NotCopyable", "dd/d24/a00981.php#aa40da048522b578e9c2cc9f73c1a0d92", null ],
+    [ "~NotCopyable", "dd/d24/a00981.php#a5efcd02383468e37e9c960f3d6f9d14c", null ]
 ];

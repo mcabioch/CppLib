@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Check::is_thread_ptr&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Sun Sep 29 2019 11:39:30 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d8/d79/a01036.php','../../');});
+$(document).ready(function(){initNavTree('d2/d57/a01033.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,30 +89,64 @@ $(document).ready(function(){initNavTree('d8/d79/a01036.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="../../de/d41/a01030.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Time Member List</div>  </div>
+<div class="title">mcd::Check::is_thread_ptr&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d8/d79/a01036.php">mcd::Time</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d79/a01036.php#af9360f3323012f2572ffb3f8924fca62">get</a>(const std::string &amp;format=&quot;%H:%M:%S&quot;) const</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d79/a01036.php#afc42ec7546725501d6cd8eb069e92a52">hour</a>() const</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d79/a01036.php#a3e19605ece31340f27255a79beb193d4">init</a>()</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d79/a01036.php#a22a7371879c50752d94338e631ab37a7">milli</a>() const</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d79/a01036.php#a56b7fdec50bc1b7f5fb991260cb18104">minute</a>() const</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d79/a01036.php#a94d4610fef5db9db60ca31d7d64230dc">reset</a>()</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d79/a01036.php#a5a3510ec96b9698b8cf601a2a1b9d90c">second</a>() const</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d79/a01036.php#aa843463db53892a16778dd0d71ec2dad">set</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d79/a01036.php#ac802213e9ca41cc731f14619534e0249">Time</a>()</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d79/a01036.php#afa17085534ed1da008f6dd39cef039f2">Time</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d79/a01036.php#aef071966b669112898476801bf63bcba">~Time</a>()</td><td class="entry"><a class="el" href="../../d8/d79/a01036.php">mcd::Time</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A template class to test if T is a std::shared_ptr&lt;std::thread&gt;, a std::unique_ptr&lt;std::thread&gt;, a std::weak_ptr&lt;std::thread&gt; or a std::thread*.  
+ <a href="../../d2/d57/a01033.php#details">More...</a></p>
+
+<p><code>#include &lt;pointers.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aeaf71256c26f5b5be4a5e5db9035500b"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/a01033.php#aeaf71256c26f5b5be4a5e5db9035500b">value</a> = false</td></tr>
+<tr class="separator:aeaf71256c26f5b5be4a5e5db9035500b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class mcd::Check::is_thread_ptr&lt; T &gt;</h3>
+
+<p>A template class to test if T is a std::shared_ptr&lt;std::thread&gt;, a std::unique_ptr&lt;std::thread&gt;, a std::weak_ptr&lt;std::thread&gt; or a std::thread*. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="aeaf71256c26f5b5be4a5e5db9035500b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaf71256c26f5b5be4a5e5db9035500b">&#9670;&nbsp;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool <a class="el" href="../../d2/d57/a01033.php">mcd::Check::is_thread_ptr</a>&lt; T &gt;::value = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../db/ddf/a00164.php">pointers.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../d5/d0b/a00220.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d52/a00221.php">Check</a></li><li class="navelem"><a class="el" href="../../d2/d57/a01033.php">is_thread_ptr</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -1,7 +1,12 @@
 var a00877 =
 [
-    [ "Crypto", "d1/de7/a00877.php#a3f598383428868a9f69502e5de031ea5", null ],
-    [ "~Crypto", "d1/de7/a00877.php#a16276f74e2eac6b2174d06361791f056", null ],
-    [ "crypt", "d1/de7/a00877.php#a2949148382033667a765326066311f21", null ],
-    [ "decrypt", "d1/de7/a00877.php#a4d131065e81529530b7907ba397af30d", null ]
+    [ "Color", "d1/de7/a00877.php#a81a4808e8eb05c0a23cd90da4d8569ec", null ],
+    [ "~Color", "d1/de7/a00877.php#a4db298b6e4ff50cf961dc90449468952", null ],
+    [ "Color", "d1/de7/a00877.php#ac3843a894efef061a84ac802d316fd86", null ],
+    [ "addColors", "d1/de7/a00877.php#af4f6325cc63bd229cdf19df24a6e4f6e", null ],
+    [ "addColors", "d1/de7/a00877.php#ae732af32fdbea05950d39bd9532121cf", null ],
+    [ "addColors", "d1/de7/a00877.php#a8dd730c3b59730b786d059a507d03fca", null ],
+    [ "addColors", "d1/de7/a00877.php#ada095941e4b1c3757618959df513af9a", null ],
+    [ "Cls", "d1/de7/a00877.php#a37c42c3a0b8af325e746f536a6a51305", null ],
+    [ "operator<<", "d1/de7/a00877.php#a84513fec989f2f817d2b1c5e6989450e", null ]
 ];
