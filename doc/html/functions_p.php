@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 1 2019 15:13:20 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -136,7 +136,7 @@ $(document).ready(function(){initNavTree('functions_p.php','');});
 : <a class="el" href="da/db8/a00797.php#a47a5b6f09008ce7cba2a498211a97073">mcd::Big</a>
 </li>
 <li>print()
-: <a class="el" href="d2/d02/a00777.php#ab25a5cb9e0a7d21921baa90a95cd99b8">mcd::Arguments</a>
+: <a class="el" href="d2/d02/a00777.php#a77d29e3346c6b8c49fed9158e1336bd1">mcd::Arguments</a>
 , <a class="el" href="d7/dff/a00805.php#a19199d5410d2586642819f9a64bf4f76">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 , <a class="el" href="d8/d18/a01069.php#a1e6f8d4ad100be50a970848a0c8437d1">mcd::Tree&lt; T &gt;</a>
 </li>

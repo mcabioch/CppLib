@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 1 2019 15:13:17 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -199,36 +199,36 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2db82764bac2a48879000848b3af7c79"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a2db82764bac2a48879000848b3af7c79"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a2db82764bac2a48879000848b3af7c79">mcd::implode</a> (std::vector&lt; T &gt; a, const std::string &amp;glue=&quot;&quot;)</td></tr>
-<tr class="memdesc:a2db82764bac2a48879000848b3af7c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="../../d5/d0b/a00220.php#a2db82764bac2a48879000848b3af7c79">More...</a><br /></td></tr>
-<tr class="separator:a2db82764bac2a48879000848b3af7c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49514e6c6c7518d6207a0f707ec92529"><td class="memTemplParams" colspan="2">template&lt;typename Array &gt; </td></tr>
-<tr class="memitem:a49514e6c6c7518d6207a0f707ec92529"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a49514e6c6c7518d6207a0f707ec92529">mcd::print_r</a> (Array a)</td></tr>
-<tr class="memdesc:a49514e6c6c7518d6207a0f707ec92529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="../../d5/d0b/a00220.php#a49514e6c6c7518d6207a0f707ec92529">More...</a><br /></td></tr>
-<tr class="separator:a49514e6c6c7518d6207a0f707ec92529"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab06f1dc4b0034eb8041c40a16b70e4ca"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:ab06f1dc4b0034eb8041c40a16b70e4ca"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#ab06f1dc4b0034eb8041c40a16b70e4ca">mcd::rewrite</a> (std::vector&lt; V &gt; table, unsigned index)</td></tr>
-<tr class="memdesc:ab06f1dc4b0034eb8041c40a16b70e4ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="../../d5/d0b/a00220.php#ab06f1dc4b0034eb8041c40a16b70e4ca">More...</a><br /></td></tr>
-<tr class="separator:ab06f1dc4b0034eb8041c40a16b70e4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ac7c03f689e82ab37f28905b06cedbd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a3ac7c03f689e82ab37f28905b06cedbd"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a3ac7c03f689e82ab37f28905b06cedbd">mcd::contains</a> (std::vector&lt; T &gt; table, T value)</td></tr>
-<tr class="memdesc:a3ac7c03f689e82ab37f28905b06cedbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a vector contains or not something.  <a href="../../d5/d0b/a00220.php#a3ac7c03f689e82ab37f28905b06cedbd">More...</a><br /></td></tr>
-<tr class="separator:a3ac7c03f689e82ab37f28905b06cedbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95b30a0f37ef4accc8c762eee75bcc12"><td class="memTemplParams" colspan="2">template&lt;typename Something &gt; </td></tr>
-<tr class="memitem:a95b30a0f37ef4accc8c762eee75bcc12"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a95b30a0f37ef4accc8c762eee75bcc12">mcd::print_all</a> (Something data, bool change=false)</td></tr>
-<tr class="memdesc:a95b30a0f37ef4accc8c762eee75bcc12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints approximately everything.  <a href="../../d5/d0b/a00220.php#a95b30a0f37ef4accc8c762eee75bcc12">More...</a><br /></td></tr>
-<tr class="separator:a95b30a0f37ef4accc8c762eee75bcc12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad751f3d04e342cbe86c561683c3bd99c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad751f3d04e342cbe86c561683c3bd99c"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#ad751f3d04e342cbe86c561683c3bd99c">mcd::implode</a> (const std::vector&lt; T &gt; &amp;a, const std::string &amp;glue=&quot;&quot;)</td></tr>
+<tr class="memdesc:ad751f3d04e342cbe86c561683c3bd99c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="../../d5/d0b/a00220.php#ad751f3d04e342cbe86c561683c3bd99c">More...</a><br /></td></tr>
+<tr class="separator:ad751f3d04e342cbe86c561683c3bd99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0029a835651d350c925a43fd718ab590"><td class="memTemplParams" colspan="2">template&lt;typename Array &gt; </td></tr>
+<tr class="memitem:a0029a835651d350c925a43fd718ab590"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a0029a835651d350c925a43fd718ab590">mcd::print_r</a> (const Array &amp;a)</td></tr>
+<tr class="memdesc:a0029a835651d350c925a43fd718ab590"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="../../d5/d0b/a00220.php#a0029a835651d350c925a43fd718ab590">More...</a><br /></td></tr>
+<tr class="separator:a0029a835651d350c925a43fd718ab590"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4462e6059998aa718e92fd11fd9747e8"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a4462e6059998aa718e92fd11fd9747e8"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a4462e6059998aa718e92fd11fd9747e8">mcd::rewrite</a> (const std::vector&lt; V &gt; &amp;table, unsigned index)</td></tr>
+<tr class="memdesc:a4462e6059998aa718e92fd11fd9747e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="../../d5/d0b/a00220.php#a4462e6059998aa718e92fd11fd9747e8">More...</a><br /></td></tr>
+<tr class="separator:a4462e6059998aa718e92fd11fd9747e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53bf266a5db5dc112e71ebe3c78946e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad53bf266a5db5dc112e71ebe3c78946e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#ad53bf266a5db5dc112e71ebe3c78946e">mcd::contains</a> (const std::vector&lt; T &gt; &amp;table, T value)</td></tr>
+<tr class="memdesc:ad53bf266a5db5dc112e71ebe3c78946e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a vector contains or not something.  <a href="../../d5/d0b/a00220.php#ad53bf266a5db5dc112e71ebe3c78946e">More...</a><br /></td></tr>
+<tr class="separator:ad53bf266a5db5dc112e71ebe3c78946e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5996fcf8097a903a5461a6035ff0f98d"><td class="memTemplParams" colspan="2">template&lt;typename Something &gt; </td></tr>
+<tr class="memitem:a5996fcf8097a903a5461a6035ff0f98d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a5996fcf8097a903a5461a6035ff0f98d">mcd::print_all</a> (const Something &amp;data, bool change=false)</td></tr>
+<tr class="memdesc:a5996fcf8097a903a5461a6035ff0f98d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints approximately everything.  <a href="../../d5/d0b/a00220.php#a5996fcf8097a903a5461a6035ff0f98d">More...</a><br /></td></tr>
+<tr class="separator:a5996fcf8097a903a5461a6035ff0f98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1c42a8b9412d2afa3b486c5e629f752"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#af1c42a8b9412d2afa3b486c5e629f752">mcd::array2Dto1D</a> (size_t x, size_t y, size_t maxX)</td></tr>
 <tr class="separator:af1c42a8b9412d2afa3b486c5e629f752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a040a2aa0625adc9f13e6568d906a20a2"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a040a2aa0625adc9f13e6568d906a20a2">mcd::array1Dto2D</a> (size_t index, size_t maxX)</td></tr>
 <tr class="separator:a040a2aa0625adc9f13e6568d906a20a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2539eedc8c5dcf1f8f7801eeb919de42"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a2539eedc8c5dcf1f8f7801eeb919de42">mcd::array2Dto1D</a> (Point pt, size_t maxX)</td></tr>
-<tr class="separator:a2539eedc8c5dcf1f8f7801eeb919de42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53a33cf86c36584f92495307f8e68a00"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a53a33cf86c36584f92495307f8e68a00">mcd::array2Dto1D</a> (const Point &amp;pt, size_t maxX)</td></tr>
+<tr class="separator:a53a33cf86c36584f92495307f8e68a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : September, 26 2019 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Last modification : October, 02 2019 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

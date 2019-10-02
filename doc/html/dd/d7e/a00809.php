@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Check::is_array&lt; T &gt; Class Template Reference</title>
+		<title>C++: mcd::Check::is_vector&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 1 2019 15:13:19 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,39 +93,39 @@ $(document).ready(function(){initNavTree('dd/d7e/a00809.php','../../');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../d0/dad/a00806.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_array&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Check::is_vector&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A template class to test if T is an array, a vector or a map.  
+<p>A template class to test if T is a vector.  
  <a href="../../dd/d7e/a00809.php#details">More...</a></p>
 
 <p><code>#include &lt;check.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a0158c050746b586a1c8e800a68968879"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7e/a00809.php#a0158c050746b586a1c8e800a68968879">value</a> = false</td></tr>
-<tr class="separator:a0158c050746b586a1c8e800a68968879"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81fa142d6e7d3c98a4dae1f0ca3dfd5"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7e/a00809.php#ab81fa142d6e7d3c98a4dae1f0ca3dfd5">value</a> = false</td></tr>
+<tr class="separator:ab81fa142d6e7d3c98a4dae1f0ca3dfd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_array&lt; T &gt;</h3>
+class mcd::Check::is_vector&lt; T &gt;</h3>
 
-<p>A template class to test if T is an array, a vector or a map. </p>
+<p>A template class to test if T is a vector. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a0158c050746b586a1c8e800a68968879"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0158c050746b586a1c8e800a68968879">&#9670;&nbsp;</a></span>value</h2>
+<a id="ab81fa142d6e7d3c98a4dae1f0ca3dfd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab81fa142d6e7d3c98a4dae1f0ca3dfd5">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const bool <a class="el" href="../../dd/d7e/a00809.php">mcd::Check::is_array</a>&lt; T &gt;::value = false</td>
+          <td class="memname">const bool <a class="el" href="../../dd/d7e/a00809.php">mcd::Check::is_vector</a>&lt; T &gt;::value = false</td>
         </tr>
       </table>
   </td>
@@ -146,7 +146,7 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d5/d0b/a00220.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d52/a00221.php">Check</a></li><li class="navelem"><a class="el" href="../../dd/d7e/a00809.php">is_array</a></li>
+		<li class="navelem"><a class="el" href="../../d5/d0b/a00220.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d52/a00221.php">Check</a></li><li class="navelem"><a class="el" href="../../dd/d7e/a00809.php">is_vector</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -49,7 +49,7 @@ namespace mcd {
 	*
 	*		\return			\b true or \b false
 	*/
-	bool setlines(std::ofstream& output, std::vector<std::string> lines);
+	bool setlines(std::ofstream& output, const std::vector<std::string>& lines);
 
 	/*! \brief	Define a global file reader */
 	extern std::ifstream reader;

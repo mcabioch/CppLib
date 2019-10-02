@@ -18,11 +18,22 @@ namespace mcd {
 		return out;
 	}
 
-	std::vector<std::string>& Arguments::operator[](const std::string& index) const {
+	std::vector<std::string> Arguments::operator[](const std::string& index) const {
 		mutex.lock();
 		if(!contains(indexs, index)){
 			mutex.unlock();
 			return error;
+		} else {
+			mutex.unlock();
+			return args.at(index);
+		}
+	}
+
+	std::vector<std::string>& Arguments::operator[](const std::string& index) {
+		mutex.lock();
+		if(!contains(indexs, index)){
+			mutex.unlock();
+			throw std::string("Error Arguments operator[] : index '" + index + "' missing !");
 		} else {
 			mutex.unlock();
 			return args[index];
@@ -49,8 +60,8 @@ namespace mcd {
 		}
 
 		std::cout << "Index : '" << index << "'" << std::endl;
-		for(size_t i{0}; i < args[index].size(); ++i){
-			std::cout << "\t- '" << args[index][i] << "'" << std::endl;
+		for(size_t i{0}; i < args.at(index).size(); ++i){
+			std::cout << "\t- '" << args.at(index)[i] << "'" << std::endl;
 		}
 
 		mutex.unlock();

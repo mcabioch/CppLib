@@ -2,7 +2,7 @@
 *
 *	\file		Args.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		September, 02 2019
+*	\date		October, 02 2019
 *
 */
 #ifndef HEADER_CPP_ARGS
@@ -71,7 +71,14 @@ namespace mcd {
 				*
 				*		\return			Return a vector that contains the arguments
 				*/
-				std::vector<std::string>& operator[](const std::string& index) const;
+				std::vector<std::string> operator[](const std::string& index) const;
+				/*!
+				* \brief	Get the arguments in an index
+				*		\param[in]		index		The index of the arguments
+				*
+				*		\return			Return a vector that contains the arguments
+				*/
+				std::vector<std::string>& operator[](const std::string& index);
 
 			/* Others */
 				/*!
@@ -85,7 +92,7 @@ namespace mcd {
 		private:
 			std::map<std::string, std::vector<std::string> > args;
 			std::vector<std::string> indexs;
-			std::vector<std::string> error;
+			const std::vector<std::string> error;
 			mutable std::mutex mutex;
 	};
 

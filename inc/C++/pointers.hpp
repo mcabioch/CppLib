@@ -43,6 +43,36 @@ void name(__VA_ARGS__){\
 	_mutex.unlock();\
 }
 
+#define MUTEX_CONST_RECREATE(parent, name, type) \
+type name() const {\
+	_mutex.lock();\
+	type out = parent::name();\
+	_mutex.unlock();\
+	return out;\
+}
+
+#define MUTEX_CONST_RECREATE_ARGS(parent, name, type, ...) \
+type name(__VA_ARGS__) const {\
+	_mutex.lock();\
+	type out = parent::name(__VA_ARGS__);\
+	_mutex.unlock();\
+	return out;\
+}
+
+#define MUTEX_VOID_CONST_RECREATE(parent, name) \
+void name() const {\
+	_mutex.lock();\
+	parent::name();\
+	_mutex.unlock();\
+}
+
+#define MUTEX_VOID_CONST_RECREATE_ARGS(parent, name, ...) \
+void name(__VA_ARGS__) const {\
+	_mutex.lock();\
+	parent::name(__VA_ARGS__);\
+	_mutex.unlock();\
+}
+
 namespace mcd {
 	namespace Check {
 		/*! \brief	A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr */

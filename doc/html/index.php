@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 1 2019 15:13:19 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -208,7 +208,7 @@ Functions</h2>
 <p><a class="el" href="d5/d0b/a00220.php#ae44c2e346da18a7424d97535fb654448" title="Return true if the file exists. ">mcd::fileExists(const std::string&amp; path)</a><br />
  <a class="el" href="d5/d0b/a00220.php#a176933d706495ddff7385a68319e7169" title="Compute the checksum number. ">mcd::luhn(const std::string&amp; num)</a><br />
  <a class="el" href="d5/d0b/a00220.php#a0003c12a7cc73a35e488f59ad14770bf" title="Sleep the thread during duration seconds. ">mcd::sleep(size_t duration)</a><br />
- <a class="el" href="d5/d0b/a00220.php#a95b30a0f37ef4accc8c762eee75bcc12" title="Prints approximately everything. ">mcd::print_all(Something data, bool change)</a><br />
+ mcd::print_all(Something data, bool change)<br />
  <a class="el" href="d5/d0b/a00220.php#a5046a9dfac4629babcb20cf7b914415e" title="Print the size of obj type. ">printSize&lt;Type&gt;()</a><br />
  <a class="el" href="d5/d0b/a00220.php#a2bb83762638ce787815f3699d67faa92" title="Print the type of obj. ">mcd::printType(const C&amp; obj)</a><br />
  <a class="el" href="dd/d52/a00221.php#a2bef56760d8ffae969e8a1347194b42c" title="A function that say if a type has an ostream operator(&lt;&lt;) ">mcd::Check::printable(const T&amp;)</a><br />

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 1 2019 15:13:20 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -126,11 +126,23 @@ $(document).ready(function(){initNavTree('globals_defs.php','');});
 <li>line_number
 : <a class="el" href="da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">errors.hpp</a>
 </li>
+<li>MUTEX_CONST_RECREATE
+: <a class="el" href="db/ddf/a00164.php#af882b89ff60874679a5db7856d4130f2">pointers.hpp</a>
+</li>
+<li>MUTEX_CONST_RECREATE_ARGS
+: <a class="el" href="db/ddf/a00164.php#a37add3fecd1208aa0e5fb744bbb8b838">pointers.hpp</a>
+</li>
 <li>MUTEX_RECREATE
 : <a class="el" href="db/ddf/a00164.php#a6fbaf936dc811e3422bec35b026f4983">pointers.hpp</a>
 </li>
 <li>MUTEX_RECREATE_ARGS
 : <a class="el" href="db/ddf/a00164.php#a8614c85113bf4cfc4be80948688e9f5d">pointers.hpp</a>
+</li>
+<li>MUTEX_VOID_CONST_RECREATE
+: <a class="el" href="db/ddf/a00164.php#a017296688d5943266bbe011c59365008">pointers.hpp</a>
+</li>
+<li>MUTEX_VOID_CONST_RECREATE_ARGS
+: <a class="el" href="db/ddf/a00164.php#a0cbcd876925de883c4a297851fdc7b4b">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_RECREATE
 : <a class="el" href="db/ddf/a00164.php#a1268e33dd61371fb191a2e753e76f545">pointers.hpp</a>

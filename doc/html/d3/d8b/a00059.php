@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 1 2019 15:13:17 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -182,50 +182,50 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4a881e27c7ab22bb256fe6fa915a53f3"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
-<tr class="memitem:a4a881e27c7ab22bb256fe6fa915a53f3"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a4a881e27c7ab22bb256fe6fa915a53f3">mcd::tos</a> (Type in)</td></tr>
-<tr class="memdesc:a4a881e27c7ab22bb256fe6fa915a53f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> in a string.  <a href="../../d5/d0b/a00220.php#a4a881e27c7ab22bb256fe6fa915a53f3">More...</a><br /></td></tr>
-<tr class="separator:a4a881e27c7ab22bb256fe6fa915a53f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a394c6f6e658ef68f7fa628a4ef1a27d8"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:a394c6f6e658ef68f7fa628a4ef1a27d8"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a394c6f6e658ef68f7fa628a4ef1a27d8">mcd::toi</a> (V in)</td></tr>
-<tr class="memdesc:a394c6f6e658ef68f7fa628a4ef1a27d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in int.  <a href="../../d5/d0b/a00220.php#a394c6f6e658ef68f7fa628a4ef1a27d8">More...</a><br /></td></tr>
-<tr class="separator:a394c6f6e658ef68f7fa628a4ef1a27d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04a4013b5e7e102afa595db39c2c51d0"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:a04a4013b5e7e102afa595db39c2c51d0"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a04a4013b5e7e102afa595db39c2c51d0">mcd::tod</a> (V in)</td></tr>
-<tr class="memdesc:a04a4013b5e7e102afa595db39c2c51d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in double.  <a href="../../d5/d0b/a00220.php#a04a4013b5e7e102afa595db39c2c51d0">More...</a><br /></td></tr>
-<tr class="separator:a04a4013b5e7e102afa595db39c2c51d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff767f9afbaa05b8075ddb95ed1005ec"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:aff767f9afbaa05b8075ddb95ed1005ec"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#aff767f9afbaa05b8075ddb95ed1005ec">mcd::tof</a> (V in)</td></tr>
-<tr class="memdesc:aff767f9afbaa05b8075ddb95ed1005ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in float.  <a href="../../d5/d0b/a00220.php#aff767f9afbaa05b8075ddb95ed1005ec">More...</a><br /></td></tr>
-<tr class="separator:aff767f9afbaa05b8075ddb95ed1005ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6f79ef9559f97a0c2df2ae9a2823b2d"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:ad6f79ef9559f97a0c2df2ae9a2823b2d"><td class="memTemplItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#ad6f79ef9559f97a0c2df2ae9a2823b2d">mcd::tou</a> (V in)</td></tr>
-<tr class="memdesc:ad6f79ef9559f97a0c2df2ae9a2823b2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in unsigned int.  <a href="../../d5/d0b/a00220.php#ad6f79ef9559f97a0c2df2ae9a2823b2d">More...</a><br /></td></tr>
-<tr class="separator:ad6f79ef9559f97a0c2df2ae9a2823b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac31252127b23397d1d2a33edcbef372"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:aac31252127b23397d1d2a33edcbef372"><td class="memTemplItemLeft" align="right" valign="top">unsigned long long int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#aac31252127b23397d1d2a33edcbef372">mcd::tov</a> (V in)</td></tr>
-<tr class="memdesc:aac31252127b23397d1d2a33edcbef372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in unsigned long long int.  <a href="../../d5/d0b/a00220.php#aac31252127b23397d1d2a33edcbef372">More...</a><br /></td></tr>
-<tr class="separator:aac31252127b23397d1d2a33edcbef372"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19f7b1d39da03306645ea0d3cf20ac57"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:a19f7b1d39da03306645ea0d3cf20ac57"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a19f7b1d39da03306645ea0d3cf20ac57">mcd::tost</a> (V in)</td></tr>
-<tr class="memdesc:a19f7b1d39da03306645ea0d3cf20ac57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in size_t.  <a href="../../d5/d0b/a00220.php#a19f7b1d39da03306645ea0d3cf20ac57">More...</a><br /></td></tr>
-<tr class="separator:a19f7b1d39da03306645ea0d3cf20ac57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affda53dfde66654c598d454cffb0e68c"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:affda53dfde66654c598d454cffb0e68c"><td class="memTemplItemLeft" align="right" valign="top">short&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#affda53dfde66654c598d454cffb0e68c">mcd::tosh</a> (V in)</td></tr>
-<tr class="memdesc:affda53dfde66654c598d454cffb0e68c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in short.  <a href="../../d5/d0b/a00220.php#affda53dfde66654c598d454cffb0e68c">More...</a><br /></td></tr>
-<tr class="separator:affda53dfde66654c598d454cffb0e68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af64dff777bec7ba0d0dd8ad991a0a513"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:af64dff777bec7ba0d0dd8ad991a0a513"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#af64dff777bec7ba0d0dd8ad991a0a513">mcd::tob</a> (V in)</td></tr>
-<tr class="memdesc:af64dff777bec7ba0d0dd8ad991a0a513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in boolean.  <a href="../../d5/d0b/a00220.php#af64dff777bec7ba0d0dd8ad991a0a513">More...</a><br /></td></tr>
-<tr class="separator:af64dff777bec7ba0d0dd8ad991a0a513"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebefabfd65c7a5f04f743779483dabbc"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:aebefabfd65c7a5f04f743779483dabbc"><td class="memTemplItemLeft" align="right" valign="top">std::chrono::milliseconds&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#aebefabfd65c7a5f04f743779483dabbc">mcd::tomilli</a> (V in)</td></tr>
-<tr class="memdesc:aebefabfd65c7a5f04f743779483dabbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in std::chrono::milliseconds.  <a href="../../d5/d0b/a00220.php#aebefabfd65c7a5f04f743779483dabbc">More...</a><br /></td></tr>
-<tr class="separator:aebefabfd65c7a5f04f743779483dabbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae057a7c5042a3cacb444199a2b6b7598"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:ae057a7c5042a3cacb444199a2b6b7598"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#ae057a7c5042a3cacb444199a2b6b7598">mcd::tos</a> (const Type &amp;in)</td></tr>
+<tr class="memdesc:ae057a7c5042a3cacb444199a2b6b7598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> in a string.  <a href="../../d5/d0b/a00220.php#ae057a7c5042a3cacb444199a2b6b7598">More...</a><br /></td></tr>
+<tr class="separator:ae057a7c5042a3cacb444199a2b6b7598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a476d57ae34f933a4192553496ec91208"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a476d57ae34f933a4192553496ec91208"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a476d57ae34f933a4192553496ec91208">mcd::toi</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a476d57ae34f933a4192553496ec91208"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in int.  <a href="../../d5/d0b/a00220.php#a476d57ae34f933a4192553496ec91208">More...</a><br /></td></tr>
+<tr class="separator:a476d57ae34f933a4192553496ec91208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c6193ba2e9669603892d2508cbc6668"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a3c6193ba2e9669603892d2508cbc6668"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a3c6193ba2e9669603892d2508cbc6668">mcd::tod</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a3c6193ba2e9669603892d2508cbc6668"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in double.  <a href="../../d5/d0b/a00220.php#a3c6193ba2e9669603892d2508cbc6668">More...</a><br /></td></tr>
+<tr class="separator:a3c6193ba2e9669603892d2508cbc6668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ed92c0cecb59861393802ac313a2b0f"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a6ed92c0cecb59861393802ac313a2b0f"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a6ed92c0cecb59861393802ac313a2b0f">mcd::tof</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a6ed92c0cecb59861393802ac313a2b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in float.  <a href="../../d5/d0b/a00220.php#a6ed92c0cecb59861393802ac313a2b0f">More...</a><br /></td></tr>
+<tr class="separator:a6ed92c0cecb59861393802ac313a2b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a818831d2e74dbfa3be2150c38a9afa31"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a818831d2e74dbfa3be2150c38a9afa31"><td class="memTemplItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a818831d2e74dbfa3be2150c38a9afa31">mcd::tou</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a818831d2e74dbfa3be2150c38a9afa31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in unsigned int.  <a href="../../d5/d0b/a00220.php#a818831d2e74dbfa3be2150c38a9afa31">More...</a><br /></td></tr>
+<tr class="separator:a818831d2e74dbfa3be2150c38a9afa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21f9e69f4ccff705b65007a1ac7063ef"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a21f9e69f4ccff705b65007a1ac7063ef"><td class="memTemplItemLeft" align="right" valign="top">unsigned long long int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a21f9e69f4ccff705b65007a1ac7063ef">mcd::tov</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a21f9e69f4ccff705b65007a1ac7063ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in unsigned long long int.  <a href="../../d5/d0b/a00220.php#a21f9e69f4ccff705b65007a1ac7063ef">More...</a><br /></td></tr>
+<tr class="separator:a21f9e69f4ccff705b65007a1ac7063ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a917e4be62e6930b138038ae16ebc7904"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a917e4be62e6930b138038ae16ebc7904"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a917e4be62e6930b138038ae16ebc7904">mcd::tost</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a917e4be62e6930b138038ae16ebc7904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in size_t.  <a href="../../d5/d0b/a00220.php#a917e4be62e6930b138038ae16ebc7904">More...</a><br /></td></tr>
+<tr class="separator:a917e4be62e6930b138038ae16ebc7904"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfea444e2cb8e428b7c9604d77076ad1"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:adfea444e2cb8e428b7c9604d77076ad1"><td class="memTemplItemLeft" align="right" valign="top">short&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#adfea444e2cb8e428b7c9604d77076ad1">mcd::tosh</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:adfea444e2cb8e428b7c9604d77076ad1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in short.  <a href="../../d5/d0b/a00220.php#adfea444e2cb8e428b7c9604d77076ad1">More...</a><br /></td></tr>
+<tr class="separator:adfea444e2cb8e428b7c9604d77076ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b322c51a82629ed6b2325f2f938eae3"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a7b322c51a82629ed6b2325f2f938eae3"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a7b322c51a82629ed6b2325f2f938eae3">mcd::tob</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a7b322c51a82629ed6b2325f2f938eae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in boolean.  <a href="../../d5/d0b/a00220.php#a7b322c51a82629ed6b2325f2f938eae3">More...</a><br /></td></tr>
+<tr class="separator:a7b322c51a82629ed6b2325f2f938eae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71458bb6c1d0939bd975cdf25e864599"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a71458bb6c1d0939bd975cdf25e864599"><td class="memTemplItemLeft" align="right" valign="top">std::chrono::milliseconds&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a71458bb6c1d0939bd975cdf25e864599">mcd::tomilli</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a71458bb6c1d0939bd975cdf25e864599"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in std::chrono::milliseconds.  <a href="../../d5/d0b/a00220.php#a71458bb6c1d0939bd975cdf25e864599">More...</a><br /></td></tr>
+<tr class="separator:a71458bb6c1d0939bd975cdf25e864599"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : August, 15 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Last modification : October, 02 2019 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

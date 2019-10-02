@@ -48,7 +48,7 @@ namespace mcd {
 	}
 
 	/* Write the lines into a given output stream */
-	bool setlines(std::ofstream& output, std::vector<std::string> lines){
+	bool setlines(std::ofstream& output, const std::vector<std::string>& lines){
 		if(!output){
 			return false;
 		}

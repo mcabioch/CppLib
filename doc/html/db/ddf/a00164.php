@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 1 2019 15:13:17 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -204,6 +204,14 @@ Macros</h2></td></tr>
 <tr class="separator:a1268e33dd61371fb191a2e753e76f545"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5664112302c26ebee5460b2fcc0a7954"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/ddf/a00164.php#a5664112302c26ebee5460b2fcc0a7954">MUTEX_VOID_RECREATE_ARGS</a>(parent,  name, ...)</td></tr>
 <tr class="separator:a5664112302c26ebee5460b2fcc0a7954"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af882b89ff60874679a5db7856d4130f2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/ddf/a00164.php#af882b89ff60874679a5db7856d4130f2">MUTEX_CONST_RECREATE</a>(parent,  name,  type)</td></tr>
+<tr class="separator:af882b89ff60874679a5db7856d4130f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37add3fecd1208aa0e5fb744bbb8b838"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/ddf/a00164.php#a37add3fecd1208aa0e5fb744bbb8b838">MUTEX_CONST_RECREATE_ARGS</a>(parent,  name,  type, ...)</td></tr>
+<tr class="separator:a37add3fecd1208aa0e5fb744bbb8b838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a017296688d5943266bbe011c59365008"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/ddf/a00164.php#a017296688d5943266bbe011c59365008">MUTEX_VOID_CONST_RECREATE</a>(parent,  name)</td></tr>
+<tr class="separator:a017296688d5943266bbe011c59365008"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cbcd876925de883c4a297851fdc7b4b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/ddf/a00164.php#a0cbcd876925de883c4a297851fdc7b4b">MUTEX_VOID_CONST_RECREATE_ARGS</a>(parent,  name, ...)</td></tr>
+<tr class="separator:a0cbcd876925de883c4a297851fdc7b4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -216,6 +224,80 @@ Functions</h2></td></tr>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Last modification : April, 15 2019 </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="af882b89ff60874679a5db7856d4130f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af882b89ff60874679a5db7856d4130f2">&#9670;&nbsp;</a></span>MUTEX_CONST_RECREATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MUTEX_CONST_RECREATE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">parent, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">type&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">type name()<span class="keyword"> const </span>{\</div><div class="line">    _mutex.lock();\</div><div class="line">    type out = parent::name();\</div><div class="line">    _mutex.unlock();\</div><div class="line">    return out;\</div><div class="line">}</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a37add3fecd1208aa0e5fb744bbb8b838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37add3fecd1208aa0e5fb744bbb8b838">&#9670;&nbsp;</a></span>MUTEX_CONST_RECREATE_ARGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MUTEX_CONST_RECREATE_ARGS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">parent, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">type, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">type name(__VA_ARGS__)<span class="keyword"> const </span>{\</div><div class="line">    _mutex.lock();\</div><div class="line">    type out = parent::name(__VA_ARGS__);\</div><div class="line">    _mutex.unlock();\</div><div class="line">    return out;\</div><div class="line">}</div></div><!-- fragment -->
+</div>
+</div>
 <a id="a6fbaf936dc811e3422bec35b026f4983"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6fbaf936dc811e3422bec35b026f4983">&#9670;&nbsp;</a></span>MUTEX_RECREATE</h2>
 
@@ -288,6 +370,68 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">type name(__VA_ARGS__){\</div><div class="line">    _mutex.lock();\</div><div class="line">    type out = parent::name(__VA_ARGS__);\</div><div class="line">    _mutex.unlock();\</div><div class="line">    return out;\</div><div class="line">}</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a017296688d5943266bbe011c59365008"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a017296688d5943266bbe011c59365008">&#9670;&nbsp;</a></span>MUTEX_VOID_CONST_RECREATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MUTEX_VOID_CONST_RECREATE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">parent, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordtype">void</span> name()<span class="keyword"> const </span>{\</div><div class="line">    _mutex.lock();\</div><div class="line">    parent::name();\</div><div class="line">    _mutex.unlock();\</div><div class="line">}</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a0cbcd876925de883c4a297851fdc7b4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cbcd876925de883c4a297851fdc7b4b">&#9670;&nbsp;</a></span>MUTEX_VOID_CONST_RECREATE_ARGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MUTEX_VOID_CONST_RECREATE_ARGS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">parent, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordtype">void</span> name(__VA_ARGS__)<span class="keyword"> const </span>{\</div><div class="line">    _mutex.lock();\</div><div class="line">    parent::name(__VA_ARGS__);\</div><div class="line">    _mutex.unlock();\</div><div class="line">}</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a1268e33dd61371fb191a2e753e76f545"></a>

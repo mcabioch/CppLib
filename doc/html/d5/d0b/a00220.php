@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 1 2019 15:13:17 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -432,32 +432,32 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2db82764bac2a48879000848b3af7c79"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a2db82764bac2a48879000848b3af7c79"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a2db82764bac2a48879000848b3af7c79">implode</a> (std::vector&lt; T &gt; a, const std::string &amp;glue=&quot;&quot;)</td></tr>
-<tr class="memdesc:a2db82764bac2a48879000848b3af7c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="#a2db82764bac2a48879000848b3af7c79">More...</a><br /></td></tr>
-<tr class="separator:a2db82764bac2a48879000848b3af7c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49514e6c6c7518d6207a0f707ec92529"><td class="memTemplParams" colspan="2">template&lt;typename Array &gt; </td></tr>
-<tr class="memitem:a49514e6c6c7518d6207a0f707ec92529"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a49514e6c6c7518d6207a0f707ec92529">print_r</a> (Array a)</td></tr>
-<tr class="memdesc:a49514e6c6c7518d6207a0f707ec92529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="#a49514e6c6c7518d6207a0f707ec92529">More...</a><br /></td></tr>
-<tr class="separator:a49514e6c6c7518d6207a0f707ec92529"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab06f1dc4b0034eb8041c40a16b70e4ca"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:ab06f1dc4b0034eb8041c40a16b70e4ca"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#ab06f1dc4b0034eb8041c40a16b70e4ca">rewrite</a> (std::vector&lt; V &gt; table, unsigned index)</td></tr>
-<tr class="memdesc:ab06f1dc4b0034eb8041c40a16b70e4ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="#ab06f1dc4b0034eb8041c40a16b70e4ca">More...</a><br /></td></tr>
-<tr class="separator:ab06f1dc4b0034eb8041c40a16b70e4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ac7c03f689e82ab37f28905b06cedbd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a3ac7c03f689e82ab37f28905b06cedbd"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a3ac7c03f689e82ab37f28905b06cedbd">contains</a> (std::vector&lt; T &gt; table, T value)</td></tr>
-<tr class="memdesc:a3ac7c03f689e82ab37f28905b06cedbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a vector contains or not something.  <a href="#a3ac7c03f689e82ab37f28905b06cedbd">More...</a><br /></td></tr>
-<tr class="separator:a3ac7c03f689e82ab37f28905b06cedbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95b30a0f37ef4accc8c762eee75bcc12"><td class="memTemplParams" colspan="2">template&lt;typename Something &gt; </td></tr>
-<tr class="memitem:a95b30a0f37ef4accc8c762eee75bcc12"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a95b30a0f37ef4accc8c762eee75bcc12">print_all</a> (Something data, bool change=false)</td></tr>
-<tr class="memdesc:a95b30a0f37ef4accc8c762eee75bcc12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints approximately everything.  <a href="#a95b30a0f37ef4accc8c762eee75bcc12">More...</a><br /></td></tr>
-<tr class="separator:a95b30a0f37ef4accc8c762eee75bcc12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad751f3d04e342cbe86c561683c3bd99c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad751f3d04e342cbe86c561683c3bd99c"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#ad751f3d04e342cbe86c561683c3bd99c">implode</a> (const std::vector&lt; T &gt; &amp;a, const std::string &amp;glue=&quot;&quot;)</td></tr>
+<tr class="memdesc:ad751f3d04e342cbe86c561683c3bd99c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="#ad751f3d04e342cbe86c561683c3bd99c">More...</a><br /></td></tr>
+<tr class="separator:ad751f3d04e342cbe86c561683c3bd99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0029a835651d350c925a43fd718ab590"><td class="memTemplParams" colspan="2">template&lt;typename Array &gt; </td></tr>
+<tr class="memitem:a0029a835651d350c925a43fd718ab590"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a0029a835651d350c925a43fd718ab590">print_r</a> (const Array &amp;a)</td></tr>
+<tr class="memdesc:a0029a835651d350c925a43fd718ab590"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="#a0029a835651d350c925a43fd718ab590">More...</a><br /></td></tr>
+<tr class="separator:a0029a835651d350c925a43fd718ab590"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4462e6059998aa718e92fd11fd9747e8"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a4462e6059998aa718e92fd11fd9747e8"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a4462e6059998aa718e92fd11fd9747e8">rewrite</a> (const std::vector&lt; V &gt; &amp;table, unsigned index)</td></tr>
+<tr class="memdesc:a4462e6059998aa718e92fd11fd9747e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="#a4462e6059998aa718e92fd11fd9747e8">More...</a><br /></td></tr>
+<tr class="separator:a4462e6059998aa718e92fd11fd9747e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53bf266a5db5dc112e71ebe3c78946e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad53bf266a5db5dc112e71ebe3c78946e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#ad53bf266a5db5dc112e71ebe3c78946e">contains</a> (const std::vector&lt; T &gt; &amp;table, T value)</td></tr>
+<tr class="memdesc:ad53bf266a5db5dc112e71ebe3c78946e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a vector contains or not something.  <a href="#ad53bf266a5db5dc112e71ebe3c78946e">More...</a><br /></td></tr>
+<tr class="separator:ad53bf266a5db5dc112e71ebe3c78946e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5996fcf8097a903a5461a6035ff0f98d"><td class="memTemplParams" colspan="2">template&lt;typename Something &gt; </td></tr>
+<tr class="memitem:a5996fcf8097a903a5461a6035ff0f98d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a5996fcf8097a903a5461a6035ff0f98d">print_all</a> (const Something &amp;data, bool change=false)</td></tr>
+<tr class="memdesc:a5996fcf8097a903a5461a6035ff0f98d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints approximately everything.  <a href="#a5996fcf8097a903a5461a6035ff0f98d">More...</a><br /></td></tr>
+<tr class="separator:a5996fcf8097a903a5461a6035ff0f98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1c42a8b9412d2afa3b486c5e629f752"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#af1c42a8b9412d2afa3b486c5e629f752">array2Dto1D</a> (size_t x, size_t y, size_t maxX)</td></tr>
 <tr class="separator:af1c42a8b9412d2afa3b486c5e629f752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a040a2aa0625adc9f13e6568d906a20a2"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a040a2aa0625adc9f13e6568d906a20a2">array1Dto2D</a> (size_t index, size_t maxX)</td></tr>
 <tr class="separator:a040a2aa0625adc9f13e6568d906a20a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2539eedc8c5dcf1f8f7801eeb919de42"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a2539eedc8c5dcf1f8f7801eeb919de42">array2Dto1D</a> (<a class="el" href="../../dd/dee/a01081.php">Point</a> pt, size_t maxX)</td></tr>
-<tr class="separator:a2539eedc8c5dcf1f8f7801eeb919de42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53a33cf86c36584f92495307f8e68a00"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a53a33cf86c36584f92495307f8e68a00">array2Dto1D</a> (const <a class="el" href="../../dd/dee/a01081.php">Point</a> &amp;pt, size_t maxX)</td></tr>
+<tr class="separator:a53a33cf86c36584f92495307f8e68a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66e560b6579bb202abdcee37283121a0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a66e560b6579bb202abdcee37283121a0"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a66e560b6579bb202abdcee37283121a0">toBigVal</a> (T in)</td></tr>
 <tr class="memdesc:a66e560b6579bb202abdcee37283121a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a value from something to std::string.  <a href="#a66e560b6579bb202abdcee37283121a0">More...</a><br /></td></tr>
@@ -534,46 +534,46 @@ Functions</h2></td></tr>
 <tr class="memitem:af6f9411fa8041c4f9f81519deeba4a0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#af6f9411fa8041c4f9f81519deeba4a0a">ProjectionSurSegment</a> (<a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> Cx, <a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> Cy, <a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> Ax, <a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> Ay, <a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> Bx, <a class="el" href="../../d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> By)</td></tr>
 <tr class="memdesc:af6f9411fa8041c4f9f81519deeba4a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision on a segment.  <a href="#af6f9411fa8041c4f9f81519deeba4a0a">More...</a><br /></td></tr>
 <tr class="separator:af6f9411fa8041c4f9f81519deeba4a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a881e27c7ab22bb256fe6fa915a53f3"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
-<tr class="memitem:a4a881e27c7ab22bb256fe6fa915a53f3"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a4a881e27c7ab22bb256fe6fa915a53f3">tos</a> (Type in)</td></tr>
-<tr class="memdesc:a4a881e27c7ab22bb256fe6fa915a53f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> in a string.  <a href="#a4a881e27c7ab22bb256fe6fa915a53f3">More...</a><br /></td></tr>
-<tr class="separator:a4a881e27c7ab22bb256fe6fa915a53f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a394c6f6e658ef68f7fa628a4ef1a27d8"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:a394c6f6e658ef68f7fa628a4ef1a27d8"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a394c6f6e658ef68f7fa628a4ef1a27d8">toi</a> (V in)</td></tr>
-<tr class="memdesc:a394c6f6e658ef68f7fa628a4ef1a27d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in int.  <a href="#a394c6f6e658ef68f7fa628a4ef1a27d8">More...</a><br /></td></tr>
-<tr class="separator:a394c6f6e658ef68f7fa628a4ef1a27d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04a4013b5e7e102afa595db39c2c51d0"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:a04a4013b5e7e102afa595db39c2c51d0"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a04a4013b5e7e102afa595db39c2c51d0">tod</a> (V in)</td></tr>
-<tr class="memdesc:a04a4013b5e7e102afa595db39c2c51d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in double.  <a href="#a04a4013b5e7e102afa595db39c2c51d0">More...</a><br /></td></tr>
-<tr class="separator:a04a4013b5e7e102afa595db39c2c51d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff767f9afbaa05b8075ddb95ed1005ec"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:aff767f9afbaa05b8075ddb95ed1005ec"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#aff767f9afbaa05b8075ddb95ed1005ec">tof</a> (V in)</td></tr>
-<tr class="memdesc:aff767f9afbaa05b8075ddb95ed1005ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in float.  <a href="#aff767f9afbaa05b8075ddb95ed1005ec">More...</a><br /></td></tr>
-<tr class="separator:aff767f9afbaa05b8075ddb95ed1005ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6f79ef9559f97a0c2df2ae9a2823b2d"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:ad6f79ef9559f97a0c2df2ae9a2823b2d"><td class="memTemplItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#ad6f79ef9559f97a0c2df2ae9a2823b2d">tou</a> (V in)</td></tr>
-<tr class="memdesc:ad6f79ef9559f97a0c2df2ae9a2823b2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in unsigned int.  <a href="#ad6f79ef9559f97a0c2df2ae9a2823b2d">More...</a><br /></td></tr>
-<tr class="separator:ad6f79ef9559f97a0c2df2ae9a2823b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac31252127b23397d1d2a33edcbef372"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:aac31252127b23397d1d2a33edcbef372"><td class="memTemplItemLeft" align="right" valign="top">unsigned long long int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#aac31252127b23397d1d2a33edcbef372">tov</a> (V in)</td></tr>
-<tr class="memdesc:aac31252127b23397d1d2a33edcbef372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in unsigned long long int.  <a href="#aac31252127b23397d1d2a33edcbef372">More...</a><br /></td></tr>
-<tr class="separator:aac31252127b23397d1d2a33edcbef372"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19f7b1d39da03306645ea0d3cf20ac57"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:a19f7b1d39da03306645ea0d3cf20ac57"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a19f7b1d39da03306645ea0d3cf20ac57">tost</a> (V in)</td></tr>
-<tr class="memdesc:a19f7b1d39da03306645ea0d3cf20ac57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in size_t.  <a href="#a19f7b1d39da03306645ea0d3cf20ac57">More...</a><br /></td></tr>
-<tr class="separator:a19f7b1d39da03306645ea0d3cf20ac57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affda53dfde66654c598d454cffb0e68c"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:affda53dfde66654c598d454cffb0e68c"><td class="memTemplItemLeft" align="right" valign="top">short&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#affda53dfde66654c598d454cffb0e68c">tosh</a> (V in)</td></tr>
-<tr class="memdesc:affda53dfde66654c598d454cffb0e68c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in short.  <a href="#affda53dfde66654c598d454cffb0e68c">More...</a><br /></td></tr>
-<tr class="separator:affda53dfde66654c598d454cffb0e68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af64dff777bec7ba0d0dd8ad991a0a513"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:af64dff777bec7ba0d0dd8ad991a0a513"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#af64dff777bec7ba0d0dd8ad991a0a513">tob</a> (V in)</td></tr>
-<tr class="memdesc:af64dff777bec7ba0d0dd8ad991a0a513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in boolean.  <a href="#af64dff777bec7ba0d0dd8ad991a0a513">More...</a><br /></td></tr>
-<tr class="separator:af64dff777bec7ba0d0dd8ad991a0a513"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebefabfd65c7a5f04f743779483dabbc"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:aebefabfd65c7a5f04f743779483dabbc"><td class="memTemplItemLeft" align="right" valign="top">std::chrono::milliseconds&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#aebefabfd65c7a5f04f743779483dabbc">tomilli</a> (V in)</td></tr>
-<tr class="memdesc:aebefabfd65c7a5f04f743779483dabbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in std::chrono::milliseconds.  <a href="#aebefabfd65c7a5f04f743779483dabbc">More...</a><br /></td></tr>
-<tr class="separator:aebefabfd65c7a5f04f743779483dabbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae057a7c5042a3cacb444199a2b6b7598"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:ae057a7c5042a3cacb444199a2b6b7598"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#ae057a7c5042a3cacb444199a2b6b7598">tos</a> (const Type &amp;in)</td></tr>
+<tr class="memdesc:ae057a7c5042a3cacb444199a2b6b7598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> in a string.  <a href="#ae057a7c5042a3cacb444199a2b6b7598">More...</a><br /></td></tr>
+<tr class="separator:ae057a7c5042a3cacb444199a2b6b7598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a476d57ae34f933a4192553496ec91208"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a476d57ae34f933a4192553496ec91208"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a476d57ae34f933a4192553496ec91208">toi</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a476d57ae34f933a4192553496ec91208"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in int.  <a href="#a476d57ae34f933a4192553496ec91208">More...</a><br /></td></tr>
+<tr class="separator:a476d57ae34f933a4192553496ec91208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c6193ba2e9669603892d2508cbc6668"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a3c6193ba2e9669603892d2508cbc6668"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a3c6193ba2e9669603892d2508cbc6668">tod</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a3c6193ba2e9669603892d2508cbc6668"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in double.  <a href="#a3c6193ba2e9669603892d2508cbc6668">More...</a><br /></td></tr>
+<tr class="separator:a3c6193ba2e9669603892d2508cbc6668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ed92c0cecb59861393802ac313a2b0f"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a6ed92c0cecb59861393802ac313a2b0f"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a6ed92c0cecb59861393802ac313a2b0f">tof</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a6ed92c0cecb59861393802ac313a2b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in float.  <a href="#a6ed92c0cecb59861393802ac313a2b0f">More...</a><br /></td></tr>
+<tr class="separator:a6ed92c0cecb59861393802ac313a2b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a818831d2e74dbfa3be2150c38a9afa31"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a818831d2e74dbfa3be2150c38a9afa31"><td class="memTemplItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a818831d2e74dbfa3be2150c38a9afa31">tou</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a818831d2e74dbfa3be2150c38a9afa31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in unsigned int.  <a href="#a818831d2e74dbfa3be2150c38a9afa31">More...</a><br /></td></tr>
+<tr class="separator:a818831d2e74dbfa3be2150c38a9afa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21f9e69f4ccff705b65007a1ac7063ef"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a21f9e69f4ccff705b65007a1ac7063ef"><td class="memTemplItemLeft" align="right" valign="top">unsigned long long int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a21f9e69f4ccff705b65007a1ac7063ef">tov</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a21f9e69f4ccff705b65007a1ac7063ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in unsigned long long int.  <a href="#a21f9e69f4ccff705b65007a1ac7063ef">More...</a><br /></td></tr>
+<tr class="separator:a21f9e69f4ccff705b65007a1ac7063ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a917e4be62e6930b138038ae16ebc7904"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a917e4be62e6930b138038ae16ebc7904"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a917e4be62e6930b138038ae16ebc7904">tost</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a917e4be62e6930b138038ae16ebc7904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in size_t.  <a href="#a917e4be62e6930b138038ae16ebc7904">More...</a><br /></td></tr>
+<tr class="separator:a917e4be62e6930b138038ae16ebc7904"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfea444e2cb8e428b7c9604d77076ad1"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:adfea444e2cb8e428b7c9604d77076ad1"><td class="memTemplItemLeft" align="right" valign="top">short&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#adfea444e2cb8e428b7c9604d77076ad1">tosh</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:adfea444e2cb8e428b7c9604d77076ad1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in short.  <a href="#adfea444e2cb8e428b7c9604d77076ad1">More...</a><br /></td></tr>
+<tr class="separator:adfea444e2cb8e428b7c9604d77076ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b322c51a82629ed6b2325f2f938eae3"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a7b322c51a82629ed6b2325f2f938eae3"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a7b322c51a82629ed6b2325f2f938eae3">tob</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a7b322c51a82629ed6b2325f2f938eae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in boolean.  <a href="#a7b322c51a82629ed6b2325f2f938eae3">More...</a><br /></td></tr>
+<tr class="separator:a7b322c51a82629ed6b2325f2f938eae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71458bb6c1d0939bd975cdf25e864599"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a71458bb6c1d0939bd975cdf25e864599"><td class="memTemplItemLeft" align="right" valign="top">std::chrono::milliseconds&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a71458bb6c1d0939bd975cdf25e864599">tomilli</a> (const V &amp;in)</td></tr>
+<tr class="memdesc:a71458bb6c1d0939bd975cdf25e864599"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in std::chrono::milliseconds.  <a href="#a71458bb6c1d0939bd975cdf25e864599">More...</a><br /></td></tr>
+<tr class="separator:a71458bb6c1d0939bd975cdf25e864599"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74705a4e1fb16838be02655f4ea61e11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a74705a4e1fb16838be02655f4ea61e11">operator&lt;</a> (const <a class="el" href="../../dc/d92/a00929.php">Date</a> &amp;a, const <a class="el" href="../../dc/d92/a00929.php">Date</a> &amp;b)</td></tr>
 <tr class="separator:a74705a4e1fb16838be02655f4ea61e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91f197d1381e789ce2295059d4d02c13"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a91f197d1381e789ce2295059d4d02c13">operator==</a> (const <a class="el" href="../../dc/d92/a00929.php">Date</a> &amp;a, const <a class="el" href="../../dc/d92/a00929.php">Date</a> &amp;b)</td></tr>
@@ -1663,8 +1663,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a2539eedc8c5dcf1f8f7801eeb919de42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2539eedc8c5dcf1f8f7801eeb919de42">&#9670;&nbsp;</a></span>array2Dto1D() <span class="overload">[2/2]</span></h2>
+<a id="a53a33cf86c36584f92495307f8e68a00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53a33cf86c36584f92495307f8e68a00">&#9670;&nbsp;</a></span>array2Dto1D() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1675,7 +1675,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname">size_t mcd::array2Dto1D </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dee/a01081.php">Point</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dee/a01081.php">Point</a> &amp;&#160;</td>
           <td class="paramname"><em>pt</em>, </td>
         </tr>
         <tr>
@@ -1699,8 +1699,8 @@ template&lt;class T &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d0b/a00220_a2539eedc8c5dcf1f8f7801eeb919de42_cgraph.png" border="0" usemap="#d5/d0b/a00220_a2539eedc8c5dcf1f8f7801eeb919de42_cgraph" alt=""/></div>
-<map name="d5/d0b/a00220_a2539eedc8c5dcf1f8f7801eeb919de42_cgraph" id="d5/d0b/a00220_a2539eedc8c5dcf1f8f7801eeb919de42_cgraph">
+<div class="center"><img src="../../d5/d0b/a00220_a53a33cf86c36584f92495307f8e68a00_cgraph.png" border="0" usemap="#d5/d0b/a00220_a53a33cf86c36584f92495307f8e68a00_cgraph" alt=""/></div>
+<map name="d5/d0b/a00220_a53a33cf86c36584f92495307f8e68a00_cgraph" id="d5/d0b/a00220_a53a33cf86c36584f92495307f8e68a00_cgraph">
 <area shape="rect" id="node2" href="../../d5/d0b/a00220.php#af1c42a8b9412d2afa3b486c5e629f752" title="mcd::array2Dto1D" alt="" coords="183,5,312,32"/>
 </map>
 </div>
@@ -2051,8 +2051,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a3ac7c03f689e82ab37f28905b06cedbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ac7c03f689e82ab37f28905b06cedbd">&#9670;&nbsp;</a></span>contains()</h2>
+<a id="ad53bf266a5db5dc112e71ebe3c78946e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad53bf266a5db5dc112e71ebe3c78946e">&#9670;&nbsp;</a></span>contains()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2062,7 +2062,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">bool mcd::contains </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; T &gt;&#160;</td>
+          <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>table</em>, </td>
         </tr>
         <tr>
@@ -2091,9 +2091,9 @@ template&lt;typename T &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d0b/a00220_a3ac7c03f689e82ab37f28905b06cedbd_cgraph.png" border="0" usemap="#d5/d0b/a00220_a3ac7c03f689e82ab37f28905b06cedbd_cgraph" alt=""/></div>
-<map name="d5/d0b/a00220_a3ac7c03f689e82ab37f28905b06cedbd_cgraph" id="d5/d0b/a00220_a3ac7c03f689e82ab37f28905b06cedbd_cgraph">
-<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#a95b30a0f37ef4accc8c762eee75bcc12" title="Prints approximately everything. " alt="" coords="157,5,257,32"/>
+<div class="center"><img src="../../d5/d0b/a00220_ad53bf266a5db5dc112e71ebe3c78946e_cgraph.png" border="0" usemap="#d5/d0b/a00220_ad53bf266a5db5dc112e71ebe3c78946e_cgraph" alt=""/></div>
+<map name="d5/d0b/a00220_ad53bf266a5db5dc112e71ebe3c78946e_cgraph" id="d5/d0b/a00220_ad53bf266a5db5dc112e71ebe3c78946e_cgraph">
+<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#a5996fcf8097a903a5461a6035ff0f98d" title="Prints approximately everything. " alt="" coords="157,5,257,32"/>
 </map>
 </div>
 
@@ -2771,8 +2771,8 @@ template&lt;class C &gt; </div>
 
 </div>
 </div>
-<a id="a2db82764bac2a48879000848b3af7c79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2db82764bac2a48879000848b3af7c79">&#9670;&nbsp;</a></span>implode()</h2>
+<a id="ad751f3d04e342cbe86c561683c3bd99c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad751f3d04e342cbe86c561683c3bd99c">&#9670;&nbsp;</a></span>implode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2782,7 +2782,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">std::string mcd::implode </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; T &gt;&#160;</td>
+          <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
@@ -2811,9 +2811,9 @@ template&lt;typename T &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d0b/a00220_a2db82764bac2a48879000848b3af7c79_cgraph.png" border="0" usemap="#d5/d0b/a00220_a2db82764bac2a48879000848b3af7c79_cgraph" alt=""/></div>
-<map name="d5/d0b/a00220_a2db82764bac2a48879000848b3af7c79_cgraph" id="d5/d0b/a00220_a2db82764bac2a48879000848b3af7c79_cgraph">
-<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#a49514e6c6c7518d6207a0f707ec92529" title="Print the content of an array. " alt="" coords="153,5,244,32"/>
+<div class="center"><img src="../../d5/d0b/a00220_ad751f3d04e342cbe86c561683c3bd99c_cgraph.png" border="0" usemap="#d5/d0b/a00220_ad751f3d04e342cbe86c561683c3bd99c_cgraph" alt=""/></div>
+<map name="d5/d0b/a00220_ad751f3d04e342cbe86c561683c3bd99c_cgraph" id="d5/d0b/a00220_ad751f3d04e342cbe86c561683c3bd99c_cgraph">
+<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#a0029a835651d350c925a43fd718ab590" title="Print the content of an array. " alt="" coords="153,5,244,32"/>
 </map>
 </div>
 
@@ -4658,8 +4658,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a95b30a0f37ef4accc8c762eee75bcc12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95b30a0f37ef4accc8c762eee75bcc12">&#9670;&nbsp;</a></span>print_all()</h2>
+<a id="a5996fcf8097a903a5461a6035ff0f98d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5996fcf8097a903a5461a6035ff0f98d">&#9670;&nbsp;</a></span>print_all()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4669,7 +4669,7 @@ template&lt;typename Something &gt; </div>
         <tr>
           <td class="memname">void mcd::print_all </td>
           <td>(</td>
-          <td class="paramtype">Something&#160;</td>
+          <td class="paramtype">const Something &amp;&#160;</td>
           <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
@@ -4697,8 +4697,8 @@ template&lt;typename Something &gt; </div>
 
 </div>
 </div>
-<a id="a49514e6c6c7518d6207a0f707ec92529"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49514e6c6c7518d6207a0f707ec92529">&#9670;&nbsp;</a></span>print_r()</h2>
+<a id="a0029a835651d350c925a43fd718ab590"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0029a835651d350c925a43fd718ab590">&#9670;&nbsp;</a></span>print_r()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4708,7 +4708,7 @@ template&lt;typename Array &gt; </div>
         <tr>
           <td class="memname">void mcd::print_r </td>
           <td>(</td>
-          <td class="paramtype">Array&#160;</td>
+          <td class="paramtype">const Array &amp;&#160;</td>
           <td class="paramname"><em>a</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5021,8 +5021,8 @@ template&lt;class C &gt; </div>
 
 </div>
 </div>
-<a id="ab06f1dc4b0034eb8041c40a16b70e4ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab06f1dc4b0034eb8041c40a16b70e4ca">&#9670;&nbsp;</a></span>rewrite()</h2>
+<a id="a4462e6059998aa718e92fd11fd9747e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4462e6059998aa718e92fd11fd9747e8">&#9670;&nbsp;</a></span>rewrite()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5032,7 +5032,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">std::vector&lt;V&gt; mcd::rewrite </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; V &gt;&#160;</td>
+          <td class="paramtype">const std::vector&lt; V &gt; &amp;&#160;</td>
           <td class="paramname"><em>table</em>, </td>
         </tr>
         <tr>
@@ -5564,8 +5564,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="af64dff777bec7ba0d0dd8ad991a0a513"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af64dff777bec7ba0d0dd8ad991a0a513">&#9670;&nbsp;</a></span>tob()</h2>
+<a id="a7b322c51a82629ed6b2325f2f938eae3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b322c51a82629ed6b2325f2f938eae3">&#9670;&nbsp;</a></span>tob()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5575,7 +5575,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::tob </td>
           <td>(</td>
-          <td class="paramtype">V&#160;</td>
+          <td class="paramtype">const V &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5593,9 +5593,9 @@ template&lt;typename V &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d0b/a00220_af64dff777bec7ba0d0dd8ad991a0a513_cgraph.png" border="0" usemap="#d5/d0b/a00220_af64dff777bec7ba0d0dd8ad991a0a513_cgraph" alt=""/></div>
-<map name="d5/d0b/a00220_af64dff777bec7ba0d0dd8ad991a0a513_cgraph" id="d5/d0b/a00220_af64dff777bec7ba0d0dd8ad991a0a513_cgraph">
-<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="127,5,200,32"/>
+<div class="center"><img src="../../d5/d0b/a00220_a7b322c51a82629ed6b2325f2f938eae3_cgraph.png" border="0" usemap="#d5/d0b/a00220_a7b322c51a82629ed6b2325f2f938eae3_cgraph" alt=""/></div>
+<map name="d5/d0b/a00220_a7b322c51a82629ed6b2325f2f938eae3_cgraph" id="d5/d0b/a00220_a7b322c51a82629ed6b2325f2f938eae3_cgraph">
+<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string. " alt="" coords="127,5,200,32"/>
 </map>
 </div>
 
@@ -5637,8 +5637,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a04a4013b5e7e102afa595db39c2c51d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04a4013b5e7e102afa595db39c2c51d0">&#9670;&nbsp;</a></span>tod()</h2>
+<a id="a3c6193ba2e9669603892d2508cbc6668"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c6193ba2e9669603892d2508cbc6668">&#9670;&nbsp;</a></span>tod()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5648,7 +5648,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">double mcd::tod </td>
           <td>(</td>
-          <td class="paramtype">V&#160;</td>
+          <td class="paramtype">const V &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5666,16 +5666,16 @@ template&lt;typename V &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d0b/a00220_a04a4013b5e7e102afa595db39c2c51d0_cgraph.png" border="0" usemap="#d5/d0b/a00220_a04a4013b5e7e102afa595db39c2c51d0_cgraph" alt=""/></div>
-<map name="d5/d0b/a00220_a04a4013b5e7e102afa595db39c2c51d0_cgraph" id="d5/d0b/a00220_a04a4013b5e7e102afa595db39c2c51d0_cgraph">
-<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="127,5,200,32"/>
+<div class="center"><img src="../../d5/d0b/a00220_a3c6193ba2e9669603892d2508cbc6668_cgraph.png" border="0" usemap="#d5/d0b/a00220_a3c6193ba2e9669603892d2508cbc6668_cgraph" alt=""/></div>
+<map name="d5/d0b/a00220_a3c6193ba2e9669603892d2508cbc6668_cgraph" id="d5/d0b/a00220_a3c6193ba2e9669603892d2508cbc6668_cgraph">
+<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string. " alt="" coords="127,5,200,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="aff767f9afbaa05b8075ddb95ed1005ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff767f9afbaa05b8075ddb95ed1005ec">&#9670;&nbsp;</a></span>tof()</h2>
+<a id="a6ed92c0cecb59861393802ac313a2b0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ed92c0cecb59861393802ac313a2b0f">&#9670;&nbsp;</a></span>tof()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5685,7 +5685,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">float mcd::tof </td>
           <td>(</td>
-          <td class="paramtype">V&#160;</td>
+          <td class="paramtype">const V &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5703,16 +5703,16 @@ template&lt;typename V &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d0b/a00220_aff767f9afbaa05b8075ddb95ed1005ec_cgraph.png" border="0" usemap="#d5/d0b/a00220_aff767f9afbaa05b8075ddb95ed1005ec_cgraph" alt=""/></div>
-<map name="d5/d0b/a00220_aff767f9afbaa05b8075ddb95ed1005ec_cgraph" id="d5/d0b/a00220_aff767f9afbaa05b8075ddb95ed1005ec_cgraph">
-<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="124,5,197,32"/>
+<div class="center"><img src="../../d5/d0b/a00220_a6ed92c0cecb59861393802ac313a2b0f_cgraph.png" border="0" usemap="#d5/d0b/a00220_a6ed92c0cecb59861393802ac313a2b0f_cgraph" alt=""/></div>
+<map name="d5/d0b/a00220_a6ed92c0cecb59861393802ac313a2b0f_cgraph" id="d5/d0b/a00220_a6ed92c0cecb59861393802ac313a2b0f_cgraph">
+<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string. " alt="" coords="124,5,197,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a394c6f6e658ef68f7fa628a4ef1a27d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a394c6f6e658ef68f7fa628a4ef1a27d8">&#9670;&nbsp;</a></span>toi()</h2>
+<a id="a476d57ae34f933a4192553496ec91208"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a476d57ae34f933a4192553496ec91208">&#9670;&nbsp;</a></span>toi()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5722,7 +5722,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">int mcd::toi </td>
           <td>(</td>
-          <td class="paramtype">V&#160;</td>
+          <td class="paramtype">const V &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5740,16 +5740,16 @@ template&lt;typename V &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d0b/a00220_a394c6f6e658ef68f7fa628a4ef1a27d8_cgraph.png" border="0" usemap="#d5/d0b/a00220_a394c6f6e658ef68f7fa628a4ef1a27d8_cgraph" alt=""/></div>
-<map name="d5/d0b/a00220_a394c6f6e658ef68f7fa628a4ef1a27d8_cgraph" id="d5/d0b/a00220_a394c6f6e658ef68f7fa628a4ef1a27d8_cgraph">
-<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="123,5,196,32"/>
+<div class="center"><img src="../../d5/d0b/a00220_a476d57ae34f933a4192553496ec91208_cgraph.png" border="0" usemap="#d5/d0b/a00220_a476d57ae34f933a4192553496ec91208_cgraph" alt=""/></div>
+<map name="d5/d0b/a00220_a476d57ae34f933a4192553496ec91208_cgraph" id="d5/d0b/a00220_a476d57ae34f933a4192553496ec91208_cgraph">
+<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string. " alt="" coords="123,5,196,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="aebefabfd65c7a5f04f743779483dabbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebefabfd65c7a5f04f743779483dabbc">&#9670;&nbsp;</a></span>tomilli()</h2>
+<a id="a71458bb6c1d0939bd975cdf25e864599"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71458bb6c1d0939bd975cdf25e864599">&#9670;&nbsp;</a></span>tomilli()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5759,7 +5759,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">std::chrono::milliseconds mcd::tomilli </td>
           <td>(</td>
-          <td class="paramtype">V&#160;</td>
+          <td class="paramtype">const V &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5777,16 +5777,16 @@ template&lt;typename V &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d0b/a00220_aebefabfd65c7a5f04f743779483dabbc_cgraph.png" border="0" usemap="#d5/d0b/a00220_aebefabfd65c7a5f04f743779483dabbc_cgraph" alt=""/></div>
-<map name="d5/d0b/a00220_aebefabfd65c7a5f04f743779483dabbc_cgraph" id="d5/d0b/a00220_aebefabfd65c7a5f04f743779483dabbc_cgraph">
-<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="143,5,216,32"/>
+<div class="center"><img src="../../d5/d0b/a00220_a71458bb6c1d0939bd975cdf25e864599_cgraph.png" border="0" usemap="#d5/d0b/a00220_a71458bb6c1d0939bd975cdf25e864599_cgraph" alt=""/></div>
+<map name="d5/d0b/a00220_a71458bb6c1d0939bd975cdf25e864599_cgraph" id="d5/d0b/a00220_a71458bb6c1d0939bd975cdf25e864599_cgraph">
+<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string. " alt="" coords="143,5,216,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a4a881e27c7ab22bb256fe6fa915a53f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a881e27c7ab22bb256fe6fa915a53f3">&#9670;&nbsp;</a></span>tos()</h2>
+<a id="ae057a7c5042a3cacb444199a2b6b7598"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae057a7c5042a3cacb444199a2b6b7598">&#9670;&nbsp;</a></span>tos()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5796,7 +5796,7 @@ template&lt;typename Type &gt; </div>
         <tr>
           <td class="memname">std::string mcd::tos </td>
           <td>(</td>
-          <td class="paramtype">Type&#160;</td>
+          <td class="paramtype">const Type &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5814,8 +5814,8 @@ template&lt;typename Type &gt; </div>
 
 </div>
 </div>
-<a id="affda53dfde66654c598d454cffb0e68c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affda53dfde66654c598d454cffb0e68c">&#9670;&nbsp;</a></span>tosh()</h2>
+<a id="adfea444e2cb8e428b7c9604d77076ad1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfea444e2cb8e428b7c9604d77076ad1">&#9670;&nbsp;</a></span>tosh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5825,7 +5825,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">short mcd::tosh </td>
           <td>(</td>
-          <td class="paramtype">V&#160;</td>
+          <td class="paramtype">const V &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5843,16 +5843,16 @@ template&lt;typename V &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d0b/a00220_affda53dfde66654c598d454cffb0e68c_cgraph.png" border="0" usemap="#d5/d0b/a00220_affda53dfde66654c598d454cffb0e68c_cgraph" alt=""/></div>
-<map name="d5/d0b/a00220_affda53dfde66654c598d454cffb0e68c_cgraph" id="d5/d0b/a00220_affda53dfde66654c598d454cffb0e68c_cgraph">
-<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="133,5,207,32"/>
+<div class="center"><img src="../../d5/d0b/a00220_adfea444e2cb8e428b7c9604d77076ad1_cgraph.png" border="0" usemap="#d5/d0b/a00220_adfea444e2cb8e428b7c9604d77076ad1_cgraph" alt=""/></div>
+<map name="d5/d0b/a00220_adfea444e2cb8e428b7c9604d77076ad1_cgraph" id="d5/d0b/a00220_adfea444e2cb8e428b7c9604d77076ad1_cgraph">
+<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string. " alt="" coords="133,5,207,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a19f7b1d39da03306645ea0d3cf20ac57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19f7b1d39da03306645ea0d3cf20ac57">&#9670;&nbsp;</a></span>tost()</h2>
+<a id="a917e4be62e6930b138038ae16ebc7904"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a917e4be62e6930b138038ae16ebc7904">&#9670;&nbsp;</a></span>tost()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5862,7 +5862,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">size_t mcd::tost </td>
           <td>(</td>
-          <td class="paramtype">V&#160;</td>
+          <td class="paramtype">const V &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5880,16 +5880,16 @@ template&lt;typename V &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d0b/a00220_a19f7b1d39da03306645ea0d3cf20ac57_cgraph.png" border="0" usemap="#d5/d0b/a00220_a19f7b1d39da03306645ea0d3cf20ac57_cgraph" alt=""/></div>
-<map name="d5/d0b/a00220_a19f7b1d39da03306645ea0d3cf20ac57_cgraph" id="d5/d0b/a00220_a19f7b1d39da03306645ea0d3cf20ac57_cgraph">
-<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="131,5,204,32"/>
+<div class="center"><img src="../../d5/d0b/a00220_a917e4be62e6930b138038ae16ebc7904_cgraph.png" border="0" usemap="#d5/d0b/a00220_a917e4be62e6930b138038ae16ebc7904_cgraph" alt=""/></div>
+<map name="d5/d0b/a00220_a917e4be62e6930b138038ae16ebc7904_cgraph" id="d5/d0b/a00220_a917e4be62e6930b138038ae16ebc7904_cgraph">
+<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string. " alt="" coords="131,5,204,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ad6f79ef9559f97a0c2df2ae9a2823b2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6f79ef9559f97a0c2df2ae9a2823b2d">&#9670;&nbsp;</a></span>tou()</h2>
+<a id="a818831d2e74dbfa3be2150c38a9afa31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a818831d2e74dbfa3be2150c38a9afa31">&#9670;&nbsp;</a></span>tou()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5899,7 +5899,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">unsigned int mcd::tou </td>
           <td>(</td>
-          <td class="paramtype">V&#160;</td>
+          <td class="paramtype">const V &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5917,16 +5917,16 @@ template&lt;typename V &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d0b/a00220_ad6f79ef9559f97a0c2df2ae9a2823b2d_cgraph.png" border="0" usemap="#d5/d0b/a00220_ad6f79ef9559f97a0c2df2ae9a2823b2d_cgraph" alt=""/></div>
-<map name="d5/d0b/a00220_ad6f79ef9559f97a0c2df2ae9a2823b2d_cgraph" id="d5/d0b/a00220_ad6f79ef9559f97a0c2df2ae9a2823b2d_cgraph">
-<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="127,5,200,32"/>
+<div class="center"><img src="../../d5/d0b/a00220_a818831d2e74dbfa3be2150c38a9afa31_cgraph.png" border="0" usemap="#d5/d0b/a00220_a818831d2e74dbfa3be2150c38a9afa31_cgraph" alt=""/></div>
+<map name="d5/d0b/a00220_a818831d2e74dbfa3be2150c38a9afa31_cgraph" id="d5/d0b/a00220_a818831d2e74dbfa3be2150c38a9afa31_cgraph">
+<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string. " alt="" coords="127,5,200,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="aac31252127b23397d1d2a33edcbef372"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac31252127b23397d1d2a33edcbef372">&#9670;&nbsp;</a></span>tov()</h2>
+<a id="a21f9e69f4ccff705b65007a1ac7063ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21f9e69f4ccff705b65007a1ac7063ef">&#9670;&nbsp;</a></span>tov()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5936,7 +5936,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">unsigned long long int mcd::tov </td>
           <td>(</td>
-          <td class="paramtype">V&#160;</td>
+          <td class="paramtype">const V &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5954,9 +5954,9 @@ template&lt;typename V &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d0b/a00220_aac31252127b23397d1d2a33edcbef372_cgraph.png" border="0" usemap="#d5/d0b/a00220_aac31252127b23397d1d2a33edcbef372_cgraph" alt=""/></div>
-<map name="d5/d0b/a00220_aac31252127b23397d1d2a33edcbef372_cgraph" id="d5/d0b/a00220_aac31252127b23397d1d2a33edcbef372_cgraph">
-<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#a4a881e27c7ab22bb256fe6fa915a53f3" title="Convert in in a string. " alt="" coords="127,5,200,32"/>
+<div class="center"><img src="../../d5/d0b/a00220_a21f9e69f4ccff705b65007a1ac7063ef_cgraph.png" border="0" usemap="#d5/d0b/a00220_a21f9e69f4ccff705b65007a1ac7063ef_cgraph" alt=""/></div>
+<map name="d5/d0b/a00220_a21f9e69f4ccff705b65007a1ac7063ef_cgraph" id="d5/d0b/a00220_a21f9e69f4ccff705b65007a1ac7063ef_cgraph">
+<area shape="rect" id="node2" href="../../d5/d0b/a00220.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string. " alt="" coords="127,5,200,32"/>
 </map>
 </div>
 

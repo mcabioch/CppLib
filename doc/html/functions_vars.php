@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 1 2019 15:13:20 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -328,7 +328,7 @@ $(document).ready(function(){initNavTree('functions_vars.php','');});
 : <a class="el" href="db/deb/a00853.php#a4ea6d2bc4fe8e15561698f6ea66d021b">mcd::Check::has_istream_operator&lt; T &gt;</a>
 , <a class="el" href="d7/dcf/a00845.php#ad1cf88abd079ce2df64d1d4f8e256a8a">mcd::Check::has_ostream_operator&lt; T &gt;</a>
 , <a class="el" href="d5/dac/a00841.php#a08b55ec77a90295c1e84f63021bc89a2">mcd::Check::has_size_method&lt; T &gt;</a>
-, <a class="el" href="dd/d7e/a00809.php#a0158c050746b586a1c8e800a68968879">mcd::Check::is_array&lt; T &gt;</a>
+, <a class="el" href="de/d9d/a00813.php#a0158c050746b586a1c8e800a68968879">mcd::Check::is_array&lt; T &gt;</a>
 , <a class="el" href="d1/de6/a00837.php#a344818944230a22a8c7988dd3ba8e2f9">mcd::Check::is_duration&lt; T &gt;</a>
 , <a class="el" href="d0/daa/a01029.php#a76170894810e15b11dafb7f34965aef4">mcd::Check::is_minded_ptr&lt; T &gt;</a>
 , <a class="el" href="dd/d7b/a00865.php#aba4751c5acee27e01be8c2b8abc0888b">mcd::Check::is_object&lt; T &gt;</a>
@@ -340,7 +340,7 @@ $(document).ready(function(){initNavTree('functions_vars.php','');});
 , <a class="el" href="d1/dea/a00829.php#af2c46fb3d97ce2190260c2ddcb2d33d4">mcd::Check::is_string&lt; T &gt;</a>
 , <a class="el" href="d2/d57/a01033.php#aeaf71256c26f5b5be4a5e5db9035500b">mcd::Check::is_thread_ptr&lt; T &gt;</a>
 , <a class="el" href="d6/d8b/a00821.php#a35b153eb448f4f520fbab10d63317262">mcd::Check::is_trio&lt; T &gt;</a>
-, <a class="el" href="de/d9d/a00813.php#ab81fa142d6e7d3c98a4dae1f0ca3dfd5">mcd::Check::is_vector&lt; T &gt;</a>
+, <a class="el" href="dd/d7e/a00809.php#ab81fa142d6e7d3c98a4dae1f0ca3dfd5">mcd::Check::is_vector&lt; T &gt;</a>
 </li>
 <li>values
 : <a class="el" href="d5/d0b/a00220.php#a56cd61aea5d46ecf42aa3959086b7d96">mcd::Node&lt; T &gt;</a>

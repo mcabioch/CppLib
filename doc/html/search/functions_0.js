@@ -11,7 +11,7 @@ var searchData=
   ['applyforeach',['applyForEach',['../d8/d18/a01069.php#aa1c0e2b0a15c31c48ed5cade92c4ae3d',1,'mcd::Tree']]],
   ['arguments',['Arguments',['../d2/d02/a00777.php#ac6c3e24abf9d442d2a01b601ad3a0968',1,'mcd::Arguments']]],
   ['array1dto2d',['array1Dto2D',['../d5/d0b/a00220.php#a040a2aa0625adc9f13e6568d906a20a2',1,'mcd']]],
-  ['array2dto1d',['array2Dto1D',['../d5/d0b/a00220.php#af1c42a8b9412d2afa3b486c5e629f752',1,'mcd::array2Dto1D(size_t x, size_t y, size_t maxX)'],['../d5/d0b/a00220.php#a2539eedc8c5dcf1f8f7801eeb919de42',1,'mcd::array2Dto1D(Point pt, size_t maxX)']]],
+  ['array2dto1d',['array2Dto1D',['../d5/d0b/a00220.php#af1c42a8b9412d2afa3b486c5e629f752',1,'mcd::array2Dto1D(size_t x, size_t y, size_t maxX)'],['../d5/d0b/a00220.php#a53a33cf86c36584f92495307f8e68a00',1,'mcd::array2Dto1D(const Point &amp;pt, size_t maxX)']]],
   ['arrived',['Arrived',['../d7/ded/a01009.php#a9fcff7a44db764decbb680479144b97b',1,'mcd::PathfindingException']]],
   ['asc',['asc',['../d8/d18/a01069.php#aaf42d9cae430064e1b52b8cd3e57ee42',1,'mcd::Tree']]],
   ['attack',['attack',['../dd/d51/a00769.php#ae361d01e3894af2d3e1ded1975f39172',1,'mcd::Animal::attack()'],['../df/dc6/a00949.php#a7443b49cf0f2564e4209b3ae6867b5cc',1,'mcd::Hostile::attack()']]]

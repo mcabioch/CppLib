@@ -2,7 +2,7 @@
 *
 *	\file		convert.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	August, 15 2018
+*	\modified	October, 02 2019
 *
 */
 #ifndef HEADER_CPP_CONVERT
@@ -21,7 +21,7 @@ namespace mcd {
 		*		\return			Return a string
 		*/
 		template<typename Type>
-		std::string tos(Type in){
+		std::string tos(const Type& in){
 			std::stringstream out;
 			out << in;
 			return out.str();
@@ -38,7 +38,7 @@ namespace mcd {
 			std::is_enum<V>::value,
 			std::string
 		>::type
-		tos(V in){
+		tos(const V& in){
 			std::stringstream out;
 
 			out << static_cast<typename std::underlying_type<V>::type>(in);
@@ -57,7 +57,7 @@ namespace mcd {
 			Check::is_duration<V>::value,
 			std::string
 		>::type
-		tos(V in){
+		tos(const V& in){
 			std::stringstream out;
 
 			out << in.count();
@@ -77,7 +77,7 @@ namespace mcd {
 				!Check::is_duration<V>::value,
 			std::string
 		>::type
-		tos(V in){
+		tos(const V& in){
 			std::stringstream out;
 
 			out << in;
@@ -93,7 +93,7 @@ namespace mcd {
 	*		\return			Return an int
 	*/
 	template<typename V>
-	int toi(V in) {
+	int toi(const V& in) {
 		std::stringstream tmp;
 		int out;
 
@@ -110,7 +110,7 @@ namespace mcd {
 	*		\return			Return a double
 	*/
 	template<typename V>
-	double tod(V in) {
+	double tod(const V& in) {
 		std::stringstream tmp;
 		double out;
 
@@ -127,7 +127,7 @@ namespace mcd {
 	*		\return			Return a float
 	*/
 	template<typename V>
-	float tof(V in) {
+	float tof(const V& in) {
 		std::stringstream tmp;
 		float out;
 
@@ -144,7 +144,7 @@ namespace mcd {
 	*		\return			Return an unsigned int
 	*/
 	template<typename V>
-	unsigned int tou(V in) {
+	unsigned int tou(const V& in) {
 		std::stringstream tmp;
 		unsigned int out;
 
@@ -161,7 +161,7 @@ namespace mcd {
 	*		\return			Return an unsigned long long int
 	*/
 	template<typename V>
-	unsigned long long int tov(V in) {
+	unsigned long long int tov(const V& in) {
 		std::stringstream tmp;
 		unsigned long long int out;
 
@@ -178,7 +178,7 @@ namespace mcd {
 	*		\return			Return a size_t
 	*/
 	template<typename V>
-	size_t tost(V in) {
+	size_t tost(const V& in) {
 		std::stringstream tmp;
 		size_t out;
 
@@ -195,7 +195,7 @@ namespace mcd {
 	*		\return			Return a size_t
 	*/
 	template<typename V>
-	short tosh(V in) {
+	short tosh(const V& in) {
 		std::stringstream tmp;
 		short out;
 
@@ -212,7 +212,7 @@ namespace mcd {
 	*		\return			Return a size_t
 	*/
 	template<typename V>
-	bool tob(V in) {
+	bool tob(const V& in) {
 		std::stringstream tmp;
 		bool out;
 
@@ -229,7 +229,7 @@ namespace mcd {
 	*		\return			Return a std::chrono::milliseconds
 	*/
 	template<typename V>
-	std::chrono::milliseconds tomilli(V in) {
+	std::chrono::milliseconds tomilli(const V& in) {
 		std::stringstream tmp;
 		long int tmp2;
 

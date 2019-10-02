@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 1 2019 15:13:20 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -221,7 +221,7 @@ $(document).ready(function(){initNavTree('functions_o.php','');});
 , <a class="el" href="d1/db0/a00945.php#a9313ed58249557fab9c0b6ab5e5f977f">mcd::Fraction</a>
 , <a class="el" href="d3/da5/a00973.php#a9a3710d279e209fbff51b625690ef630">mcd::Matrix&lt; C &gt;</a>
 , <a class="el" href="dd/dee/a01081.php#a55681886ec7c5d7c0210fa0611bc84ea">mcd::Point</a>
-, <a class="el" href="de/d01/a00897.php#a358d316052544257ab9aee6f1fe762dc">mcd::ThreadCout</a>
+, <a class="el" href="de/d01/a00897.php#a8b27881bbb3b1a50ddf821d8ce62e4d6">mcd::ThreadCout</a>
 </li>
 <li>operator&lt;&lt;=()
 : <a class="el" href="d7/dff/a00805.php#ae37d4b7ef4d255fe152b78fe5a4e7f0d">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
@@ -240,7 +240,7 @@ $(document).ready(function(){initNavTree('functions_o.php','');});
 <li>operator==
 : <a class="el" href="da/db8/a00797.php#a5eed09966f2142f9d979e7be4643c06a">mcd::Big</a>
 , <a class="el" href="d0/d5b/a00933.php#a15ab62ed982a1d04015c4e94597e225e">mcd::DateTime</a>
-, <a class="el" href="d1/db0/a00945.php#a300ed85793b7aece141599c82524f8d9">mcd::Fraction</a>
+, <a class="el" href="d1/db0/a00945.php#a986f1f323f69858991a54320af44b6a5">mcd::Fraction</a>
 , <a class="el" href="da/d0a/a00993.php#af8e324237235cd148492d82eadf94e0c">mcd::PathfindingNode</a>
 , <a class="el" href="dd/dee/a01081.php#a177528c8a1eee37fcda25a89084b8ed6">mcd::Point</a>
 </li>
@@ -258,24 +258,24 @@ $(document).ready(function(){initNavTree('functions_o.php','');});
 </li>
 <li>operator&gt;&gt;
 : <a class="el" href="da/db8/a00797.php#a91ce80d3959e1d2a891e58c940c8631b">mcd::Big</a>
-, <a class="el" href="d7/dff/a00805.php#aa8320705c12816d9baead8f46adfe198">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+, <a class="el" href="d7/dff/a00805.php#aa8cf5f8e8b9dad3b0d0dd892dae0eca8">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>operator&gt;&gt;=()
 : <a class="el" href="d7/dff/a00805.php#a48f5b420ccf33d875fd6126d56579d82">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>operator[]()
-: <a class="el" href="d2/d02/a00777.php#ae401cb47faea064ac04133ea929c0f94">mcd::Arguments</a>
+: <a class="el" href="d2/d02/a00777.php#ab6f239de18f2b736af8215e1e116b6c7">mcd::Arguments</a>
 </li>
 <li>operator^()
-: <a class="el" href="d7/dff/a00805.php#a7c3151311e74094ffef558de51dd315c">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d7/dff/a00805.php#a6d08fb7c59a1f996ac2512d35d75d07f">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 , <a class="el" href="d2/df3/a01085.php#aceb6871a031f6bdb9adeb291238a2f1e">mcd::vector&lt; C &gt;</a>
 </li>
 <li>operator^=()
-: <a class="el" href="d7/dff/a00805.php#a8fe0174ab3d62d4fda8cd77185c4feb6">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d7/dff/a00805.php#a56a92e16b32034cec0a9d7f5ff4cce6b">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 , <a class="el" href="d2/df3/a01085.php#ae2e81b3836365353b10040331247a870">mcd::vector&lt; C &gt;</a>
 </li>
 <li>operator|()
-: <a class="el" href="d7/dff/a00805.php#a46d358cd82d56495acd0fe3c99db691b">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d7/dff/a00805.php#aeb2689651a2be40b1b7a3bd930ab41cb">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 , <a class="el" href="d2/df3/a01085.php#a4eacfc54e3bd159d746ebf2eefacc0a5">mcd::vector&lt; C &gt;</a>
 </li>
 <li>operator|=()

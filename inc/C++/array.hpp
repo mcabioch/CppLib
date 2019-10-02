@@ -2,7 +2,7 @@
 *
 *	\file		array.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	September, 26 2019
+*	\modified	October, 02 2019
 *
 */
 #ifndef HEADER_CPP_ARRAY
@@ -22,7 +22,7 @@ namespace mcd {
 	*		\return			Return a string of the array
 	*/
 	template<typename T>
-	std::string implode(std::vector<T> a, const std::string& glue = ""){
+	std::string implode(const std::vector<T>& a, const std::string& glue = ""){
 		std::string out{""};
 		size_t size = a.size();
 		size_t index = 0;
@@ -51,7 +51,7 @@ namespace mcd {
 		*		\return			void
 		*/
 		template<typename Array>
-		void print_r(Array a);
+		void print_r(const Array& a);
 	#else
 		/*!
 		* \brief	Print the content of a vector
@@ -60,7 +60,7 @@ namespace mcd {
 		*		\return			void
 		*/
 		template<typename T>
-		void print_r(std::vector<T> a){
+		void print_r(const std::vector<T>& a){
 			size_t index{0};
 			for(auto& elem : a){
 				std::cout << index << " : '" << elem << "'" << std::endl;
@@ -76,7 +76,7 @@ namespace mcd {
 		*/
 		template<typename T>
 		typename std::enable_if_t<std::is_array<T>::value && !Check::is_printable<T>::value>
-		print_r(T a){
+		print_r(const T& a){
 			size_t index{0};
 
 			for(auto& elem : a){
@@ -94,7 +94,7 @@ namespace mcd {
 	*		\return			Return an array without the \a index
 	*/
 	template<typename V>
-	std::vector<V> rewrite(std::vector<V> table, unsigned index) {
+	std::vector<V> rewrite(const std::vector<V>& table, unsigned index) {
 		std::vector<V> out;
 
 		for(unsigned i{0}; i < index; ++i){
@@ -115,7 +115,7 @@ namespace mcd {
 	*		\return			\b true or \b false
 	*/
 	template<typename T>
-	bool contains(std::vector<T> table, T value){
+	bool contains(const std::vector<T>& table, T value){
 		/*std::cout << "Contains ;" << std::endl;
 		std::cout << "\t- value : '" << value << "'" << std::endl;
 		std::cout << "\t- table.size() = " << table.size() << std::endl;
@@ -138,7 +138,7 @@ namespace mcd {
 		*		\param[in]		change		\b true or \b false, \b true to print the value of a pointer instead of his address
 		*/
 		template<typename Something>
-		void print_all(Something data, bool change = false);
+		void print_all(const Something& data, bool change = false);
 	#else
 		/* print_all function */
 			template<typename T>
@@ -148,7 +148,7 @@ namespace mcd {
 									!Check::is_printable<T>::value &&
 									!Check::is_minded_ptr<T>::value
 									>
-			print_all(T, bool = false, const std::string& decal = "");
+			print_all(const T&, bool = false, const std::string& decal = "");
 
 			template<typename T>
 			typename std::enable_if_t<
@@ -164,7 +164,7 @@ namespace mcd {
 									Check::is_printable<T>::value &&
 									Check::is_minded_ptr<T>::value
 									>
-			print_all(T data, bool change = false, const std::string& decal = "");
+			print_all(const T& data, bool change = false, const std::string& decal = "");
 
 			template<typename T>
 			typename std::enable_if_t<
@@ -175,7 +175,7 @@ namespace mcd {
 									Check::is_printable<T>::value &&
 									!Check::is_minded_ptr<T>::value
 									>
-			print_all(T data, bool = false, const std::string& decal = "");
+			print_all(const T& data, bool = false, const std::string& decal = "");
 
 			template<typename T>
 			typename std::enable_if_t<
@@ -184,9 +184,9 @@ namespace mcd {
 									Check::is_printable<T>::value &&
 									!Check::is_minded_ptr<T>::value
 									>
-			print_all(T data, bool = false, const std::string& decal = "");
+			print_all(const T& data, bool = false, const std::string& decal = "");
 
-			void print_all(std::smatch data, bool change = false, const std::string& decal = "");
+			void print_all(const std::smatch& data, bool change = false, const std::string& decal = "");
 
 			template<typename T>
 			typename std::enable_if_t<
@@ -199,22 +199,22 @@ namespace mcd {
 									Check::is_array<T>::value &&
 									!Check::is_vector<T>::value
 									>
-			print_all(T data, bool change = false, const std::string& decal = "");
+			print_all(const T& data, bool change = false, const std::string& decal = "");
 
 			template<typename T>
-			void print_all(std::vector<T> data, bool change = false, const std::string& decal = "");
+			void print_all(const std::vector<T>& data, bool change = false, const std::string& decal = "");
 
 			template<typename T>
-			void print_all(mcd::vector<T> data, bool change = false, const std::string& decal = "");
+			void print_all(const vector<T>& data, bool change = false, const std::string& decal = "");
 
 			template<typename T, typename U>
-			void print_all(std::pair<T, U> data, bool change = false, const std::string& decal = "");
+			void print_all(const std::pair<T, U>& data, bool change = false, const std::string& decal = "");
 
 			template<typename T, typename U, typename V>
-			void print_all(trio<T, U, V> data, bool change = false, const std::string& decal = "");
+			void print_all(const trio<T, U, V>& data, bool change = false, const std::string& decal = "");
 
 			template<typename T, typename U, typename V, typename W>
-			void print_all(quatuor<T, U, V, W> data, bool change = false, const std::string& decal = "");
+			void print_all(const quatuor<T, U, V, W>& data, bool change = false, const std::string& decal = "");
 
 			/* End */
 				template<typename T>
@@ -224,7 +224,7 @@ namespace mcd {
 										!Check::is_printable<T>::value &&
 										!Check::is_minded_ptr<T>::value
 										>
-				print_all(T, bool, const std::string& decal){
+				print_all(const T&, bool, const std::string& decal){
 					std::cout << decal << "Object" << std::endl;
 				}
 
@@ -248,7 +248,7 @@ namespace mcd {
 										Check::is_printable<T>::value &&
 										Check::is_minded_ptr<T>::value
 										>
-				print_all(T data, bool change, const std::string& decal){
+				print_all(const T& data, bool change, const std::string& decal){
 					if(change){
 						std::cout << decal << "(" << data << ")" << std::endl;
 					} else {
@@ -265,7 +265,7 @@ namespace mcd {
 										Check::is_printable<T>::value &&
 										!Check::is_minded_ptr<T>::value
 										>
-				print_all(T data, bool, const std::string& decal){
+				print_all(const T& data, bool, const std::string& decal){
 					std::cout << decal << "'" << data << "'" << std::endl;
 				}
 
@@ -276,20 +276,20 @@ namespace mcd {
 										Check::is_printable<T>::value &&
 										!Check::is_minded_ptr<T>::value
 										>
-				print_all(T data, bool, const std::string& decal){
+				print_all(const T& data, bool, const std::string& decal){
 					std::cout << decal << data << std::endl;
 				}
 			/*******/
 
 			template<typename T, typename U>
-			void print_all(std::pair<T, U> data, bool change, const std::string& decal){
+			void print_all(const std::pair<T, U>& data, bool change, const std::string& decal){
 				std::cout << decal << "pair" << std::endl;
 				print_all(data.first, change, decal + "--");
 				print_all(data.second, change, decal + "--");
 			}
 
 			template<typename T, typename U, typename V>
-			void print_all(trio<T, U, V> data, bool change, const std::string& decal){
+			void print_all(const trio<T, U, V>& data, bool change, const std::string& decal){
 				std::cout << decal << "trio" << std::endl;
 				print_all(data.first, change, decal + "--");
 				print_all(data.second, change, decal + "--");
@@ -297,7 +297,7 @@ namespace mcd {
 			}
 
 			template<typename T, typename U, typename V, typename W>
-			void print_all(quatuor<T, U, V, W> data, bool change, const std::string& decal){
+			void print_all(const quatuor<T, U, V, W>& data, bool change, const std::string& decal){
 				std::cout << decal << "quatuor" << std::endl;
 				print_all(data.first, change, decal + "--");
 				print_all(data.second, change, decal + "--");
@@ -322,7 +322,7 @@ namespace mcd {
 									Check::is_array<T>::value &&
 									!Check::is_vector<T>::value
 									>
-			print_all(T data, bool change, const std::string& decal){
+			print_all(const T& data, bool change, const std::string& decal){
 				std::cout << decal << "array[" << data.size() << "]" << std::endl;
 				size_t i{0};
 				for(auto d : data){
@@ -332,7 +332,7 @@ namespace mcd {
 			}
 
 			template<typename T>
-			void print_all(std::vector<T> data, bool change, const std::string& decal){
+			void print_all(const std::vector<T>& data, bool change, const std::string& decal){
 				std::cout << decal << "vector[" << data.size() << "]" << std::endl;
 				size_t i{0};
 				for(auto d : data){
@@ -352,7 +352,7 @@ namespace mcd {
 			}
 
 			template<typename T>
-			void print_all(mcd::vector<T> data, bool change, const std::string& decal){
+			void print_all(const vector<T>& data, bool change, const std::string& decal){
 				print_all(static_cast<std::vector<T>>(data), change, decal);
 			}
 		/**********************/
@@ -384,7 +384,7 @@ namespace mcd {
 	*		\param		maxX		The maximum length of a line
 	*		\return		Return the 1D coord
 	*/
-	inline size_t array2Dto1D(Point pt, size_t maxX){
+	inline size_t array2Dto1D(const Point& pt, size_t maxX){
 		return array2Dto1D(static_cast<size_t>(pt.x), static_cast<size_t>(pt.y), maxX);
 	}
 
@@ -422,9 +422,9 @@ namespace mcd {
 				_mutex()
 			{}
 
-			MUTEX_RECREATE(stack<T COMMA Container>, top, T&)
-			MUTEX_RECREATE(stack<T COMMA Container>, empty, bool)
-			MUTEX_RECREATE(stack<T COMMA Container>, size, size_t)
+			MUTEX_CONST_RECREATE(stack<T COMMA Container>, top, T&)
+			MUTEX_CONST_RECREATE(stack<T COMMA Container>, empty, bool)
+			MUTEX_CONST_RECREATE(stack<T COMMA Container>, size, size_t)
 			MUTEX_VOID_RECREATE(stack<T COMMA Container>, pop)
 
 			void push(const T& value){
@@ -440,7 +440,7 @@ namespace mcd {
 			}
 
 		private:
-			std::mutex _mutex;
+			mutable std::mutex _mutex;
 	};
 
 	/*!
@@ -484,10 +484,10 @@ namespace mcd {
 				_mutex()
 			{}
 
-			MUTEX_RECREATE(queue<T COMMA Container>, front, T&)
-			MUTEX_RECREATE(queue<T COMMA Container>, back, T&)
-			MUTEX_RECREATE(queue<T COMMA Container>, empty, bool)
-			MUTEX_RECREATE(queue<T COMMA Container>, size, size_t)
+			MUTEX_CONST_RECREATE(queue<T COMMA Container>, front, T&)
+			MUTEX_CONST_RECREATE(queue<T COMMA Container>, back, T&)
+			MUTEX_CONST_RECREATE(queue<T COMMA Container>, empty, bool)
+			MUTEX_CONST_RECREATE(queue<T COMMA Container>, size, size_t)
 			MUTEX_VOID_RECREATE(queue<T COMMA Container>, pop)
 
 			void push(const T& value){
@@ -504,7 +504,7 @@ namespace mcd {
 
 
 		private:
-			std::mutex _mutex;
+			mutable std::mutex _mutex;
 	};
 }
 

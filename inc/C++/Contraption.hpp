@@ -196,12 +196,6 @@ namespace mcd {
 				/*! \brief	Rewrite it to send infos */
 				virtual void sender(std::string, vector_str){}
 
-		protected:
-
-
-		private:
-
-
 		private:
 			std::shared_ptr<Map> _map;
 

@@ -2,7 +2,7 @@
 *
 *	\file		check.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	September, 30 2019
+*	\modified	October, 02 2019
 *
 */
 #ifndef HEADER_CPP_CHECK
@@ -19,20 +19,35 @@ namespace mcd {
 	using pair_str = std::pair<std::string, std::string>;
 
 	namespace Check {
-		/*! \brief	A template class to test if T is an array, a vector or a map */
+		/*! \brief	A template class to test if T is a vector */
 		template<typename T>
-		class is_array{
+		class is_vector{
 			public:
 				const static bool value = false;
 		};
 
 		#ifndef DOXYGEN_SHOULD_SKIP_THIS
 			template<typename T>
-			class is_array<std::vector<T>>{
+			class is_vector<std::vector<T>>{
 				public:
 					const static bool value = true;
 			};
 
+			template<typename T>
+			class is_vector<mcd::vector<T>>{
+				public:
+					const static bool value = true;
+			};
+		#endif //DOXYGEN_SHOULD_SKIP_THIS
+
+		/*! \brief	A template class to test if T is an array, a vector or a map */
+		template<typename T>
+		class is_array{
+			public:
+				const static bool value = is_vector<T>::value;
+		};
+
+		#ifndef DOXYGEN_SHOULD_SKIP_THIS
 			template<typename T>
 			class is_array<std::deque<T>>{
 				public:
@@ -47,21 +62,6 @@ namespace mcd {
 
 			template<typename T, std::size_t U>
 			class is_array<std::array<T, U>>{
-				public:
-					const static bool value = true;
-			};
-		#endif //DOXYGEN_SHOULD_SKIP_THIS
-
-		/*! \brief	A template class to test if T is a vector */
-		template<typename T>
-		class is_vector{
-			public:
-				const static bool value = false;
-		};
-
-		#ifndef DOXYGEN_SHOULD_SKIP_THIS
-			template<typename T>
-			class is_vector<std::vector<T>>{
 				public:
 					const static bool value = true;
 			};

@@ -255,11 +255,10 @@ namespace mcd {
 					_mutexed = true;
 				}
 				std::cout << obj;
-				//_mutex.unlock();
+
 				return os;
 			}
 			friend ThreadCout& operator<<(ThreadCout& os, ThreadEndlCout&){
-				//_mutex.lock();
 				std::cout << std::endl;
 				if(_mutexed){
 					_mutexed = false;

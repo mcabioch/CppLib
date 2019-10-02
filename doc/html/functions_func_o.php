@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 1 2019 15:13:20 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -189,7 +189,7 @@ $(document).ready(function(){initNavTree('functions_func_o.php','');});
 <li>operator/=()
 : <a class="el" href="da/db8/a00797.php#aed2dc1aa4bd20abbe2c48aefe115b57d">mcd::Big</a>
 , <a class="el" href="d7/dff/a00805.php#a985223f6b53f2884cf31b53b36b109cb">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
-, <a class="el" href="d1/db0/a00945.php#a4942772dfaef8d5158163f7fcca98b57">mcd::Fraction</a>
+, <a class="el" href="d1/db0/a00945.php#a3379901d123c7d545bd8a4f9ebe48b8e">mcd::Fraction</a>
 , <a class="el" href="d3/da5/a00973.php#a8f1be652fdf748cc826d30cbb96745f0">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>operator&lt;()
@@ -202,24 +202,24 @@ $(document).ready(function(){initNavTree('functions_func_o.php','');});
 : <a class="el" href="d7/dff/a00805.php#ae37d4b7ef4d255fe152b78fe5a4e7f0d">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>operator&lt;=()
-: <a class="el" href="d1/db0/a00945.php#add6d3ff26c1c87e2d645ad37e751bdac">mcd::Fraction</a>
+: <a class="el" href="d1/db0/a00945.php#ac1e8c0cf1fdef5dd32409c5d0b660fb1">mcd::Fraction</a>
 </li>
 <li>operator=()
 : <a class="el" href="da/db8/a00797.php#a280921a6fccbc4255f53889d4189706b">mcd::Big</a>
-, <a class="el" href="dd/dee/a01081.php#a220f83e0ebfaa9b2884530cfcac6f6df">mcd::Point</a>
-, <a class="el" href="dc/d99/a01053.php#ab51cdb23e70b6ab97afb529098eb20c0">mcd::Threadable&lt; C &gt;</a>
+, <a class="el" href="dd/dee/a01081.php#a6ebbd086a808f7fb8bd49bda00b8df12">mcd::Point</a>
+, <a class="el" href="dc/d99/a01053.php#aede63b72f054d20e35d22153af8313c8">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>operator==()
 : <a class="el" href="d1/db0/a00945.php#a986f1f323f69858991a54320af44b6a5">mcd::Fraction</a>
 </li>
 <li>operator&gt;()
-: <a class="el" href="d1/db0/a00945.php#a5160d78b6f8e8269aacac56fb50346df">mcd::Fraction</a>
+: <a class="el" href="d1/db0/a00945.php#a379d98c2c6ae1962fc2089b599fc48df">mcd::Fraction</a>
 </li>
 <li>operator&gt;=()
 : <a class="el" href="d1/db0/a00945.php#ac4dcbd6c3961244afb7bbcb90c5b01da">mcd::Fraction</a>
 </li>
 <li>operator&gt;&gt;()
-: <a class="el" href="d7/dff/a00805.php#aa8320705c12816d9baead8f46adfe198">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d7/dff/a00805.php#aa8cf5f8e8b9dad3b0d0dd892dae0eca8">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>operator&gt;&gt;=()
 : <a class="el" href="d7/dff/a00805.php#acdcfe40eebb64e8fd80d976a0848a89b">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
@@ -228,11 +228,11 @@ $(document).ready(function(){initNavTree('functions_func_o.php','');});
 : <a class="el" href="d2/d02/a00777.php#ae401cb47faea064ac04133ea929c0f94">mcd::Arguments</a>
 </li>
 <li>operator^()
-: <a class="el" href="d7/dff/a00805.php#a6d08fb7c59a1f996ac2512d35d75d07f">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d7/dff/a00805.php#a7c3151311e74094ffef558de51dd315c">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 , <a class="el" href="d2/df3/a01085.php#aceb6871a031f6bdb9adeb291238a2f1e">mcd::vector&lt; C &gt;</a>
 </li>
 <li>operator^=()
-: <a class="el" href="d7/dff/a00805.php#a8fe0174ab3d62d4fda8cd77185c4feb6">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d7/dff/a00805.php#a56a92e16b32034cec0a9d7f5ff4cce6b">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 , <a class="el" href="d2/df3/a01085.php#ae2e81b3836365353b10040331247a870">mcd::vector&lt; C &gt;</a>
 </li>
 <li>operator|()
@@ -240,7 +240,7 @@ $(document).ready(function(){initNavTree('functions_func_o.php','');});
 , <a class="el" href="d2/df3/a01085.php#a4eacfc54e3bd159d746ebf2eefacc0a5">mcd::vector&lt; C &gt;</a>
 </li>
 <li>operator|=()
-: <a class="el" href="d7/dff/a00805.php#a1727ca4ea2cdfdbba4ee404e8c3f5d26">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d7/dff/a00805.php#aab132724a94ba4e2f2318346a8ffae90">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 , <a class="el" href="d2/df3/a01085.php#abc0583222abd8957c4a8502b7ba9272e">mcd::vector&lt; C &gt;</a>
 </li>
 </ul>

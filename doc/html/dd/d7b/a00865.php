@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 1 2019 15:13:19 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -134,7 +134,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= !<a class="code" href="../../dd/d7e/a00809.php#a0158c050746b586a1c8e800a68968879">is_array&lt;T&gt;::value</a> &amp;&amp;</div><div class="line">                                          !<a class="code" href="../../d1/dea/a00829.php#af2c46fb3d97ce2190260c2ddcb2d33d4">is_string&lt;T&gt;::value</a> &amp;&amp;</div><div class="line">                                          !<a class="code" href="../../dc/d6e/a00833.php#a573e824f7b1584fa564c91c1e5814453">is_smatch&lt;T&gt;::value</a> &amp;&amp;</div><div class="line">                                          !std::is_fundamental&lt;T&gt;::value</div></div><!-- fragment -->
+<b>Initial value:</b><div class="fragment"><div class="line">= !<a class="code" href="../../de/d9d/a00813.php#a0158c050746b586a1c8e800a68968879">is_array&lt;T&gt;::value</a> &amp;&amp;</div><div class="line">                                          !<a class="code" href="../../d1/dea/a00829.php#af2c46fb3d97ce2190260c2ddcb2d33d4">is_string&lt;T&gt;::value</a> &amp;&amp;</div><div class="line">                                          !<a class="code" href="../../dc/d6e/a00833.php#a573e824f7b1584fa564c91c1e5814453">is_smatch&lt;T&gt;::value</a> &amp;&amp;</div><div class="line">                                          !std::is_fundamental&lt;T&gt;::value</div></div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
