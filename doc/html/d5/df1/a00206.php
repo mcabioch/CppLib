@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -182,14 +182,14 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:d6/d80/a01076"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#d6/d80/a01076">mcd::trio&lt; T, U, V &gt;</a></td></tr>
-<tr class="memdesc:d6/d80/a01076"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for three values.  <a href="../../dc/d28/a00223.php#d6/d80/a01076">More...</a><br /></td></tr>
-<tr class="separator:d6/d80/a01076"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/d67/a01080"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#d9/d67/a01080">mcd::quatuor&lt; T, U, V, W &gt;</a></td></tr>
-<tr class="memdesc:d9/d67/a01080"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for four values.  <a href="../../dc/d28/a00223.php#d9/d67/a01080">More...</a><br /></td></tr>
-<tr class="separator:d9/d67/a01080"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d93/a01084.php">mcd::Point</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a point in space.  <a href="../../da/d93/a01084.php#details">More...</a><br /></td></tr>
+<tr class="memitem:d0/dd3/a01077"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#d0/dd3/a01077">mcd::trio&lt; T, U, V &gt;</a></td></tr>
+<tr class="memdesc:d0/dd3/a01077"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for three values.  <a href="../../dc/d28/a00223.php#d0/dd3/a01077">More...</a><br /></td></tr>
+<tr class="separator:d0/dd3/a01077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dd/dee/a01081"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#dd/dee/a01081">mcd::quatuor&lt; T, U, V, W &gt;</a></td></tr>
+<tr class="memdesc:dd/dee/a01081"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for four values.  <a href="../../dc/d28/a00223.php#dd/dee/a01081">More...</a><br /></td></tr>
+<tr class="separator:dd/dee/a01081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a point in space.  <a href="../../d2/df3/a01085.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -263,8 +263,8 @@ Functions</h2></td></tr>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Last modification : September, 24 2019 </dd></dl>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="d6/d80/a01076" id="d6/d80/a01076"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d6/d80/a01076">&#9670;&nbsp;</a></span>mcd::trio</h2>
+<a name="d0/dd3/a01077" id="d0/dd3/a01077"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d0/dd3/a01077">&#9670;&nbsp;</a></span>mcd::trio</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -281,7 +281,7 @@ class mcd::trio&lt; T, U, V &gt;</h3>
 </div><div class="dynheader">
 Collaboration diagram for mcd::trio&lt; T, U, V &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/df7/a01074.png" border="0" usemap="#mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../dd/d80/a01075.png" border="0" usemap="#mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map" id="mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
@@ -309,8 +309,8 @@ ter</td>
 
 </div>
 </div>
-<a name="d9/d67/a01080" id="d9/d67/a01080"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d9/d67/a01080">&#9670;&nbsp;</a></span>mcd::quatuor</h2>
+<a name="dd/dee/a01081" id="dd/dee/a01081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dd/dee/a01081">&#9670;&nbsp;</a></span>mcd::quatuor</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -327,7 +327,7 @@ class mcd::quatuor&lt; T, U, V, W &gt;</h3>
 </div><div class="dynheader">
 Collaboration diagram for mcd::quatuor&lt; T, U, V, W &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../db/dba/a01078.png" border="0" usemap="#mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d2/d4d/a01079.png" border="0" usemap="#mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map" id="mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>

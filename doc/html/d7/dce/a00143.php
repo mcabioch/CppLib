@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -101,12 +101,12 @@ Include dependency graph for PathfindingAlgorithms.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/da7/a00144.png" border="0" usemap="#PathfindingAlgorithms_8hpp" alt=""/></div>
 <map name="PathfindingAlgorithms_8hpp" id="PathfindingAlgorithms_8hpp">
-<area shape="rect" id="node2" href="../../d9/db6/a00146.php" title="C++/PathfindingDijkstra.hpp" alt="" coords="1003,80,1189,107"/>
-<area shape="rect" id="node3" href="../../d5/db1/a00140.php" title="C++/Pathfinding.hpp" alt="" coords="1025,155,1167,181"/>
-<area shape="rect" id="node4" href="../../d7/d9a/a00152.php" title="C++/PathfindingProblem.hpp" alt="" coords="1001,229,1191,256"/>
-<area shape="rect" id="node5" href="../../da/d1e/a00149.php" title="C++/PathfindingException.hpp" alt="" coords="908,304,1108,331"/>
-<area shape="rect" id="node72" href="../../d2/df5/a00137.php" title="C++/Path.hpp" alt="" coords="1132,304,1236,331"/>
-<area shape="rect" id="node6" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1033,379,1159,405"/>
+<area shape="rect" id="node2" href="../../d9/db6/a00146.php" title="C++/PathfindingDijkstra.hpp" alt="" coords="1044,80,1231,107"/>
+<area shape="rect" id="node3" href="../../d5/db1/a00140.php" title="C++/Pathfinding.hpp" alt="" coords="1066,155,1209,181"/>
+<area shape="rect" id="node4" href="../../d7/d9a/a00152.php" title="C++/PathfindingProblem.hpp" alt="" coords="1042,229,1233,256"/>
+<area shape="rect" id="node5" href="../../da/d1e/a00149.php" title="C++/PathfindingException.hpp" alt="" coords="949,304,1149,331"/>
+<area shape="rect" id="node73" href="../../d2/df5/a00137.php" title="C++/Path.hpp" alt="" coords="1173,304,1277,331"/>
+<area shape="rect" id="node6" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1075,379,1200,405"/>
 <area shape="rect" id="node7" href="../../de/db1/a00197.php" title="C++/timeFunctions.hpp" alt="" coords="478,453,637,480"/>
 <area shape="rect" id="node65" href="../../d1/d88/a00128.php" title="C++/NotCopyable.hpp" alt="" coords="661,453,814,480"/>
 <area shape="rect" id="node66" href="../../d7/d06/a00131.php" title="C++/NotInstantiable.hpp" alt="" coords="839,453,1004,480"/>

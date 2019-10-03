@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -105,6 +105,9 @@ $(document).ready(function(){initNavTree('namespacemembers_type.php','');});
 <li>MapLine
 : <a class="el" href="dc/d28/a00223.php#a626eae05d907e09e182c9772e1aa04e6">mcd</a>
 </li>
+<li>mutex
+: <a class="el" href="dc/d28/a00223.php#a7139c2a1e77039f963009520820d8c87">mcd</a>
+</li>
 <li>NodeWeight
 : <a class="el" href="dc/d28/a00223.php#a0d3d39a7992ee9e893a83ab18066f79d">mcd</a>
 </li>
@@ -113,6 +116,9 @@ $(document).ready(function(){initNavTree('namespacemembers_type.php','');});
 </li>
 <li>quatuor_str
 : <a class="el" href="dc/d28/a00223.php#aaa50b5dcb5cb495757e7084494fd482d">mcd</a>
+</li>
+<li>thread
+: <a class="el" href="dc/d28/a00223.php#a21976f3e9e8d360ccff90c8ead193a5e">mcd</a>
 </li>
 <li>trio_str
 : <a class="el" href="dc/d28/a00223.php#adc4a4720990996356b2c954e9d611e9b">mcd</a>

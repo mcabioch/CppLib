@@ -2,7 +2,7 @@
 
 namespace mcd {
 	/* ThreadCout & ThreadEndlCout variables */
-		std::mutex ThreadCout::_mutex;
+		mutex ThreadCout::_mutex;
 		bool ThreadCout::_mutexed = false;
 
 		ThreadCout cout;

@@ -2,7 +2,7 @@
 *
 *	\file		pointers.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	April, 15 2019
+*	\modified	October, 03 2019
 *
 */
 #ifndef HEADER_CPP_POINTERS
@@ -13,10 +13,15 @@
 #ifndef OS_WINDOWS
 	#include <thread>
 	#include <mutex>
+
+	namespace mcd {
+		using thread = std::thread;
+		using mutex = std::mutex;
+	}
 #else
 	#include "boost/thread.hpp"
 
-	namespace std {
+	namespace mcd {
 		using thread = boost::thread;
 		using mutex = boost::mutex;
 	}
@@ -109,7 +114,7 @@ namespace mcd {
 			};
 		#endif //DOXYGEN_SHOULD_SKIP_THIS
 
-		/*! \brief	A template class to test if T is a std::shared_ptr<std::thread>, a std::unique_ptr<std::thread>, a std::weak_ptr<std::thread> or a std::thread* */
+		/*! \brief	A template class to test if T is a std::shared_ptr<thread>, a std::unique_ptr<thread>, a std::weak_ptr<thread> or a thread* */
 		template<typename T>
 		class is_thread_ptr{
 			public:
@@ -118,22 +123,22 @@ namespace mcd {
 
 		#ifndef DOXYGEN_SHOULD_SKIP_THIS
 			template<>
-			class is_thread_ptr<std::shared_ptr<std::thread>>{
+			class is_thread_ptr<std::shared_ptr<thread>>{
 				public:
 					const static bool value = true;
 			};
 			template<>
-			class is_thread_ptr<std::unique_ptr<std::thread>>{
+			class is_thread_ptr<std::unique_ptr<thread>>{
 				public:
 					const static bool value = true;
 			};
 			template<>
-			class is_thread_ptr<std::weak_ptr<std::thread>>{
+			class is_thread_ptr<std::weak_ptr<thread>>{
 				public:
 					const static bool value = true;
 			};
 			template<>
-			class is_thread_ptr<std::thread*>{
+			class is_thread_ptr<thread*>{
 				public:
 					const static bool value = true;
 			};

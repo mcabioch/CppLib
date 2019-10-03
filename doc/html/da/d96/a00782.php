@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 17:46:11 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,17 +90,14 @@ $(document).ready(function(){initNavTree('d3/d00/a00785.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::t_stack&lt; T, Container &gt; Member List</div>  </div>
+<div class="title">mcd::stack&lt; T, Container &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d3/d00/a00785.php">mcd::t_stack&lt; T, Container &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d3/d00/a00785.php">mcd::stack&lt; T, Container &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d86/a00781.php#ac779733da952e8cfda80b14655a07172">get</a>()</td><td class="entry"><a class="el" href="../../d6/d86/a00781.php">mcd::stack&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d00/a00785.php#ac52e7cd746a8da37bc0d9aba1b44a12a">push</a>(const T &amp;value)</td><td class="entry"><a class="el" href="../../d3/d00/a00785.php">mcd::t_stack&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d00/a00785.php#a366f9af743a2aa515c828da000add01a">push</a>(T &amp;&amp;value)</td><td class="entry"><a class="el" href="../../d3/d00/a00785.php">mcd::t_stack&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d86/a00781.php#aa9d55e0af1d4e27cc1abba7a2d399afc">stack</a>()</td><td class="entry"><a class="el" href="../../d6/d86/a00781.php">mcd::stack&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d00/a00785.php#aa4c2b6ebb0b904372919f1c9d0e8a7fa">t_stack</a>()</td><td class="entry"><a class="el" href="../../d3/d00/a00785.php">mcd::t_stack&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d00/a00785.php#ac779733da952e8cfda80b14655a07172">get</a>()</td><td class="entry"><a class="el" href="../../d3/d00/a00785.php">mcd::stack&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d00/a00785.php#aa9d55e0af1d4e27cc1abba7a2d399afc">stack</a>()</td><td class="entry"><a class="el" href="../../d3/d00/a00785.php">mcd::stack&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

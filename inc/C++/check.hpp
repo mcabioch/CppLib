@@ -2,7 +2,7 @@
 *
 *	\file		check.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	October, 02 2019
+*	\modified	October, 03 2019
 *
 */
 #ifndef HEADER_CPP_CHECK
@@ -18,50 +18,62 @@
 #ifdef OS_WINDOWS
 	#include "boost/chrono.hpp"
 
-	namespace std {
+	namespace mcd {
 		namespace this_thread {
-			thread::id get_id() noexcept;
-
 			template<typename TimeDuration>
 			void yield() noexcept{
 				boost::this_thread::yield();
 			}
 
 			template <class Rep>
-			void sleep_for(const chrono::duration<Rep, std::nano>& rel_time){
+			void sleep_for(const std::chrono::duration<Rep, std::nano>& rel_time){
 				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::nano>(rel_time.count()));
 			}
 			template <class Rep>
-			void sleep_for(const chrono::duration<Rep, std::micro>& rel_time){
+			void sleep_for(const std::chrono::duration<Rep, std::micro>& rel_time){
 				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::micro>(rel_time.count()));
 			}
 			template <class Rep>
-			void sleep_for(const chrono::duration<Rep, std::milli>& rel_time){
+			void sleep_for(const std::chrono::duration<Rep, std::milli>& rel_time){
 				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::milli>(rel_time.count()));
 			}
 			template <class Rep>
-			void sleep_for(const chrono::duration<Rep, std::centi>& rel_time){
+			void sleep_for(const std::chrono::duration<Rep, std::centi>& rel_time){
 				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::centi>(rel_time.count()));
 			}
 			template <class Rep>
-			void sleep_for(const chrono::duration<Rep, std::deci>& rel_time){
+			void sleep_for(const std::chrono::duration<Rep, std::deci>& rel_time){
 				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::deci>(rel_time.count()));
 			}
 			template <class Rep>
-			void sleep_for(const chrono::duration<Rep, std::ratio<1>>& rel_time){
+			void sleep_for(const std::chrono::duration<Rep, std::ratio<1>>& rel_time){
 				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::ratio<1>>(rel_time.count()));
 			}
 			template <class Rep>
-			void sleep_for(const chrono::duration<Rep, std::deca>& rel_time){
+			void sleep_for(const std::chrono::duration<Rep, std::deca>& rel_time){
 				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::deca>(rel_time.count()));
 			}
 			template <class Rep>
-			void sleep_for(const chrono::duration<Rep, std::hecto>& rel_time){
+			void sleep_for(const std::chrono::duration<Rep, std::hecto>& rel_time){
 				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::hecto>(rel_time.count()));
 			}
 			template <class Rep>
-			void sleep_for(const chrono::duration<Rep, std::kilo>& rel_time){
+			void sleep_for(const std::chrono::duration<Rep, std::kilo>& rel_time){
 				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::kilo>(rel_time.count()));
+			}
+		}
+	}
+#else
+	namespace mcd {
+		namespace this_thread {
+			template<typename TimeDuration>
+			void yield() noexcept{
+				std::this_thread::yield();
+			}
+
+			template <class Rep, class Period>
+			void sleep_for(const std::chrono::duration<Rep, Period>& rel_time){
+				std::this_thread::sleep_for(rel_time);
 			}
 		}
 	}

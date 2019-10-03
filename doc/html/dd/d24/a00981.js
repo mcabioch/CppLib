@@ -1,5 +1,6 @@
 var a00981 =
 [
-    [ "NotCopyable", "dd/d24/a00981.php#aa40da048522b578e9c2cc9f73c1a0d92", null ],
-    [ "~NotCopyable", "dd/d24/a00981.php#a5efcd02383468e37e9c960f3d6f9d14c", null ]
+    [ "Mushroom", "dd/d24/a00981.php#aa3f3f1ad0542e087b039ce1586c0c907", null ],
+    [ "~Mushroom", "dd/d24/a00981.php#afba77573c7fb8dfdbf6f73192fe64fde", null ],
+    [ "printInfos", "dd/d24/a00981.php#a7f5b4cb7d65beddc201434f2e8cc1f15", null ]
 ];

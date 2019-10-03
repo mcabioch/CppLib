@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -103,9 +103,9 @@ Include dependency graph for PathfindingProblem.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/d01/a00153.png" border="0" usemap="#PathfindingProblem_8hpp" alt=""/></div>
 <map name="PathfindingProblem_8hpp" id="PathfindingProblem_8hpp">
-<area shape="rect" id="node2" href="../../da/d1e/a00149.php" title="C++/PathfindingException.hpp" alt="" coords="908,80,1108,107"/>
-<area shape="rect" id="node69" href="../../d2/df5/a00137.php" title="C++/Path.hpp" alt="" coords="1132,80,1236,107"/>
-<area shape="rect" id="node3" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1033,155,1159,181"/>
+<area shape="rect" id="node2" href="../../da/d1e/a00149.php" title="C++/PathfindingException.hpp" alt="" coords="949,80,1149,107"/>
+<area shape="rect" id="node70" href="../../d2/df5/a00137.php" title="C++/Path.hpp" alt="" coords="1173,80,1277,107"/>
+<area shape="rect" id="node3" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1075,155,1200,181"/>
 <area shape="rect" id="node4" href="../../de/db1/a00197.php" title="C++/timeFunctions.hpp" alt="" coords="478,229,637,256"/>
 <area shape="rect" id="node62" href="../../d1/d88/a00128.php" title="C++/NotCopyable.hpp" alt="" coords="661,229,814,256"/>
 <area shape="rect" id="node63" href="../../d7/d06/a00131.php" title="C++/NotInstantiable.hpp" alt="" coords="839,229,1004,256"/>
@@ -172,8 +172,8 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/def/a01016.php">mcd::PathfindingProblem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to group every pathfinding problems in one way to use it.  <a href="../../de/def/a01016.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ded/a01017.php">mcd::PathfindingProblem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to group every pathfinding problems in one way to use it.  <a href="../../d3/ded/a01017.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>

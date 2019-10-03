@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -111,16 +111,16 @@ Include dependency graph for defines.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/d2c/a00072.png" border="0" usemap="#defines_8hpp" alt=""/></div>
 <map name="defines_8hpp" id="defines_8hpp">
-<area shape="rect" id="node2" href="../../d3/db1/a00200.php" title="C++/Timer.hpp" alt="" coords="661,80,771,107"/>
-<area shape="rect" id="node70" href="../../d4/dee/a00008.php" title="C++/Args.hpp" alt="" coords="796,80,900,107"/>
-<area shape="rect" id="node71" href="../../da/d24/a00068.php" title="C++/DateTime.hpp" alt="" coords="870,304,1005,331"/>
-<area shape="rect" id="node74" href="../../d5/df9/a00044.php" title="C++/Clock.hpp" alt="" coords="975,229,1086,256"/>
-<area shape="rect" id="node75" href="../../dc/dee/a00053.php" title="C++/ConsoleTable.hpp" alt="" coords="1041,155,1199,181"/>
-<area shape="rect" id="node76" href="../../d5/dcb/a00170.php" title="C++/Referenced.hpp" alt="" coords="1161,229,1305,256"/>
-<area shape="rect" id="node77" href="../../d7/dce/a00143.php" title="C++/PathfindingAlgorithms.hpp" alt="" coords="1283,80,1487,107"/>
-<area shape="rect" id="node83" href="../../d1/d44/a00098.php" title="C++/IOConfig.hpp" alt="" coords="1513,304,1642,331"/>
-<area shape="rect" id="node3" href="../../d9/dd0/a00191.php" title="C++/Threadable.hpp" alt="" coords="691,155,832,181"/>
-<area shape="rect" id="node4" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1061,453,1187,480"/>
+<area shape="rect" id="node2" href="../../d3/db1/a00200.php" title="C++/Timer.hpp" alt="" coords="702,80,813,107"/>
+<area shape="rect" id="node71" href="../../d4/dee/a00008.php" title="C++/Args.hpp" alt="" coords="837,80,941,107"/>
+<area shape="rect" id="node72" href="../../da/d24/a00068.php" title="C++/DateTime.hpp" alt="" coords="911,304,1046,331"/>
+<area shape="rect" id="node75" href="../../d5/df9/a00044.php" title="C++/Clock.hpp" alt="" coords="1017,229,1127,256"/>
+<area shape="rect" id="node76" href="../../dc/dee/a00053.php" title="C++/ConsoleTable.hpp" alt="" coords="1083,155,1240,181"/>
+<area shape="rect" id="node77" href="../../d5/dcb/a00170.php" title="C++/Referenced.hpp" alt="" coords="1203,229,1347,256"/>
+<area shape="rect" id="node78" href="../../d7/dce/a00143.php" title="C++/PathfindingAlgorithms.hpp" alt="" coords="1325,80,1529,107"/>
+<area shape="rect" id="node84" href="../../d1/d44/a00098.php" title="C++/IOConfig.hpp" alt="" coords="1554,304,1683,331"/>
+<area shape="rect" id="node3" href="../../d9/dd0/a00191.php" title="C++/Threadable.hpp" alt="" coords="732,155,873,181"/>
+<area shape="rect" id="node4" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1103,453,1228,480"/>
 <area shape="rect" id="node5" href="../../de/db1/a00197.php" title="C++/timeFunctions.hpp" alt="" coords="506,528,665,555"/>
 <area shape="rect" id="node63" href="../../d1/d88/a00128.php" title="C++/NotCopyable.hpp" alt="" coords="689,528,842,555"/>
 <area shape="rect" id="node64" href="../../d7/d06/a00131.php" title="C++/NotInstantiable.hpp" alt="" coords="867,528,1032,555"/>
@@ -152,13 +152,13 @@ Include dependency graph for defines.hpp:</div>
 <area shape="rect" id="node53" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="402,1349,526,1376"/>
 <area shape="rect" id="node54" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="407,1424,521,1451"/>
 <area shape="rect" id="node55" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="653,1499,768,1525"/>
-<area shape="rect" id="node72" href="../../de/de1/a00065.php" title="C++/Date.hpp" alt="" coords="930,379,1035,405"/>
-<area shape="rect" id="node73" href="../../dc/d57/a00194.php" title="C++/Time.hpp" alt="" coords="799,379,905,405"/>
-<area shape="rect" id="node78" href="../../d9/db6/a00146.php" title="C++/PathfindingDijkstra.hpp" alt="" coords="1299,155,1485,181"/>
-<area shape="rect" id="node79" href="../../d5/db1/a00140.php" title="C++/Pathfinding.hpp" alt="" coords="1330,229,1473,256"/>
-<area shape="rect" id="node80" href="../../d7/d9a/a00152.php" title="C++/PathfindingProblem.hpp" alt="" coords="1298,304,1489,331"/>
-<area shape="rect" id="node81" href="../../da/d1e/a00149.php" title="C++/PathfindingException.hpp" alt="" coords="1340,379,1540,405"/>
-<area shape="rect" id="node82" href="../../d2/df5/a00137.php" title="C++/Path.hpp" alt="" coords="1212,379,1316,405"/>
+<area shape="rect" id="node73" href="../../de/de1/a00065.php" title="C++/Date.hpp" alt="" coords="971,379,1077,405"/>
+<area shape="rect" id="node74" href="../../dc/d57/a00194.php" title="C++/Time.hpp" alt="" coords="840,379,947,405"/>
+<area shape="rect" id="node79" href="../../d9/db6/a00146.php" title="C++/PathfindingDijkstra.hpp" alt="" coords="1340,155,1527,181"/>
+<area shape="rect" id="node80" href="../../d5/db1/a00140.php" title="C++/Pathfinding.hpp" alt="" coords="1371,229,1514,256"/>
+<area shape="rect" id="node81" href="../../d7/d9a/a00152.php" title="C++/PathfindingProblem.hpp" alt="" coords="1339,304,1530,331"/>
+<area shape="rect" id="node82" href="../../da/d1e/a00149.php" title="C++/PathfindingException.hpp" alt="" coords="1381,379,1581,405"/>
+<area shape="rect" id="node83" href="../../d2/df5/a00137.php" title="C++/Path.hpp" alt="" coords="1253,379,1357,405"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -190,9 +190,9 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:d7/db6/a00940"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#d7/db6/a00940">mcd::ContraptionAttr</a></td></tr>
-<tr class="memdesc:d7/db6/a00940"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define <b><a class="el" href="../../d0/d85/a00908.php" title="A contraption. ">Contraption</a></b> attributes.  <a href="../../dc/d28/a00223.php#d7/db6/a00940">More...</a><br /></td></tr>
-<tr class="separator:d7/db6/a00940"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d6/dad/a00941"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#d6/dad/a00941">mcd::ContraptionAttr</a></td></tr>
+<tr class="memdesc:d6/dad/a00941"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define <b><a class="el" href="../../de/dc3/a00909.php" title="A contraption. ">Contraption</a></b> attributes.  <a href="../../dc/d28/a00223.php#d6/dad/a00941">More...</a><br /></td></tr>
+<tr class="separator:d6/dad/a00941"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -246,8 +246,8 @@ Enumerations</h2></td></tr>
 </li>
 </ul>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="d7/db6/a00940" id="d7/db6/a00940"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d7/db6/a00940">&#9670;&nbsp;</a></span>mcd::ContraptionAttr</h2>
+<a name="d6/dad/a00941" id="d6/dad/a00941"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d6/dad/a00941">&#9670;&nbsp;</a></span>mcd::ContraptionAttr</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -257,7 +257,7 @@ Enumerations</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><p>A struct to define <b><a class="el" href="../../d0/d85/a00908.php" title="A contraption. ">Contraption</a></b> attributes. </p>
+<div class="textblock"><p>A struct to define <b><a class="el" href="../../de/dc3/a00909.php" title="A contraption. ">Contraption</a></b> attributes. </p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">

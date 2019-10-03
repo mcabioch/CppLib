@@ -1,8 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d2/d4c/a00984.php" title="A class to let some other not to be copyable. " alt="" coords="5,81,136,108"/>
-<area shape="rect" id="node2" href="$df/da5/a00912.php" title="A class to be the parent for every crypt class. " alt="" coords="184,81,279,108"/>
-<area shape="rect" id="node3" href="$d6/d66/a00916.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="334,5,425,32"/>
-<area shape="rect" id="node4" href="$de/d62/a00924.php" title="A class to test a homemade algorithm for encryption. " alt="" coords="327,56,432,83"/>
-<area shape="rect" id="node5" href="$dd/d38/a00928.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="338,107,421,133"/>
-<area shape="rect" id="node6" href="$d6/d82/a00920.php" title="An implementation of sha256 encryption. " alt="" coords="334,157,425,184"/>
+<area shape="rect" id="node1" href="$da/deb/a00985.php" title="A class to let some other not to be copyable. " alt="" coords="5,81,136,108"/>
+<area shape="rect" id="node2" href="$d9/dfb/a00913.php" title="A class to be the parent for every crypt class. " alt="" coords="184,81,279,108"/>
+<area shape="rect" id="node3" href="$d4/ddc/a00917.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="334,5,425,32"/>
+<area shape="rect" id="node4" href="$dc/d36/a00925.php" title="A class to test a homemade algorithm for encryption. " alt="" coords="327,56,432,83"/>
+<area shape="rect" id="node5" href="$dc/d92/a00929.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="338,107,421,133"/>
+<area shape="rect" id="node6" href="$dd/d7a/a00921.php" title="An implementation of sha256 encryption. " alt="" coords="334,157,425,184"/>
 </map>

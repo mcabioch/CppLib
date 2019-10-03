@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 17:46:11 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,14 +90,14 @@ $(document).ready(function(){initNavTree('d7/d46/a01045.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::RNG&lt; T, U &gt; Member List</div>  </div>
+<div class="title">mcd::Referenced&lt; C &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d7/d46/a01045.php">mcd::RNG&lt; T, U &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d7/d46/a01045.php">mcd::Referenced&lt; C &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/d46/a01045.php#a717048eaee5dc829e132237026beaecc">operator()</a>(T a, T b)</td><td class="entry"><a class="el" href="../../d7/d46/a01045.php">mcd::RNG&lt; T, U &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/d46/a01045.php#ada6783e2f83f41b11d72687c90c29ead">RNG</a>()</td><td class="entry"><a class="el" href="../../d7/d46/a01045.php">mcd::RNG&lt; T, U &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d46/a01045.php#a3aadcf63bff72dd8c87f4c1d7a3bd240">_her</a></td><td class="entry"><a class="el" href="../../d7/d46/a01045.php">mcd::Referenced&lt; C &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d46/a01045.php#a23a4eee18708dae4eff05079a345c375">Referenced</a>(C *her)</td><td class="entry"><a class="el" href="../../d7/d46/a01045.php">mcd::Referenced&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

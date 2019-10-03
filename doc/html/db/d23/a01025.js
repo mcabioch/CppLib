@@ -1,25 +1,6 @@
 var a01025 =
 [
-    [ "PlayerAbstraction", "db/d23/a01025.php#acd7472274e5fd10845893208d604617f", null ],
-    [ "~PlayerAbstraction", "db/d23/a01025.php#abde0c45c79e9cb030711f77d73fdc5a8", null ],
-    [ "getExperience", "db/d23/a01025.php#af4b6c4845dcc12c9feed1910e7de9334", null ],
-    [ "getExperienceMax", "db/d23/a01025.php#a3d9f0332994725fceb7f785fd83e1802", null ],
-    [ "getMail", "db/d23/a01025.php#ada35a68939571761734d82bf83e6c634", null ],
-    [ "isInit", "db/d23/a01025.php#abdb489c22b76cb09daefb8f05b2f515c", null ],
-    [ "isLost", "db/d23/a01025.php#ae441783e58a888696f8dc24f4cdfcce5", null ],
-    [ "isPaused", "db/d23/a01025.php#a81a1ea7b3b306b10af787c353c92cc2e", null ],
-    [ "lost", "db/d23/a01025.php#a7582710c11a7b92d9912f414a5296975", null ],
-    [ "pause", "db/d23/a01025.php#a57f10ce6fa33a36671c750dd68dc1a13", null ],
-    [ "printInfos", "db/d23/a01025.php#ac6d60013def2f34160fda9a990cf2da5", null ],
-    [ "resume", "db/d23/a01025.php#a4670bc4130ffbdd8fd198ab020a7ffe3", null ],
-    [ "retreive", "db/d23/a01025.php#ac4a98e2f186ed9702f90362a158a9f2f", null ],
-    [ "setExperience", "db/d23/a01025.php#a368cb45cbd8f4bcd470628f4d0783b07", null ],
-    [ "setExperienceMax", "db/d23/a01025.php#a7e2dc719465b4100436d08def34378f4", null ],
-    [ "setMail", "db/d23/a01025.php#ac6441d9b85821e4e20639fe5082795a5", null ],
-    [ "_experience", "db/d23/a01025.php#ae561b7817c64610317799205afa306cd", null ],
-    [ "_experienceMax", "db/d23/a01025.php#a3800d1590d75f762d41be6349556707d", null ],
-    [ "_init", "db/d23/a01025.php#abffa7d0ae3461370c932f0732367c93b", null ],
-    [ "_losted", "db/d23/a01025.php#aee72e21c73d5bbf23c831514cd6cd58b", null ],
-    [ "_mail", "db/d23/a01025.php#ad9199142db686c7745b21429e7061823", null ],
-    [ "_paused", "db/d23/a01025.php#a005074efa352510f2dc316404195946c", null ]
+    [ "Player", "db/d23/a01025.php#aa2e12089a072fbc695087df2b474af5c", null ],
+    [ "~Player", "db/d23/a01025.php#a73fba351baf5641e985c76c0de4fe097", null ],
+    [ "printInfos", "db/d23/a01025.php#ae0258dbfcdecaaa58390125aac118fe8", null ]
 ];

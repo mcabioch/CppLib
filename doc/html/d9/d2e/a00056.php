@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -102,21 +102,21 @@ Include dependency graph for Contraption.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d22/a00057.png" border="0" usemap="#Contraption_8hpp" alt=""/></div>
 <map name="Contraption_8hpp" id="Contraption_8hpp">
-<area shape="rect" id="node2" href="../../d4/d8c/a00035.php" title="C++/C++.hpp" alt="" coords="994,80,1097,107"/>
-<area shape="rect" id="node3" href="../../df/d03/a00062.php" title="C++/cryptage.hpp" alt="" coords="843,155,970,181"/>
-<area shape="rect" id="node87" href="../../de/d79/a00203.php" title="C++/Tree.hpp" alt="" coords="994,155,1097,181"/>
-<area shape="rect" id="node88" href="../../d0/dc2/a00104.php" title="C++/Map.hpp" alt="" coords="1121,155,1223,181"/>
-<area shape="rect" id="node4" href="../../d0/d89/a00071.php" title="C++/defines.hpp" alt="" coords="986,229,1105,256"/>
-<area shape="rect" id="node5" href="../../d3/db1/a00200.php" title="C++/Timer.hpp" alt="" coords="661,304,771,331"/>
-<area shape="rect" id="node73" href="../../d4/dee/a00008.php" title="C++/Args.hpp" alt="" coords="796,304,900,331"/>
-<area shape="rect" id="node74" href="../../da/d24/a00068.php" title="C++/DateTime.hpp" alt="" coords="870,528,1005,555"/>
-<area shape="rect" id="node77" href="../../d5/df9/a00044.php" title="C++/Clock.hpp" alt="" coords="975,453,1086,480"/>
-<area shape="rect" id="node78" href="../../dc/dee/a00053.php" title="C++/ConsoleTable.hpp" alt="" coords="1041,379,1199,405"/>
-<area shape="rect" id="node79" href="../../d5/dcb/a00170.php" title="C++/Referenced.hpp" alt="" coords="1161,453,1305,480"/>
-<area shape="rect" id="node80" href="../../d7/dce/a00143.php" title="C++/PathfindingAlgorithms.hpp" alt="" coords="1285,304,1489,331"/>
-<area shape="rect" id="node86" href="../../d1/d44/a00098.php" title="C++/IOConfig.hpp" alt="" coords="1513,528,1642,555"/>
-<area shape="rect" id="node6" href="../../d9/dd0/a00191.php" title="C++/Threadable.hpp" alt="" coords="691,379,832,405"/>
-<area shape="rect" id="node7" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1061,677,1187,704"/>
+<area shape="rect" id="node2" href="../../d4/d8c/a00035.php" title="C++/C++.hpp" alt="" coords="1035,80,1138,107"/>
+<area shape="rect" id="node3" href="../../df/d03/a00062.php" title="C++/cryptage.hpp" alt="" coords="885,155,1011,181"/>
+<area shape="rect" id="node88" href="../../de/d79/a00203.php" title="C++/Tree.hpp" alt="" coords="1035,155,1138,181"/>
+<area shape="rect" id="node89" href="../../d0/dc2/a00104.php" title="C++/Map.hpp" alt="" coords="1162,155,1265,181"/>
+<area shape="rect" id="node4" href="../../d0/d89/a00071.php" title="C++/defines.hpp" alt="" coords="1027,229,1146,256"/>
+<area shape="rect" id="node5" href="../../d3/db1/a00200.php" title="C++/Timer.hpp" alt="" coords="702,304,813,331"/>
+<area shape="rect" id="node74" href="../../d4/dee/a00008.php" title="C++/Args.hpp" alt="" coords="837,304,941,331"/>
+<area shape="rect" id="node75" href="../../da/d24/a00068.php" title="C++/DateTime.hpp" alt="" coords="911,528,1046,555"/>
+<area shape="rect" id="node78" href="../../d5/df9/a00044.php" title="C++/Clock.hpp" alt="" coords="1017,453,1127,480"/>
+<area shape="rect" id="node79" href="../../dc/dee/a00053.php" title="C++/ConsoleTable.hpp" alt="" coords="1083,379,1240,405"/>
+<area shape="rect" id="node80" href="../../d5/dcb/a00170.php" title="C++/Referenced.hpp" alt="" coords="1203,453,1347,480"/>
+<area shape="rect" id="node81" href="../../d7/dce/a00143.php" title="C++/PathfindingAlgorithms.hpp" alt="" coords="1326,304,1530,331"/>
+<area shape="rect" id="node87" href="../../d1/d44/a00098.php" title="C++/IOConfig.hpp" alt="" coords="1554,528,1683,555"/>
+<area shape="rect" id="node6" href="../../d9/dd0/a00191.php" title="C++/Threadable.hpp" alt="" coords="732,379,873,405"/>
+<area shape="rect" id="node7" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1103,677,1228,704"/>
 <area shape="rect" id="node8" href="../../de/db1/a00197.php" title="C++/timeFunctions.hpp" alt="" coords="506,752,665,779"/>
 <area shape="rect" id="node66" href="../../d1/d88/a00128.php" title="C++/NotCopyable.hpp" alt="" coords="689,752,842,779"/>
 <area shape="rect" id="node67" href="../../d7/d06/a00131.php" title="C++/NotInstantiable.hpp" alt="" coords="867,752,1032,779"/>
@@ -148,13 +148,13 @@ Include dependency graph for Contraption.hpp:</div>
 <area shape="rect" id="node56" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="402,1573,526,1600"/>
 <area shape="rect" id="node57" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="407,1648,521,1675"/>
 <area shape="rect" id="node58" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="653,1723,768,1749"/>
-<area shape="rect" id="node75" href="../../de/de1/a00065.php" title="C++/Date.hpp" alt="" coords="930,603,1035,629"/>
-<area shape="rect" id="node76" href="../../dc/d57/a00194.php" title="C++/Time.hpp" alt="" coords="799,603,905,629"/>
-<area shape="rect" id="node81" href="../../d9/db6/a00146.php" title="C++/PathfindingDijkstra.hpp" alt="" coords="1304,379,1491,405"/>
-<area shape="rect" id="node82" href="../../d5/db1/a00140.php" title="C++/Pathfinding.hpp" alt="" coords="1330,453,1473,480"/>
-<area shape="rect" id="node83" href="../../d7/d9a/a00152.php" title="C++/PathfindingProblem.hpp" alt="" coords="1298,528,1489,555"/>
-<area shape="rect" id="node84" href="../../da/d1e/a00149.php" title="C++/PathfindingException.hpp" alt="" coords="1340,603,1540,629"/>
-<area shape="rect" id="node85" href="../../d2/df5/a00137.php" title="C++/Path.hpp" alt="" coords="1212,603,1316,629"/>
+<area shape="rect" id="node76" href="../../de/de1/a00065.php" title="C++/Date.hpp" alt="" coords="971,603,1077,629"/>
+<area shape="rect" id="node77" href="../../dc/d57/a00194.php" title="C++/Time.hpp" alt="" coords="840,603,947,629"/>
+<area shape="rect" id="node82" href="../../d9/db6/a00146.php" title="C++/PathfindingDijkstra.hpp" alt="" coords="1345,379,1532,405"/>
+<area shape="rect" id="node83" href="../../d5/db1/a00140.php" title="C++/Pathfinding.hpp" alt="" coords="1371,453,1514,480"/>
+<area shape="rect" id="node84" href="../../d7/d9a/a00152.php" title="C++/PathfindingProblem.hpp" alt="" coords="1339,528,1530,555"/>
+<area shape="rect" id="node85" href="../../da/d1e/a00149.php" title="C++/PathfindingException.hpp" alt="" coords="1381,603,1581,629"/>
+<area shape="rect" id="node86" href="../../d2/df5/a00137.php" title="C++/Path.hpp" alt="" coords="1253,603,1357,629"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -180,8 +180,8 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d85/a00908.php">mcd::Contraption</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A contraption.  <a href="../../d0/d85/a00908.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc3/a00909.php">mcd::Contraption</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A contraption.  <a href="../../de/dc3/a00909.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>

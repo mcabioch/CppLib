@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 17:46:10 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,20 +90,23 @@ $(document).ready(function(){initNavTree('df/d59/a01001.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Pathfinding Member List</div>  </div>
+<div class="title">mcd::Path Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../df/d59/a01001.php">mcd::Pathfinding</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../df/d59/a01001.php">mcd::Path</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d59/a01001.php#a6f42595f214b1d2328d40c7fcf371626">_end</a></td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d59/a01001.php#afa7ec4aec9e8ed4aba2c3110ca86273f">_path</a></td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d59/a01001.php#a8432f285b7015512efbe0a9a47bc76d7">_problem</a></td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d59/a01001.php#a6fc13e2aa513059f91865021b9b13eed">_start</a></td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d59/a01001.php#a9a82c779fba2fba8d5adbd1c22ea8c0d">createPath</a>()=0</td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d59/a01001.php#ac59e95d415c520941c5bac355537df7f">getPath</a>()</td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d59/a01001.php#aca54568ec2e832b3f08ef6f86c7184f2">Pathfinding</a>(const PathfindingProblem &amp;problem, const PathfindingNode &amp;start, const PathfindingNode &amp;end)</td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Pathfinding</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d59/a01001.php#a4cb06bc7729ad6371ad3380e0fd54f51">~Pathfinding</a>()</td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d59/a01001.php#a3b461b7f35d6914a627e52e20f79f6ce">end</a></td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Path</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d59/a01001.php#a7928f59acfc984899a12b52ab2e5ddca">hasNext</a>() const</td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Path</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d59/a01001.php#a2ae56317713ca93848b0c47bc401cbf4">length</a>() const</td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d59/a01001.php#ac24764eca1f5c6a54322d4a19d4ac68f">next</a>(PathfindingNode &amp;node)</td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Path</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d59/a01001.php#a19773c31a6467b9b61b440135863290e">Path</a>()</td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Path</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d59/a01001.php#a54d7d03099784e7f2e573ba17ebe499e">push</a>(const PathfindingNode &amp;node)</td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d59/a01001.php#a6941e224d3239f1c5aeda5b309aa5c81">reset</a>()</td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Path</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d59/a01001.php#a1fb9d6aad58d7817692168eaea307a14">reverse</a>()</td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d59/a01001.php#a85140de1f8970b128a2501316a71e332">size</a>() const</td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d59/a01001.php#aeeee0a0ede330174785a5c7fe77d1681">start</a></td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Path</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d59/a01001.php#ae7ac83a2afcba63d1e8f17f314572a7f">~Path</a>()</td><td class="entry"><a class="el" href="../../df/d59/a01001.php">mcd::Path</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

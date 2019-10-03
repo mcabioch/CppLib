@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -102,10 +102,10 @@ Include dependency graph for Pathfinding.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/d4e/a00141.png" border="0" usemap="#Pathfinding_8hpp" alt=""/></div>
 <map name="Pathfinding_8hpp" id="Pathfinding_8hpp">
-<area shape="rect" id="node2" href="../../d7/d9a/a00152.php" title="C++/PathfindingProblem.hpp" alt="" coords="1001,80,1191,107"/>
-<area shape="rect" id="node3" href="../../da/d1e/a00149.php" title="C++/PathfindingException.hpp" alt="" coords="908,155,1108,181"/>
-<area shape="rect" id="node70" href="../../d2/df5/a00137.php" title="C++/Path.hpp" alt="" coords="1132,155,1236,181"/>
-<area shape="rect" id="node4" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1033,229,1159,256"/>
+<area shape="rect" id="node2" href="../../d7/d9a/a00152.php" title="C++/PathfindingProblem.hpp" alt="" coords="1042,80,1233,107"/>
+<area shape="rect" id="node3" href="../../da/d1e/a00149.php" title="C++/PathfindingException.hpp" alt="" coords="949,155,1149,181"/>
+<area shape="rect" id="node71" href="../../d2/df5/a00137.php" title="C++/Path.hpp" alt="" coords="1173,155,1277,181"/>
+<area shape="rect" id="node4" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1075,229,1200,256"/>
 <area shape="rect" id="node5" href="../../de/db1/a00197.php" title="C++/timeFunctions.hpp" alt="" coords="478,304,637,331"/>
 <area shape="rect" id="node63" href="../../d1/d88/a00128.php" title="C++/NotCopyable.hpp" alt="" coords="661,304,814,331"/>
 <area shape="rect" id="node64" href="../../d7/d06/a00131.php" title="C++/NotInstantiable.hpp" alt="" coords="839,304,1004,331"/>
@@ -171,8 +171,8 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php">mcd::Pathfinding</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to implement some pathfinding algorithms.  <a href="../../df/dbc/a01004.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d06/a01005.php">mcd::Pathfinding</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to implement some pathfinding algorithms.  <a href="../../d7/d06/a01005.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>

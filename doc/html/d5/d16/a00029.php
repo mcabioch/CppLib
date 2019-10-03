@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -176,10 +176,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:afd0ec761914252fc66c1180845c1fb36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Big++.  <a href="../../dc/d28/a00223.php#afd0ec761914252fc66c1180845c1fb36">More...</a><br /></td></tr>
 <tr class="separator:afd0ec761914252fc66c1180845c1fb36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69988c1c7ee2ad5814c297f749588e78"><td class="memItemLeft" align="right" valign="top">Big&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#a69988c1c7ee2ad5814c297f749588e78">mcd::operator--</a> (Big &amp;in, int) noexcept</td></tr>
-<tr class="memdesc:a69988c1c7ee2ad5814c297f749588e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">&ndash;<a class="el" href="../../df/d0e/a00800.php" title="A new huge arithmetic variable. ">Big</a>  <a href="../../dc/d28/a00223.php#a69988c1c7ee2ad5814c297f749588e78">More...</a><br /></td></tr>
+<tr class="memdesc:a69988c1c7ee2ad5814c297f749588e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">&ndash;<a class="el" href="../../d7/d0a/a00801.php" title="A new huge arithmetic variable. ">Big</a>  <a href="../../dc/d28/a00223.php#a69988c1c7ee2ad5814c297f749588e78">More...</a><br /></td></tr>
 <tr class="separator:a69988c1c7ee2ad5814c297f749588e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad41a22ed7df2868dc7c42872004fc957"><td class="memItemLeft" align="right" valign="top">Big &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#ad41a22ed7df2868dc7c42872004fc957">mcd::operator--</a> (Big &amp;in) noexcept</td></tr>
-<tr class="memdesc:ad41a22ed7df2868dc7c42872004fc957"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../df/d0e/a00800.php" title="A new huge arithmetic variable. ">Big</a>&ndash;.  <a href="../../dc/d28/a00223.php#ad41a22ed7df2868dc7c42872004fc957">More...</a><br /></td></tr>
+<tr class="memdesc:ad41a22ed7df2868dc7c42872004fc957"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d7/d0a/a00801.php" title="A new huge arithmetic variable. ">Big</a>&ndash;.  <a href="../../dc/d28/a00223.php#ad41a22ed7df2868dc7c42872004fc957">More...</a><br /></td></tr>
 <tr class="separator:ad41a22ed7df2868dc7c42872004fc957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68941be2cb0a91ce0a75b0992c772e19"><td class="memItemLeft" align="right" valign="top">Big&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#a68941be2cb0a91ce0a75b0992c772e19">mcd::operator+</a> (const Big &amp;in) noexcept</td></tr>
 <tr class="memdesc:a68941be2cb0a91ce0a75b0992c772e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">+Big  <a href="../../dc/d28/a00223.php#a68941be2cb0a91ce0a75b0992c772e19">More...</a><br /></td></tr>

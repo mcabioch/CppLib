@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -137,7 +137,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="dc/d28/a00223.php#ad32e282421be0e66b0288fe7634ad183">mcd</a>
 </li>
 <li>dist()
-: <a class="el" href="dc/d28/a00223.php#a900f9e45ac94dbf01c4b67fb40682118">mcd</a>
+: <a class="el" href="dc/d28/a00223.php#a4d75f23c9b03fd2c56324895d0ff3c58">mcd</a>
 </li>
 <li>dsigmoide()
 : <a class="el" href="dc/d28/a00223.php#a9042d2e8e9a6311b4260c6f376f4072c">mcd</a>
@@ -265,7 +265,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="dc/d28/a00223.php#a68941be2cb0a91ce0a75b0992c772e19">mcd</a>
 </li>
 <li>operator++()
-: <a class="el" href="dc/d28/a00223.php#afd0ec761914252fc66c1180845c1fb36">mcd</a>
+: <a class="el" href="dc/d28/a00223.php#a164a9c100a128e971c6becd38fe7db82">mcd</a>
 </li>
 <li>operator-()
 : <a class="el" href="dc/d28/a00223.php#aa34a809adea5c0391ccc070f4b6fac4b">mcd</a>
@@ -274,19 +274,19 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="dc/d28/a00223.php#a69988c1c7ee2ad5814c297f749588e78">mcd</a>
 </li>
 <li>operator&lt;()
-: <a class="el" href="dc/d28/a00223.php#a426eb225a242b41a1bd4a38a721bfa39">mcd</a>
+: <a class="el" href="dc/d28/a00223.php#ab3a0bfd8107f1a0512e3daccbe8ec32a">mcd</a>
 </li>
 <li>operator&lt;&lt;()
 : <a class="el" href="dc/d28/a00223.php#a0e76ac5c4df82149886b58edcfc7090a">mcd</a>
 </li>
 <li>operator&lt;=()
-: <a class="el" href="dc/d28/a00223.php#af16116bb74326c4d798c387465347225">mcd</a>
+: <a class="el" href="dc/d28/a00223.php#a35feb7b77517c8a067a4f631d0c01903">mcd</a>
 </li>
 <li>operator==()
-: <a class="el" href="dc/d28/a00223.php#a4ba723943a9c71f6b716cfff3862b656">mcd</a>
+: <a class="el" href="dc/d28/a00223.php#a49c8e33d55da52fabdb3f09f2fd3e5b2">mcd</a>
 </li>
 <li>operator&gt;()
-: <a class="el" href="dc/d28/a00223.php#aa246dbc03b543a0a767df8e486189488">mcd</a>
+: <a class="el" href="dc/d28/a00223.php#ae8c157fea2d3cba9a23a3ff2878cc08e">mcd</a>
 </li>
 <li>operator&gt;=()
 : <a class="el" href="dc/d28/a00223.php#a83c8849718e8a8532282e6f1c80ceca0">mcd</a>
@@ -308,7 +308,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="dc/d28/a00223.php#a0029a835651d350c925a43fd718ab590">mcd</a>
 </li>
 <li>printable()
-: <a class="el" href="d5/ddf/a00224.php#a2bef56760d8ffae969e8a1347194b42c">mcd::Check</a>
+: <a class="el" href="dc/d98/a00225.php#a2bef56760d8ffae969e8a1347194b42c">mcd::Check</a>
 </li>
 <li>printSize()
 : <a class="el" href="dc/d28/a00223.php#a5046a9dfac4629babcb20cf7b914415e">mcd</a>
@@ -360,6 +360,9 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 <li>sleep()
 : <a class="el" href="dc/d28/a00223.php#a0003c12a7cc73a35e488f59ad14770bf">mcd</a>
 </li>
+<li>sleep_for()
+: <a class="el" href="d5/ddf/a00224.php#aaa5ef673c6390db3486b12d03a64f8f5">mcd::this_thread</a>
+</li>
 <li>sortAsc()
 : <a class="el" href="dc/d28/a00223.php#a0a1aa5f89ff57aa7dc4e6d136c9c315f">mcd</a>
 </li>
@@ -367,10 +370,10 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="dc/d28/a00223.php#a45ad9c2ac4a373fdad27e51c1c741d76">mcd</a>
 </li>
 <li>split()
-: <a class="el" href="dc/d28/a00223.php#a5257fd1ac4e72cf72335af2444a8bea9">mcd</a>
+: <a class="el" href="dc/d28/a00223.php#a3f5effb1d0789a63d9c71c5549f3eacf">mcd</a>
 </li>
 <li>sq()
-: <a class="el" href="dc/d28/a00223.php#a9adc0354f681800c75d220e526377397">mcd</a>
+: <a class="el" href="dc/d28/a00223.php#a31eb09e89b0015d54768c4510e59c780">mcd</a>
 </li>
 <li>sqrt()
 : <a class="el" href="dc/d28/a00223.php#ae3a712e4de66375b1a188fa464c968e2">mcd</a>
@@ -437,6 +440,13 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 </li>
 <li>wholePart()
 : <a class="el" href="dc/d28/a00223.php#af9443ebf71fe196006831fe344a09f13">mcd</a>
+</li>
+</ul>
+
+
+<h3><a id="index_y"></a>- y -</h3><ul>
+<li>yield()
+: <a class="el" href="d5/ddf/a00224.php#a3a711ec2f858ee16756d8619224624ee">mcd::this_thread</a>
 </li>
 </ul>
 </div><!-- contents -->

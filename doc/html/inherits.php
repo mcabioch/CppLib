@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -98,268 +98,268 @@ $(document).ready(function(){initNavTree('hierarchy.php','');});
 </div><table border="0" cellspacing="10" cellpadding="0">
 <tr><td><img src="inherit_graph_0.png" border="0" alt="" usemap="#mcd_1_1Arguments"/>
 <map name="mcd_1_1Arguments" id="mcd_1_1Arguments">
-<area shape="rect" id="node1" href="de/d42/a00780.php" title="A class to manage the arguments. " alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node1" href="d6/d86/a00781.php" title="A class to manage the arguments. " alt="" coords="5,5,124,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_1.png" border="0" alt="" usemap="#mcd_1_1Big"/>
 <map name="mcd_1_1Big" id="mcd_1_1Big">
-<area shape="rect" id="node1" href="df/d0e/a00800.php" title="A new huge arithmetic variable. " alt="" coords="5,5,80,32"/>
+<area shape="rect" id="node1" href="d7/d0a/a00801.php" title="A new huge arithmetic variable. " alt="" coords="5,5,80,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_2.png" border="0" alt="" usemap="#mcd_1_1Binary_3_01T_00_01Enable_01_4"/>
 <map name="mcd_1_1Binary_3_01T_00_01Enable_01_4" id="mcd_1_1Binary_3_01T_00_01Enable_01_4">
-<area shape="rect" id="node1" href="dc/d28/a00223.php#d1/dd1/a00804" title="A class to manage binary values easily. " alt="" coords="5,5,177,32"/>
+<area shape="rect" id="node1" href="dc/d28/a00223.php#d7/dff/a00805" title="A class to manage binary values easily. " alt="" coords="5,5,177,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_3.png" border="0" alt="" usemap="#mcd_1_1Binary_3_01T_00_01typename_01std_1_1enable__if__t_3_01std_1_1is__arithmetic_3_01T_01_4_1_1value_00_01void_01_4_01_4"/>
 <map name="mcd_1_1Binary_3_01T_00_01typename_01std_1_1enable__if__t_3_01std_1_1is__arithmetic_3_01T_01_4_1_1value_00_01void_01_4_01_4" id="mcd_1_1Binary_3_01T_00_01typename_01std_1_1enable__if__t_3_01std_1_1is__arithmetic_3_01T_01_4_1_1value_00_01void_01_4_01_4">
-<area shape="rect" id="node1" href="d7/dc8/a00808.php" title="mcd::Binary\&lt; T, typename\l std::enable_if_t\&lt; std\l::is_arithmetic\&lt; T \&gt;::value,\l void \&gt; \&gt;" alt="" coords="5,5,184,76"/>
+<area shape="rect" id="node1" href="dd/d7e/a00809.php" title="mcd::Binary\&lt; T, typename\l std::enable_if_t\&lt; std\l::is_arithmetic\&lt; T \&gt;::value,\l void \&gt; \&gt;" alt="" coords="5,5,184,76"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_4.png" border="0" alt="" usemap="#mcd_1_1Check_1_1has__istream__operator_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1has__istream__operator_3_01T_01_4" id="mcd_1_1Check_1_1has__istream__operator_3_01T_01_4">
-<area shape="rect" id="node1" href="da/de3/a00856.php" title="A template class to test if T has an istream operator. " alt="" coords="5,5,177,47"/>
+<area shape="rect" id="node1" href="d0/d82/a00857.php" title="A template class to test if T has an istream operator. " alt="" coords="5,5,177,47"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_5.png" border="0" alt="" usemap="#mcd_1_1Check_1_1has__ostream__operator_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1has__ostream__operator_3_01T_01_4" id="mcd_1_1Check_1_1has__ostream__operator_3_01T_01_4">
-<area shape="rect" id="node1" href="d9/d30/a00848.php" title="A template class to test if T has an ostream operator. " alt="" coords="5,5,181,47"/>
+<area shape="rect" id="node1" href="de/d37/a00849.php" title="A template class to test if T has an ostream operator. " alt="" coords="5,5,181,47"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_6.png" border="0" alt="" usemap="#mcd_1_1Check_1_1has__size__method_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1has__size__method_3_01T_01_4" id="mcd_1_1Check_1_1has__size__method_3_01T_01_4">
-<area shape="rect" id="node1" href="d3/d69/a00844.php" title="Verify if an object has a size method. " alt="" coords="5,5,159,47"/>
+<area shape="rect" id="node1" href="d7/dcf/a00845.php" title="Verify if an object has a size method. " alt="" coords="5,5,159,47"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_7.png" border="0" alt="" usemap="#mcd_1_1Check_1_1is__array_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1is__array_3_01T_01_4" id="mcd_1_1Check_1_1is__array_3_01T_01_4">
-<area shape="rect" id="node1" href="d7/d60/a00816.php" title="A template class to test if T is an array, a vector or a map. " alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node1" href="dc/d5e/a00817.php" title="A template class to test if T is an array, a vector or a map. " alt="" coords="5,5,184,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_8.png" border="0" alt="" usemap="#mcd_1_1Check_1_1is__duration_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1is__duration_3_01T_01_4" id="mcd_1_1Check_1_1is__duration_3_01T_01_4">
-<area shape="rect" id="node1" href="d9/d61/a00840.php" title="A template class to test if T is a chrono::duration. " alt="" coords="5,5,201,32"/>
+<area shape="rect" id="node1" href="d5/dac/a00841.php" title="A template class to test if T is a chrono::duration. " alt="" coords="5,5,201,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_9.png" border="0" alt="" usemap="#mcd_1_1Check_1_1is__minded__ptr_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1is__minded__ptr_3_01T_01_4" id="mcd_1_1Check_1_1is__minded__ptr_3_01T_01_4">
-<area shape="rect" id="node1" href="df/d89/a01032.php" title="A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr. " alt="" coords="5,5,165,47"/>
+<area shape="rect" id="node1" href="d2/d57/a01033.php" title="A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr. " alt="" coords="5,5,165,47"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_10.png" border="0" alt="" usemap="#mcd_1_1Check_1_1is__object_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1is__object_3_01T_01_4" id="mcd_1_1Check_1_1is__object_3_01T_01_4">
-<area shape="rect" id="node1" href="da/d5b/a00868.php" title="A template class to test if T is an unknown object. " alt="" coords="5,5,191,32"/>
+<area shape="rect" id="node1" href="d3/db2/a00869.php" title="A template class to test if T is an unknown object. " alt="" coords="5,5,191,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_11.png" border="0" alt="" usemap="#mcd_1_1Check_1_1is__pair_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1is__pair_3_01T_01_4" id="mcd_1_1Check_1_1is__pair_3_01T_01_4">
-<area shape="rect" id="node1" href="dc/d00/a00820.php" title="A template class to test if T is a std::pair. " alt="" coords="5,5,176,32"/>
+<area shape="rect" id="node1" href="d6/d8b/a00821.php" title="A template class to test if T is a std::pair. " alt="" coords="5,5,176,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_12.png" border="0" alt="" usemap="#mcd_1_1Check_1_1is__printable_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1is__printable_3_01T_01_4" id="mcd_1_1Check_1_1is__printable_3_01T_01_4">
-<area shape="rect" id="node1" href="d7/d1b/a00864.php" title="A template class to test if T is printable. " alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node1" href="dd/d7b/a00865.php" title="A template class to test if T is printable. " alt="" coords="5,5,204,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_13.png" border="0" alt="" usemap="#mcd_1_1Check_1_1is__quatuor_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1is__quatuor_3_01T_01_4" id="mcd_1_1Check_1_1is__quatuor_3_01T_01_4">
-<area shape="rect" id="node1" href="d8/d64/a00828.php" title="A template class to test if T is a std::pair. " alt="" coords="5,5,199,32"/>
+<area shape="rect" id="node1" href="d1/dea/a00829.php" title="A template class to test if T is a std::pair. " alt="" coords="5,5,199,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_14.png" border="0" alt="" usemap="#mcd_1_1Check_1_1is__smatch_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1is__smatch_3_01T_01_4" id="mcd_1_1Check_1_1is__smatch_3_01T_01_4">
-<area shape="rect" id="node1" href="d3/d13/a00836.php" title="A template class to test if T is a string regex match. " alt="" coords="5,5,199,32"/>
+<area shape="rect" id="node1" href="d1/de6/a00837.php" title="A template class to test if T is a string regex match. " alt="" coords="5,5,199,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_15.png" border="0" alt="" usemap="#mcd_1_1Check_1_1is__special__struct_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1is__special__struct_3_01T_01_4" id="mcd_1_1Check_1_1is__special__struct_3_01T_01_4">
-<area shape="rect" id="node1" href="dc/d17/a00872.php" title="A template class to test if T is a special struct. " alt="" coords="5,5,164,47"/>
+<area shape="rect" id="node1" href="d9/d22/a00873.php" title="A template class to test if T is a special struct. " alt="" coords="5,5,164,47"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_16.png" border="0" alt="" usemap="#mcd_1_1Check_1_1is__string_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1is__string_3_01T_01_4" id="mcd_1_1Check_1_1is__string_3_01T_01_4">
-<area shape="rect" id="node1" href="d0/d08/a00832.php" title="A template class to test if T is a std::string. " alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node1" href="dc/d6e/a00833.php" title="A template class to test if T is a std::string. " alt="" coords="5,5,188,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_17.png" border="0" alt="" usemap="#mcd_1_1Check_1_1is__thread__ptr_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1is__thread__ptr_3_01T_01_4" id="mcd_1_1Check_1_1is__thread__ptr_3_01T_01_4">
-<area shape="rect" id="node1" href="d8/d79/a01036.php" title="A template class to test if T is a std::shared_ptr&lt;std::thread&gt;, a std::unique_ptr&lt;std::thread&gt;, a std::weak_ptr&lt;std::thread&gt; or a std::thread*. " alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node1" href="d2/d41/a01037.php" title="A template class to test if T is a std::shared_ptr&lt;thread&gt;, a std::unique_ptr&lt;thread&gt;, a std::weak_ptr&lt;thread&gt; or a thread*. " alt="" coords="5,5,160,47"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_18.png" border="0" alt="" usemap="#mcd_1_1Check_1_1is__trio_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1is__trio_3_01T_01_4" id="mcd_1_1Check_1_1is__trio_3_01T_01_4">
-<area shape="rect" id="node1" href="d8/d1c/a00824.php" title="A template class to test if T is a std::pair. " alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node1" href="dd/d5f/a00825.php" title="A template class to test if T is a std::pair. " alt="" coords="5,5,173,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_19.png" border="0" alt="" usemap="#mcd_1_1Check_1_1is__vector_3_01T_01_4"/>
 <map name="mcd_1_1Check_1_1is__vector_3_01T_01_4" id="mcd_1_1Check_1_1is__vector_3_01T_01_4">
-<area shape="rect" id="node1" href="d8/db7/a00812.php" title="A template class to test if T is a vector. " alt="" coords="5,5,192,32"/>
+<area shape="rect" id="node1" href="de/d9d/a00813.php" title="A template class to test if T is a vector. " alt="" coords="5,5,192,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_20.png" border="0" alt="" usemap="#mcd_1_1Clock"/>
 <map name="mcd_1_1Clock" id="mcd_1_1Clock">
-<area shape="rect" id="node1" href="d2/dac/a00876.php" title="A clock to measure the elapsed time. " alt="" coords="5,5,95,32"/>
+<area shape="rect" id="node1" href="d1/de7/a00877.php" title="A clock to measure the elapsed time. " alt="" coords="5,5,95,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_21.png" border="0" alt="" usemap="#mcd_1_1Color"/>
 <map name="mcd_1_1Color" id="mcd_1_1Color">
-<area shape="rect" id="node1" href="d1/d8f/a00880.php" title="Change the text color in the console. " alt="" coords="5,31,92,57"/>
-<area shape="rect" id="node2" href="dd/d94/a00888.php" title="Clear the console. " alt="" coords="147,5,222,32"/>
-<area shape="rect" id="node3" href="dd/d08/a00884.php" title="Reinit the color in the console. " alt="" coords="140,56,229,83"/>
+<area shape="rect" id="node1" href="df/d41/a00881.php" title="Change the text color in the console. " alt="" coords="5,31,92,57"/>
+<area shape="rect" id="node2" href="de/dc8/a00889.php" title="Clear the console. " alt="" coords="147,5,222,32"/>
+<area shape="rect" id="node3" href="db/d18/a00885.php" title="Reinit the color in the console. " alt="" coords="140,56,229,83"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_22.png" border="0" alt="" usemap="#mcd_1_1ConsoleTable"/>
 <map name="mcd_1_1ConsoleTable" id="mcd_1_1ConsoleTable">
-<area shape="rect" id="node1" href="d8/d0a/a00904.php" title="A class to print a table in the console. " alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node1" href="da/d5b/a00905.php" title="A class to print a table in the console. " alt="" coords="5,5,140,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_23.png" border="0" alt="" usemap="#mcd_1_1ContraptionAttr"/>
 <map name="mcd_1_1ContraptionAttr" id="mcd_1_1ContraptionAttr">
-<area shape="rect" id="node1" href="dc/d28/a00223.php#d7/db6/a00940" title="A struct to define Contraption attributes. " alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node1" href="dc/d28/a00223.php#d6/dad/a00941" title="A struct to define Contraption attributes. " alt="" coords="5,5,148,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_24.png" border="0" alt="" usemap="#mcd_1_1Fraction"/>
 <map name="mcd_1_1Fraction" id="mcd_1_1Fraction">
-<area shape="rect" id="node1" href="d8/d18/a00948.php" title="A class to manage fractions. " alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node1" href="df/dc6/a00949.php" title="A class to manage fractions. " alt="" coords="5,5,108,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_25.png" border="0" alt="" usemap="#mcd_1_1Hostile"/>
 <map name="mcd_1_1Hostile" id="mcd_1_1Hostile">
-<area shape="rect" id="node1" href="d0/d85/a00908.php" title="A contraption. " alt="" coords="5,81,128,108"/>
-<area shape="rect" id="node2" href="d9/dce/a00944.php" title="An entity. " alt="" coords="179,56,269,83"/>
-<area shape="rect" id="node8" href="d7/d76/a00992.php" title="An object. " alt="" coords="177,107,271,133"/>
-<area shape="rect" id="node3" href="d9/d9c/a00772.php" title="An animal. " alt="" coords="322,5,417,32"/>
-<area shape="rect" id="node5" href="de/d9c/a01092.php" title="A vegetal. " alt="" coords="320,56,419,83"/>
-<area shape="rect" id="node4" href="d9/dd4/a00776.php" title="An ant. " alt="" coords="487,5,562,32"/>
-<area shape="rect" id="node6" href="db/d20/a00980.php" title="A mushroom. " alt="" coords="467,56,583,83"/>
-<area shape="rect" id="node7" href="d0/d43/a01020.php" title="A plant. " alt="" coords="482,107,567,133"/>
-<area shape="rect" id="node9" href="d9/dce/a01052.php" title="A stone. " alt="" coords="325,107,414,133"/>
-<area shape="rect" id="node10" href="de/d49/a00952.php" title="A class to derivate from when the thing can attack. " alt="" coords="176,5,272,32"/>
+<area shape="rect" id="node1" href="de/dc3/a00909.php" title="A contraption. " alt="" coords="5,81,128,108"/>
+<area shape="rect" id="node2" href="d1/db0/a00945.php" title="An entity. " alt="" coords="179,56,269,83"/>
+<area shape="rect" id="node8" href="da/d0a/a00993.php" title="An object. " alt="" coords="177,107,271,133"/>
+<area shape="rect" id="node3" href="d8/dba/a00773.php" title="An animal. " alt="" coords="322,5,417,32"/>
+<area shape="rect" id="node5" href="de/d1c/a01093.php" title="A vegetal. " alt="" coords="320,56,419,83"/>
+<area shape="rect" id="node4" href="d2/d02/a00777.php" title="An ant. " alt="" coords="487,5,562,32"/>
+<area shape="rect" id="node6" href="dd/d24/a00981.php" title="A mushroom. " alt="" coords="467,56,583,83"/>
+<area shape="rect" id="node7" href="d5/dfb/a01021.php" title="A plant. " alt="" coords="482,107,567,133"/>
+<area shape="rect" id="node9" href="dc/d99/a01053.php" title="A stone. " alt="" coords="325,107,414,133"/>
+<area shape="rect" id="node10" href="d5/da3/a00953.php" title="A class to derivate from when the thing can attack. " alt="" coords="176,5,272,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_26.png" border="0" alt="" usemap="#mcd_1_1IOConfig"/>
 <map name="mcd_1_1IOConfig" id="mcd_1_1IOConfig">
-<area shape="rect" id="node1" href="dd/d11/a00960.php" title="A class to configure inputs and outputs. " alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node1" href="da/d45/a00961.php" title="A class to configure inputs and outputs. " alt="" coords="5,5,112,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_27.png" border="0" alt="" usemap="#mcd_1_1Map"/>
 <map name="mcd_1_1Map" id="mcd_1_1Map">
-<area shape="rect" id="node1" href="de/d4e/a00972.php" title="A class to manage a map and that implement some pathfinding algorithms. " alt="" coords="5,5,85,32"/>
+<area shape="rect" id="node1" href="d3/da5/a00973.php" title="A class to manage a map and that implement some pathfinding algorithms. " alt="" coords="5,5,85,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_28.png" border="0" alt="" usemap="#mcd_1_1MapMove"/>
 <map name="mcd_1_1MapMove" id="mcd_1_1MapMove">
-<area shape="rect" id="node1" href="dc/d28/a00223.php#d7/dd4/a00968" title="A struct to know informations about th movement of something in the map. " alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node1" href="dc/d28/a00223.php#d7/dfd/a00969" title="A struct to know informations about th movement of something in the map. " alt="" coords="5,5,117,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_29.png" border="0" alt="" usemap="#mcd_1_1Matrix_3_01C_01_4"/>
 <map name="mcd_1_1Matrix_3_01C_01_4" id="mcd_1_1Matrix_3_01C_01_4">
-<area shape="rect" id="node1" href="d0/d85/a00976.php" title="A class to represent matrix. " alt="" coords="5,5,131,32"/>
+<area shape="rect" id="node1" href="d5/d6c/a00977.php" title="A class to represent matrix. " alt="" coords="5,5,131,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_30.png" border="0" alt="" usemap="#mcd_1_1Node_3_01T_01_4"/>
 <map name="mcd_1_1Node_3_01T_01_4" id="mcd_1_1Node_3_01T_01_4">
-<area shape="rect" id="node1" href="dc/d28/a00223.php#d1/de6/a01068" title="A struct to define a node for the tree. " alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node1" href="dc/d28/a00223.php#d8/d18/a01069" title="A struct to define a node for the tree. " alt="" coords="5,5,124,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_31.png" border="0" alt="" usemap="#mcd_1_1NotCopyable"/>
 <map name="mcd_1_1NotCopyable" id="mcd_1_1NotCopyable">
-<area shape="rect" id="node1" href="d2/d4c/a00984.php" title="A class to let some other not to be copyable. " alt="" coords="5,81,136,108"/>
-<area shape="rect" id="node2" href="df/da5/a00912.php" title="A class to be the parent for every crypt class. " alt="" coords="184,81,279,108"/>
-<area shape="rect" id="node3" href="d6/d66/a00916.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="334,5,425,32"/>
-<area shape="rect" id="node4" href="de/d62/a00924.php" title="A class to test a homemade algorithm for encryption. " alt="" coords="327,56,432,83"/>
-<area shape="rect" id="node5" href="dd/d38/a00928.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="338,107,421,133"/>
-<area shape="rect" id="node6" href="d6/d82/a00920.php" title="An implementation of sha256 encryption. " alt="" coords="334,157,425,184"/>
+<area shape="rect" id="node1" href="da/deb/a00985.php" title="A class to let some other not to be copyable. " alt="" coords="5,81,136,108"/>
+<area shape="rect" id="node2" href="d9/dfb/a00913.php" title="A class to be the parent for every crypt class. " alt="" coords="184,81,279,108"/>
+<area shape="rect" id="node3" href="d4/ddc/a00917.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="334,5,425,32"/>
+<area shape="rect" id="node4" href="dc/d36/a00925.php" title="A class to test a homemade algorithm for encryption. " alt="" coords="327,56,432,83"/>
+<area shape="rect" id="node5" href="dc/d92/a00929.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="338,107,421,133"/>
+<area shape="rect" id="node6" href="dd/d7a/a00921.php" title="An implementation of sha256 encryption. " alt="" coords="334,157,425,184"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_32.png" border="0" alt="" usemap="#mcd_1_1NotInstantiable"/>
 <map name="mcd_1_1NotInstantiable" id="mcd_1_1NotInstantiable">
-<area shape="rect" id="node1" href="d6/d48/a00988.php" title="Let a class being only an abstract class. " alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node1" href="d4/d95/a00989.php" title="Let a class being only an abstract class. " alt="" coords="5,5,148,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_33.png" border="0" alt="" usemap="#mcd_1_1Path"/>
 <map name="mcd_1_1Path" id="mcd_1_1Path">
-<area shape="rect" id="node1" href="d7/df2/a01000.php" title="A class to manage a path computed by the map. " alt="" coords="5,5,88,32"/>
+<area shape="rect" id="node1" href="df/d59/a01001.php" title="A class to manage a path computed by the map. " alt="" coords="5,5,88,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_34.png" border="0" alt="" usemap="#mcd_1_1Pathfinding"/>
 <map name="mcd_1_1Pathfinding" id="mcd_1_1Pathfinding">
-<area shape="rect" id="node1" href="df/dbc/a01004.php" title="A class to implement some pathfinding algorithms. " alt="" coords="5,5,125,32"/>
-<area shape="rect" id="node2" href="dd/dac/a01008.php" title="An implementation of the Dijkstra algorithm. " alt="" coords="173,5,339,32"/>
+<area shape="rect" id="node1" href="d7/d06/a01005.php" title="A class to implement some pathfinding algorithms. " alt="" coords="5,5,125,32"/>
+<area shape="rect" id="node2" href="d7/ded/a01009.php" title="An implementation of the Dijkstra algorithm. " alt="" coords="173,5,339,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_35.png" border="0" alt="" usemap="#mcd_1_1PathfindingException"/>
 <map name="mcd_1_1PathfindingException" id="mcd_1_1PathfindingException">
 <area shape="rect" id="node1" title="STL class. " alt="" coords="5,5,109,32"/>
-<area shape="rect" id="node2" href="d4/d45/a01012.php" title="All exceptions that could be thrown by the pathfinding algorithm. " alt="" coords="157,5,336,32"/>
+<area shape="rect" id="node2" href="d7/d59/a01013.php" title="All exceptions that could be thrown by the pathfinding algorithm. " alt="" coords="157,5,336,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_36.png" border="0" alt="" usemap="#mcd_1_1PathfindingNode"/>
 <map name="mcd_1_1PathfindingNode" id="mcd_1_1PathfindingNode">
-<area shape="rect" id="node1" href="d3/daa/a00996.php" title="A node for the path. " alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node1" href="d0/d28/a00997.php" title="A node for the path. " alt="" coords="5,5,156,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_37.png" border="0" alt="" usemap="#mcd_1_1PathfindingProblem"/>
 <map name="mcd_1_1PathfindingProblem" id="mcd_1_1PathfindingProblem">
-<area shape="rect" id="node1" href="de/def/a01016.php" title="A class to group every pathfinding problems in one way to use it. " alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node1" href="d3/ded/a01017.php" title="A class to group every pathfinding problems in one way to use it. " alt="" coords="5,5,173,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_38.png" border="0" alt="" usemap="#mcd_1_1PlayerAbstraction_3_01PlayerParent_01_4"/>
 <map name="mcd_1_1PlayerAbstraction_3_01PlayerParent_01_4" id="mcd_1_1PlayerAbstraction_3_01PlayerParent_01_4">
-<area shape="rect" id="node1" href="d3/de5/a00956.php" title="A class to store some identify datas. " alt="" coords="177,5,283,32"/>
-<area shape="rect" id="node2" href="d4/dc5/a01024.php" title="A player that can be a child from any class. " alt="" coords="357,35,548,61"/>
-<area shape="rect" id="node4" href="db/d08/a01028.php" title="A player that can be a child from any class. " alt="" coords="151,57,309,98"/>
+<area shape="rect" id="node1" href="d1/df7/a00957.php" title="A class to store some identify datas. " alt="" coords="177,5,283,32"/>
+<area shape="rect" id="node2" href="db/d23/a01025.php" title="A player that can be a child from any class. " alt="" coords="357,35,548,61"/>
+<area shape="rect" id="node4" href="d0/daa/a01029.php" title="A player that can be a child from any class. " alt="" coords="151,57,309,98"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_39.png" border="0" alt="" usemap="#mcd_1_1Point"/>
 <map name="mcd_1_1Point" id="mcd_1_1Point">
-<area shape="rect" id="node1" href="da/d93/a01084.php" title="A struct to define a point in space. " alt="" coords="5,5,91,32"/>
+<area shape="rect" id="node1" href="d2/df3/a01085.php" title="A struct to define a point in space. " alt="" coords="5,5,91,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_40.png" border="0" alt="" usemap="#mcd_1_1PureVirtual"/>
 <map name="mcd_1_1PureVirtual" id="mcd_1_1PureVirtual">
-<area shape="rect" id="node1" href="db/d14/a01040.php" title="A class to make some other to be abstract class. " alt="" coords="5,5,124,32"/>
-<area shape="rect" id="node2" href="d0/de2/a00892.php" title="A class to play with the cursor in the console. " alt="" coords="172,5,315,32"/>
+<area shape="rect" id="node1" href="d1/d83/a01041.php" title="A class to make some other to be abstract class. " alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node2" href="dc/d2c/a00893.php" title="A class to play with the cursor in the console. " alt="" coords="172,5,315,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_41.png" border="0" alt="" usemap="#mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4"/>
 <map name="mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4" id="mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4">
-<area shape="rect" id="node1" href="dc/d28/a00223.php#d9/d67/a01080" title="A container for four values. " alt="" coords="5,5,145,47"/>
+<area shape="rect" id="node1" href="dc/d28/a00223.php#dd/dee/a01081" title="A container for four values. " alt="" coords="5,5,145,47"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_42.png" border="0" alt="" usemap="#mcd_1_1queue_3_01T_00_01Container_01_4"/>
 <map name="mcd_1_1queue_3_01T_00_01Container_01_4" id="mcd_1_1queue_3_01T_00_01Container_01_4">
 <area shape="rect" id="node1" title="STL class. " alt="" coords="5,5,120,32"/>
-<area shape="rect" id="node2" href="d2/d5a/a00792.php" title="An implementation of std::queue. " alt="" coords="168,5,355,32"/>
-<area shape="rect" id="node3" href="d0/da2/a00796.php" title="An thread&#45;safe implementation of queue. " alt="" coords="403,5,600,32"/>
+<area shape="rect" id="node2" href="d4/dd7/a00793.php" title="An implementation of std::queue. " alt="" coords="168,5,355,32"/>
+<area shape="rect" id="node3" href="da/db8/a00797.php" title="An thread&#45;safe implementation of queue. " alt="" coords="403,5,600,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_43.png" border="0" alt="" usemap="#mcd_1_1Referenced_3_01C_01_4"/>
 <map name="mcd_1_1Referenced_3_01C_01_4" id="mcd_1_1Referenced_3_01C_01_4">
-<area shape="rect" id="node1" href="d0/ddd/a01044.php" title="A class to have a reference to the class&#39; pointer. " alt="" coords="5,5,161,32"/>
+<area shape="rect" id="node1" href="d7/d46/a01045.php" title="A class to have a reference to the class&#39; pointer. " alt="" coords="5,5,161,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_44.png" border="0" alt="" usemap="#mcd_1_1RNG_3_01T_00_01U_01_4"/>
 <map name="mcd_1_1RNG_3_01T_00_01U_01_4" id="mcd_1_1RNG_3_01T_00_01U_01_4">
-<area shape="rect" id="node1" href="d5/de7/a01048.php" title="A class to simplify the use of random. " alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node1" href="d0/d22/a01049.php" title="A class to simplify the use of random. " alt="" coords="5,5,140,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_45.png" border="0" alt="" usemap="#mcd_1_1stack_3_01T_00_01Container_01_4"/>
 <map name="mcd_1_1stack_3_01T_00_01Container_01_4" id="mcd_1_1stack_3_01T_00_01Container_01_4">
 <area shape="rect" id="node1" title="STL class. " alt="" coords="5,5,117,32"/>
-<area shape="rect" id="node2" href="d9/d00/a00784.php" title="An implementation of std::stack. " alt="" coords="165,5,348,32"/>
-<area shape="rect" id="node3" href="df/d0c/a00788.php" title="An thread&#45;safe implementation of stack. " alt="" coords="396,5,591,32"/>
+<area shape="rect" id="node2" href="d3/d00/a00785.php" title="An implementation of std::stack. " alt="" coords="165,5,348,32"/>
+<area shape="rect" id="node3" href="d8/d7d/a00789.php" title="An thread&#45;safe implementation of stack. " alt="" coords="396,5,591,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_46.png" border="0" alt="" usemap="#mcd_1_1Threadable_3_01C_01_4"/>
 <map name="mcd_1_1Threadable_3_01C_01_4" id="mcd_1_1Threadable_3_01C_01_4">
-<area shape="rect" id="node1" href="dc/d19/a01056.php" title="A class to let another one to be threadable with update() member in a thread. " alt="" coords="5,5,159,32"/>
+<area shape="rect" id="node1" href="d2/db8/a01057.php" title="A class to let another one to be threadable with update() member in a thread. " alt="" coords="5,5,159,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_47.png" border="0" alt="" usemap="#mcd_1_1Threadable_3_01Timer_01_4"/>
 <map name="mcd_1_1Threadable_3_01Timer_01_4" id="mcd_1_1Threadable_3_01Timer_01_4">
-<area shape="rect" id="node1" href="dc/d19/a01056.php" title="mcd::Threadable\&lt; Timer \&gt;" alt="" coords="5,5,181,32"/>
-<area shape="rect" id="node2" href="d9/db3/a01064.php" title="A timer to do something at the end. " alt="" coords="229,5,317,32"/>
+<area shape="rect" id="node1" href="d2/db8/a01057.php" title="mcd::Threadable\&lt; Timer \&gt;" alt="" coords="5,5,181,32"/>
+<area shape="rect" id="node2" href="d0/dc9/a01065.php" title="A timer to do something at the end. " alt="" coords="229,5,317,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_48.png" border="0" alt="" usemap="#mcd_1_1ThreadCout"/>
@@ -368,40 +368,40 @@ $(document).ready(function(){initNavTree('hierarchy.php','');});
 <area shape="rect" id="node2" title="STL class. " alt="" coords="153,13,308,39"/>
 <area shape="rect" id="node3" title="STL class. " alt="" coords="356,5,489,47"/>
 <area shape="rect" id="node4" title="STL class. " alt="" coords="537,13,632,39"/>
-<area shape="rect" id="node5" href="d9/db0/a00900.php" title="A class to use std::cout thread safe. " alt="" coords="680,13,803,39"/>
+<area shape="rect" id="node5" href="d0/dac/a00901.php" title="A class to use std::cout thread safe. " alt="" coords="680,13,803,39"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_49.png" border="0" alt="" usemap="#mcd_1_1ThreadEndlCout"/>
 <map name="mcd_1_1ThreadEndlCout" id="mcd_1_1ThreadEndlCout">
-<area shape="rect" id="node1" href="da/dd6/a00896.php" title="A class to use std::endl in ThreadCout. " alt="" coords="5,5,155,32"/>
+<area shape="rect" id="node1" href="de/d01/a00897.php" title="A class to use std::endl in ThreadCout. " alt="" coords="5,5,155,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_50.png" border="0" alt="" usemap="#mcd_1_1Time"/>
 <map name="mcd_1_1Time" id="mcd_1_1Time">
-<area shape="rect" id="node1" href="d8/dbb/a00932.php" title="A class to play with dates. " alt="" coords="6,5,89,32"/>
-<area shape="rect" id="node2" href="dc/d2b/a00936.php" title="A class to play with dates and times. " alt="" coords="137,31,249,57"/>
-<area shape="rect" id="node3" href="d5/d16/a01060.php" title="A class to play with dates. " alt="" coords="5,56,89,83"/>
+<area shape="rect" id="node1" href="d0/d5b/a00933.php" title="A class to play with dates. " alt="" coords="6,5,89,32"/>
+<area shape="rect" id="node2" href="de/db9/a00937.php" title="A class to play with dates and times. " alt="" coords="137,31,249,57"/>
+<area shape="rect" id="node3" href="de/d9e/a01061.php" title="A class to play with dates. " alt="" coords="5,56,89,83"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_51.png" border="0" alt="" usemap="#mcd_1_1Tree_3_01T_01_4"/>
 <map name="mcd_1_1Tree_3_01T_01_4" id="mcd_1_1Tree_3_01T_01_4">
-<area shape="rect" id="node1" href="d6/d6a/a01072.php" title="A class to manage a binary tree. " alt="" coords="5,5,119,32"/>
+<area shape="rect" id="node1" href="d9/d7c/a01073.php" title="A class to manage a binary tree. " alt="" coords="5,5,119,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_52.png" border="0" alt="" usemap="#mcd_1_1trio_3_01T_00_01U_00_01V_01_4"/>
 <map name="mcd_1_1trio_3_01T_00_01U_00_01V_01_4" id="mcd_1_1trio_3_01T_00_01U_00_01V_01_4">
-<area shape="rect" id="node1" href="dc/d28/a00223.php#d6/d80/a01076" title="A container for three values. " alt="" coords="5,5,145,32"/>
+<area shape="rect" id="node1" href="dc/d28/a00223.php#d0/dd3/a01077" title="A container for three values. " alt="" coords="5,5,145,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_53.png" border="0" alt="" usemap="#mcd_1_1vector_3_01C_01_4"/>
 <map name="mcd_1_1vector_3_01C_01_4" id="mcd_1_1vector_3_01C_01_4">
 <area shape="rect" id="node1" title="STL class. " alt="" coords="5,5,121,32"/>
-<area shape="rect" id="node2" href="da/db7/a01088.php" title="Add some features to std::vector. " alt="" coords="169,5,295,32"/>
+<area shape="rect" id="node2" href="d3/dc4/a01089.php" title="Add some features to std::vector. " alt="" coords="169,5,295,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_54.png" border="0" alt="" usemap="#mcd_1_1WorldDimensions"/>
 <map name="mcd_1_1WorldDimensions" id="mcd_1_1WorldDimensions">
-<area shape="rect" id="node1" href="dc/d28/a00223.php#da/d17/a00964" title="An object to group the dimensions of the world. " alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node1" href="dc/d28/a00223.php#d3/dcd/a00965" title="An object to group the dimensions of the world. " alt="" coords="5,5,164,32"/>
 </map>
 </td></tr>
 </table>

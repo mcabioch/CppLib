@@ -2,7 +2,7 @@
 *
 *	\file		Args.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		October, 02 2019
+*	\date		October, 03 2019
 *
 */
 #ifndef HEADER_CPP_ARGS
@@ -24,7 +24,7 @@ namespace mcd {
 					args(),
 					indexs(),
 					error(),
-					mutex()
+					_mutex()
 				{}
 				~Arguments(){}
 
@@ -46,7 +46,7 @@ namespace mcd {
 				*/
 				template<typename T>
 				bool add(const std::string& category, T value){
-					mutex.lock();
+					_mutex.lock();
 						if(contains(indexs, category)){
 							auto& cat = args[category];
 
@@ -59,7 +59,7 @@ namespace mcd {
 
 							args[category] = cat;
 						}
-					mutex.unlock();
+					_mutex.unlock();
 
 					return true;
 				}
@@ -93,7 +93,7 @@ namespace mcd {
 			std::map<std::string, std::vector<std::string> > args;
 			std::vector<std::string> indexs;
 			const std::vector<std::string> error;
-			mutable std::mutex mutex;
+			mutable mutex _mutex;
 	};
 
 	/*! \brief	A global arguments variable to save and keep some arguments */

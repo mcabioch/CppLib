@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 17:46:09 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,17 +90,16 @@ $(document).ready(function(){initNavTree('d0/dac/a00901.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::ConsoleTable Member List</div>  </div>
+<div class="title">mcd::ThreadCout Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d0/dac/a00901.php">mcd::ConsoleTable</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d0/dac/a00901.php">mcd::ThreadCout</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/dac/a00901.php#acc7af9ad8f4b7175a82acb2edfce15b2">ConsoleTable</a>()</td><td class="entry"><a class="el" href="../../d0/dac/a00901.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/dac/a00901.php#a1878d602fe475fb47a2aca063e7cb9d6">headers</a>(std::vector&lt; std::string &gt; h)</td><td class="entry"><a class="el" href="../../d0/dac/a00901.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/dac/a00901.php#a3669c41beda1b667738b6e7c42663b29">line</a>(std::vector&lt; std::string &gt; l)</td><td class="entry"><a class="el" href="../../d0/dac/a00901.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/dac/a00901.php#aefb00d9e2e5755c7e2fd60cba225f504">lines</a>(std::vector&lt; std::vector&lt; std::string &gt;&gt; ls)</td><td class="entry"><a class="el" href="../../d0/dac/a00901.php">mcd::ConsoleTable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/dac/a00901.php#af23c547bfa2b35d582a6922d425d02f5">operator&lt;&lt;</a>(std::ostream &amp;str, ConsoleTable &amp;t)</td><td class="entry"><a class="el" href="../../d0/dac/a00901.php">mcd::ConsoleTable</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/dac/a00901.php#a358d316052544257ab9aee6f1fe762dc">operator&lt;&lt;</a>(ThreadCout &amp;os, T obj)</td><td class="entry"><a class="el" href="../../d0/dac/a00901.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/dac/a00901.php#a8b27881bbb3b1a50ddf821d8ce62e4d6">operator&lt;&lt;</a>(ThreadCout &amp;os, ThreadEndlCout &amp;)</td><td class="entry"><a class="el" href="../../d0/dac/a00901.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/dac/a00901.php#adacc9d5343e07aa8396f8b1edd92bb39">ThreadCout</a>()</td><td class="entry"><a class="el" href="../../d0/dac/a00901.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/dac/a00901.php#a43b2683a0e3d46205643de53236dc4f8">~ThreadCout</a>()</td><td class="entry"><a class="el" href="../../d0/dac/a00901.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

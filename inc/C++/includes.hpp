@@ -37,8 +37,9 @@
 *					- limits\n
 *					- iterator\n
 *					- tuple\n
-*					- ios\n\n
+*					- ios\n
 *					- cstdint\n
+*					- cassert\n
 *
 */
 #ifndef HEADER_CPP_INCLUDES
@@ -53,6 +54,7 @@
 #include <tuple>
 #include <ios>
 #include <cstdint>
+#include <cassert>
 
 namespace mcd {}
 

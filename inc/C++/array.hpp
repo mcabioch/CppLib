@@ -2,7 +2,7 @@
 *
 *	\file		array.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	October, 02 2019
+*	\modified	October, 03 2019
 *
 */
 #ifndef HEADER_CPP_ARRAY
@@ -440,7 +440,7 @@ namespace mcd {
 			}
 
 		private:
-			mutable std::mutex _mutex;
+			mutable mutex _mutex;
 	};
 
 	/*!
@@ -504,7 +504,7 @@ namespace mcd {
 
 
 		private:
-			mutable std::mutex _mutex;
+			mutable mutex _mutex;
 	};
 }
 

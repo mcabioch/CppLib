@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 17:46:11 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,26 +90,22 @@ $(document).ready(function(){initNavTree('dc/d36/a00925.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::RSA Member List</div>  </div>
+<div class="title">mcd::MyCrypt Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/d36/a00925.php">mcd::RSA</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dc/d36/a00925.php">mcd::MyCrypt</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d36/a00925.php#ad080bbc2c65c9690f38fa376ca65a985">crypt</a>(const std::string &amp;message) override</td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::RSA</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/dc3/a00909.php#a3f598383428868a9f69502e5de031ea5">Crypto</a>()</td><td class="entry"><a class="el" href="../../de/dc3/a00909.php">mcd::Crypto</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d36/a00925.php#ad831bd26ceeff7ad460bcabcad213155">decrypt</a>(const std::string &amp;message) override</td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::RSA</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d36/a00925.php#ac38c1c5dff307a8dd9ce9c00b8df8b87">getPrivate</a>() const</td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::RSA</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d36/a00925.php#a7fdf2f24700983208b6bfab8df8ef911">getPublic</a>() const</td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::RSA</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d24/a00981.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a>()</td><td class="entry"><a class="el" href="../../dd/d24/a00981.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d36/a00925.php#a41496cdf1557d2e3dda4d0f414738af5">privateK</a></td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::RSA</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d36/a00925.php#ae37f658e3ba447726e0a0abd0f1ac5c8">publicK</a></td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::RSA</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d36/a00925.php#a022907735103df44ce25774a289cede1">RSA</a>()</td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::RSA</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d36/a00925.php#aa9cb76b3198a8127bc0c771e3eb70b2d">setPrivate</a>(const std::string &amp;key=&quot;&quot;)</td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::RSA</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d36/a00925.php#a4fcb230195d7b3fb73b8f62488dcc2e5">setPublic</a>(const std::string &amp;key=&quot;&quot;)</td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::RSA</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/dc3/a00909.php#a16276f74e2eac6b2174d06361791f056">~Crypto</a>()</td><td class="entry"><a class="el" href="../../de/dc3/a00909.php">mcd::Crypto</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d24/a00981.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a>()</td><td class="entry"><a class="el" href="../../dd/d24/a00981.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d36/a00925.php#a9d09972656fd75b2377a173a30692db6">~RSA</a>()</td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::RSA</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d36/a00925.php#a73db8d36191071f9ca2e5fe62d75a0d0">crypt</a>(const std::string &amp;str, const std::string &amp;key)</td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::MyCrypt</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d36/a00925.php#aee90d618d42b9a7d9057a0bfc1f769c2">crypt</a>(const std::string &amp;str) override</td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::MyCrypt</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dfb/a00913.php#a3f598383428868a9f69502e5de031ea5">Crypto</a>()</td><td class="entry"><a class="el" href="../../d9/dfb/a00913.php">mcd::Crypto</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d36/a00925.php#a18850d238fad5966016ef020c05f82ce">decrypt</a>(const std::string &amp;str, const std::string &amp;key)</td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::MyCrypt</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d36/a00925.php#ac1f14b79c663f1347bef0d7ba017449d">decrypt</a>(const std::string &amp;str) override</td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::MyCrypt</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d36/a00925.php#ac618fc32b73d9bb13b07bc9db802cbef">MyCrypt</a>()</td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::MyCrypt</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/deb/a00985.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a>()</td><td class="entry"><a class="el" href="../../da/deb/a00985.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/dfb/a00913.php#a16276f74e2eac6b2174d06361791f056">~Crypto</a>()</td><td class="entry"><a class="el" href="../../d9/dfb/a00913.php">mcd::Crypto</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d36/a00925.php#a3e5b32554500cf6843d09009fbaafbc9">~MyCrypt</a>()</td><td class="entry"><a class="el" href="../../dc/d36/a00925.php">mcd::MyCrypt</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/deb/a00985.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a>()</td><td class="entry"><a class="el" href="../../da/deb/a00985.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

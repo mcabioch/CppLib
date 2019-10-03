@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 17:46:11 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,23 +90,26 @@ $(document).ready(function(){initNavTree('d2/db8/a01057.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Time Member List</div>  </div>
+<div class="title">mcd::Threadable&lt; C &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d2/db8/a01057.php">mcd::Time</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/db8/a01057.php#af9360f3323012f2572ffb3f8924fca62">get</a>(const std::string &amp;format=&quot;%H:%M:%S&quot;) const</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Time</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/db8/a01057.php#afc42ec7546725501d6cd8eb069e92a52">hour</a>() const</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a3e19605ece31340f27255a79beb193d4">init</a>()</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Time</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a22a7371879c50752d94338e631ab37a7">milli</a>() const</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a56b7fdec50bc1b7f5fb991260cb18104">minute</a>() const</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a94d4610fef5db9db60ca31d7d64230dc">reset</a>()</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Time</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a5a3510ec96b9698b8cf601a2a1b9d90c">second</a>() const</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/db8/a01057.php#aa843463db53892a16778dd0d71ec2dad">set</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/db8/a01057.php#ac802213e9ca41cc731f14619534e0249">Time</a>()</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/db8/a01057.php#afa17085534ed1da008f6dd39cef039f2">Time</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Time</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/db8/a01057.php#aef071966b669112898476801bf63bcba">~Time</a>()</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Time</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a77d662da66e59d43579e7490d24d72b8">_mutex</a></td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">mutable</span><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a804393d97a319c38afa593072bd0ead9">hasToStop</a>() const</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/db8/a01057.php#af6a411164d64b1b04b731f29d54e016a">inUse</a>()</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a1eb0985252b04c90761f92432ef4216d">launch</a>()=0</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a156911948e5f5d2d5eeb0922ee3bd86d">launched</a>() const</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a0b2419ec1119f28dc2440e202f0d2c8e">notInUse</a>()</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/db8/a01057.php#aede63b72f054d20e35d22153af8313c8">operator=</a>(Threadable&lt; C &gt; &amp;other) noexcept</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/db8/a01057.php#ab51cdb23e70b6ab97afb529098eb20c0">operator=</a>(Threadable&lt; C &gt; &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a0351657024f3b0d37b54c08a09a156fa">sleeper</a></td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a4dd37d54456e167f8b42d30be7076939">stop</a>()</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a04bdb4a894312f6671680c2f103b8a63">Threadable</a>()</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a29db3ebe9dfbf77bc04967565c0dcf6e">Threadable</a>(Threadable&lt; C &gt; &amp;other)</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/db8/a01057.php#a4cbceb43796de6c36a5cd4f35a6402cb">Threadable</a>(Threadable&lt; C &gt; &amp;&amp;other)</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/db8/a01057.php#aab98cd8e5cd8832dfd6e82c17d1a689d">~Threadable</a>()</td><td class="entry"><a class="el" href="../../d2/db8/a01057.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

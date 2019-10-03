@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 17:46:09 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,20 +90,20 @@ $(document).ready(function(){initNavTree('de/dc8/a00889.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::ConsoleCursor Member List</div>  </div>
+<div class="title">mcd::Cls Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/dc8/a00889.php">mcd::ConsoleCursor</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../de/dc8/a00889.php">mcd::Cls</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../de/dc8/a00889.php#a191575f00626575e84455dfae871f502">goTo</a>(T x, T y)</td><td class="entry"><a class="el" href="../../de/dc8/a00889.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/dc8/a00889.php#a75615abf8f124c460b9b163868c89b7e">home</a>()</td><td class="entry"><a class="el" href="../../de/dc8/a00889.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/d41/a01037.php#ab67f25d69c1686f95be6fbfcc4ac4663">PureVirtual</a>()</td><td class="entry"><a class="el" href="../../d2/d41/a01037.php">mcd::PureVirtual</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d41/a01037.php#a1885fa694cc2d28cb55186fb3b53615d">PureVirtualMethod</a>() final=0</td><td class="entry"><a class="el" href="../../d2/d41/a01037.php">mcd::PureVirtual</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/dc8/a00889.php#a2ca0b4e7146c9b27b2396c2ba114c923">put</a>(const std::string &amp;str, T x, T y, const Color &amp;color=0)</td><td class="entry"><a class="el" href="../../de/dc8/a00889.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/dc8/a00889.php#a6f731b973f917b6c2f3a04267f12c851">restore</a>()</td><td class="entry"><a class="el" href="../../de/dc8/a00889.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/dc8/a00889.php#ab58627fbfed0b6cabd5030943113e5e5">save</a>()</td><td class="entry"><a class="el" href="../../de/dc8/a00889.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d41/a01037.php#acb8cb10e007f7c5f6ac757843a212598">~PureVirtual</a>()</td><td class="entry"><a class="el" href="../../d2/d41/a01037.php">mcd::PureVirtual</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d41/a00881.php#af4f6325cc63bd229cdf19df24a6e4f6e">addColors</a>(int color)</td><td class="entry"><a class="el" href="../../df/d41/a00881.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d41/a00881.php#ae732af32fdbea05950d39bd9532121cf">addColors</a>(int color, Args... args)</td><td class="entry"><a class="el" href="../../df/d41/a00881.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d41/a00881.php#a8dd730c3b59730b786d059a507d03fca">addColors</a>(const Colors &amp;color)</td><td class="entry"><a class="el" href="../../df/d41/a00881.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d41/a00881.php#ada095941e4b1c3757618959df513af9a">addColors</a>(const Colors &amp;color, Args... args)</td><td class="entry"><a class="el" href="../../df/d41/a00881.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/dc8/a00889.php#a77e97110dfe29cae01d63a618cff4ed4">Cls</a>()</td><td class="entry"><a class="el" href="../../de/dc8/a00889.php">mcd::Cls</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d41/a00881.php#a81a4808e8eb05c0a23cd90da4d8569ec">Color</a>(const std::string &amp;color)</td><td class="entry"><a class="el" href="../../df/d41/a00881.php">mcd::Color</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d41/a00881.php#ac3843a894efef061a84ac802d316fd86">Color</a>(Colors color, Args... args)</td><td class="entry"><a class="el" href="../../df/d41/a00881.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d41/a00881.php#a4db298b6e4ff50cf961dc90449468952">~Color</a>()</td><td class="entry"><a class="el" href="../../df/d41/a00881.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

@@ -1,11 +1,14 @@
 var a01001 =
 [
-    [ "Pathfinding", "df/d59/a01001.php#aca54568ec2e832b3f08ef6f86c7184f2", null ],
-    [ "~Pathfinding", "df/d59/a01001.php#a4cb06bc7729ad6371ad3380e0fd54f51", null ],
-    [ "createPath", "df/d59/a01001.php#a9a82c779fba2fba8d5adbd1c22ea8c0d", null ],
-    [ "getPath", "df/d59/a01001.php#ac59e95d415c520941c5bac355537df7f", null ],
-    [ "_end", "df/d59/a01001.php#a6f42595f214b1d2328d40c7fcf371626", null ],
-    [ "_path", "df/d59/a01001.php#afa7ec4aec9e8ed4aba2c3110ca86273f", null ],
-    [ "_problem", "df/d59/a01001.php#a8432f285b7015512efbe0a9a47bc76d7", null ],
-    [ "_start", "df/d59/a01001.php#a6fc13e2aa513059f91865021b9b13eed", null ]
+    [ "Path", "df/d59/a01001.php#a19773c31a6467b9b61b440135863290e", null ],
+    [ "~Path", "df/d59/a01001.php#ae7ac83a2afcba63d1e8f17f314572a7f", null ],
+    [ "hasNext", "df/d59/a01001.php#a7928f59acfc984899a12b52ab2e5ddca", null ],
+    [ "length", "df/d59/a01001.php#a2ae56317713ca93848b0c47bc401cbf4", null ],
+    [ "next", "df/d59/a01001.php#ac24764eca1f5c6a54322d4a19d4ac68f", null ],
+    [ "push", "df/d59/a01001.php#a54d7d03099784e7f2e573ba17ebe499e", null ],
+    [ "reset", "df/d59/a01001.php#a6941e224d3239f1c5aeda5b309aa5c81", null ],
+    [ "reverse", "df/d59/a01001.php#a1fb9d6aad58d7817692168eaea307a14", null ],
+    [ "size", "df/d59/a01001.php#a85140de1f8970b128a2501316a71e332", null ],
+    [ "end", "df/d59/a01001.php#a3b461b7f35d6914a627e52e20f79f6ce", null ],
+    [ "start", "df/d59/a01001.php#aeeee0a0ede330174785a5c7fe77d1681", null ]
 ];

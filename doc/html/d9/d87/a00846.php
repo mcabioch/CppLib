@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 17 2019 11:06:05 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,20 +90,15 @@ $(document).ready(function(){initNavTree('de/d37/a00849.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Reinit Member List</div>  </div>
+<div class="title">mcd::Check::has_ostream_operator&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/d37/a00849.php">mcd::Reinit</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../de/d37/a00849.php">mcd::Check::has_ostream_operator&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dcf/a00845.php#af4f6325cc63bd229cdf19df24a6e4f6e">addColors</a>(int color)</td><td class="entry"><a class="el" href="../../d7/dcf/a00845.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dcf/a00845.php#ae732af32fdbea05950d39bd9532121cf">addColors</a>(int color, Args... args)</td><td class="entry"><a class="el" href="../../d7/dcf/a00845.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dcf/a00845.php#a2763ec2ead72b9b5dabc5b8678a3cac1">addColors</a>(Colors color)</td><td class="entry"><a class="el" href="../../d7/dcf/a00845.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dcf/a00845.php#a1bbeef7225d8e84a02fca3e32a325b45">addColors</a>(Colors color, Args... args)</td><td class="entry"><a class="el" href="../../d7/dcf/a00845.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dcf/a00845.php#a81a4808e8eb05c0a23cd90da4d8569ec">Color</a>(const std::string &amp;color)</td><td class="entry"><a class="el" href="../../d7/dcf/a00845.php">mcd::Color</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dcf/a00845.php#a26072dbd1f7f739ff3be1e98357b446e">Color</a>(Args... args)</td><td class="entry"><a class="el" href="../../d7/dcf/a00845.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d37/a00849.php#a551e27ee03f69ab98899f261c3ab89e3">Reinit</a>()</td><td class="entry"><a class="el" href="../../de/d37/a00849.php">mcd::Reinit</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dcf/a00845.php#a4db298b6e4ff50cf961dc90449468952">~Color</a>()</td><td class="entry"><a class="el" href="../../d7/dcf/a00845.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d37/a00849.php#a62ae1424b1e158747fdc66486da0f519">has_ostream_operator</a>()</td><td class="entry"><a class="el" href="../../de/d37/a00849.php">mcd::Check::has_ostream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d37/a00849.php#ad1cf88abd079ce2df64d1d4f8e256a8a">value</a></td><td class="entry"><a class="el" href="../../de/d37/a00849.php">mcd::Check::has_ostream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d37/a00849.php#a46e086e27236a65d185a87b1d20b4139">~has_ostream_operator</a>()</td><td class="entry"><a class="el" href="../../de/d37/a00849.php">mcd::Check::has_ostream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

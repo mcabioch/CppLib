@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -97,16 +97,16 @@ $(document).ready(function(){initNavTree('functions_w.php','');});
 , <a class="el" href="dc/d28/a00223.php#a5e12726e58baa05036bc160c31d08016">mcd::WorldDimensions</a>
 </li>
 <li>weekDay()
-: <a class="el" href="d8/dbb/a00932.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
+: <a class="el" href="d0/d5b/a00933.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
 </li>
 <li>weight
 : <a class="el" href="dc/d28/a00223.php#ae9c3c7c184c194240178a2cf11f24566">mcd::Node&lt; T &gt;</a>
 </li>
 <li>weights
-: <a class="el" href="de/def/a01016.php#ab5fbef9d1844f398fffd1dbc2870adef">mcd::PathfindingProblem</a>
+: <a class="el" href="d3/ded/a01017.php#ab5fbef9d1844f398fffd1dbc2870adef">mcd::PathfindingProblem</a>
 </li>
 <li>what()
-: <a class="el" href="d4/d45/a01012.php#a92a9aea3e0fc189dc0c17a78ffa68bdf">mcd::PathfindingException</a>
+: <a class="el" href="d7/d59/a01013.php#a92a9aea3e0fc189dc0c17a78ffa68bdf">mcd::PathfindingException</a>
 </li>
 </ul>
 </div><!-- contents -->

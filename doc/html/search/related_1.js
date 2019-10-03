@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gaussjordan',['GaussJordan',['../d0/d85/a00976.php#a9b0f04cced69a887b46bddde8e3f3c0a',1,'mcd::Matrix']]]
+  ['gaussjordan',['GaussJordan',['../d5/d6c/a00977.php#a9b0f04cced69a887b46bddde8e3f3c0a',1,'mcd::Matrix']]]
 ];

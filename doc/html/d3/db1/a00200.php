@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -102,8 +102,8 @@ Include dependency graph for Timer.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/de3/a00201.png" border="0" usemap="#Timer_8hpp" alt=""/></div>
 <map name="Timer_8hpp" id="Timer_8hpp">
-<area shape="rect" id="node2" href="../../d9/dd0/a00191.php" title="C++/Threadable.hpp" alt="" coords="1025,80,1167,107"/>
-<area shape="rect" id="node3" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1033,155,1159,181"/>
+<area shape="rect" id="node2" href="../../d9/dd0/a00191.php" title="C++/Threadable.hpp" alt="" coords="1067,80,1208,107"/>
+<area shape="rect" id="node3" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1075,155,1200,181"/>
 <area shape="rect" id="node4" href="../../de/db1/a00197.php" title="C++/timeFunctions.hpp" alt="" coords="478,229,637,256"/>
 <area shape="rect" id="node62" href="../../d1/d88/a00128.php" title="C++/NotCopyable.hpp" alt="" coords="661,229,814,256"/>
 <area shape="rect" id="node63" href="../../d7/d06/a00131.php" title="C++/NotInstantiable.hpp" alt="" coords="839,229,1004,256"/>
@@ -167,8 +167,8 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.php">mcd::Timer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A timer to do something at the end.  <a href="../../d9/db3/a01064.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc9/a01065.php">mcd::Timer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A timer to do something at the end.  <a href="../../d0/dc9/a01065.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -102,11 +102,11 @@ Include dependency graph for PathfindingDijkstra.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d0/d4a/a00147.png" border="0" usemap="#PathfindingDijkstra_8hpp" alt=""/></div>
 <map name="PathfindingDijkstra_8hpp" id="PathfindingDijkstra_8hpp">
-<area shape="rect" id="node2" href="../../d5/db1/a00140.php" title="C++/Pathfinding.hpp" alt="" coords="1025,80,1167,107"/>
-<area shape="rect" id="node3" href="../../d7/d9a/a00152.php" title="C++/PathfindingProblem.hpp" alt="" coords="1001,155,1191,181"/>
-<area shape="rect" id="node4" href="../../da/d1e/a00149.php" title="C++/PathfindingException.hpp" alt="" coords="908,229,1108,256"/>
-<area shape="rect" id="node71" href="../../d2/df5/a00137.php" title="C++/Path.hpp" alt="" coords="1132,229,1236,256"/>
-<area shape="rect" id="node5" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1033,304,1159,331"/>
+<area shape="rect" id="node2" href="../../d5/db1/a00140.php" title="C++/Pathfinding.hpp" alt="" coords="1066,80,1209,107"/>
+<area shape="rect" id="node3" href="../../d7/d9a/a00152.php" title="C++/PathfindingProblem.hpp" alt="" coords="1042,155,1233,181"/>
+<area shape="rect" id="node4" href="../../da/d1e/a00149.php" title="C++/PathfindingException.hpp" alt="" coords="949,229,1149,256"/>
+<area shape="rect" id="node72" href="../../d2/df5/a00137.php" title="C++/Path.hpp" alt="" coords="1173,229,1277,256"/>
+<area shape="rect" id="node5" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1075,304,1200,331"/>
 <area shape="rect" id="node6" href="../../de/db1/a00197.php" title="C++/timeFunctions.hpp" alt="" coords="478,379,637,405"/>
 <area shape="rect" id="node64" href="../../d1/d88/a00128.php" title="C++/NotCopyable.hpp" alt="" coords="661,379,814,405"/>
 <area shape="rect" id="node65" href="../../d7/d06/a00131.php" title="C++/NotInstantiable.hpp" alt="" coords="839,379,1004,405"/>
@@ -171,8 +171,8 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dac/a01008.php">mcd::PathfindingDijkstra</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of the Dijkstra algorithm.  <a href="../../dd/dac/a01008.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingDijkstra</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of the Dijkstra algorithm.  <a href="../../d7/ded/a01009.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 17:46:09 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,21 +90,19 @@ $(document).ready(function(){initNavTree('d1/de7/a00877.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Color Member List</div>  </div>
+<div class="title">mcd::Clock Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d1/de7/a00877.php">mcd::Color</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d1/de7/a00877.php">mcd::Clock</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/de7/a00877.php#af4f6325cc63bd229cdf19df24a6e4f6e">addColors</a>(int color)</td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/de7/a00877.php#ae732af32fdbea05950d39bd9532121cf">addColors</a>(int color, Args... args)</td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/de7/a00877.php#a8dd730c3b59730b786d059a507d03fca">addColors</a>(const Colors &amp;color)</td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/de7/a00877.php#ada095941e4b1c3757618959df513af9a">addColors</a>(const Colors &amp;color, Args... args)</td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/de7/a00877.php#a37c42c3a0b8af325e746f536a6a51305">Cls</a> class</td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Color</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/de7/a00877.php#a81a4808e8eb05c0a23cd90da4d8569ec">Color</a>(const std::string &amp;color)</td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Color</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/de7/a00877.php#ac3843a894efef061a84ac802d316fd86">Color</a>(Colors color, Args... args)</td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/de7/a00877.php#a84513fec989f2f817d2b1c5e6989450e">operator&lt;&lt;</a>(std::ostream &amp;stream, Color const &amp;c)</td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Color</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/de7/a00877.php#a4db298b6e4ff50cf961dc90449468952">~Color</a>()</td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/de7/a00877.php#ae0aa0853cddce8c1e8c4339eb7016223">Clock</a>()</td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Clock</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/de7/a00877.php#a47ce94671d48c1f42862771174c86810">getElapsed</a>()</td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Clock</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/de7/a00877.php#a276d9d978a8670e8354cac2b589c60ce">getStart</a>() const</td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Clock</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/de7/a00877.php#a9714489f034bfffabff995741d899513">m_start</a></td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Clock</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/de7/a00877.php#a3008b7b555fb4e6c3415aec152b5de2d">restart</a>()</td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Clock</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/de7/a00877.php#a25b787edba50392a8f18995a6ae6dc9e">start</a>()</td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Clock</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/de7/a00877.php#a20216632ae0d7b1504060826edfdd062">started</a></td><td class="entry"><a class="el" href="../../d1/de7/a00877.php">mcd::Clock</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

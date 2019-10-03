@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 17:46:09 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,19 +90,13 @@ $(document).ready(function(){initNavTree('d9/d22/a00873.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Clock Member List</div>  </div>
+<div class="title">mcd::Check::is_special_struct&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d9/d22/a00873.php">mcd::Clock</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d9/d22/a00873.php">mcd::Check::is_special_struct&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/d22/a00873.php#ae0aa0853cddce8c1e8c4339eb7016223">Clock</a>()</td><td class="entry"><a class="el" href="../../d9/d22/a00873.php">mcd::Clock</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/d22/a00873.php#a47ce94671d48c1f42862771174c86810">getElapsed</a>()</td><td class="entry"><a class="el" href="../../d9/d22/a00873.php">mcd::Clock</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/d22/a00873.php#a276d9d978a8670e8354cac2b589c60ce">getStart</a>() const</td><td class="entry"><a class="el" href="../../d9/d22/a00873.php">mcd::Clock</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/d22/a00873.php#a9714489f034bfffabff995741d899513">m_start</a></td><td class="entry"><a class="el" href="../../d9/d22/a00873.php">mcd::Clock</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/d22/a00873.php#a3008b7b555fb4e6c3415aec152b5de2d">restart</a>()</td><td class="entry"><a class="el" href="../../d9/d22/a00873.php">mcd::Clock</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/d22/a00873.php#a25b787edba50392a8f18995a6ae6dc9e">start</a>()</td><td class="entry"><a class="el" href="../../d9/d22/a00873.php">mcd::Clock</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/d22/a00873.php#a20216632ae0d7b1504060826edfdd062">started</a></td><td class="entry"><a class="el" href="../../d9/d22/a00873.php">mcd::Clock</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d22/a00873.php#a9347b60a434f2cfd40453cc7856c3918">value</a></td><td class="entry"><a class="el" href="../../d9/d22/a00873.php">mcd::Check::is_special_struct&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

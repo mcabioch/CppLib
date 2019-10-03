@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('db/ddf/a00164.php','../../');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">pointers.hpp File Reference</div>  </div>
@@ -181,18 +182,18 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d89/a01032.php">mcd::Check::is_minded_ptr&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr.  <a href="../../df/d89/a01032.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/a01033.php">mcd::Check::is_minded_ptr&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr.  <a href="../../d2/d57/a01033.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d79/a01036.php">mcd::Check::is_thread_ptr&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::shared_ptr&lt;std::thread&gt;, a std::unique_ptr&lt;std::thread&gt;, a std::weak_ptr&lt;std::thread&gt; or a std::thread*.  <a href="../../d8/d79/a01036.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d41/a01037.php">mcd::Check::is_thread_ptr&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::shared_ptr&lt;thread&gt;, a std::unique_ptr&lt;thread&gt;, a std::weak_ptr&lt;thread&gt; or a thread*.  <a href="../../d2/d41/a01037.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:dc/d28/a00223"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d5/ddf/a00224"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/ddf/a00224.php">mcd::Check</a></td></tr>
+<tr class="memitem:dc/d98/a00225"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d98/a00225.php">mcd::Check</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -214,6 +215,13 @@ Macros</h2></td></tr>
 <tr class="memitem:a0cbcd876925de883c4a297851fdc7b4b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/ddf/a00164.php#a0cbcd876925de883c4a297851fdc7b4b">MUTEX_VOID_CONST_RECREATE_ARGS</a>(parent,  name, ...)</td></tr>
 <tr class="separator:a0cbcd876925de883c4a297851fdc7b4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a21976f3e9e8d360ccff90c8ead193a5e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#a21976f3e9e8d360ccff90c8ead193a5e">mcd::thread</a> = std::thread</td></tr>
+<tr class="separator:a21976f3e9e8d360ccff90c8ead193a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7139c2a1e77039f963009520820d8c87"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#a7139c2a1e77039f963009520820d8c87">mcd::mutex</a> = std::mutex</td></tr>
+<tr class="separator:a7139c2a1e77039f963009520820d8c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ad32e282421be0e66b0288fe7634ad183"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -223,7 +231,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : April, 15 2019 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Last modification : October, 03 2019 </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="af882b89ff60874679a5db7856d4130f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af882b89ff60874679a5db7856d4130f2">&#9670;&nbsp;</a></span>MUTEX_CONST_RECREATE</h2>

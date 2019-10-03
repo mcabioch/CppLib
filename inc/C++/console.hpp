@@ -2,7 +2,7 @@
 *
 *	\file		console.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	September, 26 2019
+*	\modified	October, 03 2019
 *
 */
 #ifndef HEADER_CPP_CONSOLE
@@ -268,7 +268,7 @@ namespace mcd {
 			}
 
 		private:
-			static std::mutex _mutex;
+			static mutex _mutex;
 			static bool _mutexed;
 	};
 

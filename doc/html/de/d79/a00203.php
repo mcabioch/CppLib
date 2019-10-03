@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -105,17 +105,17 @@ Include dependency graph for Tree.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d72/a00204.png" border="0" usemap="#Tree_8hpp" alt=""/></div>
 <map name="Tree_8hpp" id="Tree_8hpp">
-<area shape="rect" id="node2" href="../../d0/d89/a00071.php" title="C++/defines.hpp" alt="" coords="970,80,1089,107"/>
-<area shape="rect" id="node3" href="../../d3/db1/a00200.php" title="C++/Timer.hpp" alt="" coords="661,155,771,181"/>
-<area shape="rect" id="node71" href="../../d4/dee/a00008.php" title="C++/Args.hpp" alt="" coords="796,155,900,181"/>
-<area shape="rect" id="node72" href="../../da/d24/a00068.php" title="C++/DateTime.hpp" alt="" coords="870,379,1005,405"/>
-<area shape="rect" id="node75" href="../../d5/df9/a00044.php" title="C++/Clock.hpp" alt="" coords="975,304,1086,331"/>
-<area shape="rect" id="node76" href="../../dc/dee/a00053.php" title="C++/ConsoleTable.hpp" alt="" coords="1041,229,1199,256"/>
-<area shape="rect" id="node77" href="../../d5/dcb/a00170.php" title="C++/Referenced.hpp" alt="" coords="1161,304,1305,331"/>
-<area shape="rect" id="node78" href="../../d7/dce/a00143.php" title="C++/PathfindingAlgorithms.hpp" alt="" coords="1283,155,1487,181"/>
-<area shape="rect" id="node84" href="../../d1/d44/a00098.php" title="C++/IOConfig.hpp" alt="" coords="1513,379,1642,405"/>
-<area shape="rect" id="node4" href="../../d9/dd0/a00191.php" title="C++/Threadable.hpp" alt="" coords="691,229,832,256"/>
-<area shape="rect" id="node5" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1061,528,1187,555"/>
+<area shape="rect" id="node2" href="../../d0/d89/a00071.php" title="C++/defines.hpp" alt="" coords="1011,80,1130,107"/>
+<area shape="rect" id="node3" href="../../d3/db1/a00200.php" title="C++/Timer.hpp" alt="" coords="702,155,813,181"/>
+<area shape="rect" id="node72" href="../../d4/dee/a00008.php" title="C++/Args.hpp" alt="" coords="837,155,941,181"/>
+<area shape="rect" id="node73" href="../../da/d24/a00068.php" title="C++/DateTime.hpp" alt="" coords="911,379,1046,405"/>
+<area shape="rect" id="node76" href="../../d5/df9/a00044.php" title="C++/Clock.hpp" alt="" coords="1017,304,1127,331"/>
+<area shape="rect" id="node77" href="../../dc/dee/a00053.php" title="C++/ConsoleTable.hpp" alt="" coords="1083,229,1240,256"/>
+<area shape="rect" id="node78" href="../../d5/dcb/a00170.php" title="C++/Referenced.hpp" alt="" coords="1203,304,1347,331"/>
+<area shape="rect" id="node79" href="../../d7/dce/a00143.php" title="C++/PathfindingAlgorithms.hpp" alt="" coords="1325,155,1529,181"/>
+<area shape="rect" id="node85" href="../../d1/d44/a00098.php" title="C++/IOConfig.hpp" alt="" coords="1554,379,1683,405"/>
+<area shape="rect" id="node4" href="../../d9/dd0/a00191.php" title="C++/Threadable.hpp" alt="" coords="732,229,873,256"/>
+<area shape="rect" id="node5" href="../../d9/d77/a00095.php" title="C++/includes.hpp" alt="" coords="1103,528,1228,555"/>
 <area shape="rect" id="node6" href="../../de/db1/a00197.php" title="C++/timeFunctions.hpp" alt="" coords="506,603,665,629"/>
 <area shape="rect" id="node64" href="../../d1/d88/a00128.php" title="C++/NotCopyable.hpp" alt="" coords="689,603,842,629"/>
 <area shape="rect" id="node65" href="../../d7/d06/a00131.php" title="C++/NotInstantiable.hpp" alt="" coords="867,603,1032,629"/>
@@ -147,13 +147,13 @@ Include dependency graph for Tree.hpp:</div>
 <area shape="rect" id="node54" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="402,1424,526,1451"/>
 <area shape="rect" id="node55" href="../../df/d98/a00107.php" title="C++/maths.hpp" alt="" coords="407,1499,521,1525"/>
 <area shape="rect" id="node56" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="653,1573,768,1600"/>
-<area shape="rect" id="node73" href="../../de/de1/a00065.php" title="C++/Date.hpp" alt="" coords="930,453,1035,480"/>
-<area shape="rect" id="node74" href="../../dc/d57/a00194.php" title="C++/Time.hpp" alt="" coords="799,453,905,480"/>
-<area shape="rect" id="node79" href="../../d9/db6/a00146.php" title="C++/PathfindingDijkstra.hpp" alt="" coords="1299,229,1485,256"/>
-<area shape="rect" id="node80" href="../../d5/db1/a00140.php" title="C++/Pathfinding.hpp" alt="" coords="1330,304,1473,331"/>
-<area shape="rect" id="node81" href="../../d7/d9a/a00152.php" title="C++/PathfindingProblem.hpp" alt="" coords="1298,379,1489,405"/>
-<area shape="rect" id="node82" href="../../da/d1e/a00149.php" title="C++/PathfindingException.hpp" alt="" coords="1340,453,1540,480"/>
-<area shape="rect" id="node83" href="../../d2/df5/a00137.php" title="C++/Path.hpp" alt="" coords="1212,453,1316,480"/>
+<area shape="rect" id="node74" href="../../de/de1/a00065.php" title="C++/Date.hpp" alt="" coords="971,453,1077,480"/>
+<area shape="rect" id="node75" href="../../dc/d57/a00194.php" title="C++/Time.hpp" alt="" coords="840,453,947,480"/>
+<area shape="rect" id="node80" href="../../d9/db6/a00146.php" title="C++/PathfindingDijkstra.hpp" alt="" coords="1340,229,1527,256"/>
+<area shape="rect" id="node81" href="../../d5/db1/a00140.php" title="C++/Pathfinding.hpp" alt="" coords="1371,304,1514,331"/>
+<area shape="rect" id="node82" href="../../d7/d9a/a00152.php" title="C++/PathfindingProblem.hpp" alt="" coords="1339,379,1530,405"/>
+<area shape="rect" id="node83" href="../../da/d1e/a00149.php" title="C++/PathfindingException.hpp" alt="" coords="1381,453,1581,480"/>
+<area shape="rect" id="node84" href="../../d2/df5/a00137.php" title="C++/Path.hpp" alt="" coords="1253,453,1357,480"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -182,11 +182,11 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:d1/de6/a01068"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#d1/de6/a01068">mcd::Node&lt; T &gt;</a></td></tr>
-<tr class="memdesc:d1/de6/a01068"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a node for the tree.  <a href="../../dc/d28/a00223.php#d1/de6/a01068">More...</a><br /></td></tr>
-<tr class="separator:d1/de6/a01068"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6a/a01072.php">mcd::Tree&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a binary tree.  <a href="../../d6/d6a/a01072.php#details">More...</a><br /></td></tr>
+<tr class="memitem:d8/d18/a01069"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#d8/d18/a01069">mcd::Node&lt; T &gt;</a></td></tr>
+<tr class="memdesc:d8/d18/a01069"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a node for the tree.  <a href="../../dc/d28/a00223.php#d8/d18/a01069">More...</a><br /></td></tr>
+<tr class="separator:d8/d18/a01069"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7c/a01073.php">mcd::Tree&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a binary tree.  <a href="../../d9/d7c/a01073.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -234,8 +234,8 @@ Functions</h2></td></tr>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>September, 26 2019 </dd></dl>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="d1/de6/a01068" id="d1/de6/a01068"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d1/de6/a01068">&#9670;&nbsp;</a></span>mcd::Node</h2>
+<a name="d8/d18/a01069" id="d8/d18/a01069"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d8/d18/a01069">&#9670;&nbsp;</a></span>mcd::Node</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -252,7 +252,7 @@ struct mcd::Node&lt; T &gt;</h3>
 </div><div class="dynheader">
 Collaboration diagram for mcd::Node&lt; T &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/dfb/a01066.png" border="0" usemap="#mcd_1_1Node_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d2/d49/a01067.png" border="0" usemap="#mcd_1_1Node_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="mcd_1_1Node_3_01T_01_4_coll__map" id="mcd_1_1Node_3_01T_01_4_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
@@ -265,13 +265,13 @@ initialized</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af4ea821acbfe4f8eb18a223a586c48c9"></a><a class="el" href="../../dc/d28/a00223.php#d1/de6/a01068">Node</a>&lt; T &gt; *</td>
+<a id="af4ea821acbfe4f8eb18a223a586c48c9"></a><a class="el" href="../../dc/d28/a00223.php#d8/d18/a01069">Node</a>&lt; T &gt; *</td>
 <td class="fieldname">
 left</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aed7cc9cc3f81747b93f4e93dcd41db02"></a><a class="el" href="../../dc/d28/a00223.php#d1/de6/a01068">Node</a>&lt; T &gt; *</td>
+<a id="aed7cc9cc3f81747b93f4e93dcd41db02"></a><a class="el" href="../../dc/d28/a00223.php#d8/d18/a01069">Node</a>&lt; T &gt; *</td>
 <td class="fieldname">
 right</td>
 <td class="fielddoc">

@@ -1,8 +1,6 @@
 var a00857 =
 [
-    [ "goTo", "d0/d82/a00857.php#a191575f00626575e84455dfae871f502", null ],
-    [ "home", "d0/d82/a00857.php#a75615abf8f124c460b9b163868c89b7e", null ],
-    [ "put", "d0/d82/a00857.php#a6c45379b4d8cbccef8c0809d318eae0c", null ],
-    [ "restore", "d0/d82/a00857.php#a6f731b973f917b6c2f3a04267f12c851", null ],
-    [ "save", "d0/d82/a00857.php#ab58627fbfed0b6cabd5030943113e5e5", null ]
+    [ "has_istream_operator", "d0/d82/a00857.php#a6343682f15ad178aa8883b61094b7d2a", null ],
+    [ "~has_istream_operator", "d0/d82/a00857.php#a4381564142a22fed101f4a2b2b7728b4", null ],
+    [ "value", "d0/d82/a00857.php#a4ea6d2bc4fe8e15561698f6ea66d021b", null ]
 ];

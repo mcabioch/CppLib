@@ -10,18 +10,18 @@ namespace mcd {
 	}
 
 	void sleep(size_t duration){
-		std::this_thread::sleep_for(std::chrono::seconds(duration));
+		this_thread::sleep_for(std::chrono::seconds(duration));
 	}
 
 	void milliSleep(size_t duration){
-		std::this_thread::sleep_for(std::chrono::milliseconds(duration));
+		this_thread::sleep_for(std::chrono::milliseconds(duration));
 	}
 
 	void microSleep(size_t duration){
-		std::this_thread::sleep_for(std::chrono::microseconds(duration));
+		this_thread::sleep_for(std::chrono::microseconds(duration));
 	}
 
 	void nanoSleep(size_t duration){
-		std::this_thread::sleep_for(std::chrono::nanoseconds(duration));
+		this_thread::sleep_for(std::chrono::nanoseconds(duration));
 	}
 }

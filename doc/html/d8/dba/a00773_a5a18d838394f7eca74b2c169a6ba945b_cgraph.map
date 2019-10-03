@@ -1,0 +1,4 @@
+<map id="mcd::Animal::getSpecialAttack" name="mcd::Animal::getSpecialAttack">
+<area shape="rect" id="node2" href="$d8/dba/a00773.php#a0a1bd6e6440207bf2f281dcca32e7f25" title="Verify the collisions between two objects like rectangles. " alt="" coords="259,5,434,32"/>
+<area shape="rect" id="node3" href="$d8/dba/a00773.php#a462a1d52fee8f6a4f140a50b9261d82b" title="Verify the collisions between a circle around this Animal and an other animal. " alt="" coords="256,56,437,83"/>
+</map>

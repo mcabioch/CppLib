@@ -1,8 +1,7 @@
 var a00901 =
 [
-    [ "ConsoleTable", "d0/dac/a00901.php#acc7af9ad8f4b7175a82acb2edfce15b2", null ],
-    [ "headers", "d0/dac/a00901.php#a1878d602fe475fb47a2aca063e7cb9d6", null ],
-    [ "line", "d0/dac/a00901.php#a3669c41beda1b667738b6e7c42663b29", null ],
-    [ "lines", "d0/dac/a00901.php#aefb00d9e2e5755c7e2fd60cba225f504", null ],
-    [ "operator<<", "d0/dac/a00901.php#af23c547bfa2b35d582a6922d425d02f5", null ]
+    [ "ThreadCout", "d0/dac/a00901.php#adacc9d5343e07aa8396f8b1edd92bb39", null ],
+    [ "~ThreadCout", "d0/dac/a00901.php#a43b2683a0e3d46205643de53236dc4f8", null ],
+    [ "operator<<", "d0/dac/a00901.php#a358d316052544257ab9aee6f1fe762dc", null ],
+    [ "operator<<", "d0/dac/a00901.php#a8b27881bbb3b1a50ddf821d8ce62e4d6", null ]
 ];

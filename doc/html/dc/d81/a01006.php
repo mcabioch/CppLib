@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 17:46:10 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,24 +90,22 @@ $(document).ready(function(){initNavTree('d7/ded/a01009.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::PathfindingException Member List</div>  </div>
+<div class="title">mcd::PathfindingDijkstra Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingException</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingDijkstra</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/ded/a01009.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814">ARRIVED</a> enum value</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingException</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/ded/a01009.php#a9fcff7a44db764decbb680479144b97b">Arrived</a>()</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingException</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/ded/a01009.php#a922e8cbd5025f4f17e45889055df165c">getErrorCode</a>() const</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingException</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/ded/a01009.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995">LOST</a> enum value</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingException</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/ded/a01009.php#a933816a487769eec830729b051d0fbcd">Lost</a>()</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingException</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/ded/a01009.php#a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d">NONE</a> enum value</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingException</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/ded/a01009.php#a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982">OTHER</a> enum value</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingException</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/ded/a01009.php#a699cc4df8cc94d467e7372072d230b58">PathfindingErrorCode</a> enum name</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingException</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/ded/a01009.php#ac73bb217b98d679eaab9fe9fe4e5c9b0">PathfindingException</a>(PathfindingErrorCode error=PathfindingErrorCode::NONE, const std::string &amp;explaination=&quot;&quot;)</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingException</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/ded/a01009.php#a71da44443282ca94d2c9e10a9be0dafc">PathfindingException</a>(const PathfindingException &amp;other)</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingException</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/ded/a01009.php#a92a9aea3e0fc189dc0c17a78ffa68bdf">what</a>() const</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingException</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/ded/a01009.php#a22d196716aa61adb8fa0e0d48320c9ab">~PathfindingException</a>()</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingException</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d06/a01005.php#a6f42595f214b1d2328d40c7fcf371626">_end</a></td><td class="entry"><a class="el" href="../../d7/d06/a01005.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d06/a01005.php#afa7ec4aec9e8ed4aba2c3110ca86273f">_path</a></td><td class="entry"><a class="el" href="../../d7/d06/a01005.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d06/a01005.php#a8432f285b7015512efbe0a9a47bc76d7">_problem</a></td><td class="entry"><a class="el" href="../../d7/d06/a01005.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d06/a01005.php#a6fc13e2aa513059f91865021b9b13eed">_start</a></td><td class="entry"><a class="el" href="../../d7/d06/a01005.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/ded/a01009.php#a7b2872207d45871fcbcfa01e216090dd">createPath</a>() override</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingDijkstra</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d06/a01005.php#ac59e95d415c520941c5bac355537df7f">getPath</a>()</td><td class="entry"><a class="el" href="../../d7/d06/a01005.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d06/a01005.php#aca54568ec2e832b3f08ef6f86c7184f2">Pathfinding</a>(const PathfindingProblem &amp;problem, const PathfindingNode &amp;start, const PathfindingNode &amp;end)</td><td class="entry"><a class="el" href="../../d7/d06/a01005.php">mcd::Pathfinding</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/ded/a01009.php#a8e8246fb84c8dd3bf9e522f3fca7b39e">PathfindingDijkstra</a>(const PathfindingProblem &amp;problem, const PathfindingNode &amp;start, const PathfindingNode &amp;end)</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingDijkstra</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d06/a01005.php#a4cb06bc7729ad6371ad3380e0fd54f51">~Pathfinding</a>()</td><td class="entry"><a class="el" href="../../d7/d06/a01005.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/ded/a01009.php#aae9b7cf4f57d826b9f7e65d9410b572e">~PathfindingDijkstra</a>()</td><td class="entry"><a class="el" href="../../d7/ded/a01009.php">mcd::PathfindingDijkstra</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

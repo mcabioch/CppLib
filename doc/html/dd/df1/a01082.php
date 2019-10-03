@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 17:46:11 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,25 +90,24 @@ $(document).ready(function(){initNavTree('d2/df3/a01085.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::vector&lt; C &gt; Member List</div>  </div>
+<div class="title">mcd::Point Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d2/df3/a01085.php">mcd::vector&lt; C &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d2/df3/a01085.php">mcd::Point</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a638a7edb18434ca9a2fa3be7e1d3563b">operator &amp;</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a293c997b273243004c9a48fd08192db2">operator &amp;=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a0c894bc8e77be926b9b7f523c1896071">operator+</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a22f0f6977e9536afb53ed230b2cc8504">operator+=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a7928c471316360bf63b686c77b482e91">operator-</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#af14811b70c776b7c486e467ebb04a565">operator-=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#aceb6871a031f6bdb9adeb291238a2f1e">operator^</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#ae2e81b3836365353b10040331247a870">operator^=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a4eacfc54e3bd159d746ebf2eefacc0a5">operator|</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#abc0583222abd8957c4a8502b7ba9272e">operator|=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a58c2e9df00704c786bfcfcca5a383a0e">pop</a>(size_t pos=0)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a92e814868c4f4b6f3d0969b200b35c91">vector</a>()</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#aea718ab247c60108c5dd591905174a95">vector</a>(const std::vector&lt; C &gt; &amp;v)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a2beb84069e438adcccfa4b6ed9794c0c">bot</a>() const</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a91941563ecc020a510832ba8869e5ded">left</a>() const</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a6bea9cfb4049115f767ed658959d6648">operator!=</a>(const Point &amp;a, const Point &amp;b)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a55681886ec7c5d7c0210fa0611bc84ea">operator&lt;&lt;</a>(std::ostream &amp;os, const Point &amp;a)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a6ebbd086a808f7fb8bd49bda00b8df12">operator=</a>(const std::pair&lt; T, U &gt; &amp;o)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a220f83e0ebfaa9b2884530cfcac6f6df">operator=</a>(const trio&lt; T, U, V &gt; &amp;o)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a177528c8a1eee37fcda25a89084b8ed6">operator==</a>(const Point &amp;a, const Point &amp;b)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a613a9be49ee0cbe55e10e75db1d59faa">right</a>() const</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#afd57961d22ce89d783303c0fbbdc4f83">top</a>() const</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a924c77d36867a18d5a52767ff246ebfc">x</a></td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#ab339ac0efa2259051dc1ac0637d2c9a8">y</a></td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a010288cb5febefa70329d35a726c7291">z</a></td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

@@ -1,5 +1,6 @@
 var a01041 =
 [
-    [ "Referenced", "d1/d83/a01041.php#a23a4eee18708dae4eff05079a345c375", null ],
-    [ "_her", "d1/d83/a01041.php#a3aadcf63bff72dd8c87f4c1d7a3bd240", null ]
+    [ "PureVirtual", "d1/d83/a01041.php#ab67f25d69c1686f95be6fbfcc4ac4663", null ],
+    [ "~PureVirtual", "d1/d83/a01041.php#acb8cb10e007f7c5f6ac757843a212598", null ],
+    [ "PureVirtualMethod", "d1/d83/a01041.php#a1885fa694cc2d28cb55186fb3b53615d", null ]
 ];

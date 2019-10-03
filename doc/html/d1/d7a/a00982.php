@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 17:46:10 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,15 +90,14 @@ $(document).ready(function(){initNavTree('da/deb/a00985.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::NotInstantiable Member List</div>  </div>
+<div class="title">mcd::NotCopyable Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../da/deb/a00985.php">mcd::NotInstantiable</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../da/deb/a00985.php">mcd::NotCopyable</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../da/deb/a00985.php#a760ca4c32c24cf2b4c4c2ef07b51f997">NotInstantiable</a>()</td><td class="entry"><a class="el" href="../../da/deb/a00985.php">mcd::NotInstantiable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/deb/a00985.php#a19c59f78b217426061641970c9f11022">notInstantiable</a>() final=0</td><td class="entry"><a class="el" href="../../da/deb/a00985.php">mcd::NotInstantiable</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/deb/a00985.php#a096b44b3d9fe8e567b179ac3d3dbacff">~NotInstantiable</a>()</td><td class="entry"><a class="el" href="../../da/deb/a00985.php">mcd::NotInstantiable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/deb/a00985.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a>()</td><td class="entry"><a class="el" href="../../da/deb/a00985.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/deb/a00985.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a>()</td><td class="entry"><a class="el" href="../../da/deb/a00985.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

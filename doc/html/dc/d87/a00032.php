@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -174,10 +174,10 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:d1/dd1/a00804"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#d1/dd1/a00804">mcd::Binary&lt; T, Enable &gt;</a></td></tr>
-<tr class="memdesc:d1/dd1/a00804"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage binary values easily.  <a href="../../dc/d28/a00223.php#d1/dd1/a00804">More...</a><br /></td></tr>
-<tr class="separator:d1/dd1/a00804"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dc8/a00808.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td></tr>
+<tr class="memitem:d7/dff/a00805"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php#d7/dff/a00805">mcd::Binary&lt; T, Enable &gt;</a></td></tr>
+<tr class="memdesc:d7/dff/a00805"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage binary values easily.  <a href="../../dc/d28/a00223.php#d7/dff/a00805">More...</a><br /></td></tr>
+<tr class="separator:d7/dff/a00805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -191,8 +191,8 @@ Namespaces</h2></td></tr>
 <dd>
 Last modification : September, 27 2019 </dd></dl>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="d1/dd1/a00804" id="d1/dd1/a00804"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d1/dd1/a00804">&#9670;&nbsp;</a></span>mcd::Binary</h2>
+<a name="d7/dff/a00805" id="d7/dff/a00805"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d7/dff/a00805">&#9670;&nbsp;</a></span>mcd::Binary</h2>
 
 <div class="memitem">
 <div class="memproto">

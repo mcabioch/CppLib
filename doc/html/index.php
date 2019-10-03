@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
+				$text = "Generated on Thu Oct 3 2019 18:36:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -154,35 +154,35 @@ Tips and Advice</h2>
 </p>
 <h2><a class="anchor" id="imp_sec_obj_subsec"></a>
 Objects</h2>
-<p><a class="el" href="df/d0e/a00800.php">mcd::Big</a><br />
- <a class="el" href="da/d93/a01084.php">mcd::Point</a><br />
+<p><a class="el" href="d7/d0a/a00801.php">mcd::Big</a><br />
+ <a class="el" href="d2/df3/a01085.php">mcd::Point</a><br />
  PathfindingDijkstra<br />
  Threadable<br />
- <a class="el" href="dc/d28/a00223.php#d6/d80/a01076">mcd::trio</a><br />
- <a class="el" href="dc/d28/a00223.php#d9/d67/a01080">mcd::quatuor</a><br />
- <a class="el" href="d9/d00/a00784.php">mcd::stack</a><br />
- <a class="el" href="d2/d5a/a00792.php">mcd::queue</a><br />
+ <a class="el" href="dc/d28/a00223.php#d0/dd3/a01077">mcd::trio</a><br />
+ <a class="el" href="dc/d28/a00223.php#dd/dee/a01081">mcd::quatuor</a><br />
+ <a class="el" href="d3/d00/a00785.php">mcd::stack</a><br />
+ <a class="el" href="d4/dd7/a00793.php">mcd::queue</a><br />
 </p><ul>
-<li><a class="el" href="d0/d85/a00908.php">mcd::Contraption</a><ul>
-<li><a class="el" href="d7/d76/a00992.php">mcd::Object</a><ul>
-<li><a class="el" href="d9/dce/a01052.php">mcd::Stone</a></li>
+<li><a class="el" href="de/dc3/a00909.php">mcd::Contraption</a><ul>
+<li><a class="el" href="da/d0a/a00993.php">mcd::Object</a><ul>
+<li><a class="el" href="dc/d99/a01053.php">mcd::Stone</a></li>
 </ul>
 </li>
-<li><a class="el" href="d9/dce/a00944.php">mcd::Entity</a><ul>
-<li><a class="el" href="d9/d9c/a00772.php">mcd::Animal</a><ul>
-<li><a class="el" href="d9/dd4/a00776.php">mcd::Ant</a></li>
+<li><a class="el" href="d1/db0/a00945.php">mcd::Entity</a><ul>
+<li><a class="el" href="d8/dba/a00773.php">mcd::Animal</a><ul>
+<li><a class="el" href="d2/d02/a00777.php">mcd::Ant</a></li>
 </ul>
 </li>
-<li><a class="el" href="de/d9c/a01092.php">mcd::Vegetal</a><ul>
-<li><a class="el" href="d0/d43/a01020.php">mcd::Plant</a></li>
-<li><a class="el" href="db/d20/a00980.php">mcd::Mushroom</a></li>
+<li><a class="el" href="de/d1c/a01093.php">mcd::Vegetal</a><ul>
+<li><a class="el" href="d5/dfb/a01021.php">mcd::Plant</a></li>
+<li><a class="el" href="dd/d24/a00981.php">mcd::Mushroom</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a class="el" href="d4/dc5/a01024.php">mcd::Player</a> </li>
+<li><a class="el" href="db/d23/a01025.php">mcd::Player</a> </li>
 </ul>
 <h2><a class="anchor" id="imp_sec_var_subsec"></a>
 Variables</h2>
@@ -213,7 +213,7 @@ Functions</h2>
  mcd::print_all(Something data, bool change)<br />
  <a class="el" href="dc/d28/a00223.php#a5046a9dfac4629babcb20cf7b914415e" title="Print the size of obj type. ">printSize&lt;Type&gt;()</a><br />
  <a class="el" href="dc/d28/a00223.php#a2bb83762638ce787815f3699d67faa92" title="Print the type of obj. ">mcd::printType(const C&amp; obj)</a><br />
- <a class="el" href="d5/ddf/a00224.php#a2bef56760d8ffae969e8a1347194b42c" title="A function that say if a type has an ostream operator(&lt;&lt;) ">mcd::Check::printable(const T&amp;)</a><br />
+ <a class="el" href="dc/d98/a00225.php#a2bef56760d8ffae969e8a1347194b42c" title="A function that say if a type has an ostream operator(&lt;&lt;) ">mcd::Check::printable(const T&amp;)</a><br />
  mcd::removeAccents(std::string str)<br />
  <a class="el" href="dc/d28/a00223.php#a1ddd069f38e7407563a5d8e763d7dc90" title="Create a random string. ">mcd::randStr(size_t nb, unsigned short flags)</a></p>
 <h1><a class="anchor" id="upd_sec"></a>

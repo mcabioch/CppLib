@@ -2,7 +2,7 @@
 *
 *	\file		Threadable.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	September, 26 2019
+*	\modified	October, 03 2019
 *
 */
 #ifndef HEADER_CPP_THREADABLE
@@ -40,7 +40,7 @@ namespace mcd {
 			_mutex.unlock();\
 		}
 
-#define THREADABLE_LOCK std::lock_guard<std::mutex> guard(_mutex);
+#define THREADABLE_LOCK std::lock_guard<mcd::mutex> guard(_mutex);
 
 	/*!
 	* \brief	A class to let another one to be threadable with update() member in a thread
@@ -122,7 +122,7 @@ namespace mcd {
 				virtual void update() = 0;
 
 				void launch(C* obj){
-					m_loopThread.reset(new std::thread(&C::updater, obj));
+					m_loopThread.reset(new thread(&C::updater, obj));
 				}
 			#endif //DOXYGEN_SHOULD_SKIP_THIS
 
@@ -178,13 +178,13 @@ namespace mcd {
 
 		protected:
 			#ifndef DOXYGEN_SHOULD_SKIP_THIS
-				std::shared_ptr<std::thread> m_loopThread;
+				std::shared_ptr<thread> m_loopThread;
 				bool m_threadStopper;
 				bool used;
 			#endif //DOXYGEN_SHOULD_SKIP_THIS
 
 			/*! \brief	The mutex variable to use in the threadable class */
-			mutable std::mutex _mutex;
+			mutable mutex _mutex;
 
 			/*! \brief	The time that the threadable class has to sleep after each update */
 			long int sleeper;

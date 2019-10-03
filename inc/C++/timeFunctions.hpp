@@ -2,7 +2,7 @@
 *
 *	\file		time.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		August, 14 2018
+*	\date		October, 03 2019
 *
 */
 #ifndef HEADER_CPP_TIME_FUNC

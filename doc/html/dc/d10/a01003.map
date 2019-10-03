@@ -1,3 +1,7 @@
 <map id="mcd::Pathfinding" name="mcd::Pathfinding">
-<area shape="rect" id="node2" href="$dd/dac/a01008.php" title="An implementation of the Dijkstra algorithm. " alt="" coords="5,80,171,107"/>
+<area shape="rect" id="node2" href="$df/d59/a01001.php" title="A class to manage a path computed by the map. " alt="" coords="727,5,809,32"/>
+<area shape="rect" id="node3" href="$d0/d28/a00997.php" title="A node for the path. " alt="" coords="149,64,300,91"/>
+<area shape="rect" id="node4" href="$d3/ded/a01017.php" title="A class to group every pathfinding problems in one way to use it. " alt="" coords="833,167,1001,193"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="163,220,286,247"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="167,144,283,171"/>
 </map>
