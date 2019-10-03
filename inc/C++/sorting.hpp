@@ -18,7 +18,7 @@ namespace mcd {
 	*		\return			Return a sorted vector
 	*/
 	template<typename Key, typename Value>
-	auto sortAsc(std::map<Key, Value> map){
+	auto sortAsc(const std::map<Key, Value>& map){
 		std::vector<std::pair<Key, Value>> out;
 
 		typedef std::function<bool(std::pair<Key, Value>, std::pair<Key, Value>)> Comparator;
@@ -45,7 +45,7 @@ namespace mcd {
 	*		\return			Return a sorted vector
 	*/
 	template<class Key, class Value>
-	auto sortDesc(std::map<Key, Value> map){
+	auto sortDesc(const std::map<Key, Value>& map){
 		std::vector<std::pair<Key, Value>> out;
 
 		typedef std::function<bool(std::pair<Key, Value>, std::pair<Key, Value>)> Comparator;

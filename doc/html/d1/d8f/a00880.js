@@ -1,7 +1,12 @@
 var a00880 =
 [
-    [ "ThreadCout", "d1/d8f/a00880.php#adacc9d5343e07aa8396f8b1edd92bb39", null ],
-    [ "~ThreadCout", "d1/d8f/a00880.php#a43b2683a0e3d46205643de53236dc4f8", null ],
-    [ "operator<<", "d1/d8f/a00880.php#a358d316052544257ab9aee6f1fe762dc", null ],
-    [ "operator<<", "d1/d8f/a00880.php#a8b27881bbb3b1a50ddf821d8ce62e4d6", null ]
+    [ "Color", "d1/d8f/a00880.php#a81a4808e8eb05c0a23cd90da4d8569ec", null ],
+    [ "~Color", "d1/d8f/a00880.php#a4db298b6e4ff50cf961dc90449468952", null ],
+    [ "Color", "d1/d8f/a00880.php#ac3843a894efef061a84ac802d316fd86", null ],
+    [ "addColors", "d1/d8f/a00880.php#af4f6325cc63bd229cdf19df24a6e4f6e", null ],
+    [ "addColors", "d1/d8f/a00880.php#ae732af32fdbea05950d39bd9532121cf", null ],
+    [ "addColors", "d1/d8f/a00880.php#a8dd730c3b59730b786d059a507d03fca", null ],
+    [ "addColors", "d1/d8f/a00880.php#ada095941e4b1c3757618959df513af9a", null ],
+    [ "Cls", "d1/d8f/a00880.php#a37c42c3a0b8af325e746f536a6a51305", null ],
+    [ "operator<<", "d1/d8f/a00880.php#a84513fec989f2f817d2b1c5e6989450e", null ]
 ];

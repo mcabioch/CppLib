@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('globals.php','');});
 : <a class="el" href="d6/d5b/a00026.php#abded7950b004fc558461964290e7573c">Big_Maths.hpp</a>
 </li>
 <li>COMMA
-: <a class="el" href="d5/df1/a00206.php#aa2f49001be13949a16a57e6c99ab00ad">UsefullDefines.hpp</a>
+: <a class="el" href="d3/de5/a00209.php#aa2f49001be13949a16a57e6c99ab00ad">UsefullDefines.hpp</a>
 </li>
 <li>debug_elog
 : <a class="el" href="da/dec/a00080.php#abfef935e08c6c7f3d9247920b01659b1">errors.hpp</a>
@@ -159,11 +159,14 @@ $(document).ready(function(){initNavTree('globals.php','');});
 <li>operator&lt;&lt;()
 : <a class="el" href="df/d6a/a00119.php#a9a3710d279e209fbff51b625690ef630">Matrix_functions.hpp</a>
 </li>
+<li>OS_UNRECOGNIZE
+: <a class="el" href="d3/de5/a00209.php#a921a8364e814a54925abcb8ba8f472bc">UsefullDefines.hpp</a>
+</li>
 <li>THREADABLE
-: <a class="el" href="da/d15/a00188.php#a09979566ade438911265d3e17ecc3abc">Threadable.hpp</a>
+: <a class="el" href="d9/dd0/a00191.php#a09979566ade438911265d3e17ecc3abc">Threadable.hpp</a>
 </li>
 <li>THREADABLE_LOCK
-: <a class="el" href="da/d15/a00188.php#a3a0fe346d6bb1356037b21f558e5c308">Threadable.hpp</a>
+: <a class="el" href="d9/dd0/a00191.php#a3a0fe346d6bb1356037b21f558e5c308">Threadable.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->

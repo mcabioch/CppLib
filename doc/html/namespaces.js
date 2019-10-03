@@ -1,4 +1,4 @@
 var namespaces =
 [
-    [ "mcd", "d5/d0b/a00220.php", "d5/d0b/a00220" ]
+    [ "mcd", "dc/d28/a00223.php", "dc/d28/a00223" ]
 ];

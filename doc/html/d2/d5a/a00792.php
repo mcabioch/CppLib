@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Check::is_array&lt; T &gt; Class Template Reference</title>
+		<title>C++: mcd::queue&lt; T, Container &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,55 +90,140 @@ $(document).ready(function(){initNavTree('d2/d5a/a00792.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../d8/d7d/a00789.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_array&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::queue&lt; T, Container &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A template class to test if T is an array, a vector or a map.  
+<p>An implementation of std::queue.  
  <a href="../../d2/d5a/a00792.php#details">More...</a></p>
 
-<p><code>#include &lt;check.hpp&gt;</code></p>
+<p><code>#include &lt;array.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::queue&lt; T, Container &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d45/a00791.png" border="0" usemap="#mcd_1_1queue_3_01T_00_01Container_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1queue_3_01T_00_01Container_01_4_inherit__map" id="mcd_1_1queue_3_01T_00_01Container_01_4_inherit__map">
+<area shape="rect" id="node3" href="../../d0/da2/a00796.php" title="An thread&#45;safe implementation of queue. " alt="" coords="5,155,203,181"/>
+<area shape="rect" id="node2" title="STL class. " alt="" coords="15,5,193,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::queue&lt; T, Container &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/daf/a00790.png" border="0" usemap="#mcd_1_1queue_3_01T_00_01Container_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1queue_3_01T_00_01Container_01_4_coll__map" id="mcd_1_1queue_3_01T_00_01Container_01_4_coll__map">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="9,95,188,121"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a0158c050746b586a1c8e800a68968879"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5a/a00792.php#a0158c050746b586a1c8e800a68968879">value</a> = false</td></tr>
-<tr class="separator:a0158c050746b586a1c8e800a68968879"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a0566f226253ef02ac813bad965f647b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5a/a00792.php#a0566f226253ef02ac813bad965f647b9">queue</a> ()</td></tr>
+<tr class="separator:a0566f226253ef02ac813bad965f647b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c9c5803f41517e0b1b8d75441cd4b09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5a/a00792.php#a9c9c5803f41517e0b1b8d75441cd4b09">pop</a> ()</td></tr>
+<tr class="memdesc:a9c9c5803f41517e0b1b8d75441cd4b09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase the first element of the queue.  <a href="#a9c9c5803f41517e0b1b8d75441cd4b09">More...</a><br /></td></tr>
+<tr class="separator:a9c9c5803f41517e0b1b8d75441cd4b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a148295001e6effa1aa1217af766e021f"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5a/a00792.php#a148295001e6effa1aa1217af766e021f">get</a> ()</td></tr>
+<tr class="memdesc:a148295001e6effa1aa1217af766e021f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the first element of the queue and erase it from the queue.  <a href="#a148295001e6effa1aa1217af766e021f">More...</a><br /></td></tr>
+<tr class="separator:a148295001e6effa1aa1217af766e021f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_array&lt; T &gt;</h3>
+<div class="textblock"><h3>template&lt;class T, class Container = std::deque&lt;T&gt;&gt;<br />
+class mcd::queue&lt; T, Container &gt;</h3>
 
-<p>A template class to test if T is an array, a vector or a map. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a0158c050746b586a1c8e800a68968879"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0158c050746b586a1c8e800a68968879">&#9670;&nbsp;</a></span>value</h2>
+<p>An implementation of std::queue. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0566f226253ef02ac813bad965f647b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0566f226253ef02ac813bad965f647b9">&#9670;&nbsp;</a></span>queue()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const bool <a class="el" href="../../d2/d5a/a00792.php">mcd::Check::is_array</a>&lt; T &gt;::value = false</td>
+          <td class="memname"><a class="el" href="../../d2/d5a/a00792.php">mcd::queue</a>&lt; T, Container &gt;::<a class="el" href="../../d2/d5a/a00792.php">queue</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a148295001e6effa1aa1217af766e021f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a148295001e6effa1aa1217af766e021f">&#9670;&nbsp;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="../../d2/d5a/a00792.php">mcd::queue</a>&lt; T, Container &gt;::get </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the first element of the queue and erase it from the queue. </p>
+
+</div>
+</div>
+<a id="a9c9c5803f41517e0b1b8d75441cd4b09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c9c5803f41517e0b1b8d75441cd4b09">&#9670;&nbsp;</a></span>pop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d5a/a00792.php">mcd::queue</a>&lt; T, Container &gt;::pop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Erase the first element of the queue. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d8/d41/a00038.php">check.hpp</a></li>
+<li><a class="el" href="../../da/d45/a00011.php">array.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -146,7 +231,7 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dd/ded/a00211.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/dc1/a00212.php">Check</a></li><li class="navelem"><a class="el" href="../../d2/d5a/a00792.php">is_array</a></li>
+		<li class="navelem"><a class="el" href="../../dc/d28/a00223.php">mcd</a></li><li class="navelem"><a class="el" href="../../d2/d5a/a00792.php">queue</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

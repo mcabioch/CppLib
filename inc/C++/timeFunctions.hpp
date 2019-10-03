@@ -10,7 +10,7 @@
 
 #include <ctime>
 
-#include "C++/string.hpp"
+#include "C++/strptime.h"
 
 namespace mcd {
 	/*!

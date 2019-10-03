@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Point Struct Reference</title>
+		<title>C++: mcd::Time Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 14:13:35 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -91,59 +91,76 @@ $(document).ready(function(){initNavTree('d5/d16/a01060.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#friends">Friends</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="../../d2/db8/a01057.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Point Struct Reference</div>  </div>
+<div class="title">mcd::Time Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A struct to define a point in space.  
+<p>A class to play with dates.  
  <a href="../../d5/d16/a01060.php#details">More...</a></p>
 
-<p><code>#include &lt;types.hpp&gt;</code></p>
+<p><code>#include &lt;Time.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::Time:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/d90/a01059.png" border="0" usemap="#mcd_1_1Time_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1Time_inherit__map" id="mcd_1_1Time_inherit__map">
+<area shape="rect" id="node2" href="../../dc/d2b/a00936.php" title="A class to play with dates and times. " alt="" coords="5,80,117,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afd57961d22ce89d783303c0fbbdc4f83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a01060.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#afd57961d22ce89d783303c0fbbdc4f83">top</a> () const</td></tr>
-<tr class="separator:afd57961d22ce89d783303c0fbbdc4f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2beb84069e438adcccfa4b6ed9794c0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a01060.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a2beb84069e438adcccfa4b6ed9794c0c">bot</a> () const</td></tr>
-<tr class="separator:a2beb84069e438adcccfa4b6ed9794c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91941563ecc020a510832ba8869e5ded"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a01060.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a91941563ecc020a510832ba8869e5ded">left</a> () const</td></tr>
-<tr class="separator:a91941563ecc020a510832ba8869e5ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a613a9be49ee0cbe55e10e75db1d59faa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a01060.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a613a9be49ee0cbe55e10e75db1d59faa">right</a> () const</td></tr>
-<tr class="separator:a613a9be49ee0cbe55e10e75db1d59faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ebbd086a808f7fb8bd49bda00b8df12"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
-<tr class="memitem:a6ebbd086a808f7fb8bd49bda00b8df12"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value &amp;&amp;std::is_arithmetic&lt; U &gt;::value, <a class="el" href="../../d5/d16/a01060.php">Point</a> &amp; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a6ebbd086a808f7fb8bd49bda00b8df12">operator=</a> (const std::pair&lt; T, U &gt; &amp;o)</td></tr>
-<tr class="separator:a6ebbd086a808f7fb8bd49bda00b8df12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a220f83e0ebfaa9b2884530cfcac6f6df"><td class="memTemplParams" colspan="2">template&lt;class T , class U , class V &gt; </td></tr>
-<tr class="memitem:a220f83e0ebfaa9b2884530cfcac6f6df"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value &amp;&amp;std::is_arithmetic&lt; U &gt;::value &amp;&amp;std::is_arithmetic&lt; V &gt;::value, <a class="el" href="../../d5/d16/a01060.php">Point</a> &amp; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a220f83e0ebfaa9b2884530cfcac6f6df">operator=</a> (const <a class="el" href="../../dd/ded/a00211.php#d9/dce/a01052">trio</a>&lt; T, U, V &gt; &amp;o)</td></tr>
-<tr class="separator:a220f83e0ebfaa9b2884530cfcac6f6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac802213e9ca41cc731f14619534e0249"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#ac802213e9ca41cc731f14619534e0249">Time</a> ()</td></tr>
+<tr class="separator:ac802213e9ca41cc731f14619534e0249"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa17085534ed1da008f6dd39cef039f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#afa17085534ed1da008f6dd39cef039f2">Time</a> (const std::string &amp;time)</td></tr>
+<tr class="separator:afa17085534ed1da008f6dd39cef039f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef071966b669112898476801bf63bcba"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#aef071966b669112898476801bf63bcba">~Time</a> ()</td></tr>
+<tr class="separator:aef071966b669112898476801bf63bcba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc42ec7546725501d6cd8eb069e92a52"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#afc42ec7546725501d6cd8eb069e92a52">hour</a> () const</td></tr>
+<tr class="separator:afc42ec7546725501d6cd8eb069e92a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56b7fdec50bc1b7f5fb991260cb18104"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a56b7fdec50bc1b7f5fb991260cb18104">minute</a> () const</td></tr>
+<tr class="separator:a56b7fdec50bc1b7f5fb991260cb18104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a3510ec96b9698b8cf601a2a1b9d90c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a5a3510ec96b9698b8cf601a2a1b9d90c">second</a> () const</td></tr>
+<tr class="separator:a5a3510ec96b9698b8cf601a2a1b9d90c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22a7371879c50752d94338e631ab37a7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a22a7371879c50752d94338e631ab37a7">milli</a> () const</td></tr>
+<tr class="separator:a22a7371879c50752d94338e631ab37a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9360f3323012f2572ffb3f8924fca62"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#af9360f3323012f2572ffb3f8924fca62">get</a> (const std::string &amp;format=&quot;%H:%M:%S&quot;) const</td></tr>
+<tr class="separator:af9360f3323012f2572ffb3f8924fca62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa843463db53892a16778dd0d71ec2dad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#aa843463db53892a16778dd0d71ec2dad">set</a> (const std::string &amp;time)</td></tr>
+<tr class="separator:aa843463db53892a16778dd0d71ec2dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a924c77d36867a18d5a52767ff246ebfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a924c77d36867a18d5a52767ff246ebfc">x</a> = 0</td></tr>
-<tr class="separator:a924c77d36867a18d5a52767ff246ebfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab339ac0efa2259051dc1ac0637d2c9a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#ab339ac0efa2259051dc1ac0637d2c9a8">y</a> = 0</td></tr>
-<tr class="separator:ab339ac0efa2259051dc1ac0637d2c9a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a010288cb5febefa70329d35a726c7291"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a010288cb5febefa70329d35a726c7291">z</a> = 0</td></tr>
-<tr class="separator:a010288cb5febefa70329d35a726c7291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:a177528c8a1eee37fcda25a89084b8ed6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a177528c8a1eee37fcda25a89084b8ed6">operator==</a> (const <a class="el" href="../../d5/d16/a01060.php">Point</a> &amp;a, const <a class="el" href="../../d5/d16/a01060.php">Point</a> &amp;b)</td></tr>
-<tr class="separator:a177528c8a1eee37fcda25a89084b8ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bea9cfb4049115f767ed658959d6648"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a6bea9cfb4049115f767ed658959d6648">operator!=</a> (const <a class="el" href="../../d5/d16/a01060.php">Point</a> &amp;a, const <a class="el" href="../../d5/d16/a01060.php">Point</a> &amp;b)</td></tr>
-<tr class="separator:a6bea9cfb4049115f767ed658959d6648"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55681886ec7c5d7c0210fa0611bc84ea"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a55681886ec7c5d7c0210fa0611bc84ea">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../d5/d16/a01060.php">Point</a> &amp;a)</td></tr>
-<tr class="separator:a55681886ec7c5d7c0210fa0611bc84ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a3e19605ece31340f27255a79beb193d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a3e19605ece31340f27255a79beb193d4">init</a> ()</td></tr>
+<tr class="separator:a3e19605ece31340f27255a79beb193d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94d4610fef5db9db60ca31d7d64230dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a01060.php#a94d4610fef5db9db60ca31d7d64230dc">reset</a> ()</td></tr>
+<tr class="separator:a94d4610fef5db9db60ca31d7d64230dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A struct to define a point in space. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2beb84069e438adcccfa4b6ed9794c0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2beb84069e438adcccfa4b6ed9794c0c">&#9670;&nbsp;</a></span>bot()</h2>
+<div class="textblock"><p>A class to play with dates. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ac802213e9ca41cc731f14619534e0249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac802213e9ca41cc731f14619534e0249">&#9670;&nbsp;</a></span>Time() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Time::Time </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa17085534ed1da008f6dd39cef039f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa17085534ed1da008f6dd39cef039f2">&#9670;&nbsp;</a></span>Time() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -152,155 +169,174 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d16/a01060.php">Point</a> mcd::Point::bot </td>
+          <td class="memname">mcd::Time::Time </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef071966b669112898476801bf63bcba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef071966b669112898476801bf63bcba">&#9670;&nbsp;</a></span>~Time()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::Time::~Time </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d16/a01060_aef071966b669112898476801bf63bcba_cgraph.png" border="0" usemap="#d5/d16/a01060_aef071966b669112898476801bf63bcba_cgraph" alt=""/></div>
+<map name="d5/d16/a01060_aef071966b669112898476801bf63bcba_cgraph" id="d5/d16/a01060_aef071966b669112898476801bf63bcba_cgraph">
+<area shape="rect" id="node2" href="../../d5/d16/a01060.php#afc42ec7546725501d6cd8eb069e92a52" title="mcd::Time::hour" alt="" coords="191,5,309,32"/>
+<area shape="rect" id="node3" href="../../d5/d16/a01060.php#a56b7fdec50bc1b7f5fb991260cb18104" title="mcd::Time::minute" alt="" coords="185,56,315,83"/>
+<area shape="rect" id="node4" href="../../d5/d16/a01060.php#a5a3510ec96b9698b8cf601a2a1b9d90c" title="mcd::Time::second" alt="" coords="183,107,317,133"/>
+<area shape="rect" id="node5" href="../../d5/d16/a01060.php#a22a7371879c50752d94338e631ab37a7" title="mcd::Time::milli" alt="" coords="193,157,307,184"/>
+<area shape="rect" id="node6" href="../../d5/d16/a01060.php#a3e19605ece31340f27255a79beb193d4" title="mcd::Time::init" alt="" coords="195,208,305,235"/>
+<area shape="rect" id="node7" href="../../d5/d16/a01060.php#a94d4610fef5db9db60ca31d7d64230dc" title="mcd::Time::reset" alt="" coords="189,259,311,285"/>
+<area shape="rect" id="node8" href="../../dc/d28/a00223.php#a72149c6d15e16114c649ecb03aec7f81" title="Compare two Big. " alt="" coords="195,309,305,336"/>
+<area shape="rect" id="node9" href="../../dc/d28/a00223.php#a49c8e33d55da52fabdb3f09f2fd3e5b2" title="Compare two Big. " alt="" coords="191,360,309,387"/>
+<area shape="rect" id="node10" href="../../dc/d28/a00223.php#a8106aa588d48c9fbed5e30e22fd55f76" title="Compare two Big. " alt="" coords="193,411,307,437"/>
+<area shape="rect" id="node11" href="../../dc/d28/a00223.php#a4390d2726279039c439ba3b866fa2e50" title="mcd::operator\&gt;" alt="" coords="195,461,305,488"/>
+<area shape="rect" id="node12" href="../../dc/d28/a00223.php#a61257b7f63f915629b98d2b57933d65e" title="Compare two Big. " alt="" coords="191,512,309,539"/>
+<area shape="rect" id="node13" href="../../dc/d28/a00223.php#a83c8849718e8a8532282e6f1c80ceca0" title="Compare two Big. " alt="" coords="191,563,309,589"/>
+<area shape="rect" id="node14" href="../../dc/d28/a00223.php#a0e76ac5c4df82149886b58edcfc7090a" title="mcd::operator\&lt;\&lt;" alt="" coords="191,613,309,640"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="af9360f3323012f2572ffb3f8924fca62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9360f3323012f2572ffb3f8924fca62">&#9670;&nbsp;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string mcd::Time::get </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>format</em> = <code>&quot;%H:%M:%S&quot;</code></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented in <a class="el" href="../../dc/d2b/a00936.php#a7b25df777f0b2b3ac2396538eb3ca028">mcd::DateTime</a>.</p>
+
 </div>
 </div>
-<a id="a91941563ecc020a510832ba8869e5ded"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91941563ecc020a510832ba8869e5ded">&#9670;&nbsp;</a></span>left()</h2>
+<a id="afc42ec7546725501d6cd8eb069e92a52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc42ec7546725501d6cd8eb069e92a52">&#9670;&nbsp;</a></span>hour()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d16/a01060.php">Point</a> mcd::Point::left </td>
+          <td class="memname">int mcd::Time::hour </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a6ebbd086a808f7fb8bd49bda00b8df12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ebbd086a808f7fb8bd49bda00b8df12">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+<a id="a3e19605ece31340f27255a79beb193d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e19605ece31340f27255a79beb193d4">&#9670;&nbsp;</a></span>init()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class U &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::enable_if_t&lt; std::is_arithmetic&lt;T&gt;::value &amp;&amp; std::is_arithmetic&lt;U&gt;::value , <a class="el" href="../../d5/d16/a01060.php">Point</a>&amp;&gt; mcd::Point::operator= </td>
+          <td class="memname">void mcd::Time::init </td>
           <td>(</td>
-          <td class="paramtype">const std::pair&lt; T, U &gt; &amp;&#160;</td>
-          <td class="paramname"><em>o</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a220f83e0ebfaa9b2884530cfcac6f6df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a220f83e0ebfaa9b2884530cfcac6f6df">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+<a id="a22a7371879c50752d94338e631ab37a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22a7371879c50752d94338e631ab37a7">&#9670;&nbsp;</a></span>milli()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class U , class V &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::enable_if_t&lt; std::is_arithmetic&lt;T&gt;::value &amp;&amp; std::is_arithmetic&lt;U&gt;::value &amp;&amp; std::is_arithmetic&lt;V&gt;::value , <a class="el" href="../../d5/d16/a01060.php">Point</a>&amp;&gt; mcd::Point::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/ded/a00211.php#d9/dce/a01052">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
-          <td class="paramname"><em>o</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a613a9be49ee0cbe55e10e75db1d59faa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a613a9be49ee0cbe55e10e75db1d59faa">&#9670;&nbsp;</a></span>right()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d16/a01060.php">Point</a> mcd::Point::right </td>
+          <td class="memname">int mcd::Time::milli </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="afd57961d22ce89d783303c0fbbdc4f83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd57961d22ce89d783303c0fbbdc4f83">&#9670;&nbsp;</a></span>top()</h2>
+<a id="a56b7fdec50bc1b7f5fb991260cb18104"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56b7fdec50bc1b7f5fb991260cb18104">&#9670;&nbsp;</a></span>minute()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d16/a01060.php">Point</a> mcd::Point::top </td>
+          <td class="memname">int mcd::Time::minute </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a6bea9cfb4049115f767ed658959d6648"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bea9cfb4049115f767ed658959d6648">&#9670;&nbsp;</a></span>operator!=</h2>
+<a id="a94d4610fef5db9db60ca31d7d64230dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94d4610fef5db9db60ca31d7d64230dc">&#9670;&nbsp;</a></span>reset()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -309,152 +345,58 @@ template&lt;class T , class U , class V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool operator!= </td>
+          <td class="memname">void mcd::Time::reset </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d5/d16/a01060.php">Point</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d5/d16/a01060.php">Point</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a55681886ec7c5d7c0210fa0611bc84ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55681886ec7c5d7c0210fa0611bc84ea">&#9670;&nbsp;</a></span>operator<<</h2>
+<a id="a5a3510ec96b9698b8cf601a2a1b9d90c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a3510ec96b9698b8cf601a2a1b9d90c">&#9670;&nbsp;</a></span>second()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td class="memname">int mcd::Time::second </td>
           <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d5/d16/a01060.php">Point</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a177528c8a1eee37fcda25a89084b8ed6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a177528c8a1eee37fcda25a89084b8ed6">&#9670;&nbsp;</a></span>operator==</h2>
+<a id="aa843463db53892a16778dd0d71ec2dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa843463db53892a16778dd0d71ec2dad">&#9670;&nbsp;</a></span>set()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool operator== </td>
+          <td class="memname">void mcd::Time::set </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d5/d16/a01060.php">Point</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d5/d16/a01060.php">Point</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a924c77d36867a18d5a52767ff246ebfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a924c77d36867a18d5a52767ff246ebfc">&#9670;&nbsp;</a></span>x</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Point::x = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>X position </p>
 
 </div>
 </div>
-<a id="ab339ac0efa2259051dc1ac0637d2c9a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab339ac0efa2259051dc1ac0637d2c9a8">&#9670;&nbsp;</a></span>y</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Point::y = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Y position </p>
-
-</div>
-</div>
-<a id="a010288cb5febefa70329d35a726c7291"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a010288cb5febefa70329d35a726c7291">&#9670;&nbsp;</a></span>z</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/ded/a00211.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Point::z = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Z position </p>
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../de/db1/a00197.php">types.hpp</a></li>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../dc/d57/a00194.php">Time.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -462,7 +404,7 @@ template&lt;class T , class U , class V &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dd/ded/a00211.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/d16/a01060.php">Point</a></li>
+		<li class="navelem"><a class="el" href="../../dc/d28/a00223.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/d16/a01060.php">Time</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -32,16 +32,6 @@ namespace mcd {
 				virtual ~PathfindingException() throw();
 
 				PathfindingException(const PathfindingException& other) throw();
-			/* Getters of PathfindingException */
-			
-			/* Setters of PathfindingException */
-			
-			/* Statics of PathfindingException */
-			
-			/* Operators of PathfindingException */
-			
-			/* Friends of PathfindingException */
-			
 			/* Others members of PathfindingException */
 				/*! \brief	Return the explaination of the exception */
 				virtual const char* what() const throw(){
@@ -56,37 +46,8 @@ namespace mcd {
 				static void Arrived();
 				static void Lost();
 
-		protected:
-			/* Getters of PathfindingException */
-			
-			/* Setters of PathfindingException */
-			
-			/* Statics of PathfindingException */
-			
-			/* Friends of PathfindingException */
-			
-			/* Others members of PathfindingException */
-			
-
-		private:
-		
-
 		/* Atttributes of PathfindingException */
-		public:
-			/* Global */
-			
-			/* Local */
-			
-
-		protected:
-			/* Global */
-			
-			/* Local */
-			
-
 		private:
-			/* Global */
-			
 			/* Local */
 				PathfindingErrorCode _error;
 				std::string _explaination;

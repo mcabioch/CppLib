@@ -25,38 +25,9 @@ namespace mcd {
 				PathfindingProblem(std::vector<PathfindingNode> nodes, std::map<size_t, std::map<size_t, double64_t> > distances);
 				PathfindingProblem(std::vector<PathfindingNode> nodes, std::map<size_t, std::map<size_t, double64_t> > distances, std::map<size_t, std::map<size_t, double64_t> > weights);
 				virtual ~PathfindingProblem();
-			/* Getters of PathfindingProblem */
-			
-			/* Setters of PathfindingProblem */
-			
-			/* Statics of PathfindingProblem */
-			
-			/* Operators of PathfindingProblem */
-			
-			/* Friends of PathfindingProblem */
-			
-			/* Others members of PathfindingProblem */
-			
-
-		protected:
-			/* Getters of PathfindingProblem */
-			
-			/* Setters of PathfindingProblem */
-			
-			/* Statics of PathfindingProblem */
-			
-			/* Friends of PathfindingProblem */
-			
-			/* Others members of PathfindingProblem */
-			
-
-		private:
-		
 
 		/* Atttributes of PathfindingProblem */
 		public:
-			/* Global */
-			
 			/* Local */
 				std::vector<PathfindingNode> nodes;
 				size_t nbNodes;
@@ -64,18 +35,6 @@ namespace mcd {
 				std::map<size_t, std::map<size_t, double64_t> > distances;
 				std::map<size_t, std::map<size_t, double64_t> > weights;
 				std::map<size_t, std::map<size_t, bool> > computed;
-
-		protected:
-			/* Global */
-			
-			/* Local */
-			
-
-		private:
-			/* Global */
-			
-			/* Local */
-			
 	};
 }
 

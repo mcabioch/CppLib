@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,183 +93,183 @@ $(document).ready(function(){initNavTree('functions_s.php','');});
 
 <h3><a id="index_s"></a>- s -</h3><ul>
 <li>s_print()
-: <a class="el" href="d7/dff/a00805.php#a51139eafa7f6dacbd7958fa9e8ce664b">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d7/dc8/a00808.php#a51139eafa7f6dacbd7958fa9e8ce664b">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>save()
-: <a class="el" href="de/dc8/a00889.php#ab58627fbfed0b6cabd5030943113e5e5">mcd::ConsoleCursor</a>
-, <a class="el" href="d7/dfd/a00969.php#a4b402d37424b8fc5a5036ecc78781d6a">mcd::Map</a>
+: <a class="el" href="d0/de2/a00892.php#ab58627fbfed0b6cabd5030943113e5e5">mcd::ConsoleCursor</a>
+, <a class="el" href="de/d4e/a00972.php#a4b402d37424b8fc5a5036ecc78781d6a">mcd::Map</a>
 </li>
 <li>second
-: <a class="el" href="d5/d0b/a00220.php#a04fed1e7cdd9a52f5a8d3f49a4a2c741">mcd::quatuor&lt; T, U, V, W &gt;</a>
-, <a class="el" href="d2/db8/a01057.php#a5a3510ec96b9698b8cf601a2a1b9d90c">mcd::Time</a>
-, <a class="el" href="d5/d0b/a00220.php#add070f6dc7f62980568fb3e4e65a8059">mcd::trio&lt; T, U, V &gt;</a>
+: <a class="el" href="dc/d28/a00223.php#a04fed1e7cdd9a52f5a8d3f49a4a2c741">mcd::quatuor&lt; T, U, V, W &gt;</a>
+, <a class="el" href="d5/d16/a01060.php#a5a3510ec96b9698b8cf601a2a1b9d90c">mcd::Time</a>
+, <a class="el" href="dc/d28/a00223.php#add070f6dc7f62980568fb3e4e65a8059">mcd::trio&lt; T, U, V &gt;</a>
 </li>
 <li>sender()
-: <a class="el" href="da/d5b/a00905.php#a6ee6d1b64b6b88068a2165a1824a5af2">mcd::Contraption</a>
+: <a class="el" href="d0/d85/a00908.php#a6ee6d1b64b6b88068a2165a1824a5af2">mcd::Contraption</a>
 </li>
 <li>set()
-: <a class="el" href="d7/dff/a00805.php#a4cd5ecef05c71e597e58411bf6cc6455">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
-, <a class="el" href="dc/d92/a00929.php#a63132b3cb9cc7cf1640fa1165a14d9a8">mcd::Date</a>
-, <a class="el" href="d2/db8/a01057.php#aa843463db53892a16778dd0d71ec2dad">mcd::Time</a>
+: <a class="el" href="d7/dc8/a00808.php#a4cd5ecef05c71e597e58411bf6cc6455">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+, <a class="el" href="d8/dbb/a00932.php#a63132b3cb9cc7cf1640fa1165a14d9a8">mcd::Date</a>
+, <a class="el" href="d5/d16/a01060.php#aa843463db53892a16778dd0d71ec2dad">mcd::Time</a>
 </li>
 <li>setA()
-: <a class="el" href="da/d5b/a00905.php#a73a47e55e554e7c7f357a74276368186">mcd::Contraption</a>
+: <a class="el" href="d0/d85/a00908.php#a73a47e55e554e7c7f357a74276368186">mcd::Contraption</a>
 </li>
 <li>setAge()
-: <a class="el" href="d6/dad/a00941.php#ac84c283da82f389088715485d2fc57d1">mcd::Entity</a>
+: <a class="el" href="d9/dce/a00944.php#ac84c283da82f389088715485d2fc57d1">mcd::Entity</a>
 </li>
 <li>setAttributes()
-: <a class="el" href="da/d5b/a00905.php#a9c5a7acde997e12d99e717f182c5ced7">mcd::Contraption</a>
+: <a class="el" href="d0/d85/a00908.php#a9c5a7acde997e12d99e717f182c5ced7">mcd::Contraption</a>
 </li>
 <li>setCaste()
-: <a class="el" href="d8/dba/a00773.php#a63fc83db2b90de339f8fea94358d6b09">mcd::Ant</a>
+: <a class="el" href="d9/dd4/a00776.php#a63fc83db2b90de339f8fea94358d6b09">mcd::Ant</a>
 </li>
 <li>setDamages()
-: <a class="el" href="d6/dad/a00941.php#a4eac4847127344d9d2feb09176e2950c">mcd::Entity</a>
+: <a class="el" href="d9/dce/a00944.php#a4eac4847127344d9d2feb09176e2950c">mcd::Entity</a>
 </li>
 <li>setEntity()
-: <a class="el" href="d7/dfd/a00969.php#a0d89a93779f04f96e43a883c6e021d04">mcd::Map</a>
+: <a class="el" href="de/d4e/a00972.php#a0d89a93779f04f96e43a883c6e021d04">mcd::Map</a>
 </li>
 <li>setExperience()
-: <a class="el" href="db/d23/a01025.php#a368cb45cbd8f4bcd470628f4d0783b07">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="db/d08/a01028.php#a368cb45cbd8f4bcd470628f4d0783b07">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>setExperienceMax()
-: <a class="el" href="db/d23/a01025.php#a7e2dc719465b4100436d08def34378f4">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="db/d08/a01028.php#a7e2dc719465b4100436d08def34378f4">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>setFood()
-: <a class="el" href="dd/d51/a00769.php#afab240f045e3b150a3c1b7ba7b8cad72">mcd::Animal</a>
+: <a class="el" href="d9/d9c/a00772.php#afab240f045e3b150a3c1b7ba7b8cad72">mcd::Animal</a>
 </li>
 <li>setFoodMax()
-: <a class="el" href="dd/d51/a00769.php#a48f42d55cc53501c0e05b5c8a79888a2">mcd::Animal</a>
+: <a class="el" href="d9/d9c/a00772.php#a48f42d55cc53501c0e05b5c8a79888a2">mcd::Animal</a>
 </li>
 <li>setH()
-: <a class="el" href="da/d5b/a00905.php#a060b6ee9401bd8c9a03c5cecdbfa1942">mcd::Contraption</a>
-, <a class="el" href="d7/dfd/a00969.php#af75d4f3db3cf7cbba6ae20628ecc2e04">mcd::Map</a>
+: <a class="el" href="d0/d85/a00908.php#a060b6ee9401bd8c9a03c5cecdbfa1942">mcd::Contraption</a>
+, <a class="el" href="de/d4e/a00972.php#af75d4f3db3cf7cbba6ae20628ecc2e04">mcd::Map</a>
 </li>
 <li>setId()
-: <a class="el" href="d5/da3/a00953.php#a593e0be0e4c8e17b22507e7f7d933ded">mcd::Identifier</a>
+: <a class="el" href="d3/de5/a00956.php#a593e0be0e4c8e17b22507e7f7d933ded">mcd::Identifier</a>
 </li>
 <li>setLevel()
-: <a class="el" href="da/d5b/a00905.php#a332ecd56522af01cf41b9c4a69449bd0">mcd::Contraption</a>
+: <a class="el" href="d0/d85/a00908.php#a332ecd56522af01cf41b9c4a69449bd0">mcd::Contraption</a>
 </li>
 <li>setLife()
-: <a class="el" href="d6/dad/a00941.php#afbdb1bf0f0dfd91f0217c88b08d94535">mcd::Entity</a>
+: <a class="el" href="d9/dce/a00944.php#afbdb1bf0f0dfd91f0217c88b08d94535">mcd::Entity</a>
 </li>
 <li>setMail()
-: <a class="el" href="db/d23/a01025.php#ac6441d9b85821e4e20639fe5082795a5">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="db/d08/a01028.php#ac6441d9b85821e4e20639fe5082795a5">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>setMap()
-: <a class="el" href="da/d5b/a00905.php#a8a6c84d9d5f814fe553b731d841a5266">mcd::Contraption</a>
+: <a class="el" href="d0/d85/a00908.php#a8a6c84d9d5f814fe553b731d841a5266">mcd::Contraption</a>
 </li>
 <li>setPassword()
-: <a class="el" href="d5/da3/a00953.php#a5b0a0e637d443935ae770bf90b652dea">mcd::Identifier</a>
+: <a class="el" href="d3/de5/a00956.php#a5b0a0e637d443935ae770bf90b652dea">mcd::Identifier</a>
 </li>
 <li>setPosition()
-: <a class="el" href="da/d5b/a00905.php#a2974b562f55f65a1b992ff849eea43cf">mcd::Contraption</a>
+: <a class="el" href="d0/d85/a00908.php#a2974b562f55f65a1b992ff849eea43cf">mcd::Contraption</a>
 </li>
 <li>setPrivate()
-: <a class="el" href="dc/d36/a00925.php#aa9cb76b3198a8127bc0c771e3eb70b2d">mcd::RSA</a>
+: <a class="el" href="dd/d38/a00928.php#aa9cb76b3198a8127bc0c771e3eb70b2d">mcd::RSA</a>
 </li>
 <li>setPublic()
-: <a class="el" href="dc/d36/a00925.php#a4fcb230195d7b3fb73b8f62488dcc2e5">mcd::RSA</a>
+: <a class="el" href="dd/d38/a00928.php#a4fcb230195d7b3fb73b8f62488dcc2e5">mcd::RSA</a>
 </li>
 <li>setReborn()
-: <a class="el" href="d6/dad/a00941.php#abbd3e759ad9df66ce4f004a32066a941">mcd::Entity</a>
+: <a class="el" href="d9/dce/a00944.php#abbd3e759ad9df66ce4f004a32066a941">mcd::Entity</a>
 </li>
 <li>setRegen()
-: <a class="el" href="d6/dad/a00941.php#a45870e9b434c8b35a8181675cde66055">mcd::Entity</a>
+: <a class="el" href="d9/dce/a00944.php#a45870e9b434c8b35a8181675cde66055">mcd::Entity</a>
 </li>
 <li>setResistance()
-: <a class="el" href="d6/dad/a00941.php#a34dec699e223f0bb8b8e3dc044828bec">mcd::Entity</a>
+: <a class="el" href="d9/dce/a00944.php#a34dec699e223f0bb8b8e3dc044828bec">mcd::Entity</a>
 </li>
 <li>setSize()
-: <a class="el" href="d7/dfd/a00969.php#adab97ef85198947deb95164f9d240e30">mcd::Map</a>
+: <a class="el" href="de/d4e/a00972.php#adab97ef85198947deb95164f9d240e30">mcd::Map</a>
 </li>
 <li>setSpecialAttack()
-: <a class="el" href="dd/d51/a00769.php#a929d7b3bf6637bd3e45c24ed050a2c55">mcd::Animal</a>
+: <a class="el" href="d9/d9c/a00772.php#a929d7b3bf6637bd3e45c24ed050a2c55">mcd::Animal</a>
 </li>
 <li>setSpecies()
-: <a class="el" href="dd/d51/a00769.php#a2c0928be79e1be03389e1e74746bee6b">mcd::Animal</a>
+: <a class="el" href="d9/d9c/a00772.php#a2c0928be79e1be03389e1e74746bee6b">mcd::Animal</a>
 </li>
 <li>setSpeed()
-: <a class="el" href="dd/d51/a00769.php#a4ff6872a3b990ab0ca9309f84076ec0a">mcd::Animal</a>
+: <a class="el" href="d9/d9c/a00772.php#a4ff6872a3b990ab0ca9309f84076ec0a">mcd::Animal</a>
 </li>
 <li>setStone()
-: <a class="el" href="d8/dba/a00773.php#a03f3b31e549e9c7a7bf0dac610acf998">mcd::Ant</a>
+: <a class="el" href="d9/dd4/a00776.php#a03f3b31e549e9c7a7bf0dac610acf998">mcd::Ant</a>
 </li>
 <li>setStoneMax()
-: <a class="el" href="d8/dba/a00773.php#a3397f0142a9bc430d1026b253c8f3a30">mcd::Ant</a>
+: <a class="el" href="d9/dd4/a00776.php#a3397f0142a9bc430d1026b253c8f3a30">mcd::Ant</a>
 </li>
 <li>setStrength()
-: <a class="el" href="df/dc6/a00949.php#a8de9dffab818f0e4f742bb9709ee86c7">mcd::Hostile</a>
+: <a class="el" href="de/d49/a00952.php#a8de9dffab818f0e4f742bb9709ee86c7">mcd::Hostile</a>
 </li>
 <li>setTarget()
-: <a class="el" href="df/dc6/a00949.php#ab809b87f0624b1ca1a6178a74ae32684">mcd::Hostile</a>
+: <a class="el" href="de/d49/a00952.php#ab809b87f0624b1ca1a6178a74ae32684">mcd::Hostile</a>
 </li>
 <li>setTimeActReborn()
-: <a class="el" href="d6/dad/a00941.php#a71ddff3d4384ed0528fad59c64c007e7">mcd::Entity</a>
+: <a class="el" href="d9/dce/a00944.php#a71ddff3d4384ed0528fad59c64c007e7">mcd::Entity</a>
 </li>
 <li>setTimeActRegen()
-: <a class="el" href="d6/dad/a00941.php#ac79b1837862d7a98130ce020023445fa">mcd::Entity</a>
+: <a class="el" href="d9/dce/a00944.php#ac79b1837862d7a98130ce020023445fa">mcd::Entity</a>
 </li>
 <li>setTimePrecReborn()
-: <a class="el" href="d6/dad/a00941.php#a85f16baaef599076976b034d31ac7fec">mcd::Entity</a>
+: <a class="el" href="d9/dce/a00944.php#a85f16baaef599076976b034d31ac7fec">mcd::Entity</a>
 </li>
 <li>setTimePrecRegen()
-: <a class="el" href="d6/dad/a00941.php#a5d8126cf2cf5f72e8a58f1e97071806f">mcd::Entity</a>
+: <a class="el" href="d9/dce/a00944.php#a5d8126cf2cf5f72e8a58f1e97071806f">mcd::Entity</a>
 </li>
 <li>setUsername()
-: <a class="el" href="d5/da3/a00953.php#a7487ac9cac4531aad529994927c0e69f">mcd::Identifier</a>
+: <a class="el" href="d3/de5/a00956.php#a7487ac9cac4531aad529994927c0e69f">mcd::Identifier</a>
 </li>
 <li>setW()
-: <a class="el" href="da/d5b/a00905.php#a2a00e0217550c3b79434659e04d40aef">mcd::Contraption</a>
-, <a class="el" href="d7/dfd/a00969.php#a46876aaf4ac9bdfe36d24a2e121d4e34">mcd::Map</a>
+: <a class="el" href="d0/d85/a00908.php#a2a00e0217550c3b79434659e04d40aef">mcd::Contraption</a>
+, <a class="el" href="de/d4e/a00972.php#a46876aaf4ac9bdfe36d24a2e121d4e34">mcd::Map</a>
 </li>
 <li>setX()
-: <a class="el" href="da/d5b/a00905.php#abbaabb4c71f560de8c85a859c11dd57a">mcd::Contraption</a>
+: <a class="el" href="d0/d85/a00908.php#abbaabb4c71f560de8c85a859c11dd57a">mcd::Contraption</a>
 </li>
 <li>setY()
-: <a class="el" href="da/d5b/a00905.php#a3e1fc3a4ee923891fa0c523f129c45af">mcd::Contraption</a>
+: <a class="el" href="d0/d85/a00908.php#a3e1fc3a4ee923891fa0c523f129c45af">mcd::Contraption</a>
 </li>
 <li>setZ()
-: <a class="el" href="da/d5b/a00905.php#a08c1de8034f9e3985a24dd78d37a3d44">mcd::Contraption</a>
+: <a class="el" href="d0/d85/a00908.php#a08c1de8034f9e3985a24dd78d37a3d44">mcd::Contraption</a>
 </li>
 <li>SHA2()
-: <a class="el" href="d4/ddc/a00917.php#ac0448ebc3e08f664e880fff43cb0f5f1">mcd::SHA2</a>
+: <a class="el" href="d6/d82/a00920.php#ac0448ebc3e08f664e880fff43cb0f5f1">mcd::SHA2</a>
 </li>
 <li>sha2_keys
-: <a class="el" href="d4/ddc/a00917.php#ae118c7ed9d79b55029696e4e4aff27d6">mcd::SHA2</a>
+: <a class="el" href="d6/d82/a00920.php#ae118c7ed9d79b55029696e4e4aff27d6">mcd::SHA2</a>
 </li>
 <li>size()
-: <a class="el" href="da/db8/a00797.php#a2ba3bebe48bb259b18c9b67d57231dfa">mcd::Big</a>
-, <a class="el" href="d0/d28/a00997.php#a85140de1f8970b128a2501316a71e332">mcd::Path</a>
+: <a class="el" href="df/d0e/a00800.php#a2ba3bebe48bb259b18c9b67d57231dfa">mcd::Big</a>
+, <a class="el" href="d7/df2/a01000.php#a85140de1f8970b128a2501316a71e332">mcd::Path</a>
 </li>
 <li>sleeper
-: <a class="el" href="dc/d99/a01053.php#a0351657024f3b0d37b54c08a09a156fa">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="dc/d19/a01056.php#a0351657024f3b0d37b54c08a09a156fa">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>stack()
-: <a class="el" href="d6/d86/a00781.php#aa9d55e0af1d4e27cc1abba7a2d399afc">mcd::stack&lt; T, Container &gt;</a>
+: <a class="el" href="d9/d00/a00784.php#aa9d55e0af1d4e27cc1abba7a2d399afc">mcd::stack&lt; T, Container &gt;</a>
 </li>
 <li>start()
-: <a class="el" href="d9/d22/a00873.php#a25b787edba50392a8f18995a6ae6dc9e">mcd::Clock</a>
-, <a class="el" href="d0/d28/a00997.php#aeeee0a0ede330174785a5c7fe77d1681">mcd::Path</a>
-, <a class="el" href="de/d9e/a01061.php#afe0b2617d4a9beb52d2118d532d0db03">mcd::Timer</a>
+: <a class="el" href="d2/dac/a00876.php#a25b787edba50392a8f18995a6ae6dc9e">mcd::Clock</a>
+, <a class="el" href="d7/df2/a01000.php#aeeee0a0ede330174785a5c7fe77d1681">mcd::Path</a>
+, <a class="el" href="d9/db3/a01064.php#afe0b2617d4a9beb52d2118d532d0db03">mcd::Timer</a>
 </li>
 <li>started
-: <a class="el" href="d9/d22/a00873.php#a20216632ae0d7b1504060826edfdd062">mcd::Clock</a>
-, <a class="el" href="de/d9e/a01061.php#a489644a70b400f78d63ad3449ffae846">mcd::Timer</a>
+: <a class="el" href="d2/dac/a00876.php#a20216632ae0d7b1504060826edfdd062">mcd::Clock</a>
+, <a class="el" href="d9/db3/a01064.php#a489644a70b400f78d63ad3449ffae846">mcd::Timer</a>
 </li>
 <li>Stone()
-: <a class="el" href="d0/d22/a01049.php#a0b078b3e2aea50454478300140675661">mcd::Stone</a>
+: <a class="el" href="d9/dce/a01052.php#a0b078b3e2aea50454478300140675661">mcd::Stone</a>
 </li>
 <li>stop()
-: <a class="el" href="dc/d99/a01053.php#a4dd37d54456e167f8b42d30be7076939">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="dc/d19/a01056.php#a4dd37d54456e167f8b42d30be7076939">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>strDay()
-: <a class="el" href="dc/d92/a00929.php#a3682f8457850fbb2899afc7967dc9bc9">mcd::Date</a>
+: <a class="el" href="d8/dbb/a00932.php#a3682f8457850fbb2899afc7967dc9bc9">mcd::Date</a>
 </li>
 <li>strMonth()
-: <a class="el" href="dc/d92/a00929.php#a09230be2f6ef6b2620dec0023bd1b1a0">mcd::Date</a>
+: <a class="el" href="d8/dbb/a00932.php#a09230be2f6ef6b2620dec0023bd1b1a0">mcd::Date</a>
 </li>
 </ul>
 </div><!-- contents -->

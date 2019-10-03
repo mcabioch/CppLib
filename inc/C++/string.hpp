@@ -8,7 +8,11 @@
 #ifndef HEADER_CPP_STRING
 #define HEADER_CPP_STRING
 
-#include <locale>
+#ifndef OS_WINDOWS
+	#include <locale>
+#else
+	#include "boost/locale.hpp"
+#endif
 
 #include "C++/system.hpp"
 

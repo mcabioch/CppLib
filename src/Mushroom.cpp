@@ -5,9 +5,7 @@ namespace mcd {
 		Vegetal(map, pt, attr)
 	{}
 
-	Mushroom::~Mushroom(){
-
-	}
+	Mushroom::~Mushroom(){}
 
 	void Mushroom::printInfos(std::ostream& stream)const {
 		Vegetal::printInfos(stream);

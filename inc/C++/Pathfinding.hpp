@@ -28,16 +28,6 @@ namespace mcd {
 				*/
 				Pathfinding(const PathfindingProblem& problem, const PathfindingNode& start, const PathfindingNode& end);
 				virtual ~Pathfinding();
-			/* Getters of Pathfinding */
-			
-			/* Setters of Pathfinding */
-			
-			/* Statics of Pathfinding */
-			
-			/* Operators of Pathfinding */
-			
-			/* Friends of Pathfinding */
-			
 			/* Others members of Pathfinding */
 				/*! \brief	Return the path to follow */
 				Path getPath(){
@@ -51,42 +41,13 @@ namespace mcd {
 				/*! \brief	Compute the path to follow */
 				virtual Path createPath() = 0;
 
-		protected:
-			/* Getters of Pathfinding */
-			
-			/* Setters of Pathfinding */
-			
-			/* Statics of Pathfinding */
-			
-			/* Friends of Pathfinding */
-			
-			/* Others members of Pathfinding */
-			
-
-		private:
-		
-
 		/* Atttributes of Pathfinding */
-		public:
-			/* Global */
-			
-			/* Local */
-			
-
 		protected:
-			/* Global */
-			
 			/* Local */
 				PathfindingProblem _problem;
 				PathfindingNode _start;
 				PathfindingNode _end;
 				Path _path;
-
-		private:
-			/* Global */
-			
-			/* Local */
-			
 	};
 }
 

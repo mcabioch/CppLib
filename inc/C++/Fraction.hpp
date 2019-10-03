@@ -18,12 +18,8 @@ namespace mcd {
 	* \brief	A class to manage fractions
 	*/
 	class Fraction {
-		/* Usefull or required defines */
-			
 		/* Members of Fraction */
 		public:
-			/* Internal enums of Fraction */
-				
 			/* Constructors & Destructor of Fraction */
 				/*! \brief	The constructor of the class */
 				Fraction();
@@ -33,10 +29,6 @@ namespace mcd {
 			/* Getters of Fraction */
 				long numerator()const { return _numerator; }
 				long denominator()const { return _denominator; }
-			/* Setters of Fraction */
-				
-			/* Statics of Fraction */
-				
 			/* Operators of Fraction */
 				Fraction& operator+=(const Fraction& b);
 				Fraction operator+(const Fraction& b)const;
@@ -146,18 +138,6 @@ namespace mcd {
 			/* Others members of Fraction */
 				
 
-		protected:
-			/* Getters of Fraction */
-				
-			/* Setters of Fraction */
-				
-			/* Statics of Fraction */
-				
-			/* Friends of Fraction */
-				
-			/* Others members of Fraction */
-				
-
 		private:
 			void init(double value);
 			void reduice();
@@ -168,21 +148,7 @@ namespace mcd {
 			std::string tos(double value);
 
 		/* Atttributes of Fraction */
-		public:
-			/* Global */
-				
-			/* Local */
-				
-
-		protected:
-			/* Global */
-				
-			/* Local */
-				
-
 		private:
-			/* Global */
-				
 			/* Local */
 				long _numerator;
 				long _denominator;

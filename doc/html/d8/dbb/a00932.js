@@ -1,16 +1,19 @@
 var a00932 =
 [
-    [ "Hostile", "d8/dbb/a00932.php#a08a1386aff1a9289823113ef90c14927", null ],
-    [ "~Hostile", "d8/dbb/a00932.php#a15a43b724736b8e509e9767231d3c8c6", null ],
-    [ "attack", "d8/dbb/a00932.php#a7443b49cf0f2564e4209b3ae6867b5cc", null ],
-    [ "getStrength", "d8/dbb/a00932.php#a6301018ead1f9778a74dc6d4b8e1daff", null ],
-    [ "getTarget", "d8/dbb/a00932.php#a13299f1f64259b76ddf0a43dd97a4864", null ],
-    [ "hurt", "d8/dbb/a00932.php#afbaa53140e5e1bf40606e4ff3d4a947d", null ],
-    [ "printInfos", "d8/dbb/a00932.php#aec10db200677dfaecd711eb03cd0baee", null ],
-    [ "setStrength", "d8/dbb/a00932.php#a8de9dffab818f0e4f742bb9709ee86c7", null ],
-    [ "setTarget", "d8/dbb/a00932.php#ab809b87f0624b1ca1a6178a74ae32684", null ],
-    [ "untarget", "d8/dbb/a00932.php#a3e31fc96bd37fc2a8811ecfe600c62a0", null ],
-    [ "_attacked", "d8/dbb/a00932.php#a56083f800ece1bfc951d64ed36c4b8c6", null ],
-    [ "_attackedSpec", "d8/dbb/a00932.php#ac1aefccd5c541096961543779115d396", null ],
-    [ "_target", "d8/dbb/a00932.php#aa074a05a487d5eb2f39895bc1fdeabe8", null ]
+    [ "Date", "d8/dbb/a00932.php#a032af1a0d48dcd6e6728b1855a75321d", null ],
+    [ "Date", "d8/dbb/a00932.php#a6f9647d3123f16fafaed55d9e75df6d7", null ],
+    [ "~Date", "d8/dbb/a00932.php#acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5", null ],
+    [ "day", "d8/dbb/a00932.php#a10a48f5b93ee6c3e7ba43c5de5fa56bd", null ],
+    [ "get", "d8/dbb/a00932.php#a8573428b5d4557473120c24e1e52d543", null ],
+    [ "init", "d8/dbb/a00932.php#a17a08ca52b3ec69d178a997c07a5ca1c", null ],
+    [ "month", "d8/dbb/a00932.php#aeaf4a92c344f8b9d8b88e22cbc710013", null ],
+    [ "monthWeek", "d8/dbb/a00932.php#aa1b8bcad43aa4fa7f5bccf350c348bbf", null ],
+    [ "reset", "d8/dbb/a00932.php#a22f293eaa9698511e9657c60ee1557f7", null ],
+    [ "set", "d8/dbb/a00932.php#a63132b3cb9cc7cf1640fa1165a14d9a8", null ],
+    [ "strDay", "d8/dbb/a00932.php#a3682f8457850fbb2899afc7967dc9bc9", null ],
+    [ "strMonth", "d8/dbb/a00932.php#a09230be2f6ef6b2620dec0023bd1b1a0", null ],
+    [ "weekDay", "d8/dbb/a00932.php#a9a96b0ddfd20e6cc5da855b70be4c1f1", null ],
+    [ "year", "d8/dbb/a00932.php#a30f0e5cc134d8da80f4b68aad4f92674", null ],
+    [ "yearDay", "d8/dbb/a00932.php#a9af5d47e5785c0c16217e5b4914bc9a0", null ],
+    [ "yearWeek", "d8/dbb/a00932.php#a211971964081aac6bf13b0c670307b54", null ]
 ];

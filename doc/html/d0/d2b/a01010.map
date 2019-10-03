@@ -1,4 +1,3 @@
-<map id="mcd::Player&lt; PlayerParent &gt;" name="mcd::Player&lt; PlayerParent &gt;">
-<area shape="rect" id="node2" href="$d1/dac/a01015.php" title="A player that can be a child from any class. " alt="" coords="5,80,164,121"/>
-<area shape="rect" id="node4" href="$d3/d29/a00947.php" title="A class to store some identify datas. " alt="" coords="188,87,293,114"/>
+<map id="mcd::PathfindingException" name="mcd::PathfindingException">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="43,5,147,32"/>
 </map>

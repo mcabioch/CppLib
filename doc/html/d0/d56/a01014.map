@@ -1,3 +1,5 @@
-<map id="mcd::PlayerAbstraction&lt; PlayerParent &gt;" name="mcd::PlayerAbstraction&lt; PlayerParent &gt;">
-<area shape="rect" id="node3" href="$d6/d36/a01011.php" title="A player that can be a child from any class. " alt="" coords="5,169,196,196"/>
+<map id="mcd::PathfindingProblem" name="mcd::PathfindingProblem">
+<area shape="rect" id="node3" title="STL class. " alt="" coords="163,58,286,85"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="167,130,283,157"/>
+<area shape="rect" id="node8" href="$d3/daa/a00996.php" title="A node for the path. " alt="" coords="149,181,300,207"/>
 </map>

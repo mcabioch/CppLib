@@ -1,3 +1,4 @@
-<map id="mcd::Identifier" name="mcd::Identifier">
-<area shape="rect" id="node2" href="$d7/df2/a01000.php" title="A player that can be a child from any class. " alt="" coords="5,80,196,107"/>
+<map id="mcd::DateTime" name="mcd::DateTime">
+<area shape="rect" id="node2" href="$d8/dbb/a00932.php" title="A class to play with dates. " alt="" coords="5,5,88,32"/>
+<area shape="rect" id="node3" href="$d5/d16/a01060.php" title="A class to play with dates. " alt="" coords="113,5,197,32"/>
 </map>

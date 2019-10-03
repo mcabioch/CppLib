@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -108,7 +108,9 @@ $(document).ready(function(){initNavTree('index.php','');});
 <li class="level2"><a href="#imp_sec_fun_subsec">Functions</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#upd_sec">Updates</a><ul><li class="level2"><a href="#upd_sec_20190906_subsec">September, 17 2019</a></li>
+<li class="level1"><a href="#upd_sec">Updates</a><ul><li class="level2"><a href="#upd_sec_20190929_subsec">September, 29 2019</a></li>
+<li class="level2"><a href="#upd_sec_20190917_subsec">September, 17 2019</a></li>
+<li class="level2"><a href="#upd_sec_20190906_subsec">September, 06 2019</a></li>
 <li class="level2"><a href="#upd_sec_20190416_subsec">April, 16 2019</a></li>
 </ul>
 </li>
@@ -152,81 +154,84 @@ Tips and Advice</h2>
 </p>
 <h2><a class="anchor" id="imp_sec_obj_subsec"></a>
 Objects</h2>
-<p><a class="el" href="da/db8/a00797.php">mcd::Big</a><br />
- <a class="el" href="dd/dee/a01081.php">mcd::Point</a><br />
+<p><a class="el" href="df/d0e/a00800.php">mcd::Big</a><br />
+ <a class="el" href="da/d93/a01084.php">mcd::Point</a><br />
  PathfindingDijkstra<br />
  Threadable<br />
- <a class="el" href="d5/d0b/a00220.php#d9/d7c/a01073">mcd::trio</a><br />
- <a class="el" href="d5/d0b/a00220.php#d0/dd3/a01077">mcd::quatuor</a><br />
- <a class="el" href="d6/d86/a00781.php">mcd::stack</a><br />
- <a class="el" href="d8/d7d/a00789.php">mcd::queue</a><br />
+ <a class="el" href="dc/d28/a00223.php#d6/d80/a01076">mcd::trio</a><br />
+ <a class="el" href="dc/d28/a00223.php#d9/d67/a01080">mcd::quatuor</a><br />
+ <a class="el" href="d9/d00/a00784.php">mcd::stack</a><br />
+ <a class="el" href="d2/d5a/a00792.php">mcd::queue</a><br />
 </p><ul>
-<li><a class="el" href="da/d5b/a00905.php">mcd::Contraption</a><ul>
-<li><a class="el" href="d4/d95/a00989.php">mcd::Object</a><ul>
-<li><a class="el" href="d0/d22/a01049.php">mcd::Stone</a></li>
+<li><a class="el" href="d0/d85/a00908.php">mcd::Contraption</a><ul>
+<li><a class="el" href="d7/d76/a00992.php">mcd::Object</a><ul>
+<li><a class="el" href="d9/dce/a01052.php">mcd::Stone</a></li>
 </ul>
 </li>
-<li><a class="el" href="d6/dad/a00941.php">mcd::Entity</a><ul>
-<li><a class="el" href="dd/d51/a00769.php">mcd::Animal</a><ul>
-<li><a class="el" href="d8/dba/a00773.php">mcd::Ant</a></li>
+<li><a class="el" href="d9/dce/a00944.php">mcd::Entity</a><ul>
+<li><a class="el" href="d9/d9c/a00772.php">mcd::Animal</a><ul>
+<li><a class="el" href="d9/dd4/a00776.php">mcd::Ant</a></li>
 </ul>
 </li>
-<li><a class="el" href="d3/dc4/a01089.php">mcd::Vegetal</a><ul>
-<li><a class="el" href="d3/ded/a01017.php">mcd::Plant</a></li>
-<li><a class="el" href="d5/d6c/a00977.php">mcd::Mushroom</a></li>
+<li><a class="el" href="de/d9c/a01092.php">mcd::Vegetal</a><ul>
+<li><a class="el" href="d0/d43/a01020.php">mcd::Plant</a></li>
+<li><a class="el" href="db/d20/a00980.php">mcd::Mushroom</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a class="el" href="d5/dfb/a01021.php">mcd::Player</a> </li>
+<li><a class="el" href="d4/dc5/a01024.php">mcd::Player</a> </li>
 </ul>
 <h2><a class="anchor" id="imp_sec_var_subsec"></a>
 Variables</h2>
 <p>mcd::bdd<br />
- <a class="el" href="d5/d0b/a00220.php#a08ac826a0e7f64dc1b04036ecec50ed1">mcd::rng</a><br />
- <a class="el" href="d5/d0b/a00220.php#aa0ce198f34851e093bbc38dfd975e339">mcd::sha2</a> </p>
+ <a class="el" href="dc/d28/a00223.php#a08ac826a0e7f64dc1b04036ecec50ed1">mcd::rng</a><br />
+ <a class="el" href="dc/d28/a00223.php#aa0ce198f34851e093bbc38dfd975e339">mcd::sha2</a> </p>
 <h2><a class="anchor" id="imp_sec_def_subsec"></a>
 Structures &amp; Defines</h2>
-<p><a class="el" href="d5/d0b/a00220.php#ae124ce77f8e386663ac11e2e35e6070a">mcd::Colors</a><br />
- <a class="el" href="d5/d0b/a00220.php#a55fd359a467c1bfe9d2f72c227bb1706">mcd::Direction</a><br />
- <a class="el" href="d5/d0b/a00220.php#a372ef82d72716aed789680d0a84c06d3">mcd::CaractSet</a><br />
- <a class="el" href="d5/d0b/a00220.php#adda27badcbfcfc854854c6ab094cf34e">mcd::double64_t</a><br />
- <a class="el" href="d5/d0b/a00220.php#a20cc1353da1673066a19b886e7e5c61e">mcd::vector_str</a><br />
- <a class="el" href="d5/d0b/a00220.php#a38f7073118052c23b1e5051bbafacac3">mcd::map_str</a><br />
- <a class="el" href="d5/d0b/a00220.php#aba609827ae566c40802bf828ab5a5a3c">mcd::pair_str</a><br />
- <a class="el" href="d5/d0b/a00220.php#adc4a4720990996356b2c954e9d611e9b">mcd::trio_str</a><br />
- <a class="el" href="d5/d0b/a00220.php#aaa50b5dcb5cb495757e7084494fd482d">mcd::quatuor_str</a><br />
+<p><a class="el" href="dc/d28/a00223.php#ae124ce77f8e386663ac11e2e35e6070a">mcd::Colors</a><br />
+ <a class="el" href="dc/d28/a00223.php#a55fd359a467c1bfe9d2f72c227bb1706">mcd::Direction</a><br />
+ <a class="el" href="dc/d28/a00223.php#a372ef82d72716aed789680d0a84c06d3">mcd::CaractSet</a><br />
+ <a class="el" href="dc/d28/a00223.php#adda27badcbfcfc854854c6ab094cf34e">mcd::double64_t</a><br />
+ <a class="el" href="dc/d28/a00223.php#a20cc1353da1673066a19b886e7e5c61e">mcd::vector_str</a><br />
+ <a class="el" href="dc/d28/a00223.php#a38f7073118052c23b1e5051bbafacac3">mcd::map_str</a><br />
+ <a class="el" href="dc/d28/a00223.php#aba609827ae566c40802bf828ab5a5a3c">mcd::pair_str</a><br />
+ <a class="el" href="dc/d28/a00223.php#adc4a4720990996356b2c954e9d611e9b">mcd::trio_str</a><br />
+ <a class="el" href="dc/d28/a00223.php#aaa50b5dcb5cb495757e7084494fd482d">mcd::quatuor_str</a><br />
  <a class="el" href="d6/d5b/a00026.php#aa7b6d263fd9b5d3381ca7e6af68a1ac9">BIG_E</a><br />
  <a class="el" href="d6/d5b/a00026.php#abded7950b004fc558461964290e7573c">BIG_PI</a><br />
  <a class="el" href="da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">line_number</a><br />
- <a class="el" href="da/d15/a00188.php#a09979566ade438911265d3e17ecc3abc">THREADABLE</a><br />
- <a class="el" href="da/d15/a00188.php#a3a0fe346d6bb1356037b21f558e5c308">THREADABLE_LOCK</a> </p>
+ <a class="el" href="d9/dd0/a00191.php#a09979566ade438911265d3e17ecc3abc">THREADABLE</a><br />
+ <a class="el" href="d9/dd0/a00191.php#a3a0fe346d6bb1356037b21f558e5c308">THREADABLE_LOCK</a> </p>
 <h2><a class="anchor" id="imp_sec_fun_subsec"></a>
 Functions</h2>
-<p><a class="el" href="d5/d0b/a00220.php#ae44c2e346da18a7424d97535fb654448" title="Return true if the file exists. ">mcd::fileExists(const std::string&amp; path)</a><br />
- <a class="el" href="d5/d0b/a00220.php#a176933d706495ddff7385a68319e7169" title="Compute the checksum number. ">mcd::luhn(const std::string&amp; num)</a><br />
- <a class="el" href="d5/d0b/a00220.php#a0003c12a7cc73a35e488f59ad14770bf" title="Sleep the thread during duration seconds. ">mcd::sleep(size_t duration)</a><br />
+<p><a class="el" href="dc/d28/a00223.php#ae44c2e346da18a7424d97535fb654448" title="Return true if the file exists. ">mcd::fileExists(const std::string&amp; path)</a><br />
+ <a class="el" href="dc/d28/a00223.php#a176933d706495ddff7385a68319e7169" title="Compute the checksum number. ">mcd::luhn(const std::string&amp; num)</a><br />
+ <a class="el" href="dc/d28/a00223.php#a0003c12a7cc73a35e488f59ad14770bf" title="Sleep the thread during duration seconds. ">mcd::sleep(size_t duration)</a><br />
  mcd::print_all(Something data, bool change)<br />
- <a class="el" href="d5/d0b/a00220.php#a5046a9dfac4629babcb20cf7b914415e" title="Print the size of obj type. ">printSize&lt;Type&gt;()</a><br />
- <a class="el" href="d5/d0b/a00220.php#a2bb83762638ce787815f3699d67faa92" title="Print the type of obj. ">mcd::printType(const C&amp; obj)</a><br />
- <a class="el" href="dd/d52/a00221.php#a2bef56760d8ffae969e8a1347194b42c" title="A function that say if a type has an ostream operator(&lt;&lt;) ">mcd::Check::printable(const T&amp;)</a><br />
+ <a class="el" href="dc/d28/a00223.php#a5046a9dfac4629babcb20cf7b914415e" title="Print the size of obj type. ">printSize&lt;Type&gt;()</a><br />
+ <a class="el" href="dc/d28/a00223.php#a2bb83762638ce787815f3699d67faa92" title="Print the type of obj. ">mcd::printType(const C&amp; obj)</a><br />
+ <a class="el" href="d5/ddf/a00224.php#a2bef56760d8ffae969e8a1347194b42c" title="A function that say if a type has an ostream operator(&lt;&lt;) ">mcd::Check::printable(const T&amp;)</a><br />
  mcd::removeAccents(std::string str)<br />
- <a class="el" href="d5/d0b/a00220.php#a1ddd069f38e7407563a5d8e763d7dc90" title="Create a random string. ">mcd::randStr(size_t nb, unsigned short flags)</a></p>
+ <a class="el" href="dc/d28/a00223.php#a1ddd069f38e7407563a5d8e763d7dc90" title="Create a random string. ">mcd::randStr(size_t nb, unsigned short flags)</a></p>
 <h1><a class="anchor" id="upd_sec"></a>
 Updates</h1>
-<h2><a class="anchor" id="upd_sec_20190906_subsec"></a>
+<h2><a class="anchor" id="upd_sec_20190929_subsec"></a>
+September, 29 2019</h2>
+<p>Adding a class to use and see binary values (Binary). </p>
+<h2><a class="anchor" id="upd_sec_20190917_subsec"></a>
 September, 17 2019</h2>
-<p>Adding a class to use matrices.<br />
- Adding a class to use rational fractions. </p>
+<p>Adding a class to use matrices (Matrix).<br />
+ Adding a class to use rational fractions (Fraction). </p>
 <h2><a class="anchor" id="upd_sec_20190906_subsec"></a>
-September, 17 2019</h2>
+September, 06 2019</h2>
 <p>Correction of some bugs.<br />
  Added to <a href="https://github.com/mcabioch/CppLib" class="el" target="_blank">GitHub</a>. </p>
 <h2><a class="anchor" id="upd_sec_20190416_subsec"></a>
 April, 16 2019</h2>
-<p>Creation of the <a class="el" href="d5/d0b/a00220.php">mcd</a> namespace.</p>
+<p>Creation of the <a class="el" href="dc/d28/a00223.php">mcd</a> namespace.</p>
 <h1><a class="anchor" id="dow_sec"></a>
 Downloads</h1>
 <p>The <a href="https://github.com/mcabioch/CppLib" class="el" target="_blank">GitHub</a> link. </p>

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['threadable',['THREADABLE',['../da/d15/a00188.php#a09979566ade438911265d3e17ecc3abc',1,'Threadable.hpp']]],
-  ['threadable_5flock',['THREADABLE_LOCK',['../da/d15/a00188.php#a3a0fe346d6bb1356037b21f558e5c308',1,'Threadable.hpp']]]
+  ['os_5funrecognize',['OS_UNRECOGNIZE',['../d3/de5/a00209.php#a921a8364e814a54925abcb8ba8f472bc',1,'UsefullDefines.hpp']]]
 ];

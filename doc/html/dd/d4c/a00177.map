@@ -1,13 +1,13 @@
 <map id="sorting.hpp" name="sorting.hpp">
-<area shape="rect" id="node2" href="$d3/de5/a00209.php" title="C++/vector.hpp" alt="" coords="239,80,353,107"/>
-<area shape="rect" id="node3" href="$d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="215,155,377,181"/>
-<area shape="rect" id="node10" href="$db/ddf/a00164.php" title="C++/pointers.hpp" alt="" coords="568,229,691,256"/>
-<area shape="rect" id="node13" href="$de/d79/a00203.php" title="C++/types.hpp" alt="" coords="683,304,792,331"/>
-<area shape="rect" id="node15" href="$d4/d51/a00017.php" title="Big.hpp" alt="" coords="648,379,715,405"/>
-<area shape="rect" id="node30" href="$dc/de6/a00167.php" title="PureVirtual.hpp" alt="" coords="739,379,850,405"/>
-<area shape="rect" id="node31" href="$d5/df1/a00206.php" title="UsefullDefines.hpp" alt="" coords="875,379,1008,405"/>
-<area shape="rect" id="node26" href="$d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="975,453,1145,480"/>
-<area shape="rect" id="node27" href="$d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1170,453,1323,480"/>
-<area shape="rect" id="node28" href="$db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1348,453,1521,480"/>
-<area shape="rect" id="node29" href="$d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1545,453,1684,480"/>
+<area shape="rect" id="node2" href="$dd/dc1/a00212.php" title="C++/vector.hpp" alt="" coords="367,80,481,107"/>
+<area shape="rect" id="node3" href="$d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="343,155,505,181"/>
+<area shape="rect" id="node10" href="$db/ddf/a00164.php" title="C++/pointers.hpp" alt="" coords="696,229,819,256"/>
+<area shape="rect" id="node11" href="$d5/df1/a00206.php" title="C++/types.hpp" alt="" coords="595,304,704,331"/>
+<area shape="rect" id="node13" href="$d4/d51/a00017.php" title="Big.hpp" alt="" coords="560,379,627,405"/>
+<area shape="rect" id="node28" href="$dc/de6/a00167.php" title="PureVirtual.hpp" alt="" coords="651,379,762,405"/>
+<area shape="rect" id="node29" href="$d3/de5/a00209.php" title="UsefullDefines.hpp" alt="" coords="787,379,920,405"/>
+<area shape="rect" id="node24" href="$d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="887,453,1057,480"/>
+<area shape="rect" id="node25" href="$d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1082,453,1235,480"/>
+<area shape="rect" id="node26" href="$db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1260,453,1433,480"/>
+<area shape="rect" id="node27" href="$d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1457,453,1596,480"/>
 </map>

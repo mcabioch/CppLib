@@ -1,15 +1,14 @@
 var a01060 =
 [
-    [ "bot", "d5/d16/a01060.php#a2beb84069e438adcccfa4b6ed9794c0c", null ],
-    [ "left", "d5/d16/a01060.php#a91941563ecc020a510832ba8869e5ded", null ],
-    [ "operator=", "d5/d16/a01060.php#a6ebbd086a808f7fb8bd49bda00b8df12", null ],
-    [ "operator=", "d5/d16/a01060.php#a220f83e0ebfaa9b2884530cfcac6f6df", null ],
-    [ "right", "d5/d16/a01060.php#a613a9be49ee0cbe55e10e75db1d59faa", null ],
-    [ "top", "d5/d16/a01060.php#afd57961d22ce89d783303c0fbbdc4f83", null ],
-    [ "operator!=", "d5/d16/a01060.php#a6bea9cfb4049115f767ed658959d6648", null ],
-    [ "operator<<", "d5/d16/a01060.php#a55681886ec7c5d7c0210fa0611bc84ea", null ],
-    [ "operator==", "d5/d16/a01060.php#a177528c8a1eee37fcda25a89084b8ed6", null ],
-    [ "x", "d5/d16/a01060.php#a924c77d36867a18d5a52767ff246ebfc", null ],
-    [ "y", "d5/d16/a01060.php#ab339ac0efa2259051dc1ac0637d2c9a8", null ],
-    [ "z", "d5/d16/a01060.php#a010288cb5febefa70329d35a726c7291", null ]
+    [ "Time", "d5/d16/a01060.php#ac802213e9ca41cc731f14619534e0249", null ],
+    [ "Time", "d5/d16/a01060.php#afa17085534ed1da008f6dd39cef039f2", null ],
+    [ "~Time", "d5/d16/a01060.php#aef071966b669112898476801bf63bcba", null ],
+    [ "get", "d5/d16/a01060.php#af9360f3323012f2572ffb3f8924fca62", null ],
+    [ "hour", "d5/d16/a01060.php#afc42ec7546725501d6cd8eb069e92a52", null ],
+    [ "init", "d5/d16/a01060.php#a3e19605ece31340f27255a79beb193d4", null ],
+    [ "milli", "d5/d16/a01060.php#a22a7371879c50752d94338e631ab37a7", null ],
+    [ "minute", "d5/d16/a01060.php#a56b7fdec50bc1b7f5fb991260cb18104", null ],
+    [ "reset", "d5/d16/a01060.php#a94d4610fef5db9db60ca31d7d64230dc", null ],
+    [ "second", "d5/d16/a01060.php#a5a3510ec96b9698b8cf601a2a1b9d90c", null ],
+    [ "set", "d5/d16/a01060.php#aa843463db53892a16778dd0d71ec2dad", null ]
 ];

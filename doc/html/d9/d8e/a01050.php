@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 17:46:11 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('dc/d99/a01053.php','../../');});
 
 <p>This is the complete list of members for <a class="el" href="../../dc/d99/a01053.php">mcd::Threadable&lt; C &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d99/a01053.php#a0d2496ea879c9a8933fe714ffce9639a">_mutex</a></td><td class="entry"><a class="el" href="../../dc/d99/a01053.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d99/a01053.php#a0d2496ea879c9a8933fe714ffce9639a">_mutex</a></td><td class="entry"><a class="el" href="../../dc/d99/a01053.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">mutable</span><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../dc/d99/a01053.php#a804393d97a319c38afa593072bd0ead9">hasToStop</a>() const</td><td class="entry"><a class="el" href="../../dc/d99/a01053.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../dc/d99/a01053.php#af6a411164d64b1b04b731f29d54e016a">inUse</a>()</td><td class="entry"><a class="el" href="../../dc/d99/a01053.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../dc/d99/a01053.php#a1eb0985252b04c90761f92432ef4216d">launch</a>()=0</td><td class="entry"><a class="el" href="../../dc/d99/a01053.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>

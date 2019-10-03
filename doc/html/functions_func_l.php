@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,31 +93,31 @@ $(document).ready(function(){initNavTree('functions_func_l.php','');});
 
 <h3><a id="index_l"></a>- l -</h3><ul>
 <li>launch()
-: <a class="el" href="dc/d99/a01053.php#a1eb0985252b04c90761f92432ef4216d">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="dc/d19/a01056.php#a1eb0985252b04c90761f92432ef4216d">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>launched()
-: <a class="el" href="dc/d99/a01053.php#a156911948e5f5d2d5eeb0922ee3bd86d">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="dc/d19/a01056.php#a156911948e5f5d2d5eeb0922ee3bd86d">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>left()
-: <a class="el" href="dd/dee/a01081.php#a91941563ecc020a510832ba8869e5ded">mcd::Point</a>
+: <a class="el" href="da/d93/a01084.php#a91941563ecc020a510832ba8869e5ded">mcd::Point</a>
 </li>
 <li>length()
-: <a class="el" href="d0/d28/a00997.php#a2ae56317713ca93848b0c47bc401cbf4">mcd::Path</a>
+: <a class="el" href="d7/df2/a01000.php#a2ae56317713ca93848b0c47bc401cbf4">mcd::Path</a>
 </li>
 <li>line()
-: <a class="el" href="d0/dac/a00901.php#a3669c41beda1b667738b6e7c42663b29">mcd::ConsoleTable</a>
+: <a class="el" href="d8/d0a/a00904.php#a3669c41beda1b667738b6e7c42663b29">mcd::ConsoleTable</a>
 </li>
 <li>lines()
-: <a class="el" href="d0/dac/a00901.php#aefb00d9e2e5755c7e2fd60cba225f504">mcd::ConsoleTable</a>
+: <a class="el" href="d8/d0a/a00904.php#aefb00d9e2e5755c7e2fd60cba225f504">mcd::ConsoleTable</a>
 </li>
 <li>load()
-: <a class="el" href="d7/dfd/a00969.php#aaaa0863e1b2dfa4b35f6b5582d26798c">mcd::Map</a>
+: <a class="el" href="de/d4e/a00972.php#aaaa0863e1b2dfa4b35f6b5582d26798c">mcd::Map</a>
 </li>
 <li>Lost()
-: <a class="el" href="d7/ded/a01009.php#a933816a487769eec830729b051d0fbcd">mcd::PathfindingException</a>
+: <a class="el" href="d4/d45/a01012.php#a933816a487769eec830729b051d0fbcd">mcd::PathfindingException</a>
 </li>
 <li>lost()
-: <a class="el" href="db/d23/a01025.php#a7582710c11a7b92d9912f414a5296975">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="db/d08/a01028.php#a7582710c11a7b92d9912f414a5296975">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

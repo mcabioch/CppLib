@@ -1,4 +1,6 @@
 var a00792 =
 [
-    [ "value", "d2/d5a/a00792.php#a0158c050746b586a1c8e800a68968879", null ]
+    [ "queue", "d2/d5a/a00792.php#a0566f226253ef02ac813bad965f647b9", null ],
+    [ "get", "d2/d5a/a00792.php#a148295001e6effa1aa1217af766e021f", null ],
+    [ "pop", "d2/d5a/a00792.php#a9c9c5803f41517e0b1b8d75441cd4b09", null ]
 ];

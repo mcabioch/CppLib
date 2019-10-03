@@ -8,10 +8,19 @@
 #ifndef HEADER_CPP_POINTERS
 #define HEADER_CPP_POINTERS
 
-#include <thread>
-#include <mutex>
-
 #include "C++/types.hpp"
+
+#ifndef OS_WINDOWS
+	#include <thread>
+	#include <mutex>
+#else
+	#include "boost/thread.hpp"
+
+	namespace std {
+		using thread = boost::thread;
+		using mutex = boost::mutex;
+	}
+#endif
 
 #define MUTEX_RECREATE(parent, name, type) \
 type name(){\

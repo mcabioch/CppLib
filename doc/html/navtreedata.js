@@ -17,12 +17,14 @@ var NAVTREE =
         [ "Functions", "index.php#imp_sec_fun_subsec", null ]
       ] ],
       [ "Updates", "index.php#upd_sec", [
-        [ "September, 17 2019", "index.php#upd_sec_20190906_subsec", null ],
+        [ "September, 29 2019", "index.php#upd_sec_20190929_subsec", null ],
+        [ "September, 17 2019", "index.php#upd_sec_20190917_subsec", null ],
+        [ "September, 06 2019", "index.php#upd_sec_20190906_subsec", null ],
         [ "April, 16 2019", "index.php#upd_sec_20190416_subsec", null ]
       ] ],
       [ "Downloads", "index.php#dow_sec", null ]
     ] ],
-    [ "Todo List", "dc/d9a/a00218.php", null ],
+    [ "Todo List", "dd/d52/a00221.php", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.php", "namespaces" ],
       [ "Namespace Members", "namespacemembers.php", [
@@ -61,10 +63,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.php",
-"d3/dc4/a01089.php#a092e520f079ed706c3ac50e667653a0e",
-"d7/dce/a00143.php",
-"da/db8/a00797.php#aef65b2815526a32f3da7094648cb5ef7",
-"de/de1/a00065.php"
+"d5/ddf/a00224.php",
+"d8/d18/a00948.php#a5160d78b6f8e8269aacac56fb50346df",
+"db/d20/a00980.php#aa3f3f1ad0542e087b039ce1586c0c907",
+"df/d0e/a00800.php#a74e55e1a85a44b255d0f8e1158e02658"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

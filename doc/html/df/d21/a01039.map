@@ -1,4 +1,3 @@
-<map id="mcd::Timer" name="mcd::Timer">
-<area shape="rect" id="node2" href="$df/d89/a01032.php" title="mcd::Threadable\&lt; Timer \&gt;" alt="" coords="5,95,181,121"/>
-<area shape="rect" id="node3" href="$df/d89/a01032.php" title="A class to let another one to be threadable with update() member in a thread. " alt="" coords="17,5,170,32"/>
+<map id="mcd::PureVirtual" name="mcd::PureVirtual">
+<area shape="rect" id="node2" href="$d0/de2/a00892.php" title="A class to play with the cursor in the console. " alt="" coords="5,80,148,107"/>
 </map>

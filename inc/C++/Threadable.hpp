@@ -184,7 +184,7 @@ namespace mcd {
 			#endif //DOXYGEN_SHOULD_SKIP_THIS
 
 			/*! \brief	The mutex variable to use in the threadable class */
-			std::mutex _mutex;
+			mutable std::mutex _mutex;
 
 			/*! \brief	The time that the threadable class has to sleep after each update */
 			long int sleeper;

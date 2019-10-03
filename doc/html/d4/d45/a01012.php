@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::PathfindingException Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 23:42:10 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d1/dac/a01015.php','../../');});
+$(document).ready(function(){initNavTree('d4/d45/a01012.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,41 +89,320 @@ $(document).ready(function(){initNavTree('d1/dac/a01015.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="../../d7/ded/a01009.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::PlayerAbstraction&lt; PlayerParent &gt; Member List</div>  </div>
+<div class="title">mcd::PathfindingException Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#ae561b7817c64610317799205afa306cd">_experience</a></td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a3800d1590d75f762d41be6349556707d">_experienceMax</a></td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#abffa7d0ae3461370c932f0732367c93b">_init</a></td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#aee72e21c73d5bbf23c831514cd6cd58b">_losted</a></td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#ad9199142db686c7745b21429e7061823">_mail</a></td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a005074efa352510f2dc316404195946c">_paused</a></td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#af4b6c4845dcc12c9feed1910e7de9334">getExperience</a>() const</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a3d9f0332994725fceb7f785fd83e1802">getExperienceMax</a>() const</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#ada35a68939571761734d82bf83e6c634">getMail</a>() const</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#abdb489c22b76cb09daefb8f05b2f515c">isInit</a>() const</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#ae441783e58a888696f8dc24f4cdfcce5">isLost</a>() const</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a81a1ea7b3b306b10af787c353c92cc2e">isPaused</a>() const</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a7582710c11a7b92d9912f414a5296975">lost</a>()</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a57f10ce6fa33a36671c750dd68dc1a13">pause</a>()</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#acd7472274e5fd10845893208d604617f">PlayerAbstraction</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#ac6d60013def2f34160fda9a990cf2da5">printInfos</a>(std::ostream &amp;stream) const override</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a4670bc4130ffbdd8fd198ab020a7ffe3">resume</a>()</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#ac4a98e2f186ed9702f90362a158a9f2f">retreive</a>()</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a368cb45cbd8f4bcd470628f4d0783b07">setExperience</a>(const double64_t &amp;experience)</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#a7e2dc719465b4100436d08def34378f4">setExperienceMax</a>(const double64_t &amp;experienceMax)</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dac/a01015.php#ac6441d9b85821e4e20639fe5082795a5">setMail</a>(const std::string &amp;mail)</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dac/a01015.php#abde0c45c79e9cb030711f77d73fdc5a8">~PlayerAbstraction</a>()</td><td class="entry"><a class="el" href="../../d1/dac/a01015.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>All exceptions that could be thrown by the pathfinding algorithm.  
+ <a href="../../d4/d45/a01012.php#details">More...</a></p>
+
+<p><code>#include &lt;PathfindingException.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::PathfindingException:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/d36/a01011.png" border="0" usemap="#mcd_1_1PathfindingException_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1PathfindingException_inherit__map" id="mcd_1_1PathfindingException_inherit__map">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="43,5,147,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::PathfindingException:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/d2b/a01010.png" border="0" usemap="#mcd_1_1PathfindingException_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1PathfindingException_coll__map" id="mcd_1_1PathfindingException_coll__map">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="43,5,147,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a699cc4df8cc94d467e7372072d230b58"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a01012.php#a699cc4df8cc94d467e7372072d230b58">PathfindingErrorCode</a> { <a class="el" href="../../d4/d45/a01012.php#a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d">NONE</a>, 
+<a class="el" href="../../d4/d45/a01012.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814">ARRIVED</a>, 
+<a class="el" href="../../d4/d45/a01012.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995">LOST</a>, 
+<a class="el" href="../../d4/d45/a01012.php#a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982">OTHER</a>
+ }</td></tr>
+<tr class="separator:a699cc4df8cc94d467e7372072d230b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac73bb217b98d679eaab9fe9fe4e5c9b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a01012.php#ac73bb217b98d679eaab9fe9fe4e5c9b0">PathfindingException</a> (<a class="el" href="../../d4/d45/a01012.php#a699cc4df8cc94d467e7372072d230b58">PathfindingErrorCode</a> error=PathfindingErrorCode::NONE, const std::string &amp;explaination=&quot;&quot;)  throw ()</td></tr>
+<tr class="memdesc:ac73bb217b98d679eaab9fe9fe4e5c9b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#ac73bb217b98d679eaab9fe9fe4e5c9b0">More...</a><br /></td></tr>
+<tr class="separator:ac73bb217b98d679eaab9fe9fe4e5c9b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22d196716aa61adb8fa0e0d48320c9ab"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a01012.php#a22d196716aa61adb8fa0e0d48320c9ab">~PathfindingException</a> ()  throw ()</td></tr>
+<tr class="separator:a22d196716aa61adb8fa0e0d48320c9ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71da44443282ca94d2c9e10a9be0dafc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a01012.php#a71da44443282ca94d2c9e10a9be0dafc">PathfindingException</a> (const <a class="el" href="../../d4/d45/a01012.php">PathfindingException</a> &amp;other)  throw ()</td></tr>
+<tr class="separator:a71da44443282ca94d2c9e10a9be0dafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92a9aea3e0fc189dc0c17a78ffa68bdf"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a01012.php#a92a9aea3e0fc189dc0c17a78ffa68bdf">what</a> () const  throw ()</td></tr>
+<tr class="memdesc:a92a9aea3e0fc189dc0c17a78ffa68bdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the explaination of the exception.  <a href="#a92a9aea3e0fc189dc0c17a78ffa68bdf">More...</a><br /></td></tr>
+<tr class="separator:a92a9aea3e0fc189dc0c17a78ffa68bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a922e8cbd5025f4f17e45889055df165c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d45/a01012.php#a699cc4df8cc94d467e7372072d230b58">PathfindingErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a01012.php#a922e8cbd5025f4f17e45889055df165c">getErrorCode</a> () const  throw ()</td></tr>
+<tr class="memdesc:a922e8cbd5025f4f17e45889055df165c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the error code of the exception.  <a href="#a922e8cbd5025f4f17e45889055df165c">More...</a><br /></td></tr>
+<tr class="separator:a922e8cbd5025f4f17e45889055df165c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a9fcff7a44db764decbb680479144b97b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a01012.php#a9fcff7a44db764decbb680479144b97b">Arrived</a> ()</td></tr>
+<tr class="separator:a9fcff7a44db764decbb680479144b97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a933816a487769eec830729b051d0fbcd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a01012.php#a933816a487769eec830729b051d0fbcd">Lost</a> ()</td></tr>
+<tr class="separator:a933816a487769eec830729b051d0fbcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>All exceptions that could be thrown by the pathfinding algorithm. </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a699cc4df8cc94d467e7372072d230b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a699cc4df8cc94d467e7372072d230b58">&#9670;&nbsp;</a></span>PathfindingErrorCode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/d45/a01012.php#a699cc4df8cc94d467e7372072d230b58">mcd::PathfindingException::PathfindingErrorCode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814"></a>ARRIVED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995"></a>LOST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982"></a>OTHER&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ac73bb217b98d679eaab9fe9fe4e5c9b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac73bb217b98d679eaab9fe9fe4e5c9b0">&#9670;&nbsp;</a></span>PathfindingException() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::PathfindingException::PathfindingException </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d45/a01012.php#a699cc4df8cc94d467e7372072d230b58">PathfindingErrorCode</a>&#160;</td>
+          <td class="paramname"><em>error</em> = <code>PathfindingErrorCode::NONE</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>explaination</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+
+</div>
+</div>
+<a id="a22d196716aa61adb8fa0e0d48320c9ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22d196716aa61adb8fa0e0d48320c9ab">&#9670;&nbsp;</a></span>~PathfindingException()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::PathfindingException::~PathfindingException </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71da44443282ca94d2c9e10a9be0dafc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71da44443282ca94d2c9e10a9be0dafc">&#9670;&nbsp;</a></span>PathfindingException() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::PathfindingException::PathfindingException </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/d45/a01012.php">PathfindingException</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9fcff7a44db764decbb680479144b97b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fcff7a44db764decbb680479144b97b">&#9670;&nbsp;</a></span>Arrived()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::PathfindingException::Arrived </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a922e8cbd5025f4f17e45889055df165c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a922e8cbd5025f4f17e45889055df165c">&#9670;&nbsp;</a></span>getErrorCode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d45/a01012.php#a699cc4df8cc94d467e7372072d230b58">PathfindingErrorCode</a> mcd::PathfindingException::getErrorCode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the error code of the exception. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d45/a01012_a922e8cbd5025f4f17e45889055df165c_cgraph.png" border="0" usemap="#d4/d45/a01012_a922e8cbd5025f4f17e45889055df165c_cgraph" alt=""/></div>
+<map name="d4/d45/a01012_a922e8cbd5025f4f17e45889055df165c_cgraph" id="d4/d45/a01012_a922e8cbd5025f4f17e45889055df165c_cgraph">
+<area shape="rect" id="node2" href="../../d4/d45/a01012.php#a9fcff7a44db764decbb680479144b97b" title="mcd::PathfindingException\l::Arrived" alt="" coords="232,5,411,47"/>
+<area shape="rect" id="node3" href="../../d4/d45/a01012.php#a933816a487769eec830729b051d0fbcd" title="mcd::PathfindingException\l::Lost" alt="" coords="232,71,411,112"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a933816a487769eec830729b051d0fbcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a933816a487769eec830729b051d0fbcd">&#9670;&nbsp;</a></span>Lost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::PathfindingException::Lost </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92a9aea3e0fc189dc0c17a78ffa68bdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92a9aea3e0fc189dc0c17a78ffa68bdf">&#9670;&nbsp;</a></span>what()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const char* mcd::PathfindingException::what </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the explaination of the exception. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../da/d1e/a00149.php">PathfindingException.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../dc/d28/a00223.php">mcd</a></li><li class="navelem"><a class="el" href="../../d4/d45/a01012.php">PathfindingException</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

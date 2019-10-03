@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 18:49:40 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -156,16 +156,17 @@ $(document).ready(function(){initNavTree('files.php','');});
 <tr id="row_58_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d5/de9/a00176.php" target="_self">sorting.hpp</a></td><td class="desc"></td></tr>
 <tr id="row_59_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="db/dd9/a00179.php" target="_self">Stone.hpp</a></td><td class="desc"></td></tr>
 <tr id="row_60_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d7/d25/a00182.php" target="_self">string.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_61_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="de/df3/a00185.php" target="_self">system.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_62_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="da/d15/a00188.php" target="_self">Threadable.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_63_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d9/dd0/a00191.php" target="_self">Time.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_64_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dc/d57/a00194.php" target="_self">timeFunctions.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_65_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="de/db1/a00197.php" target="_self">Timer.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_66_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/db1/a00200.php" target="_self">Tree.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_67_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="de/d79/a00203.php" target="_self">types.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_68_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d5/df1/a00206.php" target="_self">UsefullDefines.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_69_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/de5/a00209.php" target="_self">vector.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_70_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dd/dc1/a00212.php" target="_self">Vegetal.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_61_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="de/df3/a00185.php" target="_self">strptime.h</a></td><td class="desc">Used to replace strptime function when compiling for Windows </td></tr>
+<tr id="row_62_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="da/d15/a00188.php" target="_self">system.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_63_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d9/dd0/a00191.php" target="_self">Threadable.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_64_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dc/d57/a00194.php" target="_self">Time.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_65_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="de/db1/a00197.php" target="_self">timeFunctions.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_66_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/db1/a00200.php" target="_self">Timer.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_67_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="de/d79/a00203.php" target="_self">Tree.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_68_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d5/df1/a00206.php" target="_self">types.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_69_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/de5/a00209.php" target="_self">UsefullDefines.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_70_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dd/dc1/a00212.php" target="_self">vector.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_71_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/dd5/a00215.php" target="_self">Vegetal.hpp</a></td><td class="desc"></td></tr>
 </table>
 </div><!-- directory -->
 </div><!-- contents -->

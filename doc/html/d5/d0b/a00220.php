@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 2 2019 11:35:18 for C++ by";
+				$text = "Generated on Wed Oct 2 2019 17:46:08 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -614,9 +614,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a1dd313ef15241c8adf795cbcc5c77048"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a1dd313ef15241c8adf795cbcc5c77048">getlines</a> (std::ifstream &amp;input)</td></tr>
 <tr class="memdesc:a1dd313ef15241c8adf795cbcc5c77048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the lines in a given file.  <a href="#a1dd313ef15241c8adf795cbcc5c77048">More...</a><br /></td></tr>
 <tr class="separator:a1dd313ef15241c8adf795cbcc5c77048"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ba7233f51d28a1a9c7f7e066007b3ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a9ba7233f51d28a1a9c7f7e066007b3ac">setlines</a> (std::ofstream &amp;output, std::vector&lt; std::string &gt; lines)</td></tr>
-<tr class="memdesc:a9ba7233f51d28a1a9c7f7e066007b3ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write all the lines in a given file.  <a href="#a9ba7233f51d28a1a9c7f7e066007b3ac">More...</a><br /></td></tr>
-<tr class="separator:a9ba7233f51d28a1a9c7f7e066007b3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08a1c8da74e7ca2634c1a2a4f4a3ac9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a08a1c8da74e7ca2634c1a2a4f4a3ac9d">setlines</a> (std::ofstream &amp;output, const std::vector&lt; std::string &gt; &amp;lines)</td></tr>
+<tr class="memdesc:a08a1c8da74e7ca2634c1a2a4f4a3ac9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write all the lines in a given file.  <a href="#a08a1c8da74e7ca2634c1a2a4f4a3ac9d">More...</a><br /></td></tr>
+<tr class="separator:a08a1c8da74e7ca2634c1a2a4f4a3ac9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab001b84d20c0fffe59c7a55ed872d300"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#ab001b84d20c0fffe59c7a55ed872d300">isLuhn</a> (const std::string &amp;num)</td></tr>
 <tr class="memdesc:ab001b84d20c0fffe59c7a55ed872d300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate a number like a card number, a SIRET number, ...  <a href="#ab001b84d20c0fffe59c7a55ed872d300">More...</a><br /></td></tr>
 <tr class="separator:ab001b84d20c0fffe59c7a55ed872d300"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -703,14 +703,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a95489209bc34099d9508c0e22a279bb0"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a95489209bc34099d9508c0e22a279bb0">rngRange</a> (T a, U b=0.1)</td></tr>
 <tr class="memdesc:a95489209bc34099d9508c0e22a279bb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a random number in a computed range.  <a href="#a95489209bc34099d9508c0e22a279bb0">More...</a><br /></td></tr>
 <tr class="separator:a95489209bc34099d9508c0e22a279bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aded48db1a26c07f913737ebb691c64bf"><td class="memTemplParams" colspan="2">template&lt;typename Key , typename Value &gt; </td></tr>
-<tr class="memitem:aded48db1a26c07f913737ebb691c64bf"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#aded48db1a26c07f913737ebb691c64bf">sortAsc</a> (std::map&lt; Key, Value &gt; map)</td></tr>
-<tr class="memdesc:aded48db1a26c07f913737ebb691c64bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort a map ascendently  <a href="#aded48db1a26c07f913737ebb691c64bf">More...</a><br /></td></tr>
-<tr class="separator:aded48db1a26c07f913737ebb691c64bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a878c72753e2d2de82e186351a5314bb6"><td class="memTemplParams" colspan="2">template&lt;class Key , class Value &gt; </td></tr>
-<tr class="memitem:a878c72753e2d2de82e186351a5314bb6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a878c72753e2d2de82e186351a5314bb6">sortDesc</a> (std::map&lt; Key, Value &gt; map)</td></tr>
-<tr class="memdesc:a878c72753e2d2de82e186351a5314bb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a map descendently.  <a href="#a878c72753e2d2de82e186351a5314bb6">More...</a><br /></td></tr>
-<tr class="separator:a878c72753e2d2de82e186351a5314bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a1aa5f89ff57aa7dc4e6d136c9c315f"><td class="memTemplParams" colspan="2">template&lt;typename Key , typename Value &gt; </td></tr>
+<tr class="memitem:a0a1aa5f89ff57aa7dc4e6d136c9c315f"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a0a1aa5f89ff57aa7dc4e6d136c9c315f">sortAsc</a> (const std::map&lt; Key, Value &gt; &amp;map)</td></tr>
+<tr class="memdesc:a0a1aa5f89ff57aa7dc4e6d136c9c315f"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort a map ascendently  <a href="#a0a1aa5f89ff57aa7dc4e6d136c9c315f">More...</a><br /></td></tr>
+<tr class="separator:a0a1aa5f89ff57aa7dc4e6d136c9c315f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45ad9c2ac4a373fdad27e51c1c741d76"><td class="memTemplParams" colspan="2">template&lt;class Key , class Value &gt; </td></tr>
+<tr class="memitem:a45ad9c2ac4a373fdad27e51c1c741d76"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a45ad9c2ac4a373fdad27e51c1c741d76">sortDesc</a> (const std::map&lt; Key, Value &gt; &amp;map)</td></tr>
+<tr class="memdesc:a45ad9c2ac4a373fdad27e51c1c741d76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a map descendently.  <a href="#a45ad9c2ac4a373fdad27e51c1c741d76">More...</a><br /></td></tr>
+<tr class="separator:a45ad9c2ac4a373fdad27e51c1c741d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f5effb1d0789a63d9c71c5549f3eacf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/a00220.php#a3f5effb1d0789a63d9c71c5549f3eacf">split</a> (const std::string &amp;in, char separator=' ')</td></tr>
 <tr class="memdesc:a3f5effb1d0789a63d9c71c5549f3eacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given caracter.  <a href="#a3f5effb1d0789a63d9c71c5549f3eacf">More...</a><br /></td></tr>
 <tr class="separator:a3f5effb1d0789a63d9c71c5549f3eacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5186,8 +5186,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a9ba7233f51d28a1a9c7f7e066007b3ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ba7233f51d28a1a9c7f7e066007b3ac">&#9670;&nbsp;</a></span>setlines()</h2>
+<a id="a08a1c8da74e7ca2634c1a2a4f4a3ac9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08a1c8da74e7ca2634c1a2a4f4a3ac9d">&#9670;&nbsp;</a></span>setlines()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5201,7 +5201,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
           <td class="paramname"><em>lines</em>&#160;</td>
         </tr>
         <tr>
@@ -5285,8 +5285,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aded48db1a26c07f913737ebb691c64bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aded48db1a26c07f913737ebb691c64bf">&#9670;&nbsp;</a></span>sortAsc()</h2>
+<a id="a0a1aa5f89ff57aa7dc4e6d136c9c315f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a1aa5f89ff57aa7dc4e6d136c9c315f">&#9670;&nbsp;</a></span>sortAsc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5296,7 +5296,7 @@ template&lt;typename Key , typename Value &gt; </div>
         <tr>
           <td class="memname">auto mcd::sortAsc </td>
           <td>(</td>
-          <td class="paramtype">std::map&lt; Key, Value &gt;&#160;</td>
+          <td class="paramtype">const std::map&lt; Key, Value &gt; &amp;&#160;</td>
           <td class="paramname"><em>map</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5314,8 +5314,8 @@ template&lt;typename Key , typename Value &gt; </div>
 
 </div>
 </div>
-<a id="a878c72753e2d2de82e186351a5314bb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a878c72753e2d2de82e186351a5314bb6">&#9670;&nbsp;</a></span>sortDesc()</h2>
+<a id="a45ad9c2ac4a373fdad27e51c1c741d76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45ad9c2ac4a373fdad27e51c1c741d76">&#9670;&nbsp;</a></span>sortDesc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5325,7 +5325,7 @@ template&lt;class Key , class Value &gt; </div>
         <tr>
           <td class="memname">auto mcd::sortDesc </td>
           <td>(</td>
-          <td class="paramtype">std::map&lt; Key, Value &gt;&#160;</td>
+          <td class="paramtype">const std::map&lt; Key, Value &gt; &amp;&#160;</td>
           <td class="paramname"><em>map</em></td><td>)</td>
           <td></td>
         </tr>

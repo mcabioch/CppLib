@@ -8,7 +8,11 @@
 #ifndef HEADER_CPP_CONVERT
 #define HEADER_CPP_CONVERT
 
-#include <type_traits>
+#ifndef OS_WINDOWS
+	#include <type_traits>
+#else
+	#include "boost/type_traits.hpp"
+#endif
 
 #include "C++/array.hpp"
 

@@ -104,43 +104,45 @@ namespace mcd {
 	using quatuor_str = quatuor<std::string>;
 
 	#ifndef DOXYGEN_SHOULD_SKIP_THIS
-		template<class C>
-		std::string getType(){
-			std::string type = __PRETTY_FUNCTION__;
+		namespace {
+			template<class C>
+			std::string getType(){
+				std::string type = __PRETTY_FUNCTION__;
 
-			auto pos = type.find(" = ");
-			if(pos != std::string::npos){
-				type.erase(0, pos+3);
-			}
-			pos = type.find(";");
-			if(pos != std::string::npos){
-				type.erase(type.begin()+pos, type.end());
-			}
-			pos = type.find("]");
-			if(pos != std::string::npos){
-				type.erase(type.begin()+pos, type.end());
-			}
-
-			std::string first = "> >";
-			std::string second = ">>";
-
-			do {
-				pos = type.find(first);
+				auto pos = type.find(" = ");
 				if(pos != std::string::npos){
-					type.replace(pos, first.size(), second);
+					type.erase(0, pos+3);
 				}
-			} while(pos != std::string::npos);
-
-			first = "std::__cxx11::basic_string<char>";
-			second = "std::string";
-			do {
-				pos = type.find(first);
+				pos = type.find(";");
 				if(pos != std::string::npos){
-					type.replace(pos, first.size(), second);
+					type.erase(type.begin()+pos, type.end());
 				}
-			} while(pos != std::string::npos);
+				pos = type.find("]");
+				if(pos != std::string::npos){
+					type.erase(type.begin()+pos, type.end());
+				}
 
-			return type;
+				std::string first = "> >";
+				std::string second = ">>";
+
+				do {
+					pos = type.find(first);
+					if(pos != std::string::npos){
+						type.replace(pos, first.size(), second);
+					}
+				} while(pos != std::string::npos);
+
+				first = "std::__cxx11::basic_string<char>";
+				second = "std::string";
+				do {
+					pos = type.find(first);
+					if(pos != std::string::npos){
+						type.replace(pos, first.size(), second);
+					}
+				} while(pos != std::string::npos);
+
+				return type;
+			}
 		}
 	#endif //DOXYGEN_SHOULD_SKIP_THIS
 

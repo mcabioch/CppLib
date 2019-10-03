@@ -28,31 +28,9 @@ namespace mcd {
 				*/
 				PathfindingDijkstra(const PathfindingProblem& problem, const PathfindingNode& start, const PathfindingNode& end);
 				virtual ~PathfindingDijkstra();
-			/* Getters of PathfindingDijkstra */
-			
-			/* Setters of PathfindingDijkstra */
-			
-			/* Statics of PathfindingDijkstra */
-			
-			/* Operators of PathfindingDijkstra */
-			
-			/* Friends of PathfindingDijkstra */
-			
 			/* Others members of PathfindingDijkstra */
 				/*! \brief	Compute the path to follow */
 				virtual Path createPath() override;
-
-		protected:
-			/* Getters of PathfindingDijkstra */
-			
-			/* Setters of PathfindingDijkstra */
-			
-			/* Statics of PathfindingDijkstra */
-			
-			/* Friends of PathfindingDijkstra */
-			
-			/* Others members of PathfindingDijkstra */
-			
 
 		private:
 			void next();
@@ -61,21 +39,7 @@ namespace mcd {
 			void constructPath(size_t node);
 
 		/* Atttributes of PathfindingDijkstra */
-		public:
-			/* Global */
-			
-			/* Local */
-			
-
-		protected:
-			/* Global */
-			
-			/* Local */
-			
-
 		private:
-			/* Global */
-			
 			/* Local */
 				std::map<size_t, bool> _visited;
 				std::map<size_t, double64_t> _weights;
