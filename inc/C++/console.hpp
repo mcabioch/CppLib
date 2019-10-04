@@ -246,7 +246,9 @@ namespace mcd {
 		public:
 			ThreadCout(){}
 			virtual ~ThreadCout(){
-				_mutex.unlock();
+				if(_mutexed){
+					_mutex.unlock();
+				}
 			}
 			template<class T>
 			friend ThreadCout& operator<<(ThreadCout& os, T obj){
