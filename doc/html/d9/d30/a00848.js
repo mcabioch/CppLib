@@ -1,6 +1,6 @@
 var a00848 =
 [
-    [ "has_ostream_operator", "d9/d30/a00848.php#a62ae1424b1e158747fdc66486da0f519", null ],
-    [ "~has_ostream_operator", "d9/d30/a00848.php#a46e086e27236a65d185a87b1d20b4139", null ],
-    [ "value", "d9/d30/a00848.php#ad1cf88abd079ce2df64d1d4f8e256a8a", null ]
+    [ "has_size_method", "d9/d30/a00848.php#a7d782a43bfd471bf7a32ac0dfafe1041", null ],
+    [ "~ has_size_method", "d9/d30/a00848.php#a7347cf32ea916931725455b99a9dd34a", null ],
+    [ "value", "d9/d30/a00848.php#a08b55ec77a90295c1e84f63021bc89a2", null ]
 ];

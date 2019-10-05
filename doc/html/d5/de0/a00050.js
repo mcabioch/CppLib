@@ -1,11 +1,11 @@
 var a00050 =
 [
-    [ "Color", "df/d41/a00881.php", "df/d41/a00881" ],
-    [ "Reinit", "db/d18/a00885.php", "db/d18/a00885" ],
-    [ "Cls", "de/dc8/a00889.php", "de/dc8/a00889" ],
-    [ "ConsoleCursor", "dc/d2c/a00893.php", "dc/d2c/a00893" ],
-    [ "ThreadEndlCout", "de/d01/a00897.php", "de/d01/a00897" ],
-    [ "ThreadCout", "d0/dac/a00901.php", "d0/dac/a00901" ],
+    [ "Color", "d7/d92/a00887.php", "d7/d92/a00887" ],
+    [ "Reinit", "de/dfc/a00891.php", "de/dfc/a00891" ],
+    [ "Cls", "d2/d21/a00895.php", "d2/d21/a00895" ],
+    [ "ConsoleCursor", "d3/d8a/a00899.php", "d3/d8a/a00899" ],
+    [ "ThreadEndlCout", "d4/d1c/a00903.php", "d4/d1c/a00903" ],
+    [ "ThreadCout", "d5/d89/a00907.php", "d5/d89/a00907" ],
     [ "Colors", "d5/de0/a00050.php#ae124ce77f8e386663ac11e2e35e6070a", [
       [ "BLACK_F", "d5/de0/a00050.php#ae124ce77f8e386663ac11e2e35e6070aa4648822616bc86180727464a1e6c6312", null ],
       [ "RED_F", "d5/de0/a00050.php#ae124ce77f8e386663ac11e2e35e6070aa6c91c7a0d965eea06426a9d94fed419f", null ],

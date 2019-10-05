@@ -1,8 +1,10 @@
 var a00883 =
 [
-    [ "goTo", "d7/d34/a00883.php#a191575f00626575e84455dfae871f502", null ],
-    [ "home", "d7/d34/a00883.php#a75615abf8f124c460b9b163868c89b7e", null ],
-    [ "put", "d7/d34/a00883.php#a2ca0b4e7146c9b27b2396c2ba114c923", null ],
-    [ "restore", "d7/d34/a00883.php#a6f731b973f917b6c2f3a04267f12c851", null ],
-    [ "save", "d7/d34/a00883.php#ab58627fbfed0b6cabd5030943113e5e5", null ]
+    [ "Clock", "d7/d34/a00883.php#ae0aa0853cddce8c1e8c4339eb7016223", null ],
+    [ "getElapsed", "d7/d34/a00883.php#a47ce94671d48c1f42862771174c86810", null ],
+    [ "getStart", "d7/d34/a00883.php#a276d9d978a8670e8354cac2b589c60ce", null ],
+    [ "restart", "d7/d34/a00883.php#a3008b7b555fb4e6c3415aec152b5de2d", null ],
+    [ "start", "d7/d34/a00883.php#a25b787edba50392a8f18995a6ae6dc9e", null ],
+    [ "m_start", "d7/d34/a00883.php#a9714489f034bfffabff995741d899513", null ],
+    [ "started", "d7/d34/a00883.php#a20216632ae0d7b1504060826edfdd062", null ]
 ];

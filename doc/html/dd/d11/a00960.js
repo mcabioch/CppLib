@@ -1,5 +1,14 @@
 var a00960 =
 [
-    [ "IOConfig", "dd/d11/a00960.php#a8638a62e7967b56a444ee42d3ea55878", null ],
-    [ "~IOConfig", "dd/d11/a00960.php#ad6a34fca3d338ef0498db6353ac5ece6", null ]
+    [ "Identifier", "dd/d11/a00960.php#a1496891d2323d1023ebfd086b84faf8d", null ],
+    [ "~Identifier", "dd/d11/a00960.php#a87dbdb0f9b391d6a78d61463e8823628", null ],
+    [ "getId", "dd/d11/a00960.php#abc0c02ec636a63cf2086e6e98f194b63", null ],
+    [ "getPassword", "dd/d11/a00960.php#a0dcb443f68200102b855f77878754af9", null ],
+    [ "getUsername", "dd/d11/a00960.php#a6108c8a63af7595ff4d9a4f2ad868b1e", null ],
+    [ "setId", "dd/d11/a00960.php#a593e0be0e4c8e17b22507e7f7d933ded", null ],
+    [ "setPassword", "dd/d11/a00960.php#a5b0a0e637d443935ae770bf90b652dea", null ],
+    [ "setUsername", "dd/d11/a00960.php#a7487ac9cac4531aad529994927c0e69f", null ],
+    [ "_id", "dd/d11/a00960.php#a6920412818f4d8a4478771fb767a2d07", null ],
+    [ "_password", "dd/d11/a00960.php#a95d479399de1b046aff00e83210b67ea", null ],
+    [ "_username", "dd/d11/a00960.php#a4a002c57b507ef0c744135eacfb82b6f", null ]
 ];

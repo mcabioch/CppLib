@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::ConsoleCursor Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 11:22:31 for C++ by";
+				$text = "Generated on Fri Oct 4 2019 16:27:33 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d5/dd3/a00902.php','../../');});
+$(document).ready(function(){initNavTree('d3/d8a/a00899.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,50 +89,284 @@ $(document).ready(function(){initNavTree('d5/dd3/a00902.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="../../da/dd6/a00896.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Contraption Member List</div>  </div>
+<div class="title">mcd::ConsoleCursor Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a7f4fa78c938b90c034ad0fe98a293a3c">addPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a807590a9e81f34ba22aca08ddd986db7">Contraption</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a580eafa58a93d9ab4264c4cbac2f4167">getA</a>() const</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#aa36a1788770d7667d8a2848ff1e3f0c6">getAttributes</a>() const</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#aec81012bc23935e626500734007d5fb5">getH</a>() const</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a2f6cf40462b5dba5f7743c83cc2389f1">getLevel</a>() const</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a393c4ec6fd375809fbcf1cfeab44ed25">getMap</a>() const</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#ac95da2f760e8ba07a54ac849c5a3307f">getPosition</a>() const</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a20dee618b85a3f841921a534bd5dfd37">getRelativeZ</a>(Contraption &amp;obj)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#ad12fd1c5a207f169edc619e09a5a969f">getW</a>() const</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a6e7d791e4289bd253a357be80f8131ee">getX</a>() const</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a153124dd434c08a943f60d7b43c2ffab">getY</a>() const</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a6ac6575807535f3d9aeb251ce3cceaed">getZ</a>() const</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a763a20bdd6cf99e565f2516d1c4bb161">operator&lt;&lt;</a>(std::ostream &amp;stream, Contraption const &amp;in)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a5cb6af540ebec175e270980217ff9de7">printInfos</a>(std::ostream &amp;stream) const</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a6ee6d1b64b6b88068a2165a1824a5af2">sender</a>(std::string, vector_str)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a73a47e55e554e7c7f357a74276368186">setA</a>(double64_t angle)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a9c5a7acde997e12d99e717f182c5ced7">setAttributes</a>(ContraptionAttr attr)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#ae44610d2144faf1550f8cc6ec860fb71">setAttributes</a>(double64_t w, double64_t h, double64_t angle=0)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a060b6ee9401bd8c9a03c5cecdbfa1942">setH</a>(double64_t h)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a332ecd56522af01cf41b9c4a69449bd0">setLevel</a>(size_t level)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a8a6c84d9d5f814fe553b731d841a5266">setMap</a>(Map *map)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a2974b562f55f65a1b992ff849eea43cf">setPosition</a>(Point pt)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#aae0d0bd5e4613514eb5cda66eaeabbcb">setPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a2a00e0217550c3b79434659e04d40aef">setW</a>(double64_t w)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#abbaabb4c71f560de8c85a859c11dd57a">setX</a>(double64_t x)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a3e1fc3a4ee923891fa0c523f129c45af">setY</a>(double64_t y)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a08c1de8034f9e3985a24dd78d37a3d44">setZ</a>(double64_t z)</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a10b4b5c4cd47da89e672c64c41b23162">turnLeft</a>()</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a4f7cef1423cf575fabafa2143a588788">turnRight</a>()</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/dd3/a00902.php#a17bb565b03902a28211f8609ac04d01b">~Contraption</a>()</td><td class="entry"><a class="el" href="../../d5/dd3/a00902.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to play with the cursor in the console.  
+ <a href="../../d3/d8a/a00899.php#details">More...</a></p>
+
+<p><code>#include &lt;console.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::ConsoleCursor:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d79/a00898.png" border="0" usemap="#mcd_1_1ConsoleCursor_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1ConsoleCursor_inherit__map" id="mcd_1_1ConsoleCursor_inherit__map">
+<area shape="rect" id="node2" href="../../db/dbb/a01047.php" title="A class to make some other to be abstract class. " alt="" coords="17,5,136,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::ConsoleCursor:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/d01/a00897.png" border="0" usemap="#mcd_1_1ConsoleCursor_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1ConsoleCursor_coll__map" id="mcd_1_1ConsoleCursor_coll__map">
+<area shape="rect" id="node2" href="../../db/dbb/a01047.php" title="A class to make some other to be abstract class. " alt="" coords="17,5,136,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a191575f00626575e84455dfae871f502"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a191575f00626575e84455dfae871f502"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d8a/a00899.php#a191575f00626575e84455dfae871f502">goTo</a> (T x, T y)</td></tr>
+<tr class="memdesc:a191575f00626575e84455dfae871f502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go to an x/y position.  <a href="#a191575f00626575e84455dfae871f502">More...</a><br /></td></tr>
+<tr class="separator:a191575f00626575e84455dfae871f502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab58627fbfed0b6cabd5030943113e5e5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8a/a00899.php#ab58627fbfed0b6cabd5030943113e5e5">save</a> ()</td></tr>
+<tr class="memdesc:ab58627fbfed0b6cabd5030943113e5e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the actual cursor position.  <a href="#ab58627fbfed0b6cabd5030943113e5e5">More...</a><br /></td></tr>
+<tr class="separator:ab58627fbfed0b6cabd5030943113e5e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f731b973f917b6c2f3a04267f12c851"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8a/a00899.php#a6f731b973f917b6c2f3a04267f12c851">restore</a> ()</td></tr>
+<tr class="memdesc:a6f731b973f917b6c2f3a04267f12c851"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore the cursor's saved position.  <a href="#a6f731b973f917b6c2f3a04267f12c851">More...</a><br /></td></tr>
+<tr class="separator:a6f731b973f917b6c2f3a04267f12c851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75615abf8f124c460b9b163868c89b7e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8a/a00899.php#a75615abf8f124c460b9b163868c89b7e">home</a> ()</td></tr>
+<tr class="memdesc:a75615abf8f124c460b9b163868c89b7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the restore member.  <a href="#a75615abf8f124c460b9b163868c89b7e">More...</a><br /></td></tr>
+<tr class="separator:a75615abf8f124c460b9b163868c89b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ca0b4e7146c9b27b2396c2ba114c923"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2ca0b4e7146c9b27b2396c2ba114c923"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d8a/a00899.php#a2ca0b4e7146c9b27b2396c2ba114c923">put</a> (const std::string &amp;str, T x, T y, const <a class="el" href="../../d7/d92/a00887.php">Color</a> &amp;color=0)</td></tr>
+<tr class="memdesc:a2ca0b4e7146c9b27b2396c2ba114c923"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write something to the given position.  <a href="#a2ca0b4e7146c9b27b2396c2ba114c923">More...</a><br /></td></tr>
+<tr class="separator:a2ca0b4e7146c9b27b2396c2ba114c923"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_methods_a01047"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a01047')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../db/dbb/a01047.php">mcd::PureVirtual</a></td></tr>
+<tr class="memitem:ab67f25d69c1686f95be6fbfcc4ac4663 inherit pub_methods_a01047"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbb/a01047.php#ab67f25d69c1686f95be6fbfcc4ac4663">PureVirtual</a> ()</td></tr>
+<tr class="memdesc:ab67f25d69c1686f95be6fbfcc4ac4663 inherit pub_methods_a01047"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../db/dbb/a01047.php#ab67f25d69c1686f95be6fbfcc4ac4663">More...</a><br /></td></tr>
+<tr class="separator:ab67f25d69c1686f95be6fbfcc4ac4663 inherit pub_methods_a01047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb8cb10e007f7c5f6ac757843a212598 inherit pub_methods_a01047"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbb/a01047.php#acb8cb10e007f7c5f6ac757843a212598">~PureVirtual</a> ()</td></tr>
+<tr class="separator:acb8cb10e007f7c5f6ac757843a212598 inherit pub_methods_a01047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1885fa694cc2d28cb55186fb3b53615d inherit pub_methods_a01047"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbb/a01047.php#a1885fa694cc2d28cb55186fb3b53615d">PureVirtualMethod</a> () final=0</td></tr>
+<tr class="separator:a1885fa694cc2d28cb55186fb3b53615d inherit pub_methods_a01047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to play with the cursor in the console. </p>
+<p>This class allow you to move, save and restore the cursor position </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a191575f00626575e84455dfae871f502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a191575f00626575e84455dfae871f502">&#9670;&nbsp;</a></span>goTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::ConsoleCursor::goTo </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Go to an x/y position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The y position</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a75615abf8f124c460b9b163868c89b7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75615abf8f124c460b9b163868c89b7e">&#9670;&nbsp;</a></span>home()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::ConsoleCursor::home </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Alias for the restore member. </p>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a2ca0b4e7146c9b27b2396c2ba114c923"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ca0b4e7146c9b27b2396c2ba114c923">&#9670;&nbsp;</a></span>put()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::ConsoleCursor::put </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d7/d92/a00887.php">Color</a> &amp;&#160;</td>
+          <td class="paramname"><em>color</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write something to the given position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The string to put in the ostream </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position of the string </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The y position of the string </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>The color of the string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/d8a/a00899_a2ca0b4e7146c9b27b2396c2ba114c923_cgraph.png" border="0" usemap="#d3/d8a/a00899_a2ca0b4e7146c9b27b2396c2ba114c923_cgraph" alt=""/></div>
+<map name="d3/d8a/a00899_a2ca0b4e7146c9b27b2396c2ba114c923_cgraph" id="d3/d8a/a00899_a2ca0b4e7146c9b27b2396c2ba114c923_cgraph">
+<area shape="rect" id="node2" href="../../d3/d8a/a00899.php#ab58627fbfed0b6cabd5030943113e5e5" title="Save the actual cursor position. " alt="" coords="221,5,364,47"/>
+<area shape="rect" id="node3" href="../../d3/d8a/a00899.php#a191575f00626575e84455dfae871f502" title="Go to an x/y position. " alt="" coords="221,71,364,112"/>
+<area shape="rect" id="node4" href="../../d3/d8a/a00899.php#a6f731b973f917b6c2f3a04267f12c851" title="Restore the cursor&#39;s saved position. " alt="" coords="221,136,364,177"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6f731b973f917b6c2f3a04267f12c851"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f731b973f917b6c2f3a04267f12c851">&#9670;&nbsp;</a></span>restore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::ConsoleCursor::restore </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Restore the cursor's saved position. </p>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="ab58627fbfed0b6cabd5030943113e5e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab58627fbfed0b6cabd5030943113e5e5">&#9670;&nbsp;</a></span>save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::ConsoleCursor::save </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save the actual cursor position. </p>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d5/de0/a00050.php">console.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../dd/d2d/a00229.php">mcd</a></li><li class="navelem"><a class="el" href="../../d3/d8a/a00899.php">ConsoleCursor</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

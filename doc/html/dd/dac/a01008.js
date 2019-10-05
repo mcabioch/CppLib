@@ -1,6 +1,11 @@
 var a01008 =
 [
-    [ "PathfindingDijkstra", "dd/dac/a01008.php#a8e8246fb84c8dd3bf9e522f3fca7b39e", null ],
-    [ "~PathfindingDijkstra", "dd/dac/a01008.php#aae9b7cf4f57d826b9f7e65d9410b572e", null ],
-    [ "createPath", "dd/dac/a01008.php#a7b2872207d45871fcbcfa01e216090dd", null ]
+    [ "Pathfinding", "dd/dac/a01008.php#aca54568ec2e832b3f08ef6f86c7184f2", null ],
+    [ "~Pathfinding", "dd/dac/a01008.php#a4cb06bc7729ad6371ad3380e0fd54f51", null ],
+    [ "createPath", "dd/dac/a01008.php#a9a82c779fba2fba8d5adbd1c22ea8c0d", null ],
+    [ "getPath", "dd/dac/a01008.php#ac59e95d415c520941c5bac355537df7f", null ],
+    [ "_end", "dd/dac/a01008.php#a6f42595f214b1d2328d40c7fcf371626", null ],
+    [ "_path", "dd/dac/a01008.php#afa7ec4aec9e8ed4aba2c3110ca86273f", null ],
+    [ "_problem", "dd/dac/a01008.php#a8432f285b7015512efbe0a9a47bc76d7", null ],
+    [ "_start", "dd/dac/a01008.php#a6fc13e2aa513059f91865021b9b13eed", null ]
 ];

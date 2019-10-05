@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Map Class Reference</title>
+		<title>C++: mcd::Fraction Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Sep 24 2019 14:43:16 for C++ by";
+				$text = "Generated on Fri Oct 4 2019 16:27:33 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -91,129 +91,149 @@ $(document).ready(function(){initNavTree('dc/db6/a00955.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="../../de/d49/a00952.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Map Class Reference</div>  </div>
+<div class="title">mcd::Fraction Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to manage a map and that implement some pathfinding algorithms.  
+<p>A class to manage fractions.  
  <a href="../../dc/db6/a00955.php#details">More...</a></p>
 
-<p><code>#include &lt;Map.hpp&gt;</code></p>
+<p><code>#include &lt;Fraction.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3512d2f37cf42ca70fbeedaf6dbd179b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a3512d2f37cf42ca70fbeedaf6dbd179b">Map</a> (<a class="el" href="../../d3/dd1/a00214.php#d3/d29/a00947">WorldDimensions</a> dimensions)</td></tr>
-<tr class="memdesc:a3512d2f37cf42ca70fbeedaf6dbd179b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the map that initialize it.  <a href="#a3512d2f37cf42ca70fbeedaf6dbd179b">More...</a><br /></td></tr>
-<tr class="separator:a3512d2f37cf42ca70fbeedaf6dbd179b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a444967efa4f320d2ddfdd59ba0761b52"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a444967efa4f320d2ddfdd59ba0761b52">~Map</a> ()</td></tr>
-<tr class="separator:a444967efa4f320d2ddfdd59ba0761b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc4f78a75dbf140919d939985c209cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#d3/d29/a00947">WorldDimensions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#adc4f78a75dbf140919d939985c209cbb">getSize</a> () const</td></tr>
-<tr class="separator:adc4f78a75dbf140919d939985c209cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4e66e9116fc7b785e4e0bbfd93dbf3d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#ad4e66e9116fc7b785e4e0bbfd93dbf3d">getW</a> () const</td></tr>
-<tr class="separator:ad4e66e9116fc7b785e4e0bbfd93dbf3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a846e20ddb36e52abe1975bfd7f47bb62"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a846e20ddb36e52abe1975bfd7f47bb62">getH</a> () const</td></tr>
-<tr class="separator:a846e20ddb36e52abe1975bfd7f47bb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab798c2d9fb3e6b25abaef7926b8a0abb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d48/a00995.php">PathfindingProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#ab798c2d9fb3e6b25abaef7926b8a0abb">getProblem</a> ()</td></tr>
-<tr class="separator:ab798c2d9fb3e6b25abaef7926b8a0abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04a6f229a4697e8945922ed23b52f7d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#a4da80d0816a366662f2bd5bd8740af79">MapArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a04a6f229a4697e8945922ed23b52f7d6">get</a> () const</td></tr>
-<tr class="separator:a04a6f229a4697e8945922ed23b52f7d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adab97ef85198947deb95164f9d240e30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#adab97ef85198947deb95164f9d240e30">setSize</a> (<a class="el" href="../../d3/dd1/a00214.php#d3/d29/a00947">WorldDimensions</a> dimensions)</td></tr>
-<tr class="memdesc:adab97ef85198947deb95164f9d240e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new dimensions for the map.  <a href="#adab97ef85198947deb95164f9d240e30">More...</a><br /></td></tr>
-<tr class="separator:adab97ef85198947deb95164f9d240e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46876aaf4ac9bdfe36d24a2e121d4e34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a46876aaf4ac9bdfe36d24a2e121d4e34">setW</a> (size_t w)</td></tr>
-<tr class="memdesc:a46876aaf4ac9bdfe36d24a2e121d4e34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new width for the map.  <a href="#a46876aaf4ac9bdfe36d24a2e121d4e34">More...</a><br /></td></tr>
-<tr class="separator:a46876aaf4ac9bdfe36d24a2e121d4e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af75d4f3db3cf7cbba6ae20628ecc2e04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#af75d4f3db3cf7cbba6ae20628ecc2e04">setH</a> (size_t h)</td></tr>
-<tr class="memdesc:af75d4f3db3cf7cbba6ae20628ecc2e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new height for the map.  <a href="#af75d4f3db3cf7cbba6ae20628ecc2e04">More...</a><br /></td></tr>
-<tr class="separator:af75d4f3db3cf7cbba6ae20628ecc2e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1809056415a86a4627e0cad3bbb0b3b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#a7350be9df9566241dfb80071a89f9ede">Tile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a1809056415a86a4627e0cad3bbb0b3b0">operator()</a> (size_t i, size_t j)</td></tr>
-<tr class="memdesc:a1809056415a86a4627e0cad3bbb0b3b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloading of the () operator.  <a href="#a1809056415a86a4627e0cad3bbb0b3b0">More...</a><br /></td></tr>
-<tr class="separator:a1809056415a86a4627e0cad3bbb0b3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a105197d7158b9387782b28583c6c07ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#a7350be9df9566241dfb80071a89f9ede">Tile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a105197d7158b9387782b28583c6c07ba">operator()</a> (size_t i, size_t j) const</td></tr>
-<tr class="memdesc:a105197d7158b9387782b28583c6c07ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloading of the () operator.  <a href="#a105197d7158b9387782b28583c6c07ba">More...</a><br /></td></tr>
-<tr class="separator:a105197d7158b9387782b28583c6c07ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8a3794bcdcff4ad8875c6799eb4ab58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#ab8a3794bcdcff4ad8875c6799eb4ab58">clear</a> ()</td></tr>
-<tr class="memdesc:ab8a3794bcdcff4ad8875c6799eb4ab58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the map array.  <a href="#ab8a3794bcdcff4ad8875c6799eb4ab58">More...</a><br /></td></tr>
-<tr class="separator:ab8a3794bcdcff4ad8875c6799eb4ab58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc568b008b11652ff93bf281f16f9f86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#afc568b008b11652ff93bf281f16f9f86">consolePrint</a> ()</td></tr>
-<tr class="memdesc:afc568b008b11652ff93bf281f16f9f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the map in the console.  <a href="#afc568b008b11652ff93bf281f16f9f86">More...</a><br /></td></tr>
-<tr class="separator:afc568b008b11652ff93bf281f16f9f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86d2ef9c24b540688cbfaa12d9225c35"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a86d2ef9c24b540688cbfaa12d9225c35">isXIn</a> (<a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> pt, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> dim)</td></tr>
-<tr class="memdesc:a86d2ef9c24b540688cbfaa12d9225c35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if the point is in map on X axis.  <a href="#a86d2ef9c24b540688cbfaa12d9225c35">More...</a><br /></td></tr>
-<tr class="separator:a86d2ef9c24b540688cbfaa12d9225c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45adc028ccfb00ef4f66225e244956fd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a45adc028ccfb00ef4f66225e244956fd">isYIn</a> (<a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> pt, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> dim)</td></tr>
-<tr class="memdesc:a45adc028ccfb00ef4f66225e244956fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if the point is in map on Y axis.  <a href="#a45adc028ccfb00ef4f66225e244956fd">More...</a><br /></td></tr>
-<tr class="separator:a45adc028ccfb00ef4f66225e244956fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e8255ee949b38d843e908e20e03aa87"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a7e8255ee949b38d843e908e20e03aa87">load</a> (std::string file)</td></tr>
-<tr class="memdesc:a7e8255ee949b38d843e908e20e03aa87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the map from a file.  <a href="#a7e8255ee949b38d843e908e20e03aa87">More...</a><br /></td></tr>
-<tr class="separator:a7e8255ee949b38d843e908e20e03aa87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5962b156a6ac1a9b3086f54ae6289121"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a5962b156a6ac1a9b3086f54ae6289121">save</a> (std::string file)</td></tr>
-<tr class="memdesc:a5962b156a6ac1a9b3086f54ae6289121"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the map in a file.  <a href="#a5962b156a6ac1a9b3086f54ae6289121">More...</a><br /></td></tr>
-<tr class="separator:a5962b156a6ac1a9b3086f54ae6289121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cea2526dc276cce694e31a6053d5522"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a8cea2526dc276cce694e31a6053d5522">putEntity</a> (size_t &amp;id, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> w, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> h)</td></tr>
-<tr class="memdesc:a8cea2526dc276cce694e31a6053d5522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put an entity on the given position.  <a href="#a8cea2526dc276cce694e31a6053d5522">More...</a><br /></td></tr>
-<tr class="separator:a8cea2526dc276cce694e31a6053d5522"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54b56015950d08fd043e0906875519e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#dc/da0/a00951">MapMove</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a54b56015950d08fd043e0906875519e3">moveEntity</a> (size_t id, <a class="el" href="../../d8/d49/a00979.php">Path</a> &amp;path, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y)</td></tr>
-<tr class="memdesc:a54b56015950d08fd043e0906875519e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move an entity from the first position to the second position.  <a href="#a54b56015950d08fd043e0906875519e3">More...</a><br /></td></tr>
-<tr class="separator:a54b56015950d08fd043e0906875519e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d89a93779f04f96e43a883c6e021d04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a0d89a93779f04f96e43a883c6e021d04">setEntity</a> (size_t id, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x, <a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y)</td></tr>
-<tr class="memdesc:a0d89a93779f04f96e43a883c6e021d04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move an entity to the given position.  <a href="#a0d89a93779f04f96e43a883c6e021d04">More...</a><br /></td></tr>
-<tr class="separator:a0d89a93779f04f96e43a883c6e021d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1784239c1be09cc3c9a7a4652292149d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a1784239c1be09cc3c9a7a4652292149d">isFree</a> (const <a class="el" href="../../de/de6/a01063.php">Point</a> &amp;pt)</td></tr>
-<tr class="memdesc:a1784239c1be09cc3c9a7a4652292149d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a position on the map is a ground tileor another one.  <a href="#a1784239c1be09cc3c9a7a4652292149d">More...</a><br /></td></tr>
-<tr class="separator:a1784239c1be09cc3c9a7a4652292149d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cef4e6d93277ff04e0a6a4b162a3a4e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a3cef4e6d93277ff04e0a6a4b162a3a4e">isOnGround</a> (size_t id)</td></tr>
-<tr class="memdesc:a3cef4e6d93277ff04e0a6a4b162a3a4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if an entity is on the ground or not.  <a href="#a3cef4e6d93277ff04e0a6a4b162a3a4e">More...</a><br /></td></tr>
-<tr class="separator:a3cef4e6d93277ff04e0a6a4b162a3a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5e6be35eea3af084431715595c1138b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#ac5e6be35eea3af084431715595c1138b">isOnGround</a> (const <a class="el" href="../../de/de6/a01063.php">Point</a> &amp;pt)</td></tr>
-<tr class="memdesc:ac5e6be35eea3af084431715595c1138b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a point is on the ground or not.  <a href="#ac5e6be35eea3af084431715595c1138b">More...</a><br /></td></tr>
-<tr class="separator:ac5e6be35eea3af084431715595c1138b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d96c02df00df52c98d68ea541e944e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d49/a00979.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a1d96c02df00df52c98d68ea541e944e8">dijkstra</a> (size_t id, <a class="el" href="../../de/de6/a01063.php">Point</a> dest)</td></tr>
-<tr class="memdesc:a1d96c02df00df52c98d68ea541e944e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a path from the entity position to the point.  <a href="#a1d96c02df00df52c98d68ea541e944e8">More...</a><br /></td></tr>
-<tr class="separator:a1d96c02df00df52c98d68ea541e944e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a793304f9b5fb060a085ea0653d83e96f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d49/a00979.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a793304f9b5fb060a085ea0653d83e96f">dijkstra</a> (<a class="el" href="../../de/de6/a01063.php">Point</a> origin, <a class="el" href="../../de/de6/a01063.php">Point</a> dest)</td></tr>
-<tr class="memdesc:a793304f9b5fb060a085ea0653d83e96f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a path between two points.  <a href="#a793304f9b5fb060a085ea0653d83e96f">More...</a><br /></td></tr>
-<tr class="separator:a793304f9b5fb060a085ea0653d83e96f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad35cfe5bfd6ba316a796c7969c04d283"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd1/a00214.php#dc/da0/a00951">MapMove</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#ad35cfe5bfd6ba316a796c7969c04d283">testPath</a> (<a class="el" href="../../d8/d49/a00979.php">Path</a> &amp;path, bool show=false, <a class="el" href="../../d7/d49/a00863.php">Color</a> color=<a class="el" href="../../d3/dd1/a00214.php#ae124ce77f8e386663ac11e2e35e6070aab754547a82033c3c904e91984b530326">Colors::PURPLE_B</a>)</td></tr>
-<tr class="memdesc:ad35cfe5bfd6ba316a796c7969c04d283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test a complete path on the map in the console.  <a href="#ad35cfe5bfd6ba316a796c7969c04d283">More...</a><br /></td></tr>
-<tr class="separator:ad35cfe5bfd6ba316a796c7969c04d283"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8ecf45b42aed2736d04081639b460f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#ac8ecf45b42aed2736d04081639b460f6">resetSim</a> (<a class="el" href="../../d8/d49/a00979.php">Path</a> &amp;path)</td></tr>
-<tr class="memdesc:ac8ecf45b42aed2736d04081639b460f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the path's simulation.  <a href="#ac8ecf45b42aed2736d04081639b460f6">More...</a><br /></td></tr>
-<tr class="separator:ac8ecf45b42aed2736d04081639b460f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff15244127221e0d190260b62caef134"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134">Fraction</a> ()</td></tr>
+<tr class="memdesc:aff15244127221e0d190260b62caef134"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#aff15244127221e0d190260b62caef134">More...</a><br /></td></tr>
+<tr class="separator:aff15244127221e0d190260b62caef134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9397e2e1fbfba88c48928e5135925f8d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a9397e2e1fbfba88c48928e5135925f8d">Fraction</a> (double value)</td></tr>
+<tr class="separator:a9397e2e1fbfba88c48928e5135925f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4085029b32d447dfbe9146a3cdf1f67"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#ac4085029b32d447dfbe9146a3cdf1f67">Fraction</a> (long num, long denom)</td></tr>
+<tr class="separator:ac4085029b32d447dfbe9146a3cdf1f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf0eeef8a5b118feaad630e084c15d8e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#abf0eeef8a5b118feaad630e084c15d8e">~Fraction</a> ()</td></tr>
+<tr class="separator:abf0eeef8a5b118feaad630e084c15d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17e4466c06be8e1bff20fe204d4ff110"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a17e4466c06be8e1bff20fe204d4ff110">numerator</a> () const</td></tr>
+<tr class="separator:a17e4466c06be8e1bff20fe204d4ff110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5868b5e5c36d3277d651c3fd731ebe84"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a5868b5e5c36d3277d651c3fd731ebe84">denominator</a> () const</td></tr>
+<tr class="separator:a5868b5e5c36d3277d651c3fd731ebe84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76f6e7a0b34f33d8d53bc993b7c0ac89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a76f6e7a0b34f33d8d53bc993b7c0ac89">operator+=</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b)</td></tr>
+<tr class="separator:a76f6e7a0b34f33d8d53bc993b7c0ac89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0897ad5e88848032ff6570bd83ddbef7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a0897ad5e88848032ff6570bd83ddbef7">operator+</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a0897ad5e88848032ff6570bd83ddbef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455683f59112555055fc6c5686a9621a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a455683f59112555055fc6c5686a9621a">operator-=</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b)</td></tr>
+<tr class="separator:a455683f59112555055fc6c5686a9621a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a16f5b2182b2752cfbef72018e7636e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a7a16f5b2182b2752cfbef72018e7636e">operator-</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a7a16f5b2182b2752cfbef72018e7636e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae423fa04b3025e509901155241b5402"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#aae423fa04b3025e509901155241b5402">operator*=</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b)</td></tr>
+<tr class="separator:aae423fa04b3025e509901155241b5402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aece90dc9d246328147f02da505af1050"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#aece90dc9d246328147f02da505af1050">operator*</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:aece90dc9d246328147f02da505af1050"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3379901d123c7d545bd8a4f9ebe48b8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a3379901d123c7d545bd8a4f9ebe48b8e">operator/=</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b)</td></tr>
+<tr class="separator:a3379901d123c7d545bd8a4f9ebe48b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ffeec4d80502f0173a03d7b3aa361db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a0ffeec4d80502f0173a03d7b3aa361db">operator/</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a0ffeec4d80502f0173a03d7b3aa361db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b6753a02a790ffbb75c36920237167c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a7b6753a02a790ffbb75c36920237167c">operator%=</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b)</td></tr>
+<tr class="separator:a7b6753a02a790ffbb75c36920237167c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619d937a957bc1f2516066ebb3501951"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a619d937a957bc1f2516066ebb3501951">operator%</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a619d937a957bc1f2516066ebb3501951"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a300ed85793b7aece141599c82524f8d9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a300ed85793b7aece141599c82524f8d9">operator==</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a300ed85793b7aece141599c82524f8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a379d98c2c6ae1962fc2089b599fc48df"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a379d98c2c6ae1962fc2089b599fc48df">operator&gt;</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a379d98c2c6ae1962fc2089b599fc48df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c0588f44c0f24a7cb2fe0d1a4c05ad5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a4c0588f44c0f24a7cb2fe0d1a4c05ad5">operator&lt;</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a4c0588f44c0f24a7cb2fe0d1a4c05ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728b8777d909549030d50032783761dc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a728b8777d909549030d50032783761dc">operator!=</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:a728b8777d909549030d50032783761dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf88d0c6bfb21b64dcec572fd4691cd7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#aaf88d0c6bfb21b64dcec572fd4691cd7">operator&gt;=</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:aaf88d0c6bfb21b64dcec572fd4691cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e8c0cf1fdef5dd32409c5d0b660fb1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#ac1e8c0cf1fdef5dd32409c5d0b660fb1">operator&lt;=</a> (const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;b) const</td></tr>
+<tr class="separator:ac1e8c0cf1fdef5dd32409c5d0b660fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af066abb5b8fe5db0e0c4ce7d125f0c5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#af066abb5b8fe5db0e0c4ce7d125f0c5e">operator++</a> ()</td></tr>
+<tr class="separator:af066abb5b8fe5db0e0c4ce7d125f0c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e188b2c7100e21fe387855ca963f52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a34e188b2c7100e21fe387855ca963f52">operator--</a> ()</td></tr>
+<tr class="separator:a34e188b2c7100e21fe387855ca963f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a008c1ea6fdcd24bc97c027c5b91a784c"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:a008c1ea6fdcd24bc97c027c5b91a784c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a008c1ea6fdcd24bc97c027c5b91a784c">operator+=</a> (const T &amp;b)</td></tr>
+<tr class="separator:a008c1ea6fdcd24bc97c027c5b91a784c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54d794692193c950001c5c85026e6e3b"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:a54d794692193c950001c5c85026e6e3b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a54d794692193c950001c5c85026e6e3b">operator+</a> (const T &amp;b)</td></tr>
+<tr class="separator:a54d794692193c950001c5c85026e6e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53b141f48ecc61069385e16cf51524dc"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:a53b141f48ecc61069385e16cf51524dc"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a53b141f48ecc61069385e16cf51524dc">operator-=</a> (const T &amp;b)</td></tr>
+<tr class="separator:a53b141f48ecc61069385e16cf51524dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50acfed23a831256b8f7bea5e6d2b74b"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:a50acfed23a831256b8f7bea5e6d2b74b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a50acfed23a831256b8f7bea5e6d2b74b">operator-</a> (const T &amp;b)</td></tr>
+<tr class="separator:a50acfed23a831256b8f7bea5e6d2b74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa59ee30f1820c21567e2b53edb8bc1d3"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:aa59ee30f1820c21567e2b53edb8bc1d3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#aa59ee30f1820c21567e2b53edb8bc1d3">operator*=</a> (const T &amp;b)</td></tr>
+<tr class="separator:aa59ee30f1820c21567e2b53edb8bc1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37efbd11d27b9c2ba1c832d972c7968a"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:a37efbd11d27b9c2ba1c832d972c7968a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a37efbd11d27b9c2ba1c832d972c7968a">operator*</a> (const T &amp;b)</td></tr>
+<tr class="separator:a37efbd11d27b9c2ba1c832d972c7968a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4942772dfaef8d5158163f7fcca98b57"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:a4942772dfaef8d5158163f7fcca98b57"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a4942772dfaef8d5158163f7fcca98b57">operator/=</a> (const T &amp;b)</td></tr>
+<tr class="separator:a4942772dfaef8d5158163f7fcca98b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba54bcb1715fcfc8ce7d3a9576447aa2"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:aba54bcb1715fcfc8ce7d3a9576447aa2"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#aba54bcb1715fcfc8ce7d3a9576447aa2">operator/</a> (const T &amp;b)</td></tr>
+<tr class="separator:aba54bcb1715fcfc8ce7d3a9576447aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43f90dffa8573b6fbc49606f804bc941"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:a43f90dffa8573b6fbc49606f804bc941"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a43f90dffa8573b6fbc49606f804bc941">operator%=</a> (const T &amp;b)</td></tr>
+<tr class="separator:a43f90dffa8573b6fbc49606f804bc941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7373abe86093f315b90682196406a7e"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:ac7373abe86093f315b90682196406a7e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#ac7373abe86093f315b90682196406a7e">operator%</a> (const T &amp;b)</td></tr>
+<tr class="separator:ac7373abe86093f315b90682196406a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a986f1f323f69858991a54320af44b6a5"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:a986f1f323f69858991a54320af44b6a5"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a986f1f323f69858991a54320af44b6a5">operator==</a> (const T &amp;b)</td></tr>
+<tr class="separator:a986f1f323f69858991a54320af44b6a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5160d78b6f8e8269aacac56fb50346df"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:a5160d78b6f8e8269aacac56fb50346df"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a5160d78b6f8e8269aacac56fb50346df">operator&gt;</a> (const T &amp;b)</td></tr>
+<tr class="separator:a5160d78b6f8e8269aacac56fb50346df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9c375ae1a1d2a7eb9feb0eda3440343"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:aa9c375ae1a1d2a7eb9feb0eda3440343"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#aa9c375ae1a1d2a7eb9feb0eda3440343">operator&lt;</a> (const T &amp;b)</td></tr>
+<tr class="separator:aa9c375ae1a1d2a7eb9feb0eda3440343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9803ec99dc9da6df50c872a281a10c14"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:a9803ec99dc9da6df50c872a281a10c14"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a9803ec99dc9da6df50c872a281a10c14">operator!=</a> (const T &amp;b)</td></tr>
+<tr class="separator:a9803ec99dc9da6df50c872a281a10c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4dcbd6c3961244afb7bbcb90c5b01da"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:ac4dcbd6c3961244afb7bbcb90c5b01da"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#ac4dcbd6c3961244afb7bbcb90c5b01da">operator&gt;=</a> (const T &amp;b)</td></tr>
+<tr class="separator:ac4dcbd6c3961244afb7bbcb90c5b01da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add6d3ff26c1c87e2d645ad37e751bdac"><td class="memTemplParams" colspan="2">template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </td></tr>
+<tr class="memitem:add6d3ff26c1c87e2d645ad37e751bdac"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#add6d3ff26c1c87e2d645ad37e751bdac">operator&lt;=</a> (const T &amp;b)</td></tr>
+<tr class="separator:add6d3ff26c1c87e2d645ad37e751bdac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a285e38748cb55302c43feab8fa4a29f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a285e38748cb55302c43feab8fa4a29f5">operator double</a> () const</td></tr>
+<tr class="separator:a285e38748cb55302c43feab8fa4a29f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a9313ed58249557fab9c0b6ab5e5f977f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.php#a9313ed58249557fab9c0b6ab5e5f977f">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;frac)</td></tr>
+<tr class="separator:a9313ed58249557fab9c0b6ab5e5f977f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to manage a map and that implement some pathfinding algorithms. </p>
+<div class="textblock"><p>A class to manage fractions. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3512d2f37cf42ca70fbeedaf6dbd179b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3512d2f37cf42ca70fbeedaf6dbd179b">&#9670;&nbsp;</a></span>Map()</h2>
+<a id="aff15244127221e0d190260b62caef134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff15244127221e0d190260b62caef134">&#9670;&nbsp;</a></span>Fraction() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::Map::Map </td>
+          <td class="memname">mcd::Fraction::Fraction </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#d3/d29/a00947">WorldDimensions</a>&#160;</td>
-          <td class="paramname"><em>dimensions</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>The constructor of the map that initialize it. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">dimensions</td><td>The dimensions of the map </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>The constructor of the class. </p>
 
 </div>
 </div>
-<a id="a444967efa4f320d2ddfdd59ba0761b52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a444967efa4f320d2ddfdd59ba0761b52">&#9670;&nbsp;</a></span>~Map()</h2>
+<a id="a9397e2e1fbfba88c48928e5135925f8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9397e2e1fbfba88c48928e5135925f8d">&#9670;&nbsp;</a></span>Fraction() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -222,7 +242,61 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::Map::~Map </td>
+          <td class="memname">mcd::Fraction::Fraction </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4085029b32d447dfbe9146a3cdf1f67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4085029b32d447dfbe9146a3cdf1f67">&#9670;&nbsp;</a></span>Fraction() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Fraction::Fraction </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>denom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf0eeef8a5b118feaad630e084c15d8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf0eeef8a5b118feaad630e084c15d8e">&#9670;&nbsp;</a></span>~Fraction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::Fraction::~Fraction </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -238,124 +312,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab8a3794bcdcff4ad8875c6799eb4ab58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8a3794bcdcff4ad8875c6799eb4ab58">&#9670;&nbsp;</a></span>clear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Map::clear </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Clear the map array. </p>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="afc568b008b11652ff93bf281f16f9f86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc568b008b11652ff93bf281f16f9f86">&#9670;&nbsp;</a></span>consolePrint()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Map::consolePrint </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Print the map in the console. </p>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a1d96c02df00df52c98d68ea541e944e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d96c02df00df52c98d68ea541e944e8">&#9670;&nbsp;</a></span>dijkstra() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d8/d49/a00979.php">Path</a> mcd::Map::dijkstra </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/de6/a01063.php">Point</a>&#160;</td>
-          <td class="paramname"><em>dest</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute a path from the entity position to the point. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>The id of the entity </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>The point to join</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the computed Dijkstra path </dd></dl>
-
-</div>
-</div>
-<a id="a793304f9b5fb060a085ea0653d83e96f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a793304f9b5fb060a085ea0653d83e96f">&#9670;&nbsp;</a></span>dijkstra() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d8/d49/a00979.php">Path</a> mcd::Map::dijkstra </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/de6/a01063.php">Point</a>&#160;</td>
-          <td class="paramname"><em>origin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/de6/a01063.php">Point</a>&#160;</td>
-          <td class="paramname"><em>dest</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute a path between two points. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">origin</td><td>The point where to start </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>The point to join</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the computed Dijkstra path </dd></dl>
-
-</div>
-</div>
-<a id="a04a6f229a4697e8945922ed23b52f7d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04a6f229a4697e8945922ed23b52f7d6">&#9670;&nbsp;</a></span>get()</h2>
+<a id="a5868b5e5c36d3277d651c3fd731ebe84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5868b5e5c36d3277d651c3fd731ebe84">&#9670;&nbsp;</a></span>denominator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -364,7 +322,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#a4da80d0816a366662f2bd5bd8740af79">MapArray</a> mcd::Map::get </td>
+          <td class="memname">long mcd::Fraction::denominator </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -376,12 +334,36 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Return the maparray </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_a5868b5e5c36d3277d651c3fd731ebe84_cgraph.png" border="0" usemap="#dc/db6/a00955_a5868b5e5c36d3277d651c3fd731ebe84_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_a5868b5e5c36d3277d651c3fd731ebe84_cgraph" id="dc/db6/a00955_a5868b5e5c36d3277d651c3fd731ebe84_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#a76f6e7a0b34f33d8d53bc993b7c0ac89" title="mcd::Fraction::operator+=" alt="" coords="237,5,410,32"/>
+<area shape="rect" id="node3" href="../../dc/db6/a00955.php#a0897ad5e88848032ff6570bd83ddbef7" title="mcd::Fraction::operator+" alt="" coords="241,56,406,83"/>
+<area shape="rect" id="node4" href="../../dc/db6/a00955.php#a455683f59112555055fc6c5686a9621a" title="mcd::Fraction::operator&#45;=" alt="" coords="239,107,408,133"/>
+<area shape="rect" id="node5" href="../../dc/db6/a00955.php#a7a16f5b2182b2752cfbef72018e7636e" title="mcd::Fraction::operator&#45;" alt="" coords="243,157,404,184"/>
+<area shape="rect" id="node6" href="../../dc/db6/a00955.php#aae423fa04b3025e509901155241b5402" title="mcd::Fraction::operator*=" alt="" coords="238,208,409,235"/>
+<area shape="rect" id="node7" href="../../dc/db6/a00955.php#aece90dc9d246328147f02da505af1050" title="mcd::Fraction::operator*" alt="" coords="242,259,405,285"/>
+<area shape="rect" id="node8" href="../../dc/db6/a00955.php#a3379901d123c7d545bd8a4f9ebe48b8e" title="mcd::Fraction::operator/=" alt="" coords="239,309,408,336"/>
+<area shape="rect" id="node9" href="../../dc/db6/a00955.php#a0ffeec4d80502f0173a03d7b3aa361db" title="mcd::Fraction::operator/" alt="" coords="243,360,404,387"/>
+<area shape="rect" id="node10" href="../../dc/db6/a00955.php#a7b6753a02a790ffbb75c36920237167c" title="mcd::Fraction::operator%=" alt="" coords="235,411,412,437"/>
+<area shape="rect" id="node11" href="../../dc/db6/a00955.php#a619d937a957bc1f2516066ebb3501951" title="mcd::Fraction::operator%" alt="" coords="239,461,408,488"/>
+<area shape="rect" id="node12" href="../../dc/db6/a00955.php#a300ed85793b7aece141599c82524f8d9" title="mcd::Fraction::operator==" alt="" coords="237,512,410,539"/>
+<area shape="rect" id="node13" href="../../dc/db6/a00955.php#a379d98c2c6ae1962fc2089b599fc48df" title="mcd::Fraction::operator\&gt;" alt="" coords="241,563,406,589"/>
+<area shape="rect" id="node14" href="../../dc/db6/a00955.php#a4c0588f44c0f24a7cb2fe0d1a4c05ad5" title="mcd::Fraction::operator\&lt;" alt="" coords="241,613,406,640"/>
+<area shape="rect" id="node15" href="../../dc/db6/a00955.php#a728b8777d909549030d50032783761dc" title="mcd::Fraction::operator!=" alt="" coords="239,664,408,691"/>
+<area shape="rect" id="node16" href="../../dc/db6/a00955.php#aaf88d0c6bfb21b64dcec572fd4691cd7" title="mcd::Fraction::operator\&gt;=" alt="" coords="237,715,410,741"/>
+<area shape="rect" id="node17" href="../../dc/db6/a00955.php#ac1e8c0cf1fdef5dd32409c5d0b660fb1" title="mcd::Fraction::operator\&lt;=" alt="" coords="237,765,410,792"/>
+<area shape="rect" id="node18" href="../../dc/db6/a00955.php#af066abb5b8fe5db0e0c4ce7d125f0c5e" title="mcd::Fraction::operator++" alt="" coords="237,816,410,843"/>
+<area shape="rect" id="node19" href="../../dc/db6/a00955.php#a34e188b2c7100e21fe387855ca963f52" title="mcd::Fraction::operator&#45;&#45;" alt="" coords="241,867,406,893"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="a846e20ddb36e52abe1975bfd7f47bb62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a846e20ddb36e52abe1975bfd7f47bb62">&#9670;&nbsp;</a></span>getH()</h2>
+<a id="a17e4466c06be8e1bff20fe204d4ff110"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17e4466c06be8e1bff20fe204d4ff110">&#9670;&nbsp;</a></span>numerator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -390,7 +372,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t mcd::Map::getH </td>
+          <td class="memname">long mcd::Fraction::numerator </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -402,29 +384,11 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Return the height </dd></dl>
 
 </div>
 </div>
-<a id="ab798c2d9fb3e6b25abaef7926b8a0abb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab798c2d9fb3e6b25abaef7926b8a0abb">&#9670;&nbsp;</a></span>getProblem()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/d48/a00995.php">PathfindingProblem</a> mcd::Map::getProblem </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adc4f78a75dbf140919d939985c209cbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc4f78a75dbf140919d939985c209cbb">&#9670;&nbsp;</a></span>getSize()</h2>
+<a id="a285e38748cb55302c43feab8fa4a29f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a285e38748cb55302c43feab8fa4a29f5">&#9670;&nbsp;</a></span>operator double()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -433,7 +397,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#d3/d29/a00947">WorldDimensions</a> mcd::Map::getSize </td>
+          <td class="memname">mcd::Fraction::operator double </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -445,65 +409,910 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Return the size </dd></dl>
 
 </div>
 </div>
-<a id="ad4e66e9116fc7b785e4e0bbfd93dbf3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4e66e9116fc7b785e4e0bbfd93dbf3d">&#9670;&nbsp;</a></span>getW()</h2>
+<a id="a728b8777d909549030d50032783761dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a728b8777d909549030d50032783761dc">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t mcd::Map::getW </td>
+          <td class="memname">bool mcd::Fraction::operator!= </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9803ec99dc9da6df50c872a281a10c14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9803ec99dc9da6df50c872a281a10c14">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Fraction::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Return the width </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_a9803ec99dc9da6df50c872a281a10c14_cgraph.png" border="0" usemap="#dc/db6/a00955_a9803ec99dc9da6df50c872a281a10c14_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_a9803ec99dc9da6df50c872a281a10c14_cgraph" id="dc/db6/a00955_a9803ec99dc9da6df50c872a281a10c14_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="223,5,380,32"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="a1784239c1be09cc3c9a7a4652292149d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1784239c1be09cc3c9a7a4652292149d">&#9670;&nbsp;</a></span>isFree()</h2>
+<a id="a619d937a957bc1f2516066ebb3501951"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a619d937a957bc1f2516066ebb3501951">&#9670;&nbsp;</a></span>operator%() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool mcd::Map::isFree </td>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> mcd::Fraction::operator% </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../de/de6/a01063.php">Point</a> &amp;&#160;</td>
-          <td class="paramname"><em>pt</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7373abe86093f315b90682196406a7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7373abe86093f315b90682196406a7e">&#9670;&nbsp;</a></span>operator%() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> mcd::Fraction::operator% </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_ac7373abe86093f315b90682196406a7e_cgraph.png" border="0" usemap="#dc/db6/a00955_ac7373abe86093f315b90682196406a7e_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_ac7373abe86093f315b90682196406a7e_cgraph" id="dc/db6/a00955_ac7373abe86093f315b90682196406a7e_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="223,5,380,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7b6753a02a790ffbb75c36920237167c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b6753a02a790ffbb75c36920237167c">&#9670;&nbsp;</a></span>operator%=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&amp; mcd::Fraction::operator%= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Verify if a position on the map is a ground tileor another one. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>Thepoint where to verify</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return <b>true</b> or <b>false</b> </dd></dl>
+</div>
+</div>
+<a id="a43f90dffa8573b6fbc49606f804bc941"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43f90dffa8573b6fbc49606f804bc941">&#9670;&nbsp;</a></span>operator%=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&amp; mcd::Fraction::operator%= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_a43f90dffa8573b6fbc49606f804bc941_cgraph.png" border="0" usemap="#dc/db6/a00955_a43f90dffa8573b6fbc49606f804bc941_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_a43f90dffa8573b6fbc49606f804bc941_cgraph" id="dc/db6/a00955_a43f90dffa8573b6fbc49606f804bc941_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="231,5,388,32"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="a3cef4e6d93277ff04e0a6a4b162a3a4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cef4e6d93277ff04e0a6a4b162a3a4e">&#9670;&nbsp;</a></span>isOnGround() <span class="overload">[1/2]</span></h2>
+<a id="aece90dc9d246328147f02da505af1050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aece90dc9d246328147f02da505af1050">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> mcd::Fraction::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37efbd11d27b9c2ba1c832d972c7968a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37efbd11d27b9c2ba1c832d972c7968a">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> mcd::Fraction::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_a37efbd11d27b9c2ba1c832d972c7968a_cgraph.png" border="0" usemap="#dc/db6/a00955_a37efbd11d27b9c2ba1c832d972c7968a_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_a37efbd11d27b9c2ba1c832d972c7968a_cgraph" id="dc/db6/a00955_a37efbd11d27b9c2ba1c832d972c7968a_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="216,5,373,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aae423fa04b3025e509901155241b5402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae423fa04b3025e509901155241b5402">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&amp; mcd::Fraction::operator*= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa59ee30f1820c21567e2b53edb8bc1d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa59ee30f1820c21567e2b53edb8bc1d3">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&amp; mcd::Fraction::operator*= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_aa59ee30f1820c21567e2b53edb8bc1d3_cgraph.png" border="0" usemap="#dc/db6/a00955_aa59ee30f1820c21567e2b53edb8bc1d3_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_aa59ee30f1820c21567e2b53edb8bc1d3_cgraph" id="dc/db6/a00955_aa59ee30f1820c21567e2b53edb8bc1d3_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="224,5,381,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0897ad5e88848032ff6570bd83ddbef7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0897ad5e88848032ff6570bd83ddbef7">&#9670;&nbsp;</a></span>operator+() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> mcd::Fraction::operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a54d794692193c950001c5c85026e6e3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54d794692193c950001c5c85026e6e3b">&#9670;&nbsp;</a></span>operator+() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> mcd::Fraction::operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_a54d794692193c950001c5c85026e6e3b_cgraph.png" border="0" usemap="#dc/db6/a00955_a54d794692193c950001c5c85026e6e3b_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_a54d794692193c950001c5c85026e6e3b_cgraph" id="dc/db6/a00955_a54d794692193c950001c5c85026e6e3b_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="219,5,376,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af066abb5b8fe5db0e0c4ce7d125f0c5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af066abb5b8fe5db0e0c4ce7d125f0c5e">&#9670;&nbsp;</a></span>operator++()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&amp; mcd::Fraction::operator++ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76f6e7a0b34f33d8d53bc993b7c0ac89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76f6e7a0b34f33d8d53bc993b7c0ac89">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&amp; mcd::Fraction::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a008c1ea6fdcd24bc97c027c5b91a784c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a008c1ea6fdcd24bc97c027c5b91a784c">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&amp; mcd::Fraction::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_a008c1ea6fdcd24bc97c027c5b91a784c_cgraph.png" border="0" usemap="#dc/db6/a00955_a008c1ea6fdcd24bc97c027c5b91a784c_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_a008c1ea6fdcd24bc97c027c5b91a784c_cgraph" id="dc/db6/a00955_a008c1ea6fdcd24bc97c027c5b91a784c_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="227,5,384,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7a16f5b2182b2752cfbef72018e7636e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a16f5b2182b2752cfbef72018e7636e">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> mcd::Fraction::operator- </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50acfed23a831256b8f7bea5e6d2b74b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50acfed23a831256b8f7bea5e6d2b74b">&#9670;&nbsp;</a></span>operator-() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> mcd::Fraction::operator- </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_a50acfed23a831256b8f7bea5e6d2b74b_cgraph.png" border="0" usemap="#dc/db6/a00955_a50acfed23a831256b8f7bea5e6d2b74b_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_a50acfed23a831256b8f7bea5e6d2b74b_cgraph" id="dc/db6/a00955_a50acfed23a831256b8f7bea5e6d2b74b_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="215,5,372,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a34e188b2c7100e21fe387855ca963f52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34e188b2c7100e21fe387855ca963f52">&#9670;&nbsp;</a></span>operator--()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&amp; mcd::Fraction::operator-- </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a455683f59112555055fc6c5686a9621a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a455683f59112555055fc6c5686a9621a">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&amp; mcd::Fraction::operator-= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53b141f48ecc61069385e16cf51524dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53b141f48ecc61069385e16cf51524dc">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&amp; mcd::Fraction::operator-= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_a53b141f48ecc61069385e16cf51524dc_cgraph.png" border="0" usemap="#dc/db6/a00955_a53b141f48ecc61069385e16cf51524dc_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_a53b141f48ecc61069385e16cf51524dc_cgraph" id="dc/db6/a00955_a53b141f48ecc61069385e16cf51524dc_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="223,5,380,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0ffeec4d80502f0173a03d7b3aa361db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ffeec4d80502f0173a03d7b3aa361db">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> mcd::Fraction::operator/ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba54bcb1715fcfc8ce7d3a9576447aa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba54bcb1715fcfc8ce7d3a9576447aa2">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a> mcd::Fraction::operator/ </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_aba54bcb1715fcfc8ce7d3a9576447aa2_cgraph.png" border="0" usemap="#dc/db6/a00955_aba54bcb1715fcfc8ce7d3a9576447aa2_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_aba54bcb1715fcfc8ce7d3a9576447aa2_cgraph" id="dc/db6/a00955_aba54bcb1715fcfc8ce7d3a9576447aa2_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="215,5,372,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3379901d123c7d545bd8a4f9ebe48b8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3379901d123c7d545bd8a4f9ebe48b8e">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&amp; mcd::Fraction::operator/= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4942772dfaef8d5158163f7fcca98b57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4942772dfaef8d5158163f7fcca98b57">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db6/a00955.php">Fraction</a>&amp; mcd::Fraction::operator/= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_a4942772dfaef8d5158163f7fcca98b57_cgraph.png" border="0" usemap="#dc/db6/a00955_a4942772dfaef8d5158163f7fcca98b57_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_a4942772dfaef8d5158163f7fcca98b57_cgraph" id="dc/db6/a00955_a4942772dfaef8d5158163f7fcca98b57_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="223,5,380,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4c0588f44c0f24a7cb2fe0d1a4c05ad5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c0588f44c0f24a7cb2fe0d1a4c05ad5">&#9670;&nbsp;</a></span>operator<() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Fraction::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9c375ae1a1d2a7eb9feb0eda3440343"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9c375ae1a1d2a7eb9feb0eda3440343">&#9670;&nbsp;</a></span>operator<() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Fraction::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_aa9c375ae1a1d2a7eb9feb0eda3440343_cgraph.png" border="0" usemap="#dc/db6/a00955_aa9c375ae1a1d2a7eb9feb0eda3440343_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_aa9c375ae1a1d2a7eb9feb0eda3440343_cgraph" id="dc/db6/a00955_aa9c375ae1a1d2a7eb9feb0eda3440343_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="219,5,376,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac1e8c0cf1fdef5dd32409c5d0b660fb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1e8c0cf1fdef5dd32409c5d0b660fb1">&#9670;&nbsp;</a></span>operator<=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Fraction::operator&lt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add6d3ff26c1c87e2d645ad37e751bdac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add6d3ff26c1c87e2d645ad37e751bdac">&#9670;&nbsp;</a></span>operator<=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Fraction::operator&lt;= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_add6d3ff26c1c87e2d645ad37e751bdac_cgraph.png" border="0" usemap="#dc/db6/a00955_add6d3ff26c1c87e2d645ad37e751bdac_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_add6d3ff26c1c87e2d645ad37e751bdac_cgraph" id="dc/db6/a00955_add6d3ff26c1c87e2d645ad37e751bdac_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="227,5,384,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a300ed85793b7aece141599c82524f8d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a300ed85793b7aece141599c82524f8d9">&#9670;&nbsp;</a></span>operator==() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Fraction::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a986f1f323f69858991a54320af44b6a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a986f1f323f69858991a54320af44b6a5">&#9670;&nbsp;</a></span>operator==() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Fraction::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_a986f1f323f69858991a54320af44b6a5_cgraph.png" border="0" usemap="#dc/db6/a00955_a986f1f323f69858991a54320af44b6a5_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_a986f1f323f69858991a54320af44b6a5_cgraph" id="dc/db6/a00955_a986f1f323f69858991a54320af44b6a5_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="227,5,384,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a379d98c2c6ae1962fc2089b599fc48df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a379d98c2c6ae1962fc2089b599fc48df">&#9670;&nbsp;</a></span>operator>() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Fraction::operator&gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5160d78b6f8e8269aacac56fb50346df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5160d78b6f8e8269aacac56fb50346df">&#9670;&nbsp;</a></span>operator>() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Fraction::operator&gt; </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_a5160d78b6f8e8269aacac56fb50346df_cgraph.png" border="0" usemap="#dc/db6/a00955_a5160d78b6f8e8269aacac56fb50346df_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_a5160d78b6f8e8269aacac56fb50346df_cgraph" id="dc/db6/a00955_a5160d78b6f8e8269aacac56fb50346df_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="219,5,376,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aaf88d0c6bfb21b64dcec572fd4691cd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf88d0c6bfb21b64dcec572fd4691cd7">&#9670;&nbsp;</a></span>operator>=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Fraction::operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4dcbd6c3961244afb7bbcb90c5b01da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4dcbd6c3961244afb7bbcb90c5b01da">&#9670;&nbsp;</a></span>operator>=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , class  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value&gt;::type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Fraction::operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/db6/a00955_ac4dcbd6c3961244afb7bbcb90c5b01da_cgraph.png" border="0" usemap="#dc/db6/a00955_ac4dcbd6c3961244afb7bbcb90c5b01da_cgraph" alt=""/></div>
+<map name="dc/db6/a00955_ac4dcbd6c3961244afb7bbcb90c5b01da_cgraph" id="dc/db6/a00955_ac4dcbd6c3961244afb7bbcb90c5b01da_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.php#aff15244127221e0d190260b62caef134" title="The constructor of the class. " alt="" coords="227,5,384,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a9313ed58249557fab9c0b6ab5e5f977f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9313ed58249557fab9c0b6ab5e5f977f">&#9670;&nbsp;</a></span>operator<<</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -512,581 +1321,34 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool mcd::Map::isOnGround </td>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="../../dc/db6/a00955.php">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>frac</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Verify if an entity is on the ground or not. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>The id of the entity in the map</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return <b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a id="ac5e6be35eea3af084431715595c1138b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5e6be35eea3af084431715595c1138b">&#9670;&nbsp;</a></span>isOnGround() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::Map::isOnGround </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../de/de6/a01063.php">Point</a> &amp;&#160;</td>
-          <td class="paramname"><em>pt</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Verify if a point is on the ground or not. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>The point to test</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return <b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a id="a86d2ef9c24b540688cbfaa12d9225c35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86d2ef9c24b540688cbfaa12d9225c35">&#9670;&nbsp;</a></span>isXIn()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::Map::isXIn </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>pt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>dim</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Verify if the point is in map on X axis. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>The x coordinate </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dim</td><td>The width of the object</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a id="a45adc028ccfb00ef4f66225e244956fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45adc028ccfb00ef4f66225e244956fd">&#9670;&nbsp;</a></span>isYIn()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::Map::isYIn </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>pt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>dim</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Verify if the point is in map on Y axis. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>The y coordinate </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dim</td><td>The height of the object</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a id="a7e8255ee949b38d843e908e20e03aa87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e8255ee949b38d843e908e20e03aa87">&#9670;&nbsp;</a></span>load()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::Map::load </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>file</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Load the map from a file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">file</td><td>The file to load from</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a id="a54b56015950d08fd043e0906875519e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54b56015950d08fd043e0906875519e3">&#9670;&nbsp;</a></span>moveEntity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#dc/da0/a00951">MapMove</a> mcd::Map::moveEntity </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d8/d49/a00979.php">Path</a> &amp;&#160;</td>
-          <td class="paramname"><em>path</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Move an entity from the first position to the second position. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>The id of the entity in the map </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>The path to follow </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The new x position of the entity </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The new y position of the entity</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a <a class="el" href="../../d3/dd1/a00214.php#dc/da0/a00951" title="A struct to know informations about th movement of something in the map. ">MapMove</a>, .next to know if it can continue, .end to know if it's the end </dd></dl>
-
-</div>
-</div>
-<a id="a1809056415a86a4627e0cad3bbb0b3b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1809056415a86a4627e0cad3bbb0b3b0">&#9670;&nbsp;</a></span>operator()() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#a7350be9df9566241dfb80071a89f9ede">Tile</a>&amp; mcd::Map::operator() </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>i</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>j</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Overloading of the () operator. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i</td><td>The x coordinate of the Tile </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">j</td><td>The y coordinate of the Tile</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a Tile of the map </dd></dl>
-
-</div>
-</div>
-<a id="a105197d7158b9387782b28583c6c07ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a105197d7158b9387782b28583c6c07ba">&#9670;&nbsp;</a></span>operator()() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#a7350be9df9566241dfb80071a89f9ede">Tile</a> mcd::Map::operator() </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>i</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>j</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Overloading of the () operator. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i</td><td>The x coordinate of the Tile </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">j</td><td>The y coordinate of the Tile</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a Tile of the map </dd></dl>
-
-</div>
-</div>
-<a id="a8cea2526dc276cce694e31a6053d5522"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cea2526dc276cce694e31a6053d5522">&#9670;&nbsp;</a></span>putEntity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::Map::putEntity </td>
-          <td>(</td>
-          <td class="paramtype">size_t &amp;&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>h</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Put an entity on the given position. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">id</td><td>The id for the entity in the map </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position of the entity </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The y position of the entity </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>The width of the entity </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>The height of the entity</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return true if the entity has been added to the map </dd></dl>
-
-</div>
-</div>
-<a id="ac8ecf45b42aed2736d04081639b460f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8ecf45b42aed2736d04081639b460f6">&#9670;&nbsp;</a></span>resetSim()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Map::resetSim </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d8/d49/a00979.php">Path</a> &amp;&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reset the path's simulation. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>The path to follow </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a5962b156a6ac1a9b3086f54ae6289121"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5962b156a6ac1a9b3086f54ae6289121">&#9670;&nbsp;</a></span>save()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::Map::save </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>file</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Save the map in a file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">file</td><td>The file to save in</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a id="a0d89a93779f04f96e43a883c6e021d04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d89a93779f04f96e43a883c6e021d04">&#9670;&nbsp;</a></span>setEntity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Map::setEntity </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Move an entity to the given position. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>The id of the entity in the map </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The new x position of the entity </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The new y position of the entity</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return void </dd></dl>
-
-</div>
-</div>
-<a id="af75d4f3db3cf7cbba6ae20628ecc2e04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af75d4f3db3cf7cbba6ae20628ecc2e04">&#9670;&nbsp;</a></span>setH()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Map::setH </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>h</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set a new height for the map. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>The height of the map</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="adab97ef85198947deb95164f9d240e30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adab97ef85198947deb95164f9d240e30">&#9670;&nbsp;</a></span>setSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Map::setSize </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd1/a00214.php#d3/d29/a00947">WorldDimensions</a>&#160;</td>
-          <td class="paramname"><em>dimensions</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set new dimensions for the map. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">dimensions</td><td>The dimensions of the map</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a46876aaf4ac9bdfe36d24a2e121d4e34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46876aaf4ac9bdfe36d24a2e121d4e34">&#9670;&nbsp;</a></span>setW()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Map::setW </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>w</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set a new width for the map. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>The width of the map</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="ad35cfe5bfd6ba316a796c7969c04d283"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad35cfe5bfd6ba316a796c7969c04d283">&#9670;&nbsp;</a></span>testPath()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/dd1/a00214.php#dc/da0/a00951">MapMove</a> mcd::Map::testPath </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d8/d49/a00979.php">Path</a> &amp;&#160;</td>
-          <td class="paramname"><em>path</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>show</em> = <code>false</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/d49/a00863.php">Color</a>&#160;</td>
-          <td class="paramname"><em>color</em> = <code><a class="el" href="../../d3/dd1/a00214.php#ae124ce77f8e386663ac11e2e35e6070aab754547a82033c3c904e91984b530326">Colors::PURPLE_B</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Test a complete path on the map in the console. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>The path to follow </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">show</td><td><b>true</b> or <b>false</b> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>The color ofthe path </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d0/dc2/a00104.php">Map.hpp</a></li>
+<li><a class="el" href="../../da/d2a/a00086.php">Fraction.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1094,7 +1356,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d3/dd1/a00214.php">mcd</a></li><li class="navelem"><a class="el" href="../../dc/db6/a00955.php">Map</a></li>
+		<li class="navelem"><a class="el" href="../../dd/d2d/a00229.php">mcd</a></li><li class="navelem"><a class="el" href="../../dc/db6/a00955.php">Fraction</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

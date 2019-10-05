@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Arguments Class Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Oct 3 2019 15:39:38 for C++ by";
+				$text = "Generated on Fri Oct 4 2019 16:27:33 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('de/d42/a00780.php','../../');});
+$(document).ready(function(){initNavTree('dc/d0c/a00783.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,297 +89,126 @@ $(document).ready(function(){initNavTree('de/d42/a00780.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d2/d02/a00777.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Arguments Class Reference</div>  </div>
+<div class="title">mcd::Ant Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to manage the arguments.  
- <a href="../../de/d42/a00780.php#details">More...</a></p>
-
-<p><code>#include &lt;Args.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ac6c3e24abf9d442d2a01b601ad3a0968"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/a00780.php#ac6c3e24abf9d442d2a01b601ad3a0968">Arguments</a> ()</td></tr>
-<tr class="memdesc:ac6c3e24abf9d442d2a01b601ad3a0968"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#ac6c3e24abf9d442d2a01b601ad3a0968">More...</a><br /></td></tr>
-<tr class="separator:ac6c3e24abf9d442d2a01b601ad3a0968"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fd4e17aa2d814f460da6128e98b7519"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/a00780.php#a9fd4e17aa2d814f460da6128e98b7519">~Arguments</a> ()</td></tr>
-<tr class="separator:a9fd4e17aa2d814f460da6128e98b7519"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eabf4c8408ded2b8deca24d99fd3234"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/a00780.php#a1eabf4c8408ded2b8deca24d99fd3234">addProg</a> (int argc, char **argv)</td></tr>
-<tr class="memdesc:a1eabf4c8408ded2b8deca24d99fd3234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the arguments of theMay, n to the object.  <a href="#a1eabf4c8408ded2b8deca24d99fd3234">More...</a><br /></td></tr>
-<tr class="separator:a1eabf4c8408ded2b8deca24d99fd3234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d178470f50f3a3f12b2dab7aa40f004"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a0d178470f50f3a3f12b2dab7aa40f004"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d42/a00780.php#a0d178470f50f3a3f12b2dab7aa40f004">add</a> (const std::string &amp;category, T value)</td></tr>
-<tr class="memdesc:a0d178470f50f3a3f12b2dab7aa40f004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a value to a part of the array.  <a href="#a0d178470f50f3a3f12b2dab7aa40f004">More...</a><br /></td></tr>
-<tr class="separator:a0d178470f50f3a3f12b2dab7aa40f004"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6f239de18f2b736af8215e1e116b6c7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/a00780.php#ab6f239de18f2b736af8215e1e116b6c7">operator[]</a> (const std::string &amp;index) const</td></tr>
-<tr class="memdesc:ab6f239de18f2b736af8215e1e116b6c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the arguments in an index.  <a href="#ab6f239de18f2b736af8215e1e116b6c7">More...</a><br /></td></tr>
-<tr class="separator:ab6f239de18f2b736af8215e1e116b6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae401cb47faea064ac04133ea929c0f94"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/a00780.php#ae401cb47faea064ac04133ea929c0f94">operator[]</a> (const std::string &amp;index)</td></tr>
-<tr class="memdesc:ae401cb47faea064ac04133ea929c0f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the arguments in an index.  <a href="#ae401cb47faea064ac04133ea929c0f94">More...</a><br /></td></tr>
-<tr class="separator:ae401cb47faea064ac04133ea929c0f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77d29e3346c6b8c49fed9158e1336bd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/a00780.php#a77d29e3346c6b8c49fed9158e1336bd1">print</a> (const std::string &amp;index=&quot;&quot;) const</td></tr>
-<tr class="memdesc:a77d29e3346c6b8c49fed9158e1336bd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print all the arguments in the <em>index</em>.  <a href="#a77d29e3346c6b8c49fed9158e1336bd1">More...</a><br /></td></tr>
-<tr class="separator:a77d29e3346c6b8c49fed9158e1336bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to manage the arguments. </p>
-<p>This class is usefull to simplify and keep the given arguments </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac6c3e24abf9d442d2a01b601ad3a0968"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6c3e24abf9d442d2a01b601ad3a0968">&#9670;&nbsp;</a></span>Arguments()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::Arguments::Arguments </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Constructor of the class. </p>
-
-</div>
-</div>
-<a id="a9fd4e17aa2d814f460da6128e98b7519"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fd4e17aa2d814f460da6128e98b7519">&#9670;&nbsp;</a></span>~Arguments()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::Arguments::~Arguments </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/d42/a00780_a9fd4e17aa2d814f460da6128e98b7519_cgraph.png" border="0" usemap="#de/d42/a00780_a9fd4e17aa2d814f460da6128e98b7519_cgraph" alt=""/></div>
-<map name="de/d42/a00780_a9fd4e17aa2d814f460da6128e98b7519_cgraph" id="de/d42/a00780_a9fd4e17aa2d814f460da6128e98b7519_cgraph">
-<area shape="rect" id="node2" href="../../de/d42/a00780.php#a1eabf4c8408ded2b8deca24d99fd3234" title="Add the arguments of theMay, n to the object. " alt="" coords="251,5,425,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0d178470f50f3a3f12b2dab7aa40f004"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d178470f50f3a3f12b2dab7aa40f004">&#9670;&nbsp;</a></span>add()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::Arguments::add </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>category</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Add a value to a part of the array. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">category</td><td>The category in which to add the value </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The value to add</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/d42/a00780_a0d178470f50f3a3f12b2dab7aa40f004_cgraph.png" border="0" usemap="#de/d42/a00780_a0d178470f50f3a3f12b2dab7aa40f004_cgraph" alt=""/></div>
-<map name="de/d42/a00780_a0d178470f50f3a3f12b2dab7aa40f004_cgraph" id="de/d42/a00780_a0d178470f50f3a3f12b2dab7aa40f004_cgraph">
-<area shape="rect" id="node2" href="../../dc/d28/a00223.php#ad53bf266a5db5dc112e71ebe3c78946e" title="Verify if a vector contains or not something. " alt="" coords="239,5,343,32"/>
-<area shape="rect" id="node4" href="../../dc/d28/a00223.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string. " alt="" coords="254,56,327,83"/>
-<area shape="rect" id="node5" href="../../de/d42/a00780.php#ab6f239de18f2b736af8215e1e116b6c7" title="Get the arguments in an index. " alt="" coords="200,107,381,133"/>
-<area shape="rect" id="node6" href="../../de/d42/a00780.php#a77d29e3346c6b8c49fed9158e1336bd1" title="Print all the arguments in the index. " alt="" coords="215,157,366,184"/>
-<area shape="rect" id="node3" href="../../dc/d28/a00223.php#a5996fcf8097a903a5461a6035ff0f98d" title="Prints approximately everything. " alt="" coords="429,5,529,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a1eabf4c8408ded2b8deca24d99fd3234"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1eabf4c8408ded2b8deca24d99fd3234">&#9670;&nbsp;</a></span>addProg()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::Arguments::addProg </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>argc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char **&#160;</td>
-          <td class="paramname"><em>argv</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Add the arguments of theMay, n to the object. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">argc</td><td>The number of arguments </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">argv</td><td>An array of char*</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a id="ab6f239de18f2b736af8215e1e116b6c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6f239de18f2b736af8215e1e116b6c7">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::string&gt; mcd::Arguments::operator[] </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the arguments in an index. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the arguments</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a vector that contains the arguments </dd></dl>
-
-</div>
-</div>
-<a id="ae401cb47faea064ac04133ea929c0f94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae401cb47faea064ac04133ea929c0f94">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::string&gt;&amp; mcd::Arguments::operator[] </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the arguments in an index. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the arguments</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a vector that contains the arguments </dd></dl>
-
-</div>
-</div>
-<a id="a77d29e3346c6b8c49fed9158e1336bd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77d29e3346c6b8c49fed9158e1336bd1">&#9670;&nbsp;</a></span>print()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Arguments::print </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>index</em> = <code>&quot;&quot;</code></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Print all the arguments in the <em>index</em>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the arguments</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d4/dee/a00008.php">Args.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../dc/d0c/a00783.php">mcd::Ant</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d40/a00959.php#a56083f800ece1bfc951d64ed36c4b8c6">_attacked</a></td><td class="entry"><a class="el" href="../../db/d40/a00959.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/d40/a00959.php#ac1aefccd5c541096961543779115d396">_attackedSpec</a></td><td class="entry"><a class="el" href="../../db/d40/a00959.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#ad738ce8411210b52087a19fe33ae1174">_direction</a></td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a61f0ec7f0ddd1dd99f6b70f7dd9ecd99">_movedD</a></td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a5582322e9815c00b7ba2beb207511da7">_movedL</a></td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#add7fc2f540722616fe6602f99bdbc707">_movedR</a></td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a3c7bf911d2153e0febeb1120e7e7e59f">_movedU</a></td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#aed641e2a02463c0de7e70dd58d9d9650">_obstacle</a></td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d40/a00959.php#aa074a05a487d5eb2f39895bc1fdeabe8">_target</a></td><td class="entry"><a class="el" href="../../db/d40/a00959.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a7f4fa78c938b90c034ad0fe98a293a3c">addPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a25cd44b1a7eaf801cd6238175433ab46">Animal</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d0c/a00783.php#afd3b5fb594d92b3cde4933883fdb7a2b">Ant</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../dc/d0c/a00783.php">mcd::Ant</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a4d6092732cc611192db643ed57196a69">anyObstacle</a>()</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#ae361d01e3894af2d3e1ded1975f39172">attack</a>(Entity *target=nullptr) override</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a840fecd8d230987dbd76d241df6557ec">collides</a>(Contraption &amp;other)</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a013ece6e6c005eaacac8c76ca23330ce">collides</a>(Contraption *other=nullptr)</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a462a1d52fee8f6a4f140a50b9261d82b">collidesCircle</a>(Contraption &amp;other, double64_t radius)</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#acc4dd4c0013f6496706bc2c23824cbf9">collidesCircle</a>(Contraption *other=nullptr, double64_t radius=0)</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a0a1bd6e6440207bf2f281dcca32e7f25">collidesRect</a>(Contraption &amp;other)</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a890805b7e76b34fd00417d6884ac7972">collidesRect</a>(Contraption *other=nullptr)</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a807590a9e81f34ba22aca08ddd986db7">Contraption</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a5b9f9a89a85d2c396e5556ad468131fa">Entity</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a580eafa58a93d9ab4264c4cbac2f4167">getA</a>() const</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/da0/a00951.php#adc41605613a8d9420f9e9b7d5d1693c9">getAge</a>() const</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#aa36a1788770d7667d8a2848ff1e3f0c6">getAttributes</a>() const</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d0c/a00783.php#aefe83b0ef881a901834a3dc32f60fa10">getCaste</a>() const</td><td class="entry"><a class="el" href="../../dc/d0c/a00783.php">mcd::Ant</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a7bf4a1bb07d7a688bd2ea4c446aa6070">getDamages</a>() const</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#aa200ce00d14dc675aed8467ca0fa8760">getFood</a>() const</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#abc229075f9f07b49f7baa041ec4c6efc">getFoodMax</a>() const</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#aec81012bc23935e626500734007d5fb5">getH</a>() const</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a2f6cf40462b5dba5f7743c83cc2389f1">getLevel</a>() const</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a90c6ecc6d1eb5f75555d350061e45851">getLife</a>() const</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/da0/a00951.php#adbc4c4d4900f96af54a931cedf1d4c7b">getLifeMax</a>() const</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a393c4ec6fd375809fbcf1cfeab44ed25">getMap</a>() const</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#ac95da2f760e8ba07a54ac849c5a3307f">getPosition</a>() const</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/da0/a00951.php#ad15b39d3c89a220d3a612bf7bcc8e3a9">getReborn</a>() const</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a89b212594457755f67a4cb98f8c1218b">getRegen</a>() const</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a2ce9aecbe210f893028b8e9ad44a2b7b">getRelativeZ</a>(Contraption &amp;obj) override</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/da0/a00951.php#af381c01c6bea9908472377489ad6b4c0">getResistance</a>() const</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a5a18d838394f7eca74b2c169a6ba945b">getSpecialAttack</a>() const</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#ade580e646ec547804f21a73ee944552c">getSpecies</a>() const</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#acaa526abac4337a8be4836b0c99a9f9b">getSpeed</a>() const</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d0c/a00783.php#aba7dfff3a965c52127afa152a66a32fa">getStone</a>() const</td><td class="entry"><a class="el" href="../../dc/d0c/a00783.php">mcd::Ant</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d0c/a00783.php#a3c53c4e13e45a9432c2aba52c98edce3">getStoneMax</a>() const</td><td class="entry"><a class="el" href="../../dc/d0c/a00783.php">mcd::Ant</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d40/a00959.php#a6301018ead1f9778a74dc6d4b8e1daff">getStrength</a>() const</td><td class="entry"><a class="el" href="../../db/d40/a00959.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/d40/a00959.php#a13299f1f64259b76ddf0a43dd97a4864">getTarget</a>() const</td><td class="entry"><a class="el" href="../../db/d40/a00959.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/da0/a00951.php#abca030f9d81cbba5aa08ac6c55aaf06b">getTimeActReborn</a>() const</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/da0/a00951.php#acf9d27e7d1cb3d983f407905e95bcc43">getTimeActRegen</a>() const</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a88b90ea88f999bc11a2e07fdf1de1020">getTimePrecReborn</a>() const</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a5ad008ea31a40fad735680b4bdfb249e">getTimePrecRegen</a>() const</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#ad12fd1c5a207f169edc619e09a5a969f">getW</a>() const</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a6e7d791e4289bd253a357be80f8131ee">getX</a>() const</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a153124dd434c08a943f60d7b43c2ffab">getY</a>() const</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a6ac6575807535f3d9aeb251ce3cceaed">getZ</a>() const</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#aec9e7e9161766fa70a0f7e0f7dbd09f1">goBot</a>()</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#aa26f06d52070e9976a972d49c11723c1">goLeft</a>()</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#ad3ce2b65cecda053e43eac7421224088">goRight</a>()</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#ac70088d58528c2bb5a3bd30bf176f2ea">goTop</a>()</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a4cae69f657ab66bdcc7b78accbb836a9">grow</a>()</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a8022eec71c62bbc06651cf7607d3824a">hit</a>(double64_t damages)</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d40/a00959.php#a08a1386aff1a9289823113ef90c14927">Hostile</a>()</td><td class="entry"><a class="el" href="../../db/d40/a00959.php">mcd::Hostile</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/d40/a00959.php#afbaa53140e5e1bf40606e4ff3d4a947d">hurt</a>(Entity *target=nullptr)</td><td class="entry"><a class="el" href="../../db/d40/a00959.php">mcd::Hostile</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a8bda2d04e74731997a8139ad620f0d92">move</a>()</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#adf301492954c39bc83a922cb05b21dc2">move</a>(Direction dir)</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d0c/a00783.php#a2be4df8048e84830aca6eb2ac249e099">printInfos</a>(std::ostream &amp;stream) const override</td><td class="entry"><a class="el" href="../../dc/d0c/a00783.php">mcd::Ant</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a6ee6d1b64b6b88068a2165a1824a5af2">sender</a>(std::string, vector_str)</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a73a47e55e554e7c7f357a74276368186">setA</a>(double64_t angle)</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/da0/a00951.php#ac84c283da82f389088715485d2fc57d1">setAge</a>(double64_t age)</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a9c5a7acde997e12d99e717f182c5ced7">setAttributes</a>(ContraptionAttr attr)</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#ae44610d2144faf1550f8cc6ec860fb71">setAttributes</a>(double64_t w, double64_t h, double64_t angle=0)</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d0c/a00783.php#a63fc83db2b90de339f8fea94358d6b09">setCaste</a>(const std::string &amp;caste)</td><td class="entry"><a class="el" href="../../dc/d0c/a00783.php">mcd::Ant</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a4eac4847127344d9d2feb09176e2950c">setDamages</a>(double64_t damages)</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#afab240f045e3b150a3c1b7ba7b8cad72">setFood</a>(const double64_t &amp;food)</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a48f42d55cc53501c0e05b5c8a79888a2">setFoodMax</a>(const double64_t &amp;foodMax)</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a060b6ee9401bd8c9a03c5cecdbfa1942">setH</a>(double64_t h)</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a332ecd56522af01cf41b9c4a69449bd0">setLevel</a>(size_t level)</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/da0/a00951.php#afbdb1bf0f0dfd91f0217c88b08d94535">setLife</a>(double64_t life)</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a8a6c84d9d5f814fe553b731d841a5266">setMap</a>(Map *map)</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a2974b562f55f65a1b992ff849eea43cf">setPosition</a>(Point pt)</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#aae0d0bd5e4613514eb5cda66eaeabbcb">setPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/da0/a00951.php#abbd3e759ad9df66ce4f004a32066a941">setReborn</a>(const double64_t reborn)</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a45870e9b434c8b35a8181675cde66055">setRegen</a>(const double64_t regen)</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a34dec699e223f0bb8b8e3dc044828bec">setResistance</a>(double64_t resistance)</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a929d7b3bf6637bd3e45c24ed050a2c55">setSpecialAttack</a>(const std::string &amp;specialAttack)</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a2c0928be79e1be03389e1e74746bee6b">setSpecies</a>(const std::string &amp;species)</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a4ff6872a3b990ab0ca9309f84076ec0a">setSpeed</a>(const double64_t &amp;speed)</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d0c/a00783.php#a03f3b31e549e9c7a7bf0dac610acf998">setStone</a>(const double64_t &amp;stone)</td><td class="entry"><a class="el" href="../../dc/d0c/a00783.php">mcd::Ant</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d0c/a00783.php#a3397f0142a9bc430d1026b253c8f3a30">setStoneMax</a>(const double64_t &amp;stoneMax)</td><td class="entry"><a class="el" href="../../dc/d0c/a00783.php">mcd::Ant</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d40/a00959.php#a8de9dffab818f0e4f742bb9709ee86c7">setStrength</a>(double64_t strength)</td><td class="entry"><a class="el" href="../../db/d40/a00959.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/d40/a00959.php#ab809b87f0624b1ca1a6178a74ae32684">setTarget</a>(Entity *target)</td><td class="entry"><a class="el" href="../../db/d40/a00959.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a71ddff3d4384ed0528fad59c64c007e7">setTimeActReborn</a>(const double64_t time)</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/da0/a00951.php#ac79b1837862d7a98130ce020023445fa">setTimeActRegen</a>(const double64_t time)</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a85f16baaef599076976b034d31ac7fec">setTimePrecReborn</a>(const double64_t time)</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a5d8126cf2cf5f72e8a58f1e97071806f">setTimePrecRegen</a>(const double64_t time)</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a2a00e0217550c3b79434659e04d40aef">setW</a>(double64_t w)</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#abbaabb4c71f560de8c85a859c11dd57a">setX</a>(double64_t x)</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a3e1fc3a4ee923891fa0c523f129c45af">setY</a>(double64_t y)</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a08c1de8034f9e3985a24dd78d37a3d44">setZ</a>(double64_t z)</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a1fc1900b7667afcef8a6841a13fd06ee">turn</a>(double64_t na)</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a10b4b5c4cd47da89e672c64c41b23162">turnLeft</a>()</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a4f7cef1423cf575fabafa2143a588788">turnRight</a>()</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/d40/a00959.php#a3e31fc96bd37fc2a8811ecfe600c62a0">untarget</a>()</td><td class="entry"><a class="el" href="../../db/d40/a00959.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d95/a00779.php#a18d820cdedb08f543b2d3a0fd83e7f72">~Animal</a>()</td><td class="entry"><a class="el" href="../../d3/d95/a00779.php">mcd::Animal</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d0c/a00783.php#a0a75a4c7e0556ec237ce6d526d12c2e1">~Ant</a>()</td><td class="entry"><a class="el" href="../../dc/d0c/a00783.php">mcd::Ant</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d2/d5e/a00915.php#a17bb565b03902a28211f8609ac04d01b">~Contraption</a>()</td><td class="entry"><a class="el" href="../../d2/d5e/a00915.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/da0/a00951.php#a0b92a99013b871922ff61e0e4eccb4a5">~Entity</a>()</td><td class="entry"><a class="el" href="../../dc/da0/a00951.php">mcd::Entity</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d40/a00959.php#a15a43b724736b8e509e9767231d3c8c6">~Hostile</a>()</td><td class="entry"><a class="el" href="../../db/d40/a00959.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dc/d28/a00223.php">mcd</a></li><li class="navelem"><a class="el" href="../../de/d42/a00780.php">Arguments</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

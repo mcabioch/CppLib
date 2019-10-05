@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::PathfindingDijkstra Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 11:22:31 for C++ by";
+				$text = "Generated on Fri Oct 4 2019 16:27:33 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d3/d08/a01018.php','../../');});
+$(document).ready(function(){initNavTree('d1/dac/a01015.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,41 +89,184 @@ $(document).ready(function(){initNavTree('d3/d08/a01018.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d4/d45/a01012.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::PlayerAbstraction&lt; PlayerParent &gt; Member List</div>  </div>
+<div class="title">mcd::PathfindingDijkstra Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d08/a01018.php#ae561b7817c64610317799205afa306cd">_experience</a></td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d08/a01018.php#a3800d1590d75f762d41be6349556707d">_experienceMax</a></td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d08/a01018.php#abffa7d0ae3461370c932f0732367c93b">_init</a></td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d08/a01018.php#aee72e21c73d5bbf23c831514cd6cd58b">_losted</a></td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d08/a01018.php#ad9199142db686c7745b21429e7061823">_mail</a></td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d08/a01018.php#a005074efa352510f2dc316404195946c">_paused</a></td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d08/a01018.php#af4b6c4845dcc12c9feed1910e7de9334">getExperience</a>() const</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d08/a01018.php#a3d9f0332994725fceb7f785fd83e1802">getExperienceMax</a>() const</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d08/a01018.php#ada35a68939571761734d82bf83e6c634">getMail</a>() const</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d08/a01018.php#abdb489c22b76cb09daefb8f05b2f515c">isInit</a>() const</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d08/a01018.php#ae441783e58a888696f8dc24f4cdfcce5">isLost</a>() const</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d08/a01018.php#a81a1ea7b3b306b10af787c353c92cc2e">isPaused</a>() const</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d08/a01018.php#a7582710c11a7b92d9912f414a5296975">lost</a>()</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d08/a01018.php#a57f10ce6fa33a36671c750dd68dc1a13">pause</a>()</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d08/a01018.php#acd7472274e5fd10845893208d604617f">PlayerAbstraction</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d08/a01018.php#ac6d60013def2f34160fda9a990cf2da5">printInfos</a>(std::ostream &amp;stream) const override</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d08/a01018.php#a4670bc4130ffbdd8fd198ab020a7ffe3">resume</a>()</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d08/a01018.php#ac4a98e2f186ed9702f90362a158a9f2f">retreive</a>()</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d08/a01018.php#a368cb45cbd8f4bcd470628f4d0783b07">setExperience</a>(const double64_t &amp;experience)</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d08/a01018.php#a7e2dc719465b4100436d08def34378f4">setExperienceMax</a>(const double64_t &amp;experienceMax)</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d08/a01018.php#ac6441d9b85821e4e20639fe5082795a5">setMail</a>(const std::string &amp;mail)</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d08/a01018.php#abde0c45c79e9cb030711f77d73fdc5a8">~PlayerAbstraction</a>()</td><td class="entry"><a class="el" href="../../d3/d08/a01018.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>An implementation of the Dijkstra algorithm.  
+ <a href="../../d1/dac/a01015.php#details">More...</a></p>
+
+<p><code>#include &lt;PathfindingDijkstra.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::PathfindingDijkstra:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/d56/a01014.png" border="0" usemap="#mcd_1_1PathfindingDijkstra_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1PathfindingDijkstra_inherit__map" id="mcd_1_1PathfindingDijkstra_inherit__map">
+<area shape="rect" id="node2" href="../../d6/d36/a01011.php" title="A class to implement some pathfinding algorithms. " alt="" coords="28,5,148,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::PathfindingDijkstra:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/d59/a01013.png" border="0" usemap="#mcd_1_1PathfindingDijkstra_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1PathfindingDijkstra_coll__map" id="mcd_1_1PathfindingDijkstra_coll__map">
+<area shape="rect" id="node2" href="../../d6/d36/a01011.php" title="A class to implement some pathfinding algorithms. " alt="" coords="1107,64,1227,91"/>
+<area shape="rect" id="node3" href="../../d6/d8d/a01007.php" title="A class to manage a path computed by the map. " alt="" coords="727,5,809,32"/>
+<area shape="rect" id="node4" href="../../dc/d10/a01003.php" title="A node for the path. " alt="" coords="149,64,300,91"/>
+<area shape="rect" id="node5" href="../../d6/dcd/a01023.php" title="A class to group every pathfinding problems in one way to use it. " alt="" coords="833,167,1001,193"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="163,220,286,247"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="167,144,283,171"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a8e8246fb84c8dd3bf9e522f3fca7b39e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dac/a01015.php#a8e8246fb84c8dd3bf9e522f3fca7b39e">PathfindingDijkstra</a> (const <a class="el" href="../../d6/dcd/a01023.php">PathfindingProblem</a> &amp;problem, const <a class="el" href="../../dc/d10/a01003.php">PathfindingNode</a> &amp;start, const <a class="el" href="../../dc/d10/a01003.php">PathfindingNode</a> &amp;end)</td></tr>
+<tr class="memdesc:a8e8246fb84c8dd3bf9e522f3fca7b39e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a8e8246fb84c8dd3bf9e522f3fca7b39e">More...</a><br /></td></tr>
+<tr class="separator:a8e8246fb84c8dd3bf9e522f3fca7b39e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae9b7cf4f57d826b9f7e65d9410b572e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dac/a01015.php#aae9b7cf4f57d826b9f7e65d9410b572e">~PathfindingDijkstra</a> ()</td></tr>
+<tr class="separator:aae9b7cf4f57d826b9f7e65d9410b572e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b2872207d45871fcbcfa01e216090dd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d6/d8d/a01007.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dac/a01015.php#a7b2872207d45871fcbcfa01e216090dd">createPath</a> () override</td></tr>
+<tr class="memdesc:a7b2872207d45871fcbcfa01e216090dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the path to follow.  <a href="#a7b2872207d45871fcbcfa01e216090dd">More...</a><br /></td></tr>
+<tr class="separator:a7b2872207d45871fcbcfa01e216090dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a01011"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a01011')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d6/d36/a01011.php">mcd::Pathfinding</a></td></tr>
+<tr class="memitem:aca54568ec2e832b3f08ef6f86c7184f2 inherit pub_methods_a01011"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d36/a01011.php#aca54568ec2e832b3f08ef6f86c7184f2">Pathfinding</a> (const <a class="el" href="../../d6/dcd/a01023.php">PathfindingProblem</a> &amp;problem, const <a class="el" href="../../dc/d10/a01003.php">PathfindingNode</a> &amp;start, const <a class="el" href="../../dc/d10/a01003.php">PathfindingNode</a> &amp;end)</td></tr>
+<tr class="memdesc:aca54568ec2e832b3f08ef6f86c7184f2 inherit pub_methods_a01011"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d6/d36/a01011.php#aca54568ec2e832b3f08ef6f86c7184f2">More...</a><br /></td></tr>
+<tr class="separator:aca54568ec2e832b3f08ef6f86c7184f2 inherit pub_methods_a01011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cb06bc7729ad6371ad3380e0fd54f51 inherit pub_methods_a01011"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d36/a01011.php#a4cb06bc7729ad6371ad3380e0fd54f51">~Pathfinding</a> ()</td></tr>
+<tr class="separator:a4cb06bc7729ad6371ad3380e0fd54f51 inherit pub_methods_a01011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac59e95d415c520941c5bac355537df7f inherit pub_methods_a01011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d8d/a01007.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d36/a01011.php#ac59e95d415c520941c5bac355537df7f">getPath</a> ()</td></tr>
+<tr class="memdesc:ac59e95d415c520941c5bac355537df7f inherit pub_methods_a01011"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the path to follow.  <a href="../../d6/d36/a01011.php#ac59e95d415c520941c5bac355537df7f">More...</a><br /></td></tr>
+<tr class="separator:ac59e95d415c520941c5bac355537df7f inherit pub_methods_a01011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_a01011"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a01011')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d6/d36/a01011.php">mcd::Pathfinding</a></td></tr>
+<tr class="memitem:a8432f285b7015512efbe0a9a47bc76d7 inherit pro_attribs_a01011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/dcd/a01023.php">PathfindingProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d36/a01011.php#a8432f285b7015512efbe0a9a47bc76d7">_problem</a></td></tr>
+<tr class="separator:a8432f285b7015512efbe0a9a47bc76d7 inherit pro_attribs_a01011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc13e2aa513059f91865021b9b13eed inherit pro_attribs_a01011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d10/a01003.php">PathfindingNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d36/a01011.php#a6fc13e2aa513059f91865021b9b13eed">_start</a></td></tr>
+<tr class="separator:a6fc13e2aa513059f91865021b9b13eed inherit pro_attribs_a01011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f42595f214b1d2328d40c7fcf371626 inherit pro_attribs_a01011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d10/a01003.php">PathfindingNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d36/a01011.php#a6f42595f214b1d2328d40c7fcf371626">_end</a></td></tr>
+<tr class="separator:a6f42595f214b1d2328d40c7fcf371626 inherit pro_attribs_a01011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa7ec4aec9e8ed4aba2c3110ca86273f inherit pro_attribs_a01011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d8d/a01007.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d36/a01011.php#afa7ec4aec9e8ed4aba2c3110ca86273f">_path</a></td></tr>
+<tr class="separator:afa7ec4aec9e8ed4aba2c3110ca86273f inherit pro_attribs_a01011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>An implementation of the Dijkstra algorithm. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a8e8246fb84c8dd3bf9e522f3fca7b39e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e8246fb84c8dd3bf9e522f3fca7b39e">&#9670;&nbsp;</a></span>PathfindingDijkstra()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::PathfindingDijkstra::PathfindingDijkstra </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/dcd/a01023.php">PathfindingProblem</a> &amp;&#160;</td>
+          <td class="paramname"><em>problem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dc/d10/a01003.php">PathfindingNode</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dc/d10/a01003.php">PathfindingNode</a> &amp;&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">problem</td><td>The problem to solve </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start</td><td>The start point index </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end</td><td>The end point index </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aae9b7cf4f57d826b9f7e65d9410b572e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae9b7cf4f57d826b9f7e65d9410b572e">&#9670;&nbsp;</a></span>~PathfindingDijkstra()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::PathfindingDijkstra::~PathfindingDijkstra </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7b2872207d45871fcbcfa01e216090dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b2872207d45871fcbcfa01e216090dd">&#9670;&nbsp;</a></span>createPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../d6/d8d/a01007.php">Path</a> mcd::PathfindingDijkstra::createPath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute the path to follow. </p>
+
+<p>Implements <a class="el" href="../../d6/d36/a01011.php#a9a82c779fba2fba8d5adbd1c22ea8c0d">mcd::Pathfinding</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d7/d9a/a00152.php">PathfindingDijkstra.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../dd/d2d/a00229.php">mcd</a></li><li class="navelem"><a class="el" href="../../d1/dac/a01015.php">PathfindingDijkstra</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

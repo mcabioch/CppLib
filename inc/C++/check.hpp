@@ -8,7 +8,6 @@
 #ifndef HEADER_CPP_CHECK
 #define HEADER_CPP_CHECK
 
-#include <utility>
 #include <memory>
 #include <chrono>
 

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Sep 26 2019 23:42:10 for C++ by";
+				$text = "Generated on Fri Oct 4 2019 16:27:33 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,13 +90,15 @@ $(document).ready(function(){initNavTree('da/de6/a00855.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Check::is_printable&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::Check::has_ostream_operator&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../da/de6/a00855.php">mcd::Check::is_printable&lt; T &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../da/de6/a00855.php">mcd::Check::has_ostream_operator&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../da/de6/a00855.php#ae62c92a381f9915ca93aeb48aadeeebc">value</a></td><td class="entry"><a class="el" href="../../da/de6/a00855.php">mcd::Check::is_printable&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/de6/a00855.php#a62ae1424b1e158747fdc66486da0f519">has_ostream_operator</a>()</td><td class="entry"><a class="el" href="../../da/de6/a00855.php">mcd::Check::has_ostream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/de6/a00855.php#ad1cf88abd079ce2df64d1d4f8e256a8a">value</a></td><td class="entry"><a class="el" href="../../da/de6/a00855.php">mcd::Check::has_ostream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/de6/a00855.php#a46e086e27236a65d185a87b1d20b4139">~has_ostream_operator</a>()</td><td class="entry"><a class="el" href="../../da/de6/a00855.php">mcd::Check::has_ostream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

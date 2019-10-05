@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: NotInstantiable.hpp File Reference</title>
+		<title>C++: NotCopyable.hpp File Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Oct 3 2019 19:33:52 for C++ by";
+				$text = "Generated on Fri Oct 4 2019 16:27:33 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,77 +93,77 @@ $(document).ready(function(){initNavTree('d7/d06/a00131.php','../../');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">NotInstantiable.hpp File Reference</div>  </div>
+<div class="title">NotCopyable.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/de8/a00133.png" border="0" usemap="#NotInstantiable_8hppdep" alt=""/></div>
-<map name="NotInstantiable_8hppdep" id="NotInstantiable_8hppdep">
+<div class="center"><img src="../../d0/de8/a00133.png" border="0" usemap="#NotCopyable_8hppdep" alt=""/></div>
+<map name="NotCopyable_8hppdep" id="NotCopyable_8hppdep">
 <area shape="rect" id="node2" href="../../d9/d77/a00095.php" title="includes.hpp" alt="" coords="301,80,396,107"/>
 <area shape="rect" id="node3" href="../../d5/df9/a00044.php" title="Clock.hpp" alt="" coords="5,304,87,331"/>
 <area shape="rect" id="node24" href="../../dc/dee/a00053.php" title="ConsoleTable.hpp" alt="" coords="56,229,183,256"/>
 <area shape="rect" id="node25" href="../../de/de1/a00065.php" title="Date.hpp" alt="" coords="135,155,210,181"/>
 <area shape="rect" id="node27" href="../../d1/d44/a00098.php" title="IOConfig.hpp" alt="" coords="297,304,395,331"/>
-<area shape="rect" id="node28" href="../../d2/df5/a00137.php" title="Path.hpp" alt="" coords="386,155,461,181"/>
-<area shape="rect" id="node33" href="../../da/d1e/a00149.php" title="PathfindingException.hpp" alt="" coords="485,155,655,181"/>
-<area shape="rect" id="node34" href="../../d5/dcb/a00170.php" title="Referenced.hpp" alt="" coords="547,379,662,405"/>
-<area shape="rect" id="node35" href="../../d9/dd0/a00191.php" title="Threadable.hpp" alt="" coords="688,379,799,405"/>
-<area shape="rect" id="node38" href="../../dc/d57/a00194.php" title="Time.hpp" alt="" coords="235,155,311,181"/>
+<area shape="rect" id="node28" href="../../d7/dce/a00143.php" title="Path.hpp" alt="" coords="386,155,461,181"/>
+<area shape="rect" id="node33" href="../../d3/df8/a00155.php" title="PathfindingException.hpp" alt="" coords="485,155,655,181"/>
+<area shape="rect" id="node34" href="../../d5/de9/a00176.php" title="Referenced.hpp" alt="" coords="547,379,662,405"/>
+<area shape="rect" id="node35" href="../../de/db1/a00197.php" title="Threadable.hpp" alt="" coords="688,379,799,405"/>
+<area shape="rect" id="node38" href="../../d3/db1/a00200.php" title="Time.hpp" alt="" coords="235,155,311,181"/>
 <area shape="rect" id="node4" href="../../d0/d89/a00071.php" title="defines.hpp" alt="" coords="336,528,425,555"/>
 <area shape="rect" id="node5" href="../../df/d03/a00062.php" title="cryptage.hpp" alt="" coords="223,603,320,629"/>
-<area shape="rect" id="node22" href="../../d0/dc2/a00104.php" title="Map.hpp" alt="" coords="345,603,417,629"/>
-<area shape="rect" id="node23" href="../../de/d79/a00203.php" title="Tree.hpp" alt="" coords="441,603,515,629"/>
+<area shape="rect" id="node22" href="../../df/d98/a00107.php" title="Map.hpp" alt="" coords="345,603,417,629"/>
+<area shape="rect" id="node23" href="../../d3/de5/a00209.php" title="Tree.hpp" alt="" coords="441,603,515,629"/>
 <area shape="rect" id="node6" href="../../d4/d8c/a00035.php" title="C++.hpp" alt="" coords="344,677,417,704"/>
 <area shape="rect" id="node7" href="../../d9/d2e/a00056.php" title="Contraption.hpp" alt="" coords="277,752,391,779"/>
 <area shape="rect" id="node21" href="../../d1/dc1/a00092.php" title="Identifier.hpp" alt="" coords="376,1125,473,1152"/>
 <area shape="rect" id="node8" href="../../d1/d09/a00077.php" title="Entity.hpp" alt="" coords="180,827,261,853"/>
-<area shape="rect" id="node19" href="../../de/d76/a00134.php" title="Object.hpp" alt="" coords="299,827,385,853"/>
+<area shape="rect" id="node19" href="../../d2/df5/a00137.php" title="Object.hpp" alt="" coords="299,827,385,853"/>
 <area shape="rect" id="node9" href="../../db/dab/a00089.php" title="Hostile.hpp" alt="" coords="66,901,154,928"/>
-<area shape="rect" id="node16" href="../../d3/dd5/a00215.php" title="Vegetal.hpp" alt="" coords="175,976,266,1003"/>
+<area shape="rect" id="node16" href="../../dd/d52/a00221.php" title="Vegetal.hpp" alt="" coords="175,976,266,1003"/>
 <area shape="rect" id="node10" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="37,976,124,1003"/>
 <area shape="rect" id="node11" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="39,1051,106,1077"/>
 <area shape="rect" id="node12" href="../../db/db6/a00074.php" title="Entities.hpp" alt="" coords="257,1125,347,1152"/>
-<area shape="rect" id="node13" href="../../d6/d7d/a00161.php" title="PlayerAbstraction.hpp" alt="" coords="229,1200,380,1227"/>
-<area shape="rect" id="node14" href="../../d6/db8/a00158.php" title="Player.hpp" alt="" coords="319,1275,403,1301"/>
+<area shape="rect" id="node13" href="../../dc/de6/a00167.php" title="PlayerAbstraction.hpp" alt="" coords="229,1200,380,1227"/>
+<area shape="rect" id="node14" href="../../db/ddf/a00164.php" title="Player.hpp" alt="" coords="319,1275,403,1301"/>
 <area shape="rect" id="node15" href="../../d8/d41/a00038.php" title="C++Entities.hpp" alt="" coords="302,1349,419,1376"/>
-<area shape="rect" id="node17" href="../../dc/dfe/a00125.php" title="Mushroom.hpp" alt="" coords="131,1051,239,1077"/>
-<area shape="rect" id="node18" href="../../d3/df8/a00155.php" title="Plant.hpp" alt="" coords="263,1051,341,1077"/>
-<area shape="rect" id="node20" href="../../db/dd9/a00179.php" title="Stone.hpp" alt="" coords="309,901,391,928"/>
+<area shape="rect" id="node17" href="../../d1/d88/a00128.php" title="Mushroom.hpp" alt="" coords="131,1051,239,1077"/>
+<area shape="rect" id="node18" href="../../d6/d7d/a00161.php" title="Plant.hpp" alt="" coords="263,1051,341,1077"/>
+<area shape="rect" id="node20" href="../../de/df3/a00185.php" title="Stone.hpp" alt="" coords="309,901,391,928"/>
 <area shape="rect" id="node26" href="../../da/d24/a00068.php" title="DateTime.hpp" alt="" coords="207,229,311,256"/>
-<area shape="rect" id="node29" href="../../d7/d9a/a00152.php" title="PathfindingProblem.hpp" alt="" coords="395,229,555,256"/>
-<area shape="rect" id="node30" href="../../d5/db1/a00140.php" title="Pathfinding.hpp" alt="" coords="419,304,531,331"/>
-<area shape="rect" id="node31" href="../../d9/db6/a00146.php" title="PathfindingDijkstra.hpp" alt="" coords="365,379,522,405"/>
-<area shape="rect" id="node32" href="../../d7/dce/a00143.php" title="PathfindingAlgorithms.hpp" alt="" coords="356,453,531,480"/>
+<area shape="rect" id="node29" href="../../d6/db8/a00158.php" title="PathfindingProblem.hpp" alt="" coords="395,229,555,256"/>
+<area shape="rect" id="node30" href="../../d9/db6/a00146.php" title="Pathfinding.hpp" alt="" coords="419,304,531,331"/>
+<area shape="rect" id="node31" href="../../d7/d9a/a00152.php" title="PathfindingDijkstra.hpp" alt="" coords="365,379,522,405"/>
+<area shape="rect" id="node32" href="../../da/d1e/a00149.php" title="PathfindingAlgorithms.hpp" alt="" coords="356,453,531,480"/>
 <area shape="rect" id="node36" href="../../d4/dee/a00008.php" title="Args.hpp" alt="" coords="606,453,681,480"/>
-<area shape="rect" id="node37" href="../../d3/db1/a00200.php" title="Timer.hpp" alt="" coords="705,453,785,480"/>
+<area shape="rect" id="node37" href="../../d5/df1/a00206.php" title="Timer.hpp" alt="" coords="705,453,785,480"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/a00989.php">mcd::NotInstantiable</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Let a class being only an abstract class.  <a href="../../d4/d95/a00989.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2f/a00991.php">mcd::NotCopyable</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to let some other not to be copyable.  <a href="../../df/d2f/a00991.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:dc/d28/a00223"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a00223.php">mcd</a></td></tr>
+<tr class="memitem:dd/d2d/a00229"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2d/a00229.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Created : Sunday September, 29 2019 11:20:17 </dd>
+<dl class="section date"><dt>Date</dt><dd>Created : Monday August, 06 2018 06:55:14 </dd>
 <dd>
-Last modification : Sunday September, 29 2019 </dd></dl>
+Last modification : September, 29 2019 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_bfccd401955b95cf8c75461437045ac0.php">inc</a></li><li class="navelem"><a class="el" href="../../dir_2ce2ad1ea5ded593884489da6d66e532.php">C++</a></li><li class="navelem"><a class="el" href="../../d7/d06/a00131.php">NotInstantiable.hpp</a></li>
+		<li class="navelem"><a class="el" href="../../dir_bfccd401955b95cf8c75461437045ac0.php">inc</a></li><li class="navelem"><a class="el" href="../../dir_2ce2ad1ea5ded593884489da6d66e532.php">C++</a></li><li class="navelem"><a class="el" href="../../d7/d06/a00131.php">NotCopyable.hpp</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

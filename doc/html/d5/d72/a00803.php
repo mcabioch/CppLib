@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::t_queue&lt; T, Container &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 11:22:31 for C++ by";
+				$text = "Generated on Fri Oct 4 2019 16:27:33 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d0/dad/a00806.php','../../');});
+$(document).ready(function(){initNavTree('d5/d72/a00803.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,20 +89,155 @@ $(document).ready(function(){initNavTree('d0/dad/a00806.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../df/d0e/a00800.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_array&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::t_queue&lt; T, Container &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d0/dad/a00806.php">mcd::Check::is_array&lt; T &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/dad/a00806.php#a0158c050746b586a1c8e800a68968879">value</a></td><td class="entry"><a class="el" href="../../d0/dad/a00806.php">mcd::Check::is_array&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<p>An thread-safe implementation of queue.  
+ <a href="../../d5/d72/a00803.php#details">More...</a></p>
+
+<p><code>#include &lt;array.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::t_queue&lt; T, Container &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/dcd/a00802.png" border="0" usemap="#mcd_1_1t__queue_3_01T_00_01Container_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1t__queue_3_01T_00_01Container_01_4_inherit__map" id="mcd_1_1t__queue_3_01T_00_01Container_01_4_inherit__map">
+<area shape="rect" id="node2" href="../../d0/d7d/a00799.php" title="An implementation of std::queue. " alt="" coords="11,80,197,107"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="15,5,193,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::t_queue&lt; T, Container &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/d0a/a00801.png" border="0" usemap="#mcd_1_1t__queue_3_01T_00_01Container_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1t__queue_3_01T_00_01Container_01_4_coll__map" id="mcd_1_1t__queue_3_01T_00_01Container_01_4_coll__map">
+<area shape="rect" id="node2" href="../../d0/d7d/a00799.php" title="An implementation of std::queue. " alt="" coords="11,171,197,197"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="15,95,193,121"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a6113ab263c40412573cb17961892e4eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d72/a00803.php#a6113ab263c40412573cb17961892e4eb">t_queue</a> ()</td></tr>
+<tr class="separator:a6113ab263c40412573cb17961892e4eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7108e587ce260901f5fdac365db13fab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d72/a00803.php#a7108e587ce260901f5fdac365db13fab">push</a> (const T &amp;value)</td></tr>
+<tr class="separator:a7108e587ce260901f5fdac365db13fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ccba4c88decd735670f069077bce0b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d72/a00803.php#a7ccba4c88decd735670f069077bce0b0">push</a> (T &amp;&amp;value)</td></tr>
+<tr class="separator:a7ccba4c88decd735670f069077bce0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00799"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00799')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d0/d7d/a00799.php">mcd::queue&lt; T, Container &gt;</a></td></tr>
+<tr class="memitem:a0566f226253ef02ac813bad965f647b9 inherit pub_methods_a00799"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7d/a00799.php#a0566f226253ef02ac813bad965f647b9">queue</a> ()</td></tr>
+<tr class="separator:a0566f226253ef02ac813bad965f647b9 inherit pub_methods_a00799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c9c5803f41517e0b1b8d75441cd4b09 inherit pub_methods_a00799"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7d/a00799.php#a9c9c5803f41517e0b1b8d75441cd4b09">pop</a> ()</td></tr>
+<tr class="memdesc:a9c9c5803f41517e0b1b8d75441cd4b09 inherit pub_methods_a00799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase the first element of the queue.  <a href="../../d0/d7d/a00799.php#a9c9c5803f41517e0b1b8d75441cd4b09">More...</a><br /></td></tr>
+<tr class="separator:a9c9c5803f41517e0b1b8d75441cd4b09 inherit pub_methods_a00799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a148295001e6effa1aa1217af766e021f inherit pub_methods_a00799"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7d/a00799.php#a148295001e6effa1aa1217af766e021f">get</a> ()</td></tr>
+<tr class="memdesc:a148295001e6effa1aa1217af766e021f inherit pub_methods_a00799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the first element of the queue and erase it from the queue.  <a href="../../d0/d7d/a00799.php#a148295001e6effa1aa1217af766e021f">More...</a><br /></td></tr>
+<tr class="separator:a148295001e6effa1aa1217af766e021f inherit pub_methods_a00799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;class T, class Container = std::deque&lt;T&gt;&gt;<br />
+class mcd::t_queue&lt; T, Container &gt;</h3>
+
+<p>An thread-safe implementation of queue. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a6113ab263c40412573cb17961892e4eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6113ab263c40412573cb17961892e4eb">&#9670;&nbsp;</a></span>t_queue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d72/a00803.php">mcd::t_queue</a>&lt; T, Container &gt;::<a class="el" href="../../d5/d72/a00803.php">t_queue</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7108e587ce260901f5fdac365db13fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7108e587ce260901f5fdac365db13fab">&#9670;&nbsp;</a></span>push() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d5/d72/a00803.php">mcd::t_queue</a>&lt; T, Container &gt;::push </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ccba4c88decd735670f069077bce0b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ccba4c88decd735670f069077bce0b0">&#9670;&nbsp;</a></span>push() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d5/d72/a00803.php">mcd::t_queue</a>&lt; T, Container &gt;::push </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../da/d45/a00011.php">array.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../dd/d2d/a00229.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/d72/a00803.php">t_queue</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

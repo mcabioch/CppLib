@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Oct 3 2019 19:33:53 for C++ by";
+				$text = "Generated on Fri Oct 4 2019 16:27:33 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,19 +93,19 @@ $(document).ready(function(){initNavTree('functions_b.php','');});
 
 <h3><a id="index_b"></a>- b -</h3><ul>
 <li>Big()
-: <a class="el" href="d7/d0a/a00801.php#a9bf22e73a5a3631f06200da9a86e926b">mcd::Big</a>
+: <a class="el" href="df/dc7/a00807.php#a9bf22e73a5a3631f06200da9a86e926b">mcd::Big</a>
 </li>
 <li>Binary()
-: <a class="el" href="dd/d7e/a00809.php#a29b9b7a89bae0c41f0ff5933406b8f4d">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d8/d2d/a00815.php#a29b9b7a89bae0c41f0ff5933406b8f4d">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>block
-: <a class="el" href="dd/d7a/a00921.php#aa50ce5e9d8271080d4dd30b9afe50e89">mcd::SHA2</a>
+: <a class="el" href="dd/d98/a00927.php#aa50ce5e9d8271080d4dd30b9afe50e89">mcd::SHA2</a>
 </li>
 <li>BLOCK_SIZE
-: <a class="el" href="dd/d7a/a00921.php#ae41078716ddc513c6af9a825448cbabd">mcd::SHA2</a>
+: <a class="el" href="dd/d98/a00927.php#ae41078716ddc513c6af9a825448cbabd">mcd::SHA2</a>
 </li>
 <li>bot()
-: <a class="el" href="d2/df3/a01085.php#a2beb84069e438adcccfa4b6ed9794c0c">mcd::Point</a>
+: <a class="el" href="d6/d0d/a01091.php#a2beb84069e438adcccfa4b6ed9794c0c">mcd::Point</a>
 </li>
 </ul>
 </div><!-- contents -->

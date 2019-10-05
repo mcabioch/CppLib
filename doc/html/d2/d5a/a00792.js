@@ -1,6 +1,6 @@
 var a00792 =
 [
-    [ "queue", "d2/d5a/a00792.php#a0566f226253ef02ac813bad965f647b9", null ],
-    [ "get", "d2/d5a/a00792.php#a148295001e6effa1aa1217af766e021f", null ],
-    [ "pop", "d2/d5a/a00792.php#a9c9c5803f41517e0b1b8d75441cd4b09", null ]
+    [ "t_stack", "d2/d5a/a00792.php#aa4c2b6ebb0b904372919f1c9d0e8a7fa", null ],
+    [ "push", "d2/d5a/a00792.php#ac52e7cd746a8da37bc0d9aba1b44a12a", null ],
+    [ "push", "d2/d5a/a00792.php#a366f9af743a2aa515c828da000add01a", null ]
 ];

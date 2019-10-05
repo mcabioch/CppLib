@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::IOConfig Class Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Oct 3 2019 15:39:38 for C++ by";
+				$text = "Generated on Fri Oct 4 2019 16:27:33 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('dd/d11/a00960.php','../../');});
+$(document).ready(function(){initNavTree('de/dad/a00963.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,84 +89,30 @@ $(document).ready(function(){initNavTree('dd/d11/a00960.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d1/df7/a00957.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::IOConfig Class Reference</div>  </div>
+<div class="title">mcd::Identifier Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to configure inputs and outputs.  
- <a href="../../dd/d11/a00960.php#details">More...</a></p>
-
-<p><code>#include &lt;IOConfig.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a8638a62e7967b56a444ee42d3ea55878"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d11/a00960.php#a8638a62e7967b56a444ee42d3ea55878">IOConfig</a> ()</td></tr>
-<tr class="memdesc:a8638a62e7967b56a444ee42d3ea55878"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a8638a62e7967b56a444ee42d3ea55878">More...</a><br /></td></tr>
-<tr class="separator:a8638a62e7967b56a444ee42d3ea55878"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6a34fca3d338ef0498db6353ac5ece6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d11/a00960.php#ad6a34fca3d338ef0498db6353ac5ece6">~IOConfig</a> ()</td></tr>
-<tr class="separator:ad6a34fca3d338ef0498db6353ac5ece6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to configure inputs and outputs. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8638a62e7967b56a444ee42d3ea55878"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8638a62e7967b56a444ee42d3ea55878">&#9670;&nbsp;</a></span>IOConfig()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::IOConfig::IOConfig </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The constructor of the class. </p>
-
-</div>
-</div>
-<a id="ad6a34fca3d338ef0498db6353ac5ece6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6a34fca3d338ef0498db6353ac5ece6">&#9670;&nbsp;</a></span>~IOConfig()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual mcd::IOConfig::~IOConfig </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d1/d44/a00098.php">IOConfig.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../de/dad/a00963.php">mcd::Identifier</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../de/dad/a00963.php#a6920412818f4d8a4478771fb767a2d07">_id</a></td><td class="entry"><a class="el" href="../../de/dad/a00963.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/dad/a00963.php#a95d479399de1b046aff00e83210b67ea">_password</a></td><td class="entry"><a class="el" href="../../de/dad/a00963.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/dad/a00963.php#a4a002c57b507ef0c744135eacfb82b6f">_username</a></td><td class="entry"><a class="el" href="../../de/dad/a00963.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/dad/a00963.php#abc0c02ec636a63cf2086e6e98f194b63">getId</a>() const</td><td class="entry"><a class="el" href="../../de/dad/a00963.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/dad/a00963.php#a0dcb443f68200102b855f77878754af9">getPassword</a>() const</td><td class="entry"><a class="el" href="../../de/dad/a00963.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/dad/a00963.php#a6108c8a63af7595ff4d9a4f2ad868b1e">getUsername</a>() const</td><td class="entry"><a class="el" href="../../de/dad/a00963.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/dad/a00963.php#a1496891d2323d1023ebfd086b84faf8d">Identifier</a>()</td><td class="entry"><a class="el" href="../../de/dad/a00963.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/dad/a00963.php#a593e0be0e4c8e17b22507e7f7d933ded">setId</a>(size_t id)</td><td class="entry"><a class="el" href="../../de/dad/a00963.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/dad/a00963.php#a5b0a0e637d443935ae770bf90b652dea">setPassword</a>(const std::string &amp;password)</td><td class="entry"><a class="el" href="../../de/dad/a00963.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/dad/a00963.php#a7487ac9cac4531aad529994927c0e69f">setUsername</a>(const std::string &amp;username)</td><td class="entry"><a class="el" href="../../de/dad/a00963.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/dad/a00963.php#a87dbdb0f9b391d6a78d61463e8823628">~Identifier</a>()</td><td class="entry"><a class="el" href="../../de/dad/a00963.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dc/d28/a00223.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d11/a00960.php">IOConfig</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

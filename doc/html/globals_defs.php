@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Oct 3 2019 19:33:53 for C++ by";
+				$text = "Generated on Fri Oct 4 2019 16:27:33 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('globals_defs.php','');});
 <div class="contents">
 &#160;<ul>
 <li>ALIAS_TEMPLATE_FUNCTION
-: <a class="el" href="d4/d3a/a00101.php#a4a9a280c3a601b98a7d1694f622a269c">macro.hpp</a>
+: <a class="el" href="d0/dc2/a00104.php#a4a9a280c3a601b98a7d1694f622a269c">macro.hpp</a>
 </li>
 <li>BIG_E
 : <a class="el" href="d6/d5b/a00026.php#aa7b6d263fd9b5d3381ca7e6af68a1ac9">Big_Maths.hpp</a>
@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('globals_defs.php','');});
 : <a class="el" href="d6/d5b/a00026.php#abded7950b004fc558461964290e7573c">Big_Maths.hpp</a>
 </li>
 <li>COMMA
-: <a class="el" href="d3/de5/a00209.php#aa2f49001be13949a16a57e6c99ab00ad">UsefullDefines.hpp</a>
+: <a class="el" href="d3/dd5/a00215.php#aa2f49001be13949a16a57e6c99ab00ad">UsefullDefines.hpp</a>
 </li>
 <li>debug_elog
 : <a class="el" href="da/dec/a00080.php#abfef935e08c6c7f3d9247920b01659b1">errors.hpp</a>
@@ -127,37 +127,37 @@ $(document).ready(function(){initNavTree('globals_defs.php','');});
 : <a class="el" href="da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">errors.hpp</a>
 </li>
 <li>MUTEX_CONST_RECREATE
-: <a class="el" href="db/ddf/a00164.php#af882b89ff60874679a5db7856d4130f2">pointers.hpp</a>
+: <a class="el" href="d5/dcb/a00170.php#af882b89ff60874679a5db7856d4130f2">pointers.hpp</a>
 </li>
 <li>MUTEX_CONST_RECREATE_ARGS
-: <a class="el" href="db/ddf/a00164.php#a37add3fecd1208aa0e5fb744bbb8b838">pointers.hpp</a>
+: <a class="el" href="d5/dcb/a00170.php#a37add3fecd1208aa0e5fb744bbb8b838">pointers.hpp</a>
 </li>
 <li>MUTEX_RECREATE
-: <a class="el" href="db/ddf/a00164.php#a6fbaf936dc811e3422bec35b026f4983">pointers.hpp</a>
+: <a class="el" href="d5/dcb/a00170.php#a6fbaf936dc811e3422bec35b026f4983">pointers.hpp</a>
 </li>
 <li>MUTEX_RECREATE_ARGS
-: <a class="el" href="db/ddf/a00164.php#a8614c85113bf4cfc4be80948688e9f5d">pointers.hpp</a>
+: <a class="el" href="d5/dcb/a00170.php#a8614c85113bf4cfc4be80948688e9f5d">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_CONST_RECREATE
-: <a class="el" href="db/ddf/a00164.php#a017296688d5943266bbe011c59365008">pointers.hpp</a>
+: <a class="el" href="d5/dcb/a00170.php#a017296688d5943266bbe011c59365008">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_CONST_RECREATE_ARGS
-: <a class="el" href="db/ddf/a00164.php#a0cbcd876925de883c4a297851fdc7b4b">pointers.hpp</a>
+: <a class="el" href="d5/dcb/a00170.php#a0cbcd876925de883c4a297851fdc7b4b">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_RECREATE
-: <a class="el" href="db/ddf/a00164.php#a1268e33dd61371fb191a2e753e76f545">pointers.hpp</a>
+: <a class="el" href="d5/dcb/a00170.php#a1268e33dd61371fb191a2e753e76f545">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_RECREATE_ARGS
-: <a class="el" href="db/ddf/a00164.php#a5664112302c26ebee5460b2fcc0a7954">pointers.hpp</a>
+: <a class="el" href="d5/dcb/a00170.php#a5664112302c26ebee5460b2fcc0a7954">pointers.hpp</a>
 </li>
 <li>OS_UNRECOGNIZE
-: <a class="el" href="d3/de5/a00209.php#a921a8364e814a54925abcb8ba8f472bc">UsefullDefines.hpp</a>
+: <a class="el" href="d5/db1/a00140.php#a921a8364e814a54925abcb8ba8f472bc">OsDetection.hpp</a>
 </li>
 <li>THREADABLE
-: <a class="el" href="d9/dd0/a00191.php#a09979566ade438911265d3e17ecc3abc">Threadable.hpp</a>
+: <a class="el" href="de/db1/a00197.php#a09979566ade438911265d3e17ecc3abc">Threadable.hpp</a>
 </li>
 <li>THREADABLE_LOCK
-: <a class="el" href="d9/dd0/a00191.php#a3a0fe346d6bb1356037b21f558e5c308">Threadable.hpp</a>
+: <a class="el" href="de/db1/a00197.php#a3a0fe346d6bb1356037b21f558e5c308">Threadable.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->

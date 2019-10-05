@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Oct 3 2019 19:33:53 for C++ by";
+				$text = "Generated on Fri Oct 4 2019 16:27:33 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,43 +93,43 @@ $(document).ready(function(){initNavTree('functions_func_r.php','');});
 
 <h3><a id="index_r"></a>- r -</h3><ul>
 <li>Referenced()
-: <a class="el" href="d7/d46/a01045.php#a23a4eee18708dae4eff05079a345c375">mcd::Referenced&lt; C &gt;</a>
+: <a class="el" href="d3/d42/a01051.php#a23a4eee18708dae4eff05079a345c375">mcd::Referenced&lt; C &gt;</a>
 </li>
 <li>Reinit()
-: <a class="el" href="db/d18/a00885.php#a551e27ee03f69ab98899f261c3ab89e3">mcd::Reinit</a>
+: <a class="el" href="de/dfc/a00891.php#a551e27ee03f69ab98899f261c3ab89e3">mcd::Reinit</a>
 </li>
 <li>reset()
-: <a class="el" href="d0/d5b/a00933.php#a22f293eaa9698511e9657c60ee1557f7">mcd::Date</a>
-, <a class="el" href="df/d59/a01001.php#a6941e224d3239f1c5aeda5b309aa5c81">mcd::Path</a>
-, <a class="el" href="de/d9e/a01061.php#a94d4610fef5db9db60ca31d7d64230dc">mcd::Time</a>
+: <a class="el" href="dd/d20/a00939.php#a22f293eaa9698511e9657c60ee1557f7">mcd::Date</a>
+, <a class="el" href="d6/d8d/a01007.php#a6941e224d3239f1c5aeda5b309aa5c81">mcd::Path</a>
+, <a class="el" href="d2/d49/a01067.php#a94d4610fef5db9db60ca31d7d64230dc">mcd::Time</a>
 </li>
 <li>resetSim()
-: <a class="el" href="d3/da5/a00973.php#ac8ecf45b42aed2736d04081639b460f6">mcd::Map</a>
+: <a class="el" href="d8/d49/a00979.php#ac8ecf45b42aed2736d04081639b460f6">mcd::Map</a>
 </li>
 <li>restart()
-: <a class="el" href="d1/de7/a00877.php#a3008b7b555fb4e6c3415aec152b5de2d">mcd::Clock</a>
-, <a class="el" href="d0/dc9/a01065.php#affd1240db762eb2d3f125bfdda4aa990">mcd::Timer</a>
+: <a class="el" href="d7/d34/a00883.php#a3008b7b555fb4e6c3415aec152b5de2d">mcd::Clock</a>
+, <a class="el" href="df/d18/a01071.php#affd1240db762eb2d3f125bfdda4aa990">mcd::Timer</a>
 </li>
 <li>restore()
-: <a class="el" href="dc/d2c/a00893.php#a6f731b973f917b6c2f3a04267f12c851">mcd::ConsoleCursor</a>
+: <a class="el" href="d3/d8a/a00899.php#a6f731b973f917b6c2f3a04267f12c851">mcd::ConsoleCursor</a>
 </li>
 <li>resume()
-: <a class="el" href="d0/daa/a01029.php#a4670bc4130ffbdd8fd198ab020a7ffe3">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="de/d26/a01035.php#a4670bc4130ffbdd8fd198ab020a7ffe3">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>retreive()
-: <a class="el" href="d0/daa/a01029.php#ac4a98e2f186ed9702f90362a158a9f2f">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="de/d26/a01035.php#ac4a98e2f186ed9702f90362a158a9f2f">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>reverse()
-: <a class="el" href="df/d59/a01001.php#a1fb9d6aad58d7817692168eaea307a14">mcd::Path</a>
+: <a class="el" href="d6/d8d/a01007.php#a1fb9d6aad58d7817692168eaea307a14">mcd::Path</a>
 </li>
 <li>right()
-: <a class="el" href="d2/df3/a01085.php#a613a9be49ee0cbe55e10e75db1d59faa">mcd::Point</a>
+: <a class="el" href="d6/d0d/a01091.php#a613a9be49ee0cbe55e10e75db1d59faa">mcd::Point</a>
 </li>
 <li>RNG()
-: <a class="el" href="d0/d22/a01049.php#ada6783e2f83f41b11d72687c90c29ead">mcd::RNG&lt; T, U &gt;</a>
+: <a class="el" href="d2/d71/a01055.php#ada6783e2f83f41b11d72687c90c29ead">mcd::RNG&lt; T, U &gt;</a>
 </li>
 <li>RSA()
-: <a class="el" href="dc/d92/a00929.php#a022907735103df44ce25774a289cede1">mcd::RSA</a>
+: <a class="el" href="d8/d19/a00935.php#a022907735103df44ce25774a289cede1">mcd::RSA</a>
 </li>
 </ul>
 </div><!-- contents -->

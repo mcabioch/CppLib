@@ -1,12 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$de/dc3/a00909.php" title="A contraption. " alt="" coords="5,81,128,108"/>
-<area shape="rect" id="node2" href="$d1/db0/a00945.php" title="An entity. " alt="" coords="179,56,269,83"/>
-<area shape="rect" id="node8" href="$da/d0a/a00993.php" title="An object. " alt="" coords="177,107,271,133"/>
-<area shape="rect" id="node3" href="$d8/dba/a00773.php" title="An animal. " alt="" coords="322,5,417,32"/>
-<area shape="rect" id="node5" href="$de/d1c/a01093.php" title="A vegetal. " alt="" coords="320,56,419,83"/>
-<area shape="rect" id="node4" href="$d2/d02/a00777.php" title="An ant. " alt="" coords="487,5,562,32"/>
-<area shape="rect" id="node6" href="$dd/d24/a00981.php" title="A mushroom. " alt="" coords="467,56,583,83"/>
-<area shape="rect" id="node7" href="$d5/dfb/a01021.php" title="A plant. " alt="" coords="482,107,567,133"/>
-<area shape="rect" id="node9" href="$dc/d99/a01053.php" title="A stone. " alt="" coords="325,107,414,133"/>
-<area shape="rect" id="node10" href="$d5/da3/a00953.php" title="A class to derivate from when the thing can attack. " alt="" coords="176,5,272,32"/>
+<area shape="rect" id="node1" href="$d2/d5e/a00915.php" title="A contraption. " alt="" coords="5,81,128,108"/>
+<area shape="rect" id="node2" href="$dc/da0/a00951.php" title="An entity. " alt="" coords="179,56,269,83"/>
+<area shape="rect" id="node8" href="$de/de2/a00999.php" title="An object. " alt="" coords="177,107,271,133"/>
+<area shape="rect" id="node3" href="$d3/d95/a00779.php" title="An animal. " alt="" coords="322,5,417,32"/>
+<area shape="rect" id="node5" href="$d6/dbc/a01099.php" title="A vegetal. " alt="" coords="320,56,419,83"/>
+<area shape="rect" id="node4" href="$dc/d0c/a00783.php" title="An ant. " alt="" coords="487,5,562,32"/>
+<area shape="rect" id="node6" href="$d4/d21/a00987.php" title="A mushroom. " alt="" coords="467,56,583,83"/>
+<area shape="rect" id="node7" href="$dd/dfd/a01027.php" title="A plant. " alt="" coords="482,107,567,133"/>
+<area shape="rect" id="node9" href="$d0/d90/a01059.php" title="A stone. " alt="" coords="325,107,414,133"/>
+<area shape="rect" id="node10" href="$db/d40/a00959.php" title="A class to derivate from when the thing can attack. " alt="" coords="176,5,272,32"/>
 </map>

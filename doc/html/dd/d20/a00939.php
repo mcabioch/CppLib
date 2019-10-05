@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Date Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 11:22:31 for C++ by";
+				$text = "Generated on Fri Oct 4 2019 16:27:33 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('df/d12/a00942.php','../../');});
+$(document).ready(function(){initNavTree('dd/d20/a00939.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,61 +89,422 @@ $(document).ready(function(){initNavTree('df/d12/a00942.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="../../dc/d2b/a00936.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Fraction Member List</div>  </div>
+<div class="title">mcd::Date Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a5868b5e5c36d3277d651c3fd731ebe84">denominator</a>() const</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#aff15244127221e0d190260b62caef134">Fraction</a>()</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a9397e2e1fbfba88c48928e5135925f8d">Fraction</a>(double value)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#ac4085029b32d447dfbe9146a3cdf1f67">Fraction</a>(long num, long denom)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a17e4466c06be8e1bff20fe204d4ff110">numerator</a>() const</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#a285e38748cb55302c43feab8fa4a29f5">operator double</a>() const</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a728b8777d909549030d50032783761dc">operator!=</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#a9803ec99dc9da6df50c872a281a10c14">operator!=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a619d937a957bc1f2516066ebb3501951">operator%</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#ac7373abe86093f315b90682196406a7e">operator%</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a7b6753a02a790ffbb75c36920237167c">operator%=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#a43f90dffa8573b6fbc49606f804bc941">operator%=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#aece90dc9d246328147f02da505af1050">operator*</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#a37efbd11d27b9c2ba1c832d972c7968a">operator*</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#aae423fa04b3025e509901155241b5402">operator*=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#aa59ee30f1820c21567e2b53edb8bc1d3">operator*=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a0897ad5e88848032ff6570bd83ddbef7">operator+</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#a54d794692193c950001c5c85026e6e3b">operator+</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#af066abb5b8fe5db0e0c4ce7d125f0c5e">operator++</a>()</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#a76f6e7a0b34f33d8d53bc993b7c0ac89">operator+=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a008c1ea6fdcd24bc97c027c5b91a784c">operator+=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#a7a16f5b2182b2752cfbef72018e7636e">operator-</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a50acfed23a831256b8f7bea5e6d2b74b">operator-</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#a34e188b2c7100e21fe387855ca963f52">operator--</a>()</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a455683f59112555055fc6c5686a9621a">operator-=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#a53b141f48ecc61069385e16cf51524dc">operator-=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a0ffeec4d80502f0173a03d7b3aa361db">operator/</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#aba54bcb1715fcfc8ce7d3a9576447aa2">operator/</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a3379901d123c7d545bd8a4f9ebe48b8e">operator/=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#a4942772dfaef8d5158163f7fcca98b57">operator/=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a4c0588f44c0f24a7cb2fe0d1a4c05ad5">operator&lt;</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#aa9c375ae1a1d2a7eb9feb0eda3440343">operator&lt;</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a9313ed58249557fab9c0b6ab5e5f977f">operator&lt;&lt;</a>(std::ostream &amp;os, const Fraction &amp;frac)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#ac1e8c0cf1fdef5dd32409c5d0b660fb1">operator&lt;=</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#add6d3ff26c1c87e2d645ad37e751bdac">operator&lt;=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#a300ed85793b7aece141599c82524f8d9">operator==</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a986f1f323f69858991a54320af44b6a5">operator==</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#a379d98c2c6ae1962fc2089b599fc48df">operator&gt;</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#a5160d78b6f8e8269aacac56fb50346df">operator&gt;</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#aaf88d0c6bfb21b64dcec572fd4691cd7">operator&gt;=</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d12/a00942.php#ac4dcbd6c3961244afb7bbcb90c5b01da">operator&gt;=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d12/a00942.php#abf0eeef8a5b118feaad630e084c15d8e">~Fraction</a>()</td><td class="entry"><a class="el" href="../../df/d12/a00942.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to play with dates.  
+ <a href="../../dd/d20/a00939.php#details">More...</a></p>
+
+<p><code>#include &lt;Date.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::Date:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d54/a00938.png" border="0" usemap="#mcd_1_1Date_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1Date_inherit__map" id="mcd_1_1Date_inherit__map">
+<area shape="rect" id="node2" href="../../d1/ddd/a00943.php" title="A class to play with dates and times. " alt="" coords="5,80,117,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a032af1a0d48dcd6e6728b1855a75321d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#a032af1a0d48dcd6e6728b1855a75321d">Date</a> ()</td></tr>
+<tr class="separator:a032af1a0d48dcd6e6728b1855a75321d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f9647d3123f16fafaed55d9e75df6d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#a6f9647d3123f16fafaed55d9e75df6d7">Date</a> (const std::string &amp;date)</td></tr>
+<tr class="separator:a6f9647d3123f16fafaed55d9e75df6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5">~Date</a> ()</td></tr>
+<tr class="separator:acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a48f5b93ee6c3e7ba43c5de5fa56bd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#a10a48f5b93ee6c3e7ba43c5de5fa56bd">day</a> () const</td></tr>
+<tr class="separator:a10a48f5b93ee6c3e7ba43c5de5fa56bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3682f8457850fbb2899afc7967dc9bc9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#a3682f8457850fbb2899afc7967dc9bc9">strDay</a> () const</td></tr>
+<tr class="separator:a3682f8457850fbb2899afc7967dc9bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a96b0ddfd20e6cc5da855b70be4c1f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">weekDay</a> () const</td></tr>
+<tr class="separator:a9a96b0ddfd20e6cc5da855b70be4c1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9af5d47e5785c0c16217e5b4914bc9a0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#a9af5d47e5785c0c16217e5b4914bc9a0">yearDay</a> () const</td></tr>
+<tr class="separator:a9af5d47e5785c0c16217e5b4914bc9a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1b8bcad43aa4fa7f5bccf350c348bbf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#aa1b8bcad43aa4fa7f5bccf350c348bbf">monthWeek</a> () const</td></tr>
+<tr class="separator:aa1b8bcad43aa4fa7f5bccf350c348bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a211971964081aac6bf13b0c670307b54"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#a211971964081aac6bf13b0c670307b54">yearWeek</a> () const</td></tr>
+<tr class="separator:a211971964081aac6bf13b0c670307b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaf4a92c344f8b9d8b88e22cbc710013"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#aeaf4a92c344f8b9d8b88e22cbc710013">month</a> () const</td></tr>
+<tr class="separator:aeaf4a92c344f8b9d8b88e22cbc710013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09230be2f6ef6b2620dec0023bd1b1a0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#a09230be2f6ef6b2620dec0023bd1b1a0">strMonth</a> () const</td></tr>
+<tr class="separator:a09230be2f6ef6b2620dec0023bd1b1a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f0e5cc134d8da80f4b68aad4f92674"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#a30f0e5cc134d8da80f4b68aad4f92674">year</a> () const</td></tr>
+<tr class="separator:a30f0e5cc134d8da80f4b68aad4f92674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8573428b5d4557473120c24e1e52d543"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#a8573428b5d4557473120c24e1e52d543">get</a> (const std::string &amp;format=&quot;%Y-%m-%d&quot;) const</td></tr>
+<tr class="separator:a8573428b5d4557473120c24e1e52d543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63132b3cb9cc7cf1640fa1165a14d9a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#a63132b3cb9cc7cf1640fa1165a14d9a8">set</a> (const std::string &amp;date)</td></tr>
+<tr class="separator:a63132b3cb9cc7cf1640fa1165a14d9a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a17a08ca52b3ec69d178a997c07a5ca1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#a17a08ca52b3ec69d178a997c07a5ca1c">init</a> ()</td></tr>
+<tr class="separator:a17a08ca52b3ec69d178a997c07a5ca1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22f293eaa9698511e9657c60ee1557f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d20/a00939.php#a22f293eaa9698511e9657c60ee1557f7">reset</a> ()</td></tr>
+<tr class="separator:a22f293eaa9698511e9657c60ee1557f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to play with dates. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a032af1a0d48dcd6e6728b1855a75321d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a032af1a0d48dcd6e6728b1855a75321d">&#9670;&nbsp;</a></span>Date() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Date::Date </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f9647d3123f16fafaed55d9e75df6d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f9647d3123f16fafaed55d9e75df6d7">&#9670;&nbsp;</a></span>Date() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Date::Date </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>date</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5">&#9670;&nbsp;</a></span>~Date()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::Date::~Date </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/d20/a00939_acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5_cgraph.png" border="0" usemap="#dd/d20/a00939_acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5_cgraph" alt=""/></div>
+<map name="dd/d20/a00939_acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5_cgraph" id="dd/d20/a00939_acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5_cgraph">
+<area shape="rect" id="node2" href="../../dd/d20/a00939.php#a10a48f5b93ee6c3e7ba43c5de5fa56bd" title="mcd::Date::day" alt="" coords="205,5,317,32"/>
+<area shape="rect" id="node3" href="../../dd/d20/a00939.php#a3682f8457850fbb2899afc7967dc9bc9" title="mcd::Date::strDay" alt="" coords="195,56,326,83"/>
+<area shape="rect" id="node4" href="../../dd/d20/a00939.php#a9a96b0ddfd20e6cc5da855b70be4c1f1" title="mcd::Date::weekDay" alt="" coords="187,107,334,133"/>
+<area shape="rect" id="node5" href="../../dd/d20/a00939.php#a9af5d47e5785c0c16217e5b4914bc9a0" title="mcd::Date::yearDay" alt="" coords="191,157,331,184"/>
+<area shape="rect" id="node6" href="../../dd/d20/a00939.php#aa1b8bcad43aa4fa7f5bccf350c348bbf" title="mcd::Date::monthWeek" alt="" coords="180,208,341,235"/>
+<area shape="rect" id="node7" href="../../dd/d20/a00939.php#a211971964081aac6bf13b0c670307b54" title="mcd::Date::yearWeek" alt="" coords="185,259,336,285"/>
+<area shape="rect" id="node8" href="../../dd/d20/a00939.php#aeaf4a92c344f8b9d8b88e22cbc710013" title="mcd::Date::month" alt="" coords="197,309,324,336"/>
+<area shape="rect" id="node9" href="../../dd/d20/a00939.php#a09230be2f6ef6b2620dec0023bd1b1a0" title="mcd::Date::strMonth" alt="" coords="189,360,332,387"/>
+<area shape="rect" id="node10" href="../../dd/d20/a00939.php#a30f0e5cc134d8da80f4b68aad4f92674" title="mcd::Date::year" alt="" coords="203,411,319,437"/>
+<area shape="rect" id="node11" href="../../dd/d20/a00939.php#a17a08ca52b3ec69d178a997c07a5ca1c" title="mcd::Date::init" alt="" coords="207,461,315,488"/>
+<area shape="rect" id="node12" href="../../dd/d20/a00939.php#a22f293eaa9698511e9657c60ee1557f7" title="mcd::Date::reset" alt="" coords="201,512,321,539"/>
+<area shape="rect" id="node13" href="../../dd/d2d/a00229.php#a72149c6d15e16114c649ecb03aec7f81" title="Compare two Big. " alt="" coords="205,563,316,589"/>
+<area shape="rect" id="node14" href="../../dd/d2d/a00229.php#a49c8e33d55da52fabdb3f09f2fd3e5b2" title="Compare two Big. " alt="" coords="201,613,320,640"/>
+<area shape="rect" id="node15" href="../../dd/d2d/a00229.php#a8106aa588d48c9fbed5e30e22fd55f76" title="Compare two Big. " alt="" coords="203,664,318,691"/>
+<area shape="rect" id="node16" href="../../dd/d2d/a00229.php#a4390d2726279039c439ba3b866fa2e50" title="mcd::operator\&gt;" alt="" coords="205,715,316,741"/>
+<area shape="rect" id="node17" href="../../dd/d2d/a00229.php#a61257b7f63f915629b98d2b57933d65e" title="Compare two Big. " alt="" coords="201,765,320,792"/>
+<area shape="rect" id="node18" href="../../dd/d2d/a00229.php#a83c8849718e8a8532282e6f1c80ceca0" title="Compare two Big. " alt="" coords="201,816,320,843"/>
+<area shape="rect" id="node19" href="../../dd/d2d/a00229.php#a0e76ac5c4df82149886b58edcfc7090a" title="mcd::operator\&lt;\&lt;" alt="" coords="201,867,320,893"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a10a48f5b93ee6c3e7ba43c5de5fa56bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10a48f5b93ee6c3e7ba43c5de5fa56bd">&#9670;&nbsp;</a></span>day()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mcd::Date::day </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8573428b5d4557473120c24e1e52d543"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8573428b5d4557473120c24e1e52d543">&#9670;&nbsp;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string mcd::Date::get </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>format</em> = <code>&quot;%Y-%m-%d&quot;</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../d1/ddd/a00943.php#a7b25df777f0b2b3ac2396538eb3ca028">mcd::DateTime</a>.</p>
+
+</div>
+</div>
+<a id="a17a08ca52b3ec69d178a997c07a5ca1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17a08ca52b3ec69d178a997c07a5ca1c">&#9670;&nbsp;</a></span>init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Date::init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeaf4a92c344f8b9d8b88e22cbc710013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaf4a92c344f8b9d8b88e22cbc710013">&#9670;&nbsp;</a></span>month()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mcd::Date::month </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1b8bcad43aa4fa7f5bccf350c348bbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1b8bcad43aa4fa7f5bccf350c348bbf">&#9670;&nbsp;</a></span>monthWeek()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mcd::Date::monthWeek </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22f293eaa9698511e9657c60ee1557f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22f293eaa9698511e9657c60ee1557f7">&#9670;&nbsp;</a></span>reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Date::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63132b3cb9cc7cf1640fa1165a14d9a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63132b3cb9cc7cf1640fa1165a14d9a8">&#9670;&nbsp;</a></span>set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Date::set </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>date</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3682f8457850fbb2899afc7967dc9bc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3682f8457850fbb2899afc7967dc9bc9">&#9670;&nbsp;</a></span>strDay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mcd::Date::strDay </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09230be2f6ef6b2620dec0023bd1b1a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09230be2f6ef6b2620dec0023bd1b1a0">&#9670;&nbsp;</a></span>strMonth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mcd::Date::strMonth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a96b0ddfd20e6cc5da855b70be4c1f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a96b0ddfd20e6cc5da855b70be4c1f1">&#9670;&nbsp;</a></span>weekDay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mcd::Date::weekDay </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30f0e5cc134d8da80f4b68aad4f92674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30f0e5cc134d8da80f4b68aad4f92674">&#9670;&nbsp;</a></span>year()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mcd::Date::year </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9af5d47e5785c0c16217e5b4914bc9a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9af5d47e5785c0c16217e5b4914bc9a0">&#9670;&nbsp;</a></span>yearDay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mcd::Date::yearDay </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a211971964081aac6bf13b0c670307b54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a211971964081aac6bf13b0c670307b54">&#9670;&nbsp;</a></span>yearWeek()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mcd::Date::yearWeek </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../de/de1/a00065.php">Date.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../dd/d2d/a00229.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d20/a00939.php">Date</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

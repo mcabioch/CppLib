@@ -1,6 +1,6 @@
 var a00995 =
 [
-    [ "PathfindingDijkstra", "dd/d48/a00995.php#a8e8246fb84c8dd3bf9e522f3fca7b39e", null ],
-    [ "~PathfindingDijkstra", "dd/d48/a00995.php#aae9b7cf4f57d826b9f7e65d9410b572e", null ],
-    [ "createPath", "dd/d48/a00995.php#a7b2872207d45871fcbcfa01e216090dd", null ]
+    [ "NotInstantiable", "dd/d48/a00995.php#a760ca4c32c24cf2b4c4c2ef07b51f997", null ],
+    [ "~NotInstantiable", "dd/d48/a00995.php#a096b44b3d9fe8e567b179ac3d3dbacff", null ],
+    [ "notInstantiable", "dd/d48/a00995.php#a19c59f78b217426061641970c9f11022", null ]
 ];

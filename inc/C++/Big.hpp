@@ -9,20 +9,7 @@
 #ifndef HEADER_BIG
 #define HEADER_BIG
 
-#include <iostream>
-#include <string>
-#include <vector>
-#include <map>
-
-#include <sstream>
-#include <numeric>
-
-#include <regex>
-
-#include <algorithm>
-#include <functional>
-
-#include <cmath>
+#include "C++/OsDetection.hpp"
 
 namespace mcd {
 	class Big;

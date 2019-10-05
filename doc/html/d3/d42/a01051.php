@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Referenced&lt; C &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 11:22:31 for C++ by";
+				$text = "Generated on Fri Oct 4 2019 16:27:33 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('dd/d57/a01054.php','../../');});
+$(document).ready(function(){initNavTree('d3/d42/a01051.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,40 +89,99 @@ $(document).ready(function(){initNavTree('dd/d57/a01054.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="../../d5/de7/a01048.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Timer Member List</div>  </div>
+<div class="title">mcd::Referenced&lt; C &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dd/d57/a01054.php">mcd::Timer</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../da/d17/a01046.php#a0d2496ea879c9a8933fe714ffce9639a">_mutex</a></td><td class="entry"><a class="el" href="../../da/d17/a01046.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d57/a01054.php#a5ce92c00f251ba4ee94fc8224a9ccbc7">getStart</a>() const</td><td class="entry"><a class="el" href="../../dd/d57/a01054.php">mcd::Timer</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/d17/a01046.php#a804393d97a319c38afa593072bd0ead9">hasToStop</a>() const</td><td class="entry"><a class="el" href="../../da/d17/a01046.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/d17/a01046.php#af6a411164d64b1b04b731f29d54e016a">inUse</a>()</td><td class="entry"><a class="el" href="../../da/d17/a01046.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/d17/a01046.php#a1eb0985252b04c90761f92432ef4216d">launch</a>()=0</td><td class="entry"><a class="el" href="../../da/d17/a01046.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/d17/a01046.php#a156911948e5f5d2d5eeb0922ee3bd86d">launched</a>() const</td><td class="entry"><a class="el" href="../../da/d17/a01046.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d57/a01054.php#acb15fc23bdf915fbc5093d3f40996a37">m_start</a></td><td class="entry"><a class="el" href="../../dd/d57/a01054.php">mcd::Timer</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/d17/a01046.php#a0b2419ec1119f28dc2440e202f0d2c8e">notInUse</a>()</td><td class="entry"><a class="el" href="../../da/d17/a01046.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/d17/a01046.php#aede63b72f054d20e35d22153af8313c8">operator=</a>(Threadable&lt; Timer &gt; &amp;other) noexcept</td><td class="entry"><a class="el" href="../../da/d17/a01046.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/d17/a01046.php#ab51cdb23e70b6ab97afb529098eb20c0">operator=</a>(Threadable&lt; Timer &gt; &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../da/d17/a01046.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d57/a01054.php#affd1240db762eb2d3f125bfdda4aa990">restart</a>(int sec)</td><td class="entry"><a class="el" href="../../dd/d57/a01054.php">mcd::Timer</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/d17/a01046.php#a0351657024f3b0d37b54c08a09a156fa">sleeper</a></td><td class="entry"><a class="el" href="../../da/d17/a01046.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d57/a01054.php#afe0b2617d4a9beb52d2118d532d0db03">start</a>(int sec)</td><td class="entry"><a class="el" href="../../dd/d57/a01054.php">mcd::Timer</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d57/a01054.php#a489644a70b400f78d63ad3449ffae846">started</a></td><td class="entry"><a class="el" href="../../dd/d57/a01054.php">mcd::Timer</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/d17/a01046.php#a4dd37d54456e167f8b42d30be7076939">stop</a>()</td><td class="entry"><a class="el" href="../../da/d17/a01046.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/d17/a01046.php#a04bdb4a894312f6671680c2f103b8a63">Threadable</a>()</td><td class="entry"><a class="el" href="../../da/d17/a01046.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/d17/a01046.php#a29db3ebe9dfbf77bc04967565c0dcf6e">Threadable</a>(Threadable&lt; Timer &gt; &amp;other)</td><td class="entry"><a class="el" href="../../da/d17/a01046.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/d17/a01046.php#a4cbceb43796de6c36a5cd4f35a6402cb">Threadable</a>(Threadable&lt; Timer &gt; &amp;&amp;other)</td><td class="entry"><a class="el" href="../../da/d17/a01046.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d57/a01054.php#ae2847ca8c851863418d57e80e972095a">Timer</a>()</td><td class="entry"><a class="el" href="../../dd/d57/a01054.php">mcd::Timer</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d57/a01054.php#aa0825ee9a421da67ddac15fd45632d4e">update</a>() override</td><td class="entry"><a class="el" href="../../dd/d57/a01054.php">mcd::Timer</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/d17/a01046.php#aab98cd8e5cd8832dfd6e82c17d1a689d">~Threadable</a>()</td><td class="entry"><a class="el" href="../../da/d17/a01046.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to have a reference to the class' pointer.  
+ <a href="../../d3/d42/a01051.php#details">More...</a></p>
+
+<p><code>#include &lt;Referenced.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a23a4eee18708dae4eff05079a345c375"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d42/a01051.php#a23a4eee18708dae4eff05079a345c375">Referenced</a> (C *her)</td></tr>
+<tr class="separator:a23a4eee18708dae4eff05079a345c375"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a3aadcf63bff72dd8c87f4c1d7a3bd240"><td class="memItemLeft" align="right" valign="top">C &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d42/a01051.php#a3aadcf63bff72dd8c87f4c1d7a3bd240">_her</a></td></tr>
+<tr class="separator:a3aadcf63bff72dd8c87f4c1d7a3bd240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;class C&gt;<br />
+class mcd::Referenced&lt; C &gt;</h3>
+
+<p>A class to have a reference to the class' pointer. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a23a4eee18708dae4eff05079a345c375"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23a4eee18708dae4eff05079a345c375">&#9670;&nbsp;</a></span>Referenced()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d42/a01051.php">mcd::Referenced</a>&lt; C &gt;::<a class="el" href="../../d3/d42/a01051.php">Referenced</a> </td>
+          <td>(</td>
+          <td class="paramtype">C *&#160;</td>
+          <td class="paramname"><em>her</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3aadcf63bff72dd8c87f4c1d7a3bd240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aadcf63bff72dd8c87f4c1d7a3bd240">&#9670;&nbsp;</a></span>_her</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">C&amp; <a class="el" href="../../d3/d42/a01051.php">mcd::Referenced</a>&lt; C &gt;::_her</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d5/de9/a00176.php">Referenced.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../dd/d2d/a00229.php">mcd</a></li><li class="navelem"><a class="el" href="../../d3/d42/a01051.php">Referenced</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

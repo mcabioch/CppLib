@@ -1,11 +1,13 @@
 <map id="Binary.hpp" name="Binary.hpp">
-<area shape="rect" id="node2" href="$db/ddf/a00164.php" title="C++/pointers.hpp" alt="" coords="696,80,819,107"/>
-<area shape="rect" id="node3" href="$d5/df1/a00206.php" title="C++/types.hpp" alt="" coords="595,155,704,181"/>
-<area shape="rect" id="node5" href="$d4/d51/a00017.php" title="Big.hpp" alt="" coords="560,229,627,256"/>
-<area shape="rect" id="node20" href="$dc/de6/a00167.php" title="PureVirtual.hpp" alt="" coords="651,229,762,256"/>
-<area shape="rect" id="node21" href="$d3/de5/a00209.php" title="UsefullDefines.hpp" alt="" coords="787,229,920,256"/>
-<area shape="rect" id="node16" href="$d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="887,304,1057,331"/>
-<area shape="rect" id="node17" href="$d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="1082,304,1235,331"/>
-<area shape="rect" id="node18" href="$db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="1260,304,1433,331"/>
-<area shape="rect" id="node19" href="$d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1457,304,1596,331"/>
+<area shape="rect" id="node2" href="$d5/dcb/a00170.php" title="C++/pointers.hpp" alt="" coords="872,80,995,107"/>
+<area shape="rect" id="node3" href="$dd/dc1/a00212.php" title="C++/types.hpp" alt="" coords="771,155,880,181"/>
+<area shape="rect" id="node5" href="$d4/d51/a00017.php" title="Big.hpp" alt="" coords="736,229,803,256"/>
+<area shape="rect" id="node24" href="$d7/d3f/a00173.php" title="PureVirtual.hpp" alt="" coords="827,229,938,256"/>
+<area shape="rect" id="node25" href="$d3/dd5/a00215.php" title="UsefullDefines.hpp" alt="" coords="963,229,1096,256"/>
+<area shape="rect" id="node6" href="$d5/db1/a00140.php" title="C++/OsDetection.hpp" alt="" coords="322,304,473,331"/>
+<area shape="rect" id="node20" href="$d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="497,304,668,331"/>
+<area shape="rect" id="node21" href="$d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="693,304,846,331"/>
+<area shape="rect" id="node22" href="$db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="871,304,1044,331"/>
+<area shape="rect" id="node23" href="$d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1068,304,1207,331"/>
+<area shape="rect" id="node8" href="$d4/d3a/a00101.php" title="C++/lowIncludes.hpp" alt="" coords="391,379,537,405"/>
 </map>

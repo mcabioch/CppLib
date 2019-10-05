@@ -1,6 +1,6 @@
 var a00992 =
 [
-    [ "Object", "d7/d76/a00992.php#ad332f3a57527a6ede1be2e18b65615a5", null ],
-    [ "~Object", "d7/d76/a00992.php#a400f71c448a89abecda88ba70ab5029f", null ],
-    [ "printInfos", "d7/d76/a00992.php#aaae968dcea4a9aa8a530dc95b24848d0", null ]
+    [ "NotInstantiable", "d7/d76/a00992.php#a760ca4c32c24cf2b4c4c2ef07b51f997", null ],
+    [ "~NotInstantiable", "d7/d76/a00992.php#a096b44b3d9fe8e567b179ac3d3dbacff", null ],
+    [ "notInstantiable", "d7/d76/a00992.php#a19c59f78b217426061641970c9f11022", null ]
 ];

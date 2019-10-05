@@ -1,7 +1,16 @@
 var a01092 =
 [
-    [ "Vegetal", "de/d9c/a01092.php#a092e520f079ed706c3ac50e667653a0e", null ],
-    [ "~Vegetal", "de/d9c/a01092.php#aefae44ec89bd93251aedf0f15d535c42", null ],
-    [ "cut", "de/d9c/a01092.php#aaefd316150694e10be401d7f6ef2d973", null ],
-    [ "printInfos", "de/d9c/a01092.php#aade1d1606fa71e19708719f2668a24b0", null ]
+    [ "vector", "de/d9c/a01092.php#a92e814868c4f4b6f3d0969b200b35c91", null ],
+    [ "vector", "de/d9c/a01092.php#aea718ab247c60108c5dd591905174a95", null ],
+    [ "operator &", "de/d9c/a01092.php#a638a7edb18434ca9a2fa3be7e1d3563b", null ],
+    [ "operator &=", "de/d9c/a01092.php#a293c997b273243004c9a48fd08192db2", null ],
+    [ "operator+", "de/d9c/a01092.php#a0c894bc8e77be926b9b7f523c1896071", null ],
+    [ "operator+=", "de/d9c/a01092.php#a22f0f6977e9536afb53ed230b2cc8504", null ],
+    [ "operator-", "de/d9c/a01092.php#a7928c471316360bf63b686c77b482e91", null ],
+    [ "operator-=", "de/d9c/a01092.php#af14811b70c776b7c486e467ebb04a565", null ],
+    [ "operator^", "de/d9c/a01092.php#aceb6871a031f6bdb9adeb291238a2f1e", null ],
+    [ "operator^=", "de/d9c/a01092.php#ae2e81b3836365353b10040331247a870", null ],
+    [ "operator|", "de/d9c/a01092.php#a4eacfc54e3bd159d746ebf2eefacc0a5", null ],
+    [ "operator|=", "de/d9c/a01092.php#abc0583222abd8957c4a8502b7ba9272e", null ],
+    [ "pop", "de/d9c/a01092.php#a58c2e9df00704c786bfcfcca5a383a0e", null ]
 ];
