@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::IOConfig Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Oct 3 2019 19:33:52 for C++ by";
+				$text = "Generated on Sat Nov 9 2019 20:16:05 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d3/da5/a00973.php','../../');});
+$(document).ready(function(){initNavTree('d0/daf/a00970.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,47 +89,84 @@ $(document).ready(function(){initNavTree('d3/da5/a00973.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d4/d94/a00967.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Map Member List</div>  </div>
+<div class="title">mcd::IOConfig Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d3/da5/a00973.php">mcd::Map</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/da5/a00973.php#ab8a3794bcdcff4ad8875c6799eb4ab58">clear</a>()</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/da5/a00973.php#afc568b008b11652ff93bf281f16f9f86">consolePrint</a>()</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a1d96c02df00df52c98d68ea541e944e8">dijkstra</a>(size_t id, Point dest)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a793304f9b5fb060a085ea0653d83e96f">dijkstra</a>(Point origin, Point dest)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a04a6f229a4697e8945922ed23b52f7d6">get</a>() const</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a846e20ddb36e52abe1975bfd7f47bb62">getH</a>() const</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/da5/a00973.php#ab798c2d9fb3e6b25abaef7926b8a0abb">getProblem</a>()</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/da5/a00973.php#adc4f78a75dbf140919d939985c209cbb">getSize</a>() const</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/da5/a00973.php#ad4e66e9116fc7b785e4e0bbfd93dbf3d">getW</a>() const</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a1784239c1be09cc3c9a7a4652292149d">isFree</a>(const Point &amp;pt)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a3cef4e6d93277ff04e0a6a4b162a3a4e">isOnGround</a>(size_t id)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/da5/a00973.php#ac5e6be35eea3af084431715595c1138b">isOnGround</a>(const Point &amp;pt)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a86d2ef9c24b540688cbfaa12d9225c35">isXIn</a>(double64_t pt, double64_t dim)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a45adc028ccfb00ef4f66225e244956fd">isYIn</a>(double64_t pt, double64_t dim)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/da5/a00973.php#aaaa0863e1b2dfa4b35f6b5582d26798c">load</a>(const std::string &amp;file)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a3512d2f37cf42ca70fbeedaf6dbd179b">Map</a>(WorldDimensions dimensions)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a54b56015950d08fd043e0906875519e3">moveEntity</a>(size_t id, Path &amp;path, double64_t x, double64_t y)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a1809056415a86a4627e0cad3bbb0b3b0">operator()</a>(size_t i, size_t j)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a105197d7158b9387782b28583c6c07ba">operator()</a>(size_t i, size_t j) const</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a8cea2526dc276cce694e31a6053d5522">putEntity</a>(size_t &amp;id, double64_t x, double64_t y, double64_t w, double64_t h)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/da5/a00973.php#ac8ecf45b42aed2736d04081639b460f6">resetSim</a>(Path &amp;path)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a4b402d37424b8fc5a5036ecc78781d6a">save</a>(const std::string &amp;file) const</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a0d89a93779f04f96e43a883c6e021d04">setEntity</a>(size_t id, double64_t x, double64_t y)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/da5/a00973.php#af75d4f3db3cf7cbba6ae20628ecc2e04">setH</a>(size_t h)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/da5/a00973.php#adab97ef85198947deb95164f9d240e30">setSize</a>(WorldDimensions dimensions)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a46876aaf4ac9bdfe36d24a2e121d4e34">setW</a>(size_t w)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/da5/a00973.php#ad35cfe5bfd6ba316a796c7969c04d283">testPath</a>(Path &amp;path, bool show=false, Color color=Colors::PURPLE_B)</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/da5/a00973.php#a444967efa4f320d2ddfdd59ba0761b52">~Map</a>()</td><td class="entry"><a class="el" href="../../d3/da5/a00973.php">mcd::Map</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to configure inputs and outputs.  
+ <a href="../../d0/daf/a00970.php#details">More...</a></p>
+
+<p><code>#include &lt;IOConfig.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a8638a62e7967b56a444ee42d3ea55878"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daf/a00970.php#a8638a62e7967b56a444ee42d3ea55878">IOConfig</a> ()</td></tr>
+<tr class="memdesc:a8638a62e7967b56a444ee42d3ea55878"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a8638a62e7967b56a444ee42d3ea55878">More...</a><br /></td></tr>
+<tr class="separator:a8638a62e7967b56a444ee42d3ea55878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a34fca3d338ef0498db6353ac5ece6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daf/a00970.php#ad6a34fca3d338ef0498db6353ac5ece6">~IOConfig</a> ()</td></tr>
+<tr class="separator:ad6a34fca3d338ef0498db6353ac5ece6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to configure inputs and outputs. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a8638a62e7967b56a444ee42d3ea55878"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8638a62e7967b56a444ee42d3ea55878">&#9670;&nbsp;</a></span>IOConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::IOConfig::IOConfig </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+
+</div>
+</div>
+<a id="ad6a34fca3d338ef0498db6353ac5ece6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a34fca3d338ef0498db6353ac5ece6">&#9670;&nbsp;</a></span>~IOConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::IOConfig::~IOConfig </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d1/d44/a00098.php">IOConfig.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../d0/d53/a00232.php">mcd</a></li><li class="navelem"><a class="el" href="../../d0/daf/a00970.php">IOConfig</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

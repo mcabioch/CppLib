@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Logger Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Oct 3 2019 19:33:52 for C++ by";
+				$text = "Generated on Sat Nov 9 2019 20:16:05 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d5/d6c/a00977.php','../../');});
+$(document).ready(function(){initNavTree('df/dce/a00974.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,61 +89,235 @@ $(document).ready(function(){initNavTree('d5/d6c/a00977.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d0/d3c/a00971.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Matrix&lt; C &gt; Member List</div>  </div>
+<div class="title">mcd::Logger Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#ace95025dd985ddaa6c1ed72e8b464a0a">det</a>()</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#ae6b6255f5d5cd9a1684fcdb927978c18">enabled</a>() const</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a9b0f04cced69a887b46bddde8e3f3c0a">GaussJordan</a>(const Matrix&lt; D &gt; &amp;M, Matrix&lt; D &gt; &amp;I, size_t i, size_t j)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#aac5e5ab03fe97f3deb3f56b34b638638">getIdentity</a>()</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a9823b15f6575c9007b734e505ea772b5">i</a>() const</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#af0390771523fc535079faa2a7b7c29ce">inverted</a>()</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a3885a9068844517cbbd58cfed57eb5c4">isSquare</a>() const</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#adc00ecac929d1e153082d6a61879d4e2">j</a>() const</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a222bcb9024bd8d24b105f9d6be5dd391">Matrix</a>()</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a4f2cef0c1ab7ebbbecbe0dc22de5eeeb">Matrix</a>(const std::vector&lt; std::vector&lt; C &gt;&gt; &amp;datas)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a5cfebad51878a28020f44f6aacc6f29a">Matrix</a>(std::array&lt; std::array&lt; C, M &gt;, N &gt; &amp;datas)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a8919e7b6753c1f480d89106a0e993d57">Matrix</a>()</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a13b069e43b69c428da1868baa888f8a7">Matrix</a>(const std::vector&lt; std::vector&lt; C &gt;&gt; &amp;datas)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a5cfebad51878a28020f44f6aacc6f29a">Matrix</a>(std::array&lt; std::array&lt; C, M &gt;, N &gt; &amp;datas)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a895533c348847ed307cafe3d85c8ebf9">operator()</a>(size_t i, size_t j) const</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#ab2e5889d3ce0c0a97ec6f7c35b424f23">operator()</a>(size_t i, size_t j)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a61b1b866f822f492dd94f0178de09f0e">operator*</a>(const D &amp;a)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a37a33064fb7f3599b1e3127d13cd87f9">operator*</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#ab1a6b452f2b1878dbe72e1825f8dca12">operator*</a>(const D &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a37a33064fb7f3599b1e3127d13cd87f9">operator*</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a309672571879a0b44bf9c91b26b51a21">operator*=</a>(const D &amp;a)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a035e71a534c66ed739cdafccb5abc09b">operator*=</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a743ecbf9bc1defaa0d556a84f328906b">operator*=</a>(const D &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a035e71a534c66ed739cdafccb5abc09b">operator*=</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#ac2adb934f2c26b12d6b5f5981c0e4d7a">operator+</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#ac2adb934f2c26b12d6b5f5981c0e4d7a">operator+</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#ab65365129992bf5a53b62e3bd3955135">operator+=</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#ab65365129992bf5a53b62e3bd3955135">operator+=</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a0e53fd790079347de2d5d5e132a4c37b">operator-</a>()</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a3dc00dacaac8d2884d41d0f1057a098b">operator-</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#acff8e20e80d55f14e4ef611dc1c9b8ce">operator-</a>()</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a3dc00dacaac8d2884d41d0f1057a098b">operator-</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a8c4a74722881f5fdb1a1135b36808f47">operator-=</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a8c4a74722881f5fdb1a1135b36808f47">operator-=</a>(const Matrix&lt; D &gt; &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#aead70f5313e4a9a9c39321d41c2c3d10">operator/</a>(const D &amp;a)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a116e84cdee4fae72b8cdaabcc4f749ad">operator/</a>(const D &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a8f1be652fdf748cc826d30cbb96745f0">operator/=</a>(const D &amp;a)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#ad60adce66964625f49ed954456ef08af">operator/=</a>(const D &amp;A)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a9a3710d279e209fbff51b625690ef630">operator&lt;&lt;</a>(std::ostream &amp;os, const Matrix&lt; D &gt; &amp;M)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#adbfa246182cc089300f95cf1610a99ef">tos</a>(T value)</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a942e3d418da2bacad3193d82411e2cfc">transposed</a>()</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d6c/a00977.php#a87e5bc598036e554e7fac18328bbb47b">~Matrix</a>()</td><td class="entry"><a class="el" href="../../d5/d6c/a00977.php">mcd::Matrix&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to log some messages.  
+ <a href="../../df/dce/a00974.php#details">More...</a></p>
+
+<p><code>#include &lt;Logger.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a25d94050e8e7f91c7e1f02ddc2af8e95"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a> { <br />
+&#160;&#160;<a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95a0bce5e0f914a10ac190e025a6892938a">ALL</a> =0, 
+<a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95a2317dfad63407c5b05415b976cff9030">DEBUG</a>, 
+<a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95ab5e7bb27fac1d147132243b4e5ecda08">INFO</a>, 
+<a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95a5c7fb9b9c155b682a438d0ecda6ccddb">WARN</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8b436988ab5aa21a575cab658caa5d27">ERROR</a>, 
+<a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95aaa39e90dcdc0f6fd3be2054a9dafc508">FATAL</a>, 
+<a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95aec03d0d7dfe9026cc03f6a027d0dc572">OFF</a>
+<br />
+ }</td></tr>
+<tr class="separator:a25d94050e8e7f91c7e1f02ddc2af8e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a189cdd6486b23632d014a2e795ed8e13"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dce/a00974.php#a189cdd6486b23632d014a2e795ed8e13">Logger</a> ()</td></tr>
+<tr class="memdesc:a189cdd6486b23632d014a2e795ed8e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a189cdd6486b23632d014a2e795ed8e13">More...</a><br /></td></tr>
+<tr class="separator:a189cdd6486b23632d014a2e795ed8e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b43e0ba2ab53c8a6758b20d3f828f96"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dce/a00974.php#a9b43e0ba2ab53c8a6758b20d3f828f96">~Logger</a> ()</td></tr>
+<tr class="memdesc:a9b43e0ba2ab53c8a6758b20d3f828f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">The destructor of the class.  <a href="#a9b43e0ba2ab53c8a6758b20d3f828f96">More...</a><br /></td></tr>
+<tr class="separator:a9b43e0ba2ab53c8a6758b20d3f828f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a550b49f999efedab4ac30d30b975d049"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dce/a00974.php#a550b49f999efedab4ac30d30b975d049">init</a> (std::string logConfigFile)</td></tr>
+<tr class="separator:a550b49f999efedab4ac30d30b975d049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a365030ec32e6af40c6c53a53ff5163f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dce/a00974.php#a365030ec32e6af40c6c53a53ff5163f4">isEnabled</a> (<a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a> level)</td></tr>
+<tr class="separator:a365030ec32e6af40c6c53a53ff5163f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac144bf8a79b16347f8825d5ecd3ab52a"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
+<tr class="memitem:ac144bf8a79b16347f8825d5ecd3ab52a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/dce/a00974.php#ac144bf8a79b16347f8825d5ecd3ab52a">log</a> (<a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a> level, int line, std::string file, Args... args)</td></tr>
+<tr class="separator:ac144bf8a79b16347f8825d5ecd3ab52a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to log some messages. </p>
+<dl class="todo"><dt><b><a class="el" href="../../d1/da8/a00230.php#_todo000003">Todo:</a></b></dt><dd>Add comments</dd></dl>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a25d94050e8e7f91c7e1f02ddc2af8e95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25d94050e8e7f91c7e1f02ddc2af8e95">&#9670;&nbsp;</a></span>Level</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95">mcd::Logger::Level</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a25d94050e8e7f91c7e1f02ddc2af8e95a0bce5e0f914a10ac190e025a6892938a"></a>ALL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25d94050e8e7f91c7e1f02ddc2af8e95a2317dfad63407c5b05415b976cff9030"></a>DEBUG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25d94050e8e7f91c7e1f02ddc2af8e95ab5e7bb27fac1d147132243b4e5ecda08"></a>INFO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25d94050e8e7f91c7e1f02ddc2af8e95a5c7fb9b9c155b682a438d0ecda6ccddb"></a>WARN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25d94050e8e7f91c7e1f02ddc2af8e95a8b436988ab5aa21a575cab658caa5d27"></a>ERROR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25d94050e8e7f91c7e1f02ddc2af8e95aaa39e90dcdc0f6fd3be2054a9dafc508"></a>FATAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25d94050e8e7f91c7e1f02ddc2af8e95aec03d0d7dfe9026cc03f6a027d0dc572"></a>OFF&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a189cdd6486b23632d014a2e795ed8e13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a189cdd6486b23632d014a2e795ed8e13">&#9670;&nbsp;</a></span>Logger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Logger::Logger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+
+</div>
+</div>
+<a id="a9b43e0ba2ab53c8a6758b20d3f828f96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b43e0ba2ab53c8a6758b20d3f828f96">&#9670;&nbsp;</a></span>~Logger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::Logger::~Logger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The destructor of the class. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a550b49f999efedab4ac30d30b975d049"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a550b49f999efedab4ac30d30b975d049">&#9670;&nbsp;</a></span>init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Logger::init </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>logConfigFile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a365030ec32e6af40c6c53a53ff5163f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a365030ec32e6af40c6c53a53ff5163f4">&#9670;&nbsp;</a></span>isEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Logger::isEnabled </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a>&#160;</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac144bf8a79b16347f8825d5ecd3ab52a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac144bf8a79b16347f8825d5ecd3ab52a">&#9670;&nbsp;</a></span>log()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Logger::log </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a>&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/dce/a00974_ac144bf8a79b16347f8825d5ecd3ab52a_cgraph.png" border="0" usemap="#df/dce/a00974_ac144bf8a79b16347f8825d5ecd3ab52a_cgraph" alt=""/></div>
+<map name="df/dce/a00974_ac144bf8a79b16347f8825d5ecd3ab52a_cgraph" id="df/dce/a00974_ac144bf8a79b16347f8825d5ecd3ab52a_cgraph">
+<area shape="rect" id="node2" href="../../d0/d53/a00232.php#ac625de83fcace96567aecd1363297776" title="Print the given text like a warning. " alt="" coords="189,5,313,32"/>
+<area shape="rect" id="node3" href="../../d0/d53/a00232.php#a0d72a06346182146581ff63f2fa70580" title="Use system in an IF and say if there is an error. " alt="" coords="210,56,293,83"/>
+<area shape="rect" id="node4" href="../../df/dce/a00974.php#a365030ec32e6af40c6c53a53ff5163f4" title="mcd::Logger::isEnabled" alt="" coords="172,107,331,133"/>
+<area shape="rect" id="node5" href="../../d0/d53/a00232.php#a1a14f66f0c6eba0c77338364977658e1" title="Print the given text like an error. " alt="" coords="199,157,304,184"/>
+<area shape="rect" id="node6" href="../../da/d40/a00946.php#a7b25df777f0b2b3ac2396538eb3ca028" title="mcd::DateTime::get" alt="" coords="182,208,321,235"/>
+<area shape="rect" id="node7" href="../../df/dce/a00974.php#a189cdd6486b23632d014a2e795ed8e13" title="The constructor of the class. " alt="" coords="181,259,322,285"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d4/d3a/a00101.php">Logger.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../d0/d53/a00232.php">mcd</a></li><li class="navelem"><a class="el" href="../../df/dce/a00974.php">Logger</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

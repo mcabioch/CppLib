@@ -82,6 +82,8 @@ My own C++ features
 		mcd::randStr(size_t nb, unsigned short flags)
 
 \section		upd_sec			Updates
+	\subsection	upd_sec_20190929_subsec		November, 09 2019
+		Adding an object to log informations (logger).
 	\subsection	upd_sec_20190929_subsec		September, 29 2019
 		Adding a class to use and see binary values (Binary).
 	\subsection	upd_sec_20190917_subsec		September, 17 2019

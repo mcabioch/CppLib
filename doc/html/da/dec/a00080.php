@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 14:37:52 for C++ by";
+				$text = "Generated on Sat Nov 9 2019 20:16:05 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -104,30 +104,31 @@ Include dependency graph for errors.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d8/d53/a00081.png" border="0" usemap="#errors_8hpp" alt=""/></div>
 <map name="errors_8hpp" id="errors_8hpp">
-<area shape="rect" id="node2" href="../../d5/de0/a00050.php" title="C++/console.hpp" alt="" coords="673,80,796,107"/>
-<area shape="rect" id="node51" href="../../d2/d1f/a00083.php" title="C++/files.hpp" alt="" coords="820,80,921,107"/>
-<area shape="rect" id="node3" href="../../d3/d8b/a00059.php" title="C++/convert.hpp" alt="" coords="684,155,804,181"/>
-<area shape="rect" id="node5" href="../../da/d45/a00011.php" title="C++/array.hpp" alt="" coords="751,229,857,256"/>
-<area shape="rect" id="node7" href="../../dd/d32/a00041.php" title="C++/check.hpp" alt="" coords="748,304,860,331"/>
-<area shape="rect" id="node50" href="../../d7/d25/a00182.php" title="C++/sorting.hpp" alt="" coords="886,304,1002,331"/>
-<area shape="rect" id="node10" href="../../dc/d9a/a00218.php" title="C++/vector.hpp" alt="" coords="889,379,1002,405"/>
-<area shape="rect" id="node44" href="../../d6/d2d/a00047.php" title="C++/collides.hpp" alt="" coords="743,379,865,405"/>
-<area shape="rect" id="node11" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="909,453,1072,480"/>
-<area shape="rect" id="node18" href="../../d5/dcb/a00170.php" title="C++/pointers.hpp" alt="" coords="872,752,995,779"/>
-<area shape="rect" id="node19" href="../../dd/dc1/a00212.php" title="C++/types.hpp" alt="" coords="771,827,880,853"/>
-<area shape="rect" id="node21" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="736,901,803,928"/>
-<area shape="rect" id="node40" href="../../d7/d3f/a00173.php" title="PureVirtual.hpp" alt="" coords="827,901,938,928"/>
-<area shape="rect" id="node41" href="../../d3/dd5/a00215.php" title="UsefullDefines.hpp" alt="" coords="963,901,1096,928"/>
-<area shape="rect" id="node22" href="../../d5/db1/a00140.php" title="C++/OsDetection.hpp" alt="" coords="322,976,473,1003"/>
-<area shape="rect" id="node36" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="497,976,668,1003"/>
-<area shape="rect" id="node37" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="693,976,846,1003"/>
-<area shape="rect" id="node38" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="871,976,1044,1003"/>
-<area shape="rect" id="node39" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1068,976,1207,1003"/>
-<area shape="rect" id="node24" href="../../d4/d3a/a00101.php" title="C++/lowIncludes.hpp" alt="" coords="391,1051,537,1077"/>
-<area shape="rect" id="node45" href="../../d3/d00/a00113.php" title="C++/Matrix.hpp" alt="" coords="702,453,815,480"/>
-<area shape="rect" id="node46" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="578,528,702,555"/>
-<area shape="rect" id="node47" href="../../d4/d81/a00110.php" title="C++/maths.hpp" alt="" coords="583,603,697,629"/>
-<area shape="rect" id="node48" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="829,677,944,704"/>
+<area shape="rect" id="node2" href="../../d5/de0/a00050.php" title="C++/console.hpp" alt="" coords="515,80,637,107"/>
+<area shape="rect" id="node52" href="../../d2/d1f/a00083.php" title="C++/files.hpp" alt="" coords="661,80,763,107"/>
+<area shape="rect" id="node3" href="../../d3/d8b/a00059.php" title="C++/convert.hpp" alt="" coords="525,155,645,181"/>
+<area shape="rect" id="node5" href="../../da/d45/a00011.php" title="C++/array.hpp" alt="" coords="592,229,699,256"/>
+<area shape="rect" id="node7" href="../../dd/d32/a00041.php" title="C++/check.hpp" alt="" coords="589,304,701,331"/>
+<area shape="rect" id="node51" href="../../de/df3/a00185.php" title="C++/sorting.hpp" alt="" coords="727,304,843,331"/>
+<area shape="rect" id="node10" href="../../dd/d52/a00221.php" title="C++/vector.hpp" alt="" coords="730,379,843,405"/>
+<area shape="rect" id="node45" href="../../d6/d2d/a00047.php" title="C++/collides.hpp" alt="" coords="585,379,706,405"/>
+<area shape="rect" id="node11" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="751,453,913,480"/>
+<area shape="rect" id="node18" href="../../d7/d3f/a00173.php" title="C++/pointers.hpp" alt="" coords="713,752,836,779"/>
+<area shape="rect" id="node19" href="../../d3/dd5/a00215.php" title="C++/types.hpp" alt="" coords="612,827,721,853"/>
+<area shape="rect" id="node21" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="633,901,700,928"/>
+<area shape="rect" id="node40" href="../../dd/dc1/a00212.php" title="C++/Tree.hpp" alt="" coords="506,901,609,928"/>
+<area shape="rect" id="node41" href="../../d5/de9/a00176.php" title="PureVirtual.hpp" alt="" coords="725,901,835,928"/>
+<area shape="rect" id="node42" href="../../dc/d9a/a00218.php" title="UsefullDefines.hpp" alt="" coords="860,901,993,928"/>
+<area shape="rect" id="node22" href="../../d7/dce/a00143.php" title="C++/OsDetection.hpp" alt="" coords="322,976,473,1003"/>
+<area shape="rect" id="node36" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="1035,976,1205,1003"/>
+<area shape="rect" id="node37" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="497,976,650,1003"/>
+<area shape="rect" id="node38" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="675,976,848,1003"/>
+<area shape="rect" id="node39" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="872,976,1011,1003"/>
+<area shape="rect" id="node24" href="../../d0/dc2/a00104.php" title="C++/lowIncludes.hpp" alt="" coords="391,1051,537,1077"/>
+<area shape="rect" id="node46" href="../../d4/d3e/a00116.php" title="C++/Matrix.hpp" alt="" coords="543,453,657,480"/>
+<area shape="rect" id="node47" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="419,528,543,555"/>
+<area shape="rect" id="node48" href="../../d3/d00/a00113.php" title="C++/maths.hpp" alt="" coords="425,603,538,629"/>
+<area shape="rect" id="node49" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="671,677,785,704"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -135,53 +136,53 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/d63/a00082.png" border="0" usemap="#errors_8hppdep" alt=""/></div>
 <map name="errors_8hppdep" id="errors_8hppdep">
-<area shape="rect" id="node2" href="../../dc/d57/a00194.php" title="system.hpp" alt="" coords="303,80,394,107"/>
-<area shape="rect" id="node3" href="../../da/d15/a00188.php" title="string.hpp" alt="" coords="309,155,388,181"/>
-<area shape="rect" id="node4" href="../../d9/dd0/a00191.php" title="Used to replace strptime function when compiling for Windows. " alt="" coords="309,229,389,256"/>
-<area shape="rect" id="node5" href="../../de/d79/a00203.php" title="timeFunctions.hpp" alt="" coords="284,304,413,331"/>
-<area shape="rect" id="node6" href="../../d9/d77/a00095.php" title="includes.hpp" alt="" coords="301,379,396,405"/>
+<area shape="rect" id="node2" href="../../de/db1/a00197.php" title="system.hpp" alt="" coords="330,80,421,107"/>
+<area shape="rect" id="node3" href="../../d9/dd0/a00191.php" title="string.hpp" alt="" coords="336,155,415,181"/>
+<area shape="rect" id="node4" href="../../dc/d57/a00194.php" title="Used to replace strptime function when compiling for Windows. " alt="" coords="335,229,415,256"/>
+<area shape="rect" id="node5" href="../../d5/df1/a00206.php" title="timeFunctions.hpp" alt="" coords="311,304,440,331"/>
+<area shape="rect" id="node6" href="../../d9/d77/a00095.php" title="includes.hpp" alt="" coords="328,379,423,405"/>
 <area shape="rect" id="node7" href="../../d5/df9/a00044.php" title="Clock.hpp" alt="" coords="5,603,87,629"/>
-<area shape="rect" id="node28" href="../../dc/dee/a00053.php" title="ConsoleTable.hpp" alt="" coords="56,528,183,555"/>
-<area shape="rect" id="node29" href="../../de/de1/a00065.php" title="Date.hpp" alt="" coords="135,453,210,480"/>
-<area shape="rect" id="node31" href="../../d1/d44/a00098.php" title="IOConfig.hpp" alt="" coords="297,603,395,629"/>
-<area shape="rect" id="node32" href="../../d7/dce/a00143.php" title="Path.hpp" alt="" coords="386,453,461,480"/>
-<area shape="rect" id="node37" href="../../d3/df8/a00155.php" title="PathfindingException.hpp" alt="" coords="485,453,655,480"/>
-<area shape="rect" id="node38" href="../../d5/de9/a00176.php" title="Referenced.hpp" alt="" coords="547,677,662,704"/>
-<area shape="rect" id="node39" href="../../de/db1/a00197.php" title="Threadable.hpp" alt="" coords="688,677,799,704"/>
-<area shape="rect" id="node42" href="../../d3/db1/a00200.php" title="Time.hpp" alt="" coords="235,453,311,480"/>
-<area shape="rect" id="node8" href="../../d0/d89/a00071.php" title="defines.hpp" alt="" coords="336,827,425,853"/>
-<area shape="rect" id="node9" href="../../df/d03/a00062.php" title="cryptage.hpp" alt="" coords="223,901,320,928"/>
-<area shape="rect" id="node26" href="../../df/d98/a00107.php" title="Map.hpp" alt="" coords="345,901,417,928"/>
-<area shape="rect" id="node27" href="../../d3/de5/a00209.php" title="Tree.hpp" alt="" coords="441,901,515,928"/>
-<area shape="rect" id="node10" href="../../d4/d8c/a00035.php" title="C++.hpp" alt="" coords="344,976,417,1003"/>
-<area shape="rect" id="node11" href="../../d9/d2e/a00056.php" title="Contraption.hpp" alt="" coords="277,1051,391,1077"/>
-<area shape="rect" id="node25" href="../../d1/dc1/a00092.php" title="Identifier.hpp" alt="" coords="376,1424,473,1451"/>
-<area shape="rect" id="node12" href="../../d1/d09/a00077.php" title="Entity.hpp" alt="" coords="180,1125,261,1152"/>
-<area shape="rect" id="node23" href="../../d2/df5/a00137.php" title="Object.hpp" alt="" coords="299,1125,385,1152"/>
-<area shape="rect" id="node13" href="../../db/dab/a00089.php" title="Hostile.hpp" alt="" coords="66,1200,154,1227"/>
-<area shape="rect" id="node20" href="../../dd/d52/a00221.php" title="Vegetal.hpp" alt="" coords="175,1275,266,1301"/>
-<area shape="rect" id="node14" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="37,1275,124,1301"/>
-<area shape="rect" id="node15" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="39,1349,106,1376"/>
-<area shape="rect" id="node16" href="../../db/db6/a00074.php" title="Entities.hpp" alt="" coords="257,1424,347,1451"/>
-<area shape="rect" id="node17" href="../../dc/de6/a00167.php" title="PlayerAbstraction.hpp" alt="" coords="229,1499,380,1525"/>
-<area shape="rect" id="node18" href="../../db/ddf/a00164.php" title="Player.hpp" alt="" coords="319,1573,403,1600"/>
-<area shape="rect" id="node19" href="../../d8/d41/a00038.php" title="C++Entities.hpp" alt="" coords="302,1648,419,1675"/>
-<area shape="rect" id="node21" href="../../d1/d88/a00128.php" title="Mushroom.hpp" alt="" coords="131,1349,239,1376"/>
-<area shape="rect" id="node22" href="../../d6/d7d/a00161.php" title="Plant.hpp" alt="" coords="263,1349,341,1376"/>
-<area shape="rect" id="node24" href="../../de/df3/a00185.php" title="Stone.hpp" alt="" coords="309,1200,391,1227"/>
-<area shape="rect" id="node30" href="../../da/d24/a00068.php" title="DateTime.hpp" alt="" coords="207,528,311,555"/>
-<area shape="rect" id="node33" href="../../d6/db8/a00158.php" title="PathfindingProblem.hpp" alt="" coords="395,528,555,555"/>
-<area shape="rect" id="node34" href="../../d9/db6/a00146.php" title="Pathfinding.hpp" alt="" coords="419,603,531,629"/>
-<area shape="rect" id="node35" href="../../d7/d9a/a00152.php" title="PathfindingDijkstra.hpp" alt="" coords="365,677,522,704"/>
-<area shape="rect" id="node36" href="../../da/d1e/a00149.php" title="PathfindingAlgorithms.hpp" alt="" coords="356,752,531,779"/>
-<area shape="rect" id="node40" href="../../d4/dee/a00008.php" title="Args.hpp" alt="" coords="606,752,681,779"/>
-<area shape="rect" id="node41" href="../../d5/df1/a00206.php" title="Timer.hpp" alt="" coords="705,752,785,779"/>
+<area shape="rect" id="node27" href="../../dc/dee/a00053.php" title="ConsoleTable.hpp" alt="" coords="116,677,243,704"/>
+<area shape="rect" id="node28" href="../../de/de1/a00065.php" title="Date.hpp" alt="" coords="162,453,237,480"/>
+<area shape="rect" id="node30" href="../../d1/d44/a00098.php" title="IOConfig.hpp" alt="" coords="318,528,417,555"/>
+<area shape="rect" id="node31" href="../../d9/db6/a00146.php" title="Path.hpp" alt="" coords="413,453,487,480"/>
+<area shape="rect" id="node37" href="../../d6/db8/a00158.php" title="PathfindingException.hpp" alt="" coords="511,453,682,480"/>
+<area shape="rect" id="node38" href="../../db/dd9/a00179.php" title="Referenced.hpp" alt="" coords="605,603,719,629"/>
+<area shape="rect" id="node39" href="../../d3/db1/a00200.php" title="Threadable.hpp" alt="" coords="715,752,825,779"/>
+<area shape="rect" id="node42" href="../../de/d79/a00203.php" title="Time.hpp" alt="" coords="261,453,337,480"/>
+<area shape="rect" id="node8" href="../../d0/d89/a00071.php" title="defines.hpp" alt="" coords="356,901,445,928"/>
+<area shape="rect" id="node9" href="../../df/d03/a00062.php" title="cryptage.hpp" alt="" coords="295,976,392,1003"/>
+<area shape="rect" id="node26" href="../../d4/d3a/a00101.php" title="Logger.hpp" alt="" coords="416,976,503,1003"/>
+<area shape="rect" id="node10" href="../../d4/d8c/a00035.php" title="C++.hpp" alt="" coords="364,1051,437,1077"/>
+<area shape="rect" id="node11" href="../../d9/d2e/a00056.php" title="Contraption.hpp" alt="" coords="297,1125,411,1152"/>
+<area shape="rect" id="node25" href="../../d1/dc1/a00092.php" title="Identifier.hpp" alt="" coords="396,1499,493,1525"/>
+<area shape="rect" id="node12" href="../../d1/d09/a00077.php" title="Entity.hpp" alt="" coords="200,1200,281,1227"/>
+<area shape="rect" id="node23" href="../../d5/db1/a00140.php" title="Object.hpp" alt="" coords="319,1200,405,1227"/>
+<area shape="rect" id="node13" href="../../db/dab/a00089.php" title="Hostile.hpp" alt="" coords="86,1275,174,1301"/>
+<area shape="rect" id="node20" href="../../d5/ddf/a00224.php" title="Vegetal.hpp" alt="" coords="195,1349,286,1376"/>
+<area shape="rect" id="node14" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="57,1349,144,1376"/>
+<area shape="rect" id="node15" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="59,1424,126,1451"/>
+<area shape="rect" id="node16" href="../../db/db6/a00074.php" title="Entities.hpp" alt="" coords="277,1499,367,1525"/>
+<area shape="rect" id="node17" href="../../d5/dcb/a00170.php" title="PlayerAbstraction.hpp" alt="" coords="249,1573,400,1600"/>
+<area shape="rect" id="node18" href="../../dc/de6/a00167.php" title="Player.hpp" alt="" coords="339,1648,423,1675"/>
+<area shape="rect" id="node19" href="../../d8/d41/a00038.php" title="C++Entities.hpp" alt="" coords="322,1723,439,1749"/>
+<area shape="rect" id="node21" href="../../d7/d06/a00131.php" title="Mushroom.hpp" alt="" coords="151,1424,259,1451"/>
+<area shape="rect" id="node22" href="../../db/ddf/a00164.php" title="Plant.hpp" alt="" coords="283,1424,361,1451"/>
+<area shape="rect" id="node24" href="../../da/d15/a00188.php" title="Stone.hpp" alt="" coords="329,1275,411,1301"/>
+<area shape="rect" id="node29" href="../../da/d24/a00068.php" title="DateTime.hpp" alt="" coords="190,528,294,555"/>
+<area shape="rect" id="node32" href="../../d6/d7d/a00161.php" title="PathfindingProblem.hpp" alt="" coords="441,528,601,555"/>
+<area shape="rect" id="node33" href="../../da/d1e/a00149.php" title="Pathfinding.hpp" alt="" coords="438,603,550,629"/>
+<area shape="rect" id="node34" href="../../d3/df8/a00155.php" title="PathfindingDijkstra.hpp" alt="" coords="402,677,559,704"/>
+<area shape="rect" id="node35" href="../../d7/d9a/a00152.php" title="PathfindingAlgorithms.hpp" alt="" coords="389,752,564,779"/>
+<area shape="rect" id="node36" href="../../d4/d81/a00110.php" title="Map.hpp" alt="" coords="415,827,487,853"/>
+<area shape="rect" id="node40" href="../../d4/dee/a00008.php" title="Args.hpp" alt="" coords="639,827,714,853"/>
+<area shape="rect" id="node41" href="../../d3/de5/a00209.php" title="Timer.hpp" alt="" coords="738,827,818,853"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:dd/d2d/a00229"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2d/a00229.php">mcd</a></td></tr>
+<tr class="memitem:d0/d53/a00232"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d53/a00232.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -189,14 +190,18 @@ Macros</h2></td></tr>
 <tr class="memitem:a08ee21f84a6b44ca59d7f045b55d6bfc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">line_number</a>&#160;&#160;&#160;__LINE__</td></tr>
 <tr class="memdesc:a08ee21f84a6b44ca59d7f045b55d6bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define to do an alias of <b>LINE</b>  <a href="#a08ee21f84a6b44ca59d7f045b55d6bfc">More...</a><br /></td></tr>
 <tr class="separator:a08ee21f84a6b44ca59d7f045b55d6bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46d5e25a59c0c1ab0d7e8fc3812454a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dec/a00080.php#a46d5e25a59c0c1ab0d7e8fc3812454a0">debug_log</a>()&#160;&#160;&#160;info_log(<a class="el" href="../../da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">line_number</a>, __FILE__)</td></tr>
-<tr class="separator:a46d5e25a59c0c1ab0d7e8fc3812454a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6743e67ef3323372193a9936858a6fb8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dec/a00080.php#a6743e67ef3323372193a9936858a6fb8">debug_dlog</a>()&#160;&#160;&#160;<a class="el" href="../../da/dec/a00080.php#a33a5e22684c459c3d752ddee8f5e0915">debug_ilog</a>()</td></tr>
+<tr class="separator:a6743e67ef3323372193a9936858a6fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33a5e22684c459c3d752ddee8f5e0915"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dec/a00080.php#a33a5e22684c459c3d752ddee8f5e0915">debug_ilog</a>()&#160;&#160;&#160;info_log(<a class="el" href="../../da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">line_number</a>, __FILE__)</td></tr>
+<tr class="separator:a33a5e22684c459c3d752ddee8f5e0915"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfef935e08c6c7f3d9247920b01659b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dec/a00080.php#abfef935e08c6c7f3d9247920b01659b1">debug_elog</a>()&#160;&#160;&#160;error_log(<a class="el" href="../../da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">line_number</a>, __FILE__)</td></tr>
 <tr class="separator:abfef935e08c6c7f3d9247920b01659b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaeb75ef78e20ba74be61d159e670373"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dec/a00080.php#acaeb75ef78e20ba74be61d159e670373">debug_wlog</a>()&#160;&#160;&#160;warning_log(<a class="el" href="../../da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">line_number</a>, __FILE__)</td></tr>
 <tr class="separator:acaeb75ef78e20ba74be61d159e670373"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e44394dedcf599237302e670d0fbd30"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dec/a00080.php#a4e44394dedcf599237302e670d0fbd30">debug_logs</a>(...)&#160;&#160;&#160;info_log(<a class="el" href="../../da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">line_number</a>, __FILE__, __VA_ARGS__)</td></tr>
-<tr class="separator:a4e44394dedcf599237302e670d0fbd30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54252dbab5b5524cae2163d7c4bbf456"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dec/a00080.php#a54252dbab5b5524cae2163d7c4bbf456">debug_dlogs</a>(...)&#160;&#160;&#160;<a class="el" href="../../da/dec/a00080.php#a03901e920751bab486efba87b39f2707">debug_ilogs</a>( __VA_ARGS__)</td></tr>
+<tr class="separator:a54252dbab5b5524cae2163d7c4bbf456"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03901e920751bab486efba87b39f2707"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dec/a00080.php#a03901e920751bab486efba87b39f2707">debug_ilogs</a>(...)&#160;&#160;&#160;info_log(<a class="el" href="../../da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">line_number</a>, __FILE__, __VA_ARGS__)</td></tr>
+<tr class="separator:a03901e920751bab486efba87b39f2707"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adadf91083b9bc12bba2cf639e5b7aa21"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dec/a00080.php#adadf91083b9bc12bba2cf639e5b7aa21">debug_elogs</a>(...)&#160;&#160;&#160;error_log(<a class="el" href="../../da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">line_number</a>, __FILE__, __VA_ARGS__)</td></tr>
 <tr class="separator:adadf91083b9bc12bba2cf639e5b7aa21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05518c3c201982924254d7df8cc2d910"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dec/a00080.php#a05518c3c201982924254d7df8cc2d910">debug_wlogs</a>(...)&#160;&#160;&#160;warning_log(<a class="el" href="../../da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">line_number</a>, __FILE__, __VA_ARGS__)</td></tr>
@@ -205,22 +210,57 @@ Macros</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a1a14f66f0c6eba0c77338364977658e1"><td class="memTemplParams" colspan="2">template&lt;class T , class ... Args&gt; </td></tr>
-<tr class="memitem:a1a14f66f0c6eba0c77338364977658e1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d2d/a00229.php#a1a14f66f0c6eba0c77338364977658e1">mcd::error_log</a> (size_t line, T in, Args... args)</td></tr>
-<tr class="memdesc:a1a14f66f0c6eba0c77338364977658e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like an error.  <a href="../../dd/d2d/a00229.php#a1a14f66f0c6eba0c77338364977658e1">More...</a><br /></td></tr>
+<tr class="memitem:a1a14f66f0c6eba0c77338364977658e1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d53/a00232.php#a1a14f66f0c6eba0c77338364977658e1">mcd::error_log</a> (size_t line, T in, Args... args)</td></tr>
+<tr class="memdesc:a1a14f66f0c6eba0c77338364977658e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like an error.  <a href="../../d0/d53/a00232.php#a1a14f66f0c6eba0c77338364977658e1">More...</a><br /></td></tr>
 <tr class="separator:a1a14f66f0c6eba0c77338364977658e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac625de83fcace96567aecd1363297776"><td class="memTemplParams" colspan="2">template&lt;class T , class ... Args&gt; </td></tr>
-<tr class="memitem:ac625de83fcace96567aecd1363297776"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d2d/a00229.php#ac625de83fcace96567aecd1363297776">mcd::warning_log</a> (size_t line, T in, Args... args)</td></tr>
-<tr class="memdesc:ac625de83fcace96567aecd1363297776"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like a warning.  <a href="../../dd/d2d/a00229.php#ac625de83fcace96567aecd1363297776">More...</a><br /></td></tr>
+<tr class="memitem:ac625de83fcace96567aecd1363297776"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d53/a00232.php#ac625de83fcace96567aecd1363297776">mcd::warning_log</a> (size_t line, T in, Args... args)</td></tr>
+<tr class="memdesc:ac625de83fcace96567aecd1363297776"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like a warning.  <a href="../../d0/d53/a00232.php#ac625de83fcace96567aecd1363297776">More...</a><br /></td></tr>
 <tr class="separator:ac625de83fcace96567aecd1363297776"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0b4fd6390d33edc9719d42b26f6e29f"><td class="memTemplParams" colspan="2">template&lt;class T , class ... Args&gt; </td></tr>
-<tr class="memitem:af0b4fd6390d33edc9719d42b26f6e29f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d2d/a00229.php#af0b4fd6390d33edc9719d42b26f6e29f">mcd::info_log</a> (size_t line, T in, Args... args)</td></tr>
-<tr class="memdesc:af0b4fd6390d33edc9719d42b26f6e29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like an information.  <a href="../../dd/d2d/a00229.php#af0b4fd6390d33edc9719d42b26f6e29f">More...</a><br /></td></tr>
+<tr class="memitem:af0b4fd6390d33edc9719d42b26f6e29f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d53/a00232.php#af0b4fd6390d33edc9719d42b26f6e29f">mcd::info_log</a> (size_t line, T in, Args... args)</td></tr>
+<tr class="memdesc:af0b4fd6390d33edc9719d42b26f6e29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like an information.  <a href="../../d0/d53/a00232.php#af0b4fd6390d33edc9719d42b26f6e29f">More...</a><br /></td></tr>
 <tr class="separator:af0b4fd6390d33edc9719d42b26f6e29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>April, 24 2019 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>November, 09 2019 </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a6743e67ef3323372193a9936858a6fb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6743e67ef3323372193a9936858a6fb8">&#9670;&nbsp;</a></span>debug_dlog</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define debug_dlog</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../da/dec/a00080.php#a33a5e22684c459c3d752ddee8f5e0915">debug_ilog</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a54252dbab5b5524cae2163d7c4bbf456"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54252dbab5b5524cae2163d7c4bbf456">&#9670;&nbsp;</a></span>debug_dlogs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define debug_dlogs</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../da/dec/a00080.php#a03901e920751bab486efba87b39f2707">debug_ilogs</a>( __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abfef935e08c6c7f3d9247920b01659b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abfef935e08c6c7f3d9247920b01659b1">&#9670;&nbsp;</a></span>debug_elog</h2>
 
@@ -256,14 +296,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a46d5e25a59c0c1ab0d7e8fc3812454a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46d5e25a59c0c1ab0d7e8fc3812454a0">&#9670;&nbsp;</a></span>debug_log</h2>
+<a id="a33a5e22684c459c3d752ddee8f5e0915"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33a5e22684c459c3d752ddee8f5e0915">&#9670;&nbsp;</a></span>debug_ilog</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define debug_log</td>
+          <td class="memname">#define debug_ilog</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td>&#160;&#160;&#160;info_log(<a class="el" href="../../da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc">line_number</a>, __FILE__)</td>
@@ -273,14 +313,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4e44394dedcf599237302e670d0fbd30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e44394dedcf599237302e670d0fbd30">&#9670;&nbsp;</a></span>debug_logs</h2>
+<a id="a03901e920751bab486efba87b39f2707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03901e920751bab486efba87b39f2707">&#9670;&nbsp;</a></span>debug_ilogs</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define debug_logs</td>
+          <td class="memname">#define debug_ilogs</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>

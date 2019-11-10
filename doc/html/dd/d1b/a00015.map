@@ -1,13 +1,14 @@
 <map id="arraysIncludes.hpp" name="arraysIncludes.hpp">
-<area shape="rect" id="node8" href="$d5/dcb/a00170.php" title="C++/pointers.hpp" alt="" coords="872,80,995,107"/>
-<area shape="rect" id="node9" href="$dd/dc1/a00212.php" title="C++/types.hpp" alt="" coords="771,155,880,181"/>
-<area shape="rect" id="node11" href="$d4/d51/a00017.php" title="Big.hpp" alt="" coords="736,229,803,256"/>
-<area shape="rect" id="node30" href="$d7/d3f/a00173.php" title="PureVirtual.hpp" alt="" coords="827,229,938,256"/>
-<area shape="rect" id="node31" href="$d3/dd5/a00215.php" title="UsefullDefines.hpp" alt="" coords="963,229,1096,256"/>
-<area shape="rect" id="node12" href="$d5/db1/a00140.php" title="C++/OsDetection.hpp" alt="" coords="322,304,473,331"/>
+<area shape="rect" id="node8" href="$d7/d3f/a00173.php" title="C++/pointers.hpp" alt="" coords="723,80,845,107"/>
+<area shape="rect" id="node9" href="$d3/dd5/a00215.php" title="C++/types.hpp" alt="" coords="621,155,731,181"/>
+<area shape="rect" id="node11" href="$d4/d51/a00017.php" title="Big.hpp" alt="" coords="643,229,709,256"/>
+<area shape="rect" id="node30" href="$dd/dc1/a00212.php" title="C++/Tree.hpp" alt="" coords="515,229,618,256"/>
+<area shape="rect" id="node31" href="$d5/de9/a00176.php" title="PureVirtual.hpp" alt="" coords="734,229,845,256"/>
+<area shape="rect" id="node32" href="$dc/d9a/a00218.php" title="UsefullDefines.hpp" alt="" coords="869,229,1003,256"/>
+<area shape="rect" id="node12" href="$d7/dce/a00143.php" title="C++/OsDetection.hpp" alt="" coords="322,304,473,331"/>
 <area shape="rect" id="node26" href="$d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="497,304,668,331"/>
 <area shape="rect" id="node27" href="$d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="693,304,846,331"/>
 <area shape="rect" id="node28" href="$db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="871,304,1044,331"/>
 <area shape="rect" id="node29" href="$d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1068,304,1207,331"/>
-<area shape="rect" id="node14" href="$d4/d3a/a00101.php" title="C++/lowIncludes.hpp" alt="" coords="391,379,537,405"/>
+<area shape="rect" id="node14" href="$d0/dc2/a00104.php" title="C++/lowIncludes.hpp" alt="" coords="391,379,537,405"/>
 </map>

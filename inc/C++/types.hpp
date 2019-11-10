@@ -2,7 +2,7 @@
 *
 *	\file		types.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	September, 24 2019
+*	\modified	November, 09 2019
 *
 */
 #ifndef HEADER_CPP_TYPES
@@ -11,6 +11,8 @@
 #include <typeinfo>
 
 #include "Big.hpp"
+#include "C++/Tree.hpp"
+
 #include "PureVirtual.hpp"
 #include "UsefullDefines.hpp"
 

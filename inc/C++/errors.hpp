@@ -2,7 +2,7 @@
 *
 *	\file		errors.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		April, 24 2019
+*	\date		November, 09 2019
 *
 */
 #ifndef HEADER_CPP_ERRORS
@@ -17,11 +17,13 @@ namespace mcd {
 	*/
 	#define line_number __LINE__
 
-	#define debug_log() info_log(line_number, __FILE__)
+	#define debug_dlog() debug_ilog()
+	#define debug_ilog() info_log(line_number, __FILE__)
 	#define debug_elog() error_log(line_number, __FILE__)
 	#define debug_wlog() warning_log(line_number, __FILE__)
 
-	#define debug_logs(...) info_log(line_number, __FILE__, __VA_ARGS__)
+	#define debug_dlogs(...) debug_ilogs( __VA_ARGS__)
+	#define debug_ilogs(...) info_log(line_number, __FILE__, __VA_ARGS__)
 	#define debug_elogs(...) error_log(line_number, __FILE__, __VA_ARGS__)
 	#define debug_wlogs(...) warning_log(line_number, __FILE__, __VA_ARGS__)
 

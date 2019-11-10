@@ -1,25 +1,11 @@
 var a01018 =
 [
-    [ "PlayerAbstraction", "d3/d08/a01018.php#acd7472274e5fd10845893208d604617f", null ],
-    [ "~PlayerAbstraction", "d3/d08/a01018.php#abde0c45c79e9cb030711f77d73fdc5a8", null ],
-    [ "getExperience", "d3/d08/a01018.php#af4b6c4845dcc12c9feed1910e7de9334", null ],
-    [ "getExperienceMax", "d3/d08/a01018.php#a3d9f0332994725fceb7f785fd83e1802", null ],
-    [ "getMail", "d3/d08/a01018.php#ada35a68939571761734d82bf83e6c634", null ],
-    [ "isInit", "d3/d08/a01018.php#abdb489c22b76cb09daefb8f05b2f515c", null ],
-    [ "isLost", "d3/d08/a01018.php#ae441783e58a888696f8dc24f4cdfcce5", null ],
-    [ "isPaused", "d3/d08/a01018.php#a81a1ea7b3b306b10af787c353c92cc2e", null ],
-    [ "lost", "d3/d08/a01018.php#a7582710c11a7b92d9912f414a5296975", null ],
-    [ "pause", "d3/d08/a01018.php#a57f10ce6fa33a36671c750dd68dc1a13", null ],
-    [ "printInfos", "d3/d08/a01018.php#ac6d60013def2f34160fda9a990cf2da5", null ],
-    [ "resume", "d3/d08/a01018.php#a4670bc4130ffbdd8fd198ab020a7ffe3", null ],
-    [ "retreive", "d3/d08/a01018.php#ac4a98e2f186ed9702f90362a158a9f2f", null ],
-    [ "setExperience", "d3/d08/a01018.php#a368cb45cbd8f4bcd470628f4d0783b07", null ],
-    [ "setExperienceMax", "d3/d08/a01018.php#a7e2dc719465b4100436d08def34378f4", null ],
-    [ "setMail", "d3/d08/a01018.php#ac6441d9b85821e4e20639fe5082795a5", null ],
-    [ "_experience", "d3/d08/a01018.php#ae561b7817c64610317799205afa306cd", null ],
-    [ "_experienceMax", "d3/d08/a01018.php#a3800d1590d75f762d41be6349556707d", null ],
-    [ "_init", "d3/d08/a01018.php#abffa7d0ae3461370c932f0732367c93b", null ],
-    [ "_losted", "d3/d08/a01018.php#aee72e21c73d5bbf23c831514cd6cd58b", null ],
-    [ "_mail", "d3/d08/a01018.php#ad9199142db686c7745b21429e7061823", null ],
-    [ "_paused", "d3/d08/a01018.php#a005074efa352510f2dc316404195946c", null ]
+    [ "Pathfinding", "d3/d08/a01018.php#aca54568ec2e832b3f08ef6f86c7184f2", null ],
+    [ "~Pathfinding", "d3/d08/a01018.php#a4cb06bc7729ad6371ad3380e0fd54f51", null ],
+    [ "createPath", "d3/d08/a01018.php#a9a82c779fba2fba8d5adbd1c22ea8c0d", null ],
+    [ "getPath", "d3/d08/a01018.php#ac59e95d415c520941c5bac355537df7f", null ],
+    [ "_end", "d3/d08/a01018.php#a6f42595f214b1d2328d40c7fcf371626", null ],
+    [ "_path", "d3/d08/a01018.php#afa7ec4aec9e8ed4aba2c3110ca86273f", null ],
+    [ "_problem", "d3/d08/a01018.php#a8432f285b7015512efbe0a9a47bc76d7", null ],
+    [ "_start", "d3/d08/a01018.php#a6fc13e2aa513059f91865021b9b13eed", null ]
 ];

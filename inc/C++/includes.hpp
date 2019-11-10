@@ -45,9 +45,9 @@
 #ifndef HEADER_CPP_INCLUDES
 #define HEADER_CPP_INCLUDES
 
-#include "C++/timeFunctions.hpp"
 #include "C++/NotCopyable.hpp"
 #include "C++/NotInstantiable.hpp"
+#include "C++/timeFunctions.hpp"
 
 #include <limits>
 #include <iterator>

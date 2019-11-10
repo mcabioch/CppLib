@@ -1,11 +1,4 @@
-<map id="types.hpp" name="types.hpp">
-<area shape="rect" id="node3" href="$d4/d51/a00017.php" title="Big.hpp" alt="" coords="736,80,803,107"/>
-<area shape="rect" id="node22" href="$d7/d3f/a00173.php" title="PureVirtual.hpp" alt="" coords="827,80,938,107"/>
-<area shape="rect" id="node23" href="$d3/dd5/a00215.php" title="UsefullDefines.hpp" alt="" coords="963,80,1096,107"/>
-<area shape="rect" id="node4" href="$d5/db1/a00140.php" title="C++/OsDetection.hpp" alt="" coords="322,155,473,181"/>
-<area shape="rect" id="node18" href="$d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="497,155,668,181"/>
-<area shape="rect" id="node19" href="$d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="693,155,846,181"/>
-<area shape="rect" id="node20" href="$db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="871,155,1044,181"/>
-<area shape="rect" id="node21" href="$d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1068,155,1207,181"/>
-<area shape="rect" id="node6" href="$d4/d3a/a00101.php" title="C++/lowIncludes.hpp" alt="" coords="391,229,537,256"/>
+<map id="Tree.hpp" name="Tree.hpp">
+<area shape="rect" id="node2" href="$d7/dce/a00143.php" title="C++/OsDetection.hpp" alt="" coords="322,80,473,107"/>
+<area shape="rect" id="node4" href="$d0/dc2/a00104.php" title="C++/lowIncludes.hpp" alt="" coords="391,155,537,181"/>
 </map>

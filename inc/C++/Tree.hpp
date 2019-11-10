@@ -2,13 +2,13 @@
 *
 *	\file		Tree.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		September, 26 2019
+*	\date		November, 09 2019
 *
 */
 #ifndef HEADER_CPP_TREE
 #define HEADER_CPP_TREE
 
-#include "C++/defines.hpp"
+#include "C++/OsDetection.hpp"
 
 namespace mcd {
 	typedef long double NodeWeight;

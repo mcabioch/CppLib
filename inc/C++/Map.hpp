@@ -9,7 +9,7 @@
 #ifndef HEADER_CPP_MAP
 #define HEADER_CPP_MAP
 
-#include "C++/defines.hpp"
+#include "C++/PathfindingAlgorithms.hpp"
 
 namespace mcd {
 	/*!

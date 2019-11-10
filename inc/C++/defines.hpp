@@ -2,7 +2,7 @@
 *
 *	\file		defines.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	January, 19 2019
+*	\modified	November, 09 2019
 *
 *	\details	- Enable the use of ;
 *					- BDD with bdd\n
@@ -25,10 +25,9 @@
 #include "C++/Clock.hpp"
 #include "C++/ConsoleTable.hpp"
 #include "C++/Referenced.hpp"
-
-#include "C++/PathfindingAlgorithms.hpp"
-
 #include "C++/IOConfig.hpp"
+
+#include "C++/Map.hpp"
 
 namespace mcd {
 	/* Some defines */

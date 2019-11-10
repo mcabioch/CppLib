@@ -1,5 +1,7 @@
-<map id="mcd::Plant" name="mcd::Plant">
-<area shape="rect" id="node2" href="$d3/dc4/a01089.php" title="A vegetal. " alt="" coords="17,155,116,181"/>
-<area shape="rect" id="node3" href="$d6/dad/a00941.php" title="An entity. " alt="" coords="22,80,111,107"/>
-<area shape="rect" id="node4" href="$da/d5b/a00905.php" title="A contraption. " alt="" coords="5,5,128,32"/>
+<map id="mcd::Pathfinding" name="mcd::Pathfinding">
+<area shape="rect" id="node2" href="$d0/d56/a01014.php" title="A class to manage a path computed by the map. " alt="" coords="727,5,809,32"/>
+<area shape="rect" id="node3" href="$d0/d2b/a01010.php" title="A node for the path. " alt="" coords="149,64,300,91"/>
+<area shape="rect" id="node4" href="$de/d41/a01030.php" title="A class to group every pathfinding problems in one way to use it. " alt="" coords="833,167,1001,193"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="163,220,286,247"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="167,144,283,171"/>
 </map>

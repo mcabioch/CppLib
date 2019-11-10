@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::this_thread Namespace Reference</title>
+		<title>C++: Todo List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 14:37:52 for C++ by";
+				$text = "Generated on Sat Nov 9 2019 20:16:05 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -89,77 +89,30 @@ $(document).ready(function(){initNavTree('d1/da8/a00230.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::this_thread Namespace Reference</div>  </div>
+<div class="title">Todo List </div>  </div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a3a711ec2f858ee16756d8619224624ee"><td class="memTemplParams" colspan="2">template&lt;typename TimeDuration &gt; </td></tr>
-<tr class="memitem:a3a711ec2f858ee16756d8619224624ee"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/da8/a00230.php#a3a711ec2f858ee16756d8619224624ee">yield</a> () noexcept</td></tr>
-<tr class="separator:a3a711ec2f858ee16756d8619224624ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa5ef673c6390db3486b12d03a64f8f5"><td class="memTemplParams" colspan="2">template&lt;class Rep , class Period &gt; </td></tr>
-<tr class="memitem:aaa5ef673c6390db3486b12d03a64f8f5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/da8/a00230.php#aaa5ef673c6390db3486b12d03a64f8f5">sleep_for</a> (const std::chrono::duration&lt; Rep, Period &gt; &amp;rel_time)</td></tr>
-<tr class="separator:aaa5ef673c6390db3486b12d03a64f8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="aaa5ef673c6390db3486b12d03a64f8f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa5ef673c6390db3486b12d03a64f8f5">&#9670;&nbsp;</a></span>sleep_for()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Rep , class Period &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::this_thread::sleep_for </td>
-          <td>(</td>
-          <td class="paramtype">const std::chrono::duration&lt; Rep, Period &gt; &amp;&#160;</td>
-          <td class="paramname"><em>rel_time</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3a711ec2f858ee16756d8619224624ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a711ec2f858ee16756d8619224624ee">&#9670;&nbsp;</a></span>yield()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename TimeDuration &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::this_thread::yield </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<div class="textblock"><dl class="reflist">
+<dt><a class="anchor" id="_todo000001"></a>Class <a class="el" href="../../d4/dfd/a00810.php">mcd::Big</a>  </dt>
+<dd>Implement the coma  </dd>
+<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../df/dce/a00974.php">mcd::Logger</a>  </dt>
+<dd><p class="startdd">Add comments</p>
+<p class="enddd"></p>
+</dd>
+<dt><a class="anchor" id="_todo000002"></a>Class <a class="el" href="../../d5/d54/a00938.php">mcd::RSA</a>  </dt>
+<dd>Create the class  </dd>
+<dt><a class="anchor" id="_todo000004"></a>Class <a class="el" href="../../db/dba/a01078.php">mcd::Timer</a>  </dt>
+<dd>Create the class  </dd>
+<dt><a class="anchor" id="_todo000005"></a>Class <a class="el" href="../../d9/df5/a01086.php">mcd::Tree&lt; T &gt;</a>  </dt>
+<dd>Refactoring </dd>
+</dl>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dd/d2d/a00229.php">mcd</a></li><li class="navelem"><a class="el" href="../../d1/da8/a00230.php">this_thread</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

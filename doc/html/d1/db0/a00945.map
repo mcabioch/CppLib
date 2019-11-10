@@ -1,4 +1,4 @@
-<map id="mcd::Hostile" name="mcd::Hostile">
-<area shape="rect" id="node2" href="$d4/d13/a00766.php" title="An animal. " alt="" coords="6,80,101,107"/>
-<area shape="rect" id="node3" href="$d0/d7e/a00770.php" title="An ant. " alt="" coords="16,155,91,181"/>
+<map id="mcd::DateTime" name="mcd::DateTime">
+<area shape="rect" id="node2" href="$df/d12/a00942.php" title="A class to play with dates. " alt="" coords="5,5,88,32"/>
+<area shape="rect" id="node3" href="$d7/df7/a01074.php" title="A class to play with dates. " alt="" coords="113,5,197,32"/>
 </map>

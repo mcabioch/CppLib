@@ -1,10 +1,6 @@
-<map id="mcd::Contraption" name="mcd::Contraption">
-<area shape="rect" id="node2" href="$d1/db0/a00945.php" title="An entity. " alt="" coords="129,80,219,107"/>
-<area shape="rect" id="node8" href="$da/d0a/a00993.php" title="An object. " alt="" coords="245,80,338,107"/>
-<area shape="rect" id="node3" href="$d8/dba/a00773.php" title="An animal. " alt="" coords="5,155,100,181"/>
-<area shape="rect" id="node5" href="$de/d1c/a01093.php" title="A vegetal. " alt="" coords="125,155,223,181"/>
-<area shape="rect" id="node4" href="$d2/d02/a00777.php" title="An ant. " alt="" coords="15,229,90,256"/>
-<area shape="rect" id="node6" href="$dd/d24/a00981.php" title="A mushroom. " alt="" coords="115,229,231,256"/>
-<area shape="rect" id="node7" href="$d5/dfb/a01021.php" title="A plant. " alt="" coords="255,229,341,256"/>
-<area shape="rect" id="node9" href="$dc/d99/a01053.php" title="A stone. " alt="" coords="248,155,337,181"/>
+<map id="mcd::ThreadCout" name="mcd::ThreadCout">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="35,244,130,271"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="16,155,149,196"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="5,80,160,107"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="33,5,133,32"/>
 </map>

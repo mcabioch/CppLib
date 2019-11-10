@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['purple_5fb',['PURPLE_B',['../dd/d2d/a00229.php#ae124ce77f8e386663ac11e2e35e6070aab754547a82033c3c904e91984b530326',1,'mcd']]],
-  ['purple_5ff',['PURPLE_F',['../dd/d2d/a00229.php#ae124ce77f8e386663ac11e2e35e6070aab8176b797e421a3d45ed5a872d872591',1,'mcd']]]
+  ['obstacle',['OBSTACLE',['../d0/d53/a00232.php#a7350be9df9566241dfb80071a89f9edea2399122c182da0d5946e2937bb73edf2',1,'mcd']]],
+  ['off',['OFF',['../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95aec03d0d7dfe9026cc03f6a027d0dc572',1,'mcd::Logger']]],
+  ['other',['OTHER',['../de/d02/a01026.php#a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982',1,'mcd::PathfindingException']]]
 ];

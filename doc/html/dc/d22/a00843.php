@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Check::is_smatch&lt; T &gt; Class Template Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 14:37:52 for C++ by";
+				$text = "Generated on Sat Nov 9 2019 20:16:05 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('dc/d22/a00843.php','../../');});
+$(document).ready(function(){initNavTree('d9/d87/a00846.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,64 +89,20 @@ $(document).ready(function(){initNavTree('dc/d22/a00843.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="../../d9/d61/a00840.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_smatch&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Check::is_smatch&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A template class to test if T is a string regex match.  
- <a href="../../dc/d22/a00843.php#details">More...</a></p>
-
-<p><code>#include &lt;check.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a573e824f7b1584fa564c91c1e5814453"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d22/a00843.php#a573e824f7b1584fa564c91c1e5814453">value</a> = false</td></tr>
-<tr class="separator:a573e824f7b1584fa564c91c1e5814453"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_smatch&lt; T &gt;</h3>
-
-<p>A template class to test if T is a string regex match. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a573e824f7b1584fa564c91c1e5814453"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a573e824f7b1584fa564c91c1e5814453">&#9670;&nbsp;</a></span>value</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const bool <a class="el" href="../../dc/d22/a00843.php">mcd::Check::is_smatch</a>&lt; T &gt;::value = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../dd/d32/a00041.php">check.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d9/d87/a00846.php">mcd::Check::is_smatch&lt; T &gt;</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d87/a00846.php#a573e824f7b1584fa564c91c1e5814453">value</a></td><td class="entry"><a class="el" href="../../d9/d87/a00846.php">mcd::Check::is_smatch&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dd/d2d/a00229.php">mcd</a></li><li class="navelem"><a class="el" href="../../df/d17/a00231.php">Check</a></li><li class="navelem"><a class="el" href="../../dc/d22/a00843.php">is_smatch</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

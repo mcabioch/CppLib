@@ -1,3 +1,4 @@
-<map id="mcd::Path" name="mcd::Path">
-<area shape="rect" id="node2" href="$dc/d10/a01003.php" title="A node for the path. " alt="" coords="5,5,156,32"/>
+<map id="mcd::Object" name="mcd::Object">
+<area shape="rect" id="node3" href="$d0/dfb/a01066.php" title="A stone. " alt="" coords="22,155,111,181"/>
+<area shape="rect" id="node2" href="$d0/ddf/a00918.php" title="A contraption. " alt="" coords="5,5,128,32"/>
 </map>

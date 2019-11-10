@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::t_queue&lt; T, Container &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Oct 3 2019 19:33:52 for C++ by";
+				$text = "Generated on Sat Nov 9 2019 20:16:05 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('dd/d7e/a00809.php','../../');});
+$(document).ready(function(){initNavTree('d0/dad/a00806.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,66 +89,155 @@ $(document).ready(function(){initNavTree('dd/d7e/a00809.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d5/d72/a00803.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt; Member List</div>  </div>
+<div class="title">mcd::t_queue&lt; T, Container &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a29b9b7a89bae0c41f0ff5933406b8f4d">Binary</a>(const T &amp;in)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#ac47df1759fc5e2a1c2b4113401fc3ee9">get</a>() const</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#ae18ae6dbf2af067445959151e085388f">operator &amp;</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a6ef6c76509377f56c942e3f96bb7cd0d">operator &amp;</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a55b0a82bae88793a23c156564e7632e0">operator &amp;=</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#ace76e1591794c8062c93262d5eef089b">operator &amp;=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#af6df2d68726b03400033bab751c67fe5">operator%</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#aa37ebef5a016009e56ea045f5ffb2d74">operator%</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#afdee4d3919d601d7d3866ff8111bf43d">operator%=</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a63cc02969abfda9a23fb406b3b1f9f2b">operator%=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#aa137cb15d3a7fdab004af1928f2a2057">operator*</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#aab414c13c05ef4d019d72e9f834e413a">operator*</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a0c96f32a7e59f22620de4cda7bc556ae">operator*=</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a5dbc25e20f0f71abf29a0b5503fb1b50">operator*=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#affdc87d51e9856fb8707a36d97202f8d">operator+</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a4413dce6e2ea1294540e133ec71ac8fb">operator+</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a0e6751da523a397922e574451703787f">operator+=</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#ae184c9513e435dcb90a103d98b67064d">operator+=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#af5c630caaf6e543c3711c0aa8ab56b9c">operator-</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#ab37400e3d58f6a12f8409b252bf2ca40">operator-</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#ae11513baca1f795e367097c57f2b4f2c">operator-=</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a6ca8b82107b0a3ac2e30d887609fd7c7">operator-=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#ac3806c2f411953248b6d258ead5da9fb">operator/</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#acb46b6d63f74465d54b6ee693d3d7a98">operator/</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a985223f6b53f2884cf31b53b36b109cb">operator/=</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#aa396ab6d789032e8f5d1799c6518a86a">operator/=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#ad6544d700ff33569270240a85e85aa1e">operator&lt;&lt;</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a0ab0370cf137f65c58a91b0f28de81c4">operator&lt;&lt;</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#acd2465f87f784cedc37718af0bf50d17">operator&lt;&lt;</a>(std::ostream &amp;os, const Binary &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a0d25396a4fd2f86b2f381862169aa9b8">operator&lt;&lt;=</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#ae37d4b7ef4d255fe152b78fe5a4e7f0d">operator&lt;&lt;=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#aa8cf5f8e8b9dad3b0d0dd892dae0eca8">operator&gt;&gt;</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#aa8320705c12816d9baead8f46adfe198">operator&gt;&gt;</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#acdcfe40eebb64e8fd80d976a0848a89b">operator&gt;&gt;=</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a48f5b420ccf33d875fd6126d56579d82">operator&gt;&gt;=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a6d08fb7c59a1f996ac2512d35d75d07f">operator^</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a7c3151311e74094ffef558de51dd315c">operator^</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a56a92e16b32034cec0a9d7f5ff4cce6b">operator^=</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a8fe0174ab3d62d4fda8cd77185c4feb6">operator^=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#aeb2689651a2be40b1b7a3bd930ab41cb">operator|</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a46d358cd82d56495acd0fe3c99db691b">operator|</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#aab132724a94ba4e2f2318346a8ffae90">operator|=</a>(const Binary&lt; T &gt; &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a1727ca4ea2cdfdbba4ee404e8c3f5d26">operator|=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a19199d5410d2586642819f9a64bf4f76">print</a>(size_t multiple=8) const</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a51139eafa7f6dacbd7958fa9e8ce664b">s_print</a>(const T &amp;in, size_t multiple=8)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a4cd5ecef05c71e597e58411bf6cc6455">set</a>(const T &amp;in)</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d7e/a00809.php#a82e77a879b8106937ac550807afcf2da">~Binary</a>()</td><td class="entry"><a class="el" href="../../dd/d7e/a00809.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>An thread-safe implementation of queue.  
+ <a href="../../d0/dad/a00806.php#details">More...</a></p>
+
+<p><code>#include &lt;array.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::t_queue&lt; T, Container &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/dff/a00805.png" border="0" usemap="#mcd_1_1t__queue_3_01T_00_01Container_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1t__queue_3_01T_00_01Container_01_4_inherit__map" id="mcd_1_1t__queue_3_01T_00_01Container_01_4_inherit__map">
+<area shape="rect" id="node2" href="../../d5/dcd/a00802.php" title="An implementation of std::queue. " alt="" coords="11,80,197,107"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="15,5,193,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::t_queue&lt; T, Container &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dd1/a00804.png" border="0" usemap="#mcd_1_1t__queue_3_01T_00_01Container_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1t__queue_3_01T_00_01Container_01_4_coll__map" id="mcd_1_1t__queue_3_01T_00_01Container_01_4_coll__map">
+<area shape="rect" id="node2" href="../../d5/dcd/a00802.php" title="An implementation of std::queue. " alt="" coords="11,171,197,197"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="15,95,193,121"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a6113ab263c40412573cb17961892e4eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/a00806.php#a6113ab263c40412573cb17961892e4eb">t_queue</a> ()</td></tr>
+<tr class="separator:a6113ab263c40412573cb17961892e4eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7108e587ce260901f5fdac365db13fab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/a00806.php#a7108e587ce260901f5fdac365db13fab">push</a> (const T &amp;value)</td></tr>
+<tr class="separator:a7108e587ce260901f5fdac365db13fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ccba4c88decd735670f069077bce0b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/a00806.php#a7ccba4c88decd735670f069077bce0b0">push</a> (T &amp;&amp;value)</td></tr>
+<tr class="separator:a7ccba4c88decd735670f069077bce0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00802"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00802')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d5/dcd/a00802.php">mcd::queue&lt; T, Container &gt;</a></td></tr>
+<tr class="memitem:a0566f226253ef02ac813bad965f647b9 inherit pub_methods_a00802"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a0566f226253ef02ac813bad965f647b9">queue</a> ()</td></tr>
+<tr class="separator:a0566f226253ef02ac813bad965f647b9 inherit pub_methods_a00802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c9c5803f41517e0b1b8d75441cd4b09 inherit pub_methods_a00802"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a9c9c5803f41517e0b1b8d75441cd4b09">pop</a> ()</td></tr>
+<tr class="memdesc:a9c9c5803f41517e0b1b8d75441cd4b09 inherit pub_methods_a00802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase the first element of the queue.  <a href="../../d5/dcd/a00802.php#a9c9c5803f41517e0b1b8d75441cd4b09">More...</a><br /></td></tr>
+<tr class="separator:a9c9c5803f41517e0b1b8d75441cd4b09 inherit pub_methods_a00802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a148295001e6effa1aa1217af766e021f inherit pub_methods_a00802"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a148295001e6effa1aa1217af766e021f">get</a> ()</td></tr>
+<tr class="memdesc:a148295001e6effa1aa1217af766e021f inherit pub_methods_a00802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the first element of the queue and erase it from the queue.  <a href="../../d5/dcd/a00802.php#a148295001e6effa1aa1217af766e021f">More...</a><br /></td></tr>
+<tr class="separator:a148295001e6effa1aa1217af766e021f inherit pub_methods_a00802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;class T, class Container = std::deque&lt;T&gt;&gt;<br />
+class mcd::t_queue&lt; T, Container &gt;</h3>
+
+<p>An thread-safe implementation of queue. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a6113ab263c40412573cb17961892e4eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6113ab263c40412573cb17961892e4eb">&#9670;&nbsp;</a></span>t_queue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/dad/a00806.php">mcd::t_queue</a>&lt; T, Container &gt;::<a class="el" href="../../d0/dad/a00806.php">t_queue</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7108e587ce260901f5fdac365db13fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7108e587ce260901f5fdac365db13fab">&#9670;&nbsp;</a></span>push() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d0/dad/a00806.php">mcd::t_queue</a>&lt; T, Container &gt;::push </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ccba4c88decd735670f069077bce0b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ccba4c88decd735670f069077bce0b0">&#9670;&nbsp;</a></span>push() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d0/dad/a00806.php">mcd::t_queue</a>&lt; T, Container &gt;::push </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../da/d45/a00011.php">array.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../d0/d53/a00232.php">mcd</a></li><li class="navelem"><a class="el" href="../../d0/dad/a00806.php">t_queue</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

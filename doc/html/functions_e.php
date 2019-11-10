@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 14:37:52 for C++ by";
+				$text = "Generated on Sat Nov 9 2019 20:16:05 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,17 +93,20 @@ $(document).ready(function(){initNavTree('functions_e.php','');});
 
 <h3><a id="index_e"></a>- e -</h3><ul>
 <li>enabled()
-: <a class="el" href="d7/d98/a00983.php#ae6b6255f5d5cd9a1684fcdb927978c18">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="dd/d7a/a00990.php#ae6b6255f5d5cd9a1684fcdb927978c18">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>end
-: <a class="el" href="dd/d2d/a00229.php#a2f707d77cfeffb93eceecea7c25a7cc6">mcd::MapMove</a>
-, <a class="el" href="d6/d8d/a01007.php#a3b461b7f35d6914a627e52e20f79f6ce">mcd::Path</a>
+: <a class="el" href="d0/d53/a00232.php#a2f707d77cfeffb93eceecea7c25a7cc6">mcd::MapMove</a>
+, <a class="el" href="d0/d56/a01014.php#a3b461b7f35d6914a627e52e20f79f6ce">mcd::Path</a>
 </li>
 <li>Entity()
-: <a class="el" href="dc/da0/a00951.php#a5b9f9a89a85d2c396e5556ad468131fa">mcd::Entity</a>
+: <a class="el" href="d3/dca/a00954.php#a5b9f9a89a85d2c396e5556ad468131fa">mcd::Entity</a>
 </li>
 <li>equilibrate()
-: <a class="el" href="d2/d4d/a01079.php#a38b40b07bade18a081d80596983dd16c">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d9/df5/a01086.php#a38b40b07bade18a081d80596983dd16c">mcd::Tree&lt; T &gt;</a>
+</li>
+<li>ERROR
+: <a class="el" href="df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8b436988ab5aa21a575cab658caa5d27">mcd::Logger</a>
 </li>
 </ul>
 </div><!-- contents -->

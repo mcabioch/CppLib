@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Threadable&lt; C &gt; Class Template Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 14:37:52 for C++ by";
+				$text = "Generated on Sat Nov 9 2019 20:16:05 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('de/de6/a01063.php','../../');});
+$(document).ready(function(){initNavTree('d0/dfb/a01066.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,522 +89,53 @@ $(document).ready(function(){initNavTree('de/de6/a01063.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../d5/d16/a01060.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Threadable&lt; C &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">mcd::Stone Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to let another one to be threadable with update() member in a thread.  
- <a href="../../de/de6/a01063.php#details">More...</a></p>
-
-<p><code>#include &lt;Threadable.hpp&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for mcd::Threadable&lt; C &gt;:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d4/d8a/a01062.png" border="0" usemap="#mcd_1_1Threadable_3_01C_01_4_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1Threadable_3_01C_01_4_inherit__map" id="mcd_1_1Threadable_3_01C_01_4_inherit__map">
-<area shape="rect" id="node2" href="../../de/de6/a01063.php" title="mcd::Threadable\&lt; Timer \&gt;" alt="" coords="5,95,181,121"/>
-<area shape="rect" id="node3" href="../../df/d18/a01071.php" title="A timer to do something at the end. " alt="" coords="49,171,137,197"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a04bdb4a894312f6671680c2f103b8a63"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php#a04bdb4a894312f6671680c2f103b8a63">Threadable</a> ()</td></tr>
-<tr class="memdesc:a04bdb4a894312f6671680c2f103b8a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the <a class="el" href="../../de/de6/a01063.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class.  <a href="#a04bdb4a894312f6671680c2f103b8a63">More...</a><br /></td></tr>
-<tr class="separator:a04bdb4a894312f6671680c2f103b8a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29db3ebe9dfbf77bc04967565c0dcf6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php#a29db3ebe9dfbf77bc04967565c0dcf6e">Threadable</a> (<a class="el" href="../../de/de6/a01063.php">Threadable</a>&lt; C &gt; &amp;other)</td></tr>
-<tr class="memdesc:a29db3ebe9dfbf77bc04967565c0dcf6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy constructor of the <a class="el" href="../../de/de6/a01063.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class.  <a href="#a29db3ebe9dfbf77bc04967565c0dcf6e">More...</a><br /></td></tr>
-<tr class="separator:a29db3ebe9dfbf77bc04967565c0dcf6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cbceb43796de6c36a5cd4f35a6402cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php#a4cbceb43796de6c36a5cd4f35a6402cb">Threadable</a> (<a class="el" href="../../de/de6/a01063.php">Threadable</a>&lt; C &gt; &amp;&amp;other)</td></tr>
-<tr class="memdesc:a4cbceb43796de6c36a5cd4f35a6402cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The move constructor of the <a class="el" href="../../de/de6/a01063.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class.  <a href="#a4cbceb43796de6c36a5cd4f35a6402cb">More...</a><br /></td></tr>
-<tr class="separator:a4cbceb43796de6c36a5cd4f35a6402cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab98cd8e5cd8832dfd6e82c17d1a689d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php#aab98cd8e5cd8832dfd6e82c17d1a689d">~Threadable</a> ()</td></tr>
-<tr class="memdesc:aab98cd8e5cd8832dfd6e82c17d1a689d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The destructor of the <a class="el" href="../../de/de6/a01063.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class.  <a href="#aab98cd8e5cd8832dfd6e82c17d1a689d">More...</a><br /></td></tr>
-<tr class="separator:aab98cd8e5cd8832dfd6e82c17d1a689d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aede63b72f054d20e35d22153af8313c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/de6/a01063.php">Threadable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php#aede63b72f054d20e35d22153af8313c8">operator=</a> (<a class="el" href="../../de/de6/a01063.php">Threadable</a>&lt; C &gt; &amp;other) noexcept</td></tr>
-<tr class="memdesc:aede63b72f054d20e35d22153af8313c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy operator of the class.  <a href="#aede63b72f054d20e35d22153af8313c8">More...</a><br /></td></tr>
-<tr class="separator:aede63b72f054d20e35d22153af8313c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab51cdb23e70b6ab97afb529098eb20c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/de6/a01063.php">Threadable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php#ab51cdb23e70b6ab97afb529098eb20c0">operator=</a> (<a class="el" href="../../de/de6/a01063.php">Threadable</a>&lt; C &gt; &amp;&amp;other) noexcept</td></tr>
-<tr class="memdesc:ab51cdb23e70b6ab97afb529098eb20c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The move operator of the class.  <a href="#ab51cdb23e70b6ab97afb529098eb20c0">More...</a><br /></td></tr>
-<tr class="separator:ab51cdb23e70b6ab97afb529098eb20c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eb0985252b04c90761f92432ef4216d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php#a1eb0985252b04c90761f92432ef4216d">launch</a> ()=0</td></tr>
-<tr class="memdesc:a1eb0985252b04c90761f92432ef4216d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the thread.  <a href="#a1eb0985252b04c90761f92432ef4216d">More...</a><br /></td></tr>
-<tr class="separator:a1eb0985252b04c90761f92432ef4216d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dd37d54456e167f8b42d30be7076939"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php#a4dd37d54456e167f8b42d30be7076939">stop</a> ()</td></tr>
-<tr class="memdesc:a4dd37d54456e167f8b42d30be7076939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the thread and delete the pointer correctly.  <a href="#a4dd37d54456e167f8b42d30be7076939">More...</a><br /></td></tr>
-<tr class="separator:a4dd37d54456e167f8b42d30be7076939"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a156911948e5f5d2d5eeb0922ee3bd86d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php#a156911948e5f5d2d5eeb0922ee3bd86d">launched</a> () const</td></tr>
-<tr class="memdesc:a156911948e5f5d2d5eeb0922ee3bd86d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if the thread has been launched or not.  <a href="#a156911948e5f5d2d5eeb0922ee3bd86d">More...</a><br /></td></tr>
-<tr class="separator:a156911948e5f5d2d5eeb0922ee3bd86d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a804393d97a319c38afa593072bd0ead9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php#a804393d97a319c38afa593072bd0ead9">hasToStop</a> () const</td></tr>
-<tr class="memdesc:a804393d97a319c38afa593072bd0ead9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if the thread has to stop or not.  <a href="#a804393d97a319c38afa593072bd0ead9">More...</a><br /></td></tr>
-<tr class="separator:a804393d97a319c38afa593072bd0ead9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6a411164d64b1b04b731f29d54e016a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php#af6a411164d64b1b04b731f29d54e016a">inUse</a> ()</td></tr>
-<tr class="memdesc:af6a411164d64b1b04b731f29d54e016a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set that the thread is actually used.  <a href="#af6a411164d64b1b04b731f29d54e016a">More...</a><br /></td></tr>
-<tr class="separator:af6a411164d64b1b04b731f29d54e016a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b2419ec1119f28dc2440e202f0d2c8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php#a0b2419ec1119f28dc2440e202f0d2c8e">notInUse</a> ()</td></tr>
-<tr class="memdesc:a0b2419ec1119f28dc2440e202f0d2c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set that the thread is not used.  <a href="#a0b2419ec1119f28dc2440e202f0d2c8e">More...</a><br /></td></tr>
-<tr class="separator:a0b2419ec1119f28dc2440e202f0d2c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a77d662da66e59d43579e7490d24d72b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2d/a00229.php#a7139c2a1e77039f963009520820d8c87">mutex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php#a77d662da66e59d43579e7490d24d72b8">_mutex</a></td></tr>
-<tr class="memdesc:a77d662da66e59d43579e7490d24d72b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mutex variable to use in the threadable class.  <a href="#a77d662da66e59d43579e7490d24d72b8">More...</a><br /></td></tr>
-<tr class="separator:a77d662da66e59d43579e7490d24d72b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0351657024f3b0d37b54c08a09a156fa"><td class="memItemLeft" align="right" valign="top">long int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a01063.php#a0351657024f3b0d37b54c08a09a156fa">sleeper</a></td></tr>
-<tr class="memdesc:a0351657024f3b0d37b54c08a09a156fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The time that the threadable class has to sleep after each update.  <a href="#a0351657024f3b0d37b54c08a09a156fa">More...</a><br /></td></tr>
-<tr class="separator:a0351657024f3b0d37b54c08a09a156fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class C&gt;<br />
-class mcd::Threadable&lt; C &gt;</h3>
-
-<p>A class to let another one to be threadable with update() member in a thread. </p>
-<p>On heritage,<br />
-</p><ul>
-<li>: public <a class="el" href="../../de/de6/a01063.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a>&lt;<b>Your</b> <b>class</b> &gt;</li>
-<li>Add <b>THREADABLE</b> before <b>public</b> </li>
-</ul>
-<p>On use,<br />
-</p><ul>
-<li>In a member function that will not be called by update(), put on the first line of it : THREADABLE_LOCK </li>
-</ul>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a04bdb4a894312f6671680c2f103b8a63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04bdb4a894312f6671680c2f103b8a63">&#9670;&nbsp;</a></span>Threadable() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/de6/a01063.php">mcd::Threadable</a>&lt; C &gt;::<a class="el" href="../../de/de6/a01063.php">Threadable</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The constructor of the <a class="el" href="../../de/de6/a01063.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class. </p>
-
-</div>
-</div>
-<a id="a29db3ebe9dfbf77bc04967565c0dcf6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29db3ebe9dfbf77bc04967565c0dcf6e">&#9670;&nbsp;</a></span>Threadable() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/de6/a01063.php">mcd::Threadable</a>&lt; C &gt;::<a class="el" href="../../de/de6/a01063.php">Threadable</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/de6/a01063.php">Threadable</a>&lt; C &gt; &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The copy constructor of the <a class="el" href="../../de/de6/a01063.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class. </p>
-
-</div>
-</div>
-<a id="a4cbceb43796de6c36a5cd4f35a6402cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cbceb43796de6c36a5cd4f35a6402cb">&#9670;&nbsp;</a></span>Threadable() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/de6/a01063.php">mcd::Threadable</a>&lt; C &gt;::<a class="el" href="../../de/de6/a01063.php">Threadable</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/de6/a01063.php">Threadable</a>&lt; C &gt; &amp;&amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The move constructor of the <a class="el" href="../../de/de6/a01063.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class. </p>
-
-</div>
-</div>
-<a id="aab98cd8e5cd8832dfd6e82c17d1a689d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab98cd8e5cd8832dfd6e82c17d1a689d">&#9670;&nbsp;</a></span>~Threadable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../de/de6/a01063.php">mcd::Threadable</a>&lt; C &gt;::~<a class="el" href="../../de/de6/a01063.php">Threadable</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The destructor of the <a class="el" href="../../de/de6/a01063.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a804393d97a319c38afa593072bd0ead9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a804393d97a319c38afa593072bd0ead9">&#9670;&nbsp;</a></span>hasToStop()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="../../de/de6/a01063.php">mcd::Threadable</a>&lt; C &gt;::hasToStop </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return if the thread has to stop or not. </p>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a id="af6a411164d64b1b04b731f29d54e016a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6a411164d64b1b04b731f29d54e016a">&#9670;&nbsp;</a></span>inUse()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../de/de6/a01063.php">mcd::Threadable</a>&lt; C &gt;::inUse </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set that the thread is actually used. </p>
-
-</div>
-</div>
-<a id="a1eb0985252b04c90761f92432ef4216d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1eb0985252b04c90761f92432ef4216d">&#9670;&nbsp;</a></span>launch()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void <a class="el" href="../../de/de6/a01063.php">mcd::Threadable</a>&lt; C &gt;::launch </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Start the thread. </p>
-
-</div>
-</div>
-<a id="a156911948e5f5d2d5eeb0922ee3bd86d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a156911948e5f5d2d5eeb0922ee3bd86d">&#9670;&nbsp;</a></span>launched()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="../../de/de6/a01063.php">mcd::Threadable</a>&lt; C &gt;::launched </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return if the thread has been launched or not. </p>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a id="a0b2419ec1119f28dc2440e202f0d2c8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b2419ec1119f28dc2440e202f0d2c8e">&#9670;&nbsp;</a></span>notInUse()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../de/de6/a01063.php">mcd::Threadable</a>&lt; C &gt;::notInUse </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set that the thread is not used. </p>
-
-</div>
-</div>
-<a id="aede63b72f054d20e35d22153af8313c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aede63b72f054d20e35d22153af8313c8">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/de6/a01063.php">Threadable</a>&amp; <a class="el" href="../../de/de6/a01063.php">mcd::Threadable</a>&lt; C &gt;::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/de6/a01063.php">Threadable</a>&lt; C &gt; &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The copy operator of the class. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The class' instance for copying </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ab51cdb23e70b6ab97afb529098eb20c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab51cdb23e70b6ab97afb529098eb20c0">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/de6/a01063.php">Threadable</a>&amp; <a class="el" href="../../de/de6/a01063.php">mcd::Threadable</a>&lt; C &gt;::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/de6/a01063.php">Threadable</a>&lt; C &gt; &amp;&amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The move operator of the class. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The class' instance for moving </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a4dd37d54456e167f8b42d30be7076939"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dd37d54456e167f8b42d30be7076939">&#9670;&nbsp;</a></span>stop()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../de/de6/a01063.php">mcd::Threadable</a>&lt; C &gt;::stop </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Stop the thread and delete the pointer correctly. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a77d662da66e59d43579e7490d24d72b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77d662da66e59d43579e7490d24d72b8">&#9670;&nbsp;</a></span>_mutex</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/d2d/a00229.php#a7139c2a1e77039f963009520820d8c87">mutex</a> <a class="el" href="../../de/de6/a01063.php">mcd::Threadable</a>&lt; C &gt;::_mutex</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The mutex variable to use in the threadable class. </p>
-
-</div>
-</div>
-<a id="a0351657024f3b0d37b54c08a09a156fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0351657024f3b0d37b54c08a09a156fa">&#9670;&nbsp;</a></span>sleeper</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">long int <a class="el" href="../../de/de6/a01063.php">mcd::Threadable</a>&lt; C &gt;::sleeper</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The time that the threadable class has to sleep after each update. </p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../de/db1/a00197.php">Threadable.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d0/dfb/a01066.php">mcd::Stone</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a7f4fa78c938b90c034ad0fe98a293a3c">addPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a807590a9e81f34ba22aca08ddd986db7">Contraption</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a580eafa58a93d9ab4264c4cbac2f4167">getA</a>() const</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#aa36a1788770d7667d8a2848ff1e3f0c6">getAttributes</a>() const</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#aec81012bc23935e626500734007d5fb5">getH</a>() const</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a2f6cf40462b5dba5f7743c83cc2389f1">getLevel</a>() const</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a393c4ec6fd375809fbcf1cfeab44ed25">getMap</a>() const</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#ac95da2f760e8ba07a54ac849c5a3307f">getPosition</a>() const</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a20dee618b85a3f841921a534bd5dfd37">getRelativeZ</a>(Contraption &amp;obj)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#ad12fd1c5a207f169edc619e09a5a969f">getW</a>() const</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a6e7d791e4289bd253a357be80f8131ee">getX</a>() const</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a153124dd434c08a943f60d7b43c2ffab">getY</a>() const</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a6ac6575807535f3d9aeb251ce3cceaed">getZ</a>() const</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d81/a01006.php#ad332f3a57527a6ede1be2e18b65615a5">Object</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../dc/d81/a01006.php">mcd::Object</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/dfb/a01066.php#ad23699d742569bc0eb2e9724a37b6cdf">printInfos</a>(std::ostream &amp;stream) const override</td><td class="entry"><a class="el" href="../../d0/dfb/a01066.php">mcd::Stone</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a6ee6d1b64b6b88068a2165a1824a5af2">sender</a>(std::string, vector_str)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a73a47e55e554e7c7f357a74276368186">setA</a>(double64_t angle)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a9c5a7acde997e12d99e717f182c5ced7">setAttributes</a>(ContraptionAttr attr)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#ae44610d2144faf1550f8cc6ec860fb71">setAttributes</a>(double64_t w, double64_t h, double64_t angle=0)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a060b6ee9401bd8c9a03c5cecdbfa1942">setH</a>(double64_t h)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a332ecd56522af01cf41b9c4a69449bd0">setLevel</a>(size_t level)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a8a6c84d9d5f814fe553b731d841a5266">setMap</a>(Map *map)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a2974b562f55f65a1b992ff849eea43cf">setPosition</a>(Point pt)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#aae0d0bd5e4613514eb5cda66eaeabbcb">setPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a2a00e0217550c3b79434659e04d40aef">setW</a>(double64_t w)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#abbaabb4c71f560de8c85a859c11dd57a">setX</a>(double64_t x)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a3e1fc3a4ee923891fa0c523f129c45af">setY</a>(double64_t y)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a08c1de8034f9e3985a24dd78d37a3d44">setZ</a>(double64_t z)</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/dfb/a01066.php#a0b078b3e2aea50454478300140675661">Stone</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d0/dfb/a01066.php">mcd::Stone</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a10b4b5c4cd47da89e672c64c41b23162">turnLeft</a>()</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a4f7cef1423cf575fabafa2143a588788">turnRight</a>()</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddf/a00918.php#a17bb565b03902a28211f8609ac04d01b">~Contraption</a>()</td><td class="entry"><a class="el" href="../../d0/ddf/a00918.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d81/a01006.php#a400f71c448a89abecda88ba70ab5029f">~Object</a>()</td><td class="entry"><a class="el" href="../../dc/d81/a01006.php">mcd::Object</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/dfb/a01066.php#aa34b6384ef8063fdf92582115c0765c1">~Stone</a>()</td><td class="entry"><a class="el" href="../../d0/dfb/a01066.php">mcd::Stone</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dd/d2d/a00229.php">mcd</a></li><li class="navelem"><a class="el" href="../../de/de6/a01063.php">Threadable</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

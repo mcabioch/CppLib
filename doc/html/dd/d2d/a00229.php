@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 14:37:52 for C++ by";
+				$text = "Generated on Sat Nov 9 2019 17:01:39 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -608,6 +608,10 @@ Functions</h2></td></tr>
 <tr class="memitem:af0b4fd6390d33edc9719d42b26f6e29f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d2d/a00229.php#af0b4fd6390d33edc9719d42b26f6e29f">info_log</a> (size_t line, T in, Args... args)</td></tr>
 <tr class="memdesc:af0b4fd6390d33edc9719d42b26f6e29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like an information.  <a href="#af0b4fd6390d33edc9719d42b26f6e29f">More...</a><br /></td></tr>
 <tr class="separator:af0b4fd6390d33edc9719d42b26f6e29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45edaf8636065b18a47eb529315c8217"><td class="memTemplParams" colspan="2">template&lt;class T , class ... Args&gt; </td></tr>
+<tr class="memitem:a45edaf8636065b18a47eb529315c8217"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d2d/a00229.php#a45edaf8636065b18a47eb529315c8217">debug_log</a> (size_t line, T in, Args... args)</td></tr>
+<tr class="memdesc:a45edaf8636065b18a47eb529315c8217"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like a debug.  <a href="#a45edaf8636065b18a47eb529315c8217">More...</a><br /></td></tr>
+<tr class="separator:a45edaf8636065b18a47eb529315c8217"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aada88379a63c49987a295485391aa192"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2d/a00229.php#aada88379a63c49987a295485391aa192">fileFormat</a> (std::string &amp;line)</td></tr>
 <tr class="memdesc:aada88379a63c49987a295485391aa192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a given <em>line</em> for files.  <a href="#aada88379a63c49987a295485391aa192">More...</a><br /></td></tr>
 <tr class="separator:aada88379a63c49987a295485391aa192"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2168,6 +2172,53 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return number of appearances </dd></dl>
+
+</div>
+</div>
+<a id="a45edaf8636065b18a47eb529315c8217"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45edaf8636065b18a47eb529315c8217">&#9670;&nbsp;</a></span>debug_log()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class ... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::debug_log </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the given text like a debug. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">line</td><td>The line number where the function is call (use line_number) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The type of the debug </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The differents things to print</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
 </div>
 </div>

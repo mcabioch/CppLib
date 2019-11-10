@@ -141,6 +141,16 @@ var menudata={children:[
 {text:"Files",url:"files.php",children:[
 {text:"File List",url:"files.php"},
 {text:"File Members",url:"globals.php",children:[
-{text:"All",url:"globals.php"},
+{text:"All",url:"globals.php",children:[
+{text:"a",url:"globals.php#index_a"},
+{text:"b",url:"globals.php#index_b"},
+{text:"c",url:"globals.php#index_c"},
+{text:"d",url:"globals.php#index_d"},
+{text:"g",url:"globals.php#index_g"},
+{text:"h",url:"globals.php#index_h"},
+{text:"l",url:"globals.php#index_l"},
+{text:"m",url:"globals.php#index_m"},
+{text:"o",url:"globals.php#index_o"},
+{text:"t",url:"globals.php#index_t"}]},
 {text:"Functions",url:"globals_func.php"},
 {text:"Macros",url:"globals_defs.php"}]}]}]}

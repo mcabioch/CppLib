@@ -1,3 +1,6 @@
-<map id="mcd::PureVirtual" name="mcd::PureVirtual">
-<area shape="rect" id="node2" href="$de/dc8/a00889.php" title="A class to play with the cursor in the console. " alt="" coords="5,80,148,107"/>
+<map id="mcd::Player&lt; PlayerParent &gt;" name="mcd::Player&lt; PlayerParent &gt;">
+<area shape="rect" id="node2" href="$d4/d56/a01042.php" title="A player that can be a child from any class. " alt="" coords="5,200,164,241"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="179,96,259,123"/>
+<area shape="rect" id="node6" href="$d2/d6e/a00966.php" title="A class to store some identify datas. " alt="" coords="188,207,293,234"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="156,5,283,47"/>
 </map>

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 14:37:52 for C++ by";
+				$text = "Generated on Sat Nov 9 2019 20:16:05 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,10 +93,10 @@ $(document).ready(function(){initNavTree('functions_q.php','');});
 
 <h3><a id="index_q"></a>- q -</h3><ul>
 <li>quad
-: <a class="el" href="dd/d2d/a00229.php#a520f332e78f0efd6952f52b192a60328">mcd::quatuor&lt; T, U, V, W &gt;</a>
+: <a class="el" href="d0/d53/a00232.php#a520f332e78f0efd6952f52b192a60328">mcd::quatuor&lt; T, U, V, W &gt;</a>
 </li>
 <li>queue()
-: <a class="el" href="d0/d7d/a00799.php#a0566f226253ef02ac813bad965f647b9">mcd::queue&lt; T, Container &gt;</a>
+: <a class="el" href="d5/dcd/a00802.php#a0566f226253ef02ac813bad965f647b9">mcd::queue&lt; T, Container &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

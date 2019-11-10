@@ -1,4 +1,4 @@
-<map id="mcd::Timer" name="mcd::Timer">
-<area shape="rect" id="node2" href="$de/de6/a01063.php" title="mcd::Threadable\&lt; Timer \&gt;" alt="" coords="5,95,181,121"/>
-<area shape="rect" id="node3" href="$de/de6/a01063.php" title="A class to let another one to be threadable with update() member in a thread. " alt="" coords="17,5,170,32"/>
+<map id="mcd::Threadable&lt; C &gt;" name="mcd::Threadable&lt; C &gt;">
+<area shape="rect" id="node2" href="$d5/d67/a01070.php" title="mcd::Threadable\&lt; Timer \&gt;" alt="" coords="5,95,181,121"/>
+<area shape="rect" id="node3" href="$db/dba/a01078.php" title="A timer to do something at the end. " alt="" coords="49,171,137,197"/>
 </map>
