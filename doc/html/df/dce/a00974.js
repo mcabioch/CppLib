@@ -11,7 +11,7 @@ var a00974 =
     ] ],
     [ "Logger", "df/dce/a00974.php#a189cdd6486b23632d014a2e795ed8e13", null ],
     [ "~Logger", "df/dce/a00974.php#a9b43e0ba2ab53c8a6758b20d3f828f96", null ],
-    [ "init", "df/dce/a00974.php#a550b49f999efedab4ac30d30b975d049", null ],
+    [ "init", "df/dce/a00974.php#ab549f25e73c47afaff922b59cda6ccc4", null ],
     [ "isEnabled", "df/dce/a00974.php#a365030ec32e6af40c6c53a53ff5163f4", null ],
-    [ "log", "df/dce/a00974.php#ac144bf8a79b16347f8825d5ecd3ab52a", null ]
+    [ "log", "df/dce/a00974.php#a2cb99172e98a89e45fdcb9b394eea99e", null ]
 ];

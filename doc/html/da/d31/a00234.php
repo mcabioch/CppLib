@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 20:16:05 for C++ by";
+				$text = "Generated on Tue Nov 12 2019 17:36:32 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -150,14 +150,40 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2bef56760d8ffae969e8a1347194b42c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a2bef56760d8ffae969e8a1347194b42c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d31/a00234.php#a2bef56760d8ffae969e8a1347194b42c">printable</a> (const T &amp;)</td></tr>
-<tr class="memdesc:a2bef56760d8ffae969e8a1347194b42c"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that say if a type has an ostream operator(&lt;&lt;)  <a href="#a2bef56760d8ffae969e8a1347194b42c">More...</a><br /></td></tr>
-<tr class="separator:a2bef56760d8ffae969e8a1347194b42c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13e84a38884d860a4854bdd4a031d218"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a13e84a38884d860a4854bdd4a031d218"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d31/a00234.php#a13e84a38884d860a4854bdd4a031d218">isPrintable</a> (const T &amp;)</td></tr>
+<tr class="memdesc:a13e84a38884d860a4854bdd4a031d218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if a type has an ostream operator(&lt;&lt;)  <a href="#a13e84a38884d860a4854bdd4a031d218">More...</a><br /></td></tr>
+<tr class="separator:a13e84a38884d860a4854bdd4a031d218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d31/a00234.php#ab0b2e96bd3f31d823dad478c5f54abf1">printable</a> (const T &amp;in)</td></tr>
+<tr class="memdesc:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that say if a type has an ostream operator(&lt;&lt;)  <a href="#ab0b2e96bd3f31d823dad478c5f54abf1">More...</a><br /></td></tr>
+<tr class="separator:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a2bef56760d8ffae969e8a1347194b42c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bef56760d8ffae969e8a1347194b42c">&#9670;&nbsp;</a></span>printable()</h2>
+<a id="a13e84a38884d860a4854bdd4a031d218"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13e84a38884d860a4854bdd4a031d218">&#9670;&nbsp;</a></span>isPrintable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Check::isPrintable </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return true if a type has an ostream operator(&lt;&lt;) </p>
+
+</div>
+</div>
+<a id="ab0b2e96bd3f31d823dad478c5f54abf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0b2e96bd3f31d823dad478c5f54abf1">&#9670;&nbsp;</a></span>printable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -168,13 +194,21 @@ template&lt;typename T &gt; </div>
           <td class="memname">void mcd::Check::printable </td>
           <td>(</td>
           <td class="paramtype">const T &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>A function that say if a type has an ostream operator(&lt;&lt;) </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d31/a00234_ab0b2e96bd3f31d823dad478c5f54abf1_cgraph.png" border="0" usemap="#da/d31/a00234_ab0b2e96bd3f31d823dad478c5f54abf1_cgraph" alt=""/></div>
+<map name="da/d31/a00234_ab0b2e96bd3f31d823dad478c5f54abf1_cgraph" id="da/d31/a00234_ab0b2e96bd3f31d823dad478c5f54abf1_cgraph">
+<area shape="rect" id="node2" href="../../da/d31/a00234.php#a13e84a38884d860a4854bdd4a031d218" title="Return true if a type has an ostream operator(&lt;&lt;) " alt="" coords="204,5,367,32"/>
+</map>
+</div>
 
 </div>
 </div>

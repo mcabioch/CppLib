@@ -7,7 +7,7 @@ var searchData=
   ['line',['line',['../d3/dd1/a00914.php#a3669c41beda1b667738b6e7c42663b29',1,'mcd::ConsoleTable']]],
   ['lines',['lines',['../d3/dd1/a00914.php#aefb00d9e2e5755c7e2fd60cba225f504',1,'mcd::ConsoleTable']]],
   ['load',['load',['../d3/d7b/a00986.php#aaaa0863e1b2dfa4b35f6b5582d26798c',1,'mcd::Map']]],
-  ['log',['log',['../df/dce/a00974.php#ac144bf8a79b16347f8825d5ecd3ab52a',1,'mcd::Logger']]],
+  ['log',['log',['../df/dce/a00974.php#a2cb99172e98a89e45fdcb9b394eea99e',1,'mcd::Logger']]],
   ['log2p',['log2p',['../d0/d53/a00232.php#a69d6be0b9d139073dda5e708c76dccdd',1,'mcd']]],
   ['logger',['Logger',['../df/dce/a00974.php#a189cdd6486b23632d014a2e795ed8e13',1,'mcd::Logger']]],
   ['lost',['Lost',['../de/d02/a01026.php#a933816a487769eec830729b051d0fbcd',1,'mcd::PathfindingException::Lost()'],['../d4/d56/a01042.php#a7582710c11a7b92d9912f414a5296975',1,'mcd::PlayerAbstraction::lost()']]],

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 20:16:05 for C++ by";
+				$text = "Generated on Tue Nov 12 2019 17:36:32 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -215,6 +215,9 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 <li>isPrime()
 : <a class="el" href="d0/d53/a00232.php#ad3913978376bb08e036a7bf0b21d6b50">mcd</a>
 </li>
+<li>isPrintable()
+: <a class="el" href="da/d31/a00234.php#a13e84a38884d860a4854bdd4a031d218">mcd::Check</a>
+</li>
 </ul>
 
 
@@ -308,7 +311,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="d0/d53/a00232.php#a0029a835651d350c925a43fd718ab590">mcd</a>
 </li>
 <li>printable()
-: <a class="el" href="da/d31/a00234.php#a2bef56760d8ffae969e8a1347194b42c">mcd::Check</a>
+: <a class="el" href="da/d31/a00234.php#ab0b2e96bd3f31d823dad478c5f54abf1">mcd::Check</a>
 </li>
 <li>printSize()
 : <a class="el" href="d0/d53/a00232.php#a5046a9dfac4629babcb20cf7b914415e">mcd</a>

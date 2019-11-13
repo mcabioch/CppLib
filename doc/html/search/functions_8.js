@@ -4,7 +4,7 @@ var searchData=
   ['identifier',['Identifier',['../d2/d6e/a00966.php#a1496891d2323d1023ebfd086b84faf8d',1,'mcd::Identifier']]],
   ['implode',['implode',['../d0/d53/a00232.php#ad751f3d04e342cbe86c561683c3bd99c',1,'mcd']]],
   ['info_5flog',['info_log',['../d0/d53/a00232.php#af0b4fd6390d33edc9719d42b26f6e29f',1,'mcd']]],
-  ['init',['init',['../df/d12/a00942.php#a17a08ca52b3ec69d178a997c07a5ca1c',1,'mcd::Date::init()'],['../df/dce/a00974.php#a550b49f999efedab4ac30d30b975d049',1,'mcd::Logger::init()'],['../d7/df7/a01074.php#a3e19605ece31340f27255a79beb193d4',1,'mcd::Time::init()']]],
+  ['init',['init',['../df/d12/a00942.php#a17a08ca52b3ec69d178a997c07a5ca1c',1,'mcd::Date::init()'],['../df/dce/a00974.php#ab549f25e73c47afaff922b59cda6ccc4',1,'mcd::Logger::init()'],['../d7/df7/a01074.php#a3e19605ece31340f27255a79beb193d4',1,'mcd::Time::init()']]],
   ['insert',['insert',['../d9/df5/a01086.php#a53cd621cced254067f1ebac4e2abe8df',1,'mcd::Tree']]],
   ['inuse',['inUse',['../d5/d67/a01070.php#af6a411164d64b1b04b731f29d54e016a',1,'mcd::Threadable']]],
   ['inverted',['inverted',['../dd/d7a/a00990.php#af0390771523fc535079faa2a7b7c29ce',1,'mcd::Matrix']]],
@@ -20,6 +20,7 @@ var searchData=
   ['isonground',['isOnGround',['../d3/d7b/a00986.php#a3cef4e6d93277ff04e0a6a4b162a3a4e',1,'mcd::Map::isOnGround(size_t id)'],['../d3/d7b/a00986.php#ac5e6be35eea3af084431715595c1138b',1,'mcd::Map::isOnGround(const Point &amp;pt)']]],
   ['ispaused',['isPaused',['../d4/d56/a01042.php#a81a1ea7b3b306b10af787c353c92cc2e',1,'mcd::PlayerAbstraction']]],
   ['isprime',['isPrime',['../d0/d53/a00232.php#ad3913978376bb08e036a7bf0b21d6b50',1,'mcd']]],
+  ['isprintable',['isPrintable',['../da/d31/a00234.php#a13e84a38884d860a4854bdd4a031d218',1,'mcd::Check']]],
   ['issquare',['isSquare',['../dd/d7a/a00990.php#a3885a9068844517cbbd58cfed57eb5c4',1,'mcd::Matrix']]],
   ['isxin',['isXIn',['../d3/d7b/a00986.php#a86d2ef9c24b540688cbfaa12d9225c35',1,'mcd::Map']]],
   ['isyin',['isYIn',['../d3/d7b/a00986.php#a45adc028ccfb00ef4f66225e244956fd',1,'mcd::Map']]]

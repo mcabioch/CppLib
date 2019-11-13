@@ -2,7 +2,7 @@
 *
 *	\file		check.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	October, 03 2019
+*	\modified	November, 12 2019
 *
 */
 #ifndef HEADER_CPP_CHECK
@@ -304,9 +304,15 @@ namespace mcd {
 			};
 		#endif //DOXYGEN_SHOULD_SKIP_THIS
 
+		/*!	\brief	Return true if a type has an ostream operator(<<) */
+		template<typename T>
+		bool isPrintable(const T&){
+			return Check::has_ostream_operator<T>::value;
+		}
+
 		/*!	\brief	A function that say if a type has an ostream operator(<<) */
 		template<typename T>
-		void printable(const T&){
+		void printable(const T& in){
 			std::string type = __PRETTY_FUNCTION__;
 
 			auto pos = type.find(" = ");
@@ -333,7 +339,7 @@ namespace mcd {
 				} while(pos != std::string::npos);
 			}
 
-			std::cout << "Is " << type << " printable ? " << std::boolalpha << Check::has_ostream_operator<T>::value << std::endl;
+			std::cout << "Is " << type << " printable ? " << std::boolalpha << isPrintable(in) << std::endl;
 		}
 
 		/*! \brief	A template class to test if T is an unknown object */

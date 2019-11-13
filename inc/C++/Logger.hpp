@@ -3,7 +3,7 @@
 *	\file		Logger.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	Saturday November, 09 2019 17:01:15
-*	\modified	Saturday November, 09 2019
+*	\modified	Saturday November, 12 2019
 *
 */
 #ifndef HEADER_LOGGER
@@ -48,11 +48,11 @@ namespace mcd {
 			/* Friends of Logger */
 				
 			/* Others members of Logger */
-				void init(std::string logConfigFile);
+				void init(const std::string& logConfigFile);
 				bool isEnabled(Level level);
 
 				template<class ...Args>
-				void log(Level level, int line, std::string file, Args... args){
+				void log(Level level, int line, const std::string& file, Args... args){
 					std::lock_guard<std::mutex> lock(_mutex);
 
 					if(!_initialized){
@@ -144,7 +144,7 @@ namespace mcd {
 			void destruct();
 
 			template<class T, class ...Args>
-			void intern_log(T msg, Args... args){
+			void intern_log(const T& msg, Args... args){
 				std::ofstream write;
 				write.open(_logFile.c_str(), std::ios::app);
 
@@ -157,7 +157,7 @@ namespace mcd {
 			}
 
 			template<class T, class ...Args>
-			void intern_log(T msg){
+			void intern_log(const T& msg){
 				std::ofstream write;
 				write.open(_logFile.c_str(), std::ios::app);
 

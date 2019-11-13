@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 20:16:05 for C++ by";
+				$text = "Generated on Tue Nov 12 2019 17:36:32 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -126,13 +126,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9b43e0ba2ab53c8a6758b20d3f828f96"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dce/a00974.php#a9b43e0ba2ab53c8a6758b20d3f828f96">~Logger</a> ()</td></tr>
 <tr class="memdesc:a9b43e0ba2ab53c8a6758b20d3f828f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">The destructor of the class.  <a href="#a9b43e0ba2ab53c8a6758b20d3f828f96">More...</a><br /></td></tr>
 <tr class="separator:a9b43e0ba2ab53c8a6758b20d3f828f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a550b49f999efedab4ac30d30b975d049"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dce/a00974.php#a550b49f999efedab4ac30d30b975d049">init</a> (std::string logConfigFile)</td></tr>
-<tr class="separator:a550b49f999efedab4ac30d30b975d049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab549f25e73c47afaff922b59cda6ccc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dce/a00974.php#ab549f25e73c47afaff922b59cda6ccc4">init</a> (const std::string &amp;logConfigFile)</td></tr>
+<tr class="separator:ab549f25e73c47afaff922b59cda6ccc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a365030ec32e6af40c6c53a53ff5163f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dce/a00974.php#a365030ec32e6af40c6c53a53ff5163f4">isEnabled</a> (<a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a> level)</td></tr>
 <tr class="separator:a365030ec32e6af40c6c53a53ff5163f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac144bf8a79b16347f8825d5ecd3ab52a"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
-<tr class="memitem:ac144bf8a79b16347f8825d5ecd3ab52a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/dce/a00974.php#ac144bf8a79b16347f8825d5ecd3ab52a">log</a> (<a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a> level, int line, std::string file, Args... args)</td></tr>
-<tr class="separator:ac144bf8a79b16347f8825d5ecd3ab52a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cb99172e98a89e45fdcb9b394eea99e"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
+<tr class="memitem:a2cb99172e98a89e45fdcb9b394eea99e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/dce/a00974.php#a2cb99172e98a89e45fdcb9b394eea99e">log</a> (<a class="el" href="../../df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a> level, int line, const std::string &amp;file, Args... args)</td></tr>
+<tr class="separator:a2cb99172e98a89e45fdcb9b394eea99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to log some messages. </p>
@@ -209,8 +209,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a550b49f999efedab4ac30d30b975d049"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a550b49f999efedab4ac30d30b975d049">&#9670;&nbsp;</a></span>init()</h2>
+<a id="ab549f25e73c47afaff922b59cda6ccc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab549f25e73c47afaff922b59cda6ccc4">&#9670;&nbsp;</a></span>init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -218,7 +218,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void mcd::Logger::init </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>logConfigFile</em></td><td>)</td>
           <td></td>
         </tr>
@@ -245,8 +245,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac144bf8a79b16347f8825d5ecd3ab52a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac144bf8a79b16347f8825d5ecd3ab52a">&#9670;&nbsp;</a></span>log()</h2>
+<a id="a2cb99172e98a89e45fdcb9b394eea99e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cb99172e98a89e45fdcb9b394eea99e">&#9670;&nbsp;</a></span>log()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -271,7 +271,7 @@ template&lt;class ... Args&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>file</em>, </td>
         </tr>
         <tr>
@@ -295,8 +295,8 @@ template&lt;class ... Args&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../df/dce/a00974_ac144bf8a79b16347f8825d5ecd3ab52a_cgraph.png" border="0" usemap="#df/dce/a00974_ac144bf8a79b16347f8825d5ecd3ab52a_cgraph" alt=""/></div>
-<map name="df/dce/a00974_ac144bf8a79b16347f8825d5ecd3ab52a_cgraph" id="df/dce/a00974_ac144bf8a79b16347f8825d5ecd3ab52a_cgraph">
+<div class="center"><img src="../../df/dce/a00974_a2cb99172e98a89e45fdcb9b394eea99e_cgraph.png" border="0" usemap="#df/dce/a00974_a2cb99172e98a89e45fdcb9b394eea99e_cgraph" alt=""/></div>
+<map name="df/dce/a00974_a2cb99172e98a89e45fdcb9b394eea99e_cgraph" id="df/dce/a00974_a2cb99172e98a89e45fdcb9b394eea99e_cgraph">
 <area shape="rect" id="node2" href="../../d0/d53/a00232.php#ac625de83fcace96567aecd1363297776" title="Print the given text like a warning. " alt="" coords="189,5,313,32"/>
 <area shape="rect" id="node3" href="../../d0/d53/a00232.php#a0d72a06346182146581ff63f2fa70580" title="Use system in an IF and say if there is an error. " alt="" coords="210,56,293,83"/>
 <area shape="rect" id="node4" href="../../df/dce/a00974.php#a365030ec32e6af40c6c53a53ff5163f4" title="mcd::Logger::isEnabled" alt="" coords="172,107,331,133"/>

@@ -25,7 +25,7 @@ var searchData=
   ['line_5fnumber',['line_number',['../da/dec/a00080.php#a08ee21f84a6b44ca59d7f045b55d6bfc',1,'errors.hpp']]],
   ['lines',['lines',['../d3/dd1/a00914.php#aefb00d9e2e5755c7e2fd60cba225f504',1,'mcd::ConsoleTable']]],
   ['load',['load',['../d3/d7b/a00986.php#aaaa0863e1b2dfa4b35f6b5582d26798c',1,'mcd::Map']]],
-  ['log',['log',['../df/dce/a00974.php#ac144bf8a79b16347f8825d5ecd3ab52a',1,'mcd::Logger']]],
+  ['log',['log',['../df/dce/a00974.php#a2cb99172e98a89e45fdcb9b394eea99e',1,'mcd::Logger']]],
   ['log2p',['log2p',['../d0/d53/a00232.php#a69d6be0b9d139073dda5e708c76dccdd',1,'mcd']]],
   ['logger',['Logger',['../df/dce/a00974.php',1,'mcd::Logger'],['../df/dce/a00974.php#a189cdd6486b23632d014a2e795ed8e13',1,'mcd::Logger::Logger()'],['../d0/d53/a00232.php#a46f063faccea2fdafb8e5f33c2ccbc50',1,'mcd::logger()']]],
   ['logger_2ehpp',['Logger.hpp',['../d4/d3a/a00101.php',1,'']]],

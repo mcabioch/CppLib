@@ -16,7 +16,8 @@ var a00041 =
     [ "is_special_struct", "d3/d50/a00882.php", "d3/d50/a00882" ],
     [ "has_method", "dd/d32/a00041.php#a92713af8c651ed158031ed7d3fd15977", null ],
     [ "pair_str", "dd/d32/a00041.php#aba609827ae566c40802bf828ab5a5a3c", null ],
-    [ "printable", "dd/d32/a00041.php#a2bef56760d8ffae969e8a1347194b42c", null ],
+    [ "isPrintable", "dd/d32/a00041.php#a13e84a38884d860a4854bdd4a031d218", null ],
+    [ "printable", "dd/d32/a00041.php#ab0b2e96bd3f31d823dad478c5f54abf1", null ],
     [ "sleep_for", "dd/d32/a00041.php#aaa5ef673c6390db3486b12d03a64f8f5", null ],
     [ "yield", "dd/d32/a00041.php#a3a711ec2f858ee16756d8619224624ee", null ]
 ];

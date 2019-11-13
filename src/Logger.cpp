@@ -25,7 +25,7 @@ namespace mcd {
 		_nbInstance--;
 	}
 
-	void Logger::init(std::string logConfigFile){
+	void Logger::init(const std::string& logConfigFile){
 		{
 			std::lock_guard<std::mutex> lock(_mutex);
 			if(_initialized == true){
