@@ -13,7 +13,7 @@ var searchData=
   ['isdivisor',['isDivisor',['../d0/d53/a00232.php#a23f629777bd39a54b33491cb1223da01',1,'mcd']]],
   ['isenabled',['isEnabled',['../df/dce/a00974.php#a365030ec32e6af40c6c53a53ff5163f4',1,'mcd::Logger']]],
   ['isfree',['isFree',['../d3/d7b/a00986.php#a1784239c1be09cc3c9a7a4652292149d',1,'mcd::Map']]],
-  ['isinit',['isInit',['../d4/d56/a01042.php#abdb489c22b76cb09daefb8f05b2f515c',1,'mcd::PlayerAbstraction']]],
+  ['isinit',['isInit',['../df/dce/a00974.php#ad8527d935f1fa6c697d792a8f72276e4',1,'mcd::Logger::isInit()'],['../d4/d56/a01042.php#abdb489c22b76cb09daefb8f05b2f515c',1,'mcd::PlayerAbstraction::isInit()']]],
   ['islost',['isLost',['../d4/d56/a01042.php#ae441783e58a888696f8dc24f4cdfcce5',1,'mcd::PlayerAbstraction']]],
   ['isluhn',['isLuhn',['../d0/d53/a00232.php#ab001b84d20c0fffe59c7a55ed872d300',1,'mcd']]],
   ['isnumber',['isNumber',['../d0/d53/a00232.php#a6a0096efe278298f80c641af617dd216',1,'mcd']]],

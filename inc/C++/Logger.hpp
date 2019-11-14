@@ -3,7 +3,7 @@
 *	\file		Logger.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	Saturday November, 09 2019 17:01:15
-*	\modified	Saturday November, 12 2019
+*	\modified	Saturday November, 13 2019
 *
 */
 #ifndef HEADER_LOGGER
@@ -49,6 +49,7 @@ namespace mcd {
 				
 			/* Others members of Logger */
 				void init(const std::string& logConfigFile);
+				bool isInit()const { return _initialized; }
 				bool isEnabled(Level level);
 
 				template<class ...Args>
@@ -59,12 +60,6 @@ namespace mcd {
 						warning_log(line_number, "Wrong use", "Init the Logger before use it !");
 						return;
 					}
-
-					#if defined(OS_LINUX)
-						exec(std::string("fold=`dirname ") + _logFile + "` && mkdir -p ${fold}");
-					#else
-						warning_log(line_number, "Unsupported OS");
-					#endif
 
 					if(!isEnabled(level)){
 						return;
@@ -166,6 +161,10 @@ namespace mcd {
 
 				return;
 			}
+
+			bool startInit();
+			std::vector<std::string> readConfig(const std::string& file);
+			void backupLastLogs();
 
 		/* Atttributes of Logger */
 		public:

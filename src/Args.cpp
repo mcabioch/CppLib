@@ -2,8 +2,8 @@
 
 namespace mcd {
 	bool Arguments::addProg(int argc, char** argv){
+		bool out = this->add("prog_name", std::string(argv[0]));;
 		_mutex.lock();
-		bool out = false;
 
 		for(int i = 1; i < argc; ++i){
 			std::string chain = argv[i];

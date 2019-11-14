@@ -26,33 +26,13 @@ namespace mcd {
 	}
 
 	void Logger::init(const std::string& logConfigFile){
-		{
-			std::lock_guard<std::mutex> lock(_mutex);
-			if(_initialized == true){
-				return;
-			}
+		std::lock_guard<std::mutex> lock(_mutex);
 
-			_initialized = true;
+		if(!startInit()){
+			return;
 		}
 
-		std::ifstream read;
-		std::ofstream write;
-
-		read.open(logConfigFile.c_str());
-
-		if(!read){
-			write.open(logConfigFile.c_str());
-
-			write << "# Destination of the log messages\n";
-			write << "output:res/logs/latest.log\n";
-			write << "\n# ALL(0), DEBUG(1), INFO(2), WARN(3), ERROR(4), FATAL(5), OFF(6)\n";
-			write << "level:1\n";
-
-			write.close();
-			read.open(logConfigFile.c_str());
-		}
-
-		auto lines = getlines(read);
+		auto lines = readConfig(logConfigFile);
 
 		for(auto& line : lines){
 			if(line.size() == 0
@@ -73,8 +53,52 @@ namespace mcd {
 			}
 		}
 
+		backupLastLogs();
+	}
+
+	bool Logger::startInit(){
+		if(_initialized == true){
+			return false;
+		}
+
+		_initialized = true;
+
+		return true;
+	}
+
+	std::vector<std::string> Logger::readConfig(const std::string& file){
+		std::ifstream read;
+		std::ofstream write;
+
+		read.open(file.c_str());
+
+		if(!read){
+			write.open(file.c_str());
+
+			write << "# Destination of the log messages\n";
+			write << "output:res/logs/latest.log\n";
+			write << "\n# ALL(0), DEBUG(1), INFO(2), WARN(3), ERROR(4), FATAL(5), OFF(6)\n";
+			write << "level:1\n";
+
+			write.close();
+			read.open(file.c_str());
+		}
+
+		auto lines = getlines(read);
+
 		read.close();
 
+		return lines;
+	}
+
+	void Logger::backupLastLogs(){
+		#if defined(OS_LINUX)
+			exec(std::string("fold=`dirname ") + _logFile + "` && mkdir -p ${fold}");
+		#else
+			warning_log(line_number, "Unsupported OS");
+		#endif
+
+		std::ifstream read;
 		read.open(_logFile.c_str());
 
 		if(read){
@@ -87,6 +111,7 @@ namespace mcd {
 			read.close();
 		}
 
+		std::ofstream write;
 		write.open(_logFile.c_str());
 		write << "";
 		write.close();

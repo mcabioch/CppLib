@@ -2,7 +2,7 @@
 *
 *	\file		Args.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		October, 03 2019
+*	\date		November, 13 2019
 *
 */
 #ifndef HEADER_CPP_ARGS

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 12 2019 17:36:32 for C++ by";
+				$text = "Generated on Wed Nov 13 2019 15:53:45 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -131,13 +131,14 @@ $(document).ready(function(){initNavTree('functions_i.php','');});
 : <a class="el" href="d3/d7b/a00986.php#a1784239c1be09cc3c9a7a4652292149d">mcd::Map</a>
 </li>
 <li>isInit()
-: <a class="el" href="d4/d56/a01042.php#abdb489c22b76cb09daefb8f05b2f515c">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/dce/a00974.php#ad8527d935f1fa6c697d792a8f72276e4">mcd::Logger</a>
+, <a class="el" href="d4/d56/a01042.php#abdb489c22b76cb09daefb8f05b2f515c">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>isLost()
 : <a class="el" href="d4/d56/a01042.php#ae441783e58a888696f8dc24f4cdfcce5">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>isOnGround()
-: <a class="el" href="d3/d7b/a00986.php#ac5e6be35eea3af084431715595c1138b">mcd::Map</a>
+: <a class="el" href="d3/d7b/a00986.php#a3cef4e6d93277ff04e0a6a4b162a3a4e">mcd::Map</a>
 </li>
 <li>isPaused()
 : <a class="el" href="d4/d56/a01042.php#a81a1ea7b3b306b10af787c353c92cc2e">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
