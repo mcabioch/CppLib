@@ -2,7 +2,7 @@
 *
 *	\file		includes.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	September, 29 2019
+*	\modified	November, 14 2019
 *
 *	\details	- Include ;
 *					- iostream\n
@@ -39,7 +39,6 @@
 *					- tuple\n
 *					- ios\n
 *					- cstdint\n
-*					- cassert\n
 *
 */
 #ifndef HEADER_CPP_INCLUDES
@@ -54,7 +53,6 @@
 #include <tuple>
 #include <ios>
 #include <cstdint>
-#include <cassert>
 
 namespace mcd {}
 

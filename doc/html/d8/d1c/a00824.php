@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::AssertionException Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 17:01:39 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:48 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('dc/d1b/a00827.php','../../');});
+$(document).ready(function(){initNavTree('d8/d1c/a00824.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,20 +89,150 @@ $(document).ready(function(){initNavTree('dc/d1b/a00827.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d6/d8b/a00821.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_pair&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::AssertionException Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/d1b/a00827.php">mcd::Check::is_pair&lt; T &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d1b/a00827.php#ac3fa87bfb2551b3a98cac89a0c39b2ba">value</a></td><td class="entry"><a class="el" href="../../dc/d1b/a00827.php">mcd::Check::is_pair&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<p>An exception thrown by my assert's implementation.  
+ <a href="../../d8/d1c/a00824.php#details">More...</a></p>
+
+<p><code>#include &lt;AssertionException.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::AssertionException:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/db4/a00823.png" border="0" usemap="#mcd_1_1AssertionException_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1AssertionException_inherit__map" id="mcd_1_1AssertionException_inherit__map">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="37,5,141,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::AssertionException:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/da7/a00822.png" border="0" usemap="#mcd_1_1AssertionException_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1AssertionException_coll__map" id="mcd_1_1AssertionException_coll__map">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="37,5,141,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad93f95c8923581b9ce4e3d28d63a243e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1c/a00824.php#ad93f95c8923581b9ce4e3d28d63a243e">AssertionException</a> (const std::string &amp;explaination)  throw ()</td></tr>
+<tr class="memdesc:ad93f95c8923581b9ce4e3d28d63a243e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#ad93f95c8923581b9ce4e3d28d63a243e">More...</a><br /></td></tr>
+<tr class="separator:ad93f95c8923581b9ce4e3d28d63a243e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8583b92f139f554fca4e9ef10851b9b6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1c/a00824.php#a8583b92f139f554fca4e9ef10851b9b6">~AssertionException</a> ()  throw ()</td></tr>
+<tr class="separator:a8583b92f139f554fca4e9ef10851b9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b7e738127f0f021283bf2f2b9bc9fa"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1c/a00824.php#a25b7e738127f0f021283bf2f2b9bc9fa">what</a> () const  throw ()</td></tr>
+<tr class="memdesc:a25b7e738127f0f021283bf2f2b9bc9fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the explaination of the exception.  <a href="#a25b7e738127f0f021283bf2f2b9bc9fa">More...</a><br /></td></tr>
+<tr class="separator:a25b7e738127f0f021283bf2f2b9bc9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>An exception thrown by my assert's implementation. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ad93f95c8923581b9ce4e3d28d63a243e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad93f95c8923581b9ce4e3d28d63a243e">&#9670;&nbsp;</a></span>AssertionException()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::AssertionException::AssertionException </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>explaination</em></td><td>)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+
+</div>
+</div>
+<a id="a8583b92f139f554fca4e9ef10851b9b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8583b92f139f554fca4e9ef10851b9b6">&#9670;&nbsp;</a></span>~AssertionException()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::AssertionException::~AssertionException </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a25b7e738127f0f021283bf2f2b9bc9fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25b7e738127f0f021283bf2f2b9bc9fa">&#9670;&nbsp;</a></span>what()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const char* mcd::AssertionException::what </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the explaination of the exception. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../db/db2/a00020.php">AssertionException.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../da/d2e/a00238.php">mcd</a></li><li class="navelem"><a class="el" href="../../d8/d1c/a00824.php">AssertionException</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -1,138 +1,142 @@
 var files =
 [
     [ "Animal.hpp", "d7/d46/a00002.php", [
-      [ "Animal", "da/d96/a00782.php", "da/d96/a00782" ]
+      [ "Animal", "df/d0c/a00788.php", "df/d0c/a00788" ]
     ] ],
     [ "Ant.hpp", "dd/dad/a00005.php", [
-      [ "Ant", "d0/d7d/a00786.php", "d0/d7d/a00786" ]
+      [ "Ant", "d2/d5a/a00792.php", "d2/d5a/a00792" ]
     ] ],
     [ "Args.hpp", "d4/dee/a00008.php", "d4/dee/a00008" ],
     [ "array.hpp", "da/d45/a00011.php", "da/d45/a00011" ],
     [ "arraysIncludes.hpp", "d2/de7/a00014.php", null ],
-    [ "Big.hpp", "d4/d51/a00017.php", "d4/d51/a00017" ],
-    [ "Big_Comparison.hpp", "db/db2/a00020.php", "db/db2/a00020" ],
-    [ "Big_Constructor.hpp", "d3/d52/a00023.php", null ],
-    [ "Big_Maths.hpp", "d6/d5b/a00026.php", "d6/d5b/a00026" ],
-    [ "Big_Operator.hpp", "d5/d16/a00029.php", "d5/d16/a00029" ],
-    [ "Binary.hpp", "dc/d87/a00032.php", [
-      [ "Binary", "d0/d53/a00232.php#da/d71/a00814", null ],
-      [ "Binary< T, typename std::enable_if_t< std::is_arithmetic< T >::value, void > >", "d3/d60/a00818.php", "d3/d60/a00818" ]
+    [ "Assert.hpp", "d4/d51/a00017.php", "d4/d51/a00017" ],
+    [ "AssertionException.hpp", "db/db2/a00020.php", [
+      [ "AssertionException", "d8/d1c/a00824.php", "d8/d1c/a00824" ]
     ] ],
-    [ "C++.hpp", "d4/d8c/a00035.php", null ],
-    [ "C++Entities.hpp", "d8/d41/a00038.php", null ],
-    [ "check.hpp", "dd/d32/a00041.php", "dd/d32/a00041" ],
-    [ "Clock.hpp", "d5/df9/a00044.php", [
-      [ "Clock", "d2/dab/a00886.php", "d2/dab/a00886" ]
+    [ "Big.hpp", "d3/d52/a00023.php", "d3/d52/a00023" ],
+    [ "Big_Comparison.hpp", "d6/d5b/a00026.php", "d6/d5b/a00026" ],
+    [ "Big_Constructor.hpp", "d5/d16/a00029.php", null ],
+    [ "Big_Maths.hpp", "dc/d87/a00032.php", "dc/d87/a00032" ],
+    [ "Big_Operator.hpp", "d4/d8c/a00035.php", "d4/d8c/a00035" ],
+    [ "Binary.hpp", "d8/d41/a00038.php", [
+      [ "Binary", "da/d2e/a00238.php#d0/d08/a00832", null ],
+      [ "Binary< T, typename std::enable_if_t< std::is_arithmetic< T >::value, void > >", "d3/d13/a00836.php", "d3/d13/a00836" ]
     ] ],
-    [ "collides.hpp", "d6/d2d/a00047.php", "d6/d2d/a00047" ],
-    [ "console.hpp", "d5/de0/a00050.php", "d5/de0/a00050" ],
-    [ "ConsoleTable.hpp", "dc/dee/a00053.php", [
-      [ "ConsoleTable", "d3/dd1/a00914.php", "d3/dd1/a00914" ]
+    [ "C++.hpp", "dd/d32/a00041.php", null ],
+    [ "C++Entities.hpp", "d5/df9/a00044.php", null ],
+    [ "check.hpp", "d6/d2d/a00047.php", "d6/d2d/a00047" ],
+    [ "Clock.hpp", "d5/de0/a00050.php", [
+      [ "Clock", "d8/d0a/a00904.php", "d8/d0a/a00904" ]
     ] ],
-    [ "Contraption.hpp", "d9/d2e/a00056.php", [
-      [ "Contraption", "d0/ddf/a00918.php", "d0/ddf/a00918" ]
+    [ "collides.hpp", "dc/dee/a00053.php", "dc/dee/a00053" ],
+    [ "console.hpp", "d9/d2e/a00056.php", "d9/d2e/a00056" ],
+    [ "ConsoleTable.hpp", "d3/d8b/a00059.php", [
+      [ "ConsoleTable", "d8/dbb/a00932.php", "d8/dbb/a00932" ]
     ] ],
-    [ "convert.hpp", "d3/d8b/a00059.php", "d3/d8b/a00059" ],
-    [ "cryptage.hpp", "df/d03/a00062.php", "df/d03/a00062" ],
-    [ "Date.hpp", "de/de1/a00065.php", "de/de1/a00065" ],
-    [ "DateTime.hpp", "da/d24/a00068.php", "da/d24/a00068" ],
-    [ "defines.hpp", "d0/d89/a00071.php", "d0/d89/a00071" ],
-    [ "Entities.hpp", "db/db6/a00074.php", null ],
-    [ "Entity.hpp", "d1/d09/a00077.php", [
-      [ "Entity", "d3/dca/a00954.php", "d3/dca/a00954" ]
+    [ "Contraption.hpp", "df/d03/a00062.php", [
+      [ "Contraption", "dc/d2b/a00936.php", "dc/d2b/a00936" ]
     ] ],
-    [ "errors.hpp", "da/dec/a00080.php", "da/dec/a00080" ],
-    [ "files.hpp", "d2/d1f/a00083.php", "d2/d1f/a00083" ],
-    [ "Fraction.hpp", "da/d2a/a00086.php", [
-      [ "Fraction", "df/d9c/a00958.php", "df/d9c/a00958" ]
+    [ "convert.hpp", "de/de1/a00065.php", "de/de1/a00065" ],
+    [ "cryptage.hpp", "da/d24/a00068.php", "da/d24/a00068" ],
+    [ "Date.hpp", "d0/d89/a00071.php", "d0/d89/a00071" ],
+    [ "DateTime.hpp", "db/db6/a00074.php", "db/db6/a00074" ],
+    [ "defines.hpp", "d1/d09/a00077.php", "d1/d09/a00077" ],
+    [ "Entities.hpp", "da/dec/a00080.php", null ],
+    [ "Entity.hpp", "d2/d1f/a00083.php", [
+      [ "Entity", "de/d4e/a00972.php", "de/d4e/a00972" ]
     ] ],
-    [ "Hostile.hpp", "db/dab/a00089.php", [
-      [ "Hostile", "df/d88/a00962.php", "df/d88/a00962" ]
+    [ "errors.hpp", "da/d2a/a00086.php", "da/d2a/a00086" ],
+    [ "files.hpp", "db/dab/a00089.php", "db/dab/a00089" ],
+    [ "Fraction.hpp", "d1/dc1/a00092.php", [
+      [ "Fraction", "d0/d85/a00976.php", "d0/d85/a00976" ]
     ] ],
-    [ "Identifier.hpp", "d1/dc1/a00092.php", [
-      [ "Identifier", "d2/d6e/a00966.php", "d2/d6e/a00966" ]
+    [ "Hostile.hpp", "d9/d77/a00095.php", [
+      [ "Hostile", "db/d20/a00980.php", "db/d20/a00980" ]
     ] ],
-    [ "includes.hpp", "d9/d77/a00095.php", null ],
-    [ "IOConfig.hpp", "d1/d44/a00098.php", [
-      [ "IOConfig", "d0/daf/a00970.php", "d0/daf/a00970" ]
+    [ "Identifier.hpp", "d1/d44/a00098.php", [
+      [ "Identifier", "d2/d4c/a00984.php", "d2/d4c/a00984" ]
     ] ],
-    [ "Logger.hpp", "d4/d3a/a00101.php", "d4/d3a/a00101" ],
-    [ "lowIncludes.hpp", "d0/dc2/a00104.php", null ],
-    [ "macro.hpp", "df/d98/a00107.php", "df/d98/a00107" ],
-    [ "Map.hpp", "d4/d81/a00110.php", "d4/d81/a00110" ],
-    [ "maths.hpp", "d3/d00/a00113.php", "d3/d00/a00113" ],
-    [ "Matrix.hpp", "d4/d3e/a00116.php", [
-      [ "Matrix", "dd/d7a/a00990.php", "dd/d7a/a00990" ]
+    [ "includes.hpp", "d4/d3a/a00101.php", null ],
+    [ "IOConfig.hpp", "d0/dc2/a00104.php", [
+      [ "IOConfig", "d6/d48/a00988.php", "d6/d48/a00988" ]
     ] ],
-    [ "Matrix_constructs.hpp", "df/d6a/a00119.php", null ],
-    [ "Matrix_core.hpp", "df/dc8/a00122.php", null ],
-    [ "Matrix_functions.hpp", "dc/dfe/a00125.php", "dc/dfe/a00125" ],
-    [ "Matrix_maths.hpp", "d1/d88/a00128.php", null ],
-    [ "Mushroom.hpp", "d7/d06/a00131.php", [
-      [ "Mushroom", "d4/dd0/a00994.php", "d4/dd0/a00994" ]
+    [ "Logger.hpp", "df/d98/a00107.php", "df/d98/a00107" ],
+    [ "lowIncludes.hpp", "d4/d81/a00110.php", null ],
+    [ "macro.hpp", "d3/d00/a00113.php", "d3/d00/a00113" ],
+    [ "Map.hpp", "d4/d3e/a00116.php", "d4/d3e/a00116" ],
+    [ "maths.hpp", "df/d6a/a00119.php", "df/d6a/a00119" ],
+    [ "Matrix.hpp", "df/dc8/a00122.php", [
+      [ "Matrix", "dd/dac/a01008.php", "dd/dac/a01008" ]
     ] ],
-    [ "NotCopyable.hpp", "de/d76/a00134.php", [
-      [ "NotCopyable", "d9/d9a/a00998.php", "d9/d9a/a00998" ]
+    [ "Matrix_constructs.hpp", "dc/dfe/a00125.php", null ],
+    [ "Matrix_core.hpp", "d1/d88/a00128.php", null ],
+    [ "Matrix_functions.hpp", "d7/d06/a00131.php", "d7/d06/a00131" ],
+    [ "Matrix_maths.hpp", "de/d76/a00134.php", null ],
+    [ "Mushroom.hpp", "d2/df5/a00137.php", [
+      [ "Mushroom", "d4/d45/a01012.php", "d4/d45/a01012" ]
     ] ],
-    [ "NotInstantiable.hpp", "d2/df5/a00137.php", [
-      [ "NotInstantiable", "d2/dd5/a01002.php", "d2/dd5/a01002" ]
+    [ "NotCopyable.hpp", "d5/db1/a00140.php", [
+      [ "NotCopyable", "de/def/a01016.php", "de/def/a01016" ]
     ] ],
-    [ "Object.hpp", "d5/db1/a00140.php", [
-      [ "Object", "dc/d81/a01006.php", "dc/d81/a01006" ]
+    [ "NotInstantiable.hpp", "d7/dce/a00143.php", [
+      [ "NotInstantiable", "d0/d43/a01020.php", "d0/d43/a01020" ]
     ] ],
-    [ "OsDetection.hpp", "d7/dce/a00143.php", "d7/dce/a00143" ],
-    [ "Path.hpp", "d9/db6/a00146.php", [
-      [ "PathfindingNode", "d0/d2b/a01010.php", "d0/d2b/a01010" ],
-      [ "Path", "d0/d56/a01014.php", "d0/d56/a01014" ]
+    [ "Object.hpp", "d9/db6/a00146.php", [
+      [ "Object", "d4/dc5/a01024.php", "d4/dc5/a01024" ]
     ] ],
-    [ "Pathfinding.hpp", "da/d1e/a00149.php", [
-      [ "Pathfinding", "d3/d08/a01018.php", "d3/d08/a01018" ]
+    [ "OsDetection.hpp", "da/d1e/a00149.php", "da/d1e/a00149" ],
+    [ "Path.hpp", "d7/d9a/a00152.php", [
+      [ "PathfindingNode", "db/d08/a01028.php", "db/d08/a01028" ],
+      [ "Path", "df/d89/a01032.php", "df/d89/a01032" ]
     ] ],
-    [ "PathfindingAlgorithms.hpp", "d7/d9a/a00152.php", null ],
-    [ "PathfindingDijkstra.hpp", "d3/df8/a00155.php", [
-      [ "PathfindingDijkstra", "d1/dd8/a01022.php", "d1/dd8/a01022" ]
+    [ "Pathfinding.hpp", "d3/df8/a00155.php", [
+      [ "Pathfinding", "d8/d79/a01036.php", "d8/d79/a01036" ]
     ] ],
-    [ "PathfindingException.hpp", "d6/db8/a00158.php", [
-      [ "PathfindingException", "de/d02/a01026.php", "de/d02/a01026" ]
+    [ "PathfindingAlgorithms.hpp", "d6/db8/a00158.php", null ],
+    [ "PathfindingDijkstra.hpp", "d6/d7d/a00161.php", [
+      [ "PathfindingDijkstra", "db/d14/a01040.php", "db/d14/a01040" ]
     ] ],
-    [ "PathfindingProblem.hpp", "d6/d7d/a00161.php", [
-      [ "PathfindingProblem", "de/d41/a01030.php", "de/d41/a01030" ]
+    [ "PathfindingException.hpp", "db/ddf/a00164.php", [
+      [ "PathfindingException", "d0/ddd/a01044.php", "d0/ddd/a01044" ]
     ] ],
-    [ "Plant.hpp", "db/ddf/a00164.php", [
-      [ "Plant", "de/d91/a01034.php", "de/d91/a01034" ]
+    [ "PathfindingProblem.hpp", "dc/de6/a00167.php", [
+      [ "PathfindingProblem", "d5/de7/a01048.php", "d5/de7/a01048" ]
     ] ],
-    [ "Player.hpp", "dc/de6/a00167.php", [
-      [ "Player", "d4/dbc/a01038.php", "d4/dbc/a01038" ]
+    [ "Plant.hpp", "d5/dcb/a00170.php", [
+      [ "Plant", "d9/dce/a01052.php", "d9/dce/a01052" ]
     ] ],
-    [ "PlayerAbstraction.hpp", "d5/dcb/a00170.php", [
-      [ "PlayerAbstraction", "d4/d56/a01042.php", "d4/d56/a01042" ]
+    [ "Player.hpp", "d7/d3f/a00173.php", [
+      [ "Player", "dc/d19/a01056.php", "dc/d19/a01056" ]
     ] ],
-    [ "pointers.hpp", "d7/d3f/a00173.php", "d7/d3f/a00173" ],
-    [ "PureVirtual.hpp", "d5/de9/a00176.php", [
-      [ "PureVirtual", "dd/d57/a01054.php", "dd/d57/a01054" ]
+    [ "PlayerAbstraction.hpp", "d5/de9/a00176.php", [
+      [ "PlayerAbstraction", "d5/d16/a01060.php", "d5/d16/a01060" ]
     ] ],
-    [ "Referenced.hpp", "db/dd9/a00179.php", "db/dd9/a00179" ],
-    [ "RNG.hpp", "d7/d25/a00182.php", "d7/d25/a00182" ],
-    [ "sorting.hpp", "de/df3/a00185.php", "de/df3/a00185" ],
-    [ "Stone.hpp", "da/d15/a00188.php", [
-      [ "Stone", "d0/dfb/a01066.php", "d0/dfb/a01066" ]
+    [ "pointers.hpp", "db/dd9/a00179.php", "db/dd9/a00179" ],
+    [ "PureVirtual.hpp", "d7/d25/a00182.php", [
+      [ "PureVirtual", "d6/d6a/a01072.php", "d6/d6a/a01072" ]
     ] ],
-    [ "string.hpp", "d9/dd0/a00191.php", "d9/dd0/a00191" ],
-    [ "strptime.h", "dc/d57/a00194.php", null ],
-    [ "system.hpp", "de/db1/a00197.php", "de/db1/a00197" ],
-    [ "Threadable.hpp", "d3/db1/a00200.php", "d3/db1/a00200" ],
-    [ "Time.hpp", "de/d79/a00203.php", "de/d79/a00203" ],
-    [ "timeFunctions.hpp", "d5/df1/a00206.php", "d5/df1/a00206" ],
-    [ "Timer.hpp", "d3/de5/a00209.php", [
-      [ "Timer", "db/dba/a01078.php", "db/dba/a01078" ]
+    [ "Referenced.hpp", "de/df3/a00185.php", "de/df3/a00185" ],
+    [ "RNG.hpp", "da/d15/a00188.php", "da/d15/a00188" ],
+    [ "sorting.hpp", "d9/dd0/a00191.php", "d9/dd0/a00191" ],
+    [ "Stone.hpp", "dc/d57/a00194.php", [
+      [ "Stone", "da/d93/a01084.php", "da/d93/a01084" ]
     ] ],
-    [ "Tree.hpp", "dd/dc1/a00212.php", "dd/dc1/a00212" ],
-    [ "types.hpp", "d3/dd5/a00215.php", "d3/dd5/a00215" ],
-    [ "UsefullDefines.hpp", "dc/d9a/a00218.php", "dc/d9a/a00218" ],
-    [ "vector.hpp", "dd/d52/a00221.php", [
-      [ "vector", "d4/da7/a01102.php", "d4/da7/a01102" ]
+    [ "string.hpp", "de/db1/a00197.php", "de/db1/a00197" ],
+    [ "strptime.h", "d3/db1/a00200.php", null ],
+    [ "system.hpp", "de/d79/a00203.php", "de/d79/a00203" ],
+    [ "Threadable.hpp", "d5/df1/a00206.php", "d5/df1/a00206" ],
+    [ "Time.hpp", "d3/de5/a00209.php", "d3/de5/a00209" ],
+    [ "timeFunctions.hpp", "dd/dc1/a00212.php", "dd/dc1/a00212" ],
+    [ "Timer.hpp", "d3/dd5/a00215.php", [
+      [ "Timer", "d2/d20/a01096.php", "d2/d20/a01096" ]
     ] ],
-    [ "Vegetal.hpp", "d5/ddf/a00224.php", [
-      [ "Vegetal", "da/d4e/a01106.php", "da/d4e/a01106" ]
+    [ "Tree.hpp", "dc/d9a/a00218.php", "dc/d9a/a00218" ],
+    [ "types.hpp", "dd/d52/a00221.php", "dd/d52/a00221" ],
+    [ "UsefullDefines.hpp", "d5/ddf/a00224.php", "d5/ddf/a00224" ],
+    [ "vector.hpp", "d9/d01/a00227.php", [
+      [ "vector", "dc/d51/a01120.php", "dc/d51/a01120" ]
+    ] ],
+    [ "Vegetal.hpp", "d1/da8/a00230.php", [
+      [ "Vegetal", "d0/dc8/a01124.php", "d0/dc8/a01124" ]
     ] ]
 ];

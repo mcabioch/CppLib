@@ -1,10 +1,4 @@
-<map id="mcd::Contraption" name="mcd::Contraption">
-<area shape="rect" id="node2" href="$d9/dce/a00944.php" title="An entity. " alt="" coords="129,80,219,107"/>
-<area shape="rect" id="node8" href="$d7/d76/a00992.php" title="An object. " alt="" coords="245,80,338,107"/>
-<area shape="rect" id="node3" href="$d9/d9c/a00772.php" title="An animal. " alt="" coords="5,155,100,181"/>
-<area shape="rect" id="node5" href="$de/d9c/a01092.php" title="A vegetal. " alt="" coords="125,155,223,181"/>
-<area shape="rect" id="node4" href="$d9/dd4/a00776.php" title="An ant. " alt="" coords="15,229,90,256"/>
-<area shape="rect" id="node6" href="$db/d20/a00980.php" title="A mushroom. " alt="" coords="115,229,231,256"/>
-<area shape="rect" id="node7" href="$d0/d43/a01020.php" title="A plant. " alt="" coords="255,229,341,256"/>
-<area shape="rect" id="node9" href="$d9/dce/a01052.php" title="A stone. " alt="" coords="248,155,337,181"/>
+<map id="mcd::Color" name="mcd::Color">
+<area shape="rect" id="node2" href="$d6/d66/a00916.php" title="Clear the console. " alt="" coords="5,80,80,107"/>
+<area shape="rect" id="node3" href="$df/da5/a00912.php" title="Reinit the color in the console. " alt="" coords="105,80,194,107"/>
 </map>

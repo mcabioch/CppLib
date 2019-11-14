@@ -1,9 +1,6 @@
 var a00206 =
 [
-    [ "getMilli", "d5/df1/a00206.php#ac4573282fe9cf6a0af8de786baaf6456", null ],
-    [ "getSec", "d5/df1/a00206.php#a49144605ea2f1f8a9463ae309c293628", null ],
-    [ "microSleep", "d5/df1/a00206.php#a773d8ead6e35e10f86f4285f3f79ecb9", null ],
-    [ "milliSleep", "d5/df1/a00206.php#a30ed8e5c290433011b9855598cfc050a", null ],
-    [ "nanoSleep", "d5/df1/a00206.php#a5b2e0c30451ea35d0cc5eb9badea5be0", null ],
-    [ "sleep", "d5/df1/a00206.php#a0003c12a7cc73a35e488f59ad14770bf", null ]
+    [ "Threadable", "da/db7/a01088.php", "da/db7/a01088" ],
+    [ "THREADABLE", "d5/df1/a00206.php#a09979566ade438911265d3e17ecc3abc", null ],
+    [ "THREADABLE_LOCK", "d5/df1/a00206.php#a3a0fe346d6bb1356037b21f558e5c308", null ]
 ];

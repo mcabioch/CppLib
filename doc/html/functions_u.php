@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:45 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,11 +93,11 @@ $(document).ready(function(){initNavTree('functions_u.php','');});
 
 <h3><a id="index_u"></a>- u -</h3><ul>
 <li>untarget()
-: <a class="el" href="df/d88/a00962.php#a3e31fc96bd37fc2a8811ecfe600c62a0">mcd::Hostile</a>
+: <a class="el" href="db/d20/a00980.php#a3e31fc96bd37fc2a8811ecfe600c62a0">mcd::Hostile</a>
 </li>
 <li>update()
-: <a class="el" href="d7/d16/a00930.php#a2a9dc41a2367f4dabb2c345ee0bf51c6">mcd::SHA2</a>
-, <a class="el" href="db/dba/a01078.php#aa0825ee9a421da67ddac15fd45632d4e">mcd::Timer</a>
+: <a class="el" href="d8/d18/a00948.php#a2a9dc41a2367f4dabb2c345ee0bf51c6">mcd::SHA2</a>
+, <a class="el" href="d2/d20/a01096.php#aa0825ee9a421da67ddac15fd45632d4e">mcd::Timer</a>
 </li>
 </ul>
 </div><!-- contents -->

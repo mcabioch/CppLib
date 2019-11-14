@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Oct 4 2019 16:12:43 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,33 +90,13 @@ $(document).ready(function(){initNavTree('d1/de6/a01068.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Timer Member List</div>  </div>
+<div class="title">mcd::Check::is_thread_ptr&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d1/de6/a01068.php">mcd::Timer</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d1/de6/a01068.php">mcd::Check::is_thread_ptr&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a01060.php#a77d662da66e59d43579e7490d24d72b8">_mutex</a></td><td class="entry"><a class="el" href="../../d5/d16/a01060.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">mutable</span><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/de6/a01068.php#a5ce92c00f251ba4ee94fc8224a9ccbc7">getStart</a>() const</td><td class="entry"><a class="el" href="../../d1/de6/a01068.php">mcd::Timer</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a01060.php#a804393d97a319c38afa593072bd0ead9">hasToStop</a>() const</td><td class="entry"><a class="el" href="../../d5/d16/a01060.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a01060.php#af6a411164d64b1b04b731f29d54e016a">inUse</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a01060.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a01060.php#a1eb0985252b04c90761f92432ef4216d">launch</a>()=0</td><td class="entry"><a class="el" href="../../d5/d16/a01060.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a01060.php#a156911948e5f5d2d5eeb0922ee3bd86d">launched</a>() const</td><td class="entry"><a class="el" href="../../d5/d16/a01060.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/de6/a01068.php#acb15fc23bdf915fbc5093d3f40996a37">m_start</a></td><td class="entry"><a class="el" href="../../d1/de6/a01068.php">mcd::Timer</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a01060.php#a0b2419ec1119f28dc2440e202f0d2c8e">notInUse</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a01060.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a01060.php#aede63b72f054d20e35d22153af8313c8">operator=</a>(Threadable&lt; Timer &gt; &amp;other) noexcept</td><td class="entry"><a class="el" href="../../d5/d16/a01060.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a01060.php#ab51cdb23e70b6ab97afb529098eb20c0">operator=</a>(Threadable&lt; Timer &gt; &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../d5/d16/a01060.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/de6/a01068.php#affd1240db762eb2d3f125bfdda4aa990">restart</a>(int sec)</td><td class="entry"><a class="el" href="../../d1/de6/a01068.php">mcd::Timer</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a01060.php#a0351657024f3b0d37b54c08a09a156fa">sleeper</a></td><td class="entry"><a class="el" href="../../d5/d16/a01060.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/de6/a01068.php#afe0b2617d4a9beb52d2118d532d0db03">start</a>(int sec)</td><td class="entry"><a class="el" href="../../d1/de6/a01068.php">mcd::Timer</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/de6/a01068.php#a489644a70b400f78d63ad3449ffae846">started</a></td><td class="entry"><a class="el" href="../../d1/de6/a01068.php">mcd::Timer</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a01060.php#a4dd37d54456e167f8b42d30be7076939">stop</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a01060.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a01060.php#a04bdb4a894312f6671680c2f103b8a63">Threadable</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a01060.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a01060.php#a29db3ebe9dfbf77bc04967565c0dcf6e">Threadable</a>(Threadable&lt; Timer &gt; &amp;other)</td><td class="entry"><a class="el" href="../../d5/d16/a01060.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a01060.php#a4cbceb43796de6c36a5cd4f35a6402cb">Threadable</a>(Threadable&lt; Timer &gt; &amp;&amp;other)</td><td class="entry"><a class="el" href="../../d5/d16/a01060.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/de6/a01068.php#ae2847ca8c851863418d57e80e972095a">Timer</a>()</td><td class="entry"><a class="el" href="../../d1/de6/a01068.php">mcd::Timer</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/de6/a01068.php#aa0825ee9a421da67ddac15fd45632d4e">update</a>() override</td><td class="entry"><a class="el" href="../../d1/de6/a01068.php">mcd::Timer</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a01060.php#aab98cd8e5cd8832dfd6e82c17d1a689d">~Threadable</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a01060.php">mcd::Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/de6/a01068.php#aeaf71256c26f5b5be4a5e5db9035500b">value</a></td><td class="entry"><a class="el" href="../../d1/de6/a01068.php">mcd::Check::is_thread_ptr&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

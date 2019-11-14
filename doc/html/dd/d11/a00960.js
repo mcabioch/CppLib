@@ -1,14 +1,19 @@
 var a00960 =
 [
-    [ "Identifier", "dd/d11/a00960.php#a1496891d2323d1023ebfd086b84faf8d", null ],
-    [ "~Identifier", "dd/d11/a00960.php#a87dbdb0f9b391d6a78d61463e8823628", null ],
-    [ "getId", "dd/d11/a00960.php#abc0c02ec636a63cf2086e6e98f194b63", null ],
-    [ "getPassword", "dd/d11/a00960.php#a0dcb443f68200102b855f77878754af9", null ],
-    [ "getUsername", "dd/d11/a00960.php#a6108c8a63af7595ff4d9a4f2ad868b1e", null ],
-    [ "setId", "dd/d11/a00960.php#a593e0be0e4c8e17b22507e7f7d933ded", null ],
-    [ "setPassword", "dd/d11/a00960.php#a5b0a0e637d443935ae770bf90b652dea", null ],
-    [ "setUsername", "dd/d11/a00960.php#a7487ac9cac4531aad529994927c0e69f", null ],
-    [ "_id", "dd/d11/a00960.php#a6920412818f4d8a4478771fb767a2d07", null ],
-    [ "_password", "dd/d11/a00960.php#a95d479399de1b046aff00e83210b67ea", null ],
-    [ "_username", "dd/d11/a00960.php#a4a002c57b507ef0c744135eacfb82b6f", null ]
+    [ "Date", "dd/d11/a00960.php#a032af1a0d48dcd6e6728b1855a75321d", null ],
+    [ "Date", "dd/d11/a00960.php#a6f9647d3123f16fafaed55d9e75df6d7", null ],
+    [ "~Date", "dd/d11/a00960.php#acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5", null ],
+    [ "day", "dd/d11/a00960.php#a10a48f5b93ee6c3e7ba43c5de5fa56bd", null ],
+    [ "get", "dd/d11/a00960.php#a8573428b5d4557473120c24e1e52d543", null ],
+    [ "init", "dd/d11/a00960.php#a17a08ca52b3ec69d178a997c07a5ca1c", null ],
+    [ "month", "dd/d11/a00960.php#aeaf4a92c344f8b9d8b88e22cbc710013", null ],
+    [ "monthWeek", "dd/d11/a00960.php#aa1b8bcad43aa4fa7f5bccf350c348bbf", null ],
+    [ "reset", "dd/d11/a00960.php#a22f293eaa9698511e9657c60ee1557f7", null ],
+    [ "set", "dd/d11/a00960.php#a63132b3cb9cc7cf1640fa1165a14d9a8", null ],
+    [ "strDay", "dd/d11/a00960.php#a3682f8457850fbb2899afc7967dc9bc9", null ],
+    [ "strMonth", "dd/d11/a00960.php#a09230be2f6ef6b2620dec0023bd1b1a0", null ],
+    [ "weekDay", "dd/d11/a00960.php#a9a96b0ddfd20e6cc5da855b70be4c1f1", null ],
+    [ "year", "dd/d11/a00960.php#a30f0e5cc134d8da80f4b68aad4f92674", null ],
+    [ "yearDay", "dd/d11/a00960.php#a9af5d47e5785c0c16217e5b4914bc9a0", null ],
+    [ "yearWeek", "dd/d11/a00960.php#a211971964081aac6bf13b0c670307b54", null ]
 ];

@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Check::is_object&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 17:01:39 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d3/d8a/a00899.php','../../');});
+$(document).ready(function(){initNavTree('da/dd6/a00896.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,27 +89,64 @@ $(document).ready(function(){initNavTree('d3/d8a/a00899.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="../../dc/d2c/a00893.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::ConsoleCursor Member List</div>  </div>
+<div class="title">mcd::Check::is_object&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d3/d8a/a00899.php">mcd::ConsoleCursor</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a191575f00626575e84455dfae871f502">goTo</a>(T x, T y)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a75615abf8f124c460b9b163868c89b7e">home</a>()</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/dbb/a01047.php#ab67f25d69c1686f95be6fbfcc4ac4663">PureVirtual</a>()</td><td class="entry"><a class="el" href="../../db/dbb/a01047.php">mcd::PureVirtual</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/dbb/a01047.php#a1885fa694cc2d28cb55186fb3b53615d">PureVirtualMethod</a>() final=0</td><td class="entry"><a class="el" href="../../db/dbb/a01047.php">mcd::PureVirtual</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a2ca0b4e7146c9b27b2396c2ba114c923">put</a>(const std::string &amp;str, T x, T y, const Color &amp;color=0)</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#a6f731b973f917b6c2f3a04267f12c851">restore</a>()</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d8a/a00899.php#ab58627fbfed0b6cabd5030943113e5e5">save</a>()</td><td class="entry"><a class="el" href="../../d3/d8a/a00899.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/dbb/a01047.php#acb8cb10e007f7c5f6ac757843a212598">~PureVirtual</a>()</td><td class="entry"><a class="el" href="../../db/dbb/a01047.php">mcd::PureVirtual</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A template class to test if T is an unknown object.  
+ <a href="../../da/dd6/a00896.php#details">More...</a></p>
+
+<p><code>#include &lt;check.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aba4751c5acee27e01be8c2b8abc0888b"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd6/a00896.php#aba4751c5acee27e01be8c2b8abc0888b">value</a></td></tr>
+<tr class="separator:aba4751c5acee27e01be8c2b8abc0888b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class mcd::Check::is_object&lt; T &gt;</h3>
+
+<p>A template class to test if T is an unknown object. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="aba4751c5acee27e01be8c2b8abc0888b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba4751c5acee27e01be8c2b8abc0888b">&#9670;&nbsp;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool <a class="el" href="../../da/dd6/a00896.php">mcd::Check::is_object</a>&lt; T &gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= !<a class="code" href="../../d3/d69/a00844.php#a0158c050746b586a1c8e800a68968879">is_array&lt;T&gt;::value</a> &amp;&amp;</div><div class="line">                                          !<a class="code" href="../../d2/d5e/a00860.php#af2c46fb3d97ce2190260c2ddcb2d33d4">is_string&lt;T&gt;::value</a> &amp;&amp;</div><div class="line">                                          !<a class="code" href="../../d7/d1b/a00864.php#a573e824f7b1584fa564c91c1e5814453">is_smatch&lt;T&gt;::value</a> &amp;&amp;</div><div class="line">                                          !std::is_fundamental&lt;T&gt;::value</div></div><!-- fragment -->
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d6/d2d/a00047.php">check.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../da/d2e/a00238.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/d21/a00240.php">Check</a></li><li class="navelem"><a class="el" href="../../da/dd6/a00896.php">is_object</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

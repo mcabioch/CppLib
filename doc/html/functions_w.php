@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:45 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,23 +93,24 @@ $(document).ready(function(){initNavTree('functions_w.php','');});
 
 <h3><a id="index_w"></a>- w -</h3><ul>
 <li>w
-: <a class="el" href="d0/d53/a00232.php#a26d74e808a118c6ed654a66a8c248480">mcd::ContraptionAttr</a>
-, <a class="el" href="d0/d53/a00232.php#a5e12726e58baa05036bc160c31d08016">mcd::WorldDimensions</a>
+: <a class="el" href="da/d2e/a00238.php#a26d74e808a118c6ed654a66a8c248480">mcd::ContraptionAttr</a>
+, <a class="el" href="da/d2e/a00238.php#a5e12726e58baa05036bc160c31d08016">mcd::WorldDimensions</a>
 </li>
 <li>WARN
-: <a class="el" href="df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95a5c7fb9b9c155b682a438d0ecda6ccddb">mcd::Logger</a>
+: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a5c7fb9b9c155b682a438d0ecda6ccddb">mcd::Logger</a>
 </li>
 <li>weekDay()
-: <a class="el" href="df/d12/a00942.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
+: <a class="el" href="dd/d11/a00960.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
 </li>
 <li>weight
-: <a class="el" href="d0/d53/a00232.php#ae9c3c7c184c194240178a2cf11f24566">mcd::Node&lt; T &gt;</a>
+: <a class="el" href="da/d2e/a00238.php#ae9c3c7c184c194240178a2cf11f24566">mcd::Node&lt; T &gt;</a>
 </li>
 <li>weights
-: <a class="el" href="de/d41/a01030.php#ab5fbef9d1844f398fffd1dbc2870adef">mcd::PathfindingProblem</a>
+: <a class="el" href="d5/de7/a01048.php#ab5fbef9d1844f398fffd1dbc2870adef">mcd::PathfindingProblem</a>
 </li>
 <li>what()
-: <a class="el" href="de/d02/a01026.php#a92a9aea3e0fc189dc0c17a78ffa68bdf">mcd::PathfindingException</a>
+: <a class="el" href="d8/d1c/a00824.php#a25b7e738127f0f021283bf2f2b9bc9fa">mcd::AssertionException</a>
+, <a class="el" href="d0/ddd/a01044.php#a92a9aea3e0fc189dc0c17a78ffa68bdf">mcd::PathfindingException</a>
 </li>
 </ul>
 </div><!-- contents -->

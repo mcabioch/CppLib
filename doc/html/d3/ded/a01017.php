@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Oct 4 2019 16:12:42 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:48 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,20 +90,15 @@ $(document).ready(function(){initNavTree('d0/d43/a01020.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::PathfindingProblem Member List</div>  </div>
+<div class="title">mcd::NotInstantiable Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d0/d43/a01020.php">mcd::PathfindingProblem</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d0/d43/a01020.php">mcd::NotInstantiable</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d43/a01020.php#a70c60dedee9b93e8bcd750a60e37ecfd">computed</a></td><td class="entry"><a class="el" href="../../d0/d43/a01020.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d43/a01020.php#ae7e5173f36187aeb5e1c334d60f2c914">distances</a></td><td class="entry"><a class="el" href="../../d0/d43/a01020.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d43/a01020.php#a87c634685eea28780ddc10b7aa08af07">nbNodes</a></td><td class="entry"><a class="el" href="../../d0/d43/a01020.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d43/a01020.php#adb3befe767011d5d5738d1e4cb756e09">nodes</a></td><td class="entry"><a class="el" href="../../d0/d43/a01020.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d43/a01020.php#af2aa5f359715262ae600422bb49e79af">PathfindingProblem</a>(std::vector&lt; PathfindingNode &gt; nodes, std::map&lt; size_t, std::map&lt; size_t, double64_t &gt; &gt; distances)</td><td class="entry"><a class="el" href="../../d0/d43/a01020.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d43/a01020.php#a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0">PathfindingProblem</a>(std::vector&lt; PathfindingNode &gt; nodes, std::map&lt; size_t, std::map&lt; size_t, double64_t &gt; &gt; distances, std::map&lt; size_t, std::map&lt; size_t, double64_t &gt; &gt; weights)</td><td class="entry"><a class="el" href="../../d0/d43/a01020.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d43/a01020.php#ab5fbef9d1844f398fffd1dbc2870adef">weights</a></td><td class="entry"><a class="el" href="../../d0/d43/a01020.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d43/a01020.php#a0bf356ad792ba79df121cedf0501f6f1">~PathfindingProblem</a>()</td><td class="entry"><a class="el" href="../../d0/d43/a01020.php">mcd::PathfindingProblem</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/d43/a01020.php#a760ca4c32c24cf2b4c4c2ef07b51f997">NotInstantiable</a>()</td><td class="entry"><a class="el" href="../../d0/d43/a01020.php">mcd::NotInstantiable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/d43/a01020.php#a19c59f78b217426061641970c9f11022">notInstantiable</a>() final=0</td><td class="entry"><a class="el" href="../../d0/d43/a01020.php">mcd::NotInstantiable</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/d43/a01020.php#a096b44b3d9fe8e567b179ac3d3dbacff">~NotInstantiable</a>()</td><td class="entry"><a class="el" href="../../d0/d43/a01020.php">mcd::NotInstantiable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Map Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 17:01:39 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:48 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d6/d8d/a01007.php','../../');});
+$(document).ready(function(){initNavTree('df/dbc/a01004.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,30 +89,1020 @@ $(document).ready(function(){initNavTree('d6/d8d/a01007.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../df/d59/a01001.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Path Member List</div>  </div>
+<div class="title">mcd::Map Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d6/d8d/a01007.php">mcd::Path</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d8d/a01007.php#a3b461b7f35d6914a627e52e20f79f6ce">end</a></td><td class="entry"><a class="el" href="../../d6/d8d/a01007.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d8d/a01007.php#a7928f59acfc984899a12b52ab2e5ddca">hasNext</a>() const</td><td class="entry"><a class="el" href="../../d6/d8d/a01007.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d8d/a01007.php#a2ae56317713ca93848b0c47bc401cbf4">length</a>() const</td><td class="entry"><a class="el" href="../../d6/d8d/a01007.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d8d/a01007.php#ac24764eca1f5c6a54322d4a19d4ac68f">next</a>(PathfindingNode &amp;node)</td><td class="entry"><a class="el" href="../../d6/d8d/a01007.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d8d/a01007.php#a19773c31a6467b9b61b440135863290e">Path</a>()</td><td class="entry"><a class="el" href="../../d6/d8d/a01007.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d8d/a01007.php#a54d7d03099784e7f2e573ba17ebe499e">push</a>(const PathfindingNode &amp;node)</td><td class="entry"><a class="el" href="../../d6/d8d/a01007.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d8d/a01007.php#a6941e224d3239f1c5aeda5b309aa5c81">reset</a>()</td><td class="entry"><a class="el" href="../../d6/d8d/a01007.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d8d/a01007.php#a1fb9d6aad58d7817692168eaea307a14">reverse</a>()</td><td class="entry"><a class="el" href="../../d6/d8d/a01007.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d8d/a01007.php#a85140de1f8970b128a2501316a71e332">size</a>() const</td><td class="entry"><a class="el" href="../../d6/d8d/a01007.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d8d/a01007.php#aeeee0a0ede330174785a5c7fe77d1681">start</a></td><td class="entry"><a class="el" href="../../d6/d8d/a01007.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d8d/a01007.php#ae7ac83a2afcba63d1e8f17f314572a7f">~Path</a>()</td><td class="entry"><a class="el" href="../../d6/d8d/a01007.php">mcd::Path</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to manage a map and that implement some pathfinding algorithms.  
+ <a href="../../df/dbc/a01004.php#details">More...</a></p>
+
+<p><code>#include &lt;Map.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a3512d2f37cf42ca70fbeedaf6dbd179b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a3512d2f37cf42ca70fbeedaf6dbd179b">Map</a> (<a class="el" href="../../da/d2e/a00238.php#d3/daa/a00996">WorldDimensions</a> dimensions)</td></tr>
+<tr class="memdesc:a3512d2f37cf42ca70fbeedaf6dbd179b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the map that initialize it.  <a href="#a3512d2f37cf42ca70fbeedaf6dbd179b">More...</a><br /></td></tr>
+<tr class="separator:a3512d2f37cf42ca70fbeedaf6dbd179b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a444967efa4f320d2ddfdd59ba0761b52"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a444967efa4f320d2ddfdd59ba0761b52">~Map</a> ()</td></tr>
+<tr class="separator:a444967efa4f320d2ddfdd59ba0761b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc4f78a75dbf140919d939985c209cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d2e/a00238.php#d3/daa/a00996">WorldDimensions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#adc4f78a75dbf140919d939985c209cbb">getSize</a> () const</td></tr>
+<tr class="separator:adc4f78a75dbf140919d939985c209cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4e66e9116fc7b785e4e0bbfd93dbf3d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#ad4e66e9116fc7b785e4e0bbfd93dbf3d">getW</a> () const</td></tr>
+<tr class="separator:ad4e66e9116fc7b785e4e0bbfd93dbf3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a846e20ddb36e52abe1975bfd7f47bb62"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a846e20ddb36e52abe1975bfd7f47bb62">getH</a> () const</td></tr>
+<tr class="separator:a846e20ddb36e52abe1975bfd7f47bb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab798c2d9fb3e6b25abaef7926b8a0abb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/de7/a01048.php">PathfindingProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#ab798c2d9fb3e6b25abaef7926b8a0abb">getProblem</a> ()</td></tr>
+<tr class="separator:ab798c2d9fb3e6b25abaef7926b8a0abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04a6f229a4697e8945922ed23b52f7d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d2e/a00238.php#a4da80d0816a366662f2bd5bd8740af79">MapArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a04a6f229a4697e8945922ed23b52f7d6">get</a> () const</td></tr>
+<tr class="separator:a04a6f229a4697e8945922ed23b52f7d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab97ef85198947deb95164f9d240e30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#adab97ef85198947deb95164f9d240e30">setSize</a> (<a class="el" href="../../da/d2e/a00238.php#d3/daa/a00996">WorldDimensions</a> dimensions)</td></tr>
+<tr class="memdesc:adab97ef85198947deb95164f9d240e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new dimensions for the map.  <a href="#adab97ef85198947deb95164f9d240e30">More...</a><br /></td></tr>
+<tr class="separator:adab97ef85198947deb95164f9d240e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46876aaf4ac9bdfe36d24a2e121d4e34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a46876aaf4ac9bdfe36d24a2e121d4e34">setW</a> (size_t w)</td></tr>
+<tr class="memdesc:a46876aaf4ac9bdfe36d24a2e121d4e34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new width for the map.  <a href="#a46876aaf4ac9bdfe36d24a2e121d4e34">More...</a><br /></td></tr>
+<tr class="separator:a46876aaf4ac9bdfe36d24a2e121d4e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af75d4f3db3cf7cbba6ae20628ecc2e04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#af75d4f3db3cf7cbba6ae20628ecc2e04">setH</a> (size_t h)</td></tr>
+<tr class="memdesc:af75d4f3db3cf7cbba6ae20628ecc2e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new height for the map.  <a href="#af75d4f3db3cf7cbba6ae20628ecc2e04">More...</a><br /></td></tr>
+<tr class="separator:af75d4f3db3cf7cbba6ae20628ecc2e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1809056415a86a4627e0cad3bbb0b3b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d2e/a00238.php#a7350be9df9566241dfb80071a89f9ede">Tile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a1809056415a86a4627e0cad3bbb0b3b0">operator()</a> (size_t i, size_t j)</td></tr>
+<tr class="memdesc:a1809056415a86a4627e0cad3bbb0b3b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloading of the () operator.  <a href="#a1809056415a86a4627e0cad3bbb0b3b0">More...</a><br /></td></tr>
+<tr class="separator:a1809056415a86a4627e0cad3bbb0b3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a105197d7158b9387782b28583c6c07ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d2e/a00238.php#a7350be9df9566241dfb80071a89f9ede">Tile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a105197d7158b9387782b28583c6c07ba">operator()</a> (size_t i, size_t j) const</td></tr>
+<tr class="memdesc:a105197d7158b9387782b28583c6c07ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloading of the () operator.  <a href="#a105197d7158b9387782b28583c6c07ba">More...</a><br /></td></tr>
+<tr class="separator:a105197d7158b9387782b28583c6c07ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8a3794bcdcff4ad8875c6799eb4ab58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#ab8a3794bcdcff4ad8875c6799eb4ab58">clear</a> ()</td></tr>
+<tr class="memdesc:ab8a3794bcdcff4ad8875c6799eb4ab58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the map array.  <a href="#ab8a3794bcdcff4ad8875c6799eb4ab58">More...</a><br /></td></tr>
+<tr class="separator:ab8a3794bcdcff4ad8875c6799eb4ab58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc568b008b11652ff93bf281f16f9f86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#afc568b008b11652ff93bf281f16f9f86">consolePrint</a> ()</td></tr>
+<tr class="memdesc:afc568b008b11652ff93bf281f16f9f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the map in the console.  <a href="#afc568b008b11652ff93bf281f16f9f86">More...</a><br /></td></tr>
+<tr class="separator:afc568b008b11652ff93bf281f16f9f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86d2ef9c24b540688cbfaa12d9225c35"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a86d2ef9c24b540688cbfaa12d9225c35">isXIn</a> (<a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> pt, <a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> dim)</td></tr>
+<tr class="memdesc:a86d2ef9c24b540688cbfaa12d9225c35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if the point is in map on X axis.  <a href="#a86d2ef9c24b540688cbfaa12d9225c35">More...</a><br /></td></tr>
+<tr class="separator:a86d2ef9c24b540688cbfaa12d9225c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45adc028ccfb00ef4f66225e244956fd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a45adc028ccfb00ef4f66225e244956fd">isYIn</a> (<a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> pt, <a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> dim)</td></tr>
+<tr class="memdesc:a45adc028ccfb00ef4f66225e244956fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if the point is in map on Y axis.  <a href="#a45adc028ccfb00ef4f66225e244956fd">More...</a><br /></td></tr>
+<tr class="separator:a45adc028ccfb00ef4f66225e244956fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaa0863e1b2dfa4b35f6b5582d26798c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#aaaa0863e1b2dfa4b35f6b5582d26798c">load</a> (const std::string &amp;file)</td></tr>
+<tr class="memdesc:aaaa0863e1b2dfa4b35f6b5582d26798c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the map from a file.  <a href="#aaaa0863e1b2dfa4b35f6b5582d26798c">More...</a><br /></td></tr>
+<tr class="separator:aaaa0863e1b2dfa4b35f6b5582d26798c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b402d37424b8fc5a5036ecc78781d6a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a4b402d37424b8fc5a5036ecc78781d6a">save</a> (const std::string &amp;file) const</td></tr>
+<tr class="memdesc:a4b402d37424b8fc5a5036ecc78781d6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the map in a file.  <a href="#a4b402d37424b8fc5a5036ecc78781d6a">More...</a><br /></td></tr>
+<tr class="separator:a4b402d37424b8fc5a5036ecc78781d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cea2526dc276cce694e31a6053d5522"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a8cea2526dc276cce694e31a6053d5522">putEntity</a> (size_t &amp;id, <a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x, <a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y, <a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> w, <a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> h)</td></tr>
+<tr class="memdesc:a8cea2526dc276cce694e31a6053d5522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put an entity on the given position.  <a href="#a8cea2526dc276cce694e31a6053d5522">More...</a><br /></td></tr>
+<tr class="separator:a8cea2526dc276cce694e31a6053d5522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b56015950d08fd043e0906875519e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d2e/a00238.php#d7/df2/a01000">MapMove</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a54b56015950d08fd043e0906875519e3">moveEntity</a> (size_t id, <a class="el" href="../../df/d89/a01032.php">Path</a> &amp;path, <a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x, <a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y)</td></tr>
+<tr class="memdesc:a54b56015950d08fd043e0906875519e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move an entity from the first position to the second position.  <a href="#a54b56015950d08fd043e0906875519e3">More...</a><br /></td></tr>
+<tr class="separator:a54b56015950d08fd043e0906875519e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d89a93779f04f96e43a883c6e021d04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a0d89a93779f04f96e43a883c6e021d04">setEntity</a> (size_t id, <a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x, <a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y)</td></tr>
+<tr class="memdesc:a0d89a93779f04f96e43a883c6e021d04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move an entity to the given position.  <a href="#a0d89a93779f04f96e43a883c6e021d04">More...</a><br /></td></tr>
+<tr class="separator:a0d89a93779f04f96e43a883c6e021d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1784239c1be09cc3c9a7a4652292149d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a1784239c1be09cc3c9a7a4652292149d">isFree</a> (const <a class="el" href="../../d4/dc5/a01116.php">Point</a> &amp;pt)</td></tr>
+<tr class="memdesc:a1784239c1be09cc3c9a7a4652292149d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a position on the map is a ground tileor another one.  <a href="#a1784239c1be09cc3c9a7a4652292149d">More...</a><br /></td></tr>
+<tr class="separator:a1784239c1be09cc3c9a7a4652292149d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cef4e6d93277ff04e0a6a4b162a3a4e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a3cef4e6d93277ff04e0a6a4b162a3a4e">isOnGround</a> (size_t id)</td></tr>
+<tr class="memdesc:a3cef4e6d93277ff04e0a6a4b162a3a4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if an entity is on the ground or not.  <a href="#a3cef4e6d93277ff04e0a6a4b162a3a4e">More...</a><br /></td></tr>
+<tr class="separator:a3cef4e6d93277ff04e0a6a4b162a3a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5e6be35eea3af084431715595c1138b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#ac5e6be35eea3af084431715595c1138b">isOnGround</a> (const <a class="el" href="../../d4/dc5/a01116.php">Point</a> &amp;pt)</td></tr>
+<tr class="memdesc:ac5e6be35eea3af084431715595c1138b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a point is on the ground or not.  <a href="#ac5e6be35eea3af084431715595c1138b">More...</a><br /></td></tr>
+<tr class="separator:ac5e6be35eea3af084431715595c1138b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d96c02df00df52c98d68ea541e944e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d89/a01032.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a1d96c02df00df52c98d68ea541e944e8">dijkstra</a> (size_t id, <a class="el" href="../../d4/dc5/a01116.php">Point</a> dest)</td></tr>
+<tr class="memdesc:a1d96c02df00df52c98d68ea541e944e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a path from the entity position to the point.  <a href="#a1d96c02df00df52c98d68ea541e944e8">More...</a><br /></td></tr>
+<tr class="separator:a1d96c02df00df52c98d68ea541e944e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a793304f9b5fb060a085ea0653d83e96f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d89/a01032.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#a793304f9b5fb060a085ea0653d83e96f">dijkstra</a> (<a class="el" href="../../d4/dc5/a01116.php">Point</a> origin, <a class="el" href="../../d4/dc5/a01116.php">Point</a> dest)</td></tr>
+<tr class="memdesc:a793304f9b5fb060a085ea0653d83e96f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a path between two points.  <a href="#a793304f9b5fb060a085ea0653d83e96f">More...</a><br /></td></tr>
+<tr class="separator:a793304f9b5fb060a085ea0653d83e96f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad35cfe5bfd6ba316a796c7969c04d283"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d2e/a00238.php#d7/df2/a01000">MapMove</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#ad35cfe5bfd6ba316a796c7969c04d283">testPath</a> (<a class="el" href="../../df/d89/a01032.php">Path</a> &amp;path, bool show=false, <a class="el" href="../../d0/d85/a00908.php">Color</a> color=<a class="el" href="../../da/d2e/a00238.php#ae124ce77f8e386663ac11e2e35e6070aab754547a82033c3c904e91984b530326">Colors::PURPLE_B</a>)</td></tr>
+<tr class="memdesc:ad35cfe5bfd6ba316a796c7969c04d283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test a complete path on the map in the console.  <a href="#ad35cfe5bfd6ba316a796c7969c04d283">More...</a><br /></td></tr>
+<tr class="separator:ad35cfe5bfd6ba316a796c7969c04d283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8ecf45b42aed2736d04081639b460f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbc/a01004.php#ac8ecf45b42aed2736d04081639b460f6">resetSim</a> (<a class="el" href="../../df/d89/a01032.php">Path</a> &amp;path)</td></tr>
+<tr class="memdesc:ac8ecf45b42aed2736d04081639b460f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the path's simulation.  <a href="#ac8ecf45b42aed2736d04081639b460f6">More...</a><br /></td></tr>
+<tr class="separator:ac8ecf45b42aed2736d04081639b460f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to manage a map and that implement some pathfinding algorithms. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a3512d2f37cf42ca70fbeedaf6dbd179b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3512d2f37cf42ca70fbeedaf6dbd179b">&#9670;&nbsp;</a></span>Map()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Map::Map </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/d2e/a00238.php#d3/daa/a00996">WorldDimensions</a>&#160;</td>
+          <td class="paramname"><em>dimensions</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The constructor of the map that initialize it. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dimensions</td><td>The dimensions of the map </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a444967efa4f320d2ddfdd59ba0761b52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444967efa4f320d2ddfdd59ba0761b52">&#9670;&nbsp;</a></span>~Map()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::Map::~Map </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab8a3794bcdcff4ad8875c6799eb4ab58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8a3794bcdcff4ad8875c6799eb4ab58">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Map::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clear the map array. </p>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="afc568b008b11652ff93bf281f16f9f86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc568b008b11652ff93bf281f16f9f86">&#9670;&nbsp;</a></span>consolePrint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Map::consolePrint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the map in the console. </p>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a1d96c02df00df52c98d68ea541e944e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d96c02df00df52c98d68ea541e944e8">&#9670;&nbsp;</a></span>dijkstra() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d89/a01032.php">Path</a> mcd::Map::dijkstra </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/dc5/a01116.php">Point</a>&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute a path from the entity position to the point. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>The id of the entity </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>The point to join</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the computed Dijkstra path </dd></dl>
+
+</div>
+</div>
+<a id="a793304f9b5fb060a085ea0653d83e96f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a793304f9b5fb060a085ea0653d83e96f">&#9670;&nbsp;</a></span>dijkstra() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d89/a01032.php">Path</a> mcd::Map::dijkstra </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc5/a01116.php">Point</a>&#160;</td>
+          <td class="paramname"><em>origin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/dc5/a01116.php">Point</a>&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute a path between two points. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">origin</td><td>The point where to start </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>The point to join</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the computed Dijkstra path </dd></dl>
+
+</div>
+</div>
+<a id="a04a6f229a4697e8945922ed23b52f7d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04a6f229a4697e8945922ed23b52f7d6">&#9670;&nbsp;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d2e/a00238.php#a4da80d0816a366662f2bd5bd8740af79">MapArray</a> mcd::Map::get </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Return the maparray </dd></dl>
+
+</div>
+</div>
+<a id="a846e20ddb36e52abe1975bfd7f47bb62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a846e20ddb36e52abe1975bfd7f47bb62">&#9670;&nbsp;</a></span>getH()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t mcd::Map::getH </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Return the height </dd></dl>
+
+</div>
+</div>
+<a id="ab798c2d9fb3e6b25abaef7926b8a0abb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab798c2d9fb3e6b25abaef7926b8a0abb">&#9670;&nbsp;</a></span>getProblem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/de7/a01048.php">PathfindingProblem</a> mcd::Map::getProblem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc4f78a75dbf140919d939985c209cbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc4f78a75dbf140919d939985c209cbb">&#9670;&nbsp;</a></span>getSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d2e/a00238.php#d3/daa/a00996">WorldDimensions</a> mcd::Map::getSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Return the size </dd></dl>
+
+</div>
+</div>
+<a id="ad4e66e9116fc7b785e4e0bbfd93dbf3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4e66e9116fc7b785e4e0bbfd93dbf3d">&#9670;&nbsp;</a></span>getW()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t mcd::Map::getW </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Return the width </dd></dl>
+
+</div>
+</div>
+<a id="a1784239c1be09cc3c9a7a4652292149d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1784239c1be09cc3c9a7a4652292149d">&#9670;&nbsp;</a></span>isFree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Map::isFree </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/dc5/a01116.php">Point</a> &amp;&#160;</td>
+          <td class="paramname"><em>pt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Verify if a position on the map is a ground tileor another one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>Thepoint where to verify</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return <b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a id="a3cef4e6d93277ff04e0a6a4b162a3a4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cef4e6d93277ff04e0a6a4b162a3a4e">&#9670;&nbsp;</a></span>isOnGround() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Map::isOnGround </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Verify if an entity is on the ground or not. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>The id of the entity in the map</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return <b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a id="ac5e6be35eea3af084431715595c1138b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5e6be35eea3af084431715595c1138b">&#9670;&nbsp;</a></span>isOnGround() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Map::isOnGround </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/dc5/a01116.php">Point</a> &amp;&#160;</td>
+          <td class="paramname"><em>pt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Verify if a point is on the ground or not. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>The point to test</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return <b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a id="a86d2ef9c24b540688cbfaa12d9225c35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86d2ef9c24b540688cbfaa12d9225c35">&#9670;&nbsp;</a></span>isXIn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Map::isXIn </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramname"><em>pt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramname"><em>dim</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Verify if the point is in map on X axis. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>The x coordinate </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dim</td><td>The width of the object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a id="a45adc028ccfb00ef4f66225e244956fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45adc028ccfb00ef4f66225e244956fd">&#9670;&nbsp;</a></span>isYIn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Map::isYIn </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramname"><em>pt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramname"><em>dim</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Verify if the point is in map on Y axis. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>The y coordinate </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dim</td><td>The height of the object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a id="aaaa0863e1b2dfa4b35f6b5582d26798c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaa0863e1b2dfa4b35f6b5582d26798c">&#9670;&nbsp;</a></span>load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Map::load </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>file</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load the map from a file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">file</td><td>The file to load from</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a id="a54b56015950d08fd043e0906875519e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54b56015950d08fd043e0906875519e3">&#9670;&nbsp;</a></span>moveEntity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d2e/a00238.php#d7/df2/a01000">MapMove</a> mcd::Map::moveEntity </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../df/d89/a01032.php">Path</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Move an entity from the first position to the second position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>The id of the entity in the map </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>The path to follow </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The new x position of the entity </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The new y position of the entity</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a <a class="el" href="../../da/d2e/a00238.php#d7/df2/a01000" title="A struct to know informations about th movement of something in the map. ">MapMove</a>, .next to know if it can continue, .end to know if it's the end </dd></dl>
+
+</div>
+</div>
+<a id="a1809056415a86a4627e0cad3bbb0b3b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1809056415a86a4627e0cad3bbb0b3b0">&#9670;&nbsp;</a></span>operator()() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d2e/a00238.php#a7350be9df9566241dfb80071a89f9ede">Tile</a>&amp; mcd::Map::operator() </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Overloading of the () operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">i</td><td>The x coordinate of the Tile </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">j</td><td>The y coordinate of the Tile</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a Tile of the map </dd></dl>
+
+</div>
+</div>
+<a id="a105197d7158b9387782b28583c6c07ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a105197d7158b9387782b28583c6c07ba">&#9670;&nbsp;</a></span>operator()() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d2e/a00238.php#a7350be9df9566241dfb80071a89f9ede">Tile</a> mcd::Map::operator() </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Overloading of the () operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">i</td><td>The x coordinate of the Tile </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">j</td><td>The y coordinate of the Tile</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a Tile of the map </dd></dl>
+
+</div>
+</div>
+<a id="a8cea2526dc276cce694e31a6053d5522"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cea2526dc276cce694e31a6053d5522">&#9670;&nbsp;</a></span>putEntity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Map::putEntity </td>
+          <td>(</td>
+          <td class="paramtype">size_t &amp;&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramname"><em>h</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Put an entity on the given position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">id</td><td>The id for the entity in the map </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position of the entity </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The y position of the entity </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>The width of the entity </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>The height of the entity</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return true if the entity has been added to the map </dd></dl>
+
+</div>
+</div>
+<a id="ac8ecf45b42aed2736d04081639b460f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8ecf45b42aed2736d04081639b460f6">&#9670;&nbsp;</a></span>resetSim()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Map::resetSim </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d89/a01032.php">Path</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset the path's simulation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>The path to follow </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4b402d37424b8fc5a5036ecc78781d6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b402d37424b8fc5a5036ecc78781d6a">&#9670;&nbsp;</a></span>save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Map::save </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>file</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Save the map in a file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">file</td><td>The file to save in</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a id="a0d89a93779f04f96e43a883c6e021d04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d89a93779f04f96e43a883c6e021d04">&#9670;&nbsp;</a></span>setEntity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Map::setEntity </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d2e/a00238.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Move an entity to the given position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>The id of the entity in the map </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The new x position of the entity </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The new y position of the entity</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return void </dd></dl>
+
+</div>
+</div>
+<a id="af75d4f3db3cf7cbba6ae20628ecc2e04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af75d4f3db3cf7cbba6ae20628ecc2e04">&#9670;&nbsp;</a></span>setH()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Map::setH </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>h</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set a new height for the map. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>The height of the map</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="adab97ef85198947deb95164f9d240e30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adab97ef85198947deb95164f9d240e30">&#9670;&nbsp;</a></span>setSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Map::setSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/d2e/a00238.php#d3/daa/a00996">WorldDimensions</a>&#160;</td>
+          <td class="paramname"><em>dimensions</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set new dimensions for the map. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dimensions</td><td>The dimensions of the map</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a46876aaf4ac9bdfe36d24a2e121d4e34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46876aaf4ac9bdfe36d24a2e121d4e34">&#9670;&nbsp;</a></span>setW()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Map::setW </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>w</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set a new width for the map. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>The width of the map</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="ad35cfe5bfd6ba316a796c7969c04d283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad35cfe5bfd6ba316a796c7969c04d283">&#9670;&nbsp;</a></span>testPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d2e/a00238.php#d7/df2/a01000">MapMove</a> mcd::Map::testPath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d89/a01032.php">Path</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>show</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d85/a00908.php">Color</a>&#160;</td>
+          <td class="paramname"><em>color</em> = <code><a class="el" href="../../da/d2e/a00238.php#ae124ce77f8e386663ac11e2e35e6070aab754547a82033c3c904e91984b530326">Colors::PURPLE_B</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Test a complete path on the map in the console. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>The path to follow </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">show</td><td><b>true</b> or <b>false</b> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>The color ofthe path </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d4/d3e/a00116.php">Map.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../da/d2e/a00238.php">mcd</a></li><li class="navelem"><a class="el" href="../../df/dbc/a01004.php">Map</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

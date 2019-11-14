@@ -1,3 +1,5 @@
-<map id="mcd::Pathfinding" name="mcd::Pathfinding">
-<area shape="rect" id="node2" href="$d1/dac/a01015.php" title="An implementation of the Dijkstra algorithm. " alt="" coords="5,80,171,107"/>
+<map id="mcd::Mushroom" name="mcd::Mushroom">
+<area shape="rect" id="node2" href="$d0/dc8/a01124.php" title="A vegetal. " alt="" coords="17,155,116,181"/>
+<area shape="rect" id="node3" href="$de/d4e/a00972.php" title="An entity. " alt="" coords="22,80,111,107"/>
+<area shape="rect" id="node4" href="$dc/d2b/a00936.php" title="A contraption. " alt="" coords="5,5,128,32"/>
 </map>

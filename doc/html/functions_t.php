@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:45 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,59 +93,59 @@ $(document).ready(function(){initNavTree('functions_t.php','');});
 
 <h3><a id="index_t"></a>- t -</h3><ul>
 <li>t_queue()
-: <a class="el" href="d0/dad/a00806.php#a6113ab263c40412573cb17961892e4eb">mcd::t_queue&lt; T, Container &gt;</a>
+: <a class="el" href="d8/db7/a00812.php#a6113ab263c40412573cb17961892e4eb">mcd::t_queue&lt; T, Container &gt;</a>
 </li>
 <li>t_stack()
-: <a class="el" href="de/d79/a00798.php#aa4c2b6ebb0b904372919f1c9d0e8a7fa">mcd::t_stack&lt; T, Container &gt;</a>
+: <a class="el" href="d1/dd1/a00804.php#aa4c2b6ebb0b904372919f1c9d0e8a7fa">mcd::t_stack&lt; T, Container &gt;</a>
 </li>
 <li>ter
-: <a class="el" href="d0/d53/a00232.php#a6882c1aa13d7f7b35379233b0b406ba8">mcd::quatuor&lt; T, U, V, W &gt;</a>
-, <a class="el" href="d0/d53/a00232.php#a12acab2177c1232a58321ec43d572f08">mcd::trio&lt; T, U, V &gt;</a>
+: <a class="el" href="da/d2e/a00238.php#a6882c1aa13d7f7b35379233b0b406ba8">mcd::quatuor&lt; T, U, V, W &gt;</a>
+, <a class="el" href="da/d2e/a00238.php#a12acab2177c1232a58321ec43d572f08">mcd::trio&lt; T, U, V &gt;</a>
 </li>
 <li>testPath()
-: <a class="el" href="d3/d7b/a00986.php#ad35cfe5bfd6ba316a796c7969c04d283">mcd::Map</a>
+: <a class="el" href="df/dbc/a01004.php#ad35cfe5bfd6ba316a796c7969c04d283">mcd::Map</a>
 </li>
 <li>Threadable()
-: <a class="el" href="d5/d67/a01070.php#a4cbceb43796de6c36a5cd4f35a6402cb">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="da/db7/a01088.php#a4cbceb43796de6c36a5cd4f35a6402cb">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>ThreadCout()
-: <a class="el" href="d4/d12/a00910.php#adacc9d5343e07aa8396f8b1edd92bb39">mcd::ThreadCout</a>
+: <a class="el" href="dd/d38/a00928.php#adacc9d5343e07aa8396f8b1edd92bb39">mcd::ThreadCout</a>
 </li>
 <li>ThreadEndlCout()
-: <a class="el" href="da/dd8/a00906.php#a53ccbe8d25d6cb23a3621a5c6d62598d">mcd::ThreadEndlCout</a>
+: <a class="el" href="de/d62/a00924.php#a53ccbe8d25d6cb23a3621a5c6d62598d">mcd::ThreadEndlCout</a>
 </li>
 <li>Time()
-: <a class="el" href="d7/df7/a01074.php#ac802213e9ca41cc731f14619534e0249">mcd::Time</a>
+: <a class="el" href="de/d9c/a01092.php#ac802213e9ca41cc731f14619534e0249">mcd::Time</a>
 </li>
 <li>Timer()
-: <a class="el" href="db/dba/a01078.php#ae2847ca8c851863418d57e80e972095a">mcd::Timer</a>
+: <a class="el" href="d2/d20/a01096.php#ae2847ca8c851863418d57e80e972095a">mcd::Timer</a>
 </li>
 <li>top()
-: <a class="el" href="d5/d17/a01098.php#afd57961d22ce89d783303c0fbbdc4f83">mcd::Point</a>
+: <a class="el" href="d4/dc5/a01116.php#afd57961d22ce89d783303c0fbbdc4f83">mcd::Point</a>
 </li>
 <li>tos()
-: <a class="el" href="dd/d7a/a00990.php#adbfa246182cc089300f95cf1610a99ef">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="dd/dac/a01008.php#adbfa246182cc089300f95cf1610a99ef">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>totalLength
-: <a class="el" href="d7/d16/a00930.php#ab980e5f7d9f33cf1ef036fabc59dbd7d">mcd::SHA2</a>
+: <a class="el" href="d8/d18/a00948.php#ab980e5f7d9f33cf1ef036fabc59dbd7d">mcd::SHA2</a>
 </li>
 <li>transform()
-: <a class="el" href="d7/d16/a00930.php#a74c404cd90d7d9331818f2eea6f1f7d2">mcd::SHA2</a>
+: <a class="el" href="d8/d18/a00948.php#a74c404cd90d7d9331818f2eea6f1f7d2">mcd::SHA2</a>
 </li>
 <li>transposed()
-: <a class="el" href="dd/d7a/a00990.php#a942e3d418da2bacad3193d82411e2cfc">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="dd/dac/a01008.php#a942e3d418da2bacad3193d82411e2cfc">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>Tree()
-: <a class="el" href="d9/df5/a01086.php#a93774d1792effab8a46379c6781729f0">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="dd/dcb/a01104.php#a93774d1792effab8a46379c6781729f0">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>turn()
-: <a class="el" href="da/d96/a00782.php#a1fc1900b7667afcef8a6841a13fd06ee">mcd::Animal</a>
+: <a class="el" href="df/d0c/a00788.php#a1fc1900b7667afcef8a6841a13fd06ee">mcd::Animal</a>
 </li>
 <li>turnLeft()
-: <a class="el" href="d0/ddf/a00918.php#a10b4b5c4cd47da89e672c64c41b23162">mcd::Contraption</a>
+: <a class="el" href="dc/d2b/a00936.php#a10b4b5c4cd47da89e672c64c41b23162">mcd::Contraption</a>
 </li>
 <li>turnRight()
-: <a class="el" href="d0/ddf/a00918.php#a4f7cef1423cf575fabafa2143a588788">mcd::Contraption</a>
+: <a class="el" href="dc/d2b/a00936.php#a4f7cef1423cf575fabafa2143a588788">mcd::Contraption</a>
 </li>
 </ul>
 </div><!-- contents -->

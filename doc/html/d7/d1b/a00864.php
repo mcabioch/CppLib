@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Check::is_printable&lt; T &gt; Class Template Reference</title>
+		<title>C++: mcd::Check::is_smatch&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Oct 3 2019 15:39:39 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,28 +93,28 @@ $(document).ready(function(){initNavTree('d7/d1b/a00864.php','../../');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../dd/dd5/a00861.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_printable&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Check::is_smatch&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A template class to test if T is printable.  
+<p>A template class to test if T is a string regex match.  
  <a href="../../d7/d1b/a00864.php#details">More...</a></p>
 
 <p><code>#include &lt;check.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:ae62c92a381f9915ca93aeb48aadeeebc"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/a00864.php#ae62c92a381f9915ca93aeb48aadeeebc">value</a> = <a class="el" href="../../d9/d30/a00848.php">has_ostream_operator</a>&lt;T&gt;::value</td></tr>
-<tr class="separator:ae62c92a381f9915ca93aeb48aadeeebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a573e824f7b1584fa564c91c1e5814453"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/a00864.php#a573e824f7b1584fa564c91c1e5814453">value</a> = false</td></tr>
+<tr class="separator:a573e824f7b1584fa564c91c1e5814453"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_printable&lt; T &gt;</h3>
+class mcd::Check::is_smatch&lt; T &gt;</h3>
 
-<p>A template class to test if T is printable. </p>
+<p>A template class to test if T is a string regex match. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae62c92a381f9915ca93aeb48aadeeebc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae62c92a381f9915ca93aeb48aadeeebc">&#9670;&nbsp;</a></span>value</h2>
+<a id="a573e824f7b1584fa564c91c1e5814453"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a573e824f7b1584fa564c91c1e5814453">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125,7 +125,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const bool <a class="el" href="../../d7/d1b/a00864.php">mcd::Check::is_printable</a>&lt; T &gt;::value = <a class="el" href="../../d9/d30/a00848.php">has_ostream_operator</a>&lt;T&gt;::value</td>
+          <td class="memname">const bool <a class="el" href="../../d7/d1b/a00864.php">mcd::Check::is_smatch</a>&lt; T &gt;::value = false</td>
         </tr>
       </table>
   </td>
@@ -138,7 +138,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../dd/d32/a00041.php">check.hpp</a></li>
+<li><a class="el" href="../../d6/d2d/a00047.php">check.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -146,7 +146,7 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dc/d28/a00223.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/ddf/a00224.php">Check</a></li><li class="navelem"><a class="el" href="../../d7/d1b/a00864.php">is_printable</a></li>
+		<li class="navelem"><a class="el" href="../../da/d2e/a00238.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/d21/a00240.php">Check</a></li><li class="navelem"><a class="el" href="../../d7/d1b/a00864.php">is_smatch</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

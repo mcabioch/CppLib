@@ -1,5 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title="STL class. " alt="" coords="5,5,120,32"/>
-<area shape="rect" id="node2" href="$d5/dcd/a00802.php" title="An implementation of std::queue. " alt="" coords="168,5,355,32"/>
-<area shape="rect" id="node3" href="$d0/dad/a00806.php" title="An thread&#45;safe implementation of queue. " alt="" coords="403,5,600,32"/>
+<area shape="rect" id="node1" href="$d6/d6a/a01072.php" title="A class to make some other to be abstract class. " alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node2" href="$d6/d82/a00920.php" title="A class to play with the cursor in the console. " alt="" coords="172,5,315,32"/>
 </map>

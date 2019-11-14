@@ -82,7 +82,9 @@ My own C++ features
 		mcd::randStr(size_t nb, unsigned short flags)
 
 \section		upd_sec			Updates
-	\subsection	upd_sec_20190929_subsec		November, 09 2019
+	\subsection	upd_sec_2019114_subsec		November, 14 2019
+		Changing assert behaviour to throw a mcd::AssertionException instead of closing the program.
+	\subsection	upd_sec_20191109_subsec		November, 09 2019
 		Adding an object to log informations (logger).
 	\subsection	upd_sec_20190929_subsec		September, 29 2019
 		Adding a class to use and see binary values (Binary).

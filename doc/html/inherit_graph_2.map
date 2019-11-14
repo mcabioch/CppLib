@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d0/d53/a00232.php#da/d71/a00814" title="A class to manage binary values easily. " alt="" coords="5,5,177,32"/>
+<area shape="rect" id="node1" title="STL class. " alt="" coords="5,31,109,57"/>
+<area shape="rect" id="node2" href="$d8/d1c/a00824.php" title="An exception thrown by my assert&#39;s implementation. " alt="" coords="163,5,331,32"/>
+<area shape="rect" id="node3" href="$d0/ddd/a01044.php" title="All exceptions that could be thrown by the pathfinding algorithm. " alt="" coords="157,56,336,83"/>
 </map>

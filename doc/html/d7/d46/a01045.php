@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Oct 4 2019 16:12:42 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:48 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,14 +90,20 @@ $(document).ready(function(){initNavTree('d5/de7/a01048.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Referenced&lt; C &gt; Member List</div>  </div>
+<div class="title">mcd::PathfindingProblem Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d5/de7/a01048.php">mcd::Referenced&lt; C &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d5/de7/a01048.php">mcd::PathfindingProblem</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/de7/a01048.php#a3aadcf63bff72dd8c87f4c1d7a3bd240">_her</a></td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::Referenced&lt; C &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/de7/a01048.php#a23a4eee18708dae4eff05079a345c375">Referenced</a>(C *her)</td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::Referenced&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/de7/a01048.php#a70c60dedee9b93e8bcd750a60e37ecfd">computed</a></td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/de7/a01048.php#ae7e5173f36187aeb5e1c334d60f2c914">distances</a></td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/de7/a01048.php#a87c634685eea28780ddc10b7aa08af07">nbNodes</a></td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/de7/a01048.php#adb3befe767011d5d5738d1e4cb756e09">nodes</a></td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/de7/a01048.php#af2aa5f359715262ae600422bb49e79af">PathfindingProblem</a>(std::vector&lt; PathfindingNode &gt; nodes, std::map&lt; size_t, std::map&lt; size_t, double64_t &gt; &gt; distances)</td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/de7/a01048.php#a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0">PathfindingProblem</a>(std::vector&lt; PathfindingNode &gt; nodes, std::map&lt; size_t, std::map&lt; size_t, double64_t &gt; &gt; distances, std::map&lt; size_t, std::map&lt; size_t, double64_t &gt; &gt; weights)</td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/de7/a01048.php#ab5fbef9d1844f398fffd1dbc2870adef">weights</a></td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/de7/a01048.php#a0bf356ad792ba79df121cedf0501f6f1">~PathfindingProblem</a>()</td><td class="entry"><a class="el" href="../../d5/de7/a01048.php">mcd::PathfindingProblem</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

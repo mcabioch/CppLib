@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Logger Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 17:01:39 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:48 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('dd/d48/a00995.php','../../');});
+$(document).ready(function(){initNavTree('d7/d76/a00992.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,22 +89,269 @@ $(document).ready(function(){initNavTree('dd/d48/a00995.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d4/d95/a00989.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::NotInstantiable Member List</div>  </div>
+<div class="title">mcd::Logger Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dd/d48/a00995.php">mcd::NotInstantiable</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d48/a00995.php#a760ca4c32c24cf2b4c4c2ef07b51f997">NotInstantiable</a>()</td><td class="entry"><a class="el" href="../../dd/d48/a00995.php">mcd::NotInstantiable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d48/a00995.php#a19c59f78b217426061641970c9f11022">notInstantiable</a>() final=0</td><td class="entry"><a class="el" href="../../dd/d48/a00995.php">mcd::NotInstantiable</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d48/a00995.php#a096b44b3d9fe8e567b179ac3d3dbacff">~NotInstantiable</a>()</td><td class="entry"><a class="el" href="../../dd/d48/a00995.php">mcd::NotInstantiable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to log some messages.  
+ <a href="../../d7/d76/a00992.php#details">More...</a></p>
+
+<p><code>#include &lt;Logger.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a25d94050e8e7f91c7e1f02ddc2af8e95"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a0bce5e0f914a10ac190e025a6892938a">ALL</a> =0, 
+<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a2317dfad63407c5b05415b976cff9030">DEBUG</a>, 
+<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95ab5e7bb27fac1d147132243b4e5ecda08">INFO</a>, 
+<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a5c7fb9b9c155b682a438d0ecda6ccddb">WARN</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8b436988ab5aa21a575cab658caa5d27">ERROR</a>, 
+<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95aaa39e90dcdc0f6fd3be2054a9dafc508">FATAL</a>, 
+<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95aec03d0d7dfe9026cc03f6a027d0dc572">OFF</a>
+<br />
+ }</td></tr>
+<tr class="separator:a25d94050e8e7f91c7e1f02ddc2af8e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a189cdd6486b23632d014a2e795ed8e13"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d76/a00992.php#a189cdd6486b23632d014a2e795ed8e13">Logger</a> ()</td></tr>
+<tr class="memdesc:a189cdd6486b23632d014a2e795ed8e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a189cdd6486b23632d014a2e795ed8e13">More...</a><br /></td></tr>
+<tr class="separator:a189cdd6486b23632d014a2e795ed8e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b43e0ba2ab53c8a6758b20d3f828f96"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d76/a00992.php#a9b43e0ba2ab53c8a6758b20d3f828f96">~Logger</a> ()</td></tr>
+<tr class="memdesc:a9b43e0ba2ab53c8a6758b20d3f828f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">The destructor of the class.  <a href="#a9b43e0ba2ab53c8a6758b20d3f828f96">More...</a><br /></td></tr>
+<tr class="separator:a9b43e0ba2ab53c8a6758b20d3f828f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab549f25e73c47afaff922b59cda6ccc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d76/a00992.php#ab549f25e73c47afaff922b59cda6ccc4">init</a> (const std::string &amp;logConfigFile)</td></tr>
+<tr class="separator:ab549f25e73c47afaff922b59cda6ccc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8527d935f1fa6c697d792a8f72276e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d76/a00992.php#ad8527d935f1fa6c697d792a8f72276e4">isInit</a> () const</td></tr>
+<tr class="separator:ad8527d935f1fa6c697d792a8f72276e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a365030ec32e6af40c6c53a53ff5163f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d76/a00992.php#a365030ec32e6af40c6c53a53ff5163f4">isEnabled</a> (<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a> level)</td></tr>
+<tr class="separator:a365030ec32e6af40c6c53a53ff5163f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cb99172e98a89e45fdcb9b394eea99e"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
+<tr class="memitem:a2cb99172e98a89e45fdcb9b394eea99e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d76/a00992.php#a2cb99172e98a89e45fdcb9b394eea99e">log</a> (<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a> level, int line, const std::string &amp;file, Args... args)</td></tr>
+<tr class="separator:a2cb99172e98a89e45fdcb9b394eea99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to log some messages. </p>
+<dl class="todo"><dt><b><a class="el" href="../../d7/d40/a00236.php#_todo000003">Todo:</a></b></dt><dd>Add comments</dd></dl>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a25d94050e8e7f91c7e1f02ddc2af8e95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25d94050e8e7f91c7e1f02ddc2af8e95">&#9670;&nbsp;</a></span>Level</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95">mcd::Logger::Level</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a25d94050e8e7f91c7e1f02ddc2af8e95a0bce5e0f914a10ac190e025a6892938a"></a>ALL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25d94050e8e7f91c7e1f02ddc2af8e95a2317dfad63407c5b05415b976cff9030"></a>DEBUG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25d94050e8e7f91c7e1f02ddc2af8e95ab5e7bb27fac1d147132243b4e5ecda08"></a>INFO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25d94050e8e7f91c7e1f02ddc2af8e95a5c7fb9b9c155b682a438d0ecda6ccddb"></a>WARN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25d94050e8e7f91c7e1f02ddc2af8e95a8b436988ab5aa21a575cab658caa5d27"></a>ERROR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25d94050e8e7f91c7e1f02ddc2af8e95aaa39e90dcdc0f6fd3be2054a9dafc508"></a>FATAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25d94050e8e7f91c7e1f02ddc2af8e95aec03d0d7dfe9026cc03f6a027d0dc572"></a>OFF&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a189cdd6486b23632d014a2e795ed8e13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a189cdd6486b23632d014a2e795ed8e13">&#9670;&nbsp;</a></span>Logger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Logger::Logger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+
+</div>
+</div>
+<a id="a9b43e0ba2ab53c8a6758b20d3f828f96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b43e0ba2ab53c8a6758b20d3f828f96">&#9670;&nbsp;</a></span>~Logger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::Logger::~Logger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The destructor of the class. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab549f25e73c47afaff922b59cda6ccc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab549f25e73c47afaff922b59cda6ccc4">&#9670;&nbsp;</a></span>init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Logger::init </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>logConfigFile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a365030ec32e6af40c6c53a53ff5163f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a365030ec32e6af40c6c53a53ff5163f4">&#9670;&nbsp;</a></span>isEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Logger::isEnabled </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a>&#160;</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8527d935f1fa6c697d792a8f72276e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8527d935f1fa6c697d792a8f72276e4">&#9670;&nbsp;</a></span>isInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Logger::isInit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/d76/a00992_ad8527d935f1fa6c697d792a8f72276e4_cgraph.png" border="0" usemap="#d7/d76/a00992_ad8527d935f1fa6c697d792a8f72276e4_cgraph" alt=""/></div>
+<map name="d7/d76/a00992_ad8527d935f1fa6c697d792a8f72276e4_cgraph" id="d7/d76/a00992_ad8527d935f1fa6c697d792a8f72276e4_cgraph">
+<area shape="rect" id="node2" href="../../d7/d76/a00992.php#a365030ec32e6af40c6c53a53ff5163f4" title="mcd::Logger::isEnabled" alt="" coords="184,5,343,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2cb99172e98a89e45fdcb9b394eea99e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cb99172e98a89e45fdcb9b394eea99e">&#9670;&nbsp;</a></span>log()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Logger::log </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a>&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/d76/a00992_a2cb99172e98a89e45fdcb9b394eea99e_cgraph.png" border="0" usemap="#d7/d76/a00992_a2cb99172e98a89e45fdcb9b394eea99e_cgraph" alt=""/></div>
+<map name="d7/d76/a00992_a2cb99172e98a89e45fdcb9b394eea99e_cgraph" id="d7/d76/a00992_a2cb99172e98a89e45fdcb9b394eea99e_cgraph">
+<area shape="rect" id="node2" href="../../da/d2e/a00238.php#ac625de83fcace96567aecd1363297776" title="Print the given text like a warning. " alt="" coords="189,5,313,32"/>
+<area shape="rect" id="node3" href="../../d7/d76/a00992.php#a365030ec32e6af40c6c53a53ff5163f4" title="mcd::Logger::isEnabled" alt="" coords="172,56,331,83"/>
+<area shape="rect" id="node4" href="../../da/d2e/a00238.php#a1a14f66f0c6eba0c77338364977658e1" title="Print the given text like an error. " alt="" coords="199,107,304,133"/>
+<area shape="rect" id="node5" href="../../da/d17/a00964.php#a7b25df777f0b2b3ac2396538eb3ca028" title="mcd::DateTime::get" alt="" coords="182,157,321,184"/>
+<area shape="rect" id="node6" href="../../d7/d76/a00992.php#a189cdd6486b23632d014a2e795ed8e13" title="The constructor of the class. " alt="" coords="181,208,322,235"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../df/d98/a00107.php">Logger.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../da/d2e/a00238.php">mcd</a></li><li class="navelem"><a class="el" href="../../d7/d76/a00992.php">Logger</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

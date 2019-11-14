@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: collides.hpp File Reference</title>
+		<title>C++: check.hpp File Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:48 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,127 +90,225 @@ $(document).ready(function(){initNavTree('d6/d2d/a00047.php','../../');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">collides.hpp File Reference</div>  </div>
+<div class="title">check.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d4/d3e/a00116.php">C++/Matrix.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d01/a00227.php">C++/vector.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/dee/a00053.php">C++/collides.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for collides.hpp:</div>
+Include dependency graph for check.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/dca/a00048.png" border="0" usemap="#collides_8hpp" alt=""/></div>
-<map name="collides_8hpp" id="collides_8hpp">
-<area shape="rect" id="node2" href="../../d4/d3e/a00116.php" title="C++/Matrix.hpp" alt="" coords="785,80,898,107"/>
-<area shape="rect" id="node3" href="../../da/d2a/a00086.php" title="C++/Fraction.hpp" alt="" coords="779,155,903,181"/>
-<area shape="rect" id="node4" href="../../d3/d00/a00113.php" title="C++/maths.hpp" alt="" coords="727,229,841,256"/>
-<area shape="rect" id="node5" href="../../dc/d87/a00032.php" title="C++/Binary.hpp" alt="" coords="727,304,841,331"/>
-<area shape="rect" id="node6" href="../../d7/d3f/a00173.php" title="C++/pointers.hpp" alt="" coords="723,379,845,405"/>
-<area shape="rect" id="node7" href="../../d3/dd5/a00215.php" title="C++/types.hpp" alt="" coords="621,453,731,480"/>
-<area shape="rect" id="node9" href="../../d4/d51/a00017.php" title="Big.hpp" alt="" coords="643,528,709,555"/>
-<area shape="rect" id="node28" href="../../dd/dc1/a00212.php" title="C++/Tree.hpp" alt="" coords="515,528,618,555"/>
-<area shape="rect" id="node29" href="../../d5/de9/a00176.php" title="PureVirtual.hpp" alt="" coords="734,528,845,555"/>
-<area shape="rect" id="node30" href="../../dc/d9a/a00218.php" title="UsefullDefines.hpp" alt="" coords="869,528,1003,555"/>
-<area shape="rect" id="node10" href="../../d7/dce/a00143.php" title="C++/OsDetection.hpp" alt="" coords="322,603,473,629"/>
-<area shape="rect" id="node24" href="../../d3/d52/a00023.php" title="C++/Big_Constructor.hpp" alt="" coords="497,603,668,629"/>
-<area shape="rect" id="node25" href="../../d5/d16/a00029.php" title="C++/Big_Operator.hpp" alt="" coords="693,603,846,629"/>
-<area shape="rect" id="node26" href="../../db/db2/a00020.php" title="C++/Big_Comparison.hpp" alt="" coords="871,603,1044,629"/>
-<area shape="rect" id="node27" href="../../d6/d5b/a00026.php" title="C++/Big_Maths.hpp" alt="" coords="1068,603,1207,629"/>
-<area shape="rect" id="node12" href="../../d0/dc2/a00104.php" title="C++/lowIncludes.hpp" alt="" coords="391,677,537,704"/>
+<div class="center"><img src="../../d4/dca/a00048.png" border="0" usemap="#check_8hpp" alt=""/></div>
+<map name="check_8hpp" id="check_8hpp">
+<area shape="rect" id="node4" href="../../d9/d01/a00227.php" title="C++/vector.hpp" alt="" coords="473,80,586,107"/>
+<area shape="rect" id="node39" href="../../dc/dee/a00053.php" title="C++/collides.hpp" alt="" coords="663,80,785,107"/>
+<area shape="rect" id="node5" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="420,155,583,181"/>
+<area shape="rect" id="node12" href="../../db/dd9/a00179.php" title="C++/pointers.hpp" alt="" coords="723,453,845,480"/>
+<area shape="rect" id="node13" href="../../dd/d52/a00221.php" title="C++/types.hpp" alt="" coords="621,528,731,555"/>
+<area shape="rect" id="node15" href="../../d3/d52/a00023.php" title="Big.hpp" alt="" coords="643,603,709,629"/>
+<area shape="rect" id="node34" href="../../dc/d9a/a00218.php" title="C++/Tree.hpp" alt="" coords="515,603,618,629"/>
+<area shape="rect" id="node35" href="../../d7/d25/a00182.php" title="PureVirtual.hpp" alt="" coords="734,603,845,629"/>
+<area shape="rect" id="node36" href="../../d5/ddf/a00224.php" title="UsefullDefines.hpp" alt="" coords="869,603,1003,629"/>
+<area shape="rect" id="node16" href="../../da/d1e/a00149.php" title="C++/OsDetection.hpp" alt="" coords="322,677,473,704"/>
+<area shape="rect" id="node30" href="../../d5/d16/a00029.php" title="C++/Big_Constructor.hpp" alt="" coords="497,677,668,704"/>
+<area shape="rect" id="node31" href="../../d4/d8c/a00035.php" title="C++/Big_Operator.hpp" alt="" coords="693,677,846,704"/>
+<area shape="rect" id="node32" href="../../d6/d5b/a00026.php" title="C++/Big_Comparison.hpp" alt="" coords="871,677,1044,704"/>
+<area shape="rect" id="node33" href="../../dc/d87/a00032.php" title="C++/Big_Maths.hpp" alt="" coords="1068,677,1207,704"/>
+<area shape="rect" id="node18" href="../../d4/d81/a00110.php" title="C++/lowIncludes.hpp" alt="" coords="391,752,537,779"/>
+<area shape="rect" id="node40" href="../../df/dc8/a00122.php" title="C++/Matrix.hpp" alt="" coords="694,155,807,181"/>
+<area shape="rect" id="node41" href="../../d1/dc1/a00092.php" title="C++/Fraction.hpp" alt="" coords="775,229,899,256"/>
+<area shape="rect" id="node42" href="../../df/d6a/a00119.php" title="C++/maths.hpp" alt="" coords="775,304,889,331"/>
+<area shape="rect" id="node43" href="../../d8/d41/a00038.php" title="C++/Binary.hpp" alt="" coords="775,379,889,405"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d2/dee/a00049.png" border="0" usemap="#collides_8hppdep" alt=""/></div>
-<map name="collides_8hppdep" id="collides_8hppdep">
-<area shape="rect" id="node2" href="../../dd/d32/a00041.php" title="check.hpp" alt="" coords="334,80,417,107"/>
-<area shape="rect" id="node3" href="../../da/d45/a00011.php" title="array.hpp" alt="" coords="337,155,413,181"/>
-<area shape="rect" id="node4" href="../../d3/d8b/a00059.php" title="convert.hpp" alt="" coords="330,229,421,256"/>
-<area shape="rect" id="node5" href="../../d5/de0/a00050.php" title="console.hpp" alt="" coords="277,304,369,331"/>
-<area shape="rect" id="node48" href="../../d2/d1f/a00083.php" title="files.hpp" alt="" coords="393,304,464,331"/>
-<area shape="rect" id="node6" href="../../da/dec/a00080.php" title="errors.hpp" alt="" coords="335,379,415,405"/>
-<area shape="rect" id="node7" href="../../de/db1/a00197.php" title="system.hpp" alt="" coords="330,453,421,480"/>
-<area shape="rect" id="node8" href="../../d9/dd0/a00191.php" title="string.hpp" alt="" coords="336,528,415,555"/>
-<area shape="rect" id="node9" href="../../dc/d57/a00194.php" title="Used to replace strptime function when compiling for Windows. " alt="" coords="335,603,415,629"/>
-<area shape="rect" id="node10" href="../../d5/df1/a00206.php" title="timeFunctions.hpp" alt="" coords="311,677,440,704"/>
-<area shape="rect" id="node11" href="../../d9/d77/a00095.php" title="includes.hpp" alt="" coords="328,752,423,779"/>
-<area shape="rect" id="node12" href="../../d5/df9/a00044.php" title="Clock.hpp" alt="" coords="5,976,87,1003"/>
-<area shape="rect" id="node32" href="../../dc/dee/a00053.php" title="ConsoleTable.hpp" alt="" coords="120,1051,247,1077"/>
-<area shape="rect" id="node33" href="../../de/de1/a00065.php" title="Date.hpp" alt="" coords="162,827,237,853"/>
-<area shape="rect" id="node35" href="../../d1/d44/a00098.php" title="IOConfig.hpp" alt="" coords="318,901,417,928"/>
-<area shape="rect" id="node36" href="../../d9/db6/a00146.php" title="Path.hpp" alt="" coords="413,827,487,853"/>
-<area shape="rect" id="node42" href="../../d6/db8/a00158.php" title="PathfindingException.hpp" alt="" coords="511,827,682,853"/>
-<area shape="rect" id="node43" href="../../db/dd9/a00179.php" title="Referenced.hpp" alt="" coords="586,976,701,1003"/>
-<area shape="rect" id="node44" href="../../d3/db1/a00200.php" title="Threadable.hpp" alt="" coords="715,1125,825,1152"/>
-<area shape="rect" id="node47" href="../../de/d79/a00203.php" title="Time.hpp" alt="" coords="261,827,337,853"/>
-<area shape="rect" id="node13" href="../../d0/d89/a00071.php" title="defines.hpp" alt="" coords="369,1275,459,1301"/>
-<area shape="rect" id="node14" href="../../df/d03/a00062.php" title="cryptage.hpp" alt="" coords="308,1349,405,1376"/>
-<area shape="rect" id="node31" href="../../d4/d3a/a00101.php" title="Logger.hpp" alt="" coords="429,1349,516,1376"/>
-<area shape="rect" id="node15" href="../../d4/d8c/a00035.php" title="C++.hpp" alt="" coords="377,1424,451,1451"/>
-<area shape="rect" id="node16" href="../../d9/d2e/a00056.php" title="Contraption.hpp" alt="" coords="310,1499,425,1525"/>
-<area shape="rect" id="node30" href="../../d1/dc1/a00092.php" title="Identifier.hpp" alt="" coords="409,1872,507,1899"/>
-<area shape="rect" id="node17" href="../../d1/d09/a00077.php" title="Entity.hpp" alt="" coords="213,1573,295,1600"/>
-<area shape="rect" id="node28" href="../../d5/db1/a00140.php" title="Object.hpp" alt="" coords="333,1573,418,1600"/>
-<area shape="rect" id="node18" href="../../db/dab/a00089.php" title="Hostile.hpp" alt="" coords="86,1648,174,1675"/>
-<area shape="rect" id="node25" href="../../d5/ddf/a00224.php" title="Vegetal.hpp" alt="" coords="209,1723,299,1749"/>
-<area shape="rect" id="node19" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="71,1723,157,1749"/>
-<area shape="rect" id="node20" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="73,1797,139,1824"/>
-<area shape="rect" id="node21" href="../../db/db6/a00074.php" title="Entities.hpp" alt="" coords="290,1872,381,1899"/>
-<area shape="rect" id="node22" href="../../d5/dcb/a00170.php" title="PlayerAbstraction.hpp" alt="" coords="263,1947,413,1973"/>
-<area shape="rect" id="node23" href="../../dc/de6/a00167.php" title="Player.hpp" alt="" coords="352,2021,436,2048"/>
-<area shape="rect" id="node24" href="../../d8/d41/a00038.php" title="C++Entities.hpp" alt="" coords="335,2096,453,2123"/>
-<area shape="rect" id="node26" href="../../d7/d06/a00131.php" title="Mushroom.hpp" alt="" coords="164,1797,272,1824"/>
-<area shape="rect" id="node27" href="../../db/ddf/a00164.php" title="Plant.hpp" alt="" coords="297,1797,374,1824"/>
-<area shape="rect" id="node29" href="../../da/d15/a00188.php" title="Stone.hpp" alt="" coords="343,1648,424,1675"/>
-<area shape="rect" id="node34" href="../../da/d24/a00068.php" title="DateTime.hpp" alt="" coords="190,901,294,928"/>
-<area shape="rect" id="node37" href="../../d6/d7d/a00161.php" title="PathfindingProblem.hpp" alt="" coords="441,901,601,928"/>
-<area shape="rect" id="node38" href="../../da/d1e/a00149.php" title="Pathfinding.hpp" alt="" coords="442,976,554,1003"/>
-<area shape="rect" id="node39" href="../../d3/df8/a00155.php" title="PathfindingDijkstra.hpp" alt="" coords="403,1051,561,1077"/>
-<area shape="rect" id="node40" href="../../d7/d9a/a00152.php" title="PathfindingAlgorithms.hpp" alt="" coords="389,1125,564,1152"/>
-<area shape="rect" id="node41" href="../../d4/d81/a00110.php" title="Map.hpp" alt="" coords="415,1200,487,1227"/>
-<area shape="rect" id="node45" href="../../d4/dee/a00008.php" title="Args.hpp" alt="" coords="639,1200,714,1227"/>
-<area shape="rect" id="node46" href="../../d3/de5/a00209.php" title="Timer.hpp" alt="" coords="738,1200,818,1227"/>
+<div class="center"><img src="../../d2/dee/a00049.png" border="0" usemap="#check_8hppdep" alt=""/></div>
+<map name="check_8hppdep" id="check_8hppdep">
+<area shape="rect" id="node2" href="../../da/d45/a00011.php" title="array.hpp" alt="" coords="337,80,413,107"/>
+<area shape="rect" id="node3" href="../../de/de1/a00065.php" title="convert.hpp" alt="" coords="330,155,421,181"/>
+<area shape="rect" id="node4" href="../../d9/d2e/a00056.php" title="console.hpp" alt="" coords="277,229,369,256"/>
+<area shape="rect" id="node49" href="../../db/dab/a00089.php" title="files.hpp" alt="" coords="393,229,464,256"/>
+<area shape="rect" id="node5" href="../../da/d2a/a00086.php" title="errors.hpp" alt="" coords="335,304,415,331"/>
+<area shape="rect" id="node6" href="../../de/d79/a00203.php" title="system.hpp" alt="" coords="330,379,421,405"/>
+<area shape="rect" id="node7" href="../../de/db1/a00197.php" title="string.hpp" alt="" coords="336,453,415,480"/>
+<area shape="rect" id="node8" href="../../d3/db1/a00200.php" title="Used to replace strptime function when compiling for Windows. " alt="" coords="335,528,415,555"/>
+<area shape="rect" id="node9" href="../../dd/dc1/a00212.php" title="timeFunctions.hpp" alt="" coords="311,603,440,629"/>
+<area shape="rect" id="node10" href="../../d4/d3a/a00101.php" title="includes.hpp" alt="" coords="328,677,423,704"/>
+<area shape="rect" id="node11" href="../../d5/de0/a00050.php" title="Clock.hpp" alt="" coords="5,901,87,928"/>
+<area shape="rect" id="node33" href="../../d3/d8b/a00059.php" title="ConsoleTable.hpp" alt="" coords="120,976,247,1003"/>
+<area shape="rect" id="node34" href="../../d0/d89/a00071.php" title="Date.hpp" alt="" coords="162,752,237,779"/>
+<area shape="rect" id="node36" href="../../d0/dc2/a00104.php" title="IOConfig.hpp" alt="" coords="318,827,417,853"/>
+<area shape="rect" id="node37" href="../../d7/d9a/a00152.php" title="Path.hpp" alt="" coords="413,752,487,779"/>
+<area shape="rect" id="node43" href="../../db/ddf/a00164.php" title="PathfindingException.hpp" alt="" coords="511,752,682,779"/>
+<area shape="rect" id="node44" href="../../de/df3/a00185.php" title="Referenced.hpp" alt="" coords="586,901,701,928"/>
+<area shape="rect" id="node45" href="../../d5/df1/a00206.php" title="Threadable.hpp" alt="" coords="715,1051,825,1077"/>
+<area shape="rect" id="node48" href="../../d3/de5/a00209.php" title="Time.hpp" alt="" coords="261,752,337,779"/>
+<area shape="rect" id="node12" href="../../d1/d09/a00077.php" title="defines.hpp" alt="" coords="369,1200,459,1227"/>
+<area shape="rect" id="node13" href="../../db/db2/a00020.php" title="AssertionException.hpp" alt="" coords="217,1275,377,1301"/>
+<area shape="rect" id="node31" href="../../da/d24/a00068.php" title="cryptage.hpp" alt="" coords="364,1349,461,1376"/>
+<area shape="rect" id="node32" href="../../df/d98/a00107.php" title="Logger.hpp" alt="" coords="453,1275,540,1301"/>
+<area shape="rect" id="node14" href="../../d4/d51/a00017.php" title="Assert.hpp" alt="" coords="254,1349,339,1376"/>
+<area shape="rect" id="node15" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="376,1424,449,1451"/>
+<area shape="rect" id="node16" href="../../df/d03/a00062.php" title="Contraption.hpp" alt="" coords="309,1499,423,1525"/>
+<area shape="rect" id="node30" href="../../d1/d44/a00098.php" title="Identifier.hpp" alt="" coords="408,1872,505,1899"/>
+<area shape="rect" id="node17" href="../../d2/d1f/a00083.php" title="Entity.hpp" alt="" coords="212,1573,293,1600"/>
+<area shape="rect" id="node28" href="../../d9/db6/a00146.php" title="Object.hpp" alt="" coords="331,1573,417,1600"/>
+<area shape="rect" id="node18" href="../../d9/d77/a00095.php" title="Hostile.hpp" alt="" coords="98,1648,186,1675"/>
+<area shape="rect" id="node25" href="../../d1/da8/a00230.php" title="Vegetal.hpp" alt="" coords="207,1723,298,1749"/>
+<area shape="rect" id="node19" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="69,1723,156,1749"/>
+<area shape="rect" id="node20" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="71,1797,138,1824"/>
+<area shape="rect" id="node21" href="../../da/dec/a00080.php" title="Entities.hpp" alt="" coords="289,1872,379,1899"/>
+<area shape="rect" id="node22" href="../../d5/de9/a00176.php" title="PlayerAbstraction.hpp" alt="" coords="261,1947,412,1973"/>
+<area shape="rect" id="node23" href="../../d7/d3f/a00173.php" title="Player.hpp" alt="" coords="351,2021,435,2048"/>
+<area shape="rect" id="node24" href="../../d5/df9/a00044.php" title="C++Entities.hpp" alt="" coords="334,2096,451,2123"/>
+<area shape="rect" id="node26" href="../../d2/df5/a00137.php" title="Mushroom.hpp" alt="" coords="163,1797,271,1824"/>
+<area shape="rect" id="node27" href="../../d5/dcb/a00170.php" title="Plant.hpp" alt="" coords="295,1797,373,1824"/>
+<area shape="rect" id="node29" href="../../dc/d57/a00194.php" title="Stone.hpp" alt="" coords="341,1648,423,1675"/>
+<area shape="rect" id="node35" href="../../db/db6/a00074.php" title="DateTime.hpp" alt="" coords="190,827,294,853"/>
+<area shape="rect" id="node38" href="../../dc/de6/a00167.php" title="PathfindingProblem.hpp" alt="" coords="441,827,601,853"/>
+<area shape="rect" id="node39" href="../../d3/df8/a00155.php" title="Pathfinding.hpp" alt="" coords="442,901,554,928"/>
+<area shape="rect" id="node40" href="../../d6/d7d/a00161.php" title="PathfindingDijkstra.hpp" alt="" coords="403,976,561,1003"/>
+<area shape="rect" id="node41" href="../../d6/db8/a00158.php" title="PathfindingAlgorithms.hpp" alt="" coords="389,1051,564,1077"/>
+<area shape="rect" id="node42" href="../../d4/d3e/a00116.php" title="Map.hpp" alt="" coords="415,1125,487,1152"/>
+<area shape="rect" id="node46" href="../../d4/dee/a00008.php" title="Args.hpp" alt="" coords="639,1125,714,1152"/>
+<area shape="rect" id="node47" href="../../d3/dd5/a00215.php" title="Timer.hpp" alt="" coords="738,1125,818,1152"/>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/a00840.php">mcd::Check::is_vector&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a vector.  <a href="../../d9/d61/a00840.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d69/a00844.php">mcd::Check::is_array&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is an array, a vector or a map.  <a href="../../d3/d69/a00844.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d30/a00848.php">mcd::Check::is_pair&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::pair.  <a href="../../d9/d30/a00848.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dbb/a00852.php">mcd::Check::is_trio&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::pair.  <a href="../../d9/dbb/a00852.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/de3/a00856.php">mcd::Check::is_quatuor&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::pair.  <a href="../../da/de3/a00856.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00860.php">mcd::Check::is_string&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::string.  <a href="../../d2/d5e/a00860.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/a00864.php">mcd::Check::is_smatch&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a string regex match.  <a href="../../d7/d1b/a00864.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/a00868.php">mcd::Check::is_duration&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a chrono::duration.  <a href="../../da/d5b/a00868.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d17/a00872.php">mcd::Check::has_size_method&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if an object has a size method.  <a href="../../dc/d17/a00872.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dac/a00876.php">mcd::Check::has_ostream_operator&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T has an ostream operator.  <a href="../../d2/dac/a00876.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d08/a00884.php">mcd::Check::has_istream_operator&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T has an istream operator.  <a href="../../dd/d08/a00884.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de2/a00892.php">mcd::Check::is_printable&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is printable.  <a href="../../d0/de2/a00892.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd6/a00896.php">mcd::Check::is_object&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is an unknown object.  <a href="../../da/dd6/a00896.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db0/a00900.php">mcd::Check::is_special_struct&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a special struct.  <a href="../../d9/db0/a00900.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d0/d53/a00232"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d53/a00232.php">mcd</a></td></tr>
+<tr class="memitem:da/d2e/a00238"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d0/d27/a00239"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d27/a00239.php">mcd::this_thread</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d9/d21/a00240"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d21/a00240.php">mcd::Check</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a92713af8c651ed158031ed7d3fd15977"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a92713af8c651ed158031ed7d3fd15977">has_method</a>(meth,  func)</td></tr>
+<tr class="memdesc:a92713af8c651ed158031ed7d3fd15977"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if an object has the given method.  <a href="#a92713af8c651ed158031ed7d3fd15977">More...</a><br /></td></tr>
+<tr class="separator:a92713af8c651ed158031ed7d3fd15977"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aba609827ae566c40802bf828ab5a5a3c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php#aba609827ae566c40802bf828ab5a5a3c">mcd::pair_str</a> = std::pair&lt; std::string, std::string &gt;</td></tr>
+<tr class="memdesc:aba609827ae566c40802bf828ab5a5a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias.  <a href="../../da/d2e/a00238.php#aba609827ae566c40802bf828ab5a5a3c">More...</a><br /></td></tr>
+<tr class="separator:aba609827ae566c40802bf828ab5a5a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ace8a4328114062b56cf578ad92df821f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d53/a00232.php#ace8a4328114062b56cf578ad92df821f">mcd::collidesC</a> (double64_t r1, double64_t x1, double64_t y1, double64_t r2, double64_t x2, double64_t y2)</td></tr>
-<tr class="memdesc:ace8a4328114062b56cf578ad92df821f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two circles.  <a href="../../d0/d53/a00232.php#ace8a4328114062b56cf578ad92df821f">More...</a><br /></td></tr>
-<tr class="separator:ace8a4328114062b56cf578ad92df821f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab43dbb509e6ac3b52cd7767a1fb6bdaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d53/a00232.php#ab43dbb509e6ac3b52cd7767a1fb6bdaa">mcd::collidesR</a> (double64_t x1, double64_t y1, double64_t w1, double64_t h1, double64_t x2, double64_t y2, double64_t w2, double64_t h2)</td></tr>
-<tr class="memdesc:ab43dbb509e6ac3b52cd7767a1fb6bdaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two rectangles.  <a href="../../d0/d53/a00232.php#ab43dbb509e6ac3b52cd7767a1fb6bdaa">More...</a><br /></td></tr>
-<tr class="separator:ab43dbb509e6ac3b52cd7767a1fb6bdaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbb1b1f3a194f48bab3af872f65b9757"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d53/a00232.php#adbb1b1f3a194f48bab3af872f65b9757">mcd::collidesRC</a> (double64_t rx, double64_t ry, double64_t w, double64_t h, double64_t cx, double64_t cy, double64_t r)</td></tr>
-<tr class="memdesc:adbb1b1f3a194f48bab3af872f65b9757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a rectangle and a circle.  <a href="../../d0/d53/a00232.php#adbb1b1f3a194f48bab3af872f65b9757">More...</a><br /></td></tr>
-<tr class="separator:adbb1b1f3a194f48bab3af872f65b9757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae694a8102421f25c163a0ef7a9e903e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d53/a00232.php#ae694a8102421f25c163a0ef7a9e903e2">mcd::collidesPC</a> (double64_t cx, double64_t cy, double64_t r, double64_t x, double64_t y)</td></tr>
-<tr class="memdesc:ae694a8102421f25c163a0ef7a9e903e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a circle.  <a href="../../d0/d53/a00232.php#ae694a8102421f25c163a0ef7a9e903e2">More...</a><br /></td></tr>
-<tr class="separator:ae694a8102421f25c163a0ef7a9e903e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c001118da32a4466802e0b378af661b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d53/a00232.php#a3c001118da32a4466802e0b378af661b">mcd::collidesPR</a> (double64_t rx, double64_t ry, double64_t w, double64_t h, double64_t x, double64_t y)</td></tr>
-<tr class="memdesc:a3c001118da32a4466802e0b378af661b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a rectangle.  <a href="../../d0/d53/a00232.php#a3c001118da32a4466802e0b378af661b">More...</a><br /></td></tr>
-<tr class="separator:a3c001118da32a4466802e0b378af661b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6f9411fa8041c4f9f81519deeba4a0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d53/a00232.php#af6f9411fa8041c4f9f81519deeba4a0a">mcd::ProjectionSurSegment</a> (double64_t Cx, double64_t Cy, double64_t Ax, double64_t Ay, double64_t Bx, double64_t By)</td></tr>
-<tr class="memdesc:af6f9411fa8041c4f9f81519deeba4a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision on a segment.  <a href="../../d0/d53/a00232.php#af6f9411fa8041c4f9f81519deeba4a0a">More...</a><br /></td></tr>
-<tr class="separator:af6f9411fa8041c4f9f81519deeba4a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a711ec2f858ee16756d8619224624ee"><td class="memTemplParams" colspan="2">template&lt;typename TimeDuration &gt; </td></tr>
+<tr class="memitem:a3a711ec2f858ee16756d8619224624ee"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d27/a00239.php#a3a711ec2f858ee16756d8619224624ee">mcd::this_thread::yield</a> () noexcept</td></tr>
+<tr class="separator:a3a711ec2f858ee16756d8619224624ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa5ef673c6390db3486b12d03a64f8f5"><td class="memTemplParams" colspan="2">template&lt;class Rep , class Period &gt; </td></tr>
+<tr class="memitem:aaa5ef673c6390db3486b12d03a64f8f5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d27/a00239.php#aaa5ef673c6390db3486b12d03a64f8f5">mcd::this_thread::sleep_for</a> (const std::chrono::duration&lt; Rep, Period &gt; &amp;rel_time)</td></tr>
+<tr class="separator:aaa5ef673c6390db3486b12d03a64f8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13e84a38884d860a4854bdd4a031d218"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a13e84a38884d860a4854bdd4a031d218"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d21/a00240.php#a13e84a38884d860a4854bdd4a031d218">mcd::Check::isPrintable</a> (const T &amp;)</td></tr>
+<tr class="memdesc:a13e84a38884d860a4854bdd4a031d218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if a type has an ostream operator(&lt;&lt;)  <a href="../../d9/d21/a00240.php#a13e84a38884d860a4854bdd4a031d218">More...</a><br /></td></tr>
+<tr class="separator:a13e84a38884d860a4854bdd4a031d218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d21/a00240.php#ab0b2e96bd3f31d823dad478c5f54abf1">mcd::Check::printable</a> (const T &amp;in)</td></tr>
+<tr class="memdesc:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that say if a type has an ostream operator(&lt;&lt;)  <a href="../../d9/d21/a00240.php#ab0b2e96bd3f31d823dad478c5f54abf1">More...</a><br /></td></tr>
+<tr class="separator:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : September, 17 2019 </dd></dl>
-</div></div><!-- contents -->
+<dl class="section date"><dt>Date</dt><dd>Last modification : November, 12 2019 </dd></dl>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a92713af8c651ed158031ed7d3fd15977"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92713af8c651ed158031ed7d3fd15977">&#9670;&nbsp;</a></span>has_method</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define has_method</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">meth, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">func&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;\</div><div class="line">        class func {\</div><div class="line">            private:\</div><div class="line">                typedef std::true_type yes;\</div><div class="line">                typedef std::false_type no;\</div><div class="line">    \</div><div class="line">                template&lt;typename U&gt;\</div><div class="line">                static <span class="keyword">auto</span> test(<span class="keywordtype">int</span>) -&gt; decltype(std::declval&lt;U&gt;().meth() == 1, yes());\</div><div class="line">                template&lt;typename&gt;\</div><div class="line">                static no test(...);\</div><div class="line">    \</div><div class="line">            public:\</div><div class="line">                func(){}\</div><div class="line">                virtual ~func(){}\</div><div class="line">    \</div><div class="line">                static constexpr <span class="keywordtype">bool</span> value = std::is_same&lt;decltype(test&lt;T&gt;(0)), yes&gt;::value;\</div><div class="line">        }</div></div><!-- fragment -->
+<p>Verify if an object has the given method. </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_bfccd401955b95cf8c75461437045ac0.php">inc</a></li><li class="navelem"><a class="el" href="../../dir_2ce2ad1ea5ded593884489da6d66e532.php">C++</a></li><li class="navelem"><a class="el" href="../../d6/d2d/a00047.php">collides.hpp</a></li>
+		<li class="navelem"><a class="el" href="../../dir_bfccd401955b95cf8c75461437045ac0.php">inc</a></li><li class="navelem"><a class="el" href="../../dir_2ce2ad1ea5ded593884489da6d66e532.php">C++</a></li><li class="navelem"><a class="el" href="../../d6/d2d/a00047.php">check.hpp</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

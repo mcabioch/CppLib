@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Referenced&lt; C &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 9 2019 17:01:39 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:48 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d2/d4d/a01079.php','../../');});
+$(document).ready(function(){initNavTree('d6/d80/a01076.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,36 +89,99 @@ $(document).ready(function(){initNavTree('d2/d4d/a01079.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="../../d9/d7c/a01073.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Tree&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::Referenced&lt; C &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#a20ba766efa9e94d90d156432d6f101b1">add</a>(T data, NodeWeight weight)</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#aa1c0e2b0a15c31c48ed5cade92c4ae3d">applyForEach</a>(void(*func)(Node&lt; T &gt; *, long int))</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#aaf42d9cae430064e1b52b8cd3e57ee42">asc</a>()</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#a22b22135964e818cd9d0ef9ded9f39de">convert</a>(std::vector&lt; std::pair&lt; T, U &gt;&gt; in)</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#a3a02b5886471e9607d6dd9caa3216657">create</a>(std::vector&lt; std::pair&lt; T, NodeWeight &gt;&gt; datas)</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#a52f3b03c077b82ded999b5cbd197f1e3">desc</a>()</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#a38b40b07bade18a081d80596983dd16c">equilibrate</a>(TREE_SORT sort=ASC)</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#a5f28587248a842f1ff72837a8132c00e">find</a>(T value)</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#a634efe609117c9533707b9f30bd0c488">getLeftCount</a>(Node&lt; T &gt; *node)</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#ada7f6fc4dba1856a8aae67983ba5544b">getRightCount</a>(Node&lt; T &gt; *node)</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#a069d03de16fc9d3db25d7ec67ed6811b">height</a>()</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#a53cd621cced254067f1ebac4e2abe8df">insert</a>(std::pair&lt; T, NodeWeight &gt; datas)</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#a279d0472004ed9618dde58fcfd6bb508">onCompare</a>(void(*func)(Node&lt; T &gt; *, Node&lt; T &gt; *))</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#ad9cda4b45c11828381cde08fa48ae94d">onDelete</a>(void(*func)(Node&lt; T &gt; *))</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#a1e6f8d4ad100be50a970848a0c8437d1">print</a>()</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#a93774d1792effab8a46379c6781729f0">Tree</a>(TREE_SORT sorting=ASC)</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/d4d/a01079.php#a44571a01497b2ac582c292c8bad9de33">~Tree</a>()</td><td class="entry"><a class="el" href="../../d2/d4d/a01079.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to have a reference to the class' pointer.  
+ <a href="../../d6/d80/a01076.php#details">More...</a></p>
+
+<p><code>#include &lt;Referenced.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a23a4eee18708dae4eff05079a345c375"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d80/a01076.php#a23a4eee18708dae4eff05079a345c375">Referenced</a> (C *her)</td></tr>
+<tr class="separator:a23a4eee18708dae4eff05079a345c375"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a3aadcf63bff72dd8c87f4c1d7a3bd240"><td class="memItemLeft" align="right" valign="top">C &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d80/a01076.php#a3aadcf63bff72dd8c87f4c1d7a3bd240">_her</a></td></tr>
+<tr class="separator:a3aadcf63bff72dd8c87f4c1d7a3bd240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;class C&gt;<br />
+class mcd::Referenced&lt; C &gt;</h3>
+
+<p>A class to have a reference to the class' pointer. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a23a4eee18708dae4eff05079a345c375"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23a4eee18708dae4eff05079a345c375">&#9670;&nbsp;</a></span>Referenced()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d80/a01076.php">mcd::Referenced</a>&lt; C &gt;::<a class="el" href="../../d6/d80/a01076.php">Referenced</a> </td>
+          <td>(</td>
+          <td class="paramtype">C *&#160;</td>
+          <td class="paramname"><em>her</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3aadcf63bff72dd8c87f4c1d7a3bd240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aadcf63bff72dd8c87f4c1d7a3bd240">&#9670;&nbsp;</a></span>_her</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">C&amp; <a class="el" href="../../d6/d80/a01076.php">mcd::Referenced</a>&lt; C &gt;::_her</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../de/df3/a00185.php">Referenced.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../da/d2e/a00238.php">mcd</a></li><li class="navelem"><a class="el" href="../../d6/d80/a01076.php">Referenced</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

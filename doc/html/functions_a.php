@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:45 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,51 +93,57 @@ $(document).ready(function(){initNavTree('functions_a.php','');});
 
 <h3><a id="index_a"></a>- a -</h3><ul>
 <li>add()
-: <a class="el" href="d3/daf/a00790.php#a0d178470f50f3a3f12b2dab7aa40f004">mcd::Arguments</a>
-, <a class="el" href="d9/df5/a01086.php#a20ba766efa9e94d90d156432d6f101b1">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d0/da2/a00796.php#a0d178470f50f3a3f12b2dab7aa40f004">mcd::Arguments</a>
+, <a class="el" href="dd/dcb/a01104.php#a20ba766efa9e94d90d156432d6f101b1">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>addColors()
-: <a class="el" href="d7/d46/a00890.php#ae732af32fdbea05950d39bd9532121cf">mcd::Color</a>
+: <a class="el" href="d0/d85/a00908.php#ae732af32fdbea05950d39bd9532121cf">mcd::Color</a>
 </li>
 <li>addPosition()
-: <a class="el" href="d0/ddf/a00918.php#a7f4fa78c938b90c034ad0fe98a293a3c">mcd::Contraption</a>
+: <a class="el" href="dc/d2b/a00936.php#a7f4fa78c938b90c034ad0fe98a293a3c">mcd::Contraption</a>
 </li>
 <li>addProg()
-: <a class="el" href="d3/daf/a00790.php#a1eabf4c8408ded2b8deca24d99fd3234">mcd::Arguments</a>
+: <a class="el" href="d0/da2/a00796.php#a1eabf4c8408ded2b8deca24d99fd3234">mcd::Arguments</a>
 </li>
 <li>ALL
-: <a class="el" href="df/dce/a00974.php#a25d94050e8e7f91c7e1f02ddc2af8e95a0bce5e0f914a10ac190e025a6892938a">mcd::Logger</a>
+: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a0bce5e0f914a10ac190e025a6892938a">mcd::Logger</a>
 </li>
 <li>angle
-: <a class="el" href="d0/d53/a00232.php#a94df82ca2692e5eeaaab5cc8d801ed5f">mcd::ContraptionAttr</a>
+: <a class="el" href="da/d2e/a00238.php#a94df82ca2692e5eeaaab5cc8d801ed5f">mcd::ContraptionAttr</a>
 </li>
 <li>Animal()
-: <a class="el" href="da/d96/a00782.php#a25cd44b1a7eaf801cd6238175433ab46">mcd::Animal</a>
+: <a class="el" href="df/d0c/a00788.php#a25cd44b1a7eaf801cd6238175433ab46">mcd::Animal</a>
 </li>
 <li>Ant()
-: <a class="el" href="d0/d7d/a00786.php#afd3b5fb594d92b3cde4933883fdb7a2b">mcd::Ant</a>
+: <a class="el" href="d2/d5a/a00792.php#afd3b5fb594d92b3cde4933883fdb7a2b">mcd::Ant</a>
 </li>
 <li>anyObstacle()
-: <a class="el" href="da/d96/a00782.php#a4d6092732cc611192db643ed57196a69">mcd::Animal</a>
+: <a class="el" href="df/d0c/a00788.php#a4d6092732cc611192db643ed57196a69">mcd::Animal</a>
 </li>
 <li>applyForEach()
-: <a class="el" href="d9/df5/a01086.php#aa1c0e2b0a15c31c48ed5cade92c4ae3d">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="dd/dcb/a01104.php#aa1c0e2b0a15c31c48ed5cade92c4ae3d">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>Arguments()
-: <a class="el" href="d3/daf/a00790.php#ac6c3e24abf9d442d2a01b601ad3a0968">mcd::Arguments</a>
+: <a class="el" href="d0/da2/a00796.php#ac6c3e24abf9d442d2a01b601ad3a0968">mcd::Arguments</a>
 </li>
 <li>Arrived()
-: <a class="el" href="de/d02/a01026.php#a9fcff7a44db764decbb680479144b97b">mcd::PathfindingException</a>
+: <a class="el" href="d0/ddd/a01044.php#a9fcff7a44db764decbb680479144b97b">mcd::PathfindingException</a>
 </li>
 <li>ARRIVED
-: <a class="el" href="de/d02/a01026.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814">mcd::PathfindingException</a>
+: <a class="el" href="d0/ddd/a01044.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814">mcd::PathfindingException</a>
 </li>
 <li>asc()
-: <a class="el" href="d9/df5/a01086.php#aaf42d9cae430064e1b52b8cd3e57ee42">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="dd/dcb/a01104.php#aaf42d9cae430064e1b52b8cd3e57ee42">mcd::Tree&lt; T &gt;</a>
+</li>
+<li>Assert()
+: <a class="el" href="dc/d00/a00820.php#ad4dd96d96703a8dd5efcd62ee8d3a78d">mcd::Assert</a>
+</li>
+<li>AssertionException()
+: <a class="el" href="d8/d1c/a00824.php#ad93f95c8923581b9ce4e3d28d63a243e">mcd::AssertionException</a>
 </li>
 <li>attack()
-: <a class="el" href="da/d96/a00782.php#ae361d01e3894af2d3e1ded1975f39172">mcd::Animal</a>
-, <a class="el" href="df/d88/a00962.php#a7443b49cf0f2564e4209b3ae6867b5cc">mcd::Hostile</a>
+: <a class="el" href="df/d0c/a00788.php#ae361d01e3894af2d3e1ded1975f39172">mcd::Animal</a>
+, <a class="el" href="db/d20/a00980.php#a7443b49cf0f2564e4209b3ae6867b5cc">mcd::Hostile</a>
 </li>
 </ul>
 </div><!-- contents -->

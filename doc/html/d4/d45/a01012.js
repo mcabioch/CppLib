@@ -1,6 +1,6 @@
 var a01012 =
 [
-    [ "PathfindingDijkstra", "d4/d45/a01012.php#a8e8246fb84c8dd3bf9e522f3fca7b39e", null ],
-    [ "~PathfindingDijkstra", "d4/d45/a01012.php#aae9b7cf4f57d826b9f7e65d9410b572e", null ],
-    [ "createPath", "d4/d45/a01012.php#a7b2872207d45871fcbcfa01e216090dd", null ]
+    [ "Mushroom", "d4/d45/a01012.php#aa3f3f1ad0542e087b039ce1586c0c907", null ],
+    [ "~Mushroom", "d4/d45/a01012.php#afba77573c7fb8dfdbf6f73192fe64fde", null ],
+    [ "printInfos", "d4/d45/a01012.php#a7f5b4cb7d65beddc201434f2e8cc1f15", null ]
 ];

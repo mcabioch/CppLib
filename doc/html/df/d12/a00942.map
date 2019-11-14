@@ -1,4 +1,4 @@
-<map id="mcd::DateTime" name="mcd::DateTime">
-<area shape="rect" id="node2" href="$dd/d20/a00939.php" title="A class to play with dates. " alt="" coords="5,5,88,32"/>
-<area shape="rect" id="node3" href="$d2/d49/a01067.php" title="A class to play with dates. " alt="" coords="113,5,197,32"/>
+<map id="mcd::Cesar" name="mcd::Cesar">
+<area shape="rect" id="node2" href="$d7/db6/a00940.php" title="A class to be the parent for every crypt class. " alt="" coords="23,80,118,107"/>
+<area shape="rect" id="node3" href="$de/def/a01016.php" title="A class to let some other not to be copyable. " alt="" coords="5,5,136,32"/>
 </map>

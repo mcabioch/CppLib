@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Oct 4 2019 16:12:42 for C++ by";
+				$text = "Generated on Thu Nov 14 2019 11:50:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,24 +90,26 @@ $(document).ready(function(){initNavTree('da/db7/a01088.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Point Member List</div>  </div>
+<div class="title">mcd::Threadable&lt; C &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../da/db7/a01088.php">mcd::Point</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../da/db7/a01088.php#a2beb84069e438adcccfa4b6ed9794c0c">bot</a>() const</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/db7/a01088.php#a91941563ecc020a510832ba8869e5ded">left</a>() const</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/db7/a01088.php#a6bea9cfb4049115f767ed658959d6648">operator!=</a>(const Point &amp;a, const Point &amp;b)</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/db7/a01088.php#a55681886ec7c5d7c0210fa0611bc84ea">operator&lt;&lt;</a>(std::ostream &amp;os, const Point &amp;a)</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/db7/a01088.php#a6ebbd086a808f7fb8bd49bda00b8df12">operator=</a>(const std::pair&lt; T, U &gt; &amp;o)</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/db7/a01088.php#a220f83e0ebfaa9b2884530cfcac6f6df">operator=</a>(const trio&lt; T, U, V &gt; &amp;o)</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/db7/a01088.php#a177528c8a1eee37fcda25a89084b8ed6">operator==</a>(const Point &amp;a, const Point &amp;b)</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/db7/a01088.php#a613a9be49ee0cbe55e10e75db1d59faa">right</a>() const</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/db7/a01088.php#afd57961d22ce89d783303c0fbbdc4f83">top</a>() const</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/db7/a01088.php#a924c77d36867a18d5a52767ff246ebfc">x</a></td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Point</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/db7/a01088.php#ab339ac0efa2259051dc1ac0637d2c9a8">y</a></td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Point</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/db7/a01088.php#a010288cb5febefa70329d35a726c7291">z</a></td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Point</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/db7/a01088.php#a77d662da66e59d43579e7490d24d72b8">_mutex</a></td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">mutable</span><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/db7/a01088.php#a804393d97a319c38afa593072bd0ead9">hasToStop</a>() const</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/db7/a01088.php#af6a411164d64b1b04b731f29d54e016a">inUse</a>()</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/db7/a01088.php#a1eb0985252b04c90761f92432ef4216d">launch</a>()=0</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/db7/a01088.php#a156911948e5f5d2d5eeb0922ee3bd86d">launched</a>() const</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/db7/a01088.php#a0b2419ec1119f28dc2440e202f0d2c8e">notInUse</a>()</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/db7/a01088.php#aede63b72f054d20e35d22153af8313c8">operator=</a>(Threadable&lt; C &gt; &amp;other) noexcept</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/db7/a01088.php#ab51cdb23e70b6ab97afb529098eb20c0">operator=</a>(Threadable&lt; C &gt; &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/db7/a01088.php#a0351657024f3b0d37b54c08a09a156fa">sleeper</a></td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/db7/a01088.php#a4dd37d54456e167f8b42d30be7076939">stop</a>()</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/db7/a01088.php#a04bdb4a894312f6671680c2f103b8a63">Threadable</a>()</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/db7/a01088.php#a29db3ebe9dfbf77bc04967565c0dcf6e">Threadable</a>(Threadable&lt; C &gt; &amp;other)</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/db7/a01088.php#a4cbceb43796de6c36a5cd4f35a6402cb">Threadable</a>(Threadable&lt; C &gt; &amp;&amp;other)</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/db7/a01088.php#aab98cd8e5cd8832dfd6e82c17d1a689d">~Threadable</a>()</td><td class="entry"><a class="el" href="../../da/db7/a01088.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
