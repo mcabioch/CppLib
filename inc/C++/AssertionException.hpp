@@ -21,7 +21,7 @@ namespace mcd {
 		public:
 			/* Constructors & Destructor of AssertionException */
 				/*! \brief	The constructor of the class */
-				AssertionException(const std::string& explaination) throw();
+				explicit AssertionException(const std::string& explaination) throw();
 				virtual ~AssertionException() throw();
 			/* Others members of AssertionException */
 				/*! \brief	Return the explaination of the exception */
