@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Nov 14 2019 13:45:02 for C++ by";
+				$text = "Generated on Tue Nov 19 2019 17:27:21 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -187,7 +187,7 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A timer to do something at the end. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d7/d40/a00236.php#_todo000004">Todo:</a></b></dt><dd>Create the class </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../d7/d40/a00236.php#_todo000003">Todo:</a></b></dt><dd>Create the class </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae2847ca8c851863418d57e80e972095a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae2847ca8c851863418d57e80e972095a">&#9670;&nbsp;</a></span>Timer()</h2>

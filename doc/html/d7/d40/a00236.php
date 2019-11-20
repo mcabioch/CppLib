@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Nov 14 2019 13:45:02 for C++ by";
+				$text = "Generated on Tue Nov 19 2019 17:27:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -96,15 +96,11 @@ $(document).ready(function(){initNavTree('d7/d40/a00236.php','../../');});
 <div class="textblock"><dl class="reflist">
 <dt><a class="anchor" id="_todo000001"></a>Class <a class="el" href="../../d8/d64/a00828.php">mcd::Big</a>  </dt>
 <dd>Implement the coma  </dd>
-<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../d7/d76/a00992.php">mcd::Logger</a>  </dt>
-<dd><p class="startdd">Add comments</p>
-<p class="enddd"></p>
-</dd>
 <dt><a class="anchor" id="_todo000002"></a>Class <a class="el" href="../../d3/de5/a00956.php">mcd::RSA</a>  </dt>
 <dd>Create the class  </dd>
-<dt><a class="anchor" id="_todo000004"></a>Class <a class="el" href="../../d2/d20/a01096.php">mcd::Timer</a>  </dt>
+<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../d2/d20/a01096.php">mcd::Timer</a>  </dt>
 <dd>Create the class  </dd>
-<dt><a class="anchor" id="_todo000005"></a>Class <a class="el" href="../../dd/dcb/a01104.php">mcd::Tree&lt; T &gt;</a>  </dt>
+<dt><a class="anchor" id="_todo000004"></a>Class <a class="el" href="../../dd/dcb/a01104.php">mcd::Tree&lt; T &gt;</a>  </dt>
 <dd>Refactoring </dd>
 </dl>
 </div></div><!-- contents -->

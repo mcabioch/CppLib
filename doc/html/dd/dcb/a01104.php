@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Nov 14 2019 13:45:02 for C++ by";
+				$text = "Generated on Tue Nov 19 2019 17:27:21 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -164,7 +164,7 @@ Static Public Member Functions</h2></td></tr>
 class mcd::Tree&lt; T &gt;</h3>
 
 <p>A class to manage a binary tree. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d7/d40/a00236.php#_todo000005">Todo:</a></b></dt><dd>Refactoring </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../d7/d40/a00236.php#_todo000004">Todo:</a></b></dt><dd>Refactoring </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a93774d1792effab8a46379c6781729f0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a93774d1792effab8a46379c6781729f0">&#9670;&nbsp;</a></span>Tree()</h2>

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Nov 14 2019 13:45:02 for C++ by";
+				$text = "Generated on Tue Nov 19 2019 17:27:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -127,18 +127,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9b43e0ba2ab53c8a6758b20d3f828f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">The destructor of the class.  <a href="#a9b43e0ba2ab53c8a6758b20d3f828f96">More...</a><br /></td></tr>
 <tr class="separator:a9b43e0ba2ab53c8a6758b20d3f828f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab549f25e73c47afaff922b59cda6ccc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d76/a00992.php#ab549f25e73c47afaff922b59cda6ccc4">init</a> (const std::string &amp;logConfigFile)</td></tr>
+<tr class="memdesc:ab549f25e73c47afaff922b59cda6ccc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the logger with the logger config file location.  <a href="#ab549f25e73c47afaff922b59cda6ccc4">More...</a><br /></td></tr>
 <tr class="separator:ab549f25e73c47afaff922b59cda6ccc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8527d935f1fa6c697d792a8f72276e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d76/a00992.php#ad8527d935f1fa6c697d792a8f72276e4">isInit</a> () const</td></tr>
+<tr class="memdesc:ad8527d935f1fa6c697d792a8f72276e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Know if the logger is initialized.  <a href="#ad8527d935f1fa6c697d792a8f72276e4">More...</a><br /></td></tr>
 <tr class="separator:ad8527d935f1fa6c697d792a8f72276e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a365030ec32e6af40c6c53a53ff5163f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d76/a00992.php#a365030ec32e6af40c6c53a53ff5163f4">isEnabled</a> (<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a> level)</td></tr>
+<tr class="memdesc:a365030ec32e6af40c6c53a53ff5163f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Know if a log Level is enabled or not.  <a href="#a365030ec32e6af40c6c53a53ff5163f4">More...</a><br /></td></tr>
 <tr class="separator:a365030ec32e6af40c6c53a53ff5163f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cb99172e98a89e45fdcb9b394eea99e"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
 <tr class="memitem:a2cb99172e98a89e45fdcb9b394eea99e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d76/a00992.php#a2cb99172e98a89e45fdcb9b394eea99e">log</a> (<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a> level, int line, const std::string &amp;file, Args... args)</td></tr>
+<tr class="memdesc:a2cb99172e98a89e45fdcb9b394eea99e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to cll to log something.  <a href="#a2cb99172e98a89e45fdcb9b394eea99e">More...</a><br /></td></tr>
 <tr class="separator:a2cb99172e98a89e45fdcb9b394eea99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to log some messages. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d7/d40/a00236.php#_todo000003">Todo:</a></b></dt><dd>Add comments</dd></dl>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a25d94050e8e7f91c7e1f02ddc2af8e95"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25d94050e8e7f91c7e1f02ddc2af8e95">&#9670;&nbsp;</a></span>Level</h2>
@@ -227,6 +230,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initialize the logger with the logger config file location. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">logConfigFile</td><td>The logger config file location </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
 </div>
 </div>
 <a id="a365030ec32e6af40c6c53a53ff5163f4"></a>
@@ -244,6 +256,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Know if a log Level is enabled or not. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">level</td><td>The log Level to test </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Boolean </dd></dl>
 
 </div>
 </div>
@@ -269,12 +290,15 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Know if the logger is initialized. </p>
+<dl class="section return"><dt>Returns</dt><dd>Boolean </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/d76/a00992_ad8527d935f1fa6c697d792a8f72276e4_cgraph.png" border="0" usemap="#d7/d76/a00992_ad8527d935f1fa6c697d792a8f72276e4_cgraph" alt=""/></div>
 <map name="d7/d76/a00992_ad8527d935f1fa6c697d792a8f72276e4_cgraph" id="d7/d76/a00992_ad8527d935f1fa6c697d792a8f72276e4_cgraph">
-<area shape="rect" id="node2" href="../../d7/d76/a00992.php#a365030ec32e6af40c6c53a53ff5163f4" title="mcd::Logger::isEnabled" alt="" coords="184,5,343,32"/>
+<area shape="rect" id="node2" href="../../d7/d76/a00992.php#a365030ec32e6af40c6c53a53ff5163f4" title="Know if a log Level is enabled or not. " alt="" coords="184,5,343,32"/>
 </map>
 </div>
 
@@ -327,13 +351,25 @@ template&lt;class ... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Method to cll to log something. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">level</td><td>The Level of the log message </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">line</td><td>The line where the log message came from </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">file</td><td>The file where the log message came from </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The different parts of the message </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/d76/a00992_a2cb99172e98a89e45fdcb9b394eea99e_cgraph.png" border="0" usemap="#d7/d76/a00992_a2cb99172e98a89e45fdcb9b394eea99e_cgraph" alt=""/></div>
 <map name="d7/d76/a00992_a2cb99172e98a89e45fdcb9b394eea99e_cgraph" id="d7/d76/a00992_a2cb99172e98a89e45fdcb9b394eea99e_cgraph">
 <area shape="rect" id="node2" href="../../da/d2e/a00238.php#ac625de83fcace96567aecd1363297776" title="Print the given text like a warning. " alt="" coords="189,5,313,32"/>
-<area shape="rect" id="node3" href="../../d7/d76/a00992.php#a365030ec32e6af40c6c53a53ff5163f4" title="mcd::Logger::isEnabled" alt="" coords="172,56,331,83"/>
+<area shape="rect" id="node3" href="../../d7/d76/a00992.php#a365030ec32e6af40c6c53a53ff5163f4" title="Know if a log Level is enabled or not. " alt="" coords="172,56,331,83"/>
 <area shape="rect" id="node4" href="../../da/d2e/a00238.php#a1a14f66f0c6eba0c77338364977658e1" title="Print the given text like an error. " alt="" coords="199,107,304,133"/>
 <area shape="rect" id="node5" href="../../da/d17/a00964.php#a7b25df777f0b2b3ac2396538eb3ca028" title="mcd::DateTime::get" alt="" coords="182,157,321,184"/>
 <area shape="rect" id="node6" href="../../d7/d76/a00992.php#a189cdd6486b23632d014a2e795ed8e13" title="The constructor of the class. " alt="" coords="181,208,322,235"/>

@@ -13,7 +13,6 @@
 
 namespace mcd {
 	/*!
-	* \todo		Add comments
 	* \class	Logger
 	* \brief	A class to log some messages
 	*/
@@ -48,10 +47,35 @@ namespace mcd {
 			/* Friends of Logger */
 				
 			/* Others members of Logger */
+				/*!
+				* \brief		Initialize the logger with the logger config file location
+				* \param[in]	logConfigFile	The logger config file location
+				* \return		void
+				*/
 				void init(const std::string& logConfigFile);
+
+				/*!
+				* \brief	Know if the logger is initialized
+				* \return	Boolean
+				*/
 				bool isInit()const { return _initialized; }
+				
+				/*!
+				* \brief		Know if a log Level is enabled or not
+				* \param[in]	level	The log Level to test
+				* \return		Boolean
+				*/
 				bool isEnabled(Level level);
 
+				
+				/*!
+				* \brief		Method to cll to log something
+				* \param[in]	level	The Level of the log message
+				* \param[in]	line	The line where the log message came from
+				* \param[in]	file	The file where the log message came from
+				* \param[in]	args	The different parts of the message
+				* \return		void
+				*/
 				template<class ...Args>
 				void log(Level level, int line, const std::string& file, Args... args){
 					std::lock_guard<std::mutex> lock(_mutex);
@@ -67,37 +91,38 @@ namespace mcd {
 
 					std::ofstream write;
 					write.open(_logFile.c_str(), std::ios::app);
-
 					if(!write){
 						error_log(line_number, "File opening error", "Something went wrong when trying to open, ", _logFile);
 					}
+					write.close();
 
 					DateTime date;
-					write << date.get();
-					write << " [ ";
+					std::stringstream sstr;
+
+					sstr << date.get() << " [ ";
+
 					switch(level){
 						case DEBUG:
-							write << "DEBUG";
+							sstr << "DEBUG";
 							break;
 						case INFO:
-							write << "INFO";
+							sstr << "INFO";
 							break;
 						case WARN:
-							write << "WARNING";
+							sstr << "WARNING";
 							break;
 						case ERROR:
-							write << "ERROR";
+							sstr << "ERROR";
 							break;
 						case FATAL:
-							write << "FATAL";
+							sstr << "FATAL";
 							break;
 						default:
 							break;
 					}
-					write << " ] " << file << ":" << line << " : ";
-					write.close();
+					sstr << " ] " << file << ":" << line << " : ";
 
-					intern_log(args...);
+					intern_log(sstr, args...);
 
 					return;
 				}
@@ -139,25 +164,26 @@ namespace mcd {
 			void destruct();
 
 			template<class T, class ...Args>
-			void intern_log(const T& msg, Args... args){
-				std::ofstream write;
-				write.open(_logFile.c_str(), std::ios::app);
+			void intern_log(std::stringstream& sstr, const T& msg, Args... args){
+				sstr << msg << " ";
 
-				write << msg << " ";
-				write.close();
-
-				intern_log(args...);
+				intern_log(sstr, args...);
 
 				return;
 			}
 
 			template<class T, class ...Args>
-			void intern_log(const T& msg){
+			void intern_log(std::stringstream& sstr, const T& msg){
+				sstr << msg << std::endl;
+
 				std::ofstream write;
 				write.open(_logFile.c_str(), std::ios::app);
-
-				write << msg << std::endl;
+				write << sstr.str();
 				write.close();
+
+				#ifdef DEBUG
+					std::cout << sstr.str();
+				#endif
 
 				return;
 			}
