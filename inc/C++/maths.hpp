@@ -2,7 +2,7 @@
 *
 *	\file		maths.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	September, 26 2019
+*	\modified	November, 21 2019
 *
 */
 #ifndef HEADER_CPP_MATHS
@@ -362,6 +362,35 @@ namespace mcd {
 	*/
 	inline int log2p(int x){
 		return static_cast<int>(log(x) / log(2));
+	}
+
+	/*!
+	* \brief	Return the inverse square root with a float precision
+	*		\param[in]		number		The value invert and to square
+	*
+	*		\return			Return a float
+	*/
+	template<class T>
+	T Q_rsqrt(T number){
+		double num = static_cast<double>(number);
+
+		union {
+			uint64_t i;
+			double y;
+		};
+
+		double x2;
+		const double threehalfs = 1.5;
+
+		x2 = num * 0.5;
+		y  = num;
+		i  = 0x5fe6eb50c7b537a9 - ( i >> 1 );
+
+		for(size_t j = 0; j < 5; ++j){ // Newton iterations
+			y  = y * ( threehalfs - ( x2 * y * y ) );
+		}
+
+		return static_cast<T>(y);
 	}
 }
 

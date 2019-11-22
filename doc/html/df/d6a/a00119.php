@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 20 2019 15:10:15 for C++ by";
+				$text = "Generated on Thu Nov 21 2019 17:15:52 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -256,10 +256,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a69d6be0b9d139073dda5e708c76dccdd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php#a69d6be0b9d139073dda5e708c76dccdd">mcd::log2p</a> (int x)</td></tr>
 <tr class="memdesc:a69d6be0b9d139073dda5e708c76dccdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do the log of x in base 2.  <a href="../../da/d2e/a00238.php#a69d6be0b9d139073dda5e708c76dccdd">More...</a><br /></td></tr>
 <tr class="separator:a69d6be0b9d139073dda5e708c76dccdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77f16d62ba2ac4c7ad44d4459f149b2e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a77f16d62ba2ac4c7ad44d4459f149b2e"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php#a77f16d62ba2ac4c7ad44d4459f149b2e">mcd::Q_rsqrt</a> (T number)</td></tr>
+<tr class="memdesc:a77f16d62ba2ac4c7ad44d4459f149b2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the inverse square root with a float precision.  <a href="../../da/d2e/a00238.php#a77f16d62ba2ac4c7ad44d4459f149b2e">More...</a><br /></td></tr>
+<tr class="separator:a77f16d62ba2ac4c7ad44d4459f149b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : September, 26 2019 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Last modification : November, 21 2019 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

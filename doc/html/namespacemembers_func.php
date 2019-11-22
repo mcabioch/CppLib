@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 20 2019 15:10:15 for C++ by";
+				$text = "Generated on Thu Nov 21 2019 17:15:52 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -137,7 +137,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="da/d2e/a00238.php#ad32e282421be0e66b0288fe7634ad183">mcd</a>
 </li>
 <li>dist()
-: <a class="el" href="da/d2e/a00238.php#a4d75f23c9b03fd2c56324895d0ff3c58">mcd</a>
+: <a class="el" href="da/d2e/a00238.php#a900f9e45ac94dbf01c4b67fb40682118">mcd</a>
 </li>
 <li>dsigmoide()
 : <a class="el" href="da/d2e/a00238.php#a9042d2e8e9a6311b4260c6f376f4072c">mcd</a>
@@ -268,7 +268,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="da/d2e/a00238.php#a68941be2cb0a91ce0a75b0992c772e19">mcd</a>
 </li>
 <li>operator++()
-: <a class="el" href="da/d2e/a00238.php#a164a9c100a128e971c6becd38fe7db82">mcd</a>
+: <a class="el" href="da/d2e/a00238.php#afd0ec761914252fc66c1180845c1fb36">mcd</a>
 </li>
 <li>operator-()
 : <a class="el" href="da/d2e/a00238.php#aa34a809adea5c0391ccc070f4b6fac4b">mcd</a>
@@ -277,19 +277,19 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="da/d2e/a00238.php#a69988c1c7ee2ad5814c297f749588e78">mcd</a>
 </li>
 <li>operator&lt;()
-: <a class="el" href="da/d2e/a00238.php#ab3a0bfd8107f1a0512e3daccbe8ec32a">mcd</a>
+: <a class="el" href="da/d2e/a00238.php#a74705a4e1fb16838be02655f4ea61e11">mcd</a>
 </li>
 <li>operator&lt;&lt;()
 : <a class="el" href="da/d2e/a00238.php#a0e76ac5c4df82149886b58edcfc7090a">mcd</a>
 </li>
 <li>operator&lt;=()
-: <a class="el" href="da/d2e/a00238.php#a35feb7b77517c8a067a4f631d0c01903">mcd</a>
+: <a class="el" href="da/d2e/a00238.php#a57c7184396da7d8b9972ac64f37fc019">mcd</a>
 </li>
 <li>operator==()
-: <a class="el" href="da/d2e/a00238.php#a49c8e33d55da52fabdb3f09f2fd3e5b2">mcd</a>
+: <a class="el" href="da/d2e/a00238.php#a4ba723943a9c71f6b716cfff3862b656">mcd</a>
 </li>
 <li>operator&gt;()
-: <a class="el" href="da/d2e/a00238.php#ae8c157fea2d3cba9a23a3ff2878cc08e">mcd</a>
+: <a class="el" href="da/d2e/a00238.php#a0eb9966b5003b5c69b1c19cf2c91da5b">mcd</a>
 </li>
 <li>operator&gt;=()
 : <a class="el" href="da/d2e/a00238.php#a83c8849718e8a8532282e6f1c80ceca0">mcd</a>
@@ -321,6 +321,13 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 </li>
 <li>ProjectionSurSegment()
 : <a class="el" href="da/d2e/a00238.php#af6f9411fa8041c4f9f81519deeba4a0a">mcd</a>
+</li>
+</ul>
+
+
+<h3><a id="index_q"></a>- q -</h3><ul>
+<li>Q_rsqrt()
+: <a class="el" href="da/d2e/a00238.php#a77f16d62ba2ac4c7ad44d4459f149b2e">mcd</a>
 </li>
 </ul>
 

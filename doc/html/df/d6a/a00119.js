@@ -16,6 +16,7 @@ var a00119 =
     [ "min", "df/d6a/a00119.php#abc683613235e8674b000071c25747728", null ],
     [ "mod", "df/d6a/a00119.php#af44c5ff8cc0a054f720ed177e7e44265", null ],
     [ "pgcd", "df/d6a/a00119.php#a0f3f4e24615446479ff59ce15ce61cde", null ],
+    [ "Q_rsqrt", "df/d6a/a00119.php#a77f16d62ba2ac4c7ad44d4459f149b2e", null ],
     [ "round", "df/d6a/a00119.php#a7e1c88cc52e517f309354a546e78f403", null ],
     [ "sigmoide", "df/d6a/a00119.php#a2d67b0e24c6216a693a903f5bc8c31a0", null ],
     [ "sq", "df/d6a/a00119.php#a9adc0354f681800c75d220e526377397", null ],

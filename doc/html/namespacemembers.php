@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 20 2019 15:10:15 for C++ by";
+				$text = "Generated on Thu Nov 21 2019 17:15:52 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -404,6 +404,9 @@ $(document).ready(function(){initNavTree('namespacemembers.php','');});
 
 
 <h3><a id="index_q"></a>- q -</h3><ul>
+<li>Q_rsqrt()
+: <a class="el" href="da/d2e/a00238.php#a77f16d62ba2ac4c7ad44d4459f149b2e">mcd</a>
+</li>
 <li>quatuor_str
 : <a class="el" href="da/d2e/a00238.php#aaa50b5dcb5cb495757e7084494fd482d">mcd</a>
 </li>

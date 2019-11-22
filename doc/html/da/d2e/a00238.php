@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 20 2019 15:10:15 for C++ by";
+				$text = "Generated on Thu Nov 21 2019 17:15:52 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -706,6 +706,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a69d6be0b9d139073dda5e708c76dccdd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php#a69d6be0b9d139073dda5e708c76dccdd">log2p</a> (int x)</td></tr>
 <tr class="memdesc:a69d6be0b9d139073dda5e708c76dccdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do the log of x in base 2.  <a href="#a69d6be0b9d139073dda5e708c76dccdd">More...</a><br /></td></tr>
 <tr class="separator:a69d6be0b9d139073dda5e708c76dccdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77f16d62ba2ac4c7ad44d4459f149b2e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a77f16d62ba2ac4c7ad44d4459f149b2e"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php#a77f16d62ba2ac4c7ad44d4459f149b2e">Q_rsqrt</a> (T number)</td></tr>
+<tr class="memdesc:a77f16d62ba2ac4c7ad44d4459f149b2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the inverse square root with a float precision.  <a href="#a77f16d62ba2ac4c7ad44d4459f149b2e">More...</a><br /></td></tr>
+<tr class="separator:a77f16d62ba2ac4c7ad44d4459f149b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad32e282421be0e66b0288fe7634ad183"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ad32e282421be0e66b0288fe7634ad183"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_pointer&lt; T &gt;::value||<a class="el" href="../../d9/db3/a01064.php">Check::is_minded_ptr</a>&lt; T &gt;::value &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php#ad32e282421be0e66b0288fe7634ad183">deletePtr</a> (T &amp;pointer)</td></tr>
 <tr class="memdesc:ad32e282421be0e66b0288fe7634ad183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a pointer.  <a href="#ad32e282421be0e66b0288fe7634ad183">More...</a><br /></td></tr>
@@ -4940,6 +4944,35 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a id="a77f16d62ba2ac4c7ad44d4459f149b2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77f16d62ba2ac4c7ad44d4459f149b2e">&#9670;&nbsp;</a></span>Q_rsqrt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T mcd::Q_rsqrt </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>number</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the inverse square root with a float precision. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">number</td><td>The value invert and to square</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a float </dd></dl>
 
 </div>
 </div>
