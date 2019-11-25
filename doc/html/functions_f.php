@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Nov 21 2019 17:15:52 for C++ by";
+				$text = "Generated on Sat Nov 23 2019 16:47:51 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,8 +92,8 @@ $(document).ready(function(){initNavTree('functions_f.php','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_f"></a>- f -</h3><ul>
-<li>FATAL
-: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95aaa39e90dcdc0f6fd3be2054a9dafc508">mcd::Logger</a>
+<li>Fatal
+: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a3b0278ed2e63ab59b05883c3943c73cf">mcd::Logger</a>
 </li>
 <li>file
 : <a class="el" href="da/d2e/a00238.php#a8f58607a689338a0ca0d40d802468308">mcd::AssertionLocationStruct</a>

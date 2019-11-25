@@ -30,7 +30,7 @@ var searchData=
   ['logger',['Logger',['../d7/d76/a00992.php',1,'mcd::Logger'],['../d7/d76/a00992.php#a189cdd6486b23632d014a2e795ed8e13',1,'mcd::Logger::Logger()'],['../da/d2e/a00238.php#a46f063faccea2fdafb8e5f33c2ccbc50',1,'mcd::logger()']]],
   ['logger_2ehpp',['Logger.hpp',['../df/d98/a00107.php',1,'']]],
   ['logs',['logs',['../df/d98/a00107.php#ae48c93288111b5c36c6e44117992a8f3',1,'Logger.hpp']]],
-  ['lost',['Lost',['../d0/ddd/a01044.php#a933816a487769eec830729b051d0fbcd',1,'mcd::PathfindingException::Lost()'],['../d5/d16/a01060.php#a7582710c11a7b92d9912f414a5296975',1,'mcd::PlayerAbstraction::lost()'],['../d0/ddd/a01044.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995',1,'mcd::PathfindingException::LOST()']]],
+  ['lost',['LOST',['../d0/ddd/a01044.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995',1,'mcd::PathfindingException::LOST()'],['../d5/d16/a01060.php#a7582710c11a7b92d9912f414a5296975',1,'mcd::PlayerAbstraction::lost()'],['../d0/ddd/a01044.php#a933816a487769eec830729b051d0fbcd',1,'mcd::PathfindingException::Lost()']]],
   ['lower',['LOWER',['../da/d2e/a00238.php#a372ef82d72716aed789680d0a84c06d3a9faad38e6204b43f9a15f1adecb9609a',1,'mcd']]],
   ['lowercase',['lowercase',['../da/d2e/a00238.php#a0c6d83e8654926ceebd7777a9ada0652',1,'mcd::lowercase(const std::string &amp;str, std::string::iterator begin, std::string::iterator end)'],['../da/d2e/a00238.php#a0762354667dfb9f9e539e501399a9a00',1,'mcd::lowercase(const std::string &amp;str)']]],
   ['lowincludes_2ehpp',['lowIncludes.hpp',['../d4/d81/a00110.php',1,'']]],

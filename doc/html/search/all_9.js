@@ -6,7 +6,7 @@ var searchData=
   ['identifier_2ehpp',['Identifier.hpp',['../d1/d44/a00098.php',1,'']]],
   ['implode',['implode',['../da/d2e/a00238.php#ad751f3d04e342cbe86c561683c3bd99c',1,'mcd']]],
   ['includes_2ehpp',['includes.hpp',['../d4/d3a/a00101.php',1,'']]],
-  ['info',['INFO',['../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95ab5e7bb27fac1d147132243b4e5ecda08',1,'mcd::Logger']]],
+  ['info',['Info',['../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95ae7888eab8f157c2bc53e24557f2a8458',1,'mcd::Logger']]],
   ['info_5flog',['info_log',['../da/d2e/a00238.php#af0b4fd6390d33edc9719d42b26f6e29f',1,'mcd']]],
   ['init',['init',['../dd/d11/a00960.php#a17a08ca52b3ec69d178a997c07a5ca1c',1,'mcd::Date::init()'],['../d7/d76/a00992.php#ab549f25e73c47afaff922b59cda6ccc4',1,'mcd::Logger::init()'],['../de/d9c/a01092.php#a3e19605ece31340f27255a79beb193d4',1,'mcd::Time::init()']]],
   ['initialized',['initialized',['../da/d2e/a00238.php#a4be9be6714e8c7fa10acc26a20d46193',1,'mcd::Node']]],

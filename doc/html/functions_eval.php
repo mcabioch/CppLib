@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Nov 21 2019 17:15:52 for C++ by";
+				$text = "Generated on Sat Nov 23 2019 16:47:51 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,23 +90,23 @@ $(document).ready(function(){initNavTree('functions_eval.php','');});
 
 <div class="contents">
 &#160;<ul>
-<li>ALL
-: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a0bce5e0f914a10ac190e025a6892938a">mcd::Logger</a>
+<li>All
+: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95ad58a475f585716dda86e2e0af0570cec">mcd::Logger</a>
 </li>
 <li>ARRIVED
 : <a class="el" href="d0/ddd/a01044.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814">mcd::PathfindingException</a>
 </li>
-<li>DEBUG
-: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a2317dfad63407c5b05415b976cff9030">mcd::Logger</a>
+<li>Debug
+: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger</a>
 </li>
-<li>ERROR
-: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8b436988ab5aa21a575cab658caa5d27">mcd::Logger</a>
+<li>Error
+: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a98b026269a3081d4a4801bc7418e1d47">mcd::Logger</a>
 </li>
-<li>FATAL
-: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95aaa39e90dcdc0f6fd3be2054a9dafc508">mcd::Logger</a>
+<li>Fatal
+: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a3b0278ed2e63ab59b05883c3943c73cf">mcd::Logger</a>
 </li>
-<li>INFO
-: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95ab5e7bb27fac1d147132243b4e5ecda08">mcd::Logger</a>
+<li>Info
+: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95ae7888eab8f157c2bc53e24557f2a8458">mcd::Logger</a>
 </li>
 <li>LOST
 : <a class="el" href="d0/ddd/a01044.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995">mcd::PathfindingException</a>
@@ -114,14 +114,14 @@ $(document).ready(function(){initNavTree('functions_eval.php','');});
 <li>NONE
 : <a class="el" href="d0/ddd/a01044.php#a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d">mcd::PathfindingException</a>
 </li>
-<li>OFF
-: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95aec03d0d7dfe9026cc03f6a027d0dc572">mcd::Logger</a>
+<li>Off
+: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a0bab71bd19d6bf8a3e85aaf73e41814a">mcd::Logger</a>
 </li>
 <li>OTHER
 : <a class="el" href="d0/ddd/a01044.php#a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982">mcd::PathfindingException</a>
 </li>
-<li>WARN
-: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a5c7fb9b9c155b682a438d0ecda6ccddb">mcd::Logger</a>
+<li>Warn
+: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a97b60120ff602c7d5050124927962f79">mcd::Logger</a>
 </li>
 </ul>
 </div><!-- contents -->

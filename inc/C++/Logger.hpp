@@ -3,7 +3,7 @@
 *	\file		Logger.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	Saturday November, 09 2019 17:01:15
-*	\modified	Saturday November, 13 2019
+*	\modified	November, 22 2019
 *
 */
 #ifndef HEADER_LOGGER
@@ -23,13 +23,13 @@ namespace mcd {
 		public:
 			/* Internal enums of Logger */
 				enum Level {
-					ALL=0,
-					DEBUG,
-					INFO,
-					WARN,
-					ERROR,
-					FATAL,
-					OFF
+					All=0,
+					Debug,
+					Info,
+					Warn,
+					Error,
+					Fatal,
+					Off
 				};
 			/* Constructors & Destructor of Logger */
 				/*! \brief	The constructor of the class */
@@ -49,6 +49,7 @@ namespace mcd {
 			/* Others members of Logger */
 				/*!
 				* \brief		Initialize the logger with the logger config file location
+				* \details		If the file does not exists, a default file is created.
 				* \param[in]	logConfigFile	The logger config file location
 				* \return		void
 				*/
@@ -98,23 +99,24 @@ namespace mcd {
 
 					DateTime date;
 					std::stringstream sstr;
+					_actLevel = level;
 
 					sstr << date.get() << " [ ";
 
 					switch(level){
-						case DEBUG:
+						case Debug:
 							sstr << "DEBUG";
 							break;
-						case INFO:
+						case Info:
 							sstr << "INFO";
 							break;
-						case WARN:
+						case Warn:
 							sstr << "WARNING";
 							break;
-						case ERROR:
+						case Error:
 							sstr << "ERROR";
 							break;
-						case FATAL:
+						case Fatal:
 							sstr << "FATAL";
 							break;
 						default:
@@ -182,7 +184,27 @@ namespace mcd {
 				write.close();
 
 				#ifdef DEBUG
-					std::cout << sstr.str();
+					std::stringstream output;
+
+					switch(_actLevel){
+						case Debug:
+						case Info:
+							output << Color(Colors::BLUE_F);
+							break;
+						case Warn:
+							output << Color(Colors::LIGHT_YELLOW_F);
+							break;
+						case Error:
+						case Fatal:
+							output << Color(Colors::RED_F);
+							break;
+						default:
+							break;
+					}
+
+					output << sstr.str();
+					output << Color(Colors::NORMAL);
+					std::cout << output.str();
 				#endif
 
 				return;
@@ -215,13 +237,14 @@ namespace mcd {
 
 				std::string _logFile;
 				Level _printedLevel;
+				Level _actLevel;
 	};
 
 	extern Logger logger;
 	#define logs(LEVEL, ...) logger.log(LEVEL, __LINE__, __FILE__, __VA_ARGS__)
 
-	#define debug_log() logs(mcd::Logger::DEBUG)
-	#define debug_logs(...) logs(mcd::Logger::DEBUG, __VA_ARGS__)
+	#define debug_log() logs(mcd::Logger::Debug)
+	#define debug_logs(...) logs(mcd::Logger::Debug, __VA_ARGS__)
 }
 
 #endif //HEADER_LOGGER

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Nov 21 2019 17:15:52 for C++ by";
+				$text = "Generated on Sat Nov 23 2019 16:47:51 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -96,8 +96,8 @@ $(document).ready(function(){initNavTree('functions_w.php','');});
 : <a class="el" href="da/d2e/a00238.php#a26d74e808a118c6ed654a66a8c248480">mcd::ContraptionAttr</a>
 , <a class="el" href="da/d2e/a00238.php#a5e12726e58baa05036bc160c31d08016">mcd::WorldDimensions</a>
 </li>
-<li>WARN
-: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a5c7fb9b9c155b682a438d0ecda6ccddb">mcd::Logger</a>
+<li>Warn
+: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a97b60120ff602c7d5050124927962f79">mcd::Logger</a>
 </li>
 <li>weekDay()
 : <a class="el" href="dd/d11/a00960.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>

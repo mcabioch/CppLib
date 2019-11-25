@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Nov 21 2019 17:15:52 for C++ by";
+				$text = "Generated on Sat Nov 23 2019 16:47:51 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -125,11 +125,11 @@ $(document).ready(function(){initNavTree('functions_l.php','');});
 <li>Logger()
 : <a class="el" href="d7/d76/a00992.php#a189cdd6486b23632d014a2e795ed8e13">mcd::Logger</a>
 </li>
-<li>Lost()
-: <a class="el" href="d0/ddd/a01044.php#a933816a487769eec830729b051d0fbcd">mcd::PathfindingException</a>
-</li>
 <li>LOST
 : <a class="el" href="d0/ddd/a01044.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995">mcd::PathfindingException</a>
+</li>
+<li>Lost()
+: <a class="el" href="d0/ddd/a01044.php#a933816a487769eec830729b051d0fbcd">mcd::PathfindingException</a>
 </li>
 <li>lost()
 : <a class="el" href="d5/d16/a01060.php#a7582710c11a7b92d9912f414a5296975">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>

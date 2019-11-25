@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Nov 21 2019 17:15:52 for C++ by";
+				$text = "Generated on Sat Nov 23 2019 16:47:48 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -198,9 +198,9 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:ae48c93288111b5c36c6e44117992a8f3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d98/a00107.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(LEVEL, ...)&#160;&#160;&#160;logger.log(LEVEL, __LINE__, __FILE__, __VA_ARGS__)</td></tr>
 <tr class="separator:ae48c93288111b5c36c6e44117992a8f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46d5e25a59c0c1ab0d7e8fc3812454a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d98/a00107.php#a46d5e25a59c0c1ab0d7e8fc3812454a0">debug_log</a>()&#160;&#160;&#160;<a class="el" href="../../df/d98/a00107.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a2317dfad63407c5b05415b976cff9030">mcd::Logger::DEBUG</a>)</td></tr>
+<tr class="memitem:a46d5e25a59c0c1ab0d7e8fc3812454a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d98/a00107.php#a46d5e25a59c0c1ab0d7e8fc3812454a0">debug_log</a>()&#160;&#160;&#160;<a class="el" href="../../df/d98/a00107.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger::Debug</a>)</td></tr>
 <tr class="separator:a46d5e25a59c0c1ab0d7e8fc3812454a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e44394dedcf599237302e670d0fbd30"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d98/a00107.php#a4e44394dedcf599237302e670d0fbd30">debug_logs</a>(...)&#160;&#160;&#160;<a class="el" href="../../df/d98/a00107.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a2317dfad63407c5b05415b976cff9030">mcd::Logger::DEBUG</a>, __VA_ARGS__)</td></tr>
+<tr class="memitem:a4e44394dedcf599237302e670d0fbd30"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d98/a00107.php#a4e44394dedcf599237302e670d0fbd30">debug_logs</a>(...)&#160;&#160;&#160;<a class="el" href="../../df/d98/a00107.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger::Debug</a>, __VA_ARGS__)</td></tr>
 <tr class="separator:a4e44394dedcf599237302e670d0fbd30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -212,7 +212,7 @@ Variables</h2></td></tr>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Created : Saturday November, 09 2019 17:01:15 </dd>
 <dd>
-Last modification : Saturday November, 13 2019 </dd></dl>
+Last modification : November, 22 2019 </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a46d5e25a59c0c1ab0d7e8fc3812454a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a46d5e25a59c0c1ab0d7e8fc3812454a0">&#9670;&nbsp;</a></span>debug_log</h2>
@@ -224,7 +224,7 @@ Last modification : Saturday November, 13 2019 </dd></dl>
           <td class="memname">#define debug_log</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../df/d98/a00107.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a2317dfad63407c5b05415b976cff9030">mcd::Logger::DEBUG</a>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../df/d98/a00107.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger::Debug</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -242,7 +242,7 @@ Last modification : Saturday November, 13 2019 </dd></dl>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../df/d98/a00107.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a2317dfad63407c5b05415b976cff9030">mcd::Logger::DEBUG</a>, __VA_ARGS__)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../df/d98/a00107.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger::Debug</a>, __VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -7,7 +7,8 @@ namespace mcd {
 		_mutex(),
 		_initialized(false),
 		_logFile(""),
-		_printedLevel(ALL)
+		_printedLevel(All),
+		_actLevel(Off)
 	{
 		_nbInstance++;
 
@@ -47,7 +48,7 @@ namespace mcd {
 			} else if(parts[0] == "level"){
 				int level = toi(parts[1]);
 				if(level < 0){ level = 0; }
-				if(Level(level) > OFF){ level = toi(tos(OFF)); }
+				if(Level(level) > Off){ level = toi(tos(Off)); }
 
 				_printedLevel = Level(level);
 			}
@@ -77,7 +78,7 @@ namespace mcd {
 
 			write << "# Destination of the log messages\n";
 			write << "output:res/logs/latest.log\n";
-			write << "\n# ALL(0), DEBUG(1), INFO(2), WARN(3), ERROR(4), FATAL(5), OFF(6)\n";
+			write << "\n# All(0), Debug(1), Info(2), Warn(3), Error(4), Fatal(5), Off(6)\n";
 			write << "level:1\n";
 
 			write.close();

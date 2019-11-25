@@ -5,7 +5,7 @@ var searchData=
   ['datetime',['DateTime',['../da/d17/a00964.php',1,'mcd::DateTime'],['../da/d17/a00964.php#a29a8b25abb19ebb2d5cce889ea81dd5a',1,'mcd::DateTime::DateTime()'],['../da/d17/a00964.php#a75ee007e7111b318ad38a7b53cdd48ae',1,'mcd::DateTime::DateTime(const std::string &amp;datetime)']]],
   ['datetime_2ehpp',['DateTime.hpp',['../db/db6/a00074.php',1,'']]],
   ['day',['day',['../dd/d11/a00960.php#a10a48f5b93ee6c3e7ba43c5de5fa56bd',1,'mcd::Date']]],
-  ['debug',['DEBUG',['../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a2317dfad63407c5b05415b976cff9030',1,'mcd::Logger']]],
+  ['debug',['Debug',['../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e',1,'mcd::Logger']]],
   ['debug_5fdlog',['debug_dlog',['../da/d2a/a00086.php#a6743e67ef3323372193a9936858a6fb8',1,'errors.hpp']]],
   ['debug_5fdlogs',['debug_dlogs',['../da/d2a/a00086.php#a54252dbab5b5524cae2163d7c4bbf456',1,'errors.hpp']]],
   ['debug_5felog',['debug_elog',['../da/d2a/a00086.php#abfef935e08c6c7f3d9247920b01659b1',1,'errors.hpp']]],

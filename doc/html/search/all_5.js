@@ -7,7 +7,7 @@ var searchData=
   ['entity',['Entity',['../de/d4e/a00972.php',1,'mcd::Entity'],['../de/d4e/a00972.php#a5b9f9a89a85d2c396e5556ad468131fa',1,'mcd::Entity::Entity()']]],
   ['entity_2ehpp',['Entity.hpp',['../d2/d1f/a00083.php',1,'']]],
   ['equilibrate',['equilibrate',['../dd/dcb/a01104.php#a38b40b07bade18a081d80596983dd16c',1,'mcd::Tree']]],
-  ['error',['ERROR',['../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8b436988ab5aa21a575cab658caa5d27',1,'mcd::Logger::ERROR()'],['../da/d2e/a00238.php#a7350be9df9566241dfb80071a89f9edeabb1ca97ec761fc37101737ba0aa2e7c5',1,'mcd::ERROR()']]],
+  ['error',['Error',['../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a98b026269a3081d4a4801bc7418e1d47',1,'mcd::Logger::Error()'],['../da/d2e/a00238.php#a7350be9df9566241dfb80071a89f9edeabb1ca97ec761fc37101737ba0aa2e7c5',1,'mcd::ERROR()']]],
   ['error_5flog',['error_log',['../da/d2e/a00238.php#a1a14f66f0c6eba0c77338364977658e1',1,'mcd']]],
   ['errors_2ehpp',['errors.hpp',['../da/d2a/a00086.php',1,'']]],
   ['eucl',['eucl',['../da/d2e/a00238.php#a10764d50321a1ff81cc7cd4a9f7e42bc',1,'mcd']]],

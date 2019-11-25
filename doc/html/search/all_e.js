@@ -3,7 +3,7 @@ var searchData=
   ['object',['Object',['../d4/dc5/a01024.php',1,'mcd::Object'],['../d4/dc5/a01024.php#ad332f3a57527a6ede1be2e18b65615a5',1,'mcd::Object::Object()']]],
   ['object_2ehpp',['Object.hpp',['../d9/db6/a00146.php',1,'']]],
   ['obstacle',['OBSTACLE',['../da/d2e/a00238.php#a7350be9df9566241dfb80071a89f9edea2399122c182da0d5946e2937bb73edf2',1,'mcd']]],
-  ['off',['OFF',['../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95aec03d0d7dfe9026cc03f6a027d0dc572',1,'mcd::Logger']]],
+  ['off',['Off',['../d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a0bab71bd19d6bf8a3e85aaf73e41814a',1,'mcd::Logger']]],
   ['oncompare',['onCompare',['../dd/dcb/a01104.php#a279d0472004ed9618dde58fcfd6bb508',1,'mcd::Tree']]],
   ['ondelete',['onDelete',['../dd/dcb/a01104.php#ad9cda4b45c11828381cde08fa48ae94d',1,'mcd::Tree']]],
   ['operator_20_26',['operator &amp;',['../d3/d13/a00836.php#ae18ae6dbf2af067445959151e085388f',1,'mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator &amp;(const Binary&lt; T &gt; &amp;b)'],['../d3/d13/a00836.php#a6ef6c76509377f56c942e3f96bb7cd0d',1,'mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator &amp;(const T &amp;b)'],['../dc/d51/a01120.php#a638a7edb18434ca9a2fa3be7e1d3563b',1,'mcd::vector::operator &amp;()']]],

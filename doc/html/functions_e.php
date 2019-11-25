@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Nov 21 2019 17:15:52 for C++ by";
+				$text = "Generated on Sat Nov 23 2019 16:47:51 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -105,8 +105,8 @@ $(document).ready(function(){initNavTree('functions_e.php','');});
 <li>equilibrate()
 : <a class="el" href="dd/dcb/a01104.php#a38b40b07bade18a081d80596983dd16c">mcd::Tree&lt; T &gt;</a>
 </li>
-<li>ERROR
-: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8b436988ab5aa21a575cab658caa5d27">mcd::Logger</a>
+<li>Error
+: <a class="el" href="d7/d76/a00992.php#a25d94050e8e7f91c7e1f02ddc2af8e95a98b026269a3081d4a4801bc7418e1d47">mcd::Logger</a>
 </li>
 </ul>
 </div><!-- contents -->
