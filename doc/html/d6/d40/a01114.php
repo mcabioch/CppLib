@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 30 2019 15:18:57 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 18:26:03 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -191,15 +191,6 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d6/d40/a01114_a93774d1792effab8a46379c6781729f0_cgraph.png" border="0" usemap="#d6/d40/a01114_a93774d1792effab8a46379c6781729f0_cgraph" alt=""/></div>
-<map name="d6/d40/a01114_a93774d1792effab8a46379c6781729f0_cgraph" id="d6/d40/a01114_a93774d1792effab8a46379c6781729f0_cgraph">
-<area shape="rect" id="node2" href="../../d6/d08/a00244.php#aa17a2314efb86933584ae451318a17da" title="Function to sort a tree ascendently depending on weights. " alt="" coords="172,5,307,32"/>
-<area shape="rect" id="node3" href="../../d6/d08/a00244.php#a1865ef6e7eed9ac5fa5b177b3f8dd1e9" title="Function to sort a tree descendently depending on weights. " alt="" coords="168,56,311,83"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -389,6 +380,15 @@ template&lt;typename U &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return <em>in</em> converted for the tree </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/d40/a01114_a22b22135964e818cd9d0ef9ded9f39de_cgraph.png" border="0" usemap="#d6/d40/a01114_a22b22135964e818cd9d0ef9ded9f39de_cgraph" alt=""/></div>
+<map name="d6/d40/a01114_a22b22135964e818cd9d0ef9ded9f39de_cgraph" id="d6/d40/a01114_a22b22135964e818cd9d0ef9ded9f39de_cgraph">
+<area shape="rect" id="node2" href="../../d6/d08/a00244.php#aa17a2314efb86933584ae451318a17da" title="Function to sort a tree ascendently depending on weights. " alt="" coords="189,5,324,32"/>
+<area shape="rect" id="node3" href="../../d6/d08/a00244.php#a1865ef6e7eed9ac5fa5b177b3f8dd1e9" title="Function to sort a tree descendently depending on weights. " alt="" coords="185,56,328,83"/>
+</map>
+</div>
 
 </div>
 </div>

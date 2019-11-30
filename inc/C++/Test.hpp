@@ -163,7 +163,7 @@ namespace mcd {
 	unit_true(A == B)
 
 	#define unit_notEquals(A, B) \
-	unit_false(A == B)
+	unit_true(!(A == B))
 
 	#define unit_in(VALUE, ARRAY) \
 	mcd::Test::in(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__})

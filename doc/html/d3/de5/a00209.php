@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 30 2019 15:18:56 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 18:26:01 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -215,7 +215,7 @@ Macros</h2></td></tr>
 <tr class="separator:a8882f6cc17a922e91f806a24b4a6f413"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9544a2b3d82fbf7b0913fb29ae4ab1d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#ac9544a2b3d82fbf7b0913fb29ae4ab1d">unit_equals</a>(A,  B)&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a8ed24c910b9c861fde0ee37cc53a26f2">unit_true</a>(A == B)</td></tr>
 <tr class="separator:ac9544a2b3d82fbf7b0913fb29ae4ab1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe6f23e4ac49c7bcf76fa26e710db6b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#abe6f23e4ac49c7bcf76fa26e710db6b4">unit_notEquals</a>(A,  B)&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a8882f6cc17a922e91f806a24b4a6f413">unit_false</a>(A == B)</td></tr>
+<tr class="memitem:abe6f23e4ac49c7bcf76fa26e710db6b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#abe6f23e4ac49c7bcf76fa26e710db6b4">unit_notEquals</a>(A,  B)&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a8ed24c910b9c861fde0ee37cc53a26f2">unit_true</a>(!(A == B))</td></tr>
 <tr class="separator:abe6f23e4ac49c7bcf76fa26e710db6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31dc59c312f6beaf52e720c5a7dcc017"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a31dc59c312f6beaf52e720c5a7dcc017">unit_in</a>(VALUE,  ARRAY)&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#a0039d201bb954bcf7abd3882a72a4aba">mcd::Test::in</a>(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td></tr>
 <tr class="separator:a31dc59c312f6beaf52e720c5a7dcc017"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -479,7 +479,7 @@ Last modification : November, 30 2019 </dd></dl>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a8882f6cc17a922e91f806a24b4a6f413">unit_false</a>(A == B)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a8ed24c910b9c861fde0ee37cc53a26f2">unit_true</a>(!(A == B))</td>
         </tr>
       </table>
 </div><div class="memdoc">

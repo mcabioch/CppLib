@@ -2,7 +2,7 @@
 *
 *	\file		Tree.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		November, 09 2019
+*	\date		November, 30 2019
 *
 */
 #ifndef HEADER_CPP_TREE
@@ -90,13 +90,13 @@ namespace mcd {
 	class Tree {
 		public:
 			explicit Tree(TREE_SORT sorting = ASC) :
-				_root(nullptr)
+				_root(nullptr),
+				_sorting(sorting),
+				comparator(nullptr),
+				deleter(nullptr),
+				copier(nullptr)
 			{
-				this->envoid();
-				deleter = &treeDeleter;
-				if(sorting == ASC){ comparator = &treeAscSorter; }
-				else { comparator = &treeDescSorter; }
-				copier = &copyData;
+				this->init();
 			}
 			~Tree(){
 				freeTree(_root);
@@ -309,6 +309,20 @@ namespace mcd {
 			void desc(){
 				comparator = nullptr;
 				comparator = &treeDescSorter;
+			}
+
+		private:
+			Tree(const Tree& other) :
+				_root(nullptr),
+				_sorting(other._sorting),
+				comparator(nullptr),
+				deleter(nullptr),
+				copier(nullptr)
+			{
+				*this = other;
+			}
+			Tree operator=(const Tree& other){
+				this->init();
 			}
 
 		public:
@@ -609,6 +623,14 @@ namespace mcd {
 				copier = nullptr;
 			}
 
+			void init(){
+				this->envoid();
+				deleter = &treeDeleter;
+				if(_sorting == ASC){ comparator = &treeAscSorter; }
+				else { comparator = &treeDescSorter; }
+				copier = &copyData;
+			}
+
 		private:
 			/*!
 			* \brief	A function to print the node value in cout stream
@@ -653,6 +675,7 @@ namespace mcd {
 
 		private:
 			Node<T>* _root;
+			TREE_SORT _sorting;
 
 			TREE_DIRECTION (*comparator)(std::pair<T, NodeWeight>, std::pair<T, NodeWeight>);
 			void (*deleter)(Node<T>*);

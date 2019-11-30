@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 30 2019 15:18:55 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 18:26:00 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -208,8 +208,8 @@ Macros</h2></td></tr>
 <tr class="separator:aeb5765b3fff243e2890aaa95685cff04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03a10d236fc4f20f3112800357d031b8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.php#a03a10d236fc4f20f3112800357d031b8">trycatch_assert_1</a>(EXPR)&#160;&#160;&#160;<a class="el" href="../../d4/d51/a00017.php#aeb5765b3fff243e2890aaa95685cff04">trycatch_assert_2</a>(EXPR, std::function&lt;void()&gt;())</td></tr>
 <tr class="separator:a03a10d236fc4f20f3112800357d031b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2ec5eb3d295852342cb614af475ac6c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.php#ad2ec5eb3d295852342cb614af475ac6c">trycatch_assert_X</a>(x,  FUNC, ...)&#160;&#160;&#160;FUNC</td></tr>
-<tr class="separator:ad2ec5eb3d295852342cb614af475ac6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d54e82e2c44992f7970be8337f7c3e9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.php#a5d54e82e2c44992f7970be8337f7c3e9">trycatch_assert_X</a>(x,  A,  FUNC, ...)&#160;&#160;&#160;FUNC</td></tr>
+<tr class="separator:a5d54e82e2c44992f7970be8337f7c3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20506cf4a1f5163830310250a8d3d1ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.php#a20506cf4a1f5163830310250a8d3d1ba">trycatch_assert</a>(...)</td></tr>
 <tr class="separator:a20506cf4a1f5163830310250a8d3d1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -302,9 +302,9 @@ line</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d4/d51/a00017.php#ad2ec5eb3d295852342cb614af475ac6c">trycatch_assert_X</a>(,##__VA_ARGS__,\</div><div class="line">                                  <a class="code" href="../../d4/d51/a00017.php#aeb5765b3fff243e2890aaa95685cff04">trycatch_assert_2</a>(__VA_ARGS__),\</div><div class="line">                                  <a class="code" href="../../d4/d51/a00017.php#a03a10d236fc4f20f3112800357d031b8">trycatch_assert_1</a>(__VA_ARGS__),\</div><div class="line">                                 )</div><div class="ttc" id="a00017_php_a03a10d236fc4f20f3112800357d031b8"><div class="ttname"><a href="../../d4/d51/a00017.php#a03a10d236fc4f20f3112800357d031b8">trycatch_assert_1</a></div><div class="ttdeci">#define trycatch_assert_1(EXPR)</div><div class="ttdef"><b>Definition:</b> Assert.hpp:45</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d4/d51/a00017.php#a5d54e82e2c44992f7970be8337f7c3e9">trycatch_assert_X</a>(__VA_ARGS__,\</div><div class="line">                                  <a class="code" href="../../d4/d51/a00017.php#aeb5765b3fff243e2890aaa95685cff04">trycatch_assert_2</a>(__VA_ARGS__),\</div><div class="line">                                  <a class="code" href="../../d4/d51/a00017.php#a03a10d236fc4f20f3112800357d031b8">trycatch_assert_1</a>(__VA_ARGS__),\</div><div class="line">                                 )</div><div class="ttc" id="a00017_php_a03a10d236fc4f20f3112800357d031b8"><div class="ttname"><a href="../../d4/d51/a00017.php#a03a10d236fc4f20f3112800357d031b8">trycatch_assert_1</a></div><div class="ttdeci">#define trycatch_assert_1(EXPR)</div><div class="ttdef"><b>Definition:</b> Assert.hpp:45</div></div>
 <div class="ttc" id="a00017_php_aeb5765b3fff243e2890aaa95685cff04"><div class="ttname"><a href="../../d4/d51/a00017.php#aeb5765b3fff243e2890aaa95685cff04">trycatch_assert_2</a></div><div class="ttdeci">#define trycatch_assert_2(EXPR, INSTEAD)</div><div class="ttdef"><b>Definition:</b> Assert.hpp:39</div></div>
-<div class="ttc" id="a00017_php_ad2ec5eb3d295852342cb614af475ac6c"><div class="ttname"><a href="../../d4/d51/a00017.php#ad2ec5eb3d295852342cb614af475ac6c">trycatch_assert_X</a></div><div class="ttdeci">#define trycatch_assert_X(x, FUNC,...)</div><div class="ttdef"><b>Definition:</b> Assert.hpp:48</div></div>
+<div class="ttc" id="a00017_php_a5d54e82e2c44992f7970be8337f7c3e9"><div class="ttname"><a href="../../d4/d51/a00017.php#a5d54e82e2c44992f7970be8337f7c3e9">trycatch_assert_X</a></div><div class="ttdeci">#define trycatch_assert_X(x, A, FUNC,...)</div><div class="ttdef"><b>Definition:</b> Assert.hpp:48</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -362,8 +362,8 @@ line</td>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ad2ec5eb3d295852342cb614af475ac6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2ec5eb3d295852342cb614af475ac6c">&#9670;&nbsp;</a></span>trycatch_assert_X</h2>
+<a id="a5d54e82e2c44992f7970be8337f7c3e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d54e82e2c44992f7970be8337f7c3e9">&#9670;&nbsp;</a></span>trycatch_assert_X</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -373,6 +373,12 @@ line</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">A, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
