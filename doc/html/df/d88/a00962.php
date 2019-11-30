@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Hostile Class Reference</title>
+		<title>C++: mcd::RSA Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:57 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -94,77 +94,90 @@ $(document).ready(function(){initNavTree('df/d88/a00962.php','../../');});
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../db/d40/a00959.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Hostile Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">mcd::RSA Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to derivate from when the thing can attack.  
+<p>A class to use the <a class="el" href="../../df/d88/a00962.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption.  
  <a href="../../df/d88/a00962.php#details">More...</a></p>
 
-<p><code>#include &lt;Hostile.hpp&gt;</code></p>
+<p><code>#include &lt;cryptage.hpp&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for mcd::Hostile:</div>
+Inheritance diagram for mcd::RSA:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/d45/a00961.png" border="0" usemap="#mcd_1_1Hostile_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1Hostile_inherit__map" id="mcd_1_1Hostile_inherit__map">
-<area shape="rect" id="node2" href="../../da/d96/a00782.php" title="An animal. " alt="" coords="6,80,101,107"/>
-<area shape="rect" id="node3" href="../../d0/d7d/a00786.php" title="An ant. " alt="" coords="16,155,91,181"/>
+<div class="center"><img src="../../da/d45/a00961.png" border="0" usemap="#mcd_1_1RSA_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1RSA_inherit__map" id="mcd_1_1RSA_inherit__map">
+<area shape="rect" id="node2" href="../../da/d40/a00946.php" title="A class to be the parent for every crypt class. " alt="" coords="23,80,118,107"/>
+<area shape="rect" id="node3" href="../../d1/dd8/a01022.php" title="A class to let some other not to be copyable. " alt="" coords="5,5,136,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::RSA:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/d11/a00960.png" border="0" usemap="#mcd_1_1RSA_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1RSA_coll__map" id="mcd_1_1RSA_coll__map">
+<area shape="rect" id="node2" href="../../da/d40/a00946.php" title="A class to be the parent for every crypt class. " alt="" coords="34,96,129,123"/>
+<area shape="rect" id="node3" href="../../d1/dd8/a01022.php" title="A class to let some other not to be copyable. " alt="" coords="5,13,136,39"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="173,96,253,123"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="161,5,287,47"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a08a1386aff1a9289823113ef90c14927"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#a08a1386aff1a9289823113ef90c14927">Hostile</a> ()</td></tr>
-<tr class="memdesc:a08a1386aff1a9289823113ef90c14927"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a08a1386aff1a9289823113ef90c14927">More...</a><br /></td></tr>
-<tr class="separator:a08a1386aff1a9289823113ef90c14927"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15a43b724736b8e509e9767231d3c8c6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#a15a43b724736b8e509e9767231d3c8c6">~Hostile</a> ()</td></tr>
-<tr class="memdesc:a15a43b724736b8e509e9767231d3c8c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#a15a43b724736b8e509e9767231d3c8c6">More...</a><br /></td></tr>
-<tr class="separator:a15a43b724736b8e509e9767231d3c8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8de9dffab818f0e4f742bb9709ee86c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#a8de9dffab818f0e4f742bb9709ee86c7">setStrength</a> (<a class="el" href="../../d0/d53/a00232.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> strength)</td></tr>
-<tr class="memdesc:a8de9dffab818f0e4f742bb9709ee86c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../df/d88/a00962.php" title="A class to derivate from when the thing can attack. ">Hostile</a>'s strength.  <a href="#a8de9dffab818f0e4f742bb9709ee86c7">More...</a><br /></td></tr>
-<tr class="separator:a8de9dffab818f0e4f742bb9709ee86c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab809b87f0624b1ca1a6178a74ae32684"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#ab809b87f0624b1ca1a6178a74ae32684">setTarget</a> (<a class="el" href="../../d3/dca/a00954.php">Entity</a> *target)</td></tr>
-<tr class="memdesc:ab809b87f0624b1ca1a6178a74ae32684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../df/d88/a00962.php" title="A class to derivate from when the thing can attack. ">Hostile</a>'s strength.  <a href="#ab809b87f0624b1ca1a6178a74ae32684">More...</a><br /></td></tr>
-<tr class="separator:ab809b87f0624b1ca1a6178a74ae32684"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6301018ead1f9778a74dc6d4b8e1daff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d53/a00232.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#a6301018ead1f9778a74dc6d4b8e1daff">getStrength</a> () const</td></tr>
-<tr class="memdesc:a6301018ead1f9778a74dc6d4b8e1daff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Hotsile's strength.  <a href="#a6301018ead1f9778a74dc6d4b8e1daff">More...</a><br /></td></tr>
-<tr class="separator:a6301018ead1f9778a74dc6d4b8e1daff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13299f1f64259b76ddf0a43dd97a4864"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dca/a00954.php">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#a13299f1f64259b76ddf0a43dd97a4864">getTarget</a> () const</td></tr>
-<tr class="memdesc:a13299f1f64259b76ddf0a43dd97a4864"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Hotsile's target.  <a href="#a13299f1f64259b76ddf0a43dd97a4864">More...</a><br /></td></tr>
-<tr class="separator:a13299f1f64259b76ddf0a43dd97a4864"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec10db200677dfaecd711eb03cd0baee"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#aec10db200677dfaecd711eb03cd0baee">printInfos</a> (std::ostream &amp;stream) const</td></tr>
-<tr class="memdesc:aec10db200677dfaecd711eb03cd0baee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the infos in the instance of the class in <em>stream</em>.  <a href="#aec10db200677dfaecd711eb03cd0baee">More...</a><br /></td></tr>
-<tr class="separator:aec10db200677dfaecd711eb03cd0baee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbaa53140e5e1bf40606e4ff3d4a947d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#afbaa53140e5e1bf40606e4ff3d4a947d">hurt</a> (<a class="el" href="../../d3/dca/a00954.php">Entity</a> *target=nullptr)</td></tr>
-<tr class="memdesc:afbaa53140e5e1bf40606e4ff3d4a947d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hurt the target.  <a href="#afbaa53140e5e1bf40606e4ff3d4a947d">More...</a><br /></td></tr>
-<tr class="separator:afbaa53140e5e1bf40606e4ff3d4a947d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7443b49cf0f2564e4209b3ae6867b5cc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#a7443b49cf0f2564e4209b3ae6867b5cc">attack</a> (<a class="el" href="../../d3/dca/a00954.php">Entity</a> *target=nullptr)=0</td></tr>
-<tr class="memdesc:a7443b49cf0f2564e4209b3ae6867b5cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attack.  <a href="#a7443b49cf0f2564e4209b3ae6867b5cc">More...</a><br /></td></tr>
-<tr class="separator:a7443b49cf0f2564e4209b3ae6867b5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e31fc96bd37fc2a8811ecfe600c62a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#a3e31fc96bd37fc2a8811ecfe600c62a0">untarget</a> ()</td></tr>
-<tr class="memdesc:a3e31fc96bd37fc2a8811ecfe600c62a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the target to null.  <a href="#a3e31fc96bd37fc2a8811ecfe600c62a0">More...</a><br /></td></tr>
-<tr class="separator:a3e31fc96bd37fc2a8811ecfe600c62a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a022907735103df44ce25774a289cede1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#a022907735103df44ce25774a289cede1">RSA</a> ()</td></tr>
+<tr class="separator:a022907735103df44ce25774a289cede1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d09972656fd75b2377a173a30692db6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#a9d09972656fd75b2377a173a30692db6">~RSA</a> ()</td></tr>
+<tr class="separator:a9d09972656fd75b2377a173a30692db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fdf2f24700983208b6bfab8df8ef911"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#a7fdf2f24700983208b6bfab8df8ef911">getPublic</a> () const</td></tr>
+<tr class="memdesc:a7fdf2f24700983208b6bfab8df8ef911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the public key.  <a href="#a7fdf2f24700983208b6bfab8df8ef911">More...</a><br /></td></tr>
+<tr class="separator:a7fdf2f24700983208b6bfab8df8ef911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac38c1c5dff307a8dd9ce9c00b8df8b87"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#ac38c1c5dff307a8dd9ce9c00b8df8b87">getPrivate</a> () const</td></tr>
+<tr class="memdesc:ac38c1c5dff307a8dd9ce9c00b8df8b87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the private key.  <a href="#ac38c1c5dff307a8dd9ce9c00b8df8b87">More...</a><br /></td></tr>
+<tr class="separator:ac38c1c5dff307a8dd9ce9c00b8df8b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fcb230195d7b3fb73b8f62488dcc2e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#a4fcb230195d7b3fb73b8f62488dcc2e5">setPublic</a> (const std::string &amp;key=&quot;&quot;)</td></tr>
+<tr class="memdesc:a4fcb230195d7b3fb73b8f62488dcc2e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the public key.  <a href="#a4fcb230195d7b3fb73b8f62488dcc2e5">More...</a><br /></td></tr>
+<tr class="separator:a4fcb230195d7b3fb73b8f62488dcc2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9cb76b3198a8127bc0c771e3eb70b2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#aa9cb76b3198a8127bc0c771e3eb70b2d">setPrivate</a> (const std::string &amp;key=&quot;&quot;)</td></tr>
+<tr class="memdesc:aa9cb76b3198a8127bc0c771e3eb70b2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the private key.  <a href="#aa9cb76b3198a8127bc0c771e3eb70b2d">More...</a><br /></td></tr>
+<tr class="separator:aa9cb76b3198a8127bc0c771e3eb70b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad080bbc2c65c9690f38fa376ca65a985"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#ad080bbc2c65c9690f38fa376ca65a985">crypt</a> (const std::string &amp;message) override</td></tr>
+<tr class="memdesc:ad080bbc2c65c9690f38fa376ca65a985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the crypt <a class="el" href="../../da/d40/a00946.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method.  <a href="#ad080bbc2c65c9690f38fa376ca65a985">More...</a><br /></td></tr>
+<tr class="separator:ad080bbc2c65c9690f38fa376ca65a985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad831bd26ceeff7ad460bcabcad213155"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#ad831bd26ceeff7ad460bcabcad213155">decrypt</a> (const std::string &amp;message) override</td></tr>
+<tr class="memdesc:ad831bd26ceeff7ad460bcabcad213155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the decrypt <a class="el" href="../../da/d40/a00946.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method.  <a href="#ad831bd26ceeff7ad460bcabcad213155">More...</a><br /></td></tr>
+<tr class="separator:ad831bd26ceeff7ad460bcabcad213155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00946"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00946')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../da/d40/a00946.php">mcd::Crypto</a></td></tr>
+<tr class="memitem:a3f598383428868a9f69502e5de031ea5 inherit pub_methods_a00946"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.php#a3f598383428868a9f69502e5de031ea5">Crypto</a> ()</td></tr>
+<tr class="separator:a3f598383428868a9f69502e5de031ea5 inherit pub_methods_a00946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16276f74e2eac6b2174d06361791f056 inherit pub_methods_a00946"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.php#a16276f74e2eac6b2174d06361791f056">~Crypto</a> ()</td></tr>
+<tr class="separator:a16276f74e2eac6b2174d06361791f056 inherit pub_methods_a00946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a01022"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a01022')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d1/dd8/a01022.php">mcd::NotCopyable</a></td></tr>
+<tr class="memitem:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a01022"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd8/a01022.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a> ()</td></tr>
+<tr class="memdesc:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a01022"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d1/dd8/a01022.php#aa40da048522b578e9c2cc9f73c1a0d92">More...</a><br /></td></tr>
+<tr class="separator:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a01022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5efcd02383468e37e9c960f3d6f9d14c inherit pub_methods_a01022"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd8/a01022.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a> ()</td></tr>
+<tr class="separator:a5efcd02383468e37e9c960f3d6f9d14c inherit pub_methods_a01022"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aa074a05a487d5eb2f39895bc1fdeabe8"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d3/dca/a00954.php">Entity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#aa074a05a487d5eb2f39895bc1fdeabe8">_target</a></td></tr>
-<tr class="separator:aa074a05a487d5eb2f39895bc1fdeabe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56083f800ece1bfc951d64ed36c4b8c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#a56083f800ece1bfc951d64ed36c4b8c6">_attacked</a></td></tr>
-<tr class="separator:a56083f800ece1bfc951d64ed36c4b8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1aefccd5c541096961543779115d396"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#ac1aefccd5c541096961543779115d396">_attackedSpec</a></td></tr>
-<tr class="separator:ac1aefccd5c541096961543779115d396"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae37f658e3ba447726e0a0abd0f1ac5c8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#ae37f658e3ba447726e0a0abd0f1ac5c8">publicK</a></td></tr>
+<tr class="separator:ae37f658e3ba447726e0a0abd0f1ac5c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41496cdf1557d2e3dda4d0f414738af5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/a00962.php#a41496cdf1557d2e3dda4d0f414738af5">privateK</a></td></tr>
+<tr class="separator:a41496cdf1557d2e3dda4d0f414738af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to derivate from when the thing can attack. </p>
+<div class="textblock"><p>A class to use the <a class="el" href="../../df/d88/a00962.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption. </p>
+<dl class="todo"><dt><b><a class="el" href="../../d2/dc8/a00242.php#_todo000002">Todo:</a></b></dt><dd>Create the class </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a08a1386aff1a9289823113ef90c14927"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08a1386aff1a9289823113ef90c14927">&#9670;&nbsp;</a></span>Hostile()</h2>
+<a id="a022907735103df44ce25774a289cede1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a022907735103df44ce25774a289cede1">&#9670;&nbsp;</a></span>RSA()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::Hostile::Hostile </td>
+          <td class="memname">mcd::RSA::RSA </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -172,12 +185,10 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The constructor of the class. </p>
-
 </div>
 </div>
-<a id="a15a43b724736b8e509e9767231d3c8c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15a43b724736b8e509e9767231d3c8c6">&#9670;&nbsp;</a></span>~Hostile()</h2>
+<a id="a9d09972656fd75b2377a173a30692db6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d09972656fd75b2377a173a30692db6">&#9670;&nbsp;</a></span>~RSA()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,7 +197,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::Hostile::~Hostile </td>
+          <td class="memname">virtual mcd::RSA::~RSA </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -194,148 +205,25 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Virtual destructor. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7443b49cf0f2564e4209b3ae6867b5cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7443b49cf0f2564e4209b3ae6867b5cc">&#9670;&nbsp;</a></span>attack()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool mcd::Hostile::attack </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dca/a00954.php">Entity</a> *&#160;</td>
-          <td class="paramname"><em>target</em> = <code>nullptr</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Attack. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">target</td><td>The target to attack</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-<p>Implemented in <a class="el" href="../../da/d96/a00782.php#ae361d01e3894af2d3e1ded1975f39172">mcd::Animal</a>.</p>
-
-</div>
-</div>
-<a id="a6301018ead1f9778a74dc6d4b8e1daff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6301018ead1f9778a74dc6d4b8e1daff">&#9670;&nbsp;</a></span>getStrength()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d53/a00232.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Hostile::getStrength </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the Hotsile's strength. </p>
-<dl class="section return"><dt>Returns</dt><dd>Return the strength </dd></dl>
-
-</div>
-</div>
-<a id="a13299f1f64259b76ddf0a43dd97a4864"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13299f1f64259b76ddf0a43dd97a4864">&#9670;&nbsp;</a></span>getTarget()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/dca/a00954.php">Entity</a>* mcd::Hostile::getTarget </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the Hotsile's target. </p>
-<dl class="section return"><dt>Returns</dt><dd>Return the target </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../df/d88/a00962_a13299f1f64259b76ddf0a43dd97a4864_cgraph.png" border="0" usemap="#df/d88/a00962_a13299f1f64259b76ddf0a43dd97a4864_cgraph" alt=""/></div>
-<map name="df/d88/a00962_a13299f1f64259b76ddf0a43dd97a4864_cgraph" id="df/d88/a00962_a13299f1f64259b76ddf0a43dd97a4864_cgraph">
-<area shape="rect" id="node2" href="../../df/d88/a00962.php#aec10db200677dfaecd711eb03cd0baee" title="Print the infos in the instance of the class in stream. " alt="" coords="212,5,371,32"/>
-<area shape="rect" id="node3" href="../../df/d88/a00962.php#afbaa53140e5e1bf40606e4ff3d4a947d" title="Hurt the target. " alt="" coords="228,56,355,83"/>
-<area shape="rect" id="node4" href="../../df/d88/a00962.php#a7443b49cf0f2564e4209b3ae6867b5cc" title="Attack. " alt="" coords="221,107,361,133"/>
+<div class="center"><img src="../../df/d88/a00962_a9d09972656fd75b2377a173a30692db6_cgraph.png" border="0" usemap="#df/d88/a00962_a9d09972656fd75b2377a173a30692db6_cgraph" alt=""/></div>
+<map name="df/d88/a00962_a9d09972656fd75b2377a173a30692db6_cgraph" id="df/d88/a00962_a9d09972656fd75b2377a173a30692db6_cgraph">
+<area shape="rect" id="node2" href="../../da/d40/a00946.php#a2949148382033667a765326066311f21" title="mcd::Crypto::crypt" alt="" coords="187,5,318,32"/>
+<area shape="rect" id="node3" href="../../da/d40/a00946.php#a4d131065e81529530b7907ba397af30d" title="mcd::Crypto::decrypt" alt="" coords="180,56,325,83"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="afbaa53140e5e1bf40606e4ff3d4a947d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbaa53140e5e1bf40606e4ff3d4a947d">&#9670;&nbsp;</a></span>hurt()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::Hostile::hurt </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dca/a00954.php">Entity</a> *&#160;</td>
-          <td class="paramname"><em>target</em> = <code>nullptr</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Hurt the target. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">target</td><td>The target to hurt</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a id="aec10db200677dfaecd711eb03cd0baee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec10db200677dfaecd711eb03cd0baee">&#9670;&nbsp;</a></span>printInfos()</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad080bbc2c65c9690f38fa376ca65a985"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad080bbc2c65c9690f38fa376ca65a985">&#9670;&nbsp;</a></span>crypt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -344,134 +232,167 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void mcd::Hostile::printInfos </td>
+          <td class="memname">virtual std::string mcd::RSA::crypt </td>
           <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overload of the crypt <a class="el" href="../../da/d40/a00946.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">message</td><td>The message to encrypt</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the encrypted message </dd></dl>
+
+<p>Implements <a class="el" href="../../da/d40/a00946.php#a2949148382033667a765326066311f21">mcd::Crypto</a>.</p>
+
+</div>
+</div>
+<a id="ad831bd26ceeff7ad460bcabcad213155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad831bd26ceeff7ad460bcabcad213155">&#9670;&nbsp;</a></span>decrypt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string mcd::RSA::decrypt </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overload of the decrypt <a class="el" href="../../da/d40/a00946.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">message</td><td>The message to decrypt</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the decrypted message </dd></dl>
+
+<p>Implements <a class="el" href="../../da/d40/a00946.php#a4d131065e81529530b7907ba397af30d">mcd::Crypto</a>.</p>
+
+</div>
+</div>
+<a id="ac38c1c5dff307a8dd9ce9c00b8df8b87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac38c1c5dff307a8dd9ce9c00b8df8b87">&#9670;&nbsp;</a></span>getPrivate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mcd::RSA::getPrivate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Print the infos in the instance of the class in <em>stream</em>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>The output stream</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Reimplemented in <a class="el" href="../../da/d96/a00782.php#a64f627cdca203c3df393fd87c4d47bbb">mcd::Animal</a>, and <a class="el" href="../../d0/d7d/a00786.php#a2be4df8048e84830aca6eb2ac249e099">mcd::Ant</a>.</p>
+<p>Get the private key. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return the private key of the object </dd></dl>
 
 </div>
 </div>
-<a id="a8de9dffab818f0e4f742bb9709ee86c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8de9dffab818f0e4f742bb9709ee86c7">&#9670;&nbsp;</a></span>setStrength()</h2>
+<a id="a7fdf2f24700983208b6bfab8df8ef911"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fdf2f24700983208b6bfab8df8ef911">&#9670;&nbsp;</a></span>getPublic()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void mcd::Hostile::setStrength </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d53/a00232.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
-          <td class="paramname"><em>strength</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the <a class="el" href="../../df/d88/a00962.php" title="A class to derivate from when the thing can attack. ">Hostile</a>'s strength. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">strength</td><td>The new strength</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="ab809b87f0624b1ca1a6178a74ae32684"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab809b87f0624b1ca1a6178a74ae32684">&#9670;&nbsp;</a></span>setTarget()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Hostile::setTarget </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dca/a00954.php">Entity</a> *&#160;</td>
-          <td class="paramname"><em>target</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the <a class="el" href="../../df/d88/a00962.php" title="A class to derivate from when the thing can attack. ">Hostile</a>'s strength. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">target</td><td>The new target</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a3e31fc96bd37fc2a8811ecfe600c62a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e31fc96bd37fc2a8811ecfe600c62a0">&#9670;&nbsp;</a></span>untarget()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Hostile::untarget </td>
+          <td class="memname">std::string mcd::RSA::getPublic </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the public key. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return the public key of the object </dd></dl>
+
+</div>
+</div>
+<a id="aa9cb76b3198a8127bc0c771e3eb70b2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9cb76b3198a8127bc0c771e3eb70b2d">&#9670;&nbsp;</a></span>setPrivate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::RSA::setPrivate </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em> = <code>&quot;&quot;</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Set the target to null. </p>
+<p>Set the private key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The key</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a4fcb230195d7b3fb73b8f62488dcc2e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fcb230195d7b3fb73b8f62488dcc2e5">&#9670;&nbsp;</a></span>setPublic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::RSA::setPublic </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em> = <code>&quot;&quot;</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the public key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The key</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a56083f800ece1bfc951d64ed36c4b8c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56083f800ece1bfc951d64ed36c4b8c6">&#9670;&nbsp;</a></span>_attacked</h2>
+<a id="a41496cdf1557d2e3dda4d0f414738af5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41496cdf1557d2e3dda4d0f414738af5">&#9670;&nbsp;</a></span>privateK</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -480,7 +401,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool mcd::Hostile::_attacked</td>
+          <td class="memname">std::string mcd::RSA::privateK</td>
         </tr>
       </table>
   </td>
@@ -492,8 +413,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ac1aefccd5c541096961543779115d396"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1aefccd5c541096961543779115d396">&#9670;&nbsp;</a></span>_attackedSpec</h2>
+<a id="ae37f658e3ba447726e0a0abd0f1ac5c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae37f658e3ba447726e0a0abd0f1ac5c8">&#9670;&nbsp;</a></span>publicK</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -502,29 +423,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool mcd::Hostile::_attackedSpec</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa074a05a487d5eb2f39895bc1fdeabe8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa074a05a487d5eb2f39895bc1fdeabe8">&#9670;&nbsp;</a></span>_target</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d3/dca/a00954.php">Entity</a>&gt; mcd::Hostile::_target</td>
+          <td class="memname">std::string mcd::RSA::publicK</td>
         </tr>
       </table>
   </td>
@@ -537,7 +436,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../db/dab/a00089.php">Hostile.hpp</a></li>
+<li><a class="el" href="../../d0/d89/a00071.php">cryptage.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -545,7 +444,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d0/d53/a00232.php">mcd</a></li><li class="navelem"><a class="el" href="../../df/d88/a00962.php">Hostile</a></li>
+		<li class="navelem"><a class="el" href="../../d6/d08/a00244.php">mcd</a></li><li class="navelem"><a class="el" href="../../df/d88/a00962.php">RSA</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

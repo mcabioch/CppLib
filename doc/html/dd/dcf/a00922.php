@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Crypto Class Reference</title>
+		<title>C++: mcd::Cls Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:56 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,179 +93,82 @@ $(document).ready(function(){initNavTree('dd/dcf/a00922.php','../../');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../d1/d0b/a00919.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Crypto Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">mcd::Cls Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to be the parent for every crypt class.  
+<p>Clear the console.  
  <a href="../../dd/dcf/a00922.php#details">More...</a></p>
 
-<p><code>#include &lt;cryptage.hpp&gt;</code></p>
+<p><code>#include &lt;console.hpp&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for mcd::Crypto:</div>
+Inheritance diagram for mcd::Cls:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d7a/a00921.png" border="0" usemap="#mcd_1_1Crypto_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1Crypto_inherit__map" id="mcd_1_1Crypto_inherit__map">
-<area shape="rect" id="node3" href="../../d8/d38/a00926.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="5,155,96,181"/>
-<area shape="rect" id="node4" href="../../d0/df0/a00934.php" title="A class to test a homemade algorithm for encryption. " alt="" coords="121,155,226,181"/>
-<area shape="rect" id="node5" href="../../d5/d54/a00938.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="249,155,332,181"/>
-<area shape="rect" id="node6" href="../../d7/d16/a00930.php" title="An implementation of sha256 encryption. " alt="" coords="356,155,447,181"/>
-<area shape="rect" id="node2" href="../../d9/d9a/a00998.php" title="A class to let some other not to be copyable. " alt="" coords="167,5,297,32"/>
+<div class="center"><img src="../../dd/d7a/a00921.png" border="0" usemap="#mcd_1_1Cls_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1Cls_inherit__map" id="mcd_1_1Cls_inherit__map">
+<area shape="rect" id="node2" href="../../d3/dd1/a00914.php" title="Change the text color in the console. " alt="" coords="5,5,92,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for mcd::Crypto:</div>
+Collaboration diagram for mcd::Cls:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d6/d82/a00920.png" border="0" usemap="#mcd_1_1Crypto_coll__map" alt="Collaboration graph"/></div>
-<map name="mcd_1_1Crypto_coll__map" id="mcd_1_1Crypto_coll__map">
-<area shape="rect" id="node2" href="../../d9/d9a/a00998.php" title="A class to let some other not to be copyable. " alt="" coords="5,5,136,32"/>
+<div class="center"><img src="../../d6/d82/a00920.png" border="0" usemap="#mcd_1_1Cls_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1Cls_coll__map" id="mcd_1_1Cls_coll__map">
+<area shape="rect" id="node2" href="../../d3/dd1/a00914.php" title="Change the text color in the console. " alt="" coords="5,5,92,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3f598383428868a9f69502e5de031ea5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dcf/a00922.php#a3f598383428868a9f69502e5de031ea5">Crypto</a> ()</td></tr>
-<tr class="separator:a3f598383428868a9f69502e5de031ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16276f74e2eac6b2174d06361791f056"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dcf/a00922.php#a16276f74e2eac6b2174d06361791f056">~Crypto</a> ()</td></tr>
-<tr class="separator:a16276f74e2eac6b2174d06361791f056"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2949148382033667a765326066311f21"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dcf/a00922.php#a2949148382033667a765326066311f21">crypt</a> (const std::string &amp;message)=0</td></tr>
-<tr class="separator:a2949148382033667a765326066311f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d131065e81529530b7907ba397af30d"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dcf/a00922.php#a4d131065e81529530b7907ba397af30d">decrypt</a> (const std::string &amp;message)=0</td></tr>
-<tr class="separator:a4d131065e81529530b7907ba397af30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00998"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00998')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d9/d9a/a00998.php">mcd::NotCopyable</a></td></tr>
-<tr class="memitem:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a00998"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a> ()</td></tr>
-<tr class="memdesc:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a00998"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d9/d9a/a00998.php#aa40da048522b578e9c2cc9f73c1a0d92">More...</a><br /></td></tr>
-<tr class="separator:aa40da048522b578e9c2cc9f73c1a0d92 inherit pub_methods_a00998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5efcd02383468e37e9c960f3d6f9d14c inherit pub_methods_a00998"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a> ()</td></tr>
-<tr class="separator:a5efcd02383468e37e9c960f3d6f9d14c inherit pub_methods_a00998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77e97110dfe29cae01d63a618cff4ed4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dcf/a00922.php#a77e97110dfe29cae01d63a618cff4ed4">Cls</a> ()</td></tr>
+<tr class="separator:a77e97110dfe29cae01d63a618cff4ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00914"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00914')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d3/dd1/a00914.php">mcd::Color</a></td></tr>
+<tr class="memitem:a81a4808e8eb05c0a23cd90da4d8569ec inherit pub_methods_a00914"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00914.php#a81a4808e8eb05c0a23cd90da4d8569ec">Color</a> (const std::string &amp;color)</td></tr>
+<tr class="memdesc:a81a4808e8eb05c0a23cd90da4d8569ec inherit pub_methods_a00914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d3/dd1/a00914.php" title="Change the text color in the console. ">Color</a> object with a first color.  <a href="../../d3/dd1/a00914.php#a81a4808e8eb05c0a23cd90da4d8569ec">More...</a><br /></td></tr>
+<tr class="separator:a81a4808e8eb05c0a23cd90da4d8569ec inherit pub_methods_a00914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4db298b6e4ff50cf961dc90449468952 inherit pub_methods_a00914"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00914.php#a4db298b6e4ff50cf961dc90449468952">~Color</a> ()</td></tr>
+<tr class="separator:a4db298b6e4ff50cf961dc90449468952 inherit pub_methods_a00914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3843a894efef061a84ac802d316fd86 inherit pub_methods_a00914"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
+<tr class="memitem:ac3843a894efef061a84ac802d316fd86 inherit pub_methods_a00914"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00914.php#ac3843a894efef061a84ac802d316fd86">Color</a> (<a class="el" href="../../d6/d08/a00244.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> color, Args... args)</td></tr>
+<tr class="memdesc:ac3843a894efef061a84ac802d316fd86 inherit pub_methods_a00914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d3/dd1/a00914.php" title="Change the text color in the console. ">Color</a> object with colors.  <a href="../../d3/dd1/a00914.php#ac3843a894efef061a84ac802d316fd86">More...</a><br /></td></tr>
+<tr class="separator:ac3843a894efef061a84ac802d316fd86 inherit pub_methods_a00914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4f6325cc63bd229cdf19df24a6e4f6e inherit pub_methods_a00914"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00914.php#af4f6325cc63bd229cdf19df24a6e4f6e">addColors</a> (int color)</td></tr>
+<tr class="memdesc:af4f6325cc63bd229cdf19df24a6e4f6e inherit pub_methods_a00914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="../../d3/dd1/a00914.php#af4f6325cc63bd229cdf19df24a6e4f6e">More...</a><br /></td></tr>
+<tr class="separator:af4f6325cc63bd229cdf19df24a6e4f6e inherit pub_methods_a00914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae732af32fdbea05950d39bd9532121cf inherit pub_methods_a00914"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
+<tr class="memitem:ae732af32fdbea05950d39bd9532121cf inherit pub_methods_a00914"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00914.php#ae732af32fdbea05950d39bd9532121cf">addColors</a> (int color, Args... args)</td></tr>
+<tr class="memdesc:ae732af32fdbea05950d39bd9532121cf inherit pub_methods_a00914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="../../d3/dd1/a00914.php#ae732af32fdbea05950d39bd9532121cf">More...</a><br /></td></tr>
+<tr class="separator:ae732af32fdbea05950d39bd9532121cf inherit pub_methods_a00914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dd730c3b59730b786d059a507d03fca inherit pub_methods_a00914"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00914.php#a8dd730c3b59730b786d059a507d03fca">addColors</a> (const <a class="el" href="../../d6/d08/a00244.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> &amp;color)</td></tr>
+<tr class="memdesc:a8dd730c3b59730b786d059a507d03fca inherit pub_methods_a00914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="../../d3/dd1/a00914.php#a8dd730c3b59730b786d059a507d03fca">More...</a><br /></td></tr>
+<tr class="separator:a8dd730c3b59730b786d059a507d03fca inherit pub_methods_a00914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada095941e4b1c3757618959df513af9a inherit pub_methods_a00914"><td class="memTemplParams" colspan="2">template&lt;class ... Args&gt; </td></tr>
+<tr class="memitem:ada095941e4b1c3757618959df513af9a inherit pub_methods_a00914"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd1/a00914.php#ada095941e4b1c3757618959df513af9a">addColors</a> (const <a class="el" href="../../d6/d08/a00244.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> &amp;color, Args... args)</td></tr>
+<tr class="memdesc:ada095941e4b1c3757618959df513af9a inherit pub_methods_a00914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="../../d3/dd1/a00914.php#ada095941e4b1c3757618959df513af9a">More...</a><br /></td></tr>
+<tr class="separator:ada095941e4b1c3757618959df513af9a inherit pub_methods_a00914"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to be the parent for every crypt class. </p>
+<div class="textblock"><p>Clear the console. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3f598383428868a9f69502e5de031ea5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f598383428868a9f69502e5de031ea5">&#9670;&nbsp;</a></span>Crypto()</h2>
+<a id="a77e97110dfe29cae01d63a618cff4ed4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77e97110dfe29cae01d63a618cff4ed4">&#9670;&nbsp;</a></span>Cls()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::Crypto::Crypto </td>
+          <td class="memname">mcd::Cls::Cls </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a16276f74e2eac6b2174d06361791f056"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16276f74e2eac6b2174d06361791f056">&#9670;&nbsp;</a></span>~Crypto()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual mcd::Crypto::~Crypto </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dd/dcf/a00922_a16276f74e2eac6b2174d06361791f056_cgraph.png" border="0" usemap="#dd/dcf/a00922_a16276f74e2eac6b2174d06361791f056_cgraph" alt=""/></div>
-<map name="dd/dcf/a00922_a16276f74e2eac6b2174d06361791f056_cgraph" id="dd/dcf/a00922_a16276f74e2eac6b2174d06361791f056_cgraph">
-<area shape="rect" id="node2" href="../../dd/dcf/a00922.php#a2949148382033667a765326066311f21" title="mcd::Crypto::crypt" alt="" coords="210,5,341,32"/>
-<area shape="rect" id="node3" href="../../dd/dcf/a00922.php#a4d131065e81529530b7907ba397af30d" title="mcd::Crypto::decrypt" alt="" coords="203,56,348,83"/>
-</map>
-</div>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2949148382033667a765326066311f21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2949148382033667a765326066311f21">&#9670;&nbsp;</a></span>crypt()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::string mcd::Crypto::crypt </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>message</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Pur virtual function to disallow you to use the class alone </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">message</td><td>The message to crypt </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Implemented in <a class="el" href="../../d5/d54/a00938.php#ad080bbc2c65c9690f38fa376ca65a985">mcd::RSA</a>, <a class="el" href="../../d0/df0/a00934.php#aee90d618d42b9a7d9057a0bfc1f769c2">mcd::MyCrypt</a>, and <a class="el" href="../../d7/d16/a00930.php#ad8366a3e1e990f5faaf956599832fa8b">mcd::SHA2</a>.</p>
-
-</div>
-</div>
-<a id="a4d131065e81529530b7907ba397af30d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d131065e81529530b7907ba397af30d">&#9670;&nbsp;</a></span>decrypt()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::string mcd::Crypto::decrypt </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>message</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Pur virtual function to disallow you to use the class alone </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">message</td><td>The message to decrypt </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Implemented in <a class="el" href="../../d5/d54/a00938.php#ad831bd26ceeff7ad460bcabcad213155">mcd::RSA</a>, <a class="el" href="../../d0/df0/a00934.php#ac1f14b79c663f1347bef0d7ba017449d">mcd::MyCrypt</a>, and <a class="el" href="../../d8/d38/a00926.php#a3368134737d4f820661e03afbc91b8f1">mcd::Cesar</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../df/d03/a00062.php">cryptage.hpp</a></li>
+<li><a class="el" href="../../d3/d8b/a00059.php">console.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -273,7 +176,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d0/d53/a00232.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/dcf/a00922.php">Crypto</a></li>
+		<li class="navelem"><a class="el" href="../../d6/d08/a00244.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/dcf/a00922.php">Cls</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

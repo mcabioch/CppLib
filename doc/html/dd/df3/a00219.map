@@ -1,4 +1,33 @@
-<map id="Tree.hpp" name="Tree.hpp">
-<area shape="rect" id="node2" href="$da/d1e/a00149.php" title="C++/OsDetection.hpp" alt="" coords="322,80,473,107"/>
-<area shape="rect" id="node4" href="$d4/d81/a00110.php" title="C++/lowIncludes.hpp" alt="" coords="391,155,537,181"/>
+<map id="timeFunctions.hpp" name="timeFunctions.hpp">
+<area shape="rect" id="node3" href="$de/d79/a00203.php" title="Used to replace strptime function when compiling for Windows. " alt="" coords="657,80,767,107"/>
+<area shape="rect" id="node4" href="$d3/db1/a00200.php" title="C++/string.hpp" alt="" coords="657,155,767,181"/>
+<area shape="rect" id="node6" href="$d5/df1/a00206.php" title="C++/system.hpp" alt="" coords="584,229,704,256"/>
+<area shape="rect" id="node60" href="$d9/dd0/a00191.php" title="C++/RNG.hpp" alt="" coords="728,229,835,256"/>
+<area shape="rect" id="node62" href="$d4/d3e/a00116.php" title="C++/macro.hpp" alt="" coords="859,229,973,256"/>
+<area shape="rect" id="node7" href="$db/dab/a00089.php" title="C++/errors.hpp" alt="" coords="589,304,699,331"/>
+<area shape="rect" id="node8" href="$d3/d8b/a00059.php" title="C++/console.hpp" alt="" coords="515,379,637,405"/>
+<area shape="rect" id="node58" href="$d1/dc1/a00092.php" title="C++/files.hpp" alt="" coords="661,379,763,405"/>
+<area shape="rect" id="node9" href="$da/d24/a00068.php" title="C++/convert.hpp" alt="" coords="525,453,645,480"/>
+<area shape="rect" id="node11" href="$da/d45/a00011.php" title="C++/array.hpp" alt="" coords="592,528,699,555"/>
+<area shape="rect" id="node13" href="$d5/de0/a00050.php" title="C++/check.hpp" alt="" coords="589,603,701,629"/>
+<area shape="rect" id="node57" href="$dc/d57/a00194.php" title="C++/sorting.hpp" alt="" coords="727,603,843,629"/>
+<area shape="rect" id="node16" href="$d6/de1/a00233.php" title="C++/vector.hpp" alt="" coords="730,677,843,704"/>
+<area shape="rect" id="node51" href="$d9/d2e/a00056.php" title="C++/collides.hpp" alt="" coords="585,677,706,704"/>
+<area shape="rect" id="node17" href="$d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="751,752,913,779"/>
+<area shape="rect" id="node24" href="$d7/d25/a00182.php" title="C++/pointers.hpp" alt="" coords="713,1051,836,1077"/>
+<area shape="rect" id="node25" href="$d9/d01/a00227.php" title="C++/types.hpp" alt="" coords="612,1125,721,1152"/>
+<area shape="rect" id="node27" href="$d3/d52/a00023.php" title="Big.hpp" alt="" coords="633,1200,700,1227"/>
+<area shape="rect" id="node46" href="$d5/ddf/a00224.php" title="C++/Tree.hpp" alt="" coords="506,1200,609,1227"/>
+<area shape="rect" id="node47" href="$de/df3/a00185.php" title="PureVirtual.hpp" alt="" coords="725,1200,835,1227"/>
+<area shape="rect" id="node48" href="$d1/da8/a00230.php" title="UsefullDefines.hpp" alt="" coords="860,1200,993,1227"/>
+<area shape="rect" id="node28" href="$d7/d9a/a00152.php" title="C++/OsDetection.hpp" alt="" coords="322,1275,473,1301"/>
+<area shape="rect" id="node42" href="$d5/d16/a00029.php" title="C++/Big_Constructor.hpp" alt="" coords="1035,1275,1205,1301"/>
+<area shape="rect" id="node43" href="$d4/d8c/a00035.php" title="C++/Big_Operator.hpp" alt="" coords="497,1275,650,1301"/>
+<area shape="rect" id="node44" href="$d6/d5b/a00026.php" title="C++/Big_Comparison.hpp" alt="" coords="675,1275,848,1301"/>
+<area shape="rect" id="node45" href="$dc/d87/a00032.php" title="C++/Big_Maths.hpp" alt="" coords="872,1275,1011,1301"/>
+<area shape="rect" id="node30" href="$d3/d00/a00113.php" title="C++/lowIncludes.hpp" alt="" coords="391,1349,537,1376"/>
+<area shape="rect" id="node52" href="$dc/dfe/a00125.php" title="C++/Matrix.hpp" alt="" coords="543,752,657,779"/>
+<area shape="rect" id="node53" href="$d9/d77/a00095.php" title="C++/Fraction.hpp" alt="" coords="419,827,543,853"/>
+<area shape="rect" id="node54" href="$df/dc8/a00122.php" title="C++/maths.hpp" alt="" coords="425,901,538,928"/>
+<area shape="rect" id="node55" href="$d8/d41/a00038.php" title="C++/Binary.hpp" alt="" coords="671,976,785,1003"/>
 </map>

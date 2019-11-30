@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::PathfindingException Class Reference</title>
+		<title>C++: mcd::NotInstantiable Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:57 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,130 +90,33 @@ $(document).ready(function(){initNavTree('de/d02/a01026.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="../../d6/dcd/a01023.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::PathfindingException Class Reference</div>  </div>
+<div class="title">mcd::NotInstantiable Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>All exceptions that could be thrown by the pathfinding algorithm.  
+<p>Let a class being only an abstract class.  
  <a href="../../de/d02/a01026.php#details">More...</a></p>
 
-<p><code>#include &lt;PathfindingException.hpp&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for mcd::PathfindingException:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../db/d23/a01025.png" border="0" usemap="#mcd_1_1PathfindingException_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1PathfindingException_inherit__map" id="mcd_1_1PathfindingException_inherit__map">
-<area shape="rect" id="node2" title="STL class. " alt="" coords="43,5,147,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for mcd::PathfindingException:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d4/dc5/a01024.png" border="0" usemap="#mcd_1_1PathfindingException_coll__map" alt="Collaboration graph"/></div>
-<map name="mcd_1_1PathfindingException_coll__map" id="mcd_1_1PathfindingException_coll__map">
-<area shape="rect" id="node2" title="STL class. " alt="" coords="43,5,147,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<p><code>#include &lt;NotInstantiable.hpp&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a699cc4df8cc94d467e7372072d230b58"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d02/a01026.php#a699cc4df8cc94d467e7372072d230b58">PathfindingErrorCode</a> { <a class="el" href="../../de/d02/a01026.php#a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d">NONE</a>, 
-<a class="el" href="../../de/d02/a01026.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814">ARRIVED</a>, 
-<a class="el" href="../../de/d02/a01026.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995">LOST</a>, 
-<a class="el" href="../../de/d02/a01026.php#a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982">OTHER</a>
- }</td></tr>
-<tr class="separator:a699cc4df8cc94d467e7372072d230b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac73bb217b98d679eaab9fe9fe4e5c9b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d02/a01026.php#ac73bb217b98d679eaab9fe9fe4e5c9b0">PathfindingException</a> (<a class="el" href="../../de/d02/a01026.php#a699cc4df8cc94d467e7372072d230b58">PathfindingErrorCode</a> error=PathfindingErrorCode::NONE, const std::string &amp;explaination=&quot;&quot;)  throw ()</td></tr>
-<tr class="memdesc:ac73bb217b98d679eaab9fe9fe4e5c9b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#ac73bb217b98d679eaab9fe9fe4e5c9b0">More...</a><br /></td></tr>
-<tr class="separator:ac73bb217b98d679eaab9fe9fe4e5c9b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22d196716aa61adb8fa0e0d48320c9ab"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d02/a01026.php#a22d196716aa61adb8fa0e0d48320c9ab">~PathfindingException</a> ()  throw ()</td></tr>
-<tr class="separator:a22d196716aa61adb8fa0e0d48320c9ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71da44443282ca94d2c9e10a9be0dafc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d02/a01026.php#a71da44443282ca94d2c9e10a9be0dafc">PathfindingException</a> (const <a class="el" href="../../de/d02/a01026.php">PathfindingException</a> &amp;other)  throw ()</td></tr>
-<tr class="separator:a71da44443282ca94d2c9e10a9be0dafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92a9aea3e0fc189dc0c17a78ffa68bdf"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d02/a01026.php#a92a9aea3e0fc189dc0c17a78ffa68bdf">what</a> () const  throw ()</td></tr>
-<tr class="memdesc:a92a9aea3e0fc189dc0c17a78ffa68bdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the explaination of the exception.  <a href="#a92a9aea3e0fc189dc0c17a78ffa68bdf">More...</a><br /></td></tr>
-<tr class="separator:a92a9aea3e0fc189dc0c17a78ffa68bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a922e8cbd5025f4f17e45889055df165c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d02/a01026.php#a699cc4df8cc94d467e7372072d230b58">PathfindingErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d02/a01026.php#a922e8cbd5025f4f17e45889055df165c">getErrorCode</a> () const  throw ()</td></tr>
-<tr class="memdesc:a922e8cbd5025f4f17e45889055df165c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the error code of the exception.  <a href="#a922e8cbd5025f4f17e45889055df165c">More...</a><br /></td></tr>
-<tr class="separator:a922e8cbd5025f4f17e45889055df165c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a9fcff7a44db764decbb680479144b97b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d02/a01026.php#a9fcff7a44db764decbb680479144b97b">Arrived</a> ()</td></tr>
-<tr class="separator:a9fcff7a44db764decbb680479144b97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a933816a487769eec830729b051d0fbcd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d02/a01026.php#a933816a487769eec830729b051d0fbcd">Lost</a> ()</td></tr>
-<tr class="separator:a933816a487769eec830729b051d0fbcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a760ca4c32c24cf2b4c4c2ef07b51f997"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d02/a01026.php#a760ca4c32c24cf2b4c4c2ef07b51f997">NotInstantiable</a> ()</td></tr>
+<tr class="memdesc:a760ca4c32c24cf2b4c4c2ef07b51f997"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a760ca4c32c24cf2b4c4c2ef07b51f997">More...</a><br /></td></tr>
+<tr class="separator:a760ca4c32c24cf2b4c4c2ef07b51f997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a096b44b3d9fe8e567b179ac3d3dbacff"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d02/a01026.php#a096b44b3d9fe8e567b179ac3d3dbacff">~NotInstantiable</a> ()</td></tr>
+<tr class="separator:a096b44b3d9fe8e567b179ac3d3dbacff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19c59f78b217426061641970c9f11022"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d02/a01026.php#a19c59f78b217426061641970c9f11022">notInstantiable</a> () final=0</td></tr>
+<tr class="separator:a19c59f78b217426061641970c9f11022"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>All exceptions that could be thrown by the pathfinding algorithm. </p>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a699cc4df8cc94d467e7372072d230b58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a699cc4df8cc94d467e7372072d230b58">&#9670;&nbsp;</a></span>PathfindingErrorCode</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../de/d02/a01026.php#a699cc4df8cc94d467e7372072d230b58">mcd::PathfindingException::PathfindingErrorCode</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814"></a>ARRIVED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995"></a>LOST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982"></a>OTHER&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac73bb217b98d679eaab9fe9fe4e5c9b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac73bb217b98d679eaab9fe9fe4e5c9b0">&#9670;&nbsp;</a></span>PathfindingException() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::PathfindingException::PathfindingException </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d02/a01026.php#a699cc4df8cc94d467e7372072d230b58">PathfindingErrorCode</a>&#160;</td>
-          <td class="paramname"><em>error</em> = <code>PathfindingErrorCode::NONE</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>explaination</em> = <code>&quot;&quot;</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-        <tr>
-          <td align="right">throw </td><td>(</td><td colspan="2"></td>
-        </tr>
-        <tr>
-          <td align="right"></td><td>)</td><td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The constructor of the class. </p>
-
-</div>
-</div>
-<a id="a22d196716aa61adb8fa0e0d48320c9ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22d196716aa61adb8fa0e0d48320c9ab">&#9670;&nbsp;</a></span>~PathfindingException()</h2>
+<div class="textblock"><p>Let a class being only an abstract class. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a760ca4c32c24cf2b4c4c2ef07b51f997"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a760ca4c32c24cf2b4c4c2ef07b51f997">&#9670;&nbsp;</a></span>NotInstantiable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -222,97 +125,10 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::PathfindingException::~PathfindingException </td>
+          <td class="memname">mcd::NotInstantiable::NotInstantiable </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
-        </tr>
-        <tr>
-          <td align="right">throw </td><td>(</td><td colspan="2"></td>
-        </tr>
-        <tr>
-          <td align="right"></td><td>)</td><td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a71da44443282ca94d2c9e10a9be0dafc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71da44443282ca94d2c9e10a9be0dafc">&#9670;&nbsp;</a></span>PathfindingException() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::PathfindingException::PathfindingException </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../de/d02/a01026.php">PathfindingException</a> &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td align="right">throw </td><td>(</td><td colspan="2"></td>
-        </tr>
-        <tr>
-          <td align="right"></td><td>)</td><td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9fcff7a44db764decbb680479144b97b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fcff7a44db764decbb680479144b97b">&#9670;&nbsp;</a></span>Arrived()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void mcd::PathfindingException::Arrived </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a922e8cbd5025f4f17e45889055df165c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a922e8cbd5025f4f17e45889055df165c">&#9670;&nbsp;</a></span>getErrorCode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d02/a01026.php#a699cc4df8cc94d467e7372072d230b58">PathfindingErrorCode</a> mcd::PathfindingException::getErrorCode </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-        <tr>
-          <td align="right">throw </td><td>(</td><td colspan="2"></td>
-        </tr>
-        <tr>
-          <td align="right"></td><td>)</td><td></td><td></td>
         </tr>
       </table>
   </td>
@@ -322,21 +138,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return the error code of the exception. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/d02/a01026_a922e8cbd5025f4f17e45889055df165c_cgraph.png" border="0" usemap="#de/d02/a01026_a922e8cbd5025f4f17e45889055df165c_cgraph" alt=""/></div>
-<map name="de/d02/a01026_a922e8cbd5025f4f17e45889055df165c_cgraph" id="de/d02/a01026_a922e8cbd5025f4f17e45889055df165c_cgraph">
-<area shape="rect" id="node2" href="../../de/d02/a01026.php#a9fcff7a44db764decbb680479144b97b" title="mcd::PathfindingException\l::Arrived" alt="" coords="232,5,411,47"/>
-<area shape="rect" id="node3" href="../../de/d02/a01026.php#a933816a487769eec830729b051d0fbcd" title="mcd::PathfindingException\l::Lost" alt="" coords="232,71,411,112"/>
-</map>
-</div>
+<p>The constructor of the class. </p>
 
 </div>
 </div>
-<a id="a933816a487769eec830729b051d0fbcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a933816a487769eec830729b051d0fbcd">&#9670;&nbsp;</a></span>Lost()</h2>
+<a id="a096b44b3d9fe8e567b179ac3d3dbacff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a096b44b3d9fe8e567b179ac3d3dbacff">&#9670;&nbsp;</a></span>~NotInstantiable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -345,41 +152,10 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void mcd::PathfindingException::Lost </td>
+          <td class="memname">virtual mcd::NotInstantiable::~NotInstantiable </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a92a9aea3e0fc189dc0c17a78ffa68bdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92a9aea3e0fc189dc0c17a78ffa68bdf">&#9670;&nbsp;</a></span>what()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const char* mcd::PathfindingException::what </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-        <tr>
-          <td align="right">throw </td><td>(</td><td colspan="2"></td>
-        </tr>
-        <tr>
-          <td align="right"></td><td>)</td><td></td><td></td>
         </tr>
       </table>
   </td>
@@ -388,13 +164,45 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/d02/a01026_a096b44b3d9fe8e567b179ac3d3dbacff_cgraph.png" border="0" usemap="#de/d02/a01026_a096b44b3d9fe8e567b179ac3d3dbacff_cgraph" alt=""/></div>
+<map name="de/d02/a01026_a096b44b3d9fe8e567b179ac3d3dbacff_cgraph" id="de/d02/a01026_a096b44b3d9fe8e567b179ac3d3dbacff_cgraph">
+<area shape="rect" id="node2" href="../../de/d02/a01026.php#a19c59f78b217426061641970c9f11022" title="mcd::NotInstantiable\l::notInstantiable" alt="" coords="196,5,339,47"/>
+</map>
+</div>
 
-<p>Return the explaination of the exception. </p>
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a19c59f78b217426061641970c9f11022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19c59f78b217426061641970c9f11022">&#9670;&nbsp;</a></span>notInstantiable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void mcd::NotInstantiable::notInstantiable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d6/db8/a00158.php">PathfindingException.hpp</a></li>
+<li><a class="el" href="../../d9/db6/a00146.php">NotInstantiable.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -402,7 +210,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d0/d53/a00232.php">mcd</a></li><li class="navelem"><a class="el" href="../../de/d02/a01026.php">PathfindingException</a></li>
+		<li class="navelem"><a class="el" href="../../d6/d08/a00244.php">mcd</a></li><li class="navelem"><a class="el" href="../../de/d02/a01026.php">NotInstantiable</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

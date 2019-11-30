@@ -3,7 +3,7 @@
 *	\file		Assert.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	Wednesday November, 13 2019 11:22:08
-*	\modified	Wednesday November, 14 2019
+*	\modified	November, 14 2019
 *
 */
 #ifndef HEADER_ASSERT
@@ -35,12 +35,21 @@ namespace mcd {
 
 	extern Assert assertion;
 	#define assert(EXPR) mcd::assertion(static_cast<bool>(EXPR), {__FILE__, __PRETTY_FUNCTION__, __LINE__}, #EXPR)
-	#define trycatch_assert(EXPR, INSTEAD) \
+
+	#define trycatch_assert_2(EXPR, INSTEAD) \
 	try { assert(EXPR);\
 	} catch(const mcd::AssertionException& e){\
 		std::cout << mcd::Color(mcd::Colors::LIGHT_YELLOW_F) << e.what() << mcd::Color(mcd::Colors::NORMAL) << std::endl;\
 		INSTEAD;\
 	}
+	#define trycatch_assert_1(EXPR) \
+	trycatch_assert_2(EXPR, std::function<void()>())
+
+	#define trycatch_assert_X(x,A,FUNC, ...) FUNC
+	#define trycatch_assert(...) trycatch_assert_X(__VA_ARGS__,\
+								  trycatch_assert_2(__VA_ARGS__),\
+								  trycatch_assert_1(__VA_ARGS__),\
+								 )
 }
 
 #endif //HEADER_ASSERT

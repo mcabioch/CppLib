@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:51 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:58 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,40 +93,40 @@ $(document).ready(function(){initNavTree('functions_func_h.php','');});
 
 <h3><a id="index_h"></a>- h -</h3><ul>
 <li>has_istream_operator()
-: <a class="el" href="dd/d08/a00884.php#a6343682f15ad178aa8883b61094b7d2a">mcd::Check::has_istream_operator&lt; T &gt;</a>
+: <a class="el" href="d7/d46/a00890.php#a6343682f15ad178aa8883b61094b7d2a">mcd::Check::has_istream_operator&lt; T &gt;</a>
 </li>
 <li>has_ostream_operator()
-: <a class="el" href="d2/dac/a00876.php#a62ae1424b1e158747fdc66486da0f519">mcd::Check::has_ostream_operator&lt; T &gt;</a>
+: <a class="el" href="d3/d50/a00882.php#a62ae1424b1e158747fdc66486da0f519">mcd::Check::has_ostream_operator&lt; T &gt;</a>
 </li>
 <li>has_size_method()
-: <a class="el" href="dc/d17/a00872.php#a7d782a43bfd471bf7a32ac0dfafe1041">mcd::Check::has_size_method&lt; T &gt;</a>
+: <a class="el" href="d5/d69/a00878.php#a7d782a43bfd471bf7a32ac0dfafe1041">mcd::Check::has_size_method&lt; T &gt;</a>
 </li>
 <li>hasNext()
-: <a class="el" href="df/d89/a01032.php#a7928f59acfc984899a12b52ab2e5ddca">mcd::Path</a>
+: <a class="el" href="d4/dbc/a01038.php#a7928f59acfc984899a12b52ab2e5ddca">mcd::Path</a>
 </li>
 <li>hasToStop()
-: <a class="el" href="da/db7/a01088.php#a804393d97a319c38afa593072bd0ead9">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="d5/d17/a01098.php#a804393d97a319c38afa593072bd0ead9">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>headers()
-: <a class="el" href="d8/dbb/a00932.php#a1878d602fe475fb47a2aca063e7cb9d6">mcd::ConsoleTable</a>
+: <a class="el" href="d5/d54/a00938.php#a1878d602fe475fb47a2aca063e7cb9d6">mcd::ConsoleTable</a>
 </li>
 <li>height()
-: <a class="el" href="dd/dcb/a01104.php#a069d03de16fc9d3db25d7ec67ed6811b">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d6/d40/a01114.php#a069d03de16fc9d3db25d7ec67ed6811b">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>hit()
-: <a class="el" href="de/d4e/a00972.php#a8022eec71c62bbc06651cf7607d3824a">mcd::Entity</a>
+: <a class="el" href="d2/ddd/a00978.php#a8022eec71c62bbc06651cf7607d3824a">mcd::Entity</a>
 </li>
 <li>home()
-: <a class="el" href="d6/d82/a00920.php#a75615abf8f124c460b9b163868c89b7e">mcd::ConsoleCursor</a>
+: <a class="el" href="d8/d38/a00926.php#a75615abf8f124c460b9b163868c89b7e">mcd::ConsoleCursor</a>
 </li>
 <li>Hostile()
-: <a class="el" href="db/d20/a00980.php#a08a1386aff1a9289823113ef90c14927">mcd::Hostile</a>
+: <a class="el" href="d3/d7b/a00986.php#a08a1386aff1a9289823113ef90c14927">mcd::Hostile</a>
 </li>
 <li>hour()
-: <a class="el" href="de/d9c/a01092.php#afc42ec7546725501d6cd8eb069e92a52">mcd::Time</a>
+: <a class="el" href="d4/da7/a01102.php#afc42ec7546725501d6cd8eb069e92a52">mcd::Time</a>
 </li>
 <li>hurt()
-: <a class="el" href="db/d20/a00980.php#afbaa53140e5e1bf40606e4ff3d4a947d">mcd::Hostile</a>
+: <a class="el" href="d3/d7b/a00986.php#afbaa53140e5e1bf40606e4ff3d4a947d">mcd::Hostile</a>
 </li>
 </ul>
 </div><!-- contents -->

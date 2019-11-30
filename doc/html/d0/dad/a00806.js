@@ -1,6 +1,5 @@
 var a00806 =
 [
-    [ "t_queue", "d0/dad/a00806.php#a6113ab263c40412573cb17961892e4eb", null ],
-    [ "push", "d0/dad/a00806.php#a7108e587ce260901f5fdac365db13fab", null ],
-    [ "push", "d0/dad/a00806.php#a7ccba4c88decd735670f069077bce0b0", null ]
+    [ "stack", "d0/dad/a00806.php#aa9d55e0af1d4e27cc1abba7a2d399afc", null ],
+    [ "get", "d0/dad/a00806.php#ac779733da952e8cfda80b14655a07172", null ]
 ];

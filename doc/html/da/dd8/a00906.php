@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::ThreadEndlCout Class Reference</title>
+		<title>C++: mcd::Check::is_special_struct&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:57 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,80 +90,55 @@ $(document).ready(function(){initNavTree('da/dd8/a00906.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../d4/d1c/a00903.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::ThreadEndlCout Class Reference</div>  </div>
+<div class="title">mcd::Check::is_special_struct&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to use std::endl in <a class="el" href="../../d4/d12/a00910.php" title="A class to use std::cout thread safe. ">ThreadCout</a>.  
+<p>A template class to test if T is a special struct.  
  <a href="../../da/dd8/a00906.php#details">More...</a></p>
 
-<p><code>#include &lt;console.hpp&gt;</code></p>
+<p><code>#include &lt;check.hpp&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a53ccbe8d25d6cb23a3621a5c6d62598d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd8/a00906.php#a53ccbe8d25d6cb23a3621a5c6d62598d">ThreadEndlCout</a> ()</td></tr>
-<tr class="separator:a53ccbe8d25d6cb23a3621a5c6d62598d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7add9326a30b5b2b77fd7352e12f4ec2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd8/a00906.php#a7add9326a30b5b2b77fd7352e12f4ec2">~ThreadEndlCout</a> ()</td></tr>
-<tr class="separator:a7add9326a30b5b2b77fd7352e12f4ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a9347b60a434f2cfd40453cc7856c3918"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd8/a00906.php#a9347b60a434f2cfd40453cc7856c3918">value</a></td></tr>
+<tr class="separator:a9347b60a434f2cfd40453cc7856c3918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to use std::endl in <a class="el" href="../../d4/d12/a00910.php" title="A class to use std::cout thread safe. ">ThreadCout</a>. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a53ccbe8d25d6cb23a3621a5c6d62598d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53ccbe8d25d6cb23a3621a5c6d62598d">&#9670;&nbsp;</a></span>ThreadEndlCout()</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class mcd::Check::is_special_struct&lt; T &gt;</h3>
+
+<p>A template class to test if T is a special struct. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9347b60a434f2cfd40453cc7856c3918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9347b60a434f2cfd40453cc7856c3918">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::ThreadEndlCout::ThreadEndlCout </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">const bool <a class="el" href="../../da/dd8/a00906.php">mcd::Check::is_special_struct</a>&lt; T &gt;::value</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7add9326a30b5b2b77fd7352e12f4ec2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7add9326a30b5b2b77fd7352e12f4ec2">&#9670;&nbsp;</a></span>~ThreadEndlCout()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual mcd::ThreadEndlCout::~ThreadEndlCout </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= <a class="code" href="../../d6/d2f/a00854.php#ac3fa87bfb2551b3a98cac89a0c39b2ba">is_pair&lt;T&gt;::value</a> ||</div><div class="line">                                          <a class="code" href="../../d0/d66/a00858.php#a35b153eb448f4f520fbab10d63317262">is_trio&lt;T&gt;::value</a> ||</div><div class="line">                                          <a class="code" href="../../dc/d41/a00862.php#a89743328c29104ad4f66261b0ba77611">is_quatuor&lt;T&gt;::value</a></div></div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d5/de0/a00050.php">console.hpp</a></li>
+<li><a class="el" href="../../d5/de0/a00050.php">check.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -171,7 +146,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d0/d53/a00232.php">mcd</a></li><li class="navelem"><a class="el" href="../../da/dd8/a00906.php">ThreadEndlCout</a></li>
+		<li class="navelem"><a class="el" href="../../d6/d08/a00244.php">mcd</a></li><li class="navelem"><a class="el" href="../../d4/d9a/a00246.php">Check</a></li><li class="navelem"><a class="el" href="../../da/dd8/a00906.php">is_special_struct</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -2,15 +2,14 @@
 *
 *	\file		C++.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\modified	November, 22 2019
+*	\modified	November, 30 2019
 *
 */
 #ifndef HEADER_CPP
 #define HEADER_CPP
 
-#include "C++/cryptage.hpp"
 #include "C++/Logger.hpp"
-#include "C++/Assert.hpp"
+#include "C++/Test.hpp"
 
 namespace mcd {}
 

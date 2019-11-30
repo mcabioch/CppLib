@@ -1,2 +1,13 @@
-<map id="RNG.hpp" name="RNG.hpp">
+<map id="pointers.hpp" name="pointers.hpp">
+<area shape="rect" id="node2" href="$d9/d01/a00227.php" title="C++/types.hpp" alt="" coords="621,80,731,107"/>
+<area shape="rect" id="node4" href="$d3/d52/a00023.php" title="Big.hpp" alt="" coords="643,155,709,181"/>
+<area shape="rect" id="node23" href="$d5/ddf/a00224.php" title="C++/Tree.hpp" alt="" coords="515,155,618,181"/>
+<area shape="rect" id="node24" href="$de/df3/a00185.php" title="PureVirtual.hpp" alt="" coords="734,155,845,181"/>
+<area shape="rect" id="node25" href="$d1/da8/a00230.php" title="UsefullDefines.hpp" alt="" coords="869,155,1003,181"/>
+<area shape="rect" id="node5" href="$d7/d9a/a00152.php" title="C++/OsDetection.hpp" alt="" coords="322,229,473,256"/>
+<area shape="rect" id="node19" href="$d5/d16/a00029.php" title="C++/Big_Constructor.hpp" alt="" coords="497,229,668,256"/>
+<area shape="rect" id="node20" href="$d4/d8c/a00035.php" title="C++/Big_Operator.hpp" alt="" coords="693,229,846,256"/>
+<area shape="rect" id="node21" href="$d6/d5b/a00026.php" title="C++/Big_Comparison.hpp" alt="" coords="871,229,1044,256"/>
+<area shape="rect" id="node22" href="$dc/d87/a00032.php" title="C++/Big_Maths.hpp" alt="" coords="1068,229,1207,256"/>
+<area shape="rect" id="node7" href="$d3/d00/a00113.php" title="C++/lowIncludes.hpp" alt="" coords="391,304,537,331"/>
 </map>

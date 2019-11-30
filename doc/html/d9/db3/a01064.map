@@ -1,4 +1,4 @@
-<map id="mcd::Stone" name="mcd::Stone">
-<area shape="rect" id="node2" href="$dc/d81/a01006.php" title="An object. " alt="" coords="20,80,113,107"/>
-<area shape="rect" id="node3" href="$d0/ddf/a00918.php" title="A contraption. " alt="" coords="5,5,128,32"/>
+<map id="mcd::PlayerAbstraction&lt; PlayerParent &gt;" name="mcd::PlayerAbstraction&lt; PlayerParent &gt;">
+<area shape="rect" id="node3" title="STL class. " alt="" coords="137,96,217,123"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="113,5,240,47"/>
 </map>

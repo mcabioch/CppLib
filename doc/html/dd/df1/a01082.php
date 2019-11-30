@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Referenced&lt; C &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Oct 3 2019 19:33:52 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:57 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -71,7 +71,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d2/df3/a01085.php','../../');});
+$(document).ready(function(){initNavTree('dd/df1/a01082.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,31 +89,99 @@ $(document).ready(function(){initNavTree('d2/df3/a01085.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="../../d2/d4d/a01079.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Point Member List</div>  </div>
+<div class="title">mcd::Referenced&lt; C &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d2/df3/a01085.php">mcd::Point</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a2beb84069e438adcccfa4b6ed9794c0c">bot</a>() const</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a91941563ecc020a510832ba8869e5ded">left</a>() const</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a6bea9cfb4049115f767ed658959d6648">operator!=</a>(const Point &amp;a, const Point &amp;b)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a55681886ec7c5d7c0210fa0611bc84ea">operator&lt;&lt;</a>(std::ostream &amp;os, const Point &amp;a)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a6ebbd086a808f7fb8bd49bda00b8df12">operator=</a>(const std::pair&lt; T, U &gt; &amp;o)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a220f83e0ebfaa9b2884530cfcac6f6df">operator=</a>(const trio&lt; T, U, V &gt; &amp;o)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a177528c8a1eee37fcda25a89084b8ed6">operator==</a>(const Point &amp;a, const Point &amp;b)</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a613a9be49ee0cbe55e10e75db1d59faa">right</a>() const</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#afd57961d22ce89d783303c0fbbdc4f83">top</a>() const</td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a924c77d36867a18d5a52767ff246ebfc">x</a></td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/df3/a01085.php#ab339ac0efa2259051dc1ac0637d2c9a8">y</a></td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/df3/a01085.php#a010288cb5febefa70329d35a726c7291">z</a></td><td class="entry"><a class="el" href="../../d2/df3/a01085.php">mcd::Point</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<p>A class to have a reference to the class' pointer.  
+ <a href="../../dd/df1/a01082.php#details">More...</a></p>
+
+<p><code>#include &lt;Referenced.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a23a4eee18708dae4eff05079a345c375"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df1/a01082.php#a23a4eee18708dae4eff05079a345c375">Referenced</a> (C *her)</td></tr>
+<tr class="separator:a23a4eee18708dae4eff05079a345c375"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a3aadcf63bff72dd8c87f4c1d7a3bd240"><td class="memItemLeft" align="right" valign="top">C &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df1/a01082.php#a3aadcf63bff72dd8c87f4c1d7a3bd240">_her</a></td></tr>
+<tr class="separator:a3aadcf63bff72dd8c87f4c1d7a3bd240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;class C&gt;<br />
+class mcd::Referenced&lt; C &gt;</h3>
+
+<p>A class to have a reference to the class' pointer. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a23a4eee18708dae4eff05079a345c375"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23a4eee18708dae4eff05079a345c375">&#9670;&nbsp;</a></span>Referenced()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df1/a01082.php">mcd::Referenced</a>&lt; C &gt;::<a class="el" href="../../dd/df1/a01082.php">Referenced</a> </td>
+          <td>(</td>
+          <td class="paramtype">C *&#160;</td>
+          <td class="paramname"><em>her</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3aadcf63bff72dd8c87f4c1d7a3bd240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aadcf63bff72dd8c87f4c1d7a3bd240">&#9670;&nbsp;</a></span>_her</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">C&amp; <a class="el" href="../../dd/df1/a01082.php">mcd::Referenced</a>&lt; C &gt;::_her</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../da/d15/a00188.php">Referenced.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../d6/d08/a00244.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/df1/a01082.php">Referenced</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

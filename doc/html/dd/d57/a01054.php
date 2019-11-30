@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::PureVirtual Class Reference</title>
+		<title>C++: mcd::PathfindingProblem Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:57 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -91,49 +91,76 @@ $(document).ready(function(){initNavTree('dd/d57/a01054.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d3/d42/a01051.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::PureVirtual Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">mcd::PathfindingProblem Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to make some other to be abstract class.  
+<p>A class to group every pathfinding problems in one way to use it.  
  <a href="../../dd/d57/a01054.php#details">More...</a></p>
 
-<p><code>#include &lt;PureVirtual.hpp&gt;</code></p>
+<p><code>#include &lt;PathfindingProblem.hpp&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for mcd::PureVirtual:</div>
+Collaboration diagram for mcd::PathfindingProblem:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dc/d99/a01053.png" border="0" usemap="#mcd_1_1PureVirtual_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1PureVirtual_inherit__map" id="mcd_1_1PureVirtual_inherit__map">
-<area shape="rect" id="node2" href="../../d5/dd3/a00902.php" title="A class to play with the cursor in the console. " alt="" coords="5,80,148,107"/>
+<div class="center"><img src="../../d9/dce/a01052.png" border="0" usemap="#mcd_1_1PathfindingProblem_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1PathfindingProblem_coll__map" id="mcd_1_1PathfindingProblem_coll__map">
+<area shape="rect" id="node3" title="STL class. " alt="" coords="163,58,286,85"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="167,130,283,157"/>
+<area shape="rect" id="node8" href="../../de/d91/a01034.php" title="A node for the path. " alt="" coords="149,181,300,207"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab67f25d69c1686f95be6fbfcc4ac4663"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d57/a01054.php#ab67f25d69c1686f95be6fbfcc4ac4663">PureVirtual</a> ()</td></tr>
-<tr class="memdesc:ab67f25d69c1686f95be6fbfcc4ac4663"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#ab67f25d69c1686f95be6fbfcc4ac4663">More...</a><br /></td></tr>
-<tr class="separator:ab67f25d69c1686f95be6fbfcc4ac4663"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb8cb10e007f7c5f6ac757843a212598"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d57/a01054.php#acb8cb10e007f7c5f6ac757843a212598">~PureVirtual</a> ()</td></tr>
-<tr class="separator:acb8cb10e007f7c5f6ac757843a212598"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1885fa694cc2d28cb55186fb3b53615d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d57/a01054.php#a1885fa694cc2d28cb55186fb3b53615d">PureVirtualMethod</a> () final=0</td></tr>
-<tr class="separator:a1885fa694cc2d28cb55186fb3b53615d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2aa5f359715262ae600422bb49e79af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d57/a01054.php#af2aa5f359715262ae600422bb49e79af">PathfindingProblem</a> (std::vector&lt; <a class="el" href="../../de/d91/a01034.php">PathfindingNode</a> &gt; <a class="el" href="../../dd/d57/a01054.php#adb3befe767011d5d5738d1e4cb756e09">nodes</a>, std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt; <a class="el" href="../../dd/d57/a01054.php#ae7e5173f36187aeb5e1c334d60f2c914">distances</a>)</td></tr>
+<tr class="memdesc:af2aa5f359715262ae600422bb49e79af"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#af2aa5f359715262ae600422bb49e79af">More...</a><br /></td></tr>
+<tr class="separator:af2aa5f359715262ae600422bb49e79af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d57/a01054.php#a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0">PathfindingProblem</a> (std::vector&lt; <a class="el" href="../../de/d91/a01034.php">PathfindingNode</a> &gt; <a class="el" href="../../dd/d57/a01054.php#adb3befe767011d5d5738d1e4cb756e09">nodes</a>, std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt; <a class="el" href="../../dd/d57/a01054.php#ae7e5173f36187aeb5e1c334d60f2c914">distances</a>, std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt; <a class="el" href="../../dd/d57/a01054.php#ab5fbef9d1844f398fffd1dbc2870adef">weights</a>)</td></tr>
+<tr class="separator:a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bf356ad792ba79df121cedf0501f6f1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d57/a01054.php#a0bf356ad792ba79df121cedf0501f6f1">~PathfindingProblem</a> ()</td></tr>
+<tr class="separator:a0bf356ad792ba79df121cedf0501f6f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:adb3befe767011d5d5738d1e4cb756e09"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../de/d91/a01034.php">PathfindingNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d57/a01054.php#adb3befe767011d5d5738d1e4cb756e09">nodes</a></td></tr>
+<tr class="separator:adb3befe767011d5d5738d1e4cb756e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c634685eea28780ddc10b7aa08af07"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d57/a01054.php#a87c634685eea28780ddc10b7aa08af07">nbNodes</a></td></tr>
+<tr class="separator:a87c634685eea28780ddc10b7aa08af07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7e5173f36187aeb5e1c334d60f2c914"><td class="memItemLeft" align="right" valign="top">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d57/a01054.php#ae7e5173f36187aeb5e1c334d60f2c914">distances</a></td></tr>
+<tr class="separator:ae7e5173f36187aeb5e1c334d60f2c914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5fbef9d1844f398fffd1dbc2870adef"><td class="memItemLeft" align="right" valign="top">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d57/a01054.php#ab5fbef9d1844f398fffd1dbc2870adef">weights</a></td></tr>
+<tr class="separator:ab5fbef9d1844f398fffd1dbc2870adef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70c60dedee9b93e8bcd750a60e37ecfd"><td class="memItemLeft" align="right" valign="top">std::map&lt; size_t, std::map&lt; size_t, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d57/a01054.php#a70c60dedee9b93e8bcd750a60e37ecfd">computed</a></td></tr>
+<tr class="separator:a70c60dedee9b93e8bcd750a60e37ecfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to make some other to be abstract class. </p>
+<div class="textblock"><p>A class to group every pathfinding problems in one way to use it. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab67f25d69c1686f95be6fbfcc4ac4663"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab67f25d69c1686f95be6fbfcc4ac4663">&#9670;&nbsp;</a></span>PureVirtual()</h2>
+<a id="af2aa5f359715262ae600422bb49e79af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2aa5f359715262ae600422bb49e79af">&#9670;&nbsp;</a></span>PathfindingProblem() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::PureVirtual::PureVirtual </td>
+          <td class="memname">mcd::PathfindingProblem::PathfindingProblem </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="../../de/d91/a01034.php">PathfindingNode</a> &gt;&#160;</td>
+          <td class="paramname"><em>nodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td>
+          <td class="paramname"><em>distances</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -142,8 +169,42 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acb8cb10e007f7c5f6ac757843a212598"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb8cb10e007f7c5f6ac757843a212598">&#9670;&nbsp;</a></span>~PureVirtual()</h2>
+<a id="a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0">&#9670;&nbsp;</a></span>PathfindingProblem() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::PathfindingProblem::PathfindingProblem </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="../../de/d91/a01034.php">PathfindingNode</a> &gt;&#160;</td>
+          <td class="paramname"><em>nodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td>
+          <td class="paramname"><em>distances</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td>
+          <td class="paramname"><em>weights</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bf356ad792ba79df121cedf0501f6f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bf356ad792ba79df121cedf0501f6f1">&#9670;&nbsp;</a></span>~PathfindingProblem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -152,7 +213,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::PureVirtual::~PureVirtual </td>
+          <td class="memname">virtual mcd::PathfindingProblem::~PathfindingProblem </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -167,34 +228,79 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1885fa694cc2d28cb55186fb3b53615d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1885fa694cc2d28cb55186fb3b53615d">&#9670;&nbsp;</a></span>PureVirtualMethod()</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a70c60dedee9b93e8bcd750a60e37ecfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70c60dedee9b93e8bcd750a60e37ecfd">&#9670;&nbsp;</a></span>computed</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void mcd::PureVirtual::PureVirtualMethod </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">std::map&lt;size_t, std::map&lt;size_t, bool&gt; &gt; mcd::PathfindingProblem::computed</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7e5173f36187aeb5e1c334d60f2c914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7e5173f36187aeb5e1c334d60f2c914">&#9670;&nbsp;</a></span>distances</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;size_t, std::map&lt;size_t, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&gt; &gt; mcd::PathfindingProblem::distances</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87c634685eea28780ddc10b7aa08af07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87c634685eea28780ddc10b7aa08af07">&#9670;&nbsp;</a></span>nbNodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t mcd::PathfindingProblem::nbNodes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb3befe767011d5d5738d1e4cb756e09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb3befe767011d5d5738d1e4cb756e09">&#9670;&nbsp;</a></span>nodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="../../de/d91/a01034.php">PathfindingNode</a>&gt; mcd::PathfindingProblem::nodes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5fbef9d1844f398fffd1dbc2870adef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5fbef9d1844f398fffd1dbc2870adef">&#9670;&nbsp;</a></span>weights</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;size_t, std::map&lt;size_t, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&gt; &gt; mcd::PathfindingProblem::weights</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d5/de9/a00176.php">PureVirtual.hpp</a></li>
+<li><a class="el" href="../../d5/dcb/a00170.php">PathfindingProblem.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -202,7 +308,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d0/d53/a00232.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d57/a01054.php">PureVirtual</a></li>
+		<li class="navelem"><a class="el" href="../../d6/d08/a00244.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d57/a01054.php">PathfindingProblem</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

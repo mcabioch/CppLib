@@ -1,2 +1,4 @@
-<map id="mcd::trio&lt; T, U, V &gt;" name="mcd::trio&lt; T, U, V &gt;">
+<map id="mcd::Player&lt; PlayerParent &gt;" name="mcd::Player&lt; PlayerParent &gt;">
+<area shape="rect" id="node2" href="$d0/dfb/a01066.php" title="A player that can be a child from any class. " alt="" coords="5,80,164,121"/>
+<area shape="rect" id="node4" href="$dd/d7a/a00990.php" title="A class to store some identify datas. " alt="" coords="188,87,293,114"/>
 </map>

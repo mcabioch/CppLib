@@ -1,4 +1,5 @@
-<map id="mcd::Threadable&lt; C &gt;" name="mcd::Threadable&lt; C &gt;">
-<area shape="rect" id="node2" href="$d2/db8/a01057.php" title="mcd::Threadable\&lt; Timer \&gt;" alt="" coords="5,95,181,121"/>
-<area shape="rect" id="node3" href="$d0/dc9/a01065.php" title="A timer to do something at the end. " alt="" coords="49,171,137,197"/>
+<map id="mcd::Plant" name="mcd::Plant">
+<area shape="rect" id="node2" href="$dd/de2/a01134.php" title="A vegetal. " alt="" coords="17,155,116,181"/>
+<area shape="rect" id="node3" href="$d2/ddd/a00978.php" title="An entity. " alt="" coords="22,80,111,107"/>
+<area shape="rect" id="node4" href="$df/d12/a00942.php" title="A contraption. " alt="" coords="5,5,128,32"/>
 </map>

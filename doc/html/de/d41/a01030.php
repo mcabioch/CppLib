@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::PathfindingProblem Class Reference</title>
+		<title>C++: mcd::Object Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:57 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -91,71 +91,150 @@ $(document).ready(function(){initNavTree('de/d41/a01030.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../dd/dfd/a01027.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::PathfindingProblem Class Reference</div>  </div>
+<div class="title">mcd::Object Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to group every pathfinding problems in one way to use it.  
+<p>An object.  
  <a href="../../de/d41/a01030.php#details">More...</a></p>
 
-<p><code>#include &lt;PathfindingProblem.hpp&gt;</code></p>
+<p><code>#include &lt;Object.hpp&gt;</code></p>
 <div class="dynheader">
-Collaboration diagram for mcd::PathfindingProblem:</div>
+Inheritance diagram for mcd::Object:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../db/d08/a01028.png" border="0" usemap="#mcd_1_1PathfindingProblem_coll__map" alt="Collaboration graph"/></div>
-<map name="mcd_1_1PathfindingProblem_coll__map" id="mcd_1_1PathfindingProblem_coll__map">
-<area shape="rect" id="node3" title="STL class. " alt="" coords="163,58,286,85"/>
-<area shape="rect" id="node9" title="STL class. " alt="" coords="167,130,283,157"/>
-<area shape="rect" id="node8" href="../../d0/d2b/a01010.php" title="A node for the path. " alt="" coords="149,181,300,207"/>
+<div class="center"><img src="../../d0/daa/a01029.png" border="0" usemap="#mcd_1_1Object_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1Object_inherit__map" id="mcd_1_1Object_inherit__map">
+<area shape="rect" id="node3" href="../../da/d73/a01090.php" title="A stone. " alt="" coords="22,155,111,181"/>
+<area shape="rect" id="node2" href="../../df/d12/a00942.php" title="A contraption. " alt="" coords="5,5,128,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::Object:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d08/a01028.png" border="0" usemap="#mcd_1_1Object_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1Object_coll__map" id="mcd_1_1Object_coll__map">
+<area shape="rect" id="node2" href="../../df/d12/a00942.php" title="A contraption. " alt="" coords="5,5,128,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af2aa5f359715262ae600422bb49e79af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d41/a01030.php#af2aa5f359715262ae600422bb49e79af">PathfindingProblem</a> (std::vector&lt; <a class="el" href="../../d0/d2b/a01010.php">PathfindingNode</a> &gt; <a class="el" href="../../de/d41/a01030.php#adb3befe767011d5d5738d1e4cb756e09">nodes</a>, std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d0/d53/a00232.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt; <a class="el" href="../../de/d41/a01030.php#ae7e5173f36187aeb5e1c334d60f2c914">distances</a>)</td></tr>
-<tr class="memdesc:af2aa5f359715262ae600422bb49e79af"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#af2aa5f359715262ae600422bb49e79af">More...</a><br /></td></tr>
-<tr class="separator:af2aa5f359715262ae600422bb49e79af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d41/a01030.php#a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0">PathfindingProblem</a> (std::vector&lt; <a class="el" href="../../d0/d2b/a01010.php">PathfindingNode</a> &gt; <a class="el" href="../../de/d41/a01030.php#adb3befe767011d5d5738d1e4cb756e09">nodes</a>, std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d0/d53/a00232.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt; <a class="el" href="../../de/d41/a01030.php#ae7e5173f36187aeb5e1c334d60f2c914">distances</a>, std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d0/d53/a00232.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt; <a class="el" href="../../de/d41/a01030.php#ab5fbef9d1844f398fffd1dbc2870adef">weights</a>)</td></tr>
-<tr class="separator:a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bf356ad792ba79df121cedf0501f6f1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d41/a01030.php#a0bf356ad792ba79df121cedf0501f6f1">~PathfindingProblem</a> ()</td></tr>
-<tr class="separator:a0bf356ad792ba79df121cedf0501f6f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:adb3befe767011d5d5738d1e4cb756e09"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d2b/a01010.php">PathfindingNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d41/a01030.php#adb3befe767011d5d5738d1e4cb756e09">nodes</a></td></tr>
-<tr class="separator:adb3befe767011d5d5738d1e4cb756e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87c634685eea28780ddc10b7aa08af07"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d41/a01030.php#a87c634685eea28780ddc10b7aa08af07">nbNodes</a></td></tr>
-<tr class="separator:a87c634685eea28780ddc10b7aa08af07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7e5173f36187aeb5e1c334d60f2c914"><td class="memItemLeft" align="right" valign="top">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d0/d53/a00232.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d41/a01030.php#ae7e5173f36187aeb5e1c334d60f2c914">distances</a></td></tr>
-<tr class="separator:ae7e5173f36187aeb5e1c334d60f2c914"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5fbef9d1844f398fffd1dbc2870adef"><td class="memItemLeft" align="right" valign="top">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d0/d53/a00232.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d41/a01030.php#ab5fbef9d1844f398fffd1dbc2870adef">weights</a></td></tr>
-<tr class="separator:ab5fbef9d1844f398fffd1dbc2870adef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70c60dedee9b93e8bcd750a60e37ecfd"><td class="memItemLeft" align="right" valign="top">std::map&lt; size_t, std::map&lt; size_t, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d41/a01030.php#a70c60dedee9b93e8bcd750a60e37ecfd">computed</a></td></tr>
-<tr class="separator:a70c60dedee9b93e8bcd750a60e37ecfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad332f3a57527a6ede1be2e18b65615a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d41/a01030.php#ad332f3a57527a6ede1be2e18b65615a5">Object</a> (<a class="el" href="../../d0/d2b/a01010.php">Map</a> *map=nullptr, <a class="el" href="../../db/d1e/a01126.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d6/d08/a00244.php#df/dce/a00974">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
+<tr class="memdesc:ad332f3a57527a6ede1be2e18b65615a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#ad332f3a57527a6ede1be2e18b65615a5">More...</a><br /></td></tr>
+<tr class="separator:ad332f3a57527a6ede1be2e18b65615a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a400f71c448a89abecda88ba70ab5029f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d41/a01030.php#a400f71c448a89abecda88ba70ab5029f">~Object</a> ()</td></tr>
+<tr class="memdesc:a400f71c448a89abecda88ba70ab5029f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#a400f71c448a89abecda88ba70ab5029f">More...</a><br /></td></tr>
+<tr class="separator:a400f71c448a89abecda88ba70ab5029f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaae968dcea4a9aa8a530dc95b24848d0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d41/a01030.php#aaae968dcea4a9aa8a530dc95b24848d0">printInfos</a> (std::ostream &amp;stream) const override</td></tr>
+<tr class="memdesc:aaae968dcea4a9aa8a530dc95b24848d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the infos in the instance of the class in <em>stream</em>.  <a href="#aaae968dcea4a9aa8a530dc95b24848d0">More...</a><br /></td></tr>
+<tr class="separator:aaae968dcea4a9aa8a530dc95b24848d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00942"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00942')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../df/d12/a00942.php">mcd::Contraption</a></td></tr>
+<tr class="memitem:a807590a9e81f34ba22aca08ddd986db7 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a807590a9e81f34ba22aca08ddd986db7">Contraption</a> (<a class="el" href="../../d0/d2b/a01010.php">Map</a> *map=nullptr, <a class="el" href="../../db/d1e/a01126.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d6/d08/a00244.php#df/dce/a00974">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
+<tr class="memdesc:a807590a9e81f34ba22aca08ddd986db7 inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="../../df/d12/a00942.php#a807590a9e81f34ba22aca08ddd986db7">More...</a><br /></td></tr>
+<tr class="separator:a807590a9e81f34ba22aca08ddd986db7 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17bb565b03902a28211f8609ac04d01b inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a17bb565b03902a28211f8609ac04d01b">~Contraption</a> ()</td></tr>
+<tr class="memdesc:a17bb565b03902a28211f8609ac04d01b inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="../../df/d12/a00942.php#a17bb565b03902a28211f8609ac04d01b">More...</a><br /></td></tr>
+<tr class="separator:a17bb565b03902a28211f8609ac04d01b inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2974b562f55f65a1b992ff849eea43cf inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a2974b562f55f65a1b992ff849eea43cf">setPosition</a> (<a class="el" href="../../db/d1e/a01126.php">Point</a> pt)</td></tr>
+<tr class="memdesc:a2974b562f55f65a1b992ff849eea43cf inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the position.  <a href="../../df/d12/a00942.php#a2974b562f55f65a1b992ff849eea43cf">More...</a><br /></td></tr>
+<tr class="separator:a2974b562f55f65a1b992ff849eea43cf inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae0d0bd5e4613514eb5cda66eaeabbcb inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#aae0d0bd5e4613514eb5cda66eaeabbcb">setPosition</a> (<a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> z=0)</td></tr>
+<tr class="memdesc:aae0d0bd5e4613514eb5cda66eaeabbcb inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the position.  <a href="../../df/d12/a00942.php#aae0d0bd5e4613514eb5cda66eaeabbcb">More...</a><br /></td></tr>
+<tr class="separator:aae0d0bd5e4613514eb5cda66eaeabbcb inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbaabb4c71f560de8c85a859c11dd57a inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#abbaabb4c71f560de8c85a859c11dd57a">setX</a> (<a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x)</td></tr>
+<tr class="memdesc:abbaabb4c71f560de8c85a859c11dd57a inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the x coordinate.  <a href="../../df/d12/a00942.php#abbaabb4c71f560de8c85a859c11dd57a">More...</a><br /></td></tr>
+<tr class="separator:abbaabb4c71f560de8c85a859c11dd57a inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e1fc3a4ee923891fa0c523f129c45af inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a3e1fc3a4ee923891fa0c523f129c45af">setY</a> (<a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y)</td></tr>
+<tr class="memdesc:a3e1fc3a4ee923891fa0c523f129c45af inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the y coordinate.  <a href="../../df/d12/a00942.php#a3e1fc3a4ee923891fa0c523f129c45af">More...</a><br /></td></tr>
+<tr class="separator:a3e1fc3a4ee923891fa0c523f129c45af inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08c1de8034f9e3985a24dd78d37a3d44 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a08c1de8034f9e3985a24dd78d37a3d44">setZ</a> (<a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> z)</td></tr>
+<tr class="memdesc:a08c1de8034f9e3985a24dd78d37a3d44 inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the z coordinate.  <a href="../../df/d12/a00942.php#a08c1de8034f9e3985a24dd78d37a3d44">More...</a><br /></td></tr>
+<tr class="separator:a08c1de8034f9e3985a24dd78d37a3d44 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c5a7acde997e12d99e717f182c5ced7 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a9c5a7acde997e12d99e717f182c5ced7">setAttributes</a> (<a class="el" href="../../d6/d08/a00244.php#df/dce/a00974">ContraptionAttr</a> attr)</td></tr>
+<tr class="memdesc:a9c5a7acde997e12d99e717f182c5ced7 inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the attributes.  <a href="../../df/d12/a00942.php#a9c5a7acde997e12d99e717f182c5ced7">More...</a><br /></td></tr>
+<tr class="separator:a9c5a7acde997e12d99e717f182c5ced7 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae44610d2144faf1550f8cc6ec860fb71 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#ae44610d2144faf1550f8cc6ec860fb71">setAttributes</a> (<a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> w, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> h, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> angle=0)</td></tr>
+<tr class="memdesc:ae44610d2144faf1550f8cc6ec860fb71 inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the attributes.  <a href="../../df/d12/a00942.php#ae44610d2144faf1550f8cc6ec860fb71">More...</a><br /></td></tr>
+<tr class="separator:ae44610d2144faf1550f8cc6ec860fb71 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a00e0217550c3b79434659e04d40aef inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a2a00e0217550c3b79434659e04d40aef">setW</a> (<a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> w)</td></tr>
+<tr class="memdesc:a2a00e0217550c3b79434659e04d40aef inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the width.  <a href="../../df/d12/a00942.php#a2a00e0217550c3b79434659e04d40aef">More...</a><br /></td></tr>
+<tr class="separator:a2a00e0217550c3b79434659e04d40aef inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a060b6ee9401bd8c9a03c5cecdbfa1942 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a060b6ee9401bd8c9a03c5cecdbfa1942">setH</a> (<a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> h)</td></tr>
+<tr class="memdesc:a060b6ee9401bd8c9a03c5cecdbfa1942 inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the height.  <a href="../../df/d12/a00942.php#a060b6ee9401bd8c9a03c5cecdbfa1942">More...</a><br /></td></tr>
+<tr class="separator:a060b6ee9401bd8c9a03c5cecdbfa1942 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73a47e55e554e7c7f357a74276368186 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a73a47e55e554e7c7f357a74276368186">setA</a> (<a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> angle)</td></tr>
+<tr class="memdesc:a73a47e55e554e7c7f357a74276368186 inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the angle.  <a href="../../df/d12/a00942.php#a73a47e55e554e7c7f357a74276368186">More...</a><br /></td></tr>
+<tr class="separator:a73a47e55e554e7c7f357a74276368186 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a6c84d9d5f814fe553b731d841a5266 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a8a6c84d9d5f814fe553b731d841a5266">setMap</a> (<a class="el" href="../../d0/d2b/a01010.php">Map</a> *map)</td></tr>
+<tr class="memdesc:a8a6c84d9d5f814fe553b731d841a5266 inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the map.  <a href="../../df/d12/a00942.php#a8a6c84d9d5f814fe553b731d841a5266">More...</a><br /></td></tr>
+<tr class="separator:a8a6c84d9d5f814fe553b731d841a5266 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a332ecd56522af01cf41b9c4a69449bd0 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a332ecd56522af01cf41b9c4a69449bd0">setLevel</a> (size_t level)</td></tr>
+<tr class="memdesc:a332ecd56522af01cf41b9c4a69449bd0 inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the level.  <a href="../../df/d12/a00942.php#a332ecd56522af01cf41b9c4a69449bd0">More...</a><br /></td></tr>
+<tr class="separator:a332ecd56522af01cf41b9c4a69449bd0 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac95da2f760e8ba07a54ac849c5a3307f inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d1e/a01126.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#ac95da2f760e8ba07a54ac849c5a3307f">getPosition</a> () const</td></tr>
+<tr class="separator:ac95da2f760e8ba07a54ac849c5a3307f inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7d791e4289bd253a357be80f8131ee inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a6e7d791e4289bd253a357be80f8131ee">getX</a> () const</td></tr>
+<tr class="separator:a6e7d791e4289bd253a357be80f8131ee inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a153124dd434c08a943f60d7b43c2ffab inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a153124dd434c08a943f60d7b43c2ffab">getY</a> () const</td></tr>
+<tr class="separator:a153124dd434c08a943f60d7b43c2ffab inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ac6575807535f3d9aeb251ce3cceaed inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a6ac6575807535f3d9aeb251ce3cceaed">getZ</a> () const</td></tr>
+<tr class="separator:a6ac6575807535f3d9aeb251ce3cceaed inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa36a1788770d7667d8a2848ff1e3f0c6 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/a00244.php#df/dce/a00974">ContraptionAttr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#aa36a1788770d7667d8a2848ff1e3f0c6">getAttributes</a> () const</td></tr>
+<tr class="separator:aa36a1788770d7667d8a2848ff1e3f0c6 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad12fd1c5a207f169edc619e09a5a969f inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#ad12fd1c5a207f169edc619e09a5a969f">getW</a> () const</td></tr>
+<tr class="separator:ad12fd1c5a207f169edc619e09a5a969f inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec81012bc23935e626500734007d5fb5 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#aec81012bc23935e626500734007d5fb5">getH</a> () const</td></tr>
+<tr class="separator:aec81012bc23935e626500734007d5fb5 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a580eafa58a93d9ab4264c4cbac2f4167 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a580eafa58a93d9ab4264c4cbac2f4167">getA</a> () const</td></tr>
+<tr class="separator:a580eafa58a93d9ab4264c4cbac2f4167 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a393c4ec6fd375809fbcf1cfeab44ed25 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d2b/a01010.php">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a393c4ec6fd375809fbcf1cfeab44ed25">getMap</a> () const</td></tr>
+<tr class="separator:a393c4ec6fd375809fbcf1cfeab44ed25 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f6cf40462b5dba5f7743c83cc2389f1 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a2f6cf40462b5dba5f7743c83cc2389f1">getLevel</a> () const</td></tr>
+<tr class="separator:a2f6cf40462b5dba5f7743c83cc2389f1 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20dee618b85a3f841921a534bd5dfd37 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a20dee618b85a3f841921a534bd5dfd37">getRelativeZ</a> (<a class="el" href="../../df/d12/a00942.php">Contraption</a> &amp;obj)</td></tr>
+<tr class="memdesc:a20dee618b85a3f841921a534bd5dfd37 inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a z with the obstacles.  <a href="../../df/d12/a00942.php#a20dee618b85a3f841921a534bd5dfd37">More...</a><br /></td></tr>
+<tr class="separator:a20dee618b85a3f841921a534bd5dfd37 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f4fa78c938b90c034ad0fe98a293a3c inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a7f4fa78c938b90c034ad0fe98a293a3c">addPosition</a> (<a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y, <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> z=0)</td></tr>
+<tr class="memdesc:a7f4fa78c938b90c034ad0fe98a293a3c inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add coordinates to the actual position.  <a href="../../df/d12/a00942.php#a7f4fa78c938b90c034ad0fe98a293a3c">More...</a><br /></td></tr>
+<tr class="separator:a7f4fa78c938b90c034ad0fe98a293a3c inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10b4b5c4cd47da89e672c64c41b23162 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a10b4b5c4cd47da89e672c64c41b23162">turnLeft</a> ()</td></tr>
+<tr class="memdesc:a10b4b5c4cd47da89e672c64c41b23162 inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn the <a class="el" href="../../df/d12/a00942.php" title="A contraption. ">Contraption</a> to the left.  <a href="../../df/d12/a00942.php#a10b4b5c4cd47da89e672c64c41b23162">More...</a><br /></td></tr>
+<tr class="separator:a10b4b5c4cd47da89e672c64c41b23162 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f7cef1423cf575fabafa2143a588788 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a4f7cef1423cf575fabafa2143a588788">turnRight</a> ()</td></tr>
+<tr class="memdesc:a4f7cef1423cf575fabafa2143a588788 inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn the <a class="el" href="../../df/d12/a00942.php" title="A contraption. ">Contraption</a> to the right.  <a href="../../df/d12/a00942.php#a4f7cef1423cf575fabafa2143a588788">More...</a><br /></td></tr>
+<tr class="separator:a4f7cef1423cf575fabafa2143a588788 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ee6d1b64b6b88068a2165a1824a5af2 inherit pub_methods_a00942"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a00942.php#a6ee6d1b64b6b88068a2165a1824a5af2">sender</a> (std::string, <a class="el" href="../../d6/d08/a00244.php#a20cc1353da1673066a19b886e7e5c61e">vector_str</a>)</td></tr>
+<tr class="memdesc:a6ee6d1b64b6b88068a2165a1824a5af2 inherit pub_methods_a00942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite it to send infos.  <a href="../../df/d12/a00942.php#a6ee6d1b64b6b88068a2165a1824a5af2">More...</a><br /></td></tr>
+<tr class="separator:a6ee6d1b64b6b88068a2165a1824a5af2 inherit pub_methods_a00942"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to group every pathfinding problems in one way to use it. </p>
+<div class="textblock"><p>An object. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af2aa5f359715262ae600422bb49e79af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2aa5f359715262ae600422bb49e79af">&#9670;&nbsp;</a></span>PathfindingProblem() <span class="overload">[1/2]</span></h2>
+<a id="ad332f3a57527a6ede1be2e18b65615a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad332f3a57527a6ede1be2e18b65615a5">&#9670;&nbsp;</a></span>Object()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::PathfindingProblem::PathfindingProblem </td>
+          <td class="memname">mcd::Object::Object </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../d0/d2b/a01010.php">PathfindingNode</a> &gt;&#160;</td>
-          <td class="paramname"><em>nodes</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d0/d2b/a01010.php">Map</a> *&#160;</td>
+          <td class="paramname"><em>map</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d0/d53/a00232.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td>
-          <td class="paramname"><em>distances</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../db/d1e/a01126.php">Point</a>&#160;</td>
+          <td class="paramname"><em>pt</em> = <code>{0,&#160;0,&#160;0}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/d08/a00244.php#df/dce/a00974">ContraptionAttr</a>&#160;</td>
+          <td class="paramname"><em>attr</em> = <code>{0,&#160;0,&#160;0}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -165,46 +244,20 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The constructor of the class. </p>
+<p>Constructor of the class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">map</td><td>The map where it is </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>The position in the map </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">attr</td><td>The attributes of the object(width, height, angle) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0">&#9670;&nbsp;</a></span>PathfindingProblem() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::PathfindingProblem::PathfindingProblem </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../d0/d2b/a01010.php">PathfindingNode</a> &gt;&#160;</td>
-          <td class="paramname"><em>nodes</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d0/d53/a00232.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td>
-          <td class="paramname"><em>distances</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::map&lt; size_t, std::map&lt; size_t, <a class="el" href="../../d0/d53/a00232.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &gt; &gt;&#160;</td>
-          <td class="paramname"><em>weights</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0bf356ad792ba79df121cedf0501f6f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bf356ad792ba79df121cedf0501f6f1">&#9670;&nbsp;</a></span>~PathfindingProblem()</h2>
+<a id="a400f71c448a89abecda88ba70ab5029f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a400f71c448a89abecda88ba70ab5029f">&#9670;&nbsp;</a></span>~Object()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,7 +266,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::PathfindingProblem::~PathfindingProblem </td>
+          <td class="memname">virtual mcd::Object::~Object </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -226,81 +279,52 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Virtual destructor. </p>
+
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a70c60dedee9b93e8bcd750a60e37ecfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70c60dedee9b93e8bcd750a60e37ecfd">&#9670;&nbsp;</a></span>computed</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aaae968dcea4a9aa8a530dc95b24848d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaae968dcea4a9aa8a530dc95b24848d0">&#9670;&nbsp;</a></span>printInfos()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;size_t, std::map&lt;size_t, bool&gt; &gt; mcd::PathfindingProblem::computed</td>
+          <td class="memname">virtual void mcd::Object::printInfos </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ae7e5173f36187aeb5e1c334d60f2c914"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7e5173f36187aeb5e1c334d60f2c914">&#9670;&nbsp;</a></span>distances</h2>
+<p>Print the infos in the instance of the class in <em>stream</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>The output stream</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;size_t, std::map&lt;size_t, <a class="el" href="../../d0/d53/a00232.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&gt; &gt; mcd::PathfindingProblem::distances</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Reimplemented from <a class="el" href="../../df/d12/a00942.php#a5cb6af540ebec175e270980217ff9de7">mcd::Contraption</a>.</p>
 
-</div>
-</div>
-<a id="a87c634685eea28780ddc10b7aa08af07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87c634685eea28780ddc10b7aa08af07">&#9670;&nbsp;</a></span>nbNodes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t mcd::PathfindingProblem::nbNodes</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adb3befe767011d5d5738d1e4cb756e09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb3befe767011d5d5738d1e4cb756e09">&#9670;&nbsp;</a></span>nodes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="../../d0/d2b/a01010.php">PathfindingNode</a>&gt; mcd::PathfindingProblem::nodes</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab5fbef9d1844f398fffd1dbc2870adef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5fbef9d1844f398fffd1dbc2870adef">&#9670;&nbsp;</a></span>weights</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;size_t, std::map&lt;size_t, <a class="el" href="../../d0/d53/a00232.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&gt; &gt; mcd::PathfindingProblem::weights</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Reimplemented in <a class="el" href="../../da/d73/a01090.php#ad23699d742569bc0eb2e9724a37b6cdf">mcd::Stone</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d6/d7d/a00161.php">PathfindingProblem.hpp</a></li>
+<li><a class="el" href="../../da/d1e/a00149.php">Object.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -308,7 +332,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d0/d53/a00232.php">mcd</a></li><li class="navelem"><a class="el" href="../../de/d41/a01030.php">PathfindingProblem</a></li>
+		<li class="navelem"><a class="el" href="../../d6/d08/a00244.php">mcd</a></li><li class="navelem"><a class="el" href="../../de/d41/a01030.php">Object</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

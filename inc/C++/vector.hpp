@@ -80,7 +80,9 @@ namespace mcd {
 				}
 
 				vector<C>& operator|=(const vector<C>& b){
+					vector<C> c = *this;
 					*this += b;
+					*this -= (c & b);
 
 					return *this;
 				}

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:57 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,13 +90,15 @@ $(document).ready(function(){initNavTree('d5/d69/a00878.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Check::is_object&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::Check::has_size_method&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d5/d69/a00878.php">mcd::Check::is_object&lt; T &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d5/d69/a00878.php">mcd::Check::has_size_method&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d69/a00878.php#aba4751c5acee27e01be8c2b8abc0888b">value</a></td><td class="entry"><a class="el" href="../../d5/d69/a00878.php">mcd::Check::is_object&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d69/a00878.php#a7d782a43bfd471bf7a32ac0dfafe1041">has_size_method</a>()</td><td class="entry"><a class="el" href="../../d5/d69/a00878.php">mcd::Check::has_size_method&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d69/a00878.php#a08b55ec77a90295c1e84f63021bc89a2">value</a></td><td class="entry"><a class="el" href="../../d5/d69/a00878.php">mcd::Check::has_size_method&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d69/a00878.php#a7347cf32ea916931725455b99a9dd34a">~ has_size_method</a>()</td><td class="entry"><a class="el" href="../../d5/d69/a00878.php">mcd::Check::has_size_method&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

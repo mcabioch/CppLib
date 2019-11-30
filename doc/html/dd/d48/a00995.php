@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:56 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,14 +90,26 @@ $(document).ready(function(){initNavTree('d9/d9a/a00998.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::NotCopyable Member List</div>  </div>
+<div class="title">mcd::Logger Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d9/d9a/a00998.php">mcd::NotCopyable</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a>()</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a>()</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#a25d94050e8e7f91c7e1f02ddc2af8e95ad58a475f585716dda86e2e0af0570cec">All</a> enum value</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">Debug</a> enum value</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#a25d94050e8e7f91c7e1f02ddc2af8e95a98b026269a3081d4a4801bc7418e1d47">Error</a> enum value</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#a25d94050e8e7f91c7e1f02ddc2af8e95a3b0278ed2e63ab59b05883c3943c73cf">Fatal</a> enum value</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#a25d94050e8e7f91c7e1f02ddc2af8e95ae7888eab8f157c2bc53e24557f2a8458">Info</a> enum value</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#ab549f25e73c47afaff922b59cda6ccc4">init</a>(const std::string &amp;logConfigFile)</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#a365030ec32e6af40c6c53a53ff5163f4">isEnabled</a>(Level level)</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#ad8527d935f1fa6c697d792a8f72276e4">isInit</a>() const</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a> enum name</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#a2cb99172e98a89e45fdcb9b394eea99e">log</a>(Level level, int line, const std::string &amp;file, Args... args)</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#a189cdd6486b23632d014a2e795ed8e13">Logger</a>()</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#a25d94050e8e7f91c7e1f02ddc2af8e95a0bab71bd19d6bf8a3e85aaf73e41814a">Off</a> enum value</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#a25d94050e8e7f91c7e1f02ddc2af8e95a97b60120ff602c7d5050124927962f79">Warn</a> enum value</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/d9a/a00998.php#a9b43e0ba2ab53c8a6758b20d3f828f96">~Logger</a>()</td><td class="entry"><a class="el" href="../../d9/d9a/a00998.php">mcd::Logger</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

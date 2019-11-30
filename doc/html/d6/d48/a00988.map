@@ -1,4 +1,4 @@
-<map id="mcd::Object" name="mcd::Object">
-<area shape="rect" id="node3" href="$d0/d22/a01049.php" title="A stone. " alt="" coords="22,155,111,181"/>
-<area shape="rect" id="node2" href="$da/d5b/a00905.php" title="A contraption. " alt="" coords="5,5,128,32"/>
+<map id="mcd::Identifier" name="mcd::Identifier">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="29,96,109,123"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="5,5,132,47"/>
 </map>

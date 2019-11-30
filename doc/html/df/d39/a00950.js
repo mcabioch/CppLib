@@ -1,14 +1,8 @@
 var a00950 =
 [
-    [ "Identifier", "df/d39/a00950.php#a1496891d2323d1023ebfd086b84faf8d", null ],
-    [ "~Identifier", "df/d39/a00950.php#a87dbdb0f9b391d6a78d61463e8823628", null ],
-    [ "getId", "df/d39/a00950.php#abc0c02ec636a63cf2086e6e98f194b63", null ],
-    [ "getPassword", "df/d39/a00950.php#a0dcb443f68200102b855f77878754af9", null ],
-    [ "getUsername", "df/d39/a00950.php#a6108c8a63af7595ff4d9a4f2ad868b1e", null ],
-    [ "setId", "df/d39/a00950.php#a593e0be0e4c8e17b22507e7f7d933ded", null ],
-    [ "setPassword", "df/d39/a00950.php#a5b0a0e637d443935ae770bf90b652dea", null ],
-    [ "setUsername", "df/d39/a00950.php#a7487ac9cac4531aad529994927c0e69f", null ],
-    [ "_id", "df/d39/a00950.php#a6920412818f4d8a4478771fb767a2d07", null ],
-    [ "_password", "df/d39/a00950.php#a95d479399de1b046aff00e83210b67ea", null ],
-    [ "_username", "df/d39/a00950.php#a4a002c57b507ef0c744135eacfb82b6f", null ]
+    [ "Cesar", "df/d39/a00950.php#a01dc2192c075a4cbed0a72a9c35e1a4b", null ],
+    [ "~Cesar", "df/d39/a00950.php#a65a181afa9b857412b3a317b725e1331", null ],
+    [ "crypt", "df/d39/a00950.php#a97036e8c40e9aafa4a0d7f44df6fcac7", null ],
+    [ "decrypt", "df/d39/a00950.php#a83018ea2d4b8530ccfe03d58b6bbff9b", null ],
+    [ "decrypt", "df/d39/a00950.php#a3368134737d4f820661e03afbc91b8f1", null ]
 ];

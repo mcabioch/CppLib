@@ -9,7 +9,7 @@
 #ifndef HEADER_LOGGER
 #define HEADER_LOGGER
 
-#include "C++/defines.hpp"
+#include "C++/C++lib.hpp"
 
 namespace mcd {
 	/*!

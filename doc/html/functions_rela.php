@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:51 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:58 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,112 +93,112 @@ $(document).ready(function(){initNavTree('functions_rela.php','');});
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>Cls
-: <a class="el" href="d0/d85/a00908.php#a37c42c3a0b8af325e746f536a6a51305">mcd::Color</a>
+: <a class="el" href="d3/dd1/a00914.php#a37c42c3a0b8af325e746f536a6a51305">mcd::Color</a>
 </li>
 </ul>
 
 
 <h3><a id="index_g"></a>- g -</h3><ul>
 <li>GaussJordan
-: <a class="el" href="dd/dac/a01008.php#a9b0f04cced69a887b46bddde8e3f3c0a">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="d0/d56/a01014.php#a9b0f04cced69a887b46bddde8e3f3c0a">mcd::Matrix&lt; C &gt;</a>
 </li>
 </ul>
 
 
 <h3><a id="index_m"></a>- m -</h3><ul>
 <li>mod
-: <a class="el" href="d8/d64/a00828.php#a2ed0b910c5ed7ec9875836082c63baa8">mcd::Big</a>
+: <a class="el" href="d9/d02/a00834.php#a2ed0b910c5ed7ec9875836082c63baa8">mcd::Big</a>
 </li>
 </ul>
 
 
 <h3><a id="index_n"></a>- n -</h3><ul>
 <li>nroot
-: <a class="el" href="d8/d64/a00828.php#a21b8fc95f6ce377054c153aa5f1e871c">mcd::Big</a>
+: <a class="el" href="d9/d02/a00834.php#a21b8fc95f6ce377054c153aa5f1e871c">mcd::Big</a>
 </li>
 </ul>
 
 
 <h3><a id="index_o"></a>- o -</h3><ul>
 <li>operator!
-: <a class="el" href="d8/d64/a00828.php#aaeca4e372966fe2b3b857d52880ca210">mcd::Big</a>
+: <a class="el" href="d9/d02/a00834.php#aaeca4e372966fe2b3b857d52880ca210">mcd::Big</a>
 </li>
 <li>operator!=
-: <a class="el" href="d8/d64/a00828.php#ad9c55799e64051a79feb72642bacc2bd">mcd::Big</a>
-, <a class="el" href="da/d17/a00964.php#a3887764124eb590ec7c7bd63263b5dcc">mcd::DateTime</a>
-, <a class="el" href="db/d08/a01028.php#a3fe0870c6659f0faf93353dae13f198b">mcd::PathfindingNode</a>
-, <a class="el" href="d4/dc5/a01116.php#a6bea9cfb4049115f767ed658959d6648">mcd::Point</a>
+: <a class="el" href="d9/d02/a00834.php#ad9c55799e64051a79feb72642bacc2bd">mcd::Big</a>
+, <a class="el" href="d0/daf/a00970.php#a3887764124eb590ec7c7bd63263b5dcc">mcd::DateTime</a>
+, <a class="el" href="de/d91/a01034.php#a3fe0870c6659f0faf93353dae13f198b">mcd::PathfindingNode</a>
+, <a class="el" href="db/d1e/a01126.php#a6bea9cfb4049115f767ed658959d6648">mcd::Point</a>
 </li>
 <li>operator%
-: <a class="el" href="d8/d64/a00828.php#a8082f5075921a15bedfa304ddc5f0bfa">mcd::Big</a>
+: <a class="el" href="d9/d02/a00834.php#a8082f5075921a15bedfa304ddc5f0bfa">mcd::Big</a>
 </li>
 <li>operator*
-: <a class="el" href="d8/d64/a00828.php#aef65b2815526a32f3da7094648cb5ef7">mcd::Big</a>
+: <a class="el" href="d9/d02/a00834.php#aef65b2815526a32f3da7094648cb5ef7">mcd::Big</a>
 </li>
 <li>operator+
-: <a class="el" href="d8/d64/a00828.php#ad475b8459ee2ea450eecbc0b2a49f221">mcd::Big</a>
+: <a class="el" href="d9/d02/a00834.php#ad475b8459ee2ea450eecbc0b2a49f221">mcd::Big</a>
 </li>
 <li>operator++
-: <a class="el" href="d8/d64/a00828.php#a561b68f0811a35c5af315d6b52f8c858">mcd::Big</a>
+: <a class="el" href="d9/d02/a00834.php#a561b68f0811a35c5af315d6b52f8c858">mcd::Big</a>
 </li>
 <li>operator-
-: <a class="el" href="d8/d64/a00828.php#a8d411571b65ece2daacc12f0293850e8">mcd::Big</a>
+: <a class="el" href="d9/d02/a00834.php#a8d411571b65ece2daacc12f0293850e8">mcd::Big</a>
 </li>
 <li>operator--
-: <a class="el" href="d8/d64/a00828.php#a5226a81d618e406ae59842011efff7f0">mcd::Big</a>
+: <a class="el" href="d9/d02/a00834.php#a5226a81d618e406ae59842011efff7f0">mcd::Big</a>
 </li>
 <li>operator/
-: <a class="el" href="d8/d64/a00828.php#aa0213bc63f03a5db6ec4d081b9320a96">mcd::Big</a>
+: <a class="el" href="d9/d02/a00834.php#aa0213bc63f03a5db6ec4d081b9320a96">mcd::Big</a>
 </li>
 <li>operator&lt;
-: <a class="el" href="d8/d64/a00828.php#a9c625348272715ed4dad2c1420fb5bd0">mcd::Big</a>
-, <a class="el" href="da/d17/a00964.php#aaec41bb6ed721384b089c34fd87e0085">mcd::DateTime</a>
-, <a class="el" href="db/d08/a01028.php#accb5b160fd3f52084b8b83c8dddaae93">mcd::PathfindingNode</a>
+: <a class="el" href="d9/d02/a00834.php#a9c625348272715ed4dad2c1420fb5bd0">mcd::Big</a>
+, <a class="el" href="d0/daf/a00970.php#aaec41bb6ed721384b089c34fd87e0085">mcd::DateTime</a>
+, <a class="el" href="de/d91/a01034.php#accb5b160fd3f52084b8b83c8dddaae93">mcd::PathfindingNode</a>
 </li>
 <li>operator&lt;&lt;
-: <a class="el" href="d8/d64/a00828.php#a6d1ae6342e0dd6f689535b21fd46a023">mcd::Big</a>
-, <a class="el" href="d3/d13/a00836.php#acd2465f87f784cedc37718af0bf50d17">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
-, <a class="el" href="d0/d85/a00908.php#a84513fec989f2f817d2b1c5e6989450e">mcd::Color</a>
-, <a class="el" href="d8/dbb/a00932.php#af23c547bfa2b35d582a6922d425d02f5">mcd::ConsoleTable</a>
-, <a class="el" href="dc/d2b/a00936.php#a763a20bdd6cf99e565f2516d1c4bb161">mcd::Contraption</a>
-, <a class="el" href="d0/d85/a00976.php#a9313ed58249557fab9c0b6ab5e5f977f">mcd::Fraction</a>
-, <a class="el" href="dd/dac/a01008.php#a9a3710d279e209fbff51b625690ef630">mcd::Matrix&lt; C &gt;</a>
-, <a class="el" href="d4/dc5/a01116.php#a55681886ec7c5d7c0210fa0611bc84ea">mcd::Point</a>
-, <a class="el" href="dd/d38/a00928.php#a358d316052544257ab9aee6f1fe762dc">mcd::ThreadCout</a>
+: <a class="el" href="d9/d02/a00834.php#a6d1ae6342e0dd6f689535b21fd46a023">mcd::Big</a>
+, <a class="el" href="d0/d11/a00842.php#acd2465f87f784cedc37718af0bf50d17">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+, <a class="el" href="d3/dd1/a00914.php#a84513fec989f2f817d2b1c5e6989450e">mcd::Color</a>
+, <a class="el" href="d5/d54/a00938.php#af23c547bfa2b35d582a6922d425d02f5">mcd::ConsoleTable</a>
+, <a class="el" href="df/d12/a00942.php#a763a20bdd6cf99e565f2516d1c4bb161">mcd::Contraption</a>
+, <a class="el" href="d1/d7a/a00982.php#a9313ed58249557fab9c0b6ab5e5f977f">mcd::Fraction</a>
+, <a class="el" href="d0/d56/a01014.php#a9a3710d279e209fbff51b625690ef630">mcd::Matrix&lt; C &gt;</a>
+, <a class="el" href="db/d1e/a01126.php#a55681886ec7c5d7c0210fa0611bc84ea">mcd::Point</a>
+, <a class="el" href="d0/df0/a00934.php#a358d316052544257ab9aee6f1fe762dc">mcd::ThreadCout</a>
 </li>
 <li>operator&lt;=
-: <a class="el" href="d8/d64/a00828.php#a74e55e1a85a44b255d0f8e1158e02658">mcd::Big</a>
-, <a class="el" href="da/d17/a00964.php#abf9627c22b617dd531e214056bc67f92">mcd::DateTime</a>
-, <a class="el" href="db/d08/a01028.php#a3a838d53f4f20b9d921b88c936c9b0c6">mcd::PathfindingNode</a>
+: <a class="el" href="d9/d02/a00834.php#a74e55e1a85a44b255d0f8e1158e02658">mcd::Big</a>
+, <a class="el" href="d0/daf/a00970.php#abf9627c22b617dd531e214056bc67f92">mcd::DateTime</a>
+, <a class="el" href="de/d91/a01034.php#a3a838d53f4f20b9d921b88c936c9b0c6">mcd::PathfindingNode</a>
 </li>
 <li>operator==
-: <a class="el" href="d8/d64/a00828.php#a5eed09966f2142f9d979e7be4643c06a">mcd::Big</a>
-, <a class="el" href="da/d17/a00964.php#a15ab62ed982a1d04015c4e94597e225e">mcd::DateTime</a>
-, <a class="el" href="db/d08/a01028.php#af8e324237235cd148492d82eadf94e0c">mcd::PathfindingNode</a>
-, <a class="el" href="d4/dc5/a01116.php#a177528c8a1eee37fcda25a89084b8ed6">mcd::Point</a>
+: <a class="el" href="d9/d02/a00834.php#a5eed09966f2142f9d979e7be4643c06a">mcd::Big</a>
+, <a class="el" href="d0/daf/a00970.php#a15ab62ed982a1d04015c4e94597e225e">mcd::DateTime</a>
+, <a class="el" href="de/d91/a01034.php#af8e324237235cd148492d82eadf94e0c">mcd::PathfindingNode</a>
+, <a class="el" href="db/d1e/a01126.php#a177528c8a1eee37fcda25a89084b8ed6">mcd::Point</a>
 </li>
 <li>operator&gt;
-: <a class="el" href="d8/d64/a00828.php#ac75c3d550acaece7444e1d3373e0ced6">mcd::Big</a>
-, <a class="el" href="da/d17/a00964.php#adabc4caa88be53935e7c3d210821c97a">mcd::DateTime</a>
-, <a class="el" href="db/d08/a01028.php#aeba800fc4624a565bb41c02943679938">mcd::PathfindingNode</a>
+: <a class="el" href="d9/d02/a00834.php#ac75c3d550acaece7444e1d3373e0ced6">mcd::Big</a>
+, <a class="el" href="d0/daf/a00970.php#adabc4caa88be53935e7c3d210821c97a">mcd::DateTime</a>
+, <a class="el" href="de/d91/a01034.php#aeba800fc4624a565bb41c02943679938">mcd::PathfindingNode</a>
 </li>
 <li>operator&gt;=
-: <a class="el" href="d8/d64/a00828.php#adf83d734f0c4b777bb675bf327996987">mcd::Big</a>
-, <a class="el" href="da/d17/a00964.php#a5a1cc8417dca4698082acedf1edb07cf">mcd::DateTime</a>
-, <a class="el" href="db/d08/a01028.php#a50c4ea549ad84f73f8eb09fc5aa2bff3">mcd::PathfindingNode</a>
+: <a class="el" href="d9/d02/a00834.php#adf83d734f0c4b777bb675bf327996987">mcd::Big</a>
+, <a class="el" href="d0/daf/a00970.php#a5a1cc8417dca4698082acedf1edb07cf">mcd::DateTime</a>
+, <a class="el" href="de/d91/a01034.php#a50c4ea549ad84f73f8eb09fc5aa2bff3">mcd::PathfindingNode</a>
 </li>
 <li>operator&gt;&gt;
-: <a class="el" href="d8/d64/a00828.php#a91ce80d3959e1d2a891e58c940c8631b">mcd::Big</a>
+: <a class="el" href="d9/d02/a00834.php#a91ce80d3959e1d2a891e58c940c8631b">mcd::Big</a>
 </li>
 </ul>
 
 
 <h3><a id="index_p"></a>- p -</h3><ul>
 <li>pgcd
-: <a class="el" href="d8/d64/a00828.php#aa6a7af66a5c239b2b46979e998c43679">mcd::Big</a>
+: <a class="el" href="d9/d02/a00834.php#aa6a7af66a5c239b2b46979e998c43679">mcd::Big</a>
 </li>
 <li>pow
-: <a class="el" href="d8/d64/a00828.php#a9d40406ec9457a1565a2b0c60585ae9b">mcd::Big</a>
+: <a class="el" href="d9/d02/a00834.php#a9d40406ec9457a1565a2b0c60585ae9b">mcd::Big</a>
 </li>
 </ul>
 </div><!-- contents -->

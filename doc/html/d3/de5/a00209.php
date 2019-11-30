@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: Time.hpp File Reference</title>
+		<title>C++: Test.hpp File Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:48 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:56 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,135 +92,537 @@ $(document).ready(function(){initNavTree('d3/de5/a00209.php','../../');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">Time.hpp File Reference</div>  </div>
+<div class="title">Test.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d4/d3a/a00101.php">C++/includes.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d6/d2d/a00047.php">C++/C++lib.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Time.hpp:</div>
+Include dependency graph for Test.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/de7/a00210.png" border="0" usemap="#Time_8hpp" alt=""/></div>
-<map name="Time_8hpp" id="Time_8hpp">
-<area shape="rect" id="node2" href="../../d4/d3a/a00101.php" title="C++/includes.hpp" alt="" coords="768,80,893,107"/>
-<area shape="rect" id="node3" href="../../d5/db1/a00140.php" title="C++/NotCopyable.hpp" alt="" coords="211,155,365,181"/>
-<area shape="rect" id="node4" href="../../d7/dce/a00143.php" title="C++/NotInstantiable.hpp" alt="" coords="389,155,555,181"/>
-<area shape="rect" id="node5" href="../../dd/dc1/a00212.php" title="C++/timeFunctions.hpp" alt="" coords="579,155,738,181"/>
-<area shape="rect" id="node7" href="../../d3/db1/a00200.php" title="Used to replace strptime function when compiling for Windows. " alt="" coords="657,229,767,256"/>
-<area shape="rect" id="node8" href="../../de/db1/a00197.php" title="C++/string.hpp" alt="" coords="657,304,767,331"/>
-<area shape="rect" id="node10" href="../../de/d79/a00203.php" title="C++/system.hpp" alt="" coords="584,379,704,405"/>
-<area shape="rect" id="node64" href="../../da/d15/a00188.php" title="C++/RNG.hpp" alt="" coords="728,379,835,405"/>
-<area shape="rect" id="node66" href="../../d3/d00/a00113.php" title="C++/macro.hpp" alt="" coords="859,379,973,405"/>
-<area shape="rect" id="node11" href="../../da/d2a/a00086.php" title="C++/errors.hpp" alt="" coords="589,453,699,480"/>
-<area shape="rect" id="node12" href="../../d9/d2e/a00056.php" title="C++/console.hpp" alt="" coords="515,528,637,555"/>
-<area shape="rect" id="node62" href="../../db/dab/a00089.php" title="C++/files.hpp" alt="" coords="661,528,763,555"/>
-<area shape="rect" id="node13" href="../../de/de1/a00065.php" title="C++/convert.hpp" alt="" coords="525,603,645,629"/>
-<area shape="rect" id="node15" href="../../da/d45/a00011.php" title="C++/array.hpp" alt="" coords="592,677,699,704"/>
-<area shape="rect" id="node17" href="../../d6/d2d/a00047.php" title="C++/check.hpp" alt="" coords="589,752,701,779"/>
-<area shape="rect" id="node61" href="../../d9/dd0/a00191.php" title="C++/sorting.hpp" alt="" coords="727,752,843,779"/>
-<area shape="rect" id="node20" href="../../d9/d01/a00227.php" title="C++/vector.hpp" alt="" coords="730,827,843,853"/>
-<area shape="rect" id="node55" href="../../dc/dee/a00053.php" title="C++/collides.hpp" alt="" coords="585,827,706,853"/>
-<area shape="rect" id="node21" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="751,901,913,928"/>
-<area shape="rect" id="node28" href="../../db/dd9/a00179.php" title="C++/pointers.hpp" alt="" coords="713,1200,836,1227"/>
-<area shape="rect" id="node29" href="../../dd/d52/a00221.php" title="C++/types.hpp" alt="" coords="612,1275,721,1301"/>
-<area shape="rect" id="node31" href="../../d3/d52/a00023.php" title="Big.hpp" alt="" coords="633,1349,700,1376"/>
-<area shape="rect" id="node50" href="../../dc/d9a/a00218.php" title="C++/Tree.hpp" alt="" coords="506,1349,609,1376"/>
-<area shape="rect" id="node51" href="../../d7/d25/a00182.php" title="PureVirtual.hpp" alt="" coords="725,1349,835,1376"/>
-<area shape="rect" id="node52" href="../../d5/ddf/a00224.php" title="UsefullDefines.hpp" alt="" coords="860,1349,993,1376"/>
-<area shape="rect" id="node32" href="../../da/d1e/a00149.php" title="C++/OsDetection.hpp" alt="" coords="322,1424,473,1451"/>
-<area shape="rect" id="node46" href="../../d5/d16/a00029.php" title="C++/Big_Constructor.hpp" alt="" coords="1035,1424,1205,1451"/>
-<area shape="rect" id="node47" href="../../d4/d8c/a00035.php" title="C++/Big_Operator.hpp" alt="" coords="497,1424,650,1451"/>
-<area shape="rect" id="node48" href="../../d6/d5b/a00026.php" title="C++/Big_Comparison.hpp" alt="" coords="675,1424,848,1451"/>
-<area shape="rect" id="node49" href="../../dc/d87/a00032.php" title="C++/Big_Maths.hpp" alt="" coords="872,1424,1011,1451"/>
-<area shape="rect" id="node34" href="../../d4/d81/a00110.php" title="C++/lowIncludes.hpp" alt="" coords="391,1499,537,1525"/>
-<area shape="rect" id="node56" href="../../df/dc8/a00122.php" title="C++/Matrix.hpp" alt="" coords="543,901,657,928"/>
-<area shape="rect" id="node57" href="../../d1/dc1/a00092.php" title="C++/Fraction.hpp" alt="" coords="419,976,543,1003"/>
-<area shape="rect" id="node58" href="../../df/d6a/a00119.php" title="C++/maths.hpp" alt="" coords="425,1051,538,1077"/>
-<area shape="rect" id="node59" href="../../d8/d41/a00038.php" title="C++/Binary.hpp" alt="" coords="671,1125,785,1152"/>
+<div class="center"><img src="../../da/de7/a00210.png" border="0" usemap="#Test_8hpp" alt=""/></div>
+<map name="Test_8hpp" id="Test_8hpp">
+<area shape="rect" id="node2" href="../../d6/d2d/a00047.php" title="C++/C++lib.hpp" alt="" coords="737,80,853,107"/>
+<area shape="rect" id="node3" href="../../d4/d51/a00017.php" title="C++/Assert.hpp" alt="" coords="691,155,805,181"/>
+<area shape="rect" id="node93" href="../../d0/d89/a00071.php" title="C++/cryptage.hpp" alt="" coords="823,229,950,256"/>
+<area shape="rect" id="node4" href="../../db/db2/a00020.php" title="C++/AssertionException.hpp" alt="" coords="609,229,799,256"/>
+<area shape="rect" id="node5" href="../../da/dec/a00080.php" title="C++/defines.hpp" alt="" coords="735,304,854,331"/>
+<area shape="rect" id="node6" href="../../dd/d52/a00221.php" title="C++/Timer.hpp" alt="" coords="367,379,478,405"/>
+<area shape="rect" id="node78" href="../../d4/dee/a00008.php" title="C++/Args.hpp" alt="" coords="503,379,607,405"/>
+<area shape="rect" id="node79" href="../../d1/d09/a00077.php" title="C++/DateTime.hpp" alt="" coords="577,677,711,704"/>
+<area shape="rect" id="node82" href="../../dc/dee/a00053.php" title="C++/Clock.hpp" alt="" coords="682,528,793,555"/>
+<area shape="rect" id="node83" href="../../df/d03/a00062.php" title="C++/ConsoleTable.hpp" alt="" coords="752,603,909,629"/>
+<area shape="rect" id="node84" href="../../da/d15/a00188.php" title="C++/Referenced.hpp" alt="" coords="868,453,1012,480"/>
+<area shape="rect" id="node85" href="../../df/d98/a00107.php" title="C++/IOConfig.hpp" alt="" coords="985,528,1114,555"/>
+<area shape="rect" id="node86" href="../../df/d6a/a00119.php" title="C++/Map.hpp" alt="" coords="1123,379,1226,405"/>
+<area shape="rect" id="node7" href="../../dd/dc1/a00212.php" title="C++/Threadable.hpp" alt="" coords="383,453,524,480"/>
+<area shape="rect" id="node8" href="../../d0/dc2/a00104.php" title="C++/includes.hpp" alt="" coords="768,827,893,853"/>
+<area shape="rect" id="node9" href="../../d7/dce/a00143.php" title="C++/NotCopyable.hpp" alt="" coords="211,901,365,928"/>
+<area shape="rect" id="node10" href="../../d9/db6/a00146.php" title="C++/NotInstantiable.hpp" alt="" coords="389,901,555,928"/>
+<area shape="rect" id="node11" href="../../dc/d9a/a00218.php" title="C++/timeFunctions.hpp" alt="" coords="579,901,738,928"/>
+<area shape="rect" id="node13" href="../../de/d79/a00203.php" title="Used to replace strptime function when compiling for Windows. " alt="" coords="657,976,767,1003"/>
+<area shape="rect" id="node14" href="../../d3/db1/a00200.php" title="C++/string.hpp" alt="" coords="657,1051,767,1077"/>
+<area shape="rect" id="node16" href="../../d5/df1/a00206.php" title="C++/system.hpp" alt="" coords="584,1125,704,1152"/>
+<area shape="rect" id="node70" href="../../d9/dd0/a00191.php" title="C++/RNG.hpp" alt="" coords="728,1125,835,1152"/>
+<area shape="rect" id="node72" href="../../d4/d3e/a00116.php" title="C++/macro.hpp" alt="" coords="859,1125,973,1152"/>
+<area shape="rect" id="node17" href="../../db/dab/a00089.php" title="C++/errors.hpp" alt="" coords="589,1200,699,1227"/>
+<area shape="rect" id="node18" href="../../d3/d8b/a00059.php" title="C++/console.hpp" alt="" coords="515,1275,637,1301"/>
+<area shape="rect" id="node68" href="../../d1/dc1/a00092.php" title="C++/files.hpp" alt="" coords="661,1275,763,1301"/>
+<area shape="rect" id="node19" href="../../da/d24/a00068.php" title="C++/convert.hpp" alt="" coords="525,1349,645,1376"/>
+<area shape="rect" id="node21" href="../../da/d45/a00011.php" title="C++/array.hpp" alt="" coords="592,1424,699,1451"/>
+<area shape="rect" id="node23" href="../../d5/de0/a00050.php" title="C++/check.hpp" alt="" coords="589,1499,701,1525"/>
+<area shape="rect" id="node67" href="../../dc/d57/a00194.php" title="C++/sorting.hpp" alt="" coords="727,1499,843,1525"/>
+<area shape="rect" id="node26" href="../../d6/de1/a00233.php" title="C++/vector.hpp" alt="" coords="730,1573,843,1600"/>
+<area shape="rect" id="node61" href="../../d9/d2e/a00056.php" title="C++/collides.hpp" alt="" coords="585,1573,706,1600"/>
+<area shape="rect" id="node27" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="751,1648,913,1675"/>
+<area shape="rect" id="node34" href="../../d7/d25/a00182.php" title="C++/pointers.hpp" alt="" coords="713,1947,836,1973"/>
+<area shape="rect" id="node35" href="../../d9/d01/a00227.php" title="C++/types.hpp" alt="" coords="612,2021,721,2048"/>
+<area shape="rect" id="node37" href="../../d3/d52/a00023.php" title="Big.hpp" alt="" coords="633,2096,700,2123"/>
+<area shape="rect" id="node56" href="../../d5/ddf/a00224.php" title="C++/Tree.hpp" alt="" coords="506,2096,609,2123"/>
+<area shape="rect" id="node57" href="../../de/df3/a00185.php" title="PureVirtual.hpp" alt="" coords="725,2096,835,2123"/>
+<area shape="rect" id="node58" href="../../d1/da8/a00230.php" title="UsefullDefines.hpp" alt="" coords="860,2096,993,2123"/>
+<area shape="rect" id="node38" href="../../d7/d9a/a00152.php" title="C++/OsDetection.hpp" alt="" coords="322,2171,473,2197"/>
+<area shape="rect" id="node52" href="../../d5/d16/a00029.php" title="C++/Big_Constructor.hpp" alt="" coords="1035,2171,1205,2197"/>
+<area shape="rect" id="node53" href="../../d4/d8c/a00035.php" title="C++/Big_Operator.hpp" alt="" coords="497,2171,650,2197"/>
+<area shape="rect" id="node54" href="../../d6/d5b/a00026.php" title="C++/Big_Comparison.hpp" alt="" coords="675,2171,848,2197"/>
+<area shape="rect" id="node55" href="../../dc/d87/a00032.php" title="C++/Big_Maths.hpp" alt="" coords="872,2171,1011,2197"/>
+<area shape="rect" id="node40" href="../../d3/d00/a00113.php" title="C++/lowIncludes.hpp" alt="" coords="391,2245,537,2272"/>
+<area shape="rect" id="node62" href="../../dc/dfe/a00125.php" title="C++/Matrix.hpp" alt="" coords="543,1648,657,1675"/>
+<area shape="rect" id="node63" href="../../d9/d77/a00095.php" title="C++/Fraction.hpp" alt="" coords="419,1723,543,1749"/>
+<area shape="rect" id="node64" href="../../df/dc8/a00122.php" title="C++/maths.hpp" alt="" coords="425,1797,538,1824"/>
+<area shape="rect" id="node65" href="../../d8/d41/a00038.php" title="C++/Binary.hpp" alt="" coords="671,1872,785,1899"/>
+<area shape="rect" id="node80" href="../../db/db6/a00074.php" title="C++/Date.hpp" alt="" coords="622,752,727,779"/>
+<area shape="rect" id="node81" href="../../d3/dd5/a00215.php" title="C++/Time.hpp" alt="" coords="491,752,597,779"/>
+<area shape="rect" id="node87" href="../../d6/d7d/a00161.php" title="C++/PathfindingAlgorithms.hpp" alt="" coords="1109,453,1313,480"/>
+<area shape="rect" id="node88" href="../../db/ddf/a00164.php" title="C++/PathfindingDijkstra.hpp" alt="" coords="1139,528,1325,555"/>
+<area shape="rect" id="node89" href="../../d6/db8/a00158.php" title="C++/Pathfinding.hpp" alt="" coords="1161,603,1303,629"/>
+<area shape="rect" id="node90" href="../../d5/dcb/a00170.php" title="C++/PathfindingProblem.hpp" alt="" coords="1137,677,1327,704"/>
+<area shape="rect" id="node91" href="../../dc/de6/a00167.php" title="C++/PathfindingException.hpp" alt="" coords="1163,752,1363,779"/>
+<area shape="rect" id="node92" href="../../d3/df8/a00155.php" title="C++/Path.hpp" alt="" coords="1035,752,1139,779"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/ded/a00211.png" border="0" usemap="#Time_8hppdep" alt=""/></div>
-<map name="Time_8hppdep" id="Time_8hppdep">
-<area shape="rect" id="node2" href="../../db/db6/a00074.php" title="DateTime.hpp" alt="" coords="298,80,402,107"/>
-<area shape="rect" id="node3" href="../../d1/d09/a00077.php" title="defines.hpp" alt="" coords="305,155,395,181"/>
-<area shape="rect" id="node4" href="../../db/db2/a00020.php" title="AssertionException.hpp" alt="" coords="153,229,313,256"/>
-<area shape="rect" id="node22" href="../../da/d24/a00068.php" title="cryptage.hpp" alt="" coords="300,304,397,331"/>
-<area shape="rect" id="node23" href="../../df/d98/a00107.php" title="Logger.hpp" alt="" coords="389,229,476,256"/>
-<area shape="rect" id="node5" href="../../d4/d51/a00017.php" title="Assert.hpp" alt="" coords="190,304,275,331"/>
-<area shape="rect" id="node6" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="312,379,385,405"/>
-<area shape="rect" id="node7" href="../../df/d03/a00062.php" title="Contraption.hpp" alt="" coords="245,453,359,480"/>
-<area shape="rect" id="node21" href="../../d1/d44/a00098.php" title="Identifier.hpp" alt="" coords="344,827,441,853"/>
-<area shape="rect" id="node8" href="../../d2/d1f/a00083.php" title="Entity.hpp" alt="" coords="148,528,229,555"/>
-<area shape="rect" id="node19" href="../../d9/db6/a00146.php" title="Object.hpp" alt="" coords="267,528,353,555"/>
-<area shape="rect" id="node9" href="../../d9/d77/a00095.php" title="Hostile.hpp" alt="" coords="34,603,122,629"/>
-<area shape="rect" id="node16" href="../../d1/da8/a00230.php" title="Vegetal.hpp" alt="" coords="143,677,234,704"/>
-<area shape="rect" id="node10" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="5,677,92,704"/>
-<area shape="rect" id="node11" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="7,752,74,779"/>
-<area shape="rect" id="node12" href="../../da/dec/a00080.php" title="Entities.hpp" alt="" coords="225,827,315,853"/>
-<area shape="rect" id="node13" href="../../d5/de9/a00176.php" title="PlayerAbstraction.hpp" alt="" coords="197,901,348,928"/>
-<area shape="rect" id="node14" href="../../d7/d3f/a00173.php" title="Player.hpp" alt="" coords="287,976,371,1003"/>
-<area shape="rect" id="node15" href="../../d5/df9/a00044.php" title="C++Entities.hpp" alt="" coords="270,1051,387,1077"/>
-<area shape="rect" id="node17" href="../../d2/df5/a00137.php" title="Mushroom.hpp" alt="" coords="99,752,207,779"/>
-<area shape="rect" id="node18" href="../../d5/dcb/a00170.php" title="Plant.hpp" alt="" coords="231,752,309,779"/>
-<area shape="rect" id="node20" href="../../dc/d57/a00194.php" title="Stone.hpp" alt="" coords="277,603,359,629"/>
+<div class="center"><img src="../../dd/ded/a00211.png" border="0" usemap="#Test_8hppdep" alt=""/></div>
+<map name="Test_8hppdep" id="Test_8hppdep">
+<area shape="rect" id="node2" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="310,80,383,107"/>
+<area shape="rect" id="node3" href="../../de/de1/a00065.php" title="Contraption.hpp" alt="" coords="243,155,357,181"/>
+<area shape="rect" id="node17" href="../../d4/d3a/a00101.php" title="Identifier.hpp" alt="" coords="342,528,439,555"/>
+<area shape="rect" id="node4" href="../../da/d2a/a00086.php" title="Entity.hpp" alt="" coords="133,229,214,256"/>
+<area shape="rect" id="node15" href="../../da/d1e/a00149.php" title="Object.hpp" alt="" coords="265,229,351,256"/>
+<area shape="rect" id="node5" href="../../d1/d44/a00098.php" title="Hostile.hpp" alt="" coords="32,304,120,331"/>
+<area shape="rect" id="node12" href="../../d7/d40/a00236.php" title="Vegetal.hpp" alt="" coords="128,379,219,405"/>
+<area shape="rect" id="node6" href="../../d7/d46/a00002.php" title="Animal.hpp" alt="" coords="6,379,93,405"/>
+<area shape="rect" id="node7" href="../../dd/dad/a00005.php" title="Ant.hpp" alt="" coords="5,453,72,480"/>
+<area shape="rect" id="node8" href="../../d2/d1f/a00083.php" title="Entities.hpp" alt="" coords="223,528,313,555"/>
+<area shape="rect" id="node9" href="../../db/dd9/a00179.php" title="PlayerAbstraction.hpp" alt="" coords="195,603,346,629"/>
+<area shape="rect" id="node10" href="../../d5/de9/a00176.php" title="Player.hpp" alt="" coords="285,677,369,704"/>
+<area shape="rect" id="node11" href="../../d5/df9/a00044.php" title="C++Entities.hpp" alt="" coords="268,752,385,779"/>
+<area shape="rect" id="node13" href="../../d5/db1/a00140.php" title="Mushroom.hpp" alt="" coords="97,453,205,480"/>
+<area shape="rect" id="node14" href="../../d7/d3f/a00173.php" title="Plant.hpp" alt="" coords="229,453,307,480"/>
+<area shape="rect" id="node16" href="../../de/db1/a00197.php" title="Stone.hpp" alt="" coords="271,304,353,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9c/a01092.php">mcd::Time</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with dates.  <a href="../../de/d9c/a01092.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a01094.php">mcd::Test</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static class to test code.  <a href="../../d6/dea/a01094.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:da/d2e/a00238"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php">mcd</a></td></tr>
+<tr class="memitem:d6/d08/a00244"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d08/a00244.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ab3a0bfd8107f1a0512e3daccbe8ec32a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php#ab3a0bfd8107f1a0512e3daccbe8ec32a">mcd::operator&lt;</a> (const Time &amp;a, const Time &amp;b)</td></tr>
-<tr class="separator:ab3a0bfd8107f1a0512e3daccbe8ec32a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b7c3b86bf4f3323ec303cf6caf4657d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php#a1b7c3b86bf4f3323ec303cf6caf4657d">mcd::operator==</a> (const Time &amp;a, const Time &amp;b)</td></tr>
-<tr class="separator:a1b7c3b86bf4f3323ec303cf6caf4657d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e4a4fa2bc9dc1a79ba1c4e1326c4e86"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php#a6e4a4fa2bc9dc1a79ba1c4e1326c4e86">mcd::operator!=</a> (const Time &amp;a, const Time &amp;b)</td></tr>
-<tr class="separator:a6e4a4fa2bc9dc1a79ba1c4e1326c4e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eb9966b5003b5c69b1c19cf2c91da5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php#a0eb9966b5003b5c69b1c19cf2c91da5b">mcd::operator&gt;</a> (const Time &amp;a, const Time &amp;b)</td></tr>
-<tr class="separator:a0eb9966b5003b5c69b1c19cf2c91da5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35feb7b77517c8a067a4f631d0c01903"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php#a35feb7b77517c8a067a4f631d0c01903">mcd::operator&lt;=</a> (const Time &amp;a, const Time &amp;b)</td></tr>
-<tr class="separator:a35feb7b77517c8a067a4f631d0c01903"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2490b5d2fcccd5d4fcd7539a3e9ec8f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php#ab2490b5d2fcccd5d4fcd7539a3e9ec8f">mcd::operator&gt;=</a> (const Time &amp;a, const Time &amp;b)</td></tr>
-<tr class="separator:ab2490b5d2fcccd5d4fcd7539a3e9ec8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac056cce1809ed32482358d31064dac84"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2e/a00238.php#ac056cce1809ed32482358d31064dac84">mcd::operator&lt;&lt;</a> (std::ostream &amp;os, const Time &amp;time)</td></tr>
-<tr class="separator:ac056cce1809ed32482358d31064dac84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ae6d742460878949f5eea9f395f32548f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#ae6d742460878949f5eea9f395f32548f">TEST_FORMAT_MAX</a>&#160;&#160;&#160;0b00000010</td></tr>
+<tr class="separator:ae6d742460878949f5eea9f395f32548f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0c0b90cd164795a353e36bf0b8464e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#ab0c0b90cd164795a353e36bf0b8464e7">TEST_FORMAT_ERROR</a>&#160;&#160;&#160;0b00000100</td></tr>
+<tr class="separator:ab0c0b90cd164795a353e36bf0b8464e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac709139e143e2e7ae4df9ccc578f97be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#ac709139e143e2e7ae4df9ccc578f97be">TEST_FORMAT_SUCCESS</a>&#160;&#160;&#160;0b00001000</td></tr>
+<tr class="separator:ac709139e143e2e7ae4df9ccc578f97be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a8a8df987750bdc9889c32863383d31"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a9a8a8df987750bdc9889c32863383d31">TEST_FORMAT_ALL</a>&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#ae6d742460878949f5eea9f395f32548f">TEST_FORMAT_MAX</a> | <a class="el" href="../../d3/de5/a00209.php#ab0c0b90cd164795a353e36bf0b8464e7">TEST_FORMAT_ERROR</a> | <a class="el" href="../../d3/de5/a00209.php#ac709139e143e2e7ae4df9ccc578f97be">TEST_FORMAT_SUCCESS</a></td></tr>
+<tr class="separator:a9a8a8df987750bdc9889c32863383d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c07eac51a83f591603f2456250fe07e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>(EXPR,  STR)&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#afa2e1c8e4225517a259eb6e9e96bf480">mcd::Test::addTest</a>({static_cast&lt;bool&gt;(EXPR), STR, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td></tr>
+<tr class="separator:a0c07eac51a83f591603f2456250fe07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ed24c910b9c861fde0ee37cc53a26f2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a8ed24c910b9c861fde0ee37cc53a26f2">unit_true</a>(EXPR)&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>(static_cast&lt;bool&gt;(EXPR), #EXPR)</td></tr>
+<tr class="separator:a8ed24c910b9c861fde0ee37cc53a26f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8882f6cc17a922e91f806a24b4a6f413"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a8882f6cc17a922e91f806a24b4a6f413">unit_false</a>(EXPR)&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>((!static_cast&lt;bool&gt;(EXPR)), #EXPR)</td></tr>
+<tr class="separator:a8882f6cc17a922e91f806a24b4a6f413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9544a2b3d82fbf7b0913fb29ae4ab1d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#ac9544a2b3d82fbf7b0913fb29ae4ab1d">unit_equals</a>(A,  B)&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a8ed24c910b9c861fde0ee37cc53a26f2">unit_true</a>(A == B)</td></tr>
+<tr class="separator:ac9544a2b3d82fbf7b0913fb29ae4ab1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe6f23e4ac49c7bcf76fa26e710db6b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#abe6f23e4ac49c7bcf76fa26e710db6b4">unit_notEquals</a>(A,  B)&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a8882f6cc17a922e91f806a24b4a6f413">unit_false</a>(A == B)</td></tr>
+<tr class="separator:abe6f23e4ac49c7bcf76fa26e710db6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31dc59c312f6beaf52e720c5a7dcc017"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a31dc59c312f6beaf52e720c5a7dcc017">unit_in</a>(VALUE,  ARRAY)&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#a0039d201bb954bcf7abd3882a72a4aba">mcd::Test::in</a>(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td></tr>
+<tr class="separator:a31dc59c312f6beaf52e720c5a7dcc017"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eaf417c1ad582f2eb3fdef1e32d5a40"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a5eaf417c1ad582f2eb3fdef1e32d5a40">unit_notIn</a>(VALUE,  ARRAY)&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#a0039d201bb954bcf7abd3882a72a4aba">mcd::Test::in</a>(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__}, true)</td></tr>
+<tr class="separator:a5eaf417c1ad582f2eb3fdef1e32d5a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2035697778ce28474ce1c3ec73753b87"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a2035697778ce28474ce1c3ec73753b87">TEST_ADD_THROW</a>(INSTR,  EXCEPT,  EXPR)&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#a24b9749eacbe2b03325b920e7622f39d">mcd::Test::addThrow</a>(#INSTR, #EXCEPT, {static_cast&lt;bool&gt;(EXPR), &quot;&quot;, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td></tr>
+<tr class="separator:a2035697778ce28474ce1c3ec73753b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4feaf992012b5ed9c7f3abc2219d1b7a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a4feaf992012b5ed9c7f3abc2219d1b7a">unit_throws</a>(INSTR,  EXCEPT)</td></tr>
+<tr class="separator:a4feaf992012b5ed9c7f3abc2219d1b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab75ba1ba8623d1e9a555541577e8117e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#ab75ba1ba8623d1e9a555541577e8117e">unit_noThrows</a>(INSTR,  EXCEPT)</td></tr>
+<tr class="separator:ab75ba1ba8623d1e9a555541577e8117e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a349ad27ffc89c197309d6806895c961d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a349ad27ffc89c197309d6806895c961d">unit_instance</a>(OBJ,  INSTANCE)&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#aae4ebb67b6a68b14c5527f906c513a77">mcd::Test::instance</a>&lt;INSTANCE&gt;(OBJ, #OBJ, {false, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td></tr>
+<tr class="separator:a349ad27ffc89c197309d6806895c961d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad118bcf8324d2668994f961ee5019c5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#ad118bcf8324d2668994f961ee5019c5b">unit_notInstance</a>(OBJ,  INSTANCE)&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#aae4ebb67b6a68b14c5527f906c513a77">mcd::Test::instance</a>&lt;INSTANCE&gt;(OBJ, #OBJ, {false, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__}, false)</td></tr>
+<tr class="separator:ad118bcf8324d2668994f961ee5019c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : September, 26 2019</dd></dl>
-<p>Formats disponibles afin de récupérer l'heure<br />
- %H : Return the number of hours of the day between 00 and 24<br />
- %I : Return the number of hours of the day between 00 and 12<br />
- <br />
- %M : Return the number of minutes of the hour<br />
- <br />
- %S : Return the number of seconds of the minute<br />
- <br />
- %N : Return the number of milliseconds of the second<br />
- <br />
- %P : Return AM or PM<br />
- %p : Return am or pm<br />
-</p>
-</div></div><!-- contents -->
+<dl class="section date"><dt>Date</dt><dd>Created : Wednesday November, 27 2019 23:32:26 </dd>
+<dd>
+Last modification : November, 30 2019 </dd></dl>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a0c07eac51a83f591603f2456250fe07e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c07eac51a83f591603f2456250fe07e">&#9670;&nbsp;</a></span>TEST_ADD_TEST</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TEST_ADD_TEST</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">EXPR, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">STR&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#afa2e1c8e4225517a259eb6e9e96bf480">mcd::Test::addTest</a>({static_cast&lt;bool&gt;(EXPR), STR, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2035697778ce28474ce1c3ec73753b87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2035697778ce28474ce1c3ec73753b87">&#9670;&nbsp;</a></span>TEST_ADD_THROW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TEST_ADD_THROW</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">INSTR, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">EXCEPT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">EXPR&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#a24b9749eacbe2b03325b920e7622f39d">mcd::Test::addThrow</a>(#INSTR, #EXCEPT, {static_cast&lt;bool&gt;(EXPR), &quot;&quot;, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a8a8df987750bdc9889c32863383d31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a8a8df987750bdc9889c32863383d31">&#9670;&nbsp;</a></span>TEST_FORMAT_ALL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TEST_FORMAT_ALL&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#ae6d742460878949f5eea9f395f32548f">TEST_FORMAT_MAX</a> | <a class="el" href="../../d3/de5/a00209.php#ab0c0b90cd164795a353e36bf0b8464e7">TEST_FORMAT_ERROR</a> | <a class="el" href="../../d3/de5/a00209.php#ac709139e143e2e7ae4df9ccc578f97be">TEST_FORMAT_SUCCESS</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0c0b90cd164795a353e36bf0b8464e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0c0b90cd164795a353e36bf0b8464e7">&#9670;&nbsp;</a></span>TEST_FORMAT_ERROR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TEST_FORMAT_ERROR&#160;&#160;&#160;0b00000100</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6d742460878949f5eea9f395f32548f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6d742460878949f5eea9f395f32548f">&#9670;&nbsp;</a></span>TEST_FORMAT_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TEST_FORMAT_MAX&#160;&#160;&#160;0b00000010</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac709139e143e2e7ae4df9ccc578f97be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac709139e143e2e7ae4df9ccc578f97be">&#9670;&nbsp;</a></span>TEST_FORMAT_SUCCESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TEST_FORMAT_SUCCESS&#160;&#160;&#160;0b00001000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9544a2b3d82fbf7b0913fb29ae4ab1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9544a2b3d82fbf7b0913fb29ae4ab1d">&#9670;&nbsp;</a></span>unit_equals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_equals</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">A, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">B&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a8ed24c910b9c861fde0ee37cc53a26f2">unit_true</a>(A == B)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8882f6cc17a922e91f806a24b4a6f413"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8882f6cc17a922e91f806a24b4a6f413">&#9670;&nbsp;</a></span>unit_false</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_false</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">EXPR</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>((!static_cast&lt;bool&gt;(EXPR)), #EXPR)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31dc59c312f6beaf52e720c5a7dcc017"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31dc59c312f6beaf52e720c5a7dcc017">&#9670;&nbsp;</a></span>unit_in</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_in</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">VALUE, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARRAY&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#a0039d201bb954bcf7abd3882a72a4aba">mcd::Test::in</a>(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a349ad27ffc89c197309d6806895c961d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a349ad27ffc89c197309d6806895c961d">&#9670;&nbsp;</a></span>unit_instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_instance</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">OBJ, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">INSTANCE&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#aae4ebb67b6a68b14c5527f906c513a77">mcd::Test::instance</a>&lt;INSTANCE&gt;(OBJ, #OBJ, {false, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe6f23e4ac49c7bcf76fa26e710db6b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe6f23e4ac49c7bcf76fa26e710db6b4">&#9670;&nbsp;</a></span>unit_notEquals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_notEquals</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">A, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">B&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a8882f6cc17a922e91f806a24b4a6f413">unit_false</a>(A == B)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab75ba1ba8623d1e9a555541577e8117e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab75ba1ba8623d1e9a555541577e8117e">&#9670;&nbsp;</a></span>unit_noThrows</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_noThrows</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">INSTR, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">EXCEPT&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">{ \</div><div class="line">        bool <span class="keywordflow">throws</span> = <span class="keyword">true</span>; \</div><div class="line">        try { \</div><div class="line">            INSTR; \</div><div class="line">        } <span class="keywordflow">catch</span>(<span class="keyword">const</span> EXCEPT&amp;){ \</div><div class="line">            throws = <span class="keyword">false</span>; \</div><div class="line">        } <span class="keywordflow">catch</span>(<span class="keyword">const</span> std::exception&amp;){} \</div><div class="line">        TEST_ADD_THROW(INSTR, EXCEPT, <span class="keywordflow">throws</span>); \</div><div class="line">    }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a5eaf417c1ad582f2eb3fdef1e32d5a40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eaf417c1ad582f2eb3fdef1e32d5a40">&#9670;&nbsp;</a></span>unit_notIn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_notIn</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">VALUE, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARRAY&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#a0039d201bb954bcf7abd3882a72a4aba">mcd::Test::in</a>(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__}, true)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad118bcf8324d2668994f961ee5019c5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad118bcf8324d2668994f961ee5019c5b">&#9670;&nbsp;</a></span>unit_notInstance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_notInstance</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">OBJ, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">INSTANCE&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#aae4ebb67b6a68b14c5527f906c513a77">mcd::Test::instance</a>&lt;INSTANCE&gt;(OBJ, #OBJ, {false, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__}, false)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4feaf992012b5ed9c7f3abc2219d1b7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4feaf992012b5ed9c7f3abc2219d1b7a">&#9670;&nbsp;</a></span>unit_throws</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_throws</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">INSTR, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">EXCEPT&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">{ \</div><div class="line">        bool <span class="keywordflow">throws</span> = <span class="keyword">false</span>; \</div><div class="line">        try { \</div><div class="line">            INSTR; \</div><div class="line">        } <span class="keywordflow">catch</span>(<span class="keyword">const</span> EXCEPT&amp;){ \</div><div class="line">            throws = <span class="keyword">true</span>; \</div><div class="line">        } <span class="keywordflow">catch</span>(<span class="keyword">const</span> std::exception&amp;){} \</div><div class="line">        TEST_ADD_THROW(INSTR, EXCEPT, <span class="keywordflow">throws</span>); \</div><div class="line">    }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a8ed24c910b9c861fde0ee37cc53a26f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ed24c910b9c861fde0ee37cc53a26f2">&#9670;&nbsp;</a></span>unit_true</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_true</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">EXPR</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>(static_cast&lt;bool&gt;(EXPR), #EXPR)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_bfccd401955b95cf8c75461437045ac0.php">inc</a></li><li class="navelem"><a class="el" href="../../dir_2ce2ad1ea5ded593884489da6d66e532.php">C++</a></li><li class="navelem"><a class="el" href="../../d3/de5/a00209.php">Time.hpp</a></li>
+		<li class="navelem"><a class="el" href="../../dir_bfccd401955b95cf8c75461437045ac0.php">inc</a></li><li class="navelem"><a class="el" href="../../dir_2ce2ad1ea5ded593884489da6d66e532.php">C++</a></li><li class="navelem"><a class="el" href="../../d3/de5/a00209.php">Test.hpp</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

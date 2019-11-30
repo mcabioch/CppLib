@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:51 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:58 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,13 +93,13 @@ $(document).ready(function(){initNavTree('functions_func_b.php','');});
 
 <h3><a id="index_b"></a>- b -</h3><ul>
 <li>Big()
-: <a class="el" href="d8/d64/a00828.php#a9bf22e73a5a3631f06200da9a86e926b">mcd::Big</a>
+: <a class="el" href="d9/d02/a00834.php#a9bf22e73a5a3631f06200da9a86e926b">mcd::Big</a>
 </li>
 <li>Binary()
-: <a class="el" href="d3/d13/a00836.php#a29b9b7a89bae0c41f0ff5933406b8f4d">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d0/d11/a00842.php#a29b9b7a89bae0c41f0ff5933406b8f4d">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>bot()
-: <a class="el" href="d4/dc5/a01116.php#a2beb84069e438adcccfa4b6ed9794c0c">mcd::Point</a>
+: <a class="el" href="db/d1e/a01126.php#a2beb84069e438adcccfa4b6ed9794c0c">mcd::Point</a>
 </li>
 </ul>
 </div><!-- contents -->

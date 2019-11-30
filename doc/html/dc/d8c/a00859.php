@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Sep 27 2019 11:22:31 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:57 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,13 +90,13 @@ $(document).ready(function(){initNavTree('dc/d41/a00862.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Check::is_object&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::Check::is_quatuor&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/d41/a00862.php">mcd::Check::is_object&lt; T &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dc/d41/a00862.php">mcd::Check::is_quatuor&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d41/a00862.php#aba4751c5acee27e01be8c2b8abc0888b">value</a></td><td class="entry"><a class="el" href="../../dc/d41/a00862.php">mcd::Check::is_object&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d41/a00862.php#a89743328c29104ad4f66261b0ba77611">value</a></td><td class="entry"><a class="el" href="../../dc/d41/a00862.php">mcd::Check::is_quatuor&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

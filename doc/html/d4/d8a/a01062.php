@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::RNG&lt; T, U &gt; Class Template Reference</title>
+		<title>C++: mcd::Player&lt; PlayerParent &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:57 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,79 +93,167 @@ $(document).ready(function(){initNavTree('d4/d8a/a01062.php','../../');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../d0/d90/a01059.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::RNG&lt; T, U &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Player&lt; PlayerParent &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to simplify the use of random.  
+<p>A player that can be a child from any class.  
  <a href="../../d4/d8a/a01062.php#details">More...</a></p>
 
-<p><code>#include &lt;RNG.hpp&gt;</code></p>
+<p><code>#include &lt;Player.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::Player&lt; PlayerParent &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/d9e/a01061.png" border="0" usemap="#mcd_1_1Player_3_01PlayerParent_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1Player_3_01PlayerParent_01_4_inherit__map" id="mcd_1_1Player_3_01PlayerParent_01_4_inherit__map">
+<area shape="rect" id="node2" href="../../d0/dfb/a01066.php" title="A player that can be a child from any class. " alt="" coords="5,80,164,121"/>
+<area shape="rect" id="node4" href="../../dd/d7a/a00990.php" title="A class to store some identify datas. " alt="" coords="188,87,293,114"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::Player&lt; PlayerParent &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d16/a01060.png" border="0" usemap="#mcd_1_1Player_3_01PlayerParent_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1Player_3_01PlayerParent_01_4_coll__map" id="mcd_1_1Player_3_01PlayerParent_01_4_coll__map">
+<area shape="rect" id="node2" href="../../d0/dfb/a01066.php" title="A player that can be a child from any class. " alt="" coords="5,200,164,241"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="179,96,259,123"/>
+<area shape="rect" id="node6" href="../../dd/d7a/a00990.php" title="A class to store some identify datas. " alt="" coords="188,207,293,234"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="156,5,283,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ada6783e2f83f41b11d72687c90c29ead"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8a/a01062.php#ada6783e2f83f41b11d72687c90c29ead">RNG</a> ()</td></tr>
-<tr class="separator:ada6783e2f83f41b11d72687c90c29ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a717048eaee5dc829e132237026beaecc"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8a/a01062.php#a717048eaee5dc829e132237026beaecc">operator()</a> (T a, T b)</td></tr>
-<tr class="memdesc:a717048eaee5dc829e132237026beaecc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The definition of the operator ()  <a href="#a717048eaee5dc829e132237026beaecc">More...</a><br /></td></tr>
-<tr class="separator:a717048eaee5dc829e132237026beaecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2e12089a072fbc695087df2b474af5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8a/a01062.php#aa2e12089a072fbc695087df2b474af5c">Player</a> (<a class="el" href="../../d0/d2b/a01010.php">Map</a> *map=nullptr, <a class="el" href="../../db/d1e/a01126.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d6/d08/a00244.php#df/dce/a00974">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
+<tr class="memdesc:aa2e12089a072fbc695087df2b474af5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#aa2e12089a072fbc695087df2b474af5c">More...</a><br /></td></tr>
+<tr class="separator:aa2e12089a072fbc695087df2b474af5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73fba351baf5641e985c76c0de4fe097"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8a/a01062.php#a73fba351baf5641e985c76c0de4fe097">~Player</a> ()</td></tr>
+<tr class="memdesc:a73fba351baf5641e985c76c0de4fe097"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#a73fba351baf5641e985c76c0de4fe097">More...</a><br /></td></tr>
+<tr class="separator:a73fba351baf5641e985c76c0de4fe097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0258dbfcdecaaa58390125aac118fe8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8a/a01062.php#ae0258dbfcdecaaa58390125aac118fe8">printInfos</a> (std::ostream &amp;stream) const override</td></tr>
+<tr class="memdesc:ae0258dbfcdecaaa58390125aac118fe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the infos in the instance of the class in <em>stream</em>.  <a href="#ae0258dbfcdecaaa58390125aac118fe8">More...</a><br /></td></tr>
+<tr class="separator:ae0258dbfcdecaaa58390125aac118fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a01066"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a01066')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d0/dfb/a01066.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td></tr>
+<tr class="memitem:acd7472274e5fd10845893208d604617f inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#acd7472274e5fd10845893208d604617f">PlayerAbstraction</a> (<a class="el" href="../../d0/d2b/a01010.php">Map</a> *map=nullptr, <a class="el" href="../../db/d1e/a01126.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d6/d08/a00244.php#df/dce/a00974">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
+<tr class="memdesc:acd7472274e5fd10845893208d604617f inherit pub_methods_a01066"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="../../d0/dfb/a01066.php#acd7472274e5fd10845893208d604617f">More...</a><br /></td></tr>
+<tr class="separator:acd7472274e5fd10845893208d604617f inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abde0c45c79e9cb030711f77d73fdc5a8 inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#abde0c45c79e9cb030711f77d73fdc5a8">~PlayerAbstraction</a> ()</td></tr>
+<tr class="memdesc:abde0c45c79e9cb030711f77d73fdc5a8 inherit pub_methods_a01066"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="../../d0/dfb/a01066.php#abde0c45c79e9cb030711f77d73fdc5a8">More...</a><br /></td></tr>
+<tr class="separator:abde0c45c79e9cb030711f77d73fdc5a8 inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6441d9b85821e4e20639fe5082795a5 inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#ac6441d9b85821e4e20639fe5082795a5">setMail</a> (const std::string &amp;mail)</td></tr>
+<tr class="memdesc:ac6441d9b85821e4e20639fe5082795a5 inherit pub_methods_a01066"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d4/d8a/a01062.php" title="A player that can be a child from any class. ">Player</a>'smail.  <a href="../../d0/dfb/a01066.php#ac6441d9b85821e4e20639fe5082795a5">More...</a><br /></td></tr>
+<tr class="separator:ac6441d9b85821e4e20639fe5082795a5 inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a368cb45cbd8f4bcd470628f4d0783b07 inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#a368cb45cbd8f4bcd470628f4d0783b07">setExperience</a> (const <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;experience)</td></tr>
+<tr class="memdesc:a368cb45cbd8f4bcd470628f4d0783b07 inherit pub_methods_a01066"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d4/d8a/a01062.php" title="A player that can be a child from any class. ">Player</a>'s experience.  <a href="../../d0/dfb/a01066.php#a368cb45cbd8f4bcd470628f4d0783b07">More...</a><br /></td></tr>
+<tr class="separator:a368cb45cbd8f4bcd470628f4d0783b07 inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e2dc719465b4100436d08def34378f4 inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#a7e2dc719465b4100436d08def34378f4">setExperienceMax</a> (const <a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> &amp;experienceMax)</td></tr>
+<tr class="memdesc:a7e2dc719465b4100436d08def34378f4 inherit pub_methods_a01066"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d4/d8a/a01062.php" title="A player that can be a child from any class. ">Player</a>'s max experience.  <a href="../../d0/dfb/a01066.php#a7e2dc719465b4100436d08def34378f4">More...</a><br /></td></tr>
+<tr class="separator:a7e2dc719465b4100436d08def34378f4 inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada35a68939571761734d82bf83e6c634 inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#ada35a68939571761734d82bf83e6c634">getMail</a> () const</td></tr>
+<tr class="separator:ada35a68939571761734d82bf83e6c634 inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b6c4845dcc12c9feed1910e7de9334 inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#af4b6c4845dcc12c9feed1910e7de9334">getExperience</a> () const</td></tr>
+<tr class="separator:af4b6c4845dcc12c9feed1910e7de9334 inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d9f0332994725fceb7f785fd83e1802 inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#a3d9f0332994725fceb7f785fd83e1802">getExperienceMax</a> () const</td></tr>
+<tr class="separator:a3d9f0332994725fceb7f785fd83e1802 inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57f10ce6fa33a36671c750dd68dc1a13 inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#a57f10ce6fa33a36671c750dd68dc1a13">pause</a> ()</td></tr>
+<tr class="memdesc:a57f10ce6fa33a36671c750dd68dc1a13 inherit pub_methods_a01066"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pause the player.  <a href="../../d0/dfb/a01066.php#a57f10ce6fa33a36671c750dd68dc1a13">More...</a><br /></td></tr>
+<tr class="separator:a57f10ce6fa33a36671c750dd68dc1a13 inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4670bc4130ffbdd8fd198ab020a7ffe3 inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#a4670bc4130ffbdd8fd198ab020a7ffe3">resume</a> ()</td></tr>
+<tr class="memdesc:a4670bc4130ffbdd8fd198ab020a7ffe3 inherit pub_methods_a01066"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resume the player.  <a href="../../d0/dfb/a01066.php#a4670bc4130ffbdd8fd198ab020a7ffe3">More...</a><br /></td></tr>
+<tr class="separator:a4670bc4130ffbdd8fd198ab020a7ffe3 inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81a1ea7b3b306b10af787c353c92cc2e inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#a81a1ea7b3b306b10af787c353c92cc2e">isPaused</a> () const</td></tr>
+<tr class="memdesc:a81a1ea7b3b306b10af787c353c92cc2e inherit pub_methods_a01066"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if the player is paused.  <a href="../../d0/dfb/a01066.php#a81a1ea7b3b306b10af787c353c92cc2e">More...</a><br /></td></tr>
+<tr class="separator:a81a1ea7b3b306b10af787c353c92cc2e inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7582710c11a7b92d9912f414a5296975 inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#a7582710c11a7b92d9912f414a5296975">lost</a> ()</td></tr>
+<tr class="memdesc:a7582710c11a7b92d9912f414a5296975 inherit pub_methods_a01066"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lost the focus.  <a href="../../d0/dfb/a01066.php#a7582710c11a7b92d9912f414a5296975">More...</a><br /></td></tr>
+<tr class="separator:a7582710c11a7b92d9912f414a5296975 inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a98e2f186ed9702f90362a158a9f2f inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#ac4a98e2f186ed9702f90362a158a9f2f">retreive</a> ()</td></tr>
+<tr class="memdesc:ac4a98e2f186ed9702f90362a158a9f2f inherit pub_methods_a01066"><td class="mdescLeft">&#160;</td><td class="mdescRight">Regain the focus.  <a href="../../d0/dfb/a01066.php#ac4a98e2f186ed9702f90362a158a9f2f">More...</a><br /></td></tr>
+<tr class="separator:ac4a98e2f186ed9702f90362a158a9f2f inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae441783e58a888696f8dc24f4cdfcce5 inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#ae441783e58a888696f8dc24f4cdfcce5">isLost</a> () const</td></tr>
+<tr class="memdesc:ae441783e58a888696f8dc24f4cdfcce5 inherit pub_methods_a01066"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if it has the focus.  <a href="../../d0/dfb/a01066.php#ae441783e58a888696f8dc24f4cdfcce5">More...</a><br /></td></tr>
+<tr class="separator:ae441783e58a888696f8dc24f4cdfcce5 inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb489c22b76cb09daefb8f05b2f515c inherit pub_methods_a01066"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#abdb489c22b76cb09daefb8f05b2f515c">isInit</a> () const</td></tr>
+<tr class="memdesc:abdb489c22b76cb09daefb8f05b2f515c inherit pub_methods_a01066"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if the player is initialized.  <a href="../../d0/dfb/a01066.php#abdb489c22b76cb09daefb8f05b2f515c">More...</a><br /></td></tr>
+<tr class="separator:abdb489c22b76cb09daefb8f05b2f515c inherit pub_methods_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00990"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00990')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../dd/d7a/a00990.php">mcd::Identifier</a></td></tr>
+<tr class="memitem:a1496891d2323d1023ebfd086b84faf8d inherit pub_methods_a00990"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/a00990.php#a1496891d2323d1023ebfd086b84faf8d">Identifier</a> ()</td></tr>
+<tr class="separator:a1496891d2323d1023ebfd086b84faf8d inherit pub_methods_a00990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87dbdb0f9b391d6a78d61463e8823628 inherit pub_methods_a00990"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/a00990.php#a87dbdb0f9b391d6a78d61463e8823628">~Identifier</a> ()</td></tr>
+<tr class="separator:a87dbdb0f9b391d6a78d61463e8823628 inherit pub_methods_a00990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7487ac9cac4531aad529994927c0e69f inherit pub_methods_a00990"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/a00990.php#a7487ac9cac4531aad529994927c0e69f">setUsername</a> (const std::string &amp;username)</td></tr>
+<tr class="memdesc:a7487ac9cac4531aad529994927c0e69f inherit pub_methods_a00990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d4/d8a/a01062.php" title="A player that can be a child from any class. ">Player</a>'s username.  <a href="../../dd/d7a/a00990.php#a7487ac9cac4531aad529994927c0e69f">More...</a><br /></td></tr>
+<tr class="separator:a7487ac9cac4531aad529994927c0e69f inherit pub_methods_a00990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b0a0e637d443935ae770bf90b652dea inherit pub_methods_a00990"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/a00990.php#a5b0a0e637d443935ae770bf90b652dea">setPassword</a> (const std::string &amp;password)</td></tr>
+<tr class="memdesc:a5b0a0e637d443935ae770bf90b652dea inherit pub_methods_a00990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d4/d8a/a01062.php" title="A player that can be a child from any class. ">Player</a>'s password.  <a href="../../dd/d7a/a00990.php#a5b0a0e637d443935ae770bf90b652dea">More...</a><br /></td></tr>
+<tr class="separator:a5b0a0e637d443935ae770bf90b652dea inherit pub_methods_a00990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a593e0be0e4c8e17b22507e7f7d933ded inherit pub_methods_a00990"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/a00990.php#a593e0be0e4c8e17b22507e7f7d933ded">setId</a> (size_t id)</td></tr>
+<tr class="memdesc:a593e0be0e4c8e17b22507e7f7d933ded inherit pub_methods_a00990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d4/d8a/a01062.php" title="A player that can be a child from any class. ">Player</a>'s id.  <a href="../../dd/d7a/a00990.php#a593e0be0e4c8e17b22507e7f7d933ded">More...</a><br /></td></tr>
+<tr class="separator:a593e0be0e4c8e17b22507e7f7d933ded inherit pub_methods_a00990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6108c8a63af7595ff4d9a4f2ad868b1e inherit pub_methods_a00990"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/a00990.php#a6108c8a63af7595ff4d9a4f2ad868b1e">getUsername</a> () const</td></tr>
+<tr class="separator:a6108c8a63af7595ff4d9a4f2ad868b1e inherit pub_methods_a00990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dcb443f68200102b855f77878754af9 inherit pub_methods_a00990"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/a00990.php#a0dcb443f68200102b855f77878754af9">getPassword</a> () const</td></tr>
+<tr class="separator:a0dcb443f68200102b855f77878754af9 inherit pub_methods_a00990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc0c02ec636a63cf2086e6e98f194b63 inherit pub_methods_a00990"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/a00990.php#abc0c02ec636a63cf2086e6e98f194b63">getId</a> () const</td></tr>
+<tr class="separator:abc0c02ec636a63cf2086e6e98f194b63 inherit pub_methods_a00990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_a01066"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a01066')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d0/dfb/a01066.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td></tr>
+<tr class="memitem:abffa7d0ae3461370c932f0732367c93b inherit pro_attribs_a01066"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#abffa7d0ae3461370c932f0732367c93b">_init</a></td></tr>
+<tr class="separator:abffa7d0ae3461370c932f0732367c93b inherit pro_attribs_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a005074efa352510f2dc316404195946c inherit pro_attribs_a01066"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#a005074efa352510f2dc316404195946c">_paused</a></td></tr>
+<tr class="separator:a005074efa352510f2dc316404195946c inherit pro_attribs_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee72e21c73d5bbf23c831514cd6cd58b inherit pro_attribs_a01066"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#aee72e21c73d5bbf23c831514cd6cd58b">_losted</a></td></tr>
+<tr class="separator:aee72e21c73d5bbf23c831514cd6cd58b inherit pro_attribs_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9199142db686c7745b21429e7061823 inherit pro_attribs_a01066"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#ad9199142db686c7745b21429e7061823">_mail</a></td></tr>
+<tr class="separator:ad9199142db686c7745b21429e7061823 inherit pro_attribs_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae561b7817c64610317799205afa306cd inherit pro_attribs_a01066"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#ae561b7817c64610317799205afa306cd">_experience</a></td></tr>
+<tr class="separator:ae561b7817c64610317799205afa306cd inherit pro_attribs_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3800d1590d75f762d41be6349556707d inherit pro_attribs_a01066"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/a00244.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfb/a01066.php#a3800d1590d75f762d41be6349556707d">_experienceMax</a></td></tr>
+<tr class="separator:a3800d1590d75f762d41be6349556707d inherit pro_attribs_a01066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_a00990"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00990')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../dd/d7a/a00990.php">mcd::Identifier</a></td></tr>
+<tr class="memitem:a4a002c57b507ef0c744135eacfb82b6f inherit pro_attribs_a00990"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/a00990.php#a4a002c57b507ef0c744135eacfb82b6f">_username</a></td></tr>
+<tr class="separator:a4a002c57b507ef0c744135eacfb82b6f inherit pro_attribs_a00990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95d479399de1b046aff00e83210b67ea inherit pro_attribs_a00990"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/a00990.php#a95d479399de1b046aff00e83210b67ea">_password</a></td></tr>
+<tr class="separator:a95d479399de1b046aff00e83210b67ea inherit pro_attribs_a00990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6920412818f4d8a4478771fb767a2d07 inherit pro_attribs_a00990"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/a00990.php#a6920412818f4d8a4478771fb767a2d07">_id</a></td></tr>
+<tr class="separator:a6920412818f4d8a4478771fb767a2d07 inherit pro_attribs_a00990"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T, typename U&gt;<br />
-class mcd::RNG&lt; T, U &gt;</h3>
+<div class="textblock"><h3>template&lt;class PlayerParent&gt;<br />
+class mcd::Player&lt; PlayerParent &gt;</h3>
 
-<p>A class to simplify the use of random. </p>
+<p>A player that can be a child from any class. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ada6783e2f83f41b11d72687c90c29ead"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada6783e2f83f41b11d72687c90c29ead">&#9670;&nbsp;</a></span>RNG()</h2>
+<a id="aa2e12089a072fbc695087df2b474af5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2e12089a072fbc695087df2b474af5c">&#9670;&nbsp;</a></span>Player()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename U &gt; </div>
+template&lt;class PlayerParent &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d8a/a01062.php">mcd::RNG</a>&lt; T, U &gt;::<a class="el" href="../../d4/d8a/a01062.php">RNG</a> </td>
+          <td class="memname"><a class="el" href="../../d4/d8a/a01062.php">mcd::Player</a>&lt; PlayerParent &gt;::<a class="el" href="../../d4/d8a/a01062.php">Player</a> </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a717048eaee5dc829e132237026beaecc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a717048eaee5dc829e132237026beaecc">&#9670;&nbsp;</a></span>operator()()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename U &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T <a class="el" href="../../d4/d8a/a01062.php">mcd::RNG</a>&lt; T, U &gt;::operator() </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d0/d2b/a01010.php">Map</a> *&#160;</td>
+          <td class="paramname"><em>map</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../db/d1e/a01126.php">Point</a>&#160;</td>
+          <td class="paramname"><em>pt</em> = <code>{0,&#160;0,&#160;0}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/d08/a00244.php#df/dce/a00974">ContraptionAttr</a>&#160;</td>
+          <td class="paramname"><em>attr</em> = <code>{0,&#160;0,&#160;0}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -180,29 +268,97 @@ template&lt;typename T , typename U &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>The definition of the operator () </p>
+<p>Constructor of the class. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The first boundary </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The first boundary</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">map</td><td>The map where it is </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>The position in the map </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">attr</td><td>The attributes of the object(width, height, angle) </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a random number between <em>a</em> and <em>b</em> </dd></dl>
+
+</div>
+</div>
+<a id="a73fba351baf5641e985c76c0de4fe097"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73fba351baf5641e985c76c0de4fe097">&#9670;&nbsp;</a></span>~Player()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../d4/d8a/a01062.php">mcd::Player</a>&lt; PlayerParent &gt;::~<a class="el" href="../../d4/d8a/a01062.php">Player</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Virtual destructor. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae0258dbfcdecaaa58390125aac118fe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0258dbfcdecaaa58390125aac118fe8">&#9670;&nbsp;</a></span>printInfos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class PlayerParent &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="../../d4/d8a/a01062.php">mcd::Player</a>&lt; PlayerParent &gt;::printInfos </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Print the infos in the instance of the class in <em>stream</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>The output stream</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Reimplemented from <a class="el" href="../../d0/dfb/a01066.php#ac6d60013def2f34160fda9a990cf2da5">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/d8a/a01062_a717048eaee5dc829e132237026beaecc_cgraph.png" border="0" usemap="#d4/d8a/a01062_a717048eaee5dc829e132237026beaecc_cgraph" alt=""/></div>
-<map name="d4/d8a/a01062_a717048eaee5dc829e132237026beaecc_cgraph" id="d4/d8a/a01062_a717048eaee5dc829e132237026beaecc_cgraph">
-<area shape="rect" id="node2" href="../../d0/d53/a00232.php#a4d75f23c9b03fd2c56324895d0ff3c58" title="Return the distance of the given coordinates. " alt="" coords="201,5,277,32"/>
-<area shape="rect" id="node3" href="../../d0/d53/a00232.php#ae3a712e4de66375b1a188fa464c968e2" title="Compute the squareroot of a. " alt="" coords="325,5,403,32"/>
+<div class="center"><img src="../../d4/d8a/a01062_ae0258dbfcdecaaa58390125aac118fe8_cgraph.png" border="0" usemap="#d4/d8a/a01062_ae0258dbfcdecaaa58390125aac118fe8_cgraph" alt=""/></div>
+<map name="d4/d8a/a01062_ae0258dbfcdecaaa58390125aac118fe8_cgraph" id="d4/d8a/a01062_ae0258dbfcdecaaa58390125aac118fe8_cgraph">
+<area shape="rect" id="node2" href="../../d0/dfb/a01066.php#ac6d60013def2f34160fda9a990cf2da5" title="Print the infos in the instance of the class in stream. " alt="" coords="208,5,367,47"/>
 </map>
 </div>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d7/d25/a00182.php">RNG.hpp</a></li>
+<li><a class="el" href="../../d5/de9/a00176.php">Player.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -210,7 +366,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d0/d53/a00232.php">mcd</a></li><li class="navelem"><a class="el" href="../../d4/d8a/a01062.php">RNG</a></li>
+		<li class="navelem"><a class="el" href="../../d6/d08/a00244.php">mcd</a></li><li class="navelem"><a class="el" href="../../d4/d8a/a01062.php">Player</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

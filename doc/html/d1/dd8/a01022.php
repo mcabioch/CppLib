@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::PathfindingDijkstra Class Reference</title>
+		<title>C++: mcd::NotCopyable Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:57 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,117 +93,67 @@ $(document).ready(function(){initNavTree('d1/dd8/a01022.php','../../');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../db/daf/a01019.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::PathfindingDijkstra Class Reference</div>  </div>
+<div class="title">mcd::NotCopyable Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>An implementation of the Dijkstra algorithm.  
+<p>A class to let some other not to be copyable.  
  <a href="../../d1/dd8/a01022.php#details">More...</a></p>
 
-<p><code>#include &lt;PathfindingDijkstra.hpp&gt;</code></p>
+<p><code>#include &lt;NotCopyable.hpp&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for mcd::PathfindingDijkstra:</div>
+Inheritance diagram for mcd::NotCopyable:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/dfb/a01021.png" border="0" usemap="#mcd_1_1PathfindingDijkstra_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1PathfindingDijkstra_inherit__map" id="mcd_1_1PathfindingDijkstra_inherit__map">
-<area shape="rect" id="node2" href="../../d3/d08/a01018.php" title="A class to implement some pathfinding algorithms. " alt="" coords="28,5,148,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for mcd::PathfindingDijkstra:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d0/d43/a01020.png" border="0" usemap="#mcd_1_1PathfindingDijkstra_coll__map" alt="Collaboration graph"/></div>
-<map name="mcd_1_1PathfindingDijkstra_coll__map" id="mcd_1_1PathfindingDijkstra_coll__map">
-<area shape="rect" id="node2" href="../../d3/d08/a01018.php" title="A class to implement some pathfinding algorithms. " alt="" coords="1107,64,1227,91"/>
-<area shape="rect" id="node3" href="../../d0/d56/a01014.php" title="A class to manage a path computed by the map. " alt="" coords="727,5,809,32"/>
-<area shape="rect" id="node4" href="../../d0/d2b/a01010.php" title="A node for the path. " alt="" coords="149,64,300,91"/>
-<area shape="rect" id="node5" href="../../de/d41/a01030.php" title="A class to group every pathfinding problems in one way to use it. " alt="" coords="833,167,1001,193"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="163,220,286,247"/>
-<area shape="rect" id="node12" title="STL class. " alt="" coords="167,144,283,171"/>
+<div class="center"><img src="../../d5/dfb/a01021.png" border="0" usemap="#mcd_1_1NotCopyable_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1NotCopyable_inherit__map" id="mcd_1_1NotCopyable_inherit__map">
+<area shape="rect" id="node2" href="../../da/d40/a00946.php" title="A class to be the parent for every crypt class. " alt="" coords="185,80,279,107"/>
+<area shape="rect" id="node3" href="../../df/d39/a00950.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="5,155,96,181"/>
+<area shape="rect" id="node4" href="../../df/d9c/a00958.php" title="A class to test a homemade algorithm for encryption. " alt="" coords="121,155,226,181"/>
+<area shape="rect" id="node5" href="../../df/d88/a00962.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="249,155,332,181"/>
+<area shape="rect" id="node6" href="../../d3/dca/a00954.php" title="An implementation of sha256 encryption. " alt="" coords="356,155,447,181"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8e8246fb84c8dd3bf9e522f3fca7b39e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd8/a01022.php#a8e8246fb84c8dd3bf9e522f3fca7b39e">PathfindingDijkstra</a> (const <a class="el" href="../../de/d41/a01030.php">PathfindingProblem</a> &amp;problem, const <a class="el" href="../../d0/d2b/a01010.php">PathfindingNode</a> &amp;start, const <a class="el" href="../../d0/d2b/a01010.php">PathfindingNode</a> &amp;end)</td></tr>
-<tr class="memdesc:a8e8246fb84c8dd3bf9e522f3fca7b39e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a8e8246fb84c8dd3bf9e522f3fca7b39e">More...</a><br /></td></tr>
-<tr class="separator:a8e8246fb84c8dd3bf9e522f3fca7b39e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae9b7cf4f57d826b9f7e65d9410b572e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd8/a01022.php#aae9b7cf4f57d826b9f7e65d9410b572e">~PathfindingDijkstra</a> ()</td></tr>
-<tr class="separator:aae9b7cf4f57d826b9f7e65d9410b572e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b2872207d45871fcbcfa01e216090dd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d0/d56/a01014.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd8/a01022.php#a7b2872207d45871fcbcfa01e216090dd">createPath</a> () override</td></tr>
-<tr class="memdesc:a7b2872207d45871fcbcfa01e216090dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the path to follow.  <a href="#a7b2872207d45871fcbcfa01e216090dd">More...</a><br /></td></tr>
-<tr class="separator:a7b2872207d45871fcbcfa01e216090dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a01018"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a01018')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d3/d08/a01018.php">mcd::Pathfinding</a></td></tr>
-<tr class="memitem:aca54568ec2e832b3f08ef6f86c7184f2 inherit pub_methods_a01018"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d08/a01018.php#aca54568ec2e832b3f08ef6f86c7184f2">Pathfinding</a> (const <a class="el" href="../../de/d41/a01030.php">PathfindingProblem</a> &amp;problem, const <a class="el" href="../../d0/d2b/a01010.php">PathfindingNode</a> &amp;start, const <a class="el" href="../../d0/d2b/a01010.php">PathfindingNode</a> &amp;end)</td></tr>
-<tr class="memdesc:aca54568ec2e832b3f08ef6f86c7184f2 inherit pub_methods_a01018"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d3/d08/a01018.php#aca54568ec2e832b3f08ef6f86c7184f2">More...</a><br /></td></tr>
-<tr class="separator:aca54568ec2e832b3f08ef6f86c7184f2 inherit pub_methods_a01018"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cb06bc7729ad6371ad3380e0fd54f51 inherit pub_methods_a01018"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d08/a01018.php#a4cb06bc7729ad6371ad3380e0fd54f51">~Pathfinding</a> ()</td></tr>
-<tr class="separator:a4cb06bc7729ad6371ad3380e0fd54f51 inherit pub_methods_a01018"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac59e95d415c520941c5bac355537df7f inherit pub_methods_a01018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d56/a01014.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d08/a01018.php#ac59e95d415c520941c5bac355537df7f">getPath</a> ()</td></tr>
-<tr class="memdesc:ac59e95d415c520941c5bac355537df7f inherit pub_methods_a01018"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the path to follow.  <a href="../../d3/d08/a01018.php#ac59e95d415c520941c5bac355537df7f">More...</a><br /></td></tr>
-<tr class="separator:ac59e95d415c520941c5bac355537df7f inherit pub_methods_a01018"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_a01018"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a01018')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d3/d08/a01018.php">mcd::Pathfinding</a></td></tr>
-<tr class="memitem:a8432f285b7015512efbe0a9a47bc76d7 inherit pro_attribs_a01018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d41/a01030.php">PathfindingProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d08/a01018.php#a8432f285b7015512efbe0a9a47bc76d7">_problem</a></td></tr>
-<tr class="separator:a8432f285b7015512efbe0a9a47bc76d7 inherit pro_attribs_a01018"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fc13e2aa513059f91865021b9b13eed inherit pro_attribs_a01018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d2b/a01010.php">PathfindingNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d08/a01018.php#a6fc13e2aa513059f91865021b9b13eed">_start</a></td></tr>
-<tr class="separator:a6fc13e2aa513059f91865021b9b13eed inherit pro_attribs_a01018"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f42595f214b1d2328d40c7fcf371626 inherit pro_attribs_a01018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d2b/a01010.php">PathfindingNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d08/a01018.php#a6f42595f214b1d2328d40c7fcf371626">_end</a></td></tr>
-<tr class="separator:a6f42595f214b1d2328d40c7fcf371626 inherit pro_attribs_a01018"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa7ec4aec9e8ed4aba2c3110ca86273f inherit pro_attribs_a01018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d56/a01014.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d08/a01018.php#afa7ec4aec9e8ed4aba2c3110ca86273f">_path</a></td></tr>
-<tr class="separator:afa7ec4aec9e8ed4aba2c3110ca86273f inherit pro_attribs_a01018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa40da048522b578e9c2cc9f73c1a0d92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd8/a01022.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a> ()</td></tr>
+<tr class="memdesc:aa40da048522b578e9c2cc9f73c1a0d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#aa40da048522b578e9c2cc9f73c1a0d92">More...</a><br /></td></tr>
+<tr class="separator:aa40da048522b578e9c2cc9f73c1a0d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5efcd02383468e37e9c960f3d6f9d14c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd8/a01022.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a> ()</td></tr>
+<tr class="separator:a5efcd02383468e37e9c960f3d6f9d14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An implementation of the Dijkstra algorithm. </p>
+<div class="textblock"><p>A class to let some other not to be copyable. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8e8246fb84c8dd3bf9e522f3fca7b39e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e8246fb84c8dd3bf9e522f3fca7b39e">&#9670;&nbsp;</a></span>PathfindingDijkstra()</h2>
+<a id="aa40da048522b578e9c2cc9f73c1a0d92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa40da048522b578e9c2cc9f73c1a0d92">&#9670;&nbsp;</a></span>NotCopyable()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::PathfindingDijkstra::PathfindingDijkstra </td>
+          <td class="memname">mcd::NotCopyable::NotCopyable </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../de/d41/a01030.php">PathfindingProblem</a> &amp;&#160;</td>
-          <td class="paramname"><em>problem</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d0/d2b/a01010.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>start</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d0/d2b/a01010.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>end</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>The constructor of the class. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">problem</td><td>The problem to solve </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">start</td><td>The start point index </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">end</td><td>The end point index </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
-<a id="aae9b7cf4f57d826b9f7e65d9410b572e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae9b7cf4f57d826b9f7e65d9410b572e">&#9670;&nbsp;</a></span>~PathfindingDijkstra()</h2>
+<a id="a5efcd02383468e37e9c960f3d6f9d14c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5efcd02383468e37e9c960f3d6f9d14c">&#9670;&nbsp;</a></span>~NotCopyable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212,7 +162,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::PathfindingDijkstra::~PathfindingDijkstra </td>
+          <td class="memname">virtual mcd::NotCopyable::~NotCopyable </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -220,45 +170,23 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dd8/a01022_a5efcd02383468e37e9c960f3d6f9d14c_cgraph.png" border="0" usemap="#d1/dd8/a01022_a5efcd02383468e37e9c960f3d6f9d14c_cgraph" alt=""/></div>
+<map name="d1/dd8/a01022_a5efcd02383468e37e9c960f3d6f9d14c_cgraph" id="d1/dd8/a01022_a5efcd02383468e37e9c960f3d6f9d14c_cgraph">
+<area shape="rect" id="node2" href="../../d1/dd8/a01022.php#aa40da048522b578e9c2cc9f73c1a0d92" title="The constructor of the class. " alt="" coords="192,13,407,39"/>
+</map>
 </div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7b2872207d45871fcbcfa01e216090dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b2872207d45871fcbcfa01e216090dd">&#9670;&nbsp;</a></span>createPath()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../d0/d56/a01014.php">Path</a> mcd::PathfindingDijkstra::createPath </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Compute the path to follow. </p>
-
-<p>Implements <a class="el" href="../../d3/d08/a01018.php#a9a82c779fba2fba8d5adbd1c22ea8c0d">mcd::Pathfinding</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d3/df8/a00155.php">PathfindingDijkstra.hpp</a></li>
+<li><a class="el" href="../../d7/dce/a00143.php">NotCopyable.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -266,7 +194,7 @@ Additional Inherited Members</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d0/d53/a00232.php">mcd</a></li><li class="navelem"><a class="el" href="../../d1/dd8/a01022.php">PathfindingDijkstra</a></li>
+		<li class="navelem"><a class="el" href="../../d6/d08/a00244.php">mcd</a></li><li class="navelem"><a class="el" href="../../d1/dd8/a01022.php">NotCopyable</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

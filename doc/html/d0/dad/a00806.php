@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::t_queue&lt; T, Container &gt; Class Template Reference</title>
+		<title>C++: mcd::stack&lt; T, Container &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:57 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,59 +93,48 @@ $(document).ready(function(){initNavTree('d0/dad/a00806.php','../../');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../d5/d72/a00803.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::t_queue&lt; T, Container &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::stack&lt; T, Container &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>An thread-safe implementation of queue.  
+<p>An implementation of std::stack.  
  <a href="../../d0/dad/a00806.php#details">More...</a></p>
 
 <p><code>#include &lt;array.hpp&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for mcd::t_queue&lt; T, Container &gt;:</div>
+Inheritance diagram for mcd::stack&lt; T, Container &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/dff/a00805.png" border="0" usemap="#mcd_1_1t__queue_3_01T_00_01Container_01_4_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1t__queue_3_01T_00_01Container_01_4_inherit__map" id="mcd_1_1t__queue_3_01T_00_01Container_01_4_inherit__map">
-<area shape="rect" id="node2" href="../../d5/dcd/a00802.php" title="An implementation of std::queue. " alt="" coords="11,80,197,107"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="15,5,193,32"/>
+<div class="center"><img src="../../d7/dff/a00805.png" border="0" usemap="#mcd_1_1stack_3_01T_00_01Container_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1stack_3_01T_00_01Container_01_4_inherit__map" id="mcd_1_1stack_3_01T_00_01Container_01_4_inherit__map">
+<area shape="rect" id="node3" href="../../d4/dfd/a00810.php" title="An thread&#45;safe implementation of stack. " alt="" coords="5,155,200,181"/>
+<area shape="rect" id="node2" title="STL class. " alt="" coords="15,5,191,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for mcd::t_queue&lt; T, Container &gt;:</div>
+Collaboration diagram for mcd::stack&lt; T, Container &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d1/dd1/a00804.png" border="0" usemap="#mcd_1_1t__queue_3_01T_00_01Container_01_4_coll__map" alt="Collaboration graph"/></div>
-<map name="mcd_1_1t__queue_3_01T_00_01Container_01_4_coll__map" id="mcd_1_1t__queue_3_01T_00_01Container_01_4_coll__map">
-<area shape="rect" id="node2" href="../../d5/dcd/a00802.php" title="An implementation of std::queue. " alt="" coords="11,171,197,197"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="15,95,193,121"/>
+<div class="center"><img src="../../d1/dd1/a00804.png" border="0" usemap="#mcd_1_1stack_3_01T_00_01Container_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1stack_3_01T_00_01Container_01_4_coll__map" id="mcd_1_1stack_3_01T_00_01Container_01_4_coll__map">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="9,95,185,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6113ab263c40412573cb17961892e4eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/a00806.php#a6113ab263c40412573cb17961892e4eb">t_queue</a> ()</td></tr>
-<tr class="separator:a6113ab263c40412573cb17961892e4eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7108e587ce260901f5fdac365db13fab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/a00806.php#a7108e587ce260901f5fdac365db13fab">push</a> (const T &amp;value)</td></tr>
-<tr class="separator:a7108e587ce260901f5fdac365db13fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ccba4c88decd735670f069077bce0b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/a00806.php#a7ccba4c88decd735670f069077bce0b0">push</a> (T &amp;&amp;value)</td></tr>
-<tr class="separator:a7ccba4c88decd735670f069077bce0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00802"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00802')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d5/dcd/a00802.php">mcd::queue&lt; T, Container &gt;</a></td></tr>
-<tr class="memitem:a0566f226253ef02ac813bad965f647b9 inherit pub_methods_a00802"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a0566f226253ef02ac813bad965f647b9">queue</a> ()</td></tr>
-<tr class="separator:a0566f226253ef02ac813bad965f647b9 inherit pub_methods_a00802"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c9c5803f41517e0b1b8d75441cd4b09 inherit pub_methods_a00802"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a9c9c5803f41517e0b1b8d75441cd4b09">pop</a> ()</td></tr>
-<tr class="memdesc:a9c9c5803f41517e0b1b8d75441cd4b09 inherit pub_methods_a00802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase the first element of the queue.  <a href="../../d5/dcd/a00802.php#a9c9c5803f41517e0b1b8d75441cd4b09">More...</a><br /></td></tr>
-<tr class="separator:a9c9c5803f41517e0b1b8d75441cd4b09 inherit pub_methods_a00802"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a148295001e6effa1aa1217af766e021f inherit pub_methods_a00802"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a148295001e6effa1aa1217af766e021f">get</a> ()</td></tr>
-<tr class="memdesc:a148295001e6effa1aa1217af766e021f inherit pub_methods_a00802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the first element of the queue and erase it from the queue.  <a href="../../d5/dcd/a00802.php#a148295001e6effa1aa1217af766e021f">More...</a><br /></td></tr>
-<tr class="separator:a148295001e6effa1aa1217af766e021f inherit pub_methods_a00802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9d55e0af1d4e27cc1abba7a2d399afc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/a00806.php#aa9d55e0af1d4e27cc1abba7a2d399afc">stack</a> ()</td></tr>
+<tr class="separator:aa9d55e0af1d4e27cc1abba7a2d399afc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac779733da952e8cfda80b14655a07172"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/a00806.php#ac779733da952e8cfda80b14655a07172">get</a> ()</td></tr>
+<tr class="memdesc:ac779733da952e8cfda80b14655a07172"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the first element of the stack and erase it from the stack.  <a href="#ac779733da952e8cfda80b14655a07172">More...</a><br /></td></tr>
+<tr class="separator:ac779733da952e8cfda80b14655a07172"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class T, class Container = std::deque&lt;T&gt;&gt;<br />
-class mcd::t_queue&lt; T, Container &gt;</h3>
+class mcd::stack&lt; T, Container &gt;</h3>
 
-<p>An thread-safe implementation of queue. </p>
+<p>An implementation of std::stack. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6113ab263c40412573cb17961892e4eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6113ab263c40412573cb17961892e4eb">&#9670;&nbsp;</a></span>t_queue()</h2>
+<a id="aa9d55e0af1d4e27cc1abba7a2d399afc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9d55e0af1d4e27cc1abba7a2d399afc">&#9670;&nbsp;</a></span>stack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156,7 +145,7 @@ template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/dad/a00806.php">mcd::t_queue</a>&lt; T, Container &gt;::<a class="el" href="../../d0/dad/a00806.php">t_queue</a> </td>
+          <td class="memname"><a class="el" href="../../d0/dad/a00806.php">mcd::stack</a>&lt; T, Container &gt;::<a class="el" href="../../d0/dad/a00806.php">stack</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -172,8 +161,8 @@ template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7108e587ce260901f5fdac365db13fab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7108e587ce260901f5fdac365db13fab">&#9670;&nbsp;</a></span>push() <span class="overload">[1/2]</span></h2>
+<a id="ac779733da952e8cfda80b14655a07172"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac779733da952e8cfda80b14655a07172">&#9670;&nbsp;</a></span>get()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,10 +173,9 @@ template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d0/dad/a00806.php">mcd::t_queue</a>&lt; T, Container &gt;::push </td>
+          <td class="memname">T <a class="el" href="../../d0/dad/a00806.php">mcd::stack</a>&lt; T, Container &gt;::get </td>
           <td>(</td>
-          <td class="paramtype">const T &amp;&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -198,33 +186,7 @@ template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a7ccba4c88decd735670f069077bce0b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ccba4c88decd735670f069077bce0b0">&#9670;&nbsp;</a></span>push() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../d0/dad/a00806.php">mcd::t_queue</a>&lt; T, Container &gt;::push </td>
-          <td>(</td>
-          <td class="paramtype">T &amp;&amp;&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Return the first element of the stack and erase it from the stack. </p>
 
 </div>
 </div>
@@ -237,7 +199,7 @@ template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d0/d53/a00232.php">mcd</a></li><li class="navelem"><a class="el" href="../../d0/dad/a00806.php">t_queue</a></li>
+		<li class="navelem"><a class="el" href="../../d6/d08/a00244.php">mcd</a></li><li class="navelem"><a class="el" href="../../d0/dad/a00806.php">stack</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

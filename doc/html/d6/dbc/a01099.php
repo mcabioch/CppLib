@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:57 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,25 +90,23 @@ $(document).ready(function(){initNavTree('d4/da7/a01102.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::vector&lt; C &gt; Member List</div>  </div>
+<div class="title">mcd::Time Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d4/da7/a01102.php">mcd::vector&lt; C &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d4/da7/a01102.php">mcd::Time</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/da7/a01102.php#a638a7edb18434ca9a2fa3be7e1d3563b">operator &amp;</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/da7/a01102.php#a293c997b273243004c9a48fd08192db2">operator &amp;=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/da7/a01102.php#a0c894bc8e77be926b9b7f523c1896071">operator+</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/da7/a01102.php#a22f0f6977e9536afb53ed230b2cc8504">operator+=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/da7/a01102.php#a7928c471316360bf63b686c77b482e91">operator-</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/da7/a01102.php#af14811b70c776b7c486e467ebb04a565">operator-=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/da7/a01102.php#aceb6871a031f6bdb9adeb291238a2f1e">operator^</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/da7/a01102.php#ae2e81b3836365353b10040331247a870">operator^=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/da7/a01102.php#a4eacfc54e3bd159d746ebf2eefacc0a5">operator|</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/da7/a01102.php#abc0583222abd8957c4a8502b7ba9272e">operator|=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/da7/a01102.php#a58c2e9df00704c786bfcfcca5a383a0e">pop</a>(size_t pos=0)</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/da7/a01102.php#a92e814868c4f4b6f3d0969b200b35c91">vector</a>()</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/da7/a01102.php#aea718ab247c60108c5dd591905174a95">vector</a>(const std::vector&lt; C &gt; &amp;v)</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/da7/a01102.php#af9360f3323012f2572ffb3f8924fca62">get</a>(const std::string &amp;format=&quot;%H:%M:%S&quot;) const</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::Time</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/da7/a01102.php#afc42ec7546725501d6cd8eb069e92a52">hour</a>() const</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::Time</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/da7/a01102.php#a3e19605ece31340f27255a79beb193d4">init</a>()</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::Time</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/da7/a01102.php#a22a7371879c50752d94338e631ab37a7">milli</a>() const</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::Time</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/da7/a01102.php#a56b7fdec50bc1b7f5fb991260cb18104">minute</a>() const</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::Time</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/da7/a01102.php#a94d4610fef5db9db60ca31d7d64230dc">reset</a>()</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::Time</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/da7/a01102.php#a5a3510ec96b9698b8cf601a2a1b9d90c">second</a>() const</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::Time</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/da7/a01102.php#aa843463db53892a16778dd0d71ec2dad">set</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::Time</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/da7/a01102.php#ac802213e9ca41cc731f14619534e0249">Time</a>()</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::Time</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/da7/a01102.php#afa17085534ed1da008f6dd39cef039f2">Time</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::Time</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/da7/a01102.php#aef071966b669112898476801bf63bcba">~Time</a>()</td><td class="entry"><a class="el" href="../../d4/da7/a01102.php">mcd::Time</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

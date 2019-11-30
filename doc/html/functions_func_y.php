@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:51 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:58 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,13 +93,13 @@ $(document).ready(function(){initNavTree('functions_func_y.php','');});
 
 <h3><a id="index_y"></a>- y -</h3><ul>
 <li>year()
-: <a class="el" href="dd/d11/a00960.php#a30f0e5cc134d8da80f4b68aad4f92674">mcd::Date</a>
+: <a class="el" href="d2/d6e/a00966.php#a30f0e5cc134d8da80f4b68aad4f92674">mcd::Date</a>
 </li>
 <li>yearDay()
-: <a class="el" href="dd/d11/a00960.php#a9af5d47e5785c0c16217e5b4914bc9a0">mcd::Date</a>
+: <a class="el" href="d2/d6e/a00966.php#a9af5d47e5785c0c16217e5b4914bc9a0">mcd::Date</a>
 </li>
 <li>yearWeek()
-: <a class="el" href="dd/d11/a00960.php#a211971964081aac6bf13b0c670307b54">mcd::Date</a>
+: <a class="el" href="d2/d6e/a00966.php#a211971964081aac6bf13b0c670307b54">mcd::Date</a>
 </li>
 </ul>
 </div><!-- contents -->

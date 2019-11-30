@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::queue&lt; T, Container &gt; Class Template Reference</title>
+		<title>C++: mcd::Arguments Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:56 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,62 +93,54 @@ $(document).ready(function(){initNavTree('d5/dcd/a00802.php','../../');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../d0/d7d/a00799.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::queue&lt; T, Container &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Arguments Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>An implementation of std::queue.  
+<p>A class to manage the arguments.  
  <a href="../../d5/dcd/a00802.php#details">More...</a></p>
 
-<p><code>#include &lt;array.hpp&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for mcd::queue&lt; T, Container &gt;:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d7/d0a/a00801.png" border="0" usemap="#mcd_1_1queue_3_01T_00_01Container_01_4_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1queue_3_01T_00_01Container_01_4_inherit__map" id="mcd_1_1queue_3_01T_00_01Container_01_4_inherit__map">
-<area shape="rect" id="node3" href="../../d0/dad/a00806.php" title="An thread&#45;safe implementation of queue. " alt="" coords="5,155,203,181"/>
-<area shape="rect" id="node2" title="STL class. " alt="" coords="15,5,193,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for mcd::queue&lt; T, Container &gt;:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../df/d0e/a00800.png" border="0" usemap="#mcd_1_1queue_3_01T_00_01Container_01_4_coll__map" alt="Collaboration graph"/></div>
-<map name="mcd_1_1queue_3_01T_00_01Container_01_4_coll__map" id="mcd_1_1queue_3_01T_00_01Container_01_4_coll__map">
-<area shape="rect" id="node2" title="STL class. " alt="" coords="9,95,188,121"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<p><code>#include &lt;Args.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0566f226253ef02ac813bad965f647b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a0566f226253ef02ac813bad965f647b9">queue</a> ()</td></tr>
-<tr class="separator:a0566f226253ef02ac813bad965f647b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c9c5803f41517e0b1b8d75441cd4b09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a9c9c5803f41517e0b1b8d75441cd4b09">pop</a> ()</td></tr>
-<tr class="memdesc:a9c9c5803f41517e0b1b8d75441cd4b09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase the first element of the queue.  <a href="#a9c9c5803f41517e0b1b8d75441cd4b09">More...</a><br /></td></tr>
-<tr class="separator:a9c9c5803f41517e0b1b8d75441cd4b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a148295001e6effa1aa1217af766e021f"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a148295001e6effa1aa1217af766e021f">get</a> ()</td></tr>
-<tr class="memdesc:a148295001e6effa1aa1217af766e021f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the first element of the queue and erase it from the queue.  <a href="#a148295001e6effa1aa1217af766e021f">More...</a><br /></td></tr>
-<tr class="separator:a148295001e6effa1aa1217af766e021f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6c3e24abf9d442d2a01b601ad3a0968"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#ac6c3e24abf9d442d2a01b601ad3a0968">Arguments</a> ()</td></tr>
+<tr class="memdesc:ac6c3e24abf9d442d2a01b601ad3a0968"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#ac6c3e24abf9d442d2a01b601ad3a0968">More...</a><br /></td></tr>
+<tr class="separator:ac6c3e24abf9d442d2a01b601ad3a0968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fd4e17aa2d814f460da6128e98b7519"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a9fd4e17aa2d814f460da6128e98b7519">~Arguments</a> ()</td></tr>
+<tr class="separator:a9fd4e17aa2d814f460da6128e98b7519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eabf4c8408ded2b8deca24d99fd3234"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a1eabf4c8408ded2b8deca24d99fd3234">addProg</a> (int argc, char **argv)</td></tr>
+<tr class="memdesc:a1eabf4c8408ded2b8deca24d99fd3234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the arguments of theMay, n to the object.  <a href="#a1eabf4c8408ded2b8deca24d99fd3234">More...</a><br /></td></tr>
+<tr class="separator:a1eabf4c8408ded2b8deca24d99fd3234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d178470f50f3a3f12b2dab7aa40f004"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0d178470f50f3a3f12b2dab7aa40f004"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a0d178470f50f3a3f12b2dab7aa40f004">add</a> (const std::string &amp;category, T value)</td></tr>
+<tr class="memdesc:a0d178470f50f3a3f12b2dab7aa40f004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a value to a part of the array.  <a href="#a0d178470f50f3a3f12b2dab7aa40f004">More...</a><br /></td></tr>
+<tr class="separator:a0d178470f50f3a3f12b2dab7aa40f004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f239de18f2b736af8215e1e116b6c7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#ab6f239de18f2b736af8215e1e116b6c7">operator[]</a> (const std::string &amp;index) const</td></tr>
+<tr class="memdesc:ab6f239de18f2b736af8215e1e116b6c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the arguments in an index.  <a href="#ab6f239de18f2b736af8215e1e116b6c7">More...</a><br /></td></tr>
+<tr class="separator:ab6f239de18f2b736af8215e1e116b6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae401cb47faea064ac04133ea929c0f94"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#ae401cb47faea064ac04133ea929c0f94">operator[]</a> (const std::string &amp;index)</td></tr>
+<tr class="memdesc:ae401cb47faea064ac04133ea929c0f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the arguments in an index.  <a href="#ae401cb47faea064ac04133ea929c0f94">More...</a><br /></td></tr>
+<tr class="separator:ae401cb47faea064ac04133ea929c0f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77d29e3346c6b8c49fed9158e1336bd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a77d29e3346c6b8c49fed9158e1336bd1">print</a> (const std::string &amp;index=&quot;&quot;) const</td></tr>
+<tr class="memdesc:a77d29e3346c6b8c49fed9158e1336bd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print all the arguments in the <em>index</em>.  <a href="#a77d29e3346c6b8c49fed9158e1336bd1">More...</a><br /></td></tr>
+<tr class="separator:a77d29e3346c6b8c49fed9158e1336bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class T, class Container = std::deque&lt;T&gt;&gt;<br />
-class mcd::queue&lt; T, Container &gt;</h3>
-
-<p>An implementation of std::queue. </p>
+<div class="textblock"><p>A class to manage the arguments. </p>
+<p>This class is usefull to simplify and keep the given arguments </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0566f226253ef02ac813bad965f647b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0566f226253ef02ac813bad965f647b9">&#9670;&nbsp;</a></span>queue()</h2>
+<a id="ac6c3e24abf9d442d2a01b601ad3a0968"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6c3e24abf9d442d2a01b601ad3a0968">&#9670;&nbsp;</a></span>Arguments()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/dcd/a00802.php">mcd::queue</a>&lt; T, Container &gt;::<a class="el" href="../../d5/dcd/a00802.php">queue</a> </td>
+          <td class="memname">mcd::Arguments::Arguments </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -160,26 +152,72 @@ template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Constructor of the class. </p>
+
+</div>
+</div>
+<a id="a9fd4e17aa2d814f460da6128e98b7519"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fd4e17aa2d814f460da6128e98b7519">&#9670;&nbsp;</a></span>~Arguments()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Arguments::~Arguments </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/dcd/a00802_a9fd4e17aa2d814f460da6128e98b7519_cgraph.png" border="0" usemap="#d5/dcd/a00802_a9fd4e17aa2d814f460da6128e98b7519_cgraph" alt=""/></div>
+<map name="d5/dcd/a00802_a9fd4e17aa2d814f460da6128e98b7519_cgraph" id="d5/dcd/a00802_a9fd4e17aa2d814f460da6128e98b7519_cgraph">
+<area shape="rect" id="node2" href="../../d5/dcd/a00802.php#a1eabf4c8408ded2b8deca24d99fd3234" title="Add the arguments of theMay, n to the object. " alt="" coords="251,5,425,32"/>
+</map>
+</div>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a148295001e6effa1aa1217af766e021f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a148295001e6effa1aa1217af766e021f">&#9670;&nbsp;</a></span>get()</h2>
+<a id="a0d178470f50f3a3f12b2dab7aa40f004"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d178470f50f3a3f12b2dab7aa40f004">&#9670;&nbsp;</a></span>add()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="../../d5/dcd/a00802.php">mcd::queue</a>&lt; T, Container &gt;::get </td>
+          <td class="memname">bool mcd::Arguments::add </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>category</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -189,41 +227,151 @@ template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Return the first element of the queue and erase it from the queue. </p>
+<p>Add a value to a part of the array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">category</td><td>The category in which to add the value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The value to add</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/dcd/a00802_a0d178470f50f3a3f12b2dab7aa40f004_cgraph.png" border="0" usemap="#d5/dcd/a00802_a0d178470f50f3a3f12b2dab7aa40f004_cgraph" alt=""/></div>
+<map name="d5/dcd/a00802_a0d178470f50f3a3f12b2dab7aa40f004_cgraph" id="d5/dcd/a00802_a0d178470f50f3a3f12b2dab7aa40f004_cgraph">
+<area shape="rect" id="node2" href="../../d6/d08/a00244.php#ad53bf266a5db5dc112e71ebe3c78946e" title="Verify if a vector contains or not something. " alt="" coords="239,5,343,32"/>
+<area shape="rect" id="node4" href="../../d6/d08/a00244.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string. " alt="" coords="254,56,327,83"/>
+<area shape="rect" id="node5" href="../../d5/dcd/a00802.php#ab6f239de18f2b736af8215e1e116b6c7" title="Get the arguments in an index. " alt="" coords="200,107,381,133"/>
+<area shape="rect" id="node6" href="../../d5/dcd/a00802.php#a77d29e3346c6b8c49fed9158e1336bd1" title="Print all the arguments in the index. " alt="" coords="215,157,366,184"/>
+<area shape="rect" id="node3" href="../../d6/d08/a00244.php#a5996fcf8097a903a5461a6035ff0f98d" title="Prints approximately everything. " alt="" coords="429,5,529,32"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="a9c9c5803f41517e0b1b8d75441cd4b09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c9c5803f41517e0b1b8d75441cd4b09">&#9670;&nbsp;</a></span>pop()</h2>
+<a id="a1eabf4c8408ded2b8deca24d99fd3234"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eabf4c8408ded2b8deca24d99fd3234">&#9670;&nbsp;</a></span>addProg()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d5/dcd/a00802.php">mcd::queue</a>&lt; T, Container &gt;::pop </td>
+          <td class="memname">bool mcd::Arguments::addProg </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add the arguments of theMay, n to the object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">argc</td><td>The number of arguments </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">argv</td><td>An array of char*</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a id="ab6f239de18f2b736af8215e1e116b6c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6f239de18f2b736af8215e1e116b6c7">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; mcd::Arguments::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the arguments in an index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the arguments</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a vector that contains the arguments </dd></dl>
+
+</div>
+</div>
+<a id="ae401cb47faea064ac04133ea929c0f94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae401cb47faea064ac04133ea929c0f94">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt;&amp; mcd::Arguments::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Erase the first element of the queue. </p>
+<p>Get the arguments in an index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the arguments</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a vector that contains the arguments </dd></dl>
+
+</div>
+</div>
+<a id="a77d29e3346c6b8c49fed9158e1336bd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77d29e3346c6b8c49fed9158e1336bd1">&#9670;&nbsp;</a></span>print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Arguments::print </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>index</em> = <code>&quot;&quot;</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print all the arguments in the <em>index</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the arguments</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../da/d45/a00011.php">array.hpp</a></li>
+<li><a class="el" href="../../d4/dee/a00008.php">Args.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -231,7 +379,7 @@ template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../d0/d53/a00232.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/dcd/a00802.php">queue</a></li>
+		<li class="navelem"><a class="el" href="../../d6/d08/a00244.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/dcd/a00802.php">Arguments</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

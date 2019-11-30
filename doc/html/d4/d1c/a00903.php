@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Nov 13 2019 15:53:44 for C++ by";
+				$text = "Generated on Sat Nov 30 2019 15:18:57 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,14 +90,13 @@ $(document).ready(function(){initNavTree('da/dd8/a00906.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::ThreadEndlCout Member List</div>  </div>
+<div class="title">mcd::Check::is_special_struct&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../da/dd8/a00906.php">mcd::ThreadEndlCout</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../da/dd8/a00906.php">mcd::Check::is_special_struct&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../da/dd8/a00906.php#a53ccbe8d25d6cb23a3621a5c6d62598d">ThreadEndlCout</a>()</td><td class="entry"><a class="el" href="../../da/dd8/a00906.php">mcd::ThreadEndlCout</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/dd8/a00906.php#a7add9326a30b5b2b77fd7352e12f4ec2">~ThreadEndlCout</a>()</td><td class="entry"><a class="el" href="../../da/dd8/a00906.php">mcd::ThreadEndlCout</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/dd8/a00906.php#a9347b60a434f2cfd40453cc7856c3918">value</a></td><td class="entry"><a class="el" href="../../da/dd8/a00906.php">mcd::Check::is_special_struct&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

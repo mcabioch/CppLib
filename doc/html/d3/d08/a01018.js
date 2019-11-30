@@ -1,11 +1,6 @@
 var a01018 =
 [
-    [ "Pathfinding", "d3/d08/a01018.php#aca54568ec2e832b3f08ef6f86c7184f2", null ],
-    [ "~Pathfinding", "d3/d08/a01018.php#a4cb06bc7729ad6371ad3380e0fd54f51", null ],
-    [ "createPath", "d3/d08/a01018.php#a9a82c779fba2fba8d5adbd1c22ea8c0d", null ],
-    [ "getPath", "d3/d08/a01018.php#ac59e95d415c520941c5bac355537df7f", null ],
-    [ "_end", "d3/d08/a01018.php#a6f42595f214b1d2328d40c7fcf371626", null ],
-    [ "_path", "d3/d08/a01018.php#afa7ec4aec9e8ed4aba2c3110ca86273f", null ],
-    [ "_problem", "d3/d08/a01018.php#a8432f285b7015512efbe0a9a47bc76d7", null ],
-    [ "_start", "d3/d08/a01018.php#a6fc13e2aa513059f91865021b9b13eed", null ]
+    [ "Mushroom", "d3/d08/a01018.php#aa3f3f1ad0542e087b039ce1586c0c907", null ],
+    [ "~Mushroom", "d3/d08/a01018.php#afba77573c7fb8dfdbf6f73192fe64fde", null ],
+    [ "printInfos", "d3/d08/a01018.php#a7f5b4cb7d65beddc201434f2e8cc1f15", null ]
 ];

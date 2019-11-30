@@ -1,3 +1,4 @@
-<map id="mcd::Entity" name="mcd::Entity">
-<area shape="rect" id="node2" href="$d0/ddf/a00918.php" title="A contraption. " alt="" coords="5,5,128,32"/>
+<map id="mcd::SHA2" name="mcd::SHA2">
+<area shape="rect" id="node2" href="$da/d40/a00946.php" title="A class to be the parent for every crypt class. " alt="" coords="23,80,118,107"/>
+<area shape="rect" id="node3" href="$d1/dd8/a01022.php" title="A class to let some other not to be copyable. " alt="" coords="5,5,136,32"/>
 </map>
