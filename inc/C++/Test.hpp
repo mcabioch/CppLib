@@ -120,7 +120,7 @@ namespace mcd {
 				* \return		void
 				*/
 				template<class T, class U>
-				static void instance(const U& obj, const std::string& strObj, const Test_struct& test, bool cmp = true){
+				static void instance(const U&, const std::string& strObj, const Test_struct& test, bool cmp = true){
 					addTest({(std::is_base_of<T, U>::value == cmp), std::string("Is ") + strObj + " an instance of " + test.str, test.file, test.func, test.line});
 				}
 
@@ -157,13 +157,13 @@ namespace mcd {
 	TEST_ADD_TEST(static_cast<bool>(EXPR), #EXPR)
 
 	#define unit_false(EXPR) \
-	TEST_ADD_TEST((!static_cast<bool>(EXPR)), #EXPR)
+	TEST_ADD_TEST((!static_cast<bool>(EXPR)), "! #EXPR")
 
 	#define unit_equals(A, B) \
 	unit_true(A == B)
 
 	#define unit_notEquals(A, B) \
-	unit_true(!(A == B))
+	unit_false(A == B)
 
 	#define unit_in(VALUE, ARRAY) \
 	mcd::Test::in(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__})

@@ -75,6 +75,8 @@ namespace mcd {
 				* \param[in]	line	The line where the log message came from
 				* \param[in]	file	The file where the log message came from
 				* \param[in]	args	The different parts of the message
+				* \throw		std::logic_error		Throws if the logger is not initiated
+				* \throw		std::ios_base::failure		Throws if it's impossible to open the file
 				* \return		void
 				*/
 				template<class ...Args>
@@ -82,7 +84,7 @@ namespace mcd {
 					std::lock_guard<std::mutex> lock(_mutex);
 
 					if(!_initialized){
-						warning_log(line_number, "Wrong use", "Init the Logger before use it !");
+						throw std::logic_error(std::string("Init the Logger before use it !"));
 						return;
 					}
 
@@ -93,7 +95,7 @@ namespace mcd {
 					std::ofstream write;
 					write.open(_logFile.c_str(), std::ios::app);
 					if(!write){
-						error_log(line_number, "File opening error", "Something went wrong when trying to open, ", _logFile);
+						throw std::ios_base::failure(std::string("Something went wrong when trying to open, ") + _logFile);
 					}
 					write.close();
 
