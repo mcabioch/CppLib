@@ -30,7 +30,8 @@ namespace mcd {
 
 			/* Setters */
 				/*!
-				* \brief	Add the arguments of theMay, n to the object
+				* \brief	Add the arguments of the program to the object
+				* \details	"prog" is used for args key and "prog_name" for the name of the program
 				*		\param[in]		argc		The number of arguments
 				*		\param[in]		argv		An array of char*
 				*
@@ -70,6 +71,7 @@ namespace mcd {
 				*		\param[in]		index		The index of the arguments
 				*
 				*		\return			Return a vector that contains the arguments
+				*		\throws			Throw an std::out_of_range exception if index does not exist
 				*/
 				std::vector<std::string> operator[](const std::string& index) const;
 				/*!
@@ -77,6 +79,7 @@ namespace mcd {
 				*		\param[in]		index		The index of the arguments
 				*
 				*		\return			Return a vector that contains the arguments
+				*		\throws			Throw an std::out_of_range exception if index does not exist
 				*/
 				std::vector<std::string>& operator[](const std::string& index);
 
@@ -88,6 +91,13 @@ namespace mcd {
 				*		\return			void
 				*/
 				void print(const std::string& index = "") const;
+				/*!
+				* \brief	Test if an index exists in the array
+				*		\param[in]		index		The index to look for
+				*
+				*		\return			\b true or \b false
+				*/
+				bool has(const std::string& index) const;
 
 		private:
 			std::map<std::string, std::vector<std::string> > args;

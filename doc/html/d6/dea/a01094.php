@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Dec 1 2019 13:57:11 for C++ by";
+				$text = "Generated on Fri Dec 13 2019 22:15:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -129,10 +129,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0039d201bb954bcf7abd3882a72a4aba"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dea/a01094.php#a0039d201bb954bcf7abd3882a72a4aba">in</a> (const T &amp;value, const U &amp;array, const Test_struct &amp;test, bool start=false)</td></tr>
 <tr class="memdesc:a0039d201bb954bcf7abd3882a72a4aba"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d6/dea/a01094.php" title="A static class to test code. ">Test</a> if a value is or isn't in an array.  <a href="#a0039d201bb954bcf7abd3882a72a4aba">More...</a><br /></td></tr>
 <tr class="separator:a0039d201bb954bcf7abd3882a72a4aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae4ebb67b6a68b14c5527f906c513a77"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
-<tr class="memitem:aae4ebb67b6a68b14c5527f906c513a77"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dea/a01094.php#aae4ebb67b6a68b14c5527f906c513a77">instance</a> (const U &amp;obj, const std::string &amp;strObj, const Test_struct &amp;test, bool cmp=true)</td></tr>
-<tr class="memdesc:aae4ebb67b6a68b14c5527f906c513a77"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d6/dea/a01094.php" title="A static class to test code. ">Test</a> if class U is an instance of T or is a child instance of T.  <a href="#aae4ebb67b6a68b14c5527f906c513a77">More...</a><br /></td></tr>
-<tr class="separator:aae4ebb67b6a68b14c5527f906c513a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a004909fc39f24bd39f2466083d105ffe"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a004909fc39f24bd39f2466083d105ffe"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dea/a01094.php#a004909fc39f24bd39f2466083d105ffe">instance</a> (const U &amp;, const std::string &amp;strObj, const Test_struct &amp;test, bool cmp=true)</td></tr>
+<tr class="memdesc:a004909fc39f24bd39f2466083d105ffe"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d6/dea/a01094.php" title="A static class to test code. ">Test</a> if class U is an instance of T or is a child instance of T.  <a href="#a004909fc39f24bd39f2466083d105ffe">More...</a><br /></td></tr>
+<tr class="separator:a004909fc39f24bd39f2466083d105ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a340ac80d0474d71a18df38abbc25c10f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a01094.php#a340ac80d0474d71a18df38abbc25c10f">print</a> (std::ostream &amp;os, size_t format=0b00000010|0b00000100|0b00001000)</td></tr>
 <tr class="memdesc:a340ac80d0474d71a18df38abbc25c10f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the results of the tests.  <a href="#a340ac80d0474d71a18df38abbc25c10f">More...</a><br /></td></tr>
 <tr class="separator:a340ac80d0474d71a18df38abbc25c10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -372,8 +372,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aae4ebb67b6a68b14c5527f906c513a77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae4ebb67b6a68b14c5527f906c513a77">&#9670;&nbsp;</a></span>instance()</h2>
+<a id="a004909fc39f24bd39f2466083d105ffe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a004909fc39f24bd39f2466083d105ffe">&#9670;&nbsp;</a></span>instance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,7 +387,7 @@ template&lt;class T , class U &gt; </div>
           <td class="memname">static void mcd::Test::instance </td>
           <td>(</td>
           <td class="paramtype">const U &amp;&#160;</td>
-          <td class="paramname"><em>obj</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

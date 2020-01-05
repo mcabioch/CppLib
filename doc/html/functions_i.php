@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Dec 1 2019 13:57:11 for C++ by";
+				$text = "Generated on Fri Dec 13 2019 22:15:50 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('functions_i.php','');});
 : <a class="el" href="d6/d40/a01114.php#a53cd621cced254067f1ebac4e2abe8df">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>instance()
-: <a class="el" href="d6/dea/a01094.php#aae4ebb67b6a68b14c5527f906c513a77">mcd::Test</a>
+: <a class="el" href="d6/dea/a01094.php#a004909fc39f24bd39f2466083d105ffe">mcd::Test</a>
 </li>
 <li>inUse()
 : <a class="el" href="d5/d17/a01098.php#af6a411164d64b1b04b731f29d54e016a">mcd::Threadable&lt; C &gt;</a>

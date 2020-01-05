@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Dec 1 2019 13:57:10 for C++ by";
+				$text = "Generated on Fri Dec 13 2019 22:15:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('d0/d56/a01014.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="../../d6/d36/a01011.php">List of all members</a>  </div>
   <div class="headertitle">
@@ -103,6 +104,14 @@ $(document).ready(function(){initNavTree('d0/d56/a01014.php','../../');});
  <a href="../../d0/d56/a01014.php#details">More...</a></p>
 
 <p><code>#include &lt;Matrix.hpp&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for mcd::Matrix&lt; C &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d45/a01012.png" border="0" usemap="#mcd_1_1Matrix_3_01C_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1Matrix_3_01C_01_4_coll__map" id="mcd_1_1Matrix_3_01C_01_4_coll__map">
+<area shape="rect" id="node4" title="STL class. " alt="" coords="27,95,143,121"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -111,6 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a222bcb9024bd8d24b105f9d6be5dd391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f2cef0c1ab7ebbbecbe0dc22de5eeeb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d56/a01014.php#a4f2cef0c1ab7ebbbecbe0dc22de5eeeb">Matrix</a> (const std::vector&lt; std::vector&lt; C &gt;&gt; &amp;datas)</td></tr>
 <tr class="separator:a4f2cef0c1ab7ebbbecbe0dc22de5eeeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45b0fa6f78f52c5ea99b7020170d3446"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d56/a01014.php#a45b0fa6f78f52c5ea99b7020170d3446">Matrix</a> (const size_t &amp;width, const size_t &amp;height)</td></tr>
+<tr class="separator:a45b0fa6f78f52c5ea99b7020170d3446"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cfebad51878a28020f44f6aacc6f29a"><td class="memTemplParams" colspan="2">template&lt;std::size_t M, std::size_t N&gt; </td></tr>
 <tr class="memitem:a5cfebad51878a28020f44f6aacc6f29a"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d56/a01014.php#a5cfebad51878a28020f44f6aacc6f29a">Matrix</a> (std::array&lt; std::array&lt; C, M &gt;, N &gt; &amp;datas)</td></tr>
 <tr class="separator:a5cfebad51878a28020f44f6aacc6f29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,6 +188,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a13b069e43b69c428da1868baa888f8a7"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
 <tr class="memitem:a13b069e43b69c428da1868baa888f8a7"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d56/a01014.php#a13b069e43b69c428da1868baa888f8a7">Matrix</a> (const std::vector&lt; std::vector&lt; C &gt;&gt; &amp;datas)</td></tr>
 <tr class="separator:a13b069e43b69c428da1868baa888f8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fab6c3e6ffd68422d971f9943531314"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a4fab6c3e6ffd68422d971f9943531314"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d56/a01014.php#a4fab6c3e6ffd68422d971f9943531314">Matrix</a> (const size_t &amp;width, const size_t &amp;height)</td></tr>
+<tr class="separator:a4fab6c3e6ffd68422d971f9943531314"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cfebad51878a28020f44f6aacc6f29a"><td class="memTemplParams" colspan="2">template&lt;std::size_t M, std::size_t N&gt; </td></tr>
 <tr class="memitem:a5cfebad51878a28020f44f6aacc6f29a"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d56/a01014.php#a5cfebad51878a28020f44f6aacc6f29a">Matrix</a> (std::array&lt; std::array&lt; C, M &gt;, N &gt; &amp;datas)</td></tr>
 <tr class="separator:a5cfebad51878a28020f44f6aacc6f29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,6 +236,15 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ae6b6255f5d5cd9a1684fcdb927978c18"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d56/a01014.php#ae6b6255f5d5cd9a1684fcdb927978c18">enabled</a> () const</td></tr>
 <tr class="separator:ae6b6255f5d5cd9a1684fcdb927978c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:af6166e983f492c3395e82688e1d20dd0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d56/a01014.php#af6166e983f492c3395e82688e1d20dd0">_i</a></td></tr>
+<tr class="separator:af6166e983f492c3395e82688e1d20dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa10d441b574ef731f3fb4416761ed8da"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d56/a01014.php#aa10d441b574ef731f3fb4416761ed8da">_j</a></td></tr>
+<tr class="separator:aa10d441b574ef731f3fb4416761ed8da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10c9de3e658fbb92d833727fb85bdf7b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; C &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d56/a01014.php#a10c9de3e658fbb92d833727fb85bdf7b">_datas</a></td></tr>
+<tr class="separator:a10c9de3e658fbb92d833727fb85bdf7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:a9b0f04cced69a887b46bddde8e3f3c0a"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
@@ -231,6 +254,9 @@ Friends</h2></td></tr>
 <tr class="memitem:a9a3710d279e209fbff51b625690ef630"><td class="memTemplParams" colspan="2">template&lt;class D &gt; </td></tr>
 <tr class="memitem:a9a3710d279e209fbff51b625690ef630"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d56/a01014.php#a9a3710d279e209fbff51b625690ef630">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../d0/d56/a01014.php">Matrix</a>&lt; D &gt; &amp;M)</td></tr>
 <tr class="separator:a9a3710d279e209fbff51b625690ef630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9114b65a5cd73102b02f5ede2c290177"><td class="memTemplParams" colspan="2">template&lt;class D , class E &gt; </td></tr>
+<tr class="memitem:a9114b65a5cd73102b02f5ede2c290177"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d56/a01014.php#a9114b65a5cd73102b02f5ede2c290177">operator==</a> (const <a class="el" href="../../d0/d56/a01014.php">Matrix</a>&lt; D &gt; &amp;a, const <a class="el" href="../../d0/d56/a01014.php">Matrix</a>&lt; E &gt; &amp;b)</td></tr>
+<tr class="separator:a9114b65a5cd73102b02f5ede2c290177"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class C&gt;<br />
@@ -239,7 +265,7 @@ class mcd::Matrix&lt; C &gt;</h3>
 <p>A class to represent matrix. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a222bcb9024bd8d24b105f9d6be5dd391"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a222bcb9024bd8d24b105f9d6be5dd391">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a222bcb9024bd8d24b105f9d6be5dd391">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -260,7 +286,7 @@ template&lt;class C&gt; </div>
 </div>
 </div>
 <a id="a4f2cef0c1ab7ebbbecbe0dc22de5eeeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f2cef0c1ab7ebbbecbe0dc22de5eeeb">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f2cef0c1ab7ebbbecbe0dc22de5eeeb">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -287,8 +313,46 @@ template&lt;class C&gt; </div>
 
 </div>
 </div>
+<a id="a45b0fa6f78f52c5ea99b7020170d3446"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45b0fa6f78f52c5ea99b7020170d3446">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d56/a01014.php">mcd::Matrix</a>&lt; C &gt;::<a class="el" href="../../d0/d56/a01014.php">Matrix</a> </td>
+          <td>(</td>
+          <td class="paramtype">const size_t &amp;&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t &amp;&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5cfebad51878a28020f44f6aacc6f29a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cfebad51878a28020f44f6aacc6f29a">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cfebad51878a28020f44f6aacc6f29a">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -345,7 +409,7 @@ template&lt;class C&gt; </div>
 </div>
 </div>
 <a id="a8919e7b6753c1f480d89106a0e993d57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8919e7b6753c1f480d89106a0e993d57">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8919e7b6753c1f480d89106a0e993d57">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -366,7 +430,7 @@ template&lt;class C &gt; </div>
 </div>
 </div>
 <a id="a13b069e43b69c428da1868baa888f8a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13b069e43b69c428da1868baa888f8a7">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a13b069e43b69c428da1868baa888f8a7">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,8 +451,49 @@ template&lt;class C &gt; </div>
 
 </div>
 </div>
+<a id="a4fab6c3e6ffd68422d971f9943531314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fab6c3e6ffd68422d971f9943531314">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[7/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d56/a01014.php">mcd::Matrix</a>&lt; C &gt;::<a class="el" href="../../d0/d56/a01014.php">Matrix</a> </td>
+          <td>(</td>
+          <td class="paramtype">const size_t &amp;&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t &amp;&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/d56/a01014_a4fab6c3e6ffd68422d971f9943531314_cgraph.png" border="0" usemap="#d0/d56/a01014_a4fab6c3e6ffd68422d971f9943531314_cgraph" alt=""/></div>
+<map name="d0/d56/a01014_a4fab6c3e6ffd68422d971f9943531314_cgraph" id="d0/d56/a01014_a4fab6c3e6ffd68422d971f9943531314_cgraph">
+<area shape="rect" id="node2" href="../../d0/d56/a01014.php#a9823b15f6575c9007b734e505ea772b5" title="mcd::Matrix::i" alt="" coords="188,5,291,32"/>
+<area shape="rect" id="node3" href="../../d0/d56/a01014.php#adc00ecac929d1e153082d6a61879d4e2" title="mcd::Matrix::j" alt="" coords="188,56,291,83"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a5cfebad51878a28020f44f6aacc6f29a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cfebad51878a28020f44f6aacc6f29a">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cfebad51878a28020f44f6aacc6f29a">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -651,6 +756,12 @@ template&lt;class C&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The corresponding value </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Throw</td><td>an std::out_of_range exception if it's wrong boundaries </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -699,6 +810,12 @@ template&lt;class C&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to the corresponding value </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Throw</td><td>an std::out_of_range exception if it's wrong boundaries </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1354,6 +1471,119 @@ template&lt;class D &gt; </div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9114b65a5cd73102b02f5ede2c290177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9114b65a5cd73102b02f5ede2c290177">&#9670;&nbsp;</a></span>operator==</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<div class="memtemplate">
+template&lt;class D , class E &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d56/a01014.php">Matrix</a>&lt; D &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d0/d56/a01014.php">Matrix</a>&lt; E &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a10c9de3e658fbb92d833727fb85bdf7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10c9de3e658fbb92d833727fb85bdf7b">&#9670;&nbsp;</a></span>_datas</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;C&gt; &gt; <a class="el" href="../../d0/d56/a01014.php">mcd::Matrix</a>&lt; C &gt;::_datas</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6166e983f492c3395e82688e1d20dd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6166e983f492c3395e82688e1d20dd0">&#9670;&nbsp;</a></span>_i</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="../../d0/d56/a01014.php">mcd::Matrix</a>&lt; C &gt;::_i</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa10d441b574ef731f3fb4416761ed8da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa10d441b574ef731f3fb4416761ed8da">&#9670;&nbsp;</a></span>_j</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="../../d0/d56/a01014.php">mcd::Matrix</a>&lt; C &gt;::_j</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

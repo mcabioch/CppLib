@@ -7,7 +7,7 @@ var searchData=
   ['info_5flog',['info_log',['../d6/d08/a00244.php#af0b4fd6390d33edc9719d42b26f6e29f',1,'mcd']]],
   ['init',['init',['../d2/d6e/a00966.php#a17a08ca52b3ec69d178a997c07a5ca1c',1,'mcd::Date::init()'],['../d9/d9a/a00998.php#ab549f25e73c47afaff922b59cda6ccc4',1,'mcd::Logger::init()'],['../d4/da7/a01102.php#a3e19605ece31340f27255a79beb193d4',1,'mcd::Time::init()']]],
   ['insert',['insert',['../d6/d40/a01114.php#a53cd621cced254067f1ebac4e2abe8df',1,'mcd::Tree']]],
-  ['instance',['instance',['../d6/dea/a01094.php#aae4ebb67b6a68b14c5527f906c513a77',1,'mcd::Test']]],
+  ['instance',['instance',['../d6/dea/a01094.php#a004909fc39f24bd39f2466083d105ffe',1,'mcd::Test']]],
   ['inuse',['inUse',['../d5/d17/a01098.php#af6a411164d64b1b04b731f29d54e016a',1,'mcd::Threadable']]],
   ['inverted',['inverted',['../d0/d56/a01014.php#af0390771523fc535079faa2a7b7c29ce',1,'mcd::Matrix']]],
   ['invmod',['invmod',['../d6/d08/a00244.php#a6f68c011df46f54833bbda0ac9de04e2',1,'mcd']]],

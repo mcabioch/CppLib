@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Dec 1 2019 13:57:11 for C++ by";
+				$text = "Generated on Fri Dec 13 2019 22:15:50 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -174,6 +174,7 @@ $(document).ready(function(){initNavTree('functions_rela.php','');});
 <li>operator==
 : <a class="el" href="d9/d02/a00834.php#a5eed09966f2142f9d979e7be4643c06a">mcd::Big</a>
 , <a class="el" href="d0/daf/a00970.php#a15ab62ed982a1d04015c4e94597e225e">mcd::DateTime</a>
+, <a class="el" href="d0/d56/a01014.php#a9114b65a5cd73102b02f5ede2c290177">mcd::Matrix&lt; C &gt;</a>
 , <a class="el" href="de/d91/a01034.php#af8e324237235cd148492d82eadf94e0c">mcd::PathfindingNode</a>
 , <a class="el" href="db/d1e/a01126.php#a177528c8a1eee37fcda25a89084b8ed6">mcd::Point</a>
 </li>

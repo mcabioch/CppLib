@@ -3,7 +3,7 @@
 *	\file		Matrix.hpp
 *	\author		Mathias CABIOCH-DELALANDE
 *	\created	Sunday September, 15 2019 19:17:03
-*	\modified	September, 26 2019
+*	\modified	December, 13 2019
 *
 */
 #ifndef HEADER_MATRIX
@@ -28,6 +28,7 @@ namespace mcd {
 				/*! \brief	The constructor of the class */
 				Matrix();
 				explicit Matrix(const std::vector<std::vector<C>>& datas);
+				explicit Matrix(const size_t& width, const size_t& height);
 				template<std::size_t M, std::size_t N>
 				explicit Matrix(std::array<std::array<C, M>, N>& datas);
 				virtual ~Matrix(){}
@@ -47,10 +48,11 @@ namespace mcd {
 				*	\param[in]		i		A matrix place
 				*	\param[in]		j		A matrix place
 				*	\return					The corresponding value
+				*	\throws					Throw an std::out_of_range exception if it's wrong boundaries
 				*/
 				C operator()(size_t i, size_t j)const {
 					if(i == 0 || i > _i || j == 0 || j > _j){
-						throw std::string("Matrix::operator() : Wrong boundaries !");
+						throw std::out_of_range("Matrix::operator() : Wrong boundaries !");
 					}
 
 					return _datas[i-1][j-1];
@@ -60,10 +62,11 @@ namespace mcd {
 				*	\param[in]		i		A matrix place
 				*	\param[in]		j		A matrix place
 				*	\return					A reference to the corresponding value
+				*	\throws					Throw an std::out_of_range exception if it's wrong boundaries
 				*/
 				C& operator()(size_t i, size_t j) {
 					if(i == 0 || i > _i || j == 0 || j > _j){
-						throw std::string("Matrix::operator() : Wrong boundaries !");
+						throw std::out_of_range("Matrix::operator() : Wrong boundaries !");
 					}
 
 					return _datas[i-1][j-1];
@@ -109,6 +112,9 @@ namespace mcd {
 
 				template<class D>
 				friend std::ostream& operator<<(std::ostream& os, const Matrix<D>& M);
+
+				template<class D, class E>
+				friend bool operator==(const Matrix<D>& a, const Matrix<E>& b);
 			/* Others members of Matrix */
 				/*!
 				* \brief	Transpose the matrix
@@ -160,7 +166,8 @@ namespace mcd {
 			/* Global */
 				
 			/* Local */
-				
+				size_t _i, _j;
+				std::vector<std::vector<C>> _datas;
 
 		private:
 			/* Global */
@@ -169,8 +176,6 @@ namespace mcd {
 				bool _enabled;
 				bool _square;
 
-				std::vector<std::vector<C>> _datas;
-				size_t _i, _j;
 	};
 
 	#ifndef DOXYGEN_SHOULD_SKIP_THIS

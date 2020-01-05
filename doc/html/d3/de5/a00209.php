@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Dec 1 2019 13:57:10 for C++ by";
+				$text = "Generated on Fri Dec 13 2019 22:15:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -211,11 +211,11 @@ Macros</h2></td></tr>
 <tr class="separator:a0c07eac51a83f591603f2456250fe07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ed24c910b9c861fde0ee37cc53a26f2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a8ed24c910b9c861fde0ee37cc53a26f2">unit_true</a>(EXPR)&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>(static_cast&lt;bool&gt;(EXPR), #EXPR)</td></tr>
 <tr class="separator:a8ed24c910b9c861fde0ee37cc53a26f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8882f6cc17a922e91f806a24b4a6f413"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a8882f6cc17a922e91f806a24b4a6f413">unit_false</a>(EXPR)&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>((!static_cast&lt;bool&gt;(EXPR)), #EXPR)</td></tr>
+<tr class="memitem:a8882f6cc17a922e91f806a24b4a6f413"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a8882f6cc17a922e91f806a24b4a6f413">unit_false</a>(EXPR)&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>((!static_cast&lt;bool&gt;(EXPR)), &quot;! #EXPR&quot;)</td></tr>
 <tr class="separator:a8882f6cc17a922e91f806a24b4a6f413"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9544a2b3d82fbf7b0913fb29ae4ab1d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#ac9544a2b3d82fbf7b0913fb29ae4ab1d">unit_equals</a>(A,  B)&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a8ed24c910b9c861fde0ee37cc53a26f2">unit_true</a>(A == B)</td></tr>
 <tr class="separator:ac9544a2b3d82fbf7b0913fb29ae4ab1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe6f23e4ac49c7bcf76fa26e710db6b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#abe6f23e4ac49c7bcf76fa26e710db6b4">unit_notEquals</a>(A,  B)&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a8ed24c910b9c861fde0ee37cc53a26f2">unit_true</a>(!(A == B))</td></tr>
+<tr class="memitem:abe6f23e4ac49c7bcf76fa26e710db6b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#abe6f23e4ac49c7bcf76fa26e710db6b4">unit_notEquals</a>(A,  B)&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a8882f6cc17a922e91f806a24b4a6f413">unit_false</a>(A == B)</td></tr>
 <tr class="separator:abe6f23e4ac49c7bcf76fa26e710db6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31dc59c312f6beaf52e720c5a7dcc017"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a31dc59c312f6beaf52e720c5a7dcc017">unit_in</a>(VALUE,  ARRAY)&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#a0039d201bb954bcf7abd3882a72a4aba">mcd::Test::in</a>(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td></tr>
 <tr class="separator:a31dc59c312f6beaf52e720c5a7dcc017"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,9 +227,9 @@ Macros</h2></td></tr>
 <tr class="separator:a4feaf992012b5ed9c7f3abc2219d1b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab75ba1ba8623d1e9a555541577e8117e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#ab75ba1ba8623d1e9a555541577e8117e">unit_noThrows</a>(INSTR,  EXCEPT)</td></tr>
 <tr class="separator:ab75ba1ba8623d1e9a555541577e8117e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a349ad27ffc89c197309d6806895c961d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a349ad27ffc89c197309d6806895c961d">unit_instance</a>(OBJ,  INSTANCE)&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#aae4ebb67b6a68b14c5527f906c513a77">mcd::Test::instance</a>&lt;INSTANCE&gt;(OBJ, #OBJ, {false, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td></tr>
+<tr class="memitem:a349ad27ffc89c197309d6806895c961d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#a349ad27ffc89c197309d6806895c961d">unit_instance</a>(OBJ,  INSTANCE)&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#a004909fc39f24bd39f2466083d105ffe">mcd::Test::instance</a>&lt;INSTANCE&gt;(OBJ, #OBJ, {false, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td></tr>
 <tr class="separator:a349ad27ffc89c197309d6806895c961d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad118bcf8324d2668994f961ee5019c5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#ad118bcf8324d2668994f961ee5019c5b">unit_notInstance</a>(OBJ,  INSTANCE)&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#aae4ebb67b6a68b14c5527f906c513a77">mcd::Test::instance</a>&lt;INSTANCE&gt;(OBJ, #OBJ, {false, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__}, false)</td></tr>
+<tr class="memitem:ad118bcf8324d2668994f961ee5019c5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.php#ad118bcf8324d2668994f961ee5019c5b">unit_notInstance</a>(OBJ,  INSTANCE)&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#a004909fc39f24bd39f2466083d105ffe">mcd::Test::instance</a>&lt;INSTANCE&gt;(OBJ, #OBJ, {false, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__}, false)</td></tr>
 <tr class="separator:ad118bcf8324d2668994f961ee5019c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -395,7 +395,7 @@ Last modification : November, 30 2019 </dd></dl>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">EXPR</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>((!static_cast&lt;bool&gt;(EXPR)), #EXPR)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>((!static_cast&lt;bool&gt;(EXPR)), &quot;! #EXPR&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -451,7 +451,7 @@ Last modification : November, 30 2019 </dd></dl>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#aae4ebb67b6a68b14c5527f906c513a77">mcd::Test::instance</a>&lt;INSTANCE&gt;(OBJ, #OBJ, {false, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#a004909fc39f24bd39f2466083d105ffe">mcd::Test::instance</a>&lt;INSTANCE&gt;(OBJ, #OBJ, {false, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -479,7 +479,7 @@ Last modification : November, 30 2019 </dd></dl>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a8ed24c910b9c861fde0ee37cc53a26f2">unit_true</a>(!(A == B))</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d3/de5/a00209.php#a8882f6cc17a922e91f806a24b4a6f413">unit_false</a>(A == B)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -563,7 +563,7 @@ Last modification : November, 30 2019 </dd></dl>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#aae4ebb67b6a68b14c5527f906c513a77">mcd::Test::instance</a>&lt;INSTANCE&gt;(OBJ, #OBJ, {false, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__}, false)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/dea/a01094.php#a004909fc39f24bd39f2466083d105ffe">mcd::Test::instance</a>&lt;INSTANCE&gt;(OBJ, #OBJ, {false, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__}, false)</td>
         </tr>
       </table>
 </div><div class="memdoc">

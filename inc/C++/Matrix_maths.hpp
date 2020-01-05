@@ -225,4 +225,10 @@ Matrix<C> Matrix<C>::inverted(){
 	return id;
 }
 
+/* Comparison */
+template<class C, class D>
+bool operator==(const Matrix<C>& a, const Matrix<D>& b){
+	return (a._i == b._i) && (a._j == b._j) && (a._datas == b._datas);
+}
+
 #endif //HEADER_MATRIX_MATHS

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Dec 1 2019 13:57:10 for C++ by";
+				$text = "Generated on Fri Dec 13 2019 22:15:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -362,17 +362,22 @@ template&lt;class ... Args&gt; </div>
   </table>
   </dd>
 </dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::logic_error</td><td>Throws if the logger is not initiated </td></tr>
+    <tr><td class="paramname">std::ios_base::failure</td><td>Throws if it's impossible to open the file </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d9a/a00998_a2cb99172e98a89e45fdcb9b394eea99e_cgraph.png" border="0" usemap="#d9/d9a/a00998_a2cb99172e98a89e45fdcb9b394eea99e_cgraph" alt=""/></div>
 <map name="d9/d9a/a00998_a2cb99172e98a89e45fdcb9b394eea99e_cgraph" id="d9/d9a/a00998_a2cb99172e98a89e45fdcb9b394eea99e_cgraph">
-<area shape="rect" id="node2" href="../../d6/d08/a00244.php#ac625de83fcace96567aecd1363297776" title="Print the given text like a warning. " alt="" coords="189,5,313,32"/>
-<area shape="rect" id="node3" href="../../d9/d9a/a00998.php#a365030ec32e6af40c6c53a53ff5163f4" title="Know if a log Level is enabled or not. " alt="" coords="172,56,331,83"/>
-<area shape="rect" id="node4" href="../../d6/d08/a00244.php#a1a14f66f0c6eba0c77338364977658e1" title="Print the given text like an error. " alt="" coords="199,107,304,133"/>
-<area shape="rect" id="node5" href="../../d0/daf/a00970.php#a7b25df777f0b2b3ac2396538eb3ca028" title="mcd::DateTime::get" alt="" coords="182,157,321,184"/>
-<area shape="rect" id="node6" href="../../d9/d9a/a00998.php#a189cdd6486b23632d014a2e795ed8e13" title="The constructor of the class. " alt="" coords="181,208,322,235"/>
+<area shape="rect" id="node2" href="../../d9/d9a/a00998.php#a365030ec32e6af40c6c53a53ff5163f4" title="Know if a log Level is enabled or not. " alt="" coords="172,5,331,32"/>
+<area shape="rect" id="node3" href="../../d0/daf/a00970.php#a7b25df777f0b2b3ac2396538eb3ca028" title="mcd::DateTime::get" alt="" coords="182,56,321,83"/>
+<area shape="rect" id="node4" href="../../d9/d9a/a00998.php#a189cdd6486b23632d014a2e795ed8e13" title="The constructor of the class. " alt="" coords="181,107,322,133"/>
 </map>
 </div>
 

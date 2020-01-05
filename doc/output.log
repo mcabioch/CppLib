@@ -6,6 +6,7 @@
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:49: warning: Found unknown command `\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:58: warning: Found unknown command `\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:58: warning: Found unknown command `\error'
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:115: warning: argument 'obj' of command @param is not found in the argument list of mcd::Test::instance(const U &, const std::string &strObj, const Test_struct &test, bool cmp=true)
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:40: warning: Found unknown command `\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:49: warning: Found unknown command `\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:68: warning: unable to resolve reference to `mcd::bdd' for \ref command

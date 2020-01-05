@@ -11,19 +11,34 @@
 
 template<class C>
 Matrix<C>::Matrix() :
-	_enabled(false),
-	_square(true),
-	_datas(),
 	_i(0),
-	_j(0)
-{
-	
-}
+	_j(0),
+	_datas(),
+	_enabled(false),
+	_square(true)
+{}
 
 template<class C>
 Matrix<C>::Matrix(const std::vector<std::vector<C>>& datas) :
 	Matrix()
 {
+	init(datas);
+}
+
+template<class C>
+Matrix<C>::Matrix(const size_t& width, const size_t& height) :
+	Matrix()
+{
+	std::vector<std::vector<C>> datas;
+
+	for(size_t i = 0; i < height; ++i){
+		std::vector<C> data;
+		for(size_t j = 0; j < width; ++j){
+			data.push_back(0);
+		}
+		datas.push_back(data);
+	}
+
 	init(datas);
 }
 

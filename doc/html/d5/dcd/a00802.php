@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Dec 1 2019 13:57:10 for C++ by";
+				$text = "Generated on Fri Dec 13 2019 22:15:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -110,7 +110,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9fd4e17aa2d814f460da6128e98b7519"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a9fd4e17aa2d814f460da6128e98b7519">~Arguments</a> ()</td></tr>
 <tr class="separator:a9fd4e17aa2d814f460da6128e98b7519"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eabf4c8408ded2b8deca24d99fd3234"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a1eabf4c8408ded2b8deca24d99fd3234">addProg</a> (int argc, char **argv)</td></tr>
-<tr class="memdesc:a1eabf4c8408ded2b8deca24d99fd3234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the arguments of theMay, n to the object.  <a href="#a1eabf4c8408ded2b8deca24d99fd3234">More...</a><br /></td></tr>
+<tr class="memdesc:a1eabf4c8408ded2b8deca24d99fd3234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the arguments of the program to the object.  <a href="#a1eabf4c8408ded2b8deca24d99fd3234">More...</a><br /></td></tr>
 <tr class="separator:a1eabf4c8408ded2b8deca24d99fd3234"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d178470f50f3a3f12b2dab7aa40f004"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a0d178470f50f3a3f12b2dab7aa40f004"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a0d178470f50f3a3f12b2dab7aa40f004">add</a> (const std::string &amp;category, T value)</td></tr>
@@ -125,6 +125,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a77d29e3346c6b8c49fed9158e1336bd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a77d29e3346c6b8c49fed9158e1336bd1">print</a> (const std::string &amp;index=&quot;&quot;) const</td></tr>
 <tr class="memdesc:a77d29e3346c6b8c49fed9158e1336bd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print all the arguments in the <em>index</em>.  <a href="#a77d29e3346c6b8c49fed9158e1336bd1">More...</a><br /></td></tr>
 <tr class="separator:a77d29e3346c6b8c49fed9158e1336bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7710e8ecdb6e5eb86b673765d69df6cf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcd/a00802.php#a7710e8ecdb6e5eb86b673765d69df6cf">has</a> (const std::string &amp;index) const</td></tr>
+<tr class="memdesc:a7710e8ecdb6e5eb86b673765d69df6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d6/dea/a01094.php" title="A static class to test code. ">Test</a> if an index exists in the array.  <a href="#a7710e8ecdb6e5eb86b673765d69df6cf">More...</a><br /></td></tr>
+<tr class="separator:a7710e8ecdb6e5eb86b673765d69df6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to manage the arguments. </p>
@@ -184,7 +187,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/dcd/a00802_a9fd4e17aa2d814f460da6128e98b7519_cgraph.png" border="0" usemap="#d5/dcd/a00802_a9fd4e17aa2d814f460da6128e98b7519_cgraph" alt=""/></div>
 <map name="d5/dcd/a00802_a9fd4e17aa2d814f460da6128e98b7519_cgraph" id="d5/dcd/a00802_a9fd4e17aa2d814f460da6128e98b7519_cgraph">
-<area shape="rect" id="node2" href="../../d5/dcd/a00802.php#a1eabf4c8408ded2b8deca24d99fd3234" title="Add the arguments of theMay, n to the object. " alt="" coords="251,5,425,32"/>
+<area shape="rect" id="node2" href="../../d5/dcd/a00802.php#a1eabf4c8408ded2b8deca24d99fd3234" title="Add the arguments of the program to the object. " alt="" coords="251,5,425,32"/>
 </map>
 </div>
 
@@ -245,6 +248,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node4" href="../../d6/d08/a00244.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string. " alt="" coords="254,56,327,83"/>
 <area shape="rect" id="node5" href="../../d5/dcd/a00802.php#ab6f239de18f2b736af8215e1e116b6c7" title="Get the arguments in an index. " alt="" coords="200,107,381,133"/>
 <area shape="rect" id="node6" href="../../d5/dcd/a00802.php#a77d29e3346c6b8c49fed9158e1336bd1" title="Print all the arguments in the index. " alt="" coords="215,157,366,184"/>
+<area shape="rect" id="node7" href="../../d5/dcd/a00802.php#a7710e8ecdb6e5eb86b673765d69df6cf" title="Test if an index exists in the array. " alt="" coords="217,208,364,235"/>
 <area shape="rect" id="node3" href="../../d6/d08/a00244.php#a5996fcf8097a903a5461a6035ff0f98d" title="Prints approximately everything. " alt="" coords="429,5,529,32"/>
 </map>
 </div>
@@ -277,11 +281,38 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Add the arguments of theMay, n to the object. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Add the arguments of the program to the object. </p>
+<p>"prog" is used for args key and "prog_name" for the name of the program </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">argc</td><td>The number of arguments </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">argv</td><td>An array of char*</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a id="a7710e8ecdb6e5eb86b673765d69df6cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7710e8ecdb6e5eb86b673765d69df6cf">&#9670;&nbsp;</a></span>has()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Arguments::has </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../d6/dea/a01094.php" title="A static class to test code. ">Test</a> if an index exists in the array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index to look for</td></tr>
   </table>
   </dd>
 </dl>
@@ -313,6 +344,12 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return a vector that contains the arguments </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Throw</td><td>an std::out_of_range exception if index does not exist </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -340,6 +377,12 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return a vector that contains the arguments </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Throw</td><td>an std::out_of_range exception if index does not exist </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Dec 1 2019 13:57:11 for C++ by";
+				$text = "Generated on Fri Dec 13 2019 22:15:50 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -244,25 +244,26 @@ $(document).ready(function(){initNavTree('functions_o.php','');});
 <li>operator==
 : <a class="el" href="d9/d02/a00834.php#a5eed09966f2142f9d979e7be4643c06a">mcd::Big</a>
 , <a class="el" href="d0/daf/a00970.php#a15ab62ed982a1d04015c4e94597e225e">mcd::DateTime</a>
-, <a class="el" href="d1/d7a/a00982.php#a986f1f323f69858991a54320af44b6a5">mcd::Fraction</a>
+, <a class="el" href="d1/d7a/a00982.php#a300ed85793b7aece141599c82524f8d9">mcd::Fraction</a>
+, <a class="el" href="d0/d56/a01014.php#a9114b65a5cd73102b02f5ede2c290177">mcd::Matrix&lt; C &gt;</a>
 , <a class="el" href="de/d91/a01034.php#af8e324237235cd148492d82eadf94e0c">mcd::PathfindingNode</a>
 , <a class="el" href="db/d1e/a01126.php#a177528c8a1eee37fcda25a89084b8ed6">mcd::Point</a>
 </li>
 <li>operator&gt;
 : <a class="el" href="d9/d02/a00834.php#ac75c3d550acaece7444e1d3373e0ced6">mcd::Big</a>
 , <a class="el" href="d0/daf/a00970.php#adabc4caa88be53935e7c3d210821c97a">mcd::DateTime</a>
-, <a class="el" href="d1/d7a/a00982.php#a379d98c2c6ae1962fc2089b599fc48df">mcd::Fraction</a>
+, <a class="el" href="d1/d7a/a00982.php#a5160d78b6f8e8269aacac56fb50346df">mcd::Fraction</a>
 , <a class="el" href="de/d91/a01034.php#aeba800fc4624a565bb41c02943679938">mcd::PathfindingNode</a>
 </li>
 <li>operator&gt;=
 : <a class="el" href="d9/d02/a00834.php#adf83d734f0c4b777bb675bf327996987">mcd::Big</a>
 , <a class="el" href="d0/daf/a00970.php#a5a1cc8417dca4698082acedf1edb07cf">mcd::DateTime</a>
-, <a class="el" href="d1/d7a/a00982.php#aaf88d0c6bfb21b64dcec572fd4691cd7">mcd::Fraction</a>
+, <a class="el" href="d1/d7a/a00982.php#ac4dcbd6c3961244afb7bbcb90c5b01da">mcd::Fraction</a>
 , <a class="el" href="de/d91/a01034.php#a50c4ea549ad84f73f8eb09fc5aa2bff3">mcd::PathfindingNode</a>
 </li>
 <li>operator&gt;&gt;
 : <a class="el" href="d9/d02/a00834.php#a91ce80d3959e1d2a891e58c940c8631b">mcd::Big</a>
-, <a class="el" href="d0/d11/a00842.php#aa8320705c12816d9baead8f46adfe198">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+, <a class="el" href="d0/d11/a00842.php#aa8cf5f8e8b9dad3b0d0dd892dae0eca8">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>operator&gt;&gt;=()
 : <a class="el" href="d0/d11/a00842.php#acdcfe40eebb64e8fd80d976a0848a89b">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
@@ -275,7 +276,7 @@ $(document).ready(function(){initNavTree('functions_o.php','');});
 , <a class="el" href="d0/d61/a01130.php#aceb6871a031f6bdb9adeb291238a2f1e">mcd::vector&lt; C &gt;</a>
 </li>
 <li>operator^=()
-: <a class="el" href="d0/d11/a00842.php#a8fe0174ab3d62d4fda8cd77185c4feb6">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d0/d11/a00842.php#a56a92e16b32034cec0a9d7f5ff4cce6b">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 , <a class="el" href="d0/d61/a01130.php#ae2e81b3836365353b10040331247a870">mcd::vector&lt; C &gt;</a>
 </li>
 <li>operator|()

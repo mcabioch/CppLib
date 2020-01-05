@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Dec 1 2019 13:57:11 for C++ by";
+				$text = "Generated on Fri Dec 13 2019 22:15:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('d6/dea/a01094.php','../../');});
   <tr class="even"><td class="entry"><a class="el" href="../../d6/dea/a01094.php#a24b9749eacbe2b03325b920e7622f39d">addThrow</a>(const std::string &amp;instr, const std::string &amp;except, const Test_struct &amp;test)</td><td class="entry"><a class="el" href="../../d6/dea/a01094.php">mcd::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d6/dea/a01094.php#a507900718727225ac3c0653480b2c48c">failures</a>()</td><td class="entry"><a class="el" href="../../d6/dea/a01094.php">mcd::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d6/dea/a01094.php#a0039d201bb954bcf7abd3882a72a4aba">in</a>(const T &amp;value, const U &amp;array, const Test_struct &amp;test, bool start=false)</td><td class="entry"><a class="el" href="../../d6/dea/a01094.php">mcd::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/dea/a01094.php#aae4ebb67b6a68b14c5527f906c513a77">instance</a>(const U &amp;obj, const std::string &amp;strObj, const Test_struct &amp;test, bool cmp=true)</td><td class="entry"><a class="el" href="../../d6/dea/a01094.php">mcd::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/dea/a01094.php#a004909fc39f24bd39f2466083d105ffe">instance</a>(const U &amp;, const std::string &amp;strObj, const Test_struct &amp;test, bool cmp=true)</td><td class="entry"><a class="el" href="../../d6/dea/a01094.php">mcd::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d6/dea/a01094.php#a58c6bc9145b1fbe2a22178c720661317">nb</a>()</td><td class="entry"><a class="el" href="../../d6/dea/a01094.php">mcd::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d6/dea/a01094.php#a340ac80d0474d71a18df38abbc25c10f">print</a>(std::ostream &amp;os, size_t format=0b00000010|0b00000100|0b00001000)</td><td class="entry"><a class="el" href="../../d6/dea/a01094.php">mcd::Test</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d6/dea/a01094.php#ad9b4d5f1877fd888ee1d6812d487fb5b">run</a>(const std::string &amp;key=&quot;&quot;)</td><td class="entry"><a class="el" href="../../d6/dea/a01094.php">mcd::Test</a></td><td class="entry"><span class="mlabel">static</span></td></tr>

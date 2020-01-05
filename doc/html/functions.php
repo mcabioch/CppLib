@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Dec 1 2019 13:57:11 for C++ by";
+				$text = "Generated on Fri Dec 13 2019 22:15:50 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -98,6 +98,9 @@ $(document).ready(function(){initNavTree('functions.php','');});
 <li>_attackedSpec
 : <a class="el" href="d3/d7b/a00986.php#ac1aefccd5c541096961543779115d396">mcd::Hostile</a>
 </li>
+<li>_datas
+: <a class="el" href="d0/d56/a01014.php#a10c9de3e658fbb92d833727fb85bdf7b">mcd::Matrix&lt; C &gt;</a>
+</li>
 <li>_direction
 : <a class="el" href="d5/d12/a00794.php#ad738ce8411210b52087a19fe33ae1174">mcd::Animal</a>
 </li>
@@ -113,11 +116,17 @@ $(document).ready(function(){initNavTree('functions.php','');});
 <li>_her
 : <a class="el" href="dd/df1/a01082.php#a3aadcf63bff72dd8c87f4c1d7a3bd240">mcd::Referenced&lt; C &gt;</a>
 </li>
+<li>_i
+: <a class="el" href="d0/d56/a01014.php#af6166e983f492c3395e82688e1d20dd0">mcd::Matrix&lt; C &gt;</a>
+</li>
 <li>_id
 : <a class="el" href="dd/d7a/a00990.php#a6920412818f4d8a4478771fb767a2d07">mcd::Identifier</a>
 </li>
 <li>_init
 : <a class="el" href="d0/dfb/a01066.php#abffa7d0ae3461370c932f0732367c93b">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+</li>
+<li>_j
+: <a class="el" href="d0/d56/a01014.php#aa10d441b574ef731f3fb4416761ed8da">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>_losted
 : <a class="el" href="d0/dfb/a01066.php#aee72e21c73d5bbf23c831514cd6cd58b">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>

@@ -2,10 +2,12 @@ var a01014 =
 [
     [ "Matrix", "d0/d56/a01014.php#a222bcb9024bd8d24b105f9d6be5dd391", null ],
     [ "Matrix", "d0/d56/a01014.php#a4f2cef0c1ab7ebbbecbe0dc22de5eeeb", null ],
+    [ "Matrix", "d0/d56/a01014.php#a45b0fa6f78f52c5ea99b7020170d3446", null ],
     [ "Matrix", "d0/d56/a01014.php#a5cfebad51878a28020f44f6aacc6f29a", null ],
     [ "~Matrix", "d0/d56/a01014.php#a87e5bc598036e554e7fac18328bbb47b", null ],
     [ "Matrix", "d0/d56/a01014.php#a8919e7b6753c1f480d89106a0e993d57", null ],
     [ "Matrix", "d0/d56/a01014.php#a13b069e43b69c428da1868baa888f8a7", null ],
+    [ "Matrix", "d0/d56/a01014.php#a4fab6c3e6ffd68422d971f9943531314", null ],
     [ "Matrix", "d0/d56/a01014.php#a5cfebad51878a28020f44f6aacc6f29a", null ],
     [ "det", "d0/d56/a01014.php#ace95025dd985ddaa6c1ed72e8b464a0a", null ],
     [ "enabled", "d0/d56/a01014.php#ae6b6255f5d5cd9a1684fcdb927978c18", null ],
@@ -41,5 +43,9 @@ var a01014 =
     [ "tos", "d0/d56/a01014.php#adbfa246182cc089300f95cf1610a99ef", null ],
     [ "transposed", "d0/d56/a01014.php#a942e3d418da2bacad3193d82411e2cfc", null ],
     [ "GaussJordan", "d0/d56/a01014.php#a9b0f04cced69a887b46bddde8e3f3c0a", null ],
-    [ "operator<<", "d0/d56/a01014.php#a9a3710d279e209fbff51b625690ef630", null ]
+    [ "operator<<", "d0/d56/a01014.php#a9a3710d279e209fbff51b625690ef630", null ],
+    [ "operator==", "d0/d56/a01014.php#a9114b65a5cd73102b02f5ede2c290177", null ],
+    [ "_datas", "d0/d56/a01014.php#a10c9de3e658fbb92d833727fb85bdf7b", null ],
+    [ "_i", "d0/d56/a01014.php#af6166e983f492c3395e82688e1d20dd0", null ],
+    [ "_j", "d0/d56/a01014.php#aa10d441b574ef731f3fb4416761ed8da", null ]
 ];

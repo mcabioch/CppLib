@@ -22,6 +22,7 @@ namespace mcd {
 		_mutex.lock();
 		if(!contains(indexs, index)){
 			_mutex.unlock();
+			throw std::out_of_range("Error Arguments operator[] : index '" + index + "' missing !");
 			return error;
 		} else {
 			_mutex.unlock();
@@ -33,7 +34,7 @@ namespace mcd {
 		_mutex.lock();
 		if(!contains(indexs, index)){
 			_mutex.unlock();
-			throw std::string("Error Arguments operator[] : index '" + index + "' missing !");
+			throw std::out_of_range("Error Arguments operator[] : index '" + index + "' missing !");
 		} else {
 			_mutex.unlock();
 			return args[index];
@@ -66,5 +67,9 @@ namespace mcd {
 
 		_mutex.unlock();
 		return;
+	}
+
+	bool Arguments::has(const std::string& index) const {
+		return (args.find(index) != args.end());
 	}
 }

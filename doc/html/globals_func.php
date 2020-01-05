@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Dec 1 2019 13:57:11 for C++ by";
+				$text = "Generated on Fri Dec 13 2019 22:15:50 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -98,6 +98,9 @@ $(document).ready(function(){initNavTree('globals_func.php','');});
 </li>
 <li>operator&lt;&lt;()
 : <a class="el" href="de/d76/a00134.php#a9a3710d279e209fbff51b625690ef630">Matrix_functions.hpp</a>
+</li>
+<li>operator==()
+: <a class="el" href="d2/df5/a00137.php#a8ebc3a9dececcd7462234a639abdfe50">Matrix_maths.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->

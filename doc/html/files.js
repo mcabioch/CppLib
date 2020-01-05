@@ -72,7 +72,7 @@ var files =
     [ "Matrix_constructs.hpp", "d1/d88/a00128.php", null ],
     [ "Matrix_core.hpp", "d7/d06/a00131.php", null ],
     [ "Matrix_functions.hpp", "de/d76/a00134.php", "de/d76/a00134" ],
-    [ "Matrix_maths.hpp", "d2/df5/a00137.php", null ],
+    [ "Matrix_maths.hpp", "d2/df5/a00137.php", "d2/df5/a00137" ],
     [ "Mushroom.hpp", "d5/db1/a00140.php", [
       [ "Mushroom", "d3/d08/a01018.php", "d3/d08/a01018" ]
     ] ],

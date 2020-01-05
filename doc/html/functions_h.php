@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Dec 1 2019 13:57:11 for C++ by";
+				$text = "Generated on Fri Dec 13 2019 22:15:50 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -96,6 +96,9 @@ $(document).ready(function(){initNavTree('functions_h.php','');});
 : <a class="el" href="d6/d08/a00244.php#aed95108125aaaa616352928dcf421b1e">mcd::ContraptionAttr</a>
 , <a class="el" href="d3/dca/a00954.php#a53cfb8aef4749f35c4714b3ba88e5a4c">mcd::SHA2</a>
 , <a class="el" href="d6/d08/a00244.php#abe35d460277b28d79aa0261fd58b89da">mcd::WorldDimensions</a>
+</li>
+<li>has()
+: <a class="el" href="d5/dcd/a00802.php#a7710e8ecdb6e5eb86b673765d69df6cf">mcd::Arguments</a>
 </li>
 <li>has_istream_operator()
 : <a class="el" href="d7/d46/a00890.php#a6343682f15ad178aa8883b61094b7d2a">mcd::Check::has_istream_operator&lt; T &gt;</a>
