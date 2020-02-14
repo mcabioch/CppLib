@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['level',['Level',['../d9/d9a/a00998.php#a25d94050e8e7f91c7e1f02ddc2af8e95',1,'mcd::Logger']]]
+  ['genetype',['GeneType',['../df/dbc/a01004.php#a29dd9b8ac897a110f7047c2912ebd2e0',1,'mcd::natural::Gene']]]
 ];

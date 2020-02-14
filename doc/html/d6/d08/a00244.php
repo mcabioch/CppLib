@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Jan 7 2020 14:03:44 for C++ by";
+				$text = "Generated on Wed Feb 12 2020 19:34:14 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -478,6 +478,12 @@ Functions</h2></td></tr>
 <tr class="separator:a040a2aa0625adc9f13e6568d906a20a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53a33cf86c36584f92495307f8e68a00"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d08/a00244.php#a53a33cf86c36584f92495307f8e68a00">array2Dto1D</a> (const <a class="el" href="../../db/d1e/a01126.php">Point</a> &amp;pt, size_t maxX)</td></tr>
 <tr class="separator:a53a33cf86c36584f92495307f8e68a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5095d23c94c5ba1afddd4056d7693b83"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a5095d23c94c5ba1afddd4056d7693b83"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d08/a00244.php#a5095d23c94c5ba1afddd4056d7693b83">vector2DPrint</a> (const std::vector&lt; std::vector&lt; T &gt;&gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
+<tr class="separator:a5095d23c94c5ba1afddd4056d7693b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c56a8e6976a66e7e7adb11948963657"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a5c56a8e6976a66e7e7adb11948963657"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d08/a00244.php#a5c56a8e6976a66e7e7adb11948963657">vector2DPrintInverted</a> (const std::vector&lt; std::vector&lt; T &gt;&gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
+<tr class="separator:a5c56a8e6976a66e7e7adb11948963657"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66e560b6579bb202abdcee37283121a0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a66e560b6579bb202abdcee37283121a0"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d08/a00244.php#a66e560b6579bb202abdcee37283121a0">toBigVal</a> (T in)</td></tr>
 <tr class="memdesc:a66e560b6579bb202abdcee37283121a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a value from something to std::string.  <a href="#a66e560b6579bb202abdcee37283121a0">More...</a><br /></td></tr>
@@ -6267,6 +6273,78 @@ template&lt;class T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return the changed string </dd></dl>
+
+</div>
+</div>
+<a id="a5095d23c94c5ba1afddd4056d7693b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5095d23c94c5ba1afddd4056d7693b83">&#9670;&nbsp;</a></span>vector2DPrint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::vector2DPrint </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; T &gt;&gt;&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>autosize</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em> = <code>std::cout</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c56a8e6976a66e7e7adb11948963657"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c56a8e6976a66e7e7adb11948963657">&#9670;&nbsp;</a></span>vector2DPrintInverted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::vector2DPrintInverted </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; T &gt;&gt;&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>autosize</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em> = <code>std::cout</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

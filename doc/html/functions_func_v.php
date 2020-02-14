@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Jan 7 2020 14:03:44 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,11 +92,19 @@ $(document).ready(function(){initNavTree('functions_func_v.php','');});
 &#160;
 
 <h3><a id="index_v"></a>- v -</h3><ul>
+<li>Value()
+: <a class="el" href="da/de3/a00856.php#a01bc934ac059453792f6783b0e919dd1">mcd::natural::Cell</a>
+, <a class="el" href="de/d62/a00924.php#a2dced15a099be338addf44cb4d8a60f2">mcd::natural::Chromosome</a>
+, <a class="el" href="df/dbc/a01004.php#a1c76cb1011260b0ad8495d1e591057ba">mcd::natural::Gene</a>
+</li>
+<li>Values()
+: <a class="el" href="de/d62/a00924.php#a9d228fb25de487c350f4416dbc5ff8e2">mcd::natural::Chromosome</a>
+</li>
 <li>vector()
-: <a class="el" href="d0/d61/a01130.php#a92e814868c4f4b6f3d0969b200b35c91">mcd::vector&lt; C &gt;</a>
+: <a class="el" href="d9/d97/a01152.php#aea718ab247c60108c5dd591905174a95">mcd::vector&lt; C &gt;</a>
 </li>
 <li>Vegetal()
-: <a class="el" href="dd/de2/a01134.php#a092e520f079ed706c3ac50e667653a0e">mcd::Vegetal</a>
+: <a class="el" href="d9/d42/a01156.php#a092e520f079ed706c3ac50e667653a0e">mcd::Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

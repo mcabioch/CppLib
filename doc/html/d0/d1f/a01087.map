@@ -1,4 +1,3 @@
-<map id="mcd::Threadable&lt; C &gt;" name="mcd::Threadable&lt; C &gt;">
-<area shape="rect" id="node2" href="$da/db7/a01088.php" title="mcd::Threadable\&lt; Timer \&gt;" alt="" coords="5,95,181,121"/>
-<area shape="rect" id="node3" href="$d2/d20/a01096.php" title="A timer to do something at the end. " alt="" coords="49,171,137,197"/>
+<map id="mcd::PlayerAbstraction&lt; PlayerParent &gt;" name="mcd::PlayerAbstraction&lt; PlayerParent &gt;">
+<area shape="rect" id="node3" href="$da/d93/a01084.php" title="A player that can be a child from any class. " alt="" coords="5,169,196,196"/>
 </map>

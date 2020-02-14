@@ -1,6 +1,6 @@
 var a00820 =
 [
-    [ "Assert", "dc/d00/a00820.php#ad4dd96d96703a8dd5efcd62ee8d3a78d", null ],
-    [ "~Assert", "dc/d00/a00820.php#a0abb896db412bab499f6d1bd59d65a10", null ],
-    [ "operator()", "dc/d00/a00820.php#ab411af4c628ae6ed469f78119eb99de4", null ]
+    [ "t_stack", "dc/d00/a00820.php#aa4c2b6ebb0b904372919f1c9d0e8a7fa", null ],
+    [ "push", "dc/d00/a00820.php#ac52e7cd746a8da37bc0d9aba1b44a12a", null ],
+    [ "push", "dc/d00/a00820.php#a366f9af743a2aa515c828da000add01a", null ]
 ];

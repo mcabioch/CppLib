@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Jan 7 2020 14:03:44 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,85 +93,94 @@ $(document).ready(function(){initNavTree('functions.php','');});
 
 <h3><a id="index__"></a>- _ -</h3><ul>
 <li>_attacked
-: <a class="el" href="d3/d7b/a00986.php#a56083f800ece1bfc951d64ed36c4b8c6">mcd::Hostile</a>
+: <a class="el" href="dd/dac/a01008.php#a56083f800ece1bfc951d64ed36c4b8c6">mcd::Hostile</a>
 </li>
 <li>_attackedSpec
-: <a class="el" href="d3/d7b/a00986.php#ac1aefccd5c541096961543779115d396">mcd::Hostile</a>
+: <a class="el" href="dd/dac/a01008.php#ac1aefccd5c541096961543779115d396">mcd::Hostile</a>
+</li>
+<li>_chroms
+: <a class="el" href="da/de3/a00856.php#ac4bfe0772fac9025654c268c48e6c9b8">mcd::natural::Cell</a>
 </li>
 <li>_datas
-: <a class="el" href="d0/d56/a01014.php#a10c9de3e658fbb92d833727fb85bdf7b">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="d8/d79/a01036.php#a10c9de3e658fbb92d833727fb85bdf7b">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>_direction
-: <a class="el" href="d5/d12/a00794.php#ad738ce8411210b52087a19fe33ae1174">mcd::Animal</a>
+: <a class="el" href="d1/dd1/a00804.php#ad738ce8411210b52087a19fe33ae1174">mcd::Animal</a>
 </li>
 <li>_end
-: <a class="el" href="d4/d56/a01042.php#a6f42595f214b1d2328d40c7fcf371626">mcd::Pathfinding</a>
+: <a class="el" href="d9/db3/a01064.php#a6f42595f214b1d2328d40c7fcf371626">mcd::Pathfinding</a>
 </li>
 <li>_experience
-: <a class="el" href="d0/dfb/a01066.php#ae561b7817c64610317799205afa306cd">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="da/db7/a01088.php#ae561b7817c64610317799205afa306cd">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_experienceMax
-: <a class="el" href="d0/dfb/a01066.php#a3800d1590d75f762d41be6349556707d">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="da/db7/a01088.php#a3800d1590d75f762d41be6349556707d">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+</li>
+<li>_genes1
+: <a class="el" href="de/d62/a00924.php#aee71a70b3b97fb62b45ca9ea7d8d8323">mcd::natural::Chromosome</a>
+</li>
+<li>_genes2
+: <a class="el" href="de/d62/a00924.php#a2168f1db30d1641c1c1370f4ded14495">mcd::natural::Chromosome</a>
 </li>
 <li>_her
-: <a class="el" href="dd/df1/a01082.php#a3aadcf63bff72dd8c87f4c1d7a3bd240">mcd::Referenced&lt; C &gt;</a>
+: <a class="el" href="dd/dcb/a01104.php#a3aadcf63bff72dd8c87f4c1d7a3bd240">mcd::Referenced&lt; C &gt;</a>
 </li>
 <li>_i
-: <a class="el" href="d0/d56/a01014.php#af6166e983f492c3395e82688e1d20dd0">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="d8/d79/a01036.php#af6166e983f492c3395e82688e1d20dd0">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>_id
-: <a class="el" href="dd/d7a/a00990.php#a6920412818f4d8a4478771fb767a2d07">mcd::Identifier</a>
+: <a class="el" href="d4/d45/a01012.php#a6920412818f4d8a4478771fb767a2d07">mcd::Identifier</a>
 </li>
 <li>_init
-: <a class="el" href="d0/dfb/a01066.php#abffa7d0ae3461370c932f0732367c93b">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="da/db7/a01088.php#abffa7d0ae3461370c932f0732367c93b">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_j
-: <a class="el" href="d0/d56/a01014.php#aa10d441b574ef731f3fb4416761ed8da">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="d8/d79/a01036.php#aa10d441b574ef731f3fb4416761ed8da">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>_losted
-: <a class="el" href="d0/dfb/a01066.php#aee72e21c73d5bbf23c831514cd6cd58b">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="da/db7/a01088.php#aee72e21c73d5bbf23c831514cd6cd58b">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_mail
-: <a class="el" href="d0/dfb/a01066.php#ad9199142db686c7745b21429e7061823">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="da/db7/a01088.php#ad9199142db686c7745b21429e7061823">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_movedD
-: <a class="el" href="d5/d12/a00794.php#a61f0ec7f0ddd1dd99f6b70f7dd9ecd99">mcd::Animal</a>
+: <a class="el" href="d1/dd1/a00804.php#a61f0ec7f0ddd1dd99f6b70f7dd9ecd99">mcd::Animal</a>
 </li>
 <li>_movedL
-: <a class="el" href="d5/d12/a00794.php#a5582322e9815c00b7ba2beb207511da7">mcd::Animal</a>
+: <a class="el" href="d1/dd1/a00804.php#a5582322e9815c00b7ba2beb207511da7">mcd::Animal</a>
 </li>
 <li>_movedR
-: <a class="el" href="d5/d12/a00794.php#add7fc2f540722616fe6602f99bdbc707">mcd::Animal</a>
+: <a class="el" href="d1/dd1/a00804.php#add7fc2f540722616fe6602f99bdbc707">mcd::Animal</a>
 </li>
 <li>_movedU
-: <a class="el" href="d5/d12/a00794.php#a3c7bf911d2153e0febeb1120e7e7e59f">mcd::Animal</a>
+: <a class="el" href="d1/dd1/a00804.php#a3c7bf911d2153e0febeb1120e7e7e59f">mcd::Animal</a>
 </li>
 <li>_mutex
-: <a class="el" href="d5/d17/a01098.php#a77d662da66e59d43579e7490d24d72b8">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="dc/d51/a01120.php#a77d662da66e59d43579e7490d24d72b8">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>_obstacle
-: <a class="el" href="d5/d12/a00794.php#aed641e2a02463c0de7e70dd58d9d9650">mcd::Animal</a>
+: <a class="el" href="d1/dd1/a00804.php#aed641e2a02463c0de7e70dd58d9d9650">mcd::Animal</a>
 </li>
 <li>_password
-: <a class="el" href="dd/d7a/a00990.php#a95d479399de1b046aff00e83210b67ea">mcd::Identifier</a>
+: <a class="el" href="d4/d45/a01012.php#a95d479399de1b046aff00e83210b67ea">mcd::Identifier</a>
 </li>
 <li>_path
-: <a class="el" href="d4/d56/a01042.php#afa7ec4aec9e8ed4aba2c3110ca86273f">mcd::Pathfinding</a>
+: <a class="el" href="d9/db3/a01064.php#afa7ec4aec9e8ed4aba2c3110ca86273f">mcd::Pathfinding</a>
 </li>
 <li>_paused
-: <a class="el" href="d0/dfb/a01066.php#a005074efa352510f2dc316404195946c">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="da/db7/a01088.php#a005074efa352510f2dc316404195946c">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_problem
-: <a class="el" href="d4/d56/a01042.php#a8432f285b7015512efbe0a9a47bc76d7">mcd::Pathfinding</a>
+: <a class="el" href="d9/db3/a01064.php#a8432f285b7015512efbe0a9a47bc76d7">mcd::Pathfinding</a>
 </li>
 <li>_start
-: <a class="el" href="d4/d56/a01042.php#a6fc13e2aa513059f91865021b9b13eed">mcd::Pathfinding</a>
+: <a class="el" href="d9/db3/a01064.php#a6fc13e2aa513059f91865021b9b13eed">mcd::Pathfinding</a>
 </li>
 <li>_target
-: <a class="el" href="d3/d7b/a00986.php#aa074a05a487d5eb2f39895bc1fdeabe8">mcd::Hostile</a>
+: <a class="el" href="dd/dac/a01008.php#aa074a05a487d5eb2f39895bc1fdeabe8">mcd::Hostile</a>
 </li>
 <li>_username
-: <a class="el" href="dd/d7a/a00990.php#a4a002c57b507ef0c744135eacfb82b6f">mcd::Identifier</a>
+: <a class="el" href="d4/d45/a01012.php#a4a002c57b507ef0c744135eacfb82b6f">mcd::Identifier</a>
 </li>
 </ul>
 </div><!-- contents -->

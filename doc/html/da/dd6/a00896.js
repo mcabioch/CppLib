@@ -1,4 +1,6 @@
 var a00896 =
 [
-    [ "value", "da/dd6/a00896.php#aba4751c5acee27e01be8c2b8abc0888b", null ]
+    [ "has_ostream_operator", "da/dd6/a00896.php#a62ae1424b1e158747fdc66486da0f519", null ],
+    [ "~has_ostream_operator", "da/dd6/a00896.php#a46e086e27236a65d185a87b1d20b4139", null ],
+    [ "value", "da/dd6/a00896.php#ad1cf88abd079ce2df64d1d4f8e256a8a", null ]
 ];

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:49 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,25 +90,26 @@ $(document).ready(function(){initNavTree('db/d20/a00980.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Hostile Member List</div>  </div>
+<div class="title">mcd::RSA Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../db/d20/a00980.php">mcd::Hostile</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../db/d20/a00980.php">mcd::RSA</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d20/a00980.php#a56083f800ece1bfc951d64ed36c4b8c6">_attacked</a></td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d20/a00980.php#ac1aefccd5c541096961543779115d396">_attackedSpec</a></td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d20/a00980.php#aa074a05a487d5eb2f39895bc1fdeabe8">_target</a></td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d20/a00980.php#a7443b49cf0f2564e4209b3ae6867b5cc">attack</a>(Entity *target=nullptr)=0</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d20/a00980.php#a6301018ead1f9778a74dc6d4b8e1daff">getStrength</a>() const</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d20/a00980.php#a13299f1f64259b76ddf0a43dd97a4864">getTarget</a>() const</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d20/a00980.php#a08a1386aff1a9289823113ef90c14927">Hostile</a>()</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::Hostile</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d20/a00980.php#afbaa53140e5e1bf40606e4ff3d4a947d">hurt</a>(Entity *target=nullptr)</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::Hostile</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d20/a00980.php#aec10db200677dfaecd711eb03cd0baee">printInfos</a>(std::ostream &amp;stream) const</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d20/a00980.php#a8de9dffab818f0e4f742bb9709ee86c7">setStrength</a>(double64_t strength)</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d20/a00980.php#ab809b87f0624b1ca1a6178a74ae32684">setTarget</a>(Entity *target)</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d20/a00980.php#a3e31fc96bd37fc2a8811ecfe600c62a0">untarget</a>()</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d20/a00980.php#a15a43b724736b8e509e9767231d3c8c6">~Hostile</a>()</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d20/a00980.php#ad080bbc2c65c9690f38fa376ca65a985">crypt</a>(const std::string &amp;message) override</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::RSA</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d17/a00964.php#a3f598383428868a9f69502e5de031ea5">Crypto</a>()</td><td class="entry"><a class="el" href="../../da/d17/a00964.php">mcd::Crypto</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d20/a00980.php#ad831bd26ceeff7ad460bcabcad213155">decrypt</a>(const std::string &amp;message) override</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::RSA</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/d20/a00980.php#ac38c1c5dff307a8dd9ce9c00b8df8b87">getPrivate</a>() const</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::RSA</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d20/a00980.php#a7fdf2f24700983208b6bfab8df8ef911">getPublic</a>() const</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::RSA</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/ddd/a01044.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a>()</td><td class="entry"><a class="el" href="../../d0/ddd/a01044.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d20/a00980.php#a41496cdf1557d2e3dda4d0f414738af5">privateK</a></td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::RSA</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/d20/a00980.php#ae37f658e3ba447726e0a0abd0f1ac5c8">publicK</a></td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::RSA</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d20/a00980.php#a022907735103df44ce25774a289cede1">RSA</a>()</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::RSA</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/d20/a00980.php#aa9cb76b3198a8127bc0c771e3eb70b2d">setPrivate</a>(const std::string &amp;key=&quot;&quot;)</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::RSA</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d20/a00980.php#a4fcb230195d7b3fb73b8f62488dcc2e5">setPublic</a>(const std::string &amp;key=&quot;&quot;)</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::RSA</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/d17/a00964.php#a16276f74e2eac6b2174d06361791f056">~Crypto</a>()</td><td class="entry"><a class="el" href="../../da/d17/a00964.php">mcd::Crypto</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/ddd/a01044.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a>()</td><td class="entry"><a class="el" href="../../d0/ddd/a01044.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/d20/a00980.php#a9d09972656fd75b2377a173a30692db6">~RSA</a>()</td><td class="entry"><a class="el" href="../../db/d20/a00980.php">mcd::RSA</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

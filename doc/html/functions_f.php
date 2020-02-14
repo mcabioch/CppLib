@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Jan 7 2020 14:03:44 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,29 +93,35 @@ $(document).ready(function(){initNavTree('functions_f.php','');});
 
 <h3><a id="index_f"></a>- f -</h3><ul>
 <li>failures()
-: <a class="el" href="d6/dea/a01094.php#a507900718727225ac3c0653480b2c48c">mcd::Test</a>
+: <a class="el" href="d4/dc5/a01116.php#a507900718727225ac3c0653480b2c48c">mcd::Test</a>
 </li>
 <li>Fatal
-: <a class="el" href="d9/d9a/a00998.php#a25d94050e8e7f91c7e1f02ddc2af8e95a3b0278ed2e63ab59b05883c3943c73cf">mcd::Logger</a>
+: <a class="el" href="d0/d43/a01020.php#a25d94050e8e7f91c7e1f02ddc2af8e95a3b0278ed2e63ab59b05883c3943c73cf">mcd::Logger</a>
 </li>
 <li>file
-: <a class="el" href="d6/d08/a00244.php#a8f58607a689338a0ca0d40d802468308">mcd::AssertionLocationStruct</a>
+: <a class="el" href="d0/d3e/a00253.php#a8f58607a689338a0ca0d40d802468308">mcd::AssertionLocationStruct</a>
 </li>
 <li>final()
-: <a class="el" href="d3/dca/a00954.php#a46a2f66f96d1152c972b8fc2c228db77">mcd::SHA2</a>
+: <a class="el" href="de/d4e/a00972.php#a46a2f66f96d1152c972b8fc2c228db77">mcd::SHA2</a>
 </li>
 <li>find()
-: <a class="el" href="d6/d40/a01114.php#a5f28587248a842f1ff72837a8132c00e">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d1/dae/a01136.php#a5f28587248a842f1ff72837a8132c00e">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>first
-: <a class="el" href="d6/d08/a00244.php#a1e61017acad537e5c4d69f5eedfee55b">mcd::quatuor&lt; T, U, V, W &gt;</a>
-, <a class="el" href="d6/d08/a00244.php#a487ffcf658abecf75319593df922b7bf">mcd::trio&lt; T, U, V &gt;</a>
+: <a class="el" href="d0/d3e/a00253.php#a1e61017acad537e5c4d69f5eedfee55b">mcd::quatuor&lt; T, U, V, W &gt;</a>
+, <a class="el" href="d0/d3e/a00253.php#a487ffcf658abecf75319593df922b7bf">mcd::trio&lt; T, U, V &gt;</a>
+</li>
+<li>FLOAT
+: <a class="el" href="df/dbc/a01004.php#a29dd9b8ac897a110f7047c2912ebd2e0ae7b17b5d887f18544b1ca0f51244e8c4">mcd::natural::Gene</a>
+</li>
+<li>FloatAccuracy
+: <a class="el" href="df/dbc/a01004.php#a956e43802a33c93c589c52568f12f6d1">mcd::natural::Gene</a>
 </li>
 <li>Fraction()
-: <a class="el" href="d1/d7a/a00982.php#a9397e2e1fbfba88c48928e5135925f8d">mcd::Fraction</a>
+: <a class="el" href="d7/df2/a01000.php#a9397e2e1fbfba88c48928e5135925f8d">mcd::Fraction</a>
 </li>
 <li>func
-: <a class="el" href="d6/d08/a00244.php#a007715350c75937aa1c04307d3caf8e9">mcd::AssertionLocationStruct</a>
+: <a class="el" href="d0/d3e/a00253.php#a007715350c75937aa1c04307d3caf8e9">mcd::AssertionLocationStruct</a>
 </li>
 </ul>
 </div><!-- contents -->

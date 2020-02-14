@@ -1,16 +1,17 @@
 var a01120 =
 [
-    [ "vector", "dc/d51/a01120.php#a92e814868c4f4b6f3d0969b200b35c91", null ],
-    [ "vector", "dc/d51/a01120.php#aea718ab247c60108c5dd591905174a95", null ],
-    [ "operator &", "dc/d51/a01120.php#a638a7edb18434ca9a2fa3be7e1d3563b", null ],
-    [ "operator &=", "dc/d51/a01120.php#a293c997b273243004c9a48fd08192db2", null ],
-    [ "operator+", "dc/d51/a01120.php#a0c894bc8e77be926b9b7f523c1896071", null ],
-    [ "operator+=", "dc/d51/a01120.php#a22f0f6977e9536afb53ed230b2cc8504", null ],
-    [ "operator-", "dc/d51/a01120.php#a7928c471316360bf63b686c77b482e91", null ],
-    [ "operator-=", "dc/d51/a01120.php#af14811b70c776b7c486e467ebb04a565", null ],
-    [ "operator^", "dc/d51/a01120.php#aceb6871a031f6bdb9adeb291238a2f1e", null ],
-    [ "operator^=", "dc/d51/a01120.php#ae2e81b3836365353b10040331247a870", null ],
-    [ "operator|", "dc/d51/a01120.php#a4eacfc54e3bd159d746ebf2eefacc0a5", null ],
-    [ "operator|=", "dc/d51/a01120.php#abc0583222abd8957c4a8502b7ba9272e", null ],
-    [ "pop", "dc/d51/a01120.php#a58c2e9df00704c786bfcfcca5a383a0e", null ]
+    [ "Threadable", "dc/d51/a01120.php#a04bdb4a894312f6671680c2f103b8a63", null ],
+    [ "Threadable", "dc/d51/a01120.php#a29db3ebe9dfbf77bc04967565c0dcf6e", null ],
+    [ "Threadable", "dc/d51/a01120.php#a4cbceb43796de6c36a5cd4f35a6402cb", null ],
+    [ "~Threadable", "dc/d51/a01120.php#aab98cd8e5cd8832dfd6e82c17d1a689d", null ],
+    [ "hasToStop", "dc/d51/a01120.php#a804393d97a319c38afa593072bd0ead9", null ],
+    [ "inUse", "dc/d51/a01120.php#af6a411164d64b1b04b731f29d54e016a", null ],
+    [ "launch", "dc/d51/a01120.php#a1eb0985252b04c90761f92432ef4216d", null ],
+    [ "launched", "dc/d51/a01120.php#a156911948e5f5d2d5eeb0922ee3bd86d", null ],
+    [ "notInUse", "dc/d51/a01120.php#a0b2419ec1119f28dc2440e202f0d2c8e", null ],
+    [ "operator=", "dc/d51/a01120.php#aede63b72f054d20e35d22153af8313c8", null ],
+    [ "operator=", "dc/d51/a01120.php#ab51cdb23e70b6ab97afb529098eb20c0", null ],
+    [ "stop", "dc/d51/a01120.php#a4dd37d54456e167f8b42d30be7076939", null ],
+    [ "_mutex", "dc/d51/a01120.php#a77d662da66e59d43579e7490d24d72b8", null ],
+    [ "sleeper", "dc/d51/a01120.php#a0351657024f3b0d37b54c08a09a156fa", null ]
 ];

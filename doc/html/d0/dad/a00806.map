@@ -1,3 +1,6 @@
-<map id="mcd::queue&lt; T, Container &gt;" name="mcd::queue&lt; T, Container &gt;">
-<area shape="rect" id="node2" title="STL class. " alt="" coords="9,95,188,121"/>
+<map id="mcd::Ant" name="mcd::Ant">
+<area shape="rect" id="node2" href="$d1/dd1/a00804.php" title="An animal. " alt="" coords="78,155,173,181"/>
+<area shape="rect" id="node3" href="$d3/daa/a00996.php" title="An entity. " alt="" coords="22,80,111,107"/>
+<area shape="rect" id="node4" href="$dd/d11/a00960.php" title="A contraption. " alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node5" href="$dd/dac/a01008.php" title="A class to derivate from when the thing can attack. " alt="" coords="136,80,232,107"/>
 </map>

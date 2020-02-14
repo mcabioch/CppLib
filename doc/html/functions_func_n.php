@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Jan 7 2020 14:03:44 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,26 +92,29 @@ $(document).ready(function(){initNavTree('functions_func_n.php','');});
 &#160;
 
 <h3><a id="index_n"></a>- n -</h3><ul>
+<li>Name()
+: <a class="el" href="df/dbc/a01004.php#ae75e8789e328d8ffa258b201849d6a44">mcd::natural::Gene</a>
+</li>
 <li>nb()
-: <a class="el" href="d6/dea/a01094.php#a58c6bc9145b1fbe2a22178c720661317">mcd::Test</a>
+: <a class="el" href="d4/dc5/a01116.php#a58c6bc9145b1fbe2a22178c720661317">mcd::Test</a>
 </li>
 <li>next()
-: <a class="el" href="d4/dbc/a01038.php#ac24764eca1f5c6a54322d4a19d4ac68f">mcd::Path</a>
+: <a class="el" href="d5/d16/a01060.php#ac24764eca1f5c6a54322d4a19d4ac68f">mcd::Path</a>
 </li>
 <li>NotCopyable()
-: <a class="el" href="d1/dd8/a01022.php#aa40da048522b578e9c2cc9f73c1a0d92">mcd::NotCopyable</a>
-</li>
-<li>notInstantiable()
-: <a class="el" href="de/d02/a01026.php#a19c59f78b217426061641970c9f11022">mcd::NotInstantiable</a>
+: <a class="el" href="d0/ddd/a01044.php#aa40da048522b578e9c2cc9f73c1a0d92">mcd::NotCopyable</a>
 </li>
 <li>NotInstantiable()
-: <a class="el" href="de/d02/a01026.php#a760ca4c32c24cf2b4c4c2ef07b51f997">mcd::NotInstantiable</a>
+: <a class="el" href="d5/de7/a01048.php#a760ca4c32c24cf2b4c4c2ef07b51f997">mcd::NotInstantiable</a>
+</li>
+<li>notInstantiable()
+: <a class="el" href="d5/de7/a01048.php#a19c59f78b217426061641970c9f11022">mcd::NotInstantiable</a>
 </li>
 <li>notInUse()
-: <a class="el" href="d5/d17/a01098.php#a0b2419ec1119f28dc2440e202f0d2c8e">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="dc/d51/a01120.php#a0b2419ec1119f28dc2440e202f0d2c8e">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>numerator()
-: <a class="el" href="d1/d7a/a00982.php#a17e4466c06be8e1bff20fe204d4ff110">mcd::Fraction</a>
+: <a class="el" href="d7/df2/a01000.php#a17e4466c06be8e1bff20fe204d4ff110">mcd::Fraction</a>
 </li>
 </ul>
 </div><!-- contents -->

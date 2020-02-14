@@ -1,15 +1,13 @@
 var a01116 =
 [
-    [ "bot", "d4/dc5/a01116.php#a2beb84069e438adcccfa4b6ed9794c0c", null ],
-    [ "left", "d4/dc5/a01116.php#a91941563ecc020a510832ba8869e5ded", null ],
-    [ "operator=", "d4/dc5/a01116.php#a6ebbd086a808f7fb8bd49bda00b8df12", null ],
-    [ "operator=", "d4/dc5/a01116.php#a220f83e0ebfaa9b2884530cfcac6f6df", null ],
-    [ "right", "d4/dc5/a01116.php#a613a9be49ee0cbe55e10e75db1d59faa", null ],
-    [ "top", "d4/dc5/a01116.php#afd57961d22ce89d783303c0fbbdc4f83", null ],
-    [ "operator!=", "d4/dc5/a01116.php#a6bea9cfb4049115f767ed658959d6648", null ],
-    [ "operator<<", "d4/dc5/a01116.php#a55681886ec7c5d7c0210fa0611bc84ea", null ],
-    [ "operator==", "d4/dc5/a01116.php#a177528c8a1eee37fcda25a89084b8ed6", null ],
-    [ "x", "d4/dc5/a01116.php#a924c77d36867a18d5a52767ff246ebfc", null ],
-    [ "y", "d4/dc5/a01116.php#ab339ac0efa2259051dc1ac0637d2c9a8", null ],
-    [ "z", "d4/dc5/a01116.php#a010288cb5febefa70329d35a726c7291", null ]
+    [ "addSuite", "d4/dc5/a01116.php#a39a0672f4d385729466b606f8e83365e", null ],
+    [ "addTest", "d4/dc5/a01116.php#afa2e1c8e4225517a259eb6e9e96bf480", null ],
+    [ "addThrow", "d4/dc5/a01116.php#a24b9749eacbe2b03325b920e7622f39d", null ],
+    [ "failures", "d4/dc5/a01116.php#a507900718727225ac3c0653480b2c48c", null ],
+    [ "in", "d4/dc5/a01116.php#a0039d201bb954bcf7abd3882a72a4aba", null ],
+    [ "instance", "d4/dc5/a01116.php#a004909fc39f24bd39f2466083d105ffe", null ],
+    [ "nb", "d4/dc5/a01116.php#a58c6bc9145b1fbe2a22178c720661317", null ],
+    [ "print", "d4/dc5/a01116.php#a340ac80d0474d71a18df38abbc25c10f", null ],
+    [ "run", "d4/dc5/a01116.php#ad9b4d5f1877fd888ee1d6812d487fb5b", null ],
+    [ "success", "d4/dc5/a01116.php#a290862a332ef3120dafc5debf9f55b91", null ]
 ];

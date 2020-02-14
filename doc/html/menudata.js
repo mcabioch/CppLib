@@ -43,6 +43,7 @@ var menudata={children:[
 {text:"s",url:"namespacemembers_func.php#index_s"},
 {text:"t",url:"namespacemembers_func.php#index_t"},
 {text:"u",url:"namespacemembers_func.php#index_u"},
+{text:"v",url:"namespacemembers_func.php#index_v"},
 {text:"w",url:"namespacemembers_func.php#index_w"},
 {text:"y",url:"namespacemembers_func.php#index_y"}]},
 {text:"Variables",url:"namespacemembers_vars.php"},

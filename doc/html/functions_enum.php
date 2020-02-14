@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Jan 7 2020 14:03:44 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,11 +90,14 @@ $(document).ready(function(){initNavTree('functions_enum.php','');});
 
 <div class="contents">
 &#160;<ul>
+<li>GeneType
+: <a class="el" href="df/dbc/a01004.php#a29dd9b8ac897a110f7047c2912ebd2e0">mcd::natural::Gene</a>
+</li>
 <li>Level
-: <a class="el" href="d9/d9a/a00998.php#a25d94050e8e7f91c7e1f02ddc2af8e95">mcd::Logger</a>
+: <a class="el" href="d0/d43/a01020.php#a25d94050e8e7f91c7e1f02ddc2af8e95">mcd::Logger</a>
 </li>
 <li>PathfindingErrorCode
-: <a class="el" href="d9/d8e/a01050.php#a699cc4df8cc94d467e7372072d230b58">mcd::PathfindingException</a>
+: <a class="el" href="d6/d6a/a01072.php#a699cc4df8cc94d467e7372072d230b58">mcd::PathfindingException</a>
 </li>
 </ul>
 </div><!-- contents -->

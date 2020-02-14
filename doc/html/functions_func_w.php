@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Jan 7 2020 14:03:44 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,11 +93,11 @@ $(document).ready(function(){initNavTree('functions_func_w.php','');});
 
 <h3><a id="index_w"></a>- w -</h3><ul>
 <li>weekDay()
-: <a class="el" href="d2/d6e/a00966.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
+: <a class="el" href="d2/d4c/a00984.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
 </li>
 <li>what()
-: <a class="el" href="d9/daf/a00830.php#a25b7e738127f0f021283bf2f2b9bc9fa">mcd::AssertionException</a>
-, <a class="el" href="d9/d8e/a01050.php#a92a9aea3e0fc189dc0c17a78ffa68bdf">mcd::PathfindingException</a>
+: <a class="el" href="d9/d61/a00840.php#a25b7e738127f0f021283bf2f2b9bc9fa">mcd::AssertionException</a>
+, <a class="el" href="d6/d6a/a01072.php#a92a9aea3e0fc189dc0c17a78ffa68bdf">mcd::PathfindingException</a>
 </li>
 </ul>
 </div><!-- contents -->

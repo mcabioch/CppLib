@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:50 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,14 +90,14 @@ $(document).ready(function(){initNavTree('de/def/a01016.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::NotCopyable Member List</div>  </div>
+<div class="title">mcd::IOConfig Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/def/a01016.php">mcd::NotCopyable</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../de/def/a01016.php">mcd::IOConfig</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../de/def/a01016.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a>()</td><td class="entry"><a class="el" href="../../de/def/a01016.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/def/a01016.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a>()</td><td class="entry"><a class="el" href="../../de/def/a01016.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/def/a01016.php#a8638a62e7967b56a444ee42d3ea55878">IOConfig</a>()</td><td class="entry"><a class="el" href="../../de/def/a01016.php">mcd::IOConfig</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/def/a01016.php#ad6a34fca3d338ef0498db6353ac5ece6">~IOConfig</a>()</td><td class="entry"><a class="el" href="../../de/def/a01016.php">mcd::IOConfig</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

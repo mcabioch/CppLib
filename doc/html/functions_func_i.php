@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Jan 7 2020 14:03:44 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,61 +93,61 @@ $(document).ready(function(){initNavTree('functions_func_i.php','');});
 
 <h3><a id="index_i"></a>- i -</h3><ul>
 <li>i()
-: <a class="el" href="d0/d56/a01014.php#a9823b15f6575c9007b734e505ea772b5">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="d8/d79/a01036.php#a9823b15f6575c9007b734e505ea772b5">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>Identifier()
-: <a class="el" href="dd/d7a/a00990.php#a1496891d2323d1023ebfd086b84faf8d">mcd::Identifier</a>
+: <a class="el" href="d4/d45/a01012.php#a1496891d2323d1023ebfd086b84faf8d">mcd::Identifier</a>
 </li>
 <li>in()
-: <a class="el" href="d6/dea/a01094.php#a0039d201bb954bcf7abd3882a72a4aba">mcd::Test</a>
+: <a class="el" href="d4/dc5/a01116.php#a0039d201bb954bcf7abd3882a72a4aba">mcd::Test</a>
 </li>
 <li>init()
-: <a class="el" href="d2/d6e/a00966.php#a17a08ca52b3ec69d178a997c07a5ca1c">mcd::Date</a>
-, <a class="el" href="d9/d9a/a00998.php#ab549f25e73c47afaff922b59cda6ccc4">mcd::Logger</a>
-, <a class="el" href="d4/da7/a01102.php#a3e19605ece31340f27255a79beb193d4">mcd::Time</a>
+: <a class="el" href="d2/d4c/a00984.php#a17a08ca52b3ec69d178a997c07a5ca1c">mcd::Date</a>
+, <a class="el" href="d0/d43/a01020.php#ab549f25e73c47afaff922b59cda6ccc4">mcd::Logger</a>
+, <a class="el" href="d0/dc8/a01124.php#a3e19605ece31340f27255a79beb193d4">mcd::Time</a>
 </li>
 <li>insert()
-: <a class="el" href="d6/d40/a01114.php#a53cd621cced254067f1ebac4e2abe8df">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d1/dae/a01136.php#a53cd621cced254067f1ebac4e2abe8df">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>instance()
-: <a class="el" href="d6/dea/a01094.php#a004909fc39f24bd39f2466083d105ffe">mcd::Test</a>
+: <a class="el" href="d4/dc5/a01116.php#a004909fc39f24bd39f2466083d105ffe">mcd::Test</a>
 </li>
 <li>inUse()
-: <a class="el" href="d5/d17/a01098.php#af6a411164d64b1b04b731f29d54e016a">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="dc/d51/a01120.php#af6a411164d64b1b04b731f29d54e016a">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>inverted()
-: <a class="el" href="d0/d56/a01014.php#af0390771523fc535079faa2a7b7c29ce">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="d8/d79/a01036.php#af0390771523fc535079faa2a7b7c29ce">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>IOConfig()
-: <a class="el" href="d4/dd0/a00994.php#a8638a62e7967b56a444ee42d3ea55878">mcd::IOConfig</a>
+: <a class="el" href="de/def/a01016.php#a8638a62e7967b56a444ee42d3ea55878">mcd::IOConfig</a>
 </li>
 <li>isEnabled()
-: <a class="el" href="d9/d9a/a00998.php#a365030ec32e6af40c6c53a53ff5163f4">mcd::Logger</a>
+: <a class="el" href="d0/d43/a01020.php#a365030ec32e6af40c6c53a53ff5163f4">mcd::Logger</a>
 </li>
 <li>isFree()
-: <a class="el" href="d0/d2b/a01010.php#a1784239c1be09cc3c9a7a4652292149d">mcd::Map</a>
+: <a class="el" href="df/d89/a01032.php#a1784239c1be09cc3c9a7a4652292149d">mcd::Map</a>
 </li>
 <li>isInit()
-: <a class="el" href="d9/d9a/a00998.php#ad8527d935f1fa6c697d792a8f72276e4">mcd::Logger</a>
-, <a class="el" href="d0/dfb/a01066.php#abdb489c22b76cb09daefb8f05b2f515c">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d0/d43/a01020.php#ad8527d935f1fa6c697d792a8f72276e4">mcd::Logger</a>
+, <a class="el" href="da/db7/a01088.php#abdb489c22b76cb09daefb8f05b2f515c">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>isLost()
-: <a class="el" href="d0/dfb/a01066.php#ae441783e58a888696f8dc24f4cdfcce5">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="da/db7/a01088.php#ae441783e58a888696f8dc24f4cdfcce5">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>isOnGround()
-: <a class="el" href="d0/d2b/a01010.php#ac5e6be35eea3af084431715595c1138b">mcd::Map</a>
+: <a class="el" href="df/d89/a01032.php#ac5e6be35eea3af084431715595c1138b">mcd::Map</a>
 </li>
 <li>isPaused()
-: <a class="el" href="d0/dfb/a01066.php#a81a1ea7b3b306b10af787c353c92cc2e">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="da/db7/a01088.php#a81a1ea7b3b306b10af787c353c92cc2e">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>isSquare()
-: <a class="el" href="d0/d56/a01014.php#a3885a9068844517cbbd58cfed57eb5c4">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="d8/d79/a01036.php#a3885a9068844517cbbd58cfed57eb5c4">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>isXIn()
-: <a class="el" href="d0/d2b/a01010.php#a86d2ef9c24b540688cbfaa12d9225c35">mcd::Map</a>
+: <a class="el" href="df/d89/a01032.php#a86d2ef9c24b540688cbfaa12d9225c35">mcd::Map</a>
 </li>
 <li>isYIn()
-: <a class="el" href="d0/d2b/a01010.php#a45adc028ccfb00ef4f66225e244956fd">mcd::Map</a>
+: <a class="el" href="df/d89/a01032.php#a45adc028ccfb00ef4f66225e244956fd">mcd::Map</a>
 </li>
 </ul>
 </div><!-- contents -->

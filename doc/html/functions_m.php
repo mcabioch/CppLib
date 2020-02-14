@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Jan 7 2020 14:03:44 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,41 +93,44 @@ $(document).ready(function(){initNavTree('functions_m.php','');});
 
 <h3><a id="index_m"></a>- m -</h3><ul>
 <li>m_start
-: <a class="el" href="d4/d12/a00910.php#a9714489f034bfffabff995741d899513">mcd::Clock</a>
-, <a class="el" href="da/d4e/a01106.php#acb15fc23bdf915fbc5093d3f40996a37">mcd::Timer</a>
+: <a class="el" href="dd/d38/a00928.php#a9714489f034bfffabff995741d899513">mcd::Clock</a>
+, <a class="el" href="d9/d12/a01128.php#acb15fc23bdf915fbc5093d3f40996a37">mcd::Timer</a>
 </li>
 <li>Map()
-: <a class="el" href="d0/d2b/a01010.php#a3512d2f37cf42ca70fbeedaf6dbd179b">mcd::Map</a>
+: <a class="el" href="df/d89/a01032.php#a3512d2f37cf42ca70fbeedaf6dbd179b">mcd::Map</a>
 </li>
 <li>Matrix()
-: <a class="el" href="d0/d56/a01014.php#a222bcb9024bd8d24b105f9d6be5dd391">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="d8/d79/a01036.php#a222bcb9024bd8d24b105f9d6be5dd391">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>milli()
-: <a class="el" href="d4/da7/a01102.php#a22a7371879c50752d94338e631ab37a7">mcd::Time</a>
+: <a class="el" href="d0/dc8/a01124.php#a22a7371879c50752d94338e631ab37a7">mcd::Time</a>
 </li>
 <li>minute()
-: <a class="el" href="d4/da7/a01102.php#a56b7fdec50bc1b7f5fb991260cb18104">mcd::Time</a>
+: <a class="el" href="d0/dc8/a01124.php#a56b7fdec50bc1b7f5fb991260cb18104">mcd::Time</a>
 </li>
 <li>mod
-: <a class="el" href="d9/d02/a00834.php#a2ed0b910c5ed7ec9875836082c63baa8">mcd::Big</a>
+: <a class="el" href="d3/d69/a00844.php#a2ed0b910c5ed7ec9875836082c63baa8">mcd::Big</a>
 </li>
 <li>month()
-: <a class="el" href="d2/d6e/a00966.php#aeaf4a92c344f8b9d8b88e22cbc710013">mcd::Date</a>
+: <a class="el" href="d2/d4c/a00984.php#aeaf4a92c344f8b9d8b88e22cbc710013">mcd::Date</a>
 </li>
 <li>monthWeek()
-: <a class="el" href="d2/d6e/a00966.php#aa1b8bcad43aa4fa7f5bccf350c348bbf">mcd::Date</a>
+: <a class="el" href="d2/d4c/a00984.php#aa1b8bcad43aa4fa7f5bccf350c348bbf">mcd::Date</a>
 </li>
 <li>move()
-: <a class="el" href="d5/d12/a00794.php#a8bda2d04e74731997a8139ad620f0d92">mcd::Animal</a>
+: <a class="el" href="d1/dd1/a00804.php#a8bda2d04e74731997a8139ad620f0d92">mcd::Animal</a>
 </li>
 <li>moveEntity()
-: <a class="el" href="d0/d2b/a01010.php#a54b56015950d08fd043e0906875519e3">mcd::Map</a>
+: <a class="el" href="df/d89/a01032.php#a54b56015950d08fd043e0906875519e3">mcd::Map</a>
 </li>
 <li>Mushroom()
-: <a class="el" href="d3/d08/a01018.php#aa3f3f1ad0542e087b039ce1586c0c907">mcd::Mushroom</a>
+: <a class="el" href="db/d14/a01040.php#aa3f3f1ad0542e087b039ce1586c0c907">mcd::Mushroom</a>
+</li>
+<li>MutationRate
+: <a class="el" href="df/dbc/a01004.php#aea82298faeb2f83a45c7ca43558c0390">mcd::natural::Gene</a>
 </li>
 <li>MyCrypt()
-: <a class="el" href="df/d9c/a00958.php#ac618fc32b73d9bb13b07bc9db802cbef">mcd::MyCrypt</a>
+: <a class="el" href="d0/d85/a00976.php#ac618fc32b73d9bb13b07bc9db802cbef">mcd::MyCrypt</a>
 </li>
 </ul>
 </div><!-- contents -->

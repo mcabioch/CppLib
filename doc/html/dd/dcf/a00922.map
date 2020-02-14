@@ -1,4 +1,4 @@
-<map id="mcd::Cesar" name="mcd::Cesar">
-<area shape="rect" id="node2" href="$d1/d0b/a00919.php" title="A class to be the parent for every crypt class. " alt="" coords="23,80,118,107"/>
-<area shape="rect" id="node3" href="$df/d2f/a00991.php" title="A class to let some other not to be copyable. " alt="" coords="5,5,136,32"/>
+<map id="mcd::natural::Chromosome" name="mcd::natural::Chromosome">
+<area shape="rect" id="node3" href="$df/dbc/a01004.php" title="A gene that represent a caracteristic. " alt="" coords="5,95,139,121"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="163,95,279,121"/>
 </map>

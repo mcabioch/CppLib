@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:50 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,22 +90,16 @@ $(document).ready(function(){initNavTree('de/d49/a00952.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::MyCrypt Member List</div>  </div>
+<div class="title">mcd::ThreadCout Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/d49/a00952.php">mcd::MyCrypt</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../de/d49/a00952.php">mcd::ThreadCout</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d49/a00952.php#a73db8d36191071f9ca2e5fe62d75a0d0">crypt</a>(const std::string &amp;str, const std::string &amp;key)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::MyCrypt</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d49/a00952.php#aee90d618d42b9a7d9057a0bfc1f769c2">crypt</a>(const std::string &amp;str) override</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::MyCrypt</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/db6/a00940.php#a3f598383428868a9f69502e5de031ea5">Crypto</a>()</td><td class="entry"><a class="el" href="../../d7/db6/a00940.php">mcd::Crypto</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d49/a00952.php#a18850d238fad5966016ef020c05f82ce">decrypt</a>(const std::string &amp;str, const std::string &amp;key)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::MyCrypt</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d49/a00952.php#ac1f14b79c663f1347bef0d7ba017449d">decrypt</a>(const std::string &amp;str) override</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::MyCrypt</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d49/a00952.php#ac618fc32b73d9bb13b07bc9db802cbef">MyCrypt</a>()</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::MyCrypt</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/def/a01016.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a>()</td><td class="entry"><a class="el" href="../../de/def/a01016.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/db6/a00940.php#a16276f74e2eac6b2174d06361791f056">~Crypto</a>()</td><td class="entry"><a class="el" href="../../d7/db6/a00940.php">mcd::Crypto</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d49/a00952.php#a3e5b32554500cf6843d09009fbaafbc9">~MyCrypt</a>()</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::MyCrypt</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/def/a01016.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a>()</td><td class="entry"><a class="el" href="../../de/def/a01016.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d49/a00952.php#a358d316052544257ab9aee6f1fe762dc">operator&lt;&lt;</a>(ThreadCout &amp;os, T obj)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d49/a00952.php#a8b27881bbb3b1a50ddf821d8ce62e4d6">operator&lt;&lt;</a>(ThreadCout &amp;os, ThreadEndlCout &amp;)</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d49/a00952.php#adacc9d5343e07aa8396f8b1edd92bb39">ThreadCout</a>()</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d49/a00952.php#a43b2683a0e3d46205643de53236dc4f8">~ThreadCout</a>()</td><td class="entry"><a class="el" href="../../de/d49/a00952.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

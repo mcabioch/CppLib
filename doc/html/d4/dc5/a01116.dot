@@ -1,9 +1,0 @@
-digraph "mcd::trio&lt; T, U, V &gt;"
-{
-  bgcolor="transparent";
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node17 [label="mcd::trio\< T, U, V \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node18 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" first" ,fontname="Helvetica"];
-  Node18 [label="T",height=0.2,width=0.4,color="grey75"];
-}

@@ -1,6 +1,29 @@
 var a00996 =
 [
-    [ "Object", "d3/daa/a00996.php#ad332f3a57527a6ede1be2e18b65615a5", null ],
-    [ "~Object", "d3/daa/a00996.php#a400f71c448a89abecda88ba70ab5029f", null ],
-    [ "printInfos", "d3/daa/a00996.php#aaae968dcea4a9aa8a530dc95b24848d0", null ]
+    [ "Entity", "d3/daa/a00996.php#a5b9f9a89a85d2c396e5556ad468131fa", null ],
+    [ "~Entity", "d3/daa/a00996.php#a0b92a99013b871922ff61e0e4eccb4a5", null ],
+    [ "getAge", "d3/daa/a00996.php#adc41605613a8d9420f9e9b7d5d1693c9", null ],
+    [ "getDamages", "d3/daa/a00996.php#a7bf4a1bb07d7a688bd2ea4c446aa6070", null ],
+    [ "getLife", "d3/daa/a00996.php#a90c6ecc6d1eb5f75555d350061e45851", null ],
+    [ "getLifeMax", "d3/daa/a00996.php#adbc4c4d4900f96af54a931cedf1d4c7b", null ],
+    [ "getReborn", "d3/daa/a00996.php#ad15b39d3c89a220d3a612bf7bcc8e3a9", null ],
+    [ "getRegen", "d3/daa/a00996.php#a89b212594457755f67a4cb98f8c1218b", null ],
+    [ "getResistance", "d3/daa/a00996.php#af381c01c6bea9908472377489ad6b4c0", null ],
+    [ "getTimeActReborn", "d3/daa/a00996.php#abca030f9d81cbba5aa08ac6c55aaf06b", null ],
+    [ "getTimeActRegen", "d3/daa/a00996.php#acf9d27e7d1cb3d983f407905e95bcc43", null ],
+    [ "getTimePrecReborn", "d3/daa/a00996.php#a88b90ea88f999bc11a2e07fdf1de1020", null ],
+    [ "getTimePrecRegen", "d3/daa/a00996.php#a5ad008ea31a40fad735680b4bdfb249e", null ],
+    [ "grow", "d3/daa/a00996.php#a4cae69f657ab66bdcc7b78accbb836a9", null ],
+    [ "hit", "d3/daa/a00996.php#a8022eec71c62bbc06651cf7607d3824a", null ],
+    [ "printInfos", "d3/daa/a00996.php#a76cee6abf0facaffdca9b893634578dd", null ],
+    [ "setAge", "d3/daa/a00996.php#ac84c283da82f389088715485d2fc57d1", null ],
+    [ "setDamages", "d3/daa/a00996.php#a4eac4847127344d9d2feb09176e2950c", null ],
+    [ "setLife", "d3/daa/a00996.php#afbdb1bf0f0dfd91f0217c88b08d94535", null ],
+    [ "setReborn", "d3/daa/a00996.php#abbd3e759ad9df66ce4f004a32066a941", null ],
+    [ "setRegen", "d3/daa/a00996.php#a45870e9b434c8b35a8181675cde66055", null ],
+    [ "setResistance", "d3/daa/a00996.php#a34dec699e223f0bb8b8e3dc044828bec", null ],
+    [ "setTimeActReborn", "d3/daa/a00996.php#a71ddff3d4384ed0528fad59c64c007e7", null ],
+    [ "setTimeActRegen", "d3/daa/a00996.php#ac79b1837862d7a98130ce020023445fa", null ],
+    [ "setTimePrecReborn", "d3/daa/a00996.php#a85f16baaef599076976b034d31ac7fec", null ],
+    [ "setTimePrecRegen", "d3/daa/a00996.php#a5d8126cf2cf5f72e8a58f1e97071806f", null ]
 ];

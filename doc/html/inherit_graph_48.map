@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title="STL class. " alt="" coords="5,5,117,32"/>
-<area shape="rect" id="node2" href="$d0/dad/a00806.php" title="An implementation of std::stack. " alt="" coords="165,5,348,32"/>
-<area shape="rect" id="node3" href="$d4/dfd/a00810.php" title="An thread&#45;safe implementation of stack. " alt="" coords="396,5,591,32"/>
+<area shape="rect" id="node1" title="STL class. " alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node2" href="$d8/d1c/a00824.php" title="An implementation of std::queue. " alt="" coords="168,5,355,32"/>
+<area shape="rect" id="node3" href="$d8/d64/a00828.php" title="An thread&#45;safe implementation of queue. " alt="" coords="403,5,600,32"/>
 </map>

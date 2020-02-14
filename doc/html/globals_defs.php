@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Jan 7 2020 14:03:44 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('globals_defs.php','');});
 
 <h3><a id="index_a"></a>- a -</h3><ul>
 <li>ALIAS_TEMPLATE_FUNCTION
-: <a class="el" href="d4/d3e/a00116.php#a4a9a280c3a601b98a7d1694f622a269c">macro.hpp</a>
+: <a class="el" href="dc/dfe/a00125.php#a4a9a280c3a601b98a7d1694f622a269c">macro.hpp</a>
 </li>
 <li>assert
 : <a class="el" href="d4/d51/a00017.php#a5b1dafe65f1b0085675cf1fffe12b53e">Assert.hpp</a>
@@ -113,121 +113,121 @@ $(document).ready(function(){initNavTree('globals_defs.php','');});
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>COMMA
-: <a class="el" href="d1/da8/a00230.php#aa2f49001be13949a16a57e6c99ab00ad">UsefullDefines.hpp</a>
+: <a class="el" href="d0/d27/a00239.php#aa2f49001be13949a16a57e6c99ab00ad">UsefullDefines.hpp</a>
 </li>
 </ul>
 
 
 <h3><a id="index_d"></a>- d -</h3><ul>
 <li>debug_dlog
-: <a class="el" href="db/dab/a00089.php#a6743e67ef3323372193a9936858a6fb8">errors.hpp</a>
+: <a class="el" href="d9/d77/a00095.php#a6743e67ef3323372193a9936858a6fb8">errors.hpp</a>
 </li>
 <li>debug_dlogs
-: <a class="el" href="db/dab/a00089.php#a54252dbab5b5524cae2163d7c4bbf456">errors.hpp</a>
+: <a class="el" href="d9/d77/a00095.php#a54252dbab5b5524cae2163d7c4bbf456">errors.hpp</a>
 </li>
 <li>debug_elog
-: <a class="el" href="db/dab/a00089.php#abfef935e08c6c7f3d9247920b01659b1">errors.hpp</a>
+: <a class="el" href="d9/d77/a00095.php#abfef935e08c6c7f3d9247920b01659b1">errors.hpp</a>
 </li>
 <li>debug_elogs
-: <a class="el" href="db/dab/a00089.php#adadf91083b9bc12bba2cf639e5b7aa21">errors.hpp</a>
+: <a class="el" href="d9/d77/a00095.php#adadf91083b9bc12bba2cf639e5b7aa21">errors.hpp</a>
 </li>
 <li>debug_ilog
-: <a class="el" href="db/dab/a00089.php#a33a5e22684c459c3d752ddee8f5e0915">errors.hpp</a>
+: <a class="el" href="d9/d77/a00095.php#a33a5e22684c459c3d752ddee8f5e0915">errors.hpp</a>
 </li>
 <li>debug_ilogs
-: <a class="el" href="db/dab/a00089.php#a03901e920751bab486efba87b39f2707">errors.hpp</a>
+: <a class="el" href="d9/d77/a00095.php#a03901e920751bab486efba87b39f2707">errors.hpp</a>
 </li>
 <li>debug_log
-: <a class="el" href="d4/d81/a00110.php#a46d5e25a59c0c1ab0d7e8fc3812454a0">Logger.hpp</a>
+: <a class="el" href="df/d6a/a00119.php#a46d5e25a59c0c1ab0d7e8fc3812454a0">Logger.hpp</a>
 </li>
 <li>debug_logs
-: <a class="el" href="d4/d81/a00110.php#a4e44394dedcf599237302e670d0fbd30">Logger.hpp</a>
+: <a class="el" href="df/d6a/a00119.php#a4e44394dedcf599237302e670d0fbd30">Logger.hpp</a>
 </li>
 <li>debug_wlog
-: <a class="el" href="db/dab/a00089.php#acaeb75ef78e20ba74be61d159e670373">errors.hpp</a>
+: <a class="el" href="d9/d77/a00095.php#acaeb75ef78e20ba74be61d159e670373">errors.hpp</a>
 </li>
 <li>debug_wlogs
-: <a class="el" href="db/dab/a00089.php#a05518c3c201982924254d7df8cc2d910">errors.hpp</a>
+: <a class="el" href="d9/d77/a00095.php#a05518c3c201982924254d7df8cc2d910">errors.hpp</a>
 </li>
 </ul>
 
 
 <h3><a id="index_h"></a>- h -</h3><ul>
 <li>has_method
-: <a class="el" href="d5/de0/a00050.php#a92713af8c651ed158031ed7d3fd15977">check.hpp</a>
+: <a class="el" href="dc/dee/a00053.php#a92713af8c651ed158031ed7d3fd15977">check.hpp</a>
 </li>
 </ul>
 
 
 <h3><a id="index_l"></a>- l -</h3><ul>
 <li>line_number
-: <a class="el" href="db/dab/a00089.php#a08ee21f84a6b44ca59d7f045b55d6bfc">errors.hpp</a>
+: <a class="el" href="d9/d77/a00095.php#a08ee21f84a6b44ca59d7f045b55d6bfc">errors.hpp</a>
 </li>
 <li>logs
-: <a class="el" href="d4/d81/a00110.php#ae48c93288111b5c36c6e44117992a8f3">Logger.hpp</a>
+: <a class="el" href="df/d6a/a00119.php#ae48c93288111b5c36c6e44117992a8f3">Logger.hpp</a>
 </li>
 </ul>
 
 
 <h3><a id="index_m"></a>- m -</h3><ul>
 <li>MUTEX_CONST_RECREATE
-: <a class="el" href="d7/d25/a00182.php#af882b89ff60874679a5db7856d4130f2">pointers.hpp</a>
+: <a class="el" href="d9/dd0/a00191.php#af882b89ff60874679a5db7856d4130f2">pointers.hpp</a>
 </li>
 <li>MUTEX_CONST_RECREATE_ARGS
-: <a class="el" href="d7/d25/a00182.php#a37add3fecd1208aa0e5fb744bbb8b838">pointers.hpp</a>
+: <a class="el" href="d9/dd0/a00191.php#a37add3fecd1208aa0e5fb744bbb8b838">pointers.hpp</a>
 </li>
 <li>MUTEX_RECREATE
-: <a class="el" href="d7/d25/a00182.php#a6fbaf936dc811e3422bec35b026f4983">pointers.hpp</a>
+: <a class="el" href="d9/dd0/a00191.php#a6fbaf936dc811e3422bec35b026f4983">pointers.hpp</a>
 </li>
 <li>MUTEX_RECREATE_ARGS
-: <a class="el" href="d7/d25/a00182.php#a8614c85113bf4cfc4be80948688e9f5d">pointers.hpp</a>
+: <a class="el" href="d9/dd0/a00191.php#a8614c85113bf4cfc4be80948688e9f5d">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_CONST_RECREATE
-: <a class="el" href="d7/d25/a00182.php#a017296688d5943266bbe011c59365008">pointers.hpp</a>
+: <a class="el" href="d9/dd0/a00191.php#a017296688d5943266bbe011c59365008">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_CONST_RECREATE_ARGS
-: <a class="el" href="d7/d25/a00182.php#a0cbcd876925de883c4a297851fdc7b4b">pointers.hpp</a>
+: <a class="el" href="d9/dd0/a00191.php#a0cbcd876925de883c4a297851fdc7b4b">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_RECREATE
-: <a class="el" href="d7/d25/a00182.php#a1268e33dd61371fb191a2e753e76f545">pointers.hpp</a>
+: <a class="el" href="d9/dd0/a00191.php#a1268e33dd61371fb191a2e753e76f545">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_RECREATE_ARGS
-: <a class="el" href="d7/d25/a00182.php#a5664112302c26ebee5460b2fcc0a7954">pointers.hpp</a>
+: <a class="el" href="d9/dd0/a00191.php#a5664112302c26ebee5460b2fcc0a7954">pointers.hpp</a>
 </li>
 </ul>
 
 
 <h3><a id="index_o"></a>- o -</h3><ul>
 <li>OS_UNRECOGNIZE
-: <a class="el" href="d7/d9a/a00152.php#a921a8364e814a54925abcb8ba8f472bc">OsDetection.hpp</a>
+: <a class="el" href="d6/d7d/a00161.php#a921a8364e814a54925abcb8ba8f472bc">OsDetection.hpp</a>
 </li>
 </ul>
 
 
 <h3><a id="index_t"></a>- t -</h3><ul>
 <li>TEST_ADD_TEST
-: <a class="el" href="d3/de5/a00209.php#a0c07eac51a83f591603f2456250fe07e">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#a0c07eac51a83f591603f2456250fe07e">Test.hpp</a>
 </li>
 <li>TEST_ADD_THROW
-: <a class="el" href="d3/de5/a00209.php#a2035697778ce28474ce1c3ec73753b87">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#a2035697778ce28474ce1c3ec73753b87">Test.hpp</a>
 </li>
 <li>TEST_FORMAT_ALL
-: <a class="el" href="d3/de5/a00209.php#a9a8a8df987750bdc9889c32863383d31">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#a9a8a8df987750bdc9889c32863383d31">Test.hpp</a>
 </li>
 <li>TEST_FORMAT_ERROR
-: <a class="el" href="d3/de5/a00209.php#ab0c0b90cd164795a353e36bf0b8464e7">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#ab0c0b90cd164795a353e36bf0b8464e7">Test.hpp</a>
 </li>
 <li>TEST_FORMAT_MAX
-: <a class="el" href="d3/de5/a00209.php#ae6d742460878949f5eea9f395f32548f">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#ae6d742460878949f5eea9f395f32548f">Test.hpp</a>
 </li>
 <li>TEST_FORMAT_SUCCESS
-: <a class="el" href="d3/de5/a00209.php#ac709139e143e2e7ae4df9ccc578f97be">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#ac709139e143e2e7ae4df9ccc578f97be">Test.hpp</a>
 </li>
 <li>THREADABLE
-: <a class="el" href="dd/dc1/a00212.php#a09979566ade438911265d3e17ecc3abc">Threadable.hpp</a>
+: <a class="el" href="dd/d52/a00221.php#a09979566ade438911265d3e17ecc3abc">Threadable.hpp</a>
 </li>
 <li>THREADABLE_LOCK
-: <a class="el" href="dd/dc1/a00212.php#a3a0fe346d6bb1356037b21f558e5c308">Threadable.hpp</a>
+: <a class="el" href="dd/d52/a00221.php#a3a0fe346d6bb1356037b21f558e5c308">Threadable.hpp</a>
 </li>
 <li>trycatch_assert
 : <a class="el" href="d4/d51/a00017.php#a20506cf4a1f5163830310250a8d3d1ba">Assert.hpp</a>
@@ -246,34 +246,34 @@ $(document).ready(function(){initNavTree('globals_defs.php','');});
 
 <h3><a id="index_u"></a>- u -</h3><ul>
 <li>unit_equals
-: <a class="el" href="d3/de5/a00209.php#ac9544a2b3d82fbf7b0913fb29ae4ab1d">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#ac9544a2b3d82fbf7b0913fb29ae4ab1d">Test.hpp</a>
 </li>
 <li>unit_false
-: <a class="el" href="d3/de5/a00209.php#a8882f6cc17a922e91f806a24b4a6f413">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#a8882f6cc17a922e91f806a24b4a6f413">Test.hpp</a>
 </li>
 <li>unit_in
-: <a class="el" href="d3/de5/a00209.php#a31dc59c312f6beaf52e720c5a7dcc017">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#a31dc59c312f6beaf52e720c5a7dcc017">Test.hpp</a>
 </li>
 <li>unit_instance
-: <a class="el" href="d3/de5/a00209.php#a349ad27ffc89c197309d6806895c961d">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#a349ad27ffc89c197309d6806895c961d">Test.hpp</a>
 </li>
 <li>unit_notEquals
-: <a class="el" href="d3/de5/a00209.php#abe6f23e4ac49c7bcf76fa26e710db6b4">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#abe6f23e4ac49c7bcf76fa26e710db6b4">Test.hpp</a>
 </li>
 <li>unit_noThrows
-: <a class="el" href="d3/de5/a00209.php#ab75ba1ba8623d1e9a555541577e8117e">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#ab75ba1ba8623d1e9a555541577e8117e">Test.hpp</a>
 </li>
 <li>unit_notIn
-: <a class="el" href="d3/de5/a00209.php#a5eaf417c1ad582f2eb3fdef1e32d5a40">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#a5eaf417c1ad582f2eb3fdef1e32d5a40">Test.hpp</a>
 </li>
 <li>unit_notInstance
-: <a class="el" href="d3/de5/a00209.php#ad118bcf8324d2668994f961ee5019c5b">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#ad118bcf8324d2668994f961ee5019c5b">Test.hpp</a>
 </li>
 <li>unit_throws
-: <a class="el" href="d3/de5/a00209.php#a4feaf992012b5ed9c7f3abc2219d1b7a">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#a4feaf992012b5ed9c7f3abc2219d1b7a">Test.hpp</a>
 </li>
 <li>unit_true
-: <a class="el" href="d3/de5/a00209.php#a8ed24c910b9c861fde0ee37cc53a26f2">Test.hpp</a>
+: <a class="el" href="dc/d9a/a00218.php#a8ed24c910b9c861fde0ee37cc53a26f2">Test.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->

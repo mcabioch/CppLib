@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Jan 7 2020 14:03:44 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -91,16 +91,16 @@ $(document).ready(function(){initNavTree('globals_func.php','');});
 <div class="contents">
 &#160;<ul>
 <li>GaussJordan()
-: <a class="el" href="de/d76/a00134.php#a9b0f04cced69a887b46bddde8e3f3c0a">Matrix_functions.hpp</a>
+: <a class="el" href="d7/dce/a00143.php#a9b0f04cced69a887b46bddde8e3f3c0a">Matrix_functions.hpp</a>
 </li>
 <li>mod()
-: <a class="el" href="de/d76/a00134.php#ac79943d7aebf62ae9c882752261ee7cb">Matrix_functions.hpp</a>
+: <a class="el" href="d7/dce/a00143.php#ac79943d7aebf62ae9c882752261ee7cb">Matrix_functions.hpp</a>
 </li>
 <li>operator&lt;&lt;()
-: <a class="el" href="de/d76/a00134.php#a9a3710d279e209fbff51b625690ef630">Matrix_functions.hpp</a>
+: <a class="el" href="d7/dce/a00143.php#a9a3710d279e209fbff51b625690ef630">Matrix_functions.hpp</a>
 </li>
 <li>operator==()
-: <a class="el" href="d2/df5/a00137.php#a8ebc3a9dececcd7462234a639abdfe50">Matrix_maths.hpp</a>
+: <a class="el" href="d9/db6/a00146.php#a8ebc3a9dececcd7462234a639abdfe50">Matrix_maths.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->

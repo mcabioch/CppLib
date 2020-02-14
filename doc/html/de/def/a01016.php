@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::NotCopyable Class Reference</title>
+		<title>C++: mcd::IOConfig Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:50 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,67 +93,47 @@ $(document).ready(function(){initNavTree('de/def/a01016.php','../../');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../d7/d59/a01013.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::NotCopyable Class Reference</div>  </div>
+<div class="title">mcd::IOConfig Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to let some other not to be copyable.  
+<p>A class to configure inputs and outputs.  
  <a href="../../de/def/a01016.php#details">More...</a></p>
 
-<p><code>#include &lt;NotCopyable.hpp&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for mcd::NotCopyable:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d1/dac/a01015.png" border="0" usemap="#mcd_1_1NotCopyable_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1NotCopyable_inherit__map" id="mcd_1_1NotCopyable_inherit__map">
-<area shape="rect" id="node2" href="../../d7/db6/a00940.php" title="A class to be the parent for every crypt class. " alt="" coords="185,80,279,107"/>
-<area shape="rect" id="node3" href="../../d9/dce/a00944.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="5,155,96,181"/>
-<area shape="rect" id="node4" href="../../de/d49/a00952.php" title="A class to test a homemade algorithm for encryption. " alt="" coords="121,155,226,181"/>
-<area shape="rect" id="node5" href="../../d3/de5/a00956.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="249,155,332,181"/>
-<area shape="rect" id="node6" href="../../d8/d18/a00948.php" title="An implementation of sha256 encryption. " alt="" coords="356,155,447,181"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<p><code>#include &lt;IOConfig.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa40da048522b578e9c2cc9f73c1a0d92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/def/a01016.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a> ()</td></tr>
-<tr class="memdesc:aa40da048522b578e9c2cc9f73c1a0d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#aa40da048522b578e9c2cc9f73c1a0d92">More...</a><br /></td></tr>
-<tr class="separator:aa40da048522b578e9c2cc9f73c1a0d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5efcd02383468e37e9c960f3d6f9d14c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/def/a01016.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a> ()</td></tr>
-<tr class="separator:a5efcd02383468e37e9c960f3d6f9d14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8638a62e7967b56a444ee42d3ea55878"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/def/a01016.php#a8638a62e7967b56a444ee42d3ea55878">IOConfig</a> ()</td></tr>
+<tr class="memdesc:a8638a62e7967b56a444ee42d3ea55878"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#a8638a62e7967b56a444ee42d3ea55878">More...</a><br /></td></tr>
+<tr class="separator:a8638a62e7967b56a444ee42d3ea55878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a34fca3d338ef0498db6353ac5ece6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/def/a01016.php#ad6a34fca3d338ef0498db6353ac5ece6">~IOConfig</a> ()</td></tr>
+<tr class="separator:ad6a34fca3d338ef0498db6353ac5ece6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to let some other not to be copyable. </p>
+<div class="textblock"><p>A class to configure inputs and outputs. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa40da048522b578e9c2cc9f73c1a0d92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa40da048522b578e9c2cc9f73c1a0d92">&#9670;&nbsp;</a></span>NotCopyable()</h2>
+<a id="a8638a62e7967b56a444ee42d3ea55878"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8638a62e7967b56a444ee42d3ea55878">&#9670;&nbsp;</a></span>IOConfig()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::NotCopyable::NotCopyable </td>
+          <td class="memname">mcd::IOConfig::IOConfig </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>The constructor of the class. </p>
 
 </div>
 </div>
-<a id="a5efcd02383468e37e9c960f3d6f9d14c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5efcd02383468e37e9c960f3d6f9d14c">&#9670;&nbsp;</a></span>~NotCopyable()</h2>
+<a id="ad6a34fca3d338ef0498db6353ac5ece6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a34fca3d338ef0498db6353ac5ece6">&#9670;&nbsp;</a></span>~IOConfig()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,7 +142,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::NotCopyable::~NotCopyable </td>
+          <td class="memname">virtual mcd::IOConfig::~IOConfig </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -170,23 +150,15 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/def/a01016_a5efcd02383468e37e9c960f3d6f9d14c_cgraph.png" border="0" usemap="#de/def/a01016_a5efcd02383468e37e9c960f3d6f9d14c_cgraph" alt=""/></div>
-<map name="de/def/a01016_a5efcd02383468e37e9c960f3d6f9d14c_cgraph" id="de/def/a01016_a5efcd02383468e37e9c960f3d6f9d14c_cgraph">
-<area shape="rect" id="node2" href="../../de/def/a01016.php#aa40da048522b578e9c2cc9f73c1a0d92" title="The constructor of the class. " alt="" coords="192,13,407,39"/>
-</map>
-</div>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d5/db1/a00140.php">NotCopyable.hpp</a></li>
+<li><a class="el" href="../../d4/d3e/a00116.php">IOConfig.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -194,7 +166,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../da/d2e/a00238.php">mcd</a></li><li class="navelem"><a class="el" href="../../de/def/a01016.php">NotCopyable</a></li>
+		<li class="navelem"><a class="el" href="../../d0/d3e/a00253.php">mcd</a></li><li class="navelem"><a class="el" href="../../de/def/a01016.php">IOConfig</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

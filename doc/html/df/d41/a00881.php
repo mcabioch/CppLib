@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:50 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,15 +90,13 @@ $(document).ready(function(){initNavTree('dd/d08/a00884.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Check::has_istream_operator&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::Check::is_smatch&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dd/d08/a00884.php">mcd::Check::has_istream_operator&lt; T &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dd/d08/a00884.php">mcd::Check::is_smatch&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d08/a00884.php#a6343682f15ad178aa8883b61094b7d2a">has_istream_operator</a>()</td><td class="entry"><a class="el" href="../../dd/d08/a00884.php">mcd::Check::has_istream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d08/a00884.php#a4ea6d2bc4fe8e15561698f6ea66d021b">value</a></td><td class="entry"><a class="el" href="../../dd/d08/a00884.php">mcd::Check::has_istream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d08/a00884.php#a4381564142a22fed101f4a2b2b7728b4">~has_istream_operator</a>()</td><td class="entry"><a class="el" href="../../dd/d08/a00884.php">mcd::Check::has_istream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d08/a00884.php#a573e824f7b1584fa564c91c1e5814453">value</a></td><td class="entry"><a class="el" href="../../dd/d08/a00884.php">mcd::Check::is_smatch&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

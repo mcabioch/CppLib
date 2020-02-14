@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:50 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,24 +90,22 @@ $(document).ready(function(){initNavTree('d4/dc5/a01116.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Point Member List</div>  </div>
+<div class="title">mcd::Test Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d4/dc5/a01116.php">mcd::Point</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d4/dc5/a01116.php">mcd::Test</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a2beb84069e438adcccfa4b6ed9794c0c">bot</a>() const</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a91941563ecc020a510832ba8869e5ded">left</a>() const</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a6bea9cfb4049115f767ed658959d6648">operator!=</a>(const Point &amp;a, const Point &amp;b)</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a55681886ec7c5d7c0210fa0611bc84ea">operator&lt;&lt;</a>(std::ostream &amp;os, const Point &amp;a)</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a6ebbd086a808f7fb8bd49bda00b8df12">operator=</a>(const std::pair&lt; T, U &gt; &amp;o)</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a220f83e0ebfaa9b2884530cfcac6f6df">operator=</a>(const trio&lt; T, U, V &gt; &amp;o)</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a177528c8a1eee37fcda25a89084b8ed6">operator==</a>(const Point &amp;a, const Point &amp;b)</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a613a9be49ee0cbe55e10e75db1d59faa">right</a>() const</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#afd57961d22ce89d783303c0fbbdc4f83">top</a>() const</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a924c77d36867a18d5a52767ff246ebfc">x</a></td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Point</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#ab339ac0efa2259051dc1ac0637d2c9a8">y</a></td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Point</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a010288cb5febefa70329d35a726c7291">z</a></td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Point</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a39a0672f4d385729466b606f8e83365e">addSuite</a>(const std::string &amp;name, std::function&lt; void()&gt; func)</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#afa2e1c8e4225517a259eb6e9e96bf480">addTest</a>(const Test_struct &amp;test)</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Test</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a24b9749eacbe2b03325b920e7622f39d">addThrow</a>(const std::string &amp;instr, const std::string &amp;except, const Test_struct &amp;test)</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a507900718727225ac3c0653480b2c48c">failures</a>()</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a0039d201bb954bcf7abd3882a72a4aba">in</a>(const T &amp;value, const U &amp;array, const Test_struct &amp;test, bool start=false)</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a004909fc39f24bd39f2466083d105ffe">instance</a>(const U &amp;, const std::string &amp;strObj, const Test_struct &amp;test, bool cmp=true)</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a58c6bc9145b1fbe2a22178c720661317">nb</a>()</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a340ac80d0474d71a18df38abbc25c10f">print</a>(std::ostream &amp;os, size_t format=0b00000010|0b00000100|0b00001000)</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Test</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#ad9b4d5f1877fd888ee1d6812d487fb5b">run</a>(const std::string &amp;key=&quot;&quot;)</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Test</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dc5/a01116.php#a290862a332ef3120dafc5debf9f55b91">success</a>()</td><td class="entry"><a class="el" href="../../d4/dc5/a01116.php">mcd::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

@@ -1,5 +1,6 @@
-<map id="mcd::Mushroom" name="mcd::Mushroom">
-<area shape="rect" id="node2" href="$de/d9c/a01092.php" title="A vegetal. " alt="" coords="17,155,116,181"/>
-<area shape="rect" id="node3" href="$d9/dce/a00944.php" title="An entity. " alt="" coords="22,80,111,107"/>
-<area shape="rect" id="node4" href="$d0/d85/a00908.php" title="A contraption. " alt="" coords="5,5,128,32"/>
+<map id="mcd::RSA" name="mcd::RSA">
+<area shape="rect" id="node2" href="$da/d17/a00964.php" title="A class to be the parent for every crypt class. " alt="" coords="34,96,129,123"/>
+<area shape="rect" id="node3" href="$d0/ddd/a01044.php" title="A class to let some other not to be copyable. " alt="" coords="5,13,136,39"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="173,96,253,123"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="161,5,287,47"/>
 </map>

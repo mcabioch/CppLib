@@ -1,3 +1,8 @@
-<map id="mcd::Time" name="mcd::Time">
-<area shape="rect" id="node2" href="$d1/ddd/a00943.php" title="A class to play with dates and times. " alt="" coords="5,80,117,107"/>
+<map id="mcd::PathfindingDijkstra" name="mcd::PathfindingDijkstra">
+<area shape="rect" id="node2" href="$d9/db3/a01064.php" title="A class to implement some pathfinding algorithms. " alt="" coords="1107,64,1227,91"/>
+<area shape="rect" id="node3" href="$d5/d16/a01060.php" title="A class to manage a path computed by the map. " alt="" coords="727,5,809,32"/>
+<area shape="rect" id="node4" href="$dc/d19/a01056.php" title="A node for the path. " alt="" coords="149,64,300,91"/>
+<area shape="rect" id="node5" href="$d6/d80/a01076.php" title="A class to group every pathfinding problems in one way to use it. " alt="" coords="833,167,1001,193"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="163,220,286,247"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="167,144,283,171"/>
 </map>

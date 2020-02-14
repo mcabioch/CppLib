@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Check::is_minded_ptr&lt; T &gt; Class Template Reference</title>
+		<title>C++: mcd::Pathfinding Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:50 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,47 +90,284 @@ $(document).ready(function(){initNavTree('d9/db3/a01064.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../de/d9e/a01061.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_minded_ptr&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Pathfinding Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr.  
+<p>A class to implement some pathfinding algorithms.  
  <a href="../../d9/db3/a01064.php#details">More...</a></p>
 
-<p><code>#include &lt;pointers.hpp&gt;</code></p>
+<p><code>#include &lt;Pathfinding.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::Pathfinding:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/de6/a01063.png" border="0" usemap="#mcd_1_1Pathfinding_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1Pathfinding_inherit__map" id="mcd_1_1Pathfinding_inherit__map">
+<area shape="rect" id="node2" href="../../d1/de6/a01068.php" title="An implementation of the Dijkstra algorithm. " alt="" coords="5,80,171,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::Pathfinding:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d8a/a01062.png" border="0" usemap="#mcd_1_1Pathfinding_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1Pathfinding_coll__map" id="mcd_1_1Pathfinding_coll__map">
+<area shape="rect" id="node2" href="../../d5/d16/a01060.php" title="A class to manage a path computed by the map. " alt="" coords="727,5,809,32"/>
+<area shape="rect" id="node3" href="../../dc/d19/a01056.php" title="A node for the path. " alt="" coords="149,64,300,91"/>
+<area shape="rect" id="node4" href="../../d6/d80/a01076.php" title="A class to group every pathfinding problems in one way to use it. " alt="" coords="833,167,1001,193"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="163,220,286,247"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="167,144,283,171"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a76170894810e15b11dafb7f34965aef4"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.php#a76170894810e15b11dafb7f34965aef4">value</a> = false</td></tr>
-<tr class="separator:a76170894810e15b11dafb7f34965aef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aca54568ec2e832b3f08ef6f86c7184f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.php#aca54568ec2e832b3f08ef6f86c7184f2">Pathfinding</a> (const <a class="el" href="../../d6/d80/a01076.php">PathfindingProblem</a> &amp;problem, const <a class="el" href="../../dc/d19/a01056.php">PathfindingNode</a> &amp;start, const <a class="el" href="../../dc/d19/a01056.php">PathfindingNode</a> &amp;end)</td></tr>
+<tr class="memdesc:aca54568ec2e832b3f08ef6f86c7184f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#aca54568ec2e832b3f08ef6f86c7184f2">More...</a><br /></td></tr>
+<tr class="separator:aca54568ec2e832b3f08ef6f86c7184f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cb06bc7729ad6371ad3380e0fd54f51"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.php#a4cb06bc7729ad6371ad3380e0fd54f51">~Pathfinding</a> ()</td></tr>
+<tr class="separator:a4cb06bc7729ad6371ad3380e0fd54f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac59e95d415c520941c5bac355537df7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a01060.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.php#ac59e95d415c520941c5bac355537df7f">getPath</a> ()</td></tr>
+<tr class="memdesc:ac59e95d415c520941c5bac355537df7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the path to follow.  <a href="#ac59e95d415c520941c5bac355537df7f">More...</a><br /></td></tr>
+<tr class="separator:ac59e95d415c520941c5bac355537df7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a82c779fba2fba8d5adbd1c22ea8c0d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/d16/a01060.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.php#a9a82c779fba2fba8d5adbd1c22ea8c0d">createPath</a> ()=0</td></tr>
+<tr class="memdesc:a9a82c779fba2fba8d5adbd1c22ea8c0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the path to follow.  <a href="#a9a82c779fba2fba8d5adbd1c22ea8c0d">More...</a><br /></td></tr>
+<tr class="separator:a9a82c779fba2fba8d5adbd1c22ea8c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a8432f285b7015512efbe0a9a47bc76d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d80/a01076.php">PathfindingProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.php#a8432f285b7015512efbe0a9a47bc76d7">_problem</a></td></tr>
+<tr class="separator:a8432f285b7015512efbe0a9a47bc76d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc13e2aa513059f91865021b9b13eed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d19/a01056.php">PathfindingNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.php#a6fc13e2aa513059f91865021b9b13eed">_start</a></td></tr>
+<tr class="separator:a6fc13e2aa513059f91865021b9b13eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f42595f214b1d2328d40c7fcf371626"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d19/a01056.php">PathfindingNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.php#a6f42595f214b1d2328d40c7fcf371626">_end</a></td></tr>
+<tr class="separator:a6f42595f214b1d2328d40c7fcf371626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa7ec4aec9e8ed4aba2c3110ca86273f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a01060.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.php#afa7ec4aec9e8ed4aba2c3110ca86273f">_path</a></td></tr>
+<tr class="separator:afa7ec4aec9e8ed4aba2c3110ca86273f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_minded_ptr&lt; T &gt;</h3>
-
-<p>A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a76170894810e15b11dafb7f34965aef4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76170894810e15b11dafb7f34965aef4">&#9670;&nbsp;</a></span>value</h2>
+<div class="textblock"><p>A class to implement some pathfinding algorithms. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aca54568ec2e832b3f08ef6f86c7184f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca54568ec2e832b3f08ef6f86c7184f2">&#9670;&nbsp;</a></span>Pathfinding()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Pathfinding::Pathfinding </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/d80/a01076.php">PathfindingProblem</a> &amp;&#160;</td>
+          <td class="paramname"><em>problem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dc/d19/a01056.php">PathfindingNode</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dc/d19/a01056.php">PathfindingNode</a> &amp;&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">problem</td><td>The problem to solve </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start</td><td>The start point index </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end</td><td>The end point index </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4cb06bc7729ad6371ad3380e0fd54f51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cb06bc7729ad6371ad3380e0fd54f51">&#9670;&nbsp;</a></span>~Pathfinding()</h2>
+
+<div class="memitem">
+<div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const bool <a class="el" href="../../d9/db3/a01064.php">mcd::Check::is_minded_ptr</a>&lt; T &gt;::value = false</td>
+          <td class="memname">virtual mcd::Pathfinding::~Pathfinding </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9a82c779fba2fba8d5adbd1c22ea8c0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a82c779fba2fba8d5adbd1c22ea8c0d">&#9670;&nbsp;</a></span>createPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../d5/d16/a01060.php">Path</a> mcd::Pathfinding::createPath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute the path to follow. </p>
+
+<p>Implemented in <a class="el" href="../../d1/de6/a01068.php#a7b2872207d45871fcbcfa01e216090dd">mcd::PathfindingDijkstra</a>.</p>
+
+</div>
+</div>
+<a id="ac59e95d415c520941c5bac355537df7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac59e95d415c520941c5bac355537df7f">&#9670;&nbsp;</a></span>getPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d16/a01060.php">Path</a> mcd::Pathfinding::getPath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the path to follow. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/db3/a01064_ac59e95d415c520941c5bac355537df7f_cgraph.png" border="0" usemap="#d9/db3/a01064_ac59e95d415c520941c5bac355537df7f_cgraph" alt=""/></div>
+<map name="d9/db3/a01064_ac59e95d415c520941c5bac355537df7f_cgraph" id="d9/db3/a01064_ac59e95d415c520941c5bac355537df7f_cgraph">
+<area shape="rect" id="node2" href="../../d9/db3/a01064.php#a9a82c779fba2fba8d5adbd1c22ea8c0d" title="Compute the path to follow. " alt="" coords="227,5,417,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6f42595f214b1d2328d40c7fcf371626"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f42595f214b1d2328d40c7fcf371626">&#9670;&nbsp;</a></span>_end</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d19/a01056.php">PathfindingNode</a> mcd::Pathfinding::_end</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa7ec4aec9e8ed4aba2c3110ca86273f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa7ec4aec9e8ed4aba2c3110ca86273f">&#9670;&nbsp;</a></span>_path</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d16/a01060.php">Path</a> mcd::Pathfinding::_path</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8432f285b7015512efbe0a9a47bc76d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8432f285b7015512efbe0a9a47bc76d7">&#9670;&nbsp;</a></span>_problem</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d80/a01076.php">PathfindingProblem</a> mcd::Pathfinding::_problem</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6fc13e2aa513059f91865021b9b13eed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fc13e2aa513059f91865021b9b13eed">&#9670;&nbsp;</a></span>_start</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d19/a01056.php">PathfindingNode</a> mcd::Pathfinding::_start</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -138,7 +375,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../db/dd9/a00179.php">pointers.hpp</a></li>
+<li><a class="el" href="../../dc/de6/a00167.php">Pathfinding.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -146,7 +383,7 @@ template&lt;typename T&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../da/d2e/a00238.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/d21/a00240.php">Check</a></li><li class="navelem"><a class="el" href="../../d9/db3/a01064.php">is_minded_ptr</a></li>
+		<li class="navelem"><a class="el" href="../../d0/d3e/a00253.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/db3/a01064.php">Pathfinding</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

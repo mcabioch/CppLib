@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:50 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,18 +90,20 @@ $(document).ready(function(){initNavTree('d8/db7/a00812.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::t_queue&lt; T, Container &gt; Member List</div>  </div>
+<div class="title">mcd::Arguments Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d8/db7/a00812.php">mcd::t_queue&lt; T, Container &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d8/db7/a00812.php">mcd::Arguments</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dc8/a00808.php#a148295001e6effa1aa1217af766e021f">get</a>()</td><td class="entry"><a class="el" href="../../d7/dc8/a00808.php">mcd::queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dc8/a00808.php#a9c9c5803f41517e0b1b8d75441cd4b09">pop</a>()</td><td class="entry"><a class="el" href="../../d7/dc8/a00808.php">mcd::queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/db7/a00812.php#a7108e587ce260901f5fdac365db13fab">push</a>(const T &amp;value)</td><td class="entry"><a class="el" href="../../d8/db7/a00812.php">mcd::t_queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/db7/a00812.php#a7ccba4c88decd735670f069077bce0b0">push</a>(T &amp;&amp;value)</td><td class="entry"><a class="el" href="../../d8/db7/a00812.php">mcd::t_queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dc8/a00808.php#a0566f226253ef02ac813bad965f647b9">queue</a>()</td><td class="entry"><a class="el" href="../../d7/dc8/a00808.php">mcd::queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/db7/a00812.php#a6113ab263c40412573cb17961892e4eb">t_queue</a>()</td><td class="entry"><a class="el" href="../../d8/db7/a00812.php">mcd::t_queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/db7/a00812.php#a0d178470f50f3a3f12b2dab7aa40f004">add</a>(const std::string &amp;category, T value)</td><td class="entry"><a class="el" href="../../d8/db7/a00812.php">mcd::Arguments</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/db7/a00812.php#a1eabf4c8408ded2b8deca24d99fd3234">addProg</a>(int argc, char **argv)</td><td class="entry"><a class="el" href="../../d8/db7/a00812.php">mcd::Arguments</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/db7/a00812.php#ac6c3e24abf9d442d2a01b601ad3a0968">Arguments</a>()</td><td class="entry"><a class="el" href="../../d8/db7/a00812.php">mcd::Arguments</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/db7/a00812.php#a7710e8ecdb6e5eb86b673765d69df6cf">has</a>(const std::string &amp;index) const</td><td class="entry"><a class="el" href="../../d8/db7/a00812.php">mcd::Arguments</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/db7/a00812.php#ab6f239de18f2b736af8215e1e116b6c7">operator[]</a>(const std::string &amp;index) const</td><td class="entry"><a class="el" href="../../d8/db7/a00812.php">mcd::Arguments</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/db7/a00812.php#ae401cb47faea064ac04133ea929c0f94">operator[]</a>(const std::string &amp;index)</td><td class="entry"><a class="el" href="../../d8/db7/a00812.php">mcd::Arguments</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/db7/a00812.php#a77d29e3346c6b8c49fed9158e1336bd1">print</a>(const std::string &amp;index=&quot;&quot;) const</td><td class="entry"><a class="el" href="../../d8/db7/a00812.php">mcd::Arguments</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/db7/a00812.php#a9fd4e17aa2d814f460da6128e98b7519">~Arguments</a>()</td><td class="entry"><a class="el" href="../../d8/db7/a00812.php">mcd::Arguments</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

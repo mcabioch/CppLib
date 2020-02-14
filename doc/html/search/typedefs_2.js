@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nodeweight',['NodeWeight',['../d6/d08/a00244.php#a0d3d39a7992ee9e893a83ab18066f79d',1,'mcd']]]
+  ['genes',['Genes',['../d7/d03/a00254.php#a1de74d1bec8d79371ec3baad4d85898a',1,'mcd::natural']]]
 ];

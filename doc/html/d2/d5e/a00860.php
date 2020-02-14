@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::Check::is_string&lt; T &gt; Class Template Reference</title>
+		<title>C++: mcd::Check::is_vector&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:50 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,39 +93,39 @@ $(document).ready(function(){initNavTree('d2/d5e/a00860.php','../../');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../d0/d82/a00857.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_string&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Check::is_vector&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A template class to test if T is a std::string.  
+<p>A template class to test if T is a vector.  
  <a href="../../d2/d5e/a00860.php#details">More...</a></p>
 
 <p><code>#include &lt;check.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:af2c46fb3d97ce2190260c2ddcb2d33d4"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00860.php#af2c46fb3d97ce2190260c2ddcb2d33d4">value</a> = false</td></tr>
-<tr class="separator:af2c46fb3d97ce2190260c2ddcb2d33d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81fa142d6e7d3c98a4dae1f0ca3dfd5"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a00860.php#ab81fa142d6e7d3c98a4dae1f0ca3dfd5">value</a> = false</td></tr>
+<tr class="separator:ab81fa142d6e7d3c98a4dae1f0ca3dfd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_string&lt; T &gt;</h3>
+class mcd::Check::is_vector&lt; T &gt;</h3>
 
-<p>A template class to test if T is a std::string. </p>
+<p>A template class to test if T is a vector. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="af2c46fb3d97ce2190260c2ddcb2d33d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2c46fb3d97ce2190260c2ddcb2d33d4">&#9670;&nbsp;</a></span>value</h2>
+<a id="ab81fa142d6e7d3c98a4dae1f0ca3dfd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab81fa142d6e7d3c98a4dae1f0ca3dfd5">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const bool <a class="el" href="../../d2/d5e/a00860.php">mcd::Check::is_string</a>&lt; T &gt;::value = false</td>
+          <td class="memname">const bool <a class="el" href="../../d2/d5e/a00860.php">mcd::Check::is_vector</a>&lt; T &gt;::value = false</td>
         </tr>
       </table>
   </td>
@@ -138,7 +138,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d6/d2d/a00047.php">check.hpp</a></li>
+<li><a class="el" href="../../dc/dee/a00053.php">check.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -146,7 +146,7 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../da/d2e/a00238.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/d21/a00240.php">Check</a></li><li class="navelem"><a class="el" href="../../d2/d5e/a00860.php">is_string</a></li>
+		<li class="navelem"><a class="el" href="../../d0/d3e/a00253.php">mcd</a></li><li class="navelem"><a class="el" href="../../d0/def/a00256.php">Check</a></li><li class="navelem"><a class="el" href="../../d2/d5e/a00860.php">is_vector</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

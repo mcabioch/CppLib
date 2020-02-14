@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.13"/>
-		<title>C++: mcd::AssertionException Class Reference</title>
+		<title>C++: mcd::queue&lt; T, Container &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sat Nov 23 2019 16:47:49 for C++ by";
+				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,104 +93,70 @@ $(document).ready(function(){initNavTree('d8/d1c/a00824.php','../../');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../d6/d8b/a00821.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::AssertionException Class Reference</div>  </div>
+<div class="title">mcd::queue&lt; T, Container &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>An exception thrown by my assert's implementation.  
+<p>An implementation of std::queue.  
  <a href="../../d8/d1c/a00824.php#details">More...</a></p>
 
-<p><code>#include &lt;AssertionException.hpp&gt;</code></p>
+<p><code>#include &lt;array.hpp&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for mcd::AssertionException:</div>
+Inheritance diagram for mcd::queue&lt; T, Container &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/db4/a00823.png" border="0" usemap="#mcd_1_1AssertionException_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1AssertionException_inherit__map" id="mcd_1_1AssertionException_inherit__map">
-<area shape="rect" id="node2" title="STL class. " alt="" coords="37,5,141,32"/>
+<div class="center"><img src="../../d3/db4/a00823.png" border="0" usemap="#mcd_1_1queue_3_01T_00_01Container_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1queue_3_01T_00_01Container_01_4_inherit__map" id="mcd_1_1queue_3_01T_00_01Container_01_4_inherit__map">
+<area shape="rect" id="node3" href="../../d8/d64/a00828.php" title="An thread&#45;safe implementation of queue. " alt="" coords="5,155,203,181"/>
+<area shape="rect" id="node2" title="STL class. " alt="" coords="15,5,193,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for mcd::AssertionException:</div>
+Collaboration diagram for mcd::queue&lt; T, Container &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d6/da7/a00822.png" border="0" usemap="#mcd_1_1AssertionException_coll__map" alt="Collaboration graph"/></div>
-<map name="mcd_1_1AssertionException_coll__map" id="mcd_1_1AssertionException_coll__map">
-<area shape="rect" id="node2" title="STL class. " alt="" coords="37,5,141,32"/>
+<div class="center"><img src="../../d6/da7/a00822.png" border="0" usemap="#mcd_1_1queue_3_01T_00_01Container_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1queue_3_01T_00_01Container_01_4_coll__map" id="mcd_1_1queue_3_01T_00_01Container_01_4_coll__map">
+<area shape="rect" id="node2" title="STL class. " alt="" coords="9,95,188,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad93f95c8923581b9ce4e3d28d63a243e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1c/a00824.php#ad93f95c8923581b9ce4e3d28d63a243e">AssertionException</a> (const std::string &amp;explaination)  throw ()</td></tr>
-<tr class="memdesc:ad93f95c8923581b9ce4e3d28d63a243e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#ad93f95c8923581b9ce4e3d28d63a243e">More...</a><br /></td></tr>
-<tr class="separator:ad93f95c8923581b9ce4e3d28d63a243e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8583b92f139f554fca4e9ef10851b9b6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1c/a00824.php#a8583b92f139f554fca4e9ef10851b9b6">~AssertionException</a> ()  throw ()</td></tr>
-<tr class="separator:a8583b92f139f554fca4e9ef10851b9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25b7e738127f0f021283bf2f2b9bc9fa"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1c/a00824.php#a25b7e738127f0f021283bf2f2b9bc9fa">what</a> () const  throw ()</td></tr>
-<tr class="memdesc:a25b7e738127f0f021283bf2f2b9bc9fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the explaination of the exception.  <a href="#a25b7e738127f0f021283bf2f2b9bc9fa">More...</a><br /></td></tr>
-<tr class="separator:a25b7e738127f0f021283bf2f2b9bc9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0566f226253ef02ac813bad965f647b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1c/a00824.php#a0566f226253ef02ac813bad965f647b9">queue</a> ()</td></tr>
+<tr class="separator:a0566f226253ef02ac813bad965f647b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c9c5803f41517e0b1b8d75441cd4b09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1c/a00824.php#a9c9c5803f41517e0b1b8d75441cd4b09">pop</a> ()</td></tr>
+<tr class="memdesc:a9c9c5803f41517e0b1b8d75441cd4b09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase the first element of the queue.  <a href="#a9c9c5803f41517e0b1b8d75441cd4b09">More...</a><br /></td></tr>
+<tr class="separator:a9c9c5803f41517e0b1b8d75441cd4b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a148295001e6effa1aa1217af766e021f"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1c/a00824.php#a148295001e6effa1aa1217af766e021f">get</a> ()</td></tr>
+<tr class="memdesc:a148295001e6effa1aa1217af766e021f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the first element of the queue and erase it from the queue.  <a href="#a148295001e6effa1aa1217af766e021f">More...</a><br /></td></tr>
+<tr class="separator:a148295001e6effa1aa1217af766e021f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An exception thrown by my assert's implementation. </p>
+<div class="textblock"><h3>template&lt;class T, class Container = std::deque&lt;T&gt;&gt;<br />
+class mcd::queue&lt; T, Container &gt;</h3>
+
+<p>An implementation of std::queue. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad93f95c8923581b9ce4e3d28d63a243e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad93f95c8923581b9ce4e3d28d63a243e">&#9670;&nbsp;</a></span>AssertionException()</h2>
+<a id="a0566f226253ef02ac813bad965f647b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0566f226253ef02ac813bad965f647b9">&#9670;&nbsp;</a></span>queue()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::AssertionException::AssertionException </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>explaination</em></td><td>)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td align="right">throw </td><td>(</td><td colspan="2"></td>
-        </tr>
-        <tr>
-          <td align="right"></td><td>)</td><td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The constructor of the class. </p>
-
-</div>
-</div>
-<a id="a8583b92f139f554fca4e9ef10851b9b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8583b92f139f554fca4e9ef10851b9b6">&#9670;&nbsp;</a></span>~AssertionException()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual mcd::AssertionException::~AssertionException </td>
+          <td class="memname"><a class="el" href="../../d8/d1c/a00824.php">mcd::queue</a>&lt; T, Container &gt;::<a class="el" href="../../d8/d1c/a00824.php">queue</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
-        <tr>
-          <td align="right">throw </td><td>(</td><td colspan="2"></td>
-        </tr>
-        <tr>
-          <td align="right"></td><td>)</td><td></td><td></td>
-        </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -198,41 +164,66 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a25b7e738127f0f021283bf2f2b9bc9fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25b7e738127f0f021283bf2f2b9bc9fa">&#9670;&nbsp;</a></span>what()</h2>
+<a id="a148295001e6effa1aa1217af766e021f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a148295001e6effa1aa1217af766e021f">&#9670;&nbsp;</a></span>get()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const char* mcd::AssertionException::what </td>
+          <td class="memname">T <a class="el" href="../../d8/d1c/a00824.php">mcd::queue</a>&lt; T, Container &gt;::get </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-        <tr>
-          <td align="right">throw </td><td>(</td><td colspan="2"></td>
-        </tr>
-        <tr>
-          <td align="right"></td><td>)</td><td></td><td></td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return the explaination of the exception. </p>
+<p>Return the first element of the queue and erase it from the queue. </p>
+
+</div>
+</div>
+<a id="a9c9c5803f41517e0b1b8d75441cd4b09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c9c5803f41517e0b1b8d75441cd4b09">&#9670;&nbsp;</a></span>pop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d8/d1c/a00824.php">mcd::queue</a>&lt; T, Container &gt;::pop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Erase the first element of the queue. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../db/db2/a00020.php">AssertionException.hpp</a></li>
+<li><a class="el" href="../../da/d45/a00011.php">array.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -240,7 +231,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../da/d2e/a00238.php">mcd</a></li><li class="navelem"><a class="el" href="../../d8/d1c/a00824.php">AssertionException</a></li>
+		<li class="navelem"><a class="el" href="../../d0/d3e/a00253.php">mcd</a></li><li class="navelem"><a class="el" href="../../d8/d1c/a00824.php">queue</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -1,11 +1,9 @@
 var a00062 =
 [
-    [ "Crypto", "dd/dcf/a00922.php", "dd/dcf/a00922" ],
-    [ "Cesar", "d8/d38/a00926.php", "d8/d38/a00926" ],
-    [ "SHA2", "d7/d16/a00930.php", "d7/d16/a00930" ],
-    [ "MyCrypt", "d0/df0/a00934.php", "d0/df0/a00934" ],
-    [ "RSA", "d5/d54/a00938.php", "d5/d54/a00938" ],
-    [ "cesar", "df/d03/a00062.php#a8855b382bd52d4baffe3633dbe8fa3ed", null ],
-    [ "mycrypt", "df/d03/a00062.php#a302b261a28cb48198b26b85ab682bfab", null ],
-    [ "sha2", "df/d03/a00062.php#aa0ce198f34851e093bbc38dfd975e339", null ]
+    [ "collidesC", "df/d03/a00062.php#ace8a4328114062b56cf578ad92df821f", null ],
+    [ "collidesPC", "df/d03/a00062.php#ae694a8102421f25c163a0ef7a9e903e2", null ],
+    [ "collidesPR", "df/d03/a00062.php#a3c001118da32a4466802e0b378af661b", null ],
+    [ "collidesR", "df/d03/a00062.php#ab43dbb509e6ac3b52cd7767a1fb6bdaa", null ],
+    [ "collidesRC", "df/d03/a00062.php#adbb1b1f3a194f48bab3af872f65b9757", null ],
+    [ "ProjectionSurSegment", "df/d03/a00062.php#af6f9411fa8041c4f9f81519deeba4a0a", null ]
 ];
