@@ -54,6 +54,8 @@ var searchData=
   ['sleep_5ffor',['sleep_for',['../d4/d04/a00255.php#aaa5ef673c6390db3486b12d03a64f8f5',1,'mcd::this_thread']]],
   ['sortasc',['sortAsc',['../d0/d3e/a00253.php#a0a1aa5f89ff57aa7dc4e6d136c9c315f',1,'mcd']]],
   ['sortdesc',['sortDesc',['../d0/d3e/a00253.php#a45ad9c2ac4a373fdad27e51c1c741d76',1,'mcd']]],
+  ['sortmapvaluesasc',['sortMapValuesAsc',['../d0/d3e/a00253.php#af3638871c13207c94b12eb5760dadf6f',1,'mcd']]],
+  ['sortmapvaluesdesc',['sortMapValuesDesc',['../d0/d3e/a00253.php#a5ed3b7735514675ef4f03b28d5b7b4a3',1,'mcd']]],
   ['split',['split',['../d0/d3e/a00253.php#a3f5effb1d0789a63d9c71c5549f3eacf',1,'mcd::split(const std::string &amp;in, char separator=&apos; &apos;)'],['../d0/d3e/a00253.php#acfdec07a9d46365ed68092ec70b96d41',1,'mcd::split(const std::string &amp;in, const std::string &amp;c)'],['../d0/d3e/a00253.php#a5257fd1ac4e72cf72335af2444a8bea9',1,'mcd::split(const std::string &amp;in, std::vector&lt; std::string &gt; cars)']]],
   ['sq',['sq',['../d0/d3e/a00253.php#a31eb09e89b0015d54768c4510e59c780',1,'mcd::sq(const Big &amp;a)'],['../d0/d3e/a00253.php#a9adc0354f681800c75d220e526377397',1,'mcd::sq(T in)']]],
   ['sqrt',['sqrt',['../d0/d3e/a00253.php#ae3a712e4de66375b1a188fa464c968e2',1,'mcd']]],

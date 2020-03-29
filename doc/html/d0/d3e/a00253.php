@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
+				$text = "Generated on Thu Mar 26 2020 23:11:06 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -462,10 +462,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a0029a835651d350c925a43fd718ab590"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a0029a835651d350c925a43fd718ab590">print_r</a> (const Array &amp;a)</td></tr>
 <tr class="memdesc:a0029a835651d350c925a43fd718ab590"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="#a0029a835651d350c925a43fd718ab590">More...</a><br /></td></tr>
 <tr class="separator:a0029a835651d350c925a43fd718ab590"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4462e6059998aa718e92fd11fd9747e8"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:a4462e6059998aa718e92fd11fd9747e8"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a4462e6059998aa718e92fd11fd9747e8">rewrite</a> (const std::vector&lt; V &gt; &amp;table, unsigned index)</td></tr>
-<tr class="memdesc:a4462e6059998aa718e92fd11fd9747e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="#a4462e6059998aa718e92fd11fd9747e8">More...</a><br /></td></tr>
-<tr class="separator:a4462e6059998aa718e92fd11fd9747e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d86de24ac44a702d65c29bcb96c686"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a71d86de24ac44a702d65c29bcb96c686"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a71d86de24ac44a702d65c29bcb96c686">rewrite</a> (const std::vector&lt; V &gt; &amp;table, unsigned index)</td></tr>
+<tr class="memdesc:a71d86de24ac44a702d65c29bcb96c686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="#a71d86de24ac44a702d65c29bcb96c686">More...</a><br /></td></tr>
+<tr class="separator:a71d86de24ac44a702d65c29bcb96c686"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad53bf266a5db5dc112e71ebe3c78946e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ad53bf266a5db5dc112e71ebe3c78946e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#ad53bf266a5db5dc112e71ebe3c78946e">contains</a> (const std::vector&lt; T &gt; &amp;table, T value)</td></tr>
 <tr class="memdesc:ad53bf266a5db5dc112e71ebe3c78946e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a vector contains or not something.  <a href="#ad53bf266a5db5dc112e71ebe3c78946e">More...</a><br /></td></tr>
@@ -476,16 +476,22 @@ Functions</h2></td></tr>
 <tr class="separator:a5996fcf8097a903a5461a6035ff0f98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1c42a8b9412d2afa3b486c5e629f752"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#af1c42a8b9412d2afa3b486c5e629f752">array2Dto1D</a> (size_t x, size_t y, size_t maxX)</td></tr>
 <tr class="separator:af1c42a8b9412d2afa3b486c5e629f752"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a040a2aa0625adc9f13e6568d906a20a2"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a040a2aa0625adc9f13e6568d906a20a2">array1Dto2D</a> (size_t index, size_t maxX)</td></tr>
-<tr class="separator:a040a2aa0625adc9f13e6568d906a20a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25ccd89a356e58d7653bd783306d2942"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a25ccd89a356e58d7653bd783306d2942">array1Dto2D</a> (size_t index, size_t maxX)</td></tr>
+<tr class="separator:a25ccd89a356e58d7653bd783306d2942"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53a33cf86c36584f92495307f8e68a00"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a53a33cf86c36584f92495307f8e68a00">array2Dto1D</a> (const <a class="el" href="../../db/d17/a01148.php">Point</a> &amp;pt, size_t maxX)</td></tr>
 <tr class="separator:a53a33cf86c36584f92495307f8e68a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5095d23c94c5ba1afddd4056d7693b83"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a5095d23c94c5ba1afddd4056d7693b83"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a5095d23c94c5ba1afddd4056d7693b83">vector2DPrint</a> (const std::vector&lt; std::vector&lt; T &gt;&gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
-<tr class="separator:a5095d23c94c5ba1afddd4056d7693b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c56a8e6976a66e7e7adb11948963657"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a5c56a8e6976a66e7e7adb11948963657"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a5c56a8e6976a66e7e7adb11948963657">vector2DPrintInverted</a> (const std::vector&lt; std::vector&lt; T &gt;&gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
-<tr class="separator:a5c56a8e6976a66e7e7adb11948963657"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9364f91b9303a9a63793512ad3f18e4"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aa9364f91b9303a9a63793512ad3f18e4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#aa9364f91b9303a9a63793512ad3f18e4">vector2DPrint</a> (const std::vector&lt; std::vector&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
+<tr class="separator:aa9364f91b9303a9a63793512ad3f18e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3317dd3d37f382f940ee207bd4dd8e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aac3317dd3d37f382f940ee207bd4dd8e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#aac3317dd3d37f382f940ee207bd4dd8e">vector2DPrintInverted</a> (const std::vector&lt; std::vector&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout, int shift=0)</td></tr>
+<tr class="separator:aac3317dd3d37f382f940ee207bd4dd8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3638871c13207c94b12eb5760dadf6f"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
+<tr class="memitem:af3638871c13207c94b12eb5760dadf6f"><td class="memTemplItemLeft" align="right" valign="top">std::set&lt; std::pair&lt; T, U &gt;, std::function&lt; bool(std::pair&lt; T, U &gt;, std::pair&lt; T, U &gt;) &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#af3638871c13207c94b12eb5760dadf6f">sortMapValuesAsc</a> (std::map&lt; T, U &gt; array)</td></tr>
+<tr class="separator:af3638871c13207c94b12eb5760dadf6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ed3b7735514675ef4f03b28d5b7b4a3"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
+<tr class="memitem:a5ed3b7735514675ef4f03b28d5b7b4a3"><td class="memTemplItemLeft" align="right" valign="top">std::set&lt; std::pair&lt; T, U &gt;, std::function&lt; bool(std::pair&lt; T, U &gt;, std::pair&lt; T, U &gt;) &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a5ed3b7735514675ef4f03b28d5b7b4a3">sortMapValuesDesc</a> (std::map&lt; T, U &gt; array)</td></tr>
+<tr class="separator:a5ed3b7735514675ef4f03b28d5b7b4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66e560b6579bb202abdcee37283121a0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a66e560b6579bb202abdcee37283121a0"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a66e560b6579bb202abdcee37283121a0">toBigVal</a> (T in)</td></tr>
 <tr class="memdesc:a66e560b6579bb202abdcee37283121a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a value from something to std::string.  <a href="#a66e560b6579bb202abdcee37283121a0">More...</a><br /></td></tr>
@@ -1693,8 +1699,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a040a2aa0625adc9f13e6568d906a20a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a040a2aa0625adc9f13e6568d906a20a2">&#9670;&nbsp;</a></span>array1Dto2D()</h2>
+<a id="a25ccd89a356e58d7653bd783306d2942"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25ccd89a356e58d7653bd783306d2942">&#9670;&nbsp;</a></span>array1Dto2D()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1703,7 +1709,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::pair&lt;size_t, size_t&gt; mcd::array1Dto2D </td>
+          <td class="memname">std::pair&lt; size_t, size_t &gt; mcd::array1Dto2D </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>index</em>, </td>
@@ -5158,8 +5164,8 @@ template&lt;class C &gt; </div>
 
 </div>
 </div>
-<a id="a4462e6059998aa718e92fd11fd9747e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4462e6059998aa718e92fd11fd9747e8">&#9670;&nbsp;</a></span>rewrite()</h2>
+<a id="a71d86de24ac44a702d65c29bcb96c686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71d86de24ac44a702d65c29bcb96c686">&#9670;&nbsp;</a></span>rewrite()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5167,7 +5173,7 @@ template&lt;class C &gt; </div>
 template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;V&gt; mcd::rewrite </td>
+          <td class="memname">std::vector&lt; V &gt; mcd::rewrite </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; V &gt; &amp;&#160;</td>
           <td class="paramname"><em>table</em>, </td>
@@ -5477,6 +5483,46 @@ template&lt;class Key , class Value &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return a sorted vector </dd></dl>
+
+</div>
+</div>
+<a id="af3638871c13207c94b12eb5760dadf6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3638871c13207c94b12eb5760dadf6f">&#9670;&nbsp;</a></span>sortMapValuesAsc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::set&lt; std::pair&lt; T, U &gt;, std::function&lt; bool(std::pair&lt; T, U &gt;, std::pair&lt; T, U &gt;) &gt; &gt; mcd::sortMapValuesAsc </td>
+          <td>(</td>
+          <td class="paramtype">std::map&lt; T, U &gt;&#160;</td>
+          <td class="paramname"><em>array</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ed3b7735514675ef4f03b28d5b7b4a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ed3b7735514675ef4f03b28d5b7b4a3">&#9670;&nbsp;</a></span>sortMapValuesDesc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::set&lt; std::pair&lt; T, U &gt;, std::function&lt; bool(std::pair&lt; T, U &gt;, std::pair&lt; T, U &gt;) &gt; &gt; mcd::sortMapValuesDesc </td>
+          <td>(</td>
+          <td class="paramtype">std::map&lt; T, U &gt;&#160;</td>
+          <td class="paramname"><em>array</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -6278,8 +6324,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a5095d23c94c5ba1afddd4056d7693b83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5095d23c94c5ba1afddd4056d7693b83">&#9670;&nbsp;</a></span>vector2DPrint()</h2>
+<a id="aa9364f91b9303a9a63793512ad3f18e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9364f91b9303a9a63793512ad3f18e4">&#9670;&nbsp;</a></span>vector2DPrint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6289,7 +6335,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname">void mcd::vector2DPrint </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; std::vector&lt; T &gt;&gt;&#160;</td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; T &gt; &gt;&#160;</td>
           <td class="paramname"><em>values</em>, </td>
         </tr>
         <tr>
@@ -6314,8 +6360,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a5c56a8e6976a66e7e7adb11948963657"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c56a8e6976a66e7e7adb11948963657">&#9670;&nbsp;</a></span>vector2DPrintInverted()</h2>
+<a id="aac3317dd3d37f382f940ee207bd4dd8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac3317dd3d37f382f940ee207bd4dd8e">&#9670;&nbsp;</a></span>vector2DPrintInverted()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6325,7 +6371,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname">void mcd::vector2DPrintInverted </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; std::vector&lt; T &gt;&gt;&#160;</td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; T &gt; &gt;&#160;</td>
           <td class="paramname"><em>values</em>, </td>
         </tr>
         <tr>
@@ -6338,7 +6384,13 @@ template&lt;class T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em> = <code>std::cout</code>&#160;</td>
+          <td class="paramname"><em>os</em> = <code>std::cout</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>shift</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

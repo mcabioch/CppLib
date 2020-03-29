@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
+				$text = "Generated on Thu Mar 26 2020 23:11:06 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -136,7 +136,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac779733da952e8cfda80b14655a07172 inherit pub_methods_a00816"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class T, class Container = std::deque&lt;T&gt;&gt;<br />
+<div class="textblock"><h3>template&lt;class T, class Container = std::deque&lt; T &gt;&gt;<br />
 class mcd::t_stack&lt; T, Container &gt;</h3>
 
 <p>An thread-safe implementation of stack. </p>
@@ -147,7 +147,7 @@ class mcd::t_stack&lt; T, Container &gt;</h3>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
+template&lt;class T , class Container  = std::deque&lt; T &gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -175,7 +175,7 @@ template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
+template&lt;class T , class Container  = std::deque&lt; T &gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -203,7 +203,7 @@ template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T , class Container  = std::deque&lt;T&gt;&gt; </div>
+template&lt;class T , class Container  = std::deque&lt; T &gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">

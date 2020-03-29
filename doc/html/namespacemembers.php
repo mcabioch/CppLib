@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
+				$text = "Generated on Thu Mar 26 2020 23:11:06 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('namespacemembers.php','');});
 : <a class="el" href="d0/d3e/a00253.php#a50b5129023a76b3bdb0bd01ee9e8b72e">mcd</a>
 </li>
 <li>array1Dto2D()
-: <a class="el" href="d0/d3e/a00253.php#a040a2aa0625adc9f13e6568d906a20a2">mcd</a>
+: <a class="el" href="d0/d3e/a00253.php#a25ccd89a356e58d7653bd783306d2942">mcd</a>
 </li>
 <li>array2Dto1D()
 : <a class="el" href="d0/d3e/a00253.php#af1c42a8b9412d2afa3b486c5e629f752">mcd</a>
@@ -127,7 +127,7 @@ $(document).ready(function(){initNavTree('namespacemembers.php','');});
 : <a class="el" href="d0/d3e/a00253.php#a8855b382bd52d4baffe3633dbe8fa3ed">mcd</a>
 </li>
 <li>Chromosomes
-: <a class="el" href="d7/d03/a00254.php#a426a264eaeddb81e086d8ebf1d3a88d0">mcd::natural</a>
+: <a class="el" href="d7/d03/a00254.php#a188924fe6c7007fd322ebe9ece4bb4b6">mcd::natural</a>
 </li>
 <li>collidesC()
 : <a class="el" href="d0/d3e/a00253.php#ace8a4328114062b56cf578ad92df821f">mcd</a>
@@ -218,7 +218,7 @@ $(document).ready(function(){initNavTree('namespacemembers.php','');});
 
 <h3><a id="index_g"></a>- g -</h3><ul>
 <li>Genes
-: <a class="el" href="d7/d03/a00254.php#a1de74d1bec8d79371ec3baad4d85898a">mcd::natural</a>
+: <a class="el" href="d7/d03/a00254.php#aed19377fb7721df1a451d93af0c19950">mcd::natural</a>
 </li>
 <li>getall()
 : <a class="el" href="d0/d3e/a00253.php#ad903ee1a5cdf033a289168423cc0cf46">mcd</a>
@@ -439,7 +439,7 @@ $(document).ready(function(){initNavTree('namespacemembers.php','');});
 : <a class="el" href="d0/d3e/a00253.php#ae61cb7564bc3b0ccbcad0b991b74635d">mcd</a>
 </li>
 <li>rewrite()
-: <a class="el" href="d0/d3e/a00253.php#a4462e6059998aa718e92fd11fd9747e8">mcd</a>
+: <a class="el" href="d0/d3e/a00253.php#a71d86de24ac44a702d65c29bcb96c686">mcd</a>
 </li>
 <li>RIGHT
 : <a class="el" href="d0/d3e/a00253.php#ae3ee27656d8eb6e8a09407841cd00898a13d6f38e0f10d479e85a13dcf6a8957f">mcd</a>
@@ -481,11 +481,17 @@ $(document).ready(function(){initNavTree('namespacemembers.php','');});
 <li>sortDesc()
 : <a class="el" href="d0/d3e/a00253.php#a45ad9c2ac4a373fdad27e51c1c741d76">mcd</a>
 </li>
+<li>sortMapValuesAsc()
+: <a class="el" href="d0/d3e/a00253.php#af3638871c13207c94b12eb5760dadf6f">mcd</a>
+</li>
+<li>sortMapValuesDesc()
+: <a class="el" href="d0/d3e/a00253.php#a5ed3b7735514675ef4f03b28d5b7b4a3">mcd</a>
+</li>
 <li>SPEC
 : <a class="el" href="d0/d3e/a00253.php#a372ef82d72716aed789680d0a84c06d3a0d613d61e790e44c8751022bbc7f2555">mcd</a>
 </li>
 <li>split()
-: <a class="el" href="d0/d3e/a00253.php#a3f5effb1d0789a63d9c71c5549f3eacf">mcd</a>
+: <a class="el" href="d0/d3e/a00253.php#a5257fd1ac4e72cf72335af2444a8bea9">mcd</a>
 </li>
 <li>sq()
 : <a class="el" href="d0/d3e/a00253.php#a31eb09e89b0015d54768c4510e59c780">mcd</a>
@@ -572,10 +578,10 @@ $(document).ready(function(){initNavTree('namespacemembers.php','');});
 
 <h3><a id="index_v"></a>- v -</h3><ul>
 <li>vector2DPrint()
-: <a class="el" href="d0/d3e/a00253.php#a5095d23c94c5ba1afddd4056d7693b83">mcd</a>
+: <a class="el" href="d0/d3e/a00253.php#aa9364f91b9303a9a63793512ad3f18e4">mcd</a>
 </li>
 <li>vector2DPrintInverted()
-: <a class="el" href="d0/d3e/a00253.php#a5c56a8e6976a66e7e7adb11948963657">mcd</a>
+: <a class="el" href="d0/d3e/a00253.php#aac3317dd3d37f382f940ee207bd4dd8e">mcd</a>
 </li>
 <li>vector_str
 : <a class="el" href="d0/d3e/a00253.php#a20cc1353da1673066a19b886e7e5c61e">mcd</a>

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
+				$text = "Generated on Thu Mar 26 2020 23:11:06 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -137,6 +137,9 @@ $(document).ready(function(){initNavTree('functions_eval.php','');});
 </li>
 <li>RANGED_INT
 : <a class="el" href="df/dbc/a01004.php#a29dd9b8ac897a110f7047c2912ebd2e0a30cd035484abb297f1f5503dd95b94fd">mcd::natural::Gene</a>
+</li>
+<li>STATIC
+: <a class="el" href="df/dbc/a01004.php#a29dd9b8ac897a110f7047c2912ebd2e0a11190a1a9c9f6f59c60d10762eb91896">mcd::natural::Gene</a>
 </li>
 <li>Warn
 : <a class="el" href="d0/d43/a01020.php#a25d94050e8e7f91c7e1f02ddc2af8e95a97b60120ff602c7d5050124927962f79">mcd::Logger</a>

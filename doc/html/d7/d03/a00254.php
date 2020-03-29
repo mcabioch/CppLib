@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
+				$text = "Generated on Thu Mar 26 2020 23:11:06 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -112,40 +112,40 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a426a264eaeddb81e086d8ebf1d3a88d0"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../de/d62/a00924.php">Chromosome</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d03/a00254.php#a426a264eaeddb81e086d8ebf1d3a88d0">Chromosomes</a></td></tr>
-<tr class="separator:a426a264eaeddb81e086d8ebf1d3a88d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1de74d1bec8d79371ec3baad4d85898a"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../df/dbc/a01004.php">Gene</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d03/a00254.php#a1de74d1bec8d79371ec3baad4d85898a">Genes</a></td></tr>
-<tr class="separator:a1de74d1bec8d79371ec3baad4d85898a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188924fe6c7007fd322ebe9ece4bb4b6"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../de/d62/a00924.php">Chromosome</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d03/a00254.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a></td></tr>
+<tr class="separator:a188924fe6c7007fd322ebe9ece4bb4b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed19377fb7721df1a451d93af0c19950"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../df/dbc/a01004.php">Gene</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d03/a00254.php#aed19377fb7721df1a451d93af0c19950">Genes</a></td></tr>
+<tr class="separator:aed19377fb7721df1a451d93af0c19950"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a81eb139ff8493e715a8efce3fda3155f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d03/a00254.php#a81eb139ff8493e715a8efce3fda3155f">transfer</a> (const <a class="el" href="../../d7/d03/a00254.php#a1de74d1bec8d79371ec3baad4d85898a">Genes</a> &amp;in, <a class="el" href="../../d7/d03/a00254.php#a1de74d1bec8d79371ec3baad4d85898a">Genes</a> &amp;out)</td></tr>
+<tr class="memitem:a81eb139ff8493e715a8efce3fda3155f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d03/a00254.php#a81eb139ff8493e715a8efce3fda3155f">transfer</a> (const <a class="el" href="../../d7/d03/a00254.php#aed19377fb7721df1a451d93af0c19950">Genes</a> &amp;in, <a class="el" href="../../d7/d03/a00254.php#aed19377fb7721df1a451d93af0c19950">Genes</a> &amp;out)</td></tr>
 <tr class="memdesc:a81eb139ff8493e715a8efce3fda3155f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfer a vector of <a class="el" href="../../df/dbc/a01004.php" title="A gene that represent a caracteristic. ">Gene</a> into another one, using the copy method.  <a href="#a81eb139ff8493e715a8efce3fda3155f">More...</a><br /></td></tr>
 <tr class="separator:a81eb139ff8493e715a8efce3fda3155f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a426a264eaeddb81e086d8ebf1d3a88d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a426a264eaeddb81e086d8ebf1d3a88d0">&#9670;&nbsp;</a></span>Chromosomes</h2>
+<a id="a188924fe6c7007fd322ebe9ece4bb4b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a188924fe6c7007fd322ebe9ece4bb4b6">&#9670;&nbsp;</a></span>Chromosomes</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::vector&lt;<a class="el" href="../../de/d62/a00924.php">Chromosome</a>&gt; <a class="el" href="../../d7/d03/a00254.php#a426a264eaeddb81e086d8ebf1d3a88d0">mcd::natural::Chromosomes</a></td>
+          <td class="memname">typedef std::vector&lt; <a class="el" href="../../de/d62/a00924.php">Chromosome</a> &gt; <a class="el" href="../../d7/d03/a00254.php#a188924fe6c7007fd322ebe9ece4bb4b6">mcd::natural::Chromosomes</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a1de74d1bec8d79371ec3baad4d85898a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1de74d1bec8d79371ec3baad4d85898a">&#9670;&nbsp;</a></span>Genes</h2>
+<a id="aed19377fb7721df1a451d93af0c19950"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed19377fb7721df1a451d93af0c19950">&#9670;&nbsp;</a></span>Genes</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::vector&lt;<a class="el" href="../../df/dbc/a01004.php">Gene</a>&gt; <a class="el" href="../../d7/d03/a00254.php#a1de74d1bec8d79371ec3baad4d85898a">mcd::natural::Genes</a></td>
+          <td class="memname">typedef std::vector&lt; <a class="el" href="../../df/dbc/a01004.php">Gene</a> &gt; <a class="el" href="../../d7/d03/a00254.php#aed19377fb7721df1a451d93af0c19950">mcd::natural::Genes</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -162,13 +162,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void mcd::natural::transfer </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d7/d03/a00254.php#a1de74d1bec8d79371ec3baad4d85898a">Genes</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d7/d03/a00254.php#aed19377fb7721df1a451d93af0c19950">Genes</a> &amp;&#160;</td>
           <td class="paramname"><em>in</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/d03/a00254.php#a1de74d1bec8d79371ec3baad4d85898a">Genes</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d03/a00254.php#aed19377fb7721df1a451d93af0c19950">Genes</a> &amp;&#160;</td>
           <td class="paramname"><em>out</em>&#160;</td>
         </tr>
         <tr>

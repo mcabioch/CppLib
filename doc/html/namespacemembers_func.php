@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
+				$text = "Generated on Thu Mar 26 2020 23:11:06 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="d0/d3e/a00253.php#a50868f33f43952d24f8449e883d3fd99">mcd</a>
 </li>
 <li>array1Dto2D()
-: <a class="el" href="d0/d3e/a00253.php#a040a2aa0625adc9f13e6568d906a20a2">mcd</a>
+: <a class="el" href="d0/d3e/a00253.php#a25ccd89a356e58d7653bd783306d2942">mcd</a>
 </li>
 <li>array2Dto1D()
 : <a class="el" href="d0/d3e/a00253.php#af1c42a8b9412d2afa3b486c5e629f752">mcd</a>
@@ -346,7 +346,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 : <a class="el" href="d0/d3e/a00253.php#ae61cb7564bc3b0ccbcad0b991b74635d">mcd</a>
 </li>
 <li>rewrite()
-: <a class="el" href="d0/d3e/a00253.php#a4462e6059998aa718e92fd11fd9747e8">mcd</a>
+: <a class="el" href="d0/d3e/a00253.php#a71d86de24ac44a702d65c29bcb96c686">mcd</a>
 </li>
 <li>rngRange()
 : <a class="el" href="d0/d3e/a00253.php#a95489209bc34099d9508c0e22a279bb0">mcd</a>
@@ -378,6 +378,12 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 </li>
 <li>sortDesc()
 : <a class="el" href="d0/d3e/a00253.php#a45ad9c2ac4a373fdad27e51c1c741d76">mcd</a>
+</li>
+<li>sortMapValuesAsc()
+: <a class="el" href="d0/d3e/a00253.php#af3638871c13207c94b12eb5760dadf6f">mcd</a>
+</li>
+<li>sortMapValuesDesc()
+: <a class="el" href="d0/d3e/a00253.php#a5ed3b7735514675ef4f03b28d5b7b4a3">mcd</a>
 </li>
 <li>split()
 : <a class="el" href="d0/d3e/a00253.php#a3f5effb1d0789a63d9c71c5549f3eacf">mcd</a>
@@ -449,10 +455,10 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 
 <h3><a id="index_v"></a>- v -</h3><ul>
 <li>vector2DPrint()
-: <a class="el" href="d0/d3e/a00253.php#a5095d23c94c5ba1afddd4056d7693b83">mcd</a>
+: <a class="el" href="d0/d3e/a00253.php#aa9364f91b9303a9a63793512ad3f18e4">mcd</a>
 </li>
 <li>vector2DPrintInverted()
-: <a class="el" href="d0/d3e/a00253.php#a5c56a8e6976a66e7e7adb11948963657">mcd</a>
+: <a class="el" href="d0/d3e/a00253.php#aac3317dd3d37f382f940ee207bd4dd8e">mcd</a>
 </li>
 </ul>
 

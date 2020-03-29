@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
+				$text = "Generated on Thu Mar 26 2020 23:11:06 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -97,35 +97,35 @@ $(document).ready(function(){initNavTree('da/d45/a00011.php','../../');});
 <div class="title">array.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;stdexcept&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/dee/a00053.php">C++/check.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../dc/dee/a00053.php">C++/check.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/d79/a00203.php">C++/sorting.hpp</a>&quot;</code><br />
+<code>#include &lt;stdexcept&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for array.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../df/d86/a00012.png" border="0" usemap="#array_8hpp" alt=""/></div>
 <map name="array_8hpp" id="array_8hpp">
-<area shape="rect" id="node3" href="../../dc/dee/a00053.php" title="C++/check.hpp" alt="" coords="589,80,701,107"/>
-<area shape="rect" id="node47" href="../../de/d79/a00203.php" title="C++/sorting.hpp" alt="" coords="727,80,843,107"/>
-<area shape="rect" id="node6" href="../../d2/dc8/a00242.php" title="C++/vector.hpp" alt="" coords="730,155,843,181"/>
-<area shape="rect" id="node41" href="../../df/d03/a00062.php" title="C++/collides.hpp" alt="" coords="585,155,706,181"/>
-<area shape="rect" id="node7" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="751,229,913,256"/>
-<area shape="rect" id="node14" href="../../d9/dd0/a00191.php" title="C++/pointers.hpp" alt="" coords="713,528,836,555"/>
-<area shape="rect" id="node15" href="../../d7/d40/a00236.php" title="C++/types.hpp" alt="" coords="612,603,721,629"/>
-<area shape="rect" id="node17" href="../../d3/d52/a00023.php" title="Big.hpp" alt="" coords="633,677,700,704"/>
-<area shape="rect" id="node36" href="../../d6/de1/a00233.php" title="C++/Tree.hpp" alt="" coords="506,677,609,704"/>
-<area shape="rect" id="node37" href="../../dc/d57/a00194.php" title="PureVirtual.hpp" alt="" coords="725,677,835,704"/>
-<area shape="rect" id="node38" href="../../d0/d27/a00239.php" title="UsefullDefines.hpp" alt="" coords="860,677,993,704"/>
-<area shape="rect" id="node18" href="../../d6/d7d/a00161.php" title="C++/OsDetection.hpp" alt="" coords="322,752,473,779"/>
-<area shape="rect" id="node32" href="../../d5/d16/a00029.php" title="C++/Big_Constructor.hpp" alt="" coords="1035,752,1205,779"/>
-<area shape="rect" id="node33" href="../../d4/d8c/a00035.php" title="C++/Big_Operator.hpp" alt="" coords="497,752,650,779"/>
-<area shape="rect" id="node34" href="../../d6/d5b/a00026.php" title="C++/Big_Comparison.hpp" alt="" coords="675,752,848,779"/>
-<area shape="rect" id="node35" href="../../dc/d87/a00032.php" title="C++/Big_Maths.hpp" alt="" coords="872,752,1011,779"/>
-<area shape="rect" id="node20" href="../../df/dc8/a00122.php" title="C++/lowIncludes.hpp" alt="" coords="391,827,537,853"/>
-<area shape="rect" id="node42" href="../../de/d76/a00134.php" title="C++/Matrix.hpp" alt="" coords="543,229,657,256"/>
-<area shape="rect" id="node43" href="../../d4/d3a/a00101.php" title="C++/Fraction.hpp" alt="" coords="419,304,543,331"/>
-<area shape="rect" id="node44" href="../../d7/d06/a00131.php" title="C++/maths.hpp" alt="" coords="425,379,538,405"/>
-<area shape="rect" id="node45" href="../../d8/d41/a00038.php" title="C++/Binary.hpp" alt="" coords="671,453,785,480"/>
+<area shape="rect" id="node2" href="../../dc/dee/a00053.php" title="C++/check.hpp" alt="" coords="589,80,701,107"/>
+<area shape="rect" id="node46" href="../../de/d79/a00203.php" title="C++/sorting.hpp" alt="" coords="727,80,843,107"/>
+<area shape="rect" id="node5" href="../../d2/dc8/a00242.php" title="C++/vector.hpp" alt="" coords="730,155,843,181"/>
+<area shape="rect" id="node40" href="../../df/d03/a00062.php" title="C++/collides.hpp" alt="" coords="585,155,706,181"/>
+<area shape="rect" id="node6" href="../../d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="751,229,913,256"/>
+<area shape="rect" id="node13" href="../../d9/dd0/a00191.php" title="C++/pointers.hpp" alt="" coords="713,528,836,555"/>
+<area shape="rect" id="node14" href="../../d7/d40/a00236.php" title="C++/types.hpp" alt="" coords="612,603,721,629"/>
+<area shape="rect" id="node16" href="../../d3/d52/a00023.php" title="Big.hpp" alt="" coords="633,677,700,704"/>
+<area shape="rect" id="node35" href="../../d6/de1/a00233.php" title="C++/Tree.hpp" alt="" coords="506,677,609,704"/>
+<area shape="rect" id="node36" href="../../dc/d57/a00194.php" title="PureVirtual.hpp" alt="" coords="725,677,835,704"/>
+<area shape="rect" id="node37" href="../../d0/d27/a00239.php" title="UsefullDefines.hpp" alt="" coords="860,677,993,704"/>
+<area shape="rect" id="node17" href="../../d6/d7d/a00161.php" title="C++/OsDetection.hpp" alt="" coords="322,752,473,779"/>
+<area shape="rect" id="node31" href="../../d5/d16/a00029.php" title="C++/Big_Constructor.hpp" alt="" coords="1035,752,1205,779"/>
+<area shape="rect" id="node32" href="../../d4/d8c/a00035.php" title="C++/Big_Operator.hpp" alt="" coords="497,752,650,779"/>
+<area shape="rect" id="node33" href="../../d6/d5b/a00026.php" title="C++/Big_Comparison.hpp" alt="" coords="675,752,848,779"/>
+<area shape="rect" id="node34" href="../../dc/d87/a00032.php" title="C++/Big_Maths.hpp" alt="" coords="872,752,1011,779"/>
+<area shape="rect" id="node19" href="../../df/dc8/a00122.php" title="C++/lowIncludes.hpp" alt="" coords="391,827,537,853"/>
+<area shape="rect" id="node41" href="../../de/d76/a00134.php" title="C++/Matrix.hpp" alt="" coords="543,229,657,256"/>
+<area shape="rect" id="node42" href="../../d4/d3a/a00101.php" title="C++/Fraction.hpp" alt="" coords="419,304,543,331"/>
+<area shape="rect" id="node43" href="../../d7/d06/a00131.php" title="C++/maths.hpp" alt="" coords="425,379,538,405"/>
+<area shape="rect" id="node44" href="../../d8/d41/a00038.php" title="C++/Binary.hpp" alt="" coords="671,453,785,480"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -218,10 +218,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a0029a835651d350c925a43fd718ab590"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a0029a835651d350c925a43fd718ab590">mcd::print_r</a> (const Array &amp;a)</td></tr>
 <tr class="memdesc:a0029a835651d350c925a43fd718ab590"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="../../d0/d3e/a00253.php#a0029a835651d350c925a43fd718ab590">More...</a><br /></td></tr>
 <tr class="separator:a0029a835651d350c925a43fd718ab590"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4462e6059998aa718e92fd11fd9747e8"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:a4462e6059998aa718e92fd11fd9747e8"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a4462e6059998aa718e92fd11fd9747e8">mcd::rewrite</a> (const std::vector&lt; V &gt; &amp;table, unsigned index)</td></tr>
-<tr class="memdesc:a4462e6059998aa718e92fd11fd9747e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="../../d0/d3e/a00253.php#a4462e6059998aa718e92fd11fd9747e8">More...</a><br /></td></tr>
-<tr class="separator:a4462e6059998aa718e92fd11fd9747e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d86de24ac44a702d65c29bcb96c686"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a71d86de24ac44a702d65c29bcb96c686"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a71d86de24ac44a702d65c29bcb96c686">mcd::rewrite</a> (const std::vector&lt; V &gt; &amp;table, unsigned index)</td></tr>
+<tr class="memdesc:a71d86de24ac44a702d65c29bcb96c686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="../../d0/d3e/a00253.php#a71d86de24ac44a702d65c29bcb96c686">More...</a><br /></td></tr>
+<tr class="separator:a71d86de24ac44a702d65c29bcb96c686"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad53bf266a5db5dc112e71ebe3c78946e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ad53bf266a5db5dc112e71ebe3c78946e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#ad53bf266a5db5dc112e71ebe3c78946e">mcd::contains</a> (const std::vector&lt; T &gt; &amp;table, T value)</td></tr>
 <tr class="memdesc:ad53bf266a5db5dc112e71ebe3c78946e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a vector contains or not something.  <a href="../../d0/d3e/a00253.php#ad53bf266a5db5dc112e71ebe3c78946e">More...</a><br /></td></tr>
@@ -232,20 +232,26 @@ Functions</h2></td></tr>
 <tr class="separator:a5996fcf8097a903a5461a6035ff0f98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1c42a8b9412d2afa3b486c5e629f752"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#af1c42a8b9412d2afa3b486c5e629f752">mcd::array2Dto1D</a> (size_t x, size_t y, size_t maxX)</td></tr>
 <tr class="separator:af1c42a8b9412d2afa3b486c5e629f752"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a040a2aa0625adc9f13e6568d906a20a2"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a040a2aa0625adc9f13e6568d906a20a2">mcd::array1Dto2D</a> (size_t index, size_t maxX)</td></tr>
-<tr class="separator:a040a2aa0625adc9f13e6568d906a20a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25ccd89a356e58d7653bd783306d2942"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a25ccd89a356e58d7653bd783306d2942">mcd::array1Dto2D</a> (size_t index, size_t maxX)</td></tr>
+<tr class="separator:a25ccd89a356e58d7653bd783306d2942"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53a33cf86c36584f92495307f8e68a00"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a53a33cf86c36584f92495307f8e68a00">mcd::array2Dto1D</a> (const Point &amp;pt, size_t maxX)</td></tr>
 <tr class="separator:a53a33cf86c36584f92495307f8e68a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5095d23c94c5ba1afddd4056d7693b83"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a5095d23c94c5ba1afddd4056d7693b83"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a5095d23c94c5ba1afddd4056d7693b83">mcd::vector2DPrint</a> (const std::vector&lt; std::vector&lt; T &gt;&gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
-<tr class="separator:a5095d23c94c5ba1afddd4056d7693b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c56a8e6976a66e7e7adb11948963657"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a5c56a8e6976a66e7e7adb11948963657"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a5c56a8e6976a66e7e7adb11948963657">mcd::vector2DPrintInverted</a> (const std::vector&lt; std::vector&lt; T &gt;&gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
-<tr class="separator:a5c56a8e6976a66e7e7adb11948963657"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9364f91b9303a9a63793512ad3f18e4"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aa9364f91b9303a9a63793512ad3f18e4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#aa9364f91b9303a9a63793512ad3f18e4">mcd::vector2DPrint</a> (const std::vector&lt; std::vector&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
+<tr class="separator:aa9364f91b9303a9a63793512ad3f18e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3317dd3d37f382f940ee207bd4dd8e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aac3317dd3d37f382f940ee207bd4dd8e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#aac3317dd3d37f382f940ee207bd4dd8e">mcd::vector2DPrintInverted</a> (const std::vector&lt; std::vector&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout, int shift=0)</td></tr>
+<tr class="separator:aac3317dd3d37f382f940ee207bd4dd8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3638871c13207c94b12eb5760dadf6f"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
+<tr class="memitem:af3638871c13207c94b12eb5760dadf6f"><td class="memTemplItemLeft" align="right" valign="top">std::set&lt; std::pair&lt; T, U &gt;, std::function&lt; bool(std::pair&lt; T, U &gt;, std::pair&lt; T, U &gt;) &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#af3638871c13207c94b12eb5760dadf6f">mcd::sortMapValuesAsc</a> (std::map&lt; T, U &gt; array)</td></tr>
+<tr class="separator:af3638871c13207c94b12eb5760dadf6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ed3b7735514675ef4f03b28d5b7b4a3"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
+<tr class="memitem:a5ed3b7735514675ef4f03b28d5b7b4a3"><td class="memTemplItemLeft" align="right" valign="top">std::set&lt; std::pair&lt; T, U &gt;, std::function&lt; bool(std::pair&lt; T, U &gt;, std::pair&lt; T, U &gt;) &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d3e/a00253.php#a5ed3b7735514675ef4f03b28d5b7b4a3">mcd::sortMapValuesDesc</a> (std::map&lt; T, U &gt; array)</td></tr>
+<tr class="separator:a5ed3b7735514675ef4f03b28d5b7b4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : February, 12 2020 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Last modification : March, 26 2020 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

@@ -39,7 +39,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Thu Feb 13 2020 00:03:59 for C++ by";
+				$text = "Generated on Thu Mar 26 2020 23:11:06 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -114,7 +114,8 @@ Public Types</h2></td></tr>
 <a class="el" href="../../df/dbc/a01004.php#a29dd9b8ac897a110f7047c2912ebd2e0a30cd035484abb297f1f5503dd95b94fd">RANGED_INT</a>, 
 <br />
 &#160;&#160;<a class="el" href="../../df/dbc/a01004.php#a29dd9b8ac897a110f7047c2912ebd2e0a31801000c46cfa54c27b6f7bcef2afa5">RANGED_FLOAT</a>, 
-<a class="el" href="../../df/dbc/a01004.php#a29dd9b8ac897a110f7047c2912ebd2e0a4015002ac12a4c3852ba72131800aa26">LISTED</a>
+<a class="el" href="../../df/dbc/a01004.php#a29dd9b8ac897a110f7047c2912ebd2e0a4015002ac12a4c3852ba72131800aa26">LISTED</a>, 
+<a class="el" href="../../df/dbc/a01004.php#a29dd9b8ac897a110f7047c2912ebd2e0a11190a1a9c9f6f59c60d10762eb91896">STATIC</a>
 <br />
  }</td></tr>
 <tr class="separator:a29dd9b8ac897a110f7047c2912ebd2e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,6 +183,7 @@ Friends</h2></td></tr>
 <tr><td class="fieldname"><a id="a29dd9b8ac897a110f7047c2912ebd2e0a30cd035484abb297f1f5503dd95b94fd"></a>RANGED_INT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a29dd9b8ac897a110f7047c2912ebd2e0a31801000c46cfa54c27b6f7bcef2afa5"></a>RANGED_FLOAT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a29dd9b8ac897a110f7047c2912ebd2e0a4015002ac12a4c3852ba72131800aa26"></a>LISTED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a29dd9b8ac897a110f7047c2912ebd2e0a11190a1a9c9f6f59c60d10762eb91896"></a>STATIC&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
