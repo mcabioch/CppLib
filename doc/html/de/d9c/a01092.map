@@ -1,2 +1,5 @@
-<map id="mcd::quatuor&lt; T, U, V, W &gt;" name="mcd::quatuor&lt; T, U, V, W &gt;">
+<map id="mcd::stack&lt; T, Container &gt;" name="mcd::stack&lt; T, Container &gt;">
+<area shape="rect" id="node1" title="An implementation of std::stack." alt="" coords="5,185,187,212"/>
+<area shape="rect" id="node2" title="STL class." alt="" coords="34,95,158,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="77,5,115,32"/>
 </map>

@@ -1,130 +1,137 @@
 var hierarchy =
 [
-    [ "mcd::Arguments", "d8/db7/a00812.php", null ],
-    [ "mcd::Assert", "d3/d13/a00836.php", null ],
-    [ "mcd::AssertionLocationStruct", "d0/d3e/a00253.php#d0/d08/a00832", null ],
-    [ "mcd::Big", "d3/d69/a00844.php", null ],
-    [ "mcd::Binary< T, Enable >", "d0/d3e/a00253.php#d9/d30/a00848", null ],
-    [ "mcd::Binary< T, typename std::enable_if_t< std::is_arithmetic< T >::value, void > >", "d9/dbb/a00852.php", null ],
-    [ "mcd::natural::Cell", "da/de3/a00856.php", null ],
-    [ "mcd::natural::Chromosome", "de/d62/a00924.php", null ],
-    [ "mcd::Clock", "dd/d38/a00928.php", null ],
-    [ "mcd::Color", "d8/dbb/a00932.php", [
-      [ "mcd::Cls", "d7/db6/a00940.php", null ],
-      [ "mcd::Reinit", "dc/d2b/a00936.php", null ]
+    [ "mcd::Arguments", "de/d1c/a01093.php", null ],
+    [ "mcd::Assert", "d6/d8b/a01117.php", null ],
+    [ "mcd::AssertionLocationStruct", "da/d53/a00265.php#d8/ded/a01113", null ],
+    [ "mcd::Big", "d6/dc4/a01125.php", null ],
+    [ "mcd::Binary< T, Enable >", "da/d53/a00265.php#d9/d17/a01129", null ],
+    [ "mcd::Binary< T, typename std::enable_if_t< std::is_arithmetic< T >::value, void > >", "db/d28/a01133.php", null ],
+    [ "mcd::natural::Cell", "d6/d6e/a01137.php", null ],
+    [ "mcd::natural::Chromosome", "de/d61/a01205.php", null ],
+    [ "mcd::Clock", "de/d04/a01209.php", null ],
+    [ "mcd::Color", "d5/d54/a01213.php", [
+      [ "mcd::Cls", "dd/d3f/a01221.php", null ],
+      [ "mcd::Reinit", "da/d19/a01217.php", null ]
     ] ],
-    [ "mcd::ConsoleTable", "d3/de5/a00956.php", null ],
-    [ "mcd::Contraption", "dd/d11/a00960.php", [
-      [ "mcd::Entity", "d3/daa/a00996.php", [
-        [ "mcd::Animal", "d1/dd1/a00804.php", [
-          [ "mcd::Ant", "d7/dc8/a00808.php", null ]
+    [ "mcd::ConsoleTable", "d3/d07/a01241.php", null ],
+    [ "mcd::Contraption", "d1/d31/a01245.php", [
+      [ "mcd::Entity", "d5/d6f/a01281.php", [
+        [ "mcd::Animal", "d2/df3/a01085.php", [
+          [ "mcd::Ant", "d3/dc4/a01089.php", null ]
         ] ],
-        [ "mcd::Vegetal", "d9/d42/a01156.php", [
-          [ "mcd::Mushroom", "db/d14/a01040.php", null ],
-          [ "mcd::Plant", "d9/d67/a01080.php", null ]
+        [ "mcd::Vegetal", "d9/dae/a01453.php", [
+          [ "mcd::Mushroom", "db/dec/a01337.php", null ],
+          [ "mcd::Plant", "d3/dea/a01377.php", null ]
         ] ]
       ] ],
-      [ "mcd::Object", "d9/dce/a01052.php", [
-        [ "mcd::Stone", "d0/d39/a01112.php", null ]
+      [ "mcd::Object", "de/d6c/a01349.php", [
+        [ "mcd::Stone", "d9/d6e/a01409.php", null ]
       ] ]
     ] ],
-    [ "mcd::ContraptionAttr", "d0/d3e/a00253.php#d7/d76/a00992", null ],
-    [ "mcd::Date", "d2/d4c/a00984.php", [
-      [ "mcd::DateTime", "d6/d48/a00988.php", null ]
+    [ "mcd::ContraptionAttr", "da/d53/a00265.php#d2/d1d/a01277", null ],
+    [ "mcd::Date", "d6/d16/a01269.php", [
+      [ "mcd::DateTime", "de/d85/a01273.php", null ]
     ] ],
     [ "std::exception", null, [
-      [ "mcd::AssertionException", "d9/d61/a00840.php", null ],
-      [ "mcd::PathfindingException", "d6/d6a/a01072.php", null ]
+      [ "mcd::exception", "d1/d1a/a01285.php", [
+        [ "mcd::AssertionException", "dd/de4/a01121.php", null ],
+        [ "mcd::JsonException", "de/d90/a01313.php", null ],
+        [ "mcd::PathfindingException", "d1/d17/a01369.php", null ]
+      ] ]
     ] ],
-    [ "mcd::Fraction", "d7/df2/a01000.php", null ],
-    [ "mcd::natural::Gene", "df/dbc/a01004.php", null ],
-    [ "mcd::Check::has_istream_operator< T >", "d8/d0a/a00904.php", null ],
-    [ "mcd::Check::has_ostream_operator< T >", "da/dd6/a00896.php", null ],
-    [ "mcd::Check::has_size_method< T >", "d0/de2/a00892.php", null ],
-    [ "mcd::Hostile", "dd/dac/a01008.php", [
-      [ "mcd::Animal", "d1/dd1/a00804.php", null ]
+    [ "mcd::Fraction", "d9/dda/a01289.php", null ],
+    [ "mcd::natural::Gene", "dc/dd5/a01293.php", null ],
+    [ "mcd::Check::has_istream_operator< T >", "d3/dd3/a01185.php", null ],
+    [ "mcd::Check::has_ostream_operator< T >", "dc/d98/a01177.php", null ],
+    [ "mcd::Check::has_size_method< T >", "d7/d0c/a01173.php", null ],
+    [ "mcd::Hostile", "dc/d8c/a01297.php", [
+      [ "mcd::Animal", "d2/df3/a01085.php", null ]
     ] ],
-    [ "mcd::Identifier", "d4/d45/a01012.php", [
-      [ "mcd::Player< PlayerParent >", "da/d93/a01084.php", null ]
+    [ "mcd::Identifier", "d3/d07/a01301.php", [
+      [ "mcd::Player< PlayerParent >", "da/d77/a01381.php", null ]
     ] ],
-    [ "mcd::IOConfig", "de/def/a01016.php", null ],
+    [ "mcd::IOConfig", "dc/d9e/a01305.php", null ],
     [ "std::ios_base", null, [
       [ "std::basic_ios< Char >", null, [
         [ "std::basic_ostream< Char >", null, [
           [ "std::ostream", null, [
-            [ "mcd::ThreadCout", "de/d49/a00952.php", null ]
+            [ "mcd::ThreadCout", "d6/da1/a01233.php", null ]
           ] ]
         ] ]
       ] ]
     ] ],
-    [ "mcd::Check::is_array< T >", "d7/d1b/a00864.php", null ],
-    [ "mcd::Check::is_duration< T >", "dd/d94/a00888.php", null ],
-    [ "mcd::Check::is_minded_ptr< T >", "de/d9c/a01092.php", null ],
-    [ "mcd::Check::is_object< T >", "d6/d66/a00916.php", null ],
-    [ "mcd::Check::is_pair< T >", "da/d5b/a00868.php", null ],
-    [ "mcd::Check::is_printable< T >", "df/da5/a00912.php", null ],
-    [ "mcd::Check::is_quatuor< T >", "d2/dac/a00876.php", null ],
-    [ "mcd::Check::is_smatch< T >", "dd/d08/a00884.php", null ],
-    [ "mcd::Check::is_special_struct< T >", "d6/d82/a00920.php", null ],
-    [ "mcd::Check::is_string< T >", "d1/d8f/a00880.php", null ],
-    [ "mcd::Check::is_thread_ptr< T >", "d2/d20/a01096.php", null ],
-    [ "mcd::Check::is_trio< T >", "dc/d17/a00872.php", null ],
-    [ "mcd::Check::is_vector< T >", "d2/d5e/a00860.php", null ],
-    [ "mcd::Logger", "d0/d43/a01020.php", null ],
-    [ "mcd::Map", "df/d89/a01032.php", null ],
-    [ "mcd::MapMove", "d0/d3e/a00253.php#db/d08/a01028", null ],
-    [ "mcd::Matrix< C >", "d8/d79/a01036.php", null ],
-    [ "mcd::Node< T >", "d0/d3e/a00253.php#d6/de6/a01132", null ],
-    [ "mcd::NotCopyable", "d0/ddd/a01044.php", [
-      [ "mcd::Crypto", "da/d17/a00964.php", [
-        [ "mcd::Cesar", "d7/dd4/a00968.php", null ],
-        [ "mcd::MyCrypt", "d0/d85/a00976.php", null ],
-        [ "mcd::RSA", "db/d20/a00980.php", null ],
-        [ "mcd::SHA2", "de/d4e/a00972.php", null ]
+    [ "mcd::Check::is_array< T >", "d9/d65/a01145.php", null ],
+    [ "mcd::Check::is_duration< T >", "d7/daf/a01169.php", null ],
+    [ "mcd::Check::is_minded_ptr< T >", "d0/d95/a01389.php", null ],
+    [ "mcd::Check::is_object< T >", "d4/d10/a01197.php", null ],
+    [ "mcd::Check::is_pair< T >", "d8/d02/a01149.php", null ],
+    [ "mcd::Check::is_printable< T >", "dd/d43/a01193.php", null ],
+    [ "mcd::Check::is_quatuor< T >", "d9/d25/a01157.php", null ],
+    [ "mcd::Check::is_smatch< T >", "d8/d92/a01165.php", null ],
+    [ "mcd::Check::is_special_struct< T >", "de/df7/a01201.php", null ],
+    [ "mcd::Check::is_string< T >", "dc/d81/a01161.php", null ],
+    [ "mcd::Check::is_thread_ptr< T >", "d3/d92/a01393.php", null ],
+    [ "mcd::Check::is_trio< T >", "dc/d06/a01153.php", null ],
+    [ "mcd::Check::is_vector< T >", "de/df6/a01141.php", null ],
+    [ "mcd::Json", "db/d4b/a01309.php", null ],
+    [ "mcd::Logger", "df/db8/a01317.php", null ],
+    [ "mcd::Map", "df/d29/a01329.php", null ],
+    [ "mcd::MapMove", "da/d53/a00265.php#dd/d5d/a01325", null ],
+    [ "mcd::Matrix< C >", "dc/d2a/a01333.php", null ],
+    [ "mcd::Node< T >", "da/d53/a00265.php#d1/d3b/a01429", null ],
+    [ "mcd::NotCopyable", "de/da0/a01341.php", [
+      [ "mcd::Crypto", "d3/d7b/a01249.php", [
+        [ "mcd::Cesar", "d3/d0b/a01253.php", null ],
+        [ "mcd::MyCrypt", "de/d34/a01261.php", null ],
+        [ "mcd::RSA", "da/dd8/a01265.php", null ],
+        [ "mcd::SHA2", "d9/de7/a01257.php", null ]
       ] ]
     ] ],
-    [ "mcd::NotInstantiable", "d5/de7/a01048.php", null ],
-    [ "mcd::Path", "d5/d16/a01060.php", null ],
-    [ "mcd::Pathfinding", "d9/db3/a01064.php", [
-      [ "mcd::PathfindingDijkstra", "d1/de6/a01068.php", null ]
+    [ "mcd::NotInstantiable", "d4/deb/a01345.php", null ],
+    [ "mcd::Path", "df/d10/a01357.php", null ],
+    [ "mcd::Pathfinding", "d2/d1f/a01361.php", [
+      [ "mcd::PathfindingDijkstra", "d7/d81/a01365.php", null ]
     ] ],
-    [ "mcd::PathfindingNode", "dc/d19/a01056.php", null ],
-    [ "mcd::PathfindingProblem", "d6/d80/a01076.php", null ],
+    [ "mcd::PathfindingNode", "d4/dad/a01353.php", null ],
+    [ "mcd::PathfindingProblem", "d7/d38/a01373.php", null ],
     [ "PlayerParent", null, [
-      [ "mcd::PlayerAbstraction< PlayerParent >", "da/db7/a01088.php", [
-        [ "mcd::Player< PlayerParent >", "da/d93/a01084.php", null ]
+      [ "mcd::PlayerAbstraction< PlayerParent >", "df/d68/a01385.php", [
+        [ "mcd::Player< PlayerParent >", "da/d77/a01381.php", null ]
       ] ]
     ] ],
-    [ "mcd::Point", "db/d17/a01148.php", null ],
-    [ "mcd::PureVirtual", "d3/dbd/a01100.php", [
-      [ "mcd::ConsoleCursor", "d9/dce/a00944.php", null ]
+    [ "mcd::Point", "d9/d6f/a01445.php", null ],
+    [ "mcd::PureVirtual", "d7/d1c/a01397.php", [
+      [ "mcd::ConsoleCursor", "d8/d53/a01225.php", null ]
     ] ],
-    [ "mcd::quatuor< T, U, V, W >", "d0/d3e/a00253.php#db/d51/a01144", null ],
+    [ "mcd::quatuor< T, U, V, W >", "da/d53/a00265.php#d5/df9/a01441", null ],
     [ "std::queue< T >", null, [
-      [ "mcd::queue< T, Container >", "d8/d1c/a00824.php", [
-        [ "mcd::t_queue< T, Container >", "d8/d64/a00828.php", null ]
+      [ "mcd::queue< T, Container >", "de/d1d/a01105.php", null ],
+      [ "mcd::queue< T, std::deque< T > >", "de/d1d/a01105.php", [
+        [ "mcd::t_queue< T, Container >", "d8/dbf/a01109.php", null ]
       ] ]
     ] ],
-    [ "mcd::Referenced< C >", "dd/dcb/a01104.php", null ],
-    [ "mcd::RNG< T, U >", "d2/dd7/a01108.php", null ],
+    [ "mcd::Referenced< C >", "dc/df4/a01401.php", null ],
+    [ "mcd::RNG< T, U >", "d4/d1a/a01405.php", null ],
+    [ "mcd::SetPrecision", "dc/dab/a01237.php", null ],
     [ "std::stack< T >", null, [
-      [ "mcd::stack< T, Container >", "d7/d60/a00816.php", [
-        [ "mcd::t_stack< T, Container >", "dc/d00/a00820.php", null ]
+      [ "mcd::stack< T, Container >", "d1/dfa/a01097.php", null ],
+      [ "mcd::stack< T, std::deque< T > >", "d1/dfa/a01097.php", [
+        [ "mcd::t_stack< T, Container >", "de/d99/a01101.php", null ]
       ] ]
     ] ],
-    [ "mcd::Test", "d4/dc5/a01116.php", null ],
-    [ "mcd::Threadable< C >", "dc/d51/a01120.php", null ],
-    [ "mcd::Threadable< Timer >", "dc/d51/a01120.php", [
-      [ "mcd::Timer", "d9/d12/a01128.php", null ]
+    [ "mcd::Tests::Test", "d7/d68/a01413.php", null ],
+    [ "mcd::Threadable< C >", "de/daf/a01417.php", null ],
+    [ "mcd::Threadable< Timer >", "de/daf/a01417.php", [
+      [ "mcd::Timer", "db/df2/a01425.php", null ]
     ] ],
-    [ "mcd::ThreadEndlCout", "d8/d18/a00948.php", null ],
-    [ "mcd::Time", "d0/dc8/a01124.php", [
-      [ "mcd::DateTime", "d6/d48/a00988.php", null ]
+    [ "mcd::ThreadEndlCout", "db/d1c/a01229.php", null ],
+    [ "mcd::Time", "d4/d20/a01421.php", [
+      [ "mcd::DateTime", "de/d85/a01273.php", null ]
     ] ],
-    [ "mcd::Tree< T >", "d1/dae/a01136.php", null ],
-    [ "mcd::trio< T, U, V >", "d0/d3e/a00253.php#dc/d64/a01140", null ],
+    [ "mcd::Tree< T >", "d2/d9b/a01433.php", null ],
+    [ "mcd::trio< T, U, V >", "da/d53/a00265.php#d9/db0/a01437", null ],
     [ "std::vector< T >", null, [
-      [ "mcd::vector< C >", "d9/d97/a01152.php", null ]
+      [ "mcd::vector< C >", "d2/d95/a01449.php", null ]
     ] ],
-    [ "mcd::WorldDimensions", "d0/d3e/a00253.php#d4/dc5/a01024", null ]
+    [ "mcd::WorldDimensions", "da/d53/a00265.php#d9/d5c/a01321", null ]
 ];

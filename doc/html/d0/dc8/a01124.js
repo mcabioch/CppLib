@@ -1,14 +1,14 @@
 var a01124 =
 [
-    [ "Time", "d0/dc8/a01124.php#ac802213e9ca41cc731f14619534e0249", null ],
-    [ "Time", "d0/dc8/a01124.php#afa17085534ed1da008f6dd39cef039f2", null ],
-    [ "~Time", "d0/dc8/a01124.php#aef071966b669112898476801bf63bcba", null ],
-    [ "get", "d0/dc8/a01124.php#af9360f3323012f2572ffb3f8924fca62", null ],
-    [ "hour", "d0/dc8/a01124.php#afc42ec7546725501d6cd8eb069e92a52", null ],
-    [ "init", "d0/dc8/a01124.php#a3e19605ece31340f27255a79beb193d4", null ],
-    [ "milli", "d0/dc8/a01124.php#a22a7371879c50752d94338e631ab37a7", null ],
-    [ "minute", "d0/dc8/a01124.php#a56b7fdec50bc1b7f5fb991260cb18104", null ],
-    [ "reset", "d0/dc8/a01124.php#a94d4610fef5db9db60ca31d7d64230dc", null ],
-    [ "second", "d0/dc8/a01124.php#a5a3510ec96b9698b8cf601a2a1b9d90c", null ],
-    [ "set", "d0/dc8/a01124.php#aa843463db53892a16778dd0d71ec2dad", null ]
+    [ "Cell", "d0/dc8/a01124.php#ae5097d9d7e1fc380e39fe9639ba794c8", null ],
+    [ "~Cell", "d0/dc8/a01124.php#ac7ee113d57e8f75bca4eaa9b3455001a", null ],
+    [ "copy", "d0/dc8/a01124.php#aeb549302dbb6442103933d2a17361580", null ],
+    [ "operator+=", "d0/dc8/a01124.php#a749b7cda25492926ad8bffcbf9d79c3e", null ],
+    [ "Value", "d0/dc8/a01124.php#a01bc934ac059453792f6783b0e919dd1", null ],
+    [ "operator!=", "d0/dc8/a01124.php#a3fe94cf12ffd9d9a1950a7bfcaf98f7b", null ],
+    [ "operator+", "d0/dc8/a01124.php#a27089d4be7e4f07bf6c1943c59b3bf47", null ],
+    [ "operator<<", "d0/dc8/a01124.php#a3b03e2ae2aae5a47673ad2bdb55375ce", null ],
+    [ "operator==", "d0/dc8/a01124.php#a368f58787c40f58441c7eea56a420a82", null ],
+    [ "operator>>", "d0/dc8/a01124.php#a4e8b664ca85bee0d335569bc95a513e8", null ],
+    [ "_chroms", "d0/dc8/a01124.php#ac4bfe0772fac9025654c268c48e6c9b8", null ]
 ];

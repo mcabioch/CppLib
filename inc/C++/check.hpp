@@ -1,370 +1,377 @@
 /*!
-*
-*	\file		check.hpp
-*	\author		Mathias CABIOCH-DELALANDE
-*	\modified	November, 12 2019
-*
-*/
+ *
+ *	\file		check.hpp
+ *	\author		Mathias CABIOCH-DELALANDE
+ *	\modified	November, 12 2019
+ *
+ */
 #ifndef HEADER_CPP_CHECK
 #define HEADER_CPP_CHECK
 
-#include <memory>
-#include <chrono>
+#include "collides.hpp"
+#include "vector.hpp"
 
-#include "C++/vector.hpp"
-#include "C++/collides.hpp"
+#include <chrono>
+#include <memory>
 
 #ifdef OS_WINDOWS
-	#include "boost/chrono.hpp"
+#    include "boost/chrono.hpp"
 
-	namespace mcd {
-		namespace this_thread {
-			template<typename TimeDuration>
-			void yield() noexcept{
-				boost::this_thread::yield();
-			}
+namespace mcd
+{
+    namespace this_thread
+    {
+        template< typename TimeDuration >
+        void yield() noexcept {
+            boost::this_thread::yield();
+        }
 
-			template <class Rep>
-			void sleep_for(const std::chrono::duration<Rep, std::nano>& rel_time){
-				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::nano>(rel_time.count()));
-			}
-			template <class Rep>
-			void sleep_for(const std::chrono::duration<Rep, std::micro>& rel_time){
-				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::micro>(rel_time.count()));
-			}
-			template <class Rep>
-			void sleep_for(const std::chrono::duration<Rep, std::milli>& rel_time){
-				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::milli>(rel_time.count()));
-			}
-			template <class Rep>
-			void sleep_for(const std::chrono::duration<Rep, std::centi>& rel_time){
-				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::centi>(rel_time.count()));
-			}
-			template <class Rep>
-			void sleep_for(const std::chrono::duration<Rep, std::deci>& rel_time){
-				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::deci>(rel_time.count()));
-			}
-			template <class Rep>
-			void sleep_for(const std::chrono::duration<Rep, std::ratio<1>>& rel_time){
-				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::ratio<1>>(rel_time.count()));
-			}
-			template <class Rep>
-			void sleep_for(const std::chrono::duration<Rep, std::deca>& rel_time){
-				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::deca>(rel_time.count()));
-			}
-			template <class Rep>
-			void sleep_for(const std::chrono::duration<Rep, std::hecto>& rel_time){
-				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::hecto>(rel_time.count()));
-			}
-			template <class Rep>
-			void sleep_for(const std::chrono::duration<Rep, std::kilo>& rel_time){
-				boost::this_thread::sleep_for(boost::chrono::duration<Rep, boost::kilo>(rel_time.count()));
-			}
-		}
-	}
+        template< class Rep >
+        void sleep_for(const std::chrono::duration< Rep, std::nano >& rel_time) {
+            boost::this_thread::sleep_for(
+                boost::chrono::duration< Rep, boost::nano >(rel_time.count()));
+        }
+        template< class Rep >
+        void sleep_for(const std::chrono::duration< Rep, std::micro >& rel_time) {
+            boost::this_thread::sleep_for(
+                boost::chrono::duration< Rep, boost::micro >(rel_time.count()));
+        }
+        template< class Rep >
+        void sleep_for(const std::chrono::duration< Rep, std::milli >& rel_time) {
+            boost::this_thread::sleep_for(
+                boost::chrono::duration< Rep, boost::milli >(rel_time.count()));
+        }
+        template< class Rep >
+        void sleep_for(const std::chrono::duration< Rep, std::centi >& rel_time) {
+            boost::this_thread::sleep_for(
+                boost::chrono::duration< Rep, boost::centi >(rel_time.count()));
+        }
+        template< class Rep >
+        void sleep_for(const std::chrono::duration< Rep, std::deci >& rel_time) {
+            boost::this_thread::sleep_for(
+                boost::chrono::duration< Rep, boost::deci >(rel_time.count()));
+        }
+        template< class Rep >
+        void sleep_for(const std::chrono::duration< Rep, std::ratio< 1 > >& rel_time) {
+            boost::this_thread::sleep_for(
+                boost::chrono::duration< Rep, boost::ratio< 1 > >(rel_time.count()));
+        }
+        template< class Rep >
+        void sleep_for(const std::chrono::duration< Rep, std::deca >& rel_time) {
+            boost::this_thread::sleep_for(
+                boost::chrono::duration< Rep, boost::deca >(rel_time.count()));
+        }
+        template< class Rep >
+        void sleep_for(const std::chrono::duration< Rep, std::hecto >& rel_time) {
+            boost::this_thread::sleep_for(
+                boost::chrono::duration< Rep, boost::hecto >(rel_time.count()));
+        }
+        template< class Rep >
+        void sleep_for(const std::chrono::duration< Rep, std::kilo >& rel_time) {
+            boost::this_thread::sleep_for(
+                boost::chrono::duration< Rep, boost::kilo >(rel_time.count()));
+        }
+    }   // namespace this_thread
+}   // namespace mcd
 #else
-	namespace mcd {
-		namespace this_thread {
-			template<typename TimeDuration>
-			void yield() noexcept{
-				std::this_thread::yield();
-			}
+namespace mcd
+{
+    namespace this_thread
+    {
+        template< typename TimeDuration >
+        void yield() noexcept {
+            std::this_thread::yield();
+        }
 
-			template <class Rep, class Period>
-			void sleep_for(const std::chrono::duration<Rep, Period>& rel_time){
-				std::this_thread::sleep_for(rel_time);
-			}
-		}
-	}
+        template< class Rep, class Period >
+        void sleep_for(const std::chrono::duration< Rep, Period >& rel_time) {
+            std::this_thread::sleep_for(rel_time);
+        }
+    }   // namespace this_thread
+}   // namespace mcd
 #endif
 
-namespace mcd {
-	using pair_str = std::pair<std::string, std::string>;
+namespace mcd
+{
+    using pair_str = std::pair< std::string, std::string >;
 
-	namespace Check {
-		/*! \brief	A template class to test if T is a vector */
-		template<typename T>
-		class is_vector{
-			public:
-				const static bool value = false;
-		};
+    namespace Check
+    {
+        /*! \brief	A template class to test if T is a vector */
+        template< typename T >
+        class is_vector {
+            public:
+            const static bool value = false;
+        };
 
-		#ifndef DOXYGEN_SHOULD_SKIP_THIS
-			template<typename T>
-			class is_vector<std::vector<T>>{
-				public:
-					const static bool value = true;
-			};
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
+        template< typename T >
+        class is_vector< std::vector< T > > {
+            public:
+            const static bool value = true;
+        };
 
-			template<typename T>
-			class is_vector<mcd::vector<T>>{
-				public:
-					const static bool value = true;
-			};
-		#endif //DOXYGEN_SHOULD_SKIP_THIS
+        template< typename T >
+        class is_vector< mcd::vector< T > > {
+            public:
+            const static bool value = true;
+        };
+#endif   // DOXYGEN_SHOULD_SKIP_THIS
 
-		/*! \brief	A template class to test if T is an array, a vector or a map */
-		template<typename T>
-		class is_array{
-			public:
-				const static bool value = is_vector<T>::value;
-		};
+        /*! \brief	A template class to test if T is an array, a vector or a map */
+        template< typename T >
+        class is_array {
+            public:
+            const static bool value = is_vector< T >::value;
+        };
 
-		#ifndef DOXYGEN_SHOULD_SKIP_THIS
-			template<typename T>
-			class is_array<std::deque<T>>{
-				public:
-					const static bool value = true;
-			};
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
+        template< typename T >
+        class is_array< std::deque< T > > {
+            public:
+            const static bool value = true;
+        };
 
-			template<typename T, typename U>
-			class is_array<std::map<T, U>>{
-				public:
-					const static bool value = true;
-			};
+        template< typename T, typename U >
+        class is_array< std::map< T, U > > {
+            public:
+            const static bool value = true;
+        };
 
-			template<typename T, std::size_t U>
-			class is_array<std::array<T, U>>{
-				public:
-					const static bool value = true;
-			};
-		#endif //DOXYGEN_SHOULD_SKIP_THIS
+        template< typename T, std::size_t U >
+        class is_array< std::array< T, U > > {
+            public:
+            const static bool value = true;
+        };
+#endif   // DOXYGEN_SHOULD_SKIP_THIS
 
-		/*! \brief	A template class to test if T is a std::pair */
-		template<typename T>
-		class is_pair{
-			public:
-				const static bool value = false;
-		};
+        /*! \brief	A template class to test if T is a std::pair */
+        template< typename T >
+        class is_pair {
+            public:
+            const static bool value = false;
+        };
 
-		#ifndef DOXYGEN_SHOULD_SKIP_THIS
-			template<typename T, typename U>
-			class is_pair<std::pair<T, U>>{
-				public:
-					const static bool value = true;
-			};
-		#endif //DOXYGEN_SHOULD_SKIP_THIS
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
+        template< typename T, typename U >
+        class is_pair< std::pair< T, U > > {
+            public:
+            const static bool value = true;
+        };
+#endif   // DOXYGEN_SHOULD_SKIP_THIS
 
-		/*! \brief	A template class to test if T is a std::pair */
-		template<typename T>
-		class is_trio{
-			public:
-				const static bool value = false;
-		};
+        /*! \brief	A template class to test if T is a std::pair */
+        template< typename T >
+        class is_trio {
+            public:
+            const static bool value = false;
+        };
 
-		#ifndef DOXYGEN_SHOULD_SKIP_THIS
-			template<typename T, typename U, typename V>
-			class is_trio<trio<T, U, V>>{
-				public:
-					const static bool value = true;
-			};
-		#endif //DOXYGEN_SHOULD_SKIP_THIS
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
+        template< typename T, typename U, typename V >
+        class is_trio< trio< T, U, V > > {
+            public:
+            const static bool value = true;
+        };
+#endif   // DOXYGEN_SHOULD_SKIP_THIS
 
-		/*! \brief	A template class to test if T is a std::pair */
-		template<typename T>
-		class is_quatuor{
-			public:
-				const static bool value = false;
-		};
+        /*! \brief	A template class to test if T is a std::pair */
+        template< typename T >
+        class is_quatuor {
+            public:
+            const static bool value = false;
+        };
 
-		#ifndef DOXYGEN_SHOULD_SKIP_THIS
-			template<typename T, typename U, typename V, typename W>
-			class is_quatuor<quatuor<T, U, V, W>>{
-				public:
-					const static bool value = true;
-			};
-		#endif //DOXYGEN_SHOULD_SKIP_THIS
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
+        template< typename T, typename U, typename V, typename W >
+        class is_quatuor< quatuor< T, U, V, W > > {
+            public:
+            const static bool value = true;
+        };
+#endif   // DOXYGEN_SHOULD_SKIP_THIS
 
-		/*! \brief	A template class to test if T is a std::string */
-		template<typename T>
-		class is_string{
-			public:
-				const static bool value = false;
-		};
+        /*! \brief	A template class to test if T is a std::string */
+        template< typename T >
+        class is_string {
+            public:
+            const static bool value = false;
+        };
 
-		#ifndef DOXYGEN_SHOULD_SKIP_THIS
-			template<>
-			class is_string<std::string>{
-				public:
-					const static bool value = true;
-			};
-		#endif //DOXYGEN_SHOULD_SKIP_THIS
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
+        template<>
+        class is_string< std::string > {
+            public:
+            const static bool value = true;
+        };
+#endif   // DOXYGEN_SHOULD_SKIP_THIS
 
-		/*! \brief	A template class to test if T is a string regex match */
-		template<typename T>
-		class is_smatch{
-			public:
-				const static bool value = false;
-		};
+        /*! \brief	A template class to test if T is a string regex match */
+        template< typename T >
+        class is_smatch {
+            public:
+            const static bool value = false;
+        };
 
-		#ifndef DOXYGEN_SHOULD_SKIP_THIS
-			template<>
-			class is_smatch<std::smatch>{
-				public:
-					const static bool value = true;
-			};
-		#endif //DOXYGEN_SHOULD_SKIP_THIS
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
+        template<>
+        class is_smatch< std::smatch > {
+            public:
+            const static bool value = true;
+        };
+#endif   // DOXYGEN_SHOULD_SKIP_THIS
 
-		/*! \brief	A template class to test if T is a chrono::duration */
-		template<class T>
-		class is_duration {
-			public:
-				const static bool value = false;
-		};
+        /*! \brief	A template class to test if T is a chrono::duration */
+        template< class T >
+        class is_duration {
+            public:
+            const static bool value = false;
+        };
 
-		#ifndef DOXYGEN_SHOULD_SKIP_THIS
-			template<class Rep, class Period>
-			class is_duration<std::chrono::duration<Rep, Period>> {
-				public:
-					const static bool value = true;
-			};
-		#endif //DOXYGEN_SHOULD_SKIP_THIS
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
+        template< class Rep, class Period >
+        class is_duration< std::chrono::duration< Rep, Period > > {
+            public:
+            const static bool value = true;
+        };
+#endif   // DOXYGEN_SHOULD_SKIP_THIS
 
-		/*! \brief	Verify if an object has the given method */
-		#define has_method(meth, func)\
-		template<typename T>\
-		class func {\
-			private:\
-				typedef std::true_type yes;\
-				typedef std::false_type no;\
-	\
-				template<typename U>\
-				static auto test(int) -> decltype(std::declval<U>().meth() == 1, yes());\
-				template<typename>\
-				static no test(...);\
-	\
-			public:\
-				func(){}\
-				virtual ~func(){}\
-	\
-				static constexpr bool value = std::is_same<decltype(test<T>(0)), yes>::value;\
-		}
+/*! \brief	Verify if an object has the given method */
+#define has_method(meth, func)                                                                     \
+    template< typename T >                                                                         \
+    class func {                                                                                   \
+        private:                                                                                   \
+        typedef std::true_type  yes;                                                               \
+        typedef std::false_type no;                                                                \
+                                                                                                   \
+        template< typename U >                                                                     \
+        static auto test(int) -> decltype(std::declval< U >().meth() == 1, yes());                 \
+        template< typename >                                                                       \
+        static no test(...);                                                                       \
+                                                                                                   \
+        public:                                                                                    \
+        func() {}                                                                                  \
+        virtual ~func() {}                                                                         \
+                                                                                                   \
+        static constexpr bool value = std::is_same< decltype(test< T >(0)), yes >::value;          \
+    }
 
-		/*! \brief	Verify if an object has a size method */
-		has_method(size, has_size_method);
+        /*! \brief	Verify if an object has a size method */
+        has_method(size, has_size_method);
 
-		/*! \brief	A template class to test if T has an ostream operator */
-		template<typename T>
-		class has_ostream_operator {
-			private:
-				typedef std::true_type yes;
-				typedef std::false_type no;
-				static std::ostream& s;
+        /*! \brief	A template class to test if T has an ostream operator */
+        template< typename T >
+        class has_ostream_operator {
+            private:
+            typedef std::true_type  yes;
+            typedef std::false_type no;
+            static std::ostream&    s;
 
-				template<typename TT, typename SS>
-				static auto test(SS&& s, TT&& t) -> decltype(s << t);
-			
-				struct dummy_t {};
-				static dummy_t test(...);
+            template< typename TT, typename SS >
+            static auto test(SS&& s, TT&& t) -> decltype(s << t);
 
-				using return_type = decltype(test(s, std::declval<T>()));
+            struct dummy_t {};
+            static dummy_t test(...);
 
-			public:
-				has_ostream_operator(){};
-				virtual ~has_ostream_operator(){}
+            using return_type = decltype(test(s, std::declval< T >()));
 
-				static constexpr bool value = !std::is_same<return_type, dummy_t>::value;
-		};
+            public:
+            has_ostream_operator(){};
+            virtual ~has_ostream_operator() {}
 
-		/*! \brief	A template class to test if T has an istream operator */
-		template<typename T>
-		class has_istream_operator {
-			private:
-				typedef std::true_type yes;
-				typedef std::false_type no;
-				static std::istream& s;
+            static constexpr bool value = !std::is_same< return_type, dummy_t >::value;
+        };
 
-				template<typename TT, typename SS>
-				static auto test(SS&& s, TT&& t) -> decltype(s >> t);
-			
-				struct dummy_t {};
-				static dummy_t test(...);
+        /*! \brief	A template class to test if T has an istream operator */
+        template< typename T >
+        class has_istream_operator {
+            private:
+            typedef std::true_type  yes;
+            typedef std::false_type no;
+            static std::istream&    s;
 
-				using return_type = decltype(test(s, std::declval<T>()));
+            template< typename TT, typename SS >
+            static auto test(SS&& s, TT&& t) -> decltype(s >> t);
 
-			public:
-				has_istream_operator(){};
-				virtual ~has_istream_operator(){}
+            struct dummy_t {};
+            static dummy_t test(...);
 
-				static constexpr bool value = !std::is_same<return_type, dummy_t>::value;
-		};
+            using return_type = decltype(test(s, std::declval< T >()));
 
-		/*! \brief	A template class to test if T is printable */
-		template<typename T>
-		class is_printable{
-			public:
-				const static bool value = has_ostream_operator<T>::value;
-		};
+            public:
+            has_istream_operator(){};
+            virtual ~has_istream_operator() {}
 
-		#ifndef DOXYGEN_SHOULD_SKIP_THIS
-			template<>
-			class is_printable<std::string>{
-				public:
-					const static bool value = true;
-			};
-		#endif //DOXYGEN_SHOULD_SKIP_THIS
+            static constexpr bool value = !std::is_same< return_type, dummy_t >::value;
+        };
 
-		/*!	\brief	Return true if a type has an ostream operator(<<) */
-		template<typename T>
-		bool isPrintable(const T&){
-			return Check::has_ostream_operator<T>::value;
-		}
+        /*! \brief	A template class to test if T is printable */
+        template< typename T >
+        class is_printable {
+            public:
+            const static bool value = has_ostream_operator< T >::value;
+        };
 
-		/*!	\brief	A function that say if a type has an ostream operator(<<) */
-		template<typename T>
-		void printable(const T& in){
-			std::string type = __PRETTY_FUNCTION__;
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
+        template<>
+        class is_printable< std::string > {
+            public:
+            const static bool value = true;
+        };
+#endif   // DOXYGEN_SHOULD_SKIP_THIS
 
-			auto pos = type.find(" = ");
-			if(pos != std::string::npos){
-				type.erase(0, pos+3);
-			}
+        /*!	\brief	Return true if a type has an ostream operator(<<) */
+        template< typename T >
+        bool isPrintable(const T&) {
+            return Check::has_ostream_operator< T >::value;
+        }
 
-			pos = type.find("]");
-			if(pos != std::string::npos){
-				type.erase(type.begin()+pos, type.end());
-			}
+        /*!	\brief	A function that say if a type has an ostream operator(<<) */
+        template< typename T >
+        void printable(const T& in) {
+            std::string type = __PRETTY_FUNCTION__;
 
-			std::vector<std::pair<std::string, std::string>> replaces;
+            auto pos = type.find(" = ");
+            if (pos != std::string::npos) { type.erase(0, pos + 3); }
 
-			replaces.push_back({"> >", ">>"});
-			replaces.push_back({"std::__cxx11::basic_string<char>", "std::string"});
+            pos = type.find("]");
+            if (pos != std::string::npos) { type.erase(type.begin() + pos, type.end()); }
 
-			for(auto& r : replaces){
-				do {
-					pos = type.find(r.first);
-					if(pos != std::string::npos){
-						type.replace(pos, r.first.size(), r.second);
-					}
-				} while(pos != std::string::npos);
-			}
+            std::vector< std::pair< std::string, std::string > > replaces;
 
-			std::cout << "Is " << type << " printable ? " << std::boolalpha << isPrintable(in) << std::endl;
-		}
+            replaces.push_back({"> >", ">>"});
+            replaces.push_back({"std::__cxx11::basic_string<char>", "std::string"});
 
-		/*! \brief	A template class to test if T is an unknown object */
-		template<typename T>
-		class is_object {
-			public:
-				const static bool value = !is_array<T>::value &&
-										  !is_string<T>::value &&
-										  !is_smatch<T>::value &&
-										  !std::is_fundamental<T>::value;
-		};
+            for (auto& r : replaces) {
+                do {
+                    pos = type.find(r.first);
+                    if (pos != std::string::npos) { type.replace(pos, r.first.size(), r.second); }
+                } while (pos != std::string::npos);
+            }
 
-		/*! \brief	A template class to test if T is a special struct */
-		template<typename T>
-		class is_special_struct {
-			public:
-				const static bool value = is_pair<T>::value ||
-										  is_trio<T>::value ||
-										  is_quatuor<T>::value;
-		};
+            std::cout << "Is " << type << " printable ? " << std::boolalpha << isPrintable(in)
+                      << std::endl;
+        }
 
-		#ifndef DOXYGEN_SHOULD_SKIP_THIS
-		
-		#endif //DOXYGEN_SHOULD_SKIP_THIS
-	}
-}
+        /*! \brief	A template class to test if T is an unknown object */
+        template< typename T >
+        class is_object {
+            public:
+            const static bool value = !is_array< T >::value && !is_string< T >::value &&
+                                      !is_smatch< T >::value && !std::is_fundamental< T >::value;
+        };
 
-#endif //HEADER_CPP_CHECK)
+        /*! \brief	A template class to test if T is a special struct */
+        template< typename T >
+        class is_special_struct {
+            public:
+            const static bool value =
+                is_pair< T >::value || is_trio< T >::value || is_quatuor< T >::value;
+        };
+
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
+
+#endif   // DOXYGEN_SHOULD_SKIP_THIS
+    }    // namespace Check
+}   // namespace mcd
+
+#endif   // HEADER_CPP_CHECK)

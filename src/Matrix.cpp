@@ -1,3 +1,4 @@
 #include "C++/Matrix.hpp"
 
-namespace mcd {}
+namespace mcd
+{}

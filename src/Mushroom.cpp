@@ -1,13 +1,10 @@
 #include "C++/Mushroom.hpp"
 
-namespace mcd {
-	Mushroom::Mushroom(Map* map, Point pt, ContraptionAttr attr) :
-		Vegetal(map, pt, attr)
-	{}
+namespace mcd
+{
+    Mushroom::Mushroom(Map* map, Point pt, ContraptionAttr attr) : Vegetal(map, pt, attr) {}
 
-	Mushroom::~Mushroom(){}
+    Mushroom::~Mushroom() {}
 
-	void Mushroom::printInfos(std::ostream& stream)const {
-		Vegetal::printInfos(stream);
-	}
-}
+    void Mushroom::printInfos(std::ostream& stream) const { Vegetal::printInfos(stream); }
+}   // namespace mcd

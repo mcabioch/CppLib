@@ -1,0 +1,11 @@
+<map id="mcd::Contraption" name="mcd::Contraption">
+<area shape="rect" id="node1" title="A contraption." alt="" coords="170,5,293,32"/>
+<area shape="rect" id="node2" href="$d5/d6f/a01281.php" title="An entity." alt="" coords="129,80,219,107"/>
+<area shape="rect" id="node8" href="$de/d6c/a01349.php" title="An object." alt="" coords="245,80,338,107"/>
+<area shape="rect" id="node3" href="$d2/df3/a01085.php" title="An animal." alt="" coords="5,155,100,181"/>
+<area shape="rect" id="node5" href="$d9/dae/a01453.php" title="A vegetal." alt="" coords="125,155,223,181"/>
+<area shape="rect" id="node4" href="$d3/dc4/a01089.php" title="An ant." alt="" coords="15,229,90,256"/>
+<area shape="rect" id="node6" href="$db/dec/a01337.php" title="A mushroom." alt="" coords="115,229,231,256"/>
+<area shape="rect" id="node7" href="$d3/dea/a01377.php" title="A plant." alt="" coords="255,229,341,256"/>
+<area shape="rect" id="node9" href="$d9/d6e/a01409.php" title="A stone." alt="" coords="248,155,337,181"/>
+</map>

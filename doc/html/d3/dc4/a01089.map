@@ -1,4 +1,5 @@
-<map id="mcd::Stone" name="mcd::Stone">
-<area shape="rect" id="node2" href="$de/d41/a01030.php" title="An object. " alt="" coords="20,80,113,107"/>
-<area shape="rect" id="node3" href="$df/d12/a00942.php" title="A contraption. " alt="" coords="5,5,128,32"/>
+<map id="mcd::stack&lt; T, Container &gt;" name="mcd::stack&lt; T, Container &gt;">
+<area shape="rect" id="node1" title="An implementation of std::stack." alt="" coords="5,185,187,212"/>
+<area shape="rect" id="node2" title="STL class." alt="" coords="34,95,158,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="77,5,115,32"/>
 </map>

@@ -1,36 +1,106 @@
-<map id="includes.hpp" name="includes.hpp">
-<area shape="rect" id="node2" href="$d7/d9a/a00152.php" title="C++/NotCopyable.hpp" alt="" coords="351,80,505,107"/>
-<area shape="rect" id="node3" href="$d3/df8/a00155.php" title="C++/NotInstantiable.hpp" alt="" coords="529,80,695,107"/>
-<area shape="rect" id="node4" href="$d9/d01/a00227.php" title="C++/timeFunctions.hpp" alt="" coords="719,80,878,107"/>
-<area shape="rect" id="node6" href="$dd/dc1/a00212.php" title="Used to replace strptime function when compiling for Windows. " alt="" coords="797,155,907,181"/>
-<area shape="rect" id="node7" href="$d3/de5/a00209.php" title="C++/string.hpp" alt="" coords="797,229,907,256"/>
-<area shape="rect" id="node9" href="$d3/dd5/a00215.php" title="C++/system.hpp" alt="" coords="724,304,844,331"/>
-<area shape="rect" id="node63" href="$d3/db1/a00200.php" title="C++/RNG.hpp" alt="" coords="868,304,975,331"/>
-<area shape="rect" id="node65" href="$dc/dfe/a00125.php" title="C++/macro.hpp" alt="" coords="999,304,1113,331"/>
-<area shape="rect" id="node10" href="$d9/d77/a00095.php" title="C++/errors.hpp" alt="" coords="729,379,839,405"/>
-<area shape="rect" id="node11" href="$de/de1/a00065.php" title="C++/console.hpp" alt="" coords="655,453,777,480"/>
-<area shape="rect" id="node61" href="$d1/d44/a00098.php" title="C++/files.hpp" alt="" coords="801,453,903,480"/>
-<area shape="rect" id="node12" href="$db/db6/a00074.php" title="C++/convert.hpp" alt="" coords="665,528,785,555"/>
-<area shape="rect" id="node14" href="$da/d45/a00011.php" title="C++/array.hpp" alt="" coords="732,603,839,629"/>
-<area shape="rect" id="node15" href="$dc/dee/a00053.php" title="C++/check.hpp" alt="" coords="589,677,701,704"/>
-<area shape="rect" id="node59" href="$de/d79/a00203.php" title="C++/sorting.hpp" alt="" coords="727,677,843,704"/>
-<area shape="rect" id="node18" href="$d2/dc8/a00242.php" title="C++/vector.hpp" alt="" coords="730,752,843,779"/>
-<area shape="rect" id="node53" href="$df/d03/a00062.php" title="C++/collides.hpp" alt="" coords="585,752,706,779"/>
-<area shape="rect" id="node19" href="$d2/de7/a00014.php" title="C++/arraysIncludes.hpp" alt="" coords="751,827,913,853"/>
-<area shape="rect" id="node26" href="$d9/dd0/a00191.php" title="C++/pointers.hpp" alt="" coords="713,1125,836,1152"/>
-<area shape="rect" id="node27" href="$d7/d40/a00236.php" title="C++/types.hpp" alt="" coords="612,1200,721,1227"/>
-<area shape="rect" id="node29" href="$d3/d52/a00023.php" title="Big.hpp" alt="" coords="633,1275,700,1301"/>
-<area shape="rect" id="node48" href="$d6/de1/a00233.php" title="C++/Tree.hpp" alt="" coords="506,1275,609,1301"/>
-<area shape="rect" id="node49" href="$dc/d57/a00194.php" title="PureVirtual.hpp" alt="" coords="725,1275,835,1301"/>
-<area shape="rect" id="node50" href="$d0/d27/a00239.php" title="UsefullDefines.hpp" alt="" coords="860,1275,993,1301"/>
-<area shape="rect" id="node30" href="$d6/d7d/a00161.php" title="C++/OsDetection.hpp" alt="" coords="322,1349,473,1376"/>
-<area shape="rect" id="node44" href="$d5/d16/a00029.php" title="C++/Big_Constructor.hpp" alt="" coords="1035,1349,1205,1376"/>
-<area shape="rect" id="node45" href="$d4/d8c/a00035.php" title="C++/Big_Operator.hpp" alt="" coords="497,1349,650,1376"/>
-<area shape="rect" id="node46" href="$d6/d5b/a00026.php" title="C++/Big_Comparison.hpp" alt="" coords="675,1349,848,1376"/>
-<area shape="rect" id="node47" href="$dc/d87/a00032.php" title="C++/Big_Maths.hpp" alt="" coords="872,1349,1011,1376"/>
-<area shape="rect" id="node32" href="$df/dc8/a00122.php" title="C++/lowIncludes.hpp" alt="" coords="391,1424,537,1451"/>
-<area shape="rect" id="node54" href="$de/d76/a00134.php" title="C++/Matrix.hpp" alt="" coords="543,827,657,853"/>
-<area shape="rect" id="node55" href="$d4/d3a/a00101.php" title="C++/Fraction.hpp" alt="" coords="419,901,543,928"/>
-<area shape="rect" id="node56" href="$d7/d06/a00131.php" title="C++/maths.hpp" alt="" coords="425,976,538,1003"/>
-<area shape="rect" id="node57" href="$d8/d41/a00038.php" title="C++/Binary.hpp" alt="" coords="671,1051,785,1077"/>
+<map id="Identifier.hpp" name="Identifier.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="969,5,1065,32"/>
+<area shape="rect" id="node2" href="$dd/d32/a00041.php" title=" " alt="" coords="980,80,1053,107"/>
+<area shape="rect" id="node3" href="$d5/de0/a00050.php" title=" " alt="" coords="880,155,951,181"/>
+<area shape="rect" id="node103" href="$d1/d88/a00128.php" title=" " alt="" coords="974,229,1059,256"/>
+<area shape="rect" id="node104" href="$d1/da8/a00230.php" title=" " alt="" coords="1057,304,1129,331"/>
+<area shape="rect" id="node4" href="$d9/d2e/a00056.php" title=" " alt="" coords="825,229,950,256"/>
+<area shape="rect" id="node5" href="$df/d98/a00107.php" title=" " alt="" coords="875,304,953,331"/>
+<area shape="rect" id="node6" href="$d6/d2d/a00047.php" title=" " alt="" coords="973,379,1060,405"/>
+<area shape="rect" id="node7" href="$d4/d51/a00017.php" title=" " alt="" coords="837,453,922,480"/>
+<area shape="rect" id="node100" href="$df/dc8/a00122.php" title=" " alt="" coords="979,453,1054,480"/>
+<area shape="rect" id="node102" href="$d1/d09/a00077.php" title=" " alt="" coords="1108,528,1205,555"/>
+<area shape="rect" id="node8" href="$db/db2/a00020.php" title=" " alt="" coords="766,528,926,555"/>
+<area shape="rect" id="node9" href="$da/d2a/a00086.php" title=" " alt="" coords="972,603,1061,629"/>
+<area shape="rect" id="node10" href="$d2/dc8/a00242.php" title=" " alt="" coords="725,677,804,704"/>
+<area shape="rect" id="node85" href="$d4/dee/a00008.php" title=" " alt="" coords="829,677,903,704"/>
+<area shape="rect" id="node86" href="$d3/d8b/a00059.php" title=" " alt="" coords="847,827,928,853"/>
+<area shape="rect" id="node87" href="$da/d24/a00068.php" title=" " alt="" coords="875,901,1001,928"/>
+<area shape="rect" id="node88" href="$d2/d1f/a00083.php" title=" " alt="" coords="990,976,1094,1003"/>
+<area shape="rect" id="node91" href="$df/d6a/a00119.php" title=" " alt="" coords="1079,752,1178,779"/>
+<area shape="rect" id="node92" href="$d5/db1/a00140.php" title=" " alt="" coords="1210,677,1282,704"/>
+<area shape="rect" id="node99" href="$d3/de5/a00209.php" title=" " alt="" coords="1407,827,1522,853"/>
+<area shape="rect" id="node11" href="$d6/de1/a00233.php" title=" " alt="" coords="728,752,839,779"/>
+<area shape="rect" id="node12" href="$d4/d3e/a00116.php" title=" " alt="" coords="1012,1125,1107,1152"/>
+<area shape="rect" id="node13" href="$db/ddf/a00164.php" title=" " alt="" coords="531,1200,654,1227"/>
+<area shape="rect" id="node14" href="$dc/de6/a00167.php" title=" " alt="" coords="679,1200,813,1227"/>
+<area shape="rect" id="node15" href="$d0/d27/a00239.php" title=" " alt="" coords="837,1200,967,1227"/>
+<area shape="rect" id="node80" title=" " alt="" coords="991,1200,1053,1227"/>
+<area shape="rect" id="node81" title=" " alt="" coords="1077,1200,1116,1227"/>
+<area shape="rect" id="node82" title=" " alt="" coords="1140,1200,1203,1227"/>
+<area shape="rect" id="node83" title=" " alt="" coords="1227,1200,1281,1227"/>
+<area shape="rect" id="node84" title=" " alt="" coords="1305,1200,1355,1227"/>
+<area shape="rect" id="node16" href="$d5/ddf/a00224.php" title="Used to replace strptime function when compiling for Windows." alt="" coords="815,1275,895,1301"/>
+<area shape="rect" id="node79" title=" " alt="" coords="920,1275,975,1301"/>
+<area shape="rect" id="node17" href="$dd/d52/a00221.php" title=" " alt="" coords="801,1349,910,1376"/>
+<area shape="rect" id="node18" title=" " alt="" coords="685,1424,741,1451"/>
+<area shape="rect" id="node19" href="$dd/dc1/a00212.php" title=" " alt="" coords="765,1424,842,1451"/>
+<area shape="rect" id="node21" href="$d2/df5/a00137.php" title=" " alt="" coords="866,1424,949,1451"/>
+<area shape="rect" id="node22" href="$d9/d01/a00227.php" title=" " alt="" coords="973,1424,1063,1451"/>
+<area shape="rect" id="node20" title=" " alt="" coords="771,1499,836,1525"/>
+<area shape="rect" id="node23" href="$d9/d77/a00095.php" title=" " alt="" coords="978,1499,1058,1525"/>
+<area shape="rect" id="node24" href="$de/de1/a00065.php" title=" " alt="" coords="920,1573,1012,1600"/>
+<area shape="rect" id="node77" href="$d4/d3a/a00101.php" title=" " alt="" coords="1036,1573,1107,1600"/>
+<area shape="rect" id="node25" href="$db/db6/a00074.php" title=" " alt="" coords="922,1648,1013,1675"/>
+<area shape="rect" id="node26" title=" " alt="" coords="875,1723,958,1749"/>
+<area shape="rect" id="node27" href="$da/d45/a00011.php" title=" " alt="" coords="982,1723,1057,1749"/>
+<area shape="rect" id="node28" href="$dc/dee/a00053.php" title=" " alt="" coords="869,1797,951,1824"/>
+<area shape="rect" id="node73" href="$d1/d44/a00098.php" title=" " alt="" coords="1087,1797,1189,1824"/>
+<area shape="rect" id="node76" href="$d3/dd5/a00215.php" title=" " alt="" coords="976,1797,1063,1824"/>
+<area shape="rect" id="node29" href="$df/d03/a00062.php" title=" " alt="" coords="681,1872,771,1899"/>
+<area shape="rect" id="node63" href="$d7/d03/a00254.php" title=" " alt="" coords="978,1872,1061,1899"/>
+<area shape="rect" id="node71" title=" " alt="" coords="798,1872,859,1899"/>
+<area shape="rect" id="node72" title=" " alt="" coords="883,1872,953,1899"/>
+<area shape="rect" id="node30" href="$d9/db6/a00146.php" title=" " alt="" coords="679,1947,762,1973"/>
+<area shape="rect" id="node31" href="$d0/dc2/a00104.php" title=" " alt="" coords="663,2021,757,2048"/>
+<area shape="rect" id="node32" href="$d7/dce/a00143.php" title=" " alt="" coords="585,2096,667,2123"/>
+<area shape="rect" id="node62" title=" " alt="" coords="691,2096,758,2123"/>
+<area shape="rect" id="node33" href="$d8/d41/a00038.php" title=" " alt="" coords="627,2171,710,2197"/>
+<area shape="rect" id="node34" href="$de/d79/a00203.php" title=" " alt="" coords="706,2245,799,2272"/>
+<area shape="rect" id="node35" href="$dd/dd7/a00248.php" title=" " alt="" coords="620,2320,699,2347"/>
+<area shape="rect" id="node60" title=" " alt="" coords="723,2320,782,2347"/>
+<area shape="rect" id="node61" title=" " alt="" coords="806,2320,865,2347"/>
+<area shape="rect" id="node36" href="$d3/d52/a00023.php" title=" " alt="" coords="383,2395,450,2421"/>
+<area shape="rect" id="node56" href="$d5/df1/a00206.php" title=" " alt="" coords="488,2395,599,2421"/>
+<area shape="rect" id="node57" href="$d6/d22/a00245.php" title=" " alt="" coords="623,2395,696,2421"/>
+<area shape="rect" id="node58" href="$d3/d1a/a00251.php" title=" " alt="" coords="721,2395,854,2421"/>
+<area shape="rect" id="node59" title=" " alt="" coords="879,2395,947,2421"/>
+<area shape="rect" id="node37" href="$d7/d06/a00131.php" title=" " alt="" coords="617,2469,729,2496"/>
+<area shape="rect" id="node52" href="$d6/d5b/a00026.php" title=" " alt="" coords="5,2469,148,2496"/>
+<area shape="rect" id="node53" href="$d5/d16/a00029.php" title=" " alt="" coords="172,2469,312,2496"/>
+<area shape="rect" id="node54" href="$dc/d87/a00032.php" title=" " alt="" coords="337,2469,446,2496"/>
+<area shape="rect" id="node55" href="$d4/d8c/a00035.php" title=" " alt="" coords="470,2469,593,2496"/>
+<area shape="rect" id="node38" href="$d7/d3f/a00173.php" title=" " alt="" coords="613,2544,733,2571"/>
+<area shape="rect" id="node39" title=" " alt="" coords="581,2619,649,2645"/>
+<area shape="rect" id="node40" href="$de/d76/a00134.php" title=" " alt="" coords="673,2619,789,2645"/>
+<area shape="rect" id="node41" title=" " alt="" coords="245,2693,319,2720"/>
+<area shape="rect" id="node42" title=" " alt="" coords="343,2693,402,2720"/>
+<area shape="rect" id="node43" title=" " alt="" coords="427,2693,505,2720"/>
+<area shape="rect" id="node44" title=" " alt="" coords="530,2693,602,2720"/>
+<area shape="rect" id="node45" title=" " alt="" coords="627,2693,673,2720"/>
+<area shape="rect" id="node46" title=" " alt="" coords="697,2693,765,2720"/>
+<area shape="rect" id="node47" title=" " alt="" coords="789,2693,844,2720"/>
+<area shape="rect" id="node48" title=" " alt="" coords="869,2693,938,2720"/>
+<area shape="rect" id="node49" title=" " alt="" coords="963,2693,1017,2720"/>
+<area shape="rect" id="node50" title=" " alt="" coords="1042,2693,1095,2720"/>
+<area shape="rect" id="node51" title=" " alt="" coords="1119,2693,1178,2720"/>
+<area shape="rect" id="node64" href="$d2/de7/a00014.php" title=" " alt="" coords="1005,1947,1137,1973"/>
+<area shape="rect" id="node65" title=" " alt="" coords="833,2021,944,2048"/>
+<area shape="rect" id="node66" title=" " alt="" coords="969,2021,1073,2048"/>
+<area shape="rect" id="node67" title=" " alt="" coords="1097,2021,1147,2048"/>
+<area shape="rect" id="node68" title=" " alt="" coords="1172,2021,1229,2048"/>
+<area shape="rect" id="node69" title=" " alt="" coords="1254,2021,1294,2048"/>
+<area shape="rect" id="node70" title=" " alt="" coords="1319,2021,1373,2048"/>
+<area shape="rect" id="node74" title=" " alt="" coords="1092,1872,1171,1899"/>
+<area shape="rect" id="node75" title=" " alt="" coords="1195,1872,1273,1899"/>
+<area shape="rect" id="node78" title=" " alt="" coords="1038,1648,1105,1675"/>
+<area shape="rect" id="node89" href="$da/dec/a00080.php" title=" " alt="" coords="922,1051,997,1077"/>
+<area shape="rect" id="node90" href="$d7/d40/a00236.php" title=" " alt="" coords="1021,1051,1097,1077"/>
+<area shape="rect" id="node93" href="$d7/d25/a00182.php" title=" " alt="" coords="1203,752,1377,779"/>
+<area shape="rect" id="node94" href="$de/df3/a00185.php" title=" " alt="" coords="1211,827,1369,853"/>
+<area shape="rect" id="node95" href="$db/dd9/a00179.php" title=" " alt="" coords="1234,901,1346,928"/>
+<area shape="rect" id="node96" href="$d9/dd0/a00191.php" title=" " alt="" coords="1210,976,1370,1003"/>
+<area shape="rect" id="node97" href="$d5/de9/a00176.php" title=" " alt="" coords="1173,1051,1247,1077"/>
+<area shape="rect" id="node98" href="$da/d15/a00188.php" title=" " alt="" coords="1271,1051,1442,1077"/>
+<area shape="rect" id="node101" href="$dc/dfe/a00125.php" title=" " alt="" coords="950,528,1083,555"/>
 </map>

@@ -1,3 +1,4 @@
 #include "C++/convert.hpp"
 
-namespace mcd {}
+namespace mcd
+{}

@@ -1,0 +1,4 @@
+<map id="mcd::printType" name="mcd::printType">
+<area shape="rect" id="node1" title="Print the type of obj." alt="" coords="5,5,113,32"/>
+<area shape="rect" id="node2" href="$d0/d2f/a00259.php#aad6c9253e2099a49d163fad90ef6f5f5" title="Get the type of obj in a string." alt="" coords="161,5,263,32"/>
+</map>

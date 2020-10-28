@@ -1,14 +1,6 @@
 var a01102 =
 [
-    [ "Time", "d4/da7/a01102.php#ac802213e9ca41cc731f14619534e0249", null ],
-    [ "Time", "d4/da7/a01102.php#afa17085534ed1da008f6dd39cef039f2", null ],
-    [ "~Time", "d4/da7/a01102.php#aef071966b669112898476801bf63bcba", null ],
-    [ "get", "d4/da7/a01102.php#af9360f3323012f2572ffb3f8924fca62", null ],
-    [ "hour", "d4/da7/a01102.php#afc42ec7546725501d6cd8eb069e92a52", null ],
-    [ "init", "d4/da7/a01102.php#a3e19605ece31340f27255a79beb193d4", null ],
-    [ "milli", "d4/da7/a01102.php#a22a7371879c50752d94338e631ab37a7", null ],
-    [ "minute", "d4/da7/a01102.php#a56b7fdec50bc1b7f5fb991260cb18104", null ],
-    [ "reset", "d4/da7/a01102.php#a94d4610fef5db9db60ca31d7d64230dc", null ],
-    [ "second", "d4/da7/a01102.php#a5a3510ec96b9698b8cf601a2a1b9d90c", null ],
-    [ "set", "d4/da7/a01102.php#aa843463db53892a16778dd0d71ec2dad", null ]
+    [ "queue", "d4/da7/a01102.php#a0566f226253ef02ac813bad965f647b9", null ],
+    [ "get", "d4/da7/a01102.php#a148295001e6effa1aa1217af766e021f", null ],
+    [ "pop", "d4/da7/a01102.php#a9c9c5803f41517e0b1b8d75441cd4b09", null ]
 ];

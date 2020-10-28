@@ -1,11 +1,12 @@
 var a00065 =
 [
-    [ "Color", "d8/dbb/a00932.php", "d8/dbb/a00932" ],
-    [ "Reinit", "dc/d2b/a00936.php", "dc/d2b/a00936" ],
-    [ "Cls", "d7/db6/a00940.php", "d7/db6/a00940" ],
-    [ "ConsoleCursor", "d9/dce/a00944.php", "d9/dce/a00944" ],
-    [ "ThreadEndlCout", "d8/d18/a00948.php", "d8/d18/a00948" ],
-    [ "ThreadCout", "de/d49/a00952.php", "de/d49/a00952" ],
+    [ "Color", "d5/d54/a01213.php", "d5/d54/a01213" ],
+    [ "Reinit", "da/d19/a01217.php", "da/d19/a01217" ],
+    [ "Cls", "dd/d3f/a01221.php", "dd/d3f/a01221" ],
+    [ "ConsoleCursor", "d8/d53/a01225.php", "d8/d53/a01225" ],
+    [ "ThreadEndlCout", "db/d1c/a01229.php", "db/d1c/a01229" ],
+    [ "ThreadCout", "d6/da1/a01233.php", "d6/da1/a01233" ],
+    [ "SetPrecision", "dc/dab/a01237.php", "dc/dab/a01237" ],
     [ "Colors", "de/de1/a00065.php#ae124ce77f8e386663ac11e2e35e6070a", [
       [ "BLACK_F", "de/de1/a00065.php#ae124ce77f8e386663ac11e2e35e6070aa4648822616bc86180727464a1e6c6312", null ],
       [ "RED_F", "de/de1/a00065.php#ae124ce77f8e386663ac11e2e35e6070aa6c91c7a0d965eea06426a9d94fed419f", null ],
@@ -49,5 +50,6 @@ var a00065 =
       [ "CROSS", "de/de1/a00065.php#ae124ce77f8e386663ac11e2e35e6070aa04dd53a8e6c2306e9bbf944c1d6047f2", null ]
     ] ],
     [ "cout", "de/de1/a00065.php#ad49187ab386f309e965f2f8e954c3c24", null ],
-    [ "endl", "de/de1/a00065.php#a19aa3c3882eb7a0c0d4f6479a4bbf975", null ]
+    [ "endl", "de/de1/a00065.php#a19aa3c3882eb7a0c0d4f6479a4bbf975", null ],
+    [ "setprecision", "de/de1/a00065.php#ad309496206415242e21a12fc54df1cc8", null ]
 ];

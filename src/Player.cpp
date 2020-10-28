@@ -1,3 +1,4 @@
 #include "C++/Player.hpp"
 
-namespace mcd {}
+namespace mcd
+{}

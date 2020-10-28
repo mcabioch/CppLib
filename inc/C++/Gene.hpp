@@ -9,7 +9,7 @@
 #ifndef HEADER_GENETIC_GENE
 #define HEADER_GENETIC_GENE
 
-#include "C++/C++lib.hpp"
+#include "C++lib.hpp"
 
 namespace mcd
 {

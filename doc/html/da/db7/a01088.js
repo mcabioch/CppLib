@@ -1,25 +1,10 @@
 var a01088 =
 [
-    [ "PlayerAbstraction", "da/db7/a01088.php#acd7472274e5fd10845893208d604617f", null ],
-    [ "~PlayerAbstraction", "da/db7/a01088.php#abde0c45c79e9cb030711f77d73fdc5a8", null ],
-    [ "getExperience", "da/db7/a01088.php#af4b6c4845dcc12c9feed1910e7de9334", null ],
-    [ "getExperienceMax", "da/db7/a01088.php#a3d9f0332994725fceb7f785fd83e1802", null ],
-    [ "getMail", "da/db7/a01088.php#ada35a68939571761734d82bf83e6c634", null ],
-    [ "isInit", "da/db7/a01088.php#abdb489c22b76cb09daefb8f05b2f515c", null ],
-    [ "isLost", "da/db7/a01088.php#ae441783e58a888696f8dc24f4cdfcce5", null ],
-    [ "isPaused", "da/db7/a01088.php#a81a1ea7b3b306b10af787c353c92cc2e", null ],
-    [ "lost", "da/db7/a01088.php#a7582710c11a7b92d9912f414a5296975", null ],
-    [ "pause", "da/db7/a01088.php#a57f10ce6fa33a36671c750dd68dc1a13", null ],
-    [ "printInfos", "da/db7/a01088.php#ac6d60013def2f34160fda9a990cf2da5", null ],
-    [ "resume", "da/db7/a01088.php#a4670bc4130ffbdd8fd198ab020a7ffe3", null ],
-    [ "retreive", "da/db7/a01088.php#ac4a98e2f186ed9702f90362a158a9f2f", null ],
-    [ "setExperience", "da/db7/a01088.php#a368cb45cbd8f4bcd470628f4d0783b07", null ],
-    [ "setExperienceMax", "da/db7/a01088.php#a7e2dc719465b4100436d08def34378f4", null ],
-    [ "setMail", "da/db7/a01088.php#ac6441d9b85821e4e20639fe5082795a5", null ],
-    [ "_experience", "da/db7/a01088.php#ae561b7817c64610317799205afa306cd", null ],
-    [ "_experienceMax", "da/db7/a01088.php#a3800d1590d75f762d41be6349556707d", null ],
-    [ "_init", "da/db7/a01088.php#abffa7d0ae3461370c932f0732367c93b", null ],
-    [ "_losted", "da/db7/a01088.php#aee72e21c73d5bbf23c831514cd6cd58b", null ],
-    [ "_mail", "da/db7/a01088.php#ad9199142db686c7745b21429e7061823", null ],
-    [ "_paused", "da/db7/a01088.php#a005074efa352510f2dc316404195946c", null ]
+    [ "t_stack", "da/db7/a01088.php#aa4c2b6ebb0b904372919f1c9d0e8a7fa", null ],
+    [ "empty", "da/db7/a01088.php#a7beaba1e56c18f35b6809d8d8f03b52d", null ],
+    [ "pop", "da/db7/a01088.php#ada85bebc6242159f4ab1284d169d5f94", null ],
+    [ "push", "da/db7/a01088.php#ac52e7cd746a8da37bc0d9aba1b44a12a", null ],
+    [ "push", "da/db7/a01088.php#a366f9af743a2aa515c828da000add01a", null ],
+    [ "size", "da/db7/a01088.php#ac7ec1c5b6ec80e2a561dc78a79b66530", null ],
+    [ "top", "da/db7/a01088.php#a527628a84ec81233f4e475f986e9d10d", null ]
 ];

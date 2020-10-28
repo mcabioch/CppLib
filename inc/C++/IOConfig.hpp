@@ -9,7 +9,7 @@
 #ifndef HEADER_IOCONFIG
 #define HEADER_IOCONFIG
 
-#include "C++/includes.hpp"
+#include "includes.hpp"
 
 namespace mcd
 {

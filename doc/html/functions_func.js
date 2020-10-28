@@ -23,5 +23,5 @@ var functions_func =
     [ "v", "functions_func_v.php", null ],
     [ "w", "functions_func_w.php", null ],
     [ "y", "functions_func_y.php", null ],
-    [ "~", "functions_func_0x7e.php", null ]
+    [ "~", "functions_func_~.php", null ]
 ];

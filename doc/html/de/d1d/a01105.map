@@ -1,4 +1,6 @@
-<map id="mcd::Timer" name="mcd::Timer">
-<area shape="rect" id="node2" href="$d5/d17/a01098.php" title="mcd::Threadable\&lt; Timer \&gt;" alt="" coords="5,95,181,121"/>
-<area shape="rect" id="node3" href="$d5/d17/a01098.php" title="A class to let another one to be threadable with update() member in a thread. " alt="" coords="17,5,170,32"/>
+<map id="mcd::t_queue&lt; T, Container &gt;" name="mcd::t_queue&lt; T, Container &gt;">
+<area shape="rect" id="node1" title="An thread&#45;safe implementation of queue." alt="" coords="5,276,200,303"/>
+<area shape="rect" id="node2" href="$d4/da7/a01102.php" title=" " alt="" coords="35,185,170,227"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="34,5,161,47"/>
+<area shape="rect" id="node4" href="$d4/da7/a01102.php" title="An implementation of std::queue." alt="" coords="119,96,303,123"/>
 </map>

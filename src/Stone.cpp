@@ -1,15 +1,10 @@
 #include "C++/Stone.hpp"
 
-namespace mcd {
-	Stone::Stone(Map* map, Point pt, ContraptionAttr attr) :
-		Object(map, pt, attr)
-	{}
+namespace mcd
+{
+    Stone::Stone(Map* map, Point pt, ContraptionAttr attr) : Object(map, pt, attr) {}
 
-	Stone::~Stone(){
+    Stone::~Stone() {}
 
-	}
-
-	void Stone::printInfos(std::ostream& stream)const {
-		Object::printInfos(stream);
-	}
-}
+    void Stone::printInfos(std::ostream& stream) const { Object::printInfos(stream); }
+}   // namespace mcd

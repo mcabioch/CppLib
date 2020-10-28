@@ -1,6 +1,6 @@
 var a00080 =
 [
-    [ "Date", "d2/d4c/a00984.php", "d2/d4c/a00984" ],
+    [ "Date", "d6/d16/a01269.php", "d6/d16/a01269" ],
     [ "operator!=", "da/dec/a00080.php#ad8ebb26f5618a66bc7e9bf3317a0477f", null ],
     [ "operator<", "da/dec/a00080.php#a74705a4e1fb16838be02655f4ea61e11", null ],
     [ "operator<<", "da/dec/a00080.php#a0e76ac5c4df82149886b58edcfc7090a", null ],

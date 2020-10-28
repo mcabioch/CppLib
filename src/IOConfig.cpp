@@ -1,6 +1,7 @@
 #include "C++/IOConfig.hpp"
 
-namespace mcd {
-	IOConfig::IOConfig(){}
-	IOConfig::~IOConfig(){}
-}
+namespace mcd
+{
+    IOConfig::IOConfig() {}
+    IOConfig::~IOConfig() {}
+}   // namespace mcd

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['object_2ehpp',['Object.hpp',['../d6/db8/a00158.php',1,'']]],
-  ['osdetection_2ehpp',['OsDetection.hpp',['../d6/d7d/a00161.php',1,'']]]
+  ['notcopyable_2ehpp_968',['NotCopyable.hpp',['../db/ddf/a00164.php',1,'']]],
+  ['notinstantiable_2ehpp_969',['NotInstantiable.hpp',['../dc/de6/a00167.php',1,'']]]
 ];

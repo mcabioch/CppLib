@@ -1,0 +1,5 @@
+<map id="mcd::Contraption::turnLeft" name="mcd::Contraption::turnLeft">
+<area shape="rect" id="node1" title="Turn the Contraption to the left." alt="" coords="5,31,180,57"/>
+<area shape="rect" id="node2" href="$d7/dbf/a01239.php#a580eafa58a93d9ab4264c4cbac2f4167" title=" " alt="" coords="228,5,385,32"/>
+<area shape="rect" id="node3" href="$d7/dbf/a01239.php#a73a47e55e554e7c7f357a74276368186" title="Set the angle." alt="" coords="228,56,385,83"/>
+</map>

@@ -1,34 +1,31 @@
 #include "C++/Hostile.hpp"
 
-namespace mcd {
-	Hostile::Hostile() :
-		_target(nullptr),
+namespace mcd
+{
+    Hostile::Hostile() :
+        _target(nullptr),
 
-		_attacked(false),
-		_attackedSpec(false),
+        _attacked(false), _attackedSpec(false),
 
-		_strength(0)
-	{}
+        _strength(0) {}
 
-	Hostile::~Hostile(){}
+    Hostile::~Hostile() {}
 
-	bool Hostile::hurt(Entity* target){
-		if(target == nullptr){
-			target = _target.get();
+    bool Hostile::hurt(Entity* target) {
+        if (target == nullptr) {
+            target = _target.get();
 
-			if(target == nullptr){
-				return false;
-			}
-		}
+            if (target == nullptr) { return false; }
+        }
 
-		_attacked = true;
-		target->hit(_strength);
+        _attacked = true;
+        target->hit(_strength);
 
-		return true;
-	}
+        return true;
+    }
 
-	void Hostile::printInfos(std::ostream& stream)const {
-		stream << "\tHostile attributes ;" << std::endl;
-			stream << "\t\t- strength : " << getStrength() << std::endl;
-	}
-}
+    void Hostile::printInfos(std::ostream& stream) const {
+        stream << "\tHostile attributes ;" << std::endl;
+        stream << "\t\t- strength : " << getStrength() << std::endl;
+    }
+}   // namespace mcd

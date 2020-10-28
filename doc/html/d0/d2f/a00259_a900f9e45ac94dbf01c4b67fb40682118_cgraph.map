@@ -1,0 +1,5 @@
+<map id="mcd::dist" name="mcd::dist">
+<area shape="rect" id="node1" title="Return the distance between the two given points." alt="" coords="5,5,81,32"/>
+<area shape="rect" id="node2" href="$d0/d2f/a00259.php#a4d75f23c9b03fd2c56324895d0ff3c58" title="Return the distance of the given coordinates." alt="" coords="129,5,205,32"/>
+<area shape="rect" id="node3" href="$d0/d2f/a00259.php#ae3a712e4de66375b1a188fa464c968e2" title="Compute the squareroot of a." alt="" coords="253,5,331,32"/>
+</map>

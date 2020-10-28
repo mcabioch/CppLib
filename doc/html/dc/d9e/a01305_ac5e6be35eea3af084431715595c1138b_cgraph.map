@@ -1,0 +1,4 @@
+<map id="mcd::Map::isOnGround" name="mcd::Map::isOnGround">
+<area shape="rect" id="node1" title="Verify if a point is on the ground or not." alt="" coords="5,5,163,32"/>
+<area shape="rect" id="node2" href="$dc/d9e/a01305.php#a1784239c1be09cc3c9a7a4652292149d" title="Verify if a position on the map is a ground tileor another one." alt="" coords="211,5,335,32"/>
+</map>

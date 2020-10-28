@@ -1,4 +1,10 @@
-<map id="mcd::Player&lt; PlayerParent &gt;" name="mcd::Player&lt; PlayerParent &gt;">
-<area shape="rect" id="node2" href="$da/db7/a01088.php" title="A player that can be a child from any class. " alt="" coords="5,80,164,121"/>
-<area shape="rect" id="node4" href="$d4/d45/a01012.php" title="A class to store some identify datas. " alt="" coords="188,87,293,114"/>
+<map id="mcd::Animal" name="mcd::Animal">
+<area shape="rect" id="node1" title="An animal." alt="" coords="96,364,191,391"/>
+<area shape="rect" id="node2" href="$d5/d6f/a01281.php" title="An entity." alt="" coords="5,95,95,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="70,184,217,225"/>
+<area shape="rect" id="node3" href="$d1/d31/a01245.php" title="A contraption." alt="" coords="66,5,189,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="241,184,387,225"/>
+<area shape="rect" id="node4" href="$dc/d8c/a01297.php" title="A class to derivate from when the thing can attack." alt="" coords="95,288,191,315"/>
+<area shape="rect" id="node6" title="STL class." alt="" coords="215,95,357,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="267,5,305,32"/>
 </map>

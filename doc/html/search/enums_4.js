@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pathfindingerrorcode',['PathfindingErrorCode',['../d6/d6a/a01072.php#a699cc4df8cc94d467e7372072d230b58',1,'mcd::PathfindingException']]]
+  ['level_1582',['Level',['../df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95',1,'mcd::Logger']]]
 ];

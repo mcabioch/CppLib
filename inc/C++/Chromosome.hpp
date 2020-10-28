@@ -9,7 +9,7 @@
 #ifndef HEADER_GENETIC_CHROMOSOME
 #define HEADER_GENETIC_CHROMOSOME
 
-#include "C++/Gene.hpp"
+#include "Gene.hpp"
 
 namespace mcd
 {

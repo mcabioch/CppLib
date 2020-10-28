@@ -1,8 +1,10 @@
 var a00101 =
 [
-    [ "Logger", "df/dce/a00974.php", "df/dce/a00974" ],
-    [ "debug_log", "d4/d3a/a00101.php#a46d5e25a59c0c1ab0d7e8fc3812454a0", null ],
-    [ "debug_logs", "d4/d3a/a00101.php#a4e44394dedcf599237302e670d0fbd30", null ],
-    [ "logs", "d4/d3a/a00101.php#ae48c93288111b5c36c6e44117992a8f3", null ],
-    [ "logger", "d4/d3a/a00101.php#a46f063faccea2fdafb8e5f33c2ccbc50", null ]
+    [ "fileExists", "d4/d3a/a00101.php#ae44c2e346da18a7424d97535fb654448", null ],
+    [ "fileFormat", "d4/d3a/a00101.php#aada88379a63c49987a295485391aa192", null ],
+    [ "getFileSize", "d4/d3a/a00101.php#a97dfa91f19b9e2175dddbf65285663a2", null ],
+    [ "getlines", "d4/d3a/a00101.php#a7fa98622f290e9789bf929fb66ee3a4c", null ],
+    [ "setlines", "d4/d3a/a00101.php#a08a1c8da74e7ca2634c1a2a4f4a3ac9d", null ],
+    [ "reader", "d4/d3a/a00101.php#a8860bcba5ad1fad5c14e9f8a69b8bc51", null ],
+    [ "writer", "d4/d3a/a00101.php#a9826cf077a919365508fb2a7d7aae4c2", null ]
 ];

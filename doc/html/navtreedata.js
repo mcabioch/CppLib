@@ -1,3 +1,27 @@
+/*
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
+
+ The MIT License (MIT)
+
+ Copyright (C) 1997-2020 by Dimitri van Heesch
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+ and associated documentation files (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge, publish, distribute,
+ sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in all copies or
+ substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+ BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ @licend  The above is the entire license notice for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "C++", "index.php", [
@@ -17,18 +41,20 @@ var NAVTREE =
         [ "Functions", "index.php#imp_sec_fun_subsec", null ]
       ] ],
       [ "Updates", "index.php#upd_sec", [
-        [ "November, 14 2019", "index.php#upd_sec_2019114_subsec", null ],
-        [ "November, 09 2019", "index.php#upd_sec_20191109_subsec", null ],
-        [ "September, 29 2019", "index.php#upd_sec_20190929_subsec", null ],
-        [ "September, 17 2019", "index.php#upd_sec_20190917_subsec", null ],
-        [ "September, 06 2019", "index.php#upd_sec_20190906_subsec", null ],
-        [ "April, 16 2019", "index.php#upd_sec_20190416_subsec", null ]
+        [ "October, 27 2020 (1.6.0.0)", "index.php#upd_sec_20201027_subsec", null ],
+        [ "November, 27 2019 (1.5.0.0)", "index.php#upd_sec_2019127_subsec", null ],
+        [ "November, 14 2019 (1.4.1.1)", "index.php#upd_sec_2019114_subsec", null ],
+        [ "November, 09 2019 (1.4.0.0)", "index.php#upd_sec_20191109_subsec", null ],
+        [ "September, 29 2019 (1.3.0.0)", "index.php#upd_sec_20190929_subsec", null ],
+        [ "September, 17 2019 (1.2.0.0)", "index.php#upd_sec_20190917_subsec", null ],
+        [ "September, 06 2019 (1.1.1.1)", "index.php#upd_sec_20190906_subsec", null ],
+        [ "April, 16 2019 (1.1.1.0)", "index.php#upd_sec_20190416_subsec", null ]
       ] ],
       [ "Downloads", "index.php#dow_sec", null ]
     ] ],
-    [ "Todo List", "d3/d1a/a00251.php", null ],
-    [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.php", "namespaces" ],
+    [ "Todo List", "df/da9/a00263.php", null ],
+    [ "Namespaces", "namespaces.php", [
+      [ "Namespace List", "namespaces.php", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.php", [
         [ "All", "namespacemembers.php", null ],
         [ "Functions", "namespacemembers_func.php", null ],
@@ -51,8 +77,8 @@ var NAVTREE =
         [ "Related Functions", "functions_rela.php", null ]
       ] ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.php", "files" ],
+    [ "Files", "files.php", [
+      [ "File List", "files.php", "files_dup" ],
       [ "File Members", "globals.php", [
         [ "All", "globals.php", null ],
         [ "Functions", "globals_func.php", null ],
@@ -65,11 +91,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.php",
-"d3/d69/a00844.php#aed2dc1aa4bd20abbe2c48aefe115b57d",
-"d7/d40/a00236.php#ac6fc9365b82f561a4603cb21b7d247ec",
-"d9/dbb/a00852.php#a8fe0174ab3d62d4fda8cd77185c4feb6",
-"dd/d11/a00960.php#a20dee618b85a3f841921a534bd5dfd37",
-"functions_func_v.php"
+"d3/dea/a01377.php#aa13b2031cba87d6dc205951aa5df9f42",
+"d7/d40/a00236.php",
+"da/dec/a00080.php#a4390d2726279039c439ba3b866fa2e50",
+"dd/d52/a00221.php#a372ef82d72716aed789680d0a84c06d3abe31a72161ed89098d2ab77b3d258ff5",
+"df/d68/a01385.php#ac6441d9b85821e4e20639fe5082795a5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

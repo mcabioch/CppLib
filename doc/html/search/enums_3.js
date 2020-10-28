@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['level',['Level',['../d0/d43/a01020.php#a25d94050e8e7f91c7e1f02ddc2af8e95',1,'mcd::Logger']]]
+  ['jsontype_1581',['JsonType',['../db/d4b/a01309.php#a3c35d4f54c782ef8b7898a1641eb4666',1,'mcd::Json']]]
 ];

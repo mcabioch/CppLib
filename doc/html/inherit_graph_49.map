@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$dd/dcb/a01104.php" title="A class to have a reference to the class&#39; pointer. " alt="" coords="5,5,161,32"/>
+<area shape="rect" id="node1" title="STL class." alt="" coords="5,35,120,61"/>
+<area shape="rect" id="node2" href="$de/d1d/a01105.php" title="An implementation of std::queue." alt="" coords="168,5,352,32"/>
+<area shape="rect" id="node3" href="$de/d1d/a01105.php" title=" " alt="" coords="193,57,327,98"/>
+<area shape="rect" id="node4" href="$d8/dbf/a01109.php" title="An thread&#45;safe implementation of queue." alt="" coords="400,64,595,91"/>
 </map>

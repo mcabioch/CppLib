@@ -1,5 +1,6 @@
 var a00155 =
 [
-    [ "sortAsc", "d3/df8/a00155.php#aded48db1a26c07f913737ebb691c64bf", null ],
-    [ "sortDesc", "d3/df8/a00155.php#a878c72753e2d2de82e186351a5314bb6", null ]
+    [ "GaussJordan", "d3/df8/a00155.php#a9b0f04cced69a887b46bddde8e3f3c0a", null ],
+    [ "mod", "d3/df8/a00155.php#a2de39472765e5120e670072cbc2d8ead", null ],
+    [ "operator<<", "d3/df8/a00155.php#a9a3710d279e209fbff51b625690ef630", null ]
 ];

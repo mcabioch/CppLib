@@ -1,4 +1,9 @@
-<map id="Identifier.hpp" name="Identifier.hpp">
-<area shape="rect" id="node2" href="$de/df3/a00185.php" title="Player.hpp" alt="" coords="22,80,106,107"/>
-<area shape="rect" id="node3" href="$d5/df9/a00044.php" title="C++Entities.hpp" alt="" coords="5,155,123,181"/>
+<map id="Hostile.hpp" name="Hostile.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="37,5,125,32"/>
+<area shape="rect" id="node2" href="$d7/d46/a00002.php" title=" " alt="" coords="37,80,124,107"/>
+<area shape="rect" id="node3" href="$dd/dad/a00005.php" title=" " alt="" coords="47,155,114,181"/>
+<area shape="rect" id="node4" href="$db/dab/a00089.php" title=" " alt="" coords="35,229,126,256"/>
+<area shape="rect" id="node5" href="$d3/db1/a00200.php" title=" " alt="" coords="5,304,156,331"/>
+<area shape="rect" id="node6" href="$de/db1/a00197.php" title=" " alt="" coords="39,379,122,405"/>
+<area shape="rect" id="node7" href="$d5/df9/a00044.php" title=" " alt="" coords="22,453,139,480"/>
 </map>

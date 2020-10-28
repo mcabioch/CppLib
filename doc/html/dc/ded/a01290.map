@@ -1,0 +1,5 @@
+<map id="mcd::Hostile" name="mcd::Hostile">
+<area shape="rect" id="node1" title="A class to derivate from when the thing can attack." alt="" coords="5,5,101,32"/>
+<area shape="rect" id="node2" href="$d2/d4d/a01079.php" title="An animal." alt="" coords="6,80,101,107"/>
+<area shape="rect" id="node3" href="$d6/d9a/a01083.php" title="An ant." alt="" coords="16,155,91,181"/>
+</map>

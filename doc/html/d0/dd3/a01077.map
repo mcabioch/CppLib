@@ -1,3 +1,10 @@
-<map id="mcd::PureVirtual" name="mcd::PureVirtual">
-<area shape="rect" id="node2" href="$d8/d38/a00926.php" title="A class to play with the cursor in the console. " alt="" coords="5,80,148,107"/>
+<map id="mcd::Animal" name="mcd::Animal">
+<area shape="rect" id="node1" title="An animal." alt="" coords="96,364,191,391"/>
+<area shape="rect" id="node2" href="$d3/d42/a01275.php" title="An entity." alt="" coords="5,95,95,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="70,184,217,225"/>
+<area shape="rect" id="node3" href="$d7/dbf/a01239.php" title="A contraption." alt="" coords="66,5,189,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="241,184,387,225"/>
+<area shape="rect" id="node4" href="$d4/da0/a01291.php" title="A class to derivate from when the thing can attack." alt="" coords="95,288,191,315"/>
+<area shape="rect" id="node6" title="STL class." alt="" coords="215,95,357,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="267,5,305,32"/>
 </map>

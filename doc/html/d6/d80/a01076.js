@@ -1,11 +1,12 @@
 var a01076 =
 [
-    [ "PathfindingProblem", "d6/d80/a01076.php#af2aa5f359715262ae600422bb49e79af", null ],
-    [ "PathfindingProblem", "d6/d80/a01076.php#a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0", null ],
-    [ "~PathfindingProblem", "d6/d80/a01076.php#a0bf356ad792ba79df121cedf0501f6f1", null ],
-    [ "computed", "d6/d80/a01076.php#a70c60dedee9b93e8bcd750a60e37ecfd", null ],
-    [ "distances", "d6/d80/a01076.php#ae7e5173f36187aeb5e1c334d60f2c914", null ],
-    [ "nbNodes", "d6/d80/a01076.php#a87c634685eea28780ddc10b7aa08af07", null ],
-    [ "nodes", "d6/d80/a01076.php#adb3befe767011d5d5738d1e4cb756e09", null ],
-    [ "weights", "d6/d80/a01076.php#ab5fbef9d1844f398fffd1dbc2870adef", null ]
+    [ "Ant", "d6/d80/a01076.php#afd3b5fb594d92b3cde4933883fdb7a2b", null ],
+    [ "~Ant", "d6/d80/a01076.php#a0a75a4c7e0556ec237ce6d526d12c2e1", null ],
+    [ "getCaste", "d6/d80/a01076.php#aefe83b0ef881a901834a3dc32f60fa10", null ],
+    [ "getStone", "d6/d80/a01076.php#aba7dfff3a965c52127afa152a66a32fa", null ],
+    [ "getStoneMax", "d6/d80/a01076.php#a3c53c4e13e45a9432c2aba52c98edce3", null ],
+    [ "printInfos", "d6/d80/a01076.php#a2be4df8048e84830aca6eb2ac249e099", null ],
+    [ "setCaste", "d6/d80/a01076.php#a63fc83db2b90de339f8fea94358d6b09", null ],
+    [ "setStone", "d6/d80/a01076.php#a03f3b31e549e9c7a7bf0dac610acf998", null ],
+    [ "setStoneMax", "d6/d80/a01076.php#a3397f0142a9bc430d1026b253c8f3a30", null ]
 ];

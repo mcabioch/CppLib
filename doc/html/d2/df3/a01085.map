@@ -1,2 +1,7 @@
-<map id="mcd::quatuor&lt; T, U, V, W &gt;" name="mcd::quatuor&lt; T, U, V, W &gt;">
+<map id="mcd::Ant" name="mcd::Ant">
+<area shape="rect" id="node1" title="An ant." alt="" coords="88,229,163,256"/>
+<area shape="rect" id="node2" href="$dd/df1/a01082.php" title="An animal." alt="" coords="78,155,173,181"/>
+<area shape="rect" id="node3" href="$d4/d10/a01278.php" title="An entity." alt="" coords="22,80,111,107"/>
+<area shape="rect" id="node4" href="$d7/dc5/a01242.php" title="A contraption." alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node5" href="$d7/d88/a01294.php" title="A class to derivate from when the thing can attack." alt="" coords="136,80,232,107"/>
 </map>

@@ -1,15 +1,11 @@
 var a01081 =
 [
-    [ "bot", "dd/dee/a01081.php#a2beb84069e438adcccfa4b6ed9794c0c", null ],
-    [ "left", "dd/dee/a01081.php#a91941563ecc020a510832ba8869e5ded", null ],
-    [ "operator=", "dd/dee/a01081.php#a6ebbd086a808f7fb8bd49bda00b8df12", null ],
-    [ "operator=", "dd/dee/a01081.php#a220f83e0ebfaa9b2884530cfcac6f6df", null ],
-    [ "right", "dd/dee/a01081.php#a613a9be49ee0cbe55e10e75db1d59faa", null ],
-    [ "top", "dd/dee/a01081.php#afd57961d22ce89d783303c0fbbdc4f83", null ],
-    [ "operator!=", "dd/dee/a01081.php#a6bea9cfb4049115f767ed658959d6648", null ],
-    [ "operator<<", "dd/dee/a01081.php#a55681886ec7c5d7c0210fa0611bc84ea", null ],
-    [ "operator==", "dd/dee/a01081.php#a177528c8a1eee37fcda25a89084b8ed6", null ],
-    [ "x", "dd/dee/a01081.php#a924c77d36867a18d5a52767ff246ebfc", null ],
-    [ "y", "dd/dee/a01081.php#ab339ac0efa2259051dc1ac0637d2c9a8", null ],
-    [ "z", "dd/dee/a01081.php#a010288cb5febefa70329d35a726c7291", null ]
+    [ "Arguments", "dd/dee/a01081.php#ac6c3e24abf9d442d2a01b601ad3a0968", null ],
+    [ "~Arguments", "dd/dee/a01081.php#a9fd4e17aa2d814f460da6128e98b7519", null ],
+    [ "add", "dd/dee/a01081.php#a0d178470f50f3a3f12b2dab7aa40f004", null ],
+    [ "addProg", "dd/dee/a01081.php#a1eabf4c8408ded2b8deca24d99fd3234", null ],
+    [ "has", "dd/dee/a01081.php#a7710e8ecdb6e5eb86b673765d69df6cf", null ],
+    [ "operator[]", "dd/dee/a01081.php#a5866fa4eb251d0821aa8543228704398", null ],
+    [ "operator[]", "dd/dee/a01081.php#ac56d872fc98d66350596b44230f927fe", null ],
+    [ "print", "dd/dee/a01081.php#a77d29e3346c6b8c49fed9158e1336bd1", null ]
 ];

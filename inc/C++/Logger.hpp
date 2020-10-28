@@ -1,252 +1,231 @@
 /*!
-*
-*	\file		Logger.hpp
-*	\author		Mathias CABIOCH-DELALANDE
-*	\created	Saturday November, 09 2019 17:01:15
-*	\modified	November, 22 2019
-*
-*/
+ *
+ *	\file		Logger.hpp
+ *	\author		Mathias CABIOCH-DELALANDE
+ *	\created	Saturday November, 09 2019 17:01:15
+ *	\modified	October, 04 2020
+ *
+ */
 #ifndef HEADER_LOGGER
 #define HEADER_LOGGER
 
-#include "C++/C++lib.hpp"
+#include "C++lib.hpp"
 
-namespace mcd {
-	/*!
-	* \class	Logger
-	* \brief	A class to log some messages
-	*/
-	class Logger {
-		/* Usefull or required defines */
-			
-		/* Members of Logger */
-		public:
-			/* Internal enums of Logger */
-				enum Level {
-					All=0,
-					Debug,
-					Info,
-					Warn,
-					Error,
-					Fatal,
-					Off
-				};
-			/* Constructors & Destructor of Logger */
-				/*! \brief	The constructor of the class */
-				Logger();
-				/*! \brief	The destructor of the class */
-				virtual ~Logger();
-			/* Getters of Logger */
-				
-			/* Setters of Logger */
-				
-			/* Statics of Logger */
-				
-			/* Operators of Logger */
-				
-			/* Friends of Logger */
-				
-			/* Others members of Logger */
-				/*!
-				* \brief		Initialize the logger with the logger config file location
-				* \details		If the file does not exists, a default file is created.
-				* \param[in]	logConfigFile	The logger config file location
-				* \return		void
-				*/
-				void init(const std::string& logConfigFile);
+namespace mcd
+{
+    /*!
+     * \class	Logger
+     * \brief	A class to log some messages
+     */
+    class Logger {
+        /* Usefull or required defines */
 
-				/*!
-				* \brief	Know if the logger is initialized
-				* \return	Boolean
-				*/
-				bool isInit()const { return _initialized; }
-				
-				/*!
-				* \brief		Know if a log Level is enabled or not
-				* \param[in]	level	The log Level to test
-				* \return		Boolean
-				*/
-				bool isEnabled(Level level);
+        /* Members of Logger */
+        public:
+        /* Internal enums of Logger */
+        enum Level { All = 0, Debug, Info, Warn, Error, Fatal, Off };
+        /* Constructors & Destructor of Logger */
+        /*! \brief	The constructor of the class */
+        Logger();
+        /*! \brief	The destructor of the class */
+        virtual ~Logger();
+        /* Getters of Logger */
 
-				
-				/*!
-				* \brief		Method to cll to log something
-				* \param[in]	level	The Level of the log message
-				* \param[in]	line	The line where the log message came from
-				* \param[in]	file	The file where the log message came from
-				* \param[in]	args	The different parts of the message
-				* \throw		std::logic_error		Throws if the logger is not initiated
-				* \throw		std::ios_base::failure		Throws if it's impossible to open the file
-				* \return		void
-				*/
-				template<class ...Args>
-				void log(Level level, int line, const std::string& file, Args... args){
-					std::lock_guard<std::mutex> lock(_mutex);
+        /* Setters of Logger */
 
-					if(!_initialized){
-						throw std::logic_error(std::string("Init the Logger before use it !"));
-						return;
-					}
+        /* Statics of Logger */
 
-					if(!isEnabled(level)){
-						return;
-					}
+        /* Operators of Logger */
 
-					std::ofstream write;
-					write.open(_logFile.c_str(), std::ios::app);
-					if(!write){
-						throw std::ios_base::failure(std::string("Something went wrong when trying to open, ") + _logFile);
-					}
-					write.close();
+        /* Friends of Logger */
 
-					DateTime date;
-					std::stringstream sstr;
-					_actLevel = level;
+        /* Others members of Logger */
+        /*!
+         * \brief		Initialize the logger with the logger config file location
+         * \details		If the file does not exists, a default file is created.
+         * \param[in]	logConfigFile	The logger config file location
+         * \return		void
+         */
+        void init(const std::string& logConfigFile);
 
-					sstr << date.get() << " [ ";
+        /*!
+         * \brief		Reset the logger
+         * \details		Reset the logger without any file.
+         * \return		void
+         */
+        void reset(std::string file, int line);
 
-					switch(level){
-						case Debug:
-							sstr << "DEBUG";
-							break;
-						case Info:
-							sstr << "INFO";
-							break;
-						case Warn:
-							sstr << "WARNING";
-							break;
-						case Error:
-							sstr << "ERROR";
-							break;
-						case Fatal:
-							sstr << "FATAL";
-							break;
-						default:
-							break;
-					}
-					sstr << " ] " << file << ":" << line << " : ";
+        /*!
+         * \brief	Know if the logger is initialized
+         * \return	Boolean
+         */
+        bool isInit() const { return _initialized; }
 
-					intern_log(sstr, args...);
+        /*!
+         * \brief		Know if a log Level is enabled or not
+         * \param[in]	level	The log Level to test
+         * \return		Boolean
+         */
+        bool isEnabled(Level level);
 
-					return;
-				}
+        /*!
+         * \brief		Method to cll to log something
+         * \param[in]	level	The Level of the log message
+         * \param[in]	line	The line where the log message came from
+         * \param[in]	file	The file where the log message came from
+         * \param[in]	args	The different parts of the message
+         * \throw		std::logic_error		Throws if the logger is not
+         * initiated
+         * \throw		std::ios_base::failure		Throws if it's impossible to open the
+         * file \return		void
+         */
+        template< class... Args >
+        void log(Level level, int line, const std::string& file, Args... args) {
+            std::lock_guard< std::mutex > lock(_mutex);
 
-		protected:
-			/* Getters of Logger */
-				
-			/* Setters of Logger */
-				
-			/* Statics of Logger */
-				
-			/* Friends of Logger */
-				
-			/* Others members of Logger */
-				
+            if (!_initialized) {
+                throw std::logic_error(std::string("Init the Logger before use it !"));
+                return;
+            }
 
-		private:
-			/*!
-			* \brief	The copy constructor of the class
-			*	\param[in]		other		The class' instance for copying
-			*/
-			Logger(const Logger& other);
-			/*!
-			* \brief	The move constructor of the class
-			*	\param[in]		other		The class' instance for moving
-			*/
-			Logger(const Logger&& other);
-			/*!
-			* \brief	The copy operator of the class
-			*	\param[in]		other		The class' instance for copying
-			*/
-			Logger& operator=(const Logger& other) noexcept;
-			/*!
-			* \brief	The move operator of the class
-			*	\param[in]		other		The class' instance for moving
-			*/
-			Logger& operator=(const Logger&& other) noexcept;
+            if (!isEnabled(level)) { return; }
 
-			void destruct();
+            std::ofstream write;
+            write.open(_logFile.c_str(), std::ios::app);
+            if (!write) {
+                throw std::ios_base::failure(
+                    std::string("Something went wrong when trying to open, ") + _logFile);
+            }
+            write.close();
 
-			template<class T, class ...Args>
-			void intern_log(std::stringstream& sstr, const T& msg, Args... args){
-				sstr << msg << " ";
+            DateTime          date;
+            std::stringstream sstr;
+            _actLevel = level;
 
-				intern_log(sstr, args...);
+            sstr << date.get() << " [ ";
 
-				return;
-			}
+            switch (level) {
+                case Debug: sstr << "DEBUG"; break;
+                case Info: sstr << "INFO"; break;
+                case Warn: sstr << "WARNING"; break;
+                case Error: sstr << "ERROR"; break;
+                case Fatal: sstr << "FATAL"; break;
+                default: break;
+            }
+            sstr << " ] " << file << ":" << line << " : ";
 
-			template<class T, class ...Args>
-			void intern_log(std::stringstream& sstr, const T& msg){
-				sstr << msg << std::endl;
+            intern_log(sstr, args...);
 
-				std::ofstream write;
-				write.open(_logFile.c_str(), std::ios::app);
-				write << sstr.str();
-				write.close();
+            return;
+        }
 
-				#ifdef DEBUG
-					std::stringstream output;
+        protected:
+        /* Getters of Logger */
 
-					switch(_actLevel){
-						case Debug:
-						case Info:
-							output << Color(Colors::BLUE_F);
-							break;
-						case Warn:
-							output << Color(Colors::LIGHT_YELLOW_F);
-							break;
-						case Error:
-						case Fatal:
-							output << Color(Colors::RED_F);
-							break;
-						default:
-							break;
-					}
+        /* Setters of Logger */
 
-					output << sstr.str();
-					output << Color(Colors::NORMAL);
-					std::cout << output.str();
-				#endif
+        /* Statics of Logger */
 
-				return;
-			}
+        /* Friends of Logger */
 
-			bool startInit();
-			std::vector<std::string> readConfig(const std::string& file);
-			void backupLastLogs();
+        /* Others members of Logger */
 
-		/* Atttributes of Logger */
-		public:
-			/* Global */
-				
-			/* Local */
-				
+        private:
+        /*!
+         * \brief	The copy constructor of the class
+         *	\param[in]		other		The class' instance for copying
+         */
+        Logger(const Logger& other);
+        /*!
+         * \brief	The move constructor of the class
+         *	\param[in]		other		The class' instance for moving
+         */
+        Logger(const Logger&& other);
+        /*!
+         * \brief	The copy operator of the class
+         *	\param[in]		other		The class' instance for copying
+         */
+        Logger& operator=(const Logger& other) noexcept;
+        /*!
+         * \brief	The move operator of the class
+         *	\param[in]		other		The class' instance for moving
+         */
+        Logger& operator=(const Logger&& other) noexcept;
 
-		protected:
-			/* Global */
-				
-			/* Local */
-				
+        void destruct();
 
-		private:
-			/* Global */
-				
-			/* Local */
-				static size_t _nbInstance;
-				mutex _mutex;
-				bool _initialized;
+        template< class T, class... Args >
+        void intern_log(std::stringstream& sstr, const T& msg, Args... args) {
+            sstr << msg << " ";
 
-				std::string _logFile;
-				Level _printedLevel;
-				Level _actLevel;
-	};
+            intern_log(sstr, args...);
 
-	extern Logger logger;
-	#define logs(LEVEL, ...) logger.log(LEVEL, __LINE__, __FILE__, __VA_ARGS__)
+            return;
+        }
 
-	#define debug_log() logs(mcd::Logger::Debug)
-	#define debug_logs(...) logs(mcd::Logger::Debug, __VA_ARGS__)
-}
+        template< class T, class... Args >
+        void intern_log(std::stringstream& sstr, const T& msg) {
+            sstr << msg << std::endl;
 
-#endif //HEADER_LOGGER
+            std::ofstream write;
+            write.open(_logFile.c_str(), std::ios::app);
+            write << sstr.str();
+            write.close();
+
+#ifdef DEBUG
+            std::stringstream output;
+
+            switch (_actLevel) {
+                case Debug:
+                case Info: output << Color(Colors::BLUE_F); break;
+                case Warn: output << Color(Colors::LIGHT_YELLOW_F); break;
+                case Error:
+                case Fatal: output << Color(Colors::RED_F); break;
+                default: break;
+            }
+
+            output << sstr.str();
+            output << Color(Colors::NORMAL);
+            std::cout << output.str();
+#endif
+
+            return;
+        }
+
+        bool                       startInit();
+        std::vector< std::string > readConfig(const std::string& file);
+        void                       backupLastLogs();
+
+        /* Atttributes of Logger */
+        public:
+        /* Global */
+
+        /* Local */
+
+        protected:
+        /* Global */
+
+        /* Local */
+
+        private:
+        /* Global */
+
+        /* Local */
+        static size_t _nbInstance;
+        mutex         _mutex;
+        bool          _initialized;
+
+        std::string _logFile;
+        Level       _printedLevel;
+        Level       _actLevel;
+    };
+
+    extern Logger logger;
+#define logs(LEVEL, ...) logger.log(LEVEL, __LINE__, __FILE__, __VA_ARGS__)
+#define logReset() logger.reset(__FILE__, __LINE__)
+
+#define debug_log() logs(mcd::Logger::Debug)
+#define debug_logs(...) logs(mcd::Logger::Debug, __VA_ARGS__)
+}   // namespace mcd
+
+#endif   // HEADER_LOGGER

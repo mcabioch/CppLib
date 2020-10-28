@@ -26,5 +26,5 @@ var functions_dup =
     [ "x", "functions_x.php", null ],
     [ "y", "functions_y.php", null ],
     [ "z", "functions_z.php", null ],
-    [ "~", "functions_0x7e.php", null ]
+    [ "~", "functions_~.php", null ]
 ];
