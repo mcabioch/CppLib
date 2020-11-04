@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,23 +95,23 @@ $(document).ready(function(){initNavTree('functions_w.php',''); initResizable();
 
 <h3><a id="index_w"></a>- w -</h3><ul>
 <li>w
-: <a class="el" href="da/d53/a00265.php#a26d74e808a118c6ed654a66a8c248480">mcd::ContraptionAttr</a>
-, <a class="el" href="da/d53/a00265.php#a5e12726e58baa05036bc160c31d08016">mcd::WorldDimensions</a>
+: <a class="el" href="db/d12/a00268.php#a26d74e808a118c6ed654a66a8c248480">mcd::ContraptionAttr</a>
+, <a class="el" href="db/d12/a00268.php#a5e12726e58baa05036bc160c31d08016">mcd::WorldDimensions</a>
 </li>
 <li>Warn
-: <a class="el" href="df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95a97b60120ff602c7d5050124927962f79">mcd::Logger</a>
+: <a class="el" href="df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95a97b60120ff602c7d5050124927962f79">mcd::Logger</a>
 </li>
 <li>weekDay()
-: <a class="el" href="d6/d16/a01269.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
+: <a class="el" href="d4/d0e/a01272.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
 </li>
 <li>weight
-: <a class="el" href="da/d53/a00265.php#ae9c3c7c184c194240178a2cf11f24566">mcd::Node&lt; T &gt;</a>
+: <a class="el" href="db/d12/a00268.php#ae9c3c7c184c194240178a2cf11f24566">mcd::Node&lt; T &gt;</a>
 </li>
 <li>weights
-: <a class="el" href="d7/d38/a01373.php#a99cf4dedc5270b2ffc388dd771f4564a">mcd::PathfindingProblem</a>
+: <a class="el" href="dd/d6d/a01380.php#a99cf4dedc5270b2ffc388dd771f4564a">mcd::PathfindingProblem</a>
 </li>
 <li>what()
-: <a class="el" href="d1/d1a/a01285.php#a04d412a2a5c85d9e16d67539134b419f">mcd::exception</a>
+: <a class="el" href="d7/d8d/a01288.php#a04d412a2a5c85d9e16d67539134b419f">mcd::exception</a>
 </li>
 </ul>
 </div><!-- contents -->

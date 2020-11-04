@@ -129,14 +129,13 @@ namespace mcd
         /*! \brief	Big > Big */
         friend bool operator>(const Big& a, const Big& b) noexcept;
 
-        /*! \brief	Big != Big */
-        friend inline bool operator!=(const Big& a, const Big& b) noexcept;
+        AUTO_OPERATOR_GREATER_EQ(Big)
+        AUTO_OPERATOR_DIFF(Big)
+        AUTO_OPERATOR_LESS_EQ(Big)
+        // AUTO_OPERATORS(Big)
+
         /*! \brief	Big ! Big */
         friend inline bool operator!(const Big& a) noexcept { return (a == Big(0)); }
-        /*! \brief	Big <= Big */
-        friend inline bool operator<=(const Big& a, const Big& b) noexcept;
-        /*! \brief	Big >= Big */
-        friend inline bool operator>=(const Big& a, const Big& b) noexcept;
 
         /*!
          * \brief	Compute \a a to the power of \a exp

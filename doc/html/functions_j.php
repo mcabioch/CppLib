@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,16 +95,16 @@ $(document).ready(function(){initNavTree('functions_j.php',''); initResizable();
 
 <h3><a id="index_j"></a>- j -</h3><ul>
 <li>j()
-: <a class="el" href="dc/d2a/a01333.php#adc00ecac929d1e153082d6a61879d4e2">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="df/d93/a01336.php#adc00ecac929d1e153082d6a61879d4e2">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>Json()
-: <a class="el" href="db/d4b/a01309.php#aa7c169d27c4e904b13ad8ca6fd184109">mcd::Json</a>
+: <a class="el" href="d7/d41/a01312.php#aa7c169d27c4e904b13ad8ca6fd184109">mcd::Json</a>
 </li>
 <li>JsonException()
-: <a class="el" href="de/d90/a01313.php#a95d09c64aa4f7b428ffb410467a01203">mcd::JsonException</a>
+: <a class="el" href="d4/d49/a01316.php#a95d09c64aa4f7b428ffb410467a01203">mcd::JsonException</a>
 </li>
 <li>JsonType
-: <a class="el" href="db/d4b/a01309.php#a3c35d4f54c782ef8b7898a1641eb4666">mcd::Json</a>
+: <a class="el" href="d7/d41/a01312.php#a3c35d4f54c782ef8b7898a1641eb4666">mcd::Json</a>
 </li>
 </ul>
 </div><!-- contents -->

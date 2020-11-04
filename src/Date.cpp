@@ -125,14 +125,6 @@ namespace mcd
         return a.day() == b.day();
     }
 
-    bool operator!=(const Date& a, const Date& b) { return !(a == b); }
-
-    bool operator>(const Date& a, const Date& b) { return !(a < b) && !(a == b); }
-
-    bool operator<=(const Date& a, const Date& b) { return (a < b) || (a == b); }
-
-    bool operator>=(const Date& a, const Date& b) { return (a > b) || (a == b); }
-
     std::ostream& operator<<(std::ostream& os, const Date& date) {
         os << date.get();
         return os;

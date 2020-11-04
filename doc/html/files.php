@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -150,39 +150,40 @@ $(document).ready(function(){initNavTree('files.php',''); initResizable(); });
 <tr id="row_50_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d7/d9a/a00152.php" target="_self">Matrix_core.hpp</a></td><td class="desc"></td></tr>
 <tr id="row_51_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/df8/a00155.php" target="_self">Matrix_functions.hpp</a></td><td class="desc"></td></tr>
 <tr id="row_52_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d6/db8/a00158.php" target="_self">Matrix_maths.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_53_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d6/d7d/a00161.php" target="_self">Mushroom.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_54_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="db/ddf/a00164.php" target="_self">NotCopyable.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_55_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dc/de6/a00167.php" target="_self">NotInstantiable.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_56_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d5/dcb/a00170.php" target="_self">Object.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_57_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d7/d3f/a00173.php" target="_self">OsDetection.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_58_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d5/de9/a00176.php" target="_self">Path.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_59_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="db/dd9/a00179.php" target="_self">Pathfinding.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_60_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d7/d25/a00182.php" target="_self">PathfindingAlgorithms.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_61_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="de/df3/a00185.php" target="_self">PathfindingDijkstra.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_62_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="da/d15/a00188.php" target="_self">PathfindingException.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_63_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d9/dd0/a00191.php" target="_self">PathfindingProblem.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_64_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dc/d57/a00194.php" target="_self">Plant.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_65_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="de/db1/a00197.php" target="_self">Player.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_66_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/db1/a00200.php" target="_self">PlayerAbstraction.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_67_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="de/d79/a00203.php" target="_self">pointers.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_68_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d5/df1/a00206.php" target="_self">PureVirtual.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_69_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/de5/a00209.php" target="_self">Referenced.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_70_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dd/dc1/a00212.php" target="_self">RNG.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_71_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/dd5/a00215.php" target="_self">sorting.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_72_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dc/d9a/a00218.php" target="_self">Stone.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_73_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dd/d52/a00221.php" target="_self">string.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_74_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d5/ddf/a00224.php" target="_self">strptime.h</a></td><td class="desc">Used to replace strptime function when compiling for Windows </td></tr>
-<tr id="row_75_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d9/d01/a00227.php" target="_self">system.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_76_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d1/da8/a00230.php" target="_self">Test.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_77_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d6/de1/a00233.php" target="_self">Threadable.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_78_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d7/d40/a00236.php" target="_self">Time.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_79_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d0/d27/a00239.php" target="_self">timeFunctions.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_80_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d2/dc8/a00242.php" target="_self">Timer.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_81_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d6/d22/a00245.php" target="_self">Tree.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_82_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dd/dd7/a00248.php" target="_self">types.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_83_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/d1a/a00251.php" target="_self">UsefullDefines.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_84_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d7/d03/a00254.php" target="_self">vector.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_85_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d9/d39/a00257.php" target="_self">Vegetal.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_53_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d6/d7d/a00161.php" target="_self">MatrixException.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_54_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="db/ddf/a00164.php" target="_self">Mushroom.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_55_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dc/de6/a00167.php" target="_self">NotCopyable.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_56_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d5/dcb/a00170.php" target="_self">NotInstantiable.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_57_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d7/d3f/a00173.php" target="_self">Object.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_58_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d5/de9/a00176.php" target="_self">OsDetection.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_59_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="db/dd9/a00179.php" target="_self">Path.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_60_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d7/d25/a00182.php" target="_self">Pathfinding.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_61_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="de/df3/a00185.php" target="_self">PathfindingAlgorithms.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_62_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="da/d15/a00188.php" target="_self">PathfindingDijkstra.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_63_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d9/dd0/a00191.php" target="_self">PathfindingException.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_64_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dc/d57/a00194.php" target="_self">PathfindingProblem.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_65_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="de/db1/a00197.php" target="_self">Plant.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_66_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/db1/a00200.php" target="_self">Player.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_67_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="de/d79/a00203.php" target="_self">PlayerAbstraction.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_68_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d5/df1/a00206.php" target="_self">pointers.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_69_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/de5/a00209.php" target="_self">PureVirtual.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_70_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dd/dc1/a00212.php" target="_self">Referenced.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_71_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/dd5/a00215.php" target="_self">RNG.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_72_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dc/d9a/a00218.php" target="_self">sorting.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_73_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dd/d52/a00221.php" target="_self">Stone.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_74_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d5/ddf/a00224.php" target="_self">string.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_75_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d9/d01/a00227.php" target="_self">strptime.h</a></td><td class="desc">Used to replace strptime function when compiling for Windows </td></tr>
+<tr id="row_76_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d1/da8/a00230.php" target="_self">system.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_77_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d6/de1/a00233.php" target="_self">Test.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_78_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d7/d40/a00236.php" target="_self">Threadable.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_79_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d0/d27/a00239.php" target="_self">Time.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_80_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d2/dc8/a00242.php" target="_self">timeFunctions.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_81_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d6/d22/a00245.php" target="_self">Timer.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_82_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dd/dd7/a00248.php" target="_self">Tree.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_83_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/d1a/a00251.php" target="_self">types.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_84_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d7/d03/a00254.php" target="_self">UsefullDefines.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_85_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d9/d39/a00257.php" target="_self">vector.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_86_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dd/dd7/a00260.php" target="_self">Vegetal.hpp</a></td><td class="desc"></td></tr>
 </table>
 </div><!-- directory -->
 </div><!-- contents -->

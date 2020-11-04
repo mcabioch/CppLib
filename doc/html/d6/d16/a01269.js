@@ -15,5 +15,8 @@ var a01269 =
     [ "weekDay", "d6/d16/a01269.php#a9a96b0ddfd20e6cc5da855b70be4c1f1", null ],
     [ "year", "d6/d16/a01269.php#a30f0e5cc134d8da80f4b68aad4f92674", null ],
     [ "yearDay", "d6/d16/a01269.php#a9af5d47e5785c0c16217e5b4914bc9a0", null ],
-    [ "yearWeek", "d6/d16/a01269.php#a211971964081aac6bf13b0c670307b54", null ]
+    [ "yearWeek", "d6/d16/a01269.php#a211971964081aac6bf13b0c670307b54", null ],
+    [ "operator<", "d6/d16/a01269.php#a900297f0a1d5018e0c30d2e8fa6a99c6", null ],
+    [ "operator<<", "d6/d16/a01269.php#a1862604492a841a6b98e1a3061d95b96", null ],
+    [ "operator==", "d6/d16/a01269.php#a9cfaaa2dd5867578b32c02fd8bc16339", null ]
 ];

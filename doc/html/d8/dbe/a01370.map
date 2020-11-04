@@ -1,6 +1,14 @@
-<map id="mcd::Plant" name="mcd::Plant">
-<area shape="rect" id="node1" title="A plant." alt="" coords="24,229,109,256"/>
-<area shape="rect" id="node2" href="$df/d75/a01447.php" title="A vegetal." alt="" coords="17,155,116,181"/>
-<area shape="rect" id="node3" href="$d3/d42/a01275.php" title="An entity." alt="" coords="22,80,111,107"/>
-<area shape="rect" id="node4" href="$d7/dbf/a01239.php" title="A contraption." alt="" coords="5,5,128,32"/>
+<map id="mcd::PathfindingDijkstra" name="mcd::PathfindingDijkstra">
+<area shape="rect" id="node1" title="An implementation of the Dijkstra algorithm." alt="" coords="1276,64,1441,91"/>
+<area shape="rect" id="node2" href="$dd/d0c/a01368.php" title="A class to implement some pathfinding algorithms." alt="" coords="1107,64,1227,91"/>
+<area shape="rect" id="node3" href="$de/d1f/a01364.php" title="A class to manage a path computed by the map." alt="" coords="727,5,809,32"/>
+<area shape="rect" id="node4" href="$d9/d79/a01360.php" title="A node for the path." alt="" coords="149,64,300,91"/>
+<area shape="rect" id="node11" title=" " alt="" coords="507,126,701,167"/>
+<area shape="rect" id="node5" href="$dd/d6d/a01380.php" title="A class to group every pathfinding problems in one way to use it." alt="" coords="833,167,1001,193"/>
+<area shape="rect" id="node6" title=" " alt="" coords="525,257,683,298"/>
+<area shape="rect" id="node7" title="STL class." alt="" coords="163,220,286,247"/>
+<area shape="rect" id="node10" title=" " alt="" coords="505,191,703,233"/>
+<area shape="rect" id="node8" title=" " alt="" coords="5,235,44,261"/>
+<area shape="rect" id="node9" title=" " alt="" coords="5,164,44,191"/>
+<area shape="rect" id="node12" title="STL class." alt="" coords="167,144,283,171"/>
 </map>

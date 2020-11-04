@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::natural Namespace Reference</title>
+		<title>C++: Todo List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,108 +90,28 @@ $(document).ready(function(){initNavTree('d5/d35/a00266.php','../../'); initResi
 </iframe>
 </div>
 
-<div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">mcd::natural Namespace Reference</div>  </div>
+<div class="title">Todo List </div>  </div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php">Cell</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A cell with chromosomes.  <a href="../../d6/d6e/a01137.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d61/a01205.php">Chromosome</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A double group of genes.  <a href="../../de/d61/a01205.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd5/a01293.php">Gene</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A gene that represent a caracteristic.  <a href="../../dc/dd5/a01293.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a188924fe6c7007fd322ebe9ece4bb4b6"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../de/d61/a01205.php">Chromosome</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d35/a00266.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a></td></tr>
-<tr class="separator:a188924fe6c7007fd322ebe9ece4bb4b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed19377fb7721df1a451d93af0c19950"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../dc/dd5/a01293.php">Gene</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d35/a00266.php#aed19377fb7721df1a451d93af0c19950">Genes</a></td></tr>
-<tr class="separator:aed19377fb7721df1a451d93af0c19950"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a81eb139ff8493e715a8efce3fda3155f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d35/a00266.php#a81eb139ff8493e715a8efce3fda3155f">transfer</a> (const <a class="el" href="../../d5/d35/a00266.php#aed19377fb7721df1a451d93af0c19950">Genes</a> &amp;in, <a class="el" href="../../d5/d35/a00266.php#aed19377fb7721df1a451d93af0c19950">Genes</a> &amp;out)</td></tr>
-<tr class="memdesc:a81eb139ff8493e715a8efce3fda3155f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfer a vector of <a class="el" href="../../dc/dd5/a01293.php" title="A gene that represent a caracteristic.">Gene</a> into another one, using the copy method.  <a href="../../d5/d35/a00266.php#a81eb139ff8493e715a8efce3fda3155f">More...</a><br /></td></tr>
-<tr class="separator:a81eb139ff8493e715a8efce3fda3155f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a188924fe6c7007fd322ebe9ece4bb4b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a188924fe6c7007fd322ebe9ece4bb4b6">&#9670;&nbsp;</a></span>Chromosomes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::vector&lt; <a class="el" href="../../de/d61/a01205.php">Chromosome</a> &gt; <a class="el" href="../../d5/d35/a00266.php#a188924fe6c7007fd322ebe9ece4bb4b6">mcd::natural::Chromosomes</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aed19377fb7721df1a451d93af0c19950"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed19377fb7721df1a451d93af0c19950">&#9670;&nbsp;</a></span>Genes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::vector&lt; <a class="el" href="../../dc/dd5/a01293.php">Gene</a> &gt; <a class="el" href="../../d5/d35/a00266.php#aed19377fb7721df1a451d93af0c19950">mcd::natural::Genes</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a81eb139ff8493e715a8efce3fda3155f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81eb139ff8493e715a8efce3fda3155f">&#9670;&nbsp;</a></span>transfer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::natural::transfer </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d5/d35/a00266.php#aed19377fb7721df1a451d93af0c19950">Genes</a> &amp;&#160;</td>
-          <td class="paramname"><em>in</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d5/d35/a00266.php#aed19377fb7721df1a451d93af0c19950">Genes</a> &amp;&#160;</td>
-          <td class="paramname"><em>out</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Transfer a vector of <a class="el" href="../../dc/dd5/a01293.php" title="A gene that represent a caracteristic.">Gene</a> into another one, using the copy method. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+<div class="textblock"><dl class="reflist">
+<dt>Class <a class="el" href="../../d9/d12/a01128.php">mcd::Big</a>  </dt>
+<dd><a class="anchor" id="_todo000001"></a>Implement the coma  </dd>
+<dt>Class <a class="el" href="../../dc/dd9/a01268.php">mcd::RSA</a>  </dt>
+<dd><a class="anchor" id="_todo000002"></a>Create the class  </dd>
+<dt>Class <a class="el" href="../../db/dff/a01432.php">mcd::Timer</a>  </dt>
+<dd><a class="anchor" id="_todo000003"></a>Create the class  </dd>
+<dt>Class <a class="el" href="../../df/d31/a01440.php">mcd::Tree&lt; T &gt;</a>  </dt>
+<dd><a class="anchor" id="_todo000004"></a>Refactoring </dd>
+</dl>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../da/d53/a00265.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/d35/a00266.php">natural</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

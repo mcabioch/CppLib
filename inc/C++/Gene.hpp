@@ -3,7 +3,7 @@
  *	\file		Gene.hpp
  *	\author		Mathias CABIOCH-DELALANDE
  *	\created	Tuesday November, 27 2018 15:12:24
- *	\modified	February, 12 2020
+ *	\modified	October, 28 2020
  *
  */
 #ifndef HEADER_GENETIC_GENE
@@ -53,7 +53,7 @@ namespace mcd
                 return (g1._name == g2._name);
             }
             /*! \brief	Tries if the names are differents */
-            friend bool operator!=(const Gene& g1, const Gene& g2) { return !(g1 == g2); }
+            AUTO_OPERATOR_DIFF(Gene)
             /* Friends of Gene */
             /*! \brief	Write the 3 values of a gene on 3 lines */
             friend std::ostream& operator<<(std::ostream& os, const Gene& g) {

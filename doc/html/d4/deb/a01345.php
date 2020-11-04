@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::NotInstantiable Class Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('d4/deb/a01345.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d7/d57/a01348.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,120 +91,21 @@ $(document).ready(function(){initNavTree('d4/deb/a01345.php','../../'); initResi
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d5/da0/a01342.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::NotInstantiable Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">mcd::NotCopyable Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Let a class being only an abstract class.  
- <a href="../../d4/deb/a01345.php#details">More...</a></p>
-
-<p><code>#include &lt;NotInstantiable.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a760ca4c32c24cf2b4c4c2ef07b51f997"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/deb/a01345.php#a760ca4c32c24cf2b4c4c2ef07b51f997">NotInstantiable</a> ()</td></tr>
-<tr class="memdesc:a760ca4c32c24cf2b4c4c2ef07b51f997"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d4/deb/a01345.php#a760ca4c32c24cf2b4c4c2ef07b51f997">More...</a><br /></td></tr>
-<tr class="separator:a760ca4c32c24cf2b4c4c2ef07b51f997"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a096b44b3d9fe8e567b179ac3d3dbacff"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/deb/a01345.php#a096b44b3d9fe8e567b179ac3d3dbacff">~NotInstantiable</a> ()</td></tr>
-<tr class="separator:a096b44b3d9fe8e567b179ac3d3dbacff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19c59f78b217426061641970c9f11022"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/deb/a01345.php#a19c59f78b217426061641970c9f11022">notInstantiable</a> () final=0</td></tr>
-<tr class="separator:a19c59f78b217426061641970c9f11022"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Let a class being only an abstract class. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a760ca4c32c24cf2b4c4c2ef07b51f997"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a760ca4c32c24cf2b4c4c2ef07b51f997">&#9670;&nbsp;</a></span>NotInstantiable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::NotInstantiable::NotInstantiable </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The constructor of the class. </p>
-
-</div>
-</div>
-<a id="a096b44b3d9fe8e567b179ac3d3dbacff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a096b44b3d9fe8e567b179ac3d3dbacff">&#9670;&nbsp;</a></span>~NotInstantiable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual mcd::NotInstantiable::~NotInstantiable </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a19c59f78b217426061641970c9f11022"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19c59f78b217426061641970c9f11022">&#9670;&nbsp;</a></span>notInstantiable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void mcd::NotInstantiable::notInstantiable </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../dc/de6/a00167.php">NotInstantiable.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d7/d57/a01348.php">mcd::NotCopyable</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d57/a01348.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a>()</td><td class="entry"><a class="el" href="../../d7/d57/a01348.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d57/a01348.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a>()</td><td class="entry"><a class="el" href="../../d7/d57/a01348.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../da/d53/a00265.php">mcd</a></li><li class="navelem"><a class="el" href="../../d4/deb/a01345.php">NotInstantiable</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

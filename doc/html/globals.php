@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -100,6 +100,21 @@ $(document).ready(function(){initNavTree('globals.php',''); initResizable(); });
 <li>assert
 : <a class="el" href="d4/d51/a00017.php#a5b1dafe65f1b0085675cf1fffe12b53e">Assert.hpp</a>
 </li>
+<li>AUTO_OPERATOR_DIFF
+: <a class="el" href="d7/d06/a00131.php#acdc796107ba68a6a3ce4567f35e7b57e">lowDefines.hpp</a>
+</li>
+<li>AUTO_OPERATOR_GREATER
+: <a class="el" href="d7/d06/a00131.php#a983517eb99d86ddbcbe73c34d18fdeb5">lowDefines.hpp</a>
+</li>
+<li>AUTO_OPERATOR_GREATER_EQ
+: <a class="el" href="d7/d06/a00131.php#aaf14a4c6705e04e70fe68fe38ea04aec">lowDefines.hpp</a>
+</li>
+<li>AUTO_OPERATOR_LESS_EQ
+: <a class="el" href="d7/d06/a00131.php#adcad71ce3a6972ceafd30f790ee5a332">lowDefines.hpp</a>
+</li>
+<li>AUTO_OPERATORS
+: <a class="el" href="d7/d06/a00131.php#abe33bfc662fbc270e952c288fd8a7991">lowDefines.hpp</a>
+</li>
 </ul>
 
 
@@ -115,7 +130,7 @@ $(document).ready(function(){initNavTree('globals.php',''); initResizable(); });
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>COMMA
-: <a class="el" href="d3/d1a/a00251.php#aa2f49001be13949a16a57e6c99ab00ad">UsefullDefines.hpp</a>
+: <a class="el" href="d7/d03/a00254.php#aa2f49001be13949a16a57e6c99ab00ad">UsefullDefines.hpp</a>
 </li>
 </ul>
 
@@ -182,35 +197,32 @@ $(document).ready(function(){initNavTree('globals.php',''); initResizable(); });
 
 
 <h3><a id="index_m"></a>- m -</h3><ul>
-<li>MCD_AUTO_OPERATORS
-: <a class="el" href="d7/d06/a00131.php#ae7f18b60b017771d5a4562449e8ca479">lowDefines.hpp</a>
-</li>
 <li>mod()
 : <a class="el" href="d3/df8/a00155.php#a2de39472765e5120e670072cbc2d8ead">Matrix_functions.hpp</a>
 </li>
 <li>MUTEX_CONST_RECREATE
-: <a class="el" href="de/d79/a00203.php#af882b89ff60874679a5db7856d4130f2">pointers.hpp</a>
+: <a class="el" href="d5/df1/a00206.php#af882b89ff60874679a5db7856d4130f2">pointers.hpp</a>
 </li>
 <li>MUTEX_CONST_RECREATE_ARGS
-: <a class="el" href="de/d79/a00203.php#a37add3fecd1208aa0e5fb744bbb8b838">pointers.hpp</a>
+: <a class="el" href="d5/df1/a00206.php#a37add3fecd1208aa0e5fb744bbb8b838">pointers.hpp</a>
 </li>
 <li>MUTEX_RECREATE
-: <a class="el" href="de/d79/a00203.php#a6fbaf936dc811e3422bec35b026f4983">pointers.hpp</a>
+: <a class="el" href="d5/df1/a00206.php#a6fbaf936dc811e3422bec35b026f4983">pointers.hpp</a>
 </li>
 <li>MUTEX_RECREATE_ARGS
-: <a class="el" href="de/d79/a00203.php#a8614c85113bf4cfc4be80948688e9f5d">pointers.hpp</a>
+: <a class="el" href="d5/df1/a00206.php#a8614c85113bf4cfc4be80948688e9f5d">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_CONST_RECREATE
-: <a class="el" href="de/d79/a00203.php#a017296688d5943266bbe011c59365008">pointers.hpp</a>
+: <a class="el" href="d5/df1/a00206.php#a017296688d5943266bbe011c59365008">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_CONST_RECREATE_ARGS
-: <a class="el" href="de/d79/a00203.php#a0cbcd876925de883c4a297851fdc7b4b">pointers.hpp</a>
+: <a class="el" href="d5/df1/a00206.php#a0cbcd876925de883c4a297851fdc7b4b">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_RECREATE
-: <a class="el" href="de/d79/a00203.php#a1268e33dd61371fb191a2e753e76f545">pointers.hpp</a>
+: <a class="el" href="d5/df1/a00206.php#a1268e33dd61371fb191a2e753e76f545">pointers.hpp</a>
 </li>
 <li>MUTEX_VOID_RECREATE_ARGS
-: <a class="el" href="de/d79/a00203.php#a5664112302c26ebee5460b2fcc0a7954">pointers.hpp</a>
+: <a class="el" href="d5/df1/a00206.php#a5664112302c26ebee5460b2fcc0a7954">pointers.hpp</a>
 </li>
 </ul>
 
@@ -223,35 +235,35 @@ $(document).ready(function(){initNavTree('globals.php',''); initResizable(); });
 : <a class="el" href="d6/db8/a00158.php#a8ebc3a9dececcd7462234a639abdfe50">Matrix_maths.hpp</a>
 </li>
 <li>OS_UNRECOGNIZE
-: <a class="el" href="d7/d3f/a00173.php#a921a8364e814a54925abcb8ba8f472bc">OsDetection.hpp</a>
+: <a class="el" href="d5/de9/a00176.php#a921a8364e814a54925abcb8ba8f472bc">OsDetection.hpp</a>
 </li>
 </ul>
 
 
 <h3><a id="index_t"></a>- t -</h3><ul>
 <li>TEST_ADD_TEST
-: <a class="el" href="d1/da8/a00230.php#a0c07eac51a83f591603f2456250fe07e">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#a0c07eac51a83f591603f2456250fe07e">Test.hpp</a>
 </li>
 <li>TEST_ADD_THROW
-: <a class="el" href="d1/da8/a00230.php#a2035697778ce28474ce1c3ec73753b87">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#a2035697778ce28474ce1c3ec73753b87">Test.hpp</a>
 </li>
 <li>TEST_FORMAT_ALL
-: <a class="el" href="d1/da8/a00230.php#a9a8a8df987750bdc9889c32863383d31">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#a9a8a8df987750bdc9889c32863383d31">Test.hpp</a>
 </li>
 <li>TEST_FORMAT_ERROR
-: <a class="el" href="d1/da8/a00230.php#ab0c0b90cd164795a353e36bf0b8464e7">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#ab0c0b90cd164795a353e36bf0b8464e7">Test.hpp</a>
 </li>
 <li>TEST_FORMAT_MAX
-: <a class="el" href="d1/da8/a00230.php#ae6d742460878949f5eea9f395f32548f">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#ae6d742460878949f5eea9f395f32548f">Test.hpp</a>
 </li>
 <li>TEST_FORMAT_SUCCESS
-: <a class="el" href="d1/da8/a00230.php#ac709139e143e2e7ae4df9ccc578f97be">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#ac709139e143e2e7ae4df9ccc578f97be">Test.hpp</a>
 </li>
 <li>THREADABLE
-: <a class="el" href="d6/de1/a00233.php#a09979566ade438911265d3e17ecc3abc">Threadable.hpp</a>
+: <a class="el" href="d7/d40/a00236.php#a09979566ade438911265d3e17ecc3abc">Threadable.hpp</a>
 </li>
 <li>THREADABLE_LOCK
-: <a class="el" href="d6/de1/a00233.php#a3a0fe346d6bb1356037b21f558e5c308">Threadable.hpp</a>
+: <a class="el" href="d7/d40/a00236.php#a3a0fe346d6bb1356037b21f558e5c308">Threadable.hpp</a>
 </li>
 <li>trycatch_assert
 : <a class="el" href="d4/d51/a00017.php#a20506cf4a1f5163830310250a8d3d1ba">Assert.hpp</a>
@@ -270,34 +282,34 @@ $(document).ready(function(){initNavTree('globals.php',''); initResizable(); });
 
 <h3><a id="index_u"></a>- u -</h3><ul>
 <li>unit_equals
-: <a class="el" href="d1/da8/a00230.php#ac9544a2b3d82fbf7b0913fb29ae4ab1d">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#ac9544a2b3d82fbf7b0913fb29ae4ab1d">Test.hpp</a>
 </li>
 <li>unit_false
-: <a class="el" href="d1/da8/a00230.php#a8882f6cc17a922e91f806a24b4a6f413">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#a8882f6cc17a922e91f806a24b4a6f413">Test.hpp</a>
 </li>
 <li>unit_in
-: <a class="el" href="d1/da8/a00230.php#a31dc59c312f6beaf52e720c5a7dcc017">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#a31dc59c312f6beaf52e720c5a7dcc017">Test.hpp</a>
 </li>
 <li>unit_instance
-: <a class="el" href="d1/da8/a00230.php#a349ad27ffc89c197309d6806895c961d">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#a349ad27ffc89c197309d6806895c961d">Test.hpp</a>
 </li>
 <li>unit_notEquals
-: <a class="el" href="d1/da8/a00230.php#abe6f23e4ac49c7bcf76fa26e710db6b4">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#abe6f23e4ac49c7bcf76fa26e710db6b4">Test.hpp</a>
 </li>
 <li>unit_noThrows
-: <a class="el" href="d1/da8/a00230.php#ab75ba1ba8623d1e9a555541577e8117e">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#ab75ba1ba8623d1e9a555541577e8117e">Test.hpp</a>
 </li>
 <li>unit_notIn
-: <a class="el" href="d1/da8/a00230.php#a5eaf417c1ad582f2eb3fdef1e32d5a40">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#a5eaf417c1ad582f2eb3fdef1e32d5a40">Test.hpp</a>
 </li>
 <li>unit_notInstance
-: <a class="el" href="d1/da8/a00230.php#ad118bcf8324d2668994f961ee5019c5b">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#ad118bcf8324d2668994f961ee5019c5b">Test.hpp</a>
 </li>
 <li>unit_throws
-: <a class="el" href="d1/da8/a00230.php#a4feaf992012b5ed9c7f3abc2219d1b7a">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#a4feaf992012b5ed9c7f3abc2219d1b7a">Test.hpp</a>
 </li>
 <li>unit_true
-: <a class="el" href="d1/da8/a00230.php#a8ed24c910b9c861fde0ee37cc53a26f2">Test.hpp</a>
+: <a class="el" href="d6/de1/a00233.php#a8ed24c910b9c861fde0ee37cc53a26f2">Test.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->

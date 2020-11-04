@@ -1,11 +1,4 @@
-<map id="mcd::Contraption" name="mcd::Contraption">
-<area shape="rect" id="node1" title="A contraption." alt="" coords="170,5,293,32"/>
-<area shape="rect" id="node2" href="$d3/d51/a01264.php" title="An entity." alt="" coords="129,80,219,107"/>
-<area shape="rect" id="node8" href="$df/dec/a01320.php" title="An object." alt="" coords="245,80,338,107"/>
-<area shape="rect" id="node3" href="$d6/d6a/a01072.php" title="An animal." alt="" coords="5,155,100,181"/>
-<area shape="rect" id="node5" href="$d5/da5/a01424.php" title="A vegetal." alt="" coords="125,155,223,181"/>
-<area shape="rect" id="node4" href="$d6/d80/a01076.php" title="An ant." alt="" coords="15,229,90,256"/>
-<area shape="rect" id="node6" href="$d1/d56/a01308.php" title="A mushroom." alt="" coords="115,229,231,256"/>
-<area shape="rect" id="node7" href="$d7/d57/a01348.php" title="A plant." alt="" coords="255,229,341,256"/>
-<area shape="rect" id="node9" href="$dd/d6d/a01380.php" title="A stone." alt="" coords="248,155,337,181"/>
+<map id="mcd::ConsoleCursor" name="mcd::ConsoleCursor">
+<area shape="rect" id="node1" title="A class to play with the cursor in the console." alt="" coords="5,80,148,107"/>
+<area shape="rect" id="node2" href="$d2/d82/a01404.php" title="A class to make some other to be abstract class." alt="" coords="17,5,136,32"/>
 </map>

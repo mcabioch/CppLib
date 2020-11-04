@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,40 +93,40 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.php',''); initRe
 <div class="contents">
 &#160;<ul>
 <li>arguments
-: <a class="el" href="da/d53/a00265.php#a50b5129023a76b3bdb0bd01ee9e8b72e">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a50b5129023a76b3bdb0bd01ee9e8b72e">mcd</a>
 </li>
 <li>assertion
-: <a class="el" href="da/d53/a00265.php#aa06f3027ef1a56c8cb526a47c6350905">mcd</a>
+: <a class="el" href="db/d12/a00268.php#aa06f3027ef1a56c8cb526a47c6350905">mcd</a>
 </li>
 <li>cesar
-: <a class="el" href="da/d53/a00265.php#a8855b382bd52d4baffe3633dbe8fa3ed">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a8855b382bd52d4baffe3633dbe8fa3ed">mcd</a>
 </li>
 <li>cout
-: <a class="el" href="da/d53/a00265.php#ad49187ab386f309e965f2f8e954c3c24">mcd</a>
+: <a class="el" href="db/d12/a00268.php#ad49187ab386f309e965f2f8e954c3c24">mcd</a>
 </li>
 <li>endl
-: <a class="el" href="da/d53/a00265.php#a19aa3c3882eb7a0c0d4f6479a4bbf975">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a19aa3c3882eb7a0c0d4f6479a4bbf975">mcd</a>
 </li>
 <li>logger
-: <a class="el" href="da/d53/a00265.php#a46f063faccea2fdafb8e5f33c2ccbc50">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a46f063faccea2fdafb8e5f33c2ccbc50">mcd</a>
 </li>
 <li>mycrypt
-: <a class="el" href="da/d53/a00265.php#a302b261a28cb48198b26b85ab682bfab">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a302b261a28cb48198b26b85ab682bfab">mcd</a>
 </li>
 <li>reader
-: <a class="el" href="da/d53/a00265.php#a8860bcba5ad1fad5c14e9f8a69b8bc51">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a8860bcba5ad1fad5c14e9f8a69b8bc51">mcd</a>
 </li>
 <li>rng
-: <a class="el" href="da/d53/a00265.php#a08ac826a0e7f64dc1b04036ecec50ed1">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a08ac826a0e7f64dc1b04036ecec50ed1">mcd</a>
 </li>
 <li>setprecision
-: <a class="el" href="da/d53/a00265.php#ad309496206415242e21a12fc54df1cc8">mcd</a>
+: <a class="el" href="db/d12/a00268.php#ad309496206415242e21a12fc54df1cc8">mcd</a>
 </li>
 <li>sha2
-: <a class="el" href="da/d53/a00265.php#aa0ce198f34851e093bbc38dfd975e339">mcd</a>
+: <a class="el" href="db/d12/a00268.php#aa0ce198f34851e093bbc38dfd975e339">mcd</a>
 </li>
 <li>writer
-: <a class="el" href="da/d53/a00265.php#a9826cf077a919365508fb2a7d7aae4c2">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a9826cf077a919365508fb2a7d7aae4c2">mcd</a>
 </li>
 </ul>
 </div><!-- contents -->

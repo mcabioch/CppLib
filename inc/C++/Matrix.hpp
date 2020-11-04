@@ -10,6 +10,7 @@
 #define HEADER_MATRIX
 
 #include "Fraction.hpp"
+#include "MatrixException.hpp"
 
 namespace mcd
 {
@@ -180,8 +181,8 @@ namespace mcd
 
 #ifndef DOXYGEN_SHOULD_SKIP_THIS
 #    include "Matrix_constructs.hpp"
-#    include "Matrix_maths.hpp"
 #    include "Matrix_core.hpp"
+#    include "Matrix_maths.hpp"
 #endif   // DOXYGEN_SHOULD_SKIP_THIS
 
 #ifndef DOXYGEN_SHOULD_SKIP_THIS

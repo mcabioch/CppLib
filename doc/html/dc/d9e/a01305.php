@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::IOConfig Class Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('dc/d9e/a01305.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d1/d56/a01308.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,84 +91,21 @@ $(document).ready(function(){initNavTree('dc/d9e/a01305.php','../../'); initResi
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../dc/de0/a01302.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::IOConfig Class Reference</div>  </div>
+<div class="title">mcd::IOConfig Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to configure inputs and outputs.  
- <a href="../../dc/d9e/a01305.php#details">More...</a></p>
-
-<p><code>#include &lt;IOConfig.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a8638a62e7967b56a444ee42d3ea55878"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9e/a01305.php#a8638a62e7967b56a444ee42d3ea55878">IOConfig</a> ()</td></tr>
-<tr class="memdesc:a8638a62e7967b56a444ee42d3ea55878"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../dc/d9e/a01305.php#a8638a62e7967b56a444ee42d3ea55878">More...</a><br /></td></tr>
-<tr class="separator:a8638a62e7967b56a444ee42d3ea55878"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6a34fca3d338ef0498db6353ac5ece6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9e/a01305.php#ad6a34fca3d338ef0498db6353ac5ece6">~IOConfig</a> ()</td></tr>
-<tr class="separator:ad6a34fca3d338ef0498db6353ac5ece6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to configure inputs and outputs. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8638a62e7967b56a444ee42d3ea55878"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8638a62e7967b56a444ee42d3ea55878">&#9670;&nbsp;</a></span>IOConfig()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::IOConfig::IOConfig </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The constructor of the class. </p>
-
-</div>
-</div>
-<a id="ad6a34fca3d338ef0498db6353ac5ece6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6a34fca3d338ef0498db6353ac5ece6">&#9670;&nbsp;</a></span>~IOConfig()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual mcd::IOConfig::~IOConfig </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../df/d6a/a00119.php">IOConfig.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d1/d56/a01308.php">mcd::IOConfig</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d56/a01308.php#a8638a62e7967b56a444ee42d3ea55878">IOConfig</a>()</td><td class="entry"><a class="el" href="../../d1/d56/a01308.php">mcd::IOConfig</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d56/a01308.php#ad6a34fca3d338ef0498db6353ac5ece6">~IOConfig</a>()</td><td class="entry"><a class="el" href="../../d1/d56/a01308.php">mcd::IOConfig</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../da/d53/a00265.php">mcd</a></li><li class="navelem"><a class="el" href="../../dc/d9e/a01305.php">IOConfig</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -99,12 +99,8 @@ $(document).ready(function(){initNavTree('d4/dad/a01353.php','../../'); initResi
 <p>This is the complete list of members for <a class="el" href="../../d4/dad/a01353.php">mcd::PathfindingNode</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="../../d4/dad/a01353.php#ac252a8bf89c83a96e63604fdb8eb144b">id</a></td><td class="entry"><a class="el" href="../../d4/dad/a01353.php">mcd::PathfindingNode</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dad/a01353.php#a3fe0870c6659f0faf93353dae13f198b">operator!=</a>(const PathfindingNode &amp;a, const PathfindingNode &amp;b)</td><td class="entry"><a class="el" href="../../d4/dad/a01353.php">mcd::PathfindingNode</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dad/a01353.php#accb5b160fd3f52084b8b83c8dddaae93">operator&lt;</a>(const PathfindingNode &amp;a, const PathfindingNode &amp;b)</td><td class="entry"><a class="el" href="../../d4/dad/a01353.php">mcd::PathfindingNode</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dad/a01353.php#a3a838d53f4f20b9d921b88c936c9b0c6">operator&lt;=</a>(const PathfindingNode &amp;a, const PathfindingNode &amp;b)</td><td class="entry"><a class="el" href="../../d4/dad/a01353.php">mcd::PathfindingNode</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dad/a01353.php#accb5b160fd3f52084b8b83c8dddaae93">operator&lt;</a>(const PathfindingNode &amp;a, const PathfindingNode &amp;b)</td><td class="entry"><a class="el" href="../../d4/dad/a01353.php">mcd::PathfindingNode</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d4/dad/a01353.php#af8e324237235cd148492d82eadf94e0c">operator==</a>(const PathfindingNode &amp;a, const PathfindingNode &amp;b)</td><td class="entry"><a class="el" href="../../d4/dad/a01353.php">mcd::PathfindingNode</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dad/a01353.php#aeba800fc4624a565bb41c02943679938">operator&gt;</a>(const PathfindingNode &amp;a, const PathfindingNode &amp;b)</td><td class="entry"><a class="el" href="../../d4/dad/a01353.php">mcd::PathfindingNode</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dad/a01353.php#a50c4ea549ad84f73f8eb09fc5aa2bff3">operator&gt;=</a>(const PathfindingNode &amp;a, const PathfindingNode &amp;b)</td><td class="entry"><a class="el" href="../../d4/dad/a01353.php">mcd::PathfindingNode</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

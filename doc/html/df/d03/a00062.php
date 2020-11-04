@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -104,27 +104,28 @@ Include dependency graph for collides.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d6f/a00063.png" border="0" usemap="#acollides_8hpp" alt=""/></div>
 <map name="collides_8hpp" id="collides_8hpp">
-<area shape="rect" title=" " alt="" coords="757,5,847,32"/>
-<area shape="rect" href="../../d9/db6/a00146.php" title=" " alt="" coords="761,80,843,107"/>
-<area shape="rect" href="../../d0/dc2/a00104.php" title=" " alt="" coords="755,155,849,181"/>
+<area shape="rect" title=" " alt="" coords="715,5,806,32"/>
+<area shape="rect" href="../../d9/db6/a00146.php" title=" " alt="" coords="719,80,802,107"/>
+<area shape="rect" href="../../d0/dc2/a00104.php" title=" " alt="" coords="643,155,737,181"/>
+<area shape="rect" href="../../d6/d7d/a00161.php" title=" " alt="" coords="762,155,903,181"/>
 <area shape="rect" href="../../d7/dce/a00143.php" title=" " alt="" coords="711,229,794,256"/>
-<area shape="rect" title=" " alt="" coords="818,229,885,256"/>
+<area shape="rect" title=" " alt="" coords="621,229,687,256"/>
 <area shape="rect" href="../../d8/d41/a00038.php" title=" " alt="" coords="711,304,794,331"/>
-<area shape="rect" href="../../de/d79/a00203.php" title=" " alt="" coords="706,379,799,405"/>
-<area shape="rect" href="../../dd/dd7/a00248.php" title=" " alt="" coords="620,453,699,480"/>
+<area shape="rect" href="../../d5/df1/a00206.php" title=" " alt="" coords="706,379,799,405"/>
+<area shape="rect" href="../../d3/d1a/a00251.php" title=" " alt="" coords="620,453,699,480"/>
 <area shape="rect" title=" " alt="" coords="723,453,782,480"/>
 <area shape="rect" title=" " alt="" coords="806,453,865,480"/>
 <area shape="rect" href="../../d3/d52/a00023.php" title=" " alt="" coords="383,528,450,555"/>
-<area shape="rect" href="../../d5/df1/a00206.php" title=" " alt="" coords="488,528,599,555"/>
-<area shape="rect" href="../../d6/d22/a00245.php" title=" " alt="" coords="623,528,696,555"/>
-<area shape="rect" href="../../d3/d1a/a00251.php" title=" " alt="" coords="721,528,854,555"/>
+<area shape="rect" href="../../d3/de5/a00209.php" title=" " alt="" coords="488,528,599,555"/>
+<area shape="rect" href="../../dd/dd7/a00248.php" title=" " alt="" coords="623,528,696,555"/>
+<area shape="rect" href="../../d7/d03/a00254.php" title=" " alt="" coords="721,528,854,555"/>
 <area shape="rect" title=" " alt="" coords="879,528,947,555"/>
 <area shape="rect" href="../../d7/d06/a00131.php" title=" " alt="" coords="617,603,729,629"/>
 <area shape="rect" href="../../d6/d5b/a00026.php" title=" " alt="" coords="5,603,148,629"/>
 <area shape="rect" href="../../d5/d16/a00029.php" title=" " alt="" coords="172,603,312,629"/>
 <area shape="rect" href="../../dc/d87/a00032.php" title=" " alt="" coords="337,603,446,629"/>
 <area shape="rect" href="../../d4/d8c/a00035.php" title=" " alt="" coords="470,603,593,629"/>
-<area shape="rect" href="../../d7/d3f/a00173.php" title=" " alt="" coords="613,677,733,704"/>
+<area shape="rect" href="../../d5/de9/a00176.php" title=" " alt="" coords="613,677,733,704"/>
 <area shape="rect" title=" " alt="" coords="581,752,649,779"/>
 <area shape="rect" href="../../de/d76/a00134.php" title=" " alt="" coords="673,752,789,779"/>
 <area shape="rect" title=" " alt="" coords="245,827,319,853"/>
@@ -138,6 +139,9 @@ Include dependency graph for collides.hpp:</div>
 <area shape="rect" title=" " alt="" coords="963,827,1017,853"/>
 <area shape="rect" title=" " alt="" coords="1042,827,1095,853"/>
 <area shape="rect" title=" " alt="" coords="1119,827,1178,853"/>
+<area shape="rect" href="../../d1/d44/a00098.php" title=" " alt="" coords="819,229,921,256"/>
+<area shape="rect" title=" " alt="" coords="824,304,903,331"/>
+<area shape="rect" title=" " alt="" coords="927,304,1005,331"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -152,20 +156,20 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" href="../../de/de1/a00065.php" title=" " alt="" coords="277,304,369,331"/>
 <area shape="rect" href="../../d4/d3a/a00101.php" title=" " alt="" coords="393,304,464,331"/>
 <area shape="rect" href="../../d9/d77/a00095.php" title=" " alt="" coords="335,379,415,405"/>
-<area shape="rect" href="../../d9/d01/a00227.php" title=" " alt="" coords="330,453,421,480"/>
-<area shape="rect" href="../../dd/d52/a00221.php" title=" " alt="" coords="336,528,415,555"/>
-<area shape="rect" href="../../d5/ddf/a00224.php" title="Used to replace strptime function when compiling for Windows." alt="" coords="335,603,415,629"/>
-<area shape="rect" href="../../d0/d27/a00239.php" title=" " alt="" coords="311,677,440,704"/>
+<area shape="rect" href="../../d1/da8/a00230.php" title=" " alt="" coords="330,453,421,480"/>
+<area shape="rect" href="../../d5/ddf/a00224.php" title=" " alt="" coords="336,528,415,555"/>
+<area shape="rect" href="../../d9/d01/a00227.php" title="Used to replace strptime function when compiling for Windows." alt="" coords="335,603,415,629"/>
+<area shape="rect" href="../../d2/dc8/a00242.php" title=" " alt="" coords="311,677,440,704"/>
 <area shape="rect" href="../../d4/d3e/a00116.php" title=" " alt="" coords="328,752,423,779"/>
 <area shape="rect" href="../../d3/d8b/a00059.php" title=" " alt="" coords="5,976,87,1003"/>
 <area shape="rect" href="../../da/d24/a00068.php" title=" " alt="" coords="120,1051,247,1077"/>
 <area shape="rect" href="../../da/dec/a00080.php" title=" " alt="" coords="162,827,237,853"/>
 <area shape="rect" href="../../df/d6a/a00119.php" title=" " alt="" coords="318,901,417,928"/>
-<area shape="rect" href="../../d5/de9/a00176.php" title=" " alt="" coords="413,827,487,853"/>
-<area shape="rect" href="../../da/d15/a00188.php" title=" " alt="" coords="511,827,682,853"/>
-<area shape="rect" href="../../d3/de5/a00209.php" title=" " alt="" coords="586,976,701,1003"/>
-<area shape="rect" href="../../d6/de1/a00233.php" title=" " alt="" coords="715,1125,825,1152"/>
-<area shape="rect" href="../../d7/d40/a00236.php" title=" " alt="" coords="261,827,337,853"/>
+<area shape="rect" href="../../db/dd9/a00179.php" title=" " alt="" coords="413,827,487,853"/>
+<area shape="rect" href="../../d9/dd0/a00191.php" title=" " alt="" coords="511,827,682,853"/>
+<area shape="rect" href="../../dd/dc1/a00212.php" title=" " alt="" coords="586,976,701,1003"/>
+<area shape="rect" href="../../d7/d40/a00236.php" title=" " alt="" coords="715,1125,825,1152"/>
+<area shape="rect" href="../../d0/d27/a00239.php" title=" " alt="" coords="261,827,337,853"/>
 <area shape="rect" href="../../da/d2a/a00086.php" title=" " alt="" coords="369,1275,459,1301"/>
 <area shape="rect" href="../../db/db2/a00020.php" title=" " alt="" coords="217,1349,377,1376"/>
 <area shape="rect" href="../../d1/d09/a00077.php" title=" " alt="" coords="364,1424,461,1451"/>
@@ -174,61 +178,61 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" href="../../d6/d2d/a00047.php" title=" " alt="" coords="369,1499,456,1525"/>
 <area shape="rect" href="../../df/d98/a00107.php" title=" " alt="" coords="271,1573,349,1600"/>
 <area shape="rect" href="../../d1/d88/a00128.php" title=" " alt="" coords="370,1648,455,1675"/>
-<area shape="rect" href="../../d1/da8/a00230.php" title=" " alt="" coords="453,1723,525,1749"/>
+<area shape="rect" href="../../d6/de1/a00233.php" title=" " alt="" coords="453,1723,525,1749"/>
 <area shape="rect" href="../../d9/d2e/a00056.php" title=" " alt="" coords="221,1648,346,1675"/>
 <area shape="rect" href="../../d5/de0/a00050.php" title=" " alt="" coords="276,1723,347,1749"/>
 <area shape="rect" href="../../dd/d32/a00041.php" title=" " alt="" coords="376,1797,449,1824"/>
 <area shape="rect" href="../../d0/d89/a00071.php" title=" " alt="" coords="309,1872,423,1899"/>
 <area shape="rect" href="../../d3/d00/a00113.php" title=" " alt="" coords="407,2245,503,2272"/>
 <area shape="rect" href="../../d1/dc1/a00092.php" title=" " alt="" coords="215,1947,293,1973"/>
-<area shape="rect" href="../../d5/dcb/a00170.php" title=" " alt="" coords="331,1947,417,1973"/>
+<area shape="rect" href="../../d7/d3f/a00173.php" title=" " alt="" coords="331,1947,417,1973"/>
 <area shape="rect" href="../../d4/d81/a00110.php" title=" " alt="" coords="99,2021,187,2048"/>
-<area shape="rect" href="../../d9/d39/a00257.php" title=" " alt="" coords="209,2096,299,2123"/>
+<area shape="rect" href="../../dd/dd7/a00260.php" title=" " alt="" coords="209,2096,299,2123"/>
 <area shape="rect" href="../../d7/d46/a00002.php" title=" " alt="" coords="69,2096,156,2123"/>
 <area shape="rect" href="../../dd/dad/a00005.php" title=" " alt="" coords="71,2171,138,2197"/>
 <area shape="rect" href="../../db/dab/a00089.php" title=" " alt="" coords="289,2245,379,2272"/>
-<area shape="rect" href="../../d3/db1/a00200.php" title=" " alt="" coords="260,2320,411,2347"/>
-<area shape="rect" href="../../de/db1/a00197.php" title=" " alt="" coords="350,2395,433,2421"/>
+<area shape="rect" href="../../de/d79/a00203.php" title=" " alt="" coords="260,2320,411,2347"/>
+<area shape="rect" href="../../d3/db1/a00200.php" title=" " alt="" coords="350,2395,433,2421"/>
 <area shape="rect" href="../../d5/df9/a00044.php" title=" " alt="" coords="333,2469,450,2496"/>
-<area shape="rect" href="../../d6/d7d/a00161.php" title=" " alt="" coords="163,2171,271,2197"/>
-<area shape="rect" href="../../dc/d57/a00194.php" title=" " alt="" coords="295,2171,373,2197"/>
-<area shape="rect" href="../../dc/d9a/a00218.php" title=" " alt="" coords="341,2021,423,2048"/>
+<area shape="rect" href="../../db/ddf/a00164.php" title=" " alt="" coords="163,2171,271,2197"/>
+<area shape="rect" href="../../de/db1/a00197.php" title=" " alt="" coords="295,2171,373,2197"/>
+<area shape="rect" href="../../dd/d52/a00221.php" title=" " alt="" coords="341,2021,423,2048"/>
 <area shape="rect" href="../../df/dc8/a00122.php" title=" " alt="" coords="486,1424,561,1451"/>
 <area shape="rect" href="../../d2/d1f/a00083.php" title=" " alt="" coords="190,901,294,928"/>
-<area shape="rect" href="../../d9/dd0/a00191.php" title=" " alt="" coords="441,901,601,928"/>
-<area shape="rect" href="../../db/dd9/a00179.php" title=" " alt="" coords="442,976,554,1003"/>
-<area shape="rect" href="../../de/df3/a00185.php" title=" " alt="" coords="403,1051,561,1077"/>
-<area shape="rect" href="../../d7/d25/a00182.php" title=" " alt="" coords="389,1125,564,1152"/>
+<area shape="rect" href="../../dc/d57/a00194.php" title=" " alt="" coords="441,901,601,928"/>
+<area shape="rect" href="../../d7/d25/a00182.php" title=" " alt="" coords="442,976,554,1003"/>
+<area shape="rect" href="../../da/d15/a00188.php" title=" " alt="" coords="403,1051,561,1077"/>
+<area shape="rect" href="../../de/df3/a00185.php" title=" " alt="" coords="389,1125,564,1152"/>
 <area shape="rect" href="../../d5/db1/a00140.php" title=" " alt="" coords="415,1200,487,1227"/>
 <area shape="rect" href="../../d4/dee/a00008.php" title=" " alt="" coords="639,1200,714,1227"/>
-<area shape="rect" href="../../d2/dc8/a00242.php" title=" " alt="" coords="739,1200,817,1227"/>
+<area shape="rect" href="../../d6/d22/a00245.php" title=" " alt="" coords="739,1200,817,1227"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:da/d53/a00265"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php">mcd</a></td></tr>
+<tr class="memitem:db/d12/a00268"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ace8a4328114062b56cf578ad92df821f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#ace8a4328114062b56cf578ad92df821f">mcd::collidesC</a> (double64_t r1, double64_t x1, double64_t y1, double64_t r2, double64_t x2, double64_t y2)</td></tr>
-<tr class="memdesc:ace8a4328114062b56cf578ad92df821f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two circles.  <a href="../../da/d53/a00265.php#ace8a4328114062b56cf578ad92df821f">More...</a><br /></td></tr>
+<tr class="memitem:ace8a4328114062b56cf578ad92df821f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ace8a4328114062b56cf578ad92df821f">mcd::collidesC</a> (double64_t r1, double64_t x1, double64_t y1, double64_t r2, double64_t x2, double64_t y2)</td></tr>
+<tr class="memdesc:ace8a4328114062b56cf578ad92df821f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two circles.  <a href="../../db/d12/a00268.php#ace8a4328114062b56cf578ad92df821f">More...</a><br /></td></tr>
 <tr class="separator:ace8a4328114062b56cf578ad92df821f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab43dbb509e6ac3b52cd7767a1fb6bdaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#ab43dbb509e6ac3b52cd7767a1fb6bdaa">mcd::collidesR</a> (double64_t x1, double64_t y1, double64_t w1, double64_t h1, double64_t x2, double64_t y2, double64_t w2, double64_t h2)</td></tr>
-<tr class="memdesc:ab43dbb509e6ac3b52cd7767a1fb6bdaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two rectangles.  <a href="../../da/d53/a00265.php#ab43dbb509e6ac3b52cd7767a1fb6bdaa">More...</a><br /></td></tr>
+<tr class="memitem:ab43dbb509e6ac3b52cd7767a1fb6bdaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ab43dbb509e6ac3b52cd7767a1fb6bdaa">mcd::collidesR</a> (double64_t x1, double64_t y1, double64_t w1, double64_t h1, double64_t x2, double64_t y2, double64_t w2, double64_t h2)</td></tr>
+<tr class="memdesc:ab43dbb509e6ac3b52cd7767a1fb6bdaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two rectangles.  <a href="../../db/d12/a00268.php#ab43dbb509e6ac3b52cd7767a1fb6bdaa">More...</a><br /></td></tr>
 <tr class="separator:ab43dbb509e6ac3b52cd7767a1fb6bdaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbb1b1f3a194f48bab3af872f65b9757"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#adbb1b1f3a194f48bab3af872f65b9757">mcd::collidesRC</a> (double64_t rx, double64_t ry, double64_t w, double64_t h, double64_t cx, double64_t cy, double64_t r)</td></tr>
-<tr class="memdesc:adbb1b1f3a194f48bab3af872f65b9757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a rectangle and a circle.  <a href="../../da/d53/a00265.php#adbb1b1f3a194f48bab3af872f65b9757">More...</a><br /></td></tr>
+<tr class="memitem:adbb1b1f3a194f48bab3af872f65b9757"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#adbb1b1f3a194f48bab3af872f65b9757">mcd::collidesRC</a> (double64_t rx, double64_t ry, double64_t w, double64_t h, double64_t cx, double64_t cy, double64_t r)</td></tr>
+<tr class="memdesc:adbb1b1f3a194f48bab3af872f65b9757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a rectangle and a circle.  <a href="../../db/d12/a00268.php#adbb1b1f3a194f48bab3af872f65b9757">More...</a><br /></td></tr>
 <tr class="separator:adbb1b1f3a194f48bab3af872f65b9757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae694a8102421f25c163a0ef7a9e903e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#ae694a8102421f25c163a0ef7a9e903e2">mcd::collidesPC</a> (double64_t cx, double64_t cy, double64_t r, double64_t x, double64_t y)</td></tr>
-<tr class="memdesc:ae694a8102421f25c163a0ef7a9e903e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a circle.  <a href="../../da/d53/a00265.php#ae694a8102421f25c163a0ef7a9e903e2">More...</a><br /></td></tr>
+<tr class="memitem:ae694a8102421f25c163a0ef7a9e903e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ae694a8102421f25c163a0ef7a9e903e2">mcd::collidesPC</a> (double64_t cx, double64_t cy, double64_t r, double64_t x, double64_t y)</td></tr>
+<tr class="memdesc:ae694a8102421f25c163a0ef7a9e903e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a circle.  <a href="../../db/d12/a00268.php#ae694a8102421f25c163a0ef7a9e903e2">More...</a><br /></td></tr>
 <tr class="separator:ae694a8102421f25c163a0ef7a9e903e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c001118da32a4466802e0b378af661b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a3c001118da32a4466802e0b378af661b">mcd::collidesPR</a> (double64_t rx, double64_t ry, double64_t w, double64_t h, double64_t x, double64_t y)</td></tr>
-<tr class="memdesc:a3c001118da32a4466802e0b378af661b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a rectangle.  <a href="../../da/d53/a00265.php#a3c001118da32a4466802e0b378af661b">More...</a><br /></td></tr>
+<tr class="memitem:a3c001118da32a4466802e0b378af661b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a3c001118da32a4466802e0b378af661b">mcd::collidesPR</a> (double64_t rx, double64_t ry, double64_t w, double64_t h, double64_t x, double64_t y)</td></tr>
+<tr class="memdesc:a3c001118da32a4466802e0b378af661b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a rectangle.  <a href="../../db/d12/a00268.php#a3c001118da32a4466802e0b378af661b">More...</a><br /></td></tr>
 <tr class="separator:a3c001118da32a4466802e0b378af661b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6f9411fa8041c4f9f81519deeba4a0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#af6f9411fa8041c4f9f81519deeba4a0a">mcd::ProjectionSurSegment</a> (double64_t Cx, double64_t Cy, double64_t Ax, double64_t Ay, double64_t Bx, double64_t By)</td></tr>
-<tr class="memdesc:af6f9411fa8041c4f9f81519deeba4a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision on a segment.  <a href="../../da/d53/a00265.php#af6f9411fa8041c4f9f81519deeba4a0a">More...</a><br /></td></tr>
+<tr class="memitem:af6f9411fa8041c4f9f81519deeba4a0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#af6f9411fa8041c4f9f81519deeba4a0a">mcd::ProjectionSurSegment</a> (double64_t Cx, double64_t Cy, double64_t Ax, double64_t Ay, double64_t Bx, double64_t By)</td></tr>
+<tr class="memdesc:af6f9411fa8041c4f9f81519deeba4a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision on a segment.  <a href="../../db/d12/a00268.php#af6f9411fa8041c4f9f81519deeba4a0a">More...</a><br /></td></tr>
 <tr class="separator:af6f9411fa8041c4f9f81519deeba4a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

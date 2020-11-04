@@ -3,7 +3,7 @@
  *	\file		Fraction.hpp
  *	\author		Mathias CABIOCH-DELALANDE
  *	\created	Monday September, 16 2019 17:05:47
- *	\modified	September, 26 2019
+ *	\modified	October, 28 2020
  *
  */
 #ifndef HEADER_FRACTION
@@ -48,12 +48,9 @@ namespace mcd
         Fraction  operator%(const Fraction& b) const;
 
         bool operator==(const Fraction& b) const;
-        bool operator>(const Fraction& b) const;
         bool operator<(const Fraction& b) const;
 
-        bool operator!=(const Fraction& b) const;
-        bool operator>=(const Fraction& b) const;
-        bool operator<=(const Fraction& b) const;
+        AUTO_OPERATORS(Fraction)
 
         Fraction& operator++();
         Fraction& operator--();

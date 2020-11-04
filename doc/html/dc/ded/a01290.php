@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -109,16 +109,15 @@ $(document).ready(function(){initNavTree('dc/dd5/a01293.php','../../'); initResi
   <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a29dd9b8ac897a110f7047c2912ebd2e0a4015002ac12a4c3852ba72131800aa26">LISTED</a> enum value</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#aea82298faeb2f83a45c7ca43558c0390">MutationRate</a></td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#ae75e8789e328d8ffa258b201849d6a44">Name</a>() const</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a04f5d791ef07d16c3f95aadb0e91e4e7">operator!=</a>(const Gene &amp;g1, const Gene &amp;g2)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#aadb0dff1f1d91e1b0b2c7a382de48eb8">operator&lt;&lt;</a>(std::ostream &amp;os, const Gene &amp;g)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#abfba7cb01e60aeda7477a3b504d4ed57">operator==</a>(const Gene &amp;g1, const Gene &amp;g2)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a2614d14b993a651c047de4bf36f7aef2">operator&gt;&gt;</a>(std::istream &amp;is, Gene &amp;g)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a29dd9b8ac897a110f7047c2912ebd2e0a31801000c46cfa54c27b6f7bcef2afa5">RANGED_FLOAT</a> enum value</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a29dd9b8ac897a110f7047c2912ebd2e0a30cd035484abb297f1f5503dd95b94fd">RANGED_INT</a> enum value</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a29dd9b8ac897a110f7047c2912ebd2e0a11190a1a9c9f6f59c60d10762eb91896">STATIC</a> enum value</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#acc86646db1f38e98d7d1d21236debe9d">Value</a>() const</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a1c76cb1011260b0ad8495d1e591057ba">Value</a>(const double &amp;value)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a57128a7a4b82cf0a0ba0b8856bab161a">~Gene</a>()</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#aadb0dff1f1d91e1b0b2c7a382de48eb8">operator&lt;&lt;</a>(std::ostream &amp;os, const Gene &amp;g)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#abfba7cb01e60aeda7477a3b504d4ed57">operator==</a>(const Gene &amp;g1, const Gene &amp;g2)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a2614d14b993a651c047de4bf36f7aef2">operator&gt;&gt;</a>(std::istream &amp;is, Gene &amp;g)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a29dd9b8ac897a110f7047c2912ebd2e0a31801000c46cfa54c27b6f7bcef2afa5">RANGED_FLOAT</a> enum value</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a29dd9b8ac897a110f7047c2912ebd2e0a30cd035484abb297f1f5503dd95b94fd">RANGED_INT</a> enum value</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a29dd9b8ac897a110f7047c2912ebd2e0a11190a1a9c9f6f59c60d10762eb91896">STATIC</a> enum value</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#acc86646db1f38e98d7d1d21236debe9d">Value</a>() const</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a1c76cb1011260b0ad8495d1e591057ba">Value</a>(const double &amp;value)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a57128a7a4b82cf0a0ba0b8856bab161a">~Gene</a>()</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

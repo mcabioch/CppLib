@@ -1,6 +1,4 @@
 var a00254 =
 [
-    [ "Cell", "d6/dc4/a01125.php", "d6/dc4/a01125" ],
-    [ "Chromosome", "dd/d43/a01193.php", "dd/d43/a01193" ],
-    [ "Gene", "d2/d1d/a01277.php", "d2/d1d/a01277" ]
+    [ "COMMA", "d7/d03/a00254.php#aa2f49001be13949a16a57e6c99ab00ad", null ]
 ];

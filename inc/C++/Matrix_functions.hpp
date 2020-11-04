@@ -12,7 +12,7 @@
 template< class D >
 void GaussJordan(const Matrix< D >& M, Matrix< D >& I, size_t i, size_t j) {
     if (i == 0 || j == 0 || i > M._i || j > M._j) {
-        throw std::string("Error : GaussJordan : Wrong boundaries !");
+        throw MatrixException("Error : GaussJordan : Wrong boundaries !");
     }
 
     Matrix< D > inside_M = M;

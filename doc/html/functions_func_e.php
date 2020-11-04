@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,20 +95,20 @@ $(document).ready(function(){initNavTree('functions_func_e.php',''); initResizab
 
 <h3><a id="index_e"></a>- e -</h3><ul>
 <li>empty()
-: <a class="el" href="d8/dbf/a01109.php#aa3176d64efc60f11b708e10e6ff6e5b1">mcd::t_queue&lt; T, Container &gt;</a>
-, <a class="el" href="de/d99/a01101.php#a7beaba1e56c18f35b6809d8d8f03b52d">mcd::t_stack&lt; T, Container &gt;</a>
+: <a class="el" href="d0/d39/a01112.php#aa3176d64efc60f11b708e10e6ff6e5b1">mcd::t_queue&lt; T, Container &gt;</a>
+, <a class="el" href="dd/dcb/a01104.php#a7beaba1e56c18f35b6809d8d8f03b52d">mcd::t_stack&lt; T, Container &gt;</a>
 </li>
 <li>enabled()
-: <a class="el" href="dc/d2a/a01333.php#ae6b6255f5d5cd9a1684fcdb927978c18">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="df/d93/a01336.php#ae6b6255f5d5cd9a1684fcdb927978c18">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>Entity()
-: <a class="el" href="d5/d6f/a01281.php#a5b9f9a89a85d2c396e5556ad468131fa">mcd::Entity</a>
+: <a class="el" href="dd/d18/a01284.php#a5b9f9a89a85d2c396e5556ad468131fa">mcd::Entity</a>
 </li>
 <li>equilibrate()
-: <a class="el" href="d2/d9b/a01433.php#a38b40b07bade18a081d80596983dd16c">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="df/d31/a01440.php#a38b40b07bade18a081d80596983dd16c">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>exception()
-: <a class="el" href="d1/d1a/a01285.php#afdb84ab5c36cbf3569727fcf129fb872">mcd::exception</a>
+: <a class="el" href="d7/d8d/a01288.php#afdb84ab5c36cbf3569727fcf129fb872">mcd::exception</a>
 </li>
 </ul>
 </div><!-- contents -->

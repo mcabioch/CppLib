@@ -3,7 +3,7 @@
  *	\file		Chromosome.hpp
  *	\author		Mathias CABIOCH-DELALANDE
  *	\created	Monday January, 14 2019 21:55:17
- *	\modified	February, 12 2020
+ *	\modified	October, 28 2020
  *
  */
 #ifndef HEADER_GENETIC_CHROMOSOME
@@ -42,9 +42,7 @@ namespace mcd
             friend bool operator==(const Chromosome& c1, const Chromosome& c2) {
                 return (c1._genes1 == c2._genes1) && (c1._genes2 == c2._genes2);
             }
-            friend bool operator!=(const Chromosome& c1, const Chromosome& c2) {
-                return !(c1 == c2);
-            }
+            AUTO_OPERATOR_DIFF(Chromosome)
 
             /* Friends of Chromosome */
             friend std::ostream& operator<<(std::ostream& os, const Chromosome& c) {

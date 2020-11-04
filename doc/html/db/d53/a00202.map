@@ -1,5 +1,4 @@
-<map id="PlayerAbstraction.hpp" name="PlayerAbstraction.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,156,32"/>
-<area shape="rect" id="node2" href="$de/db1/a00197.php" title=" " alt="" coords="39,80,122,107"/>
-<area shape="rect" id="node3" href="$d5/df9/a00044.php" title=" " alt="" coords="22,155,139,181"/>
+<map id="Player.hpp" name="Player.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="23,5,105,32"/>
+<area shape="rect" id="node2" href="$d5/df9/a00044.php" title=" " alt="" coords="5,80,123,107"/>
 </map>

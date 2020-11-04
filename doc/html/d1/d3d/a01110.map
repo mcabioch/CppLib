@@ -1,4 +1,7 @@
-<map id="mcd::Stone" name="mcd::Stone">
-<area shape="rect" id="node2" href="$d9/dce/a01052.php" title="An object. " alt="" coords="20,80,113,107"/>
-<area shape="rect" id="node3" href="$dd/d11/a00960.php" title="A contraption. " alt="" coords="5,5,128,32"/>
+<map id="mcd::t_queue&lt; T, Container &gt;" name="mcd::t_queue&lt; T, Container &gt;">
+<area shape="rect" id="node1" title="An thread&#45;safe implementation of queue." alt="" coords="5,365,200,392"/>
+<area shape="rect" id="node2" href="$d2/dd7/a01108.php" title=" " alt="" coords="35,275,170,316"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="34,95,161,136"/>
+<area shape="rect" id="node5" href="$d2/dd7/a01108.php" title="An implementation of std::queue." alt="" coords="119,185,303,212"/>
+<area shape="rect" id="node4" title=" " alt="" coords="78,5,117,32"/>
 </map>

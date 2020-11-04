@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,71 +93,71 @@ $(document).ready(function(){initNavTree('functions_eval.php',''); initResizable
 <div class="contents">
 &#160;<ul>
 <li>All
-: <a class="el" href="df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95ad58a475f585716dda86e2e0af0570cec">mcd::Logger</a>
+: <a class="el" href="df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95ad58a475f585716dda86e2e0af0570cec">mcd::Logger</a>
 </li>
 <li>ARRAY
-: <a class="el" href="db/d4b/a01309.php#a3c35d4f54c782ef8b7898a1641eb4666a49722f0db426d85726e7ed5675e889e4">mcd::Json</a>
+: <a class="el" href="d7/d41/a01312.php#a3c35d4f54c782ef8b7898a1641eb4666a49722f0db426d85726e7ed5675e889e4">mcd::Json</a>
 </li>
 <li>ARRIVED
-: <a class="el" href="d1/d17/a01369.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814">mcd::PathfindingException</a>
+: <a class="el" href="d2/d29/a01376.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814">mcd::PathfindingException</a>
 </li>
 <li>BOOL
-: <a class="el" href="dc/dd5/a01293.php#a29dd9b8ac897a110f7047c2912ebd2e0aa91e524760eeac3e25168c3c4fd16c64">mcd::natural::Gene</a>
+: <a class="el" href="d4/d64/a01296.php#a29dd9b8ac897a110f7047c2912ebd2e0aa91e524760eeac3e25168c3c4fd16c64">mcd::natural::Gene</a>
 </li>
 <li>Debug
-: <a class="el" href="df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger</a>
+: <a class="el" href="df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger</a>
 </li>
 <li>Error
-: <a class="el" href="df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95a98b026269a3081d4a4801bc7418e1d47">mcd::Logger</a>
+: <a class="el" href="df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95a98b026269a3081d4a4801bc7418e1d47">mcd::Logger</a>
 </li>
 <li>Fatal
-: <a class="el" href="df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95a3b0278ed2e63ab59b05883c3943c73cf">mcd::Logger</a>
+: <a class="el" href="df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95a3b0278ed2e63ab59b05883c3943c73cf">mcd::Logger</a>
 </li>
 <li>FLOAT
-: <a class="el" href="dc/dd5/a01293.php#a29dd9b8ac897a110f7047c2912ebd2e0ae7b17b5d887f18544b1ca0f51244e8c4">mcd::natural::Gene</a>
+: <a class="el" href="d4/d64/a01296.php#a29dd9b8ac897a110f7047c2912ebd2e0ae7b17b5d887f18544b1ca0f51244e8c4">mcd::natural::Gene</a>
 </li>
 <li>Info
-: <a class="el" href="df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95ae7888eab8f157c2bc53e24557f2a8458">mcd::Logger</a>
+: <a class="el" href="df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95ae7888eab8f157c2bc53e24557f2a8458">mcd::Logger</a>
 </li>
 <li>INT
-: <a class="el" href="dc/dd5/a01293.php#a29dd9b8ac897a110f7047c2912ebd2e0a644487cee470ea37ef049351feaaca2e">mcd::natural::Gene</a>
+: <a class="el" href="d4/d64/a01296.php#a29dd9b8ac897a110f7047c2912ebd2e0a644487cee470ea37ef049351feaaca2e">mcd::natural::Gene</a>
 </li>
 <li>LISTED
-: <a class="el" href="dc/dd5/a01293.php#a29dd9b8ac897a110f7047c2912ebd2e0a4015002ac12a4c3852ba72131800aa26">mcd::natural::Gene</a>
+: <a class="el" href="d4/d64/a01296.php#a29dd9b8ac897a110f7047c2912ebd2e0a4015002ac12a4c3852ba72131800aa26">mcd::natural::Gene</a>
 </li>
 <li>LOST
-: <a class="el" href="d1/d17/a01369.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995">mcd::PathfindingException</a>
+: <a class="el" href="d2/d29/a01376.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995">mcd::PathfindingException</a>
 </li>
 <li>NONE
-: <a class="el" href="db/d4b/a01309.php#a3c35d4f54c782ef8b7898a1641eb4666ae19fd5ef0dc672cdc7cfb36136c6d19e">mcd::Json</a>
-, <a class="el" href="d1/d17/a01369.php#a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d">mcd::PathfindingException</a>
+: <a class="el" href="d7/d41/a01312.php#a3c35d4f54c782ef8b7898a1641eb4666ae19fd5ef0dc672cdc7cfb36136c6d19e">mcd::Json</a>
+, <a class="el" href="d2/d29/a01376.php#a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d">mcd::PathfindingException</a>
 </li>
 <li>NUMBER
-: <a class="el" href="db/d4b/a01309.php#a3c35d4f54c782ef8b7898a1641eb4666a9ba4796f99bbe8254dac0ab0035292f5">mcd::Json</a>
+: <a class="el" href="d7/d41/a01312.php#a3c35d4f54c782ef8b7898a1641eb4666a9ba4796f99bbe8254dac0ab0035292f5">mcd::Json</a>
 </li>
 <li>OBJECT
-: <a class="el" href="db/d4b/a01309.php#a3c35d4f54c782ef8b7898a1641eb4666a02bcb429af87b535c2b0a35707bf7f4d">mcd::Json</a>
+: <a class="el" href="d7/d41/a01312.php#a3c35d4f54c782ef8b7898a1641eb4666a02bcb429af87b535c2b0a35707bf7f4d">mcd::Json</a>
 </li>
 <li>Off
-: <a class="el" href="df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95a0bab71bd19d6bf8a3e85aaf73e41814a">mcd::Logger</a>
+: <a class="el" href="df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95a0bab71bd19d6bf8a3e85aaf73e41814a">mcd::Logger</a>
 </li>
 <li>OTHER
-: <a class="el" href="d1/d17/a01369.php#a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982">mcd::PathfindingException</a>
+: <a class="el" href="d2/d29/a01376.php#a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982">mcd::PathfindingException</a>
 </li>
 <li>RANGED_FLOAT
-: <a class="el" href="dc/dd5/a01293.php#a29dd9b8ac897a110f7047c2912ebd2e0a31801000c46cfa54c27b6f7bcef2afa5">mcd::natural::Gene</a>
+: <a class="el" href="d4/d64/a01296.php#a29dd9b8ac897a110f7047c2912ebd2e0a31801000c46cfa54c27b6f7bcef2afa5">mcd::natural::Gene</a>
 </li>
 <li>RANGED_INT
-: <a class="el" href="dc/dd5/a01293.php#a29dd9b8ac897a110f7047c2912ebd2e0a30cd035484abb297f1f5503dd95b94fd">mcd::natural::Gene</a>
+: <a class="el" href="d4/d64/a01296.php#a29dd9b8ac897a110f7047c2912ebd2e0a30cd035484abb297f1f5503dd95b94fd">mcd::natural::Gene</a>
 </li>
 <li>STATIC
-: <a class="el" href="dc/dd5/a01293.php#a29dd9b8ac897a110f7047c2912ebd2e0a11190a1a9c9f6f59c60d10762eb91896">mcd::natural::Gene</a>
+: <a class="el" href="d4/d64/a01296.php#a29dd9b8ac897a110f7047c2912ebd2e0a11190a1a9c9f6f59c60d10762eb91896">mcd::natural::Gene</a>
 </li>
 <li>STRING
-: <a class="el" href="db/d4b/a01309.php#a3c35d4f54c782ef8b7898a1641eb4666a2951db03ec2449efc8d28b4cbdea94d3">mcd::Json</a>
+: <a class="el" href="d7/d41/a01312.php#a3c35d4f54c782ef8b7898a1641eb4666a2951db03ec2449efc8d28b4cbdea94d3">mcd::Json</a>
 </li>
 <li>Warn
-: <a class="el" href="df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95a97b60120ff602c7d5050124927962f79">mcd::Logger</a>
+: <a class="el" href="df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95a97b60120ff602c7d5050124927962f79">mcd::Logger</a>
 </li>
 </ul>
 </div><!-- contents -->

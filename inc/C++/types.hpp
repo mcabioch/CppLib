@@ -205,7 +205,9 @@ namespace mcd
         friend bool operator==(const Point& a, const Point& b) {
             return a.x == b.x && a.y == b.y && a.z == b.z;
         }
-        friend bool          operator!=(const Point& a, const Point& b) { return !(a == b); }
+
+        AUTO_OPERATOR_DIFF(Point)
+
         friend std::ostream& operator<<(std::ostream& os, const Point& a) {
             os << a.x << "/" << a.y << "/" << a.z;
             return os;

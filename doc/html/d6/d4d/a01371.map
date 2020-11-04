@@ -1,11 +1,4 @@
-<map id="mcd::PathfindingProblem" name="mcd::PathfindingProblem">
-<area shape="rect" id="node1" title="A class to group every pathfinding problems in one way to use it." alt="" coords="812,78,980,105"/>
-<area shape="rect" id="node2" title=" " alt="" coords="525,5,683,47"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="163,58,286,85"/>
-<area shape="rect" id="node6" title=" " alt="" coords="505,71,703,112"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,39,44,66"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,110,44,137"/>
-<area shape="rect" id="node9" title="STL class." alt="" coords="167,130,283,157"/>
-<area shape="rect" id="node7" title=" " alt="" coords="507,136,701,177"/>
-<area shape="rect" id="node8" href="$d4/dad/a01353.php" title="A node for the path." alt="" coords="149,181,300,207"/>
+<map id="mcd::PathfindingDijkstra" name="mcd::PathfindingDijkstra">
+<area shape="rect" id="node1" title="An implementation of the Dijkstra algorithm." alt="" coords="5,80,171,107"/>
+<area shape="rect" id="node2" href="$dd/d0c/a01368.php" title="A class to implement some pathfinding algorithms." alt="" coords="28,5,148,32"/>
 </map>

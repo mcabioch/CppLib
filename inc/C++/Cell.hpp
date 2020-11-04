@@ -3,7 +3,7 @@
  *	\file		Cell.hpp
  *	\author		Mathias CABIOCH-DELALANDE
  *	\created	Thursday January, 17 2019 20:33:57
- *	\modified	February, 12 2020
+ *	\modified	October, 28 2020
  *
  */
 #ifndef HEADER_GENETIC_CELL
@@ -38,7 +38,7 @@ namespace mcd
             friend bool operator==(const Cell& c1, const Cell& c2) {
                 return (c1._chroms == c2._chroms);
             }
-            friend bool operator!=(const Cell& c1, const Cell& c2) { return !(c1 == c2); }
+            AUTO_OPERATOR_DIFF(Cell)
 
             /* Friends of Cell */
             friend std::ostream& operator<<(std::ostream& os, const Cell& c) {

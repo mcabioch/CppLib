@@ -7,13 +7,4 @@ namespace mcd
 
     /*! \brief	Compare two Big */
     inline bool operator<(const Big& a, const Big& b) noexcept { return (a != b) && !(a > b); }
-
-    /*! \brief	Compare two Big */
-    inline bool operator!=(const Big& a, const Big& b) noexcept { return !(a == b); }
-
-    /*! \brief	Compare two Big */
-    inline bool operator<=(const Big& a, const Big& b) noexcept { return (a < b) || (a == b); }
-
-    /*! \brief	Compare two Big */
-    inline bool operator>=(const Big& a, const Big& b) noexcept { return (a > b) || (a == b); }
 }   // namespace mcd

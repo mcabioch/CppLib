@@ -2,7 +2,7 @@
  *
  *	\file		Date.hpp
  *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	September, 26 2019
+ *	\modified	October, 28 2020
  *
  *	\details	Formats disponibles afin de récupérer la date\n
  *				\%A : Return the complete name of the day\n
@@ -70,17 +70,15 @@ namespace mcd
         std::tm     _dAct;
 
         std::string _date;
+
+        /* Friends */
+        friend bool operator<(const Date& a, const Date& b);
+        friend bool operator==(const Date& a, const Date& b);
+        AUTO_OPERATORS(Date)
+
+        friend std::ostream& operator<<(std::ostream& os, const Date& date);
     };
 
-    bool operator<(const Date& a, const Date& b);
-    bool operator==(const Date& a, const Date& b);
-
-    bool operator!=(const Date& a, const Date& b);
-    bool operator>(const Date& a, const Date& b);
-    bool operator<=(const Date& a, const Date& b);
-    bool operator>=(const Date& a, const Date& b);
-
-    std::ostream& operator<<(std::ostream& os, const Date& date);
 }   // namespace mcd
 
 #endif   // HEADER_CPP_DATE

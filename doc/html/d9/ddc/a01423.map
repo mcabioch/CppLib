@@ -1,6 +1,5 @@
-<map id="mcd::Timer" name="mcd::Timer">
-<area shape="rect" id="node1" title="A timer to do something at the end." alt="" coords="49,260,137,287"/>
-<area shape="rect" id="node2" href="$de/daf/a01417.php" title=" " alt="" coords="5,184,181,211"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="51,5,135,32"/>
-<area shape="rect" id="node4" href="$de/daf/a01417.php" title="A class to let another one to be threadable with update() member in a thread." alt="" coords="145,95,298,121"/>
+<map id="mcd::Threadable&lt; C &gt;" name="mcd::Threadable&lt; C &gt;">
+<area shape="rect" id="node1" title="A class to let another one to be threadable with update() member in a thread." alt="" coords="17,5,170,32"/>
+<area shape="rect" id="node2" href="$d5/da5/a01424.php" title=" " alt="" coords="5,95,181,121"/>
+<area shape="rect" id="node3" href="$db/dff/a01432.php" title="A timer to do something at the end." alt="" coords="49,171,137,197"/>
 </map>

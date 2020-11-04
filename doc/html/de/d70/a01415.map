@@ -1,4 +1,5 @@
-<map id="mcd::Threadable&lt; C &gt;" name="mcd::Threadable&lt; C &gt;">
-<area shape="rect" id="node1" title="A class to let another one to be threadable with update() member in a thread." alt="" coords="5,95,159,121"/>
-<area shape="rect" id="node2" title="STL class." alt="" coords="40,5,124,32"/>
+<map id="mcd::Stone" name="mcd::Stone">
+<area shape="rect" id="node1" title="A stone." alt="" coords="22,155,111,181"/>
+<area shape="rect" id="node2" href="$d2/d3f/a01356.php" title="An object." alt="" coords="20,80,113,107"/>
+<area shape="rect" id="node3" href="$da/de0/a01248.php" title="A contraption." alt="" coords="5,5,128,32"/>
 </map>

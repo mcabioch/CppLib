@@ -82,14 +82,6 @@ namespace mcd
         return a.milli() == b.milli();
     }
 
-    bool operator!=(const Time& a, const Time& b) { return !(a == b); }
-
-    bool operator>(const Time& a, const Time& b) { return !(a < b) && !(a == b); }
-
-    bool operator<=(const Time& a, const Time& b) { return (a < b) || (a == b); }
-
-    bool operator>=(const Time& a, const Time& b) { return (a > b) || (a == b); }
-
     std::ostream& operator<<(std::ostream& os, const Time& time) {
         os << time.get();
         return os;

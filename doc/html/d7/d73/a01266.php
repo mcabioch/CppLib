@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -105,15 +105,18 @@ $(document).ready(function(){initNavTree('d6/d16/a01269.php','../../'); initResi
   <tr class="even"><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a17a08ca52b3ec69d178a997c07a5ca1c">init</a>()</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d6/d16/a01269.php#aeaf4a92c344f8b9d8b88e22cbc710013">month</a>() const</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d6/d16/a01269.php#aa1b8bcad43aa4fa7f5bccf350c348bbf">monthWeek</a>() const</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a22f293eaa9698511e9657c60ee1557f7">reset</a>()</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a63132b3cb9cc7cf1640fa1165a14d9a8">set</a>(const std::string &amp;date)</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a3682f8457850fbb2899afc7967dc9bc9">strDay</a>() const</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a09230be2f6ef6b2620dec0023bd1b1a0">strMonth</a>() const</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">weekDay</a>() const</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a30f0e5cc134d8da80f4b68aad4f92674">year</a>() const</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a9af5d47e5785c0c16217e5b4914bc9a0">yearDay</a>() const</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a211971964081aac6bf13b0c670307b54">yearWeek</a>() const</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d16/a01269.php#acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5">~Date</a>()</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a900297f0a1d5018e0c30d2e8fa6a99c6">operator&lt;</a>(const Date &amp;a, const Date &amp;b)</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a1862604492a841a6b98e1a3061d95b96">operator&lt;&lt;</a>(std::ostream &amp;os, const Date &amp;date)</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a9cfaaa2dd5867578b32c02fd8bc16339">operator==</a>(const Date &amp;a, const Date &amp;b)</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a22f293eaa9698511e9657c60ee1557f7">reset</a>()</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a63132b3cb9cc7cf1640fa1165a14d9a8">set</a>(const std::string &amp;date)</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a3682f8457850fbb2899afc7967dc9bc9">strDay</a>() const</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a09230be2f6ef6b2620dec0023bd1b1a0">strMonth</a>() const</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">weekDay</a>() const</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a30f0e5cc134d8da80f4b68aad4f92674">year</a>() const</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a9af5d47e5785c0c16217e5b4914bc9a0">yearDay</a>() const</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d16/a01269.php#a211971964081aac6bf13b0c670307b54">yearWeek</a>() const</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d16/a01269.php#acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5">~Date</a>()</td><td class="entry"><a class="el" href="../../d6/d16/a01269.php">mcd::Date</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

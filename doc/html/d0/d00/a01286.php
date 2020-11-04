@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('d9/dda/a01289.php','../../'); initResi
   <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#ac4085029b32d447dfbe9146a3cdf1f67">Fraction</a>(long num, long denom)</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a17e4466c06be8e1bff20fe204d4ff110">numerator</a>() const</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a285e38748cb55302c43feab8fa4a29f5">operator double</a>() const</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a728b8777d909549030d50032783761dc">operator!=</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a189801f68196f20f1c7c7f7580a6ec52">operator!=</a>(const Fraction &amp;a, const Fraction &amp;b) noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a9803ec99dc9da6df50c872a281a10c14">operator!=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a619d937a957bc1f2516066ebb3501951">operator%</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#ac7373abe86093f315b90682196406a7e">operator%</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
@@ -131,13 +131,13 @@ $(document).ready(function(){initNavTree('d9/dda/a01289.php','../../'); initResi
   <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a4c0588f44c0f24a7cb2fe0d1a4c05ad5">operator&lt;</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#aa9c375ae1a1d2a7eb9feb0eda3440343">operator&lt;</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a9313ed58249557fab9c0b6ab5e5f977f">operator&lt;&lt;</a>(std::ostream &amp;os, const Fraction &amp;frac)</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#ac1e8c0cf1fdef5dd32409c5d0b660fb1">operator&lt;=</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#addda863096fc0bcbe756cc01fd80521f">operator&lt;=</a>(const Fraction &amp;a, const Fraction &amp;b) noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#add6d3ff26c1c87e2d645ad37e751bdac">operator&lt;=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a300ed85793b7aece141599c82524f8d9">operator==</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a986f1f323f69858991a54320af44b6a5">operator==</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a379d98c2c6ae1962fc2089b599fc48df">operator&gt;</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a2efd99f639b6f6ca4b13c7733a3f2a55">operator&gt;</a>(const Fraction &amp;a, const Fraction &amp;b) noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a5160d78b6f8e8269aacac56fb50346df">operator&gt;</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#aaf88d0c6bfb21b64dcec572fd4691cd7">operator&gt;=</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a63aeeec7f8e00c70aa489ba2d3c0ef4c">operator&gt;=</a>(const Fraction &amp;a, const Fraction &amp;b) noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#ac4dcbd6c3961244afb7bbcb90c5b01da">operator&gt;=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#abf0eeef8a5b118feaad630e084c15d8e">~Fraction</a>()</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->

@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -103,12 +103,15 @@ $(document).ready(function(){initNavTree('d4/d20/a01421.php','../../'); initResi
   <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a3e19605ece31340f27255a79beb193d4">init</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a22a7371879c50752d94338e631ab37a7">milli</a>() const</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a56b7fdec50bc1b7f5fb991260cb18104">minute</a>() const</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a94d4610fef5db9db60ca31d7d64230dc">reset</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a5a3510ec96b9698b8cf601a2a1b9d90c">second</a>() const</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#aa843463db53892a16778dd0d71ec2dad">set</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#ac802213e9ca41cc731f14619534e0249">Time</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#afa17085534ed1da008f6dd39cef039f2">Time</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#aef071966b669112898476801bf63bcba">~Time</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a2176bf97f6b18969bb71b7c3f2e56234">operator&lt;</a>(const Time &amp;a, const Time &amp;b)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#aa153c7e397eda8644c840a97f6036c5b">operator&lt;&lt;</a>(std::ostream &amp;os, const Time &amp;time)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a7f236759032a4630990af05bd6c8530b">operator==</a>(const Time &amp;a, const Time &amp;b)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a94d4610fef5db9db60ca31d7d64230dc">reset</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a5a3510ec96b9698b8cf601a2a1b9d90c">second</a>() const</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#aa843463db53892a16778dd0d71ec2dad">set</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#ac802213e9ca41cc731f14619534e0249">Time</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#afa17085534ed1da008f6dd39cef039f2">Time</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#aef071966b669112898476801bf63bcba">~Time</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

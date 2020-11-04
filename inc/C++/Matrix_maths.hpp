@@ -14,7 +14,8 @@ template< class C >
 template< class D >
 Matrix< C >& Matrix< C >::operator+=(const Matrix< D >& A) {
     if (A._i != _i || A._j != _j) {
-        throw std::string("Error : Matrix::operator+ : Not the same dimensions between matrices !");
+        throw MatrixException(
+            "Error : Matrix::operator+ : Not the same dimensions between matrices !");
     }
 
     for (size_t i = 0; i < A._i; ++i) {
@@ -51,7 +52,8 @@ template< class C >
 template< class D >
 Matrix< C >& Matrix< C >::operator-=(const Matrix< D >& A) {
     if (A._i != _i || A._j != _j) {
-        throw std::string("Error : Matrix::operator- : Not the same dimensions between matrices !");
+        throw MatrixException(
+            "Error : Matrix::operator- : Not the same dimensions between matrices !");
     }
 
     for (size_t i = 0; i < A._i; ++i) {
@@ -97,7 +99,7 @@ template< class C >
 template< class D >
 Matrix< C >& Matrix< C >::operator*=(const D& A) {
     for (size_t i = 0; i < _i; ++i) {
-        for (size_t j = 0; j < _j; ++j) { _datas[i][j] *= A; }
+        for (size_t j = 0; j < _j; ++j) { _datas[i][j] *= static_cast< C >(A); }
     }
 
     return *this;
@@ -117,9 +119,9 @@ template< class C >
 template< class D >
 Matrix< C >& Matrix< C >::operator*=(const Matrix< D >& A) {
     if (_j != A._i) {
-        throw std::string(
-            "Error : Matrix::operator* : Not the right dimensions between matrices (") +
-            tos(_j) + ", " + tos(A._i) + ") !";
+        throw MatrixException(
+            std::string("Error : Matrix::operator* : Not the right dimensions between matrices (") +
+            tos(_j) + ", " + tos(A._i) + ") !");
     }
 
     auto tmp_datas = _datas;
@@ -177,7 +179,7 @@ template< class C >
 double Matrix< C >::det() {
     double out = 0;
 
-    if (!_square) { throw std::string("Error : Matrix::det : The matrix must be square !"); }
+    if (!_square) { throw MatrixException("Error : Matrix::det : The matrix must be square !"); }
 
     if (_i == 2) {
         out = static_cast< double >(_datas[0][0]) * static_cast< double >(_datas[1][1]) -
@@ -204,7 +206,8 @@ double Matrix< C >::det() {
 template< class C >
 Matrix< C > Matrix< C >::inverted() {
     if (det() == 0) {
-        throw std::string("Error : Matrix::inverted : The matrix's det must be different from 0 !");
+        throw MatrixException(
+            "Error : Matrix::inverted : The matrix's det must be different from 0 !");
     }
 
     auto id = getIdentity();

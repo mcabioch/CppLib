@@ -2,14 +2,13 @@
  *
  *	\file		array.hpp
  *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	October, 24 2020
+ *	\modified	November, 01 2020
  *
  */
 #ifndef HEADER_CPP_ARRAY
 #define HEADER_CPP_ARRAY
 
 #include "check.hpp"
-#include "exception.hpp"
 #include "sorting.hpp"
 
 namespace mcd

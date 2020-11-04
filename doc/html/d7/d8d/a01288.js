@@ -1,19 +1,12 @@
 var a01288 =
 [
-    [ "Level", "d7/d8d/a01288.php#a25d94050e8e7f91c7e1f02ddc2af8e95", [
-      [ "All", "d7/d8d/a01288.php#a25d94050e8e7f91c7e1f02ddc2af8e95ad58a475f585716dda86e2e0af0570cec", null ],
-      [ "Debug", "d7/d8d/a01288.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e", null ],
-      [ "Info", "d7/d8d/a01288.php#a25d94050e8e7f91c7e1f02ddc2af8e95ae7888eab8f157c2bc53e24557f2a8458", null ],
-      [ "Warn", "d7/d8d/a01288.php#a25d94050e8e7f91c7e1f02ddc2af8e95a97b60120ff602c7d5050124927962f79", null ],
-      [ "Error", "d7/d8d/a01288.php#a25d94050e8e7f91c7e1f02ddc2af8e95a98b026269a3081d4a4801bc7418e1d47", null ],
-      [ "Fatal", "d7/d8d/a01288.php#a25d94050e8e7f91c7e1f02ddc2af8e95a3b0278ed2e63ab59b05883c3943c73cf", null ],
-      [ "Off", "d7/d8d/a01288.php#a25d94050e8e7f91c7e1f02ddc2af8e95a0bab71bd19d6bf8a3e85aaf73e41814a", null ]
-    ] ],
-    [ "Logger", "d7/d8d/a01288.php#a189cdd6486b23632d014a2e795ed8e13", null ],
-    [ "~Logger", "d7/d8d/a01288.php#a9b43e0ba2ab53c8a6758b20d3f828f96", null ],
-    [ "init", "d7/d8d/a01288.php#ab549f25e73c47afaff922b59cda6ccc4", null ],
-    [ "isEnabled", "d7/d8d/a01288.php#a365030ec32e6af40c6c53a53ff5163f4", null ],
-    [ "isInit", "d7/d8d/a01288.php#ad8527d935f1fa6c697d792a8f72276e4", null ],
-    [ "log", "d7/d8d/a01288.php#a2cb99172e98a89e45fdcb9b394eea99e", null ],
-    [ "reset", "d7/d8d/a01288.php#a9351097884f74c914c92bd982e70d159", null ]
+    [ "exception", "d7/d8d/a01288.php#a2af015139a223dafbf1556911aca048d", null ],
+    [ "exception", "d7/d8d/a01288.php#afdb84ab5c36cbf3569727fcf129fb872", null ],
+    [ "~exception", "d7/d8d/a01288.php#ae32a0816168e0f4ff7ba8d688d839dc8", null ],
+    [ "exception", "d7/d8d/a01288.php#aa83410abcc4449a02ce5835c8ad9bd34", null ],
+    [ "exception", "d7/d8d/a01288.php#abc6b0649cf43073f41f4d1d0617af24d", null ],
+    [ "operator=", "d7/d8d/a01288.php#a70ab36f825287dc96ff7fb3517f9b46e", null ],
+    [ "operator=", "d7/d8d/a01288.php#ab86ac60ef49f2bf978faa24588b32ced", null ],
+    [ "what", "d7/d8d/a01288.php#a04d412a2a5c85d9e16d67539134b419f", null ],
+    [ "_msg", "d7/d8d/a01288.php#a8cffcfc2c1a631bee3154a999bf13bf1", null ]
 ];

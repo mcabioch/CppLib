@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::Check::is_special_struct&lt; T &gt; Class Template Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('de/df7/a01201.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d7/d5a/a01204.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,69 +91,20 @@ $(document).ready(function(){initNavTree('de/df7/a01201.php','../../'); initResi
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="../../d0/d32/a01198.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_special_struct&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Check::is_special_struct&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A template class to test if T is a special struct.  
- <a href="../../de/df7/a01201.php#details">More...</a></p>
-
-<p><code>#include &lt;check.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a9347b60a434f2cfd40453cc7856c3918"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df7/a01201.php#a9347b60a434f2cfd40453cc7856c3918">value</a></td></tr>
-<tr class="separator:a9347b60a434f2cfd40453cc7856c3918"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_special_struct&lt; T &gt;</h3>
-
-<p>A template class to test if T is a special struct. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a9347b60a434f2cfd40453cc7856c3918"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9347b60a434f2cfd40453cc7856c3918">&#9670;&nbsp;</a></span>value</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const bool <a class="el" href="../../de/df7/a01201.php">mcd::Check::is_special_struct</a>&lt; T &gt;::value</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">                <a class="code" href="../../d8/d02/a01149.php#ac3fa87bfb2551b3a98cac89a0c39b2ba">is_pair&lt; T &gt;::value</a> || <a class="code" href="../../dc/d06/a01153.php#a35b153eb448f4f520fbab10d63317262">is_trio&lt; T &gt;::value</a> || <a class="code" href="../../d9/d25/a01157.php#a89743328c29104ad4f66261b0ba77611">is_quatuor&lt; T &gt;::value</a></div>
-</div><!-- fragment -->
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../dc/dee/a00053.php">check.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d7/d5a/a01204.php">mcd::Check::is_special_struct&lt; T &gt;</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d5a/a01204.php#a9347b60a434f2cfd40453cc7856c3918">value</a></td><td class="entry"><a class="el" href="../../d7/d5a/a01204.php">mcd::Check::is_special_struct&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aa01153_php_a35b153eb448f4f520fbab10d63317262"><div class="ttname"><a href="../../dc/d06/a01153.php#a35b153eb448f4f520fbab10d63317262">mcd::Check::is_trio::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:167</div></div>
-<div class="ttc" id="aa01149_php_ac3fa87bfb2551b3a98cac89a0c39b2ba"><div class="ttname"><a href="../../d8/d02/a01149.php#ac3fa87bfb2551b3a98cac89a0c39b2ba">mcd::Check::is_pair::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:152</div></div>
-<div class="ttc" id="aa01157_php_a89743328c29104ad4f66261b0ba77611"><div class="ttname"><a href="../../d9/d25/a01157.php#a89743328c29104ad4f66261b0ba77611">mcd::Check::is_quatuor::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:182</div></div>
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../da/d53/a00265.php">mcd</a></li><li class="navelem"><a class="el" href="../../db/d12/a00268.php">Check</a></li><li class="navelem"><a class="el" href="../../de/df7/a01201.php">is_special_struct</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

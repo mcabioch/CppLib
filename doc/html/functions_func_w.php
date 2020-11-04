@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,10 +95,10 @@ $(document).ready(function(){initNavTree('functions_func_w.php',''); initResizab
 
 <h3><a id="index_w"></a>- w -</h3><ul>
 <li>weekDay()
-: <a class="el" href="d6/d16/a01269.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
+: <a class="el" href="d4/d0e/a01272.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
 </li>
 <li>what()
-: <a class="el" href="d1/d1a/a01285.php#a04d412a2a5c85d9e16d67539134b419f">mcd::exception</a>
+: <a class="el" href="d7/d8d/a01288.php#a04d412a2a5c85d9e16d67539134b419f">mcd::exception</a>
 </li>
 </ul>
 </div><!-- contents -->

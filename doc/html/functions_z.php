@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,8 +95,8 @@ $(document).ready(function(){initNavTree('functions_z.php',''); initResizable();
 
 <h3><a id="index_z"></a>- z -</h3><ul>
 <li>z
-: <a class="el" href="d9/d6f/a01445.php#a010288cb5febefa70329d35a726c7291">mcd::Point</a>
-, <a class="el" href="da/d53/a00265.php#a6e818e561922fa511658e15bec5fa55d">mcd::WorldDimensions</a>
+: <a class="el" href="dd/d1c/a01452.php#a010288cb5febefa70329d35a726c7291">mcd::Point</a>
+, <a class="el" href="db/d12/a00268.php#a6e818e561922fa511658e15bec5fa55d">mcd::WorldDimensions</a>
 </li>
 </ul>
 </div><!-- contents -->

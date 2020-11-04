@@ -248,26 +248,6 @@ namespace mcd
         return ((_numerator == b._numerator) && (_denominator == b._denominator));
     }
 
-    bool Fraction::operator>(const Fraction& b) const {
-        auto an = _numerator;
-        auto ad = _denominator;
-        auto bn = b._numerator;
-        auto bd = b._denominator;
-
-        if (an != bn && ad != bd) {
-            auto tmp = ad;
-
-            an *= bd;
-            ad *= bd;
-            bn *= tmp;
-            bd *= tmp;
-        }
-
-        if (ad == bd) { return (an > bn); }
-        if (an == bn) { return (ad < bd); }
-        return false;
-    }
-
     bool Fraction::operator<(const Fraction& b) const {
         auto an = _numerator;
         auto ad = _denominator;
@@ -287,12 +267,6 @@ namespace mcd
         if (an == bn) { return (ad > bd); }
         return false;
     }
-
-    bool Fraction::operator!=(const Fraction& b) const { return !(*this == b); }
-
-    bool Fraction::operator>=(const Fraction& b) const { return ((*this > b) || (*this == b)); }
-
-    bool Fraction::operator<=(const Fraction& b) const { return ((*this < b) || (*this == b)); }
 
     Fraction& Fraction::operator++() {
         _numerator += _denominator;

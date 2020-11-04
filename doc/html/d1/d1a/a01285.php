@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::exception Class Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('d1/d1a/a01285.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d7/d8d/a01288.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,357 +91,28 @@ $(document).ready(function(){initNavTree('d1/d1a/a01285.php','../../'); initResi
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../d8/d17/a01282.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::exception Class Reference</div>  </div>
+<div class="title">mcd::exception Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to call custom exceptions.  
- <a href="../../d1/d1a/a01285.php#details">More...</a></p>
-
-<p><code>#include &lt;exception.hpp&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for mcd::exception:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dd/d18/a01284.png" border="0" usemap="#amcd_1_1exception_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1exception_inherit__map" id="mcd_1_1exception_inherit__map">
-<area shape="rect" title="A class to call custom exceptions." alt="" coords="213,80,323,107"/>
-<area shape="rect" href="../../dd/de4/a01121.php" title="An exception thrown by my assert&#39;s implementation." alt="" coords="5,155,173,181"/>
-<area shape="rect" href="../../de/d90/a01313.php" title="A class to throw Json exceptions." alt="" coords="197,155,339,181"/>
-<area shape="rect" href="../../d1/d17/a01369.php" title="All exceptions that could be thrown by the pathfinding algorithm." alt="" coords="363,155,541,181"/>
-<area shape="rect" title="STL class." alt="" coords="216,5,320,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for mcd::exception:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d5/da7/a01283.png" border="0" usemap="#amcd_1_1exception_coll__map" alt="Collaboration graph"/></div>
-<map name="mcd_1_1exception_coll__map" id="mcd_1_1exception_coll__map">
-<area shape="rect" title="A class to call custom exceptions." alt="" coords="42,185,153,212"/>
-<area shape="rect" title="STL class." alt="" coords="5,96,109,123"/>
-<area shape="rect" title="STL class." alt="" coords="133,96,213,123"/>
-<area shape="rect" title="STL class." alt="" coords="110,5,237,47"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a2af015139a223dafbf1556911aca048d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1a/a01285.php#a2af015139a223dafbf1556911aca048d">exception</a> () noexcept</td></tr>
-<tr class="memdesc:a2af015139a223dafbf1556911aca048d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d1/d1a/a01285.php#a2af015139a223dafbf1556911aca048d">More...</a><br /></td></tr>
-<tr class="separator:a2af015139a223dafbf1556911aca048d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdb84ab5c36cbf3569727fcf129fb872"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1a/a01285.php#afdb84ab5c36cbf3569727fcf129fb872">exception</a> (const std::string &amp;msg) noexcept</td></tr>
-<tr class="memdesc:afdb84ab5c36cbf3569727fcf129fb872"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d1/d1a/a01285.php#afdb84ab5c36cbf3569727fcf129fb872">More...</a><br /></td></tr>
-<tr class="separator:afdb84ab5c36cbf3569727fcf129fb872"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae32a0816168e0f4ff7ba8d688d839dc8"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1a/a01285.php#ae32a0816168e0f4ff7ba8d688d839dc8">~exception</a> () noexcept</td></tr>
-<tr class="separator:ae32a0816168e0f4ff7ba8d688d839dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa83410abcc4449a02ce5835c8ad9bd34"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1a/a01285.php#aa83410abcc4449a02ce5835c8ad9bd34">exception</a> (const <a class="el" href="../../d1/d1a/a01285.php">exception</a> &amp;other) noexcept</td></tr>
-<tr class="memdesc:aa83410abcc4449a02ce5835c8ad9bd34"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy constructor of the class.  <a href="../../d1/d1a/a01285.php#aa83410abcc4449a02ce5835c8ad9bd34">More...</a><br /></td></tr>
-<tr class="separator:aa83410abcc4449a02ce5835c8ad9bd34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc6b0649cf43073f41f4d1d0617af24d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1a/a01285.php#abc6b0649cf43073f41f4d1d0617af24d">exception</a> (const <a class="el" href="../../d1/d1a/a01285.php">exception</a> &amp;&amp;other) noexcept</td></tr>
-<tr class="memdesc:abc6b0649cf43073f41f4d1d0617af24d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The move constructor of the class.  <a href="../../d1/d1a/a01285.php#abc6b0649cf43073f41f4d1d0617af24d">More...</a><br /></td></tr>
-<tr class="separator:abc6b0649cf43073f41f4d1d0617af24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab86ac60ef49f2bf978faa24588b32ced"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d1a/a01285.php">exception</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1a/a01285.php#ab86ac60ef49f2bf978faa24588b32ced">operator=</a> (const <a class="el" href="../../d1/d1a/a01285.php">exception</a> &amp;other) noexcept</td></tr>
-<tr class="memdesc:ab86ac60ef49f2bf978faa24588b32ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy operator of the class.  <a href="../../d1/d1a/a01285.php#ab86ac60ef49f2bf978faa24588b32ced">More...</a><br /></td></tr>
-<tr class="separator:ab86ac60ef49f2bf978faa24588b32ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70ab36f825287dc96ff7fb3517f9b46e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d1a/a01285.php">exception</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1a/a01285.php#a70ab36f825287dc96ff7fb3517f9b46e">operator=</a> (const <a class="el" href="../../d1/d1a/a01285.php">exception</a> &amp;&amp;other) noexcept</td></tr>
-<tr class="memdesc:a70ab36f825287dc96ff7fb3517f9b46e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The move operator of the class.  <a href="../../d1/d1a/a01285.php#a70ab36f825287dc96ff7fb3517f9b46e">More...</a><br /></td></tr>
-<tr class="separator:a70ab36f825287dc96ff7fb3517f9b46e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04d412a2a5c85d9e16d67539134b419f"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1a/a01285.php#a04d412a2a5c85d9e16d67539134b419f">what</a> () const noexcept</td></tr>
-<tr class="separator:a04d412a2a5c85d9e16d67539134b419f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a8cffcfc2c1a631bee3154a999bf13bf1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1a/a01285.php#a8cffcfc2c1a631bee3154a999bf13bf1">_msg</a></td></tr>
-<tr class="separator:a8cffcfc2c1a631bee3154a999bf13bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to call custom exceptions. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2af015139a223dafbf1556911aca048d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2af015139a223dafbf1556911aca048d">&#9670;&nbsp;</a></span>exception() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::exception::exception </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The constructor of the class. </p>
-
-</div>
-</div>
-<a id="afdb84ab5c36cbf3569727fcf129fb872"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdb84ab5c36cbf3569727fcf129fb872">&#9670;&nbsp;</a></span>exception() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::exception::exception </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>msg</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The constructor of the class. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">msg</td><td>The message to see when <a class="el" href="../../d1/d1a/a01285.php#a04d412a2a5c85d9e16d67539134b419f">what()</a> is call </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ae32a0816168e0f4ff7ba8d688d839dc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae32a0816168e0f4ff7ba8d688d839dc8">&#9670;&nbsp;</a></span>~exception()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual mcd::exception::~exception </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa83410abcc4449a02ce5835c8ad9bd34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa83410abcc4449a02ce5835c8ad9bd34">&#9670;&nbsp;</a></span>exception() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::exception::exception </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d1/d1a/a01285.php">exception</a> &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The copy constructor of the class. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The class' instance for copying </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="abc6b0649cf43073f41f4d1d0617af24d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc6b0649cf43073f41f4d1d0617af24d">&#9670;&nbsp;</a></span>exception() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::exception::exception </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d1/d1a/a01285.php">exception</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The move constructor of the class. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The class' instance for moving </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a70ab36f825287dc96ff7fb3517f9b46e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70ab36f825287dc96ff7fb3517f9b46e">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d1a/a01285.php">exception</a>&amp; mcd::exception::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d1/d1a/a01285.php">exception</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The move operator of the class. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The class' instance for moving </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ab86ac60ef49f2bf978faa24588b32ced"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab86ac60ef49f2bf978faa24588b32ced">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d1a/a01285.php">exception</a>&amp; mcd::exception::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d1/d1a/a01285.php">exception</a> &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The copy operator of the class. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The class' instance for copying </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a04d412a2a5c85d9e16d67539134b419f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04d412a2a5c85d9e16d67539134b419f">&#9670;&nbsp;</a></span>what()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const char* mcd::exception::what </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a8cffcfc2c1a631bee3154a999bf13bf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cffcfc2c1a631bee3154a999bf13bf1">&#9670;&nbsp;</a></span>_msg</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string mcd::exception::_msg</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d1/d44/a00098.php">exception.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d7/d8d/a01288.php">mcd::exception</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d8d/a01288.php#a8cffcfc2c1a631bee3154a999bf13bf1">_msg</a></td><td class="entry"><a class="el" href="../../d7/d8d/a01288.php">mcd::exception</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d8d/a01288.php#a2af015139a223dafbf1556911aca048d">exception</a>() noexcept</td><td class="entry"><a class="el" href="../../d7/d8d/a01288.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d8d/a01288.php#afdb84ab5c36cbf3569727fcf129fb872">exception</a>(const std::string &amp;msg) noexcept</td><td class="entry"><a class="el" href="../../d7/d8d/a01288.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d8d/a01288.php#aa83410abcc4449a02ce5835c8ad9bd34">exception</a>(const exception &amp;other) noexcept</td><td class="entry"><a class="el" href="../../d7/d8d/a01288.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d8d/a01288.php#abc6b0649cf43073f41f4d1d0617af24d">exception</a>(const exception &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../d7/d8d/a01288.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d8d/a01288.php#ab86ac60ef49f2bf978faa24588b32ced">operator=</a>(const exception &amp;other) noexcept</td><td class="entry"><a class="el" href="../../d7/d8d/a01288.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d8d/a01288.php#a70ab36f825287dc96ff7fb3517f9b46e">operator=</a>(const exception &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../d7/d8d/a01288.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d8d/a01288.php#a04d412a2a5c85d9e16d67539134b419f">what</a>() const noexcept</td><td class="entry"><a class="el" href="../../d7/d8d/a01288.php">mcd::exception</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d8d/a01288.php#ae32a0816168e0f4ff7ba8d688d839dc8">~exception</a>() noexcept</td><td class="entry"><a class="el" href="../../d7/d8d/a01288.php">mcd::exception</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../da/d53/a00265.php">mcd</a></li><li class="navelem"><a class="el" href="../../d1/d1a/a01285.php">exception</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

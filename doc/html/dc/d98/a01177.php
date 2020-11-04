@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::Check::has_ostream_operator&lt; T &gt; Class Template Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('dc/d98/a01177.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('dd/d75/a01180.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,129 +91,22 @@ $(document).ready(function(){initNavTree('dc/d98/a01177.php','../../'); initResi
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="../../da/dfb/a01174.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::has_ostream_operator&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Check::has_ostream_operator&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A template class to test if T has an ostream operator.  
- <a href="../../dc/d98/a01177.php#details">More...</a></p>
-
-<p><code>#include &lt;check.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a62ae1424b1e158747fdc66486da0f519"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d98/a01177.php#a62ae1424b1e158747fdc66486da0f519">has_ostream_operator</a> ()</td></tr>
-<tr class="separator:a62ae1424b1e158747fdc66486da0f519"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46e086e27236a65d185a87b1d20b4139"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d98/a01177.php#a46e086e27236a65d185a87b1d20b4139">~has_ostream_operator</a> ()</td></tr>
-<tr class="separator:a46e086e27236a65d185a87b1d20b4139"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:ad1cf88abd079ce2df64d1d4f8e256a8a"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d98/a01177.php#ad1cf88abd079ce2df64d1d4f8e256a8a">value</a> = !std::is_same&lt; return_type, dummy_t &gt;::value</td></tr>
-<tr class="separator:ad1cf88abd079ce2df64d1d4f8e256a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::has_ostream_operator&lt; T &gt;</h3>
-
-<p>A template class to test if T has an ostream operator. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a62ae1424b1e158747fdc66486da0f519"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62ae1424b1e158747fdc66486da0f519">&#9670;&nbsp;</a></span>has_ostream_operator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dc/d98/a01177.php">mcd::Check::has_ostream_operator</a>&lt; T &gt;::<a class="el" href="../../dc/d98/a01177.php">has_ostream_operator</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a46e086e27236a65d185a87b1d20b4139"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46e086e27236a65d185a87b1d20b4139">&#9670;&nbsp;</a></span>~has_ostream_operator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../dc/d98/a01177.php">mcd::Check::has_ostream_operator</a>&lt; T &gt;::~<a class="el" href="../../dc/d98/a01177.php">has_ostream_operator</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ad1cf88abd079ce2df64d1d4f8e256a8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1cf88abd079ce2df64d1d4f8e256a8a">&#9670;&nbsp;</a></span>value</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr bool <a class="el" href="../../dc/d98/a01177.php">mcd::Check::has_ostream_operator</a>&lt; T &gt;::value = !std::is_same&lt; return_type, dummy_t &gt;::value</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../dc/dee/a00053.php">check.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../dd/d75/a01180.php">mcd::Check::has_ostream_operator&lt; T &gt;</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d75/a01180.php#a62ae1424b1e158747fdc66486da0f519">has_ostream_operator</a>()</td><td class="entry"><a class="el" href="../../dd/d75/a01180.php">mcd::Check::has_ostream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d75/a01180.php#ad1cf88abd079ce2df64d1d4f8e256a8a">value</a></td><td class="entry"><a class="el" href="../../dd/d75/a01180.php">mcd::Check::has_ostream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d75/a01180.php#a46e086e27236a65d185a87b1d20b4139">~has_ostream_operator</a>()</td><td class="entry"><a class="el" href="../../dd/d75/a01180.php">mcd::Check::has_ostream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../da/d53/a00265.php">mcd</a></li><li class="navelem"><a class="el" href="../../db/d12/a00268.php">Check</a></li><li class="navelem"><a class="el" href="../../dc/d98/a01177.php">has_ostream_operator</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

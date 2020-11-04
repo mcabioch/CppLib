@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,22 +93,22 @@ $(document).ready(function(){initNavTree('namespacemembers_enum.php',''); initRe
 <div class="contents">
 &#160;<ul>
 <li>CaractSet
-: <a class="el" href="da/d53/a00265.php#a372ef82d72716aed789680d0a84c06d3">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a372ef82d72716aed789680d0a84c06d3">mcd</a>
 </li>
 <li>Colors
-: <a class="el" href="da/d53/a00265.php#ae124ce77f8e386663ac11e2e35e6070a">mcd</a>
+: <a class="el" href="db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070a">mcd</a>
 </li>
 <li>Direction
-: <a class="el" href="da/d53/a00265.php#a55fd359a467c1bfe9d2f72c227bb1706">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a55fd359a467c1bfe9d2f72c227bb1706">mcd</a>
 </li>
 <li>Tile
-: <a class="el" href="da/d53/a00265.php#a7350be9df9566241dfb80071a89f9ede">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a7350be9df9566241dfb80071a89f9ede">mcd</a>
 </li>
 <li>TREE_DIRECTION
-: <a class="el" href="da/d53/a00265.php#ae3ee27656d8eb6e8a09407841cd00898">mcd</a>
+: <a class="el" href="db/d12/a00268.php#ae3ee27656d8eb6e8a09407841cd00898">mcd</a>
 </li>
 <li>TREE_SORT
-: <a class="el" href="da/d53/a00265.php#a476a24d6aeedfa55efcaee6379946a75">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a476a24d6aeedfa55efcaee6379946a75">mcd</a>
 </li>
 </ul>
 </div><!-- contents -->

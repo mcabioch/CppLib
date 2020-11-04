@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -227,7 +227,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="../../d3/df8/a00155_a9a3710d279e209fbff51b625690ef630_cgraph.png" border="0" usemap="#ad3/df8/a00155_a9a3710d279e209fbff51b625690ef630_cgraph" alt=""/></div>
 <map name="d3/df8/a00155_a9a3710d279e209fbff51b625690ef630_cgraph" id="d3/df8/a00155_a9a3710d279e209fbff51b625690ef630_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,91,32"/>
-<area shape="rect" href="../../da/d53/a00265.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string." alt="" coords="139,5,212,32"/>
+<area shape="rect" href="../../db/d12/a00268.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string." alt="" coords="139,5,212,32"/>
 </map>
 </div>
 

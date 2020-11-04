@@ -37,7 +37,7 @@ Matrix< C > Matrix< C >::mineur(size_t i, size_t j) {
 template< class C >
 Matrix< C > Matrix< C >::getIdentity() {
     if (!_square) {
-        throw std::string("Error : Matrix::getIdentity : The matrix must be square !");
+        throw MatrixException("Error : Matrix::getIdentity : The matrix must be square !");
     }
 
     auto datas = _datas;

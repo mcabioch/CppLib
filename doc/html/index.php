@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('index.php',''); initResizable(); });
 <li class="level2"><a href="#imp_sec_fun_subsec">Functions</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#upd_sec">Updates</a><ul><li class="level2"><a href="#upd_sec_20201027_subsec">October, 27 2020 (1.6.0.0)</a></li>
+<li class="level1"><a href="#upd_sec">Updates</a><ul><li class="level2"><a href="#upd_sec_20201027_subsec">October, 27 2020 (1.6.1.0)</a></li>
 <li class="level2"><a href="#upd_sec_2019127_subsec">November, 27 2019 (1.5.0.0)</a></li>
 <li class="level2"><a href="#upd_sec_2019114_subsec">November, 14 2019 (1.4.1.1)</a></li>
 <li class="level2"><a href="#upd_sec_20191109_subsec">November, 09 2019 (1.4.0.0)</a></li>
@@ -132,7 +132,7 @@ Last modification on <?php echo $lastModif; ?> </dd></dl>
 <hr  />
 <h1><a class="anchor" id="int_sec"></a>
 Introduction</h1>
-<p>This is my own C++ library using C++14. All of the features are in the namespace <a class="el" href="da/d53/a00265.php">mcd</a>.</p>
+<p>This is my own C++ library using C++14. All of the features are in the namespace <a class="el" href="db/d12/a00268.php">mcd</a>.</p>
 <h1><a class="anchor" id="con_sec"></a>
 Content</h1>
 <h2><a class="anchor" id="con_sec_obj_subsec"></a>
@@ -204,7 +204,7 @@ Objects</h2>
 </li>
 </ul>
 </li>
-<li><a class="el" href="da/d77/a01381.php">mcd::Player</a></li>
+<li><a class="el" href="d0/d36/a01388.php">mcd::Player</a></li>
 </ul>
 </li>
 </ul>
@@ -212,7 +212,7 @@ Objects</h2>
 Variables</h2>
 <p>mcd::bdd<br  />
  mcd::rng<br  />
- <a class="el" href="da/d53/a00265.php#aa0ce198f34851e093bbc38dfd975e339">mcd::sha2</a></p>
+ <a class="el" href="db/d12/a00268.php#aa0ce198f34851e093bbc38dfd975e339">mcd::sha2</a></p>
 <h2><a class="anchor" id="imp_sec_def_subsec"></a>
 Structures &amp; Defines</h2>
 <p>mcd::Colors<br  />
@@ -228,29 +228,32 @@ Structures &amp; Defines</h2>
  BIG_PI<br  />
  line_number<br  />
  THREADABLE<br  />
- <a class="el" href="d6/de1/a00233.php#a3a0fe346d6bb1356037b21f558e5c308">THREADABLE_LOCK</a></p>
+ <a class="el" href="d7/d40/a00236.php#a3a0fe346d6bb1356037b21f558e5c308">THREADABLE_LOCK</a></p>
 <h2><a class="anchor" id="imp_sec_fun_subsec"></a>
 Functions</h2>
-<p><a class="el" href="da/d53/a00265.php#ae44c2e346da18a7424d97535fb654448" title="Return true if the file exists.">mcd::fileExists(const std::string&amp; path)</a><br  />
-<a class="el" href="da/d53/a00265.php#a176933d706495ddff7385a68319e7169" title="Compute the checksum number.">mcd::luhn(const std::string&amp; num)</a><br  />
-<a class="el" href="da/d53/a00265.php#a0003c12a7cc73a35e488f59ad14770bf" title="Sleep the thread during duration seconds.">mcd::sleep(size_t duration)</a><br  />
+<p><a class="el" href="db/d12/a00268.php#ae44c2e346da18a7424d97535fb654448" title="Return true if the file exists.">mcd::fileExists(const std::string&amp; path)</a><br  />
+<a class="el" href="db/d12/a00268.php#a176933d706495ddff7385a68319e7169" title="Compute the checksum number.">mcd::luhn(const std::string&amp; num)</a><br  />
+<a class="el" href="db/d12/a00268.php#a0003c12a7cc73a35e488f59ad14770bf" title="Sleep the thread during duration seconds.">mcd::sleep(size_t duration)</a><br  />
 mcd::print_all(Something data, bool change)<br  />
-<a class="el" href="da/d53/a00265.php#a5046a9dfac4629babcb20cf7b914415e" title="Print the size of obj type.">printSize&lt;Type&gt;()</a><br  />
-<a class="el" href="da/d53/a00265.php#a2bb83762638ce787815f3699d67faa92" title="Print the type of obj.">mcd::printType(const C&amp; obj)</a><br  />
-<a class="el" href="db/d12/a00268.php#ab0b2e96bd3f31d823dad478c5f54abf1" title="A function that say if a type has an ostream operator(&lt;&lt;)">mcd::Check::printable(const T&amp;)</a><br  />
+<a class="el" href="db/d12/a00268.php#a5046a9dfac4629babcb20cf7b914415e" title="Print the size of obj type.">printSize&lt;Type&gt;()</a><br  />
+<a class="el" href="db/d12/a00268.php#a2bb83762638ce787815f3699d67faa92" title="Print the type of obj.">mcd::printType(const C&amp; obj)</a><br  />
+<a class="el" href="dd/d86/a00271.php#ab0b2e96bd3f31d823dad478c5f54abf1" title="A function that say if a type has an ostream operator(&lt;&lt;)">mcd::Check::printable(const T&amp;)</a><br  />
 mcd::removeAccents(std::string str)<br  />
-<a class="el" href="da/d53/a00265.php#a1ddd069f38e7407563a5d8e763d7dc90" title="Create a random string.">mcd::randStr(size_t nb, unsigned short flags)</a></p>
+<a class="el" href="db/d12/a00268.php#a1ddd069f38e7407563a5d8e763d7dc90" title="Create a random string.">mcd::randStr(size_t nb, unsigned short flags)</a></p>
 <h1><a class="anchor" id="upd_sec"></a>
 Updates</h1>
 <h2><a class="anchor" id="upd_sec_20201027_subsec"></a>
-October, 27 2020 (1.6.0.0)</h2>
+October, 27 2020 (1.6.1.0)</h2>
+<p>Adding a define <a class="el" href="d7/d06/a00131.php#abe33bfc662fbc270e952c288fd8a7991">AUTO_OPERATORS</a> to define class operators automatically if the operators == and &lt; are defined.</p>
+<h2><a class="anchor" id="upd_sec_20201027_subsec"></a>
+October, 27 2020 (1.6.1.0)</h2>
 <p>Adding a class to manage Json objects.</p>
 <h2><a class="anchor" id="upd_sec_2019127_subsec"></a>
 November, 27 2019 (1.5.0.0)</h2>
 <p>Adding a class to do some unitary tests in a program.</p>
 <h2><a class="anchor" id="upd_sec_2019114_subsec"></a>
 November, 14 2019 (1.4.1.1)</h2>
-<p>Changing assert behaviour to throw a <a class="el" href="dd/de4/a01121.php" title="An exception thrown by my assert&#39;s implementation.">mcd::AssertionException</a> instead of closing the program.</p>
+<p>Changing assert behaviour to throw a <a class="el" href="d0/dc8/a01124.php" title="An exception thrown by my assert&#39;s implementation.">mcd::AssertionException</a> instead of closing the program.</p>
 <h2><a class="anchor" id="upd_sec_20191109_subsec"></a>
 November, 09 2019 (1.4.0.0)</h2>
 <p>Adding an object to log informations (logger).</p>
@@ -267,7 +270,7 @@ September, 06 2019 (1.1.1.1)</h2>
 Added to <a href="https://github.com/mcabioch/CppLib" class="el" target="_blank">GitHub</a>.</p>
 <h2><a class="anchor" id="upd_sec_20190416_subsec"></a>
 April, 16 2019 (1.1.1.0)</h2>
-<p>Creation of the <a class="el" href="da/d53/a00265.php">mcd</a> namespace.</p>
+<p>Creation of the <a class="el" href="db/d12/a00268.php">mcd</a> namespace.</p>
 <h1><a class="anchor" id="dow_sec"></a>
 Downloads</h1>
 <p>The <a href="https://github.com/mcabioch/CppLib" class="el" target="_blank">GitHub</a> link. </p>

@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,10 +95,10 @@ $(document).ready(function(){initNavTree('functions_q.php',''); initResizable();
 
 <h3><a id="index_q"></a>- q -</h3><ul>
 <li>quad
-: <a class="el" href="da/d53/a00265.php#a520f332e78f0efd6952f52b192a60328">mcd::quatuor&lt; T, U, V, W &gt;</a>
+: <a class="el" href="db/d12/a00268.php#a520f332e78f0efd6952f52b192a60328">mcd::quatuor&lt; T, U, V, W &gt;</a>
 </li>
 <li>queue()
-: <a class="el" href="de/d1d/a01105.php#a0566f226253ef02ac813bad965f647b9">mcd::queue&lt; T, Container &gt;</a>
+: <a class="el" href="d2/dd7/a01108.php#a0566f226253ef02ac813bad965f647b9">mcd::queue&lt; T, Container &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

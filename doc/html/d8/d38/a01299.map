@@ -1,5 +1,5 @@
-<map id="mcd::Identifier" name="mcd::Identifier">
-<area shape="rect" id="node1" title="A class to store some identify datas." alt="" coords="16,200,121,227"/>
-<area shape="rect" id="node2" title="STL class." alt="" coords="29,96,109,123"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="5,5,132,47"/>
+<map id="mcd::Hostile" name="mcd::Hostile">
+<area shape="rect" id="node1" title="A class to derivate from when the thing can attack." alt="" coords="5,5,101,32"/>
+<area shape="rect" id="node2" href="$da/db7/a01088.php" title="An animal." alt="" coords="6,80,101,107"/>
+<area shape="rect" id="node3" href="$de/d9c/a01092.php" title="An ant." alt="" coords="16,155,91,181"/>
 </map>

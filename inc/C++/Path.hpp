@@ -3,7 +3,7 @@
  *	\file		Path.hpp
  *	\author		Mathias CABIOCH-DELALANDE
  *	\created	July, 29 2018 16:12:40
- *	\modified	September, 24 2019
+ *	\modified	October, 28 2020
  *
  */
 #ifndef HEADER_CPP_MAP_PATH
@@ -23,19 +23,7 @@ namespace mcd
         friend bool operator<(const PathfindingNode& a, const PathfindingNode& b) {
             return (a.id < b.id);
         }
-        friend bool operator>(const PathfindingNode& a, const PathfindingNode& b) {
-            return (a.id > b.id);
-        }
-
-        friend bool operator!=(const PathfindingNode& a, const PathfindingNode& b) {
-            return !(a == b);
-        }
-        friend bool operator<=(const PathfindingNode& a, const PathfindingNode& b) {
-            return (a == b) || (a < b);
-        }
-        friend bool operator>=(const PathfindingNode& a, const PathfindingNode& b) {
-            return (a == b) || (a > b);
-        }
+        AUTO_OPERATORS(PathfindingNode)
     };
 
     /*!

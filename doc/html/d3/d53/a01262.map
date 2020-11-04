@@ -1,4 +1,5 @@
-<map id="mcd::Date" name="mcd::Date">
-<area shape="rect" id="node1" title="A class to play with dates." alt="" coords="20,5,103,32"/>
-<area shape="rect" id="node2" href="$d4/d41/a01267.php" title="A class to play with dates and times." alt="" coords="5,80,117,107"/>
+<map id="mcd::MyCrypt" name="mcd::MyCrypt">
+<area shape="rect" id="node1" title="A class to test a homemade algorithm for encryption." alt="" coords="18,155,123,181"/>
+<area shape="rect" id="node2" href="$d0/d33/a01252.php" title="A class to be the parent for every crypt class." alt="" coords="23,80,118,107"/>
+<area shape="rect" id="node3" href="$d7/d57/a01348.php" title="A class to let some other not to be copyable." alt="" coords="5,5,136,32"/>
 </map>

@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,19 +95,19 @@ $(document).ready(function(){initNavTree('functions_func_f.php',''); initResizab
 
 <h3><a id="index_f"></a>- f -</h3><ul>
 <li>failures()
-: <a class="el" href="d7/d68/a01413.php#a8eca6a0ca43bb94945dd97f9d43f8042">mcd::Tests::Test</a>
+: <a class="el" href="d0/d05/a01420.php#a8eca6a0ca43bb94945dd97f9d43f8042">mcd::Tests::Test</a>
 </li>
 <li>final()
-: <a class="el" href="d9/de7/a01257.php#a46a2f66f96d1152c972b8fc2c228db77">mcd::SHA2</a>
+: <a class="el" href="d7/da3/a01260.php#a46a2f66f96d1152c972b8fc2c228db77">mcd::SHA2</a>
 </li>
 <li>find()
-: <a class="el" href="d2/d9b/a01433.php#a1dd3866ef261769430a548223331c98d">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="df/d31/a01440.php#a1dd3866ef261769430a548223331c98d">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>Fraction()
-: <a class="el" href="d9/dda/a01289.php#a9397e2e1fbfba88c48928e5135925f8d">mcd::Fraction</a>
+: <a class="el" href="d8/d7a/a01292.php#a9397e2e1fbfba88c48928e5135925f8d">mcd::Fraction</a>
 </li>
 <li>front()
-: <a class="el" href="d8/dbf/a01109.php#aa86287081828d6ab7ea9b7e1b71616ac">mcd::t_queue&lt; T, Container &gt;</a>
+: <a class="el" href="d0/d39/a01112.php#aa86287081828d6ab7ea9b7e1b71616ac">mcd::t_queue&lt; T, Container &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

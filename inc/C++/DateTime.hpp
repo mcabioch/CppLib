@@ -2,7 +2,7 @@
  *
  *	\file		DateTime.hpp
  *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	September, 26 2019
+ *	\modified	October, 28 2020
  *
  */
 #ifndef HEADER_CPP_DATETIME
@@ -31,17 +31,14 @@ namespace mcd
         friend bool operator<(const DateTime& a, const DateTime& b);
         friend bool operator==(const DateTime& a, const DateTime& b);
 
-        friend bool operator!=(const DateTime& a, const DateTime& b);
-        friend bool operator>(const DateTime& a, const DateTime& b);
-        friend bool operator<=(const DateTime& a, const DateTime& b);
-        friend bool operator>=(const DateTime& a, const DateTime& b);
+        AUTO_OPERATORS(DateTime)
+
+        friend std::ostream& operator<<(std::ostream& os, DateTime datetime);
 
         private:
         Date date;
         Time time;
     };
-
-    std::ostream& operator<<(std::ostream& os, DateTime datetime);
 }   // namespace mcd
 
 #endif   // HEADER_CPP_DATETIME

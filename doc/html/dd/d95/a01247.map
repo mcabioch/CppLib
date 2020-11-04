@@ -1,4 +1,11 @@
-<map id="mcd::Crypto" name="mcd::Crypto">
-<area shape="rect" id="node1" title="A class to be the parent for every crypt class." alt="" coords="23,80,118,107"/>
-<area shape="rect" id="node2" href="$de/da0/a01341.php" title="A class to let some other not to be copyable." alt="" coords="5,5,136,32"/>
+<map id="mcd::Contraption" name="mcd::Contraption">
+<area shape="rect" id="node1" title="A contraption." alt="" coords="170,5,293,32"/>
+<area shape="rect" id="node2" href="$dd/d18/a01284.php" title="An entity." alt="" coords="129,80,219,107"/>
+<area shape="rect" id="node8" href="$d2/d3f/a01356.php" title="An object." alt="" coords="245,80,338,107"/>
+<area shape="rect" id="node3" href="$da/db7/a01088.php" title="An animal." alt="" coords="5,155,100,181"/>
+<area shape="rect" id="node5" href="$d2/d2f/a01460.php" title="A vegetal." alt="" coords="125,155,223,181"/>
+<area shape="rect" id="node4" href="$de/d9c/a01092.php" title="An ant." alt="" coords="15,229,90,256"/>
+<area shape="rect" id="node6" href="$dc/d54/a01344.php" title="A mushroom." alt="" coords="115,229,231,256"/>
+<area shape="rect" id="node7" href="$d7/dde/a01384.php" title="A plant." alt="" coords="255,229,341,256"/>
+<area shape="rect" id="node9" href="$d5/dec/a01416.php" title="A stone." alt="" coords="248,155,337,181"/>
 </map>

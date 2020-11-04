@@ -1,9 +1,10 @@
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:98: warning: multiple use of section label 'upd_sec_20201027_subsec' while adding section, (first occurrence: /home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md, line 94)
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/timeFunctions.hpp:3: warning: the name 'time.hpp' supplied as the argument in the \file statement is not an input file
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:43: warning: Found unknown command '\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:63: warning: Found unknown command '\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:53: warning: Found unknown command '\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/files.hpp:23: warning: documented empty return type of mcd::fileFormat
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:52: warning: documented empty return type of mcd::print_r
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:51: warning: documented empty return type of mcd::print_r
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/types.hpp:158: warning: documented empty return type of mcd::printType
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/string.hpp:60: warning: documented empty return type of mcd::trim
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:144: warning: documented empty return type of mcd::Animal::anyObstacle
@@ -77,10 +78,10 @@
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Map.hpp:183: warning: documented empty return type of mcd::Map::setEntity
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Map.hpp:72: warning: documented empty return type of mcd::Map::setSize
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Map.hpp:79: warning: documented empty return type of mcd::Map::setW
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Matrix.hpp:114: warning: documented empty return type of mcd::Matrix::GaussJordan
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Matrix.hpp:115: warning: documented empty return type of mcd::Matrix::GaussJordan
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Mushroom.hpp:46: warning: documented empty return type of mcd::Mushroom::printInfos
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Object.hpp:46: warning: documented empty return type of mcd::Object::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Path.hpp:81: warning: documented empty return type of mcd::Path::push
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Path.hpp:69: warning: documented empty return type of mcd::Path::push
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Plant.hpp:46: warning: documented empty return type of mcd::Plant::printInfos
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Player.hpp:43: warning: documented empty return type of mcd::Player::printInfos
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:107: warning: documented empty return type of mcd::PlayerAbstraction::lost

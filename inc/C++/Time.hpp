@@ -2,7 +2,7 @@
  *
  *	\file		Time.hpp
  *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	September, 26 2019
+ *	\modified	October, 28 2020
  *
  *	\details	Formats disponibles afin de récupérer l'heure\n
  *				\%H : Return the number of hours of the day between 00 and 24\n
@@ -47,6 +47,13 @@ namespace mcd
         /* Setters */
         void set(const std::string& time);
 
+        /* Friends */
+        friend bool operator<(const Time& a, const Time& b);
+        friend bool operator==(const Time& a, const Time& b);
+        AUTO_OPERATORS(Time)
+
+        friend std::ostream& operator<<(std::ostream& os, const Time& time);
+
         protected:
         void init();
         void reset();
@@ -58,16 +65,6 @@ namespace mcd
 
         std::string _time;
     };
-
-    bool operator<(const Time& a, const Time& b);
-    bool operator==(const Time& a, const Time& b);
-
-    bool operator!=(const Time& a, const Time& b);
-    bool operator>(const Time& a, const Time& b);
-    bool operator<=(const Time& a, const Time& b);
-    bool operator>=(const Time& a, const Time& b);
-
-    std::ostream& operator<<(std::ostream& os, const Time& time);
 }   // namespace mcd
 
 #endif   // HEADER_CPP_TIME

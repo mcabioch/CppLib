@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Todo List</title>
+		<title>C++: mainpage.md File Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -90,28 +90,18 @@ $(document).ready(function(){initNavTree('df/da9/a00263.php','../../'); initResi
 </iframe>
 </div>
 
-<div class="PageDoc"><div class="header">
+<div class="header">
   <div class="headertitle">
-<div class="title">Todo List </div>  </div>
+<div class="title">mainpage.md File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><dl class="reflist">
-<dt>Class <a class="el" href="../../d6/dc4/a01125.php">mcd::Big</a>  </dt>
-<dd><a class="anchor" id="_todo000001"></a>Implement the coma  </dd>
-<dt>Class <a class="el" href="../../da/dd8/a01265.php">mcd::RSA</a>  </dt>
-<dd><a class="anchor" id="_todo000002"></a>Create the class  </dd>
-<dt>Class <a class="el" href="../../db/df2/a01425.php">mcd::Timer</a>  </dt>
-<dd><a class="anchor" id="_todo000003"></a>Create the class  </dd>
-<dt>Class <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree&lt; T &gt;</a>  </dt>
-<dd><a class="anchor" id="_todo000004"></a>Refactoring </dd>
-</dl>
-</div></div><!-- contents -->
-</div><!-- PageDoc -->
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../df/da9/a00263.php">mainpage.md</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

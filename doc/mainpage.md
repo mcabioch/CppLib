@@ -90,6 +90,10 @@ mcd::randStr(size_t nb, unsigned short flags)
 
 \section upd_sec Updates
 
+\subsection upd_sec_20201027_subsec October, 27 2020 (1.6.1.0)
+
+Adding a define \ref AUTO_OPERATORS to define class operators automatically if the operators == and < are defined.
+
 \subsection upd_sec_20201027_subsec October, 27 2020 (1.6.0.0)
 
 Adding a class to manage Json objects.

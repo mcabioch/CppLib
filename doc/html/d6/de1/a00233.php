@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Threadable.hpp File Reference</title>
+		<title>C++: Test.hpp File Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -96,194 +96,602 @@ $(document).ready(function(){initNavTree('d6/de1/a00233.php','../../'); initResi
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">Threadable.hpp File Reference</div>  </div>
+<div class="title">Test.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d4/d3e/a00116.php">includes.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d6/d2d/a00047.php">C++lib.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Threadable.hpp:</div>
+Include dependency graph for Test.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/d31/a00234.png" border="0" usemap="#aThreadable_8hpp" alt=""/></div>
-<map name="Threadable_8hpp" id="Threadable_8hpp">
-<area shape="rect" title=" " alt="" coords="1072,5,1183,32"/>
-<area shape="rect" href="../../d4/d3e/a00116.php" title=" " alt="" coords="1080,80,1175,107"/>
-<area shape="rect" href="../../db/ddf/a00164.php" title=" " alt="" coords="599,155,722,181"/>
-<area shape="rect" href="../../dc/de6/a00167.php" title=" " alt="" coords="747,155,881,181"/>
-<area shape="rect" href="../../d0/d27/a00239.php" title=" " alt="" coords="905,155,1035,181"/>
-<area shape="rect" title=" " alt="" coords="1059,155,1121,181"/>
-<area shape="rect" title=" " alt="" coords="1145,155,1184,181"/>
-<area shape="rect" title=" " alt="" coords="1208,155,1271,181"/>
-<area shape="rect" title=" " alt="" coords="1295,155,1349,181"/>
-<area shape="rect" title=" " alt="" coords="1373,155,1423,181"/>
-<area shape="rect" href="../../d5/ddf/a00224.php" title="Used to replace strptime function when compiling for Windows." alt="" coords="883,229,963,256"/>
-<area shape="rect" title=" " alt="" coords="988,229,1043,256"/>
-<area shape="rect" href="../../dd/d52/a00221.php" title=" " alt="" coords="869,304,978,331"/>
-<area shape="rect" title=" " alt="" coords="753,379,809,405"/>
-<area shape="rect" href="../../dd/dc1/a00212.php" title=" " alt="" coords="833,379,910,405"/>
-<area shape="rect" href="../../d2/df5/a00137.php" title=" " alt="" coords="934,379,1017,405"/>
-<area shape="rect" href="../../d9/d01/a00227.php" title=" " alt="" coords="1041,379,1131,405"/>
-<area shape="rect" title=" " alt="" coords="839,453,904,480"/>
-<area shape="rect" href="../../d9/d77/a00095.php" title=" " alt="" coords="1046,453,1126,480"/>
-<area shape="rect" href="../../de/de1/a00065.php" title=" " alt="" coords="988,528,1080,555"/>
-<area shape="rect" href="../../d4/d3a/a00101.php" title=" " alt="" coords="1104,528,1175,555"/>
-<area shape="rect" href="../../db/db6/a00074.php" title=" " alt="" coords="990,603,1081,629"/>
-<area shape="rect" title=" " alt="" coords="943,677,1026,704"/>
-<area shape="rect" href="../../da/d45/a00011.php" title=" " alt="" coords="1050,677,1125,704"/>
-<area shape="rect" href="../../dc/dee/a00053.php" title=" " alt="" coords="937,752,1019,779"/>
-<area shape="rect" href="../../d1/d44/a00098.php" title=" " alt="" coords="1155,752,1257,779"/>
-<area shape="rect" href="../../d3/dd5/a00215.php" title=" " alt="" coords="1044,752,1131,779"/>
-<area shape="rect" href="../../df/d03/a00062.php" title=" " alt="" coords="745,827,835,853"/>
-<area shape="rect" href="../../d7/d03/a00254.php" title=" " alt="" coords="1046,827,1129,853"/>
-<area shape="rect" title=" " alt="" coords="865,827,926,853"/>
-<area shape="rect" title=" " alt="" coords="950,827,1019,853"/>
-<area shape="rect" href="../../d9/db6/a00146.php" title=" " alt="" coords="738,901,821,928"/>
-<area shape="rect" href="../../d0/dc2/a00104.php" title=" " alt="" coords="705,976,800,1003"/>
-<area shape="rect" href="../../d7/dce/a00143.php" title=" " alt="" coords="627,1051,710,1077"/>
-<area shape="rect" title=" " alt="" coords="734,1051,801,1077"/>
-<area shape="rect" href="../../d8/d41/a00038.php" title=" " alt="" coords="673,1125,755,1152"/>
-<area shape="rect" href="../../de/d79/a00203.php" title=" " alt="" coords="706,1200,799,1227"/>
-<area shape="rect" href="../../dd/dd7/a00248.php" title=" " alt="" coords="620,1275,699,1301"/>
-<area shape="rect" title=" " alt="" coords="723,1275,782,1301"/>
-<area shape="rect" title=" " alt="" coords="806,1275,865,1301"/>
-<area shape="rect" href="../../d3/d52/a00023.php" title=" " alt="" coords="383,1349,450,1376"/>
-<area shape="rect" href="../../d5/df1/a00206.php" title=" " alt="" coords="488,1349,599,1376"/>
-<area shape="rect" href="../../d6/d22/a00245.php" title=" " alt="" coords="623,1349,696,1376"/>
-<area shape="rect" href="../../d3/d1a/a00251.php" title=" " alt="" coords="721,1349,854,1376"/>
-<area shape="rect" title=" " alt="" coords="879,1349,947,1376"/>
-<area shape="rect" href="../../d7/d06/a00131.php" title=" " alt="" coords="617,1424,729,1451"/>
-<area shape="rect" href="../../d6/d5b/a00026.php" title=" " alt="" coords="5,1424,148,1451"/>
-<area shape="rect" href="../../d5/d16/a00029.php" title=" " alt="" coords="172,1424,312,1451"/>
-<area shape="rect" href="../../dc/d87/a00032.php" title=" " alt="" coords="337,1424,446,1451"/>
-<area shape="rect" href="../../d4/d8c/a00035.php" title=" " alt="" coords="470,1424,593,1451"/>
-<area shape="rect" href="../../d7/d3f/a00173.php" title=" " alt="" coords="613,1499,733,1525"/>
-<area shape="rect" title=" " alt="" coords="581,1573,649,1600"/>
-<area shape="rect" href="../../de/d76/a00134.php" title=" " alt="" coords="673,1573,789,1600"/>
-<area shape="rect" title=" " alt="" coords="245,1648,319,1675"/>
-<area shape="rect" title=" " alt="" coords="343,1648,402,1675"/>
-<area shape="rect" title=" " alt="" coords="427,1648,505,1675"/>
-<area shape="rect" title=" " alt="" coords="530,1648,602,1675"/>
-<area shape="rect" title=" " alt="" coords="627,1648,673,1675"/>
-<area shape="rect" title=" " alt="" coords="697,1648,765,1675"/>
-<area shape="rect" title=" " alt="" coords="789,1648,844,1675"/>
-<area shape="rect" title=" " alt="" coords="869,1648,938,1675"/>
-<area shape="rect" title=" " alt="" coords="963,1648,1017,1675"/>
-<area shape="rect" title=" " alt="" coords="1042,1648,1095,1675"/>
-<area shape="rect" title=" " alt="" coords="1119,1648,1178,1675"/>
-<area shape="rect" href="../../d2/de7/a00014.php" title=" " alt="" coords="1048,901,1180,928"/>
-<area shape="rect" title=" " alt="" coords="876,976,987,1003"/>
-<area shape="rect" title=" " alt="" coords="1011,976,1115,1003"/>
-<area shape="rect" title=" " alt="" coords="1139,976,1190,1003"/>
-<area shape="rect" title=" " alt="" coords="1215,976,1272,1003"/>
-<area shape="rect" title=" " alt="" coords="1297,976,1337,1003"/>
-<area shape="rect" title=" " alt="" coords="1361,976,1416,1003"/>
-<area shape="rect" title=" " alt="" coords="1160,827,1239,853"/>
-<area shape="rect" title=" " alt="" coords="1263,827,1341,853"/>
-<area shape="rect" title=" " alt="" coords="1106,603,1173,629"/>
+<div class="center"><img src="../../da/d31/a00234.png" border="0" usemap="#aTest_8hpp" alt=""/></div>
+<map name="Test_8hpp" id="Test_8hpp">
+<area shape="rect" title=" " alt="" coords="789,5,861,32"/>
+<area shape="rect" href="../../d6/d2d/a00047.php" title=" " alt="" coords="781,80,868,107"/>
+<area shape="rect" href="../../d4/d51/a00017.php" title=" " alt="" coords="645,155,730,181"/>
+<area shape="rect" href="../../df/dc8/a00122.php" title=" " alt="" coords="787,155,862,181"/>
+<area shape="rect" href="../../d1/d09/a00077.php" title=" " alt="" coords="916,229,1013,256"/>
+<area shape="rect" href="../../db/db2/a00020.php" title=" " alt="" coords="574,229,734,256"/>
+<area shape="rect" href="../../da/d2a/a00086.php" title=" " alt="" coords="780,304,869,331"/>
+<area shape="rect" href="../../d6/d22/a00245.php" title=" " alt="" coords="533,379,612,405"/>
+<area shape="rect" href="../../d4/dee/a00008.php" title=" " alt="" coords="637,379,711,405"/>
+<area shape="rect" href="../../d3/d8b/a00059.php" title=" " alt="" coords="655,528,736,555"/>
+<area shape="rect" href="../../da/d24/a00068.php" title=" " alt="" coords="683,603,809,629"/>
+<area shape="rect" href="../../d2/d1f/a00083.php" title=" " alt="" coords="798,677,902,704"/>
+<area shape="rect" href="../../df/d6a/a00119.php" title=" " alt="" coords="887,453,986,480"/>
+<area shape="rect" href="../../d5/db1/a00140.php" title=" " alt="" coords="1018,379,1090,405"/>
+<area shape="rect" href="../../dd/dc1/a00212.php" title=" " alt="" coords="1215,528,1330,555"/>
+<area shape="rect" href="../../d7/d40/a00236.php" title=" " alt="" coords="536,453,647,480"/>
+<area shape="rect" href="../../d4/d3e/a00116.php" title=" " alt="" coords="821,827,916,853"/>
+<area shape="rect" href="../../dc/de6/a00167.php" title=" " alt="" coords="341,901,463,928"/>
+<area shape="rect" href="../../d5/dcb/a00170.php" title=" " alt="" coords="488,901,623,928"/>
+<area shape="rect" href="../../d2/dc8/a00242.php" title=" " alt="" coords="647,901,776,928"/>
+<area shape="rect" title=" " alt="" coords="801,901,862,928"/>
+<area shape="rect" title=" " alt="" coords="887,901,925,928"/>
+<area shape="rect" title=" " alt="" coords="949,901,1012,928"/>
+<area shape="rect" title=" " alt="" coords="1037,901,1090,928"/>
+<area shape="rect" title=" " alt="" coords="1114,901,1165,928"/>
+<area shape="rect" href="../../d9/d01/a00227.php" title="Used to replace strptime function when compiling for Windows." alt="" coords="625,976,705,1003"/>
+<area shape="rect" title=" " alt="" coords="729,976,784,1003"/>
+<area shape="rect" href="../../d5/ddf/a00224.php" title=" " alt="" coords="610,1051,719,1077"/>
+<area shape="rect" title=" " alt="" coords="494,1125,550,1152"/>
+<area shape="rect" href="../../d3/dd5/a00215.php" title=" " alt="" coords="574,1125,651,1152"/>
+<area shape="rect" href="../../d2/df5/a00137.php" title=" " alt="" coords="675,1125,758,1152"/>
+<area shape="rect" href="../../d1/da8/a00230.php" title=" " alt="" coords="782,1125,873,1152"/>
+<area shape="rect" title=" " alt="" coords="580,1200,645,1227"/>
+<area shape="rect" href="../../d9/d77/a00095.php" title=" " alt="" coords="787,1200,867,1227"/>
+<area shape="rect" href="../../de/de1/a00065.php" title=" " alt="" coords="728,1275,820,1301"/>
+<area shape="rect" href="../../d4/d3a/a00101.php" title=" " alt="" coords="844,1275,915,1301"/>
+<area shape="rect" href="../../db/db6/a00074.php" title=" " alt="" coords="730,1349,821,1376"/>
+<area shape="rect" title=" " alt="" coords="683,1424,766,1451"/>
+<area shape="rect" href="../../da/d45/a00011.php" title=" " alt="" coords="790,1424,865,1451"/>
+<area shape="rect" href="../../dc/dee/a00053.php" title=" " alt="" coords="841,1499,923,1525"/>
+<area shape="rect" href="../../dc/d9a/a00218.php" title=" " alt="" coords="729,1499,816,1525"/>
+<area shape="rect" href="../../df/d03/a00062.php" title=" " alt="" coords="1034,1573,1125,1600"/>
+<area shape="rect" href="../../d9/d39/a00257.php" title=" " alt="" coords="731,1573,814,1600"/>
+<area shape="rect" title=" " alt="" coords="845,1573,906,1600"/>
+<area shape="rect" title=" " alt="" coords="930,1573,999,1600"/>
+<area shape="rect" href="../../d9/db6/a00146.php" title=" " alt="" coords="1043,1648,1126,1675"/>
+<area shape="rect" href="../../d0/dc2/a00104.php" title=" " alt="" coords="1180,1723,1275,1749"/>
+<area shape="rect" href="../../d6/d7d/a00161.php" title=" " alt="" coords="1014,1723,1155,1749"/>
+<area shape="rect" href="../../d7/dce/a00143.php" title=" " alt="" coords="1065,1797,1147,1824"/>
+<area shape="rect" title=" " alt="" coords="1194,1797,1261,1824"/>
+<area shape="rect" href="../../d8/d41/a00038.php" title=" " alt="" coords="1062,1872,1145,1899"/>
+<area shape="rect" href="../../d5/df1/a00206.php" title=" " alt="" coords="701,1947,794,1973"/>
+<area shape="rect" href="../../d3/d1a/a00251.php" title=" " alt="" coords="615,2021,693,2048"/>
+<area shape="rect" title=" " alt="" coords="718,2021,777,2048"/>
+<area shape="rect" title=" " alt="" coords="801,2021,859,2048"/>
+<area shape="rect" href="../../d3/d52/a00023.php" title=" " alt="" coords="371,2096,438,2123"/>
+<area shape="rect" href="../../d3/de5/a00209.php" title=" " alt="" coords="483,2096,593,2123"/>
+<area shape="rect" href="../../dd/dd7/a00248.php" title=" " alt="" coords="617,2096,691,2123"/>
+<area shape="rect" href="../../d7/d03/a00254.php" title=" " alt="" coords="715,2096,849,2123"/>
+<area shape="rect" title=" " alt="" coords="873,2096,941,2123"/>
+<area shape="rect" href="../../d7/d06/a00131.php" title=" " alt="" coords="618,2171,730,2197"/>
+<area shape="rect" href="../../d6/d5b/a00026.php" title=" " alt="" coords="451,2171,593,2197"/>
+<area shape="rect" href="../../d5/d16/a00029.php" title=" " alt="" coords="5,2171,145,2197"/>
+<area shape="rect" href="../../dc/d87/a00032.php" title=" " alt="" coords="170,2171,279,2197"/>
+<area shape="rect" href="../../d4/d8c/a00035.php" title=" " alt="" coords="303,2171,426,2197"/>
+<area shape="rect" href="../../d5/de9/a00176.php" title=" " alt="" coords="614,2245,734,2272"/>
+<area shape="rect" title=" " alt="" coords="583,2320,651,2347"/>
+<area shape="rect" href="../../de/d76/a00134.php" title=" " alt="" coords="675,2320,791,2347"/>
+<area shape="rect" title=" " alt="" coords="246,2395,321,2421"/>
+<area shape="rect" title=" " alt="" coords="345,2395,403,2421"/>
+<area shape="rect" title=" " alt="" coords="428,2395,507,2421"/>
+<area shape="rect" title=" " alt="" coords="531,2395,603,2421"/>
+<area shape="rect" title=" " alt="" coords="628,2395,675,2421"/>
+<area shape="rect" title=" " alt="" coords="699,2395,767,2421"/>
+<area shape="rect" title=" " alt="" coords="791,2395,845,2421"/>
+<area shape="rect" title=" " alt="" coords="870,2395,939,2421"/>
+<area shape="rect" title=" " alt="" coords="964,2395,1019,2421"/>
+<area shape="rect" title=" " alt="" coords="1043,2395,1097,2421"/>
+<area shape="rect" title=" " alt="" coords="1121,2395,1179,2421"/>
+<area shape="rect" href="../../d1/d44/a00098.php" title=" " alt="" coords="937,1797,1040,1824"/>
+<area shape="rect" title=" " alt="" coords="955,1872,1033,1899"/>
+<area shape="rect" title=" " alt="" coords="852,1872,931,1899"/>
+<area shape="rect" href="../../d2/de7/a00014.php" title=" " alt="" coords="679,1648,811,1675"/>
+<area shape="rect" title=" " alt="" coords="449,1723,560,1749"/>
+<area shape="rect" title=" " alt="" coords="585,1723,689,1749"/>
+<area shape="rect" title=" " alt="" coords="713,1723,763,1749"/>
+<area shape="rect" title=" " alt="" coords="788,1723,845,1749"/>
+<area shape="rect" title=" " alt="" coords="870,1723,910,1749"/>
+<area shape="rect" title=" " alt="" coords="935,1723,989,1749"/>
+<area shape="rect" title=" " alt="" coords="846,1349,913,1376"/>
+<area shape="rect" href="../../da/dec/a00080.php" title=" " alt="" coords="831,752,906,779"/>
+<area shape="rect" href="../../d0/d27/a00239.php" title=" " alt="" coords="731,752,807,779"/>
+<area shape="rect" href="../../de/df3/a00185.php" title=" " alt="" coords="1011,453,1185,480"/>
+<area shape="rect" href="../../da/d15/a00188.php" title=" " alt="" coords="1019,528,1177,555"/>
+<area shape="rect" href="../../d7/d25/a00182.php" title=" " alt="" coords="1042,603,1154,629"/>
+<area shape="rect" href="../../dc/d57/a00194.php" title=" " alt="" coords="1018,677,1178,704"/>
+<area shape="rect" href="../../db/dd9/a00179.php" title=" " alt="" coords="1175,752,1250,779"/>
+<area shape="rect" href="../../d9/dd0/a00191.php" title=" " alt="" coords="981,752,1151,779"/>
+<area shape="rect" href="../../dc/dfe/a00125.php" title=" " alt="" coords="758,229,891,256"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/d42/a00235.png" border="0" usemap="#aThreadable_8hppdep" alt=""/></div>
-<map name="Threadable_8hppdep" id="Threadable_8hppdep">
-<area shape="rect" title=" " alt="" coords="295,5,405,32"/>
-<area shape="rect" href="../../d4/dee/a00008.php" title=" " alt="" coords="262,80,337,107"/>
-<area shape="rect" href="../../d2/dc8/a00242.php" title=" " alt="" coords="361,80,440,107"/>
-<area shape="rect" href="../../da/d2a/a00086.php" title=" " alt="" coords="305,155,395,181"/>
-<area shape="rect" href="../../db/db2/a00020.php" title=" " alt="" coords="153,229,313,256"/>
-<area shape="rect" href="../../d1/d09/a00077.php" title=" " alt="" coords="300,304,397,331"/>
-<area shape="rect" href="../../dc/dfe/a00125.php" title=" " alt="" coords="390,229,523,256"/>
-<area shape="rect" href="../../d4/d51/a00017.php" title=" " alt="" coords="190,304,275,331"/>
-<area shape="rect" href="../../d6/d2d/a00047.php" title=" " alt="" coords="305,379,392,405"/>
-<area shape="rect" href="../../df/d98/a00107.php" title=" " alt="" coords="207,453,285,480"/>
-<area shape="rect" href="../../d1/d88/a00128.php" title=" " alt="" coords="306,528,391,555"/>
-<area shape="rect" href="../../d1/da8/a00230.php" title=" " alt="" coords="389,603,461,629"/>
-<area shape="rect" href="../../d9/d2e/a00056.php" title=" " alt="" coords="157,528,282,555"/>
-<area shape="rect" href="../../d5/de0/a00050.php" title=" " alt="" coords="212,603,283,629"/>
-<area shape="rect" href="../../dd/d32/a00041.php" title=" " alt="" coords="312,677,385,704"/>
-<area shape="rect" href="../../d0/d89/a00071.php" title=" " alt="" coords="245,752,359,779"/>
-<area shape="rect" href="../../d3/d00/a00113.php" title=" " alt="" coords="343,1125,439,1152"/>
-<area shape="rect" href="../../d1/dc1/a00092.php" title=" " alt="" coords="151,827,229,853"/>
-<area shape="rect" href="../../d5/dcb/a00170.php" title=" " alt="" coords="267,827,353,853"/>
-<area shape="rect" href="../../d4/d81/a00110.php" title=" " alt="" coords="35,901,123,928"/>
-<area shape="rect" href="../../d9/d39/a00257.php" title=" " alt="" coords="145,976,235,1003"/>
-<area shape="rect" href="../../d7/d46/a00002.php" title=" " alt="" coords="5,976,92,1003"/>
-<area shape="rect" href="../../dd/dad/a00005.php" title=" " alt="" coords="7,1051,74,1077"/>
-<area shape="rect" href="../../db/dab/a00089.php" title=" " alt="" coords="225,1125,315,1152"/>
-<area shape="rect" href="../../d3/db1/a00200.php" title=" " alt="" coords="196,1200,347,1227"/>
-<area shape="rect" href="../../de/db1/a00197.php" title=" " alt="" coords="286,1275,369,1301"/>
-<area shape="rect" href="../../d5/df9/a00044.php" title=" " alt="" coords="269,1349,386,1376"/>
-<area shape="rect" href="../../d6/d7d/a00161.php" title=" " alt="" coords="99,1051,207,1077"/>
-<area shape="rect" href="../../dc/d57/a00194.php" title=" " alt="" coords="231,1051,309,1077"/>
-<area shape="rect" href="../../dc/d9a/a00218.php" title=" " alt="" coords="277,901,359,928"/>
-<area shape="rect" href="../../df/dc8/a00122.php" title=" " alt="" coords="422,304,497,331"/>
+<div class="center"><img src="../../d3/d42/a00235.png" border="0" usemap="#aTest_8hppdep" alt=""/></div>
+<map name="Test_8hppdep" id="Test_8hppdep">
+<area shape="rect" title=" " alt="" coords="311,5,383,32"/>
+<area shape="rect" href="../../dd/d32/a00041.php" title=" " alt="" coords="310,80,383,107"/>
+<area shape="rect" href="../../d0/d89/a00071.php" title=" " alt="" coords="243,155,357,181"/>
+<area shape="rect" href="../../d3/d00/a00113.php" title=" " alt="" coords="341,528,437,555"/>
+<area shape="rect" href="../../d1/dc1/a00092.php" title=" " alt="" coords="134,229,213,256"/>
+<area shape="rect" href="../../d7/d3f/a00173.php" title=" " alt="" coords="265,229,351,256"/>
+<area shape="rect" href="../../d4/d81/a00110.php" title=" " alt="" coords="32,304,120,331"/>
+<area shape="rect" href="../../dd/dd7/a00260.php" title=" " alt="" coords="128,379,219,405"/>
+<area shape="rect" href="../../d7/d46/a00002.php" title=" " alt="" coords="6,379,93,405"/>
+<area shape="rect" href="../../dd/dad/a00005.php" title=" " alt="" coords="5,453,72,480"/>
+<area shape="rect" href="../../db/dab/a00089.php" title=" " alt="" coords="223,528,313,555"/>
+<area shape="rect" href="../../de/d79/a00203.php" title=" " alt="" coords="194,603,345,629"/>
+<area shape="rect" href="../../d3/db1/a00200.php" title=" " alt="" coords="284,677,367,704"/>
+<area shape="rect" href="../../d5/df9/a00044.php" title=" " alt="" coords="267,752,384,779"/>
+<area shape="rect" href="../../db/ddf/a00164.php" title=" " alt="" coords="97,453,205,480"/>
+<area shape="rect" href="../../de/db1/a00197.php" title=" " alt="" coords="229,453,307,480"/>
+<area shape="rect" href="../../dd/d52/a00221.php" title=" " alt="" coords="271,304,353,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/a01417.php">mcd::Threadable&lt; C &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to let another one to be threadable with update() member in a thread.  <a href="../../de/daf/a01417.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d05/a01420.php">mcd::Tests::Test</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static class to test code.  <a href="../../d0/d05/a01420.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:da/d53/a00265"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php">mcd</a></td></tr>
+<tr class="memitem:db/d12/a00268"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php">mcd</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d9/dd6/a00272"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php">mcd::Tests</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a09979566ade438911265d3e17ecc3abc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#a09979566ade438911265d3e17ecc3abc">THREADABLE</a></td></tr>
-<tr class="separator:a09979566ade438911265d3e17ecc3abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a0fe346d6bb1356037b21f558e5c308"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#a3a0fe346d6bb1356037b21f558e5c308">THREADABLE_LOCK</a>&#160;&#160;&#160;std::lock_guard&lt; <a class="el" href="../../da/d53/a00265.php#a7139c2a1e77039f963009520820d8c87">mcd::mutex</a> &gt; guard(_mutex);</td></tr>
-<tr class="separator:a3a0fe346d6bb1356037b21f558e5c308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d742460878949f5eea9f395f32548f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#ae6d742460878949f5eea9f395f32548f">TEST_FORMAT_MAX</a>&#160;&#160;&#160;0b00000010</td></tr>
+<tr class="separator:ae6d742460878949f5eea9f395f32548f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0c0b90cd164795a353e36bf0b8464e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#ab0c0b90cd164795a353e36bf0b8464e7">TEST_FORMAT_ERROR</a>&#160;&#160;&#160;0b00000100</td></tr>
+<tr class="separator:ab0c0b90cd164795a353e36bf0b8464e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac709139e143e2e7ae4df9ccc578f97be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#ac709139e143e2e7ae4df9ccc578f97be">TEST_FORMAT_SUCCESS</a>&#160;&#160;&#160;0b00001000</td></tr>
+<tr class="separator:ac709139e143e2e7ae4df9ccc578f97be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a8a8df987750bdc9889c32863383d31"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#a9a8a8df987750bdc9889c32863383d31">TEST_FORMAT_ALL</a>&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.php#ae6d742460878949f5eea9f395f32548f">TEST_FORMAT_MAX</a> | <a class="el" href="../../d6/de1/a00233.php#ab0c0b90cd164795a353e36bf0b8464e7">TEST_FORMAT_ERROR</a> | <a class="el" href="../../d6/de1/a00233.php#ac709139e143e2e7ae4df9ccc578f97be">TEST_FORMAT_SUCCESS</a></td></tr>
+<tr class="separator:a9a8a8df987750bdc9889c32863383d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c07eac51a83f591603f2456250fe07e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>(EXPR,  STR)</td></tr>
+<tr class="separator:a0c07eac51a83f591603f2456250fe07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ed24c910b9c861fde0ee37cc53a26f2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#a8ed24c910b9c861fde0ee37cc53a26f2">unit_true</a>(EXPR)&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>(static_cast&lt; bool &gt;(EXPR), #EXPR)</td></tr>
+<tr class="separator:a8ed24c910b9c861fde0ee37cc53a26f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8882f6cc17a922e91f806a24b4a6f413"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#a8882f6cc17a922e91f806a24b4a6f413">unit_false</a>(EXPR)&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>((!static_cast&lt; bool &gt;(EXPR)), &quot;! #EXPR&quot;)</td></tr>
+<tr class="separator:a8882f6cc17a922e91f806a24b4a6f413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9544a2b3d82fbf7b0913fb29ae4ab1d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#ac9544a2b3d82fbf7b0913fb29ae4ab1d">unit_equals</a>(A,  B)&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.php#a8ed24c910b9c861fde0ee37cc53a26f2">unit_true</a>(A == B)</td></tr>
+<tr class="separator:ac9544a2b3d82fbf7b0913fb29ae4ab1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe6f23e4ac49c7bcf76fa26e710db6b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#abe6f23e4ac49c7bcf76fa26e710db6b4">unit_notEquals</a>(A,  B)&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.php#a8882f6cc17a922e91f806a24b4a6f413">unit_false</a>(A == B)</td></tr>
+<tr class="separator:abe6f23e4ac49c7bcf76fa26e710db6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31dc59c312f6beaf52e720c5a7dcc017"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#a31dc59c312f6beaf52e720c5a7dcc017">unit_in</a>(VALUE,  ARRAY)&#160;&#160;&#160;    <a class="el" href="../../d0/d05/a01420.php#a1361402d9c24abe3aa4e44cce65de4b5">mcd::Tests::Test::in</a>(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td></tr>
+<tr class="separator:a31dc59c312f6beaf52e720c5a7dcc017"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eaf417c1ad582f2eb3fdef1e32d5a40"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#a5eaf417c1ad582f2eb3fdef1e32d5a40">unit_notIn</a>(VALUE,  ARRAY)</td></tr>
+<tr class="separator:a5eaf417c1ad582f2eb3fdef1e32d5a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2035697778ce28474ce1c3ec73753b87"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#a2035697778ce28474ce1c3ec73753b87">TEST_ADD_THROW</a>(INSTR,  EXCEPT,  EXPR)</td></tr>
+<tr class="separator:a2035697778ce28474ce1c3ec73753b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4feaf992012b5ed9c7f3abc2219d1b7a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#a4feaf992012b5ed9c7f3abc2219d1b7a">unit_throws</a>(INSTR,  EXCEPT)</td></tr>
+<tr class="separator:a4feaf992012b5ed9c7f3abc2219d1b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab75ba1ba8623d1e9a555541577e8117e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#ab75ba1ba8623d1e9a555541577e8117e">unit_noThrows</a>(INSTR,  EXCEPT)</td></tr>
+<tr class="separator:ab75ba1ba8623d1e9a555541577e8117e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a349ad27ffc89c197309d6806895c961d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#a349ad27ffc89c197309d6806895c961d">unit_instance</a>(OBJ,  INSTANCE)</td></tr>
+<tr class="separator:a349ad27ffc89c197309d6806895c961d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad118bcf8324d2668994f961ee5019c5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#ad118bcf8324d2668994f961ee5019c5b">unit_notInstance</a>(OBJ,  INSTANCE)</td></tr>
+<tr class="separator:ad118bcf8324d2668994f961ee5019c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : October, 03 2019 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Created : Wednesday November, 27 2019 23:32:26 </dd>
+<dd>
+Last modification : October, 04 2020 </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a09979566ade438911265d3e17ecc3abc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09979566ade438911265d3e17ecc3abc">&#9670;&nbsp;</a></span>THREADABLE</h2>
+<a id="a0c07eac51a83f591603f2456250fe07e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c07eac51a83f591603f2456250fe07e">&#9670;&nbsp;</a></span>TEST_ADD_TEST</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define THREADABLE</td>
+          <td class="memname">#define TEST_ADD_TEST</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">EXPR, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">STR&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">public</span>:                                                                                        \                                                 \</div>
-<div class="line">    void launch() { Threadable::launch(<span class="keyword">this</span>); }                                                    \                                                                                             \</div>
-<div class="line">    void updater() {                                                                               \</div>
-<div class="line">        while (!this-&gt;hasToStop()) {                                                               \</div>
-<div class="line">            _mutex.lock();                                                                         \</div>
-<div class="line">            this-&gt;update();                                                                        \</div>
-<div class="line">            this-&gt;notInUse();                                                                      \</div>
-<div class="line">            _mutex.unlock();                                                                       \</div>
-<div class="line">                                                                                                   \</div>
-<div class="line">            this-&gt;sleeping_loop();                                                                 \</div>
-<div class="line">                                                                                                   \</div>
-<div class="line">            _mutex.lock();                                                                         \</div>
-<div class="line">            this-&gt;inUse();                                                                         \</div>
-<div class="line">            _mutex.unlock();                                                                       \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d0/d05/a01420.php#ad9e5ce30e83438c731c0b32558087e7e">mcd::Tests::Test::addTest</a>(                                                                     \</div>
+<div class="line">        {<span class="keyword">static_cast&lt;</span> <span class="keywordtype">bool</span> <span class="keyword">&gt;</span>(EXPR), STR, __FILE__, __PRETTY_FUNCTION__, __LINE__})</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2035697778ce28474ce1c3ec73753b87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2035697778ce28474ce1c3ec73753b87">&#9670;&nbsp;</a></span>TEST_ADD_THROW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TEST_ADD_THROW</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">INSTR, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">EXCEPT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">EXPR&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d0/d05/a01420.php#abd689a9285398f98dcf09722ca676070">mcd::Tests::Test::addThrow</a>(                                                                    \</div>
+<div class="line">        #INSTR,                                                                                    \</div>
+<div class="line">        #EXCEPT,                                                                                   \</div>
+<div class="line">        {<span class="keyword">static_cast&lt;</span> <span class="keywordtype">bool</span> <span class="keyword">&gt;</span>(EXPR), <span class="stringliteral">&quot;&quot;</span>, __FILE__, __PRETTY_FUNCTION__, __LINE__})</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9a8a8df987750bdc9889c32863383d31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a8a8df987750bdc9889c32863383d31">&#9670;&nbsp;</a></span>TEST_FORMAT_ALL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TEST_FORMAT_ALL&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.php#ae6d742460878949f5eea9f395f32548f">TEST_FORMAT_MAX</a> | <a class="el" href="../../d6/de1/a00233.php#ab0c0b90cd164795a353e36bf0b8464e7">TEST_FORMAT_ERROR</a> | <a class="el" href="../../d6/de1/a00233.php#ac709139e143e2e7ae4df9ccc578f97be">TEST_FORMAT_SUCCESS</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0c0b90cd164795a353e36bf0b8464e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0c0b90cd164795a353e36bf0b8464e7">&#9670;&nbsp;</a></span>TEST_FORMAT_ERROR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TEST_FORMAT_ERROR&#160;&#160;&#160;0b00000100</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6d742460878949f5eea9f395f32548f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6d742460878949f5eea9f395f32548f">&#9670;&nbsp;</a></span>TEST_FORMAT_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TEST_FORMAT_MAX&#160;&#160;&#160;0b00000010</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac709139e143e2e7ae4df9ccc578f97be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac709139e143e2e7ae4df9ccc578f97be">&#9670;&nbsp;</a></span>TEST_FORMAT_SUCCESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TEST_FORMAT_SUCCESS&#160;&#160;&#160;0b00001000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9544a2b3d82fbf7b0913fb29ae4ab1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9544a2b3d82fbf7b0913fb29ae4ab1d">&#9670;&nbsp;</a></span>unit_equals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_equals</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">A, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">B&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.php#a8ed24c910b9c861fde0ee37cc53a26f2">unit_true</a>(A == B)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8882f6cc17a922e91f806a24b4a6f413"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8882f6cc17a922e91f806a24b4a6f413">&#9670;&nbsp;</a></span>unit_false</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_false</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">EXPR</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>((!static_cast&lt; bool &gt;(EXPR)), &quot;! #EXPR&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31dc59c312f6beaf52e720c5a7dcc017"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31dc59c312f6beaf52e720c5a7dcc017">&#9670;&nbsp;</a></span>unit_in</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_in</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">VALUE, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARRAY&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;    <a class="el" href="../../d0/d05/a01420.php#a1361402d9c24abe3aa4e44cce65de4b5">mcd::Tests::Test::in</a>(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a349ad27ffc89c197309d6806895c961d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a349ad27ffc89c197309d6806895c961d">&#9670;&nbsp;</a></span>unit_instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_instance</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">OBJ, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">INSTANCE&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    mcd::Tests::Test::instance&lt; INSTANCE &gt;(                                                        \</div>
+<div class="line">        OBJ,                                                                                       \</div>
+<div class="line">        #OBJ,                                                                                      \</div>
+<div class="line">        {<span class="keyword">false</span>, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__})</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="abe6f23e4ac49c7bcf76fa26e710db6b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe6f23e4ac49c7bcf76fa26e710db6b4">&#9670;&nbsp;</a></span>unit_notEquals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_notEquals</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">A, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">B&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.php#a8882f6cc17a922e91f806a24b4a6f413">unit_false</a>(A == B)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab75ba1ba8623d1e9a555541577e8117e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab75ba1ba8623d1e9a555541577e8117e">&#9670;&nbsp;</a></span>unit_noThrows</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_noThrows</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">INSTR, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">EXCEPT&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
+<div class="line">        bool <span class="keywordflow">throws</span> = <span class="keyword">true</span>;                                                                        \</div>
+<div class="line">        try {                                                                                      \</div>
+<div class="line">            INSTR;                                                                                 \</div>
+<div class="line">        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> EXCEPT&amp;) { <span class="keywordflow">throws</span> = <span class="keyword">false</span>; } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp;) {                \</div>
 <div class="line">        }                                                                                          \</div>
-<div class="line">                                                                                                   \</div>
-<div class="line">        _mutex.lock();                                                                             \</div>
-<div class="line">        this-&gt;notInUse();                                                                          \</div>
-<div class="line">        _mutex.unlock();                                                                           \</div>
+<div class="line">        TEST_ADD_THROW(INSTR, EXCEPT, <span class="keywordflow">throws</span>);                                                     \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a3a0fe346d6bb1356037b21f558e5c308"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a0fe346d6bb1356037b21f558e5c308">&#9670;&nbsp;</a></span>THREADABLE_LOCK</h2>
+<a id="a5eaf417c1ad582f2eb3fdef1e32d5a40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eaf417c1ad582f2eb3fdef1e32d5a40">&#9670;&nbsp;</a></span>unit_notIn</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define THREADABLE_LOCK&#160;&#160;&#160;std::lock_guard&lt; <a class="el" href="../../da/d53/a00265.php#a7139c2a1e77039f963009520820d8c87">mcd::mutex</a> &gt; guard(_mutex);</td>
+          <td class="memname">#define unit_notIn</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">VALUE, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARRAY&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d0/d05/a01420.php#a1361402d9c24abe3aa4e44cce65de4b5">mcd::Tests::Test::in</a>(VALUE,                                                                    \</div>
+<div class="line">                         ARRAY,                                                                    \</div>
+<div class="line">                         {<span class="keyword">false</span>, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__},                 \</div>
+<div class="line">                         true)</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad118bcf8324d2668994f961ee5019c5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad118bcf8324d2668994f961ee5019c5b">&#9670;&nbsp;</a></span>unit_notInstance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_notInstance</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">OBJ, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">INSTANCE&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    mcd::Tests::Test::instance&lt; INSTANCE &gt;(                                                        \</div>
+<div class="line">        OBJ,                                                                                       \</div>
+<div class="line">        #OBJ,                                                                                      \</div>
+<div class="line">        {<span class="keyword">false</span>, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__},                               \</div>
+<div class="line">        false)</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4feaf992012b5ed9c7f3abc2219d1b7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4feaf992012b5ed9c7f3abc2219d1b7a">&#9670;&nbsp;</a></span>unit_throws</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_throws</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">INSTR, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">EXCEPT&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
+<div class="line">        bool <span class="keywordflow">throws</span> = <span class="keyword">false</span>;                                                                       \</div>
+<div class="line">        try {                                                                                      \</div>
+<div class="line">            INSTR;                                                                                 \</div>
+<div class="line">        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> EXCEPT&amp;) { <span class="keywordflow">throws</span> = <span class="keyword">true</span>; } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp;) {                 \</div>
+<div class="line">        }                                                                                          \</div>
+<div class="line">        TEST_ADD_THROW(INSTR, EXCEPT, <span class="keywordflow">throws</span>);                                                     \</div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8ed24c910b9c861fde0ee37cc53a26f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ed24c910b9c861fde0ee37cc53a26f2">&#9670;&nbsp;</a></span>unit_true</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define unit_true</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">EXPR</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.php#a0c07eac51a83f591603f2456250fe07e">TEST_ADD_TEST</a>(static_cast&lt; bool &gt;(EXPR), #EXPR)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -292,11 +700,14 @@ Macros</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aa01420_php_ad9e5ce30e83438c731c0b32558087e7e"><div class="ttname"><a href="../../d0/d05/a01420.php#ad9e5ce30e83438c731c0b32558087e7e">mcd::Tests::Test::addTest</a></div><div class="ttdeci">static void addTest(const Test_struct &amp;test)</div><div class="ttdoc">Add a test analyze to an array.</div></div>
+<div class="ttc" id="aa01420_php_a1361402d9c24abe3aa4e44cce65de4b5"><div class="ttname"><a href="../../d0/d05/a01420.php#a1361402d9c24abe3aa4e44cce65de4b5">mcd::Tests::Test::in</a></div><div class="ttdeci">static void in(const T &amp;value, const U &amp;array, const Test_struct &amp;test, bool start=false)</div><div class="ttdoc">Test if a value is or isn't in an array.</div><div class="ttdef"><b>Definition:</b> Test.hpp:117</div></div>
+<div class="ttc" id="aa01420_php_abd689a9285398f98dcf09722ca676070"><div class="ttname"><a href="../../d0/d05/a01420.php#abd689a9285398f98dcf09722ca676070">mcd::Tests::Test::addThrow</a></div><div class="ttdeci">static void addThrow(const std::string &amp;instr, const std::string &amp;except, const Test_struct &amp;test)</div><div class="ttdoc">Add a throw test with addTest.</div><div class="ttdef"><b>Definition:</b> Test.hpp:102</div></div>
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../dir_220287e732b97f08f66e5f221c69df74.php">inc</a></li><li class="navelem"><a class="el" href="../../dir_75b0389167f46f79a101ef8c4434cec4.php">C++</a></li><li class="navelem"><a class="el" href="../../d6/de1/a00233.php">Threadable.hpp</a></li>
+		<li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../dir_220287e732b97f08f66e5f221c69df74.php">inc</a></li><li class="navelem"><a class="el" href="../../dir_75b0389167f46f79a101ef8c4434cec4.php">C++</a></li><li class="navelem"><a class="el" href="../../d6/de1/a00233.php">Test.hpp</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

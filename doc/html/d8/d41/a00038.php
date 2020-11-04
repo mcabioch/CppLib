@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -98,28 +98,28 @@ $(document).ready(function(){initNavTree('d8/d41/a00038.php','../../'); initResi
 <div class="title">Binary.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../de/d79/a00203.php">pointers.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d5/df1/a00206.php">pointers.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Binary.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/de7/a00039.png" border="0" usemap="#aBinary_8hpp" alt=""/></div>
 <map name="Binary_8hpp" id="Binary_8hpp">
 <area shape="rect" title=" " alt="" coords="711,5,794,32"/>
-<area shape="rect" href="../../de/d79/a00203.php" title=" " alt="" coords="706,80,799,107"/>
-<area shape="rect" href="../../dd/dd7/a00248.php" title=" " alt="" coords="620,155,699,181"/>
+<area shape="rect" href="../../d5/df1/a00206.php" title=" " alt="" coords="706,80,799,107"/>
+<area shape="rect" href="../../d3/d1a/a00251.php" title=" " alt="" coords="620,155,699,181"/>
 <area shape="rect" title=" " alt="" coords="723,155,782,181"/>
 <area shape="rect" title=" " alt="" coords="806,155,865,181"/>
 <area shape="rect" href="../../d3/d52/a00023.php" title=" " alt="" coords="383,229,450,256"/>
-<area shape="rect" href="../../d5/df1/a00206.php" title=" " alt="" coords="488,229,599,256"/>
-<area shape="rect" href="../../d6/d22/a00245.php" title=" " alt="" coords="623,229,696,256"/>
-<area shape="rect" href="../../d3/d1a/a00251.php" title=" " alt="" coords="721,229,854,256"/>
+<area shape="rect" href="../../d3/de5/a00209.php" title=" " alt="" coords="488,229,599,256"/>
+<area shape="rect" href="../../dd/dd7/a00248.php" title=" " alt="" coords="623,229,696,256"/>
+<area shape="rect" href="../../d7/d03/a00254.php" title=" " alt="" coords="721,229,854,256"/>
 <area shape="rect" title=" " alt="" coords="879,229,947,256"/>
 <area shape="rect" href="../../d7/d06/a00131.php" title=" " alt="" coords="617,304,729,331"/>
 <area shape="rect" href="../../d6/d5b/a00026.php" title=" " alt="" coords="5,304,148,331"/>
 <area shape="rect" href="../../d5/d16/a00029.php" title=" " alt="" coords="172,304,312,331"/>
 <area shape="rect" href="../../dc/d87/a00032.php" title=" " alt="" coords="337,304,446,331"/>
 <area shape="rect" href="../../d4/d8c/a00035.php" title=" " alt="" coords="470,304,593,331"/>
-<area shape="rect" href="../../d7/d3f/a00173.php" title=" " alt="" coords="613,379,733,405"/>
+<area shape="rect" href="../../d5/de9/a00176.php" title=" " alt="" coords="613,379,733,405"/>
 <area shape="rect" title=" " alt="" coords="581,453,649,480"/>
 <area shape="rect" href="../../de/d76/a00134.php" title=" " alt="" coords="673,453,789,480"/>
 <area shape="rect" title=" " alt="" coords="245,528,319,555"/>
@@ -142,7 +142,8 @@ This graph shows which files directly or indirectly include this file:</div>
 <map name="Binary_8hppdep" id="Binary_8hppdep">
 <area shape="rect" title=" " alt="" coords="334,5,417,32"/>
 <area shape="rect" href="../../d7/dce/a00143.php" title=" " alt="" coords="334,80,417,107"/>
-<area shape="rect" href="../../d0/dc2/a00104.php" title=" " alt="" coords="328,155,423,181"/>
+<area shape="rect" href="../../d0/dc2/a00104.php" title=" " alt="" coords="257,155,352,181"/>
+<area shape="rect" href="../../d6/d7d/a00161.php" title=" " alt="" coords="377,155,518,181"/>
 <area shape="rect" href="../../d9/db6/a00146.php" title=" " alt="" coords="334,229,417,256"/>
 <area shape="rect" href="../../df/d03/a00062.php" title=" " alt="" coords="330,304,421,331"/>
 <area shape="rect" href="../../dc/dee/a00053.php" title=" " alt="" coords="334,379,417,405"/>
@@ -151,20 +152,20 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" href="../../de/de1/a00065.php" title=" " alt="" coords="277,603,369,629"/>
 <area shape="rect" href="../../d4/d3a/a00101.php" title=" " alt="" coords="393,603,464,629"/>
 <area shape="rect" href="../../d9/d77/a00095.php" title=" " alt="" coords="335,677,415,704"/>
-<area shape="rect" href="../../d9/d01/a00227.php" title=" " alt="" coords="330,752,421,779"/>
-<area shape="rect" href="../../dd/d52/a00221.php" title=" " alt="" coords="336,827,415,853"/>
-<area shape="rect" href="../../d5/ddf/a00224.php" title="Used to replace strptime function when compiling for Windows." alt="" coords="335,901,415,928"/>
-<area shape="rect" href="../../d0/d27/a00239.php" title=" " alt="" coords="311,976,440,1003"/>
+<area shape="rect" href="../../d1/da8/a00230.php" title=" " alt="" coords="330,752,421,779"/>
+<area shape="rect" href="../../d5/ddf/a00224.php" title=" " alt="" coords="336,827,415,853"/>
+<area shape="rect" href="../../d9/d01/a00227.php" title="Used to replace strptime function when compiling for Windows." alt="" coords="335,901,415,928"/>
+<area shape="rect" href="../../d2/dc8/a00242.php" title=" " alt="" coords="311,976,440,1003"/>
 <area shape="rect" href="../../d4/d3e/a00116.php" title=" " alt="" coords="328,1051,423,1077"/>
 <area shape="rect" href="../../d3/d8b/a00059.php" title=" " alt="" coords="5,1275,87,1301"/>
 <area shape="rect" href="../../da/d24/a00068.php" title=" " alt="" coords="120,1349,247,1376"/>
 <area shape="rect" href="../../da/dec/a00080.php" title=" " alt="" coords="162,1125,237,1152"/>
 <area shape="rect" href="../../df/d6a/a00119.php" title=" " alt="" coords="318,1200,417,1227"/>
-<area shape="rect" href="../../d5/de9/a00176.php" title=" " alt="" coords="413,1125,487,1152"/>
-<area shape="rect" href="../../da/d15/a00188.php" title=" " alt="" coords="511,1125,682,1152"/>
-<area shape="rect" href="../../d3/de5/a00209.php" title=" " alt="" coords="586,1275,701,1301"/>
-<area shape="rect" href="../../d6/de1/a00233.php" title=" " alt="" coords="715,1424,825,1451"/>
-<area shape="rect" href="../../d7/d40/a00236.php" title=" " alt="" coords="261,1125,337,1152"/>
+<area shape="rect" href="../../db/dd9/a00179.php" title=" " alt="" coords="413,1125,487,1152"/>
+<area shape="rect" href="../../d9/dd0/a00191.php" title=" " alt="" coords="511,1125,682,1152"/>
+<area shape="rect" href="../../dd/dc1/a00212.php" title=" " alt="" coords="586,1275,701,1301"/>
+<area shape="rect" href="../../d7/d40/a00236.php" title=" " alt="" coords="715,1424,825,1451"/>
+<area shape="rect" href="../../d0/d27/a00239.php" title=" " alt="" coords="261,1125,337,1152"/>
 <area shape="rect" href="../../da/d2a/a00086.php" title=" " alt="" coords="369,1573,459,1600"/>
 <area shape="rect" href="../../db/db2/a00020.php" title=" " alt="" coords="217,1648,377,1675"/>
 <area shape="rect" href="../../d1/d09/a00077.php" title=" " alt="" coords="364,1723,461,1749"/>
@@ -173,45 +174,45 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" href="../../d6/d2d/a00047.php" title=" " alt="" coords="369,1797,456,1824"/>
 <area shape="rect" href="../../df/d98/a00107.php" title=" " alt="" coords="271,1872,349,1899"/>
 <area shape="rect" href="../../d1/d88/a00128.php" title=" " alt="" coords="370,1947,455,1973"/>
-<area shape="rect" href="../../d1/da8/a00230.php" title=" " alt="" coords="453,2021,525,2048"/>
+<area shape="rect" href="../../d6/de1/a00233.php" title=" " alt="" coords="453,2021,525,2048"/>
 <area shape="rect" href="../../d9/d2e/a00056.php" title=" " alt="" coords="221,1947,346,1973"/>
 <area shape="rect" href="../../d5/de0/a00050.php" title=" " alt="" coords="276,2021,347,2048"/>
 <area shape="rect" href="../../dd/d32/a00041.php" title=" " alt="" coords="376,2096,449,2123"/>
 <area shape="rect" href="../../d0/d89/a00071.php" title=" " alt="" coords="309,2171,423,2197"/>
 <area shape="rect" href="../../d3/d00/a00113.php" title=" " alt="" coords="407,2544,503,2571"/>
 <area shape="rect" href="../../d1/dc1/a00092.php" title=" " alt="" coords="215,2245,293,2272"/>
-<area shape="rect" href="../../d5/dcb/a00170.php" title=" " alt="" coords="331,2245,417,2272"/>
+<area shape="rect" href="../../d7/d3f/a00173.php" title=" " alt="" coords="331,2245,417,2272"/>
 <area shape="rect" href="../../d4/d81/a00110.php" title=" " alt="" coords="99,2320,187,2347"/>
-<area shape="rect" href="../../d9/d39/a00257.php" title=" " alt="" coords="209,2395,299,2421"/>
+<area shape="rect" href="../../dd/dd7/a00260.php" title=" " alt="" coords="209,2395,299,2421"/>
 <area shape="rect" href="../../d7/d46/a00002.php" title=" " alt="" coords="69,2395,156,2421"/>
 <area shape="rect" href="../../dd/dad/a00005.php" title=" " alt="" coords="71,2469,138,2496"/>
 <area shape="rect" href="../../db/dab/a00089.php" title=" " alt="" coords="289,2544,379,2571"/>
-<area shape="rect" href="../../d3/db1/a00200.php" title=" " alt="" coords="260,2619,411,2645"/>
-<area shape="rect" href="../../de/db1/a00197.php" title=" " alt="" coords="350,2693,433,2720"/>
+<area shape="rect" href="../../de/d79/a00203.php" title=" " alt="" coords="260,2619,411,2645"/>
+<area shape="rect" href="../../d3/db1/a00200.php" title=" " alt="" coords="350,2693,433,2720"/>
 <area shape="rect" href="../../d5/df9/a00044.php" title=" " alt="" coords="333,2768,450,2795"/>
-<area shape="rect" href="../../d6/d7d/a00161.php" title=" " alt="" coords="163,2469,271,2496"/>
-<area shape="rect" href="../../dc/d57/a00194.php" title=" " alt="" coords="295,2469,373,2496"/>
-<area shape="rect" href="../../dc/d9a/a00218.php" title=" " alt="" coords="341,2320,423,2347"/>
+<area shape="rect" href="../../db/ddf/a00164.php" title=" " alt="" coords="163,2469,271,2496"/>
+<area shape="rect" href="../../de/db1/a00197.php" title=" " alt="" coords="295,2469,373,2496"/>
+<area shape="rect" href="../../dd/d52/a00221.php" title=" " alt="" coords="341,2320,423,2347"/>
 <area shape="rect" href="../../df/dc8/a00122.php" title=" " alt="" coords="486,1723,561,1749"/>
 <area shape="rect" href="../../d2/d1f/a00083.php" title=" " alt="" coords="190,1200,294,1227"/>
-<area shape="rect" href="../../d9/dd0/a00191.php" title=" " alt="" coords="441,1200,601,1227"/>
-<area shape="rect" href="../../db/dd9/a00179.php" title=" " alt="" coords="442,1275,554,1301"/>
-<area shape="rect" href="../../de/df3/a00185.php" title=" " alt="" coords="403,1349,561,1376"/>
-<area shape="rect" href="../../d7/d25/a00182.php" title=" " alt="" coords="389,1424,564,1451"/>
+<area shape="rect" href="../../dc/d57/a00194.php" title=" " alt="" coords="441,1200,601,1227"/>
+<area shape="rect" href="../../d7/d25/a00182.php" title=" " alt="" coords="442,1275,554,1301"/>
+<area shape="rect" href="../../da/d15/a00188.php" title=" " alt="" coords="403,1349,561,1376"/>
+<area shape="rect" href="../../de/df3/a00185.php" title=" " alt="" coords="389,1424,564,1451"/>
 <area shape="rect" href="../../d5/db1/a00140.php" title=" " alt="" coords="415,1499,487,1525"/>
 <area shape="rect" href="../../d4/dee/a00008.php" title=" " alt="" coords="639,1499,714,1525"/>
-<area shape="rect" href="../../d2/dc8/a00242.php" title=" " alt="" coords="739,1499,817,1525"/>
+<area shape="rect" href="../../d6/d22/a00245.php" title=" " alt="" coords="739,1499,817,1525"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dae/a01136.php">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:da/d53/a00265"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php">mcd</a></td></tr>
+<tr class="memitem:db/d12/a00268"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

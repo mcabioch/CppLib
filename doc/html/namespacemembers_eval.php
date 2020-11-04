@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,46 +93,46 @@ $(document).ready(function(){initNavTree('namespacemembers_eval.php',''); initRe
 <div class="contents">
 &#160;<ul>
 <li>ALL
-: <a class="el" href="da/d53/a00265.php#a372ef82d72716aed789680d0a84c06d3abe31a72161ed89098d2ab77b3d258ff5">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a372ef82d72716aed789680d0a84c06d3abe31a72161ed89098d2ab77b3d258ff5">mcd</a>
 </li>
 <li>ALPHA
-: <a class="el" href="da/d53/a00265.php#a372ef82d72716aed789680d0a84c06d3a198de4e683a1a1dbd64f56f1796e360c">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a372ef82d72716aed789680d0a84c06d3a198de4e683a1a1dbd64f56f1796e360c">mcd</a>
 </li>
 <li>ASC
-: <a class="el" href="da/d53/a00265.php#a476a24d6aeedfa55efcaee6379946a75a8f22891e42808a1ec2280811f4954151">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a476a24d6aeedfa55efcaee6379946a75a8f22891e42808a1ec2280811f4954151">mcd</a>
 </li>
 <li>DESC
-: <a class="el" href="da/d53/a00265.php#a476a24d6aeedfa55efcaee6379946a75acec043bd98e586f6d34ee5a4aefda509">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a476a24d6aeedfa55efcaee6379946a75acec043bd98e586f6d34ee5a4aefda509">mcd</a>
 </li>
 <li>DOWN
-: <a class="el" href="da/d53/a00265.php#ae3ee27656d8eb6e8a09407841cd00898ac4e0e4e3118472beeb2ae75827450f1f">mcd</a>
+: <a class="el" href="db/d12/a00268.php#ae3ee27656d8eb6e8a09407841cd00898ac4e0e4e3118472beeb2ae75827450f1f">mcd</a>
 </li>
 <li>LEFT
-: <a class="el" href="da/d53/a00265.php#ae3ee27656d8eb6e8a09407841cd00898a52aa7e4298499294d2e07e10c6af50a7">mcd</a>
+: <a class="el" href="db/d12/a00268.php#ae3ee27656d8eb6e8a09407841cd00898a52aa7e4298499294d2e07e10c6af50a7">mcd</a>
 </li>
 <li>LOWER
-: <a class="el" href="da/d53/a00265.php#a372ef82d72716aed789680d0a84c06d3a9faad38e6204b43f9a15f1adecb9609a">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a372ef82d72716aed789680d0a84c06d3a9faad38e6204b43f9a15f1adecb9609a">mcd</a>
 </li>
 <li>NONE
-: <a class="el" href="da/d53/a00265.php#ae3ee27656d8eb6e8a09407841cd00898a2d73725011f55395bc0e113263b5b874">mcd</a>
+: <a class="el" href="db/d12/a00268.php#ae3ee27656d8eb6e8a09407841cd00898a2d73725011f55395bc0e113263b5b874">mcd</a>
 </li>
 <li>NUM
-: <a class="el" href="da/d53/a00265.php#a372ef82d72716aed789680d0a84c06d3a4c8dd61045696a4703edd23b8a21e4d7">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a372ef82d72716aed789680d0a84c06d3a4c8dd61045696a4703edd23b8a21e4d7">mcd</a>
 </li>
 <li>READ
-: <a class="el" href="da/d53/a00265.php#a372ef82d72716aed789680d0a84c06d3accd227a8556bcfc0c096afc4f3ecce59">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a372ef82d72716aed789680d0a84c06d3accd227a8556bcfc0c096afc4f3ecce59">mcd</a>
 </li>
 <li>RIGHT
-: <a class="el" href="da/d53/a00265.php#ae3ee27656d8eb6e8a09407841cd00898a13d6f38e0f10d479e85a13dcf6a8957f">mcd</a>
+: <a class="el" href="db/d12/a00268.php#ae3ee27656d8eb6e8a09407841cd00898a13d6f38e0f10d479e85a13dcf6a8957f">mcd</a>
 </li>
 <li>SPEC
-: <a class="el" href="da/d53/a00265.php#a372ef82d72716aed789680d0a84c06d3a0d613d61e790e44c8751022bbc7f2555">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a372ef82d72716aed789680d0a84c06d3a0d613d61e790e44c8751022bbc7f2555">mcd</a>
 </li>
 <li>UP
-: <a class="el" href="da/d53/a00265.php#ae3ee27656d8eb6e8a09407841cd00898afbaedde498cdead4f2780217646e9ba1">mcd</a>
+: <a class="el" href="db/d12/a00268.php#ae3ee27656d8eb6e8a09407841cd00898afbaedde498cdead4f2780217646e9ba1">mcd</a>
 </li>
 <li>UPPER
-: <a class="el" href="da/d53/a00265.php#a372ef82d72716aed789680d0a84c06d3abe645a90a98231a6ec57513cbcd0d7e2">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a372ef82d72716aed789680d0a84c06d3abe645a90a98231a6ec57513cbcd0d7e2">mcd</a>
 </li>
 </ul>
 </div><!-- contents -->

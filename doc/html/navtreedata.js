@@ -41,7 +41,7 @@ var NAVTREE =
         [ "Functions", "index.php#imp_sec_fun_subsec", null ]
       ] ],
       [ "Updates", "index.php#upd_sec", [
-        [ "October, 27 2020 (1.6.0.0)", "index.php#upd_sec_20201027_subsec", null ],
+        [ "October, 27 2020 (1.6.1.0)", "index.php#upd_sec_20201027_subsec", null ],
         [ "November, 27 2019 (1.5.0.0)", "index.php#upd_sec_2019127_subsec", null ],
         [ "November, 14 2019 (1.4.1.1)", "index.php#upd_sec_2019114_subsec", null ],
         [ "November, 09 2019 (1.4.0.0)", "index.php#upd_sec_20191109_subsec", null ],
@@ -52,7 +52,7 @@ var NAVTREE =
       ] ],
       [ "Downloads", "index.php#dow_sec", null ]
     ] ],
-    [ "Todo List", "df/da9/a00263.php", null ],
+    [ "Todo List", "d5/d35/a00266.php", null ],
     [ "Namespaces", "namespaces.php", [
       [ "Namespace List", "namespaces.php", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.php", [
@@ -91,11 +91,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.php",
-"d3/dea/a01377.php#aa13b2031cba87d6dc205951aa5df9f42",
-"d7/d40/a00236.php",
-"da/dec/a00080.php#a4390d2726279039c439ba3b866fa2e50",
-"dd/d52/a00221.php#a372ef82d72716aed789680d0a84c06d3abe31a72161ed89098d2ab77b3d258ff5",
-"df/d68/a01385.php#ac6441d9b85821e4e20639fe5082795a5"
+"d4/d0e/a01272.php",
+"d7/d41/a01312.php#a3c35d4f54c782ef8b7898a1641eb4666a2951db03ec2449efc8d28b4cbdea94d3",
+"d9/d77/a00095.php#a54252dbab5b5524cae2163d7c4bbf456",
+"dd/d0c/a01368.php#aca54568ec2e832b3f08ef6f86c7184f2",
+"df/dc8/a00122.php"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,4 +1,8 @@
-<map id="mcd::Threadable&lt; C &gt;" name="mcd::Threadable&lt; C &gt;">
-<area shape="rect" id="node1" title="A class to let another one to be threadable with update() member in a thread." alt="" coords="5,95,159,121"/>
-<area shape="rect" id="node2" title="STL class." alt="" coords="40,5,124,32"/>
+<map id="mcd::Player&lt; PlayerParent &gt;" name="mcd::Player&lt; PlayerParent &gt;">
+<area shape="rect" id="node1" title="A player that can be a child from any class." alt="" coords="67,291,257,317"/>
+<area shape="rect" id="node2" href="$d1/dcc/a01392.php" title="A player that can be a child from any class." alt="" coords="5,200,164,241"/>
+<area shape="rect" id="node3" title=" " alt="" coords="36,96,133,123"/>
+<area shape="rect" id="node4" title="STL class." alt="" coords="179,96,259,123"/>
+<area shape="rect" id="node6" href="$d6/dae/a01304.php" title="A class to store some identify datas." alt="" coords="188,207,293,234"/>
+<area shape="rect" id="node5" title="STL class." alt="" coords="156,5,283,47"/>
 </map>

@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -136,8 +136,8 @@ Public Attributes</h2></td></tr>
 Friends</h2></td></tr>
 <tr class="memitem:a177528c8a1eee37fcda25a89084b8ed6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d6f/a01445.php#a177528c8a1eee37fcda25a89084b8ed6">operator==</a> (const <a class="el" href="../../d9/d6f/a01445.php">Point</a> &amp;a, const <a class="el" href="../../d9/d6f/a01445.php">Point</a> &amp;b)</td></tr>
 <tr class="separator:a177528c8a1eee37fcda25a89084b8ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bea9cfb4049115f767ed658959d6648"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d6f/a01445.php#a6bea9cfb4049115f767ed658959d6648">operator!=</a> (const <a class="el" href="../../d9/d6f/a01445.php">Point</a> &amp;a, const <a class="el" href="../../d9/d6f/a01445.php">Point</a> &amp;b)</td></tr>
-<tr class="separator:a6bea9cfb4049115f767ed658959d6648"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56d3ecc223a30b7947a8a5e3776083e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d6f/a01445.php#a56d3ecc223a30b7947a8a5e3776083e3">operator!=</a> (const <a class="el" href="../../d9/d6f/a01445.php">Point</a> &amp;a, const <a class="el" href="../../d9/d6f/a01445.php">Point</a> &amp;b) noexcept</td></tr>
+<tr class="separator:a56d3ecc223a30b7947a8a5e3776083e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55681886ec7c5d7c0210fa0611bc84ea"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d6f/a01445.php#a55681886ec7c5d7c0210fa0611bc84ea">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../d9/d6f/a01445.php">Point</a> &amp;a)</td></tr>
 <tr class="separator:a55681886ec7c5d7c0210fa0611bc84ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -301,8 +301,8 @@ template&lt;class T , class U , class V &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a6bea9cfb4049115f767ed658959d6648"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bea9cfb4049115f767ed658959d6648">&#9670;&nbsp;</a></span>operator!=</h2>
+<a id="a56d3ecc223a30b7947a8a5e3776083e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56d3ecc223a30b7947a8a5e3776083e3">&#9670;&nbsp;</a></span>operator!=</h2>
 
 <div class="memitem">
 <div class="memproto">

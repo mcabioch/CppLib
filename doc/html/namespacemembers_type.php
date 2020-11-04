@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,49 +93,49 @@ $(document).ready(function(){initNavTree('namespacemembers_type.php',''); initRe
 <div class="contents">
 &#160;<ul>
 <li>Chromosomes
-: <a class="el" href="d5/d35/a00266.php#a188924fe6c7007fd322ebe9ece4bb4b6">mcd::natural</a>
+: <a class="el" href="d5/d42/a00269.php#a188924fe6c7007fd322ebe9ece4bb4b6">mcd::natural</a>
 </li>
 <li>double32_t
-: <a class="el" href="da/d53/a00265.php#a6982966fec37b802e584caec858e2e29">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a6982966fec37b802e584caec858e2e29">mcd</a>
 </li>
 <li>double64_t
-: <a class="el" href="da/d53/a00265.php#adda27badcbfcfc854854c6ab094cf34e">mcd</a>
+: <a class="el" href="db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">mcd</a>
 </li>
 <li>Genes
-: <a class="el" href="d5/d35/a00266.php#aed19377fb7721df1a451d93af0c19950">mcd::natural</a>
+: <a class="el" href="d5/d42/a00269.php#aed19377fb7721df1a451d93af0c19950">mcd::natural</a>
 </li>
 <li>map_str
-: <a class="el" href="da/d53/a00265.php#ab3aa994c4b6d9eccce0cf840e6c0a731">mcd</a>
+: <a class="el" href="db/d12/a00268.php#ab3aa994c4b6d9eccce0cf840e6c0a731">mcd</a>
 </li>
 <li>MapArray
-: <a class="el" href="da/d53/a00265.php#aeb393906487fbd42d8ae5f6831423fbb">mcd</a>
+: <a class="el" href="db/d12/a00268.php#aeb393906487fbd42d8ae5f6831423fbb">mcd</a>
 </li>
 <li>MapLine
-: <a class="el" href="da/d53/a00265.php#abc72a1c83ec918a79447dfa996951da3">mcd</a>
+: <a class="el" href="db/d12/a00268.php#abc72a1c83ec918a79447dfa996951da3">mcd</a>
 </li>
 <li>mutex
-: <a class="el" href="da/d53/a00265.php#a7139c2a1e77039f963009520820d8c87">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a7139c2a1e77039f963009520820d8c87">mcd</a>
 </li>
 <li>NodeWeight
-: <a class="el" href="da/d53/a00265.php#a0d3d39a7992ee9e893a83ab18066f79d">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a0d3d39a7992ee9e893a83ab18066f79d">mcd</a>
 </li>
 <li>pair_str
-: <a class="el" href="da/d53/a00265.php#aba609827ae566c40802bf828ab5a5a3c">mcd</a>
+: <a class="el" href="db/d12/a00268.php#aba609827ae566c40802bf828ab5a5a3c">mcd</a>
 </li>
 <li>quatuor_str
-: <a class="el" href="da/d53/a00265.php#a3efdc3dde9fecbe97dcf74de1df3165d">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a3efdc3dde9fecbe97dcf74de1df3165d">mcd</a>
 </li>
 <li>thread
-: <a class="el" href="da/d53/a00265.php#a21976f3e9e8d360ccff90c8ead193a5e">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a21976f3e9e8d360ccff90c8ead193a5e">mcd</a>
 </li>
 <li>trio_str
-: <a class="el" href="da/d53/a00265.php#a75c328d040057a44e61caef894c02afe">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a75c328d040057a44e61caef894c02afe">mcd</a>
 </li>
 <li>vector_str
-: <a class="el" href="da/d53/a00265.php#a71d7894d7ddf1920b361bca7a2bb1ae5">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a71d7894d7ddf1920b361bca7a2bb1ae5">mcd</a>
 </li>
 <li>VI
-: <a class="el" href="da/d53/a00265.php#aac34b1d11dd4820f0cfdee1e16a1c275">mcd</a>
+: <a class="el" href="db/d12/a00268.php#aac34b1d11dd4820f0cfdee1e16a1c275">mcd</a>
 </li>
 </ul>
 </div><!-- contents -->

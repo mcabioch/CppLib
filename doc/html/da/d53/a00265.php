@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.0.0</span>
+									&#160;<span id="projectnumber">1.6.1.1</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Wed Oct 28 2020 16:13:45 for C++ by";
+				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -522,15 +522,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a72149c6d15e16114c649ecb03aec7f81"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a72149c6d15e16114c649ecb03aec7f81">operator&lt;</a> (const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;a, const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;b) noexcept</td></tr>
 <tr class="memdesc:a72149c6d15e16114c649ecb03aec7f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <a class="el" href="../../d6/dc4/a01125.php" title="A new huge arithmetic variable.">Big</a>.  <a href="../../da/d53/a00265.php#a72149c6d15e16114c649ecb03aec7f81">More...</a><br /></td></tr>
 <tr class="separator:a72149c6d15e16114c649ecb03aec7f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8106aa588d48c9fbed5e30e22fd55f76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a8106aa588d48c9fbed5e30e22fd55f76">operator!=</a> (const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;a, const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;b) noexcept</td></tr>
-<tr class="memdesc:a8106aa588d48c9fbed5e30e22fd55f76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <a class="el" href="../../d6/dc4/a01125.php" title="A new huge arithmetic variable.">Big</a>.  <a href="../../da/d53/a00265.php#a8106aa588d48c9fbed5e30e22fd55f76">More...</a><br /></td></tr>
-<tr class="separator:a8106aa588d48c9fbed5e30e22fd55f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61257b7f63f915629b98d2b57933d65e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a61257b7f63f915629b98d2b57933d65e">operator&lt;=</a> (const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;a, const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;b) noexcept</td></tr>
-<tr class="memdesc:a61257b7f63f915629b98d2b57933d65e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <a class="el" href="../../d6/dc4/a01125.php" title="A new huge arithmetic variable.">Big</a>.  <a href="../../da/d53/a00265.php#a61257b7f63f915629b98d2b57933d65e">More...</a><br /></td></tr>
-<tr class="separator:a61257b7f63f915629b98d2b57933d65e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83c8849718e8a8532282e6f1c80ceca0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a83c8849718e8a8532282e6f1c80ceca0">operator&gt;=</a> (const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;a, const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;b) noexcept</td></tr>
-<tr class="memdesc:a83c8849718e8a8532282e6f1c80ceca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <a class="el" href="../../d6/dc4/a01125.php" title="A new huge arithmetic variable.">Big</a>.  <a href="../../da/d53/a00265.php#a83c8849718e8a8532282e6f1c80ceca0">More...</a><br /></td></tr>
-<tr class="separator:a83c8849718e8a8532282e6f1c80ceca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31eb09e89b0015d54768c4510e59c780"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/dc4/a01125.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a31eb09e89b0015d54768c4510e59c780">sq</a> (const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;a)</td></tr>
 <tr class="memdesc:a31eb09e89b0015d54768c4510e59c780"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the square of <em>a</em>.  <a href="../../da/d53/a00265.php#a31eb09e89b0015d54768c4510e59c780">More...</a><br /></td></tr>
 <tr class="separator:a31eb09e89b0015d54768c4510e59c780"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -622,22 +613,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a71458bb6c1d0939bd975cdf25e864599"><td class="memTemplItemLeft" align="right" valign="top">std::chrono::milliseconds&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a71458bb6c1d0939bd975cdf25e864599">tomilli</a> (const V &amp;in)</td></tr>
 <tr class="memdesc:a71458bb6c1d0939bd975cdf25e864599"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in std::chrono::milliseconds.  <a href="../../da/d53/a00265.php#a71458bb6c1d0939bd975cdf25e864599">More...</a><br /></td></tr>
 <tr class="separator:a71458bb6c1d0939bd975cdf25e864599"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74705a4e1fb16838be02655f4ea61e11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a74705a4e1fb16838be02655f4ea61e11">operator&lt;</a> (const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;a, const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;b)</td></tr>
-<tr class="separator:a74705a4e1fb16838be02655f4ea61e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91f197d1381e789ce2295059d4d02c13"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a91f197d1381e789ce2295059d4d02c13">operator==</a> (const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;a, const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;b)</td></tr>
-<tr class="separator:a91f197d1381e789ce2295059d4d02c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8ebb26f5618a66bc7e9bf3317a0477f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#ad8ebb26f5618a66bc7e9bf3317a0477f">operator!=</a> (const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;a, const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;b)</td></tr>
-<tr class="separator:ad8ebb26f5618a66bc7e9bf3317a0477f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4390d2726279039c439ba3b866fa2e50"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a4390d2726279039c439ba3b866fa2e50">operator&gt;</a> (const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;a, const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;b)</td></tr>
-<tr class="separator:a4390d2726279039c439ba3b866fa2e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57c7184396da7d8b9972ac64f37fc019"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a57c7184396da7d8b9972ac64f37fc019">operator&lt;=</a> (const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;a, const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;b)</td></tr>
-<tr class="separator:a57c7184396da7d8b9972ac64f37fc019"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacc2b27f076a57eb6664e7d920a52c7e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#aacc2b27f076a57eb6664e7d920a52c7e">operator&gt;=</a> (const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;a, const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;b)</td></tr>
-<tr class="separator:aacc2b27f076a57eb6664e7d920a52c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e76ac5c4df82149886b58edcfc7090a"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a0e76ac5c4df82149886b58edcfc7090a">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;date)</td></tr>
-<tr class="separator:a0e76ac5c4df82149886b58edcfc7090a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94817d75f824097e42c5a7fdf72907f9"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a94817d75f824097e42c5a7fdf72907f9">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="../../de/d85/a01273.php">DateTime</a> datetime)</td></tr>
-<tr class="separator:a94817d75f824097e42c5a7fdf72907f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a14f66f0c6eba0c77338364977658e1"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
 <tr class="memitem:a1a14f66f0c6eba0c77338364977658e1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a1a14f66f0c6eba0c77338364977658e1">error_log</a> (size_t line, T in, Args... args)</td></tr>
 <tr class="memdesc:a1a14f66f0c6eba0c77338364977658e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like an error.  <a href="../../da/d53/a00265.php#a1a14f66f0c6eba0c77338364977658e1">More...</a><br /></td></tr>
@@ -812,20 +787,6 @@ Functions</h2></td></tr>
 <tr class="memitem:abcc09c3d97d72792032b5615d41aa1c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#abcc09c3d97d72792032b5615d41aa1c5">servLog</a> (const std::string &amp;str, bool server=false, const std::string &amp;name=&quot;Server&quot;)</td></tr>
 <tr class="memdesc:abcc09c3d97d72792032b5615d41aa1c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a string in cout like in a server.  <a href="../../da/d53/a00265.php#abcc09c3d97d72792032b5615d41aa1c5">More...</a><br /></td></tr>
 <tr class="separator:abcc09c3d97d72792032b5615d41aa1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3a0bfd8107f1a0512e3daccbe8ec32a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#ab3a0bfd8107f1a0512e3daccbe8ec32a">operator&lt;</a> (const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;a, const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;b)</td></tr>
-<tr class="separator:ab3a0bfd8107f1a0512e3daccbe8ec32a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b7c3b86bf4f3323ec303cf6caf4657d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a1b7c3b86bf4f3323ec303cf6caf4657d">operator==</a> (const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;a, const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;b)</td></tr>
-<tr class="separator:a1b7c3b86bf4f3323ec303cf6caf4657d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e4a4fa2bc9dc1a79ba1c4e1326c4e86"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a6e4a4fa2bc9dc1a79ba1c4e1326c4e86">operator!=</a> (const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;a, const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;b)</td></tr>
-<tr class="separator:a6e4a4fa2bc9dc1a79ba1c4e1326c4e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eb9966b5003b5c69b1c19cf2c91da5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a0eb9966b5003b5c69b1c19cf2c91da5b">operator&gt;</a> (const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;a, const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;b)</td></tr>
-<tr class="separator:a0eb9966b5003b5c69b1c19cf2c91da5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35feb7b77517c8a067a4f631d0c01903"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a35feb7b77517c8a067a4f631d0c01903">operator&lt;=</a> (const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;a, const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;b)</td></tr>
-<tr class="separator:a35feb7b77517c8a067a4f631d0c01903"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2490b5d2fcccd5d4fcd7539a3e9ec8f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#ab2490b5d2fcccd5d4fcd7539a3e9ec8f">operator&gt;=</a> (const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;a, const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;b)</td></tr>
-<tr class="separator:ab2490b5d2fcccd5d4fcd7539a3e9ec8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac056cce1809ed32482358d31064dac84"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#ac056cce1809ed32482358d31064dac84">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;time)</td></tr>
-<tr class="separator:ac056cce1809ed32482358d31064dac84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49144605ea2f1f8a9463ae309c293628"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d53/a00265.php#a49144605ea2f1f8a9463ae309c293628">getSec</a> ()</td></tr>
 <tr class="memdesc:a49144605ea2f1f8a9463ae309c293628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of seconds since the Epoch.  <a href="../../da/d53/a00265.php#a49144605ea2f1f8a9463ae309c293628">More...</a><br /></td></tr>
 <tr class="separator:a49144605ea2f1f8a9463ae309c293628"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3549,75 +3510,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a8106aa588d48c9fbed5e30e22fd55f76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8106aa588d48c9fbed5e30e22fd55f76">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[1/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Compare two <a class="el" href="../../d6/dc4/a01125.php" title="A new huge arithmetic variable.">Big</a>. </p>
-<p><a class="el" href="../../d6/dc4/a01125.php" title="A new huge arithmetic variable.">Big</a> != <a class="el" href="../../d6/dc4/a01125.php" title="A new huge arithmetic variable.">Big</a>. </p>
-
-</div>
-</div>
-<a id="ad8ebb26f5618a66bc7e9bf3317a0477f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8ebb26f5618a66bc7e9bf3317a0477f">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[2/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a263f600382a931b0f059dc90a834e8b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a263f600382a931b0f059dc90a834e8b0">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a263f600382a931b0f059dc90a834e8b0">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3646,36 +3540,8 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
 
 </div>
 </div>
-<a id="a6e4a4fa2bc9dc1a79ba1c4e1326c4e86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e4a4fa2bc9dc1a79ba1c4e1326c4e86">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad3c520cfb33cd0c457951ab10b3e6c28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3c520cfb33cd0c457951ab10b3e6c28">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3c520cfb33cd0c457951ab10b3e6c28">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3893,7 +3759,7 @@ template&lt;typename T , typename U , typename V &gt; </div>
 </div>
 </div>
 <a id="a72149c6d15e16114c649ecb03aec7f81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72149c6d15e16114c649ecb03aec7f81">&#9670;&nbsp;</a></span>operator&lt;() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a72149c6d15e16114c649ecb03aec7f81">&#9670;&nbsp;</a></span>operator&lt;() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3931,36 +3797,8 @@ template&lt;typename T , typename U , typename V &gt; </div>
 
 </div>
 </div>
-<a id="a74705a4e1fb16838be02655f4ea61e11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74705a4e1fb16838be02655f4ea61e11">&#9670;&nbsp;</a></span>operator&lt;() <span class="overload">[2/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator&lt; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aad6aa36cdd6eeeda915b26366786f62e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad6aa36cdd6eeeda915b26366786f62e">&#9670;&nbsp;</a></span>operator&lt;() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aad6aa36cdd6eeeda915b26366786f62e">&#9670;&nbsp;</a></span>operator&lt;() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3989,36 +3827,8 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
 
 </div>
 </div>
-<a id="ab3a0bfd8107f1a0512e3daccbe8ec32a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3a0bfd8107f1a0512e3daccbe8ec32a">&#9670;&nbsp;</a></span>operator&lt;() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator&lt; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a426eb225a242b41a1bd4a38a721bfa39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a426eb225a242b41a1bd4a38a721bfa39">&#9670;&nbsp;</a></span>operator&lt;() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a426eb225a242b41a1bd4a38a721bfa39">&#9670;&nbsp;</a></span>operator&lt;() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4047,159 +3857,8 @@ template&lt;typename T , typename U , typename V &gt; </div>
 
 </div>
 </div>
-<a id="a0e76ac5c4df82149886b58edcfc7090a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e76ac5c4df82149886b58edcfc7090a">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; mcd::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;&#160;</td>
-          <td class="paramname"><em>date</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac056cce1809ed32482358d31064dac84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac056cce1809ed32482358d31064dac84">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; mcd::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;&#160;</td>
-          <td class="paramname"><em>time</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a94817d75f824097e42c5a7fdf72907f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94817d75f824097e42c5a7fdf72907f9">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; mcd::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/d85/a01273.php">DateTime</a>&#160;</td>
-          <td class="paramname"><em>datetime</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a61257b7f63f915629b98d2b57933d65e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61257b7f63f915629b98d2b57933d65e">&#9670;&nbsp;</a></span>operator&lt;=() <span class="overload">[1/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator&lt;= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Compare two <a class="el" href="../../d6/dc4/a01125.php" title="A new huge arithmetic variable.">Big</a>. </p>
-<p><a class="el" href="../../d6/dc4/a01125.php" title="A new huge arithmetic variable.">Big</a> &lt;= <a class="el" href="../../d6/dc4/a01125.php" title="A new huge arithmetic variable.">Big</a>. </p>
-
-</div>
-</div>
-<a id="a57c7184396da7d8b9972ac64f37fc019"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57c7184396da7d8b9972ac64f37fc019">&#9670;&nbsp;</a></span>operator&lt;=() <span class="overload">[2/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator&lt;= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a6991b54e58e0a5b120f698f4e941ec86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6991b54e58e0a5b120f698f4e941ec86">&#9670;&nbsp;</a></span>operator&lt;=() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6991b54e58e0a5b120f698f4e941ec86">&#9670;&nbsp;</a></span>operator&lt;=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4228,36 +3887,8 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
 
 </div>
 </div>
-<a id="a35feb7b77517c8a067a4f631d0c01903"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35feb7b77517c8a067a4f631d0c01903">&#9670;&nbsp;</a></span>operator&lt;=() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator&lt;= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="af16116bb74326c4d798c387465347225"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af16116bb74326c4d798c387465347225">&#9670;&nbsp;</a></span>operator&lt;=() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af16116bb74326c4d798c387465347225">&#9670;&nbsp;</a></span>operator&lt;=() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4287,7 +3918,7 @@ template&lt;typename T , typename U , typename V &gt; </div>
 </div>
 </div>
 <a id="a49c8e33d55da52fabdb3f09f2fd3e5b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49c8e33d55da52fabdb3f09f2fd3e5b2">&#9670;&nbsp;</a></span>operator==() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a49c8e33d55da52fabdb3f09f2fd3e5b2">&#9670;&nbsp;</a></span>operator==() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4325,36 +3956,8 @@ template&lt;typename T , typename U , typename V &gt; </div>
 
 </div>
 </div>
-<a id="a91f197d1381e789ce2295059d4d02c13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91f197d1381e789ce2295059d4d02c13">&#9670;&nbsp;</a></span>operator==() <span class="overload">[2/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a4ba723943a9c71f6b716cfff3862b656"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ba723943a9c71f6b716cfff3862b656">&#9670;&nbsp;</a></span>operator==() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ba723943a9c71f6b716cfff3862b656">&#9670;&nbsp;</a></span>operator==() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4371,34 +3974,6 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="../../da/d53/a00265.php#d5/df9/a01441">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1b7c3b86bf4f3323ec303cf6caf4657d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b7c3b86bf4f3323ec303cf6caf4657d">&#9670;&nbsp;</a></span>operator==() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4412,7 +3987,7 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
 </div>
 </div>
 <a id="a9ea1828f8233339ff4109a6d054a3f6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ea1828f8233339ff4109a6d054a3f6e">&#9670;&nbsp;</a></span>operator==() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ea1828f8233339ff4109a6d054a3f6e">&#9670;&nbsp;</a></span>operator==() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4441,36 +4016,8 @@ template&lt;typename T , typename U , typename V &gt; </div>
 
 </div>
 </div>
-<a id="a4390d2726279039c439ba3b866fa2e50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4390d2726279039c439ba3b866fa2e50">&#9670;&nbsp;</a></span>operator&gt;() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator&gt; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa246dbc03b543a0a767df8e486189488"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa246dbc03b543a0a767df8e486189488">&#9670;&nbsp;</a></span>operator&gt;() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa246dbc03b543a0a767df8e486189488">&#9670;&nbsp;</a></span>operator&gt;() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4499,36 +4046,8 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
 
 </div>
 </div>
-<a id="a0eb9966b5003b5c69b1c19cf2c91da5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0eb9966b5003b5c69b1c19cf2c91da5b">&#9670;&nbsp;</a></span>operator&gt;() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator&gt; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ae8c157fea2d3cba9a23a3ff2878cc08e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8c157fea2d3cba9a23a3ff2878cc08e">&#9670;&nbsp;</a></span>operator&gt;() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8c157fea2d3cba9a23a3ff2878cc08e">&#9670;&nbsp;</a></span>operator&gt;() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4557,75 +4076,8 @@ template&lt;typename T , typename U , typename V &gt; </div>
 
 </div>
 </div>
-<a id="a83c8849718e8a8532282e6f1c80ceca0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83c8849718e8a8532282e6f1c80ceca0">&#9670;&nbsp;</a></span>operator&gt;=() <span class="overload">[1/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator&gt;= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d6/dc4/a01125.php">Big</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Compare two <a class="el" href="../../d6/dc4/a01125.php" title="A new huge arithmetic variable.">Big</a>. </p>
-<p><a class="el" href="../../d6/dc4/a01125.php" title="A new huge arithmetic variable.">Big</a> &gt;= <a class="el" href="../../d6/dc4/a01125.php" title="A new huge arithmetic variable.">Big</a>. </p>
-
-</div>
-</div>
-<a id="aacc2b27f076a57eb6664e7d920a52c7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacc2b27f076a57eb6664e7d920a52c7e">&#9670;&nbsp;</a></span>operator&gt;=() <span class="overload">[2/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator&gt;= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d6/d16/a01269.php">Date</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ab654d9827594410729bb1267af700f68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab654d9827594410729bb1267af700f68">&#9670;&nbsp;</a></span>operator&gt;=() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab654d9827594410729bb1267af700f68">&#9670;&nbsp;</a></span>operator&gt;=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4654,36 +4106,8 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
 
 </div>
 </div>
-<a id="ab2490b5d2fcccd5d4fcd7539a3e9ec8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2490b5d2fcccd5d4fcd7539a3e9ec8f">&#9670;&nbsp;</a></span>operator&gt;=() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mcd::operator&gt;= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d4/d20/a01421.php">Time</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac6fc9365b82f561a4603cb21b7d247ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6fc9365b82f561a4603cb21b7d247ec">&#9670;&nbsp;</a></span>operator&gt;=() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6fc9365b82f561a4603cb21b7d247ec">&#9670;&nbsp;</a></span>operator&gt;=() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

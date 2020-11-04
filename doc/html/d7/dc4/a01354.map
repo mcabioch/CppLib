@@ -1,4 +1,4 @@
-<map id="mcd::Pathfinding" name="mcd::Pathfinding">
-<area shape="rect" id="node1" title="A class to implement some pathfinding algorithms." alt="" coords="28,5,148,32"/>
-<area shape="rect" id="node2" href="$dc/d4b/a01359.php" title="An implementation of the Dijkstra algorithm." alt="" coords="5,80,171,107"/>
+<map id="mcd::Object" name="mcd::Object">
+<area shape="rect" id="node1" title="An object." alt="" coords="20,80,113,107"/>
+<area shape="rect" id="node2" href="$da/de0/a01248.php" title="A contraption." alt="" coords="5,5,128,32"/>
 </map>
