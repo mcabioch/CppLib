@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,13 +92,13 @@ $(document).ready(function(){initNavTree('dc/d06/a01153.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Check::is_trio&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::Check::is_pair&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/d06/a01153.php">mcd::Check::is_trio&lt; T &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dc/d06/a01153.php">mcd::Check::is_pair&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d06/a01153.php#a35b153eb448f4f520fbab10d63317262">value</a></td><td class="entry"><a class="el" href="../../dc/d06/a01153.php">mcd::Check::is_trio&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d06/a01153.php#ac3fa87bfb2551b3a98cac89a0c39b2ba">value</a></td><td class="entry"><a class="el" href="../../dc/d06/a01153.php">mcd::Check::is_pair&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

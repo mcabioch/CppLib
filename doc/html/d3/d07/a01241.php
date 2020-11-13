@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Console::SetPrecision Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('d4/dd5/a01244.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d3/d07/a01241.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,24 +91,197 @@ $(document).ready(function(){initNavTree('d4/dd5/a01244.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
+<a href="../../d8/ddf/a01238.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::ConsoleTable Member List</div>  </div>
+<div class="title">mcd::Console::SetPrecision Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d4/dd5/a01244.php">mcd::ConsoleTable</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dd5/a01244.php#acc7af9ad8f4b7175a82acb2edfce15b2">ConsoleTable</a>()</td><td class="entry"><a class="el" href="../../d4/dd5/a01244.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dd5/a01244.php#a1878d602fe475fb47a2aca063e7cb9d6">headers</a>(std::vector&lt; std::string &gt; h)</td><td class="entry"><a class="el" href="../../d4/dd5/a01244.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dd5/a01244.php#a3669c41beda1b667738b6e7c42663b29">line</a>(std::vector&lt; std::string &gt; l)</td><td class="entry"><a class="el" href="../../d4/dd5/a01244.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dd5/a01244.php#aadce47b475851c9d585ee9c21b2cb1ac">lines</a>(std::vector&lt; std::vector&lt; std::string &gt; &gt; ls)</td><td class="entry"><a class="el" href="../../d4/dd5/a01244.php">mcd::ConsoleTable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dd5/a01244.php#af23c547bfa2b35d582a6922d425d02f5">operator&lt;&lt;</a>(std::ostream &amp;str, ConsoleTable &amp;t)</td><td class="entry"><a class="el" href="../../d4/dd5/a01244.php">mcd::ConsoleTable</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-</table></div><!-- contents -->
+<p>Change the precision of a std::ostream and save the default value.  
+ <a href="../../d3/d07/a01241.php#details">More...</a></p>
+
+<p><code>#include &lt;console.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a3e39b2b7e818b9f007634f6a2d718bca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/a01241.php#a3e39b2b7e818b9f007634f6a2d718bca">SetPrecision</a> ()</td></tr>
+<tr class="memdesc:a3e39b2b7e818b9f007634f6a2d718bca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d3/d07/a01241.php" title="Change the precision of a std::ostream and save the default value.">SetPrecision</a> object and save the default value of std::cout.  <a href="../../d3/d07/a01241.php#a3e39b2b7e818b9f007634f6a2d718bca">More...</a><br /></td></tr>
+<tr class="separator:a3e39b2b7e818b9f007634f6a2d718bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34991f888fc02e6e319feba46f694707"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/a01241.php#a34991f888fc02e6e319feba46f694707">~SetPrecision</a> ()</td></tr>
+<tr class="separator:a34991f888fc02e6e319feba46f694707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5d2436f989665365b5da4dd154c07bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d07/a01241.php">SetPrecision</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/a01241.php#ad5d2436f989665365b5da4dd154c07bd">operator()</a> ()</td></tr>
+<tr class="memdesc:ad5d2436f989665365b5da4dd154c07bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the precision to the default value.  <a href="../../d3/d07/a01241.php#ad5d2436f989665365b5da4dd154c07bd">More...</a><br /></td></tr>
+<tr class="separator:ad5d2436f989665365b5da4dd154c07bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a6149c46d6092fd2c8d719bbd0934e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d07/a01241.php">SetPrecision</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/a01241.php#a2a6149c46d6092fd2c8d719bbd0934e0">operator()</a> (std::streamsize value)</td></tr>
+<tr class="memdesc:a2a6149c46d6092fd2c8d719bbd0934e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the precision to value.  <a href="../../d3/d07/a01241.php#a2a6149c46d6092fd2c8d719bbd0934e0">More...</a><br /></td></tr>
+<tr class="separator:a2a6149c46d6092fd2c8d719bbd0934e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a5a120231654267de5f32512a83c99521"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/a01241.php#a5a120231654267de5f32512a83c99521">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../d3/d07/a01241.php">SetPrecision</a> &amp;other)</td></tr>
+<tr class="separator:a5a120231654267de5f32512a83c99521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Change the precision of a std::ostream and save the default value. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a3e39b2b7e818b9f007634f6a2d718bca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e39b2b7e818b9f007634f6a2d718bca">&#9670;&nbsp;</a></span>SetPrecision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Console::SetPrecision::SetPrecision </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct a <a class="el" href="../../d3/d07/a01241.php" title="Change the precision of a std::ostream and save the default value.">SetPrecision</a> object and save the default value of std::cout. </p>
+
+</div>
+</div>
+<a id="a34991f888fc02e6e319feba46f694707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34991f888fc02e6e319feba46f694707">&#9670;&nbsp;</a></span>~SetPrecision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Console::SetPrecision::~SetPrecision </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad5d2436f989665365b5da4dd154c07bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5d2436f989665365b5da4dd154c07bd">&#9670;&nbsp;</a></span>operator()() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d07/a01241.php">SetPrecision</a>&amp; mcd::Console::SetPrecision::operator() </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reset the precision to the default value. </p>
+
+</div>
+</div>
+<a id="a2a6149c46d6092fd2c8d719bbd0934e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a6149c46d6092fd2c8d719bbd0934e0">&#9670;&nbsp;</a></span>operator()() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d07/a01241.php">SetPrecision</a>&amp; mcd::Console::SetPrecision::operator() </td>
+          <td>(</td>
+          <td class="paramtype">std::streamsize&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the precision to value. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a5a120231654267de5f32512a83c99521"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a120231654267de5f32512a83c99521">&#9670;&nbsp;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d3/d07/a01241.php">SetPrecision</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../de/de1/a00065.php">console.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">Console</a></li><li class="navelem"><a class="el" href="../../d3/d07/a01241.php">SetPrecision</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

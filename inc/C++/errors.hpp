@@ -2,7 +2,7 @@
  *
  *	\file		errors.hpp
  *	\author		Mathias CABIOCH-DELALANDE
- *	\date		November, 09 2019
+ *	\date		November, 13 2020
  *
  */
 #ifndef HEADER_CPP_ERRORS
@@ -30,15 +30,15 @@ namespace mcd
 
 #ifndef DOXYGEN_SHOULD_SKIP_THIS
     template< typename T >
-    void printArguments(Colors color, const std::string& arg, T in, size_t line) {
-        cout << Color(color);
-        cout << Color(Colors::NORMAL, color) << "# ";
-        cout << Color(Colors::BOLD, color) << arg;
-        cout << Color(Colors::NORMAL, color) << ": ";
-        cout << Color(Colors::BOLD, color) << in;
-        cout << Color(Colors::NORMAL, color) << " on line ";
-        cout << Color(Colors::BOLD, color) << line << "\n";
-        cout << Color(Colors::NORMAL, color) << "\t";
+    void printArguments(Console::Colors color, const std::string& arg, T in, size_t line) {
+        Console::cout << Console::Color(color);
+        Console::cout << Console::Color(Console::Colors::NORMAL, color) << "# ";
+        Console::cout << Console::Color(Console::Colors::BOLD, color) << arg;
+        Console::cout << Console::Color(Console::Colors::NORMAL, color) << ": ";
+        Console::cout << Console::Color(Console::Colors::BOLD, color) << in;
+        Console::cout << Console::Color(Console::Colors::NORMAL, color) << " on line ";
+        Console::cout << Console::Color(Console::Colors::BOLD, color) << line << "\n";
+        Console::cout << Console::Color(Console::Colors::NORMAL, color) << "\t";
     }
 #endif   // DOXYGEN_SHOULD_SKIP_THIS
 
@@ -46,21 +46,21 @@ namespace mcd
     void errors_log();
     template< class T, class... Args >
     void errors_log(T in, Args... args) {
-        cout << in;
+        Console::cout << in;
         errors_log(args...);
     }
 #endif   // DOXYGEN_SHOULD_SKIP_THIS
     /*!
      * \brief	Print the given text like an error
-     *		\param[in]		line		The line number where the function is call (use
-     *line_number) \param[in]		in			The type of the error \param[in]
-     *args		The differents things to print
+     *		\param[in]		line		The line number where the function is call
+     *(use line_number) \param[in]		in			The type of the error
+     *\param[in] args		The differents things to print
      *
      *		\return			void
      */
     template< class T, class... Args >
     void error_log(size_t line, T in, Args... args) {
-        printArguments(Colors::RED_F, " ERR", in, line);
+        printArguments(Console::Colors::RED_F, " ERR", in, line);
         errors_log(args...);
     }
 
@@ -68,21 +68,21 @@ namespace mcd
     void warnings_log();
     template< class T, class... Args >
     void warnings_log(T in, Args... args) {
-        cout << in;
+        Console::cout << in;
         warnings_log(args...);
     }
 #endif   // DOXYGEN_SHOULD_SKIP_THIS
     /*!
      * \brief	Print the given text like a warning
-     *		\param[in]		line		The line number where the function is call (use
-     *line_number) \param[in]		in			The type of the warning \param[in]
-     *args		The differents things to print
+     *		\param[in]		line		The line number where the function is call
+     *(use line_number) \param[in]		in			The type of the warning
+     *\param[in] args		The differents things to print
      *
      *		\return			void
      */
     template< class T, class... Args >
     void warning_log(size_t line, T in, Args... args) {
-        printArguments(Colors::LIGHT_YELLOW_F, "WARN", in, line);
+        printArguments(Console::Colors::LIGHT_YELLOW_F, "WARN", in, line);
         warnings_log(args...);
     }
 
@@ -90,21 +90,21 @@ namespace mcd
     void infos_log();
     template< class T, class... Args >
     void infos_log(T in, Args... args) {
-        cout << in;
+        Console::cout << in;
         infos_log(args...);
     }
 #endif   // DOXYGEN_SHOULD_SKIP_THIS
     /*!
      * \brief	Print the given text like an information
-     *		\param[in]		line		The line number where the function is call (use
-     *line_number) \param[in]		in			The type of the info \param[in]
-     *args		The differents things to print
+     *		\param[in]		line		The line number where the function is call
+     *(use line_number) \param[in]		in			The type of the info
+     *\param[in] args		The differents things to print
      *
      *		\return			void
      */
     template< class T, class... Args >
     void info_log(size_t line, T in, Args... args) {
-        printArguments(Colors::CYAN_F, "INFO", in, line);
+        printArguments(Console::Colors::CYAN_F, "INFO", in, line);
         infos_log(args...);
     }
 }   // namespace mcd

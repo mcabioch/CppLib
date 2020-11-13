@@ -61,9 +61,9 @@ namespace mcd
             txt << std::setw(static_cast< int >(mcd::tos(_tests.size()).size())) << i + 1 << ": ";
 
             if (t.expr) {
-                txt << Color(Colors::LIGHT_BLUE_F);
+                txt << Console::Color(Console::Colors::LIGHT_BLUE_F);
             } else {
-                txt << Color(Colors::RED_F);
+                txt << Console::Color(Console::Colors::RED_F);
             }
 
             if ((b & TEST_FORMAT_MAX).get() != 0) {
@@ -71,7 +71,7 @@ namespace mcd
             }
 
             txt << t.str;
-            txt << Color(Colors::NORMAL) << std::endl;
+            txt << Console::Color(Console::Colors::NORMAL) << std::endl;
             return txt;
         }
     }   // namespace Tests

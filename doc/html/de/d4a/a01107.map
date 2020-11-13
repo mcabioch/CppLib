@@ -1,6 +1,5 @@
 <map id="mcd::queue&lt; T, Container &gt;" name="mcd::queue&lt; T, Container &gt;">
-<area shape="rect" id="node1" title="An implementation of std::queue." alt="" coords="11,96,195,123"/>
-<area shape="rect" id="node3" href="$d2/dd7/a01108.php" title=" " alt="" coords="35,185,170,227"/>
-<area shape="rect" id="node2" title="STL class." alt="" coords="39,5,166,47"/>
-<area shape="rect" id="node4" href="$d0/d39/a01112.php" title="An thread&#45;safe implementation of queue." alt="" coords="5,276,200,303"/>
+<area shape="rect" id="node1" title="An implementation of std::queue." alt="" coords="5,185,189,212"/>
+<area shape="rect" id="node2" title="STL class." alt="" coords="34,95,161,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="78,5,117,32"/>
 </map>

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,32 +92,14 @@ $(document).ready(function(){initNavTree('db/d4b/a01309.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Json Member List</div>  </div>
+<div class="title">mcd::IOConfig Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../db/d4b/a01309.php">mcd::Json</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../db/d4b/a01309.php">mcd::IOConfig</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a3c35d4f54c782ef8b7898a1641eb4666a49722f0db426d85726e7ed5675e889e4">ARRAY</a> enum value</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a915790021b9c9f20ac2ea225baecf489">get</a>() const</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d4b/a01309.php#aa7c169d27c4e904b13ad8ca6fd184109">Json</a>()</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d4b/a01309.php#ad95d9afd2d3392fe080bf50958ec6464">Json</a>(const Json &amp;other) noexcept</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a17143d6387d6cacd7408b40d90278203">Json</a>(const Json &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a3c35d4f54c782ef8b7898a1641eb4666">JsonType</a> enum name</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a3c35d4f54c782ef8b7898a1641eb4666ae19fd5ef0dc672cdc7cfb36136c6d19e">NONE</a> enum value</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a3c35d4f54c782ef8b7898a1641eb4666a9ba4796f99bbe8254dac0ab0035292f5">NUMBER</a> enum value</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a3c35d4f54c782ef8b7898a1641eb4666a02bcb429af87b535c2b0a35707bf7f4d">OBJECT</a> enum value</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a6b1400a312593beec3776b4f998a7419">operator&lt;&lt;</a>(std::ostream &amp;os, const Json &amp;js)</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d4b/a01309.php#ac2afe8da3954c9e84cc97674a0194d03">operator=</a>(const Json &amp;other) noexcept</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a4e9c27bf8d0e1fa81ff8da964bd6a729">operator=</a>(const Json &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a03e32be5b88c0a40797b0ed39c9bdcba">operator==</a>(const Json &amp;a, const Json &amp;b) noexcept</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d4b/a01309.php#af146512243e74e908084f7751a8ffdf4">operator[]</a>(int index)</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a719db725a687aedc671dbd88ba853c45">operator[]</a>(const std::string &amp;index)</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d4b/a01309.php#ad537515267c98725dc1a77cc2e28467a">parse</a>(const std::string &amp;data)</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a269d5572a1b6fdfa1da58b7b89dbe8b3">parseFile</a>(const std::string &amp;filename)</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a415f3cd1b8e73f404854f9c5729cf68d">size</a>()</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a3c35d4f54c782ef8b7898a1641eb4666a2951db03ec2449efc8d28b4cbdea94d3">STRING</a> enum value</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a970b92e7933d91f9cc8672572e3dacf4">~Json</a>()</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::Json</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d4b/a01309.php#a8638a62e7967b56a444ee42d3ea55878">IOConfig</a>()</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::IOConfig</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/d4b/a01309.php#ad6a34fca3d338ef0498db6353ac5ece6">~IOConfig</a>()</td><td class="entry"><a class="el" href="../../db/d4b/a01309.php">mcd::IOConfig</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

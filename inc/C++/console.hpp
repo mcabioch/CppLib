@@ -2,7 +2,7 @@
  *
  *	\file		console.hpp
  *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	October, 05 2020
+ *	\modified	November, 13 2020
  *
  */
 #ifndef HEADER_CPP_CONSOLE
@@ -10,7 +10,7 @@
 
 #include "convert.hpp"
 
-namespace mcd
+namespace mcd::Console
 {
     /*! \brief	Colors list */
     enum class Colors {
@@ -164,11 +164,11 @@ namespace mcd
     };
 
     /*!
-     * \class	ConsoleCursor
+     * \class	Cursor
      * \brief	A class to play with the cursor in the console
      * \details	This class allow you to move, save and restore the cursor position
      */
-    class ConsoleCursor : public PureVirtual {
+    class Cursor : public PureVirtual {
         public:
         /*!
          * \brief	Go to an x/y position
@@ -213,13 +213,13 @@ namespace mcd
          */
         template< typename T >
         static void put(const std::string& str, T x, T y, const Color& color = 0) {
-            ConsoleCursor::save();
+            Cursor::save();
 
-            ConsoleCursor::goTo(x, y);
+            Cursor::goTo(x, y);
             std::cout << color << str << Reinit();
             fflush(stdout);
 
-            ConsoleCursor::restore();
+            Cursor::restore();
         }
 
         private:
@@ -318,6 +318,14 @@ namespace mcd
     };
 
     extern SetPrecision setprecision;
-}   // namespace mcd
+
+    /*!
+     * \brief   Write on os a line with the number of caract set in size
+     *  \param[in]  caract      The string to print to do the line
+     *  \param[in]  size        The times to print caract
+     *  \param[in]  os          The output stream where to write the line, defualt is std::cout
+     */
+    void printLine(std::string caract, size_t size, std::ostream& os = std::cout);
+}   // namespace mcd::Console
 
 #endif   // HEADER_CPP_CONSOLE

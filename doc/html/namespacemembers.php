@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -147,7 +147,7 @@ $(document).ready(function(){initNavTree('namespacemembers.php',''); initResizab
 : <a class="el" href="db/d12/a00268.php#adbb1b1f3a194f48bab3af872f65b9757">mcd</a>
 </li>
 <li>Colors
-: <a class="el" href="db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070a">mcd</a>
+: <a class="el" href="d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">mcd::Console</a>
 </li>
 <li>contains()
 : <a class="el" href="db/d12/a00268.php#ad53bf266a5db5dc112e71ebe3c78946e">mcd</a>
@@ -156,7 +156,7 @@ $(document).ready(function(){initNavTree('namespacemembers.php',''); initResizab
 : <a class="el" href="db/d12/a00268.php#a95be8eb46f76298e1218183421d13825">mcd</a>
 </li>
 <li>cout
-: <a class="el" href="db/d12/a00268.php#ad49187ab386f309e965f2f8e954c3c24">mcd</a>
+: <a class="el" href="d9/dd6/a00272.php#a17e973621e86d36834182028f6c350c7">mcd::Console</a>
 </li>
 </ul>
 
@@ -189,12 +189,15 @@ $(document).ready(function(){initNavTree('namespacemembers.php',''); initResizab
 <li>dsigmoide()
 : <a class="el" href="db/d12/a00268.php#a9042d2e8e9a6311b4260c6f376f4072c">mcd</a>
 </li>
+<li>dtanh()
+: <a class="el" href="db/d12/a00268.php#a9767e5acc7c07b8ef837e2485dfc3ec5">mcd</a>
+</li>
 </ul>
 
 
 <h3><a id="index_e"></a>- e -</h3><ul>
 <li>endl
-: <a class="el" href="db/d12/a00268.php#a19aa3c3882eb7a0c0d4f6479a4bbf975">mcd</a>
+: <a class="el" href="d9/dd6/a00272.php#a7d875ddb758ffe29f3df92250eae253d">mcd::Console</a>
 </li>
 <li>error_log()
 : <a class="el" href="db/d12/a00268.php#a1a14f66f0c6eba0c77338364977658e1">mcd</a>
@@ -402,6 +405,9 @@ $(document).ready(function(){initNavTree('namespacemembers.php',''); initResizab
 <li>printable()
 : <a class="el" href="dd/d86/a00271.php#ab0b2e96bd3f31d823dad478c5f54abf1">mcd::Check</a>
 </li>
+<li>printLine()
+: <a class="el" href="d9/dd6/a00272.php#a45ee529c25adecff1046978f105c7a0b">mcd::Console</a>
+</li>
 <li>printSize()
 : <a class="el" href="db/d12/a00268.php#a5046a9dfac4629babcb20cf7b914415e">mcd</a>
 </li>
@@ -469,7 +475,7 @@ $(document).ready(function(){initNavTree('namespacemembers.php',''); initResizab
 : <a class="el" href="db/d12/a00268.php#a08a1c8da74e7ca2634c1a2a4f4a3ac9d">mcd</a>
 </li>
 <li>setprecision
-: <a class="el" href="db/d12/a00268.php#ad309496206415242e21a12fc54df1cc8">mcd</a>
+: <a class="el" href="d9/dd6/a00272.php#a061e9af30fc21986d960ab612d86f8d6">mcd::Console</a>
 </li>
 <li>sha2
 : <a class="el" href="db/d12/a00268.php#aa0ce198f34851e093bbc38dfd975e339">mcd</a>
@@ -511,6 +517,9 @@ $(document).ready(function(){initNavTree('namespacemembers.php',''); initResizab
 
 
 <h3><a id="index_t"></a>- t -</h3><ul>
+<li>tanh()
+: <a class="el" href="db/d12/a00268.php#a9db342c58a4088c0753e28475e369323">mcd</a>
+</li>
 <li>thread
 : <a class="el" href="db/d12/a00268.php#a21976f3e9e8d360ccff90c8ead193a5e">mcd</a>
 </li>

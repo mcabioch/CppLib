@@ -3,7 +3,7 @@
  *	\file		Assert.hpp
  *	\author		Mathias CABIOCH-DELALANDE
  *	\created	Wednesday November, 13 2019 11:22:08
- *	\modified	November, 14 2019
+ *	\modified	November, 13 2020
  *
  */
 #ifndef HEADER_ASSERT
@@ -42,8 +42,8 @@ namespace mcd
     try {                                                                                          \
         assert(EXPR);                                                                              \
     } catch (const mcd::AssertionException& e) {                                                   \
-        std::cout << mcd::Color(mcd::Colors::LIGHT_YELLOW_F) << e.what()                           \
-                  << mcd::Color(mcd::Colors::NORMAL) << std::endl;                                 \
+        std::cout << mcd::Console::Color(mcd::Console::Colors::LIGHT_YELLOW_F) << e.what()         \
+                  << mcd::Console::Color(mcd::Console::Colors::NORMAL) << std::endl;               \
         INSTEAD;                                                                                   \
     }
 #define trycatch_assert_1(EXPR) trycatch_assert_2(EXPR, std::function< void() >())

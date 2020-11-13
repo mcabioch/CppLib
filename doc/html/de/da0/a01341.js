@@ -1,5 +1,5 @@
 var a01341 =
 [
-    [ "NotCopyable", "de/da0/a01341.php#aa40da048522b578e9c2cc9f73c1a0d92", null ],
-    [ "~NotCopyable", "de/da0/a01341.php#a5efcd02383468e37e9c960f3d6f9d14c", null ]
+    [ "MatrixException", "de/da0/a01341.php#af8f31dd9961b04962e2700f28c47e1eb", null ],
+    [ "MatrixException", "de/da0/a01341.php#a63d6b2072be9d1adc4f6e7fdeac43af5", null ]
 ];

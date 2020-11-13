@@ -13,7 +13,10 @@ namespace mcd
     }
 
     void servLog(const std::string& str, bool server, const std::string& name) {
-        cout << Color(Colors::GREY_B, Colors::RED_F, Colors::ITALIC) << str << Reinit() << endl;
+        Console::cout << Console::Color(Console::Colors::GREY_B,
+                                        Console::Colors::RED_F,
+                                        Console::Colors::ITALIC)
+                      << str << Console::Reinit() << Console::endl;
         fflush(stdout);
 
         if (server) {

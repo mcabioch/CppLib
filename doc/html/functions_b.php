@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,25 +95,25 @@ $(document).ready(function(){initNavTree('functions_b.php',''); initResizable();
 
 <h3><a id="index_b"></a>- b -</h3><ul>
 <li>back()
-: <a class="el" href="d0/d39/a01112.php#a13305f6ee7ad6fc7836d5676f03dcab5">mcd::t_queue&lt; T, Container &gt;</a>
+: <a class="el" href="d8/ded/a01113.php#a13305f6ee7ad6fc7836d5676f03dcab5">mcd::t_queue&lt; T, Container &gt;</a>
 </li>
 <li>Big()
-: <a class="el" href="d9/d12/a01128.php#a9bf22e73a5a3631f06200da9a86e926b">mcd::Big</a>
+: <a class="el" href="d9/d17/a01129.php#a9bf22e73a5a3631f06200da9a86e926b">mcd::Big</a>
 </li>
 <li>Binary()
-: <a class="el" href="d1/dae/a01136.php#a29b9b7a89bae0c41f0ff5933406b8f4d">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d6/d6e/a01137.php#a29b9b7a89bae0c41f0ff5933406b8f4d">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>block
-: <a class="el" href="d7/da3/a01260.php#aa50ce5e9d8271080d4dd30b9afe50e89">mcd::SHA2</a>
+: <a class="el" href="de/d34/a01261.php#aa50ce5e9d8271080d4dd30b9afe50e89">mcd::SHA2</a>
 </li>
 <li>BLOCK_SIZE
-: <a class="el" href="d7/da3/a01260.php#ae41078716ddc513c6af9a825448cbabd">mcd::SHA2</a>
+: <a class="el" href="de/d34/a01261.php#ae41078716ddc513c6af9a825448cbabd">mcd::SHA2</a>
 </li>
 <li>BOOL
-: <a class="el" href="d4/d64/a01296.php#a29dd9b8ac897a110f7047c2912ebd2e0aa91e524760eeac3e25168c3c4fd16c64">mcd::natural::Gene</a>
+: <a class="el" href="dc/d8c/a01297.php#a29dd9b8ac897a110f7047c2912ebd2e0aa91e524760eeac3e25168c3c4fd16c64">mcd::natural::Gene</a>
 </li>
 <li>bot()
-: <a class="el" href="dd/d1c/a01452.php#a2beb84069e438adcccfa4b6ed9794c0c">mcd::Point</a>
+: <a class="el" href="d9/dae/a01453.php#a2beb84069e438adcccfa4b6ed9794c0c">mcd::Point</a>
 </li>
 </ul>
 </div><!-- contents -->

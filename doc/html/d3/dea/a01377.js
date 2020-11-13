@@ -1,6 +1,15 @@
 var a01377 =
 [
-    [ "Plant", "d3/dea/a01377.php#aa13b2031cba87d6dc205951aa5df9f42", null ],
-    [ "~Plant", "d3/dea/a01377.php#a059d5363e3fe35152c8d2998e8222cd1", null ],
-    [ "printInfos", "d3/dea/a01377.php#ac195816160e5c7a010d1d50bbe8cfbb8", null ]
+    [ "PathfindingErrorCode", "d3/dea/a01377.php#a699cc4df8cc94d467e7372072d230b58", [
+      [ "NONE", "d3/dea/a01377.php#a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d", null ],
+      [ "ARRIVED", "d3/dea/a01377.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814", null ],
+      [ "LOST", "d3/dea/a01377.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995", null ],
+      [ "OTHER", "d3/dea/a01377.php#a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982", null ]
+    ] ],
+    [ "PathfindingException", "d3/dea/a01377.php#ac73bb217b98d679eaab9fe9fe4e5c9b0", null ],
+    [ "~PathfindingException", "d3/dea/a01377.php#a22d196716aa61adb8fa0e0d48320c9ab", null ],
+    [ "PathfindingException", "d3/dea/a01377.php#a71da44443282ca94d2c9e10a9be0dafc", null ],
+    [ "Arrived", "d3/dea/a01377.php#a9fcff7a44db764decbb680479144b97b", null ],
+    [ "getErrorCode", "d3/dea/a01377.php#a922e8cbd5025f4f17e45889055df165c", null ],
+    [ "Lost", "d3/dea/a01377.php#a933816a487769eec830729b051d0fbcd", null ]
 ];

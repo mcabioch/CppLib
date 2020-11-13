@@ -11,6 +11,7 @@ var a01456 =
     [ "operator^=", "d4/d98/a01456.php#a5bccad40e32efad3b685320434e65201", null ],
     [ "operator|=", "d4/d98/a01456.php#acf021f04fbc720705d300f638b8f2de1", null ],
     [ "pop", "d4/d98/a01456.php#a58c2e9df00704c786bfcfcca5a383a0e", null ],
+    [ "push", "d4/d98/a01456.php#abb5d16922f908bf0ae4422d89c728e90", null ],
     [ "operator&", "d4/d98/a01456.php#a1552117c5c07498294173619e4ca5836", null ],
     [ "operator+", "d4/d98/a01456.php#a8f261f2319c479f4e714b269bbbbdfa9", null ],
     [ "operator-", "d4/d98/a01456.php#aee068ab7887e20606e98299c3671c34a", null ],

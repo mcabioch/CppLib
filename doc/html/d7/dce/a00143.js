@@ -5,6 +5,7 @@ var a00143 =
     [ "dist", "d7/dce/a00143.php#a900f9e45ac94dbf01c4b67fb40682118", null ],
     [ "dist", "d7/dce/a00143.php#a4d75f23c9b03fd2c56324895d0ff3c58", null ],
     [ "dsigmoide", "d7/dce/a00143.php#a9042d2e8e9a6311b4260c6f376f4072c", null ],
+    [ "dtanh", "d7/dce/a00143.php#a9767e5acc7c07b8ef837e2485dfc3ec5", null ],
     [ "eucl", "d7/dce/a00143.php#a10764d50321a1ff81cc7cd4a9f7e42bc", null ],
     [ "invmod", "d7/dce/a00143.php#a6f68c011df46f54833bbda0ac9de04e2", null ],
     [ "isLuhn", "d7/dce/a00143.php#ab001b84d20c0fffe59c7a55ed872d300", null ],
@@ -20,5 +21,6 @@ var a00143 =
     [ "round", "d7/dce/a00143.php#a7e1c88cc52e517f309354a546e78f403", null ],
     [ "sigmoide", "d7/dce/a00143.php#a2d67b0e24c6216a693a903f5bc8c31a0", null ],
     [ "sq", "d7/dce/a00143.php#a9adc0354f681800c75d220e526377397", null ],
+    [ "tanh", "d7/dce/a00143.php#a9db342c58a4088c0753e28475e369323", null ],
     [ "wholePart", "d7/dce/a00143.php#af9443ebf71fe196006831fe344a09f13", null ]
 ];

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,22 +92,15 @@ $(document).ready(function(){initNavTree('d8/dbf/a01109.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::t_queue&lt; T, Container &gt; Member List</div>  </div>
+<div class="title">mcd::queue&lt; T, Container &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d8/dbf/a01109.php">mcd::t_queue&lt; T, Container &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d8/dbf/a01109.php">mcd::queue&lt; T, Container &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbf/a01109.php#a13305f6ee7ad6fc7836d5676f03dcab5">back</a>() const</td><td class="entry"><a class="el" href="../../d8/dbf/a01109.php">mcd::t_queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/dbf/a01109.php#aa3176d64efc60f11b708e10e6ff6e5b1">empty</a>() const</td><td class="entry"><a class="el" href="../../d8/dbf/a01109.php">mcd::t_queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbf/a01109.php#aa86287081828d6ab7ea9b7e1b71616ac">front</a>() const</td><td class="entry"><a class="el" href="../../d8/dbf/a01109.php">mcd::t_queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d1d/a01105.php#a148295001e6effa1aa1217af766e021f">get</a>()</td><td class="entry"><a class="el" href="../../de/d1d/a01105.php">mcd::queue&lt; T, std::deque&lt; T &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbf/a01109.php#a58fca05ec029f576c97b72ca2eba44ef">pop</a>()</td><td class="entry"><a class="el" href="../../d8/dbf/a01109.php">mcd::t_queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/dbf/a01109.php#a7108e587ce260901f5fdac365db13fab">push</a>(const T &amp;value)</td><td class="entry"><a class="el" href="../../d8/dbf/a01109.php">mcd::t_queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbf/a01109.php#a7ccba4c88decd735670f069077bce0b0">push</a>(T &amp;&amp;value)</td><td class="entry"><a class="el" href="../../d8/dbf/a01109.php">mcd::t_queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d1d/a01105.php#a0566f226253ef02ac813bad965f647b9">queue</a>()</td><td class="entry"><a class="el" href="../../de/d1d/a01105.php">mcd::queue&lt; T, std::deque&lt; T &gt; &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbf/a01109.php#aebab69e6bea31ae90fcc6c56af6b847e">size</a>() const</td><td class="entry"><a class="el" href="../../d8/dbf/a01109.php">mcd::t_queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/dbf/a01109.php#a6113ab263c40412573cb17961892e4eb">t_queue</a>()</td><td class="entry"><a class="el" href="../../d8/dbf/a01109.php">mcd::t_queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbf/a01109.php#a148295001e6effa1aa1217af766e021f">get</a>()</td><td class="entry"><a class="el" href="../../d8/dbf/a01109.php">mcd::queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/dbf/a01109.php#a9c9c5803f41517e0b1b8d75441cd4b09">pop</a>()</td><td class="entry"><a class="el" href="../../d8/dbf/a01109.php">mcd::queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbf/a01109.php#a0566f226253ef02ac813bad965f647b9">queue</a>()</td><td class="entry"><a class="el" href="../../d8/dbf/a01109.php">mcd::queue&lt; T, Container &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

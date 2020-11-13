@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -233,15 +233,15 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d05/a01420.php">mcd::Tests::Test</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static class to test code.  <a href="../../d0/d05/a01420.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php">mcd::Tests::Test</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static class to test code.  <a href="../../d4/d20/a01421.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:db/d12/a00268"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/dd6/a00272"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php">mcd::Tests</a></td></tr>
+<tr class="memitem:d0/d19/a00273"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d19/a00273.php">mcd::Tests</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -264,7 +264,7 @@ Macros</h2></td></tr>
 <tr class="separator:ac9544a2b3d82fbf7b0913fb29ae4ab1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe6f23e4ac49c7bcf76fa26e710db6b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#abe6f23e4ac49c7bcf76fa26e710db6b4">unit_notEquals</a>(A,  B)&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.php#a8882f6cc17a922e91f806a24b4a6f413">unit_false</a>(A == B)</td></tr>
 <tr class="separator:abe6f23e4ac49c7bcf76fa26e710db6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31dc59c312f6beaf52e720c5a7dcc017"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#a31dc59c312f6beaf52e720c5a7dcc017">unit_in</a>(VALUE,  ARRAY)&#160;&#160;&#160;    <a class="el" href="../../d0/d05/a01420.php#a1361402d9c24abe3aa4e44cce65de4b5">mcd::Tests::Test::in</a>(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td></tr>
+<tr class="memitem:a31dc59c312f6beaf52e720c5a7dcc017"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#a31dc59c312f6beaf52e720c5a7dcc017">unit_in</a>(VALUE,  ARRAY)&#160;&#160;&#160;    <a class="el" href="../../d4/d20/a01421.php#a1361402d9c24abe3aa4e44cce65de4b5">mcd::Tests::Test::in</a>(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td></tr>
 <tr class="separator:a31dc59c312f6beaf52e720c5a7dcc017"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5eaf417c1ad582f2eb3fdef1e32d5a40"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.php#a5eaf417c1ad582f2eb3fdef1e32d5a40">unit_notIn</a>(VALUE,  ARRAY)</td></tr>
 <tr class="separator:a5eaf417c1ad582f2eb3fdef1e32d5a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -283,7 +283,7 @@ Macros</h2></td></tr>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Created : Wednesday November, 27 2019 23:32:26 </dd>
 <dd>
-Last modification : October, 04 2020 </dd></dl>
+Last modification : November, 13 2020 </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a0c07eac51a83f591603f2456250fe07e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c07eac51a83f591603f2456250fe07e">&#9670;&nbsp;</a></span>TEST_ADD_TEST</h2>
@@ -310,7 +310,7 @@ Last modification : October, 04 2020 </dd></dl>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d0/d05/a01420.php#ad9e5ce30e83438c731c0b32558087e7e">mcd::Tests::Test::addTest</a>(                                                                     \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d4/d20/a01421.php#ad9e5ce30e83438c731c0b32558087e7e">mcd::Tests::Test::addTest</a>(                                                                     \</div>
 <div class="line">        {<span class="keyword">static_cast&lt;</span> <span class="keywordtype">bool</span> <span class="keyword">&gt;</span>(EXPR), STR, __FILE__, __PRETTY_FUNCTION__, __LINE__})</div>
 </div><!-- fragment -->
 </div>
@@ -346,7 +346,7 @@ Last modification : October, 04 2020 </dd></dl>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d0/d05/a01420.php#abd689a9285398f98dcf09722ca676070">mcd::Tests::Test::addThrow</a>(                                                                    \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d4/d20/a01421.php#abd689a9285398f98dcf09722ca676070">mcd::Tests::Test::addThrow</a>(                                                                    \</div>
 <div class="line">        #INSTR,                                                                                    \</div>
 <div class="line">        #EXCEPT,                                                                                   \</div>
 <div class="line">        {<span class="keyword">static_cast&lt;</span> <span class="keywordtype">bool</span> <span class="keyword">&gt;</span>(EXPR), <span class="stringliteral">&quot;&quot;</span>, __FILE__, __PRETTY_FUNCTION__, __LINE__})</div>
@@ -476,7 +476,7 @@ Last modification : October, 04 2020 </dd></dl>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;    <a class="el" href="../../d0/d05/a01420.php#a1361402d9c24abe3aa4e44cce65de4b5">mcd::Tests::Test::in</a>(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td>
+          <td></td><td>&#160;&#160;&#160;    <a class="el" href="../../d4/d20/a01421.php#a1361402d9c24abe3aa4e44cce65de4b5">mcd::Tests::Test::in</a>(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__})</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -604,7 +604,7 @@ Last modification : October, 04 2020 </dd></dl>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d0/d05/a01420.php#a1361402d9c24abe3aa4e44cce65de4b5">mcd::Tests::Test::in</a>(VALUE,                                                                    \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d4/d20/a01421.php#a1361402d9c24abe3aa4e44cce65de4b5">mcd::Tests::Test::in</a>(VALUE,                                                                    \</div>
 <div class="line">                         ARRAY,                                                                    \</div>
 <div class="line">                         {<span class="keyword">false</span>, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__},                 \</div>
 <div class="line">                         true)</div>
@@ -700,9 +700,9 @@ Last modification : October, 04 2020 </dd></dl>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aa01420_php_ad9e5ce30e83438c731c0b32558087e7e"><div class="ttname"><a href="../../d0/d05/a01420.php#ad9e5ce30e83438c731c0b32558087e7e">mcd::Tests::Test::addTest</a></div><div class="ttdeci">static void addTest(const Test_struct &amp;test)</div><div class="ttdoc">Add a test analyze to an array.</div></div>
-<div class="ttc" id="aa01420_php_a1361402d9c24abe3aa4e44cce65de4b5"><div class="ttname"><a href="../../d0/d05/a01420.php#a1361402d9c24abe3aa4e44cce65de4b5">mcd::Tests::Test::in</a></div><div class="ttdeci">static void in(const T &amp;value, const U &amp;array, const Test_struct &amp;test, bool start=false)</div><div class="ttdoc">Test if a value is or isn't in an array.</div><div class="ttdef"><b>Definition:</b> Test.hpp:117</div></div>
-<div class="ttc" id="aa01420_php_abd689a9285398f98dcf09722ca676070"><div class="ttname"><a href="../../d0/d05/a01420.php#abd689a9285398f98dcf09722ca676070">mcd::Tests::Test::addThrow</a></div><div class="ttdeci">static void addThrow(const std::string &amp;instr, const std::string &amp;except, const Test_struct &amp;test)</div><div class="ttdoc">Add a throw test with addTest.</div><div class="ttdef"><b>Definition:</b> Test.hpp:102</div></div>
+<div class="ttc" id="aa01421_php_ad9e5ce30e83438c731c0b32558087e7e"><div class="ttname"><a href="../../d4/d20/a01421.php#ad9e5ce30e83438c731c0b32558087e7e">mcd::Tests::Test::addTest</a></div><div class="ttdeci">static void addTest(const Test_struct &amp;test)</div><div class="ttdoc">Add a test analyze to an array.</div></div>
+<div class="ttc" id="aa01421_php_a1361402d9c24abe3aa4e44cce65de4b5"><div class="ttname"><a href="../../d4/d20/a01421.php#a1361402d9c24abe3aa4e44cce65de4b5">mcd::Tests::Test::in</a></div><div class="ttdeci">static void in(const T &amp;value, const U &amp;array, const Test_struct &amp;test, bool start=false)</div><div class="ttdoc">Test if a value is or isn't in an array.</div><div class="ttdef"><b>Definition:</b> Test.hpp:115</div></div>
+<div class="ttc" id="aa01421_php_abd689a9285398f98dcf09722ca676070"><div class="ttname"><a href="../../d4/d20/a01421.php#abd689a9285398f98dcf09722ca676070">mcd::Tests::Test::addThrow</a></div><div class="ttdeci">static void addThrow(const std::string &amp;instr, const std::string &amp;except, const Test_struct &amp;test)</div><div class="ttdoc">Add a throw test with addTest.</div><div class="ttdef"><b>Definition:</b> Test.hpp:100</div></div>
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,16 +92,14 @@ $(document).ready(function(){initNavTree('d6/da1/a01233.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::ThreadCout Member List</div>  </div>
+<div class="title">mcd::Console::ThreadEndlCout Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d6/da1/a01233.php">mcd::ThreadCout</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d6/da1/a01233.php">mcd::Console::ThreadEndlCout</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/da1/a01233.php#a358d316052544257ab9aee6f1fe762dc">operator&lt;&lt;</a>(ThreadCout &amp;os, T obj)</td><td class="entry"><a class="el" href="../../d6/da1/a01233.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/da1/a01233.php#a8b27881bbb3b1a50ddf821d8ce62e4d6">operator&lt;&lt;</a>(ThreadCout &amp;os, ThreadEndlCout &amp;)</td><td class="entry"><a class="el" href="../../d6/da1/a01233.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/da1/a01233.php#adacc9d5343e07aa8396f8b1edd92bb39">ThreadCout</a>()</td><td class="entry"><a class="el" href="../../d6/da1/a01233.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/da1/a01233.php#a43b2683a0e3d46205643de53236dc4f8">~ThreadCout</a>()</td><td class="entry"><a class="el" href="../../d6/da1/a01233.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/da1/a01233.php#a58fad761e8d57e2e3f39ab002ead3294">ThreadEndlCout</a>()</td><td class="entry"><a class="el" href="../../d6/da1/a01233.php">mcd::Console::ThreadEndlCout</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/da1/a01233.php#a37cfff56991fa82b716daf1d509cb8de">~ThreadEndlCout</a>()</td><td class="entry"><a class="el" href="../../d6/da1/a01233.php">mcd::Console::ThreadEndlCout</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

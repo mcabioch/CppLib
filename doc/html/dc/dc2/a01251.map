@@ -1,8 +1,4 @@
 <map id="mcd::Crypto" name="mcd::Crypto">
-<area shape="rect" id="node1" title="A class to be the parent for every crypt class." alt="" coords="185,80,279,107"/>
-<area shape="rect" id="node3" href="$d6/d0f/a01256.php" title="A class to use the cesar algorithm for encryption." alt="" coords="5,155,96,181"/>
-<area shape="rect" id="node4" href="$d3/d51/a01264.php" title="A class to test a homemade algorithm for encryption." alt="" coords="121,155,226,181"/>
-<area shape="rect" id="node5" href="$dc/dd9/a01268.php" title="A class to use the RSA algorithm for encryption." alt="" coords="249,155,332,181"/>
-<area shape="rect" id="node6" href="$d7/da3/a01260.php" title="An implementation of sha256 encryption." alt="" coords="356,155,447,181"/>
-<area shape="rect" id="node2" href="$d7/d57/a01348.php" title="A class to let some other not to be copyable." alt="" coords="167,5,297,32"/>
+<area shape="rect" id="node1" title="A class to be the parent for every crypt class." alt="" coords="23,80,118,107"/>
+<area shape="rect" id="node2" href="$de/d6c/a01349.php" title="A class to let some other not to be copyable." alt="" coords="5,5,136,32"/>
 </map>

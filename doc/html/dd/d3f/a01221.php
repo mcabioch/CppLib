@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Console::Reinit Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('d8/d8e/a01224.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('dd/d3f/a01221.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,27 +91,96 @@ $(document).ready(function(){initNavTree('d8/d8e/a01224.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d8/d15/a01218.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Cls Member List</div>  </div>
+<div class="title">mcd::Console::Reinit Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d8/d8e/a01224.php">mcd::Cls</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/df3/a01216.php#af4f6325cc63bd229cdf19df24a6e4f6e">addColors</a>(int color)</td><td class="entry"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/df3/a01216.php#ae732af32fdbea05950d39bd9532121cf">addColors</a>(int color, Args... args)</td><td class="entry"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/df3/a01216.php#a8dd730c3b59730b786d059a507d03fca">addColors</a>(const Colors &amp;color)</td><td class="entry"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/df3/a01216.php#ada095941e4b1c3757618959df513af9a">addColors</a>(const Colors &amp;color, Args... args)</td><td class="entry"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d8e/a01224.php#a77e97110dfe29cae01d63a618cff4ed4">Cls</a>()</td><td class="entry"><a class="el" href="../../d8/d8e/a01224.php">mcd::Cls</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/df3/a01216.php#a81a4808e8eb05c0a23cd90da4d8569ec">Color</a>(const std::string &amp;color)</td><td class="entry"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/df3/a01216.php#ac3843a894efef061a84ac802d316fd86">Color</a>(Colors color, Args... args)</td><td class="entry"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/df3/a01216.php#a4db298b6e4ff50cf961dc90449468952">~Color</a>()</td><td class="entry"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p><a class="el" href="../../dd/d3f/a01221.php" title="Reinit the color in the console.">Reinit</a> the color in the console.  
+ <a href="../../dd/d3f/a01221.php#details">More...</a></p>
+
+<p><code>#include &lt;console.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::Console::Reinit:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d42/a01220.png" border="0" usemap="#amcd_1_1Console_1_1Reinit_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1Console_1_1Reinit_inherit__map" id="mcd_1_1Console_1_1Reinit_inherit__map">
+<area shape="rect" title="Reinit the color in the console." alt="" coords="5,80,151,107"/>
+<area shape="rect" href="../../da/d19/a01217.php" title="Change the text color in the console." alt="" coords="7,5,149,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::Console::Reinit:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d39/a01219.png" border="0" usemap="#amcd_1_1Console_1_1Reinit_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1Console_1_1Reinit_coll__map" id="mcd_1_1Console_1_1Reinit_coll__map">
+<area shape="rect" title="Reinit the color in the console." alt="" coords="5,80,151,107"/>
+<area shape="rect" href="../../da/d19/a01217.php" title="Change the text color in the console." alt="" coords="7,5,149,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a53127e524387d7c4d222ff55985d6f4b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a01221.php#a53127e524387d7c4d222ff55985d6f4b">Reinit</a> ()</td></tr>
+<tr class="separator:a53127e524387d7c4d222ff55985d6f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a01217"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a01217')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../da/d19/a01217.php">mcd::Console::Color</a></td></tr>
+<tr class="memitem:afabf60910f6b7f9753511c6fd11f8d12 inherit pub_methods_a01217"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#afabf60910f6b7f9753511c6fd11f8d12">Color</a> (const std::string &amp;color)</td></tr>
+<tr class="memdesc:afabf60910f6b7f9753511c6fd11f8d12 inherit pub_methods_a01217"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../da/d19/a01217.php" title="Change the text color in the console.">Color</a> object with a first color.  <a href="../../da/d19/a01217.php#afabf60910f6b7f9753511c6fd11f8d12">More...</a><br /></td></tr>
+<tr class="separator:afabf60910f6b7f9753511c6fd11f8d12 inherit pub_methods_a01217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad276e26fc3ba34d385cbe4fbc12aef6c inherit pub_methods_a01217"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#ad276e26fc3ba34d385cbe4fbc12aef6c">~Color</a> ()</td></tr>
+<tr class="separator:ad276e26fc3ba34d385cbe4fbc12aef6c inherit pub_methods_a01217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf5fdca03c376b0dd118194c77cf3ca0 inherit pub_methods_a01217"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:adf5fdca03c376b0dd118194c77cf3ca0 inherit pub_methods_a01217"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#adf5fdca03c376b0dd118194c77cf3ca0">Color</a> (<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> color, Args... args)</td></tr>
+<tr class="memdesc:adf5fdca03c376b0dd118194c77cf3ca0 inherit pub_methods_a01217"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../da/d19/a01217.php" title="Change the text color in the console.">Color</a> object with colors.  <a href="../../da/d19/a01217.php#adf5fdca03c376b0dd118194c77cf3ca0">More...</a><br /></td></tr>
+<tr class="separator:adf5fdca03c376b0dd118194c77cf3ca0 inherit pub_methods_a01217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23ae64b87c3d76f8c4910443b4e63f53 inherit pub_methods_a01217"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#a23ae64b87c3d76f8c4910443b4e63f53">addColors</a> (int color)</td></tr>
+<tr class="memdesc:a23ae64b87c3d76f8c4910443b4e63f53 inherit pub_methods_a01217"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="../../da/d19/a01217.php#a23ae64b87c3d76f8c4910443b4e63f53">More...</a><br /></td></tr>
+<tr class="separator:a23ae64b87c3d76f8c4910443b4e63f53 inherit pub_methods_a01217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7faff8f12e3d4bd9ec63422f4716cde8 inherit pub_methods_a01217"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:a7faff8f12e3d4bd9ec63422f4716cde8 inherit pub_methods_a01217"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#a7faff8f12e3d4bd9ec63422f4716cde8">addColors</a> (int color, Args... args)</td></tr>
+<tr class="memdesc:a7faff8f12e3d4bd9ec63422f4716cde8 inherit pub_methods_a01217"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="../../da/d19/a01217.php#a7faff8f12e3d4bd9ec63422f4716cde8">More...</a><br /></td></tr>
+<tr class="separator:a7faff8f12e3d4bd9ec63422f4716cde8 inherit pub_methods_a01217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab16c17203be13b1462b08c5d74f074ad inherit pub_methods_a01217"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#ab16c17203be13b1462b08c5d74f074ad">addColors</a> (const <a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> &amp;color)</td></tr>
+<tr class="memdesc:ab16c17203be13b1462b08c5d74f074ad inherit pub_methods_a01217"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="../../da/d19/a01217.php#ab16c17203be13b1462b08c5d74f074ad">More...</a><br /></td></tr>
+<tr class="separator:ab16c17203be13b1462b08c5d74f074ad inherit pub_methods_a01217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f851c02a93ea3be04f5fcc50538114a inherit pub_methods_a01217"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:a2f851c02a93ea3be04f5fcc50538114a inherit pub_methods_a01217"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#a2f851c02a93ea3be04f5fcc50538114a">addColors</a> (const <a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> &amp;color, Args... args)</td></tr>
+<tr class="memdesc:a2f851c02a93ea3be04f5fcc50538114a inherit pub_methods_a01217"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="../../da/d19/a01217.php#a2f851c02a93ea3be04f5fcc50538114a">More...</a><br /></td></tr>
+<tr class="separator:a2f851c02a93ea3be04f5fcc50538114a inherit pub_methods_a01217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="../../dd/d3f/a01221.php" title="Reinit the color in the console.">Reinit</a> the color in the console. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a53127e524387d7c4d222ff55985d6f4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53127e524387d7c4d222ff55985d6f4b">&#9670;&nbsp;</a></span>Reinit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Console::Reinit::Reinit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../de/de1/a00065.php">console.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">Console</a></li><li class="navelem"><a class="el" href="../../dd/d3f/a01221.php">Reinit</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

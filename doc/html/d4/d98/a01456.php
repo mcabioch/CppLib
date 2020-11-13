@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 11:03:54 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -148,6 +148,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5bccad40e32efad3b685320434e65201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58c2e9df00704c786bfcfcca5a383a0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d98/a01456.php#a58c2e9df00704c786bfcfcca5a383a0e">pop</a> (size_t pos=0)</td></tr>
 <tr class="separator:a58c2e9df00704c786bfcfcca5a383a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb5d16922f908bf0ae4422d89c728e90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d98/a01456.php#abb5d16922f908bf0ae4422d89c728e90">push</a> (const C &amp;obj, size_t pos=0)</td></tr>
+<tr class="separator:abb5d16922f908bf0ae4422d89c728e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -469,6 +471,44 @@ template&lt;class C &gt; </div>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>pos</em> = <code>0</code></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb5d16922f908bf0ae4422d89c728e90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb5d16922f908bf0ae4422d89c728e90">&#9670;&nbsp;</a></span>push()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/d98/a01456.php">mcd::vector</a>&lt; C &gt;::push </td>
+          <td>(</td>
+          <td class="paramtype">const C &amp;&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>

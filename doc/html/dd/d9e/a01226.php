@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,14 +92,20 @@ $(document).ready(function(){initNavTree('db/d1c/a01229.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::ThreadEndlCout Member List</div>  </div>
+<div class="title">mcd::Console::Cursor Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../db/d1c/a01229.php">mcd::ThreadEndlCout</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../db/d1c/a01229.php">mcd::Console::Cursor</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d1c/a01229.php#a53ccbe8d25d6cb23a3621a5c6d62598d">ThreadEndlCout</a>()</td><td class="entry"><a class="el" href="../../db/d1c/a01229.php">mcd::ThreadEndlCout</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/d1c/a01229.php#a7add9326a30b5b2b77fd7352e12f4ec2">~ThreadEndlCout</a>()</td><td class="entry"><a class="el" href="../../db/d1c/a01229.php">mcd::ThreadEndlCout</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d1c/a01229.php#a650ac2ee499c377d8dc5810e086ad63e">goTo</a>(T x, T y)</td><td class="entry"><a class="el" href="../../db/d1c/a01229.php">mcd::Console::Cursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/d1c/a01229.php#a93a1257dc789cafba70cc0616122f839">home</a>()</td><td class="entry"><a class="el" href="../../db/d1c/a01229.php">mcd::Console::Cursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d1a/a01405.php#ab67f25d69c1686f95be6fbfcc4ac4663">PureVirtual</a>()</td><td class="entry"><a class="el" href="../../d4/d1a/a01405.php">mcd::PureVirtual</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/d1a/a01405.php#a1885fa694cc2d28cb55186fb3b53615d">PureVirtualMethod</a>() final=0</td><td class="entry"><a class="el" href="../../d4/d1a/a01405.php">mcd::PureVirtual</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d1c/a01229.php#ab51d7a550a76b14c50a10a973200c95c">put</a>(const std::string &amp;str, T x, T y, const Color &amp;color=0)</td><td class="entry"><a class="el" href="../../db/d1c/a01229.php">mcd::Console::Cursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/d1c/a01229.php#a4b4cb44eb4f5f6f88375fea201f8b988">restore</a>()</td><td class="entry"><a class="el" href="../../db/d1c/a01229.php">mcd::Console::Cursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/d1c/a01229.php#a43691704009afbb5f00b2b8e09f2ff02">save</a>()</td><td class="entry"><a class="el" href="../../db/d1c/a01229.php">mcd::Console::Cursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/d1a/a01405.php#acb8cb10e007f7c5f6ac757843a212598">~PureVirtual</a>()</td><td class="entry"><a class="el" href="../../d4/d1a/a01405.php">mcd::PureVirtual</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

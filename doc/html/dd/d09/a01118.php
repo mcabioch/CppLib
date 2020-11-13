@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,23 +92,15 @@ $(document).ready(function(){initNavTree('dd/de4/a01121.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::AssertionException Member List</div>  </div>
+<div class="title">mcd::Assert Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dd/de4/a01121.php">mcd::AssertionException</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dd/de4/a01121.php">mcd::Assert</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d1a/a01285.php#a8cffcfc2c1a631bee3154a999bf13bf1">_msg</a></td><td class="entry"><a class="el" href="../../d1/d1a/a01285.php">mcd::exception</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/de4/a01121.php#ad93f95c8923581b9ce4e3d28d63a243e">AssertionException</a>(const std::string &amp;explaination)</td><td class="entry"><a class="el" href="../../dd/de4/a01121.php">mcd::AssertionException</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d1a/a01285.php#a2af015139a223dafbf1556911aca048d">exception</a>() noexcept</td><td class="entry"><a class="el" href="../../d1/d1a/a01285.php">mcd::exception</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/d1a/a01285.php#afdb84ab5c36cbf3569727fcf129fb872">exception</a>(const std::string &amp;msg) noexcept</td><td class="entry"><a class="el" href="../../d1/d1a/a01285.php">mcd::exception</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d1a/a01285.php#aa83410abcc4449a02ce5835c8ad9bd34">exception</a>(const exception &amp;other) noexcept</td><td class="entry"><a class="el" href="../../d1/d1a/a01285.php">mcd::exception</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/d1a/a01285.php#abc6b0649cf43073f41f4d1d0617af24d">exception</a>(const exception &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../d1/d1a/a01285.php">mcd::exception</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d1a/a01285.php#ab86ac60ef49f2bf978faa24588b32ced">operator=</a>(const exception &amp;other) noexcept</td><td class="entry"><a class="el" href="../../d1/d1a/a01285.php">mcd::exception</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/d1a/a01285.php#a70ab36f825287dc96ff7fb3517f9b46e">operator=</a>(const exception &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../d1/d1a/a01285.php">mcd::exception</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d1a/a01285.php#a04d412a2a5c85d9e16d67539134b419f">what</a>() const noexcept</td><td class="entry"><a class="el" href="../../d1/d1a/a01285.php">mcd::exception</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/de4/a01121.php#a8583b92f139f554fca4e9ef10851b9b6">~AssertionException</a>()</td><td class="entry"><a class="el" href="../../dd/de4/a01121.php">mcd::AssertionException</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d1a/a01285.php#ae32a0816168e0f4ff7ba8d688d839dc8">~exception</a>() noexcept</td><td class="entry"><a class="el" href="../../d1/d1a/a01285.php">mcd::exception</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/de4/a01121.php#ad4dd96d96703a8dd5efcd62ee8d3a78d">Assert</a>()</td><td class="entry"><a class="el" href="../../dd/de4/a01121.php">mcd::Assert</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/de4/a01121.php#ab411af4c628ae6ed469f78119eb99de4">operator()</a>(bool expr, const AssertionLocationStruct &amp;location, const std::string &amp;msg)</td><td class="entry"><a class="el" href="../../dd/de4/a01121.php">mcd::Assert</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/de4/a01121.php#a0abb896db412bab499f6d1bd59d65a10">~Assert</a>()</td><td class="entry"><a class="el" href="../../dd/de4/a01121.php">mcd::Assert</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

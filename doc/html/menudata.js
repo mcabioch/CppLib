@@ -185,6 +185,7 @@ var menudata={children:[
 {text:"b",url:"globals_defs.php#index_b"},
 {text:"c",url:"globals_defs.php#index_c"},
 {text:"d",url:"globals_defs.php#index_d"},
+{text:"g",url:"globals_defs.php#index_g"},
 {text:"h",url:"globals_defs.php#index_h"},
 {text:"l",url:"globals_defs.php#index_l"},
 {text:"m",url:"globals_defs.php#index_m"},

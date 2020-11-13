@@ -1,7 +1,4 @@
-<map id="mcd::Vegetal" name="mcd::Vegetal">
-<area shape="rect" id="node1" title="A vegetal." alt="" coords="77,155,175,181"/>
-<area shape="rect" id="node4" href="$de/d90/a01313.php" title="A mushroom." alt="" coords="5,229,121,256"/>
-<area shape="rect" id="node5" href="$d4/dad/a01353.php" title="A plant." alt="" coords="146,229,231,256"/>
-<area shape="rect" id="node2" href="$d6/d16/a01269.php" title="An entity." alt="" coords="81,80,171,107"/>
-<area shape="rect" id="node3" href="$d6/da1/a01233.php" title="A contraption." alt="" coords="65,5,187,32"/>
+<map id="mcd::Time" name="mcd::Time">
+<area shape="rect" id="node1" title="A class to play with dates." alt="" coords="19,5,103,32"/>
+<area shape="rect" id="node2" href="$d2/d1d/a01277.php" title="A class to play with dates and times." alt="" coords="5,80,117,107"/>
 </map>

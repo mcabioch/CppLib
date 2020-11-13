@@ -1,4 +1,4 @@
-<map id="mcd::trio&lt; T, U, V &gt;" name="mcd::trio&lt; T, U, V &gt;">
-<area shape="rect" id="node1" title="A container for three values." alt="" coords="5,124,144,151"/>
-<area shape="rect" id="node2" title=" " alt="" coords="55,5,94,32"/>
+<map id="mcd::Node&lt; T &gt;" name="mcd::Node&lt; T &gt;">
+<area shape="rect" id="node1" title="A struct to define a node for the tree." alt="" coords="5,95,124,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="45,5,84,32"/>
 </map>

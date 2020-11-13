@@ -2,7 +2,7 @@
  *
  *	\file		maths.hpp
  *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	November, 21 2019
+ *	\modified	November, 13 2020
  *
  */
 #ifndef HEADER_CPP_MATHS
@@ -54,7 +54,8 @@ namespace mcd
      * \brief	Return the modulo of two numbers
      *		\param[in]		a				The value to compute
      *		\param[in]		b				The max value of the modulo
-     *		\param[in]		positive		If set to \a true, the result will be between 0 and \a
+     *		\param[in]		positive		If set to \a true, the result will
+     *be between 0 and \a
      *b
      *
      *		\return			Return the result of the modulo
@@ -80,7 +81,8 @@ namespace mcd
      * \brief	Return the modular inverse of a number
      *		\param[in]		a				The value to compute
      *		\param[in]		b				The max value of the modulo
-     *		\param[in]		positive		If set to \a true, the result will be between 0 and \a
+     *		\param[in]		positive		If set to \a true, the result will
+     *be between 0 and \a
      *b
      *
      *		\return			Return the result of the modulo
@@ -328,6 +330,24 @@ namespace mcd
     inline double64_t dsigmoide(double64_t in) {
         return (std::exp(-1 * in) / sq(1 + std::exp(-1 * in)));
     }
+
+    /*!
+     * \brief	Return the result of the tanh function
+     *		\param[in]		in		The value to compute
+     *
+     *		\return			Return the result
+     */
+    inline double64_t tanh(double64_t in) {
+        return static_cast< double64_t >(std::tanh(static_cast< double >(in)));
+    }
+
+    /*!
+     * \brief	Compute with the derivated tanh
+     *		\param[in]		in		The value to compute
+     *
+     *		\return			Return the result
+     */
+    inline double64_t dtanh(double64_t in) { return 1.0 - in * in; }
 
     /*!
      * \brief	Do the log of x in base 2

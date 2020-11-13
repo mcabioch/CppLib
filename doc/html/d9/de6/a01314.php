@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,27 +92,23 @@ $(document).ready(function(){initNavTree('df/db8/a01317.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Logger Member List</div>  </div>
+<div class="title">mcd::JsonException Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../df/db8/a01317.php">mcd::Logger</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../df/db8/a01317.php">mcd::JsonException</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95ad58a475f585716dda86e2e0af0570cec">All</a> enum value</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">Debug</a> enum value</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95a98b026269a3081d4a4801bc7418e1d47">Error</a> enum value</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95a3b0278ed2e63ab59b05883c3943c73cf">Fatal</a> enum value</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95ae7888eab8f157c2bc53e24557f2a8458">Info</a> enum value</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/db8/a01317.php#ab549f25e73c47afaff922b59cda6ccc4">init</a>(const std::string &amp;logConfigFile)</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/db8/a01317.php#a365030ec32e6af40c6c53a53ff5163f4">isEnabled</a>(Level level)</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/db8/a01317.php#ad8527d935f1fa6c697d792a8f72276e4">isInit</a>() const</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a> enum name</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/db8/a01317.php#a2cb99172e98a89e45fdcb9b394eea99e">log</a>(Level level, int line, const std::string &amp;file, Args... args)</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/db8/a01317.php#a189cdd6486b23632d014a2e795ed8e13">Logger</a>()</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95a0bab71bd19d6bf8a3e85aaf73e41814a">Off</a> enum value</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/db8/a01317.php#a9351097884f74c914c92bd982e70d159">reset</a>(std::string file, int line)</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/db8/a01317.php#a25d94050e8e7f91c7e1f02ddc2af8e95a97b60120ff602c7d5050124927962f79">Warn</a> enum value</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/db8/a01317.php#a9b43e0ba2ab53c8a6758b20d3f828f96">~Logger</a>()</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::Logger</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a8cffcfc2c1a631bee3154a999bf13bf1">_msg</a></td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a2af015139a223dafbf1556911aca048d">exception</a>() noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#afdb84ab5c36cbf3569727fcf129fb872">exception</a>(const std::string &amp;msg) noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#aa83410abcc4449a02ce5835c8ad9bd34">exception</a>(const exception &amp;other) noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#abc6b0649cf43073f41f4d1d0617af24d">exception</a>(const exception &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/db8/a01317.php#ac80239516f752b73d5771ea92f6dc320">JsonException</a>()</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::JsonException</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/db8/a01317.php#a95d09c64aa4f7b428ffb410467a01203">JsonException</a>(const std::string &amp;message)</td><td class="entry"><a class="el" href="../../df/db8/a01317.php">mcd::JsonException</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#ab86ac60ef49f2bf978faa24588b32ced">operator=</a>(const exception &amp;other) noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a70ab36f825287dc96ff7fb3517f9b46e">operator=</a>(const exception &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a04d412a2a5c85d9e16d67539134b419f">what</a>() const noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#ae32a0816168e0f4ff7ba8d688d839dc8">~exception</a>() noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::JsonException Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('df/dec/a01320.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('df/db8/a01317.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,34 +91,141 @@ $(document).ready(function(){initNavTree('df/dec/a01320.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d9/de6/a01314.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Logger Member List</div>  </div>
+<div class="title">mcd::JsonException Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../df/dec/a01320.php">mcd::Logger</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95ad58a475f585716dda86e2e0af0570cec">All</a> enum value</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">Debug</a> enum value</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95a98b026269a3081d4a4801bc7418e1d47">Error</a> enum value</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95a3b0278ed2e63ab59b05883c3943c73cf">Fatal</a> enum value</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95ae7888eab8f157c2bc53e24557f2a8458">Info</a> enum value</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dec/a01320.php#ab549f25e73c47afaff922b59cda6ccc4">init</a>(const std::string &amp;logConfigFile)</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dec/a01320.php#a365030ec32e6af40c6c53a53ff5163f4">isEnabled</a>(Level level)</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dec/a01320.php#ad8527d935f1fa6c697d792a8f72276e4">isInit</a>() const</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95">Level</a> enum name</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dec/a01320.php#a2cb99172e98a89e45fdcb9b394eea99e">log</a>(Level level, int line, const std::string &amp;file, Args... args)</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dec/a01320.php#a189cdd6486b23632d014a2e795ed8e13">Logger</a>()</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95a0bab71bd19d6bf8a3e85aaf73e41814a">Off</a> enum value</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dec/a01320.php#a9351097884f74c914c92bd982e70d159">reset</a>(std::string file, int line)</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/dec/a01320.php#a25d94050e8e7f91c7e1f02ddc2af8e95a97b60120ff602c7d5050124927962f79">Warn</a> enum value</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/dec/a01320.php#a9b43e0ba2ab53c8a6758b20d3f828f96">~Logger</a>()</td><td class="entry"><a class="el" href="../../df/dec/a01320.php">mcd::Logger</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to throw <a class="el" href="../../de/d90/a01313.php" title="A class to manage Json formatted data.">Json</a> exceptions.  
+ <a href="../../df/db8/a01317.php#details">More...</a></p>
+
+<p><code>#include &lt;JsonException.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::JsonException:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d49/a01316.png" border="0" usemap="#amcd_1_1JsonException_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1JsonException_inherit__map" id="mcd_1_1JsonException_inherit__map">
+<area shape="rect" title="A class to throw Json exceptions." alt="" coords="5,155,147,181"/>
+<area shape="rect" href="../../d9/dda/a01289.php" title="A class to call custom exceptions." alt="" coords="21,80,131,107"/>
+<area shape="rect" title="STL class." alt="" coords="24,5,128,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::JsonException:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d8e/a01315.png" border="0" usemap="#amcd_1_1JsonException_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1JsonException_coll__map" id="mcd_1_1JsonException_coll__map">
+<area shape="rect" title="A class to throw Json exceptions." alt="" coords="27,261,168,288"/>
+<area shape="rect" href="../../d9/dda/a01289.php" title="A class to call custom exceptions." alt="" coords="42,185,153,212"/>
+<area shape="rect" title="STL class." alt="" coords="5,96,109,123"/>
+<area shape="rect" title="STL class." alt="" coords="133,96,213,123"/>
+<area shape="rect" title="STL class." alt="" coords="110,5,237,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac80239516f752b73d5771ea92f6dc320"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db8/a01317.php#ac80239516f752b73d5771ea92f6dc320">JsonException</a> ()</td></tr>
+<tr class="separator:ac80239516f752b73d5771ea92f6dc320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95d09c64aa4f7b428ffb410467a01203"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db8/a01317.php#a95d09c64aa4f7b428ffb410467a01203">JsonException</a> (const std::string &amp;message)</td></tr>
+<tr class="separator:a95d09c64aa4f7b428ffb410467a01203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a01289"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a01289')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td></tr>
+<tr class="memitem:a2af015139a223dafbf1556911aca048d inherit pub_methods_a01289"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dda/a01289.php#a2af015139a223dafbf1556911aca048d">exception</a> () noexcept</td></tr>
+<tr class="memdesc:a2af015139a223dafbf1556911aca048d inherit pub_methods_a01289"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d9/dda/a01289.php#a2af015139a223dafbf1556911aca048d">More...</a><br /></td></tr>
+<tr class="separator:a2af015139a223dafbf1556911aca048d inherit pub_methods_a01289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdb84ab5c36cbf3569727fcf129fb872 inherit pub_methods_a01289"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dda/a01289.php#afdb84ab5c36cbf3569727fcf129fb872">exception</a> (const std::string &amp;msg) noexcept</td></tr>
+<tr class="memdesc:afdb84ab5c36cbf3569727fcf129fb872 inherit pub_methods_a01289"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d9/dda/a01289.php#afdb84ab5c36cbf3569727fcf129fb872">More...</a><br /></td></tr>
+<tr class="separator:afdb84ab5c36cbf3569727fcf129fb872 inherit pub_methods_a01289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae32a0816168e0f4ff7ba8d688d839dc8 inherit pub_methods_a01289"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dda/a01289.php#ae32a0816168e0f4ff7ba8d688d839dc8">~exception</a> () noexcept</td></tr>
+<tr class="separator:ae32a0816168e0f4ff7ba8d688d839dc8 inherit pub_methods_a01289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa83410abcc4449a02ce5835c8ad9bd34 inherit pub_methods_a01289"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dda/a01289.php#aa83410abcc4449a02ce5835c8ad9bd34">exception</a> (const <a class="el" href="../../d9/dda/a01289.php">exception</a> &amp;other) noexcept</td></tr>
+<tr class="memdesc:aa83410abcc4449a02ce5835c8ad9bd34 inherit pub_methods_a01289"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy constructor of the class.  <a href="../../d9/dda/a01289.php#aa83410abcc4449a02ce5835c8ad9bd34">More...</a><br /></td></tr>
+<tr class="separator:aa83410abcc4449a02ce5835c8ad9bd34 inherit pub_methods_a01289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc6b0649cf43073f41f4d1d0617af24d inherit pub_methods_a01289"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dda/a01289.php#abc6b0649cf43073f41f4d1d0617af24d">exception</a> (const <a class="el" href="../../d9/dda/a01289.php">exception</a> &amp;&amp;other) noexcept</td></tr>
+<tr class="memdesc:abc6b0649cf43073f41f4d1d0617af24d inherit pub_methods_a01289"><td class="mdescLeft">&#160;</td><td class="mdescRight">The move constructor of the class.  <a href="../../d9/dda/a01289.php#abc6b0649cf43073f41f4d1d0617af24d">More...</a><br /></td></tr>
+<tr class="separator:abc6b0649cf43073f41f4d1d0617af24d inherit pub_methods_a01289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab86ac60ef49f2bf978faa24588b32ced inherit pub_methods_a01289"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dda/a01289.php">exception</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dda/a01289.php#ab86ac60ef49f2bf978faa24588b32ced">operator=</a> (const <a class="el" href="../../d9/dda/a01289.php">exception</a> &amp;other) noexcept</td></tr>
+<tr class="memdesc:ab86ac60ef49f2bf978faa24588b32ced inherit pub_methods_a01289"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy operator of the class.  <a href="../../d9/dda/a01289.php#ab86ac60ef49f2bf978faa24588b32ced">More...</a><br /></td></tr>
+<tr class="separator:ab86ac60ef49f2bf978faa24588b32ced inherit pub_methods_a01289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70ab36f825287dc96ff7fb3517f9b46e inherit pub_methods_a01289"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dda/a01289.php">exception</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dda/a01289.php#a70ab36f825287dc96ff7fb3517f9b46e">operator=</a> (const <a class="el" href="../../d9/dda/a01289.php">exception</a> &amp;&amp;other) noexcept</td></tr>
+<tr class="memdesc:a70ab36f825287dc96ff7fb3517f9b46e inherit pub_methods_a01289"><td class="mdescLeft">&#160;</td><td class="mdescRight">The move operator of the class.  <a href="../../d9/dda/a01289.php#a70ab36f825287dc96ff7fb3517f9b46e">More...</a><br /></td></tr>
+<tr class="separator:a70ab36f825287dc96ff7fb3517f9b46e inherit pub_methods_a01289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04d412a2a5c85d9e16d67539134b419f inherit pub_methods_a01289"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dda/a01289.php#a04d412a2a5c85d9e16d67539134b419f">what</a> () const noexcept</td></tr>
+<tr class="separator:a04d412a2a5c85d9e16d67539134b419f inherit pub_methods_a01289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_a01289"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a01289')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td></tr>
+<tr class="memitem:a8cffcfc2c1a631bee3154a999bf13bf1 inherit pro_attribs_a01289"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dda/a01289.php#a8cffcfc2c1a631bee3154a999bf13bf1">_msg</a></td></tr>
+<tr class="separator:a8cffcfc2c1a631bee3154a999bf13bf1 inherit pro_attribs_a01289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to throw <a class="el" href="../../de/d90/a01313.php" title="A class to manage Json formatted data.">Json</a> exceptions. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ac80239516f752b73d5771ea92f6dc320"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac80239516f752b73d5771ea92f6dc320">&#9670;&nbsp;</a></span>JsonException() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::JsonException::JsonException </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a95d09c64aa4f7b428ffb410467a01203"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95d09c64aa4f7b428ffb410467a01203">&#9670;&nbsp;</a></span>JsonException() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::JsonException::JsonException </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../dc/dfe/a00125.php">JsonException.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../df/db8/a01317.php">JsonException</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

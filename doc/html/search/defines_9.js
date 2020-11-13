@@ -1,13 +1,16 @@
 var searchData=
 [
-  ['unit_5fequals_1742',['unit_equals',['../d6/de1/a00233.php#ac9544a2b3d82fbf7b0913fb29ae4ab1d',1,'Test.hpp']]],
-  ['unit_5ffalse_1743',['unit_false',['../d6/de1/a00233.php#a8882f6cc17a922e91f806a24b4a6f413',1,'Test.hpp']]],
-  ['unit_5fin_1744',['unit_in',['../d6/de1/a00233.php#a31dc59c312f6beaf52e720c5a7dcc017',1,'Test.hpp']]],
-  ['unit_5finstance_1745',['unit_instance',['../d6/de1/a00233.php#a349ad27ffc89c197309d6806895c961d',1,'Test.hpp']]],
-  ['unit_5fnotequals_1746',['unit_notEquals',['../d6/de1/a00233.php#abe6f23e4ac49c7bcf76fa26e710db6b4',1,'Test.hpp']]],
-  ['unit_5fnothrows_1747',['unit_noThrows',['../d6/de1/a00233.php#ab75ba1ba8623d1e9a555541577e8117e',1,'Test.hpp']]],
-  ['unit_5fnotin_1748',['unit_notIn',['../d6/de1/a00233.php#a5eaf417c1ad582f2eb3fdef1e32d5a40',1,'Test.hpp']]],
-  ['unit_5fnotinstance_1749',['unit_notInstance',['../d6/de1/a00233.php#ad118bcf8324d2668994f961ee5019c5b',1,'Test.hpp']]],
-  ['unit_5fthrows_1750',['unit_throws',['../d6/de1/a00233.php#a4feaf992012b5ed9c7f3abc2219d1b7a',1,'Test.hpp']]],
-  ['unit_5ftrue_1751',['unit_true',['../d6/de1/a00233.php#a8ed24c910b9c861fde0ee37cc53a26f2',1,'Test.hpp']]]
+  ['test_5fadd_5ftest_1741',['TEST_ADD_TEST',['../d6/de1/a00233.php#a0c07eac51a83f591603f2456250fe07e',1,'Test.hpp']]],
+  ['test_5fadd_5fthrow_1742',['TEST_ADD_THROW',['../d6/de1/a00233.php#a2035697778ce28474ce1c3ec73753b87',1,'Test.hpp']]],
+  ['test_5fformat_5fall_1743',['TEST_FORMAT_ALL',['../d6/de1/a00233.php#a9a8a8df987750bdc9889c32863383d31',1,'Test.hpp']]],
+  ['test_5fformat_5ferror_1744',['TEST_FORMAT_ERROR',['../d6/de1/a00233.php#ab0c0b90cd164795a353e36bf0b8464e7',1,'Test.hpp']]],
+  ['test_5fformat_5fmax_1745',['TEST_FORMAT_MAX',['../d6/de1/a00233.php#ae6d742460878949f5eea9f395f32548f',1,'Test.hpp']]],
+  ['test_5fformat_5fsuccess_1746',['TEST_FORMAT_SUCCESS',['../d6/de1/a00233.php#ac709139e143e2e7ae4df9ccc578f97be',1,'Test.hpp']]],
+  ['threadable_1747',['THREADABLE',['../d7/d40/a00236.php#a09979566ade438911265d3e17ecc3abc',1,'Threadable.hpp']]],
+  ['threadable_5flock_1748',['THREADABLE_LOCK',['../d7/d40/a00236.php#a3a0fe346d6bb1356037b21f558e5c308',1,'Threadable.hpp']]],
+  ['try_5fcatch_1749',['try_catch',['../d7/d06/a00131.php#a8002d97e9fbabb78da501b4b5a9d188a',1,'lowDefines.hpp']]],
+  ['trycatch_5fassert_1750',['trycatch_assert',['../d4/d51/a00017.php#a20506cf4a1f5163830310250a8d3d1ba',1,'Assert.hpp']]],
+  ['trycatch_5fassert_5f1_1751',['trycatch_assert_1',['../d4/d51/a00017.php#a03a10d236fc4f20f3112800357d031b8',1,'Assert.hpp']]],
+  ['trycatch_5fassert_5f2_1752',['trycatch_assert_2',['../d4/d51/a00017.php#aeb5765b3fff243e2890aaa95685cff04',1,'Assert.hpp']]],
+  ['trycatch_5fassert_5fx_1753',['trycatch_assert_X',['../d4/d51/a00017.php#a5d54e82e2c44992f7970be8337f7c3e9',1,'Assert.hpp']]]
 ];

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -143,6 +143,9 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php',''); initRe
 </li>
 <li>dsigmoide()
 : <a class="el" href="db/d12/a00268.php#a9042d2e8e9a6311b4260c6f376f4072c">mcd</a>
+</li>
+<li>dtanh()
+: <a class="el" href="db/d12/a00268.php#a9767e5acc7c07b8ef837e2485dfc3ec5">mcd</a>
 </li>
 </ul>
 
@@ -315,6 +318,9 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php',''); initRe
 <li>printable()
 : <a class="el" href="dd/d86/a00271.php#ab0b2e96bd3f31d823dad478c5f54abf1">mcd::Check</a>
 </li>
+<li>printLine()
+: <a class="el" href="d9/dd6/a00272.php#a45ee529c25adecff1046978f105c7a0b">mcd::Console</a>
+</li>
 <li>printSize()
 : <a class="el" href="db/d12/a00268.php#a5046a9dfac4629babcb20cf7b914415e">mcd</a>
 </li>
@@ -400,6 +406,9 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php',''); initRe
 
 
 <h3><a id="index_t"></a>- t -</h3><ul>
+<li>tanh()
+: <a class="el" href="db/d12/a00268.php#a9db342c58a4088c0753e28475e369323">mcd</a>
+</li>
 <li>tob()
 : <a class="el" href="db/d12/a00268.php#a7b322c51a82629ed6b2325f2f938eae3">mcd</a>
 </li>

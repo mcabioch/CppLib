@@ -57,6 +57,20 @@ namespace mcd
     try {                                                                                          \
         Instruction;                                                                               \
     } catch (const Exception& exception) { exception.what(); }
+
+/*!
+ * \brief    A define to generate begin, cebgin, end, and cend iterators.
+ * \param[in]   ArrayType      The type of the array to create iterators for
+ * \param[in]   ArrayMember    The name of the member variable to create iterators for
+ */
+#define GENERATE_ITERATORS(ArrayType, ArrayMember)                                                 \
+    typename ArrayType::iterator       begin() { return ArrayMember.begin(); }                     \
+    typename ArrayType::const_iterator begin() const { return ArrayMember.begin(); }               \
+    typename ArrayType::const_iterator cbegin() const { return begin(); }                          \
+                                                                                                   \
+    typename ArrayType::iterator       end() { return ArrayMember.end(); }                         \
+    typename ArrayType::const_iterator end() const { return ArrayMember.end(); }                   \
+    typename ArrayType::const_iterator cend() const { return end(); }
 }   // namespace mcd
 
 #endif   // HEADER_LOW_DEFINES

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,13 +92,13 @@ $(document).ready(function(){initNavTree('d7/daf/a01169.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Check::is_duration&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::Check::is_smatch&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d7/daf/a01169.php">mcd::Check::is_duration&lt; T &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d7/daf/a01169.php">mcd::Check::is_smatch&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/daf/a01169.php#a344818944230a22a8c7988dd3ba8e2f9">value</a></td><td class="entry"><a class="el" href="../../d7/daf/a01169.php">mcd::Check::is_duration&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/daf/a01169.php#a573e824f7b1584fa564c91c1e5814453">value</a></td><td class="entry"><a class="el" href="../../d7/daf/a01169.php">mcd::Check::is_smatch&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

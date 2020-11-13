@@ -1,6 +1,6 @@
 var a01353 =
 [
-    [ "operator<", "d4/dad/a01353.php#accb5b160fd3f52084b8b83c8dddaae93", null ],
-    [ "operator==", "d4/dad/a01353.php#af8e324237235cd148492d82eadf94e0c", null ],
-    [ "id", "d4/dad/a01353.php#ac252a8bf89c83a96e63604fdb8eb144b", null ]
+    [ "NotInstantiable", "d4/dad/a01353.php#a760ca4c32c24cf2b4c4c2ef07b51f997", null ],
+    [ "~NotInstantiable", "d4/dad/a01353.php#a096b44b3d9fe8e567b179ac3d3dbacff", null ],
+    [ "notInstantiable", "d4/dad/a01353.php#a19c59f78b217426061641970c9f11022", null ]
 ];

@@ -2,7 +2,7 @@
  *
  *	\file		system.hpp
  *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	April, 24 2019
+ *	\modified	November, 13 2020
  *
  */
 #ifndef HEADER_CPP_SYSTEM

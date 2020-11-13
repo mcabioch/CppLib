@@ -1,11 +1,6 @@
 var a01109 =
 [
-    [ "t_queue", "d8/dbf/a01109.php#a6113ab263c40412573cb17961892e4eb", null ],
-    [ "back", "d8/dbf/a01109.php#a13305f6ee7ad6fc7836d5676f03dcab5", null ],
-    [ "empty", "d8/dbf/a01109.php#aa3176d64efc60f11b708e10e6ff6e5b1", null ],
-    [ "front", "d8/dbf/a01109.php#aa86287081828d6ab7ea9b7e1b71616ac", null ],
-    [ "pop", "d8/dbf/a01109.php#a58fca05ec029f576c97b72ca2eba44ef", null ],
-    [ "push", "d8/dbf/a01109.php#a7108e587ce260901f5fdac365db13fab", null ],
-    [ "push", "d8/dbf/a01109.php#a7ccba4c88decd735670f069077bce0b0", null ],
-    [ "size", "d8/dbf/a01109.php#aebab69e6bea31ae90fcc6c56af6b847e", null ]
+    [ "queue", "d8/dbf/a01109.php#a0566f226253ef02ac813bad965f647b9", null ],
+    [ "get", "d8/dbf/a01109.php#a148295001e6effa1aa1217af766e021f", null ],
+    [ "pop", "d8/dbf/a01109.php#a9c9c5803f41517e0b1b8d75441cd4b09", null ]
 ];

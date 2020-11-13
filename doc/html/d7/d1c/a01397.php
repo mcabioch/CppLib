@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Check::is_minded_ptr&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('dc/d35/a01400.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d7/d1c/a01397.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,20 +91,64 @@ $(document).ready(function(){initNavTree('dc/d35/a01400.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="../../d6/d2f/a01394.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_thread_ptr&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::Check::is_minded_ptr&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/d35/a01400.php">mcd::Check::is_thread_ptr&lt; T &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d35/a01400.php#aeaf71256c26f5b5be4a5e5db9035500b">value</a></td><td class="entry"><a class="el" href="../../dc/d35/a01400.php">mcd::Check::is_thread_ptr&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<p>A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr.  
+ <a href="../../d7/d1c/a01397.php#details">More...</a></p>
+
+<p><code>#include &lt;pointers.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a76170894810e15b11dafb7f34965aef4"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a01397.php#a76170894810e15b11dafb7f34965aef4">value</a> = false</td></tr>
+<tr class="separator:a76170894810e15b11dafb7f34965aef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class mcd::Check::is_minded_ptr&lt; T &gt;</h3>
+
+<p>A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a76170894810e15b11dafb7f34965aef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76170894810e15b11dafb7f34965aef4">&#9670;&nbsp;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool <a class="el" href="../../d7/d1c/a01397.php">mcd::Check::is_minded_ptr</a>&lt; T &gt;::value = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d5/df1/a00206.php">pointers.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d86/a00271.php">Check</a></li><li class="navelem"><a class="el" href="../../d7/d1c/a01397.php">is_minded_ptr</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -169,6 +169,13 @@ $(document).ready(function(){initNavTree('globals_defs.php',''); initResizable()
 </ul>
 
 
+<h3><a id="index_g"></a>- g -</h3><ul>
+<li>GENERATE_ITERATORS
+: <a class="el" href="d7/d06/a00131.php#adf3d20aa957d03b79d774e80ab0507ed">lowDefines.hpp</a>
+</li>
+</ul>
+
+
 <h3><a id="index_h"></a>- h -</h3><ul>
 <li>has_method
 : <a class="el" href="dc/dee/a00053.php#a92713af8c651ed158031ed7d3fd15977">check.hpp</a>
@@ -248,6 +255,9 @@ $(document).ready(function(){initNavTree('globals_defs.php',''); initResizable()
 </li>
 <li>THREADABLE_LOCK
 : <a class="el" href="d7/d40/a00236.php#a3a0fe346d6bb1356037b21f558e5c308">Threadable.hpp</a>
+</li>
+<li>try_catch
+: <a class="el" href="d7/d06/a00131.php#a8002d97e9fbabb78da501b4b5a9d188a">lowDefines.hpp</a>
 </li>
 <li>trycatch_assert
 : <a class="el" href="d4/d51/a00017.php#a20506cf4a1f5163830310250a8d3d1ba">Assert.hpp</a>

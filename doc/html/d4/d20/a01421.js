@@ -1,17 +1,13 @@
 var a01421 =
 [
-    [ "Time", "d4/d20/a01421.php#ac802213e9ca41cc731f14619534e0249", null ],
-    [ "Time", "d4/d20/a01421.php#afa17085534ed1da008f6dd39cef039f2", null ],
-    [ "~Time", "d4/d20/a01421.php#aef071966b669112898476801bf63bcba", null ],
-    [ "get", "d4/d20/a01421.php#af9360f3323012f2572ffb3f8924fca62", null ],
-    [ "hour", "d4/d20/a01421.php#afc42ec7546725501d6cd8eb069e92a52", null ],
-    [ "init", "d4/d20/a01421.php#a3e19605ece31340f27255a79beb193d4", null ],
-    [ "milli", "d4/d20/a01421.php#a22a7371879c50752d94338e631ab37a7", null ],
-    [ "minute", "d4/d20/a01421.php#a56b7fdec50bc1b7f5fb991260cb18104", null ],
-    [ "reset", "d4/d20/a01421.php#a94d4610fef5db9db60ca31d7d64230dc", null ],
-    [ "second", "d4/d20/a01421.php#a5a3510ec96b9698b8cf601a2a1b9d90c", null ],
-    [ "set", "d4/d20/a01421.php#aa843463db53892a16778dd0d71ec2dad", null ],
-    [ "operator<", "d4/d20/a01421.php#a2176bf97f6b18969bb71b7c3f2e56234", null ],
-    [ "operator<<", "d4/d20/a01421.php#aa153c7e397eda8644c840a97f6036c5b", null ],
-    [ "operator==", "d4/d20/a01421.php#a7f236759032a4630990af05bd6c8530b", null ]
+    [ "addSuite", "d4/d20/a01421.php#ad42ea83a5e78bd14d0d2af06716dabd3", null ],
+    [ "addTest", "d4/d20/a01421.php#ad9e5ce30e83438c731c0b32558087e7e", null ],
+    [ "addThrow", "d4/d20/a01421.php#abd689a9285398f98dcf09722ca676070", null ],
+    [ "failures", "d4/d20/a01421.php#a8eca6a0ca43bb94945dd97f9d43f8042", null ],
+    [ "in", "d4/d20/a01421.php#a1361402d9c24abe3aa4e44cce65de4b5", null ],
+    [ "instance", "d4/d20/a01421.php#a7602fba793072f87e41fb0df3884ce24", null ],
+    [ "nb", "d4/d20/a01421.php#acfe8416a1f76010757bda8e2c68412ae", null ],
+    [ "print", "d4/d20/a01421.php#ac6b9760deebd8280c822a0d7b6541b13", null ],
+    [ "run", "d4/d20/a01421.php#ad0540f76b1d762f87f48b1333c499d96", null ],
+    [ "success", "d4/d20/a01421.php#a2460015b885027e9c03ee911b1466f67", null ]
 ];

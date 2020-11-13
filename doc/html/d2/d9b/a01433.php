@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::Tree&lt; T &gt; Class Template Reference</title>
+		<title>C++: mcd::Timer Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,164 +93,142 @@ $(document).ready(function(){initNavTree('d2/d9b/a01433.php','../../'); initResi
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d8/dd0/a01430.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Tree&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::Timer Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to manage a binary tree.  
+<p>A timer to do something at the end.  
  <a href="../../d2/d9b/a01433.php#details">More...</a></p>
 
-<p><code>#include &lt;Tree.hpp&gt;</code></p>
+<p><code>#include &lt;Timer.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::Timer:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/dff/a01432.png" border="0" usemap="#amcd_1_1Timer_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1Timer_inherit__map" id="mcd_1_1Timer_inherit__map">
+<area shape="rect" title="A timer to do something at the end." alt="" coords="49,171,137,197"/>
+<area shape="rect" href="../../db/df2/a01425.php" title=" " alt="" coords="5,95,181,121"/>
+<area shape="rect" href="../../db/df2/a01425.php" title="A class to let another one to be threadable with update() member in a thread." alt="" coords="17,5,170,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::Timer:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/d8b/a01431.png" border="0" usemap="#amcd_1_1Timer_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1Timer_coll__map" id="mcd_1_1Timer_coll__map">
+<area shape="rect" title="A timer to do something at the end." alt="" coords="49,260,137,287"/>
+<area shape="rect" href="../../db/df2/a01425.php" title=" " alt="" coords="5,184,181,211"/>
+<area shape="rect" title="STL class." alt="" coords="51,5,135,32"/>
+<area shape="rect" href="../../db/df2/a01425.php" title="A class to let another one to be threadable with update() member in a thread." alt="" coords="145,95,298,121"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a93774d1792effab8a46379c6781729f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a93774d1792effab8a46379c6781729f0">Tree</a> (<a class="el" href="../../da/d53/a00265.php#a476a24d6aeedfa55efcaee6379946a75">TREE_SORT</a> sorting=<a class="el" href="../../da/d53/a00265.php#a476a24d6aeedfa55efcaee6379946a75a8f22891e42808a1ec2280811f4954151">ASC</a>)</td></tr>
-<tr class="separator:a93774d1792effab8a46379c6781729f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44571a01497b2ac582c292c8bad9de33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a44571a01497b2ac582c292c8bad9de33">~Tree</a> ()</td></tr>
-<tr class="separator:a44571a01497b2ac582c292c8bad9de33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dd3866ef261769430a548223331c98d"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="../../da/d53/a00265.php#d1/d3b/a01429">Node</a>&lt; T &gt; *, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a1dd3866ef261769430a548223331c98d">find</a> (T value)</td></tr>
-<tr class="memdesc:a1dd3866ef261769430a548223331c98d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a value in the tree and return the node and the path to the node.  <a href="../../d2/d9b/a01433.php#a1dd3866ef261769430a548223331c98d">More...</a><br /></td></tr>
-<tr class="separator:a1dd3866ef261769430a548223331c98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada7f6fc4dba1856a8aae67983ba5544b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#ada7f6fc4dba1856a8aae67983ba5544b">getRightCount</a> (<a class="el" href="../../da/d53/a00265.php#d1/d3b/a01429">Node</a>&lt; T &gt; *node)</td></tr>
-<tr class="memdesc:ada7f6fc4dba1856a8aae67983ba5544b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the depth on right.  <a href="../../d2/d9b/a01433.php#ada7f6fc4dba1856a8aae67983ba5544b">More...</a><br /></td></tr>
-<tr class="separator:ada7f6fc4dba1856a8aae67983ba5544b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a634efe609117c9533707b9f30bd0c488"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a634efe609117c9533707b9f30bd0c488">getLeftCount</a> (<a class="el" href="../../da/d53/a00265.php#d1/d3b/a01429">Node</a>&lt; T &gt; *node)</td></tr>
-<tr class="memdesc:a634efe609117c9533707b9f30bd0c488"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the depth on left.  <a href="../../d2/d9b/a01433.php#a634efe609117c9533707b9f30bd0c488">More...</a><br /></td></tr>
-<tr class="separator:a634efe609117c9533707b9f30bd0c488"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e6f8d4ad100be50a970848a0c8437d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a1e6f8d4ad100be50a970848a0c8437d1">print</a> ()</td></tr>
-<tr class="memdesc:a1e6f8d4ad100be50a970848a0c8437d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the tree.  <a href="../../d2/d9b/a01433.php#a1e6f8d4ad100be50a970848a0c8437d1">More...</a><br /></td></tr>
-<tr class="separator:a1e6f8d4ad100be50a970848a0c8437d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1c0e2b0a15c31c48ed5cade92c4ae3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#aa1c0e2b0a15c31c48ed5cade92c4ae3d">applyForEach</a> (void(*func)(<a class="el" href="../../da/d53/a00265.php#d1/d3b/a01429">Node</a>&lt; T &gt; *, long int))</td></tr>
-<tr class="memdesc:aa1c0e2b0a15c31c48ed5cade92c4ae3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do something for each node.  <a href="../../d2/d9b/a01433.php#aa1c0e2b0a15c31c48ed5cade92c4ae3d">More...</a><br /></td></tr>
-<tr class="separator:aa1c0e2b0a15c31c48ed5cade92c4ae3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a069d03de16fc9d3db25d7ec67ed6811b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a069d03de16fc9d3db25d7ec67ed6811b">height</a> ()</td></tr>
-<tr class="memdesc:a069d03de16fc9d3db25d7ec67ed6811b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the height of the tree.  <a href="../../d2/d9b/a01433.php#a069d03de16fc9d3db25d7ec67ed6811b">More...</a><br /></td></tr>
-<tr class="separator:a069d03de16fc9d3db25d7ec67ed6811b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53cd621cced254067f1ebac4e2abe8df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a53cd621cced254067f1ebac4e2abe8df">insert</a> (std::pair&lt; T, <a class="el" href="../../da/d53/a00265.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a> &gt; datas)</td></tr>
-<tr class="memdesc:a53cd621cced254067f1ebac4e2abe8df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert datas in the tree.  <a href="../../d2/d9b/a01433.php#a53cd621cced254067f1ebac4e2abe8df">More...</a><br /></td></tr>
-<tr class="separator:a53cd621cced254067f1ebac4e2abe8df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09e92db6995261c4f6bfd7ce10bf8d2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a09e92db6995261c4f6bfd7ce10bf8d2f">create</a> (std::vector&lt; std::pair&lt; T, <a class="el" href="../../da/d53/a00265.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a> &gt; &gt; datas)</td></tr>
-<tr class="memdesc:a09e92db6995261c4f6bfd7ce10bf8d2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a binary tree with a custom sort function.  <a href="../../d2/d9b/a01433.php#a09e92db6995261c4f6bfd7ce10bf8d2f">More...</a><br /></td></tr>
-<tr class="separator:a09e92db6995261c4f6bfd7ce10bf8d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20ba766efa9e94d90d156432d6f101b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a20ba766efa9e94d90d156432d6f101b1">add</a> (T data, <a class="el" href="../../da/d53/a00265.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a> weight)</td></tr>
-<tr class="memdesc:a20ba766efa9e94d90d156432d6f101b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add datas in the tree.  <a href="../../d2/d9b/a01433.php#a20ba766efa9e94d90d156432d6f101b1">More...</a><br /></td></tr>
-<tr class="separator:a20ba766efa9e94d90d156432d6f101b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38b40b07bade18a081d80596983dd16c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a38b40b07bade18a081d80596983dd16c">equilibrate</a> (<a class="el" href="../../da/d53/a00265.php#a476a24d6aeedfa55efcaee6379946a75">TREE_SORT</a> sort=<a class="el" href="../../da/d53/a00265.php#a476a24d6aeedfa55efcaee6379946a75a8f22891e42808a1ec2280811f4954151">ASC</a>)</td></tr>
-<tr class="memdesc:a38b40b07bade18a081d80596983dd16c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equilibrate the tree.  <a href="../../d2/d9b/a01433.php#a38b40b07bade18a081d80596983dd16c">More...</a><br /></td></tr>
-<tr class="separator:a38b40b07bade18a081d80596983dd16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9cda4b45c11828381cde08fa48ae94d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#ad9cda4b45c11828381cde08fa48ae94d">onDelete</a> (void(*func)(<a class="el" href="../../da/d53/a00265.php#d1/d3b/a01429">Node</a>&lt; T &gt; *))</td></tr>
-<tr class="memdesc:ad9cda4b45c11828381cde08fa48ae94d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A setter for the deletion function.  <a href="../../d2/d9b/a01433.php#ad9cda4b45c11828381cde08fa48ae94d">More...</a><br /></td></tr>
-<tr class="separator:ad9cda4b45c11828381cde08fa48ae94d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a279d0472004ed9618dde58fcfd6bb508"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a279d0472004ed9618dde58fcfd6bb508">onCompare</a> (void(*func)(<a class="el" href="../../da/d53/a00265.php#d1/d3b/a01429">Node</a>&lt; T &gt; *, <a class="el" href="../../da/d53/a00265.php#d1/d3b/a01429">Node</a>&lt; T &gt; *))</td></tr>
-<tr class="memdesc:a279d0472004ed9618dde58fcfd6bb508"><td class="mdescLeft">&#160;</td><td class="mdescRight">A setter for the comparator function.  <a href="../../d2/d9b/a01433.php#a279d0472004ed9618dde58fcfd6bb508">More...</a><br /></td></tr>
-<tr class="separator:a279d0472004ed9618dde58fcfd6bb508"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf42d9cae430064e1b52b8cd3e57ee42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#aaf42d9cae430064e1b52b8cd3e57ee42">asc</a> ()</td></tr>
-<tr class="memdesc:aaf42d9cae430064e1b52b8cd3e57ee42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the sorter ascending.  <a href="../../d2/d9b/a01433.php#aaf42d9cae430064e1b52b8cd3e57ee42">More...</a><br /></td></tr>
-<tr class="separator:aaf42d9cae430064e1b52b8cd3e57ee42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52f3b03c077b82ded999b5cbd197f1e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a52f3b03c077b82ded999b5cbd197f1e3">desc</a> ()</td></tr>
-<tr class="memdesc:a52f3b03c077b82ded999b5cbd197f1e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the sorter descending.  <a href="../../d2/d9b/a01433.php#a52f3b03c077b82ded999b5cbd197f1e3">More...</a><br /></td></tr>
-<tr class="separator:a52f3b03c077b82ded999b5cbd197f1e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5481e4eda9e262899416b01090b9a4a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a5481e4eda9e262899416b01090b9a4a4">launch</a> ()</td></tr>
+<tr class="memdesc:a5481e4eda9e262899416b01090b9a4a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function to start the thread.  <a href="../../d2/d9b/a01433.php#a5481e4eda9e262899416b01090b9a4a4">More...</a><br /></td></tr>
+<tr class="separator:a5481e4eda9e262899416b01090b9a4a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51c964a91c78103efb975c00be769073"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a51c964a91c78103efb975c00be769073">updater</a> ()</td></tr>
+<tr class="memdesc:a51c964a91c78103efb975c00be769073"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function call by the thread, that call <a class="el" href="../../d2/d9b/a01433.php#aa0825ee9a421da67ddac15fd45632d4e">update()</a>  <a href="../../d2/d9b/a01433.php#a51c964a91c78103efb975c00be769073">More...</a><br /></td></tr>
+<tr class="separator:a51c964a91c78103efb975c00be769073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2847ca8c851863418d57e80e972095a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#ae2847ca8c851863418d57e80e972095a">Timer</a> ()</td></tr>
+<tr class="separator:ae2847ca8c851863418d57e80e972095a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ce92c00f251ba4ee94fc8224a9ccbc7"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a5ce92c00f251ba4ee94fc8224a9ccbc7">getStart</a> () const</td></tr>
+<tr class="separator:a5ce92c00f251ba4ee94fc8224a9ccbc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe0b2617d4a9beb52d2118d532d0db03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#afe0b2617d4a9beb52d2118d532d0db03">start</a> (int sec)</td></tr>
+<tr class="separator:afe0b2617d4a9beb52d2118d532d0db03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affd1240db762eb2d3f125bfdda4aa990"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#affd1240db762eb2d3f125bfdda4aa990">restart</a> (int sec)</td></tr>
+<tr class="separator:affd1240db762eb2d3f125bfdda4aa990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0825ee9a421da67ddac15fd45632d4e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#aa0825ee9a421da67ddac15fd45632d4e">update</a> () override</td></tr>
+<tr class="separator:aa0825ee9a421da67ddac15fd45632d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a01425"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a01425')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; Timer &gt;</a></td></tr>
+<tr class="memitem:a04bdb4a894312f6671680c2f103b8a63 inherit pub_methods_a01425"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/a01425.php#a04bdb4a894312f6671680c2f103b8a63">Threadable</a> ()</td></tr>
+<tr class="memdesc:a04bdb4a894312f6671680c2f103b8a63 inherit pub_methods_a01425"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the Threadable class.  <a href="../../db/df2/a01425.php#a04bdb4a894312f6671680c2f103b8a63">More...</a><br /></td></tr>
+<tr class="separator:a04bdb4a894312f6671680c2f103b8a63 inherit pub_methods_a01425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29db3ebe9dfbf77bc04967565c0dcf6e inherit pub_methods_a01425"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/a01425.php#a29db3ebe9dfbf77bc04967565c0dcf6e">Threadable</a> (<a class="el" href="../../db/df2/a01425.php">Threadable</a>&lt; <a class="el" href="../../d2/d9b/a01433.php">Timer</a> &gt; &amp;other)</td></tr>
+<tr class="memdesc:a29db3ebe9dfbf77bc04967565c0dcf6e inherit pub_methods_a01425"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy constructor of the Threadable class.  <a href="../../db/df2/a01425.php#a29db3ebe9dfbf77bc04967565c0dcf6e">More...</a><br /></td></tr>
+<tr class="separator:a29db3ebe9dfbf77bc04967565c0dcf6e inherit pub_methods_a01425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cbceb43796de6c36a5cd4f35a6402cb inherit pub_methods_a01425"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/a01425.php#a4cbceb43796de6c36a5cd4f35a6402cb">Threadable</a> (<a class="el" href="../../db/df2/a01425.php">Threadable</a>&lt; <a class="el" href="../../d2/d9b/a01433.php">Timer</a> &gt; &amp;&amp;other)</td></tr>
+<tr class="memdesc:a4cbceb43796de6c36a5cd4f35a6402cb inherit pub_methods_a01425"><td class="mdescLeft">&#160;</td><td class="mdescRight">The move constructor of the Threadable class.  <a href="../../db/df2/a01425.php#a4cbceb43796de6c36a5cd4f35a6402cb">More...</a><br /></td></tr>
+<tr class="separator:a4cbceb43796de6c36a5cd4f35a6402cb inherit pub_methods_a01425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab98cd8e5cd8832dfd6e82c17d1a689d inherit pub_methods_a01425"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/a01425.php#aab98cd8e5cd8832dfd6e82c17d1a689d">~Threadable</a> ()</td></tr>
+<tr class="memdesc:aab98cd8e5cd8832dfd6e82c17d1a689d inherit pub_methods_a01425"><td class="mdescLeft">&#160;</td><td class="mdescRight">The destructor of the Threadable class.  <a href="../../db/df2/a01425.php#aab98cd8e5cd8832dfd6e82c17d1a689d">More...</a><br /></td></tr>
+<tr class="separator:aab98cd8e5cd8832dfd6e82c17d1a689d inherit pub_methods_a01425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede63b72f054d20e35d22153af8313c8 inherit pub_methods_a01425"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/df2/a01425.php">Threadable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/a01425.php#aede63b72f054d20e35d22153af8313c8">operator=</a> (<a class="el" href="../../db/df2/a01425.php">Threadable</a>&lt; <a class="el" href="../../d2/d9b/a01433.php">Timer</a> &gt; &amp;other) noexcept</td></tr>
+<tr class="memdesc:aede63b72f054d20e35d22153af8313c8 inherit pub_methods_a01425"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy operator of the class.  <a href="../../db/df2/a01425.php#aede63b72f054d20e35d22153af8313c8">More...</a><br /></td></tr>
+<tr class="separator:aede63b72f054d20e35d22153af8313c8 inherit pub_methods_a01425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab51cdb23e70b6ab97afb529098eb20c0 inherit pub_methods_a01425"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/df2/a01425.php">Threadable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/a01425.php#ab51cdb23e70b6ab97afb529098eb20c0">operator=</a> (<a class="el" href="../../db/df2/a01425.php">Threadable</a>&lt; <a class="el" href="../../d2/d9b/a01433.php">Timer</a> &gt; &amp;&amp;other) noexcept</td></tr>
+<tr class="memdesc:ab51cdb23e70b6ab97afb529098eb20c0 inherit pub_methods_a01425"><td class="mdescLeft">&#160;</td><td class="mdescRight">The move operator of the class.  <a href="../../db/df2/a01425.php#ab51cdb23e70b6ab97afb529098eb20c0">More...</a><br /></td></tr>
+<tr class="separator:ab51cdb23e70b6ab97afb529098eb20c0 inherit pub_methods_a01425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dd37d54456e167f8b42d30be7076939 inherit pub_methods_a01425"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/a01425.php#a4dd37d54456e167f8b42d30be7076939">stop</a> ()</td></tr>
+<tr class="memdesc:a4dd37d54456e167f8b42d30be7076939 inherit pub_methods_a01425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the thread and delete the pointer correctly.  <a href="../../db/df2/a01425.php#a4dd37d54456e167f8b42d30be7076939">More...</a><br /></td></tr>
+<tr class="separator:a4dd37d54456e167f8b42d30be7076939 inherit pub_methods_a01425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a156911948e5f5d2d5eeb0922ee3bd86d inherit pub_methods_a01425"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/a01425.php#a156911948e5f5d2d5eeb0922ee3bd86d">launched</a> () const</td></tr>
+<tr class="memdesc:a156911948e5f5d2d5eeb0922ee3bd86d inherit pub_methods_a01425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if the thread has been launched or not.  <a href="../../db/df2/a01425.php#a156911948e5f5d2d5eeb0922ee3bd86d">More...</a><br /></td></tr>
+<tr class="separator:a156911948e5f5d2d5eeb0922ee3bd86d inherit pub_methods_a01425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a804393d97a319c38afa593072bd0ead9 inherit pub_methods_a01425"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/a01425.php#a804393d97a319c38afa593072bd0ead9">hasToStop</a> () const</td></tr>
+<tr class="memdesc:a804393d97a319c38afa593072bd0ead9 inherit pub_methods_a01425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if the thread has to stop or not.  <a href="../../db/df2/a01425.php#a804393d97a319c38afa593072bd0ead9">More...</a><br /></td></tr>
+<tr class="separator:a804393d97a319c38afa593072bd0ead9 inherit pub_methods_a01425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6a411164d64b1b04b731f29d54e016a inherit pub_methods_a01425"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/a01425.php#af6a411164d64b1b04b731f29d54e016a">inUse</a> ()</td></tr>
+<tr class="memdesc:af6a411164d64b1b04b731f29d54e016a inherit pub_methods_a01425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set that the thread is actually used.  <a href="../../db/df2/a01425.php#af6a411164d64b1b04b731f29d54e016a">More...</a><br /></td></tr>
+<tr class="separator:af6a411164d64b1b04b731f29d54e016a inherit pub_methods_a01425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b2419ec1119f28dc2440e202f0d2c8e inherit pub_methods_a01425"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/a01425.php#a0b2419ec1119f28dc2440e202f0d2c8e">notInUse</a> ()</td></tr>
+<tr class="memdesc:a0b2419ec1119f28dc2440e202f0d2c8e inherit pub_methods_a01425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set that the thread is not used.  <a href="../../db/df2/a01425.php#a0b2419ec1119f28dc2440e202f0d2c8e">More...</a><br /></td></tr>
+<tr class="separator:a0b2419ec1119f28dc2440e202f0d2c8e inherit pub_methods_a01425"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a1fc36192abe90cd4c50aecf7a0df3ce1"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
-<tr class="memitem:a1fc36192abe90cd4c50aecf7a0df3ce1"><td class="memTemplItemLeft" align="right" valign="top">static std::vector&lt; std::pair&lt; T, <a class="el" href="../../da/d53/a00265.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a> &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a1fc36192abe90cd4c50aecf7a0df3ce1">convert</a> (std::vector&lt; std::pair&lt; T, U &gt; &gt; in)</td></tr>
-<tr class="memdesc:a1fc36192abe90cd4c50aecf7a0df3ce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an array format for the tree.  <a href="../../d2/d9b/a01433.php#a1fc36192abe90cd4c50aecf7a0df3ce1">More...</a><br /></td></tr>
-<tr class="separator:a1fc36192abe90cd4c50aecf7a0df3ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:acb15fc23bdf915fbc5093d3f40996a37"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#acb15fc23bdf915fbc5093d3f40996a37">m_start</a></td></tr>
+<tr class="separator:acb15fc23bdf915fbc5093d3f40996a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a489644a70b400f78d63ad3449ffae846"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php#a489644a70b400f78d63ad3449ffae846">started</a></td></tr>
+<tr class="separator:a489644a70b400f78d63ad3449ffae846"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_a01425"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a01425')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; Timer &gt;</a></td></tr>
+<tr class="memitem:a77d662da66e59d43579e7490d24d72b8 inherit pro_attribs_a01425"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#a7139c2a1e77039f963009520820d8c87">mutex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/a01425.php#a77d662da66e59d43579e7490d24d72b8">_mutex</a></td></tr>
+<tr class="memdesc:a77d662da66e59d43579e7490d24d72b8 inherit pro_attribs_a01425"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mutex variable to use in the threadable class.  <a href="../../db/df2/a01425.php#a77d662da66e59d43579e7490d24d72b8">More...</a><br /></td></tr>
+<tr class="separator:a77d662da66e59d43579e7490d24d72b8 inherit pro_attribs_a01425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0351657024f3b0d37b54c08a09a156fa inherit pro_attribs_a01425"><td class="memItemLeft" align="right" valign="top">long int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/a01425.php#a0351657024f3b0d37b54c08a09a156fa">sleeper</a></td></tr>
+<tr class="memdesc:a0351657024f3b0d37b54c08a09a156fa inherit pro_attribs_a01425"><td class="mdescLeft">&#160;</td><td class="mdescRight">The time that the threadable class has to sleep after each update.  <a href="../../db/df2/a01425.php#a0351657024f3b0d37b54c08a09a156fa">More...</a><br /></td></tr>
+<tr class="separator:a0351657024f3b0d37b54c08a09a156fa inherit pro_attribs_a01425"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Tree&lt; T &gt;</h3>
-
-<p>A class to manage a binary tree. </p>
-<dl class="todo"><dt><b><a class="el" href="../../df/da9/a00263.php#_todo000004">Todo:</a></b></dt><dd>Refactoring </dd></dl>
+<div class="textblock"><p>A timer to do something at the end. </p>
+<dl class="todo"><dt><b><a class="el" href="../../d5/d35/a00266.php#_todo000003">Todo:</a></b></dt><dd>Create the class </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a93774d1792effab8a46379c6781729f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93774d1792effab8a46379c6781729f0">&#9670;&nbsp;</a></span>Tree()</h2>
+<a id="ae2847ca8c851863418d57e80e972095a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2847ca8c851863418d57e80e972095a">&#9670;&nbsp;</a></span>Timer()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::<a class="el" href="../../d2/d9b/a01433.php">Tree</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d53/a00265.php#a476a24d6aeedfa55efcaee6379946a75">TREE_SORT</a>&#160;</td>
-          <td class="paramname"><em>sorting</em> = <code><a class="el" href="../../da/d53/a00265.php#a476a24d6aeedfa55efcaee6379946a75a8f22891e42808a1ec2280811f4954151">ASC</a></code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a44571a01497b2ac582c292c8bad9de33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44571a01497b2ac582c292c8bad9de33">&#9670;&nbsp;</a></span>~Tree()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::~<a class="el" href="../../d2/d9b/a01433.php">Tree</a> </td>
+          <td class="memname">mcd::Timer::Timer </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a20ba766efa9e94d90d156432d6f101b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20ba766efa9e94d90d156432d6f101b1">&#9670;&nbsp;</a></span>add()</h2>
+<a id="a5ce92c00f251ba4ee94fc8224a9ccbc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ce92c00f251ba4ee94fc8224a9ccbc7">&#9670;&nbsp;</a></span>getStart()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::add </td>
+          <td class="memname">std::time_t mcd::Timer::getStart </td>
           <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d53/a00265.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a>&#160;</td>
-          <td class="paramname"><em>weight</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -260,77 +238,109 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Add datas in the tree. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>The data to add </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">weight</td><td>The weight of the data</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/d9b/a01433_a20ba766efa9e94d90d156432d6f101b1_cgraph.png" border="0" usemap="#ad2/d9b/a01433_a20ba766efa9e94d90d156432d6f101b1_cgraph" alt=""/></div>
-<map name="d2/d9b/a01433_a20ba766efa9e94d90d156432d6f101b1_cgraph" id="d2/d9b/a01433_a20ba766efa9e94d90d156432d6f101b1_cgraph">
-<area shape="rect" title="Add datas in the tree." alt="" coords="5,5,116,32"/>
-<area shape="rect" href="../../d2/d9b/a01433.php#a53cd621cced254067f1ebac4e2abe8df" title="Insert datas in the tree." alt="" coords="164,5,285,32"/>
-</map>
-</div>
-
 </div>
 </div>
-<a id="aa1c0e2b0a15c31c48ed5cade92c4ae3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1c0e2b0a15c31c48ed5cade92c4ae3d">&#9670;&nbsp;</a></span>applyForEach()</h2>
+<a id="a5481e4eda9e262899416b01090b9a4a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5481e4eda9e262899416b01090b9a4a4">&#9670;&nbsp;</a></span>launch()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::applyForEach </td>
+          <td class="memname">void mcd::Timer::launch </td>
           <td>(</td>
-          <td class="paramtype">void(*)(<a class="el" href="../../da/d53/a00265.php#d1/d3b/a01429">Node</a>&lt; T &gt; *, long int)&#160;</td>
-          <td class="paramname"><em>func</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Do something for each node. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The function to apply</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<p>The function to start the thread. </p>
+
+<p>Implements <a class="el" href="../../db/df2/a01425.php#a1eb0985252b04c90761f92432ef4216d">mcd::Threadable&lt; Timer &gt;</a>.</p>
 
 </div>
 </div>
-<a id="aaf42d9cae430064e1b52b8cd3e57ee42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf42d9cae430064e1b52b8cd3e57ee42">&#9670;&nbsp;</a></span>asc()</h2>
+<a id="affd1240db762eb2d3f125bfdda4aa990"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affd1240db762eb2d3f125bfdda4aa990">&#9670;&nbsp;</a></span>restart()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Timer::restart </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe0b2617d4a9beb52d2118d532d0db03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe0b2617d4a9beb52d2118d532d0db03">&#9670;&nbsp;</a></span>start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Timer::start </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0825ee9a421da67ddac15fd45632d4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0825ee9a421da67ddac15fd45632d4e">&#9670;&nbsp;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::asc </td>
+          <td class="memname">virtual void mcd::Timer::update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51c964a91c78103efb975c00be769073"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51c964a91c78103efb975c00be769073">&#9670;&nbsp;</a></span>updater()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Timer::updater </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -343,479 +353,59 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Set the sorter ascending. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/d9b/a01433_aaf42d9cae430064e1b52b8cd3e57ee42_cgraph.png" border="0" usemap="#ad2/d9b/a01433_aaf42d9cae430064e1b52b8cd3e57ee42_cgraph" alt=""/></div>
-<map name="d2/d9b/a01433_aaf42d9cae430064e1b52b8cd3e57ee42_cgraph" id="d2/d9b/a01433_aaf42d9cae430064e1b52b8cd3e57ee42_cgraph">
-<area shape="rect" title="Set the sorter ascending." alt="" coords="5,5,116,32"/>
-<area shape="rect" href="../../da/d53/a00265.php#aa17a2314efb86933584ae451318a17da" title="Function to sort a tree ascendently depending on weights." alt="" coords="164,5,299,32"/>
-</map>
-</div>
+<p>The function call by the thread, that call <a class="el" href="../../d2/d9b/a01433.php#aa0825ee9a421da67ddac15fd45632d4e">update()</a> </p>
+<p>The update call is locked up between a lock and an unlock of the <a class="el" href="../../db/df2/a01425.php" title="A class to let another one to be threadable with update() member in a thread.">Threadable</a> <b>mutex</b> <br  />
+ </p>
 
 </div>
 </div>
-<a id="a1fc36192abe90cd4c50aecf7a0df3ce1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fc36192abe90cd4c50aecf7a0df3ce1">&#9670;&nbsp;</a></span>convert()</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="acb15fc23bdf915fbc5093d3f40996a37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb15fc23bdf915fbc5093d3f40996a37">&#9670;&nbsp;</a></span>m_start</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<div class="memtemplate">
-template&lt;typename U &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::vector&lt; std::pair&lt; T, <a class="el" href="../../da/d53/a00265.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a> &gt; &gt; <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::convert </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::pair&lt; T, U &gt; &gt;&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
-          <td></td>
+          <td class="memname">std::time_t mcd::Timer::m_start</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return an array format for the tree. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The value to convert</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return <em>in</em> converted for the tree </dd></dl>
-
 </div>
 </div>
-<a id="a09e92db6995261c4f6bfd7ce10bf8d2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09e92db6995261c4f6bfd7ce10bf8d2f">&#9670;&nbsp;</a></span>create()</h2>
+<a id="a489644a70b400f78d63ad3449ffae846"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a489644a70b400f78d63ad3449ffae846">&#9670;&nbsp;</a></span>started</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::create </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::pair&lt; T, <a class="el" href="../../da/d53/a00265.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a> &gt; &gt;&#160;</td>
-          <td class="paramname"><em>datas</em></td><td>)</td>
-          <td></td>
+          <td class="memname">bool mcd::Timer::started</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Create a binary tree with a custom sort function. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">datas</td><td>All the datas for the tree</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/d9b/a01433_a09e92db6995261c4f6bfd7ce10bf8d2f_cgraph.png" border="0" usemap="#ad2/d9b/a01433_a09e92db6995261c4f6bfd7ce10bf8d2f_cgraph" alt=""/></div>
-<map name="d2/d9b/a01433_a09e92db6995261c4f6bfd7ce10bf8d2f_cgraph" id="d2/d9b/a01433_a09e92db6995261c4f6bfd7ce10bf8d2f_cgraph">
-<area shape="rect" title="Create a binary tree with a custom sort function." alt="" coords="5,5,131,32"/>
-<area shape="rect" href="../../d2/d9b/a01433.php#a53cd621cced254067f1ebac4e2abe8df" title="Insert datas in the tree." alt="" coords="179,5,300,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a52f3b03c077b82ded999b5cbd197f1e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52f3b03c077b82ded999b5cbd197f1e3">&#9670;&nbsp;</a></span>desc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::desc </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the sorter descending. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/d9b/a01433_a52f3b03c077b82ded999b5cbd197f1e3_cgraph.png" border="0" usemap="#ad2/d9b/a01433_a52f3b03c077b82ded999b5cbd197f1e3_cgraph" alt=""/></div>
-<map name="d2/d9b/a01433_a52f3b03c077b82ded999b5cbd197f1e3_cgraph" id="d2/d9b/a01433_a52f3b03c077b82ded999b5cbd197f1e3_cgraph">
-<area shape="rect" title="Set the sorter descending." alt="" coords="5,5,123,32"/>
-<area shape="rect" href="../../da/d53/a00265.php#a1865ef6e7eed9ac5fa5b177b3f8dd1e9" title="Function to sort a tree descendently depending on weights." alt="" coords="171,5,313,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a38b40b07bade18a081d80596983dd16c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38b40b07bade18a081d80596983dd16c">&#9670;&nbsp;</a></span>equilibrate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::equilibrate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d53/a00265.php#a476a24d6aeedfa55efcaee6379946a75">TREE_SORT</a>&#160;</td>
-          <td class="paramname"><em>sort</em> = <code><a class="el" href="../../da/d53/a00265.php#a476a24d6aeedfa55efcaee6379946a75a8f22891e42808a1ec2280811f4954151">ASC</a></code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Equilibrate the tree. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">sort</td><td>Choose the sorting order with a TREE_SORT <pre class="fragment">    \return         void
-</pre> </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a1dd3866ef261769430a548223331c98d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1dd3866ef261769430a548223331c98d">&#9670;&nbsp;</a></span>find()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::pair&lt; <a class="el" href="../../da/d53/a00265.php#d1/d3b/a01429">Node</a>&lt; T &gt;*, std::string &gt; <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::find </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Find a value in the tree and return the node and the path to the node. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The value to find in the tree</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the node and the path to this node from the root </dd></dl>
-
-</div>
-</div>
-<a id="a634efe609117c9533707b9f30bd0c488"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a634efe609117c9533707b9f30bd0c488">&#9670;&nbsp;</a></span>getLeftCount()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::getLeftCount </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d53/a00265.php#d1/d3b/a01429">Node</a>&lt; T &gt; *&#160;</td>
-          <td class="paramname"><em>node</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the depth on left. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">node</td><td>The root node of the tree</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the number of nodes on the left </dd></dl>
-
-</div>
-</div>
-<a id="ada7f6fc4dba1856a8aae67983ba5544b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada7f6fc4dba1856a8aae67983ba5544b">&#9670;&nbsp;</a></span>getRightCount()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::getRightCount </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d53/a00265.php#d1/d3b/a01429">Node</a>&lt; T &gt; *&#160;</td>
-          <td class="paramname"><em>node</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the depth on right. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">node</td><td>The root node of the tree</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the number of nodes on the right </dd></dl>
-
-</div>
-</div>
-<a id="a069d03de16fc9d3db25d7ec67ed6811b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a069d03de16fc9d3db25d7ec67ed6811b">&#9670;&nbsp;</a></span>height()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::height </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the height of the tree. </p>
-<dl class="section return"><dt>Returns</dt><dd>Return the height of the tree </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/d9b/a01433_a069d03de16fc9d3db25d7ec67ed6811b_cgraph.png" border="0" usemap="#ad2/d9b/a01433_a069d03de16fc9d3db25d7ec67ed6811b_cgraph" alt=""/></div>
-<map name="d2/d9b/a01433_a069d03de16fc9d3db25d7ec67ed6811b_cgraph" id="d2/d9b/a01433_a069d03de16fc9d3db25d7ec67ed6811b_cgraph">
-<area shape="rect" title="Return the height of the tree." alt="" coords="5,29,129,56"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a53cd621cced254067f1ebac4e2abe8df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53cd621cced254067f1ebac4e2abe8df">&#9670;&nbsp;</a></span>insert()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::insert </td>
-          <td>(</td>
-          <td class="paramtype">std::pair&lt; T, <a class="el" href="../../da/d53/a00265.php#a0d3d39a7992ee9e893a83ab18066f79d">NodeWeight</a> &gt;&#160;</td>
-          <td class="paramname"><em>datas</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Insert datas in the tree. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">datas</td><td>The datas for the new node</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a id="a279d0472004ed9618dde58fcfd6bb508"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a279d0472004ed9618dde58fcfd6bb508">&#9670;&nbsp;</a></span>onCompare()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::onCompare </td>
-          <td>(</td>
-          <td class="paramtype">void(*)(<a class="el" href="../../da/d53/a00265.php#d1/d3b/a01429">Node</a>&lt; T &gt; *, <a class="el" href="../../da/d53/a00265.php#d1/d3b/a01429">Node</a>&lt; T &gt; *)&#160;</td>
-          <td class="paramname"><em>func</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>A setter for the comparator function. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The function to use to the weights' comparison <pre class="fragment">    \return         void
-</pre> </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ad9cda4b45c11828381cde08fa48ae94d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9cda4b45c11828381cde08fa48ae94d">&#9670;&nbsp;</a></span>onDelete()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::onDelete </td>
-          <td>(</td>
-          <td class="paramtype">void(*)(<a class="el" href="../../da/d53/a00265.php#d1/d3b/a01429">Node</a>&lt; T &gt; *)&#160;</td>
-          <td class="paramname"><em>func</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>A setter for the deletion function. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The function to use on the destroy of the object <pre class="fragment">    \return         void
-</pre> </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a1e6f8d4ad100be50a970848a0c8437d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e6f8d4ad100be50a970848a0c8437d1">&#9670;&nbsp;</a></span>print()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../d2/d9b/a01433.php">mcd::Tree</a>&lt; T &gt;::print </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Print the tree. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/d9b/a01433_a1e6f8d4ad100be50a970848a0c8437d1_cgraph.png" border="0" usemap="#ad2/d9b/a01433_a1e6f8d4ad100be50a970848a0c8437d1_cgraph" alt=""/></div>
-<map name="d2/d9b/a01433_a1e6f8d4ad100be50a970848a0c8437d1_cgraph" id="d2/d9b/a01433_a1e6f8d4ad100be50a970848a0c8437d1_cgraph">
-<area shape="rect" title="Print the tree." alt="" coords="5,5,120,32"/>
-<area shape="rect" href="../../d2/d9b/a01433.php#aa1c0e2b0a15c31c48ed5cade92c4ae3d" title="Do something for each node." alt="" coords="168,5,337,32"/>
-</map>
-</div>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d6/d22/a00245.php">Tree.hpp</a></li>
+<li><a class="el" href="../../d6/d22/a00245.php">Timer.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -823,7 +413,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../da/d53/a00265.php">mcd</a></li><li class="navelem"><a class="el" href="../../d2/d9b/a01433.php">Tree</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d2/d9b/a01433.php">Timer</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

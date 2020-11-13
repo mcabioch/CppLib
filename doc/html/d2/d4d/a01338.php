@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,14 +92,23 @@ $(document).ready(function(){initNavTree('de/da0/a01341.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::NotCopyable Member List</div>  </div>
+<div class="title">mcd::MatrixException Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/da0/a01341.php">mcd::NotCopyable</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../de/da0/a01341.php">mcd::MatrixException</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../de/da0/a01341.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a>()</td><td class="entry"><a class="el" href="../../de/da0/a01341.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/da0/a01341.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a>()</td><td class="entry"><a class="el" href="../../de/da0/a01341.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a8cffcfc2c1a631bee3154a999bf13bf1">_msg</a></td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a2af015139a223dafbf1556911aca048d">exception</a>() noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#afdb84ab5c36cbf3569727fcf129fb872">exception</a>(const std::string &amp;msg) noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#aa83410abcc4449a02ce5835c8ad9bd34">exception</a>(const exception &amp;other) noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#abc6b0649cf43073f41f4d1d0617af24d">exception</a>(const exception &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/da0/a01341.php#af8f31dd9961b04962e2700f28c47e1eb">MatrixException</a>()</td><td class="entry"><a class="el" href="../../de/da0/a01341.php">mcd::MatrixException</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/da0/a01341.php#a63d6b2072be9d1adc4f6e7fdeac43af5">MatrixException</a>(const std::string &amp;message)</td><td class="entry"><a class="el" href="../../de/da0/a01341.php">mcd::MatrixException</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#ab86ac60ef49f2bf978faa24588b32ced">operator=</a>(const exception &amp;other) noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a70ab36f825287dc96ff7fb3517f9b46e">operator=</a>(const exception &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d9/dda/a01289.php#a04d412a2a5c85d9e16d67539134b419f">what</a>() const noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dda/a01289.php#ae32a0816168e0f4ff7ba8d688d839dc8">~exception</a>() noexcept</td><td class="entry"><a class="el" href="../../d9/dda/a01289.php">mcd::exception</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

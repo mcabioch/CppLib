@@ -1,8 +1,7 @@
-<map id="mcd::Crypto" name="mcd::Crypto">
-<area shape="rect" id="node1" title="A class to be the parent for every crypt class." alt="" coords="185,80,279,107"/>
-<area shape="rect" id="node3" href="$d3/d07/a01241.php" title="A class to use the cesar algorithm for encryption." alt="" coords="5,155,96,181"/>
-<area shape="rect" id="node4" href="$d3/d7b/a01249.php" title="A class to test a homemade algorithm for encryption." alt="" coords="121,155,226,181"/>
-<area shape="rect" id="node5" href="$d3/d0b/a01253.php" title="A class to use the RSA algorithm for encryption." alt="" coords="249,155,332,181"/>
-<area shape="rect" id="node6" href="$d1/d31/a01245.php" title="An implementation of sha256 encryption." alt="" coords="356,155,447,181"/>
-<area shape="rect" id="node2" href="$df/db8/a01317.php" title="A class to let some other not to be copyable." alt="" coords="167,5,297,32"/>
+<map id="mcd::Console::ThreadCout" name="mcd::Console::ThreadCout">
+<area shape="rect" id="node1" title="A class to use std::cout thread safe." alt="" coords="5,319,184,345"/>
+<area shape="rect" id="node2" title="STL class." alt="" coords="47,244,142,271"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="28,155,161,196"/>
+<area shape="rect" id="node4" title="STL class." alt="" coords="17,80,172,107"/>
+<area shape="rect" id="node5" title="STL class." alt="" coords="45,5,145,32"/>
 </map>

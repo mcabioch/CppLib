@@ -1,4 +1,5 @@
 <map id="mcd::Identifier" name="mcd::Identifier">
-<area shape="rect" id="node1" title="A class to store some identify datas." alt="" coords="48,5,153,32"/>
-<area shape="rect" id="node2" href="$d0/d36/a01388.php" title="A player that can be a child from any class." alt="" coords="5,80,196,107"/>
+<area shape="rect" id="node1" title="A class to store some identify datas." alt="" coords="16,200,121,227"/>
+<area shape="rect" id="node2" title="STL class." alt="" coords="29,96,109,123"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="5,5,132,47"/>
 </map>

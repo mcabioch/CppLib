@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -107,229 +107,210 @@ $(document).ready(function(){initNavTree('db/d12/a00268.php','../../'); initResi
 Namespaces</h2></td></tr>
 <tr class="memitem:dd/d86/a00271"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php">Check</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d9/dd6/a00272"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php">Console</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d5/d42/a00269"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php">natural</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/dd6/a00272"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php">Tests</a></td></tr>
+<tr class="memitem:d0/d19/a00273"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d19/a00273.php">Tests</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d9/d2a/a00270"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php">this_thread</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db7/a01088.php">Animal</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An animal.  <a href="../../da/db7/a01088.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc4/a01089.php">Animal</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An animal.  <a href="../../d3/dc4/a01089.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9c/a01092.php">Ant</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An ant.  <a href="../../de/d9c/a01092.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1c/a01093.php">Ant</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An ant.  <a href="../../de/d1c/a01093.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d20/a01096.php">Arguments</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage the arguments.  <a href="../../d2/d20/a01096.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfa/a01097.php">Arguments</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage the arguments.  <a href="../../d1/dfa/a01097.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d51/a01120.php">Assert</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">My assert's implementation.  <a href="../../dc/d51/a01120.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de4/a01121.php">Assert</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">My assert's implementation.  <a href="../../dd/de4/a01121.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc8/a01124.php">AssertionException</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An exception thrown by my assert's implementation.  <a href="../../d0/dc8/a01124.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc4/a01125.php">AssertionException</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An exception thrown by my assert's implementation.  <a href="../../d6/dc4/a01125.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d4/dc5/a01116"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d4/dc5/a01116">AssertionLocationStruct</a></td></tr>
-<tr class="separator:d4/dc5/a01116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d12/a01128.php">Big</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A new huge arithmetic variable.  <a href="../../d9/d12/a01128.php#details">More...</a><br /></td></tr>
+<tr class="memitem:d6/d8b/a01117"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d6/d8b/a01117">AssertionLocationStruct</a></td></tr>
+<tr class="separator:d6/d8b/a01117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d17/a01129.php">Big</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A new huge arithmetic variable.  <a href="../../d9/d17/a01129.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d6/de6/a01132"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d6/de6/a01132">Binary</a></td></tr>
-<tr class="memdesc:d6/de6/a01132"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage binary values easily.  <a href="../../db/d12/a00268.php#d6/de6/a01132">More...</a><br /></td></tr>
-<tr class="separator:d6/de6/a01132"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dae/a01136.php">Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td></tr>
+<tr class="memitem:db/d28/a01133"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a></td></tr>
+<tr class="memdesc:db/d28/a01133"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage binary values easily.  <a href="../../db/d12/a00268.php#db/d28/a01133">More...</a><br /></td></tr>
+<tr class="separator:db/d28/a01133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php">Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d0f/a01256.php">Cesar</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use the cesar algorithm for encryption.  <a href="../../d6/d0f/a01256.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de7/a01257.php">Cesar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use the cesar algorithm for encryption.  <a href="../../d9/de7/a01257.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a01212.php">Clock</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A clock to measure the elapsed time.  <a href="../../dc/db6/a01212.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d54/a01213.php">Clock</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A clock to measure the elapsed time.  <a href="../../d5/d54/a01213.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8e/a01224.php">Cls</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the console.  <a href="../../d8/d8e/a01224.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d31/a01245.php">ConsoleTable</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to print a table in the console.  <a href="../../d1/d31/a01245.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df3/a01216.php">Color</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the text color in the console.  <a href="../../d8/df3/a01216.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7b/a01249.php">Contraption</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A contraption.  <a href="../../d3/d7b/a01249.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d16/a01228.php">ConsoleCursor</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with the cursor in the console.  <a href="../../de/d16/a01228.php#details">More...</a><br /></td></tr>
+<tr class="memitem:d5/d6f/a01281"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d5/d6f/a01281">ContraptionAttr</a></td></tr>
+<tr class="memdesc:d5/d6f/a01281"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define <b><a class="el" href="../../d3/d7b/a01249.php" title="A contraption.">Contraption</a></b> attributes.  <a href="../../db/d12/a00268.php#d5/d6f/a01281">More...</a><br /></td></tr>
+<tr class="separator:d5/d6f/a01281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0b/a01253.php">Crypto</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to be the parent for every crypt class.  <a href="../../d3/d0b/a01253.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd5/a01244.php">ConsoleTable</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to print a table in the console.  <a href="../../d4/dd5/a01244.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d85/a01273.php">Date</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with dates.  <a href="../../de/d85/a01273.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/de0/a01248.php">Contraption</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A contraption.  <a href="../../da/de0/a01248.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1d/a01277.php">DateTime</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with dates and times.  <a href="../../d2/d1d/a01277.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d8/d0d/a01280"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d8/d0d/a01280">ContraptionAttr</a></td></tr>
-<tr class="memdesc:d8/d0d/a01280"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define <b><a class="el" href="../../da/de0/a01248.php" title="A contraption.">Contraption</a></b> attributes.  <a href="../../db/d12/a00268.php#d8/d0d/a01280">More...</a><br /></td></tr>
-<tr class="separator:d8/d0d/a01280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a01252.php">Crypto</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to be the parent for every crypt class.  <a href="../../d0/d33/a01252.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1a/a01285.php">Entity</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An entity.  <a href="../../d1/d1a/a01285.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/a01272.php">Date</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with dates.  <a href="../../d4/d0e/a01272.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dda/a01289.php">exception</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to call custom exceptions.  <a href="../../d9/dda/a01289.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d37/a01276.php">DateTime</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with dates and times.  <a href="../../d5/d37/a01276.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd5/a01293.php">Fraction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage fractions.  <a href="../../dc/dd5/a01293.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d18/a01284.php">Entity</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An entity.  <a href="../../dd/d18/a01284.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/a01301.php">Hostile</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to derivate from when the thing can attack.  <a href="../../d3/d07/a01301.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8d/a01288.php">exception</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to call custom exceptions.  <a href="../../d7/d8d/a01288.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9e/a01305.php">Identifier</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to store some identify datas.  <a href="../../dc/d9e/a01305.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7a/a01292.php">Fraction</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage fractions.  <a href="../../d8/d7a/a01292.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4b/a01309.php">IOConfig</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to configure inputs and outputs.  <a href="../../db/d4b/a01309.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc5/a01300.php">Hostile</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to derivate from when the thing can attack.  <a href="../../d8/dc5/a01300.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d90/a01313.php">Json</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage <a class="el" href="../../de/d90/a01313.php" title="A class to manage Json formatted data.">Json</a> formatted data.  <a href="../../de/d90/a01313.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dae/a01304.php">Identifier</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to store some identify datas.  <a href="../../d6/dae/a01304.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db8/a01317.php">JsonException</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to throw <a class="el" href="../../de/d90/a01313.php" title="A class to manage Json formatted data.">Json</a> exceptions.  <a href="../../df/db8/a01317.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d56/a01308.php">IOConfig</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to configure inputs and outputs.  <a href="../../d1/d56/a01308.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5c/a01321.php">Logger</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to log some messages.  <a href="../../d9/d5c/a01321.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/a01312.php">Json</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage <a class="el" href="../../d7/d41/a01312.php" title="A class to manage Json formatted data.">Json</a> formatted data.  <a href="../../d7/d41/a01312.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2a/a01333.php">Map</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a map and that implement some pathfinding algorithms.  <a href="../../dc/d2a/a01333.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a01316.php">JsonException</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to throw <a class="el" href="../../d7/d41/a01312.php" title="A class to manage Json formatted data.">Json</a> exceptions.  <a href="../../d4/d49/a01316.php#details">More...</a><br /></td></tr>
+<tr class="memitem:df/d29/a01329"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#df/d29/a01329">MapMove</a></td></tr>
+<tr class="memdesc:df/d29/a01329"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to know informations about th movement of something in the map.  <a href="../../db/d12/a00268.php#df/d29/a01329">More...</a><br /></td></tr>
+<tr class="separator:df/d29/a01329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dec/a01337.php">Matrix</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to represent matrix.  <a href="../../db/dec/a01337.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dec/a01320.php">Logger</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to log some messages.  <a href="../../df/dec/a01320.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da0/a01341.php">MatrixException</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to throw some exceptions for a <a class="el" href="../../db/dec/a01337.php" title="A class to represent matrix.">Matrix</a> instance.  <a href="../../de/da0/a01341.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d45/a01332.php">Map</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a map and that implement some pathfinding algorithms.  <a href="../../d9/d45/a01332.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/deb/a01345.php">Mushroom</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A mushroom.  <a href="../../d4/deb/a01345.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dc/dd9/a01328"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#dc/dd9/a01328">MapMove</a></td></tr>
-<tr class="memdesc:dc/dd9/a01328"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to know informations about th movement of something in the map.  <a href="../../db/d12/a00268.php#dc/dd9/a01328">More...</a><br /></td></tr>
-<tr class="separator:dc/dd9/a01328"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d93/a01336.php">Matrix</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to represent matrix.  <a href="../../df/d93/a01336.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd8/a01265.php">MyCrypt</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to test a homemade algorithm for encryption.  <a href="../../da/dd8/a01265.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d51/a01340.php">MatrixException</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to throw some exceptions for a <a class="el" href="../../df/d93/a01336.php" title="A class to represent matrix.">Matrix</a> instance.  <a href="../../d7/d51/a01340.php#details">More...</a><br /></td></tr>
+<tr class="memitem:d9/db0/a01437"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d9/db0/a01437">Node</a></td></tr>
+<tr class="memdesc:d9/db0/a01437"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a node for the tree.  <a href="../../db/d12/a00268.php#d9/db0/a01437">More...</a><br /></td></tr>
+<tr class="separator:d9/db0/a01437"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6c/a01349.php">NotCopyable</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to let some other not to be copyable.  <a href="../../de/d6c/a01349.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d54/a01344.php">Mushroom</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A mushroom.  <a href="../../dc/d54/a01344.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dad/a01353.php">NotInstantiable</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Let a class being only an abstract class.  <a href="../../d4/dad/a01353.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d51/a01264.php">MyCrypt</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to test a homemade algorithm for encryption.  <a href="../../d3/d51/a01264.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d10/a01357.php">Object</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object.  <a href="../../df/d10/a01357.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dc/d85/a01436"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#dc/d85/a01436">Node</a></td></tr>
-<tr class="memdesc:dc/d85/a01436"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a node for the tree.  <a href="../../db/d12/a00268.php#dc/d85/a01436">More...</a><br /></td></tr>
-<tr class="separator:dc/d85/a01436"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d57/a01348.php">NotCopyable</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to let some other not to be copyable.  <a href="../../d7/d57/a01348.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d81/a01365.php">Path</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a path computed by the map.  <a href="../../d7/d81/a01365.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d85/a01352.php">NotInstantiable</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Let a class being only an abstract class.  <a href="../../d0/d85/a01352.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d17/a01369.php">Pathfinding</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to implement some pathfinding algorithms.  <a href="../../d1/d17/a01369.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3f/a01356.php">Object</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object.  <a href="../../d2/d3f/a01356.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d38/a01373.php">PathfindingDijkstra</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of the Dijkstra algorithm.  <a href="../../d7/d38/a01373.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1f/a01364.php">Path</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a path computed by the map.  <a href="../../de/d1f/a01364.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dea/a01377.php">PathfindingException</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">All exceptions that could be thrown by the pathfinding algorithm.  <a href="../../d3/dea/a01377.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0c/a01368.php">Pathfinding</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to implement some pathfinding algorithms.  <a href="../../dd/d0c/a01368.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1f/a01361.php">PathfindingNode</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A node for the path.  <a href="../../d2/d1f/a01361.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/a01372.php">PathfindingDijkstra</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of the Dijkstra algorithm.  <a href="../../df/d0b/a01372.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d77/a01381.php">PathfindingProblem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to group every pathfinding problems in one way to use it.  <a href="../../da/d77/a01381.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d29/a01376.php">PathfindingException</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">All exceptions that could be thrown by the pathfinding algorithm.  <a href="../../d2/d29/a01376.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d68/a01385.php">Plant</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A plant.  <a href="../../df/d68/a01385.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d79/a01360.php">PathfindingNode</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A node for the path.  <a href="../../d9/d79/a01360.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d95/a01389.php">Player</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A player that can be a child from any class.  <a href="../../d0/d95/a01389.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6d/a01380.php">PathfindingProblem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to group every pathfinding problems in one way to use it.  <a href="../../dd/d6d/a01380.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/a01393.php">PlayerAbstraction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A player that can be a child from any class.  <a href="../../d3/d92/a01393.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dde/a01384.php">Plant</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A plant.  <a href="../../d7/dde/a01384.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/a01453.php">Point</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a point in space.  <a href="../../d9/dae/a01453.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d36/a01388.php">Player</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A player that can be a child from any class.  <a href="../../d0/d36/a01388.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/a01405.php">PureVirtual</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to make some other to be abstract class.  <a href="../../d4/d1a/a01405.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a01392.php">PlayerAbstraction</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A player that can be a child from any class.  <a href="../../d1/dcc/a01392.php#details">More...</a><br /></td></tr>
+<tr class="memitem:d2/d95/a01449"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a></td></tr>
+<tr class="memdesc:d2/d95/a01449"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for four values.  <a href="../../db/d12/a00268.php#d2/d95/a01449">More...</a><br /></td></tr>
+<tr class="separator:d2/d95/a01449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dbf/a01109.php">queue</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of std::queue.  <a href="../../d8/dbf/a01109.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1c/a01452.php">Point</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a point in space.  <a href="../../dd/d1c/a01452.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d6e/a01409.php">Referenced</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to have a reference to the class' pointer.  <a href="../../d9/d6e/a01409.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d82/a01404.php">PureVirtual</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to make some other to be abstract class.  <a href="../../d2/d82/a01404.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d68/a01413.php">RNG</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to simplify the use of random.  <a href="../../d7/d68/a01413.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dd/d08/a01448"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a></td></tr>
-<tr class="memdesc:dd/d08/a01448"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for four values.  <a href="../../db/d12/a00268.php#dd/d08/a01448">More...</a><br /></td></tr>
-<tr class="separator:dd/d08/a01448"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd7/a01108.php">queue</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of std::queue.  <a href="../../d2/dd7/a01108.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d16/a01269.php">RSA</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use the <a class="el" href="../../d6/d16/a01269.php" title="A class to use the RSA algorithm for encryption.">RSA</a> algorithm for encryption.  <a href="../../d6/d16/a01269.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d84/a01408.php">Referenced</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to have a reference to the class' pointer.  <a href="../../df/d84/a01408.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d34/a01261.php">SHA2</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of sha256 encryption.  <a href="../../de/d34/a01261.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d42/a01220.php">Reinit</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../db/d42/a01220.php" title="Reinit the color in the console.">Reinit</a> the color in the console.  <a href="../../db/d42/a01220.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d99/a01101.php">stack</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of std::stack.  <a href="../../de/d99/a01101.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d10/a01412.php">RNG</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to simplify the use of random.  <a href="../../dc/d10/a01412.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/a01417.php">Stone</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A stone.  <a href="../../de/daf/a01417.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd9/a01268.php">RSA</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use the <a class="el" href="../../dc/dd9/a01268.php" title="A class to use the RSA algorithm for encryption.">RSA</a> algorithm for encryption.  <a href="../../dc/dd9/a01268.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/ded/a01113.php">t_queue</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An thread-safe implementation of queue.  <a href="../../d8/ded/a01113.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6e/a01240.php">SetPrecision</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the precision of a std::ostream and save the default value.  <a href="../../d5/d6e/a01240.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/a01105.php">t_stack</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An thread-safe implementation of stack.  <a href="../../de/d1d/a01105.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da3/a01260.php">SHA2</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of sha256 encryption.  <a href="../../d7/da3/a01260.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/a01425.php">Threadable</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to let another one to be threadable with update() member in a thread.  <a href="../../db/df2/a01425.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dbd/a01100.php">stack</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of std::stack.  <a href="../../d3/dbd/a01100.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3b/a01429.php">Time</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with dates.  <a href="../../d1/d3b/a01429.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dec/a01416.php">Stone</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A stone.  <a href="../../d5/dec/a01416.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/a01433.php">Timer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A timer to do something at the end.  <a href="../../d2/d9b/a01433.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d39/a01112.php">t_queue</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An thread-safe implementation of queue.  <a href="../../d0/d39/a01112.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df9/a01441.php">Tree</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a binary tree.  <a href="../../d5/df9/a01441.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dcb/a01104.php">t_stack</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An thread-safe implementation of stack.  <a href="../../dd/dcb/a01104.php#details">More...</a><br /></td></tr>
+<tr class="memitem:d9/d6f/a01445"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a></td></tr>
+<tr class="memdesc:d9/d6f/a01445"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for three values.  <a href="../../db/d12/a00268.php#d9/d6f/a01445">More...</a><br /></td></tr>
+<tr class="separator:d9/d6f/a01445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php">vector</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add some features to std::vector.  <a href="../../da/df7/a01457.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da5/a01424.php">Threadable</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to let another one to be threadable with update() member in a thread.  <a href="../../d5/da5/a01424.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d60/a01461.php">Vegetal</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A vegetal.  <a href="../../dc/d60/a01461.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d2b/a01236.php">ThreadCout</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::cout thread safe.  <a href="../../d8/d2b/a01236.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d67/a01232.php">ThreadEndlCout</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::endl in <a class="el" href="../../d8/d2b/a01236.php" title="A class to use std::cout thread safe.">ThreadCout</a>.  <a href="../../d0/d67/a01232.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db1/a01428.php">Time</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with dates.  <a href="../../d2/db1/a01428.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dff/a01432.php">Timer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A timer to do something at the end.  <a href="../../db/dff/a01432.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d31/a01440.php">Tree</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a binary tree.  <a href="../../df/d31/a01440.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d7/d32/a01444"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a></td></tr>
-<tr class="memdesc:d7/d32/a01444"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for three values.  <a href="../../db/d12/a00268.php#d7/d32/a01444">More...</a><br /></td></tr>
-<tr class="separator:d7/d32/a01444"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d98/a01456.php">vector</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add some features to std::vector.  <a href="../../d4/d98/a01456.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2f/a01460.php">Vegetal</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A vegetal.  <a href="../../d2/d2f/a01460.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d5/d53/a01324"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d5/d53/a01324">WorldDimensions</a></td></tr>
-<tr class="memdesc:d5/d53/a01324"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object to group the dimensions of the world.  <a href="../../db/d12/a00268.php#d5/d53/a01324">More...</a><br /></td></tr>
-<tr class="separator:d5/d53/a01324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dd/d5d/a01325"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#dd/d5d/a01325">WorldDimensions</a></td></tr>
+<tr class="memdesc:dd/d5d/a01325"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object to group the dimensions of the world.  <a href="../../db/d12/a00268.php#dd/d5d/a01325">More...</a><br /></td></tr>
+<tr class="separator:dd/d5d/a01325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -359,67 +340,13 @@ Typedefs</h2></td></tr>
 <tr class="separator:a6982966fec37b802e584caec858e2e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adda27badcbfcfc854854c6ab094cf34e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> = long double</td></tr>
 <tr class="separator:adda27badcbfcfc854854c6ab094cf34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75c328d040057a44e61caef894c02afe"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a75c328d040057a44e61caef894c02afe">trio_str</a> = <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; std::string &gt;</td></tr>
+<tr class="memitem:a75c328d040057a44e61caef894c02afe"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a75c328d040057a44e61caef894c02afe">trio_str</a> = <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; std::string &gt;</td></tr>
 <tr class="separator:a75c328d040057a44e61caef894c02afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3efdc3dde9fecbe97dcf74de1df3165d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a3efdc3dde9fecbe97dcf74de1df3165d">quatuor_str</a> = <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; std::string &gt;</td></tr>
+<tr class="memitem:a3efdc3dde9fecbe97dcf74de1df3165d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a3efdc3dde9fecbe97dcf74de1df3165d">quatuor_str</a> = <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; std::string &gt;</td></tr>
 <tr class="separator:a3efdc3dde9fecbe97dcf74de1df3165d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ae124ce77f8e386663ac11e2e35e6070a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070a">Colors</a> { <br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa4648822616bc86180727464a1e6c6312">Colors::BLACK_F</a> = 30, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa6c91c7a0d965eea06426a9d94fed419f">Colors::RED_F</a> = 31, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aac9cc84994b2dc998400606f509a5f39d">Colors::GREEN_F</a> = 32, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aac1cfbf30b4d84302148c80564f09a2f7">Colors::YELLOW_F</a> = 33, 
-<br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aaaac26079ece66386f4c2cf268d474795">Colors::BLUE_F</a> = 34, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aab8176b797e421a3d45ed5a872d872591">Colors::PURPLE_F</a> = 35, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa131f0f8b48b6ef48d2d3093b20081110">Colors::CYAN_F</a> = 36, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa38ead0a9861da91e3e5aad34b7a1dbfe">Colors::GREY_F</a> = 37, 
-<br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aaa86522df36b902b8e14c670dda459f1f">Colors::LIGHT_BLACK_F</a> = 90, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa889b14723d6bc4c0ac8bb1e13480ad6e">Colors::LIGHT_RED_F</a> = 91, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa9a372d70c82fc984f7c475342784fb25">Colors::LIGHT_GREEN_F</a> = 92, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa8a64c210ea569e6832792e099c006157">Colors::LIGHT_YELLOW_F</a> = 93, 
-<br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa383a03eb7a3c8a6e508915b5abfd1f55">Colors::LIGHT_BLUE_F</a> = 94, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aaf7fa27f9a891a06e7aab7764b7c87744">Colors::LIGHT_PURPLE_F</a> = 95, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa1016baf606406c4b466ae02d7e8d249b">Colors::LIGHT_CYAN_F</a> = 96, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aaf0d423059b6f4ad707d65956c1a43402">Colors::LIGHT_GREY_F</a> = 97, 
-<br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aabfc78599c77b7eb3c037c23f1bde963a">Colors::BLACK_B</a> = 40, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa07262f1edc5408b021950dc9a12837c7">Colors::RED_B</a> = 41, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa3bfe655ef7bb19c04ebf9a5ebabe975e">Colors::GREEN_B</a> = 42, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa62a3874ee2f47d3a664fda4a63c193a3">Colors::YELLOW_B</a> = 43, 
-<br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa19995eb9ec42ffbe11647f8090e9f4fe">Colors::BLUE_B</a> = 44, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aab754547a82033c3c904e91984b530326">Colors::PURPLE_B</a> = 45, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aae0f5f8e09d8f4e0925884dd94fc3e870">Colors::CYAN_B</a> = 46, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa90bd0646259d8ab65dd352bcd1ead16e">Colors::GREY_B</a> = 47, 
-<br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aadf2fe24817131afc02153bf31759d18b">Colors::LIGHT_BLACK_B</a> = 100, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa3a29105a7f33b752d0342ec1e44023af">Colors::LIGHT_RED_B</a> = 101, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa79f2fcacd6d4451c79096ed3e460e1e9">Colors::LIGHT_GREEN_B</a> = 102, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa73f0b577c984186157b9d89348faf4f3">Colors::LIGHT_YELLOW_B</a> = 103, 
-<br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa77891b4842905f3aa098fae908dd5db9">Colors::LIGHT_BLUE_B</a> = 104, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa10435c0f4e6c9f1df07383e39da2064e">Colors::LIGHT_PURPLE_B</a> = 105, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa1d4b785bf14640105bb7b6e45d1d5528">Colors::LIGHT_CYAN_B</a> = 106, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aaa548ce608701dcb3a6b2146e2e6b7f73">Colors::LIGHT_GREY_B</a> = 107, 
-<br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa1e23852820b9154316c7c06e2b7ba051">Colors::NORMAL</a> = 0, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa2909dd0e0336f10b6da9735b859a3d19">Colors::BOLD</a> = 1, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa8160fba05a5a291372a94bc22b55f62b">Colors::SHADOW</a> = 2, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa25093123b8943308104129e1d762f3b7">Colors::ITALIC</a> = 3, 
-<br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa0086c73c90c261db630b4dc8aea09bcf">Colors::UNDERLINE</a> = 4, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aaa2727ae72447eea06d4cc0ef67187280">Colors::INVERT</a> = 7, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa1e50e487f8672658546e3609404b53df">Colors::HIDE</a> = 8, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa04dd53a8e6c2306e9bbf944c1d6047f2">Colors::CROSS</a> = 9
-<br />
- }</td></tr>
-<tr class="memdesc:ae124ce77f8e386663ac11e2e35e6070a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colors list.  <a href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070a">More...</a><br /></td></tr>
-<tr class="separator:ae124ce77f8e386663ac11e2e35e6070a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55fd359a467c1bfe9d2f72c227bb1706"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a55fd359a467c1bfe9d2f72c227bb1706">Direction</a> { <br />
 &#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae3ee27656d8eb6e8a09407841cd00898afbaedde498cdead4f2780217646e9ba1">UP</a> = 0, 
 <a class="el" href="../../db/d12/a00268.php#ae3ee27656d8eb6e8a09407841cd00898ac4e0e4e3118472beeb2ae75827450f1f">DOWN</a> = 1, 
@@ -495,7 +422,7 @@ Functions</h2></td></tr>
 <tr class="separator:af1c42a8b9412d2afa3b486c5e629f752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25ccd89a356e58d7653bd783306d2942"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a25ccd89a356e58d7653bd783306d2942">array1Dto2D</a> (size_t index, size_t maxX)</td></tr>
 <tr class="separator:a25ccd89a356e58d7653bd783306d2942"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53a33cf86c36584f92495307f8e68a00"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a53a33cf86c36584f92495307f8e68a00">array2Dto1D</a> (const <a class="el" href="../../dd/d1c/a01452.php">Point</a> &amp;pt, size_t maxX)</td></tr>
+<tr class="memitem:a53a33cf86c36584f92495307f8e68a00"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a53a33cf86c36584f92495307f8e68a00">array2Dto1D</a> (const <a class="el" href="../../d9/dae/a01453.php">Point</a> &amp;pt, size_t maxX)</td></tr>
 <tr class="separator:a53a33cf86c36584f92495307f8e68a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9364f91b9303a9a63793512ad3f18e4"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:aa9364f91b9303a9a63793512ad3f18e4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aa9364f91b9303a9a63793512ad3f18e4">vector2DPrint</a> (const std::vector&lt; std::vector&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
@@ -519,44 +446,44 @@ Functions</h2></td></tr>
 <tr class="memitem:a6ebc06a4ba39c08505854aa29dcd0f0e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a6ebc06a4ba39c08505854aa29dcd0f0e">fromBigVal</a> (const std::string &amp;in)</td></tr>
 <tr class="memdesc:a6ebc06a4ba39c08505854aa29dcd0f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a std::string in an int.  <a href="../../db/d12/a00268.php#a6ebc06a4ba39c08505854aa29dcd0f0e">More...</a><br /></td></tr>
 <tr class="separator:a6ebc06a4ba39c08505854aa29dcd0f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a49c8e33d55da52fabdb3f09f2fd3e5b2">operator==</a> (const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;a, const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;b) noexcept</td></tr>
-<tr class="memdesc:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a>.  <a href="../../db/d12/a00268.php#a49c8e33d55da52fabdb3f09f2fd3e5b2">More...</a><br /></td></tr>
+<tr class="memitem:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a49c8e33d55da52fabdb3f09f2fd3e5b2">operator==</a> (const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;a, const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;b) noexcept</td></tr>
+<tr class="memdesc:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a>.  <a href="../../db/d12/a00268.php#a49c8e33d55da52fabdb3f09f2fd3e5b2">More...</a><br /></td></tr>
 <tr class="separator:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72149c6d15e16114c649ecb03aec7f81"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a72149c6d15e16114c649ecb03aec7f81">operator&lt;</a> (const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;a, const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;b) noexcept</td></tr>
-<tr class="memdesc:a72149c6d15e16114c649ecb03aec7f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a>.  <a href="../../db/d12/a00268.php#a72149c6d15e16114c649ecb03aec7f81">More...</a><br /></td></tr>
+<tr class="memitem:a72149c6d15e16114c649ecb03aec7f81"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a72149c6d15e16114c649ecb03aec7f81">operator&lt;</a> (const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;a, const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;b) noexcept</td></tr>
+<tr class="memdesc:a72149c6d15e16114c649ecb03aec7f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a>.  <a href="../../db/d12/a00268.php#a72149c6d15e16114c649ecb03aec7f81">More...</a><br /></td></tr>
 <tr class="separator:a72149c6d15e16114c649ecb03aec7f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31eb09e89b0015d54768c4510e59c780"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d12/a01128.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a31eb09e89b0015d54768c4510e59c780">sq</a> (const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;a)</td></tr>
+<tr class="memitem:a31eb09e89b0015d54768c4510e59c780"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d17/a01129.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a31eb09e89b0015d54768c4510e59c780">sq</a> (const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;a)</td></tr>
 <tr class="memdesc:a31eb09e89b0015d54768c4510e59c780"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the square of <em>a</em>.  <a href="../../db/d12/a00268.php#a31eb09e89b0015d54768c4510e59c780">More...</a><br /></td></tr>
 <tr class="separator:a31eb09e89b0015d54768c4510e59c780"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3a712e4de66375b1a188fa464c968e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d12/a01128.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ae3a712e4de66375b1a188fa464c968e2">sqrt</a> (const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;a)</td></tr>
+<tr class="memitem:ae3a712e4de66375b1a188fa464c968e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d17/a01129.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ae3a712e4de66375b1a188fa464c968e2">sqrt</a> (const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;a)</td></tr>
 <tr class="memdesc:ae3a712e4de66375b1a188fa464c968e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the squareroot of <em>a</em>.  <a href="../../db/d12/a00268.php#ae3a712e4de66375b1a188fa464c968e2">More...</a><br /></td></tr>
 <tr class="separator:ae3a712e4de66375b1a188fa464c968e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6ca3061a339d883c257105bd831efd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d12/a01128.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad6ca3061a339d883c257105bd831efd1">ppcm</a> (const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;a, const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;b)</td></tr>
+<tr class="memitem:ad6ca3061a339d883c257105bd831efd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d17/a01129.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad6ca3061a339d883c257105bd831efd1">ppcm</a> (const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;a, const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;b)</td></tr>
 <tr class="memdesc:ad6ca3061a339d883c257105bd831efd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the ppcm.  <a href="../../db/d12/a00268.php#ad6ca3061a339d883c257105bd831efd1">More...</a><br /></td></tr>
 <tr class="separator:ad6ca3061a339d883c257105bd831efd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23f629777bd39a54b33491cb1223da01"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a23f629777bd39a54b33491cb1223da01">isDivisor</a> (const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;a, const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;b)</td></tr>
+<tr class="memitem:a23f629777bd39a54b33491cb1223da01"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a23f629777bd39a54b33491cb1223da01">isDivisor</a> (const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;a, const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;b)</td></tr>
 <tr class="memdesc:a23f629777bd39a54b33491cb1223da01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <b>true</b> if <em>a</em> / <em>b</em> = 0.  <a href="../../db/d12/a00268.php#a23f629777bd39a54b33491cb1223da01">More...</a><br /></td></tr>
 <tr class="separator:a23f629777bd39a54b33491cb1223da01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50868f33f43952d24f8449e883d3fd99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d12/a01128.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a50868f33f43952d24f8449e883d3fd99">abs</a> (const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;a)</td></tr>
+<tr class="memitem:a50868f33f43952d24f8449e883d3fd99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d17/a01129.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a50868f33f43952d24f8449e883d3fd99">abs</a> (const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;a)</td></tr>
 <tr class="memdesc:a50868f33f43952d24f8449e883d3fd99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the absolute value of <em>a</em>.  <a href="../../db/d12/a00268.php#a50868f33f43952d24f8449e883d3fd99">More...</a><br /></td></tr>
 <tr class="separator:a50868f33f43952d24f8449e883d3fd99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a164a9c100a128e971c6becd38fe7db82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d12/a01128.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a164a9c100a128e971c6becd38fe7db82">operator++</a> (<a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;in, int) noexcept</td></tr>
-<tr class="memdesc:a164a9c100a128e971c6becd38fe7db82"><td class="mdescLeft">&#160;</td><td class="mdescRight">++<a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#a164a9c100a128e971c6becd38fe7db82">More...</a><br /></td></tr>
+<tr class="memitem:a164a9c100a128e971c6becd38fe7db82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d17/a01129.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a164a9c100a128e971c6becd38fe7db82">operator++</a> (<a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;in, int) noexcept</td></tr>
+<tr class="memdesc:a164a9c100a128e971c6becd38fe7db82"><td class="mdescLeft">&#160;</td><td class="mdescRight">++<a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#a164a9c100a128e971c6becd38fe7db82">More...</a><br /></td></tr>
 <tr class="separator:a164a9c100a128e971c6becd38fe7db82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd0ec761914252fc66c1180845c1fb36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#afd0ec761914252fc66c1180845c1fb36">operator++</a> (<a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;in) noexcept</td></tr>
+<tr class="memitem:afd0ec761914252fc66c1180845c1fb36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#afd0ec761914252fc66c1180845c1fb36">operator++</a> (<a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;in) noexcept</td></tr>
 <tr class="memdesc:afd0ec761914252fc66c1180845c1fb36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Big++.  <a href="../../db/d12/a00268.php#afd0ec761914252fc66c1180845c1fb36">More...</a><br /></td></tr>
 <tr class="separator:afd0ec761914252fc66c1180845c1fb36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69988c1c7ee2ad5814c297f749588e78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d12/a01128.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a69988c1c7ee2ad5814c297f749588e78">operator--</a> (<a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;in, int) noexcept</td></tr>
-<tr class="memdesc:a69988c1c7ee2ad5814c297f749588e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">&ndash;<a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#a69988c1c7ee2ad5814c297f749588e78">More...</a><br /></td></tr>
+<tr class="memitem:a69988c1c7ee2ad5814c297f749588e78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d17/a01129.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a69988c1c7ee2ad5814c297f749588e78">operator--</a> (<a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;in, int) noexcept</td></tr>
+<tr class="memdesc:a69988c1c7ee2ad5814c297f749588e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">&ndash;<a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#a69988c1c7ee2ad5814c297f749588e78">More...</a><br /></td></tr>
 <tr class="separator:a69988c1c7ee2ad5814c297f749588e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad41a22ed7df2868dc7c42872004fc957"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad41a22ed7df2868dc7c42872004fc957">operator--</a> (<a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;in) noexcept</td></tr>
-<tr class="memdesc:ad41a22ed7df2868dc7c42872004fc957"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a>&ndash;.  <a href="../../db/d12/a00268.php#ad41a22ed7df2868dc7c42872004fc957">More...</a><br /></td></tr>
+<tr class="memitem:ad41a22ed7df2868dc7c42872004fc957"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad41a22ed7df2868dc7c42872004fc957">operator--</a> (<a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;in) noexcept</td></tr>
+<tr class="memdesc:ad41a22ed7df2868dc7c42872004fc957"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a>&ndash;.  <a href="../../db/d12/a00268.php#ad41a22ed7df2868dc7c42872004fc957">More...</a><br /></td></tr>
 <tr class="separator:ad41a22ed7df2868dc7c42872004fc957"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68941be2cb0a91ce0a75b0992c772e19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d12/a01128.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a68941be2cb0a91ce0a75b0992c772e19">operator+</a> (const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;in) noexcept</td></tr>
-<tr class="memdesc:a68941be2cb0a91ce0a75b0992c772e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">+<a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#a68941be2cb0a91ce0a75b0992c772e19">More...</a><br /></td></tr>
+<tr class="memitem:a68941be2cb0a91ce0a75b0992c772e19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d17/a01129.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a68941be2cb0a91ce0a75b0992c772e19">operator+</a> (const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;in) noexcept</td></tr>
+<tr class="memdesc:a68941be2cb0a91ce0a75b0992c772e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">+<a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#a68941be2cb0a91ce0a75b0992c772e19">More...</a><br /></td></tr>
 <tr class="separator:a68941be2cb0a91ce0a75b0992c772e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa34a809adea5c0391ccc070f4b6fac4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d12/a01128.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aa34a809adea5c0391ccc070f4b6fac4b">operator-</a> (const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;in) noexcept</td></tr>
-<tr class="memdesc:aa34a809adea5c0391ccc070f4b6fac4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">-<a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#aa34a809adea5c0391ccc070f4b6fac4b">More...</a><br /></td></tr>
+<tr class="memitem:aa34a809adea5c0391ccc070f4b6fac4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d17/a01129.php">Big</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aa34a809adea5c0391ccc070f4b6fac4b">operator-</a> (const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;in) noexcept</td></tr>
+<tr class="memdesc:aa34a809adea5c0391ccc070f4b6fac4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">-<a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#aa34a809adea5c0391ccc070f4b6fac4b">More...</a><br /></td></tr>
 <tr class="separator:aa34a809adea5c0391ccc070f4b6fac4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace8a4328114062b56cf578ad92df821f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ace8a4328114062b56cf578ad92df821f">collidesC</a> (<a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> r1, <a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x1, <a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y1, <a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> r2, <a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> x2, <a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> y2)</td></tr>
 <tr class="memdesc:ace8a4328114062b56cf578ad92df821f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two circles.  <a href="../../db/d12/a00268.php#ace8a4328114062b56cf578ad92df821f">More...</a><br /></td></tr>
@@ -677,7 +604,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a4d75f23c9b03fd2c56324895d0ff3c58"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a4d75f23c9b03fd2c56324895d0ff3c58">dist</a> (T x1, T x2, T y1, T y2, T z1=0, T z2=0)</td></tr>
 <tr class="memdesc:a4d75f23c9b03fd2c56324895d0ff3c58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the distance of the given coordinates.  <a href="../../db/d12/a00268.php#a4d75f23c9b03fd2c56324895d0ff3c58">More...</a><br /></td></tr>
 <tr class="separator:a4d75f23c9b03fd2c56324895d0ff3c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a900f9e45ac94dbf01c4b67fb40682118"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a900f9e45ac94dbf01c4b67fb40682118">dist</a> (const <a class="el" href="../../dd/d1c/a01452.php">Point</a> &amp;ptA, const <a class="el" href="../../dd/d1c/a01452.php">Point</a> &amp;ptB)</td></tr>
+<tr class="memitem:a900f9e45ac94dbf01c4b67fb40682118"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a900f9e45ac94dbf01c4b67fb40682118">dist</a> (const <a class="el" href="../../d9/dae/a01453.php">Point</a> &amp;ptA, const <a class="el" href="../../d9/dae/a01453.php">Point</a> &amp;ptB)</td></tr>
 <tr class="memdesc:a900f9e45ac94dbf01c4b67fb40682118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the distance between the two given points.  <a href="../../db/d12/a00268.php#a900f9e45ac94dbf01c4b67fb40682118">More...</a><br /></td></tr>
 <tr class="separator:a900f9e45ac94dbf01c4b67fb40682118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9adc0354f681800c75d220e526377397"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
@@ -712,6 +639,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a9042d2e8e9a6311b4260c6f376f4072c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a9042d2e8e9a6311b4260c6f376f4072c">dsigmoide</a> (<a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> in)</td></tr>
 <tr class="memdesc:a9042d2e8e9a6311b4260c6f376f4072c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute with the derivated sigmoide.  <a href="../../db/d12/a00268.php#a9042d2e8e9a6311b4260c6f376f4072c">More...</a><br /></td></tr>
 <tr class="separator:a9042d2e8e9a6311b4260c6f376f4072c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9db342c58a4088c0753e28475e369323"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a9db342c58a4088c0753e28475e369323">tanh</a> (<a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> in)</td></tr>
+<tr class="memdesc:a9db342c58a4088c0753e28475e369323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the result of the tanh function.  <a href="../../db/d12/a00268.php#a9db342c58a4088c0753e28475e369323">More...</a><br /></td></tr>
+<tr class="separator:a9db342c58a4088c0753e28475e369323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9767e5acc7c07b8ef837e2485dfc3ec5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a9767e5acc7c07b8ef837e2485dfc3ec5">dtanh</a> (<a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> in)</td></tr>
+<tr class="memdesc:a9767e5acc7c07b8ef837e2485dfc3ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute with the derivated tanh.  <a href="../../db/d12/a00268.php#a9767e5acc7c07b8ef837e2485dfc3ec5">More...</a><br /></td></tr>
+<tr class="separator:a9767e5acc7c07b8ef837e2485dfc3ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69d6be0b9d139073dda5e708c76dccdd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a69d6be0b9d139073dda5e708c76dccdd">log2p</a> (int x)</td></tr>
 <tr class="memdesc:a69d6be0b9d139073dda5e708c76dccdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do the log of x in base 2.  <a href="../../db/d12/a00268.php#a69d6be0b9d139073dda5e708c76dccdd">More...</a><br /></td></tr>
 <tr class="separator:a69d6be0b9d139073dda5e708c76dccdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -720,7 +653,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a77f16d62ba2ac4c7ad44d4459f149b2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the inverse square root with a float precision.  <a href="../../db/d12/a00268.php#a77f16d62ba2ac4c7ad44d4459f149b2e">More...</a><br /></td></tr>
 <tr class="separator:a77f16d62ba2ac4c7ad44d4459f149b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac10f5cb91293579d36d9ea767825d5bb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ac10f5cb91293579d36d9ea767825d5bb"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_pointer&lt; T &gt;::value||<a class="el" href="../../d9/d45/a01396.php">Check::is_minded_ptr</a>&lt; T &gt;::value &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ac10f5cb91293579d36d9ea767825d5bb">deletePtr</a> (T &amp;pointer)</td></tr>
+<tr class="memitem:ac10f5cb91293579d36d9ea767825d5bb"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_pointer&lt; T &gt;::value||<a class="el" href="../../d7/d1c/a01397.php">Check::is_minded_ptr</a>&lt; T &gt;::value &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ac10f5cb91293579d36d9ea767825d5bb">deletePtr</a> (T &amp;pointer)</td></tr>
 <tr class="memdesc:ac10f5cb91293579d36d9ea767825d5bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a pointer.  <a href="../../db/d12/a00268.php#ac10f5cb91293579d36d9ea767825d5bb">More...</a><br /></td></tr>
 <tr class="separator:ac10f5cb91293579d36d9ea767825d5bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25c5de928e67bd9c01f720f39329f04c"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
@@ -817,40 +750,40 @@ Functions</h2></td></tr>
 <tr class="memdesc:a1865ef6e7eed9ac5fa5b177b3f8dd1e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to sort a tree descendently depending on weights.  <a href="../../db/d12/a00268.php#a1865ef6e7eed9ac5fa5b177b3f8dd1e9">More...</a><br /></td></tr>
 <tr class="separator:a1865ef6e7eed9ac5fa5b177b3f8dd1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a426eb225a242b41a1bd4a38a721bfa39"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V &gt; </td></tr>
-<tr class="memitem:a426eb225a242b41a1bd4a38a721bfa39"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a426eb225a242b41a1bd4a38a721bfa39">operator&lt;</a> (const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
+<tr class="memitem:a426eb225a242b41a1bd4a38a721bfa39"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a426eb225a242b41a1bd4a38a721bfa39">operator&lt;</a> (const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
 <tr class="separator:a426eb225a242b41a1bd4a38a721bfa39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ea1828f8233339ff4109a6d054a3f6e"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V &gt; </td></tr>
-<tr class="memitem:a9ea1828f8233339ff4109a6d054a3f6e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a9ea1828f8233339ff4109a6d054a3f6e">operator==</a> (const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
+<tr class="memitem:a9ea1828f8233339ff4109a6d054a3f6e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a9ea1828f8233339ff4109a6d054a3f6e">operator==</a> (const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
 <tr class="separator:a9ea1828f8233339ff4109a6d054a3f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8c157fea2d3cba9a23a3ff2878cc08e"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V &gt; </td></tr>
-<tr class="memitem:ae8c157fea2d3cba9a23a3ff2878cc08e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ae8c157fea2d3cba9a23a3ff2878cc08e">operator&gt;</a> (const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
+<tr class="memitem:ae8c157fea2d3cba9a23a3ff2878cc08e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ae8c157fea2d3cba9a23a3ff2878cc08e">operator&gt;</a> (const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
 <tr class="separator:ae8c157fea2d3cba9a23a3ff2878cc08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6fc9365b82f561a4603cb21b7d247ec"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V &gt; </td></tr>
-<tr class="memitem:ac6fc9365b82f561a4603cb21b7d247ec"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ac6fc9365b82f561a4603cb21b7d247ec">operator&gt;=</a> (const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
+<tr class="memitem:ac6fc9365b82f561a4603cb21b7d247ec"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ac6fc9365b82f561a4603cb21b7d247ec">operator&gt;=</a> (const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
 <tr class="separator:ac6fc9365b82f561a4603cb21b7d247ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af16116bb74326c4d798c387465347225"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V &gt; </td></tr>
-<tr class="memitem:af16116bb74326c4d798c387465347225"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#af16116bb74326c4d798c387465347225">operator&lt;=</a> (const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
+<tr class="memitem:af16116bb74326c4d798c387465347225"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#af16116bb74326c4d798c387465347225">operator&lt;=</a> (const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
 <tr class="separator:af16116bb74326c4d798c387465347225"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3c520cfb33cd0c457951ab10b3e6c28"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V &gt; </td></tr>
-<tr class="memitem:ad3c520cfb33cd0c457951ab10b3e6c28"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad3c520cfb33cd0c457951ab10b3e6c28">operator!=</a> (const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
+<tr class="memitem:ad3c520cfb33cd0c457951ab10b3e6c28"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad3c520cfb33cd0c457951ab10b3e6c28">operator!=</a> (const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;b)</td></tr>
 <tr class="separator:ad3c520cfb33cd0c457951ab10b3e6c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad6aa36cdd6eeeda915b26366786f62e"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V , typename W &gt; </td></tr>
-<tr class="memitem:aad6aa36cdd6eeeda915b26366786f62e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aad6aa36cdd6eeeda915b26366786f62e">operator&lt;</a> (const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
+<tr class="memitem:aad6aa36cdd6eeeda915b26366786f62e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aad6aa36cdd6eeeda915b26366786f62e">operator&lt;</a> (const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
 <tr class="separator:aad6aa36cdd6eeeda915b26366786f62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ba723943a9c71f6b716cfff3862b656"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V , typename W &gt; </td></tr>
-<tr class="memitem:a4ba723943a9c71f6b716cfff3862b656"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a4ba723943a9c71f6b716cfff3862b656">operator==</a> (const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
+<tr class="memitem:a4ba723943a9c71f6b716cfff3862b656"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a4ba723943a9c71f6b716cfff3862b656">operator==</a> (const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
 <tr class="separator:a4ba723943a9c71f6b716cfff3862b656"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa246dbc03b543a0a767df8e486189488"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V , typename W &gt; </td></tr>
-<tr class="memitem:aa246dbc03b543a0a767df8e486189488"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aa246dbc03b543a0a767df8e486189488">operator&gt;</a> (const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
+<tr class="memitem:aa246dbc03b543a0a767df8e486189488"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aa246dbc03b543a0a767df8e486189488">operator&gt;</a> (const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
 <tr class="separator:aa246dbc03b543a0a767df8e486189488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab654d9827594410729bb1267af700f68"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V , typename W &gt; </td></tr>
-<tr class="memitem:ab654d9827594410729bb1267af700f68"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ab654d9827594410729bb1267af700f68">operator&gt;=</a> (const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
+<tr class="memitem:ab654d9827594410729bb1267af700f68"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ab654d9827594410729bb1267af700f68">operator&gt;=</a> (const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
 <tr class="separator:ab654d9827594410729bb1267af700f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6991b54e58e0a5b120f698f4e941ec86"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V , typename W &gt; </td></tr>
-<tr class="memitem:a6991b54e58e0a5b120f698f4e941ec86"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a6991b54e58e0a5b120f698f4e941ec86">operator&lt;=</a> (const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
+<tr class="memitem:a6991b54e58e0a5b120f698f4e941ec86"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a6991b54e58e0a5b120f698f4e941ec86">operator&lt;=</a> (const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
 <tr class="separator:a6991b54e58e0a5b120f698f4e941ec86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a263f600382a931b0f059dc90a834e8b0"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V , typename W &gt; </td></tr>
-<tr class="memitem:a263f600382a931b0f059dc90a834e8b0"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a263f600382a931b0f059dc90a834e8b0">operator!=</a> (const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
+<tr class="memitem:a263f600382a931b0f059dc90a834e8b0"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a263f600382a931b0f059dc90a834e8b0">operator!=</a> (const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;a, const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;b)</td></tr>
 <tr class="separator:a263f600382a931b0f059dc90a834e8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad6c9253e2099a49d163fad90ef6f5f5"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
 <tr class="memitem:aad6c9253e2099a49d163fad90ef6f5f5"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aad6c9253e2099a49d163fad90ef6f5f5">getType</a> (const C &amp;)</td></tr>
@@ -867,27 +800,19 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a50b5129023a76b3bdb0bd01ee9e8b72e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d20/a01096.php">Arguments</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a50b5129023a76b3bdb0bd01ee9e8b72e">arguments</a></td></tr>
+<tr class="memitem:a50b5129023a76b3bdb0bd01ee9e8b72e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dfa/a01097.php">Arguments</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a50b5129023a76b3bdb0bd01ee9e8b72e">arguments</a></td></tr>
 <tr class="memdesc:a50b5129023a76b3bdb0bd01ee9e8b72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global arguments variable to save and keep some arguments.  <a href="../../db/d12/a00268.php#a50b5129023a76b3bdb0bd01ee9e8b72e">More...</a><br /></td></tr>
 <tr class="separator:a50b5129023a76b3bdb0bd01ee9e8b72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa06f3027ef1a56c8cb526a47c6350905"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d51/a01120.php">Assert</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aa06f3027ef1a56c8cb526a47c6350905">assertion</a></td></tr>
+<tr class="memitem:aa06f3027ef1a56c8cb526a47c6350905"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/de4/a01121.php">Assert</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aa06f3027ef1a56c8cb526a47c6350905">assertion</a></td></tr>
 <tr class="separator:aa06f3027ef1a56c8cb526a47c6350905"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad49187ab386f309e965f2f8e954c3c24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d2b/a01236.php">ThreadCout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad49187ab386f309e965f2f8e954c3c24">cout</a></td></tr>
-<tr class="memdesc:ad49187ab386f309e965f2f8e954c3c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">The thread safe version of std::cout.  <a href="../../db/d12/a00268.php#ad49187ab386f309e965f2f8e954c3c24">More...</a><br /></td></tr>
-<tr class="separator:ad49187ab386f309e965f2f8e954c3c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19aa3c3882eb7a0c0d4f6479a4bbf975"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d67/a01232.php">ThreadEndlCout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a19aa3c3882eb7a0c0d4f6479a4bbf975">endl</a></td></tr>
-<tr class="memdesc:a19aa3c3882eb7a0c0d4f6479a4bbf975"><td class="mdescLeft">&#160;</td><td class="mdescRight">The thread safe version of std::endl.  <a href="../../db/d12/a00268.php#a19aa3c3882eb7a0c0d4f6479a4bbf975">More...</a><br /></td></tr>
-<tr class="separator:a19aa3c3882eb7a0c0d4f6479a4bbf975"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad309496206415242e21a12fc54df1cc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d6e/a01240.php">SetPrecision</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad309496206415242e21a12fc54df1cc8">setprecision</a></td></tr>
-<tr class="separator:ad309496206415242e21a12fc54df1cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8855b382bd52d4baffe3633dbe8fa3ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d0f/a01256.php">Cesar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a8855b382bd52d4baffe3633dbe8fa3ed">cesar</a></td></tr>
+<tr class="memitem:a8855b382bd52d4baffe3633dbe8fa3ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/de7/a01257.php">Cesar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a8855b382bd52d4baffe3633dbe8fa3ed">cesar</a></td></tr>
 <tr class="memdesc:a8855b382bd52d4baffe3633dbe8fa3ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global cesar variable to crypt and decrypt messages.  <a href="../../db/d12/a00268.php#a8855b382bd52d4baffe3633dbe8fa3ed">More...</a><br /></td></tr>
 <tr class="separator:a8855b382bd52d4baffe3633dbe8fa3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0ce198f34851e093bbc38dfd975e339"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/da3/a01260.php">SHA2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aa0ce198f34851e093bbc38dfd975e339">sha2</a></td></tr>
+<tr class="memitem:aa0ce198f34851e093bbc38dfd975e339"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d34/a01261.php">SHA2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aa0ce198f34851e093bbc38dfd975e339">sha2</a></td></tr>
 <tr class="memdesc:aa0ce198f34851e093bbc38dfd975e339"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global sha2 variable to crypt messages.  <a href="../../db/d12/a00268.php#aa0ce198f34851e093bbc38dfd975e339">More...</a><br /></td></tr>
 <tr class="separator:aa0ce198f34851e093bbc38dfd975e339"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a302b261a28cb48198b26b85ab682bfab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d51/a01264.php">MyCrypt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a302b261a28cb48198b26b85ab682bfab">mycrypt</a></td></tr>
-<tr class="memdesc:a302b261a28cb48198b26b85ab682bfab"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global <a class="el" href="../../d3/d51/a01264.php" title="A class to test a homemade algorithm for encryption.">MyCrypt</a> variable to crypt messages.  <a href="../../db/d12/a00268.php#a302b261a28cb48198b26b85ab682bfab">More...</a><br /></td></tr>
+<tr class="memitem:a302b261a28cb48198b26b85ab682bfab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dd8/a01265.php">MyCrypt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a302b261a28cb48198b26b85ab682bfab">mycrypt</a></td></tr>
+<tr class="memdesc:a302b261a28cb48198b26b85ab682bfab"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global <a class="el" href="../../da/dd8/a01265.php" title="A class to test a homemade algorithm for encryption.">MyCrypt</a> variable to crypt messages.  <a href="../../db/d12/a00268.php#a302b261a28cb48198b26b85ab682bfab">More...</a><br /></td></tr>
 <tr class="separator:a302b261a28cb48198b26b85ab682bfab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8860bcba5ad1fad5c14e9f8a69b8bc51"><td class="memItemLeft" align="right" valign="top">std::ifstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a8860bcba5ad1fad5c14e9f8a69b8bc51">reader</a></td></tr>
 <tr class="memdesc:a8860bcba5ad1fad5c14e9f8a69b8bc51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a global file reader.  <a href="../../db/d12/a00268.php#a8860bcba5ad1fad5c14e9f8a69b8bc51">More...</a><br /></td></tr>
@@ -895,15 +820,15 @@ Variables</h2></td></tr>
 <tr class="memitem:a9826cf077a919365508fb2a7d7aae4c2"><td class="memItemLeft" align="right" valign="top">std::ofstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a9826cf077a919365508fb2a7d7aae4c2">writer</a></td></tr>
 <tr class="memdesc:a9826cf077a919365508fb2a7d7aae4c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a global file writer.  <a href="../../db/d12/a00268.php#a9826cf077a919365508fb2a7d7aae4c2">More...</a><br /></td></tr>
 <tr class="separator:a9826cf077a919365508fb2a7d7aae4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46f063faccea2fdafb8e5f33c2ccbc50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dec/a01320.php">Logger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a46f063faccea2fdafb8e5f33c2ccbc50">logger</a></td></tr>
+<tr class="memitem:a46f063faccea2fdafb8e5f33c2ccbc50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5c/a01321.php">Logger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a46f063faccea2fdafb8e5f33c2ccbc50">logger</a></td></tr>
 <tr class="separator:a46f063faccea2fdafb8e5f33c2ccbc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08ac826a0e7f64dc1b04036ecec50ed1"><td class="memItemLeft" align="right" valign="top">Rng&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a08ac826a0e7f64dc1b04036ecec50ed1">rng</a></td></tr>
 <tr class="memdesc:a08ac826a0e7f64dc1b04036ecec50ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global rng variable to compute random integers.  <a href="../../db/d12/a00268.php#a08ac826a0e7f64dc1b04036ecec50ed1">More...</a><br /></td></tr>
 <tr class="separator:a08ac826a0e7f64dc1b04036ecec50ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="d4/dc5/a01116" id="d4/dc5/a01116"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d4/dc5/a01116">&#9670;&nbsp;</a></span>mcd::AssertionLocationStruct</h2>
+<a name="d6/d8b/a01117" id="d6/d8b/a01117"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d6/d8b/a01117">&#9670;&nbsp;</a></span>mcd::AssertionLocationStruct</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -916,7 +841,7 @@ Variables</h2></td></tr>
 <div class="textblock"></div><div class="dynheader">
 Collaboration diagram for mcd::AssertionLocationStruct:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d6/d40/a01114.png" border="0" usemap="#amcd_1_1AssertionLocationStruct_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../df/dd5/a01115.png" border="0" usemap="#amcd_1_1AssertionLocationStruct_coll__map" alt="Collaboration graph"/></div>
 <map name="mcd_1_1AssertionLocationStruct_coll__map" id="mcd_1_1AssertionLocationStruct_coll__map">
 <area shape="rect" title=" " alt="" coords="5,200,200,227"/>
 <area shape="rect" title="STL class." alt="" coords="63,96,143,123"/>
@@ -947,8 +872,8 @@ line</td>
 
 </div>
 </div>
-<a name="d6/de6/a01132" id="d6/de6/a01132"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d6/de6/a01132">&#9670;&nbsp;</a></span>mcd::Binary</h2>
+<a name="db/d28/a01133" id="db/d28/a01133"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#db/d28/a01133">&#9670;&nbsp;</a></span>mcd::Binary</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -965,8 +890,8 @@ class mcd::Binary&lt; T, Enable &gt;</h3>
 </div>
 </div>
 </div>
-<a name="d8/d0d/a01280" id="d8/d0d/a01280"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d8/d0d/a01280">&#9670;&nbsp;</a></span>mcd::ContraptionAttr</h2>
+<a name="d5/d6f/a01281" id="d5/d6f/a01281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d5/d6f/a01281">&#9670;&nbsp;</a></span>mcd::ContraptionAttr</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -976,7 +901,7 @@ class mcd::Binary&lt; T, Enable &gt;</h3>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><p>A struct to define <b><a class="el" href="../../da/de0/a01248.php" title="A contraption.">Contraption</a></b> attributes. </p>
+<div class="textblock"><p>A struct to define <b><a class="el" href="../../d3/d7b/a01249.php" title="A contraption.">Contraption</a></b> attributes. </p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
@@ -1004,8 +929,8 @@ w</td>
 
 </div>
 </div>
-<a name="dc/dd9/a01328" id="dc/dd9/a01328"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dc/dd9/a01328">&#9670;&nbsp;</a></span>mcd::MapMove</h2>
+<a name="df/d29/a01329" id="df/d29/a01329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#df/d29/a01329">&#9670;&nbsp;</a></span>mcd::MapMove</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1034,8 +959,8 @@ next</td>
 
 </div>
 </div>
-<a name="dc/d85/a01436" id="dc/d85/a01436"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dc/d85/a01436">&#9670;&nbsp;</a></span>mcd::Node</h2>
+<a name="d9/db0/a01437" id="d9/db0/a01437"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d9/db0/a01437">&#9670;&nbsp;</a></span>mcd::Node</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1052,7 +977,7 @@ struct mcd::Node&lt; T &gt;</h3>
 </div><div class="dynheader">
 Collaboration diagram for mcd::Node&lt; T &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d1/de7/a01434.png" border="0" usemap="#amcd_1_1Node_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d3/d95/a01435.png" border="0" usemap="#amcd_1_1Node_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="mcd_1_1Node_3_01T_01_4_coll__map" id="mcd_1_1Node_3_01T_01_4_coll__map">
 <area shape="rect" title="A struct to define a node for the tree." alt="" coords="5,95,124,121"/>
 <area shape="rect" title=" " alt="" coords="45,5,84,32"/>
@@ -1067,13 +992,13 @@ initialized</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a6f748c14098cdfeed1d14abc39a7f07a"></a><a class="el" href="../../db/d12/a00268.php#dc/d85/a01436">Node</a>&lt; T &gt; *</td>
+<a id="a6f748c14098cdfeed1d14abc39a7f07a"></a><a class="el" href="../../db/d12/a00268.php#d9/db0/a01437">Node</a>&lt; T &gt; *</td>
 <td class="fieldname">
 left</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a47bcfc49a031b3ddb4d563978c2500c6"></a><a class="el" href="../../db/d12/a00268.php#dc/d85/a01436">Node</a>&lt; T &gt; *</td>
+<a id="a47bcfc49a031b3ddb4d563978c2500c6"></a><a class="el" href="../../db/d12/a00268.php#d9/db0/a01437">Node</a>&lt; T &gt; *</td>
 <td class="fieldname">
 right</td>
 <td class="fielddoc">
@@ -1094,8 +1019,8 @@ weight</td>
 
 </div>
 </div>
-<a name="dd/d08/a01448" id="dd/d08/a01448"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dd/d08/a01448">&#9670;&nbsp;</a></span>mcd::quatuor</h2>
+<a name="d2/d95/a01449" id="d2/d95/a01449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d2/d95/a01449">&#9670;&nbsp;</a></span>mcd::quatuor</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1112,7 +1037,7 @@ class mcd::quatuor&lt; T, U, V, W &gt;</h3>
 </div><div class="dynheader">
 Collaboration diagram for mcd::quatuor&lt; T, U, V, W &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d8/d22/a01446.png" border="0" usemap="#amcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../df/d75/a01447.png" border="0" usemap="#amcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map" id="mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map">
 <area shape="rect" title="A container for four values." alt="" coords="5,139,144,180"/>
 <area shape="rect" title=" " alt="" coords="55,5,94,32"/>
@@ -1148,8 +1073,8 @@ ter</td>
 
 </div>
 </div>
-<a name="d7/d32/a01444" id="d7/d32/a01444"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d7/d32/a01444">&#9670;&nbsp;</a></span>mcd::trio</h2>
+<a name="d9/d6f/a01445" id="d9/d6f/a01445"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d9/d6f/a01445">&#9670;&nbsp;</a></span>mcd::trio</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1166,7 +1091,7 @@ class mcd::trio&lt; T, U, V &gt;</h3>
 </div><div class="dynheader">
 Collaboration diagram for mcd::trio&lt; T, U, V &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/de2/a01442.png" border="0" usemap="#amcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d6/d65/a01443.png" border="0" usemap="#amcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map" id="mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map">
 <area shape="rect" title="A container for three values." alt="" coords="5,124,144,151"/>
 <area shape="rect" title=" " alt="" coords="55,5,94,32"/>
@@ -1196,8 +1121,8 @@ ter</td>
 
 </div>
 </div>
-<a name="d5/d53/a01324" id="d5/d53/a01324"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d5/d53/a01324">&#9670;&nbsp;</a></span>mcd::WorldDimensions</h2>
+<a name="dd/d5d/a01325" id="dd/d5d/a01325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dd/d5d/a01325">&#9670;&nbsp;</a></span>mcd::WorldDimensions</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1356,7 +1281,7 @@ z</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../db/d12/a00268.php#a3efdc3dde9fecbe97dcf74de1df3165d">mcd::quatuor_str</a> = typedef <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; std::string &gt;</td>
+          <td class="memname">using <a class="el" href="../../db/d12/a00268.php#a3efdc3dde9fecbe97dcf74de1df3165d">mcd::quatuor_str</a> = typedef <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; std::string &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1384,7 +1309,7 @@ z</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../db/d12/a00268.php#a75c328d040057a44e61caef894c02afe">mcd::trio_str</a> = typedef <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; std::string &gt;</td>
+          <td class="memname">using <a class="el" href="../../db/d12/a00268.php#a75c328d040057a44e61caef894c02afe">mcd::trio_str</a> = typedef <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; std::string &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1443,72 +1368,6 @@ z</td>
 <tr><td class="fieldname"><a id="a372ef82d72716aed789680d0a84c06d3a0d613d61e790e44c8751022bbc7f2555"></a>SPEC&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a372ef82d72716aed789680d0a84c06d3accd227a8556bcfc0c096afc4f3ecce59"></a>READ&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a372ef82d72716aed789680d0a84c06d3abe31a72161ed89098d2ab77b3d258ff5"></a>ALL&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="ae124ce77f8e386663ac11e2e35e6070a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae124ce77f8e386663ac11e2e35e6070a">&#9670;&nbsp;</a></span>Colors</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070a">mcd::Colors</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Colors list. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa4648822616bc86180727464a1e6c6312"></a>BLACK_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa6c91c7a0d965eea06426a9d94fed419f"></a>RED_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aac9cc84994b2dc998400606f509a5f39d"></a>GREEN_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aac1cfbf30b4d84302148c80564f09a2f7"></a>YELLOW_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aaaac26079ece66386f4c2cf268d474795"></a>BLUE_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aab8176b797e421a3d45ed5a872d872591"></a>PURPLE_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa131f0f8b48b6ef48d2d3093b20081110"></a>CYAN_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa38ead0a9861da91e3e5aad34b7a1dbfe"></a>GREY_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aaa86522df36b902b8e14c670dda459f1f"></a>LIGHT_BLACK_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa889b14723d6bc4c0ac8bb1e13480ad6e"></a>LIGHT_RED_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa9a372d70c82fc984f7c475342784fb25"></a>LIGHT_GREEN_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa8a64c210ea569e6832792e099c006157"></a>LIGHT_YELLOW_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa383a03eb7a3c8a6e508915b5abfd1f55"></a>LIGHT_BLUE_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aaf7fa27f9a891a06e7aab7764b7c87744"></a>LIGHT_PURPLE_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa1016baf606406c4b466ae02d7e8d249b"></a>LIGHT_CYAN_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aaf0d423059b6f4ad707d65956c1a43402"></a>LIGHT_GREY_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aabfc78599c77b7eb3c037c23f1bde963a"></a>BLACK_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa07262f1edc5408b021950dc9a12837c7"></a>RED_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa3bfe655ef7bb19c04ebf9a5ebabe975e"></a>GREEN_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa62a3874ee2f47d3a664fda4a63c193a3"></a>YELLOW_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa19995eb9ec42ffbe11647f8090e9f4fe"></a>BLUE_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aab754547a82033c3c904e91984b530326"></a>PURPLE_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aae0f5f8e09d8f4e0925884dd94fc3e870"></a>CYAN_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa90bd0646259d8ab65dd352bcd1ead16e"></a>GREY_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aadf2fe24817131afc02153bf31759d18b"></a>LIGHT_BLACK_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa3a29105a7f33b752d0342ec1e44023af"></a>LIGHT_RED_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa79f2fcacd6d4451c79096ed3e460e1e9"></a>LIGHT_GREEN_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa73f0b577c984186157b9d89348faf4f3"></a>LIGHT_YELLOW_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa77891b4842905f3aa098fae908dd5db9"></a>LIGHT_BLUE_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa10435c0f4e6c9f1df07383e39da2064e"></a>LIGHT_PURPLE_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa1d4b785bf14640105bb7b6e45d1d5528"></a>LIGHT_CYAN_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aaa548ce608701dcb3a6b2146e2e6b7f73"></a>LIGHT_GREY_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa1e23852820b9154316c7c06e2b7ba051"></a>NORMAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa2909dd0e0336f10b6da9735b859a3d19"></a>BOLD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa8160fba05a5a291372a94bc22b55f62b"></a>SHADOW&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa25093123b8943308104129e1d762f3b7"></a>ITALIC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa0086c73c90c261db630b4dc8aea09bcf"></a>UNDERLINE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aaa2727ae72447eea06d4cc0ef67187280"></a>INVERT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa1e50e487f8672658546e3609404b53df"></a>HIDE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae124ce77f8e386663ac11e2e35e6070aa04dd53a8e6c2306e9bbf944c1d6047f2"></a>CROSS&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1629,9 +1488,9 @@ z</td>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d12/a01128.php">Big</a> mcd::abs </td>
+          <td class="memname"><a class="el" href="../../d9/d17/a01129.php">Big</a> mcd::abs </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1739,7 +1598,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname">size_t mcd::array2Dto1D </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/d1c/a01452.php">Point</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dae/a01453.php">Point</a> &amp;&#160;</td>
           <td class="paramname"><em>pt</em>, </td>
         </tr>
         <tr>
@@ -2283,7 +2142,7 @@ Here is the call graph for this function:</div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::enable_if_t&lt; std::is_pointer&lt; T &gt;::value || <a class="el" href="../../d9/d45/a01396.php">Check::is_minded_ptr</a>&lt; T &gt;::value &gt; mcd::deletePtr </td>
+          <td class="memname">std::enable_if_t&lt; std::is_pointer&lt; T &gt;::value || <a class="el" href="../../d7/d1c/a01397.php">Check::is_minded_ptr</a>&lt; T &gt;::value &gt; mcd::deletePtr </td>
           <td>(</td>
           <td class="paramtype">T &amp;&#160;</td>
           <td class="paramname"><em>pointer</em></td><td>)</td>
@@ -2317,13 +2176,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::dist </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/d1c/a01452.php">Point</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dae/a01453.php">Point</a> &amp;&#160;</td>
           <td class="paramname"><em>ptA</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../dd/d1c/a01452.php">Point</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dae/a01453.php">Point</a> &amp;&#160;</td>
           <td class="paramname"><em>ptB</em>&#160;</td>
         </tr>
         <tr>
@@ -2490,6 +2349,41 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a9767e5acc7c07b8ef837e2485dfc3ec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9767e5acc7c07b8ef837e2485dfc3ec5">&#9670;&nbsp;</a></span>dtanh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::dtanh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute with the derivated tanh. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The value to compute</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the result </dd></dl>
+
+</div>
+</div>
 <a id="a1a14f66f0c6eba0c77338364977658e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a14f66f0c6eba0c77338364977658e1">&#9670;&nbsp;</a></span>error_log()</h2>
 
@@ -2528,7 +2422,7 @@ template&lt;class T , class... Args&gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">line</td><td>The line number where the function is call (use line_number)</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The type of the error</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The type of the error </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The differents things to print <pre class="fragment">    \return         void
 </pre> </td></tr>
   </table>
@@ -2981,7 +2875,7 @@ template&lt;class T , class... Args&gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">line</td><td>The line number where the function is call (use line_number)</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The type of the info</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The type of the info </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The differents things to print <pre class="fragment">    \return         void
 </pre> </td></tr>
   </table>
@@ -3049,13 +2943,13 @@ template&lt;typename V , typename U &gt; </div>
         <tr>
           <td class="memname">bool mcd::isDivisor </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -3524,13 +3418,13 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator!= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -3554,13 +3448,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator!= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -3583,9 +3477,9 @@ template&lt;typename T , typename U , typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d12/a01128.php">Big</a> mcd::operator+ </td>
+          <td class="memname"><a class="el" href="../../d9/d17/a01129.php">Big</a> mcd::operator+ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -3597,7 +3491,7 @@ template&lt;typename T , typename U , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>+<a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a> </p>
+<p>+<a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a> </p>
 
 </div>
 </div>
@@ -3611,9 +3505,9 @@ template&lt;typename T , typename U , typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d12/a01128.php">Big</a>&amp; mcd::operator++ </td>
+          <td class="memname"><a class="el" href="../../d9/d17/a01129.php">Big</a>&amp; mcd::operator++ </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -3639,9 +3533,9 @@ template&lt;typename T , typename U , typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d12/a01128.php">Big</a> mcd::operator++ </td>
+          <td class="memname"><a class="el" href="../../d9/d17/a01129.php">Big</a> mcd::operator++ </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>in</em>, </td>
         </tr>
         <tr>
@@ -3663,7 +3557,7 @@ template&lt;typename T , typename U , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>++<a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a> </p>
+<p>++<a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a> </p>
 
 </div>
 </div>
@@ -3677,9 +3571,9 @@ template&lt;typename T , typename U , typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d12/a01128.php">Big</a> mcd::operator- </td>
+          <td class="memname"><a class="el" href="../../d9/d17/a01129.php">Big</a> mcd::operator- </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -3691,7 +3585,7 @@ template&lt;typename T , typename U , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>-<a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a> </p>
+<p>-<a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a> </p>
 
 </div>
 </div>
@@ -3705,9 +3599,9 @@ template&lt;typename T , typename U , typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d12/a01128.php">Big</a>&amp; mcd::operator-- </td>
+          <td class="memname"><a class="el" href="../../d9/d17/a01129.php">Big</a>&amp; mcd::operator-- </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -3719,7 +3613,7 @@ template&lt;typename T , typename U , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a>&ndash;. </p>
+<p><a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a>&ndash;. </p>
 
 </div>
 </div>
@@ -3733,9 +3627,9 @@ template&lt;typename T , typename U , typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d12/a01128.php">Big</a> mcd::operator-- </td>
+          <td class="memname"><a class="el" href="../../d9/d17/a01129.php">Big</a> mcd::operator-- </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>in</em>, </td>
         </tr>
         <tr>
@@ -3757,7 +3651,7 @@ template&lt;typename T , typename U , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>&ndash;<a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a> </p>
+<p>&ndash;<a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a> </p>
 
 </div>
 </div>
@@ -3773,13 +3667,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&lt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -3795,8 +3689,8 @@ template&lt;typename T , typename U , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Compare two <a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a>. </p>
-<p><a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a> &lt; <a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a>. </p>
+<p>Compare two <a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a>. </p>
+<p><a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a> &lt; <a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a>. </p>
 
 </div>
 </div>
@@ -3811,13 +3705,13 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&lt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -3841,13 +3735,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&lt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -3871,13 +3765,13 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&lt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -3901,13 +3795,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&lt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -3932,13 +3826,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -3954,8 +3848,8 @@ template&lt;typename T , typename U , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Compare two <a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a>. </p>
-<p><a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a> == <a class="el" href="../../d9/d12/a01128.php" title="A new huge arithmetic variable.">Big</a>. </p>
+<p>Compare two <a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a>. </p>
+<p><a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a> == <a class="el" href="../../d9/d17/a01129.php" title="A new huge arithmetic variable.">Big</a>. </p>
 
 </div>
 </div>
@@ -3970,13 +3864,13 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4000,13 +3894,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4030,13 +3924,13 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&gt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4060,13 +3954,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&gt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4090,13 +3984,13 @@ template&lt;typename T , typename U , typename V , typename W &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&gt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">quatuor</a>&lt; T, U, V, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4120,13 +4014,13 @@ template&lt;typename T , typename U , typename V &gt; </div>
         <tr>
           <td class="memname">bool mcd::operator&gt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -4200,15 +4094,15 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d12/a01128.php">Big</a> mcd::ppcm </td>
+          <td class="memname"><a class="el" href="../../d9/d17/a01129.php">Big</a> mcd::ppcm </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -5118,9 +5012,9 @@ template&lt;typename T , typename U &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d12/a01128.php">Big</a> mcd::sq </td>
+          <td class="memname"><a class="el" href="../../d9/d17/a01129.php">Big</a> mcd::sq </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5190,9 +5084,9 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d12/a01128.php">Big</a> mcd::sqrt </td>
+          <td class="memname"><a class="el" href="../../d9/d17/a01129.php">Big</a> mcd::sqrt </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d9/d12/a01128.php">Big</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d17/a01129.php">Big</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em></td><td>)</td>
           <td></td>
         </tr>
@@ -5212,6 +5106,41 @@ template&lt;class T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return the squareroot of <em>a</em> </dd></dl>
+
+</div>
+</div>
+<a id="a9db342c58a4088c0753e28475e369323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9db342c58a4088c0753e28475e369323">&#9670;&nbsp;</a></span>tanh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::tanh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the result of the tanh function. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The value to compute</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the result </dd></dl>
 
 </div>
 </div>
@@ -5909,7 +5838,7 @@ template&lt;class T , class... Args&gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">line</td><td>The line number where the function is call (use line_number)</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The type of the warning</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The type of the warning </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The differents things to print <pre class="fragment">    \return         void
 </pre> </td></tr>
   </table>
@@ -5958,7 +5887,7 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d20/a01096.php">Arguments</a> mcd::arguments</td>
+          <td class="memname"><a class="el" href="../../d1/dfa/a01097.php">Arguments</a> mcd::arguments</td>
         </tr>
       </table>
   </td>
@@ -5982,7 +5911,7 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d51/a01120.php">Assert</a> mcd::assertion</td>
+          <td class="memname"><a class="el" href="../../dd/de4/a01121.php">Assert</a> mcd::assertion</td>
         </tr>
       </table>
   </td>
@@ -6004,7 +5933,7 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d0f/a01256.php">Cesar</a> mcd::cesar</td>
+          <td class="memname"><a class="el" href="../../d9/de7/a01257.php">Cesar</a> mcd::cesar</td>
         </tr>
       </table>
   </td>
@@ -6018,54 +5947,6 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="ad49187ab386f309e965f2f8e954c3c24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad49187ab386f309e965f2f8e954c3c24">&#9670;&nbsp;</a></span>cout</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d8/d2b/a01236.php">ThreadCout</a> mcd::cout</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The thread safe version of std::cout. </p>
-
-</div>
-</div>
-<a id="a19aa3c3882eb7a0c0d4f6479a4bbf975"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19aa3c3882eb7a0c0d4f6479a4bbf975">&#9670;&nbsp;</a></span>endl</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d67/a01232.php">ThreadEndlCout</a> mcd::endl</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The thread safe version of std::endl. </p>
-
-</div>
-</div>
 <a id="a46f063faccea2fdafb8e5f33c2ccbc50"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a46f063faccea2fdafb8e5f33c2ccbc50">&#9670;&nbsp;</a></span>logger</h2>
 
@@ -6076,7 +5957,7 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/dec/a01320.php">Logger</a> mcd::logger</td>
+          <td class="memname"><a class="el" href="../../d9/d5c/a01321.php">Logger</a> mcd::logger</td>
         </tr>
       </table>
   </td>
@@ -6098,7 +5979,7 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/d51/a01264.php">MyCrypt</a> mcd::mycrypt</td>
+          <td class="memname"><a class="el" href="../../da/dd8/a01265.php">MyCrypt</a> mcd::mycrypt</td>
         </tr>
       </table>
   </td>
@@ -6108,7 +5989,7 @@ template&lt;typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>A global <a class="el" href="../../d3/d51/a01264.php" title="A class to test a homemade algorithm for encryption.">MyCrypt</a> variable to crypt messages. </p>
+<p>A global <a class="el" href="../../da/dd8/a01265.php" title="A class to test a homemade algorithm for encryption.">MyCrypt</a> variable to crypt messages. </p>
 
 </div>
 </div>
@@ -6161,28 +6042,6 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="ad309496206415242e21a12fc54df1cc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad309496206415242e21a12fc54df1cc8">&#9670;&nbsp;</a></span>setprecision</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d6e/a01240.php">SetPrecision</a> mcd::setprecision</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa0ce198f34851e093bbc38dfd975e339"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0ce198f34851e093bbc38dfd975e339">&#9670;&nbsp;</a></span>sha2</h2>
 
@@ -6193,7 +6052,7 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/da3/a01260.php">SHA2</a> mcd::sha2</td>
+          <td class="memname"><a class="el" href="../../de/d34/a01261.php">SHA2</a> mcd::sha2</td>
         </tr>
       </table>
   </td>

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,97 +95,97 @@ $(document).ready(function(){initNavTree('functions_vars.php',''); initResizable
 
 <h3><a id="index__5F"></a>- _ -</h3><ul>
 <li>_attacked
-: <a class="el" href="d8/dc5/a01300.php#a56083f800ece1bfc951d64ed36c4b8c6">mcd::Hostile</a>
+: <a class="el" href="d3/d07/a01301.php#a56083f800ece1bfc951d64ed36c4b8c6">mcd::Hostile</a>
 </li>
 <li>_attackedSpec
-: <a class="el" href="d8/dc5/a01300.php#ac1aefccd5c541096961543779115d396">mcd::Hostile</a>
+: <a class="el" href="d3/d07/a01301.php#ac1aefccd5c541096961543779115d396">mcd::Hostile</a>
 </li>
 <li>_chroms
-: <a class="el" href="dc/d64/a01140.php#ac4bfe0772fac9025654c268c48e6c9b8">mcd::natural::Cell</a>
+: <a class="el" href="de/df6/a01141.php#ac4bfe0772fac9025654c268c48e6c9b8">mcd::natural::Cell</a>
 </li>
 <li>_datas
-: <a class="el" href="df/d93/a01336.php#a4d1b0de513765c2c8d23c25bbfb67ef2">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="db/dec/a01337.php#a4d1b0de513765c2c8d23c25bbfb67ef2">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>_direction
-: <a class="el" href="da/db7/a01088.php#ad738ce8411210b52087a19fe33ae1174">mcd::Animal</a>
+: <a class="el" href="d3/dc4/a01089.php#ad738ce8411210b52087a19fe33ae1174">mcd::Animal</a>
 </li>
 <li>_end
-: <a class="el" href="dd/d0c/a01368.php#a6f42595f214b1d2328d40c7fcf371626">mcd::Pathfinding</a>
+: <a class="el" href="d1/d17/a01369.php#a6f42595f214b1d2328d40c7fcf371626">mcd::Pathfinding</a>
 </li>
 <li>_experience
-: <a class="el" href="d1/dcc/a01392.php#ae561b7817c64610317799205afa306cd">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d3/d92/a01393.php#ae561b7817c64610317799205afa306cd">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_experienceMax
-: <a class="el" href="d1/dcc/a01392.php#a3800d1590d75f762d41be6349556707d">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d3/d92/a01393.php#a3800d1590d75f762d41be6349556707d">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_genes1
-: <a class="el" href="d9/d31/a01208.php#aee71a70b3b97fb62b45ca9ea7d8d8323">mcd::natural::Chromosome</a>
+: <a class="el" href="de/d04/a01209.php#aee71a70b3b97fb62b45ca9ea7d8d8323">mcd::natural::Chromosome</a>
 </li>
 <li>_genes2
-: <a class="el" href="d9/d31/a01208.php#a2168f1db30d1641c1c1370f4ded14495">mcd::natural::Chromosome</a>
+: <a class="el" href="de/d04/a01209.php#a2168f1db30d1641c1c1370f4ded14495">mcd::natural::Chromosome</a>
 </li>
 <li>_her
-: <a class="el" href="df/d84/a01408.php#a3aadcf63bff72dd8c87f4c1d7a3bd240">mcd::Referenced&lt; C &gt;</a>
+: <a class="el" href="d9/d6e/a01409.php#a3aadcf63bff72dd8c87f4c1d7a3bd240">mcd::Referenced&lt; C &gt;</a>
 </li>
 <li>_i
-: <a class="el" href="df/d93/a01336.php#af6166e983f492c3395e82688e1d20dd0">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="db/dec/a01337.php#af6166e983f492c3395e82688e1d20dd0">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>_id
-: <a class="el" href="d6/dae/a01304.php#a6920412818f4d8a4478771fb767a2d07">mcd::Identifier</a>
+: <a class="el" href="dc/d9e/a01305.php#a6920412818f4d8a4478771fb767a2d07">mcd::Identifier</a>
 </li>
 <li>_init
-: <a class="el" href="d1/dcc/a01392.php#abffa7d0ae3461370c932f0732367c93b">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d3/d92/a01393.php#abffa7d0ae3461370c932f0732367c93b">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_j
-: <a class="el" href="df/d93/a01336.php#aa10d441b574ef731f3fb4416761ed8da">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="db/dec/a01337.php#aa10d441b574ef731f3fb4416761ed8da">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>_losted
-: <a class="el" href="d1/dcc/a01392.php#aee72e21c73d5bbf23c831514cd6cd58b">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d3/d92/a01393.php#aee72e21c73d5bbf23c831514cd6cd58b">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_mail
-: <a class="el" href="d1/dcc/a01392.php#ad9199142db686c7745b21429e7061823">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d3/d92/a01393.php#ad9199142db686c7745b21429e7061823">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_movedD
-: <a class="el" href="da/db7/a01088.php#a61f0ec7f0ddd1dd99f6b70f7dd9ecd99">mcd::Animal</a>
+: <a class="el" href="d3/dc4/a01089.php#a61f0ec7f0ddd1dd99f6b70f7dd9ecd99">mcd::Animal</a>
 </li>
 <li>_movedL
-: <a class="el" href="da/db7/a01088.php#a5582322e9815c00b7ba2beb207511da7">mcd::Animal</a>
+: <a class="el" href="d3/dc4/a01089.php#a5582322e9815c00b7ba2beb207511da7">mcd::Animal</a>
 </li>
 <li>_movedR
-: <a class="el" href="da/db7/a01088.php#add7fc2f540722616fe6602f99bdbc707">mcd::Animal</a>
+: <a class="el" href="d3/dc4/a01089.php#add7fc2f540722616fe6602f99bdbc707">mcd::Animal</a>
 </li>
 <li>_movedU
-: <a class="el" href="da/db7/a01088.php#a3c7bf911d2153e0febeb1120e7e7e59f">mcd::Animal</a>
+: <a class="el" href="d3/dc4/a01089.php#a3c7bf911d2153e0febeb1120e7e7e59f">mcd::Animal</a>
 </li>
 <li>_msg
-: <a class="el" href="d7/d8d/a01288.php#a8cffcfc2c1a631bee3154a999bf13bf1">mcd::exception</a>
+: <a class="el" href="d9/dda/a01289.php#a8cffcfc2c1a631bee3154a999bf13bf1">mcd::exception</a>
 </li>
 <li>_mutex
-: <a class="el" href="d5/da5/a01424.php#a77d662da66e59d43579e7490d24d72b8">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="db/df2/a01425.php#a77d662da66e59d43579e7490d24d72b8">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>_obstacle
-: <a class="el" href="da/db7/a01088.php#a985c2d43a49a8df1f7849074b42c0e13">mcd::Animal</a>
+: <a class="el" href="d3/dc4/a01089.php#a985c2d43a49a8df1f7849074b42c0e13">mcd::Animal</a>
 </li>
 <li>_password
-: <a class="el" href="d6/dae/a01304.php#a95d479399de1b046aff00e83210b67ea">mcd::Identifier</a>
+: <a class="el" href="dc/d9e/a01305.php#a95d479399de1b046aff00e83210b67ea">mcd::Identifier</a>
 </li>
 <li>_path
-: <a class="el" href="dd/d0c/a01368.php#afa7ec4aec9e8ed4aba2c3110ca86273f">mcd::Pathfinding</a>
+: <a class="el" href="d1/d17/a01369.php#afa7ec4aec9e8ed4aba2c3110ca86273f">mcd::Pathfinding</a>
 </li>
 <li>_paused
-: <a class="el" href="d1/dcc/a01392.php#a005074efa352510f2dc316404195946c">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d3/d92/a01393.php#a005074efa352510f2dc316404195946c">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_problem
-: <a class="el" href="dd/d0c/a01368.php#a8432f285b7015512efbe0a9a47bc76d7">mcd::Pathfinding</a>
+: <a class="el" href="d1/d17/a01369.php#a8432f285b7015512efbe0a9a47bc76d7">mcd::Pathfinding</a>
 </li>
 <li>_start
-: <a class="el" href="dd/d0c/a01368.php#a6fc13e2aa513059f91865021b9b13eed">mcd::Pathfinding</a>
+: <a class="el" href="d1/d17/a01369.php#a6fc13e2aa513059f91865021b9b13eed">mcd::Pathfinding</a>
 </li>
 <li>_target
-: <a class="el" href="d8/dc5/a01300.php#ade230ba4a19be94a4719caede784038d">mcd::Hostile</a>
+: <a class="el" href="d3/d07/a01301.php#ade230ba4a19be94a4719caede784038d">mcd::Hostile</a>
 </li>
 <li>_username
-: <a class="el" href="d6/dae/a01304.php#a4a002c57b507ef0c744135eacfb82b6f">mcd::Identifier</a>
+: <a class="el" href="dc/d9e/a01305.php#a4a002c57b507ef0c744135eacfb82b6f">mcd::Identifier</a>
 </li>
 </ul>
 
@@ -199,27 +199,27 @@ $(document).ready(function(){initNavTree('functions_vars.php',''); initResizable
 
 <h3><a id="index_b"></a>- b -</h3><ul>
 <li>block
-: <a class="el" href="d7/da3/a01260.php#aa50ce5e9d8271080d4dd30b9afe50e89">mcd::SHA2</a>
+: <a class="el" href="de/d34/a01261.php#aa50ce5e9d8271080d4dd30b9afe50e89">mcd::SHA2</a>
 </li>
 <li>BLOCK_SIZE
-: <a class="el" href="d7/da3/a01260.php#ae41078716ddc513c6af9a825448cbabd">mcd::SHA2</a>
+: <a class="el" href="de/d34/a01261.php#ae41078716ddc513c6af9a825448cbabd">mcd::SHA2</a>
 </li>
 </ul>
 
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>computed
-: <a class="el" href="dd/d6d/a01380.php#a058cdcc45ae37d3932b328594455c34f">mcd::PathfindingProblem</a>
+: <a class="el" href="da/d77/a01381.php#a058cdcc45ae37d3932b328594455c34f">mcd::PathfindingProblem</a>
 </li>
 </ul>
 
 
 <h3><a id="index_d"></a>- d -</h3><ul>
 <li>DIGEST_SIZE
-: <a class="el" href="d7/da3/a01260.php#a040f0fbef61aaa96faaaf4c2fe2da895">mcd::SHA2</a>
+: <a class="el" href="de/d34/a01261.php#a040f0fbef61aaa96faaaf4c2fe2da895">mcd::SHA2</a>
 </li>
 <li>distances
-: <a class="el" href="dd/d6d/a01380.php#a099eeefd81c8fcb6b145679e4e7fb65c">mcd::PathfindingProblem</a>
+: <a class="el" href="da/d77/a01381.php#a099eeefd81c8fcb6b145679e4e7fb65c">mcd::PathfindingProblem</a>
 </li>
 </ul>
 
@@ -227,7 +227,7 @@ $(document).ready(function(){initNavTree('functions_vars.php',''); initResizable
 <h3><a id="index_e"></a>- e -</h3><ul>
 <li>end
 : <a class="el" href="db/d12/a00268.php#a2f707d77cfeffb93eceecea7c25a7cc6">mcd::MapMove</a>
-, <a class="el" href="de/d1f/a01364.php#a3b461b7f35d6914a627e52e20f79f6ce">mcd::Path</a>
+, <a class="el" href="d7/d81/a01365.php#a3b461b7f35d6914a627e52e20f79f6ce">mcd::Path</a>
 </li>
 </ul>
 
@@ -241,7 +241,7 @@ $(document).ready(function(){initNavTree('functions_vars.php',''); initResizable
 , <a class="el" href="db/d12/a00268.php#a487ffcf658abecf75319593df922b7bf">mcd::trio&lt; T, U, V &gt;</a>
 </li>
 <li>FloatAccuracy
-: <a class="el" href="d4/d64/a01296.php#a956e43802a33c93c589c52568f12f6d1">mcd::natural::Gene</a>
+: <a class="el" href="dc/d8c/a01297.php#a956e43802a33c93c589c52568f12f6d1">mcd::natural::Gene</a>
 </li>
 <li>func
 : <a class="el" href="db/d12/a00268.php#a007715350c75937aa1c04307d3caf8e9">mcd::AssertionLocationStruct</a>
@@ -252,7 +252,7 @@ $(document).ready(function(){initNavTree('functions_vars.php',''); initResizable
 <h3><a id="index_h"></a>- h -</h3><ul>
 <li>h
 : <a class="el" href="db/d12/a00268.php#aed95108125aaaa616352928dcf421b1e">mcd::ContraptionAttr</a>
-, <a class="el" href="d7/da3/a01260.php#a53cfb8aef4749f35c4714b3ba88e5a4c">mcd::SHA2</a>
+, <a class="el" href="de/d34/a01261.php#a53cfb8aef4749f35c4714b3ba88e5a4c">mcd::SHA2</a>
 , <a class="el" href="db/d12/a00268.php#abe35d460277b28d79aa0261fd58b89da">mcd::WorldDimensions</a>
 </li>
 </ul>
@@ -260,7 +260,7 @@ $(document).ready(function(){initNavTree('functions_vars.php',''); initResizable
 
 <h3><a id="index_i"></a>- i -</h3><ul>
 <li>id
-: <a class="el" href="d9/d79/a01360.php#ac252a8bf89c83a96e63604fdb8eb144b">mcd::PathfindingNode</a>
+: <a class="el" href="d2/d1f/a01361.php#ac252a8bf89c83a96e63604fdb8eb144b">mcd::PathfindingNode</a>
 </li>
 <li>initialized
 : <a class="el" href="db/d12/a00268.php#a4be9be6714e8c7fa10acc26a20d46193">mcd::Node&lt; T &gt;</a>
@@ -273,7 +273,7 @@ $(document).ready(function(){initNavTree('functions_vars.php',''); initResizable
 : <a class="el" href="db/d12/a00268.php#a6f748c14098cdfeed1d14abc39a7f07a">mcd::Node&lt; T &gt;</a>
 </li>
 <li>length
-: <a class="el" href="d7/da3/a01260.php#ad7a6034372b883a9d87b527d16c55acf">mcd::SHA2</a>
+: <a class="el" href="de/d34/a01261.php#ad7a6034372b883a9d87b527d16c55acf">mcd::SHA2</a>
 </li>
 <li>line
 : <a class="el" href="db/d12/a00268.php#ac1ef1f935932cbc6eb910767f7ce987b">mcd::AssertionLocationStruct</a>
@@ -283,34 +283,34 @@ $(document).ready(function(){initNavTree('functions_vars.php',''); initResizable
 
 <h3><a id="index_m"></a>- m -</h3><ul>
 <li>m_start
-: <a class="el" href="dc/db6/a01212.php#a9714489f034bfffabff995741d899513">mcd::Clock</a>
-, <a class="el" href="db/dff/a01432.php#acb15fc23bdf915fbc5093d3f40996a37">mcd::Timer</a>
+: <a class="el" href="d5/d54/a01213.php#a9714489f034bfffabff995741d899513">mcd::Clock</a>
+, <a class="el" href="d2/d9b/a01433.php#acb15fc23bdf915fbc5093d3f40996a37">mcd::Timer</a>
 </li>
 <li>MutationRate
-: <a class="el" href="d4/d64/a01296.php#aea82298faeb2f83a45c7ca43558c0390">mcd::natural::Gene</a>
+: <a class="el" href="dc/d8c/a01297.php#aea82298faeb2f83a45c7ca43558c0390">mcd::natural::Gene</a>
 </li>
 </ul>
 
 
 <h3><a id="index_n"></a>- n -</h3><ul>
 <li>nbNodes
-: <a class="el" href="dd/d6d/a01380.php#a87c634685eea28780ddc10b7aa08af07">mcd::PathfindingProblem</a>
+: <a class="el" href="da/d77/a01381.php#a87c634685eea28780ddc10b7aa08af07">mcd::PathfindingProblem</a>
 </li>
 <li>next
 : <a class="el" href="db/d12/a00268.php#a61ee478b9a87acbd0fb2299f867a1bea">mcd::MapMove</a>
 </li>
 <li>nodes
-: <a class="el" href="dd/d6d/a01380.php#a32f76a1b0a2107e3468ff49fd398b0ae">mcd::PathfindingProblem</a>
+: <a class="el" href="da/d77/a01381.php#a32f76a1b0a2107e3468ff49fd398b0ae">mcd::PathfindingProblem</a>
 </li>
 </ul>
 
 
 <h3><a id="index_p"></a>- p -</h3><ul>
 <li>privateK
-: <a class="el" href="dc/dd9/a01268.php#a41496cdf1557d2e3dda4d0f414738af5">mcd::RSA</a>
+: <a class="el" href="d6/d16/a01269.php#a41496cdf1557d2e3dda4d0f414738af5">mcd::RSA</a>
 </li>
 <li>publicK
-: <a class="el" href="dc/dd9/a01268.php#ae37f658e3ba447726e0a0abd0f1ac5c8">mcd::RSA</a>
+: <a class="el" href="d6/d16/a01269.php#ae37f658e3ba447726e0a0abd0f1ac5c8">mcd::RSA</a>
 </li>
 </ul>
 
@@ -335,17 +335,17 @@ $(document).ready(function(){initNavTree('functions_vars.php',''); initResizable
 , <a class="el" href="db/d12/a00268.php#add070f6dc7f62980568fb3e4e65a8059">mcd::trio&lt; T, U, V &gt;</a>
 </li>
 <li>sha2_keys
-: <a class="el" href="d7/da3/a01260.php#ae118c7ed9d79b55029696e4e4aff27d6">mcd::SHA2</a>
+: <a class="el" href="de/d34/a01261.php#ae118c7ed9d79b55029696e4e4aff27d6">mcd::SHA2</a>
 </li>
 <li>sleeper
-: <a class="el" href="d5/da5/a01424.php#a0351657024f3b0d37b54c08a09a156fa">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="db/df2/a01425.php#a0351657024f3b0d37b54c08a09a156fa">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>start
-: <a class="el" href="de/d1f/a01364.php#aeeee0a0ede330174785a5c7fe77d1681">mcd::Path</a>
+: <a class="el" href="d7/d81/a01365.php#aeeee0a0ede330174785a5c7fe77d1681">mcd::Path</a>
 </li>
 <li>started
-: <a class="el" href="dc/db6/a01212.php#a20216632ae0d7b1504060826edfdd062">mcd::Clock</a>
-, <a class="el" href="db/dff/a01432.php#a489644a70b400f78d63ad3449ffae846">mcd::Timer</a>
+: <a class="el" href="d5/d54/a01213.php#a20216632ae0d7b1504060826edfdd062">mcd::Clock</a>
+, <a class="el" href="d2/d9b/a01433.php#a489644a70b400f78d63ad3449ffae846">mcd::Timer</a>
 </li>
 </ul>
 
@@ -356,29 +356,29 @@ $(document).ready(function(){initNavTree('functions_vars.php',''); initResizable
 , <a class="el" href="db/d12/a00268.php#a12acab2177c1232a58321ec43d572f08">mcd::trio&lt; T, U, V &gt;</a>
 </li>
 <li>totalLength
-: <a class="el" href="d7/da3/a01260.php#ab980e5f7d9f33cf1ef036fabc59dbd7d">mcd::SHA2</a>
+: <a class="el" href="de/d34/a01261.php#ab980e5f7d9f33cf1ef036fabc59dbd7d">mcd::SHA2</a>
 </li>
 </ul>
 
 
 <h3><a id="index_v"></a>- v -</h3><ul>
 <li>value
-: <a class="el" href="d6/d97/a01188.php#a4ea6d2bc4fe8e15561698f6ea66d021b">mcd::Check::has_istream_operator&lt; T &gt;</a>
-, <a class="el" href="dd/d75/a01180.php#ad1cf88abd079ce2df64d1d4f8e256a8a">mcd::Check::has_ostream_operator&lt; T &gt;</a>
-, <a class="el" href="d3/d32/a01176.php#a08b55ec77a90295c1e84f63021bc89a2">mcd::Check::has_size_method&lt; T &gt;</a>
-, <a class="el" href="db/d17/a01148.php#a0158c050746b586a1c8e800a68968879">mcd::Check::is_array&lt; T &gt;</a>
-, <a class="el" href="d6/db6/a01172.php#a344818944230a22a8c7988dd3ba8e2f9">mcd::Check::is_duration&lt; T &gt;</a>
-, <a class="el" href="d9/d45/a01396.php#a76170894810e15b11dafb7f34965aef4">mcd::Check::is_minded_ptr&lt; T &gt;</a>
-, <a class="el" href="dc/dcc/a01200.php#aba4751c5acee27e01be8c2b8abc0888b">mcd::Check::is_object&lt; T &gt;</a>
-, <a class="el" href="d9/d97/a01152.php#ac3fa87bfb2551b3a98cac89a0c39b2ba">mcd::Check::is_pair&lt; T &gt;</a>
-, <a class="el" href="d2/d22/a01196.php#ae62c92a381f9915ca93aeb48aadeeebc">mcd::Check::is_printable&lt; T &gt;</a>
-, <a class="el" href="da/d20/a01160.php#a89743328c29104ad4f66261b0ba77611">mcd::Check::is_quatuor&lt; T &gt;</a>
-, <a class="el" href="d4/da6/a01168.php#a573e824f7b1584fa564c91c1e5814453">mcd::Check::is_smatch&lt; T &gt;</a>
-, <a class="el" href="d7/d5a/a01204.php#a9347b60a434f2cfd40453cc7856c3918">mcd::Check::is_special_struct&lt; T &gt;</a>
-, <a class="el" href="d2/dd2/a01164.php#af2c46fb3d97ce2190260c2ddcb2d33d4">mcd::Check::is_string&lt; T &gt;</a>
-, <a class="el" href="dc/d35/a01400.php#aeaf71256c26f5b5be4a5e5db9035500b">mcd::Check::is_thread_ptr&lt; T &gt;</a>
-, <a class="el" href="d9/d42/a01156.php#a35b153eb448f4f520fbab10d63317262">mcd::Check::is_trio&lt; T &gt;</a>
-, <a class="el" href="db/d51/a01144.php#ab81fa142d6e7d3c98a4dae1f0ca3dfd5">mcd::Check::is_vector&lt; T &gt;</a>
+: <a class="el" href="d3/d10/a01189.php#a4ea6d2bc4fe8e15561698f6ea66d021b">mcd::Check::has_istream_operator&lt; T &gt;</a>
+, <a class="el" href="de/db5/a01181.php#ad1cf88abd079ce2df64d1d4f8e256a8a">mcd::Check::has_ostream_operator&lt; T &gt;</a>
+, <a class="el" href="dc/d98/a01177.php#a08b55ec77a90295c1e84f63021bc89a2">mcd::Check::has_size_method&lt; T &gt;</a>
+, <a class="el" href="d8/d02/a01149.php#a0158c050746b586a1c8e800a68968879">mcd::Check::is_array&lt; T &gt;</a>
+, <a class="el" href="d7/d0c/a01173.php#a344818944230a22a8c7988dd3ba8e2f9">mcd::Check::is_duration&lt; T &gt;</a>
+, <a class="el" href="d7/d1c/a01397.php#a76170894810e15b11dafb7f34965aef4">mcd::Check::is_minded_ptr&lt; T &gt;</a>
+, <a class="el" href="de/df7/a01201.php#aba4751c5acee27e01be8c2b8abc0888b">mcd::Check::is_object&lt; T &gt;</a>
+, <a class="el" href="dc/d06/a01153.php#ac3fa87bfb2551b3a98cac89a0c39b2ba">mcd::Check::is_pair&lt; T &gt;</a>
+, <a class="el" href="d4/d10/a01197.php#ae62c92a381f9915ca93aeb48aadeeebc">mcd::Check::is_printable&lt; T &gt;</a>
+, <a class="el" href="dc/d81/a01161.php#a89743328c29104ad4f66261b0ba77611">mcd::Check::is_quatuor&lt; T &gt;</a>
+, <a class="el" href="d7/daf/a01169.php#a573e824f7b1584fa564c91c1e5814453">mcd::Check::is_smatch&lt; T &gt;</a>
+, <a class="el" href="de/d61/a01205.php#a9347b60a434f2cfd40453cc7856c3918">mcd::Check::is_special_struct&lt; T &gt;</a>
+, <a class="el" href="d8/d92/a01165.php#af2c46fb3d97ce2190260c2ddcb2d33d4">mcd::Check::is_string&lt; T &gt;</a>
+, <a class="el" href="dc/df4/a01401.php#aeaf71256c26f5b5be4a5e5db9035500b">mcd::Check::is_thread_ptr&lt; T &gt;</a>
+, <a class="el" href="d9/d25/a01157.php#a35b153eb448f4f520fbab10d63317262">mcd::Check::is_trio&lt; T &gt;</a>
+, <a class="el" href="d9/d65/a01145.php#ab81fa142d6e7d3c98a4dae1f0ca3dfd5">mcd::Check::is_vector&lt; T &gt;</a>
 </li>
 <li>values
 : <a class="el" href="db/d12/a00268.php#a56cd61aea5d46ecf42aa3959086b7d96">mcd::Node&lt; T &gt;</a>
@@ -395,28 +395,28 @@ $(document).ready(function(){initNavTree('functions_vars.php',''); initResizable
 : <a class="el" href="db/d12/a00268.php#ae9c3c7c184c194240178a2cf11f24566">mcd::Node&lt; T &gt;</a>
 </li>
 <li>weights
-: <a class="el" href="dd/d6d/a01380.php#a99cf4dedc5270b2ffc388dd771f4564a">mcd::PathfindingProblem</a>
+: <a class="el" href="da/d77/a01381.php#a99cf4dedc5270b2ffc388dd771f4564a">mcd::PathfindingProblem</a>
 </li>
 </ul>
 
 
 <h3><a id="index_x"></a>- x -</h3><ul>
 <li>x
-: <a class="el" href="dd/d1c/a01452.php#a924c77d36867a18d5a52767ff246ebfc">mcd::Point</a>
+: <a class="el" href="d9/dae/a01453.php#a924c77d36867a18d5a52767ff246ebfc">mcd::Point</a>
 </li>
 </ul>
 
 
 <h3><a id="index_y"></a>- y -</h3><ul>
 <li>y
-: <a class="el" href="dd/d1c/a01452.php#ab339ac0efa2259051dc1ac0637d2c9a8">mcd::Point</a>
+: <a class="el" href="d9/dae/a01453.php#ab339ac0efa2259051dc1ac0637d2c9a8">mcd::Point</a>
 </li>
 </ul>
 
 
 <h3><a id="index_z"></a>- z -</h3><ul>
 <li>z
-: <a class="el" href="dd/d1c/a01452.php#a010288cb5febefa70329d35a726c7291">mcd::Point</a>
+: <a class="el" href="d9/dae/a01453.php#a010288cb5febefa70329d35a726c7291">mcd::Point</a>
 , <a class="el" href="db/d12/a00268.php#a6e818e561922fa511658e15bec5fa55d">mcd::WorldDimensions</a>
 </li>
 </ul>

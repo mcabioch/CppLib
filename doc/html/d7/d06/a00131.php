@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -221,12 +221,17 @@ Macros</h2></td></tr>
 <tr class="memitem:abe33bfc662fbc270e952c288fd8a7991"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d06/a00131.php#abe33bfc662fbc270e952c288fd8a7991">AUTO_OPERATORS</a>(Type)</td></tr>
 <tr class="memdesc:abe33bfc662fbc270e952c288fd8a7991"><td class="mdescLeft">&#160;</td><td class="mdescRight">A define to add operators &lt;=, &gt;, &gt;=, and != when == and &lt; are defined.  <a href="../../d7/d06/a00131.php#abe33bfc662fbc270e952c288fd8a7991">More...</a><br /></td></tr>
 <tr class="separator:abe33bfc662fbc270e952c288fd8a7991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8002d97e9fbabb78da501b4b5a9d188a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d06/a00131.php#a8002d97e9fbabb78da501b4b5a9d188a">try_catch</a>(Instruction,  Exception)</td></tr>
+<tr class="separator:a8002d97e9fbabb78da501b4b5a9d188a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf3d20aa957d03b79d774e80ab0507ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d06/a00131.php#adf3d20aa957d03b79d774e80ab0507ed">GENERATE_ITERATORS</a>(ArrayType,  ArrayMember)</td></tr>
+<tr class="memdesc:adf3d20aa957d03b79d774e80ab0507ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">A define to generate begin, cebgin, end, and cend iterators.  <a href="../../d7/d06/a00131.php#adf3d20aa957d03b79d774e80ab0507ed">More...</a><br /></td></tr>
+<tr class="separator:adf3d20aa957d03b79d774e80ab0507ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Created : Sunday October, 25 2020 18:40:52 </dd>
 <dd>
-Last modification : Sunday October, 25 2020 </dd></dl>
+Last modification : November, 01 2020 </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="acdc796107ba68a6a3ce4567f35e7b57e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acdc796107ba68a6a3ce4567f35e7b57e">&#9670;&nbsp;</a></span>AUTO_OPERATOR_DIFF</h2>
@@ -363,6 +368,81 @@ Last modification : Sunday October, 25 2020 </dd></dl>
   </dd>
 </dl>
 
+</div>
+</div>
+<a id="adf3d20aa957d03b79d774e80ab0507ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf3d20aa957d03b79d774e80ab0507ed">&#9670;&nbsp;</a></span>GENERATE_ITERATORS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GENERATE_ITERATORS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ArrayType, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ArrayMember&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">typename</span> ArrayType::iterator       begin() { <span class="keywordflow">return</span> ArrayMember.begin(); }                     \</div>
+<div class="line">    typename ArrayType::const_iterator begin()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> ArrayMember.begin(); }               \</div>
+<div class="line">    typename ArrayType::const_iterator cbegin()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> begin(); }                          \</div>
+<div class="line">                                                                                                   \</div>
+<div class="line">    typename ArrayType::iterator       end() { <span class="keywordflow">return</span> ArrayMember.end(); }                         \</div>
+<div class="line">    typename ArrayType::const_iterator end()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> ArrayMember.end(); }                   \</div>
+<div class="line">    typename ArrayType::const_iterator cend()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> end(); }</div>
+</div><!-- fragment -->
+<p>A define to generate begin, cebgin, end, and cend iterators. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ArrayType</td><td>The type of the array to create iterators for </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ArrayMember</td><td>The name of the member variable to create iterators for </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8002d97e9fbabb78da501b4b5a9d188a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8002d97e9fbabb78da501b4b5a9d188a">&#9670;&nbsp;</a></span>try_catch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define try_catch</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Instruction, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Exception&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">try</span> {                                                                                          \</div>
+<div class="line">        Instruction;                                                                               \</div>
+<div class="line">    } <span class="keywordflow">catch</span> (<span class="keyword">const</span> Exception&amp; exception) { exception.what(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -204,7 +204,7 @@ Objects</h2>
 </li>
 </ul>
 </li>
-<li><a class="el" href="d0/d36/a01388.php">mcd::Player</a></li>
+<li><a class="el" href="d0/d95/a01389.php">mcd::Player</a></li>
 </ul>
 </li>
 </ul>
@@ -253,7 +253,7 @@ November, 27 2019 (1.5.0.0)</h2>
 <p>Adding a class to do some unitary tests in a program.</p>
 <h2><a class="anchor" id="upd_sec_2019114_subsec"></a>
 November, 14 2019 (1.4.1.1)</h2>
-<p>Changing assert behaviour to throw a <a class="el" href="d0/dc8/a01124.php" title="An exception thrown by my assert&#39;s implementation.">mcd::AssertionException</a> instead of closing the program.</p>
+<p>Changing assert behaviour to throw a <a class="el" href="d6/dc4/a01125.php" title="An exception thrown by my assert&#39;s implementation.">mcd::AssertionException</a> instead of closing the program.</p>
 <h2><a class="anchor" id="upd_sec_20191109_subsec"></a>
 November, 09 2019 (1.4.0.0)</h2>
 <p>Adding an object to log informations (logger).</p>

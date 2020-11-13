@@ -137,13 +137,32 @@ namespace mcd
         /* Others members of vector */
         /*
          * \brief	Erase an element from a vector on the position pos
-         *		\param		a			The array
          *		\param		pos			The position to erase
          */
         void pop(size_t pos = 0) {
             if (pos >= this->size()) { return; }
 
             this->erase(this->begin() + pos);
+        }
+
+        /*
+         * \brief	Add an element from a vector on the position pos
+         *		\param		obj			The object to add
+         *		\param		pos			The position of the object
+         */
+        void push(const C& obj, size_t pos = 0) {
+            if (pos >= this->size()) {
+                this->push_back(obj);
+                return;
+            }
+
+            vector< C > tmp;
+
+            for (auto it = this->begin(); it != this->begin() + pos; ++it) { tmp.push_back((*it)); }
+            tmp.push_back(obj);
+            for (auto it = this->begin() + pos; it != this->end(); ++it) { tmp.push_back((*it)); }
+
+            *this = tmp;
         }
     };
 }   // namespace mcd

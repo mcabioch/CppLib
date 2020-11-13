@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Console::Color Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('db/d42/a01220.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('da/d19/a01217.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,27 +91,446 @@ $(document).ready(function(){initNavTree('db/d42/a01220.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
+<a href="../../d5/d32/a01214.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Reinit Member List</div>  </div>
+<div class="title">mcd::Console::Color Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../db/d42/a01220.php">mcd::Reinit</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/df3/a01216.php#af4f6325cc63bd229cdf19df24a6e4f6e">addColors</a>(int color)</td><td class="entry"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/df3/a01216.php#ae732af32fdbea05950d39bd9532121cf">addColors</a>(int color, Args... args)</td><td class="entry"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/df3/a01216.php#a8dd730c3b59730b786d059a507d03fca">addColors</a>(const Colors &amp;color)</td><td class="entry"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/df3/a01216.php#ada095941e4b1c3757618959df513af9a">addColors</a>(const Colors &amp;color, Args... args)</td><td class="entry"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/df3/a01216.php#a81a4808e8eb05c0a23cd90da4d8569ec">Color</a>(const std::string &amp;color)</td><td class="entry"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/df3/a01216.php#ac3843a894efef061a84ac802d316fd86">Color</a>(Colors color, Args... args)</td><td class="entry"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/d42/a01220.php#a551e27ee03f69ab98899f261c3ab89e3">Reinit</a>()</td><td class="entry"><a class="el" href="../../db/d42/a01220.php">mcd::Reinit</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/df3/a01216.php#a4db298b6e4ff50cf961dc90449468952">~Color</a>()</td><td class="entry"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>Change the text color in the console.  
+ <a href="../../da/d19/a01217.php#details">More...</a></p>
+
+<p><code>#include &lt;console.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::Console::Color:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/df3/a01216.png" border="0" usemap="#amcd_1_1Console_1_1Color_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1Console_1_1Color_inherit__map" id="mcd_1_1Console_1_1Color_inherit__map">
+<area shape="rect" title="Change the text color in the console." alt="" coords="81,5,223,32"/>
+<area shape="rect" href="../../d8/d53/a01225.php" title="Clear the console." alt="" coords="5,80,136,107"/>
+<area shape="rect" href="../../dd/d3f/a01221.php" title="Reinit the color in the console." alt="" coords="161,80,306,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:afabf60910f6b7f9753511c6fd11f8d12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#afabf60910f6b7f9753511c6fd11f8d12">Color</a> (const std::string &amp;color)</td></tr>
+<tr class="memdesc:afabf60910f6b7f9753511c6fd11f8d12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../da/d19/a01217.php" title="Change the text color in the console.">Color</a> object with a first color.  <a href="../../da/d19/a01217.php#afabf60910f6b7f9753511c6fd11f8d12">More...</a><br /></td></tr>
+<tr class="separator:afabf60910f6b7f9753511c6fd11f8d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad276e26fc3ba34d385cbe4fbc12aef6c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#ad276e26fc3ba34d385cbe4fbc12aef6c">~Color</a> ()</td></tr>
+<tr class="separator:ad276e26fc3ba34d385cbe4fbc12aef6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf5fdca03c376b0dd118194c77cf3ca0"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:adf5fdca03c376b0dd118194c77cf3ca0"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#adf5fdca03c376b0dd118194c77cf3ca0">Color</a> (<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> color, Args... args)</td></tr>
+<tr class="memdesc:adf5fdca03c376b0dd118194c77cf3ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../da/d19/a01217.php" title="Change the text color in the console.">Color</a> object with colors.  <a href="../../da/d19/a01217.php#adf5fdca03c376b0dd118194c77cf3ca0">More...</a><br /></td></tr>
+<tr class="separator:adf5fdca03c376b0dd118194c77cf3ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23ae64b87c3d76f8c4910443b4e63f53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#a23ae64b87c3d76f8c4910443b4e63f53">addColors</a> (int color)</td></tr>
+<tr class="memdesc:a23ae64b87c3d76f8c4910443b4e63f53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="../../da/d19/a01217.php#a23ae64b87c3d76f8c4910443b4e63f53">More...</a><br /></td></tr>
+<tr class="separator:a23ae64b87c3d76f8c4910443b4e63f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7faff8f12e3d4bd9ec63422f4716cde8"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:a7faff8f12e3d4bd9ec63422f4716cde8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#a7faff8f12e3d4bd9ec63422f4716cde8">addColors</a> (int color, Args... args)</td></tr>
+<tr class="memdesc:a7faff8f12e3d4bd9ec63422f4716cde8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="../../da/d19/a01217.php#a7faff8f12e3d4bd9ec63422f4716cde8">More...</a><br /></td></tr>
+<tr class="separator:a7faff8f12e3d4bd9ec63422f4716cde8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab16c17203be13b1462b08c5d74f074ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#ab16c17203be13b1462b08c5d74f074ad">addColors</a> (const <a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> &amp;color)</td></tr>
+<tr class="memdesc:ab16c17203be13b1462b08c5d74f074ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="../../da/d19/a01217.php#ab16c17203be13b1462b08c5d74f074ad">More...</a><br /></td></tr>
+<tr class="separator:ab16c17203be13b1462b08c5d74f074ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f851c02a93ea3be04f5fcc50538114a"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:a2f851c02a93ea3be04f5fcc50538114a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#a2f851c02a93ea3be04f5fcc50538114a">addColors</a> (const <a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> &amp;color, Args... args)</td></tr>
+<tr class="memdesc:a2f851c02a93ea3be04f5fcc50538114a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="../../da/d19/a01217.php#a2f851c02a93ea3be04f5fcc50538114a">More...</a><br /></td></tr>
+<tr class="separator:a2f851c02a93ea3be04f5fcc50538114a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a37c42c3a0b8af325e746f536a6a51305"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#a37c42c3a0b8af325e746f536a6a51305">Cls</a></td></tr>
+<tr class="separator:a37c42c3a0b8af325e746f536a6a51305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84513fec989f2f817d2b1c5e6989450e"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#a84513fec989f2f817d2b1c5e6989450e">operator&lt;&lt;</a> (std::ostream &amp;stream, <a class="el" href="../../da/d19/a01217.php">Color</a> const &amp;c)</td></tr>
+<tr class="memdesc:a84513fec989f2f817d2b1c5e6989450e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloading of the &lt;&lt; operator.  <a href="../../da/d19/a01217.php#a84513fec989f2f817d2b1c5e6989450e">More...</a><br /></td></tr>
+<tr class="separator:a84513fec989f2f817d2b1c5e6989450e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Change the text color in the console. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="afabf60910f6b7f9753511c6fd11f8d12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afabf60910f6b7f9753511c6fd11f8d12">&#9670;&nbsp;</a></span>Color() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Console::Color::Color </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct a <a class="el" href="../../da/d19/a01217.php" title="Change the text color in the console.">Color</a> object with a first color. </p>
+
+</div>
+</div>
+<a id="ad276e26fc3ba34d385cbe4fbc12aef6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad276e26fc3ba34d385cbe4fbc12aef6c">&#9670;&nbsp;</a></span>~Color()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::Console::Color::~Color </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf5fdca03c376b0dd118194c77cf3ca0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf5fdca03c376b0dd118194c77cf3ca0">&#9670;&nbsp;</a></span>Color() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Console::Color::Color </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a>&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct a <a class="el" href="../../da/d19/a01217.php" title="Change the text color in the console.">Color</a> object with colors. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d19/a01217_adf5fdca03c376b0dd118194c77cf3ca0_cgraph.png" border="0" usemap="#ada/d19/a01217_adf5fdca03c376b0dd118194c77cf3ca0_cgraph" alt=""/></div>
+<map name="da/d19/a01217_adf5fdca03c376b0dd118194c77cf3ca0_cgraph" id="da/d19/a01217_adf5fdca03c376b0dd118194c77cf3ca0_cgraph">
+<area shape="rect" title="Construct a Color object with colors." alt="" coords="5,5,148,47"/>
+<area shape="rect" href="../../da/d19/a01217.php#a23ae64b87c3d76f8c4910443b4e63f53" title="Add a color to the object." alt="" coords="196,5,339,47"/>
+<area shape="rect" href="../../db/d12/a00268.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string." alt="" coords="387,13,460,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab16c17203be13b1462b08c5d74f074ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab16c17203be13b1462b08c5d74f074ad">&#9670;&nbsp;</a></span>addColors() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Console::Color::addColors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> &amp;&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a color to the object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>The integer of the color</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d19/a01217_ab16c17203be13b1462b08c5d74f074ad_cgraph.png" border="0" usemap="#ada/d19/a01217_ab16c17203be13b1462b08c5d74f074ad_cgraph" alt=""/></div>
+<map name="da/d19/a01217_ab16c17203be13b1462b08c5d74f074ad_cgraph" id="da/d19/a01217_ab16c17203be13b1462b08c5d74f074ad_cgraph">
+<area shape="rect" title="Add a color to the object." alt="" coords="5,5,148,47"/>
+<area shape="rect" href="../../db/d12/a00268.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string." alt="" coords="196,13,269,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2f851c02a93ea3be04f5fcc50538114a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f851c02a93ea3be04f5fcc50538114a">&#9670;&nbsp;</a></span>addColors() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Console::Color::addColors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> &amp;&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add colors to the object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>One of the colors to add </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>the other colors to add</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d19/a01217_a2f851c02a93ea3be04f5fcc50538114a_cgraph.png" border="0" usemap="#ada/d19/a01217_a2f851c02a93ea3be04f5fcc50538114a_cgraph" alt=""/></div>
+<map name="da/d19/a01217_a2f851c02a93ea3be04f5fcc50538114a_cgraph" id="da/d19/a01217_a2f851c02a93ea3be04f5fcc50538114a_cgraph">
+<area shape="rect" title="Add colors to the object." alt="" coords="5,35,148,76"/>
+<area shape="rect" href="../../da/d19/a01217.php#a23ae64b87c3d76f8c4910443b4e63f53" title="Add a color to the object." alt="" coords="196,5,339,47"/>
+<area shape="rect" href="../../db/d12/a00268.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string." alt="" coords="387,42,460,69"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a23ae64b87c3d76f8c4910443b4e63f53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23ae64b87c3d76f8c4910443b4e63f53">&#9670;&nbsp;</a></span>addColors() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Console::Color::addColors </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a color to the object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>The integer of the color</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d19/a01217_a23ae64b87c3d76f8c4910443b4e63f53_cgraph.png" border="0" usemap="#ada/d19/a01217_a23ae64b87c3d76f8c4910443b4e63f53_cgraph" alt=""/></div>
+<map name="da/d19/a01217_a23ae64b87c3d76f8c4910443b4e63f53_cgraph" id="da/d19/a01217_a23ae64b87c3d76f8c4910443b4e63f53_cgraph">
+<area shape="rect" title="Add a color to the object." alt="" coords="5,5,148,47"/>
+<area shape="rect" href="../../db/d12/a00268.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string." alt="" coords="196,13,269,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7faff8f12e3d4bd9ec63422f4716cde8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7faff8f12e3d4bd9ec63422f4716cde8">&#9670;&nbsp;</a></span>addColors() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Console::Color::addColors </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add colors to the object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>One of the colors to add </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>the other colors to add</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d19/a01217_a7faff8f12e3d4bd9ec63422f4716cde8_cgraph.png" border="0" usemap="#ada/d19/a01217_a7faff8f12e3d4bd9ec63422f4716cde8_cgraph" alt=""/></div>
+<map name="da/d19/a01217_a7faff8f12e3d4bd9ec63422f4716cde8_cgraph" id="da/d19/a01217_a7faff8f12e3d4bd9ec63422f4716cde8_cgraph">
+<area shape="rect" title="Add colors to the object." alt="" coords="5,35,148,76"/>
+<area shape="rect" href="../../da/d19/a01217.php#a23ae64b87c3d76f8c4910443b4e63f53" title="Add a color to the object." alt="" coords="196,5,339,47"/>
+<area shape="rect" href="../../db/d12/a00268.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string." alt="" coords="387,42,460,69"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a37c42c3a0b8af325e746f536a6a51305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37c42c3a0b8af325e746f536a6a51305">&#9670;&nbsp;</a></span>Cls</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../d8/d53/a01225.php">Cls</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84513fec989f2f817d2b1c5e6989450e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84513fec989f2f817d2b1c5e6989450e">&#9670;&nbsp;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d19/a01217.php">Color</a> const &amp;&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overloading of the &lt;&lt; operator. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../de/de1/a00065.php">console.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">Console</a></li><li class="navelem"><a class="el" href="../../da/d19/a01217.php">Color</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

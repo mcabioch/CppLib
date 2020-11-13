@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -214,14 +214,14 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:d7/d32/a01444"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d7/d32/a01444">mcd::trio&lt; T, U, V &gt;</a></td></tr>
-<tr class="memdesc:d7/d32/a01444"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for three values.  <a href="../../db/d12/a00268.php#d7/d32/a01444">More...</a><br /></td></tr>
-<tr class="separator:d7/d32/a01444"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dd/d08/a01448"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#dd/d08/a01448">mcd::quatuor&lt; T, U, V, W &gt;</a></td></tr>
-<tr class="memdesc:dd/d08/a01448"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for four values.  <a href="../../db/d12/a00268.php#dd/d08/a01448">More...</a><br /></td></tr>
-<tr class="separator:dd/d08/a01448"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1c/a01452.php">mcd::Point</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a point in space.  <a href="../../dd/d1c/a01452.php#details">More...</a><br /></td></tr>
+<tr class="memitem:d9/d6f/a01445"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d9/d6f/a01445">mcd::trio&lt; T, U, V &gt;</a></td></tr>
+<tr class="memdesc:d9/d6f/a01445"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for three values.  <a href="../../db/d12/a00268.php#d9/d6f/a01445">More...</a><br /></td></tr>
+<tr class="separator:d9/d6f/a01445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d2/d95/a01449"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d2/d95/a01449">mcd::quatuor&lt; T, U, V, W &gt;</a></td></tr>
+<tr class="memdesc:d2/d95/a01449"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container for four values.  <a href="../../db/d12/a00268.php#d2/d95/a01449">More...</a><br /></td></tr>
+<tr class="separator:d2/d95/a01449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/a01453.php">mcd::Point</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a point in space.  <a href="../../d9/dae/a01453.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -295,8 +295,8 @@ Functions</h2></td></tr>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Last modification : November, 09 2019 </dd></dl>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="d7/d32/a01444" id="d7/d32/a01444"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d7/d32/a01444">&#9670;&nbsp;</a></span>mcd::trio</h2>
+<a name="d9/d6f/a01445" id="d9/d6f/a01445"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d9/d6f/a01445">&#9670;&nbsp;</a></span>mcd::trio</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,7 +313,7 @@ class mcd::trio&lt; T, U, V &gt;</h3>
 </div><div class="dynheader">
 Collaboration diagram for mcd::trio&lt; T, U, V &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/de2/a01442.png" border="0" usemap="#amcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d6/d65/a01443.png" border="0" usemap="#amcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map" id="mcd_1_1trio_3_01T_00_01U_00_01V_01_4_coll__map">
 <area shape="rect" title="A container for three values." alt="" coords="5,124,144,151"/>
 <area shape="rect" title=" " alt="" coords="55,5,94,32"/>
@@ -343,8 +343,8 @@ ter</td>
 
 </div>
 </div>
-<a name="dd/d08/a01448" id="dd/d08/a01448"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dd/d08/a01448">&#9670;&nbsp;</a></span>mcd::quatuor</h2>
+<a name="d2/d95/a01449" id="d2/d95/a01449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d2/d95/a01449">&#9670;&nbsp;</a></span>mcd::quatuor</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -361,7 +361,7 @@ class mcd::quatuor&lt; T, U, V, W &gt;</h3>
 </div><div class="dynheader">
 Collaboration diagram for mcd::quatuor&lt; T, U, V, W &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d8/d22/a01446.png" border="0" usemap="#amcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../df/d75/a01447.png" border="0" usemap="#amcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map" id="mcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4_coll__map">
 <area shape="rect" title="A container for four values." alt="" coords="5,139,144,180"/>
 <area shape="rect" title=" " alt="" coords="55,5,94,32"/>

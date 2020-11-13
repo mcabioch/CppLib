@@ -1,13 +1,5 @@
-<map id="mcd::Pathfinding" name="mcd::Pathfinding">
-<area shape="rect" id="node1" title="A class to implement some pathfinding algorithms." alt="" coords="1107,64,1227,91"/>
-<area shape="rect" id="node2" href="$d7/dc4/a01354.php" title="A class to manage a path computed by the map." alt="" coords="727,5,809,32"/>
-<area shape="rect" id="node3" href="$da/d61/a01350.php" title="A node for the path." alt="" coords="149,64,300,91"/>
-<area shape="rect" id="node10" title=" " alt="" coords="507,126,701,167"/>
-<area shape="rect" id="node4" href="$d8/dbe/a01370.php" title="A class to group every pathfinding problems in one way to use it." alt="" coords="833,167,1001,193"/>
-<area shape="rect" id="node5" title=" " alt="" coords="525,257,683,298"/>
-<area shape="rect" id="node6" title="STL class." alt="" coords="163,220,286,247"/>
-<area shape="rect" id="node9" title=" " alt="" coords="505,191,703,233"/>
-<area shape="rect" id="node7" title=" " alt="" coords="5,235,44,261"/>
-<area shape="rect" id="node8" title=" " alt="" coords="5,164,44,191"/>
-<area shape="rect" id="node11" title="STL class." alt="" coords="167,144,283,171"/>
+<map id="mcd::Object" name="mcd::Object">
+<area shape="rect" id="node1" title="An object." alt="" coords="20,80,113,107"/>
+<area shape="rect" id="node3" href="$de/daf/a01417.php" title="A stone." alt="" coords="22,155,111,181"/>
+<area shape="rect" id="node2" href="$d3/d7b/a01249.php" title="A contraption." alt="" coords="5,5,128,32"/>
 </map>

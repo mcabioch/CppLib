@@ -1,6 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d6/dae/a01304.php" title="A class to store some identify datas." alt="" coords="177,5,283,32"/>
-<area shape="rect" id="node2" href="$d0/d36/a01388.php" title="A player that can be a child from any class." alt="" coords="357,35,548,61"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,64,103,91"/>
-<area shape="rect" id="node4" href="$d1/dcc/a01392.php" title="A player that can be a child from any class." alt="" coords="151,57,309,98"/>
+<area shape="rect" id="node1" href="$d1/d17/a01369.php" title="A class to implement some pathfinding algorithms." alt="" coords="5,5,125,32"/>
+<area shape="rect" id="node2" href="$d7/d38/a01373.php" title="An implementation of the Dijkstra algorithm." alt="" coords="173,5,339,32"/>
 </map>

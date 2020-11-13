@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('de/de1/a00065.php','../../'); initResi
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">console.hpp File Reference</div>  </div>
@@ -224,104 +225,112 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df3/a01216.php">mcd::Color</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the text color in the console.  <a href="../../d8/df3/a01216.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php">mcd::Console::Color</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the text color in the console.  <a href="../../da/d19/a01217.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d42/a01220.php">mcd::Reinit</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../db/d42/a01220.php" title="Reinit the color in the console.">Reinit</a> the color in the console.  <a href="../../db/d42/a01220.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a01221.php">mcd::Console::Reinit</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dd/d3f/a01221.php" title="Reinit the color in the console.">Reinit</a> the color in the console.  <a href="../../dd/d3f/a01221.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8e/a01224.php">mcd::Cls</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the console.  <a href="../../d8/d8e/a01224.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d53/a01225.php">mcd::Console::Cls</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the console.  <a href="../../d8/d53/a01225.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d16/a01228.php">mcd::ConsoleCursor</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with the cursor in the console.  <a href="../../de/d16/a01228.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/a01229.php">mcd::Console::Cursor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with the cursor in the console.  <a href="../../db/d1c/a01229.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d67/a01232.php">mcd::ThreadEndlCout</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::endl in <a class="el" href="../../d8/d2b/a01236.php" title="A class to use std::cout thread safe.">ThreadCout</a>.  <a href="../../d0/d67/a01232.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/a01233.php">mcd::Console::ThreadEndlCout</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::endl in <a class="el" href="../../dc/dab/a01237.php" title="A class to use std::cout thread safe.">ThreadCout</a>.  <a href="../../d6/da1/a01233.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d2b/a01236.php">mcd::ThreadCout</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::cout thread safe.  <a href="../../d8/d2b/a01236.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/a01237.php">mcd::Console::ThreadCout</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::cout thread safe.  <a href="../../dc/dab/a01237.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6e/a01240.php">mcd::SetPrecision</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the precision of a std::ostream and save the default value.  <a href="../../d5/d6e/a01240.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/a01241.php">mcd::Console::SetPrecision</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the precision of a std::ostream and save the default value.  <a href="../../d3/d07/a01241.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:db/d12/a00268"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d9/dd6/a00272"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php">mcd::Console</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ae124ce77f8e386663ac11e2e35e6070a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070a">mcd::Colors</a> { <br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa4648822616bc86180727464a1e6c6312">mcd::Colors::BLACK_F</a> = 30, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa6c91c7a0d965eea06426a9d94fed419f">mcd::Colors::RED_F</a> = 31, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aac9cc84994b2dc998400606f509a5f39d">mcd::Colors::GREEN_F</a> = 32, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aac1cfbf30b4d84302148c80564f09a2f7">mcd::Colors::YELLOW_F</a> = 33, 
+<tr class="memitem:aed6098cb7fc6f8fdb1bb05b119c94b9e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">mcd::Console::Colors</a> { <br />
+&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea4648822616bc86180727464a1e6c6312">mcd::Console::Colors::BLACK_F</a> = 30, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea6c91c7a0d965eea06426a9d94fed419f">mcd::Console::Colors::RED_F</a> = 31, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eac9cc84994b2dc998400606f509a5f39d">mcd::Console::Colors::GREEN_F</a> = 32, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eac1cfbf30b4d84302148c80564f09a2f7">mcd::Console::Colors::YELLOW_F</a> = 33, 
 <br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aaaac26079ece66386f4c2cf268d474795">mcd::Colors::BLUE_F</a> = 34, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aab8176b797e421a3d45ed5a872d872591">mcd::Colors::PURPLE_F</a> = 35, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa131f0f8b48b6ef48d2d3093b20081110">mcd::Colors::CYAN_F</a> = 36, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa38ead0a9861da91e3e5aad34b7a1dbfe">mcd::Colors::GREY_F</a> = 37, 
+&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eaaac26079ece66386f4c2cf268d474795">mcd::Console::Colors::BLUE_F</a> = 34, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eab8176b797e421a3d45ed5a872d872591">mcd::Console::Colors::PURPLE_F</a> = 35, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea131f0f8b48b6ef48d2d3093b20081110">mcd::Console::Colors::CYAN_F</a> = 36, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea38ead0a9861da91e3e5aad34b7a1dbfe">mcd::Console::Colors::GREY_F</a> = 37, 
 <br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aaa86522df36b902b8e14c670dda459f1f">mcd::Colors::LIGHT_BLACK_F</a> = 90, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa889b14723d6bc4c0ac8bb1e13480ad6e">mcd::Colors::LIGHT_RED_F</a> = 91, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa9a372d70c82fc984f7c475342784fb25">mcd::Colors::LIGHT_GREEN_F</a> = 92, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa8a64c210ea569e6832792e099c006157">mcd::Colors::LIGHT_YELLOW_F</a> = 93, 
+&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eaa86522df36b902b8e14c670dda459f1f">mcd::Console::Colors::LIGHT_BLACK_F</a> = 90, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea889b14723d6bc4c0ac8bb1e13480ad6e">mcd::Console::Colors::LIGHT_RED_F</a> = 91, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea9a372d70c82fc984f7c475342784fb25">mcd::Console::Colors::LIGHT_GREEN_F</a> = 92, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea8a64c210ea569e6832792e099c006157">mcd::Console::Colors::LIGHT_YELLOW_F</a> = 93, 
 <br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa383a03eb7a3c8a6e508915b5abfd1f55">mcd::Colors::LIGHT_BLUE_F</a> = 94, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aaf7fa27f9a891a06e7aab7764b7c87744">mcd::Colors::LIGHT_PURPLE_F</a> = 95, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa1016baf606406c4b466ae02d7e8d249b">mcd::Colors::LIGHT_CYAN_F</a> = 96, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aaf0d423059b6f4ad707d65956c1a43402">mcd::Colors::LIGHT_GREY_F</a> = 97, 
+&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea383a03eb7a3c8a6e508915b5abfd1f55">mcd::Console::Colors::LIGHT_BLUE_F</a> = 94, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eaf7fa27f9a891a06e7aab7764b7c87744">mcd::Console::Colors::LIGHT_PURPLE_F</a> = 95, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea1016baf606406c4b466ae02d7e8d249b">mcd::Console::Colors::LIGHT_CYAN_F</a> = 96, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eaf0d423059b6f4ad707d65956c1a43402">mcd::Console::Colors::LIGHT_GREY_F</a> = 97, 
 <br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aabfc78599c77b7eb3c037c23f1bde963a">mcd::Colors::BLACK_B</a> = 40, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa07262f1edc5408b021950dc9a12837c7">mcd::Colors::RED_B</a> = 41, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa3bfe655ef7bb19c04ebf9a5ebabe975e">mcd::Colors::GREEN_B</a> = 42, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa62a3874ee2f47d3a664fda4a63c193a3">mcd::Colors::YELLOW_B</a> = 43, 
+&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eabfc78599c77b7eb3c037c23f1bde963a">mcd::Console::Colors::BLACK_B</a> = 40, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea07262f1edc5408b021950dc9a12837c7">mcd::Console::Colors::RED_B</a> = 41, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea3bfe655ef7bb19c04ebf9a5ebabe975e">mcd::Console::Colors::GREEN_B</a> = 42, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea62a3874ee2f47d3a664fda4a63c193a3">mcd::Console::Colors::YELLOW_B</a> = 43, 
 <br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa19995eb9ec42ffbe11647f8090e9f4fe">mcd::Colors::BLUE_B</a> = 44, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aab754547a82033c3c904e91984b530326">mcd::Colors::PURPLE_B</a> = 45, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aae0f5f8e09d8f4e0925884dd94fc3e870">mcd::Colors::CYAN_B</a> = 46, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa90bd0646259d8ab65dd352bcd1ead16e">mcd::Colors::GREY_B</a> = 47, 
+&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea19995eb9ec42ffbe11647f8090e9f4fe">mcd::Console::Colors::BLUE_B</a> = 44, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eab754547a82033c3c904e91984b530326">mcd::Console::Colors::PURPLE_B</a> = 45, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eae0f5f8e09d8f4e0925884dd94fc3e870">mcd::Console::Colors::CYAN_B</a> = 46, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea90bd0646259d8ab65dd352bcd1ead16e">mcd::Console::Colors::GREY_B</a> = 47, 
 <br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aadf2fe24817131afc02153bf31759d18b">mcd::Colors::LIGHT_BLACK_B</a> = 100, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa3a29105a7f33b752d0342ec1e44023af">mcd::Colors::LIGHT_RED_B</a> = 101, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa79f2fcacd6d4451c79096ed3e460e1e9">mcd::Colors::LIGHT_GREEN_B</a> = 102, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa73f0b577c984186157b9d89348faf4f3">mcd::Colors::LIGHT_YELLOW_B</a> = 103, 
+&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eadf2fe24817131afc02153bf31759d18b">mcd::Console::Colors::LIGHT_BLACK_B</a> = 100, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea3a29105a7f33b752d0342ec1e44023af">mcd::Console::Colors::LIGHT_RED_B</a> = 101, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea79f2fcacd6d4451c79096ed3e460e1e9">mcd::Console::Colors::LIGHT_GREEN_B</a> = 102, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea73f0b577c984186157b9d89348faf4f3">mcd::Console::Colors::LIGHT_YELLOW_B</a> = 103, 
 <br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa77891b4842905f3aa098fae908dd5db9">mcd::Colors::LIGHT_BLUE_B</a> = 104, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa10435c0f4e6c9f1df07383e39da2064e">mcd::Colors::LIGHT_PURPLE_B</a> = 105, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa1d4b785bf14640105bb7b6e45d1d5528">mcd::Colors::LIGHT_CYAN_B</a> = 106, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aaa548ce608701dcb3a6b2146e2e6b7f73">mcd::Colors::LIGHT_GREY_B</a> = 107, 
+&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea77891b4842905f3aa098fae908dd5db9">mcd::Console::Colors::LIGHT_BLUE_B</a> = 104, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea10435c0f4e6c9f1df07383e39da2064e">mcd::Console::Colors::LIGHT_PURPLE_B</a> = 105, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea1d4b785bf14640105bb7b6e45d1d5528">mcd::Console::Colors::LIGHT_CYAN_B</a> = 106, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eaa548ce608701dcb3a6b2146e2e6b7f73">mcd::Console::Colors::LIGHT_GREY_B</a> = 107, 
 <br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa1e23852820b9154316c7c06e2b7ba051">mcd::Colors::NORMAL</a> = 0, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa2909dd0e0336f10b6da9735b859a3d19">mcd::Colors::BOLD</a> = 1, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa8160fba05a5a291372a94bc22b55f62b">mcd::Colors::SHADOW</a> = 2, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa25093123b8943308104129e1d762f3b7">mcd::Colors::ITALIC</a> = 3, 
+&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea1e23852820b9154316c7c06e2b7ba051">mcd::Console::Colors::NORMAL</a> = 0, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea2909dd0e0336f10b6da9735b859a3d19">mcd::Console::Colors::BOLD</a> = 1, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea8160fba05a5a291372a94bc22b55f62b">mcd::Console::Colors::SHADOW</a> = 2, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea25093123b8943308104129e1d762f3b7">mcd::Console::Colors::ITALIC</a> = 3, 
 <br />
-&#160;&#160;<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa0086c73c90c261db630b4dc8aea09bcf">mcd::Colors::UNDERLINE</a> = 4, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aaa2727ae72447eea06d4cc0ef67187280">mcd::Colors::INVERT</a> = 7, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa1e50e487f8672658546e3609404b53df">mcd::Colors::HIDE</a> = 8, 
-<a class="el" href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070aa04dd53a8e6c2306e9bbf944c1d6047f2">mcd::Colors::CROSS</a> = 9
+&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea0086c73c90c261db630b4dc8aea09bcf">mcd::Console::Colors::UNDERLINE</a> = 4, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eaa2727ae72447eea06d4cc0ef67187280">mcd::Console::Colors::INVERT</a> = 7, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea1e50e487f8672658546e3609404b53df">mcd::Console::Colors::HIDE</a> = 8, 
+<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea04dd53a8e6c2306e9bbf944c1d6047f2">mcd::Console::Colors::CROSS</a> = 9
 <br />
  }</td></tr>
-<tr class="memdesc:ae124ce77f8e386663ac11e2e35e6070a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colors list.  <a href="../../db/d12/a00268.php#ae124ce77f8e386663ac11e2e35e6070a">More...</a><br /></td></tr>
-<tr class="separator:ae124ce77f8e386663ac11e2e35e6070a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:aed6098cb7fc6f8fdb1bb05b119c94b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colors list.  <a href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">More...</a><br /></td></tr>
+<tr class="separator:aed6098cb7fc6f8fdb1bb05b119c94b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a45ee529c25adecff1046978f105c7a0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#a45ee529c25adecff1046978f105c7a0b">mcd::Console::printLine</a> (std::string caract, size_t size, std::ostream &amp;os=std::cout)</td></tr>
+<tr class="memdesc:a45ee529c25adecff1046978f105c7a0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write on os a line with the number of caract set in size.  <a href="../../d9/dd6/a00272.php#a45ee529c25adecff1046978f105c7a0b">More...</a><br /></td></tr>
+<tr class="separator:a45ee529c25adecff1046978f105c7a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad49187ab386f309e965f2f8e954c3c24"><td class="memItemLeft" align="right" valign="top">ThreadCout&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad49187ab386f309e965f2f8e954c3c24">mcd::cout</a></td></tr>
-<tr class="memdesc:ad49187ab386f309e965f2f8e954c3c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">The thread safe version of std::cout.  <a href="../../db/d12/a00268.php#ad49187ab386f309e965f2f8e954c3c24">More...</a><br /></td></tr>
-<tr class="separator:ad49187ab386f309e965f2f8e954c3c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19aa3c3882eb7a0c0d4f6479a4bbf975"><td class="memItemLeft" align="right" valign="top">ThreadEndlCout&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a19aa3c3882eb7a0c0d4f6479a4bbf975">mcd::endl</a></td></tr>
-<tr class="memdesc:a19aa3c3882eb7a0c0d4f6479a4bbf975"><td class="mdescLeft">&#160;</td><td class="mdescRight">The thread safe version of std::endl.  <a href="../../db/d12/a00268.php#a19aa3c3882eb7a0c0d4f6479a4bbf975">More...</a><br /></td></tr>
-<tr class="separator:a19aa3c3882eb7a0c0d4f6479a4bbf975"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad309496206415242e21a12fc54df1cc8"><td class="memItemLeft" align="right" valign="top">SetPrecision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad309496206415242e21a12fc54df1cc8">mcd::setprecision</a></td></tr>
-<tr class="separator:ad309496206415242e21a12fc54df1cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17e973621e86d36834182028f6c350c7"><td class="memItemLeft" align="right" valign="top">ThreadCout&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#a17e973621e86d36834182028f6c350c7">mcd::Console::cout</a></td></tr>
+<tr class="memdesc:a17e973621e86d36834182028f6c350c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The thread safe version of std::cout.  <a href="../../d9/dd6/a00272.php#a17e973621e86d36834182028f6c350c7">More...</a><br /></td></tr>
+<tr class="separator:a17e973621e86d36834182028f6c350c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d875ddb758ffe29f3df92250eae253d"><td class="memItemLeft" align="right" valign="top">ThreadEndlCout&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#a7d875ddb758ffe29f3df92250eae253d">mcd::Console::endl</a></td></tr>
+<tr class="memdesc:a7d875ddb758ffe29f3df92250eae253d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The thread safe version of std::endl.  <a href="../../d9/dd6/a00272.php#a7d875ddb758ffe29f3df92250eae253d">More...</a><br /></td></tr>
+<tr class="separator:a7d875ddb758ffe29f3df92250eae253d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a061e9af30fc21986d960ab612d86f8d6"><td class="memItemLeft" align="right" valign="top">SetPrecision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#a061e9af30fc21986d960ab612d86f8d6">mcd::Console::setprecision</a></td></tr>
+<tr class="separator:a061e9af30fc21986d960ab612d86f8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : October, 05 2020 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Last modification : November, 13 2020 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

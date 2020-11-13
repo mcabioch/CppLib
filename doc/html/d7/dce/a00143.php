@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -281,6 +281,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a9042d2e8e9a6311b4260c6f376f4072c"><td class="memItemLeft" align="right" valign="top">double64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a9042d2e8e9a6311b4260c6f376f4072c">mcd::dsigmoide</a> (double64_t in)</td></tr>
 <tr class="memdesc:a9042d2e8e9a6311b4260c6f376f4072c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute with the derivated sigmoide.  <a href="../../db/d12/a00268.php#a9042d2e8e9a6311b4260c6f376f4072c">More...</a><br /></td></tr>
 <tr class="separator:a9042d2e8e9a6311b4260c6f376f4072c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9db342c58a4088c0753e28475e369323"><td class="memItemLeft" align="right" valign="top">double64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a9db342c58a4088c0753e28475e369323">mcd::tanh</a> (double64_t in)</td></tr>
+<tr class="memdesc:a9db342c58a4088c0753e28475e369323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the result of the tanh function.  <a href="../../db/d12/a00268.php#a9db342c58a4088c0753e28475e369323">More...</a><br /></td></tr>
+<tr class="separator:a9db342c58a4088c0753e28475e369323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9767e5acc7c07b8ef837e2485dfc3ec5"><td class="memItemLeft" align="right" valign="top">double64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a9767e5acc7c07b8ef837e2485dfc3ec5">mcd::dtanh</a> (double64_t in)</td></tr>
+<tr class="memdesc:a9767e5acc7c07b8ef837e2485dfc3ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute with the derivated tanh.  <a href="../../db/d12/a00268.php#a9767e5acc7c07b8ef837e2485dfc3ec5">More...</a><br /></td></tr>
+<tr class="separator:a9767e5acc7c07b8ef837e2485dfc3ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69d6be0b9d139073dda5e708c76dccdd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a69d6be0b9d139073dda5e708c76dccdd">mcd::log2p</a> (int x)</td></tr>
 <tr class="memdesc:a69d6be0b9d139073dda5e708c76dccdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do the log of x in base 2.  <a href="../../db/d12/a00268.php#a69d6be0b9d139073dda5e708c76dccdd">More...</a><br /></td></tr>
 <tr class="separator:a69d6be0b9d139073dda5e708c76dccdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -291,7 +297,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : November, 21 2019 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Last modification : November, 13 2020 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

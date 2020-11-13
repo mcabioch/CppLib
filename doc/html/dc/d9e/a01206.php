@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,19 +92,24 @@ $(document).ready(function(){initNavTree('de/d04/a01209.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Clock Member List</div>  </div>
+<div class="title">mcd::natural::Chromosome Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/d04/a01209.php">mcd::Clock</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#ae0aa0853cddce8c1e8c4339eb7016223">Clock</a>()</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::Clock</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#a47ce94671d48c1f42862771174c86810">getElapsed</a>()</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::Clock</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#a276d9d978a8670e8354cac2b589c60ce">getStart</a>() const</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::Clock</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#a9714489f034bfffabff995741d899513">m_start</a></td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::Clock</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#a3008b7b555fb4e6c3415aec152b5de2d">restart</a>()</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::Clock</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#a25b787edba50392a8f18995a6ae6dc9e">start</a>()</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::Clock</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#a20216632ae0d7b1504060826edfdd062">started</a></td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::Clock</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#aee71a70b3b97fb62b45ca9ea7d8d8323">_genes1</a></td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#a2168f1db30d1641c1c1370f4ded14495">_genes2</a></td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#adba79a0781609c28900d7a9b68b2a38f">Chromosome</a>(Genes gs1)</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#ab0def08172e265c3850983190d353f7c">copy</a>() const</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#abed91ce31a251621eff0ec618c9d95e2">operator+</a>(const Chromosome &amp;c1, const Chromosome &amp;c2)</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#af78f3653fd09e326bf53699b972329d3">operator+=</a>(const Chromosome &amp;c1)</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#a76b305eaa6cc1a513e64de3459e3b550">operator&lt;&lt;</a>(std::ostream &amp;os, const Chromosome &amp;c)</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#a1803f44b93c73c5cf0f3d8204eac3c9e">operator==</a>(const Chromosome &amp;c1, const Chromosome &amp;c2)</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#a9a437c818c1b78544066972a94410efc">operator&gt;&gt;</a>(std::istream &amp;is, Chromosome &amp;c)</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#a2dced15a099be338addf44cb4d8a60f2">Value</a>(std::string str, size_t index) const</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#a9d228fb25de487c350f4416dbc5ff8e2">Values</a>(std::string str, double val1, double val2)</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#abfcce919bdd2d2001416b72d9ebbf258">~Chromosome</a>()</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

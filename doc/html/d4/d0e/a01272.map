@@ -1,5 +1,4 @@
-<map id="mcd::DateTime" name="mcd::DateTime">
-<area shape="rect" id="node1" title="A class to play with dates and times." alt="" coords="44,80,156,107"/>
-<area shape="rect" id="node2" href="$d6/d16/a01269.php" title="A class to play with dates." alt="" coords="5,5,88,32"/>
-<area shape="rect" id="node3" href="$d4/d20/a01421.php" title="A class to play with dates." alt="" coords="113,5,197,32"/>
+<map id="mcd::Date" name="mcd::Date">
+<area shape="rect" id="node1" title="A class to play with dates." alt="" coords="20,5,103,32"/>
+<area shape="rect" id="node2" href="$d2/d1d/a01277.php" title="A class to play with dates and times." alt="" coords="5,80,117,107"/>
 </map>

@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('dc/d64/a01140.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d6/d6e/a01137.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,29 +91,1492 @@ $(document).ready(function(){initNavTree('dc/d64/a01140.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
+<a href="../../dd/de2/a01134.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::natural::Cell Member List</div>  </div>
+<div class="title">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/d64/a01140.php">mcd::natural::Cell</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d64/a01140.php#ac4bfe0772fac9025654c268c48e6c9b8">_chroms</a></td><td class="entry"><a class="el" href="../../dc/d64/a01140.php">mcd::natural::Cell</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d64/a01140.php#ae5097d9d7e1fc380e39fe9639ba794c8">Cell</a>(Chromosomes chroms)</td><td class="entry"><a class="el" href="../../dc/d64/a01140.php">mcd::natural::Cell</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d64/a01140.php#aeb549302dbb6442103933d2a17361580">copy</a>() const</td><td class="entry"><a class="el" href="../../dc/d64/a01140.php">mcd::natural::Cell</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d64/a01140.php#a27089d4be7e4f07bf6c1943c59b3bf47">operator+</a>(const Cell &amp;c1, const Cell &amp;c2)</td><td class="entry"><a class="el" href="../../dc/d64/a01140.php">mcd::natural::Cell</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d64/a01140.php#a749b7cda25492926ad8bffcbf9d79c3e">operator+=</a>(const Cell &amp;c1)</td><td class="entry"><a class="el" href="../../dc/d64/a01140.php">mcd::natural::Cell</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d64/a01140.php#a3b03e2ae2aae5a47673ad2bdb55375ce">operator&lt;&lt;</a>(std::ostream &amp;os, const Cell &amp;c)</td><td class="entry"><a class="el" href="../../dc/d64/a01140.php">mcd::natural::Cell</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d64/a01140.php#a368f58787c40f58441c7eea56a420a82">operator==</a>(const Cell &amp;c1, const Cell &amp;c2)</td><td class="entry"><a class="el" href="../../dc/d64/a01140.php">mcd::natural::Cell</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d64/a01140.php#a4e8b664ca85bee0d335569bc95a513e8">operator&gt;&gt;</a>(std::istream &amp;is, Cell &amp;c)</td><td class="entry"><a class="el" href="../../dc/d64/a01140.php">mcd::natural::Cell</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d64/a01140.php#a01bc934ac059453792f6783b0e919dd1">Value</a>(std::string str, size_t chromosomeIndex, size_t geneNumber) const</td><td class="entry"><a class="el" href="../../dc/d64/a01140.php">mcd::natural::Cell</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d64/a01140.php#ac7ee113d57e8f75bca4eaa9b3455001a">~Cell</a>()</td><td class="entry"><a class="el" href="../../dc/d64/a01140.php">mcd::natural::Cell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p><code>#include &lt;Binary.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a29b9b7a89bae0c41f0ff5933406b8f4d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a29b9b7a89bae0c41f0ff5933406b8f4d">Binary</a> (const T &amp;in)</td></tr>
+<tr class="memdesc:a29b9b7a89bae0c41f0ff5933406b8f4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d6/d6e/a01137.php#a29b9b7a89bae0c41f0ff5933406b8f4d">More...</a><br /></td></tr>
+<tr class="separator:a29b9b7a89bae0c41f0ff5933406b8f4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82e77a879b8106937ac550807afcf2da"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a82e77a879b8106937ac550807afcf2da">~Binary</a> ()</td></tr>
+<tr class="separator:a82e77a879b8106937ac550807afcf2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac47df1759fc5e2a1c2b4113401fc3ee9"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#ac47df1759fc5e2a1c2b4113401fc3ee9">get</a> () const</td></tr>
+<tr class="separator:ac47df1759fc5e2a1c2b4113401fc3ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cd5ecef05c71e597e58411bf6cc6455"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a4cd5ecef05c71e597e58411bf6cc6455">set</a> (const T &amp;in)</td></tr>
+<tr class="separator:a4cd5ecef05c71e597e58411bf6cc6455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96aabebb693a050eec49429233f55998"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a96aabebb693a050eec49429233f55998">operator+</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a96aabebb693a050eec49429233f55998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a968c3515ac59bc3455944f89db13fcb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a968c3515ac59bc3455944f89db13fcb0">operator+=</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a968c3515ac59bc3455944f89db13fcb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1334dd26328e22ce50e91de36dc69dfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a1334dd26328e22ce50e91de36dc69dfa">operator-</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a1334dd26328e22ce50e91de36dc69dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510a7dc88fb5822d4f2d79162c2709cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a510a7dc88fb5822d4f2d79162c2709cc">operator-=</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a510a7dc88fb5822d4f2d79162c2709cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d2cde28ea196ada0b4f44c29243b368"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a4d2cde28ea196ada0b4f44c29243b368">operator*</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a4d2cde28ea196ada0b4f44c29243b368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca12b38947b6b62909b8fea33b3f31c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#aca12b38947b6b62909b8fea33b3f31c1">operator*=</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:aca12b38947b6b62909b8fea33b3f31c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a502c702e99d1b1e97e72fae39b1063a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a502c702e99d1b1e97e72fae39b1063a8">operator/</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a502c702e99d1b1e97e72fae39b1063a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a3d5135edf9681af40cc8e917e29b15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a1a3d5135edf9681af40cc8e917e29b15">operator/=</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a1a3d5135edf9681af40cc8e917e29b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e868f4d94de157b5dc9686169759c25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a5e868f4d94de157b5dc9686169759c25">operator%</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a5e868f4d94de157b5dc9686169759c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9c7ac190008adce96818f231a7f1b29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#ab9c7ac190008adce96818f231a7f1b29">operator%=</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:ab9c7ac190008adce96818f231a7f1b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5d91a8250d4c61551dd6a12087ec4e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#ab5d91a8250d4c61551dd6a12087ec4e9">operator&amp;</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:ab5d91a8250d4c61551dd6a12087ec4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a860b1e9436a7aa4474fa873eebf1ba18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a860b1e9436a7aa4474fa873eebf1ba18">operator&amp;=</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a860b1e9436a7aa4474fa873eebf1ba18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac394285a67ebaf2d21f0740b1451403d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#ac394285a67ebaf2d21f0740b1451403d">operator|</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:ac394285a67ebaf2d21f0740b1451403d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33a87bc1be8fdd776bcf9bf0f8511555"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a33a87bc1be8fdd776bcf9bf0f8511555">operator|=</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a33a87bc1be8fdd776bcf9bf0f8511555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afec0277f6214fd493039d940cc6bf5c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#afec0277f6214fd493039d940cc6bf5c7">operator^</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:afec0277f6214fd493039d940cc6bf5c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a154286b3668a463c6888f78099f8327e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a154286b3668a463c6888f78099f8327e">operator^=</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a154286b3668a463c6888f78099f8327e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31f62f20ead58385f3c19590d69e095f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a31f62f20ead58385f3c19590d69e095f">operator&lt;&lt;</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a31f62f20ead58385f3c19590d69e095f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a6b170313bb013e4108470677750f03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a6a6b170313bb013e4108470677750f03">operator&lt;&lt;=</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a6a6b170313bb013e4108470677750f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee5ba12a6e0ef2fbd240cde2d5747d09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#aee5ba12a6e0ef2fbd240cde2d5747d09">operator&gt;&gt;</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:aee5ba12a6e0ef2fbd240cde2d5747d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a8d08b67d142a871bdbf2d2d6b6b02a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a8a8d08b67d142a871bdbf2d2d6b6b02a">operator&gt;&gt;=</a> (const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a8a8d08b67d142a871bdbf2d2d6b6b02a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06f7bc99cd022bb05195cb448d62d686"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a06f7bc99cd022bb05195cb448d62d686">operator+</a> (const T &amp;b)</td></tr>
+<tr class="separator:a06f7bc99cd022bb05195cb448d62d686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a751964a151dce4d9efa4042e54721522"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a751964a151dce4d9efa4042e54721522">operator+=</a> (const T &amp;b)</td></tr>
+<tr class="separator:a751964a151dce4d9efa4042e54721522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a907319af0e9faf3e9cc1c580adb99906"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a907319af0e9faf3e9cc1c580adb99906">operator-</a> (const T &amp;b)</td></tr>
+<tr class="separator:a907319af0e9faf3e9cc1c580adb99906"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a6198f933e2d8f262467aa5171baf7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a0a6198f933e2d8f262467aa5171baf7a">operator-=</a> (const T &amp;b)</td></tr>
+<tr class="separator:a0a6198f933e2d8f262467aa5171baf7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac075fbd59e6455aebe1bf83227741501"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#ac075fbd59e6455aebe1bf83227741501">operator*</a> (const T &amp;b)</td></tr>
+<tr class="separator:ac075fbd59e6455aebe1bf83227741501"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a726b35abaf10d94520e63044bcbab770"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a726b35abaf10d94520e63044bcbab770">operator*=</a> (const T &amp;b)</td></tr>
+<tr class="separator:a726b35abaf10d94520e63044bcbab770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf7a0ad20eb282f39b122cbf1e24a282"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#aaf7a0ad20eb282f39b122cbf1e24a282">operator/</a> (const T &amp;b)</td></tr>
+<tr class="separator:aaf7a0ad20eb282f39b122cbf1e24a282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3032e89e8c1bbd267d174366c6c9157"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#ae3032e89e8c1bbd267d174366c6c9157">operator/=</a> (const T &amp;b)</td></tr>
+<tr class="separator:ae3032e89e8c1bbd267d174366c6c9157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96a2cbc5b12465a3c5ed15ad3cf260fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a96a2cbc5b12465a3c5ed15ad3cf260fc">operator%</a> (const T &amp;b)</td></tr>
+<tr class="separator:a96a2cbc5b12465a3c5ed15ad3cf260fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a738580562817ecfaa8a9cc984b26a766"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a738580562817ecfaa8a9cc984b26a766">operator%=</a> (const T &amp;b)</td></tr>
+<tr class="separator:a738580562817ecfaa8a9cc984b26a766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a997ab804167796a1c65848f44d91da59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a997ab804167796a1c65848f44d91da59">operator&amp;</a> (const T &amp;b)</td></tr>
+<tr class="separator:a997ab804167796a1c65848f44d91da59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a437b9fb8c2f8e2b19726f1a2db2d2c54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a437b9fb8c2f8e2b19726f1a2db2d2c54">operator&amp;=</a> (const T &amp;b)</td></tr>
+<tr class="separator:a437b9fb8c2f8e2b19726f1a2db2d2c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc6ba7b8a523f0cdaabb5fd70451fcf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#adc6ba7b8a523f0cdaabb5fd70451fcf8">operator|</a> (const T &amp;b)</td></tr>
+<tr class="separator:adc6ba7b8a523f0cdaabb5fd70451fcf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94f4f75fd082e9e4f06f1bab865ea79d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a94f4f75fd082e9e4f06f1bab865ea79d">operator|=</a> (const T &amp;b)</td></tr>
+<tr class="separator:a94f4f75fd082e9e4f06f1bab865ea79d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affa472f68edb5fc7c16e6a7f090eb0fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#affa472f68edb5fc7c16e6a7f090eb0fd">operator^</a> (const T &amp;b)</td></tr>
+<tr class="separator:affa472f68edb5fc7c16e6a7f090eb0fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69b1bdfd8d4c0ff3727cdab70e086349"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a69b1bdfd8d4c0ff3727cdab70e086349">operator^=</a> (const T &amp;b)</td></tr>
+<tr class="separator:a69b1bdfd8d4c0ff3727cdab70e086349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ce5b8c52f9aa9116c74791e14b0c4e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a2ce5b8c52f9aa9116c74791e14b0c4e2">operator&lt;&lt;</a> (const T &amp;b)</td></tr>
+<tr class="separator:a2ce5b8c52f9aa9116c74791e14b0c4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ff91792c60e74099edcf796c0e88e0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a7ff91792c60e74099edcf796c0e88e0a">operator&lt;&lt;=</a> (const T &amp;b)</td></tr>
+<tr class="separator:a7ff91792c60e74099edcf796c0e88e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0024cd90341cbd89270738b791011d01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a0024cd90341cbd89270738b791011d01">operator&gt;&gt;</a> (const T &amp;b)</td></tr>
+<tr class="separator:a0024cd90341cbd89270738b791011d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2d6e469f47749130cb1f07e3d17cfbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#ad2d6e469f47749130cb1f07e3d17cfbd">operator&gt;&gt;=</a> (const T &amp;b)</td></tr>
+<tr class="separator:ad2d6e469f47749130cb1f07e3d17cfbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19199d5410d2586642819f9a64bf4f76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a19199d5410d2586642819f9a64bf4f76">print</a> (size_t multiple=8) const</td></tr>
+<tr class="memdesc:a19199d5410d2586642819f9a64bf4f76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the value in binary format.  <a href="../../d6/d6e/a01137.php#a19199d5410d2586642819f9a64bf4f76">More...</a><br /></td></tr>
+<tr class="separator:a19199d5410d2586642819f9a64bf4f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a51139eafa7f6dacbd7958fa9e8ce664b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#a51139eafa7f6dacbd7958fa9e8ce664b">s_print</a> (const T &amp;in, size_t multiple=8)</td></tr>
+<tr class="memdesc:a51139eafa7f6dacbd7958fa9e8ce664b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print an arithmetic variable value in binary format.  <a href="../../d6/d6e/a01137.php#a51139eafa7f6dacbd7958fa9e8ce664b">More...</a><br /></td></tr>
+<tr class="separator:a51139eafa7f6dacbd7958fa9e8ce664b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:acd2465f87f784cedc37718af0bf50d17"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6e/a01137.php#acd2465f87f784cedc37718af0bf50d17">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a> &amp;b)</td></tr>
+<tr class="separator:acd2465f87f784cedc37718af0bf50d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a29b9b7a89bae0c41f0ff5933406b8f4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29b9b7a89bae0c41f0ff5933406b8f4d">&#9670;&nbsp;</a></span>Binary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::<a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a> </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+
+</div>
+</div>
+<a id="a82e77a879b8106937ac550807afcf2da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82e77a879b8106937ac550807afcf2da">&#9670;&nbsp;</a></span>~Binary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::~<a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac47df1759fc5e2a1c2b4113401fc3ee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac47df1759fc5e2a1c2b4113401fc3ee9">&#9670;&nbsp;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::get </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e868f4d94de157b5dc9686169759c25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e868f4d94de157b5dc9686169759c25">&#9670;&nbsp;</a></span>operator%() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator% </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96a2cbc5b12465a3c5ed15ad3cf260fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96a2cbc5b12465a3c5ed15ad3cf260fc">&#9670;&nbsp;</a></span>operator%() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator% </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9c7ac190008adce96818f231a7f1b29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9c7ac190008adce96818f231a7f1b29">&#9670;&nbsp;</a></span>operator%=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator%= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a738580562817ecfaa8a9cc984b26a766"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a738580562817ecfaa8a9cc984b26a766">&#9670;&nbsp;</a></span>operator%=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator%= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5d91a8250d4c61551dd6a12087ec4e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5d91a8250d4c61551dd6a12087ec4e9">&#9670;&nbsp;</a></span>operator&amp;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator&amp; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a997ab804167796a1c65848f44d91da59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a997ab804167796a1c65848f44d91da59">&#9670;&nbsp;</a></span>operator&amp;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator&amp; </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a860b1e9436a7aa4474fa873eebf1ba18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a860b1e9436a7aa4474fa873eebf1ba18">&#9670;&nbsp;</a></span>operator&amp;=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator&amp;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a437b9fb8c2f8e2b19726f1a2db2d2c54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a437b9fb8c2f8e2b19726f1a2db2d2c54">&#9670;&nbsp;</a></span>operator&amp;=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator&amp;= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d2cde28ea196ada0b4f44c29243b368"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d2cde28ea196ada0b4f44c29243b368">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac075fbd59e6455aebe1bf83227741501"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac075fbd59e6455aebe1bf83227741501">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca12b38947b6b62909b8fea33b3f31c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca12b38947b6b62909b8fea33b3f31c1">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator*= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a726b35abaf10d94520e63044bcbab770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a726b35abaf10d94520e63044bcbab770">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator*= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96aabebb693a050eec49429233f55998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96aabebb693a050eec49429233f55998">&#9670;&nbsp;</a></span>operator+() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a06f7bc99cd022bb05195cb448d62d686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06f7bc99cd022bb05195cb448d62d686">&#9670;&nbsp;</a></span>operator+() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a968c3515ac59bc3455944f89db13fcb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a968c3515ac59bc3455944f89db13fcb0">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a751964a151dce4d9efa4042e54721522"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a751964a151dce4d9efa4042e54721522">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1334dd26328e22ce50e91de36dc69dfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1334dd26328e22ce50e91de36dc69dfa">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator- </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a907319af0e9faf3e9cc1c580adb99906"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a907319af0e9faf3e9cc1c580adb99906">&#9670;&nbsp;</a></span>operator-() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator- </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a510a7dc88fb5822d4f2d79162c2709cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a510a7dc88fb5822d4f2d79162c2709cc">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator-= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a6198f933e2d8f262467aa5171baf7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a6198f933e2d8f262467aa5171baf7a">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator-= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a502c702e99d1b1e97e72fae39b1063a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a502c702e99d1b1e97e72fae39b1063a8">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator/ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf7a0ad20eb282f39b122cbf1e24a282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf7a0ad20eb282f39b122cbf1e24a282">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator/ </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a3d5135edf9681af40cc8e917e29b15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a3d5135edf9681af40cc8e917e29b15">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator/= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3032e89e8c1bbd267d174366c6c9157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3032e89e8c1bbd267d174366c6c9157">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator/= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31f62f20ead58385f3c19590d69e095f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31f62f20ead58385f3c19590d69e095f">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ce5b8c52f9aa9116c74791e14b0c4e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ce5b8c52f9aa9116c74791e14b0c4e2">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a6b170313bb013e4108470677750f03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a6b170313bb013e4108470677750f03">&#9670;&nbsp;</a></span>operator&lt;&lt;=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator&lt;&lt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ff91792c60e74099edcf796c0e88e0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ff91792c60e74099edcf796c0e88e0a">&#9670;&nbsp;</a></span>operator&lt;&lt;=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator&lt;&lt;= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee5ba12a6e0ef2fbd240cde2d5747d09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee5ba12a6e0ef2fbd240cde2d5747d09">&#9670;&nbsp;</a></span>operator&gt;&gt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0024cd90341cbd89270738b791011d01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0024cd90341cbd89270738b791011d01">&#9670;&nbsp;</a></span>operator&gt;&gt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a8d08b67d142a871bdbf2d2d6b6b02a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a8d08b67d142a871bdbf2d2d6b6b02a">&#9670;&nbsp;</a></span>operator&gt;&gt;=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator&gt;&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad2d6e469f47749130cb1f07e3d17cfbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2d6e469f47749130cb1f07e3d17cfbd">&#9670;&nbsp;</a></span>operator&gt;&gt;=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator&gt;&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afec0277f6214fd493039d940cc6bf5c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afec0277f6214fd493039d940cc6bf5c7">&#9670;&nbsp;</a></span>operator^() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator^ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="affa472f68edb5fc7c16e6a7f090eb0fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affa472f68edb5fc7c16e6a7f090eb0fd">&#9670;&nbsp;</a></span>operator^() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator^ </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a154286b3668a463c6888f78099f8327e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a154286b3668a463c6888f78099f8327e">&#9670;&nbsp;</a></span>operator^=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator^= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69b1bdfd8d4c0ff3727cdab70e086349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69b1bdfd8d4c0ff3727cdab70e086349">&#9670;&nbsp;</a></span>operator^=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator^= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac394285a67ebaf2d21f0740b1451403d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac394285a67ebaf2d21f0740b1451403d">&#9670;&nbsp;</a></span>operator|() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator| </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc6ba7b8a523f0cdaabb5fd70451fcf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc6ba7b8a523f0cdaabb5fd70451fcf8">&#9670;&nbsp;</a></span>operator|() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator| </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33a87bc1be8fdd776bcf9bf0f8511555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33a87bc1be8fdd776bcf9bf0f8511555">&#9670;&nbsp;</a></span>operator|=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator|= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94f4f75fd082e9e4f06f1bab865ea79d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94f4f75fd082e9e4f06f1bab865ea79d">&#9670;&nbsp;</a></span>operator|=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T &gt;&amp; <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::operator|= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19199d5410d2586642819f9a64bf4f76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19199d5410d2586642819f9a64bf4f76">&#9670;&nbsp;</a></span>print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::print </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>multiple</em> = <code>8</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Print the value in binary format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">multiple</td><td>The number of bits inside a group</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a51139eafa7f6dacbd7958fa9e8ce664b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51139eafa7f6dacbd7958fa9e8ce664b">&#9670;&nbsp;</a></span>s_print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::s_print </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>multiple</em> = <code>8</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Print an arithmetic variable value in binary format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The value to print </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">multiple</td><td>The number of bits inside a group</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a4cd5ecef05c71e597e58411bf6cc6455"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cd5ecef05c71e597e58411bf6cc6455">&#9670;&nbsp;</a></span>set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">mcd::Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::set </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="acd2465f87f784cedc37718af0bf50d17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd2465f87f784cedc37718af0bf50d17">&#9670;&nbsp;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#db/d28/a01133">Binary</a>&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d8/d41/a00038.php">Binary.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d6/d6e/a01137.php">Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

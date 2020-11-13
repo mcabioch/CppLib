@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:28:20 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,19 +95,19 @@ $(document).ready(function(){initNavTree('functions_func_f.php',''); initResizab
 
 <h3><a id="index_f"></a>- f -</h3><ul>
 <li>failures()
-: <a class="el" href="d0/d05/a01420.php#a8eca6a0ca43bb94945dd97f9d43f8042">mcd::Tests::Test</a>
+: <a class="el" href="d4/d20/a01421.php#a8eca6a0ca43bb94945dd97f9d43f8042">mcd::Tests::Test</a>
 </li>
 <li>final()
-: <a class="el" href="d7/da3/a01260.php#a46a2f66f96d1152c972b8fc2c228db77">mcd::SHA2</a>
+: <a class="el" href="de/d34/a01261.php#a46a2f66f96d1152c972b8fc2c228db77">mcd::SHA2</a>
 </li>
 <li>find()
-: <a class="el" href="df/d31/a01440.php#a1dd3866ef261769430a548223331c98d">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d5/df9/a01441.php#a1dd3866ef261769430a548223331c98d">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>Fraction()
-: <a class="el" href="d8/d7a/a01292.php#a9397e2e1fbfba88c48928e5135925f8d">mcd::Fraction</a>
+: <a class="el" href="dc/dd5/a01293.php#a9397e2e1fbfba88c48928e5135925f8d">mcd::Fraction</a>
 </li>
 <li>front()
-: <a class="el" href="d0/d39/a01112.php#aa86287081828d6ab7ea9b7e1b71616ac">mcd::t_queue&lt; T, Container &gt;</a>
+: <a class="el" href="d8/ded/a01113.php#aa86287081828d6ab7ea9b7e1b71616ac">mcd::t_queue&lt; T, Container &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

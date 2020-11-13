@@ -1,12 +1,10 @@
 var a01213 =
 [
-    [ "Color", "d5/d54/a01213.php#a81a4808e8eb05c0a23cd90da4d8569ec", null ],
-    [ "~Color", "d5/d54/a01213.php#a4db298b6e4ff50cf961dc90449468952", null ],
-    [ "Color", "d5/d54/a01213.php#ac3843a894efef061a84ac802d316fd86", null ],
-    [ "addColors", "d5/d54/a01213.php#a8dd730c3b59730b786d059a507d03fca", null ],
-    [ "addColors", "d5/d54/a01213.php#ada095941e4b1c3757618959df513af9a", null ],
-    [ "addColors", "d5/d54/a01213.php#af4f6325cc63bd229cdf19df24a6e4f6e", null ],
-    [ "addColors", "d5/d54/a01213.php#ae732af32fdbea05950d39bd9532121cf", null ],
-    [ "Cls", "d5/d54/a01213.php#a37c42c3a0b8af325e746f536a6a51305", null ],
-    [ "operator<<", "d5/d54/a01213.php#a84513fec989f2f817d2b1c5e6989450e", null ]
+    [ "Clock", "d5/d54/a01213.php#ae0aa0853cddce8c1e8c4339eb7016223", null ],
+    [ "getElapsed", "d5/d54/a01213.php#a47ce94671d48c1f42862771174c86810", null ],
+    [ "getStart", "d5/d54/a01213.php#a276d9d978a8670e8354cac2b589c60ce", null ],
+    [ "restart", "d5/d54/a01213.php#a3008b7b555fb4e6c3415aec152b5de2d", null ],
+    [ "start", "d5/d54/a01213.php#a25b787edba50392a8f18995a6ae6dc9e", null ],
+    [ "m_start", "d5/d54/a01213.php#a9714489f034bfffabff995741d899513", null ],
+    [ "started", "d5/d54/a01213.php#a20216632ae0d7b1504060826edfdd062", null ]
 ];

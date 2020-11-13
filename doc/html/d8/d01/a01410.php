@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,22 +92,14 @@ $(document).ready(function(){initNavTree('d7/d68/a01413.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Tests::Test Member List</div>  </div>
+<div class="title">mcd::RNG&lt; T, U &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d7/d68/a01413.php">mcd::Tests::Test</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d7/d68/a01413.php">mcd::RNG&lt; T, U &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/d68/a01413.php#ad42ea83a5e78bd14d0d2af06716dabd3">addSuite</a>(const std::string &amp;name, std::function&lt; void() &gt; func)</td><td class="entry"><a class="el" href="../../d7/d68/a01413.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/d68/a01413.php#ad9e5ce30e83438c731c0b32558087e7e">addTest</a>(const Test_struct &amp;test)</td><td class="entry"><a class="el" href="../../d7/d68/a01413.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/d68/a01413.php#abd689a9285398f98dcf09722ca676070">addThrow</a>(const std::string &amp;instr, const std::string &amp;except, const Test_struct &amp;test)</td><td class="entry"><a class="el" href="../../d7/d68/a01413.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/d68/a01413.php#a8eca6a0ca43bb94945dd97f9d43f8042">failures</a>()</td><td class="entry"><a class="el" href="../../d7/d68/a01413.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/d68/a01413.php#a1361402d9c24abe3aa4e44cce65de4b5">in</a>(const T &amp;value, const U &amp;array, const Test_struct &amp;test, bool start=false)</td><td class="entry"><a class="el" href="../../d7/d68/a01413.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/d68/a01413.php#a7602fba793072f87e41fb0df3884ce24">instance</a>(const U &amp;, const std::string &amp;strObj, const Test_struct &amp;test, bool cmp=true)</td><td class="entry"><a class="el" href="../../d7/d68/a01413.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/d68/a01413.php#acfe8416a1f76010757bda8e2c68412ae">nb</a>()</td><td class="entry"><a class="el" href="../../d7/d68/a01413.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/d68/a01413.php#ac6b9760deebd8280c822a0d7b6541b13">print</a>(std::ostream &amp;os, size_t format=0b00000010|0b00000100|0b00001000)</td><td class="entry"><a class="el" href="../../d7/d68/a01413.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/d68/a01413.php#ad0540f76b1d762f87f48b1333c499d96">run</a>(const std::string &amp;key=&quot;&quot;)</td><td class="entry"><a class="el" href="../../d7/d68/a01413.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/d68/a01413.php#a2460015b885027e9c03ee911b1466f67">success</a>()</td><td class="entry"><a class="el" href="../../d7/d68/a01413.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d68/a01413.php#a717048eaee5dc829e132237026beaecc">operator()</a>(T a, T b)</td><td class="entry"><a class="el" href="../../d7/d68/a01413.php">mcd::RNG&lt; T, U &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d68/a01413.php#ada6783e2f83f41b11d72687c90c29ead">RNG</a>()</td><td class="entry"><a class="el" href="../../d7/d68/a01413.php">mcd::RNG&lt; T, U &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

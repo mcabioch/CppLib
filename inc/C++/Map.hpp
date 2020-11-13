@@ -3,7 +3,7 @@
  *	\file		Map.hpp
  *	\author		Mathias CABIOCH-DELALANDE
  *	\created	July, 29 2018 14:27:51
- *	\modified	September, 26 2019
+ *	\modified	November, 13 2020
  *
  */
 #ifndef HEADER_CPP_MAP
@@ -234,7 +234,9 @@ namespace mcd
          *		\param[in]		show		\b true or \b false
          *		\param[in]		color		The color ofthe path
          */
-        MapMove testPath(Path& path, bool show = false, Color color = Colors::PURPLE_B);
+        MapMove testPath(Path&          path,
+                         bool           show  = false,
+                         Console::Color color = Console::Colors::PURPLE_B);
         /*!
          * \brief	Reset the path's simulation
          *		\param[in]		path		The path to follow

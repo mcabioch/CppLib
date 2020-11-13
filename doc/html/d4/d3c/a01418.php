@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,26 +92,22 @@ $(document).ready(function(){initNavTree('d4/d20/a01421.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Time Member List</div>  </div>
+<div class="title">mcd::Tests::Test Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d4/d20/a01421.php">mcd::Time</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d4/d20/a01421.php">mcd::Tests::Test</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#af9360f3323012f2572ffb3f8924fca62">get</a>(const std::string &amp;format=&quot;%H:%M:%S&quot;) const</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#afc42ec7546725501d6cd8eb069e92a52">hour</a>() const</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a3e19605ece31340f27255a79beb193d4">init</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a22a7371879c50752d94338e631ab37a7">milli</a>() const</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a56b7fdec50bc1b7f5fb991260cb18104">minute</a>() const</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a2176bf97f6b18969bb71b7c3f2e56234">operator&lt;</a>(const Time &amp;a, const Time &amp;b)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#aa153c7e397eda8644c840a97f6036c5b">operator&lt;&lt;</a>(std::ostream &amp;os, const Time &amp;time)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a7f236759032a4630990af05bd6c8530b">operator==</a>(const Time &amp;a, const Time &amp;b)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a94d4610fef5db9db60ca31d7d64230dc">reset</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a5a3510ec96b9698b8cf601a2a1b9d90c">second</a>() const</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#aa843463db53892a16778dd0d71ec2dad">set</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#ac802213e9ca41cc731f14619534e0249">Time</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#afa17085534ed1da008f6dd39cef039f2">Time</a>(const std::string &amp;time)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#aef071966b669112898476801bf63bcba">~Time</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Time</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#ad42ea83a5e78bd14d0d2af06716dabd3">addSuite</a>(const std::string &amp;name, std::function&lt; void() &gt; func)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#ad9e5ce30e83438c731c0b32558087e7e">addTest</a>(const Test_struct &amp;test)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#abd689a9285398f98dcf09722ca676070">addThrow</a>(const std::string &amp;instr, const std::string &amp;except, const Test_struct &amp;test)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a8eca6a0ca43bb94945dd97f9d43f8042">failures</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a1361402d9c24abe3aa4e44cce65de4b5">in</a>(const T &amp;value, const U &amp;array, const Test_struct &amp;test, bool start=false)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a7602fba793072f87e41fb0df3884ce24">instance</a>(const U &amp;, const std::string &amp;strObj, const Test_struct &amp;test, bool cmp=true)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#acfe8416a1f76010757bda8e2c68412ae">nb</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#ac6b9760deebd8280c822a0d7b6541b13">print</a>(std::ostream &amp;os, size_t format=0b00000010|0b00000100|0b00001000)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a01421.php#ad0540f76b1d762f87f48b1333c499d96">run</a>(const std::string &amp;key=&quot;&quot;)</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/d20/a01421.php#a2460015b885027e9c03ee911b1466f67">success</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a01421.php">mcd::Tests::Test</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

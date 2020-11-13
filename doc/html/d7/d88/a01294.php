@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 1 2020 19:02:59 for C++ by";
+				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,25 +92,32 @@ $(document).ready(function(){initNavTree('dc/d8c/a01297.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Hostile Member List</div>  </div>
+<div class="title">mcd::natural::Gene Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/d8c/a01297.php">mcd::Hostile</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a56083f800ece1bfc951d64ed36c4b8c6">_attacked</a></td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#ac1aefccd5c541096961543779115d396">_attackedSpec</a></td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#ade230ba4a19be94a4719caede784038d">_target</a></td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a7443b49cf0f2564e4209b3ae6867b5cc">attack</a>(Entity *target=nullptr)=0</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a6301018ead1f9778a74dc6d4b8e1daff">getStrength</a>() const</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a13299f1f64259b76ddf0a43dd97a4864">getTarget</a>() const</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a08a1386aff1a9289823113ef90c14927">Hostile</a>()</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::Hostile</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#afbaa53140e5e1bf40606e4ff3d4a947d">hurt</a>(Entity *target=nullptr)</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::Hostile</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#aec10db200677dfaecd711eb03cd0baee">printInfos</a>(std::ostream &amp;stream) const</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a8de9dffab818f0e4f742bb9709ee86c7">setStrength</a>(double64_t strength)</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#ab809b87f0624b1ca1a6178a74ae32684">setTarget</a>(Entity *target)</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a3e31fc96bd37fc2a8811ecfe600c62a0">untarget</a>()</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a15a43b724736b8e509e9767231d3c8c6">~Hostile</a>()</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::Hostile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a29dd9b8ac897a110f7047c2912ebd2e0aa91e524760eeac3e25168c3c4fd16c64">BOOL</a> enum value</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#af2f9b44131d9874e8b2d27566f8f5bf0">copy</a>() const</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a29dd9b8ac897a110f7047c2912ebd2e0ae7b17b5d887f18544b1ca0f51244e8c4">FLOAT</a> enum value</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a956e43802a33c93c589c52568f12f6d1">FloatAccuracy</a></td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#afac2f9fde459a7a311c2a19078f0cc95">Gene</a>(std::string name, GeneType type=GeneType::FLOAT, double value=0, double mini=0, double maxi=0, std::vector&lt; double &gt; list={})</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#aef9707ac6796358b612094b0ebc35402">Gene</a>(const Gene &amp;g)</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a29dd9b8ac897a110f7047c2912ebd2e0">GeneType</a> enum name</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a29dd9b8ac897a110f7047c2912ebd2e0a644487cee470ea37ef049351feaaca2e">INT</a> enum value</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a29dd9b8ac897a110f7047c2912ebd2e0a4015002ac12a4c3852ba72131800aa26">LISTED</a> enum value</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#aea82298faeb2f83a45c7ca43558c0390">MutationRate</a></td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#ae75e8789e328d8ffa258b201849d6a44">Name</a>() const</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#aadb0dff1f1d91e1b0b2c7a382de48eb8">operator&lt;&lt;</a>(std::ostream &amp;os, const Gene &amp;g)</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#abfba7cb01e60aeda7477a3b504d4ed57">operator==</a>(const Gene &amp;g1, const Gene &amp;g2)</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a2614d14b993a651c047de4bf36f7aef2">operator&gt;&gt;</a>(std::istream &amp;is, Gene &amp;g)</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a29dd9b8ac897a110f7047c2912ebd2e0a31801000c46cfa54c27b6f7bcef2afa5">RANGED_FLOAT</a> enum value</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a29dd9b8ac897a110f7047c2912ebd2e0a30cd035484abb297f1f5503dd95b94fd">RANGED_INT</a> enum value</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a29dd9b8ac897a110f7047c2912ebd2e0a11190a1a9c9f6f59c60d10762eb91896">STATIC</a> enum value</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#acc86646db1f38e98d7d1d21236debe9d">Value</a>() const</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a1c76cb1011260b0ad8495d1e591057ba">Value</a>(const double &amp;value)</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d8c/a01297.php#a57128a7a4b82cf0a0ba0b8856bab161a">~Gene</a>()</td><td class="entry"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

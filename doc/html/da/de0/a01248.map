@@ -1,8 +1,11 @@
-<map id="mcd::Crypto" name="mcd::Crypto">
-<area shape="rect" id="node1" title="A class to be the parent for every crypt class." alt="" coords="185,80,279,107"/>
-<area shape="rect" id="node3" href="$d3/d0b/a01253.php" title="A class to use the cesar algorithm for encryption." alt="" coords="5,155,96,181"/>
-<area shape="rect" id="node4" href="$de/d34/a01261.php" title="A class to test a homemade algorithm for encryption." alt="" coords="121,155,226,181"/>
-<area shape="rect" id="node5" href="$da/dd8/a01265.php" title="A class to use the RSA algorithm for encryption." alt="" coords="249,155,332,181"/>
-<area shape="rect" id="node6" href="$d9/de7/a01257.php" title="An implementation of sha256 encryption." alt="" coords="356,155,447,181"/>
-<area shape="rect" id="node2" href="$de/da0/a01341.php" title="A class to let some other not to be copyable." alt="" coords="167,5,297,32"/>
+<map id="mcd::Contraption" name="mcd::Contraption">
+<area shape="rect" id="node1" title="A contraption." alt="" coords="170,5,293,32"/>
+<area shape="rect" id="node2" href="$d1/d1a/a01285.php" title="An entity." alt="" coords="129,80,219,107"/>
+<area shape="rect" id="node8" href="$df/d10/a01357.php" title="An object." alt="" coords="245,80,338,107"/>
+<area shape="rect" id="node3" href="$d3/dc4/a01089.php" title="An animal." alt="" coords="5,155,100,181"/>
+<area shape="rect" id="node5" href="$dc/d60/a01461.php" title="A vegetal." alt="" coords="125,155,223,181"/>
+<area shape="rect" id="node4" href="$de/d1c/a01093.php" title="An ant." alt="" coords="15,229,90,256"/>
+<area shape="rect" id="node6" href="$d4/deb/a01345.php" title="A mushroom." alt="" coords="115,229,231,256"/>
+<area shape="rect" id="node7" href="$df/d68/a01385.php" title="A plant." alt="" coords="255,229,341,256"/>
+<area shape="rect" id="node9" href="$de/daf/a01417.php" title="A stone." alt="" coords="248,155,337,181"/>
 </map>

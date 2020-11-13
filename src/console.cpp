@@ -1,6 +1,6 @@
 #include "C++/console.hpp"
 
-namespace mcd
+namespace mcd::Console
 {
     /* ThreadCout & ThreadEndlCout variables */
     mutex ThreadCout::_mutex;
@@ -28,12 +28,17 @@ namespace mcd
     /**********/
 
     /* Cursor */
-    void ConsoleCursor::save() { std::cout << "\033[s"; }
+    void Cursor::save() { std::cout << "\033[s"; }
 
-    void ConsoleCursor::restore() { std::cout << "\033[u"; }
+    void Cursor::restore() { std::cout << "\033[u"; }
     /**********/
 
     /* SetPrecision variable */
     SetPrecision setprecision;
     /*************************/
-}   // namespace mcd
+
+    void printLine(std::string caract, size_t size, std::ostream& os) {
+        for (size_t i = 0; i < size; ++i) { os << caract; }
+        os << std::endl;
+    }
+}   // namespace mcd::Console
