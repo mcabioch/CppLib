@@ -2,8 +2,8 @@
 
 namespace mcd
 {
-    /* Define a global rng variable */
-    Rng rng;
+    /* Define a global rnd variable */
+    Rnd rnd;
 
     /* Define a global arguments variable */
     Arguments arguments;

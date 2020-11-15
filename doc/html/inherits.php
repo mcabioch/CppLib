@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -401,8 +401,8 @@ $(document).ready(function(){initNavTree('hierarchy.php',''); initResizable(); }
 <area shape="rect" href="d9/d6e/a01409.php" title="A class to have a reference to the class&#39; pointer." alt="" coords="5,5,161,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_54.png" border="0" usemap="#amcd_1_1RNG_3_01T_00_01U_01_4" alt=""/>
-<map name="mcd_1_1RNG_3_01T_00_01U_01_4" id="mcd_1_1RNG_3_01T_00_01U_01_4">
+<tr><td><img src="inherit_graph_54.png" border="0" usemap="#amcd_1_1RND_3_01T_00_01U_01_4" alt=""/>
+<map name="mcd_1_1RND_3_01T_00_01U_01_4" id="mcd_1_1RND_3_01T_00_01U_01_4">
 <area shape="rect" href="d7/d68/a01413.php" title="A class to simplify the use of random." alt="" coords="5,5,139,32"/>
 </map>
 </td></tr>

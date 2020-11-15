@@ -6,7 +6,7 @@
  *
  *	\details	- Enable the use of ;
  *					- BDD with bdd\n
- *					- RNG with rng\n
+ *					- RND with rnd\n
  *					- Arguments with arguments\n
  *					- std::ifstream with reader\n
  *					- std::ofstream with writer\n

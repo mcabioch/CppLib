@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -122,7 +122,7 @@ Collaboration diagram for mcd::natural::Cell:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae5097d9d7e1fc380e39fe9639ba794c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df6/a01141.php#ae5097d9d7e1fc380e39fe9639ba794c8">Cell</a> (<a class="el" href="../../d5/d42/a00269.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a> chroms)</td></tr>
+<tr class="memitem:ae5097d9d7e1fc380e39fe9639ba794c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df6/a01141.php#ae5097d9d7e1fc380e39fe9639ba794c8">Cell</a> (<a class="el" href="../../d9/d2a/a00270.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a> chroms)</td></tr>
 <tr class="memdesc:ae5097d9d7e1fc380e39fe9639ba794c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../de/df6/a01141.php#ae5097d9d7e1fc380e39fe9639ba794c8">More...</a><br /></td></tr>
 <tr class="separator:ae5097d9d7e1fc380e39fe9639ba794c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7ee113d57e8f75bca4eaa9b3455001a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df6/a01141.php#ac7ee113d57e8f75bca4eaa9b3455001a">~Cell</a> ()</td></tr>
@@ -138,7 +138,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ac4bfe0772fac9025654c268c48e6c9b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d42/a00269.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df6/a01141.php#ac4bfe0772fac9025654c268c48e6c9b8">_chroms</a></td></tr>
+<tr class="memitem:ac4bfe0772fac9025654c268c48e6c9b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d2a/a00270.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df6/a01141.php#ac4bfe0772fac9025654c268c48e6c9b8">_chroms</a></td></tr>
 <tr class="separator:ac4bfe0772fac9025654c268c48e6c9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
@@ -165,7 +165,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">mcd::natural::Cell::Cell </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d42/a00269.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d2a/a00270.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a>&#160;</td>
           <td class="paramname"><em>chroms</em></td><td>)</td>
           <td></td>
         </tr>
@@ -439,7 +439,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d42/a00269.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a> mcd::natural::Cell::_chroms</td>
+          <td class="memname"><a class="el" href="../../d9/d2a/a00270.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a> mcd::natural::Cell::_chroms</td>
         </tr>
       </table>
   </td>
@@ -460,7 +460,7 @@ Friends</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/d42/a00269.php">natural</a></li><li class="navelem"><a class="el" href="../../de/df6/a01141.php">Cell</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/d2a/a00270.php">natural</a></li><li class="navelem"><a class="el" href="../../de/df6/a01141.php">Cell</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

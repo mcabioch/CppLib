@@ -206,7 +206,7 @@ namespace mcd
                          "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"});
         }
 
-        for (size_t i{0}; i < nb; ++i) { out += cars[rng(0, static_cast< int >(cars.size()) - 1)]; }
+        for (size_t i{0}; i < nb; ++i) { out += cars[rnd(0, static_cast< int >(cars.size()) - 1)]; }
 
         return out;
     }

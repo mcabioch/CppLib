@@ -288,7 +288,7 @@ namespace mcd
                     dis = tmp;
                     to  = pt;
                 } else {
-                    if (rng(0, 2) == 0) {
+                    if (rnd(0, 2) == 0) {
                         dis = tmp;
                         to  = pt;
                     }

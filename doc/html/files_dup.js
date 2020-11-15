@@ -138,7 +138,7 @@ var files_dup =
       [ "PureVirtual", "d4/d1a/a01405.php", "d4/d1a/a01405" ]
     ] ],
     [ "Referenced.hpp", "dd/dc1/a00212.php", "dd/dc1/a00212" ],
-    [ "RNG.hpp", "d3/dd5/a00215.php", "d3/dd5/a00215" ],
+    [ "RND.hpp", "d3/dd5/a00215.php", "d3/dd5/a00215" ],
     [ "sorting.hpp", "dc/d9a/a00218.php", "dc/d9a/a00218" ],
     [ "Stone.hpp", "dd/d52/a00221.php", [
       [ "Stone", "de/daf/a01417.php", "de/daf/a01417" ]

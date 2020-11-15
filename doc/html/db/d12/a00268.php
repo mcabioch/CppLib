@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -105,15 +105,15 @@ $(document).ready(function(){initNavTree('db/d12/a00268.php','../../'); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:dd/d86/a00271"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php">Check</a></td></tr>
+<tr class="memitem:d9/dd6/a00272"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php">Check</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/dd6/a00272"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php">Console</a></td></tr>
+<tr class="memitem:d5/d42/a00269"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php">Console</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d5/d42/a00269"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php">natural</a></td></tr>
+<tr class="memitem:d9/d2a/a00270"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php">natural</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d0/d19/a00273"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d19/a00273.php">Tests</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/d2a/a00270"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php">this_thread</a></td></tr>
+<tr class="memitem:dd/d86/a00271"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php">this_thread</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -266,7 +266,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d6e/a01409.php">Referenced</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to have a reference to the class' pointer.  <a href="../../d9/d6e/a01409.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d68/a01413.php">RNG</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d68/a01413.php">RND</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to simplify the use of random.  <a href="../../d7/d68/a01413.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d16/a01269.php">RSA</a></td></tr>
@@ -402,10 +402,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ad751f3d04e342cbe86c561683c3bd99c"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad751f3d04e342cbe86c561683c3bd99c">implode</a> (const std::vector&lt; T &gt; &amp;a, const std::string &amp;glue=&quot;&quot;)</td></tr>
 <tr class="memdesc:ad751f3d04e342cbe86c561683c3bd99c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="../../db/d12/a00268.php#ad751f3d04e342cbe86c561683c3bd99c">More...</a><br /></td></tr>
 <tr class="separator:ad751f3d04e342cbe86c561683c3bd99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0029a835651d350c925a43fd718ab590"><td class="memTemplParams" colspan="2">template&lt;typename Array &gt; </td></tr>
-<tr class="memitem:a0029a835651d350c925a43fd718ab590"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a0029a835651d350c925a43fd718ab590">print_r</a> (const Array &amp;a)</td></tr>
-<tr class="memdesc:a0029a835651d350c925a43fd718ab590"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="../../db/d12/a00268.php#a0029a835651d350c925a43fd718ab590">More...</a><br /></td></tr>
-<tr class="separator:a0029a835651d350c925a43fd718ab590"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71d86de24ac44a702d65c29bcb96c686"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
 <tr class="memitem:a71d86de24ac44a702d65c29bcb96c686"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a71d86de24ac44a702d65c29bcb96c686">rewrite</a> (const std::vector&lt; V &gt; &amp;table, unsigned index)</td></tr>
 <tr class="memdesc:a71d86de24ac44a702d65c29bcb96c686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="../../db/d12/a00268.php#a71d86de24ac44a702d65c29bcb96c686">More...</a><br /></td></tr>
@@ -414,22 +410,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ad53bf266a5db5dc112e71ebe3c78946e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad53bf266a5db5dc112e71ebe3c78946e">contains</a> (const std::vector&lt; T &gt; &amp;table, T value)</td></tr>
 <tr class="memdesc:ad53bf266a5db5dc112e71ebe3c78946e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a vector contains or not something.  <a href="../../db/d12/a00268.php#ad53bf266a5db5dc112e71ebe3c78946e">More...</a><br /></td></tr>
 <tr class="separator:ad53bf266a5db5dc112e71ebe3c78946e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5996fcf8097a903a5461a6035ff0f98d"><td class="memTemplParams" colspan="2">template&lt;typename Something &gt; </td></tr>
-<tr class="memitem:a5996fcf8097a903a5461a6035ff0f98d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a5996fcf8097a903a5461a6035ff0f98d">print_all</a> (const Something &amp;data, bool change=false)</td></tr>
-<tr class="memdesc:a5996fcf8097a903a5461a6035ff0f98d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints approximately everything.  <a href="../../db/d12/a00268.php#a5996fcf8097a903a5461a6035ff0f98d">More...</a><br /></td></tr>
-<tr class="separator:a5996fcf8097a903a5461a6035ff0f98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1c42a8b9412d2afa3b486c5e629f752"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#af1c42a8b9412d2afa3b486c5e629f752">array2Dto1D</a> (size_t x, size_t y, size_t maxX)</td></tr>
+<tr class="memdesc:af1c42a8b9412d2afa3b486c5e629f752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert 2D coords to 1D coords.  <a href="../../db/d12/a00268.php#af1c42a8b9412d2afa3b486c5e629f752">More...</a><br /></td></tr>
 <tr class="separator:af1c42a8b9412d2afa3b486c5e629f752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25ccd89a356e58d7653bd783306d2942"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a25ccd89a356e58d7653bd783306d2942">array1Dto2D</a> (size_t index, size_t maxX)</td></tr>
+<tr class="memdesc:a25ccd89a356e58d7653bd783306d2942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert 1D coords to 2D coords.  <a href="../../db/d12/a00268.php#a25ccd89a356e58d7653bd783306d2942">More...</a><br /></td></tr>
 <tr class="separator:a25ccd89a356e58d7653bd783306d2942"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53a33cf86c36584f92495307f8e68a00"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a53a33cf86c36584f92495307f8e68a00">array2Dto1D</a> (const <a class="el" href="../../d9/dae/a01453.php">Point</a> &amp;pt, size_t maxX)</td></tr>
+<tr class="memdesc:a53a33cf86c36584f92495307f8e68a00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert 2D coords to 1D coords.  <a href="../../db/d12/a00268.php#a53a33cf86c36584f92495307f8e68a00">More...</a><br /></td></tr>
 <tr class="separator:a53a33cf86c36584f92495307f8e68a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9364f91b9303a9a63793512ad3f18e4"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aa9364f91b9303a9a63793512ad3f18e4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aa9364f91b9303a9a63793512ad3f18e4">vector2DPrint</a> (const std::vector&lt; std::vector&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
-<tr class="separator:aa9364f91b9303a9a63793512ad3f18e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac3317dd3d37f382f940ee207bd4dd8e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aac3317dd3d37f382f940ee207bd4dd8e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aac3317dd3d37f382f940ee207bd4dd8e">vector2DPrintInverted</a> (const std::vector&lt; std::vector&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout, int shift=0)</td></tr>
-<tr class="separator:aac3317dd3d37f382f940ee207bd4dd8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3638871c13207c94b12eb5760dadf6f"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
 <tr class="memitem:af3638871c13207c94b12eb5760dadf6f"><td class="memTemplItemLeft" align="right" valign="top">std::set&lt; std::pair&lt; T, U &gt;, std::function&lt; bool(std::pair&lt; T, U &gt;, std::pair&lt; T, U &gt;) &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#af3638871c13207c94b12eb5760dadf6f">sortMapValuesAsc</a> (std::map&lt; T, U &gt; array)</td></tr>
 <tr class="separator:af3638871c13207c94b12eb5760dadf6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -662,10 +651,14 @@ Functions</h2></td></tr>
 <tr class="memitem:abf93d7765c51ab825641e2f1de5fb2c9"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
 <tr class="memitem:abf93d7765c51ab825641e2f1de5fb2c9"><td class="memTemplItemLeft" align="right" valign="top">C &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#abf93d7765c51ab825641e2f1de5fb2c9">ref</a> (std::shared_ptr&lt; C &gt; obj)</td></tr>
 <tr class="separator:abf93d7765c51ab825641e2f1de5fb2c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95489209bc34099d9508c0e22a279bb0"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U  = double&gt; </td></tr>
-<tr class="memitem:a95489209bc34099d9508c0e22a279bb0"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a95489209bc34099d9508c0e22a279bb0">rngRange</a> (T a, U b=0.1)</td></tr>
-<tr class="memdesc:a95489209bc34099d9508c0e22a279bb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a random number in a computed range.  <a href="../../db/d12/a00268.php#a95489209bc34099d9508c0e22a279bb0">More...</a><br /></td></tr>
-<tr class="separator:a95489209bc34099d9508c0e22a279bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8950b7264d981f2d6cb74d4040ff24c2"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U  = double&gt; </td></tr>
+<tr class="memitem:a8950b7264d981f2d6cb74d4040ff24c2"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a8950b7264d981f2d6cb74d4040ff24c2">rndRange</a> (T a, U b=0.1)</td></tr>
+<tr class="memdesc:a8950b7264d981f2d6cb74d4040ff24c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a random number in a computed range.  <a href="../../db/d12/a00268.php#a8950b7264d981f2d6cb74d4040ff24c2">More...</a><br /></td></tr>
+<tr class="separator:a8950b7264d981f2d6cb74d4040ff24c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ea63bf52e122781f29862e0a2b57b77"><td class="memTemplParams" colspan="2">template&lt;typename T  = double&gt; </td></tr>
+<tr class="memitem:a8ea63bf52e122781f29862e0a2b57b77"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a8ea63bf52e122781f29862e0a2b57b77">rndFloatingNumber</a> (int minimum, int maximum, int decade)</td></tr>
+<tr class="memdesc:a8ea63bf52e122781f29862e0a2b57b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a floating point random number.  <a href="../../db/d12/a00268.php#a8ea63bf52e122781f29862e0a2b57b77">More...</a><br /></td></tr>
+<tr class="separator:a8ea63bf52e122781f29862e0a2b57b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a1aa5f89ff57aa7dc4e6d136c9c315f"><td class="memTemplParams" colspan="2">template&lt;typename Key , typename Value &gt; </td></tr>
 <tr class="memitem:a0a1aa5f89ff57aa7dc4e6d136c9c315f"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a0a1aa5f89ff57aa7dc4e6d136c9c315f">sortAsc</a> (const std::map&lt; Key, Value &gt; &amp;map)</td></tr>
 <tr class="memdesc:a0a1aa5f89ff57aa7dc4e6d136c9c315f"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort a map ascendently  <a href="../../db/d12/a00268.php#a0a1aa5f89ff57aa7dc4e6d136c9c315f">More...</a><br /></td></tr>
@@ -822,9 +815,9 @@ Variables</h2></td></tr>
 <tr class="separator:a9826cf077a919365508fb2a7d7aae4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46f063faccea2fdafb8e5f33c2ccbc50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5c/a01321.php">Logger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a46f063faccea2fdafb8e5f33c2ccbc50">logger</a></td></tr>
 <tr class="separator:a46f063faccea2fdafb8e5f33c2ccbc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08ac826a0e7f64dc1b04036ecec50ed1"><td class="memItemLeft" align="right" valign="top">Rng&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a08ac826a0e7f64dc1b04036ecec50ed1">rng</a></td></tr>
-<tr class="memdesc:a08ac826a0e7f64dc1b04036ecec50ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global rng variable to compute random integers.  <a href="../../db/d12/a00268.php#a08ac826a0e7f64dc1b04036ecec50ed1">More...</a><br /></td></tr>
-<tr class="separator:a08ac826a0e7f64dc1b04036ecec50ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a411f86027fee124628ac7aa6358ebf27"><td class="memItemLeft" align="right" valign="top">Rnd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a411f86027fee124628ac7aa6358ebf27">rnd</a></td></tr>
+<tr class="memdesc:a411f86027fee124628ac7aa6358ebf27"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global rnd variable to compute random integers.  <a href="../../db/d12/a00268.php#a411f86027fee124628ac7aa6358ebf27">More...</a><br /></td></tr>
+<tr class="separator:a411f86027fee124628ac7aa6358ebf27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="d6/d8b/a01117" id="d6/d8b/a01117"></a>
@@ -1584,6 +1577,16 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Convert 1D coords to 2D coords. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The 1D coord </td></tr>
+    <tr><td class="paramname">maxX</td><td>The maximum length of a line </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a std::pair containing the 2D coords </dd></dl>
+
 </div>
 </div>
 <a id="a53a33cf86c36584f92495307f8e68a00"></a>
@@ -1619,13 +1622,23 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Convert 2D coords to 1D coords. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pt</td><td>The coords </td></tr>
+    <tr><td class="paramname">maxX</td><td>The maximum length of a line </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the 1D coord </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../db/d12/a00268_a53a33cf86c36584f92495307f8e68a00_cgraph.png" border="0" usemap="#adb/d12/a00268_a53a33cf86c36584f92495307f8e68a00_cgraph" alt=""/></div>
 <map name="db/d12/a00268_a53a33cf86c36584f92495307f8e68a00_cgraph" id="db/d12/a00268_a53a33cf86c36584f92495307f8e68a00_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,135,32"/>
-<area shape="rect" href="../../db/d12/a00268.php#af1c42a8b9412d2afa3b486c5e629f752" title=" " alt="" coords="183,5,312,32"/>
+<area shape="rect" title="Convert 2D coords to 1D coords." alt="" coords="5,5,135,32"/>
+<area shape="rect" href="../../db/d12/a00268.php#af1c42a8b9412d2afa3b486c5e629f752" title="Convert 2D coords to 1D coords." alt="" coords="183,5,312,32"/>
 </map>
 </div>
 
@@ -1670,6 +1683,17 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Convert 2D coords to 1D coords. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x coord </td></tr>
+    <tr><td class="paramname">y</td><td>The y coord </td></tr>
+    <tr><td class="paramname">maxX</td><td>The maximum length of a line </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the 1D coord </dd></dl>
 
 </div>
 </div>
@@ -2672,7 +2696,7 @@ template&lt;typename... Args&gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">str_regex</td><td>The shape of the regex </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The string in which to search </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The string in which to search</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">insensitive</td><td><b>true</b> or <b>false</b> to enable/disablecase sensitive </td></tr>
   </table>
   </dd>
@@ -4142,74 +4166,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a5996fcf8097a903a5461a6035ff0f98d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5996fcf8097a903a5461a6035ff0f98d">&#9670;&nbsp;</a></span>print_all()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Something &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::print_all </td>
-          <td>(</td>
-          <td class="paramtype">const Something &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>change</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Prints approximately everything. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>The data to print </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">change</td><td><b>true</b> or <b>false</b>, <b>true</b> to print the value of a pointer instead of his address </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a0029a835651d350c925a43fd718ab590"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0029a835651d350c925a43fd718ab590">&#9670;&nbsp;</a></span>print_r()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Array &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::print_r </td>
-          <td>(</td>
-          <td class="paramtype">const Array &amp;&#160;</td>
-          <td class="paramname"><em>a</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Print the content of an array. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The array to print</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
 <a id="a5046a9dfac4629babcb20cf7b914415e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5046a9dfac4629babcb20cf7b914415e">&#9670;&nbsp;</a></span>printSize()</h2>
 
@@ -4575,8 +4531,55 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="a95489209bc34099d9508c0e22a279bb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95489209bc34099d9508c0e22a279bb0">&#9670;&nbsp;</a></span>rngRange()</h2>
+<a id="a8ea63bf52e122781f29862e0a2b57b77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ea63bf52e122781f29862e0a2b57b77">&#9670;&nbsp;</a></span>rndFloatingNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T  = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T mcd::rndFloatingNumber </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>minimum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maximum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>decade</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute a floating point random number. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">minimum</td><td>The minimum value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maximum</td><td>The maximum value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">decade</td><td>The number of value after the comma</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a random floating point value </dd></dl>
+
+</div>
+</div>
+<a id="a8950b7264d981f2d6cb74d4040ff24c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8950b7264d981f2d6cb74d4040ff24c2">&#9670;&nbsp;</a></span>rndRange()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4584,7 +4587,7 @@ template&lt;typename V &gt; </div>
 template&lt;typename T , typename U  = double&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T mcd::rngRange </td>
+          <td class="memname">T mcd::rndRange </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -5722,84 +5725,6 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="aa9364f91b9303a9a63793512ad3f18e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9364f91b9303a9a63793512ad3f18e4">&#9670;&nbsp;</a></span>vector2DPrint()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::vector2DPrint </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; std::vector&lt; T &gt; &gt;&#160;</td>
-          <td class="paramname"><em>values</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>autosize</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em> = <code>std::cout</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aac3317dd3d37f382f940ee207bd4dd8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac3317dd3d37f382f940ee207bd4dd8e">&#9670;&nbsp;</a></span>vector2DPrintInverted()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::vector2DPrintInverted </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; std::vector&lt; T &gt; &gt;&#160;</td>
-          <td class="paramname"><em>values</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>autosize</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em> = <code>std::cout</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>shift</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac625de83fcace96567aecd1363297776"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac625de83fcace96567aecd1363297776">&#9670;&nbsp;</a></span>warning_log()</h2>
 
@@ -6017,8 +5942,8 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="a08ac826a0e7f64dc1b04036ecec50ed1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08ac826a0e7f64dc1b04036ecec50ed1">&#9670;&nbsp;</a></span>rng</h2>
+<a id="a411f86027fee124628ac7aa6358ebf27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a411f86027fee124628ac7aa6358ebf27">&#9670;&nbsp;</a></span>rnd</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6027,7 +5952,7 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Rng mcd::rng</td>
+          <td class="memname">Rnd mcd::rnd</td>
         </tr>
       </table>
   </td>
@@ -6037,8 +5962,8 @@ template&lt;typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>A global rng variable to compute random integers. </p>
-<p>rng(<b>int</b>, <b>int</b>) </p>
+<p>A global rnd variable to compute random integers. </p>
+<p>rnd(<b>int</b>, <b>int</b>) </p>
 
 </div>
 </div>

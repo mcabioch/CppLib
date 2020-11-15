@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: RNG.hpp File Reference</title>
+		<title>C++: RND.hpp File Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -97,15 +97,15 @@ $(document).ready(function(){initNavTree('d3/dd5/a00215.php','../../'); initResi
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">RNG.hpp File Reference</div>  </div>
+<div class="title">RND.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;random&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for RNG.hpp:</div>
+Include dependency graph for RND.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d6/d43/a00216.png" border="0" usemap="#aRNG_8hpp" alt=""/></div>
-<map name="RNG_8hpp" id="RNG_8hpp">
+<div class="center"><img src="../../d6/d43/a00216.png" border="0" usemap="#aRND_8hpp" alt=""/></div>
+<map name="RND_8hpp" id="RND_8hpp">
 <area shape="rect" title=" " alt="" coords="5,5,83,32"/>
 <area shape="rect" title=" " alt="" coords="11,80,77,107"/>
 </map>
@@ -113,8 +113,8 @@ Include dependency graph for RNG.hpp:</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../df/d24/a00217.png" border="0" usemap="#aRNG_8hppdep" alt=""/></div>
-<map name="RNG_8hppdep" id="RNG_8hppdep">
+<div class="center"><img src="../../df/d24/a00217.png" border="0" usemap="#aRND_8hppdep" alt=""/></div>
+<map name="RND_8hppdep" id="RND_8hppdep">
 <area shape="rect" title=" " alt="" coords="337,5,414,32"/>
 <area shape="rect" href="../../d5/ddf/a00224.php" title=" " alt="" coords="336,80,415,107"/>
 <area shape="rect" href="../../d9/d01/a00227.php" title="Used to replace strptime function when compiling for Windows." alt="" coords="335,155,415,181"/>
@@ -170,7 +170,7 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d68/a01413.php">mcd::RNG&lt; T, U &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d68/a01413.php">mcd::RND&lt; T, U &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to simplify the use of random.  <a href="../../d7/d68/a01413.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -181,27 +181,33 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a95489209bc34099d9508c0e22a279bb0"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U  = double&gt; </td></tr>
-<tr class="memitem:a95489209bc34099d9508c0e22a279bb0"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a95489209bc34099d9508c0e22a279bb0">mcd::rngRange</a> (T a, U b=0.1)</td></tr>
-<tr class="memdesc:a95489209bc34099d9508c0e22a279bb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a random number in a computed range.  <a href="../../db/d12/a00268.php#a95489209bc34099d9508c0e22a279bb0">More...</a><br /></td></tr>
-<tr class="separator:a95489209bc34099d9508c0e22a279bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8950b7264d981f2d6cb74d4040ff24c2"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U  = double&gt; </td></tr>
+<tr class="memitem:a8950b7264d981f2d6cb74d4040ff24c2"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a8950b7264d981f2d6cb74d4040ff24c2">mcd::rndRange</a> (T a, U b=0.1)</td></tr>
+<tr class="memdesc:a8950b7264d981f2d6cb74d4040ff24c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a random number in a computed range.  <a href="../../db/d12/a00268.php#a8950b7264d981f2d6cb74d4040ff24c2">More...</a><br /></td></tr>
+<tr class="separator:a8950b7264d981f2d6cb74d4040ff24c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ea63bf52e122781f29862e0a2b57b77"><td class="memTemplParams" colspan="2">template&lt;typename T  = double&gt; </td></tr>
+<tr class="memitem:a8ea63bf52e122781f29862e0a2b57b77"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a8ea63bf52e122781f29862e0a2b57b77">mcd::rndFloatingNumber</a> (int minimum, int maximum, int decade)</td></tr>
+<tr class="memdesc:a8ea63bf52e122781f29862e0a2b57b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a floating point random number.  <a href="../../db/d12/a00268.php#a8ea63bf52e122781f29862e0a2b57b77">More...</a><br /></td></tr>
+<tr class="separator:a8ea63bf52e122781f29862e0a2b57b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a08ac826a0e7f64dc1b04036ecec50ed1"><td class="memItemLeft" align="right" valign="top">Rng&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a08ac826a0e7f64dc1b04036ecec50ed1">mcd::rng</a></td></tr>
-<tr class="memdesc:a08ac826a0e7f64dc1b04036ecec50ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global rng variable to compute random integers.  <a href="../../db/d12/a00268.php#a08ac826a0e7f64dc1b04036ecec50ed1">More...</a><br /></td></tr>
-<tr class="separator:a08ac826a0e7f64dc1b04036ecec50ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a411f86027fee124628ac7aa6358ebf27"><td class="memItemLeft" align="right" valign="top">Rnd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a411f86027fee124628ac7aa6358ebf27">mcd::rnd</a></td></tr>
+<tr class="memdesc:a411f86027fee124628ac7aa6358ebf27"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global rnd variable to compute random integers.  <a href="../../db/d12/a00268.php#a411f86027fee124628ac7aa6358ebf27">More...</a><br /></td></tr>
+<tr class="separator:a411f86027fee124628ac7aa6358ebf27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>May, 29 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Created : May, 29 2018 </dd>
+<dd>
+Last modification : November, 15 2020 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../dir_220287e732b97f08f66e5f221c69df74.php">inc</a></li><li class="navelem"><a class="el" href="../../dir_75b0389167f46f79a101ef8c4434cec4.php">C++</a></li><li class="navelem"><a class="el" href="../../d3/dd5/a00215.php">RNG.hpp</a></li>
+		<li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../dir_220287e732b97f08f66e5f221c69df74.php">inc</a></li><li class="navelem"><a class="el" href="../../dir_75b0389167f46f79a101ef8c4434cec4.php">C++</a></li><li class="navelem"><a class="el" href="../../d3/dd5/a00215.php">RND.hpp</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -14,7 +14,7 @@
 #    include "boost/locale.hpp"
 #endif
 
-#include "RNG.hpp"
+#include "RND.hpp"
 #include "macro.hpp"
 #include "system.hpp"
 
@@ -102,9 +102,10 @@ namespace mcd
      *		\param[in]		str				The string to treat
      *		\param[in]		from			The string to replace
      *		\param[in]		to				The string to use to replace
-     *		\param[in]		regex			\b true or \b false, \b true if \a from is a
-     *regex
-     *		\param[in]		word			\b true or \b false, \b true if only have to replace complete
+     *		\param[in]		regex			\b true or \b false, \b true if \a from is
+     *a regex
+     *		\param[in]		word			\b true or \b false, \b true if only have to replace
+     *complete
      *words and not some parts \param[in]		insensitive		\b true or \b false
      *
      *		\return			Return the changed string
@@ -136,9 +137,9 @@ namespace mcd
     /*!
      * \brief	Return all occurences of a regex in a string
      *		\param[in]			str_regex		The shape of the regex
-     *		\param[in]			str				The string in which to
-     *search
-     *		\param[in]			insensitive		\b true or \b false to enable/disablecase
+     *		\param[in]			str				The string in which
+     *to search \param[in]			insensitive		\b true or \b false to
+     *enable/disablecase
      *sensitive \return				Return a vector of string with the occurences
      */
     std::vector< std::vector< std::string > > getall(const std::string& str_regex,
@@ -147,8 +148,8 @@ namespace mcd
 
     /*!
      * \brief	Replace all the accents of a string
-     *		\param[in]			str				The string in which to
-     *replace \return				Return the string without any accents
+     *		\param[in]			str				The string in which
+     *to replace \return				Return the string without any accents
      */
     std::string removeAccents(const std::string& str);
 }   // namespace mcd

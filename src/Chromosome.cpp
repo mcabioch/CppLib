@@ -15,13 +15,13 @@ namespace mcd
         Chromosome Chromosome::operator+=(const Chromosome& c1) {
             Genes gL, gR;
 
-            if (rng(0, 1)) {
+            if (rnd(0, 1)) {
                 gL = _genes1;
             } else {
                 gL = _genes2;
             }
 
-            if (rng(0, 1)) {
+            if (rnd(0, 1)) {
                 gR = c1._genes1;
             } else {
                 gR = c1._genes2;

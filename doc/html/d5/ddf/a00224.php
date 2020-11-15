@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('d5/ddf/a00224.php','../../'); initResi
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;locale&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dd5/a00215.php">RNG.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dd5/a00215.php">RND.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/df5/a00137.php">macro.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/da8/a00230.php">system.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -274,9 +274,9 @@ Classes</h2></td></tr>
 Namespaces</h2></td></tr>
 <tr class="memitem:db/d12/a00268"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/d2a/a00270"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php">mcd::this_thread</a></td></tr>
+<tr class="memitem:dd/d86/a00271"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php">mcd::this_thread</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dd/d86/a00271"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php">mcd::Check</a></td></tr>
+<tr class="memitem:d9/dd6/a00272"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php">mcd::Check</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -294,18 +294,18 @@ Typedefs</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a3a711ec2f858ee16756d8619224624ee"><td class="memTemplParams" colspan="2">template&lt;typename TimeDuration &gt; </td></tr>
-<tr class="memitem:a3a711ec2f858ee16756d8619224624ee"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#a3a711ec2f858ee16756d8619224624ee">mcd::this_thread::yield</a> () noexcept</td></tr>
+<tr class="memitem:a3a711ec2f858ee16756d8619224624ee"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php#a3a711ec2f858ee16756d8619224624ee">mcd::this_thread::yield</a> () noexcept</td></tr>
 <tr class="separator:a3a711ec2f858ee16756d8619224624ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa5ef673c6390db3486b12d03a64f8f5"><td class="memTemplParams" colspan="2">template&lt;class Rep , class Period &gt; </td></tr>
-<tr class="memitem:aaa5ef673c6390db3486b12d03a64f8f5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#aaa5ef673c6390db3486b12d03a64f8f5">mcd::this_thread::sleep_for</a> (const std::chrono::duration&lt; Rep, Period &gt; &amp;rel_time)</td></tr>
+<tr class="memitem:aaa5ef673c6390db3486b12d03a64f8f5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php#aaa5ef673c6390db3486b12d03a64f8f5">mcd::this_thread::sleep_for</a> (const std::chrono::duration&lt; Rep, Period &gt; &amp;rel_time)</td></tr>
 <tr class="separator:aaa5ef673c6390db3486b12d03a64f8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13e84a38884d860a4854bdd4a031d218"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a13e84a38884d860a4854bdd4a031d218"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php#a13e84a38884d860a4854bdd4a031d218">mcd::Check::isPrintable</a> (const T &amp;)</td></tr>
-<tr class="memdesc:a13e84a38884d860a4854bdd4a031d218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if a type has an ostream operator(&lt;&lt;)  <a href="../../dd/d86/a00271.php#a13e84a38884d860a4854bdd4a031d218">More...</a><br /></td></tr>
+<tr class="memitem:a13e84a38884d860a4854bdd4a031d218"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#a13e84a38884d860a4854bdd4a031d218">mcd::Check::isPrintable</a> (const T &amp;)</td></tr>
+<tr class="memdesc:a13e84a38884d860a4854bdd4a031d218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if a type has an ostream operator(&lt;&lt;)  <a href="../../d9/dd6/a00272.php#a13e84a38884d860a4854bdd4a031d218">More...</a><br /></td></tr>
 <tr class="separator:a13e84a38884d860a4854bdd4a031d218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php#ab0b2e96bd3f31d823dad478c5f54abf1">mcd::Check::printable</a> (const T &amp;in)</td></tr>
-<tr class="memdesc:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that say if a type has an ostream operator(&lt;&lt;)  <a href="../../dd/d86/a00271.php#ab0b2e96bd3f31d823dad478c5f54abf1">More...</a><br /></td></tr>
+<tr class="memitem:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#ab0b2e96bd3f31d823dad478c5f54abf1">mcd::Check::printable</a> (const T &amp;in)</td></tr>
+<tr class="memdesc:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that say if a type has an ostream operator(&lt;&lt;)  <a href="../../d9/dd6/a00272.php#ab0b2e96bd3f31d823dad478c5f54abf1">More...</a><br /></td></tr>
 <tr class="separator:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

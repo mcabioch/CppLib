@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -188,7 +188,7 @@ This inheritance list is sorted roughly, but not completely, alphabetically:</di
 <tr id="row_53_1_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_53_1_" class="arrow" onclick="toggleFolder('53_1_')">&#9658;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d8/dbf/a01109.php" target="_self">mcd::queue&lt; T, std::deque&lt; T &gt; &gt;</a></td><td class="desc"></td></tr>
 <tr id="row_53_1_0_" style="display:none;"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d8/ded/a01113.php" target="_self">mcd::t_queue&lt; T, Container &gt;</a></td><td class="desc">An thread-safe implementation of queue </td></tr>
 <tr id="row_54_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d9/d6e/a01409.php" target="_self">mcd::Referenced&lt; C &gt;</a></td><td class="desc">A class to have a reference to the class' pointer </td></tr>
-<tr id="row_55_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d7/d68/a01413.php" target="_self">mcd::RNG&lt; T, U &gt;</a></td><td class="desc">A class to simplify the use of random </td></tr>
+<tr id="row_55_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d7/d68/a01413.php" target="_self">mcd::RND&lt; T, U &gt;</a></td><td class="desc">A class to simplify the use of random </td></tr>
 <tr id="row_56_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d3/d07/a01241.php" target="_self">mcd::Console::SetPrecision</a></td><td class="desc">Change the precision of a std::ostream and save the default value </td></tr>
 <tr id="row_57_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_57_" class="arrow" onclick="toggleFolder('57_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><b>std::stack&lt; T &gt;</b></td><td class="desc">STL class </td></tr>
 <tr id="row_57_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="de/d99/a01101.php" target="_self">mcd::stack&lt; T, Container &gt;</a></td><td class="desc">An implementation of std::stack </td></tr>

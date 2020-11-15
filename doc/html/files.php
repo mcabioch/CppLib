@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 11:00:17 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -168,7 +168,7 @@ $(document).ready(function(){initNavTree('files.php',''); initResizable(); });
 <tr id="row_68_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d5/df1/a00206.php" target="_self">pointers.hpp</a></td><td class="desc"></td></tr>
 <tr id="row_69_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/de5/a00209.php" target="_self">PureVirtual.hpp</a></td><td class="desc"></td></tr>
 <tr id="row_70_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dd/dc1/a00212.php" target="_self">Referenced.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_71_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/dd5/a00215.php" target="_self">RNG.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_71_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d3/dd5/a00215.php" target="_self">RND.hpp</a></td><td class="desc"></td></tr>
 <tr id="row_72_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dc/d9a/a00218.php" target="_self">sorting.hpp</a></td><td class="desc"></td></tr>
 <tr id="row_73_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="dd/d52/a00221.php" target="_self">Stone.hpp</a></td><td class="desc"></td></tr>
 <tr id="row_74_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icondoc"></span><a class="el" href="d5/ddf/a00224.php" target="_self">string.hpp</a></td><td class="desc"></td></tr>

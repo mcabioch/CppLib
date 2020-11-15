@@ -1,4 +1,4 @@
-<map id="RNG.hpp" name="RNG.hpp">
+<map id="RND.hpp" name="RND.hpp">
 <area shape="rect" id="node1" title=" " alt="" coords="337,5,414,32"/>
 <area shape="rect" id="node2" href="$d5/ddf/a00224.php" title=" " alt="" coords="336,80,415,107"/>
 <area shape="rect" id="node3" href="$d9/d01/a00227.php" title="Used to replace strptime function when compiling for Windows." alt="" coords="335,155,415,181"/>

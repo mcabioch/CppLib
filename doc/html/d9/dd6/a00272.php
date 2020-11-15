@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::Console Namespace Reference</title>
+		<title>C++: mcd::Check Namespace Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,292 +93,125 @@ $(document).ready(function(){initNavTree('d9/dd6/a00272.php','../../'); initResi
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Console Namespace Reference</div>  </div>
+<div class="title">mcd::Check Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d53/a01225.php">Cls</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the console.  <a href="../../d8/d53/a01225.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/a01189.php">has_istream_operator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T has an istream operator.  <a href="../../d3/d10/a01189.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php">Color</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the text color in the console.  <a href="../../da/d19/a01217.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a01181.php">has_ostream_operator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T has an ostream operator.  <a href="../../de/db5/a01181.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/a01229.php">Cursor</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with the cursor in the console.  <a href="../../db/d1c/a01229.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d98/a01177.php">has_size_method</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if an object has a size method.  <a href="../../dc/d98/a01177.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a01221.php">Reinit</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dd/d3f/a01221.php" title="Reinit the color in the console.">Reinit</a> the color in the console.  <a href="../../dd/d3f/a01221.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d02/a01149.php">is_array</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is an array, a vector or a map.  <a href="../../d8/d02/a01149.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/a01241.php">SetPrecision</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the precision of a std::ostream and save the default value.  <a href="../../d3/d07/a01241.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0c/a01173.php">is_duration</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a chrono::duration.  <a href="../../d7/d0c/a01173.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/a01237.php">ThreadCout</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::cout thread safe.  <a href="../../dc/dab/a01237.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a01397.php">is_minded_ptr</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr.  <a href="../../d7/d1c/a01397.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/a01233.php">ThreadEndlCout</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::endl in <a class="el" href="../../dc/dab/a01237.php" title="A class to use std::cout thread safe.">ThreadCout</a>.  <a href="../../d6/da1/a01233.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df7/a01201.php">is_object</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is an unknown object.  <a href="../../de/df7/a01201.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:aed6098cb7fc6f8fdb1bb05b119c94b9e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea4648822616bc86180727464a1e6c6312">Colors::BLACK_F</a> = 30, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea6c91c7a0d965eea06426a9d94fed419f">Colors::RED_F</a> = 31, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eac9cc84994b2dc998400606f509a5f39d">Colors::GREEN_F</a> = 32, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eac1cfbf30b4d84302148c80564f09a2f7">Colors::YELLOW_F</a> = 33, 
-<br />
-&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eaaac26079ece66386f4c2cf268d474795">Colors::BLUE_F</a> = 34, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eab8176b797e421a3d45ed5a872d872591">Colors::PURPLE_F</a> = 35, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea131f0f8b48b6ef48d2d3093b20081110">Colors::CYAN_F</a> = 36, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea38ead0a9861da91e3e5aad34b7a1dbfe">Colors::GREY_F</a> = 37, 
-<br />
-&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eaa86522df36b902b8e14c670dda459f1f">Colors::LIGHT_BLACK_F</a> = 90, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea889b14723d6bc4c0ac8bb1e13480ad6e">Colors::LIGHT_RED_F</a> = 91, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea9a372d70c82fc984f7c475342784fb25">Colors::LIGHT_GREEN_F</a> = 92, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea8a64c210ea569e6832792e099c006157">Colors::LIGHT_YELLOW_F</a> = 93, 
-<br />
-&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea383a03eb7a3c8a6e508915b5abfd1f55">Colors::LIGHT_BLUE_F</a> = 94, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eaf7fa27f9a891a06e7aab7764b7c87744">Colors::LIGHT_PURPLE_F</a> = 95, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea1016baf606406c4b466ae02d7e8d249b">Colors::LIGHT_CYAN_F</a> = 96, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eaf0d423059b6f4ad707d65956c1a43402">Colors::LIGHT_GREY_F</a> = 97, 
-<br />
-&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eabfc78599c77b7eb3c037c23f1bde963a">Colors::BLACK_B</a> = 40, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea07262f1edc5408b021950dc9a12837c7">Colors::RED_B</a> = 41, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea3bfe655ef7bb19c04ebf9a5ebabe975e">Colors::GREEN_B</a> = 42, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea62a3874ee2f47d3a664fda4a63c193a3">Colors::YELLOW_B</a> = 43, 
-<br />
-&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea19995eb9ec42ffbe11647f8090e9f4fe">Colors::BLUE_B</a> = 44, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eab754547a82033c3c904e91984b530326">Colors::PURPLE_B</a> = 45, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eae0f5f8e09d8f4e0925884dd94fc3e870">Colors::CYAN_B</a> = 46, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea90bd0646259d8ab65dd352bcd1ead16e">Colors::GREY_B</a> = 47, 
-<br />
-&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eadf2fe24817131afc02153bf31759d18b">Colors::LIGHT_BLACK_B</a> = 100, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea3a29105a7f33b752d0342ec1e44023af">Colors::LIGHT_RED_B</a> = 101, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea79f2fcacd6d4451c79096ed3e460e1e9">Colors::LIGHT_GREEN_B</a> = 102, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea73f0b577c984186157b9d89348faf4f3">Colors::LIGHT_YELLOW_B</a> = 103, 
-<br />
-&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea77891b4842905f3aa098fae908dd5db9">Colors::LIGHT_BLUE_B</a> = 104, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea10435c0f4e6c9f1df07383e39da2064e">Colors::LIGHT_PURPLE_B</a> = 105, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea1d4b785bf14640105bb7b6e45d1d5528">Colors::LIGHT_CYAN_B</a> = 106, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eaa548ce608701dcb3a6b2146e2e6b7f73">Colors::LIGHT_GREY_B</a> = 107, 
-<br />
-&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea1e23852820b9154316c7c06e2b7ba051">Colors::NORMAL</a> = 0, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea2909dd0e0336f10b6da9735b859a3d19">Colors::BOLD</a> = 1, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea8160fba05a5a291372a94bc22b55f62b">Colors::SHADOW</a> = 2, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea25093123b8943308104129e1d762f3b7">Colors::ITALIC</a> = 3, 
-<br />
-&#160;&#160;<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea0086c73c90c261db630b4dc8aea09bcf">Colors::UNDERLINE</a> = 4, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9eaa2727ae72447eea06d4cc0ef67187280">Colors::INVERT</a> = 7, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea1e50e487f8672658546e3609404b53df">Colors::HIDE</a> = 8, 
-<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9ea04dd53a8e6c2306e9bbf944c1d6047f2">Colors::CROSS</a> = 9
-<br />
- }</td></tr>
-<tr class="memdesc:aed6098cb7fc6f8fdb1bb05b119c94b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colors list.  <a href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">More...</a><br /></td></tr>
-<tr class="separator:aed6098cb7fc6f8fdb1bb05b119c94b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a01153.php">is_pair</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::pair.  <a href="../../dc/d06/a01153.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d10/a01197.php">is_printable</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is printable.  <a href="../../d4/d10/a01197.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d81/a01161.php">is_quatuor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::pair.  <a href="../../dc/d81/a01161.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daf/a01169.php">is_smatch</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a string regex match.  <a href="../../d7/daf/a01169.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d61/a01205.php">is_special_struct</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a special struct.  <a href="../../de/d61/a01205.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d92/a01165.php">is_string</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::string.  <a href="../../d8/d92/a01165.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df4/a01401.php">is_thread_ptr</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::shared_ptr&lt;thread&gt;, a std::unique_ptr&lt;thread&gt;, a std::weak_ptr&lt;thread&gt; or a thread*.  <a href="../../dc/df4/a01401.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/a01157.php">is_trio</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a std::pair.  <a href="../../d9/d25/a01157.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d65/a01145.php">is_vector</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a vector.  <a href="../../d9/d65/a01145.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a45ee529c25adecff1046978f105c7a0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#a45ee529c25adecff1046978f105c7a0b">printLine</a> (std::string caract, size_t size, std::ostream &amp;os=std::cout)</td></tr>
-<tr class="memdesc:a45ee529c25adecff1046978f105c7a0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write on os a line with the number of caract set in size.  <a href="../../d9/dd6/a00272.php#a45ee529c25adecff1046978f105c7a0b">More...</a><br /></td></tr>
-<tr class="separator:a45ee529c25adecff1046978f105c7a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a17e973621e86d36834182028f6c350c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/dab/a01237.php">ThreadCout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#a17e973621e86d36834182028f6c350c7">cout</a></td></tr>
-<tr class="memdesc:a17e973621e86d36834182028f6c350c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The thread safe version of std::cout.  <a href="../../d9/dd6/a00272.php#a17e973621e86d36834182028f6c350c7">More...</a><br /></td></tr>
-<tr class="separator:a17e973621e86d36834182028f6c350c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d875ddb758ffe29f3df92250eae253d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/da1/a01233.php">ThreadEndlCout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#a7d875ddb758ffe29f3df92250eae253d">endl</a></td></tr>
-<tr class="memdesc:a7d875ddb758ffe29f3df92250eae253d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The thread safe version of std::endl.  <a href="../../d9/dd6/a00272.php#a7d875ddb758ffe29f3df92250eae253d">More...</a><br /></td></tr>
-<tr class="separator:a7d875ddb758ffe29f3df92250eae253d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a061e9af30fc21986d960ab612d86f8d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d07/a01241.php">SetPrecision</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#a061e9af30fc21986d960ab612d86f8d6">setprecision</a></td></tr>
-<tr class="separator:a061e9af30fc21986d960ab612d86f8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13e84a38884d860a4854bdd4a031d218"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a13e84a38884d860a4854bdd4a031d218"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#a13e84a38884d860a4854bdd4a031d218">isPrintable</a> (const T &amp;)</td></tr>
+<tr class="memdesc:a13e84a38884d860a4854bdd4a031d218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if a type has an ostream operator(&lt;&lt;)  <a href="../../d9/dd6/a00272.php#a13e84a38884d860a4854bdd4a031d218">More...</a><br /></td></tr>
+<tr class="separator:a13e84a38884d860a4854bdd4a031d218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#ab0b2e96bd3f31d823dad478c5f54abf1">printable</a> (const T &amp;in)</td></tr>
+<tr class="memdesc:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that say if a type has an ostream operator(&lt;&lt;)  <a href="../../d9/dd6/a00272.php#ab0b2e96bd3f31d823dad478c5f54abf1">More...</a><br /></td></tr>
+<tr class="separator:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="aed6098cb7fc6f8fdb1bb05b119c94b9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed6098cb7fc6f8fdb1bb05b119c94b9e">&#9670;&nbsp;</a></span>Colors</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">mcd::Console::Colors</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Colors list. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea4648822616bc86180727464a1e6c6312"></a>BLACK_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea6c91c7a0d965eea06426a9d94fed419f"></a>RED_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9eac9cc84994b2dc998400606f509a5f39d"></a>GREEN_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9eac1cfbf30b4d84302148c80564f09a2f7"></a>YELLOW_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9eaaac26079ece66386f4c2cf268d474795"></a>BLUE_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9eab8176b797e421a3d45ed5a872d872591"></a>PURPLE_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea131f0f8b48b6ef48d2d3093b20081110"></a>CYAN_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea38ead0a9861da91e3e5aad34b7a1dbfe"></a>GREY_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9eaa86522df36b902b8e14c670dda459f1f"></a>LIGHT_BLACK_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea889b14723d6bc4c0ac8bb1e13480ad6e"></a>LIGHT_RED_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea9a372d70c82fc984f7c475342784fb25"></a>LIGHT_GREEN_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea8a64c210ea569e6832792e099c006157"></a>LIGHT_YELLOW_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea383a03eb7a3c8a6e508915b5abfd1f55"></a>LIGHT_BLUE_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9eaf7fa27f9a891a06e7aab7764b7c87744"></a>LIGHT_PURPLE_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea1016baf606406c4b466ae02d7e8d249b"></a>LIGHT_CYAN_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9eaf0d423059b6f4ad707d65956c1a43402"></a>LIGHT_GREY_F&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9eabfc78599c77b7eb3c037c23f1bde963a"></a>BLACK_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea07262f1edc5408b021950dc9a12837c7"></a>RED_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea3bfe655ef7bb19c04ebf9a5ebabe975e"></a>GREEN_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea62a3874ee2f47d3a664fda4a63c193a3"></a>YELLOW_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea19995eb9ec42ffbe11647f8090e9f4fe"></a>BLUE_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9eab754547a82033c3c904e91984b530326"></a>PURPLE_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9eae0f5f8e09d8f4e0925884dd94fc3e870"></a>CYAN_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea90bd0646259d8ab65dd352bcd1ead16e"></a>GREY_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9eadf2fe24817131afc02153bf31759d18b"></a>LIGHT_BLACK_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea3a29105a7f33b752d0342ec1e44023af"></a>LIGHT_RED_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea79f2fcacd6d4451c79096ed3e460e1e9"></a>LIGHT_GREEN_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea73f0b577c984186157b9d89348faf4f3"></a>LIGHT_YELLOW_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea77891b4842905f3aa098fae908dd5db9"></a>LIGHT_BLUE_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea10435c0f4e6c9f1df07383e39da2064e"></a>LIGHT_PURPLE_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea1d4b785bf14640105bb7b6e45d1d5528"></a>LIGHT_CYAN_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9eaa548ce608701dcb3a6b2146e2e6b7f73"></a>LIGHT_GREY_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea1e23852820b9154316c7c06e2b7ba051"></a>NORMAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea2909dd0e0336f10b6da9735b859a3d19"></a>BOLD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea8160fba05a5a291372a94bc22b55f62b"></a>SHADOW&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea25093123b8943308104129e1d762f3b7"></a>ITALIC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea0086c73c90c261db630b4dc8aea09bcf"></a>UNDERLINE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9eaa2727ae72447eea06d4cc0ef67187280"></a>INVERT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea1e50e487f8672658546e3609404b53df"></a>HIDE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aed6098cb7fc6f8fdb1bb05b119c94b9ea04dd53a8e6c2306e9bbf944c1d6047f2"></a>CROSS&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a45ee529c25adecff1046978f105c7a0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45ee529c25adecff1046978f105c7a0b">&#9670;&nbsp;</a></span>printLine()</h2>
+<a id="a13e84a38884d860a4854bdd4a031d218"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13e84a38884d860a4854bdd4a031d218">&#9670;&nbsp;</a></span>isPrintable()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void mcd::Console::printLine </td>
+          <td class="memname">bool mcd::Check::isPrintable </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>caract</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em> = <code>std::cout</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Write on os a line with the number of caract set in size. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">caract</td><td>The string to print to do the line </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>The times to print caract </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">os</td><td>The output stream where to write the line, defualt is std::cout </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Return true if a type has an ostream operator(&lt;&lt;) </p>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a17e973621e86d36834182028f6c350c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17e973621e86d36834182028f6c350c7">&#9670;&nbsp;</a></span>cout</h2>
+<a id="ab0b2e96bd3f31d823dad478c5f54abf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0b2e96bd3f31d823dad478c5f54abf1">&#9670;&nbsp;</a></span>printable()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/dab/a01237.php">ThreadCout</a> mcd::Console::cout</td>
+          <td class="memname">void mcd::Check::printable </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>The thread safe version of std::cout. </p>
-
+<p>A function that say if a type has an ostream operator(&lt;&lt;) </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/dd6/a00272_ab0b2e96bd3f31d823dad478c5f54abf1_cgraph.png" border="0" usemap="#ad9/dd6/a00272_ab0b2e96bd3f31d823dad478c5f54abf1_cgraph" alt=""/></div>
+<map name="d9/dd6/a00272_ab0b2e96bd3f31d823dad478c5f54abf1_cgraph" id="d9/dd6/a00272_ab0b2e96bd3f31d823dad478c5f54abf1_cgraph">
+<area shape="rect" title="A function that say if a type has an ostream operator(&lt;&lt;)" alt="" coords="5,5,156,32"/>
+<area shape="rect" href="../../d9/dd6/a00272.php#a13e84a38884d860a4854bdd4a031d218" title="Return true if a type has an ostream operator(&lt;&lt;)" alt="" coords="204,5,367,32"/>
+</map>
 </div>
-</div>
-<a id="a7d875ddb758ffe29f3df92250eae253d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d875ddb758ffe29f3df92250eae253d">&#9670;&nbsp;</a></span>endl</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/da1/a01233.php">ThreadEndlCout</a> mcd::Console::endl</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The thread safe version of std::endl. </p>
-
-</div>
-</div>
-<a id="a061e9af30fc21986d960ab612d86f8d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a061e9af30fc21986d960ab612d86f8d6">&#9670;&nbsp;</a></span>setprecision</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/d07/a01241.php">SetPrecision</a> mcd::Console::setprecision</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -388,7 +221,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">Console</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">Check</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

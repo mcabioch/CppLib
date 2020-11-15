@@ -4,7 +4,6 @@
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:61: warning: Found unknown command '\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:51: warning: Found unknown command '\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/files.hpp:23: warning: documented empty return type of mcd::fileFormat
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:51: warning: documented empty return type of mcd::print_r
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/types.hpp:158: warning: documented empty return type of mcd::printType
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/string.hpp:60: warning: documented empty return type of mcd::trim
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:144: warning: documented empty return type of mcd::Animal::anyObstacle
@@ -97,6 +96,11 @@
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:222: warning: documented empty return type of mcd::Tree::create
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:176: warning: documented empty return type of mcd::Tree::insert
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Vegetal.hpp:46: warning: documented empty return type of mcd::Vegetal::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:53: warning: documented empty return type of mcd::Console::print_r
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:364: warning: documented empty return type of mcd::Console::vector2DPrint
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:384: warning: The following parameter of mcd::Console::vector2DPrintInverted(const vector< vector< T > > values, int autosize=0, std::ostream &os=std::cout, int shift=0) is not documented:
+  parameter 'shift'
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:384: warning: documented empty return type of mcd::Console::vector2DPrintInverted
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:118: warning: documented empty return type of mcd::Console::Color::addColors
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:128: warning: documented empty return type of mcd::Console::Color::addColors
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:96: warning: documented empty return type of mcd::Console::Color::addColors

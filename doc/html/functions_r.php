@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -135,8 +135,8 @@ $(document).ready(function(){initNavTree('functions_r.php',''); initResizable();
 : <a class="el" href="db/d12/a00268.php#a47bcfc49a031b3ddb4d563978c2500c6">mcd::Node&lt; T &gt;</a>
 , <a class="el" href="d9/dae/a01453.php#a613a9be49ee0cbe55e10e75db1d59faa">mcd::Point</a>
 </li>
-<li>RNG()
-: <a class="el" href="d7/d68/a01413.php#ada6783e2f83f41b11d72687c90c29ead">mcd::RNG&lt; T, U &gt;</a>
+<li>RND()
+: <a class="el" href="d7/d68/a01413.php#a9d494692c2cb71271b80547507e5ec7f">mcd::RND&lt; T, U &gt;</a>
 </li>
 <li>RSA()
 : <a class="el" href="d6/d16/a01269.php#a022907735103df44ce25774a289cede1">mcd::RSA</a>

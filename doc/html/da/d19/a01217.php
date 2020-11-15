@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Nov 13 2020 12:37:29 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -123,7 +123,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad276e26fc3ba34d385cbe4fbc12aef6c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#ad276e26fc3ba34d385cbe4fbc12aef6c">~Color</a> ()</td></tr>
 <tr class="separator:ad276e26fc3ba34d385cbe4fbc12aef6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf5fdca03c376b0dd118194c77cf3ca0"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:adf5fdca03c376b0dd118194c77cf3ca0"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#adf5fdca03c376b0dd118194c77cf3ca0">Color</a> (<a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> color, Args... args)</td></tr>
+<tr class="memitem:adf5fdca03c376b0dd118194c77cf3ca0"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#adf5fdca03c376b0dd118194c77cf3ca0">Color</a> (<a class="el" href="../../d5/d42/a00269.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> color, Args... args)</td></tr>
 <tr class="memdesc:adf5fdca03c376b0dd118194c77cf3ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../da/d19/a01217.php" title="Change the text color in the console.">Color</a> object with colors.  <a href="../../da/d19/a01217.php#adf5fdca03c376b0dd118194c77cf3ca0">More...</a><br /></td></tr>
 <tr class="separator:adf5fdca03c376b0dd118194c77cf3ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23ae64b87c3d76f8c4910443b4e63f53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#a23ae64b87c3d76f8c4910443b4e63f53">addColors</a> (int color)</td></tr>
@@ -133,11 +133,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7faff8f12e3d4bd9ec63422f4716cde8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#a7faff8f12e3d4bd9ec63422f4716cde8">addColors</a> (int color, Args... args)</td></tr>
 <tr class="memdesc:a7faff8f12e3d4bd9ec63422f4716cde8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="../../da/d19/a01217.php#a7faff8f12e3d4bd9ec63422f4716cde8">More...</a><br /></td></tr>
 <tr class="separator:a7faff8f12e3d4bd9ec63422f4716cde8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab16c17203be13b1462b08c5d74f074ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#ab16c17203be13b1462b08c5d74f074ad">addColors</a> (const <a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> &amp;color)</td></tr>
+<tr class="memitem:ab16c17203be13b1462b08c5d74f074ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#ab16c17203be13b1462b08c5d74f074ad">addColors</a> (const <a class="el" href="../../d5/d42/a00269.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> &amp;color)</td></tr>
 <tr class="memdesc:ab16c17203be13b1462b08c5d74f074ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="../../da/d19/a01217.php#ab16c17203be13b1462b08c5d74f074ad">More...</a><br /></td></tr>
 <tr class="separator:ab16c17203be13b1462b08c5d74f074ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f851c02a93ea3be04f5fcc50538114a"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:a2f851c02a93ea3be04f5fcc50538114a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#a2f851c02a93ea3be04f5fcc50538114a">addColors</a> (const <a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> &amp;color, Args... args)</td></tr>
+<tr class="memitem:a2f851c02a93ea3be04f5fcc50538114a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d19/a01217.php#a2f851c02a93ea3be04f5fcc50538114a">addColors</a> (const <a class="el" href="../../d5/d42/a00269.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> &amp;color, Args... args)</td></tr>
 <tr class="memdesc:a2f851c02a93ea3be04f5fcc50538114a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="../../da/d19/a01217.php#a2f851c02a93ea3be04f5fcc50538114a">More...</a><br /></td></tr>
 <tr class="separator:a2f851c02a93ea3be04f5fcc50538114a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -219,7 +219,7 @@ template&lt;class... Args&gt; </div>
         <tr>
           <td class="memname">mcd::Console::Color::Color </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d5/d42/a00269.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a>&#160;</td>
           <td class="paramname"><em>color</em>, </td>
         </tr>
         <tr>
@@ -268,7 +268,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void mcd::Console::Color::addColors </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d5/d42/a00269.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> &amp;&#160;</td>
           <td class="paramname"><em>color</em></td><td>)</td>
           <td></td>
         </tr>
@@ -314,7 +314,7 @@ template&lt;class... Args&gt; </div>
         <tr>
           <td class="memname">void mcd::Console::Color::addColors </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d9/dd6/a00272.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d5/d42/a00269.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">Colors</a> &amp;&#160;</td>
           <td class="paramname"><em>color</em>, </td>
         </tr>
         <tr>
@@ -530,7 +530,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">Console</a></li><li class="navelem"><a class="el" href="../../da/d19/a01217.php">Color</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/d42/a00269.php">Console</a></li><li class="navelem"><a class="el" href="../../da/d19/a01217.php">Color</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

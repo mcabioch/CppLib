@@ -31,7 +31,7 @@ namespace mcd
             if (MutationRate > 0) {
                 switch (_type) {
                     case GeneType::BOOL:
-                        if (!rng(0, MutationRate - 1)) {
+                        if (!rnd(0, MutationRate - 1)) {
                             if (_value == 0) {
                                 value = 1;
                             } else {
@@ -40,13 +40,13 @@ namespace mcd
                         }
                         break;
                     case GeneType::INT:
-                        if (!rng(0, MutationRate - 1)) {
-                            double dix = rng(0, 1);
+                        if (!rnd(0, MutationRate - 1)) {
+                            double dix = rnd(0, 1);
 
                             dix = pow(10, dix);
-                            dix *= rng(1, 9);
+                            dix *= rnd(1, 9);
 
-                            if (rng(0, 1)) {
+                            if (rnd(0, 1)) {
                                 value = _value + dix;
                             } else {
                                 value = _value - dix;
@@ -55,14 +55,14 @@ namespace mcd
                         break;
                     case GeneType::RANGED_FLOAT:
                     case GeneType::FLOAT:
-                        if (!rng(0, MutationRate - 1)) {
-                            double dix = rng(0, 2);
+                        if (!rnd(0, MutationRate - 1)) {
+                            double dix = rnd(0, 2);
 
                             dix = pow(10, dix);
-                            dix *= rng(1, 9);
-                            dix /= static_cast< double >(pow(10, rng(2, FloatAccuracy)));
+                            dix *= rnd(1, 9);
+                            dix /= static_cast< double >(pow(10, rnd(2, FloatAccuracy)));
 
-                            if (rng(0, 1)) {
+                            if (rnd(0, 1)) {
                                 value = _value + dix;
                             } else {
                                 value = _value - dix;
@@ -75,11 +75,11 @@ namespace mcd
                         }
                         break;
                     case GeneType::RANGED_INT:
-                        if (!rng(0, MutationRate - 1)) {
+                        if (!rnd(0, MutationRate - 1)) {
                             double quantity =
-                                rng(static_cast< int >(_minimum), static_cast< int >(_maximum));
+                                rnd(static_cast< int >(_minimum), static_cast< int >(_maximum));
 
-                            if (rng(0, 1)) {
+                            if (rnd(0, 1)) {
                                 value = _value + quantity;
                             } else {
                                 value = _value - quantity;
@@ -90,9 +90,9 @@ namespace mcd
                         }
                         break;
                     case GeneType::LISTED:
-                        if (!rng(0, MutationRate - 1)) {
+                        if (!rnd(0, MutationRate - 1)) {
                             size_t index =
-                                static_cast< size_t >(rng(0, static_cast< int >(_list.size()) - 1));
+                                static_cast< size_t >(rnd(0, static_cast< int >(_list.size()) - 1));
                             value = _list.at(index);
                         }
                         break;

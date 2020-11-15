@@ -112,7 +112,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "mcd::Referenced< C >", "d9/d6e/a01409.php", null ],
-    [ "mcd::RNG< T, U >", "d7/d68/a01413.php", null ],
+    [ "mcd::RND< T, U >", "d7/d68/a01413.php", null ],
     [ "mcd::Console::SetPrecision", "d3/d07/a01241.php", null ],
     [ "std::stack< T >", null, [
       [ "mcd::stack< T, Container >", "de/d99/a01101.php", null ],
