@@ -95,6 +95,14 @@
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:162: warning: documented empty return type of mcd::Tree::applyForEach
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:222: warning: documented empty return type of mcd::Tree::create
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:176: warning: documented empty return type of mcd::Tree::insert
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/vector.hpp:174: warning: argument 'in' of command @param is not found in the argument list of mcd::vector< C >::operator<<(std::ostream &os, const vector &other)
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/vector.hpp:174: warning: argument 'out' of command @param is not found in the argument list of mcd::vector< C >::operator<<(std::ostream &os, const vector &other)
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/vector.hpp:180: warning: The following parameter of mcd::vector::operator<<(std::ostream &os, const vector &other) is not documented:
+  parameter 'os'
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/vector.hpp:187: warning: argument 'in' of command @param is not found in the argument list of mcd::vector< C >::operator>>(std::istream &is, vector &other)
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/vector.hpp:187: warning: argument 'out' of command @param is not found in the argument list of mcd::vector< C >::operator>>(std::istream &is, vector &other)
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/vector.hpp:193: warning: The following parameter of mcd::vector::operator>>(std::istream &is, vector &other) is not documented:
+  parameter 'is'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Vegetal.hpp:46: warning: documented empty return type of mcd::Vegetal::printInfos
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:53: warning: documented empty return type of mcd::console::print_r
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:364: warning: documented empty return type of mcd::console::vector2DPrint

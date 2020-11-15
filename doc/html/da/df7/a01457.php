@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.1.1</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -137,23 +137,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a41342ef4979ab35b4daecfd7ad8c837f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a41342ef4979ab35b4daecfd7ad8c837f">operator=</a> (const std::vector&lt; C &gt; &amp;v)</td></tr>
 <tr class="separator:a41342ef4979ab35b4daecfd7ad8c837f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ac9b9f19baf217c291e37a190b3e68c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a0ac9b9f19baf217c291e37a190b3e68c">operator+=</a> (const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;b)</td></tr>
+<tr class="memdesc:a0ac9b9f19baf217c291e37a190b3e68c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the += operator to add the content of a vector into another.  <a href="../../da/df7/a01457.php#a0ac9b9f19baf217c291e37a190b3e68c">More...</a><br /></td></tr>
 <tr class="separator:a0ac9b9f19baf217c291e37a190b3e68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78502b560831d092c0eaaca67e79d4f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a78502b560831d092c0eaaca67e79d4f4">operator-=</a> (const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;b)</td></tr>
+<tr class="memdesc:a78502b560831d092c0eaaca67e79d4f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the -= operator to erase in a vector the values of another one.  <a href="../../da/df7/a01457.php#a78502b560831d092c0eaaca67e79d4f4">More...</a><br /></td></tr>
 <tr class="separator:a78502b560831d092c0eaaca67e79d4f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acef3e5f0cf617a16de3d05045f6a21ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#acef3e5f0cf617a16de3d05045f6a21ed">operator&amp;=</a> (const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;b)</td></tr>
+<tr class="memdesc:acef3e5f0cf617a16de3d05045f6a21ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the &amp;= operator to get the values that are in the two vectors.  <a href="../../da/df7/a01457.php#acef3e5f0cf617a16de3d05045f6a21ed">More...</a><br /></td></tr>
 <tr class="separator:acef3e5f0cf617a16de3d05045f6a21ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf021f04fbc720705d300f638b8f2de1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#acf021f04fbc720705d300f638b8f2de1">operator|=</a> (const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;b)</td></tr>
+<tr class="memdesc:acf021f04fbc720705d300f638b8f2de1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the |= operator to get only the values that are in one of the vector but not in twice.  <a href="../../da/df7/a01457.php#acf021f04fbc720705d300f638b8f2de1">More...</a><br /></td></tr>
 <tr class="separator:acf021f04fbc720705d300f638b8f2de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bccad40e32efad3b685320434e65201"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a5bccad40e32efad3b685320434e65201">operator^=</a> (const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;b)</td></tr>
+<tr class="memdesc:a5bccad40e32efad3b685320434e65201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the ^= operator to add the values of another vector without doubling them.  <a href="../../da/df7/a01457.php#a5bccad40e32efad3b685320434e65201">More...</a><br /></td></tr>
 <tr class="separator:a5bccad40e32efad3b685320434e65201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58c2e9df00704c786bfcfcca5a383a0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a58c2e9df00704c786bfcfcca5a383a0e">pop</a> (size_t pos=0)</td></tr>
-<tr class="memdesc:a58c2e9df00704c786bfcfcca5a383a0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase an element from a vector on the position pos.  <a href="../../da/df7/a01457.php#a58c2e9df00704c786bfcfcca5a383a0e">More...</a><br /></td></tr>
+<tr class="memdesc:a58c2e9df00704c786bfcfcca5a383a0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase an element in a vector at pos.  <a href="../../da/df7/a01457.php#a58c2e9df00704c786bfcfcca5a383a0e">More...</a><br /></td></tr>
 <tr class="separator:a58c2e9df00704c786bfcfcca5a383a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb5d16922f908bf0ae4422d89c728e90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#abb5d16922f908bf0ae4422d89c728e90">push</a> (const C &amp;obj, size_t pos=0)</td></tr>
-<tr class="memdesc:abb5d16922f908bf0ae4422d89c728e90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an element from a vector on the position pos.  <a href="../../da/df7/a01457.php#abb5d16922f908bf0ae4422d89c728e90">More...</a><br /></td></tr>
+<tr class="memdesc:abb5d16922f908bf0ae4422d89c728e90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an element in a vector at pos.  <a href="../../da/df7/a01457.php#abb5d16922f908bf0ae4422d89c728e90">More...</a><br /></td></tr>
 <tr class="separator:abb5d16922f908bf0ae4422d89c728e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83393673767b1c3cde0242f7147effbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a83393673767b1c3cde0242f7147effbc">push_top</a> (const C &amp;obj)</td></tr>
-<tr class="memdesc:a83393673767b1c3cde0242f7147effbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an element from a vector on the top position.  <a href="../../da/df7/a01457.php#a83393673767b1c3cde0242f7147effbc">More...</a><br /></td></tr>
+<tr class="memdesc:a83393673767b1c3cde0242f7147effbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an element in a vector on the top.  <a href="../../da/df7/a01457.php#a83393673767b1c3cde0242f7147effbc">More...</a><br /></td></tr>
 <tr class="separator:a83393673767b1c3cde0242f7147effbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43a974122831853dd91af1da065a7c39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a43a974122831853dd91af1da065a7c39">shuffle</a> ()</td></tr>
 <tr class="memdesc:a43a974122831853dd91af1da065a7c39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use the std::random_shuffle function to shuffle the vector.  <a href="../../da/df7/a01457.php#a43a974122831853dd91af1da065a7c39">More...</a><br /></td></tr>
@@ -162,18 +167,25 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:a8f261f2319c479f4e714b269bbbbdfa9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a8f261f2319c479f4e714b269bbbbdfa9">operator+</a> (const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;a, const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;b)</td></tr>
+<tr class="memdesc:a8f261f2319c479f4e714b269bbbbdfa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the + operator to add the content of a vector into another.  <a href="../../da/df7/a01457.php#a8f261f2319c479f4e714b269bbbbdfa9">More...</a><br /></td></tr>
 <tr class="separator:a8f261f2319c479f4e714b269bbbbdfa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee068ab7887e20606e98299c3671c34a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#aee068ab7887e20606e98299c3671c34a">operator-</a> (const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;a, const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;b)</td></tr>
+<tr class="memdesc:aee068ab7887e20606e98299c3671c34a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the - operator to erase in a vector the values of another one.  <a href="../../da/df7/a01457.php#aee068ab7887e20606e98299c3671c34a">More...</a><br /></td></tr>
 <tr class="separator:aee068ab7887e20606e98299c3671c34a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1552117c5c07498294173619e4ca5836"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a1552117c5c07498294173619e4ca5836">operator&amp;</a> (const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;a, const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;b)</td></tr>
+<tr class="memdesc:a1552117c5c07498294173619e4ca5836"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the &amp; operator to get the values that are in the two vectors.  <a href="../../da/df7/a01457.php#a1552117c5c07498294173619e4ca5836">More...</a><br /></td></tr>
 <tr class="separator:a1552117c5c07498294173619e4ca5836"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1db1d552fd452960ac62c3d796c0649a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a1db1d552fd452960ac62c3d796c0649a">operator|</a> (const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;a, const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;b)</td></tr>
+<tr class="memdesc:a1db1d552fd452960ac62c3d796c0649a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the | operator to get only the values that are in one of the vector but not in twice.  <a href="../../da/df7/a01457.php#a1db1d552fd452960ac62c3d796c0649a">More...</a><br /></td></tr>
 <tr class="separator:a1db1d552fd452960ac62c3d796c0649a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af87e40dfdbf6844cacdd3fc5873018b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#af87e40dfdbf6844cacdd3fc5873018b0">operator^</a> (const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;a, const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;b)</td></tr>
+<tr class="memdesc:af87e40dfdbf6844cacdd3fc5873018b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the ^ operator to add the values of another vector without doubling.  <a href="../../da/df7/a01457.php#af87e40dfdbf6844cacdd3fc5873018b0">More...</a><br /></td></tr>
 <tr class="separator:af87e40dfdbf6844cacdd3fc5873018b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a809579a337d6d0419a28bff79eb2597b"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a809579a337d6d0419a28bff79eb2597b">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../da/df7/a01457.php">vector</a> &amp;other)</td></tr>
+<tr class="memdesc:a809579a337d6d0419a28bff79eb2597b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the &lt;&lt; operator to write a vector in an output stream (std::ostream)  <a href="../../da/df7/a01457.php#a809579a337d6d0419a28bff79eb2597b">More...</a><br /></td></tr>
 <tr class="separator:a809579a337d6d0419a28bff79eb2597b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b06b20625099b2c7cdd5ac2c7290558"><td class="memItemLeft" align="right" valign="top">std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a3b06b20625099b2c7cdd5ac2c7290558">operator&gt;&gt;</a> (std::istream &amp;is, <a class="el" href="../../da/df7/a01457.php">vector</a> &amp;other)</td></tr>
+<tr class="memdesc:a3b06b20625099b2c7cdd5ac2c7290558"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the &gt;&gt; operator to read a vector from an input stream (std::istream)  <a href="../../da/df7/a01457.php#a3b06b20625099b2c7cdd5ac2c7290558">More...</a><br /></td></tr>
 <tr class="separator:a3b06b20625099b2c7cdd5ac2c7290558"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -292,6 +304,15 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Overload of the &amp;= operator to get the values that are in the two vectors. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The second vector to use in the computation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the computed vector </dd></dl>
+
 </div>
 </div>
 <a id="a0ac9b9f19baf217c291e37a190b3e68c"></a>
@@ -320,6 +341,15 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Overload of the += operator to add the content of a vector into another. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The second vector to use in the computation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the computed vector </dd></dl>
+
 </div>
 </div>
 <a id="a78502b560831d092c0eaaca67e79d4f4"></a>
@@ -347,6 +377,15 @@ template&lt;class C &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Overload of the -= operator to erase in a vector the values of another one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The second vector to use in the computation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the computed vector </dd></dl>
 
 </div>
 </div>
@@ -432,6 +471,15 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Overload of the ^= operator to add the values of another vector without doubling them. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The second vector to use in the computation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the computed vector </dd></dl>
+
 </div>
 </div>
 <a id="acf021f04fbc720705d300f638b8f2de1"></a>
@@ -459,6 +507,15 @@ template&lt;class C &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Overload of the |= operator to get only the values that are in one of the vector but not in twice. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The second vector to use in the computation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the computed vector </dd></dl>
 
 </div>
 </div>
@@ -488,7 +545,7 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Erase an element from a vector on the position pos. </p>
+<p>Erase an element in a vector at pos. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>The position to erase </td></tr>
@@ -534,7 +591,7 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Add an element from a vector on the position pos. </p>
+<p>Add an element in a vector at pos. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The object to add </td></tr>
@@ -571,7 +628,7 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Add an element from a vector on the top position. </p>
+<p>Add an element in a vector on the top. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The object to add </td></tr>
@@ -583,8 +640,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/df7/a01457_a83393673767b1c3cde0242f7147effbc_cgraph.png" border="0" usemap="#ada/df7/a01457_a83393673767b1c3cde0242f7147effbc_cgraph" alt=""/></div>
 <map name="da/df7/a01457_a83393673767b1c3cde0242f7147effbc_cgraph" id="da/df7/a01457_a83393673767b1c3cde0242f7147effbc_cgraph">
-<area shape="rect" title="Add an element from a vector on the top position." alt="" coords="5,5,157,32"/>
-<area shape="rect" href="../../da/df7/a01457.php#abb5d16922f908bf0ae4422d89c728e90" title="Add an element from a vector on the position pos." alt="" coords="205,5,332,32"/>
+<area shape="rect" title="Add an element in a vector on the top." alt="" coords="5,5,157,32"/>
+<area shape="rect" href="../../da/df7/a01457.php#abb5d16922f908bf0ae4422d89c728e90" title="Add an element in a vector at pos." alt="" coords="205,5,332,32"/>
 </map>
 </div>
 
@@ -656,6 +713,16 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Overload of the &amp; operator to get the values that are in the two vectors. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The first vector to use in the computation </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The second vector to use in the computation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the computed vector </dd></dl>
+
 </div>
 </div>
 <a id="a8f261f2319c479f4e714b269bbbbdfa9"></a>
@@ -693,6 +760,16 @@ template&lt;class C &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Overload of the + operator to add the content of a vector into another. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The first vector to use in the computation </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The second vector to use in the computation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the computed vector </dd></dl>
 
 </div>
 </div>
@@ -732,6 +809,16 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Overload of the - operator to erase in a vector the values of another one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The first vector to use in the computation </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The second vector to use in the computation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the computed vector </dd></dl>
+
 </div>
 </div>
 <a id="a809579a337d6d0419a28bff79eb2597b"></a>
@@ -769,6 +856,16 @@ template&lt;class C &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Overload of the &lt;&lt; operator to write a vector in an output stream (std::ostream) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">[in|out]</td><td>os The output stream variable </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The vector to write </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a reference to the std::ostream variable </dd></dl>
 
 </div>
 </div>
@@ -808,6 +905,16 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Overload of the &gt;&gt; operator to read a vector from an input stream (std::istream) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">[in|out]</td><td>is The input stream variable </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">other</td><td>The vector to write in </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a reference to the std::istream variable </dd></dl>
+
 </div>
 </div>
 <a id="af87e40dfdbf6844cacdd3fc5873018b0"></a>
@@ -846,6 +953,16 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Overload of the ^ operator to add the values of another vector without doubling. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The first vector to use in the computation </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The second vector to use in the computation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the computed vector </dd></dl>
+
 </div>
 </div>
 <a id="a1db1d552fd452960ac62c3d796c0649a"></a>
@@ -883,6 +1000,16 @@ template&lt;class C &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Overload of the | operator to get only the values that are in one of the vector but not in twice. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The first vector to use in the computation </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The second vector to use in the computation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the computed vector </dd></dl>
 
 </div>
 </div>
