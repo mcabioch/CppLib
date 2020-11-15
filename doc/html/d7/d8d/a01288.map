@@ -1,8 +1,6 @@
 <map id="mcd::exception" name="mcd::exception">
-<area shape="rect" id="node1" title="A class to call custom exceptions." alt="" coords="157,81,268,108"/>
-<area shape="rect" id="node3" href="$d6/dc4/a01125.php" title="An exception thrown by my assert&#39;s implementation." alt="" coords="321,5,489,32"/>
-<area shape="rect" id="node4" href="$df/db8/a01317.php" title="A class to throw Json exceptions." alt="" coords="335,56,476,83"/>
-<area shape="rect" id="node5" href="$de/da0/a01341.php" title="A class to throw some exceptions for a Matrix instance." alt="" coords="331,107,480,133"/>
-<area shape="rect" id="node6" href="$d3/dea/a01377.php" title="All exceptions that could be thrown by the pathfinding algorithm." alt="" coords="316,157,495,184"/>
-<area shape="rect" id="node2" title="STL class." alt="" coords="5,81,109,108"/>
+<area shape="rect" id="node1" title="A class to call custom exceptions." alt="" coords="42,185,153,212"/>
+<area shape="rect" id="node2" title="STL class." alt="" coords="5,96,109,123"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="133,96,213,123"/>
+<area shape="rect" id="node4" title="STL class." alt="" coords="110,5,237,47"/>
 </map>

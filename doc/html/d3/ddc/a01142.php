@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::natural::Cell Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('d9/d65/a01145.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d3/ddc/a01142.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,20 +91,376 @@ $(document).ready(function(){initNavTree('d9/d65/a01145.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
+<a href="../../d5/d3e/a01139.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::check::is_vector&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::natural::Cell Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d9/d65/a01145.php">mcd::check::is_vector&lt; T &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/d65/a01145.php#a6b656e6fb832b24bcc36d1062556127b">value</a></td><td class="entry"><a class="el" href="../../d9/d65/a01145.php">mcd::check::is_vector&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<p>A cell with chromosomes.  
+ <a href="../../d3/ddc/a01142.php#details">More...</a></p>
+
+<p><code>#include &lt;Cell.hpp&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for mcd::natural::Cell:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/d64/a01140.png" border="0" usemap="#amcd_1_1natural_1_1Cell_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1natural_1_1Cell_coll__map" id="mcd_1_1natural_1_1Cell_coll__map">
+<area shape="rect" title="A cell with chromosomes." alt="" coords="113,467,239,493"/>
+<area shape="rect" title=" " alt="" coords="83,377,269,404"/>
+<area shape="rect" href="../../d2/da6/a01210.php" title="A double group of genes." alt="" coords="22,288,202,315"/>
+<area shape="rect" title=" " alt="" coords="43,184,181,211"/>
+<area shape="rect" href="../../d4/d34/a01298.php" title="A gene that represent a caracteristic." alt="" coords="5,95,139,121"/>
+<area shape="rect" title="STL class." alt="" coords="173,95,289,121"/>
+<area shape="rect" title=" " alt="" coords="211,5,250,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ae5097d9d7e1fc380e39fe9639ba794c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddc/a01142.php#ae5097d9d7e1fc380e39fe9639ba794c8">Cell</a> (<a class="el" href="../../dd/d86/a00271.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a> chroms)</td></tr>
+<tr class="memdesc:ae5097d9d7e1fc380e39fe9639ba794c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d3/ddc/a01142.php#ae5097d9d7e1fc380e39fe9639ba794c8">More...</a><br /></td></tr>
+<tr class="separator:ae5097d9d7e1fc380e39fe9639ba794c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7ee113d57e8f75bca4eaa9b3455001a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddc/a01142.php#ac7ee113d57e8f75bca4eaa9b3455001a">~Cell</a> ()</td></tr>
+<tr class="separator:ac7ee113d57e8f75bca4eaa9b3455001a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01bc934ac059453792f6783b0e919dd1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddc/a01142.php#a01bc934ac059453792f6783b0e919dd1">Value</a> (std::string str, size_t chromosomeIndex, size_t geneNumber) const</td></tr>
+<tr class="separator:a01bc934ac059453792f6783b0e919dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a749b7cda25492926ad8bffcbf9d79c3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/ddc/a01142.php">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddc/a01142.php#a749b7cda25492926ad8bffcbf9d79c3e">operator+=</a> (const <a class="el" href="../../d3/ddc/a01142.php">Cell</a> &amp;c1)</td></tr>
+<tr class="memdesc:a749b7cda25492926ad8bffcbf9d79c3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do the crossover for each <a class="el" href="../../d2/da6/a01210.php" title="A double group of genes.">Chromosome</a> between the 2 Cells.  <a href="../../d3/ddc/a01142.php#a749b7cda25492926ad8bffcbf9d79c3e">More...</a><br /></td></tr>
+<tr class="separator:a749b7cda25492926ad8bffcbf9d79c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb549302dbb6442103933d2a17361580"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/ddc/a01142.php">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddc/a01142.php#aeb549302dbb6442103933d2a17361580">copy</a> () const</td></tr>
+<tr class="memdesc:aeb549302dbb6442103933d2a17361580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="../../d3/ddc/a01142.php" title="A cell with chromosomes.">Cell</a> applying some potential mutations.  <a href="../../d3/ddc/a01142.php#aeb549302dbb6442103933d2a17361580">More...</a><br /></td></tr>
+<tr class="separator:aeb549302dbb6442103933d2a17361580"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ac4bfe0772fac9025654c268c48e6c9b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d86/a00271.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddc/a01142.php#ac4bfe0772fac9025654c268c48e6c9b8">_chroms</a></td></tr>
+<tr class="separator:ac4bfe0772fac9025654c268c48e6c9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a368f58787c40f58441c7eea56a420a82"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddc/a01142.php#a368f58787c40f58441c7eea56a420a82">operator==</a> (const <a class="el" href="../../d3/ddc/a01142.php">Cell</a> &amp;c1, const <a class="el" href="../../d3/ddc/a01142.php">Cell</a> &amp;c2)</td></tr>
+<tr class="separator:a368f58787c40f58441c7eea56a420a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b03e2ae2aae5a47673ad2bdb55375ce"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddc/a01142.php#a3b03e2ae2aae5a47673ad2bdb55375ce">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../d3/ddc/a01142.php">Cell</a> &amp;c)</td></tr>
+<tr class="separator:a3b03e2ae2aae5a47673ad2bdb55375ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e8b664ca85bee0d335569bc95a513e8"><td class="memItemLeft" align="right" valign="top">std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddc/a01142.php#a4e8b664ca85bee0d335569bc95a513e8">operator&gt;&gt;</a> (std::istream &amp;is, <a class="el" href="../../d3/ddc/a01142.php">Cell</a> &amp;c)</td></tr>
+<tr class="separator:a4e8b664ca85bee0d335569bc95a513e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27089d4be7e4f07bf6c1943c59b3bf47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/ddc/a01142.php">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddc/a01142.php#a27089d4be7e4f07bf6c1943c59b3bf47">operator+</a> (const <a class="el" href="../../d3/ddc/a01142.php">Cell</a> &amp;c1, const <a class="el" href="../../d3/ddc/a01142.php">Cell</a> &amp;c2)</td></tr>
+<tr class="memdesc:a27089d4be7e4f07bf6c1943c59b3bf47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do the crossover for each <a class="el" href="../../d2/da6/a01210.php" title="A double group of genes.">Chromosome</a> between the 2 Cells.  <a href="../../d3/ddc/a01142.php#a27089d4be7e4f07bf6c1943c59b3bf47">More...</a><br /></td></tr>
+<tr class="separator:a27089d4be7e4f07bf6c1943c59b3bf47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A cell with chromosomes. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ae5097d9d7e1fc380e39fe9639ba794c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5097d9d7e1fc380e39fe9639ba794c8">&#9670;&nbsp;</a></span>Cell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::natural::Cell::Cell </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d86/a00271.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a>&#160;</td>
+          <td class="paramname"><em>chroms</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">chroms</td><td>A vector of <a class="el" href="../../d2/da6/a01210.php" title="A double group of genes.">Chromosome</a>, an alias is Chromosomes </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac7ee113d57e8f75bca4eaa9b3455001a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7ee113d57e8f75bca4eaa9b3455001a">&#9670;&nbsp;</a></span>~Cell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::natural::Cell::~Cell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aeb549302dbb6442103933d2a17361580"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb549302dbb6442103933d2a17361580">&#9670;&nbsp;</a></span>copy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/ddc/a01142.php">Cell</a> mcd::natural::Cell::copy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a new <a class="el" href="../../d3/ddc/a01142.php" title="A cell with chromosomes.">Cell</a> applying some potential mutations. </p>
+
+</div>
+</div>
+<a id="a749b7cda25492926ad8bffcbf9d79c3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a749b7cda25492926ad8bffcbf9d79c3e">&#9670;&nbsp;</a></span>operator+=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/ddc/a01142.php">Cell</a> mcd::natural::Cell::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/ddc/a01142.php">Cell</a> &amp;&#160;</td>
+          <td class="paramname"><em>c1</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Do the crossover for each <a class="el" href="../../d2/da6/a01210.php" title="A double group of genes.">Chromosome</a> between the 2 Cells. </p>
+
+</div>
+</div>
+<a id="a01bc934ac059453792f6783b0e919dd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01bc934ac059453792f6783b0e919dd1">&#9670;&nbsp;</a></span>Value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double mcd::natural::Cell::Value </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>chromosomeIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>geneNumber</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a27089d4be7e4f07bf6c1943c59b3bf47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27089d4be7e4f07bf6c1943c59b3bf47">&#9670;&nbsp;</a></span>operator+</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/ddc/a01142.php">Cell</a> operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/ddc/a01142.php">Cell</a> &amp;&#160;</td>
+          <td class="paramname"><em>c1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d3/ddc/a01142.php">Cell</a> &amp;&#160;</td>
+          <td class="paramname"><em>c2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Do the crossover for each <a class="el" href="../../d2/da6/a01210.php" title="A double group of genes.">Chromosome</a> between the 2 Cells. </p>
+
+</div>
+</div>
+<a id="a3b03e2ae2aae5a47673ad2bdb55375ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b03e2ae2aae5a47673ad2bdb55375ce">&#9670;&nbsp;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d3/ddc/a01142.php">Cell</a> &amp;&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a368f58787c40f58441c7eea56a420a82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a368f58787c40f58441c7eea56a420a82">&#9670;&nbsp;</a></span>operator==</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/ddc/a01142.php">Cell</a> &amp;&#160;</td>
+          <td class="paramname"><em>c1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d3/ddc/a01142.php">Cell</a> &amp;&#160;</td>
+          <td class="paramname"><em>c2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e8b664ca85bee0d335569bc95a513e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e8b664ca85bee0d335569bc95a513e8">&#9670;&nbsp;</a></span>operator&gt;&gt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::istream&amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;&#160;</td>
+          <td class="paramname"><em>is</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/ddc/a01142.php">Cell</a> &amp;&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac4bfe0772fac9025654c268c48e6c9b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4bfe0772fac9025654c268c48e6c9b8">&#9670;&nbsp;</a></span>_chroms</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d86/a00271.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a> mcd::natural::Cell::_chroms</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d5/de0/a00050.php">Cell.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d86/a00271.php">natural</a></li><li class="navelem"><a class="el" href="../../d3/ddc/a01142.php">Cell</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

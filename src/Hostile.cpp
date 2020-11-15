@@ -1,6 +1,6 @@
 #include "C++/Hostile.hpp"
 
-namespace mcd
+namespace mcd::entites
 {
     Hostile::Hostile() :
         _target(nullptr),
@@ -28,4 +28,4 @@ namespace mcd
         stream << "\tHostile attributes ;" << std::endl;
         stream << "\t\t- strength : " << getStrength() << std::endl;
     }
-}   // namespace mcd
+}   // namespace mcd::entites

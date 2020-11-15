@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">4.0</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 27 2020 18:49:23 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,33 +92,21 @@ $(document).ready(function(){initNavTree('dc/ded/a01290.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::natural::Gene Member List</div>  </div>
+<div class="title">mcd::exception Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dc/ded/a01290.php">mcd::exception</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a29dd9b8ac897a110f7047c2912ebd2e0aa91e524760eeac3e25168c3c4fd16c64">BOOL</a> enum value</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/ded/a01290.php#af2f9b44131d9874e8b2d27566f8f5bf0">copy</a>() const</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a29dd9b8ac897a110f7047c2912ebd2e0ae7b17b5d887f18544b1ca0f51244e8c4">FLOAT</a> enum value</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a956e43802a33c93c589c52568f12f6d1">FloatAccuracy</a></td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#afac2f9fde459a7a311c2a19078f0cc95">Gene</a>(std::string name, GeneType type=GeneType::FLOAT, double value=0, double mini=0, double maxi=0, std::vector&lt; double &gt; list={})</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/ded/a01290.php#aef9707ac6796358b612094b0ebc35402">Gene</a>(const Gene &amp;g)</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a29dd9b8ac897a110f7047c2912ebd2e0">GeneType</a> enum name</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a29dd9b8ac897a110f7047c2912ebd2e0a644487cee470ea37ef049351feaaca2e">INT</a> enum value</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a29dd9b8ac897a110f7047c2912ebd2e0a4015002ac12a4c3852ba72131800aa26">LISTED</a> enum value</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/ded/a01290.php#aea82298faeb2f83a45c7ca43558c0390">MutationRate</a></td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#ae75e8789e328d8ffa258b201849d6a44">Name</a>() const</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a04f5d791ef07d16c3f95aadb0e91e4e7">operator!=</a>(const Gene &amp;g1, const Gene &amp;g2)</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#aadb0dff1f1d91e1b0b2c7a382de48eb8">operator&lt;&lt;</a>(std::ostream &amp;os, const Gene &amp;g)</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/ded/a01290.php#abfba7cb01e60aeda7477a3b504d4ed57">operator==</a>(const Gene &amp;g1, const Gene &amp;g2)</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a2614d14b993a651c047de4bf36f7aef2">operator&gt;&gt;</a>(std::istream &amp;is, Gene &amp;g)</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a29dd9b8ac897a110f7047c2912ebd2e0a31801000c46cfa54c27b6f7bcef2afa5">RANGED_FLOAT</a> enum value</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a29dd9b8ac897a110f7047c2912ebd2e0a30cd035484abb297f1f5503dd95b94fd">RANGED_INT</a> enum value</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a29dd9b8ac897a110f7047c2912ebd2e0a11190a1a9c9f6f59c60d10762eb91896">STATIC</a> enum value</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#acc86646db1f38e98d7d1d21236debe9d">Value</a>() const</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a1c76cb1011260b0ad8495d1e591057ba">Value</a>(const double &amp;value)</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a57128a7a4b82cf0a0ba0b8856bab161a">~Gene</a>()</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::natural::Gene</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a8cffcfc2c1a631bee3154a999bf13bf1">_msg</a></td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::exception</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a2af015139a223dafbf1556911aca048d">exception</a>() noexcept</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#afdb84ab5c36cbf3569727fcf129fb872">exception</a>(const std::string &amp;msg) noexcept</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/ded/a01290.php#aa83410abcc4449a02ce5835c8ad9bd34">exception</a>(const exception &amp;other) noexcept</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#abc6b0649cf43073f41f4d1d0617af24d">exception</a>(const exception &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/ded/a01290.php#ab86ac60ef49f2bf978faa24588b32ced">operator=</a>(const exception &amp;other) noexcept</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a70ab36f825287dc96ff7fb3517f9b46e">operator=</a>(const exception &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::exception</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/ded/a01290.php#a04d412a2a5c85d9e16d67539134b419f">what</a>() const noexcept</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::exception</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/ded/a01290.php#ae32a0816168e0f4ff7ba8d688d839dc8">~exception</a>() noexcept</td><td class="entry"><a class="el" href="../../dc/ded/a01290.php">mcd::exception</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

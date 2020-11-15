@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:33 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -104,13 +104,13 @@ Include dependency graph for PlayerAbstraction.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d72/a00204.png" border="0" usemap="#aPlayerAbstraction_8hpp" alt=""/></div>
 <map name="PlayerAbstraction_8hpp" id="PlayerAbstraction_8hpp">
-<area shape="rect" title=" " alt="" coords="799,5,949,32"/>
-<area shape="rect" href="../../db/dab/a00089.php" title=" " alt="" coords="829,80,919,107"/>
-<area shape="rect" href="../../dd/d52/a00221.php" title=" " alt="" coords="671,155,752,181"/>
-<area shape="rect" href="../../de/db1/a00197.php" title=" " alt="" coords="777,155,854,181"/>
-<area shape="rect" href="../../db/ddf/a00164.php" title=" " alt="" coords="879,155,987,181"/>
-<area shape="rect" href="../../dd/dad/a00005.php" title=" " alt="" coords="1011,155,1078,181"/>
-<area shape="rect" href="../../d7/d3f/a00173.php" title=" " alt="" coords="715,304,801,331"/>
+<area shape="rect" title=" " alt="" coords="804,5,955,32"/>
+<area shape="rect" href="../../db/dab/a00089.php" title=" " alt="" coords="834,80,925,107"/>
+<area shape="rect" href="../../dd/d52/a00221.php" title=" " alt="" coords="661,155,743,181"/>
+<area shape="rect" href="../../db/ddf/a00164.php" title=" " alt="" coords="767,155,875,181"/>
+<area shape="rect" href="../../de/db1/a00197.php" title=" " alt="" coords="899,155,977,181"/>
+<area shape="rect" href="../../dd/dad/a00005.php" title=" " alt="" coords="1001,155,1067,181"/>
+<area shape="rect" href="../../d7/d3f/a00173.php" title=" " alt="" coords="714,304,799,331"/>
 <area shape="rect" href="../../d0/d89/a00071.php" title=" " alt="" coords="745,453,859,480"/>
 <area shape="rect" href="../../dd/d32/a00041.php" title=" " alt="" coords="765,528,839,555"/>
 <area shape="rect" href="../../d5/de0/a00050.php" title=" " alt="" coords="665,603,736,629"/>
@@ -216,10 +216,10 @@ Include dependency graph for PlayerAbstraction.hpp:</div>
 <area shape="rect" href="../../db/dd9/a00179.php" title=" " alt="" coords="1151,1499,1226,1525"/>
 <area shape="rect" href="../../d9/dd0/a00191.php" title=" " alt="" coords="957,1499,1127,1525"/>
 <area shape="rect" href="../../dc/dfe/a00125.php" title=" " alt="" coords="735,976,869,1003"/>
-<area shape="rect" href="../../dd/dd7/a00260.php" title=" " alt="" coords="799,229,890,256"/>
-<area shape="rect" href="../../d1/dc1/a00092.php" title=" " alt="" coords="805,379,884,405"/>
-<area shape="rect" href="../../d7/d46/a00002.php" title=" " alt="" coords="972,229,1059,256"/>
-<area shape="rect" href="../../d4/d81/a00110.php" title=" " alt="" coords="926,304,1014,331"/>
+<area shape="rect" href="../../dd/dd7/a00260.php" title=" " alt="" coords="801,229,891,256"/>
+<area shape="rect" href="../../d1/dc1/a00092.php" title=" " alt="" coords="807,379,885,405"/>
+<area shape="rect" href="../../d7/d46/a00002.php" title=" " alt="" coords="965,229,1052,256"/>
+<area shape="rect" href="../../d4/d81/a00110.php" title=" " alt="" coords="923,304,1011,331"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -235,13 +235,15 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/a01393.php">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A player that can be a child from any class.  <a href="../../d3/d92/a01393.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A player that can be a child from any class.  <a href="../../d6/d2f/a01394.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:db/d12/a00268"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php">mcd</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d5/d42/a00269"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php">mcd::entites</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

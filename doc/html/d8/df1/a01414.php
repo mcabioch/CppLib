@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::RND&lt; T, U &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:33 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('de/daf/a01417.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d8/df1/a01414.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,53 +91,129 @@ $(document).ready(function(){initNavTree('de/daf/a01417.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../db/d99/a01411.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Stone Member List</div>  </div>
+<div class="title">mcd::RND&lt; T, U &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/daf/a01417.php">mcd::Stone</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a7f4fa78c938b90c034ad0fe98a293a3c">addPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a807590a9e81f34ba22aca08ddd986db7">Contraption</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a580eafa58a93d9ab4264c4cbac2f4167">getA</a>() const</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#aa36a1788770d7667d8a2848ff1e3f0c6">getAttributes</a>() const</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#aec81012bc23935e626500734007d5fb5">getH</a>() const</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a2f6cf40462b5dba5f7743c83cc2389f1">getLevel</a>() const</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a393c4ec6fd375809fbcf1cfeab44ed25">getMap</a>() const</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#ac95da2f760e8ba07a54ac849c5a3307f">getPosition</a>() const</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a20dee618b85a3f841921a534bd5dfd37">getRelativeZ</a>(Contraption &amp;obj)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#ad12fd1c5a207f169edc619e09a5a969f">getW</a>() const</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a6e7d791e4289bd253a357be80f8131ee">getX</a>() const</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a153124dd434c08a943f60d7b43c2ffab">getY</a>() const</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a6ac6575807535f3d9aeb251ce3cceaed">getZ</a>() const</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d10/a01357.php#ad332f3a57527a6ede1be2e18b65615a5">Object</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../df/d10/a01357.php">mcd::Object</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/daf/a01417.php#ad23699d742569bc0eb2e9724a37b6cdf">printInfos</a>(std::ostream &amp;stream) const override</td><td class="entry"><a class="el" href="../../de/daf/a01417.php">mcd::Stone</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a6ee6d1b64b6b88068a2165a1824a5af2">sender</a>(std::string, vector_str)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a73a47e55e554e7c7f357a74276368186">setA</a>(double64_t angle)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a9c5a7acde997e12d99e717f182c5ced7">setAttributes</a>(ContraptionAttr attr)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#ae44610d2144faf1550f8cc6ec860fb71">setAttributes</a>(double64_t w, double64_t h, double64_t angle=0)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a060b6ee9401bd8c9a03c5cecdbfa1942">setH</a>(double64_t h)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a332ecd56522af01cf41b9c4a69449bd0">setLevel</a>(size_t level)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a8a6c84d9d5f814fe553b731d841a5266">setMap</a>(Map *map)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a2974b562f55f65a1b992ff849eea43cf">setPosition</a>(Point pt)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#aae0d0bd5e4613514eb5cda66eaeabbcb">setPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a2a00e0217550c3b79434659e04d40aef">setW</a>(double64_t w)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#abbaabb4c71f560de8c85a859c11dd57a">setX</a>(double64_t x)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a3e1fc3a4ee923891fa0c523f129c45af">setY</a>(double64_t y)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a08c1de8034f9e3985a24dd78d37a3d44">setZ</a>(double64_t z)</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/daf/a01417.php#a0b078b3e2aea50454478300140675661">Stone</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../de/daf/a01417.php">mcd::Stone</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a10b4b5c4cd47da89e672c64c41b23162">turnLeft</a>()</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a4f7cef1423cf575fabafa2143a588788">turnRight</a>()</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d7b/a01249.php#a17bb565b03902a28211f8609ac04d01b">~Contraption</a>()</td><td class="entry"><a class="el" href="../../d3/d7b/a01249.php">mcd::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d10/a01357.php#a400f71c448a89abecda88ba70ab5029f">~Object</a>()</td><td class="entry"><a class="el" href="../../df/d10/a01357.php">mcd::Object</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/daf/a01417.php#aa34b6384ef8063fdf92582115c0765c1">~Stone</a>()</td><td class="entry"><a class="el" href="../../de/daf/a01417.php">mcd::Stone</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to simplify the use of random.  
+ <a href="../../d8/df1/a01414.php#details">More...</a></p>
+
+<p><code>#include &lt;RND.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a9d494692c2cb71271b80547507e5ec7f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df1/a01414.php#a9d494692c2cb71271b80547507e5ec7f">RND</a> ()</td></tr>
+<tr class="separator:a9d494692c2cb71271b80547507e5ec7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b84a9dc967e1210738e3a8bba43e4a4"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df1/a01414.php#a8b84a9dc967e1210738e3a8bba43e4a4">operator()</a> (T a, T b)</td></tr>
+<tr class="memdesc:a8b84a9dc967e1210738e3a8bba43e4a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The definition of the operator ()  <a href="../../d8/df1/a01414.php#a8b84a9dc967e1210738e3a8bba43e4a4">More...</a><br /></td></tr>
+<tr class="separator:a8b84a9dc967e1210738e3a8bba43e4a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T, typename U&gt;<br />
+class mcd::RND&lt; T, U &gt;</h3>
+
+<p>A class to simplify the use of random. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a9d494692c2cb71271b80547507e5ec7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d494692c2cb71271b80547507e5ec7f">&#9670;&nbsp;</a></span>RND()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/df1/a01414.php">mcd::RND</a>&lt; T, U &gt;::<a class="el" href="../../d8/df1/a01414.php">RND</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8b84a9dc967e1210738e3a8bba43e4a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b84a9dc967e1210738e3a8bba43e4a4">&#9670;&nbsp;</a></span>operator()()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="../../d8/df1/a01414.php">mcd::RND</a>&lt; T, U &gt;::operator() </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The definition of the operator () </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The first boundary </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The first boundary</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a random number between <em>a</em> and <em>b</em> </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/df1/a01414_a8b84a9dc967e1210738e3a8bba43e4a4_cgraph.png" border="0" usemap="#ad8/df1/a01414_a8b84a9dc967e1210738e3a8bba43e4a4_cgraph" alt=""/></div>
+<map name="d8/df1/a01414_a8b84a9dc967e1210738e3a8bba43e4a4_cgraph" id="d8/df1/a01414_a8b84a9dc967e1210738e3a8bba43e4a4_cgraph">
+<area shape="rect" title="The definition of the operator ()" alt="" coords="5,5,153,32"/>
+<area shape="rect" href="../../db/d12/a00268.php#a4d75f23c9b03fd2c56324895d0ff3c58" title="Return the distance of the given coordinates." alt="" coords="201,5,277,32"/>
+<area shape="rect" href="../../db/d12/a00268.php#ae3a712e4de66375b1a188fa464c968e2" title="Compute the squareroot of a." alt="" coords="325,5,403,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d3/dd5/a00215.php">RND.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d8/df1/a01414.php">RND</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

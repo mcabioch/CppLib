@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,16 +93,16 @@ $(document).ready(function(){initNavTree('functions_enum.php',''); initResizable
 <div class="contents">
 &#160;<ul>
 <li>GeneType
-: <a class="el" href="dc/d8c/a01297.php#a29dd9b8ac897a110f7047c2912ebd2e0">mcd::natural::Gene</a>
+: <a class="el" href="d4/d34/a01298.php#a29dd9b8ac897a110f7047c2912ebd2e0">mcd::natural::Gene</a>
 </li>
 <li>JsonType
-: <a class="el" href="de/d90/a01313.php#a3c35d4f54c782ef8b7898a1641eb4666">mcd::Json</a>
+: <a class="el" href="d9/de6/a01314.php#a3c35d4f54c782ef8b7898a1641eb4666">mcd::Json</a>
 </li>
 <li>Level
-: <a class="el" href="d9/d5c/a01321.php#a25d94050e8e7f91c7e1f02ddc2af8e95">mcd::Logger</a>
+: <a class="el" href="d5/df4/a01322.php#a25d94050e8e7f91c7e1f02ddc2af8e95">mcd::Logger</a>
 </li>
 <li>PathfindingErrorCode
-: <a class="el" href="d3/dea/a01377.php#a699cc4df8cc94d467e7372072d230b58">mcd::PathfindingException</a>
+: <a class="el" href="db/d74/a01378.php#a699cc4df8cc94d467e7372072d230b58">mcd::PathfindingException</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,10 +95,10 @@ $(document).ready(function(){initNavTree('functions_func_w.php',''); initResizab
 
 <h3><a id="index_w"></a>- w -</h3><ul>
 <li>weekDay()
-: <a class="el" href="de/d85/a01273.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
+: <a class="el" href="de/d33/a01274.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
 </li>
 <li>what()
-: <a class="el" href="d9/dda/a01289.php#a04d412a2a5c85d9e16d67539134b419f">mcd::exception</a>
+: <a class="el" href="dc/ded/a01290.php#a04d412a2a5c85d9e16d67539134b419f">mcd::exception</a>
 </li>
 </ul>
 </div><!-- contents -->

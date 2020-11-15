@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">4.0</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 27 2020 18:49:23 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,13 +92,13 @@ $(document).ready(function(){initNavTree('de/d07/a01146.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Check::is_pair&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::check::is_vector&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/d07/a01146.php">mcd::Check::is_pair&lt; T &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../de/d07/a01146.php">mcd::check::is_vector&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d07/a01146.php#ac3fa87bfb2551b3a98cac89a0c39b2ba">value</a></td><td class="entry"><a class="el" href="../../de/d07/a01146.php">mcd::Check::is_pair&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d07/a01146.php#a6b656e6fb832b24bcc36d1062556127b">value</a></td><td class="entry"><a class="el" href="../../de/d07/a01146.php">mcd::check::is_vector&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

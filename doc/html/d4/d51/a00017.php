@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:33 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -235,10 +235,10 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:d6/d8b/a01117"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d6/d8b/a01117">mcd::AssertionLocationStruct</a></td></tr>
-<tr class="separator:d6/d8b/a01117"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de4/a01121.php">mcd::Assert</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">My assert's implementation.  <a href="../../dd/de4/a01121.php#details">More...</a><br /></td></tr>
+<tr class="memitem:dd/d09/a01118"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#dd/d09/a01118">mcd::AssertionLocationStruct</a></td></tr>
+<tr class="separator:dd/d09/a01118"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d32/a01122.php">mcd::Assert</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">My assert's implementation.  <a href="../../db/d32/a01122.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -270,8 +270,8 @@ Variables</h2></td></tr>
 <dd>
 Last modification : November, 13 2020 </dd></dl>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="d6/d8b/a01117" id="d6/d8b/a01117"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d6/d8b/a01117">&#9670;&nbsp;</a></span>mcd::AssertionLocationStruct</h2>
+<a name="dd/d09/a01118" id="dd/d09/a01118"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dd/d09/a01118">&#9670;&nbsp;</a></span>mcd::AssertionLocationStruct</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +284,7 @@ Last modification : November, 13 2020 </dd></dl>
 <div class="textblock"></div><div class="dynheader">
 Collaboration diagram for mcd::AssertionLocationStruct:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../df/dd5/a01115.png" border="0" usemap="#amcd_1_1AssertionLocationStruct_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d4/dc5/a01116.png" border="0" usemap="#amcd_1_1AssertionLocationStruct_coll__map" alt="Collaboration graph"/></div>
 <map name="mcd_1_1AssertionLocationStruct_coll__map" id="mcd_1_1AssertionLocationStruct_coll__map">
 <area shape="rect" title=" " alt="" coords="5,200,200,227"/>
 <area shape="rect" title="STL class." alt="" coords="63,96,143,123"/>
@@ -397,9 +397,9 @@ line</td>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">try</span> {                                                                                          \</div>
 <div class="line">        assert(EXPR);                                                                              \</div>
-<div class="line">    } <span class="keywordflow">catch</span> (<span class="keyword">const</span> <a class="code" href="../../d6/dc4/a01125.php">mcd::AssertionException</a>&amp; e) {                                                   <a class="code" href="../../d5/d42/a00269.php#ab103cfa2a20b497f890a6fb6c878aa60">\</a></div>
-<div class="line"><a class="code" href="../../d5/d42/a00269.php#ab103cfa2a20b497f890a6fb6c878aa60">        std::cout</a> &lt;&lt; <a class="code" href="../../da/d19/a01217.php">mcd::console::Color</a>(mcd::console::Colors::LIGHT_YELLOW_F) &lt;&lt; e.<a class="code" href="../../d9/dda/a01289.php#a04d412a2a5c85d9e16d67539134b419f">what</a>()         \</div>
-<div class="line">                  &lt;&lt; <a class="code" href="../../da/d19/a01217.php">mcd::console::Color</a>(mcd::console::Colors::NORMAL) &lt;&lt; <a class="code" href="../../d5/d42/a00269.php#a7f1493d50192cdfabe22dc9f805bdcaa">std::endl</a>;               \</div>
+<div class="line">    } <span class="keywordflow">catch</span> (<span class="keyword">const</span> <a class="code" href="../../db/d1e/a01126.php">mcd::AssertionException</a>&amp; e) {                                                   <a class="code" href="../../d9/d2a/a00270.php#ab103cfa2a20b497f890a6fb6c878aa60">\</a></div>
+<div class="line"><a class="code" href="../../d9/d2a/a00270.php#ab103cfa2a20b497f890a6fb6c878aa60">        std::cout</a> &lt;&lt; <a class="code" href="../../d8/d15/a01218.php">mcd::console::Color</a>(mcd::console::Colors::LIGHT_YELLOW_F) &lt;&lt; e.<a class="code" href="../../dc/ded/a01290.php#a04d412a2a5c85d9e16d67539134b419f">what</a>()         \</div>
+<div class="line">                  &lt;&lt; <a class="code" href="../../d8/d15/a01218.php">mcd::console::Color</a>(mcd::console::Colors::NORMAL) &lt;&lt; <a class="code" href="../../d9/d2a/a00270.php#a7f1493d50192cdfabe22dc9f805bdcaa">std::endl</a>;               \</div>
 <div class="line">        INSTEAD;                                                                                   \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
@@ -447,11 +447,11 @@ line</td>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aa01125_php"><div class="ttname"><a href="../../d6/dc4/a01125.php">mcd::AssertionException</a></div><div class="ttdoc">An exception thrown by my assert's implementation.</div><div class="ttdef"><b>Definition:</b> AssertionException.hpp:20</div></div>
-<div class="ttc" id="aa01289_php_a04d412a2a5c85d9e16d67539134b419f"><div class="ttname"><a href="../../d9/dda/a01289.php#a04d412a2a5c85d9e16d67539134b419f">mcd::exception::what</a></div><div class="ttdeci">virtual const char * what() const noexcept</div></div>
-<div class="ttc" id="aa00269_php_a7f1493d50192cdfabe22dc9f805bdcaa"><div class="ttname"><a href="../../d5/d42/a00269.php#a7f1493d50192cdfabe22dc9f805bdcaa">mcd::console::endl</a></div><div class="ttdeci">ThreadEndlCout endl</div><div class="ttdoc">The thread safe version of std::endl.</div></div>
-<div class="ttc" id="aa00269_php_ab103cfa2a20b497f890a6fb6c878aa60"><div class="ttname"><a href="../../d5/d42/a00269.php#ab103cfa2a20b497f890a6fb6c878aa60">mcd::console::cout</a></div><div class="ttdeci">ThreadCout cout</div><div class="ttdoc">The thread safe version of std::cout.</div></div>
-<div class="ttc" id="aa01217_php"><div class="ttname"><a href="../../da/d19/a01217.php">mcd::console::Color</a></div><div class="ttdoc">Change the text color in the console.</div><div class="ttdef"><b>Definition:</b> console.hpp:65</div></div>
+<div class="ttc" id="aa00270_php_ab103cfa2a20b497f890a6fb6c878aa60"><div class="ttname"><a href="../../d9/d2a/a00270.php#ab103cfa2a20b497f890a6fb6c878aa60">mcd::console::cout</a></div><div class="ttdeci">ThreadCout cout</div><div class="ttdoc">The thread safe version of std::cout.</div></div>
+<div class="ttc" id="aa01218_php"><div class="ttname"><a href="../../d8/d15/a01218.php">mcd::console::Color</a></div><div class="ttdoc">Change the text color in the console.</div><div class="ttdef"><b>Definition:</b> console.hpp:65</div></div>
+<div class="ttc" id="aa01290_php_a04d412a2a5c85d9e16d67539134b419f"><div class="ttname"><a href="../../dc/ded/a01290.php#a04d412a2a5c85d9e16d67539134b419f">mcd::exception::what</a></div><div class="ttdeci">virtual const char * what() const noexcept</div></div>
+<div class="ttc" id="aa00270_php_a7f1493d50192cdfabe22dc9f805bdcaa"><div class="ttname"><a href="../../d9/d2a/a00270.php#a7f1493d50192cdfabe22dc9f805bdcaa">mcd::console::endl</a></div><div class="ttdeci">ThreadEndlCout endl</div><div class="ttdoc">The thread safe version of std::endl.</div></div>
+<div class="ttc" id="aa01126_php"><div class="ttname"><a href="../../db/d1e/a01126.php">mcd::AssertionException</a></div><div class="ttdoc">An exception thrown by my assert's implementation.</div><div class="ttdef"><b>Definition:</b> AssertionException.hpp:20</div></div>
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

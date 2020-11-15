@@ -1,4 +1,4 @@
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:98: warning: multiple use of section label 'upd_sec_20201027_subsec' while adding section, (first occurrence: /home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md, line 94)
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:99: warning: multiple use of section label 'upd_sec_20201027_subsec' while adding section, (first occurrence: /home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md, line 95)
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/timeFunctions.hpp:3: warning: the name 'time.hpp' supplied as the argument in the \file statement is not an input file
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:61: warning: Found unknown command '\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:51: warning: Found unknown command '\error'
@@ -6,60 +6,9 @@
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/files.hpp:23: warning: documented empty return type of mcd::fileFormat
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/types.hpp:158: warning: documented empty return type of mcd::printType
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/string.hpp:60: warning: documented empty return type of mcd::trim
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:144: warning: documented empty return type of mcd::Animal::anyObstacle
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:174: warning: documented empty return type of mcd::Animal::goBot
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:159: warning: documented empty return type of mcd::Animal::goLeft
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:164: warning: documented empty return type of mcd::Animal::goRight
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:169: warning: documented empty return type of mcd::Animal::goTop
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:196: warning: documented empty return type of mcd::Animal::move
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:203: warning: documented empty return type of mcd::Animal::move
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:153: warning: documented empty return type of mcd::Animal::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:48: warning: documented empty return type of mcd::Animal::setFood
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:55: warning: documented empty return type of mcd::Animal::setFoodMax
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:71: warning: documented empty return type of mcd::Animal::setSpecialAttack
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:63: warning: documented empty return type of mcd::Animal::setSpecies
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:40: warning: documented empty return type of mcd::Animal::setSpeed
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:182: warning: documented empty return type of mcd::Animal::turn
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:75: warning: documented empty return type of mcd::Ant::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:40: warning: documented empty return type of mcd::Ant::setCaste
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:48: warning: documented empty return type of mcd::Ant::setStone
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:55: warning: documented empty return type of mcd::Ant::setStoneMax
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Args.hpp:91: warning: documented empty return type of mcd::Arguments::print
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Binary.hpp:264: warning: documented empty return type of mcd::Binary< T, typename std::enable_if_t< std::is_arithmetic< T >::value, void > >::print
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Binary.hpp:47: warning: documented empty return type of mcd::Binary< T, typename std::enable_if_t< std::is_arithmetic< T >::value, void > >::s_print
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:187: warning: documented empty return type of mcd::Contraption::addPosition
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:169: warning: documented empty return type of mcd::Contraption::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:110: warning: documented empty return type of mcd::Contraption::setA
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:79: warning: documented empty return type of mcd::Contraption::setAttributes
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:88: warning: documented empty return type of mcd::Contraption::setAttributes
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:103: warning: documented empty return type of mcd::Contraption::setH
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:126: warning: documented empty return type of mcd::Contraption::setLevel
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:118: warning: documented empty return type of mcd::Contraption::setMap
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:49: warning: documented empty return type of mcd::Contraption::setPosition
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:40: warning: documented empty return type of mcd::Contraption::setPosition
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:96: warning: documented empty return type of mcd::Contraption::setW
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:57: warning: documented empty return type of mcd::Contraption::setX
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:64: warning: documented empty return type of mcd::Contraption::setY
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:71: warning: documented empty return type of mcd::Contraption::setZ
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:192: warning: documented empty return type of mcd::Contraption::turnLeft
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:197: warning: documented empty return type of mcd::Contraption::turnRight
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:145: warning: documented empty return type of mcd::Entity::grow
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:156: warning: documented empty return type of mcd::Entity::hit
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:140: warning: documented empty return type of mcd::Entity::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:61: warning: documented empty return type of mcd::Entity::setAge
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:47: warning: documented empty return type of mcd::Entity::setDamages
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:40: warning: documented empty return type of mcd::Entity::setLife
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:69: warning: documented empty return type of mcd::Entity::setReborn
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:91: warning: documented empty return type of mcd::Entity::setRegen
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:54: warning: documented empty return type of mcd::Entity::setResistance
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:76: warning: documented empty return type of mcd::Entity::setTimeActReborn
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:98: warning: documented empty return type of mcd::Entity::setTimeActRegen
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:83: warning: documented empty return type of mcd::Entity::setTimePrecReborn
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:105: warning: documented empty return type of mcd::Entity::setTimePrecRegen
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:64: warning: documented empty return type of mcd::Hostile::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:34: warning: documented empty return type of mcd::Hostile::setStrength
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:41: warning: documented empty return type of mcd::Hostile::setTarget
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:85: warning: documented empty return type of mcd::Hostile::untarget
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Identifier.hpp:46: warning: documented empty return type of mcd::Identifier::setId
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Identifier.hpp:38: warning: documented empty return type of mcd::Identifier::setPassword
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Identifier.hpp:31: warning: documented empty return type of mcd::Identifier::setUsername
@@ -72,25 +21,12 @@
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Map.hpp:72: warning: documented empty return type of mcd::Map::setSize
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Map.hpp:79: warning: documented empty return type of mcd::Map::setW
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Matrix.hpp:115: warning: documented empty return type of mcd::Matrix::GaussJordan
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Mushroom.hpp:46: warning: documented empty return type of mcd::Mushroom::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Object.hpp:46: warning: documented empty return type of mcd::Object::printInfos
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Path.hpp:69: warning: documented empty return type of mcd::Path::push
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Plant.hpp:46: warning: documented empty return type of mcd::Plant::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Player.hpp:43: warning: documented empty return type of mcd::Player::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:107: warning: documented empty return type of mcd::PlayerAbstraction::lost
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:91: warning: documented empty return type of mcd::PlayerAbstraction::pause
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:81: warning: documented empty return type of mcd::PlayerAbstraction::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:96: warning: documented empty return type of mcd::PlayerAbstraction::resume
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:112: warning: documented empty return type of mcd::PlayerAbstraction::retreive
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:54: warning: documented empty return type of mcd::PlayerAbstraction::setExperience
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:61: warning: documented empty return type of mcd::PlayerAbstraction::setExperienceMax
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:46: warning: documented empty return type of mcd::PlayerAbstraction::setMail
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:257: warning: documented empty return type of mcd::RSA::setPrivate
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:250: warning: documented empty return type of mcd::RSA::setPublic
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:160: warning: documented empty return type of mcd::SHA2::final
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:146: warning: documented empty return type of mcd::SHA2::transform
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:153: warning: documented empty return type of mcd::SHA2::update
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Stone.hpp:46: warning: documented empty return type of mcd::Stone::printInfos
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:237: warning: documented empty return type of mcd::Tree::add
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:162: warning: documented empty return type of mcd::Tree::applyForEach
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:222: warning: documented empty return type of mcd::Tree::create
@@ -103,7 +39,6 @@
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/vector.hpp:187: warning: argument 'out' of command @param is not found in the argument list of mcd::vector< C >::operator>>(std::istream &is, vector &other)
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/vector.hpp:193: warning: The following parameter of mcd::vector::operator>>(std::istream &is, vector &other) is not documented:
   parameter 'is'
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Vegetal.hpp:46: warning: documented empty return type of mcd::Vegetal::printInfos
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:53: warning: documented empty return type of mcd::console::print_r
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:364: warning: documented empty return type of mcd::console::vector2DPrint
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:384: warning: The following parameter of mcd::console::vector2DPrintInverted(const vector< vector< T > > values, int autosize=0, std::ostream &os=std::cout, int shift=0) is not documented:
@@ -115,6 +50,71 @@
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:106: warning: documented empty return type of mcd::console::Color::addColors
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:181: warning: documented empty return type of mcd::console::Cursor::goTo
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:215: warning: documented empty return type of mcd::console::Cursor::put
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:144: warning: documented empty return type of mcd::entites::Animal::anyObstacle
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:174: warning: documented empty return type of mcd::entites::Animal::goBot
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:159: warning: documented empty return type of mcd::entites::Animal::goLeft
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:164: warning: documented empty return type of mcd::entites::Animal::goRight
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:169: warning: documented empty return type of mcd::entites::Animal::goTop
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:196: warning: documented empty return type of mcd::entites::Animal::move
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:203: warning: documented empty return type of mcd::entites::Animal::move
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:153: warning: documented empty return type of mcd::entites::Animal::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:48: warning: documented empty return type of mcd::entites::Animal::setFood
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:55: warning: documented empty return type of mcd::entites::Animal::setFoodMax
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:71: warning: documented empty return type of mcd::entites::Animal::setSpecialAttack
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:63: warning: documented empty return type of mcd::entites::Animal::setSpecies
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:40: warning: documented empty return type of mcd::entites::Animal::setSpeed
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:182: warning: documented empty return type of mcd::entites::Animal::turn
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:75: warning: documented empty return type of mcd::entites::Ant::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:40: warning: documented empty return type of mcd::entites::Ant::setCaste
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:48: warning: documented empty return type of mcd::entites::Ant::setStone
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:55: warning: documented empty return type of mcd::entites::Ant::setStoneMax
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:187: warning: documented empty return type of mcd::entites::Contraption::addPosition
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:169: warning: documented empty return type of mcd::entites::Contraption::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:110: warning: documented empty return type of mcd::entites::Contraption::setA
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:79: warning: documented empty return type of mcd::entites::Contraption::setAttributes
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:88: warning: documented empty return type of mcd::entites::Contraption::setAttributes
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:103: warning: documented empty return type of mcd::entites::Contraption::setH
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:126: warning: documented empty return type of mcd::entites::Contraption::setLevel
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:118: warning: documented empty return type of mcd::entites::Contraption::setMap
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:49: warning: documented empty return type of mcd::entites::Contraption::setPosition
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:40: warning: documented empty return type of mcd::entites::Contraption::setPosition
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:96: warning: documented empty return type of mcd::entites::Contraption::setW
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:57: warning: documented empty return type of mcd::entites::Contraption::setX
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:64: warning: documented empty return type of mcd::entites::Contraption::setY
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:71: warning: documented empty return type of mcd::entites::Contraption::setZ
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:192: warning: documented empty return type of mcd::entites::Contraption::turnLeft
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:197: warning: documented empty return type of mcd::entites::Contraption::turnRight
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:145: warning: documented empty return type of mcd::entites::Entity::grow
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:156: warning: documented empty return type of mcd::entites::Entity::hit
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:140: warning: documented empty return type of mcd::entites::Entity::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:61: warning: documented empty return type of mcd::entites::Entity::setAge
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:47: warning: documented empty return type of mcd::entites::Entity::setDamages
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:40: warning: documented empty return type of mcd::entites::Entity::setLife
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:69: warning: documented empty return type of mcd::entites::Entity::setReborn
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:91: warning: documented empty return type of mcd::entites::Entity::setRegen
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:54: warning: documented empty return type of mcd::entites::Entity::setResistance
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:76: warning: documented empty return type of mcd::entites::Entity::setTimeActReborn
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:98: warning: documented empty return type of mcd::entites::Entity::setTimeActRegen
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:83: warning: documented empty return type of mcd::entites::Entity::setTimePrecReborn
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:105: warning: documented empty return type of mcd::entites::Entity::setTimePrecRegen
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:64: warning: documented empty return type of mcd::entites::Hostile::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:34: warning: documented empty return type of mcd::entites::Hostile::setStrength
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:41: warning: documented empty return type of mcd::entites::Hostile::setTarget
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:85: warning: documented empty return type of mcd::entites::Hostile::untarget
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Mushroom.hpp:46: warning: documented empty return type of mcd::entites::Mushroom::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Object.hpp:46: warning: documented empty return type of mcd::entites::Object::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Plant.hpp:46: warning: documented empty return type of mcd::entites::Plant::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Player.hpp:43: warning: documented empty return type of mcd::entites::Player::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:107: warning: documented empty return type of mcd::entites::PlayerAbstraction::lost
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:91: warning: documented empty return type of mcd::entites::PlayerAbstraction::pause
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:81: warning: documented empty return type of mcd::entites::PlayerAbstraction::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:96: warning: documented empty return type of mcd::entites::PlayerAbstraction::resume
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:112: warning: documented empty return type of mcd::entites::PlayerAbstraction::retreive
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:54: warning: documented empty return type of mcd::entites::PlayerAbstraction::setExperience
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:61: warning: documented empty return type of mcd::entites::PlayerAbstraction::setExperienceMax
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:46: warning: documented empty return type of mcd::entites::PlayerAbstraction::setMail
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Stone.hpp:46: warning: documented empty return type of mcd::entites::Stone::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Vegetal.hpp:46: warning: documented empty return type of mcd::entites::Vegetal::printInfos
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:41: warning: Found unknown command '\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:51: warning: Found unknown command '\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:61: warning: Found unknown command '\error'
@@ -131,61 +131,69 @@
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:51: warning: Found unknown command '\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:44: warning: unable to resolve reference to 'mcd::Big\n' for \ref command
 /home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:45: warning: unable to resolve reference to 'mcd::Point\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:50: warning: unable to resolve reference to 'mcd::trio\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:51: warning: unable to resolve reference to 'mcd::quatuor\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:52: warning: unable to resolve reference to 'mcd::stack\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:53: warning: unable to resolve reference to 'mcd::queue\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:54: warning: unable to resolve reference to 'mcd::Contraption\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:55: warning: unable to resolve reference to 'mcd::Object\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:56: warning: unable to resolve reference to 'mcd::Stone\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:57: warning: unable to resolve reference to 'mcd::Entity\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:58: warning: unable to resolve reference to 'mcd::Animal\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:59: warning: unable to resolve reference to 'mcd::Ant\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:60: warning: unable to resolve reference to 'mcd::Vegetal\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:61: warning: unable to resolve reference to 'mcd::Plant\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:62: warning: unable to resolve reference to 'mcd::Mushroom\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:67: warning: unable to resolve reference to 'mcd::bdd\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:68: warning: unable to resolve reference to 'mcd::rng\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:73: warning: unable to resolve reference to 'mcd::Colors\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:74: warning: unable to resolve reference to 'mcd::Direction\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:75: warning: unable to resolve reference to 'mcd::CaractSet\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:76: warning: unable to resolve reference to 'mcd::double64_t\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:77: warning: unable to resolve reference to 'mcd::vector_str\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:78: warning: unable to resolve reference to 'mcd::map_str\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:79: warning: unable to resolve reference to 'mcd::pair_str\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:80: warning: unable to resolve reference to 'mcd::trio_str\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:81: warning: unable to resolve reference to 'mcd::quatuor_str\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:82: warning: unable to resolve reference to 'BIG_E\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:83: warning: unable to resolve reference to 'BIG_PI\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:84: warning: unable to resolve reference to 'line_number\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:85: warning: unable to resolve reference to 'THREADABLE\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:46: warning: unable to resolve reference to 'mcd::PathfindingDijkstra\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:47: warning: unable to resolve reference to 'mcd::Threadable\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:48: warning: unable to resolve reference to 'mcd::trio\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:49: warning: unable to resolve reference to 'mcd::quatuor\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:50: warning: unable to resolve reference to 'mcd::stack\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:51: warning: unable to resolve reference to 'mcd::queue\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:52: warning: unable to resolve reference to 'mcd::vector\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:53: warning: unable to resolve reference to 'mcd::Contraption\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:54: warning: unable to resolve reference to 'mcd::Object\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:55: warning: unable to resolve reference to 'mcd::Stone\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:56: warning: unable to resolve reference to 'mcd::Entity\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:57: warning: unable to resolve reference to 'mcd::Animal\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:58: warning: unable to resolve reference to 'mcd::Ant\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:59: warning: unable to resolve reference to 'mcd::Vegetal\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:60: warning: unable to resolve reference to 'mcd::Plant\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:61: warning: unable to resolve reference to 'mcd::Mushroom\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:62: warning: unable to resolve reference to 'mcd::Player' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:66: warning: unable to resolve reference to 'mcd::bdd\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:67: warning: unable to resolve reference to 'mcd::rnd\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:72: warning: unable to resolve reference to 'mcd::Colors\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:73: warning: unable to resolve reference to 'mcd::Direction\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:74: warning: unable to resolve reference to 'mcd::CaractSet\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:75: warning: unable to resolve reference to 'mcd::double64_t\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:76: warning: unable to resolve reference to 'mcd::vector_str\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:77: warning: unable to resolve reference to 'mcd::map_str\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:78: warning: unable to resolve reference to 'mcd::pair_str\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:79: warning: unable to resolve reference to 'mcd::trio_str\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:80: warning: unable to resolve reference to 'mcd::quatuor_str\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:81: warning: unable to resolve reference to 'BIG_E\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:82: warning: unable to resolve reference to 'BIG_PI\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:83: warning: unable to resolve reference to 'line_number\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:84: warning: unable to resolve reference to 'THREADABLE\n' for \ref command
 /home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:44: warning: unable to resolve reference to 'mcd::Big\n' for \ref command
 /home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:45: warning: unable to resolve reference to 'mcd::Point\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:50: warning: unable to resolve reference to 'mcd::trio\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:51: warning: unable to resolve reference to 'mcd::quatuor\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:52: warning: unable to resolve reference to 'mcd::stack\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:53: warning: unable to resolve reference to 'mcd::queue\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:54: warning: unable to resolve reference to 'mcd::Contraption\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:55: warning: unable to resolve reference to 'mcd::Object\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:56: warning: unable to resolve reference to 'mcd::Stone\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:57: warning: unable to resolve reference to 'mcd::Entity\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:58: warning: unable to resolve reference to 'mcd::Animal\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:59: warning: unable to resolve reference to 'mcd::Ant\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:60: warning: unable to resolve reference to 'mcd::Vegetal\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:61: warning: unable to resolve reference to 'mcd::Plant\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:62: warning: unable to resolve reference to 'mcd::Mushroom\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:67: warning: unable to resolve reference to 'mcd::bdd\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:68: warning: unable to resolve reference to 'mcd::rng\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:73: warning: unable to resolve reference to 'mcd::Colors\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:74: warning: unable to resolve reference to 'mcd::Direction\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:75: warning: unable to resolve reference to 'mcd::CaractSet\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:76: warning: unable to resolve reference to 'mcd::double64_t\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:77: warning: unable to resolve reference to 'mcd::vector_str\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:78: warning: unable to resolve reference to 'mcd::map_str\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:79: warning: unable to resolve reference to 'mcd::pair_str\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:80: warning: unable to resolve reference to 'mcd::trio_str\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:81: warning: unable to resolve reference to 'mcd::quatuor_str\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:82: warning: unable to resolve reference to 'BIG_E\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:83: warning: unable to resolve reference to 'BIG_PI\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:84: warning: unable to resolve reference to 'line_number\n' for \ref command
-/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:85: warning: unable to resolve reference to 'THREADABLE\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:46: warning: unable to resolve reference to 'mcd::PathfindingDijkstra\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:47: warning: unable to resolve reference to 'mcd::Threadable\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:48: warning: unable to resolve reference to 'mcd::trio\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:49: warning: unable to resolve reference to 'mcd::quatuor\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:50: warning: unable to resolve reference to 'mcd::stack\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:51: warning: unable to resolve reference to 'mcd::queue\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:52: warning: unable to resolve reference to 'mcd::vector\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:53: warning: unable to resolve reference to 'mcd::Contraption\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:54: warning: unable to resolve reference to 'mcd::Object\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:55: warning: unable to resolve reference to 'mcd::Stone\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:56: warning: unable to resolve reference to 'mcd::Entity\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:57: warning: unable to resolve reference to 'mcd::Animal\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:58: warning: unable to resolve reference to 'mcd::Ant\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:59: warning: unable to resolve reference to 'mcd::Vegetal\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:60: warning: unable to resolve reference to 'mcd::Plant\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:61: warning: unable to resolve reference to 'mcd::Mushroom\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:62: warning: unable to resolve reference to 'mcd::Player' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:66: warning: unable to resolve reference to 'mcd::bdd\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:67: warning: unable to resolve reference to 'mcd::rnd\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:72: warning: unable to resolve reference to 'mcd::Colors\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:73: warning: unable to resolve reference to 'mcd::Direction\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:74: warning: unable to resolve reference to 'mcd::CaractSet\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:75: warning: unable to resolve reference to 'mcd::double64_t\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:76: warning: unable to resolve reference to 'mcd::vector_str\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:77: warning: unable to resolve reference to 'mcd::map_str\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:78: warning: unable to resolve reference to 'mcd::pair_str\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:79: warning: unable to resolve reference to 'mcd::trio_str\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:80: warning: unable to resolve reference to 'mcd::quatuor_str\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:81: warning: unable to resolve reference to 'BIG_E\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:82: warning: unable to resolve reference to 'BIG_PI\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:83: warning: unable to resolve reference to 'line_number\n' for \ref command
+/home/mathias/Bureau/Algo/C++Tests/C++/doc/mainpage.md:84: warning: unable to resolve reference to 'THREADABLE\n' for \ref command

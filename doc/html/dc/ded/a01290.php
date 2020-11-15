@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::exception Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:33 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('dc/dd5/a01293.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('dc/ded/a01290.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,61 +91,358 @@ $(document).ready(function(){initNavTree('dc/dd5/a01293.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="../../d7/da4/a01287.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Fraction Member List</div>  </div>
+<div class="title">mcd::exception Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a5868b5e5c36d3277d651c3fd731ebe84">denominator</a>() const</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#aff15244127221e0d190260b62caef134">Fraction</a>()</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a9397e2e1fbfba88c48928e5135925f8d">Fraction</a>(double value)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#ac4085029b32d447dfbe9146a3cdf1f67">Fraction</a>(long num, long denom)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a17e4466c06be8e1bff20fe204d4ff110">numerator</a>() const</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a285e38748cb55302c43feab8fa4a29f5">operator double</a>() const</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a189801f68196f20f1c7c7f7580a6ec52">operator!=</a>(const Fraction &amp;a, const Fraction &amp;b) noexcept</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a9803ec99dc9da6df50c872a281a10c14">operator!=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a619d937a957bc1f2516066ebb3501951">operator%</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#ac7373abe86093f315b90682196406a7e">operator%</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a7b6753a02a790ffbb75c36920237167c">operator%=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a43f90dffa8573b6fbc49606f804bc941">operator%=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#aece90dc9d246328147f02da505af1050">operator*</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a37efbd11d27b9c2ba1c832d972c7968a">operator*</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#aae423fa04b3025e509901155241b5402">operator*=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#aa59ee30f1820c21567e2b53edb8bc1d3">operator*=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a0897ad5e88848032ff6570bd83ddbef7">operator+</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a54d794692193c950001c5c85026e6e3b">operator+</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#af066abb5b8fe5db0e0c4ce7d125f0c5e">operator++</a>()</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a76f6e7a0b34f33d8d53bc993b7c0ac89">operator+=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a008c1ea6fdcd24bc97c027c5b91a784c">operator+=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a7a16f5b2182b2752cfbef72018e7636e">operator-</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a50acfed23a831256b8f7bea5e6d2b74b">operator-</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a34e188b2c7100e21fe387855ca963f52">operator--</a>()</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a455683f59112555055fc6c5686a9621a">operator-=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a53b141f48ecc61069385e16cf51524dc">operator-=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a0ffeec4d80502f0173a03d7b3aa361db">operator/</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#aba54bcb1715fcfc8ce7d3a9576447aa2">operator/</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a3379901d123c7d545bd8a4f9ebe48b8e">operator/=</a>(const Fraction &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a4942772dfaef8d5158163f7fcca98b57">operator/=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a4c0588f44c0f24a7cb2fe0d1a4c05ad5">operator&lt;</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#aa9c375ae1a1d2a7eb9feb0eda3440343">operator&lt;</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a9313ed58249557fab9c0b6ab5e5f977f">operator&lt;&lt;</a>(std::ostream &amp;os, const Fraction &amp;frac)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#addda863096fc0bcbe756cc01fd80521f">operator&lt;=</a>(const Fraction &amp;a, const Fraction &amp;b) noexcept</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#add6d3ff26c1c87e2d645ad37e751bdac">operator&lt;=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a300ed85793b7aece141599c82524f8d9">operator==</a>(const Fraction &amp;b) const</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a986f1f323f69858991a54320af44b6a5">operator==</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a2efd99f639b6f6ca4b13c7733a3f2a55">operator&gt;</a>(const Fraction &amp;a, const Fraction &amp;b) noexcept</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a5160d78b6f8e8269aacac56fb50346df">operator&gt;</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#a63aeeec7f8e00c70aa489ba2d3c0ef4c">operator&gt;=</a>(const Fraction &amp;a, const Fraction &amp;b) noexcept</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#ac4dcbd6c3961244afb7bbcb90c5b01da">operator&gt;=</a>(const T &amp;b)</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dd5/a01293.php#abf0eeef8a5b118feaad630e084c15d8e">~Fraction</a>()</td><td class="entry"><a class="el" href="../../dc/dd5/a01293.php">mcd::Fraction</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to call custom exceptions.  
+ <a href="../../dc/ded/a01290.php#details">More...</a></p>
+
+<p><code>#include &lt;exception.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::exception:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/dda/a01289.png" border="0" usemap="#amcd_1_1exception_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1exception_inherit__map" id="mcd_1_1exception_inherit__map">
+<area shape="rect" title="A class to call custom exceptions." alt="" coords="157,81,268,108"/>
+<area shape="rect" href="../../db/d1e/a01126.php" title="An exception thrown by my assert&#39;s implementation." alt="" coords="321,5,489,32"/>
+<area shape="rect" href="../../d6/dfa/a01318.php" title="A class to throw Json exceptions." alt="" coords="335,56,476,83"/>
+<area shape="rect" href="../../d5/da0/a01342.php" title="A class to throw some exceptions for a Matrix instance." alt="" coords="331,107,480,133"/>
+<area shape="rect" href="../../db/d74/a01378.php" title="All exceptions that could be thrown by the pathfinding algorithm." alt="" coords="316,157,495,184"/>
+<area shape="rect" title="STL class." alt="" coords="5,81,109,108"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::exception:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/d8d/a01288.png" border="0" usemap="#amcd_1_1exception_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1exception_coll__map" id="mcd_1_1exception_coll__map">
+<area shape="rect" title="A class to call custom exceptions." alt="" coords="42,185,153,212"/>
+<area shape="rect" title="STL class." alt="" coords="5,96,109,123"/>
+<area shape="rect" title="STL class." alt="" coords="133,96,213,123"/>
+<area shape="rect" title="STL class." alt="" coords="110,5,237,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a2af015139a223dafbf1556911aca048d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ded/a01290.php#a2af015139a223dafbf1556911aca048d">exception</a> () noexcept</td></tr>
+<tr class="memdesc:a2af015139a223dafbf1556911aca048d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../dc/ded/a01290.php#a2af015139a223dafbf1556911aca048d">More...</a><br /></td></tr>
+<tr class="separator:a2af015139a223dafbf1556911aca048d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdb84ab5c36cbf3569727fcf129fb872"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ded/a01290.php#afdb84ab5c36cbf3569727fcf129fb872">exception</a> (const std::string &amp;msg) noexcept</td></tr>
+<tr class="memdesc:afdb84ab5c36cbf3569727fcf129fb872"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../dc/ded/a01290.php#afdb84ab5c36cbf3569727fcf129fb872">More...</a><br /></td></tr>
+<tr class="separator:afdb84ab5c36cbf3569727fcf129fb872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae32a0816168e0f4ff7ba8d688d839dc8"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ded/a01290.php#ae32a0816168e0f4ff7ba8d688d839dc8">~exception</a> () noexcept</td></tr>
+<tr class="separator:ae32a0816168e0f4ff7ba8d688d839dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa83410abcc4449a02ce5835c8ad9bd34"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ded/a01290.php#aa83410abcc4449a02ce5835c8ad9bd34">exception</a> (const <a class="el" href="../../dc/ded/a01290.php">exception</a> &amp;other) noexcept</td></tr>
+<tr class="memdesc:aa83410abcc4449a02ce5835c8ad9bd34"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy constructor of the class.  <a href="../../dc/ded/a01290.php#aa83410abcc4449a02ce5835c8ad9bd34">More...</a><br /></td></tr>
+<tr class="separator:aa83410abcc4449a02ce5835c8ad9bd34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc6b0649cf43073f41f4d1d0617af24d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ded/a01290.php#abc6b0649cf43073f41f4d1d0617af24d">exception</a> (const <a class="el" href="../../dc/ded/a01290.php">exception</a> &amp;&amp;other) noexcept</td></tr>
+<tr class="memdesc:abc6b0649cf43073f41f4d1d0617af24d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The move constructor of the class.  <a href="../../dc/ded/a01290.php#abc6b0649cf43073f41f4d1d0617af24d">More...</a><br /></td></tr>
+<tr class="separator:abc6b0649cf43073f41f4d1d0617af24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab86ac60ef49f2bf978faa24588b32ced"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/ded/a01290.php">exception</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ded/a01290.php#ab86ac60ef49f2bf978faa24588b32ced">operator=</a> (const <a class="el" href="../../dc/ded/a01290.php">exception</a> &amp;other) noexcept</td></tr>
+<tr class="memdesc:ab86ac60ef49f2bf978faa24588b32ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy operator of the class.  <a href="../../dc/ded/a01290.php#ab86ac60ef49f2bf978faa24588b32ced">More...</a><br /></td></tr>
+<tr class="separator:ab86ac60ef49f2bf978faa24588b32ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70ab36f825287dc96ff7fb3517f9b46e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/ded/a01290.php">exception</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ded/a01290.php#a70ab36f825287dc96ff7fb3517f9b46e">operator=</a> (const <a class="el" href="../../dc/ded/a01290.php">exception</a> &amp;&amp;other) noexcept</td></tr>
+<tr class="memdesc:a70ab36f825287dc96ff7fb3517f9b46e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The move operator of the class.  <a href="../../dc/ded/a01290.php#a70ab36f825287dc96ff7fb3517f9b46e">More...</a><br /></td></tr>
+<tr class="separator:a70ab36f825287dc96ff7fb3517f9b46e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04d412a2a5c85d9e16d67539134b419f"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ded/a01290.php#a04d412a2a5c85d9e16d67539134b419f">what</a> () const noexcept</td></tr>
+<tr class="separator:a04d412a2a5c85d9e16d67539134b419f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a8cffcfc2c1a631bee3154a999bf13bf1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ded/a01290.php#a8cffcfc2c1a631bee3154a999bf13bf1">_msg</a></td></tr>
+<tr class="separator:a8cffcfc2c1a631bee3154a999bf13bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to call custom exceptions. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a2af015139a223dafbf1556911aca048d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2af015139a223dafbf1556911aca048d">&#9670;&nbsp;</a></span>exception() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::exception::exception </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+
+</div>
+</div>
+<a id="afdb84ab5c36cbf3569727fcf129fb872"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdb84ab5c36cbf3569727fcf129fb872">&#9670;&nbsp;</a></span>exception() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::exception::exception </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">msg</td><td>The message to see when <a class="el" href="../../dc/ded/a01290.php#a04d412a2a5c85d9e16d67539134b419f">what()</a> is call </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae32a0816168e0f4ff7ba8d688d839dc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae32a0816168e0f4ff7ba8d688d839dc8">&#9670;&nbsp;</a></span>~exception()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::exception::~exception </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa83410abcc4449a02ce5835c8ad9bd34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa83410abcc4449a02ce5835c8ad9bd34">&#9670;&nbsp;</a></span>exception() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::exception::exception </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/ded/a01290.php">exception</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The copy constructor of the class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The class' instance for copying </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abc6b0649cf43073f41f4d1d0617af24d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc6b0649cf43073f41f4d1d0617af24d">&#9670;&nbsp;</a></span>exception() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::exception::exception </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/ded/a01290.php">exception</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The move constructor of the class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The class' instance for moving </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a70ab36f825287dc96ff7fb3517f9b46e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70ab36f825287dc96ff7fb3517f9b46e">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/ded/a01290.php">exception</a>&amp; mcd::exception::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/ded/a01290.php">exception</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The move operator of the class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The class' instance for moving </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab86ac60ef49f2bf978faa24588b32ced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab86ac60ef49f2bf978faa24588b32ced">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/ded/a01290.php">exception</a>&amp; mcd::exception::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/ded/a01290.php">exception</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The copy operator of the class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The class' instance for copying </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a04d412a2a5c85d9e16d67539134b419f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04d412a2a5c85d9e16d67539134b419f">&#9670;&nbsp;</a></span>what()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const char* mcd::exception::what </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8cffcfc2c1a631bee3154a999bf13bf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cffcfc2c1a631bee3154a999bf13bf1">&#9670;&nbsp;</a></span>_msg</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mcd::exception::_msg</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d1/d44/a00098.php">exception.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../dc/ded/a01290.php">exception</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

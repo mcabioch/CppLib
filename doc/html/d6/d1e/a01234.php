@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::console::ThreadEndlCout Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('dc/dab/a01237.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d6/d1e/a01234.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,23 +91,89 @@ $(document).ready(function(){initNavTree('dc/dab/a01237.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d0/d88/a01231.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::console::ThreadCout Member List</div>  </div>
+<div class="title">mcd::console::ThreadEndlCout Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/dab/a01237.php">mcd::console::ThreadCout</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dab/a01237.php#a358d316052544257ab9aee6f1fe762dc">operator&lt;&lt;</a>(ThreadCout &amp;os, T obj)</td><td class="entry"><a class="el" href="../../dc/dab/a01237.php">mcd::console::ThreadCout</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dab/a01237.php#a8b27881bbb3b1a50ddf821d8ce62e4d6">operator&lt;&lt;</a>(ThreadCout &amp;os, ThreadEndlCout &amp;)</td><td class="entry"><a class="el" href="../../dc/dab/a01237.php">mcd::console::ThreadCout</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/dab/a01237.php#a0ab22efba01da7bd7a61446936294cca">ThreadCout</a>()</td><td class="entry"><a class="el" href="../../dc/dab/a01237.php">mcd::console::ThreadCout</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/dab/a01237.php#a00406826de52af9d7753e69e6f674e08">~ThreadCout</a>()</td><td class="entry"><a class="el" href="../../dc/dab/a01237.php">mcd::console::ThreadCout</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to use std::endl in <a class="el" href="../../d8/ddf/a01238.php" title="A class to use std::cout thread safe.">ThreadCout</a>.  
+ <a href="../../d6/d1e/a01234.php#details">More...</a></p>
+
+<p><code>#include &lt;console.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a428f6ae4ecd881bbbb2db0c317f4d210"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d1e/a01234.php#a428f6ae4ecd881bbbb2db0c317f4d210">ThreadEndlCout</a> ()</td></tr>
+<tr class="separator:a428f6ae4ecd881bbbb2db0c317f4d210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eb354777e73153d8afabd8ee1b56657"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d1e/a01234.php#a0eb354777e73153d8afabd8ee1b56657">~ThreadEndlCout</a> ()</td></tr>
+<tr class="separator:a0eb354777e73153d8afabd8ee1b56657"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to use std::endl in <a class="el" href="../../d8/ddf/a01238.php" title="A class to use std::cout thread safe.">ThreadCout</a>. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a428f6ae4ecd881bbbb2db0c317f4d210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a428f6ae4ecd881bbbb2db0c317f4d210">&#9670;&nbsp;</a></span>ThreadEndlCout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::console::ThreadEndlCout::ThreadEndlCout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0eb354777e73153d8afabd8ee1b56657"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eb354777e73153d8afabd8ee1b56657">&#9670;&nbsp;</a></span>~ThreadEndlCout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::console::ThreadEndlCout::~ThreadEndlCout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../de/de1/a00065.php">console.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/d2a/a00270.php">console</a></li><li class="navelem"><a class="el" href="../../d6/d1e/a01234.php">ThreadEndlCout</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

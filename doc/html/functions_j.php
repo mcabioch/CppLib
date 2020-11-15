@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,16 +95,16 @@ $(document).ready(function(){initNavTree('functions_j.php',''); initResizable();
 
 <h3><a id="index_j"></a>- j -</h3><ul>
 <li>j()
-: <a class="el" href="db/dec/a01337.php#adc00ecac929d1e153082d6a61879d4e2">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="d2/d4d/a01338.php#adc00ecac929d1e153082d6a61879d4e2">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>Json()
-: <a class="el" href="de/d90/a01313.php#aa7c169d27c4e904b13ad8ca6fd184109">mcd::Json</a>
+: <a class="el" href="d9/de6/a01314.php#aa7c169d27c4e904b13ad8ca6fd184109">mcd::Json</a>
 </li>
 <li>JsonException()
-: <a class="el" href="df/db8/a01317.php#a95d09c64aa4f7b428ffb410467a01203">mcd::JsonException</a>
+: <a class="el" href="d6/dfa/a01318.php#a95d09c64aa4f7b428ffb410467a01203">mcd::JsonException</a>
 </li>
 <li>JsonType
-: <a class="el" href="de/d90/a01313.php#a3c35d4f54c782ef8b7898a1641eb4666">mcd::Json</a>
+: <a class="el" href="d9/de6/a01314.php#a3c35d4f54c782ef8b7898a1641eb4666">mcd::Json</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:33 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -234,8 +234,8 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5c/a01321.php">mcd::Logger</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to log some messages.  <a href="../../d9/d5c/a01321.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df4/a01322.php">mcd::Logger</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to log some messages.  <a href="../../d5/df4/a01322.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -249,9 +249,9 @@ Macros</h2></td></tr>
 <tr class="separator:ae48c93288111b5c36c6e44117992a8f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7722e7b54e502ab2abf9327c2b80168"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d88/a00128.php#af7722e7b54e502ab2abf9327c2b80168">logReset</a>()&#160;&#160;&#160;logger.reset(__FILE__, __LINE__)</td></tr>
 <tr class="separator:af7722e7b54e502ab2abf9327c2b80168"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46d5e25a59c0c1ab0d7e8fc3812454a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d88/a00128.php#a46d5e25a59c0c1ab0d7e8fc3812454a0">debug_log</a>()&#160;&#160;&#160;<a class="el" href="../../d1/d88/a00128.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d9/d5c/a01321.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger::Debug</a>)</td></tr>
+<tr class="memitem:a46d5e25a59c0c1ab0d7e8fc3812454a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d88/a00128.php#a46d5e25a59c0c1ab0d7e8fc3812454a0">debug_log</a>()&#160;&#160;&#160;<a class="el" href="../../d1/d88/a00128.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d5/df4/a01322.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger::Debug</a>)</td></tr>
 <tr class="separator:a46d5e25a59c0c1ab0d7e8fc3812454a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e44394dedcf599237302e670d0fbd30"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d88/a00128.php#a4e44394dedcf599237302e670d0fbd30">debug_logs</a>(...)&#160;&#160;&#160;<a class="el" href="../../d1/d88/a00128.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d9/d5c/a01321.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger::Debug</a>, __VA_ARGS__)</td></tr>
+<tr class="memitem:a4e44394dedcf599237302e670d0fbd30"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d88/a00128.php#a4e44394dedcf599237302e670d0fbd30">debug_logs</a>(...)&#160;&#160;&#160;<a class="el" href="../../d1/d88/a00128.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d5/df4/a01322.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger::Debug</a>, __VA_ARGS__)</td></tr>
 <tr class="separator:a4e44394dedcf599237302e670d0fbd30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -275,7 +275,7 @@ Last modification : October, 04 2020 </dd></dl>
           <td class="memname">#define debug_log</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d1/d88/a00128.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d9/d5c/a01321.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger::Debug</a>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d1/d88/a00128.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d5/df4/a01322.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger::Debug</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -293,7 +293,7 @@ Last modification : October, 04 2020 </dd></dl>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d1/d88/a00128.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d9/d5c/a01321.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger::Debug</a>, __VA_ARGS__)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d1/d88/a00128.php#ae48c93288111b5c36c6e44117992a8f3">logs</a>(<a class="el" href="../../d5/df4/a01322.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger::Debug</a>, __VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">

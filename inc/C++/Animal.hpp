@@ -10,7 +10,7 @@
 
 #include "Hostile.hpp"
 
-namespace mcd
+namespace mcd::entites
 {
     /*!
      * \class	Animal
@@ -236,6 +236,6 @@ namespace mcd
         std::string _species;
         std::string _specialAttack;
     };
-}   // namespace mcd
+}   // namespace mcd::entites
 
 #endif   // HEADER_CPP_ANIMAL

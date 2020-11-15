@@ -1,7 +1,4 @@
-<map id="mcd::ThreadCout" name="mcd::ThreadCout">
-<area shape="rect" id="node1" title="A class to use std::cout thread safe." alt="" coords="21,319,144,345"/>
-<area shape="rect" id="node2" title="STL class." alt="" coords="35,244,130,271"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="16,155,149,196"/>
-<area shape="rect" id="node4" title="STL class." alt="" coords="5,80,160,107"/>
-<area shape="rect" id="node5" title="STL class." alt="" coords="33,5,133,32"/>
+<map id="mcd::console::Cursor" name="mcd::console::Cursor">
+<area shape="rect" id="node1" title="A class to play with the cursor in the console." alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node2" href="$dc/d25/a01406.php" title="A class to make some other to be abstract class." alt="" coords="19,5,138,32"/>
 </map>

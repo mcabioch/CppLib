@@ -1,6 +1,6 @@
-<map id="mcd::Mushroom" name="mcd::Mushroom">
-<area shape="rect" id="node1" title="A mushroom." alt="" coords="9,229,125,256"/>
-<area shape="rect" id="node2" href="$dc/d60/a01461.php" title="A vegetal." alt="" coords="17,155,116,181"/>
-<area shape="rect" id="node3" href="$d1/d1a/a01285.php" title="An entity." alt="" coords="22,80,111,107"/>
-<area shape="rect" id="node4" href="$d3/d7b/a01249.php" title="A contraption." alt="" coords="5,5,128,32"/>
+<map id="mcd::entites::Mushroom" name="mcd::entites::Mushroom">
+<area shape="rect" id="node1" title="A mushroom." alt="" coords="9,229,171,256"/>
+<area shape="rect" id="node2" href="$de/d36/a01462.php" title="A vegetal." alt="" coords="17,155,163,181"/>
+<area shape="rect" id="node3" href="$d0/d00/a01286.php" title="An entity." alt="" coords="22,80,158,107"/>
+<area shape="rect" id="node4" href="$d4/d22/a01250.php" title="A contraption." alt="" coords="5,5,175,32"/>
 </map>

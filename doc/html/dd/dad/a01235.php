@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">4.0</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 27 2020 18:49:23 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,17 +92,16 @@ $(document).ready(function(){initNavTree('d8/ddf/a01238.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::ConsoleTable Member List</div>  </div>
+<div class="title">mcd::console::ThreadCout Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d8/ddf/a01238.php">mcd::ConsoleTable</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d8/ddf/a01238.php">mcd::console::ThreadCout</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/ddf/a01238.php#acc7af9ad8f4b7175a82acb2edfce15b2">ConsoleTable</a>()</td><td class="entry"><a class="el" href="../../d8/ddf/a01238.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/ddf/a01238.php#a1878d602fe475fb47a2aca063e7cb9d6">headers</a>(std::vector&lt; std::string &gt; h)</td><td class="entry"><a class="el" href="../../d8/ddf/a01238.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/ddf/a01238.php#a3669c41beda1b667738b6e7c42663b29">line</a>(std::vector&lt; std::string &gt; l)</td><td class="entry"><a class="el" href="../../d8/ddf/a01238.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/ddf/a01238.php#aadce47b475851c9d585ee9c21b2cb1ac">lines</a>(std::vector&lt; std::vector&lt; std::string &gt; &gt; ls)</td><td class="entry"><a class="el" href="../../d8/ddf/a01238.php">mcd::ConsoleTable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/ddf/a01238.php#af23c547bfa2b35d582a6922d425d02f5">operator&lt;&lt;</a>(std::ostream &amp;str, ConsoleTable &amp;t)</td><td class="entry"><a class="el" href="../../d8/ddf/a01238.php">mcd::ConsoleTable</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/ddf/a01238.php#a358d316052544257ab9aee6f1fe762dc">operator&lt;&lt;</a>(ThreadCout &amp;os, T obj)</td><td class="entry"><a class="el" href="../../d8/ddf/a01238.php">mcd::console::ThreadCout</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/ddf/a01238.php#a8b27881bbb3b1a50ddf821d8ce62e4d6">operator&lt;&lt;</a>(ThreadCout &amp;os, ThreadEndlCout &amp;)</td><td class="entry"><a class="el" href="../../d8/ddf/a01238.php">mcd::console::ThreadCout</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/ddf/a01238.php#a0ab22efba01da7bd7a61446936294cca">ThreadCout</a>()</td><td class="entry"><a class="el" href="../../d8/ddf/a01238.php">mcd::console::ThreadCout</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/ddf/a01238.php#a00406826de52af9d7753e69e6f674e08">~ThreadCout</a>()</td><td class="entry"><a class="el" href="../../d8/ddf/a01238.php">mcd::console::ThreadCout</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

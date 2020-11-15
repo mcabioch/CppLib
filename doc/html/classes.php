@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -99,166 +99,166 @@ $(document).ready(function(){initNavTree('classes.php',''); initResizable(); });
 <table class="classindex">
 <tr><td rowspan="2" valign="bottom"><a name="letter_a"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;a&#160;&#160;</div></td></tr></table>
 </td>
-<td valign="top"><a class="el" href="d2/d1d/a01277.php">DateTime</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="dc/d81/a01161.php">is_quatuor</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d4/d10/a01278.php">DateTime</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d4/d13/a01162.php">is_quatuor</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_o"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;o&#160;&#160;</div></td></tr></table>
 </td>
-<td valign="top"><a class="el" href="de/d34/a01261.php">SHA2</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d3/d53/a01262.php">SHA2</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 </tr>
 <tr><td rowspan="2" valign="bottom"><a name="letter_e"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;e&#160;&#160;</div></td></tr></table>
 </td>
-<td valign="top"><a class="el" href="d7/daf/a01169.php">is_smatch</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="de/d99/a01101.php">stack</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d3/dc7/a01170.php">is_smatch</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d4/da7/a01102.php">stack</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="d3/dc4/a01089.php">Animal</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="de/d61/a01205.php">is_special_struct</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="df/d10/a01357.php">Object</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="de/daf/a01417.php">Stone</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="da/d73/a01090.php">Animal</a> (<a class="el" href="d5/d42/a00269.php">mcd::entites</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="dc/d9e/a01206.php">is_special_struct</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="de/d5c/a01358.php">Object</a> (<a class="el" href="d5/d42/a00269.php">mcd::entites</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d4/d3c/a01418.php">Stone</a> (<a class="el" href="d5/d42/a00269.php">mcd::entites</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="de/d1c/a01093.php">Ant</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d1/d1a/a01285.php">Entity</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d8/d92/a01165.php">is_string</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="d6/dea/a01094.php">Ant</a> (<a class="el" href="d5/d42/a00269.php">mcd::entites</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d0/d00/a01286.php">Entity</a> (<a class="el" href="d5/d42/a00269.php">mcd::entites</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="dc/dee/a01166.php">is_string</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_p"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;p&#160;&#160;</div></td></tr></table>
 </td>
 <td rowspan="2" valign="bottom"><a name="letter_t"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;t&#160;&#160;</div></td></tr></table>
 </td>
 </tr>
-<tr><td valign="top"><a class="el" href="d1/dfa/a01097.php">Arguments</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d9/dda/a01289.php">exception</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="dc/df4/a01401.php">is_thread_ptr</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="d5/d17/a01098.php">Arguments</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="dc/ded/a01290.php">exception</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d0/dc7/a01402.php">is_thread_ptr</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="dd/de4/a01121.php">Assert</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="db/d32/a01122.php">Assert</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_f"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;f&#160;&#160;</div></td></tr></table>
 </td>
-<td valign="top"><a class="el" href="d9/d25/a01157.php">is_trio</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d7/d81/a01365.php">Path</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d8/ded/a01113.php">t_queue</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="df/db5/a01158.php">is_trio</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d6/dfe/a01366.php">Path</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d6/d40/a01114.php">t_queue</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="d6/dc4/a01125.php">AssertionException</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d9/d65/a01145.php">is_vector</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d1/d17/a01369.php">Pathfinding</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="de/d1d/a01105.php">t_stack</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="db/d1e/a01126.php">AssertionException</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="de/d07/a01146.php">is_vector</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d8/dbe/a01370.php">Pathfinding</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="da/d4e/a01106.php">t_stack</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="db/d12/a00268.php#d6/d8b/a01117">AssertionLocationStruct</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="dc/dd5/a01293.php">Fraction</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="db/d12/a00268.php#dd/d09/a01118">AssertionLocationStruct</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d7/d88/a01294.php">Fraction</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_j"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;j&#160;&#160;</div></td></tr></table>
 </td>
-<td valign="top"><a class="el" href="d7/d38/a01373.php">PathfindingDijkstra</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d4/d20/a01421.php">Test</a> (<a class="el" href="d0/d19/a00273.php">mcd::tests</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d2/dff/a01374.php">PathfindingDijkstra</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d1/df4/a01422.php">Test</a> (<a class="el" href="dd/d56/a00274.php">mcd::tests</a>)&#160;&#160;&#160;</td>
 </tr>
 <tr><td rowspan="2" valign="bottom"><a name="letter_b"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;b&#160;&#160;</div></td></tr></table>
 </td>
 <td rowspan="2" valign="bottom"><a name="letter_g"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;g&#160;&#160;</div></td></tr></table>
 </td>
-<td valign="top"><a class="el" href="d3/dea/a01377.php">PathfindingException</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="db/df2/a01425.php">Threadable</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="db/d74/a01378.php">PathfindingException</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="dc/de6/a01426.php">Threadable</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="de/d90/a01313.php">Json</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d2/d1f/a01361.php">PathfindingNode</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="dc/dab/a01237.php">ThreadCout</a> (<a class="el" href="d5/d42/a00269.php">mcd::console</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="d9/de6/a01314.php">Json</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="da/dab/a01362.php">PathfindingNode</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d8/ddf/a01238.php">ThreadCout</a> (<a class="el" href="d9/d2a/a00270.php">mcd::console</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="d9/d17/a01129.php">Big</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="dc/d8c/a01297.php">Gene</a> (<a class="el" href="d9/d2a/a00270.php">mcd::natural</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="df/db8/a01317.php">JsonException</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="da/d77/a01381.php">PathfindingProblem</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d6/da1/a01233.php">ThreadEndlCout</a> (<a class="el" href="d5/d42/a00269.php">mcd::console</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="d0/d61/a01130.php">Big</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d4/d34/a01298.php">Gene</a> (<a class="el" href="dd/d86/a00271.php">mcd::natural</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d6/dfa/a01318.php">JsonException</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="de/d9d/a01382.php">PathfindingProblem</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d6/d1e/a01234.php">ThreadEndlCout</a> (<a class="el" href="d9/d2a/a00270.php">mcd::console</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="db/d12/a00268.php#db/d28/a01133">Binary</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="db/d12/a00268.php#dd/de2/a01134">Binary</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_h"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;h&#160;&#160;</div></td></tr></table>
 </td>
 <td rowspan="2" valign="bottom"><a name="letter_l"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;l&#160;&#160;</div></td></tr></table>
 </td>
-<td valign="top"><a class="el" href="df/d68/a01385.php">Plant</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d1/d3b/a01429.php">Time</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d3/deb/a01386.php">Plant</a> (<a class="el" href="d5/d42/a00269.php">mcd::entites</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d8/dd0/a01430.php">Time</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="d6/d6e/a01137.php">Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d0/d95/a01389.php">Player</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d2/d9b/a01433.php">Timer</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="d0/d39/a01138.php">Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d5/d8e/a01390.php">Player</a> (<a class="el" href="d5/d42/a00269.php">mcd::entites</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d1/de7/a01434.php">Timer</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 </tr>
 <tr><td rowspan="2" valign="bottom"><a name="letter_c"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;c&#160;&#160;</div></td></tr></table>
 </td>
-<td valign="top"><a class="el" href="d3/d10/a01189.php">has_istream_operator</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d9/d5c/a01321.php">Logger</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d3/d92/a01393.php">PlayerAbstraction</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d5/df9/a01441.php">Tree</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="dc/d19/a01190.php">has_istream_operator</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d5/df4/a01322.php">Logger</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d6/d2f/a01394.php">PlayerAbstraction</a> (<a class="el" href="d5/d42/a00269.php">mcd::entites</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d0/de2/a01442.php">Tree</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="de/db5/a01181.php">has_ostream_operator</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="dd/de9/a01182.php">has_ostream_operator</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_m"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;m&#160;&#160;</div></td></tr></table>
 </td>
-<td valign="top"><a class="el" href="d9/dae/a01453.php">Point</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="db/d12/a00268.php#d9/d6f/a01445">trio</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="da/df6/a01454.php">Point</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="db/d12/a00268.php#d8/d22/a01446">trio</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="de/df6/a01141.php">Cell</a> (<a class="el" href="d9/d2a/a00270.php">mcd::natural</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="dc/d98/a01177.php">has_size_method</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d4/d1a/a01405.php">PureVirtual</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="d3/ddc/a01142.php">Cell</a> (<a class="el" href="dd/d86/a00271.php">mcd::natural</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d8/d11/a01178.php">has_size_method</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="dc/d25/a01406.php">PureVirtual</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_v"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;v&#160;&#160;</div></td></tr></table>
 </td>
 </tr>
-<tr><td valign="top"><a class="el" href="d9/de7/a01257.php">Cesar</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d3/d07/a01301.php">Hostile</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="dc/d2a/a01333.php">Map</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="da/da1/a01258.php">Cesar</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="dc/de0/a01302.php">Hostile</a> (<a class="el" href="d5/d42/a00269.php">mcd::entites</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d4/dd1/a01334.php">Map</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_q"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;q&#160;&#160;</div></td></tr></table>
 </td>
 </tr>
-<tr><td valign="top"><a class="el" href="de/d04/a01209.php">Chromosome</a> (<a class="el" href="d9/d2a/a00270.php">mcd::natural</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="d2/da6/a01210.php">Chromosome</a> (<a class="el" href="dd/d86/a00271.php">mcd::natural</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_i"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;i&#160;&#160;</div></td></tr></table>
 </td>
-<td valign="top"><a class="el" href="db/d12/a00268.php#df/d29/a01329">MapMove</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="da/df7/a01457.php">vector</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="db/d12/a00268.php#d5/d78/a01330">MapMove</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d7/dd1/a01458.php">vector</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="d5/d54/a01213.php">Clock</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="db/dec/a01337.php">Matrix</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="db/d12/a00268.php#d2/d95/a01449">quatuor</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="dc/d60/a01461.php">Vegetal</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="d5/d32/a01214.php">Clock</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d2/d4d/a01338.php">Matrix</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="db/d12/a00268.php#d3/da3/a01450">quatuor</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="de/d36/a01462.php">Vegetal</a> (<a class="el" href="d5/d42/a00269.php">mcd::entites</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="d8/d53/a01225.php">Cls</a> (<a class="el" href="d5/d42/a00269.php">mcd::console</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="dc/d9e/a01305.php">Identifier</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="de/da0/a01341.php">MatrixException</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d8/dbf/a01109.php">queue</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="dd/d9e/a01226.php">Cls</a> (<a class="el" href="d9/d2a/a00270.php">mcd::console</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d7/d8c/a01306.php">Identifier</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d5/da0/a01342.php">MatrixException</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d1/d3d/a01110.php">queue</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_w"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;w&#160;&#160;</div></td></tr></table>
 </td>
 </tr>
-<tr><td valign="top"><a class="el" href="da/d19/a01217.php">Color</a> (<a class="el" href="d5/d42/a00269.php">mcd::console</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="db/d4b/a01309.php">IOConfig</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d4/deb/a01345.php">Mushroom</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="d8/d15/a01218.php">Color</a> (<a class="el" href="d9/d2a/a00270.php">mcd::console</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="da/d79/a01310.php">IOConfig</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d9/de4/a01346.php">Mushroom</a> (<a class="el" href="d5/d42/a00269.php">mcd::entites</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_r"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;r&#160;&#160;</div></td></tr></table>
 </td>
 </tr>
-<tr><td valign="top"><a class="el" href="d1/d31/a01245.php">ConsoleTable</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d8/d02/a01149.php">is_array</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="da/dd8/a01265.php">MyCrypt</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="db/d12/a00268.php#dd/d5d/a01325">WorldDimensions</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="d7/d04/a01246.php">ConsoleTable</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d2/d7b/a01150.php">is_array</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d7/d73/a01266.php">MyCrypt</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="db/d12/a00268.php#d1/d54/a01326">WorldDimensions</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="d3/d7b/a01249.php">Contraption</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d7/d0c/a01173.php">is_duration</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="d4/d22/a01250.php">Contraption</a> (<a class="el" href="d5/d42/a00269.php">mcd::entites</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="da/dfb/a01174.php">is_duration</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_n"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;n&#160;&#160;</div></td></tr></table>
 </td>
-<td valign="top"><a class="el" href="d9/d6e/a01409.php">Referenced</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d8/d01/a01410.php">Referenced</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 <td></td></tr>
-<tr><td valign="top"><a class="el" href="db/d12/a00268.php#d5/d6f/a01281">ContraptionAttr</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d7/d1c/a01397.php">is_minded_ptr</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="dd/d3f/a01221.php">Reinit</a> (<a class="el" href="d5/d42/a00269.php">mcd::console</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="db/d12/a00268.php#d8/d17/a01282">ContraptionAttr</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="da/de3/a01398.php">is_minded_ptr</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="de/d7e/a01222.php">Reinit</a> (<a class="el" href="d9/d2a/a00270.php">mcd::console</a>)&#160;&#160;&#160;</td>
 <td></td></tr>
-<tr><td valign="top"><a class="el" href="d3/d0b/a01253.php">Crypto</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="de/df7/a01201.php">is_object</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="db/d12/a00268.php#d9/db0/a01437">Node</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d7/d68/a01413.php">RND</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="dc/d83/a01254.php">Crypto</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d4/d5d/a01202.php">is_object</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="db/d12/a00268.php#d5/dd0/a01438">Node</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d8/df1/a01414.php">RND</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 <td></td></tr>
-<tr><td valign="top"><a class="el" href="db/d1c/a01229.php">Cursor</a> (<a class="el" href="d5/d42/a00269.php">mcd::console</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="dc/d06/a01153.php">is_pair</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="de/d6c/a01349.php">NotCopyable</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d6/d16/a01269.php">RSA</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="d0/d58/a01230.php">Cursor</a> (<a class="el" href="d9/d2a/a00270.php">mcd::console</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d5/d16/a01154.php">is_pair</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="da/d61/a01350.php">NotCopyable</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="da/d00/a01270.php">RSA</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 <td></td></tr>
 <tr><td rowspan="2" valign="bottom"><a name="letter_d"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;d&#160;&#160;</div></td></tr></table>
 </td>
-<td valign="top"><a class="el" href="d4/d10/a01197.php">is_printable</a> (<a class="el" href="d9/dd6/a00272.php">mcd::check</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d4/dad/a01353.php">NotInstantiable</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d0/d32/a01198.php">is_printable</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d7/dc4/a01354.php">NotInstantiable</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_s"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;s&#160;&#160;</div></td></tr></table>
 </td>
 <td></td></tr>
 <tr><td></td><td></td><td></td></tr>
-<tr><td valign="top"><a class="el" href="de/d85/a01273.php">Date</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td></td><td></td><td valign="top"><a class="el" href="d3/d07/a01241.php">SetPrecision</a> (<a class="el" href="d5/d42/a00269.php">mcd::console</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="de/d33/a01274.php">Date</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
+<td></td><td></td><td valign="top"><a class="el" href="d7/dc5/a01242.php">SetPrecision</a> (<a class="el" href="d9/d2a/a00270.php">mcd::console</a>)&#160;&#160;&#160;</td>
 <td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
 </table>

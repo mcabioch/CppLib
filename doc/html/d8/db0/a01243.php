@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">4.0</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 27 2020 18:49:23 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,18 +92,17 @@ $(document).ready(function(){initNavTree('d7/d04/a01246.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Crypto Member List</div>  </div>
+<div class="title">mcd::ConsoleTable Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d7/d04/a01246.php">mcd::Crypto</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d7/d04/a01246.php">mcd::ConsoleTable</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/d04/a01246.php#a2949148382033667a765326066311f21">crypt</a>(const std::string &amp;message)=0</td><td class="entry"><a class="el" href="../../d7/d04/a01246.php">mcd::Crypto</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/d04/a01246.php#a3f598383428868a9f69502e5de031ea5">Crypto</a>()</td><td class="entry"><a class="el" href="../../d7/d04/a01246.php">mcd::Crypto</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/d04/a01246.php#a4d131065e81529530b7907ba397af30d">decrypt</a>(const std::string &amp;message)=0</td><td class="entry"><a class="el" href="../../d7/d04/a01246.php">mcd::Crypto</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d4d/a01338.php#aa40da048522b578e9c2cc9f73c1a0d92">NotCopyable</a>()</td><td class="entry"><a class="el" href="../../d2/d4d/a01338.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/d04/a01246.php#a16276f74e2eac6b2174d06361791f056">~Crypto</a>()</td><td class="entry"><a class="el" href="../../d7/d04/a01246.php">mcd::Crypto</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d4d/a01338.php#a5efcd02383468e37e9c960f3d6f9d14c">~NotCopyable</a>()</td><td class="entry"><a class="el" href="../../d2/d4d/a01338.php">mcd::NotCopyable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d04/a01246.php#acc7af9ad8f4b7175a82acb2edfce15b2">ConsoleTable</a>()</td><td class="entry"><a class="el" href="../../d7/d04/a01246.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d04/a01246.php#a1878d602fe475fb47a2aca063e7cb9d6">headers</a>(std::vector&lt; std::string &gt; h)</td><td class="entry"><a class="el" href="../../d7/d04/a01246.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d04/a01246.php#a3669c41beda1b667738b6e7c42663b29">line</a>(std::vector&lt; std::string &gt; l)</td><td class="entry"><a class="el" href="../../d7/d04/a01246.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d04/a01246.php#aadce47b475851c9d585ee9c21b2cb1ac">lines</a>(std::vector&lt; std::vector&lt; std::string &gt; &gt; ls)</td><td class="entry"><a class="el" href="../../d7/d04/a01246.php">mcd::ConsoleTable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d04/a01246.php#af23c547bfa2b35d582a6922d425d02f5">operator&lt;&lt;</a>(std::ostream &amp;str, ConsoleTable &amp;t)</td><td class="entry"><a class="el" href="../../d7/d04/a01246.php">mcd::ConsoleTable</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

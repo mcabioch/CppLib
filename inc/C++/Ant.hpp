@@ -10,7 +10,7 @@
 
 #include "Animal.hpp"
 
-namespace mcd
+namespace mcd::entites
 {
     /*!
      * \class	Ant
@@ -81,6 +81,6 @@ namespace mcd
         double64_t _stone;
         double64_t _stoneMax;
     };
-}   // namespace mcd
+}   // namespace mcd::entites
 
 #endif   // HEADER_CPP_ANT

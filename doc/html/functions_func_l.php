@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,38 +95,38 @@ $(document).ready(function(){initNavTree('functions_func_l.php',''); initResizab
 
 <h3><a id="index_l"></a>- l -</h3><ul>
 <li>launch()
-: <a class="el" href="db/df2/a01425.php#a1eb0985252b04c90761f92432ef4216d">mcd::Threadable&lt; C &gt;</a>
-, <a class="el" href="d2/d9b/a01433.php#a5481e4eda9e262899416b01090b9a4a4">mcd::Timer</a>
+: <a class="el" href="dc/de6/a01426.php#a1eb0985252b04c90761f92432ef4216d">mcd::Threadable&lt; C &gt;</a>
+, <a class="el" href="d1/de7/a01434.php#a5481e4eda9e262899416b01090b9a4a4">mcd::Timer</a>
 </li>
 <li>launched()
-: <a class="el" href="db/df2/a01425.php#a156911948e5f5d2d5eeb0922ee3bd86d">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="dc/de6/a01426.php#a156911948e5f5d2d5eeb0922ee3bd86d">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>left()
-: <a class="el" href="d9/dae/a01453.php#a91941563ecc020a510832ba8869e5ded">mcd::Point</a>
+: <a class="el" href="da/df6/a01454.php#a91941563ecc020a510832ba8869e5ded">mcd::Point</a>
 </li>
 <li>length()
-: <a class="el" href="d7/d81/a01365.php#a2ae56317713ca93848b0c47bc401cbf4">mcd::Path</a>
+: <a class="el" href="d6/dfe/a01366.php#a2ae56317713ca93848b0c47bc401cbf4">mcd::Path</a>
 </li>
 <li>line()
-: <a class="el" href="d1/d31/a01245.php#a3669c41beda1b667738b6e7c42663b29">mcd::ConsoleTable</a>
+: <a class="el" href="d7/d04/a01246.php#a3669c41beda1b667738b6e7c42663b29">mcd::ConsoleTable</a>
 </li>
 <li>lines()
-: <a class="el" href="d1/d31/a01245.php#aadce47b475851c9d585ee9c21b2cb1ac">mcd::ConsoleTable</a>
+: <a class="el" href="d7/d04/a01246.php#aadce47b475851c9d585ee9c21b2cb1ac">mcd::ConsoleTable</a>
 </li>
 <li>load()
-: <a class="el" href="dc/d2a/a01333.php#aaaa0863e1b2dfa4b35f6b5582d26798c">mcd::Map</a>
+: <a class="el" href="d4/dd1/a01334.php#aaaa0863e1b2dfa4b35f6b5582d26798c">mcd::Map</a>
 </li>
 <li>log()
-: <a class="el" href="d9/d5c/a01321.php#a2cb99172e98a89e45fdcb9b394eea99e">mcd::Logger</a>
+: <a class="el" href="d5/df4/a01322.php#a2cb99172e98a89e45fdcb9b394eea99e">mcd::Logger</a>
 </li>
 <li>Logger()
-: <a class="el" href="d9/d5c/a01321.php#a189cdd6486b23632d014a2e795ed8e13">mcd::Logger</a>
-</li>
-<li>Lost()
-: <a class="el" href="d3/dea/a01377.php#a933816a487769eec830729b051d0fbcd">mcd::PathfindingException</a>
+: <a class="el" href="d5/df4/a01322.php#a189cdd6486b23632d014a2e795ed8e13">mcd::Logger</a>
 </li>
 <li>lost()
-: <a class="el" href="d3/d92/a01393.php#a7582710c11a7b92d9912f414a5296975">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#a83e2e836f3307aad21dae7c8764d76df">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+</li>
+<li>Lost()
+: <a class="el" href="db/d74/a01378.php#a933816a487769eec830729b051d0fbcd">mcd::PathfindingException</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -1,4 +1,5 @@
-<map id="mcd::PureVirtual" name="mcd::PureVirtual">
-<area shape="rect" id="node1" title="A class to make some other to be abstract class." alt="" coords="17,5,136,32"/>
-<area shape="rect" id="node2" href="$de/d7e/a01222.php" title="A class to play with the cursor in the console." alt="" coords="5,80,148,107"/>
+<map id="mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;" name="mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;">
+<area shape="rect" id="node1" title="A player that can be a child from any class." alt="" coords="5,80,211,121"/>
+<area shape="rect" id="node3" href="$d5/d8e/a01390.php" title="A player that can be a child from any class." alt="" coords="39,169,177,211"/>
+<area shape="rect" id="node2" title=" " alt="" coords="59,5,157,32"/>
 </map>

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('namespacemembers_type.php',''); initRe
 <div class="contents">
 &#160;<ul>
 <li>Chromosomes
-: <a class="el" href="d9/d2a/a00270.php#a188924fe6c7007fd322ebe9ece4bb4b6">mcd::natural</a>
+: <a class="el" href="dd/d86/a00271.php#a188924fe6c7007fd322ebe9ece4bb4b6">mcd::natural</a>
 </li>
 <li>double32_t
 : <a class="el" href="db/d12/a00268.php#a6982966fec37b802e584caec858e2e29">mcd</a>
@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('namespacemembers_type.php',''); initRe
 : <a class="el" href="db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">mcd</a>
 </li>
 <li>Genes
-: <a class="el" href="d9/d2a/a00270.php#aed19377fb7721df1a451d93af0c19950">mcd::natural</a>
+: <a class="el" href="dd/d86/a00271.php#aed19377fb7721df1a451d93af0c19950">mcd::natural</a>
 </li>
 <li>map_str
 : <a class="el" href="db/d12/a00268.php#ab3aa994c4b6d9eccce0cf840e6c0a731">mcd</a>

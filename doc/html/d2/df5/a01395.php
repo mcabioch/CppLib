@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">4.0</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 27 2020 18:49:23 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,14 +92,13 @@ $(document).ready(function(){initNavTree('da/de3/a01398.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Referenced&lt; C &gt; Member List</div>  </div>
+<div class="title">mcd::check::is_minded_ptr&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../da/de3/a01398.php">mcd::Referenced&lt; C &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../da/de3/a01398.php">mcd::check::is_minded_ptr&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../da/de3/a01398.php#a3aadcf63bff72dd8c87f4c1d7a3bd240">_her</a></td><td class="entry"><a class="el" href="../../da/de3/a01398.php">mcd::Referenced&lt; C &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/de3/a01398.php#a23a4eee18708dae4eff05079a345c375">Referenced</a>(C *her)</td><td class="entry"><a class="el" href="../../da/de3/a01398.php">mcd::Referenced&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/de3/a01398.php#aff70feb3e5edb30ae2da2cef6b143050">value</a></td><td class="entry"><a class="el" href="../../da/de3/a01398.php">mcd::check::is_minded_ptr&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

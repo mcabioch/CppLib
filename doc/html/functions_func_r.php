@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,47 +95,47 @@ $(document).ready(function(){initNavTree('functions_func_r.php',''); initResizab
 
 <h3><a id="index_r"></a>- r -</h3><ul>
 <li>Referenced()
-: <a class="el" href="d9/d6e/a01409.php#a23a4eee18708dae4eff05079a345c375">mcd::Referenced&lt; C &gt;</a>
+: <a class="el" href="d8/d01/a01410.php#a23a4eee18708dae4eff05079a345c375">mcd::Referenced&lt; C &gt;</a>
 </li>
 <li>Reinit()
-: <a class="el" href="dd/d3f/a01221.php#a9401ce9fc4468304235d6d2b2b87b7b7">mcd::console::Reinit</a>
+: <a class="el" href="de/d7e/a01222.php#a9401ce9fc4468304235d6d2b2b87b7b7">mcd::console::Reinit</a>
 </li>
 <li>reset()
-: <a class="el" href="de/d85/a01273.php#a22f293eaa9698511e9657c60ee1557f7">mcd::Date</a>
-, <a class="el" href="d9/d5c/a01321.php#a9351097884f74c914c92bd982e70d159">mcd::Logger</a>
-, <a class="el" href="d7/d81/a01365.php#a6941e224d3239f1c5aeda5b309aa5c81">mcd::Path</a>
-, <a class="el" href="d1/d3b/a01429.php#a94d4610fef5db9db60ca31d7d64230dc">mcd::Time</a>
+: <a class="el" href="de/d33/a01274.php#a22f293eaa9698511e9657c60ee1557f7">mcd::Date</a>
+, <a class="el" href="d5/df4/a01322.php#a9351097884f74c914c92bd982e70d159">mcd::Logger</a>
+, <a class="el" href="d6/dfe/a01366.php#a6941e224d3239f1c5aeda5b309aa5c81">mcd::Path</a>
+, <a class="el" href="d8/dd0/a01430.php#a94d4610fef5db9db60ca31d7d64230dc">mcd::Time</a>
 </li>
 <li>resetSim()
-: <a class="el" href="dc/d2a/a01333.php#ac8ecf45b42aed2736d04081639b460f6">mcd::Map</a>
+: <a class="el" href="d4/dd1/a01334.php#ac8ecf45b42aed2736d04081639b460f6">mcd::Map</a>
 </li>
 <li>restart()
-: <a class="el" href="d5/d54/a01213.php#a3008b7b555fb4e6c3415aec152b5de2d">mcd::Clock</a>
-, <a class="el" href="d2/d9b/a01433.php#affd1240db762eb2d3f125bfdda4aa990">mcd::Timer</a>
+: <a class="el" href="d5/d32/a01214.php#a3008b7b555fb4e6c3415aec152b5de2d">mcd::Clock</a>
+, <a class="el" href="d1/de7/a01434.php#affd1240db762eb2d3f125bfdda4aa990">mcd::Timer</a>
 </li>
 <li>restore()
-: <a class="el" href="db/d1c/a01229.php#a5b1fc7215725e4cd22e95de9530e33ae">mcd::console::Cursor</a>
+: <a class="el" href="d0/d58/a01230.php#a5b1fc7215725e4cd22e95de9530e33ae">mcd::console::Cursor</a>
 </li>
 <li>resume()
-: <a class="el" href="d3/d92/a01393.php#a4670bc4130ffbdd8fd198ab020a7ffe3">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#a3a50950ebd7b7d7b8aafc837e2e82fc4">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>retreive()
-: <a class="el" href="d3/d92/a01393.php#ac4a98e2f186ed9702f90362a158a9f2f">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#a16b903c670697eda870a60418d814a02">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>reverse()
-: <a class="el" href="d7/d81/a01365.php#a1fb9d6aad58d7817692168eaea307a14">mcd::Path</a>
+: <a class="el" href="d6/dfe/a01366.php#a1fb9d6aad58d7817692168eaea307a14">mcd::Path</a>
 </li>
 <li>right()
-: <a class="el" href="d9/dae/a01453.php#a613a9be49ee0cbe55e10e75db1d59faa">mcd::Point</a>
+: <a class="el" href="da/df6/a01454.php#a613a9be49ee0cbe55e10e75db1d59faa">mcd::Point</a>
 </li>
 <li>RND()
-: <a class="el" href="d7/d68/a01413.php#a9d494692c2cb71271b80547507e5ec7f">mcd::RND&lt; T, U &gt;</a>
+: <a class="el" href="d8/df1/a01414.php#a9d494692c2cb71271b80547507e5ec7f">mcd::RND&lt; T, U &gt;</a>
 </li>
 <li>RSA()
-: <a class="el" href="d6/d16/a01269.php#a022907735103df44ce25774a289cede1">mcd::RSA</a>
+: <a class="el" href="da/d00/a01270.php#a022907735103df44ce25774a289cede1">mcd::RSA</a>
 </li>
 <li>run()
-: <a class="el" href="d4/d20/a01421.php#a92521447188f0264d12256d3d2d8306d">mcd::tests::Test</a>
+: <a class="el" href="d1/df4/a01422.php#a92521447188f0264d12256d3d2d8306d">mcd::tests::Test</a>
 </li>
 </ul>
 </div><!-- contents -->

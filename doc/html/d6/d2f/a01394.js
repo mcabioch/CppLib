@@ -1,6 +1,25 @@
 var a01394 =
 [
-    [ "PureVirtual", "d6/d2f/a01394.php#ab67f25d69c1686f95be6fbfcc4ac4663", null ],
-    [ "~PureVirtual", "d6/d2f/a01394.php#acb8cb10e007f7c5f6ac757843a212598", null ],
-    [ "PureVirtualMethod", "d6/d2f/a01394.php#a1885fa694cc2d28cb55186fb3b53615d", null ]
+    [ "PlayerAbstraction", "d6/d2f/a01394.php#a47977a0a11ad6cd2dae46227762c527f", null ],
+    [ "~PlayerAbstraction", "d6/d2f/a01394.php#a5b25a947432afa9f436f4c78e68a52ba", null ],
+    [ "getExperience", "d6/d2f/a01394.php#a9e6e7cb33567b77cf06fb17b622dab93", null ],
+    [ "getExperienceMax", "d6/d2f/a01394.php#a0dae7daec87f344c41179d80f3535bd0", null ],
+    [ "getMail", "d6/d2f/a01394.php#ac73e50383e85f5543aa8f1c204c06682", null ],
+    [ "isInit", "d6/d2f/a01394.php#a43ee69adf9e63ae8f71a16699b6323bd", null ],
+    [ "isLost", "d6/d2f/a01394.php#a4095220ed3a0268473fb9dfd3c5c9cbd", null ],
+    [ "isPaused", "d6/d2f/a01394.php#ab95816ad378985d8598b58fb57573407", null ],
+    [ "lost", "d6/d2f/a01394.php#a83e2e836f3307aad21dae7c8764d76df", null ],
+    [ "pause", "d6/d2f/a01394.php#adb28529726c63337991f7b5bfe35b10e", null ],
+    [ "printInfos", "d6/d2f/a01394.php#a3d8d09f4b8b3826b8c0378c129ba92d0", null ],
+    [ "resume", "d6/d2f/a01394.php#a3a50950ebd7b7d7b8aafc837e2e82fc4", null ],
+    [ "retreive", "d6/d2f/a01394.php#a16b903c670697eda870a60418d814a02", null ],
+    [ "setExperience", "d6/d2f/a01394.php#aca8a8236c55827db0c6a05cee13fd338", null ],
+    [ "setExperienceMax", "d6/d2f/a01394.php#a1016fd6fbfb96881557dbb1abaf8cf36", null ],
+    [ "setMail", "d6/d2f/a01394.php#a89e90bcb61e85472a85eddfe4e783abb", null ],
+    [ "_experience", "d6/d2f/a01394.php#ab708b2bd6d4303f29965f903a06d3304", null ],
+    [ "_experienceMax", "d6/d2f/a01394.php#acc70fa2f20e92d7bf3230f1de10be4b5", null ],
+    [ "_init", "d6/d2f/a01394.php#abe5985edd12d80f67185486bcd9f753a", null ],
+    [ "_losted", "d6/d2f/a01394.php#ab186de0cd69c729d798643a81b914521", null ],
+    [ "_mail", "d6/d2f/a01394.php#ab92c40969f625df21f04be64609c3ede", null ],
+    [ "_paused", "d6/d2f/a01394.php#a73deace93ea6e31f1f09516b1e07d229", null ]
 ];

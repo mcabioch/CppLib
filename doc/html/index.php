@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -166,9 +166,9 @@ Objects</h2>
 </li>
 <li>mcd::Point<br  />
 </li>
-<li>PathfindingDijkstra<br  />
+<li>mcd::PathfindingDijkstra<br  />
 </li>
-<li>Threadable<br  />
+<li>mcd::Threadable<br  />
 </li>
 <li>mcd::trio<br  />
 </li>
@@ -177,6 +177,8 @@ Objects</h2>
 <li>mcd::stack<br  />
 </li>
 <li>mcd::queue<br  />
+</li>
+<li>mcd::vector<br  />
 </li>
 <li>mcd::Contraption<br  />
 <ul>
@@ -204,14 +206,14 @@ Objects</h2>
 </li>
 </ul>
 </li>
-<li><a class="el" href="d0/d95/a01389.php">mcd::Player</a></li>
+<li>mcd::Player</li>
 </ul>
 </li>
 </ul>
 <h2><a class="anchor" id="imp_sec_var_subsec"></a>
 Variables</h2>
 <p>mcd::bdd<br  />
- mcd::rng<br  />
+ mcd::rnd<br  />
  <a class="el" href="db/d12/a00268.php#aa0ce198f34851e093bbc38dfd975e339">mcd::sha2</a></p>
 <h2><a class="anchor" id="imp_sec_def_subsec"></a>
 Structures &amp; Defines</h2>
@@ -234,10 +236,10 @@ Functions</h2>
 <p><a class="el" href="db/d12/a00268.php#ae44c2e346da18a7424d97535fb654448" title="Return true if the file exists.">mcd::fileExists(const std::string&amp; path)</a><br  />
 <a class="el" href="db/d12/a00268.php#a176933d706495ddff7385a68319e7169" title="Compute the checksum number.">mcd::luhn(const std::string&amp; num)</a><br  />
 <a class="el" href="db/d12/a00268.php#a0003c12a7cc73a35e488f59ad14770bf" title="Sleep the thread during duration seconds.">mcd::sleep(size_t duration)</a><br  />
-mcd::print_all(Something data, bool change)<br  />
+mcd::console::print_all(Something data, bool change)<br  />
 <a class="el" href="db/d12/a00268.php#a5046a9dfac4629babcb20cf7b914415e" title="Print the size of obj type.">printSize&lt;Type&gt;()</a><br  />
 <a class="el" href="db/d12/a00268.php#a2bb83762638ce787815f3699d67faa92" title="Print the type of obj.">mcd::printType(const C&amp; obj)</a><br  />
-mcd::Check::printable(const T&amp;)<br  />
+<a class="el" href="d0/d19/a00273.php#a633865db24ed31d685fd70668cb6a99f" title="A function that say if a type has an ostream operator(&lt;&lt;)">mcd::check::printable(const T&amp;)</a><br  />
 mcd::removeAccents(std::string str)<br  />
 <a class="el" href="db/d12/a00268.php#a1ddd069f38e7407563a5d8e763d7dc90" title="Create a random string.">mcd::randStr(size_t nb, unsigned short flags)</a></p>
 <h1><a class="anchor" id="upd_sec"></a>
@@ -253,7 +255,7 @@ November, 27 2019 (1.5.0.0)</h2>
 <p>Adding a class to do some unitary tests in a program.</p>
 <h2><a class="anchor" id="upd_sec_2019114_subsec"></a>
 November, 14 2019 (1.4.1.1)</h2>
-<p>Changing assert behaviour to throw a <a class="el" href="d6/dc4/a01125.php" title="An exception thrown by my assert&#39;s implementation.">mcd::AssertionException</a> instead of closing the program.</p>
+<p>Changing assert behaviour to throw a <a class="el" href="db/d1e/a01126.php" title="An exception thrown by my assert&#39;s implementation.">mcd::AssertionException</a> instead of closing the program.</p>
 <h2><a class="anchor" id="upd_sec_20191109_subsec"></a>
 November, 09 2019 (1.4.0.0)</h2>
 <p>Adding an object to log informations (logger).</p>

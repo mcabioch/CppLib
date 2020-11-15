@@ -1,0 +1,4 @@
+<map id="mcd::entites::Animal::attack" name="mcd::entites::Animal::attack">
+<area shape="rect" id="node1" title="Attack the target." alt="" coords="5,5,148,47"/>
+<area shape="rect" id="node2" href="$dc/de0/a01302.php#a8adeff4efa60e976a3deab87b7b7ed37" title="Get the Hotsile&#39;s target." alt="" coords="196,5,339,47"/>
+</map>

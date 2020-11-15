@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">4.0</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 27 2020 18:49:23 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,14 +92,13 @@ $(document).ready(function(){initNavTree('d0/dc7/a01402.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::RNG&lt; T, U &gt; Member List</div>  </div>
+<div class="title">mcd::check::is_thread_ptr&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d0/dc7/a01402.php">mcd::RNG&lt; T, U &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d0/dc7/a01402.php">mcd::check::is_thread_ptr&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc7/a01402.php#a717048eaee5dc829e132237026beaecc">operator()</a>(T a, T b)</td><td class="entry"><a class="el" href="../../d0/dc7/a01402.php">mcd::RNG&lt; T, U &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/dc7/a01402.php#ada6783e2f83f41b11d72687c90c29ead">RNG</a>()</td><td class="entry"><a class="el" href="../../d0/dc7/a01402.php">mcd::RNG&lt; T, U &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc7/a01402.php#a0f0708182c01e65ff83fc1f1c4f1d631">value</a></td><td class="entry"><a class="el" href="../../d0/dc7/a01402.php">mcd::check::is_thread_ptr&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

@@ -1,7 +1,6 @@
-<map id="mcd::AssertionException" name="mcd::AssertionException">
-<area shape="rect" id="node1" title="An exception thrown by my assert&#39;s implementation." alt="" coords="13,261,181,288"/>
-<area shape="rect" id="node2" href="$d9/de7/a01279.php" title="A class to call custom exceptions." alt="" coords="42,185,153,212"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="5,96,109,123"/>
-<area shape="rect" id="node4" title="STL class." alt="" coords="133,96,213,123"/>
-<area shape="rect" id="node5" title="STL class." alt="" coords="110,5,237,47"/>
+<map id="mcd::t_queue&lt; T, Container &gt;" name="mcd::t_queue&lt; T, Container &gt;">
+<area shape="rect" id="node1" title="An thread&#45;safe implementation of queue." alt="" coords="5,276,200,303"/>
+<area shape="rect" id="node2" href="$d1/d3d/a01110.php" title=" " alt="" coords="35,185,170,227"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="34,5,161,47"/>
+<area shape="rect" id="node4" href="$d1/d3d/a01110.php" title="An implementation of std::queue." alt="" coords="119,96,303,123"/>
 </map>

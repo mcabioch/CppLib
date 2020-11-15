@@ -10,7 +10,7 @@
 
 #include "Contraption.hpp"
 
-namespace mcd
+namespace mcd::entites
 {
     /*!
      * \class	Entity
@@ -172,6 +172,6 @@ namespace mcd
         double64_t _timeActRegen;
         double64_t _timePrecRegen;
     };
-}   // namespace mcd
+}   // namespace mcd::entites
 
 #endif   // HEADER_CPP_ENTITY

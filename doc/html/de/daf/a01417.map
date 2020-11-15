@@ -1,4 +1,5 @@
-<map id="mcd::Time" name="mcd::Time">
-<area shape="rect" id="node1" title="A class to play with dates." alt="" coords="19,5,103,32"/>
-<area shape="rect" id="node2" href="$da/d00/a01270.php" title="A class to play with dates and times." alt="" coords="5,80,117,107"/>
+<map id="mcd::entites::Stone" name="mcd::entites::Stone">
+<area shape="rect" id="node1" title="A stone." alt="" coords="22,155,158,181"/>
+<area shape="rect" id="node2" href="$de/d5c/a01358.php" title="An object." alt="" coords="20,80,160,107"/>
+<area shape="rect" id="node3" href="$d4/d22/a01250.php" title="A contraption." alt="" coords="5,5,175,32"/>
 </map>

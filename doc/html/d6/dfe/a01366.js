@@ -1,15 +1,14 @@
 var a01366 =
 [
-    [ "PathfindingErrorCode", "d6/dfe/a01366.php#a699cc4df8cc94d467e7372072d230b58", [
-      [ "NONE", "d6/dfe/a01366.php#a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d", null ],
-      [ "ARRIVED", "d6/dfe/a01366.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814", null ],
-      [ "LOST", "d6/dfe/a01366.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995", null ],
-      [ "OTHER", "d6/dfe/a01366.php#a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982", null ]
-    ] ],
-    [ "PathfindingException", "d6/dfe/a01366.php#ac73bb217b98d679eaab9fe9fe4e5c9b0", null ],
-    [ "~PathfindingException", "d6/dfe/a01366.php#a22d196716aa61adb8fa0e0d48320c9ab", null ],
-    [ "PathfindingException", "d6/dfe/a01366.php#a71da44443282ca94d2c9e10a9be0dafc", null ],
-    [ "Arrived", "d6/dfe/a01366.php#a9fcff7a44db764decbb680479144b97b", null ],
-    [ "getErrorCode", "d6/dfe/a01366.php#a922e8cbd5025f4f17e45889055df165c", null ],
-    [ "Lost", "d6/dfe/a01366.php#a933816a487769eec830729b051d0fbcd", null ]
+    [ "Path", "d6/dfe/a01366.php#a19773c31a6467b9b61b440135863290e", null ],
+    [ "~Path", "d6/dfe/a01366.php#ae7ac83a2afcba63d1e8f17f314572a7f", null ],
+    [ "hasNext", "d6/dfe/a01366.php#a7928f59acfc984899a12b52ab2e5ddca", null ],
+    [ "length", "d6/dfe/a01366.php#a2ae56317713ca93848b0c47bc401cbf4", null ],
+    [ "next", "d6/dfe/a01366.php#ac24764eca1f5c6a54322d4a19d4ac68f", null ],
+    [ "push", "d6/dfe/a01366.php#a54d7d03099784e7f2e573ba17ebe499e", null ],
+    [ "reset", "d6/dfe/a01366.php#a6941e224d3239f1c5aeda5b309aa5c81", null ],
+    [ "reverse", "d6/dfe/a01366.php#a1fb9d6aad58d7817692168eaea307a14", null ],
+    [ "size", "d6/dfe/a01366.php#a85140de1f8970b128a2501316a71e332", null ],
+    [ "end", "d6/dfe/a01366.php#a3b461b7f35d6914a627e52e20f79f6ce", null ],
+    [ "start", "d6/dfe/a01366.php#aeeee0a0ede330174785a5c7fe77d1681", null ]
 ];

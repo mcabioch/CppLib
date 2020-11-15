@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,75 +95,75 @@ $(document).ready(function(){initNavTree('functions_c.php',''); initResizable();
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>Cell()
-: <a class="el" href="de/df6/a01141.php#ae5097d9d7e1fc380e39fe9639ba794c8">mcd::natural::Cell</a>
+: <a class="el" href="d3/ddc/a01142.php#ae5097d9d7e1fc380e39fe9639ba794c8">mcd::natural::Cell</a>
 </li>
 <li>Cesar()
-: <a class="el" href="d9/de7/a01257.php#a01dc2192c075a4cbed0a72a9c35e1a4b">mcd::Cesar</a>
+: <a class="el" href="da/da1/a01258.php#a01dc2192c075a4cbed0a72a9c35e1a4b">mcd::Cesar</a>
 </li>
 <li>Chromosome()
-: <a class="el" href="de/d04/a01209.php#adba79a0781609c28900d7a9b68b2a38f">mcd::natural::Chromosome</a>
+: <a class="el" href="d2/da6/a01210.php#adba79a0781609c28900d7a9b68b2a38f">mcd::natural::Chromosome</a>
 </li>
 <li>clear()
-: <a class="el" href="dc/d2a/a01333.php#ab8a3794bcdcff4ad8875c6799eb4ab58">mcd::Map</a>
+: <a class="el" href="d4/dd1/a01334.php#ab8a3794bcdcff4ad8875c6799eb4ab58">mcd::Map</a>
 </li>
 <li>Clock()
-: <a class="el" href="d5/d54/a01213.php#ae0aa0853cddce8c1e8c4339eb7016223">mcd::Clock</a>
+: <a class="el" href="d5/d32/a01214.php#ae0aa0853cddce8c1e8c4339eb7016223">mcd::Clock</a>
 </li>
 <li>Cls()
-: <a class="el" href="d8/d53/a01225.php#aaeac6f719b5dc1e0c77c8c55185cfe07">mcd::console::Cls</a>
-, <a class="el" href="da/d19/a01217.php#a37c42c3a0b8af325e746f536a6a51305">mcd::console::Color</a>
+: <a class="el" href="dd/d9e/a01226.php#aaeac6f719b5dc1e0c77c8c55185cfe07">mcd::console::Cls</a>
+, <a class="el" href="d8/d15/a01218.php#a37c42c3a0b8af325e746f536a6a51305">mcd::console::Color</a>
 </li>
 <li>collides()
-: <a class="el" href="d3/dc4/a01089.php#a840fecd8d230987dbd76d241df6557ec">mcd::Animal</a>
+: <a class="el" href="da/d73/a01090.php#aeb194ab3232b39abc2a3954df30576f4">mcd::entites::Animal</a>
 </li>
 <li>collidesCircle()
-: <a class="el" href="d3/dc4/a01089.php#a462a1d52fee8f6a4f140a50b9261d82b">mcd::Animal</a>
+: <a class="el" href="da/d73/a01090.php#a93d98ea9f85281e0a6d14de1672d94f2">mcd::entites::Animal</a>
 </li>
 <li>collidesRect()
-: <a class="el" href="d3/dc4/a01089.php#a0a1bd6e6440207bf2f281dcca32e7f25">mcd::Animal</a>
+: <a class="el" href="da/d73/a01090.php#a44f0fd522d7b2a7aab3531d0f2ca2e72">mcd::entites::Animal</a>
 </li>
 <li>Color()
-: <a class="el" href="da/d19/a01217.php#a55ccb3b92bc685b42f0ca5f71cb98559">mcd::console::Color</a>
+: <a class="el" href="d8/d15/a01218.php#a55ccb3b92bc685b42f0ca5f71cb98559">mcd::console::Color</a>
 </li>
 <li>computed
-: <a class="el" href="da/d77/a01381.php#a058cdcc45ae37d3932b328594455c34f">mcd::PathfindingProblem</a>
+: <a class="el" href="de/d9d/a01382.php#a058cdcc45ae37d3932b328594455c34f">mcd::PathfindingProblem</a>
 </li>
 <li>consolePrint()
-: <a class="el" href="dc/d2a/a01333.php#afc568b008b11652ff93bf281f16f9f86">mcd::Map</a>
+: <a class="el" href="d4/dd1/a01334.php#afc568b008b11652ff93bf281f16f9f86">mcd::Map</a>
 </li>
 <li>ConsoleTable()
-: <a class="el" href="d1/d31/a01245.php#acc7af9ad8f4b7175a82acb2edfce15b2">mcd::ConsoleTable</a>
+: <a class="el" href="d7/d04/a01246.php#acc7af9ad8f4b7175a82acb2edfce15b2">mcd::ConsoleTable</a>
 </li>
 <li>Contraption()
-: <a class="el" href="d3/d7b/a01249.php#a807590a9e81f34ba22aca08ddd986db7">mcd::Contraption</a>
+: <a class="el" href="d4/d22/a01250.php#a476b12c581fc56e4a86227061878da98">mcd::entites::Contraption</a>
 </li>
 <li>convert()
-: <a class="el" href="d5/df9/a01441.php#a1fc36192abe90cd4c50aecf7a0df3ce1">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d0/de2/a01442.php#a1fc36192abe90cd4c50aecf7a0df3ce1">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>copy()
-: <a class="el" href="de/df6/a01141.php#aeb549302dbb6442103933d2a17361580">mcd::natural::Cell</a>
-, <a class="el" href="de/d04/a01209.php#ab0def08172e265c3850983190d353f7c">mcd::natural::Chromosome</a>
-, <a class="el" href="dc/d8c/a01297.php#af2f9b44131d9874e8b2d27566f8f5bf0">mcd::natural::Gene</a>
+: <a class="el" href="d3/ddc/a01142.php#aeb549302dbb6442103933d2a17361580">mcd::natural::Cell</a>
+, <a class="el" href="d2/da6/a01210.php#ab0def08172e265c3850983190d353f7c">mcd::natural::Chromosome</a>
+, <a class="el" href="d4/d34/a01298.php#af2f9b44131d9874e8b2d27566f8f5bf0">mcd::natural::Gene</a>
 </li>
 <li>create()
-: <a class="el" href="d5/df9/a01441.php#a09e92db6995261c4f6bfd7ce10bf8d2f">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d0/de2/a01442.php#a09e92db6995261c4f6bfd7ce10bf8d2f">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>createPath()
-: <a class="el" href="d1/d17/a01369.php#a9a82c779fba2fba8d5adbd1c22ea8c0d">mcd::Pathfinding</a>
-, <a class="el" href="d7/d38/a01373.php#a7b2872207d45871fcbcfa01e216090dd">mcd::PathfindingDijkstra</a>
+: <a class="el" href="d8/dbe/a01370.php#a9a82c779fba2fba8d5adbd1c22ea8c0d">mcd::Pathfinding</a>
+, <a class="el" href="d2/dff/a01374.php#a7b2872207d45871fcbcfa01e216090dd">mcd::PathfindingDijkstra</a>
 </li>
 <li>crypt()
-: <a class="el" href="d9/de7/a01257.php#a97036e8c40e9aafa4a0d7f44df6fcac7">mcd::Cesar</a>
-, <a class="el" href="d3/d0b/a01253.php#a2949148382033667a765326066311f21">mcd::Crypto</a>
-, <a class="el" href="da/dd8/a01265.php#aee90d618d42b9a7d9057a0bfc1f769c2">mcd::MyCrypt</a>
-, <a class="el" href="d6/d16/a01269.php#ad080bbc2c65c9690f38fa376ca65a985">mcd::RSA</a>
-, <a class="el" href="de/d34/a01261.php#ad8366a3e1e990f5faaf956599832fa8b">mcd::SHA2</a>
+: <a class="el" href="da/da1/a01258.php#a97036e8c40e9aafa4a0d7f44df6fcac7">mcd::Cesar</a>
+, <a class="el" href="dc/d83/a01254.php#a2949148382033667a765326066311f21">mcd::Crypto</a>
+, <a class="el" href="d7/d73/a01266.php#aee90d618d42b9a7d9057a0bfc1f769c2">mcd::MyCrypt</a>
+, <a class="el" href="da/d00/a01270.php#ad080bbc2c65c9690f38fa376ca65a985">mcd::RSA</a>
+, <a class="el" href="d3/d53/a01262.php#ad8366a3e1e990f5faaf956599832fa8b">mcd::SHA2</a>
 </li>
 <li>Crypto()
-: <a class="el" href="d3/d0b/a01253.php#a3f598383428868a9f69502e5de031ea5">mcd::Crypto</a>
+: <a class="el" href="dc/d83/a01254.php#a3f598383428868a9f69502e5de031ea5">mcd::Crypto</a>
 </li>
 <li>cut()
-: <a class="el" href="dc/d60/a01461.php#aaefd316150694e10be401d7f6ef2d973">mcd::Vegetal</a>
+: <a class="el" href="de/d36/a01462.php#abc978e4813c9d1c27f6100760d727981">mcd::entites::Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

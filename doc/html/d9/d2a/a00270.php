@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::natural Namespace Reference</title>
+		<title>C++: mcd::console Namespace Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,85 +93,215 @@ $(document).ready(function(){initNavTree('d9/d2a/a00270.php','../../'); initResi
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::natural Namespace Reference</div>  </div>
+<div class="title">mcd::console Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df6/a01141.php">Cell</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A cell with chromosomes.  <a href="../../de/df6/a01141.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a01226.php">Cls</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the console.  <a href="../../dd/d9e/a01226.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d04/a01209.php">Chromosome</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A double group of genes.  <a href="../../de/d04/a01209.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d15/a01218.php">Color</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the text color in the console.  <a href="../../d8/d15/a01218.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8c/a01297.php">Gene</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A gene that represent a caracteristic.  <a href="../../dc/d8c/a01297.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d58/a01230.php">Cursor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with the cursor in the console.  <a href="../../d0/d58/a01230.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d7e/a01222.php">Reinit</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../de/d7e/a01222.php" title="Reinit the color in the console.">Reinit</a> the color in the console.  <a href="../../de/d7e/a01222.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dc5/a01242.php">SetPrecision</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the precision of a std::ostream and save the default value.  <a href="../../d7/dc5/a01242.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/ddf/a01238.php">ThreadCout</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::cout thread safe.  <a href="../../d8/ddf/a01238.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d1e/a01234.php">ThreadEndlCout</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::endl in <a class="el" href="../../d8/ddf/a01238.php" title="A class to use std::cout thread safe.">ThreadCout</a>.  <a href="../../d6/d1e/a01234.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a188924fe6c7007fd322ebe9ece4bb4b6"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../de/d04/a01209.php">Chromosome</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a></td></tr>
-<tr class="separator:a188924fe6c7007fd322ebe9ece4bb4b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed19377fb7721df1a451d93af0c19950"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../dc/d8c/a01297.php">Gene</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#aed19377fb7721df1a451d93af0c19950">Genes</a></td></tr>
-<tr class="separator:aed19377fb7721df1a451d93af0c19950"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a70b121b7b00516f28ed61556fa874cb7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7">Colors</a> { <br />
+&#160;&#160;<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a4648822616bc86180727464a1e6c6312">Colors::BLACK_F</a> = 30, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a6c91c7a0d965eea06426a9d94fed419f">Colors::RED_F</a> = 31, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7ac9cc84994b2dc998400606f509a5f39d">Colors::GREEN_F</a> = 32, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7ac1cfbf30b4d84302148c80564f09a2f7">Colors::YELLOW_F</a> = 33, 
+<br />
+&#160;&#160;<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7aaac26079ece66386f4c2cf268d474795">Colors::BLUE_F</a> = 34, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7ab8176b797e421a3d45ed5a872d872591">Colors::PURPLE_F</a> = 35, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a131f0f8b48b6ef48d2d3093b20081110">Colors::CYAN_F</a> = 36, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a38ead0a9861da91e3e5aad34b7a1dbfe">Colors::GREY_F</a> = 37, 
+<br />
+&#160;&#160;<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7aa86522df36b902b8e14c670dda459f1f">Colors::LIGHT_BLACK_F</a> = 90, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a889b14723d6bc4c0ac8bb1e13480ad6e">Colors::LIGHT_RED_F</a> = 91, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a9a372d70c82fc984f7c475342784fb25">Colors::LIGHT_GREEN_F</a> = 92, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a8a64c210ea569e6832792e099c006157">Colors::LIGHT_YELLOW_F</a> = 93, 
+<br />
+&#160;&#160;<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a383a03eb7a3c8a6e508915b5abfd1f55">Colors::LIGHT_BLUE_F</a> = 94, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7af7fa27f9a891a06e7aab7764b7c87744">Colors::LIGHT_PURPLE_F</a> = 95, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a1016baf606406c4b466ae02d7e8d249b">Colors::LIGHT_CYAN_F</a> = 96, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7af0d423059b6f4ad707d65956c1a43402">Colors::LIGHT_GREY_F</a> = 97, 
+<br />
+&#160;&#160;<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7abfc78599c77b7eb3c037c23f1bde963a">Colors::BLACK_B</a> = 40, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a07262f1edc5408b021950dc9a12837c7">Colors::RED_B</a> = 41, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a3bfe655ef7bb19c04ebf9a5ebabe975e">Colors::GREEN_B</a> = 42, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a62a3874ee2f47d3a664fda4a63c193a3">Colors::YELLOW_B</a> = 43, 
+<br />
+&#160;&#160;<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a19995eb9ec42ffbe11647f8090e9f4fe">Colors::BLUE_B</a> = 44, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7ab754547a82033c3c904e91984b530326">Colors::PURPLE_B</a> = 45, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7ae0f5f8e09d8f4e0925884dd94fc3e870">Colors::CYAN_B</a> = 46, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a90bd0646259d8ab65dd352bcd1ead16e">Colors::GREY_B</a> = 47, 
+<br />
+&#160;&#160;<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7adf2fe24817131afc02153bf31759d18b">Colors::LIGHT_BLACK_B</a> = 100, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a3a29105a7f33b752d0342ec1e44023af">Colors::LIGHT_RED_B</a> = 101, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a79f2fcacd6d4451c79096ed3e460e1e9">Colors::LIGHT_GREEN_B</a> = 102, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a73f0b577c984186157b9d89348faf4f3">Colors::LIGHT_YELLOW_B</a> = 103, 
+<br />
+&#160;&#160;<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a77891b4842905f3aa098fae908dd5db9">Colors::LIGHT_BLUE_B</a> = 104, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a10435c0f4e6c9f1df07383e39da2064e">Colors::LIGHT_PURPLE_B</a> = 105, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a1d4b785bf14640105bb7b6e45d1d5528">Colors::LIGHT_CYAN_B</a> = 106, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7aa548ce608701dcb3a6b2146e2e6b7f73">Colors::LIGHT_GREY_B</a> = 107, 
+<br />
+&#160;&#160;<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a1e23852820b9154316c7c06e2b7ba051">Colors::NORMAL</a> = 0, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a2909dd0e0336f10b6da9735b859a3d19">Colors::BOLD</a> = 1, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a8160fba05a5a291372a94bc22b55f62b">Colors::SHADOW</a> = 2, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a25093123b8943308104129e1d762f3b7">Colors::ITALIC</a> = 3, 
+<br />
+&#160;&#160;<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a0086c73c90c261db630b4dc8aea09bcf">Colors::UNDERLINE</a> = 4, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7aa2727ae72447eea06d4cc0ef67187280">Colors::INVERT</a> = 7, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a1e50e487f8672658546e3609404b53df">Colors::HIDE</a> = 8, 
+<a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a04dd53a8e6c2306e9bbf944c1d6047f2">Colors::CROSS</a> = 9
+<br />
+ }</td></tr>
+<tr class="memdesc:a70b121b7b00516f28ed61556fa874cb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colors list.  <a href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7">More...</a><br /></td></tr>
+<tr class="separator:a70b121b7b00516f28ed61556fa874cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a81eb139ff8493e715a8efce3fda3155f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#a81eb139ff8493e715a8efce3fda3155f">transfer</a> (const <a class="el" href="../../d9/d2a/a00270.php#aed19377fb7721df1a451d93af0c19950">Genes</a> &amp;in, <a class="el" href="../../d9/d2a/a00270.php#aed19377fb7721df1a451d93af0c19950">Genes</a> &amp;out)</td></tr>
-<tr class="memdesc:a81eb139ff8493e715a8efce3fda3155f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfer a vector of <a class="el" href="../../dc/d8c/a01297.php" title="A gene that represent a caracteristic.">Gene</a> into another one, using the copy method.  <a href="../../d9/d2a/a00270.php#a81eb139ff8493e715a8efce3fda3155f">More...</a><br /></td></tr>
-<tr class="separator:a81eb139ff8493e715a8efce3fda3155f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d3bfa61258ecc1a75733f516ea81097"><td class="memTemplParams" colspan="2">template&lt;typename Array &gt; </td></tr>
+<tr class="memitem:a6d3bfa61258ecc1a75733f516ea81097"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#a6d3bfa61258ecc1a75733f516ea81097">print_r</a> (const Array &amp;a)</td></tr>
+<tr class="memdesc:a6d3bfa61258ecc1a75733f516ea81097"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="../../d9/d2a/a00270.php#a6d3bfa61258ecc1a75733f516ea81097">More...</a><br /></td></tr>
+<tr class="separator:a6d3bfa61258ecc1a75733f516ea81097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa5354eebbe04b0a9bfc29f7155b8d48"><td class="memTemplParams" colspan="2">template&lt;typename Something &gt; </td></tr>
+<tr class="memitem:aaa5354eebbe04b0a9bfc29f7155b8d48"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#aaa5354eebbe04b0a9bfc29f7155b8d48">print_all</a> (const Something &amp;data, bool change=false)</td></tr>
+<tr class="memdesc:aaa5354eebbe04b0a9bfc29f7155b8d48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints approximately everything.  <a href="../../d9/d2a/a00270.php#aaa5354eebbe04b0a9bfc29f7155b8d48">More...</a><br /></td></tr>
+<tr class="separator:aaa5354eebbe04b0a9bfc29f7155b8d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aef993a0cb554fa885596a645ad8b0a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a3aef993a0cb554fa885596a645ad8b0a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#a3aef993a0cb554fa885596a645ad8b0a">vector2DPrint</a> (const <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
+<tr class="memdesc:a3aef993a0cb554fa885596a645ad8b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print in <em>os</em> the 2D vector as a visual 2D array.  <a href="../../d9/d2a/a00270.php#a3aef993a0cb554fa885596a645ad8b0a">More...</a><br /></td></tr>
+<tr class="separator:a3aef993a0cb554fa885596a645ad8b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa463dccf66e89fdb6a84bb6d6f9ba29d"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aa463dccf66e89fdb6a84bb6d6f9ba29d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#aa463dccf66e89fdb6a84bb6d6f9ba29d">vector2DPrintInverted</a> (const <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout, int shift=0)</td></tr>
+<tr class="memdesc:aa463dccf66e89fdb6a84bb6d6f9ba29d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print in <em>os</em> the 2D vector as a visual 2D array inverting x and y axis.  <a href="../../d9/d2a/a00270.php#aa463dccf66e89fdb6a84bb6d6f9ba29d">More...</a><br /></td></tr>
+<tr class="separator:aa463dccf66e89fdb6a84bb6d6f9ba29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa430ebe71eacf6cfd45ff1313d66cea2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#aa430ebe71eacf6cfd45ff1313d66cea2">printLine</a> (std::string caract, size_t size, std::ostream &amp;os=std::cout)</td></tr>
+<tr class="memdesc:aa430ebe71eacf6cfd45ff1313d66cea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write on os a line with the number of caract set in size.  <a href="../../d9/d2a/a00270.php#aa430ebe71eacf6cfd45ff1313d66cea2">More...</a><br /></td></tr>
+<tr class="separator:aa430ebe71eacf6cfd45ff1313d66cea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ab103cfa2a20b497f890a6fb6c878aa60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/ddf/a01238.php">ThreadCout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#ab103cfa2a20b497f890a6fb6c878aa60">cout</a></td></tr>
+<tr class="memdesc:ab103cfa2a20b497f890a6fb6c878aa60"><td class="mdescLeft">&#160;</td><td class="mdescRight">The thread safe version of std::cout.  <a href="../../d9/d2a/a00270.php#ab103cfa2a20b497f890a6fb6c878aa60">More...</a><br /></td></tr>
+<tr class="separator:ab103cfa2a20b497f890a6fb6c878aa60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f1493d50192cdfabe22dc9f805bdcaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d1e/a01234.php">ThreadEndlCout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#a7f1493d50192cdfabe22dc9f805bdcaa">endl</a></td></tr>
+<tr class="memdesc:a7f1493d50192cdfabe22dc9f805bdcaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The thread safe version of std::endl.  <a href="../../d9/d2a/a00270.php#a7f1493d50192cdfabe22dc9f805bdcaa">More...</a><br /></td></tr>
+<tr class="separator:a7f1493d50192cdfabe22dc9f805bdcaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd902f4be562676df6dacf3c9ed259ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dc5/a01242.php">SetPrecision</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#abd902f4be562676df6dacf3c9ed259ee">setprecision</a></td></tr>
+<tr class="separator:abd902f4be562676df6dacf3c9ed259ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a188924fe6c7007fd322ebe9ece4bb4b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a188924fe6c7007fd322ebe9ece4bb4b6">&#9670;&nbsp;</a></span>Chromosomes</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a70b121b7b00516f28ed61556fa874cb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70b121b7b00516f28ed61556fa874cb7">&#9670;&nbsp;</a></span>Colors</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::vector&lt; <a class="el" href="../../de/d04/a01209.php">Chromosome</a> &gt; <a class="el" href="../../d9/d2a/a00270.php#a188924fe6c7007fd322ebe9ece4bb4b6">mcd::natural::Chromosomes</a></td>
+          <td class="memname">enum <a class="el" href="../../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7">mcd::console::Colors</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="aed19377fb7721df1a451d93af0c19950"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed19377fb7721df1a451d93af0c19950">&#9670;&nbsp;</a></span>Genes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::vector&lt; <a class="el" href="../../dc/d8c/a01297.php">Gene</a> &gt; <a class="el" href="../../d9/d2a/a00270.php#aed19377fb7721df1a451d93af0c19950">mcd::natural::Genes</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Colors list. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a4648822616bc86180727464a1e6c6312"></a>BLACK_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a6c91c7a0d965eea06426a9d94fed419f"></a>RED_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7ac9cc84994b2dc998400606f509a5f39d"></a>GREEN_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7ac1cfbf30b4d84302148c80564f09a2f7"></a>YELLOW_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7aaac26079ece66386f4c2cf268d474795"></a>BLUE_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7ab8176b797e421a3d45ed5a872d872591"></a>PURPLE_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a131f0f8b48b6ef48d2d3093b20081110"></a>CYAN_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a38ead0a9861da91e3e5aad34b7a1dbfe"></a>GREY_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7aa86522df36b902b8e14c670dda459f1f"></a>LIGHT_BLACK_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a889b14723d6bc4c0ac8bb1e13480ad6e"></a>LIGHT_RED_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a9a372d70c82fc984f7c475342784fb25"></a>LIGHT_GREEN_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a8a64c210ea569e6832792e099c006157"></a>LIGHT_YELLOW_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a383a03eb7a3c8a6e508915b5abfd1f55"></a>LIGHT_BLUE_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7af7fa27f9a891a06e7aab7764b7c87744"></a>LIGHT_PURPLE_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a1016baf606406c4b466ae02d7e8d249b"></a>LIGHT_CYAN_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7af0d423059b6f4ad707d65956c1a43402"></a>LIGHT_GREY_F&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7abfc78599c77b7eb3c037c23f1bde963a"></a>BLACK_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a07262f1edc5408b021950dc9a12837c7"></a>RED_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a3bfe655ef7bb19c04ebf9a5ebabe975e"></a>GREEN_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a62a3874ee2f47d3a664fda4a63c193a3"></a>YELLOW_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a19995eb9ec42ffbe11647f8090e9f4fe"></a>BLUE_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7ab754547a82033c3c904e91984b530326"></a>PURPLE_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7ae0f5f8e09d8f4e0925884dd94fc3e870"></a>CYAN_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a90bd0646259d8ab65dd352bcd1ead16e"></a>GREY_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7adf2fe24817131afc02153bf31759d18b"></a>LIGHT_BLACK_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a3a29105a7f33b752d0342ec1e44023af"></a>LIGHT_RED_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a79f2fcacd6d4451c79096ed3e460e1e9"></a>LIGHT_GREEN_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a73f0b577c984186157b9d89348faf4f3"></a>LIGHT_YELLOW_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a77891b4842905f3aa098fae908dd5db9"></a>LIGHT_BLUE_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a10435c0f4e6c9f1df07383e39da2064e"></a>LIGHT_PURPLE_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a1d4b785bf14640105bb7b6e45d1d5528"></a>LIGHT_CYAN_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7aa548ce608701dcb3a6b2146e2e6b7f73"></a>LIGHT_GREY_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a1e23852820b9154316c7c06e2b7ba051"></a>NORMAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a2909dd0e0336f10b6da9735b859a3d19"></a>BOLD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a8160fba05a5a291372a94bc22b55f62b"></a>SHADOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a25093123b8943308104129e1d762f3b7"></a>ITALIC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a0086c73c90c261db630b4dc8aea09bcf"></a>UNDERLINE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7aa2727ae72447eea06d4cc0ef67187280"></a>INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a1e50e487f8672658546e3609404b53df"></a>HIDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70b121b7b00516f28ed61556fa874cb7a04dd53a8e6c2306e9bbf944c1d6047f2"></a>CROSS&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a81eb139ff8493e715a8efce3fda3155f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81eb139ff8493e715a8efce3fda3155f">&#9670;&nbsp;</a></span>transfer()</h2>
+<a id="aaa5354eebbe04b0a9bfc29f7155b8d48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa5354eebbe04b0a9bfc29f7155b8d48">&#9670;&nbsp;</a></span>print_all()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename Something &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void mcd::natural::transfer </td>
+          <td class="memname">void mcd::console::print_all </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d9/d2a/a00270.php#aed19377fb7721df1a451d93af0c19950">Genes</a> &amp;&#160;</td>
-          <td class="paramname"><em>in</em>, </td>
+          <td class="paramtype">const Something &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d2a/a00270.php#aed19377fb7721df1a451d93af0c19950">Genes</a> &amp;&#160;</td>
-          <td class="paramname"><em>out</em>&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>change</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -181,7 +311,258 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Transfer a vector of <a class="el" href="../../dc/d8c/a01297.php" title="A gene that represent a caracteristic.">Gene</a> into another one, using the copy method. </p>
+<p>Prints approximately everything. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>The data to print </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">change</td><td><b>true</b> or <b>false</b>, <b>true</b> to print the value of a pointer instead of his address </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6d3bfa61258ecc1a75733f516ea81097"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d3bfa61258ecc1a75733f516ea81097">&#9670;&nbsp;</a></span>print_r()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Array &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::console::print_r </td>
+          <td>(</td>
+          <td class="paramtype">const Array &amp;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the content of an array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The array to print</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="aa430ebe71eacf6cfd45ff1313d66cea2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa430ebe71eacf6cfd45ff1313d66cea2">&#9670;&nbsp;</a></span>printLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::console::printLine </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>caract</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em> = <code>std::cout</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write on os a line with the number of caract set in size. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">caract</td><td>The string to print to do the line </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>The times to print caract </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">os</td><td>The output stream where to write the line, defualt is std::cout </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3aef993a0cb554fa885596a645ad8b0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aef993a0cb554fa885596a645ad8b0a">&#9670;&nbsp;</a></span>vector2DPrint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::console::vector2DPrint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; T &gt; &gt;&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>autosize</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em> = <code>std::cout</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print in <em>os</em> the 2D vector as a visual 2D array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">values</td><td>The 2D array </td></tr>
+    <tr><td class="paramname">autosize</td><td>The size of an array cell, 0 is auto </td></tr>
+    <tr><td class="paramname">os</td><td>The ostream to write in, <em>std::cout</em> by default </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="aa463dccf66e89fdb6a84bb6d6f9ba29d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa463dccf66e89fdb6a84bb6d6f9ba29d">&#9670;&nbsp;</a></span>vector2DPrintInverted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::console::vector2DPrintInverted </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; T &gt; &gt;&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>autosize</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em> = <code>std::cout</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>shift</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print in <em>os</em> the 2D vector as a visual 2D array inverting x and y axis. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">values</td><td>The 2D array </td></tr>
+    <tr><td class="paramname">autosize</td><td>The size of an array cell, 0 is auto </td></tr>
+    <tr><td class="paramname">os</td><td>The ostream to write in, <em>std::cout</em> by default </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ab103cfa2a20b497f890a6fb6c878aa60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab103cfa2a20b497f890a6fb6c878aa60">&#9670;&nbsp;</a></span>cout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/ddf/a01238.php">ThreadCout</a> mcd::console::cout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The thread safe version of std::cout. </p>
+
+</div>
+</div>
+<a id="a7f1493d50192cdfabe22dc9f805bdcaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f1493d50192cdfabe22dc9f805bdcaa">&#9670;&nbsp;</a></span>endl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d1e/a01234.php">ThreadEndlCout</a> mcd::console::endl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The thread safe version of std::endl. </p>
+
+</div>
+</div>
+<a id="abd902f4be562676df6dacf3c9ed259ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd902f4be562676df6dacf3c9ed259ee">&#9670;&nbsp;</a></span>setprecision</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/dc5/a01242.php">SetPrecision</a> mcd::console::setprecision</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -191,7 +572,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/d2a/a00270.php">natural</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/d2a/a00270.php">console</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

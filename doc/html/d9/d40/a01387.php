@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">4.0</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 27 2020 18:49:23 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,13 +92,47 @@ $(document).ready(function(){initNavTree('d5/d8e/a01390.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Check::is_thread_ptr&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::entites::Player&lt; PlayerParent &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d5/d8e/a01390.php">mcd::Check::is_thread_ptr&lt; T &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d5/d8e/a01390.php">mcd::entites::Player&lt; PlayerParent &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d8e/a01390.php#aeaf71256c26f5b5be4a5e5db9035500b">value</a></td><td class="entry"><a class="el" href="../../d5/d8e/a01390.php">mcd::Check::is_thread_ptr&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#ab708b2bd6d4303f29965f903a06d3304">_experience</a></td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#acc70fa2f20e92d7bf3230f1de10be4b5">_experienceMax</a></td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d8c/a01306.php#a6920412818f4d8a4478771fb767a2d07">_id</a></td><td class="entry"><a class="el" href="../../d7/d8c/a01306.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#abe5985edd12d80f67185486bcd9f753a">_init</a></td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#ab186de0cd69c729d798643a81b914521">_losted</a></td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#ab92c40969f625df21f04be64609c3ede">_mail</a></td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d8c/a01306.php#a95d479399de1b046aff00e83210b67ea">_password</a></td><td class="entry"><a class="el" href="../../d7/d8c/a01306.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#a73deace93ea6e31f1f09516b1e07d229">_paused</a></td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d8c/a01306.php#a4a002c57b507ef0c744135eacfb82b6f">_username</a></td><td class="entry"><a class="el" href="../../d7/d8c/a01306.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#a9e6e7cb33567b77cf06fb17b622dab93">getExperience</a>() const</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#a0dae7daec87f344c41179d80f3535bd0">getExperienceMax</a>() const</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d8c/a01306.php#abc0c02ec636a63cf2086e6e98f194b63">getId</a>() const</td><td class="entry"><a class="el" href="../../d7/d8c/a01306.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#ac73e50383e85f5543aa8f1c204c06682">getMail</a>() const</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d8c/a01306.php#a0dcb443f68200102b855f77878754af9">getPassword</a>() const</td><td class="entry"><a class="el" href="../../d7/d8c/a01306.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d8c/a01306.php#a6108c8a63af7595ff4d9a4f2ad868b1e">getUsername</a>() const</td><td class="entry"><a class="el" href="../../d7/d8c/a01306.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d8c/a01306.php#a1496891d2323d1023ebfd086b84faf8d">Identifier</a>()</td><td class="entry"><a class="el" href="../../d7/d8c/a01306.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#a43ee69adf9e63ae8f71a16699b6323bd">isInit</a>() const</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#a4095220ed3a0268473fb9dfd3c5c9cbd">isLost</a>() const</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#ab95816ad378985d8598b58fb57573407">isPaused</a>() const</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#a83e2e836f3307aad21dae7c8764d76df">lost</a>()</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#adb28529726c63337991f7b5bfe35b10e">pause</a>()</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d8e/a01390.php#a0fa3de5dfa5d8598eba6e6c0e54fd766">Player</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d5/d8e/a01390.php">mcd::entites::Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#a47977a0a11ad6cd2dae46227762c527f">PlayerAbstraction</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d8e/a01390.php#adfd6fa261c44c532309163c13ec3a0c3">printInfos</a>(std::ostream &amp;stream) const override</td><td class="entry"><a class="el" href="../../d5/d8e/a01390.php">mcd::entites::Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#a3a50950ebd7b7d7b8aafc837e2e82fc4">resume</a>()</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#a16b903c670697eda870a60418d814a02">retreive</a>()</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#aca8a8236c55827db0c6a05cee13fd338">setExperience</a>(const double64_t &amp;experience)</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#a1016fd6fbfb96881557dbb1abaf8cf36">setExperienceMax</a>(const double64_t &amp;experienceMax)</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d8c/a01306.php#a593e0be0e4c8e17b22507e7f7d933ded">setId</a>(size_t id)</td><td class="entry"><a class="el" href="../../d7/d8c/a01306.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#a89e90bcb61e85472a85eddfe4e783abb">setMail</a>(const std::string &amp;mail)</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d8c/a01306.php#a5b0a0e637d443935ae770bf90b652dea">setPassword</a>(const std::string &amp;password)</td><td class="entry"><a class="el" href="../../d7/d8c/a01306.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d8c/a01306.php#a7487ac9cac4531aad529994927c0e69f">setUsername</a>(const std::string &amp;username)</td><td class="entry"><a class="el" href="../../d7/d8c/a01306.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d8c/a01306.php#a87dbdb0f9b391d6a78d61463e8823628">~Identifier</a>()</td><td class="entry"><a class="el" href="../../d7/d8c/a01306.php">mcd::Identifier</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d8e/a01390.php#ad667622859f627b849773a27a8d03c91">~Player</a>()</td><td class="entry"><a class="el" href="../../d5/d8e/a01390.php">mcd::entites::Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#a5b25a947432afa9f436f4c78e68a52ba">~PlayerAbstraction</a>()</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

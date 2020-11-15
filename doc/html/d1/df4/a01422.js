@@ -1,12 +1,13 @@
 var a01422 =
 [
-    [ "Timer", "d1/df4/a01422.php#ae2847ca8c851863418d57e80e972095a", null ],
-    [ "getStart", "d1/df4/a01422.php#a5ce92c00f251ba4ee94fc8224a9ccbc7", null ],
-    [ "launch", "d1/df4/a01422.php#a5481e4eda9e262899416b01090b9a4a4", null ],
-    [ "restart", "d1/df4/a01422.php#affd1240db762eb2d3f125bfdda4aa990", null ],
-    [ "start", "d1/df4/a01422.php#afe0b2617d4a9beb52d2118d532d0db03", null ],
-    [ "update", "d1/df4/a01422.php#aa0825ee9a421da67ddac15fd45632d4e", null ],
-    [ "updater", "d1/df4/a01422.php#a51c964a91c78103efb975c00be769073", null ],
-    [ "m_start", "d1/df4/a01422.php#acb15fc23bdf915fbc5093d3f40996a37", null ],
-    [ "started", "d1/df4/a01422.php#a489644a70b400f78d63ad3449ffae846", null ]
+    [ "addSuite", "d1/df4/a01422.php#a071aa854651614bcd81581eb26b5cd20", null ],
+    [ "addTest", "d1/df4/a01422.php#a9b581c6619cbb7660c0c0d509a4a979d", null ],
+    [ "addThrow", "d1/df4/a01422.php#abfd0b19e1a6b68854276138b66f0b757", null ],
+    [ "failures", "d1/df4/a01422.php#af853ed85eaea2682f64fb13d73662305", null ],
+    [ "in", "d1/df4/a01422.php#a79a117fd4376fc9d22a777900375e988", null ],
+    [ "instance", "d1/df4/a01422.php#ae7dceee2802839d83c0c345d72418ed5", null ],
+    [ "nb", "d1/df4/a01422.php#ae42256dfd8f198d224e4a877474aa172", null ],
+    [ "print", "d1/df4/a01422.php#af318ef45ad460557a134908d2b733914", null ],
+    [ "run", "d1/df4/a01422.php#a92521447188f0264d12256d3d2d8306d", null ],
+    [ "success", "d1/df4/a01422.php#a3022d1777e4155985bdc9d7add61e5db", null ]
 ];

@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">4.0</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 27 2020 18:49:23 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,16 +92,20 @@ $(document).ready(function(){initNavTree('d0/d58/a01230.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::ThreadCout Member List</div>  </div>
+<div class="title">mcd::console::Cursor Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d0/d58/a01230.php">mcd::ThreadCout</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d0/d58/a01230.php">mcd::console::Cursor</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d58/a01230.php#a358d316052544257ab9aee6f1fe762dc">operator&lt;&lt;</a>(ThreadCout &amp;os, T obj)</td><td class="entry"><a class="el" href="../../d0/d58/a01230.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d58/a01230.php#a8b27881bbb3b1a50ddf821d8ce62e4d6">operator&lt;&lt;</a>(ThreadCout &amp;os, ThreadEndlCout &amp;)</td><td class="entry"><a class="el" href="../../d0/d58/a01230.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d58/a01230.php#adacc9d5343e07aa8396f8b1edd92bb39">ThreadCout</a>()</td><td class="entry"><a class="el" href="../../d0/d58/a01230.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d58/a01230.php#a43b2683a0e3d46205643de53236dc4f8">~ThreadCout</a>()</td><td class="entry"><a class="el" href="../../d0/d58/a01230.php">mcd::ThreadCout</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/d58/a01230.php#a935cee462520735116a963b3df85c5d4">goTo</a>(T x, T y)</td><td class="entry"><a class="el" href="../../d0/d58/a01230.php">mcd::console::Cursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/d58/a01230.php#acf65fe5af6d5a72cbcac5af73f14bc40">home</a>()</td><td class="entry"><a class="el" href="../../d0/d58/a01230.php">mcd::console::Cursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d25/a01406.php#ab67f25d69c1686f95be6fbfcc4ac4663">PureVirtual</a>()</td><td class="entry"><a class="el" href="../../dc/d25/a01406.php">mcd::PureVirtual</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d25/a01406.php#a1885fa694cc2d28cb55186fb3b53615d">PureVirtualMethod</a>() final=0</td><td class="entry"><a class="el" href="../../dc/d25/a01406.php">mcd::PureVirtual</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/d58/a01230.php#a6b7bd469ffa7a8e2cc840af28e68350a">put</a>(const std::string &amp;str, T x, T y, const Color &amp;color=0)</td><td class="entry"><a class="el" href="../../d0/d58/a01230.php">mcd::console::Cursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/d58/a01230.php#a5b1fc7215725e4cd22e95de9530e33ae">restore</a>()</td><td class="entry"><a class="el" href="../../d0/d58/a01230.php">mcd::console::Cursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/d58/a01230.php#a2d7f5ff054303c5974c2bb92cdaa2af5">save</a>()</td><td class="entry"><a class="el" href="../../d0/d58/a01230.php">mcd::console::Cursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d25/a01406.php#acb8cb10e007f7c5f6ac757843a212598">~PureVirtual</a>()</td><td class="entry"><a class="el" href="../../dc/d25/a01406.php">mcd::PureVirtual</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

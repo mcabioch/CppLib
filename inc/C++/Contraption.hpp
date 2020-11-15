@@ -10,7 +10,7 @@
 
 #include "C++.hpp"
 
-namespace mcd
+namespace mcd::entites
 {
     /*!
      * \class	Contraption
@@ -207,6 +207,6 @@ namespace mcd
 
         size_t _level;
     };
-}   // namespace mcd
+}   // namespace mcd::entites
 
 #endif   // HEADER_CPP_CONTRAPTION

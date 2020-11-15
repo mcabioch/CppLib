@@ -36,12 +36,13 @@ To set a special attribute for a function : func() <strong>**attribute** ((attr1
 
 - \ref mcd::Big\n
 - \ref mcd::Point\n
-- PathfindingDijkstra\n
-- Threadable\n
+- \ref mcd::PathfindingDijkstra\n
+- \ref mcd::Threadable\n
 - \ref mcd::trio\n
 - \ref mcd::quatuor\n
 - \ref mcd::stack\n
 - \ref mcd::queue\n
+- \ref mcd::vector\n
 - \ref mcd::Contraption\n
   - \ref mcd::Object\n
     - \ref mcd::Stone\n
@@ -56,7 +57,7 @@ To set a special attribute for a function : func() <strong>**attribute** ((attr1
 \subsection imp_sec_var_subsec Variables
 
 \ref mcd::bdd\n
-\ref mcd::rng\n
+\ref mcd::rnd\n
 \ref mcd::sha2
 
 \subsection imp_sec_def_subsec Structures \& Defines
@@ -81,10 +82,10 @@ To set a special attribute for a function : func() <strong>**attribute** ((attr1
 mcd::fileExists(const std::string& path)\n
 mcd::luhn(const std::string& num)\n
 mcd::sleep(size_t duration)\n
-mcd::print_all(Something data, bool change)\n
+mcd::console::print_all(Something data, bool change)\n
 printSize<Type>()\n
 mcd::printType(const C& obj)\n
-mcd::Check::printable(const T&)\n
+mcd::check::printable(const T&)\n
 mcd::removeAccents(std::string str)\n
 mcd::randStr(size_t nb, unsigned short flags)
 

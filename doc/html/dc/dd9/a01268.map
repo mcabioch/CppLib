@@ -1,5 +1,7 @@
 <map id="mcd::RSA" name="mcd::RSA">
-<area shape="rect" id="node1" title="A class to use the RSA algorithm for encryption." alt="" coords="29,155,112,181"/>
-<area shape="rect" id="node2" href="$d3/d0b/a01253.php" title="A class to be the parent for every crypt class." alt="" coords="23,80,118,107"/>
-<area shape="rect" id="node3" href="$de/d6c/a01349.php" title="A class to let some other not to be copyable." alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node1" title="A class to use the RSA algorithm for encryption." alt="" coords="95,200,177,227"/>
+<area shape="rect" id="node2" href="$dc/d83/a01254.php" title="A class to be the parent for every crypt class." alt="" coords="34,96,129,123"/>
+<area shape="rect" id="node3" href="$da/d61/a01350.php" title="A class to let some other not to be copyable." alt="" coords="5,13,136,39"/>
+<area shape="rect" id="node4" title="STL class." alt="" coords="173,96,253,123"/>
+<area shape="rect" id="node5" title="STL class." alt="" coords="161,5,287,47"/>
 </map>

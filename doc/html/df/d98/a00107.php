@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:33 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -236,26 +236,26 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8c/a01297.php">mcd::natural::Gene</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A gene that represent a caracteristic.  <a href="../../dc/d8c/a01297.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d34/a01298.php">mcd::natural::Gene</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A gene that represent a caracteristic.  <a href="../../d4/d34/a01298.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:db/d12/a00268"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/d2a/a00270"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php">mcd::natural</a></td></tr>
+<tr class="memitem:dd/d86/a00271"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php">mcd::natural</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aed19377fb7721df1a451d93af0c19950"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; Gene &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#aed19377fb7721df1a451d93af0c19950">mcd::natural::Genes</a></td></tr>
+<tr class="memitem:aed19377fb7721df1a451d93af0c19950"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; Gene &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php#aed19377fb7721df1a451d93af0c19950">mcd::natural::Genes</a></td></tr>
 <tr class="separator:aed19377fb7721df1a451d93af0c19950"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a81eb139ff8493e715a8efce3fda3155f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#a81eb139ff8493e715a8efce3fda3155f">mcd::natural::transfer</a> (const Genes &amp;in, Genes &amp;out)</td></tr>
-<tr class="memdesc:a81eb139ff8493e715a8efce3fda3155f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfer a vector of <a class="el" href="../../dc/d8c/a01297.php" title="A gene that represent a caracteristic.">Gene</a> into another one, using the copy method.  <a href="../../d9/d2a/a00270.php#a81eb139ff8493e715a8efce3fda3155f">More...</a><br /></td></tr>
+<tr class="memitem:a81eb139ff8493e715a8efce3fda3155f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php#a81eb139ff8493e715a8efce3fda3155f">mcd::natural::transfer</a> (const Genes &amp;in, Genes &amp;out)</td></tr>
+<tr class="memdesc:a81eb139ff8493e715a8efce3fda3155f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfer a vector of <a class="el" href="../../d4/d34/a01298.php" title="A gene that represent a caracteristic.">Gene</a> into another one, using the copy method.  <a href="../../dd/d86/a00271.php#a81eb139ff8493e715a8efce3fda3155f">More...</a><br /></td></tr>
 <tr class="separator:a81eb139ff8493e715a8efce3fda3155f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

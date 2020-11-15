@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,45 +95,45 @@ $(document).ready(function(){initNavTree('functions_n.php',''); initResizable();
 
 <h3><a id="index_n"></a>- n -</h3><ul>
 <li>Name()
-: <a class="el" href="dc/d8c/a01297.php#ae75e8789e328d8ffa258b201849d6a44">mcd::natural::Gene</a>
+: <a class="el" href="d4/d34/a01298.php#ae75e8789e328d8ffa258b201849d6a44">mcd::natural::Gene</a>
 </li>
 <li>nb()
-: <a class="el" href="d4/d20/a01421.php#ae42256dfd8f198d224e4a877474aa172">mcd::tests::Test</a>
+: <a class="el" href="d1/df4/a01422.php#ae42256dfd8f198d224e4a877474aa172">mcd::tests::Test</a>
 </li>
 <li>nbNodes
-: <a class="el" href="da/d77/a01381.php#a87c634685eea28780ddc10b7aa08af07">mcd::PathfindingProblem</a>
+: <a class="el" href="de/d9d/a01382.php#a87c634685eea28780ddc10b7aa08af07">mcd::PathfindingProblem</a>
 </li>
 <li>next
 : <a class="el" href="db/d12/a00268.php#a61ee478b9a87acbd0fb2299f867a1bea">mcd::MapMove</a>
-, <a class="el" href="d7/d81/a01365.php#ac24764eca1f5c6a54322d4a19d4ac68f">mcd::Path</a>
+, <a class="el" href="d6/dfe/a01366.php#ac24764eca1f5c6a54322d4a19d4ac68f">mcd::Path</a>
 </li>
 <li>nodes
-: <a class="el" href="da/d77/a01381.php#a32f76a1b0a2107e3468ff49fd398b0ae">mcd::PathfindingProblem</a>
+: <a class="el" href="de/d9d/a01382.php#a32f76a1b0a2107e3468ff49fd398b0ae">mcd::PathfindingProblem</a>
 </li>
 <li>NONE
-: <a class="el" href="de/d90/a01313.php#a3c35d4f54c782ef8b7898a1641eb4666ae19fd5ef0dc672cdc7cfb36136c6d19e">mcd::Json</a>
-, <a class="el" href="d3/dea/a01377.php#a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d">mcd::PathfindingException</a>
+: <a class="el" href="d9/de6/a01314.php#a3c35d4f54c782ef8b7898a1641eb4666ae19fd5ef0dc672cdc7cfb36136c6d19e">mcd::Json</a>
+, <a class="el" href="db/d74/a01378.php#a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d">mcd::PathfindingException</a>
 </li>
 <li>NotCopyable()
-: <a class="el" href="de/d6c/a01349.php#aa40da048522b578e9c2cc9f73c1a0d92">mcd::NotCopyable</a>
+: <a class="el" href="da/d61/a01350.php#aa40da048522b578e9c2cc9f73c1a0d92">mcd::NotCopyable</a>
 </li>
 <li>NotInstantiable()
-: <a class="el" href="d4/dad/a01353.php#a760ca4c32c24cf2b4c4c2ef07b51f997">mcd::NotInstantiable</a>
+: <a class="el" href="d7/dc4/a01354.php#a760ca4c32c24cf2b4c4c2ef07b51f997">mcd::NotInstantiable</a>
 </li>
 <li>notInstantiable()
-: <a class="el" href="d4/dad/a01353.php#a19c59f78b217426061641970c9f11022">mcd::NotInstantiable</a>
+: <a class="el" href="d7/dc4/a01354.php#a19c59f78b217426061641970c9f11022">mcd::NotInstantiable</a>
 </li>
 <li>notInUse()
-: <a class="el" href="db/df2/a01425.php#a0b2419ec1119f28dc2440e202f0d2c8e">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="dc/de6/a01426.php#a0b2419ec1119f28dc2440e202f0d2c8e">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>nroot
-: <a class="el" href="d9/d17/a01129.php#a21b8fc95f6ce377054c153aa5f1e871c">mcd::Big</a>
+: <a class="el" href="d0/d61/a01130.php#a21b8fc95f6ce377054c153aa5f1e871c">mcd::Big</a>
 </li>
 <li>NUMBER
-: <a class="el" href="de/d90/a01313.php#a3c35d4f54c782ef8b7898a1641eb4666a9ba4796f99bbe8254dac0ab0035292f5">mcd::Json</a>
+: <a class="el" href="d9/de6/a01314.php#a3c35d4f54c782ef8b7898a1641eb4666a9ba4796f99bbe8254dac0ab0035292f5">mcd::Json</a>
 </li>
 <li>numerator()
-: <a class="el" href="dc/dd5/a01293.php#a17e4466c06be8e1bff20fe204d4ff110">mcd::Fraction</a>
+: <a class="el" href="d7/d88/a01294.php#a17e4466c06be8e1bff20fe204d4ff110">mcd::Fraction</a>
 </li>
 </ul>
 </div><!-- contents -->

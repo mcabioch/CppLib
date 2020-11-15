@@ -13,12 +13,12 @@
 #include "Stone.hpp"
 //	#include "Entity.hpp"
 //		#include "Vegetal.hpp"
-#include "Plant.hpp"
 #include "Mushroom.hpp"
+#include "Plant.hpp"
 //		#include "Animal.hpp"
 #include "Ant.hpp"
 
-namespace mcd
+namespace mcd::entites
 {}
 
 #endif   // HEADER_CPP_ENTITIES

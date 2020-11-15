@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">4.0</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 27 2020 18:49:23 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,20 +92,20 @@ $(document).ready(function(){initNavTree('de/d7e/a01222.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::ConsoleCursor Member List</div>  </div>
+<div class="title">mcd::console::Reinit Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/d7e/a01222.php">mcd::ConsoleCursor</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../de/d7e/a01222.php">mcd::console::Reinit</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d7e/a01222.php#a191575f00626575e84455dfae871f502">goTo</a>(T x, T y)</td><td class="entry"><a class="el" href="../../de/d7e/a01222.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d7e/a01222.php#a75615abf8f124c460b9b163868c89b7e">home</a>()</td><td class="entry"><a class="el" href="../../de/d7e/a01222.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#ab67f25d69c1686f95be6fbfcc4ac4663">PureVirtual</a>()</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::PureVirtual</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#a1885fa694cc2d28cb55186fb3b53615d">PureVirtualMethod</a>() final=0</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::PureVirtual</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d7e/a01222.php#a2ca0b4e7146c9b27b2396c2ba114c923">put</a>(const std::string &amp;str, T x, T y, const Color &amp;color=0)</td><td class="entry"><a class="el" href="../../de/d7e/a01222.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d7e/a01222.php#a6f731b973f917b6c2f3a04267f12c851">restore</a>()</td><td class="entry"><a class="el" href="../../de/d7e/a01222.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d7e/a01222.php#ab58627fbfed0b6cabd5030943113e5e5">save</a>()</td><td class="entry"><a class="el" href="../../de/d7e/a01222.php">mcd::ConsoleCursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d2f/a01394.php#acb8cb10e007f7c5f6ac757843a212598">~PureVirtual</a>()</td><td class="entry"><a class="el" href="../../d6/d2f/a01394.php">mcd::PureVirtual</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/d15/a01218.php#a25e220411eca07870e3146530deefdf6">addColors</a>(int color)</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/d15/a01218.php#a39d1e3b3618a86c29866bd90855bfc8f">addColors</a>(int color, Args... args)</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/d15/a01218.php#aeb7871eb7a31894377812891127efe18">addColors</a>(const Colors &amp;color)</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/d15/a01218.php#af572e71933160dc857fcb6f91e94ba5c">addColors</a>(const Colors &amp;color, Args... args)</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/d15/a01218.php#a55ccb3b92bc685b42f0ca5f71cb98559">Color</a>(const std::string &amp;color)</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/d15/a01218.php#a79c795ec63433d6f1e5232e50247fee1">Color</a>(Colors color, Args... args)</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d7e/a01222.php#a9401ce9fc4468304235d6d2b2b87b7b7">Reinit</a>()</td><td class="entry"><a class="el" href="../../de/d7e/a01222.php">mcd::console::Reinit</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/d15/a01218.php#ac165219b90060af0a1d899b1caadab6c">~Color</a>()</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

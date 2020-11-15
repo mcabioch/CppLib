@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,18 +95,18 @@ $(document).ready(function(){initNavTree('functions_func_v.php',''); initResizab
 
 <h3><a id="index_v"></a>- v -</h3><ul>
 <li>Value()
-: <a class="el" href="de/df6/a01141.php#a01bc934ac059453792f6783b0e919dd1">mcd::natural::Cell</a>
-, <a class="el" href="de/d04/a01209.php#a2dced15a099be338addf44cb4d8a60f2">mcd::natural::Chromosome</a>
-, <a class="el" href="dc/d8c/a01297.php#a1c76cb1011260b0ad8495d1e591057ba">mcd::natural::Gene</a>
+: <a class="el" href="d3/ddc/a01142.php#a01bc934ac059453792f6783b0e919dd1">mcd::natural::Cell</a>
+, <a class="el" href="d2/da6/a01210.php#a2dced15a099be338addf44cb4d8a60f2">mcd::natural::Chromosome</a>
+, <a class="el" href="d4/d34/a01298.php#a1c76cb1011260b0ad8495d1e591057ba">mcd::natural::Gene</a>
 </li>
 <li>Values()
-: <a class="el" href="de/d04/a01209.php#a9d228fb25de487c350f4416dbc5ff8e2">mcd::natural::Chromosome</a>
+: <a class="el" href="d2/da6/a01210.php#a9d228fb25de487c350f4416dbc5ff8e2">mcd::natural::Chromosome</a>
 </li>
 <li>vector()
-: <a class="el" href="da/df7/a01457.php#a92e814868c4f4b6f3d0969b200b35c91">mcd::vector&lt; C &gt;</a>
+: <a class="el" href="d7/dd1/a01458.php#a92e814868c4f4b6f3d0969b200b35c91">mcd::vector&lt; C &gt;</a>
 </li>
 <li>Vegetal()
-: <a class="el" href="dc/d60/a01461.php#a092e520f079ed706c3ac50e667653a0e">mcd::Vegetal</a>
+: <a class="el" href="de/d36/a01462.php#a143f9aec05ff7fccc2bc4a01ea2630ad">mcd::entites::Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

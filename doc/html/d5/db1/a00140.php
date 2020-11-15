@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:33 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -228,14 +228,14 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:dd/d5d/a01325"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#dd/d5d/a01325">mcd::WorldDimensions</a></td></tr>
-<tr class="memdesc:dd/d5d/a01325"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object to group the dimensions of the world.  <a href="../../db/d12/a00268.php#dd/d5d/a01325">More...</a><br /></td></tr>
-<tr class="separator:dd/d5d/a01325"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:df/d29/a01329"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#df/d29/a01329">mcd::MapMove</a></td></tr>
-<tr class="memdesc:df/d29/a01329"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to know informations about th movement of something in the map.  <a href="../../db/d12/a00268.php#df/d29/a01329">More...</a><br /></td></tr>
-<tr class="separator:df/d29/a01329"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2a/a01333.php">mcd::Map</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a map and that implement some pathfinding algorithms.  <a href="../../dc/d2a/a01333.php#details">More...</a><br /></td></tr>
+<tr class="memitem:d1/d54/a01326"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d1/d54/a01326">mcd::WorldDimensions</a></td></tr>
+<tr class="memdesc:d1/d54/a01326"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object to group the dimensions of the world.  <a href="../../db/d12/a00268.php#d1/d54/a01326">More...</a><br /></td></tr>
+<tr class="separator:d1/d54/a01326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d5/d78/a01330"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d5/d78/a01330">mcd::MapMove</a></td></tr>
+<tr class="memdesc:d5/d78/a01330"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to know informations about th movement of something in the map.  <a href="../../db/d12/a00268.php#d5/d78/a01330">More...</a><br /></td></tr>
+<tr class="separator:d5/d78/a01330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd1/a01334.php">mcd::Map</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a map and that implement some pathfinding algorithms.  <a href="../../d4/dd1/a01334.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -266,8 +266,8 @@ Enumerations</h2></td></tr>
 <dd>
 Last modification : November, 13 2020 </dd></dl>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="dd/d5d/a01325" id="dd/d5d/a01325"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dd/d5d/a01325">&#9670;&nbsp;</a></span>mcd::WorldDimensions</h2>
+<a name="d1/d54/a01326" id="d1/d54/a01326"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d1/d54/a01326">&#9670;&nbsp;</a></span>mcd::WorldDimensions</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -302,8 +302,8 @@ z</td>
 
 </div>
 </div>
-<a name="df/d29/a01329" id="df/d29/a01329"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#df/d29/a01329">&#9670;&nbsp;</a></span>mcd::MapMove</h2>
+<a name="d5/d78/a01330" id="d5/d78/a01330"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d5/d78/a01330">&#9670;&nbsp;</a></span>mcd::MapMove</h2>
 
 <div class="memitem">
 <div class="memproto">

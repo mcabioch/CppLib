@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">4.0</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 27 2020 18:49:23 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,23 +92,15 @@ $(document).ready(function(){initNavTree('d7/dc4/a01354.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Path Member List</div>  </div>
+<div class="title">mcd::NotInstantiable Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d7/dc4/a01354.php">mcd::Path</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d7/dc4/a01354.php">mcd::NotInstantiable</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dc4/a01354.php#a3b461b7f35d6914a627e52e20f79f6ce">end</a></td><td class="entry"><a class="el" href="../../d7/dc4/a01354.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dc4/a01354.php#a7928f59acfc984899a12b52ab2e5ddca">hasNext</a>() const</td><td class="entry"><a class="el" href="../../d7/dc4/a01354.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dc4/a01354.php#a2ae56317713ca93848b0c47bc401cbf4">length</a>() const</td><td class="entry"><a class="el" href="../../d7/dc4/a01354.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dc4/a01354.php#ac24764eca1f5c6a54322d4a19d4ac68f">next</a>(PathfindingNode &amp;node)</td><td class="entry"><a class="el" href="../../d7/dc4/a01354.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dc4/a01354.php#a19773c31a6467b9b61b440135863290e">Path</a>()</td><td class="entry"><a class="el" href="../../d7/dc4/a01354.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dc4/a01354.php#a54d7d03099784e7f2e573ba17ebe499e">push</a>(const PathfindingNode &amp;node)</td><td class="entry"><a class="el" href="../../d7/dc4/a01354.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dc4/a01354.php#a6941e224d3239f1c5aeda5b309aa5c81">reset</a>()</td><td class="entry"><a class="el" href="../../d7/dc4/a01354.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dc4/a01354.php#a1fb9d6aad58d7817692168eaea307a14">reverse</a>()</td><td class="entry"><a class="el" href="../../d7/dc4/a01354.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dc4/a01354.php#a85140de1f8970b128a2501316a71e332">size</a>() const</td><td class="entry"><a class="el" href="../../d7/dc4/a01354.php">mcd::Path</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dc4/a01354.php#aeeee0a0ede330174785a5c7fe77d1681">start</a></td><td class="entry"><a class="el" href="../../d7/dc4/a01354.php">mcd::Path</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dc4/a01354.php#ae7ac83a2afcba63d1e8f17f314572a7f">~Path</a>()</td><td class="entry"><a class="el" href="../../d7/dc4/a01354.php">mcd::Path</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dc4/a01354.php#a760ca4c32c24cf2b4c4c2ef07b51f997">NotInstantiable</a>()</td><td class="entry"><a class="el" href="../../d7/dc4/a01354.php">mcd::NotInstantiable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/dc4/a01354.php#a19c59f78b217426061641970c9f11022">notInstantiable</a>() final=0</td><td class="entry"><a class="el" href="../../d7/dc4/a01354.php">mcd::NotInstantiable</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dc4/a01354.php#a096b44b3d9fe8e567b179ac3d3dbacff">~NotInstantiable</a>()</td><td class="entry"><a class="el" href="../../d7/dc4/a01354.php">mcd::NotInstantiable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

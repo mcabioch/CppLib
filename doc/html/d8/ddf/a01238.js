@@ -1,8 +1,7 @@
 var a01238 =
 [
-    [ "ConsoleTable", "d8/ddf/a01238.php#acc7af9ad8f4b7175a82acb2edfce15b2", null ],
-    [ "headers", "d8/ddf/a01238.php#a1878d602fe475fb47a2aca063e7cb9d6", null ],
-    [ "line", "d8/ddf/a01238.php#a3669c41beda1b667738b6e7c42663b29", null ],
-    [ "lines", "d8/ddf/a01238.php#aadce47b475851c9d585ee9c21b2cb1ac", null ],
-    [ "operator<<", "d8/ddf/a01238.php#af23c547bfa2b35d582a6922d425d02f5", null ]
+    [ "ThreadCout", "d8/ddf/a01238.php#a0ab22efba01da7bd7a61446936294cca", null ],
+    [ "~ThreadCout", "d8/ddf/a01238.php#a00406826de52af9d7753e69e6f674e08", null ],
+    [ "operator<<", "d8/ddf/a01238.php#a358d316052544257ab9aee6f1fe762dc", null ],
+    [ "operator<<", "d8/ddf/a01238.php#a8b27881bbb3b1a50ddf821d8ce62e4d6", null ]
 ];

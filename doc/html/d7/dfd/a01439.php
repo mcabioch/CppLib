@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">4.0</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 27 2020 18:49:23 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,24 +92,29 @@ $(document).ready(function(){initNavTree('d0/de2/a01442.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Point Member List</div>  </div>
+<div class="title">mcd::Tree&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d0/de2/a01442.php">mcd::Point</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a2beb84069e438adcccfa4b6ed9794c0c">bot</a>() const</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a91941563ecc020a510832ba8869e5ded">left</a>() const</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a6bea9cfb4049115f767ed658959d6648">operator!=</a>(const Point &amp;a, const Point &amp;b)</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a55681886ec7c5d7c0210fa0611bc84ea">operator&lt;&lt;</a>(std::ostream &amp;os, const Point &amp;a)</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a8422e469473d1718b8f7a267e0d12019">operator=</a>(const std::pair&lt; T, U &gt; &amp;o)</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/de2/a01442.php#aeac533b3e4edb1f24bd947e0a96bb5c4">operator=</a>(const trio&lt; T, U, V &gt; &amp;o)</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a177528c8a1eee37fcda25a89084b8ed6">operator==</a>(const Point &amp;a, const Point &amp;b)</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Point</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a613a9be49ee0cbe55e10e75db1d59faa">right</a>() const</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#afd57961d22ce89d783303c0fbbdc4f83">top</a>() const</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Point</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a924c77d36867a18d5a52767ff246ebfc">x</a></td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Point</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#ab339ac0efa2259051dc1ac0637d2c9a8">y</a></td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Point</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a010288cb5febefa70329d35a726c7291">z</a></td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Point</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a20ba766efa9e94d90d156432d6f101b1">add</a>(T data, NodeWeight weight)</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/de2/a01442.php#aa1c0e2b0a15c31c48ed5cade92c4ae3d">applyForEach</a>(void(*func)(Node&lt; T &gt; *, long int))</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#aaf42d9cae430064e1b52b8cd3e57ee42">asc</a>()</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a1fc36192abe90cd4c50aecf7a0df3ce1">convert</a>(std::vector&lt; std::pair&lt; T, U &gt; &gt; in)</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a09e92db6995261c4f6bfd7ce10bf8d2f">create</a>(std::vector&lt; std::pair&lt; T, NodeWeight &gt; &gt; datas)</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a52f3b03c077b82ded999b5cbd197f1e3">desc</a>()</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a38b40b07bade18a081d80596983dd16c">equilibrate</a>(TREE_SORT sort=ASC)</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a1dd3866ef261769430a548223331c98d">find</a>(T value)</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a634efe609117c9533707b9f30bd0c488">getLeftCount</a>(Node&lt; T &gt; *node)</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/de2/a01442.php#ada7f6fc4dba1856a8aae67983ba5544b">getRightCount</a>(Node&lt; T &gt; *node)</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a069d03de16fc9d3db25d7ec67ed6811b">height</a>()</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a53cd621cced254067f1ebac4e2abe8df">insert</a>(std::pair&lt; T, NodeWeight &gt; datas)</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a279d0472004ed9618dde58fcfd6bb508">onCompare</a>(void(*func)(Node&lt; T &gt; *, Node&lt; T &gt; *))</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/de2/a01442.php#ad9cda4b45c11828381cde08fa48ae94d">onDelete</a>(void(*func)(Node&lt; T &gt; *))</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a1e6f8d4ad100be50a970848a0c8437d1">print</a>()</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a93774d1792effab8a46379c6781729f0">Tree</a>(TREE_SORT sorting=ASC)</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/de2/a01442.php#a44571a01497b2ac582c292c8bad9de33">~Tree</a>()</td><td class="entry"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

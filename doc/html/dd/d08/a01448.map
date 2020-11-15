@@ -1,4 +1,4 @@
-<map id="mcd::vector&lt; C &gt;" name="mcd::vector&lt; C &gt;">
-<area shape="rect" id="node1" title="Add some features to std::vector." alt="" coords="5,80,131,107"/>
-<area shape="rect" id="node2" title="STL class." alt="" coords="9,5,127,32"/>
+<map id="mcd::quatuor&lt; T, U, V, W &gt;" name="mcd::quatuor&lt; T, U, V, W &gt;">
+<area shape="rect" id="node1" title="A container for four values." alt="" coords="5,139,144,180"/>
+<area shape="rect" id="node2" title=" " alt="" coords="55,5,94,32"/>
 </map>

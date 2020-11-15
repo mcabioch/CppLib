@@ -1,6 +1,4 @@
-<map id="mcd::Plant" name="mcd::Plant">
-<area shape="rect" id="node1" title="A plant." alt="" coords="24,229,109,256"/>
-<area shape="rect" id="node2" href="$df/d75/a01447.php" title="A vegetal." alt="" coords="17,155,116,181"/>
-<area shape="rect" id="node3" href="$d3/d42/a01275.php" title="An entity." alt="" coords="22,80,111,107"/>
-<area shape="rect" id="node4" href="$d7/dbf/a01239.php" title="A contraption." alt="" coords="5,5,128,32"/>
+<map id="mcd::Pathfinding" name="mcd::Pathfinding">
+<area shape="rect" id="node1" title="A class to implement some pathfinding algorithms." alt="" coords="28,5,148,32"/>
+<area shape="rect" id="node2" href="$d2/dff/a01374.php" title="An implementation of the Dijkstra algorithm." alt="" coords="5,80,171,107"/>
 </map>

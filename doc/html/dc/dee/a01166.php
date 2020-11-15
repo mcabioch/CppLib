@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::check::is_string&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('d7/daf/a01169.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('dc/dee/a01166.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,20 +91,64 @@ $(document).ready(function(){initNavTree('d7/daf/a01169.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="../../d6/d27/a01163.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::check::is_smatch&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::check::is_string&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d7/daf/a01169.php">mcd::check::is_smatch&lt; T &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/daf/a01169.php#adea1af67a99838d74cf866af87297e16">value</a></td><td class="entry"><a class="el" href="../../d7/daf/a01169.php">mcd::check::is_smatch&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<p>A template class to test if T is a std::string.  
+ <a href="../../dc/dee/a01166.php#details">More...</a></p>
+
+<p><code>#include &lt;check.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a6ede9c303cc0abd1dd1734dc1ade40a5"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a01166.php#a6ede9c303cc0abd1dd1734dc1ade40a5">value</a> = false</td></tr>
+<tr class="separator:a6ede9c303cc0abd1dd1734dc1ade40a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class mcd::check::is_string&lt; T &gt;</h3>
+
+<p>A template class to test if T is a std::string. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6ede9c303cc0abd1dd1734dc1ade40a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ede9c303cc0abd1dd1734dc1ade40a5">&#9670;&nbsp;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool <a class="el" href="../../dc/dee/a01166.php">mcd::check::is_string</a>&lt; T &gt;::value = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../dc/dee/a00053.php">check.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d0/d19/a00273.php">check</a></li><li class="navelem"><a class="el" href="../../dc/dee/a01166.php">is_string</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

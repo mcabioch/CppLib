@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:33 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -245,9 +245,9 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:d5/d6f/a01281"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d5/d6f/a01281">mcd::ContraptionAttr</a></td></tr>
-<tr class="memdesc:d5/d6f/a01281"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define <b><a class="el" href="../../d3/d7b/a01249.php" title="A contraption.">Contraption</a></b> attributes.  <a href="../../db/d12/a00268.php#d5/d6f/a01281">More...</a><br /></td></tr>
-<tr class="separator:d5/d6f/a01281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d8/d17/a01282"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d8/d17/a01282">mcd::ContraptionAttr</a></td></tr>
+<tr class="memdesc:d8/d17/a01282"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define <b>Contraption</b> attributes.  <a href="../../db/d12/a00268.php#d8/d17/a01282">More...</a><br /></td></tr>
+<tr class="separator:d8/d17/a01282"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -301,8 +301,8 @@ Enumerations</h2></td></tr>
 </li>
 </ul>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="d5/d6f/a01281" id="d5/d6f/a01281"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d5/d6f/a01281">&#9670;&nbsp;</a></span>mcd::ContraptionAttr</h2>
+<a name="d8/d17/a01282" id="d8/d17/a01282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d8/d17/a01282">&#9670;&nbsp;</a></span>mcd::ContraptionAttr</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -312,7 +312,7 @@ Enumerations</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><p>A struct to define <b><a class="el" href="../../d3/d7b/a01249.php" title="A contraption.">Contraption</a></b> attributes. </p>
+<div class="textblock"><p>A struct to define <b>Contraption</b> attributes. </p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">

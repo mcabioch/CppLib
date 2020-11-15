@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:33 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -105,65 +105,65 @@ Include dependency graph for Player.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/de3/a00201.png" border="0" usemap="#aPlayer_8hpp" alt=""/></div>
 <map name="Player_8hpp" id="Player_8hpp">
-<area shape="rect" title=" " alt="" coords="783,5,866,32"/>
-<area shape="rect" href="../../d3/d00/a00113.php" title=" " alt="" coords="719,155,815,181"/>
-<area shape="rect" href="../../de/d79/a00203.php" title=" " alt="" coords="808,80,959,107"/>
-<area shape="rect" href="../../dd/d32/a00041.php" title=" " alt="" coords="788,603,861,629"/>
-<area shape="rect" href="../../d5/de0/a00050.php" title=" " alt="" coords="688,677,759,704"/>
-<area shape="rect" href="../../d1/d88/a00128.php" title=" " alt="" coords="782,752,867,779"/>
-<area shape="rect" href="../../d6/de1/a00233.php" title=" " alt="" coords="865,827,937,853"/>
-<area shape="rect" href="../../d9/d2e/a00056.php" title=" " alt="" coords="633,752,758,779"/>
-<area shape="rect" href="../../df/d98/a00107.php" title=" " alt="" coords="683,827,761,853"/>
-<area shape="rect" href="../../d6/d2d/a00047.php" title=" " alt="" coords="781,901,868,928"/>
-<area shape="rect" href="../../d4/d51/a00017.php" title=" " alt="" coords="645,976,730,1003"/>
-<area shape="rect" href="../../df/dc8/a00122.php" title=" " alt="" coords="787,976,862,1003"/>
-<area shape="rect" href="../../d1/d09/a00077.php" title=" " alt="" coords="916,1051,1013,1077"/>
-<area shape="rect" href="../../db/db2/a00020.php" title=" " alt="" coords="574,1051,734,1077"/>
-<area shape="rect" href="../../da/d2a/a00086.php" title=" " alt="" coords="780,1125,869,1152"/>
-<area shape="rect" href="../../d6/d22/a00245.php" title=" " alt="" coords="533,1200,612,1227"/>
-<area shape="rect" href="../../d4/dee/a00008.php" title=" " alt="" coords="637,1200,711,1227"/>
-<area shape="rect" href="../../d3/d8b/a00059.php" title=" " alt="" coords="655,1349,736,1376"/>
-<area shape="rect" href="../../da/d24/a00068.php" title=" " alt="" coords="681,1424,808,1451"/>
-<area shape="rect" href="../../d2/d1f/a00083.php" title=" " alt="" coords="798,1499,902,1525"/>
-<area shape="rect" href="../../df/d6a/a00119.php" title=" " alt="" coords="887,1275,986,1301"/>
-<area shape="rect" href="../../d5/db1/a00140.php" title=" " alt="" coords="1018,1200,1090,1227"/>
-<area shape="rect" href="../../dd/dc1/a00212.php" title=" " alt="" coords="1214,1349,1329,1376"/>
-<area shape="rect" href="../../d7/d40/a00236.php" title=" " alt="" coords="535,1275,645,1301"/>
-<area shape="rect" href="../../d4/d3e/a00116.php" title=" " alt="" coords="820,1648,915,1675"/>
-<area shape="rect" href="../../dc/de6/a00167.php" title=" " alt="" coords="339,1723,462,1749"/>
-<area shape="rect" href="../../d5/dcb/a00170.php" title=" " alt="" coords="487,1723,621,1749"/>
-<area shape="rect" href="../../d2/dc8/a00242.php" title=" " alt="" coords="645,1723,775,1749"/>
-<area shape="rect" title=" " alt="" coords="799,1723,861,1749"/>
-<area shape="rect" title=" " alt="" coords="885,1723,924,1749"/>
-<area shape="rect" title=" " alt="" coords="948,1723,1011,1749"/>
-<area shape="rect" title=" " alt="" coords="1035,1723,1089,1749"/>
-<area shape="rect" title=" " alt="" coords="1113,1723,1163,1749"/>
-<area shape="rect" href="../../d9/d01/a00227.php" title="Used to replace strptime function when compiling for Windows." alt="" coords="623,1797,703,1824"/>
-<area shape="rect" title=" " alt="" coords="728,1797,783,1824"/>
-<area shape="rect" href="../../d5/ddf/a00224.php" title=" " alt="" coords="609,1872,718,1899"/>
-<area shape="rect" title=" " alt="" coords="493,1947,549,1973"/>
-<area shape="rect" href="../../d3/dd5/a00215.php" title=" " alt="" coords="573,1947,650,1973"/>
-<area shape="rect" href="../../d2/df5/a00137.php" title=" " alt="" coords="674,1947,757,1973"/>
-<area shape="rect" href="../../d1/da8/a00230.php" title=" " alt="" coords="781,1947,871,1973"/>
-<area shape="rect" title=" " alt="" coords="579,2021,644,2048"/>
-<area shape="rect" href="../../d9/d77/a00095.php" title=" " alt="" coords="786,2021,866,2048"/>
-<area shape="rect" href="../../de/de1/a00065.php" title=" " alt="" coords="728,2096,820,2123"/>
-<area shape="rect" href="../../d4/d3a/a00101.php" title=" " alt="" coords="844,2096,915,2123"/>
-<area shape="rect" href="../../db/db6/a00074.php" title=" " alt="" coords="730,2171,821,2197"/>
-<area shape="rect" title=" " alt="" coords="683,2245,766,2272"/>
-<area shape="rect" href="../../da/d45/a00011.php" title=" " alt="" coords="790,2245,865,2272"/>
-<area shape="rect" href="../../dc/dee/a00053.php" title=" " alt="" coords="841,2320,923,2347"/>
-<area shape="rect" href="../../dc/d9a/a00218.php" title=" " alt="" coords="729,2320,816,2347"/>
-<area shape="rect" href="../../df/d03/a00062.php" title=" " alt="" coords="1034,2395,1125,2421"/>
-<area shape="rect" href="../../d9/d39/a00257.php" title=" " alt="" coords="731,2395,814,2421"/>
-<area shape="rect" title=" " alt="" coords="845,2395,906,2421"/>
-<area shape="rect" title=" " alt="" coords="930,2395,999,2421"/>
-<area shape="rect" href="../../d9/db6/a00146.php" title=" " alt="" coords="1043,2469,1126,2496"/>
-<area shape="rect" href="../../d0/dc2/a00104.php" title=" " alt="" coords="1180,2544,1275,2571"/>
-<area shape="rect" href="../../d6/d7d/a00161.php" title=" " alt="" coords="1014,2544,1155,2571"/>
-<area shape="rect" href="../../d7/dce/a00143.php" title=" " alt="" coords="1065,2619,1147,2645"/>
-<area shape="rect" title=" " alt="" coords="1194,2619,1261,2645"/>
-<area shape="rect" href="../../d8/d41/a00038.php" title=" " alt="" coords="1062,2693,1145,2720"/>
+<area shape="rect" title=" " alt="" coords="795,5,878,32"/>
+<area shape="rect" href="../../d3/d00/a00113.php" title=" " alt="" coords="731,155,827,181"/>
+<area shape="rect" href="../../de/d79/a00203.php" title=" " alt="" coords="820,80,971,107"/>
+<area shape="rect" href="../../dd/d32/a00041.php" title=" " alt="" coords="792,603,865,629"/>
+<area shape="rect" href="../../d5/de0/a00050.php" title=" " alt="" coords="692,677,763,704"/>
+<area shape="rect" href="../../d1/d88/a00128.php" title=" " alt="" coords="786,752,871,779"/>
+<area shape="rect" href="../../d6/de1/a00233.php" title=" " alt="" coords="869,827,941,853"/>
+<area shape="rect" href="../../d9/d2e/a00056.php" title=" " alt="" coords="637,752,762,779"/>
+<area shape="rect" href="../../df/d98/a00107.php" title=" " alt="" coords="687,827,765,853"/>
+<area shape="rect" href="../../d6/d2d/a00047.php" title=" " alt="" coords="785,901,872,928"/>
+<area shape="rect" href="../../d4/d51/a00017.php" title=" " alt="" coords="649,976,734,1003"/>
+<area shape="rect" href="../../df/dc8/a00122.php" title=" " alt="" coords="791,976,866,1003"/>
+<area shape="rect" href="../../d1/d09/a00077.php" title=" " alt="" coords="920,1051,1017,1077"/>
+<area shape="rect" href="../../db/db2/a00020.php" title=" " alt="" coords="578,1051,738,1077"/>
+<area shape="rect" href="../../da/d2a/a00086.php" title=" " alt="" coords="784,1125,873,1152"/>
+<area shape="rect" href="../../d6/d22/a00245.php" title=" " alt="" coords="537,1200,616,1227"/>
+<area shape="rect" href="../../d4/dee/a00008.php" title=" " alt="" coords="641,1200,715,1227"/>
+<area shape="rect" href="../../d3/d8b/a00059.php" title=" " alt="" coords="659,1349,740,1376"/>
+<area shape="rect" href="../../da/d24/a00068.php" title=" " alt="" coords="687,1424,813,1451"/>
+<area shape="rect" href="../../d2/d1f/a00083.php" title=" " alt="" coords="802,1499,906,1525"/>
+<area shape="rect" href="../../df/d6a/a00119.php" title=" " alt="" coords="891,1275,990,1301"/>
+<area shape="rect" href="../../d5/db1/a00140.php" title=" " alt="" coords="1022,1200,1094,1227"/>
+<area shape="rect" href="../../dd/dc1/a00212.php" title=" " alt="" coords="1219,1349,1334,1376"/>
+<area shape="rect" href="../../d7/d40/a00236.php" title=" " alt="" coords="540,1275,651,1301"/>
+<area shape="rect" href="../../d4/d3e/a00116.php" title=" " alt="" coords="825,1648,920,1675"/>
+<area shape="rect" href="../../dc/de6/a00167.php" title=" " alt="" coords="345,1723,467,1749"/>
+<area shape="rect" href="../../d5/dcb/a00170.php" title=" " alt="" coords="492,1723,627,1749"/>
+<area shape="rect" href="../../d2/dc8/a00242.php" title=" " alt="" coords="651,1723,780,1749"/>
+<area shape="rect" title=" " alt="" coords="805,1723,866,1749"/>
+<area shape="rect" title=" " alt="" coords="891,1723,929,1749"/>
+<area shape="rect" title=" " alt="" coords="953,1723,1016,1749"/>
+<area shape="rect" title=" " alt="" coords="1041,1723,1094,1749"/>
+<area shape="rect" title=" " alt="" coords="1118,1723,1169,1749"/>
+<area shape="rect" href="../../d9/d01/a00227.php" title="Used to replace strptime function when compiling for Windows." alt="" coords="629,1797,709,1824"/>
+<area shape="rect" title=" " alt="" coords="733,1797,788,1824"/>
+<area shape="rect" href="../../d5/ddf/a00224.php" title=" " alt="" coords="614,1872,723,1899"/>
+<area shape="rect" title=" " alt="" coords="498,1947,554,1973"/>
+<area shape="rect" href="../../d3/dd5/a00215.php" title=" " alt="" coords="578,1947,655,1973"/>
+<area shape="rect" href="../../d2/df5/a00137.php" title=" " alt="" coords="679,1947,762,1973"/>
+<area shape="rect" href="../../d1/da8/a00230.php" title=" " alt="" coords="786,1947,877,1973"/>
+<area shape="rect" title=" " alt="" coords="584,2021,649,2048"/>
+<area shape="rect" href="../../d9/d77/a00095.php" title=" " alt="" coords="791,2021,871,2048"/>
+<area shape="rect" href="../../de/de1/a00065.php" title=" " alt="" coords="733,2096,825,2123"/>
+<area shape="rect" href="../../d4/d3a/a00101.php" title=" " alt="" coords="849,2096,920,2123"/>
+<area shape="rect" href="../../db/db6/a00074.php" title=" " alt="" coords="735,2171,826,2197"/>
+<area shape="rect" title=" " alt="" coords="689,2245,771,2272"/>
+<area shape="rect" href="../../da/d45/a00011.php" title=" " alt="" coords="795,2245,870,2272"/>
+<area shape="rect" href="../../dc/dee/a00053.php" title=" " alt="" coords="846,2320,929,2347"/>
+<area shape="rect" href="../../dc/d9a/a00218.php" title=" " alt="" coords="735,2320,821,2347"/>
+<area shape="rect" href="../../df/d03/a00062.php" title=" " alt="" coords="1039,2395,1130,2421"/>
+<area shape="rect" href="../../d9/d39/a00257.php" title=" " alt="" coords="737,2395,819,2421"/>
+<area shape="rect" title=" " alt="" coords="850,2395,911,2421"/>
+<area shape="rect" title=" " alt="" coords="935,2395,1005,2421"/>
+<area shape="rect" href="../../d9/db6/a00146.php" title=" " alt="" coords="1049,2469,1131,2496"/>
+<area shape="rect" href="../../d0/dc2/a00104.php" title=" " alt="" coords="1185,2544,1280,2571"/>
+<area shape="rect" href="../../d6/d7d/a00161.php" title=" " alt="" coords="1019,2544,1161,2571"/>
+<area shape="rect" href="../../d7/dce/a00143.php" title=" " alt="" coords="1070,2619,1153,2645"/>
+<area shape="rect" title=" " alt="" coords="1199,2619,1266,2645"/>
+<area shape="rect" href="../../d8/d41/a00038.php" title=" " alt="" coords="1066,2693,1149,2720"/>
 <area shape="rect" href="../../d5/df1/a00206.php" title=" " alt="" coords="701,2768,794,2795"/>
 <area shape="rect" href="../../d3/d1a/a00251.php" title=" " alt="" coords="615,2843,693,2869"/>
 <area shape="rect" title=" " alt="" coords="718,2843,777,2869"/>
@@ -192,37 +192,37 @@ Include dependency graph for Player.hpp:</div>
 <area shape="rect" title=" " alt="" coords="964,3216,1019,3243"/>
 <area shape="rect" title=" " alt="" coords="1043,3216,1097,3243"/>
 <area shape="rect" title=" " alt="" coords="1121,3216,1179,3243"/>
-<area shape="rect" href="../../d1/d44/a00098.php" title=" " alt="" coords="937,2619,1040,2645"/>
-<area shape="rect" title=" " alt="" coords="955,2693,1033,2720"/>
-<area shape="rect" title=" " alt="" coords="852,2693,931,2720"/>
-<area shape="rect" href="../../d2/de7/a00014.php" title=" " alt="" coords="700,2469,832,2496"/>
-<area shape="rect" title=" " alt="" coords="449,2544,560,2571"/>
-<area shape="rect" title=" " alt="" coords="585,2544,689,2571"/>
-<area shape="rect" title=" " alt="" coords="713,2544,763,2571"/>
-<area shape="rect" title=" " alt="" coords="788,2544,845,2571"/>
-<area shape="rect" title=" " alt="" coords="870,2544,910,2571"/>
-<area shape="rect" title=" " alt="" coords="935,2544,989,2571"/>
-<area shape="rect" title=" " alt="" coords="846,2171,913,2197"/>
-<area shape="rect" href="../../da/dec/a00080.php" title=" " alt="" coords="830,1573,905,1600"/>
-<area shape="rect" href="../../d0/d27/a00239.php" title=" " alt="" coords="729,1573,805,1600"/>
-<area shape="rect" href="../../de/df3/a00185.php" title=" " alt="" coords="1011,1275,1185,1301"/>
-<area shape="rect" href="../../da/d15/a00188.php" title=" " alt="" coords="1019,1349,1177,1376"/>
-<area shape="rect" href="../../d7/d25/a00182.php" title=" " alt="" coords="1042,1424,1154,1451"/>
-<area shape="rect" href="../../dc/d57/a00194.php" title=" " alt="" coords="1018,1499,1178,1525"/>
-<area shape="rect" href="../../db/dd9/a00179.php" title=" " alt="" coords="1174,1573,1249,1600"/>
-<area shape="rect" href="../../d9/dd0/a00191.php" title=" " alt="" coords="979,1573,1150,1600"/>
-<area shape="rect" href="../../dc/dfe/a00125.php" title=" " alt="" coords="758,1051,891,1077"/>
-<area shape="rect" href="../../db/dab/a00089.php" title=" " alt="" coords="877,155,967,181"/>
-<area shape="rect" href="../../dd/d52/a00221.php" title=" " alt="" coords="1092,229,1173,256"/>
-<area shape="rect" href="../../de/db1/a00197.php" title=" " alt="" coords="766,229,843,256"/>
-<area shape="rect" href="../../db/ddf/a00164.php" title=" " alt="" coords="868,229,976,256"/>
-<area shape="rect" href="../../dd/dad/a00005.php" title=" " alt="" coords="1001,229,1067,256"/>
-<area shape="rect" href="../../d7/d3f/a00173.php" title=" " alt="" coords="1079,379,1165,405"/>
-<area shape="rect" href="../../d0/d89/a00071.php" title=" " alt="" coords="905,528,1019,555"/>
-<area shape="rect" href="../../dd/dd7/a00260.php" title=" " alt="" coords="875,304,966,331"/>
-<area shape="rect" href="../../d1/dc1/a00092.php" title=" " alt="" coords="923,453,1001,480"/>
-<area shape="rect" href="../../d7/d46/a00002.php" title=" " alt="" coords="991,304,1077,331"/>
-<area shape="rect" href="../../d4/d81/a00110.php" title=" " alt="" coords="965,379,1053,405"/>
+<area shape="rect" href="../../d1/d44/a00098.php" title=" " alt="" coords="943,2619,1045,2645"/>
+<area shape="rect" title=" " alt="" coords="957,2693,1036,2720"/>
+<area shape="rect" title=" " alt="" coords="855,2693,933,2720"/>
+<area shape="rect" href="../../d2/de7/a00014.php" title=" " alt="" coords="684,2469,816,2496"/>
+<area shape="rect" title=" " alt="" coords="455,2544,565,2571"/>
+<area shape="rect" title=" " alt="" coords="590,2544,694,2571"/>
+<area shape="rect" title=" " alt="" coords="718,2544,769,2571"/>
+<area shape="rect" title=" " alt="" coords="793,2544,851,2571"/>
+<area shape="rect" title=" " alt="" coords="875,2544,915,2571"/>
+<area shape="rect" title=" " alt="" coords="940,2544,995,2571"/>
+<area shape="rect" title=" " alt="" coords="851,2171,918,2197"/>
+<area shape="rect" href="../../da/dec/a00080.php" title=" " alt="" coords="835,1573,910,1600"/>
+<area shape="rect" href="../../d0/d27/a00239.php" title=" " alt="" coords="735,1573,811,1600"/>
+<area shape="rect" href="../../de/df3/a00185.php" title=" " alt="" coords="1015,1275,1189,1301"/>
+<area shape="rect" href="../../da/d15/a00188.php" title=" " alt="" coords="1023,1349,1181,1376"/>
+<area shape="rect" href="../../d7/d25/a00182.php" title=" " alt="" coords="1046,1424,1158,1451"/>
+<area shape="rect" href="../../dc/d57/a00194.php" title=" " alt="" coords="1022,1499,1182,1525"/>
+<area shape="rect" href="../../db/dd9/a00179.php" title=" " alt="" coords="1179,1573,1254,1600"/>
+<area shape="rect" href="../../d9/dd0/a00191.php" title=" " alt="" coords="985,1573,1155,1600"/>
+<area shape="rect" href="../../dc/dfe/a00125.php" title=" " alt="" coords="762,1051,895,1077"/>
+<area shape="rect" href="../../db/dab/a00089.php" title=" " alt="" coords="897,155,987,181"/>
+<area shape="rect" href="../../dd/d52/a00221.php" title=" " alt="" coords="1096,229,1177,256"/>
+<area shape="rect" href="../../db/ddf/a00164.php" title=" " alt="" coords="771,229,879,256"/>
+<area shape="rect" href="../../de/db1/a00197.php" title=" " alt="" coords="903,229,981,256"/>
+<area shape="rect" href="../../dd/dad/a00005.php" title=" " alt="" coords="1005,229,1071,256"/>
+<area shape="rect" href="../../d7/d3f/a00173.php" title=" " alt="" coords="1083,379,1169,405"/>
+<area shape="rect" href="../../d0/d89/a00071.php" title=" " alt="" coords="909,528,1023,555"/>
+<area shape="rect" href="../../dd/dd7/a00260.php" title=" " alt="" coords="879,304,970,331"/>
+<area shape="rect" href="../../d1/dc1/a00092.php" title=" " alt="" coords="927,453,1005,480"/>
+<area shape="rect" href="../../d7/d46/a00002.php" title=" " alt="" coords="995,304,1081,331"/>
+<area shape="rect" href="../../d4/d81/a00110.php" title=" " alt="" coords="969,379,1057,405"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -237,13 +237,15 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d95/a01389.php">mcd::Player&lt; PlayerParent &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A player that can be a child from any class.  <a href="../../d0/d95/a01389.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8e/a01390.php">mcd::entites::Player&lt; PlayerParent &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A player that can be a child from any class.  <a href="../../d5/d8e/a01390.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:db/d12/a00268"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php">mcd</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d5/d42/a00269"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php">mcd::entites</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

@@ -1,11 +1,10 @@
 var a01106 =
 [
-    [ "t_queue", "da/d4e/a01106.php#a6113ab263c40412573cb17961892e4eb", null ],
-    [ "back", "da/d4e/a01106.php#a13305f6ee7ad6fc7836d5676f03dcab5", null ],
-    [ "empty", "da/d4e/a01106.php#aa3176d64efc60f11b708e10e6ff6e5b1", null ],
-    [ "front", "da/d4e/a01106.php#aa86287081828d6ab7ea9b7e1b71616ac", null ],
-    [ "pop", "da/d4e/a01106.php#a58fca05ec029f576c97b72ca2eba44ef", null ],
-    [ "push", "da/d4e/a01106.php#a7108e587ce260901f5fdac365db13fab", null ],
-    [ "push", "da/d4e/a01106.php#a7ccba4c88decd735670f069077bce0b0", null ],
-    [ "size", "da/d4e/a01106.php#aebab69e6bea31ae90fcc6c56af6b847e", null ]
+    [ "t_stack", "da/d4e/a01106.php#aa4c2b6ebb0b904372919f1c9d0e8a7fa", null ],
+    [ "empty", "da/d4e/a01106.php#a7beaba1e56c18f35b6809d8d8f03b52d", null ],
+    [ "pop", "da/d4e/a01106.php#ada85bebc6242159f4ab1284d169d5f94", null ],
+    [ "push", "da/d4e/a01106.php#ac52e7cd746a8da37bc0d9aba1b44a12a", null ],
+    [ "push", "da/d4e/a01106.php#a366f9af743a2aa515c828da000add01a", null ],
+    [ "size", "da/d4e/a01106.php#ac7ec1c5b6ec80e2a561dc78a79b66530", null ],
+    [ "top", "da/d4e/a01106.php#a527628a84ec81233f4e475f986e9d10d", null ]
 ];

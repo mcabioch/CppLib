@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::check::is_special_struct&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('de/d04/a01209.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('dc/d9e/a01206.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,31 +91,69 @@ $(document).ready(function(){initNavTree('de/d04/a01209.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="../../da/d1f/a01203.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::natural::Chromosome Member List</div>  </div>
+<div class="title">mcd::check::is_special_struct&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#aee71a70b3b97fb62b45ca9ea7d8d8323">_genes1</a></td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#a2168f1db30d1641c1c1370f4ded14495">_genes2</a></td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#adba79a0781609c28900d7a9b68b2a38f">Chromosome</a>(Genes gs1)</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#ab0def08172e265c3850983190d353f7c">copy</a>() const</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#abed91ce31a251621eff0ec618c9d95e2">operator+</a>(const Chromosome &amp;c1, const Chromosome &amp;c2)</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#af78f3653fd09e326bf53699b972329d3">operator+=</a>(const Chromosome &amp;c1)</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#a76b305eaa6cc1a513e64de3459e3b550">operator&lt;&lt;</a>(std::ostream &amp;os, const Chromosome &amp;c)</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#a1803f44b93c73c5cf0f3d8204eac3c9e">operator==</a>(const Chromosome &amp;c1, const Chromosome &amp;c2)</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#a9a437c818c1b78544066972a94410efc">operator&gt;&gt;</a>(std::istream &amp;is, Chromosome &amp;c)</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#a2dced15a099be338addf44cb4d8a60f2">Value</a>(std::string str, size_t index) const</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d04/a01209.php#a9d228fb25de487c350f4416dbc5ff8e2">Values</a>(std::string str, double val1, double val2)</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d04/a01209.php#abfcce919bdd2d2001416b72d9ebbf258">~Chromosome</a>()</td><td class="entry"><a class="el" href="../../de/d04/a01209.php">mcd::natural::Chromosome</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A template class to test if T is a special struct.  
+ <a href="../../dc/d9e/a01206.php#details">More...</a></p>
+
+<p><code>#include &lt;check.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:adb3d78bf0acb5e62f39d063521210081"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9e/a01206.php#adb3d78bf0acb5e62f39d063521210081">value</a></td></tr>
+<tr class="separator:adb3d78bf0acb5e62f39d063521210081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class mcd::check::is_special_struct&lt; T &gt;</h3>
+
+<p>A template class to test if T is a special struct. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="adb3d78bf0acb5e62f39d063521210081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb3d78bf0acb5e62f39d063521210081">&#9670;&nbsp;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool <a class="el" href="../../dc/d9e/a01206.php">mcd::check::is_special_struct</a>&lt; T &gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">                <a class="code" href="../../d5/d16/a01154.php#a9472e28f114b77cc3153ffc8d8f1e22b">is_pair&lt; T &gt;::value</a> || <a class="code" href="../../df/db5/a01158.php#aead7729c41ce0e6681cf2a5a58724b1c">is_trio&lt; T &gt;::value</a> || <a class="code" href="../../d4/d13/a01162.php#a7a705037a3a5261728af10be1a077032">is_quatuor&lt; T &gt;::value</a></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../dc/dee/a00053.php">check.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aa01162_php_a7a705037a3a5261728af10be1a077032"><div class="ttname"><a href="../../d4/d13/a01162.php#a7a705037a3a5261728af10be1a077032">mcd::check::is_quatuor::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:182</div></div>
+<div class="ttc" id="aa01158_php_aead7729c41ce0e6681cf2a5a58724b1c"><div class="ttname"><a href="../../df/db5/a01158.php#aead7729c41ce0e6681cf2a5a58724b1c">mcd::check::is_trio::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:167</div></div>
+<div class="ttc" id="aa01154_php_a9472e28f114b77cc3153ffc8d8f1e22b"><div class="ttname"><a href="../../d5/d16/a01154.php#a9472e28f114b77cc3153ffc8d8f1e22b">mcd::check::is_pair::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:152</div></div>
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d0/d19/a00273.php">check</a></li><li class="navelem"><a class="el" href="../../dc/d9e/a01206.php">is_special_struct</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

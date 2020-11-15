@@ -1,0 +1,4 @@
+<map id="mcd::check::printable" name="mcd::check::printable">
+<area shape="rect" id="node1" title="A function that say if a type has an ostream operator(&lt;&lt;)" alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node2" href="$d0/d19/a00273.php#acf8d542e529942588a927dd0373e17b7" title="Return true if a type has an ostream operator(&lt;&lt;)" alt="" coords="200,5,359,32"/>
+</map>

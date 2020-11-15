@@ -1,6 +1,6 @@
-<map id="mcd::t_queue&lt; T, Container &gt;" name="mcd::t_queue&lt; T, Container &gt;">
-<area shape="rect" id="node1" title="An thread&#45;safe implementation of queue." alt="" coords="5,276,200,303"/>
-<area shape="rect" id="node2" href="$d4/da7/a01102.php" title=" " alt="" coords="35,185,170,227"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="34,5,161,47"/>
-<area shape="rect" id="node4" href="$d4/da7/a01102.php" title="An implementation of std::queue." alt="" coords="119,96,303,123"/>
+<map id="mcd::t_stack&lt; T, Container &gt;" name="mcd::t_stack&lt; T, Container &gt;">
+<area shape="rect" id="node1" title="An thread&#45;safe implementation of stack." alt="" coords="5,276,197,303"/>
+<area shape="rect" id="node2" href="$d4/da7/a01102.php" title=" " alt="" coords="36,185,167,227"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="34,5,158,47"/>
+<area shape="rect" id="node4" href="$d4/da7/a01102.php" title="An implementation of std::stack." alt="" coords="117,96,299,123"/>
 </map>

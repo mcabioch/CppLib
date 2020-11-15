@@ -1,7 +1,4 @@
-<map id="mcd::ThreadCout" name="mcd::ThreadCout">
-<area shape="rect" id="node1" title="A class to use std::cout thread safe." alt="" coords="21,319,144,345"/>
-<area shape="rect" id="node2" title="STL class." alt="" coords="35,244,130,271"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="16,155,149,196"/>
-<area shape="rect" id="node4" title="STL class." alt="" coords="5,80,160,107"/>
-<area shape="rect" id="node5" title="STL class." alt="" coords="33,5,133,32"/>
+<map id="mcd::console::Cls" name="mcd::console::Cls">
+<area shape="rect" id="node1" title="Clear the console." alt="" coords="11,80,139,107"/>
+<area shape="rect" id="node2" href="$d8/d15/a01218.php" title="Change the text color in the console." alt="" coords="5,5,144,32"/>
 </map>

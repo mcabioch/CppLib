@@ -1,7 +1,10 @@
-<map id="mcd::Animal" name="mcd::Animal">
-<area shape="rect" id="node1" title="An animal." alt="" coords="78,155,173,181"/>
-<area shape="rect" id="node5" href="$de/d1c/a01093.php" title="An ant." alt="" coords="88,229,163,256"/>
-<area shape="rect" id="node2" href="$d1/d1a/a01285.php" title="An entity." alt="" coords="22,80,111,107"/>
-<area shape="rect" id="node3" href="$d3/d7b/a01249.php" title="A contraption." alt="" coords="5,5,128,32"/>
-<area shape="rect" id="node4" href="$d3/d07/a01301.php" title="A class to derivate from when the thing can attack." alt="" coords="136,80,232,107"/>
+<map id="mcd::entites::Animal" name="mcd::entites::Animal">
+<area shape="rect" id="node1" title="An animal." alt="" coords="1049,41,1192,68"/>
+<area shape="rect" id="node2" href="$d0/d00/a01286.php" title="An entity." alt="" coords="245,9,381,36"/>
+<area shape="rect" id="node5" title=" " alt="" coords="613,34,759,75"/>
+<area shape="rect" id="node3" href="$d4/d22/a01250.php" title="A contraption." alt="" coords="5,45,175,72"/>
+<area shape="rect" id="node8" title=" " alt="" coords="608,99,764,141"/>
+<area shape="rect" id="node4" href="$dc/de0/a01302.php" title="A class to derivate from when the thing can attack." alt="" coords="857,41,1000,68"/>
+<area shape="rect" id="node6" title="STL class." alt="" coords="243,132,384,159"/>
+<area shape="rect" id="node7" title=" " alt="" coords="71,132,109,159"/>
 </map>

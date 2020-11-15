@@ -1,0 +1,9 @@
+<map id="mcd::natural::Cell" name="mcd::natural::Cell">
+<area shape="rect" id="node1" title="A cell with chromosomes." alt="" coords="113,467,239,493"/>
+<area shape="rect" id="node2" title=" " alt="" coords="83,377,269,404"/>
+<area shape="rect" id="node3" href="$d2/da6/a01210.php" title="A double group of genes." alt="" coords="22,288,202,315"/>
+<area shape="rect" id="node4" title=" " alt="" coords="43,184,181,211"/>
+<area shape="rect" id="node5" href="$d4/d34/a01298.php" title="A gene that represent a caracteristic." alt="" coords="5,95,139,121"/>
+<area shape="rect" id="node6" title="STL class." alt="" coords="173,95,289,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="211,5,250,32"/>
+</map>

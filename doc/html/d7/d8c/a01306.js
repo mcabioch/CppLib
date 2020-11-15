@@ -1,24 +1,14 @@
 var a01306 =
 [
-    [ "JsonType", "d7/d8c/a01306.php#a3c35d4f54c782ef8b7898a1641eb4666", [
-      [ "NONE", "d7/d8c/a01306.php#a3c35d4f54c782ef8b7898a1641eb4666ae19fd5ef0dc672cdc7cfb36136c6d19e", null ],
-      [ "NUMBER", "d7/d8c/a01306.php#a3c35d4f54c782ef8b7898a1641eb4666a9ba4796f99bbe8254dac0ab0035292f5", null ],
-      [ "STRING", "d7/d8c/a01306.php#a3c35d4f54c782ef8b7898a1641eb4666a2951db03ec2449efc8d28b4cbdea94d3", null ],
-      [ "OBJECT", "d7/d8c/a01306.php#a3c35d4f54c782ef8b7898a1641eb4666a02bcb429af87b535c2b0a35707bf7f4d", null ],
-      [ "ARRAY", "d7/d8c/a01306.php#a3c35d4f54c782ef8b7898a1641eb4666a49722f0db426d85726e7ed5675e889e4", null ]
-    ] ],
-    [ "Json", "d7/d8c/a01306.php#aa7c169d27c4e904b13ad8ca6fd184109", null ],
-    [ "~Json", "d7/d8c/a01306.php#a970b92e7933d91f9cc8672572e3dacf4", null ],
-    [ "Json", "d7/d8c/a01306.php#ad95d9afd2d3392fe080bf50958ec6464", null ],
-    [ "Json", "d7/d8c/a01306.php#a17143d6387d6cacd7408b40d90278203", null ],
-    [ "get", "d7/d8c/a01306.php#a915790021b9c9f20ac2ea225baecf489", null ],
-    [ "operator=", "d7/d8c/a01306.php#a4e9c27bf8d0e1fa81ff8da964bd6a729", null ],
-    [ "operator=", "d7/d8c/a01306.php#ac2afe8da3954c9e84cc97674a0194d03", null ],
-    [ "operator[]", "d7/d8c/a01306.php#a719db725a687aedc671dbd88ba853c45", null ],
-    [ "operator[]", "d7/d8c/a01306.php#af146512243e74e908084f7751a8ffdf4", null ],
-    [ "parse", "d7/d8c/a01306.php#ad537515267c98725dc1a77cc2e28467a", null ],
-    [ "parseFile", "d7/d8c/a01306.php#a269d5572a1b6fdfa1da58b7b89dbe8b3", null ],
-    [ "size", "d7/d8c/a01306.php#a415f3cd1b8e73f404854f9c5729cf68d", null ],
-    [ "operator<<", "d7/d8c/a01306.php#a6b1400a312593beec3776b4f998a7419", null ],
-    [ "operator==", "d7/d8c/a01306.php#a03e32be5b88c0a40797b0ed39c9bdcba", null ]
+    [ "Identifier", "d7/d8c/a01306.php#a1496891d2323d1023ebfd086b84faf8d", null ],
+    [ "~Identifier", "d7/d8c/a01306.php#a87dbdb0f9b391d6a78d61463e8823628", null ],
+    [ "getId", "d7/d8c/a01306.php#abc0c02ec636a63cf2086e6e98f194b63", null ],
+    [ "getPassword", "d7/d8c/a01306.php#a0dcb443f68200102b855f77878754af9", null ],
+    [ "getUsername", "d7/d8c/a01306.php#a6108c8a63af7595ff4d9a4f2ad868b1e", null ],
+    [ "setId", "d7/d8c/a01306.php#a593e0be0e4c8e17b22507e7f7d933ded", null ],
+    [ "setPassword", "d7/d8c/a01306.php#a5b0a0e637d443935ae770bf90b652dea", null ],
+    [ "setUsername", "d7/d8c/a01306.php#a7487ac9cac4531aad529994927c0e69f", null ],
+    [ "_id", "d7/d8c/a01306.php#a6920412818f4d8a4478771fb767a2d07", null ],
+    [ "_password", "d7/d8c/a01306.php#a95d479399de1b046aff00e83210b67ea", null ],
+    [ "_username", "d7/d8c/a01306.php#a4a002c57b507ef0c744135eacfb82b6f", null ]
 ];

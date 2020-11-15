@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">4.0</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 27 2020 18:49:23 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,14 +92,25 @@ $(document).ready(function(){initNavTree('dc/de0/a01302.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::IOConfig Member List</div>  </div>
+<div class="title">mcd::entites::Hostile Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/de0/a01302.php">mcd::IOConfig</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dc/de0/a01302.php">mcd::entites::Hostile</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/de0/a01302.php#a8638a62e7967b56a444ee42d3ea55878">IOConfig</a>()</td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::IOConfig</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/de0/a01302.php#ad6a34fca3d338ef0498db6353ac5ece6">~IOConfig</a>()</td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::IOConfig</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/de0/a01302.php#a517c801a2d2f6751cd8de754f310d2b5">_attacked</a></td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::entites::Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/de0/a01302.php#ac4d84a2ee756506ab72b0a68aa7cc4dd">_attackedSpec</a></td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::entites::Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/de0/a01302.php#aa501022426c51d39447bed39d5e5de37">_target</a></td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::entites::Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/de0/a01302.php#ab05e964095ba05b2f3030b506146149a">attack</a>(Entity *target=nullptr)=0</td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::entites::Hostile</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/de0/a01302.php#a1e36f9947b0464f4661313d18224c9f9">getStrength</a>() const</td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::entites::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/de0/a01302.php#a8adeff4efa60e976a3deab87b7b7ed37">getTarget</a>() const</td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::entites::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/de0/a01302.php#a42389eba9d32429f68bcc16f2e2ce2a8">Hostile</a>()</td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::entites::Hostile</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/de0/a01302.php#aa13db475ebf08ba49fbcedf4d4685ef5">hurt</a>(Entity *target=nullptr)</td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::entites::Hostile</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/de0/a01302.php#ae1a70a7d13ddb23365c58eaf347851fe">printInfos</a>(std::ostream &amp;stream) const</td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::entites::Hostile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/de0/a01302.php#adcddd84a8ca73e2e2ac9fdc8aa03f484">setStrength</a>(double64_t strength)</td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::entites::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/de0/a01302.php#a7bcb86f09c8e8ba4b94b89393f06a9c3">setTarget</a>(Entity *target)</td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::entites::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/de0/a01302.php#ac4f327b49e5cf1cbc4fb90d81df058df">untarget</a>()</td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::entites::Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/de0/a01302.php#a321ab4f1d49090006824b425f275792c">~Hostile</a>()</td><td class="entry"><a class="el" href="../../dc/de0/a01302.php">mcd::entites::Hostile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

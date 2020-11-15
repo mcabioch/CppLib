@@ -1,11 +1,11 @@
 var a01370 =
 [
-    [ "PathfindingProblem", "d8/dbe/a01370.php#af2aa5f359715262ae600422bb49e79af", null ],
-    [ "PathfindingProblem", "d8/dbe/a01370.php#a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0", null ],
-    [ "~PathfindingProblem", "d8/dbe/a01370.php#a0bf356ad792ba79df121cedf0501f6f1", null ],
-    [ "computed", "d8/dbe/a01370.php#a058cdcc45ae37d3932b328594455c34f", null ],
-    [ "distances", "d8/dbe/a01370.php#a099eeefd81c8fcb6b145679e4e7fb65c", null ],
-    [ "nbNodes", "d8/dbe/a01370.php#a87c634685eea28780ddc10b7aa08af07", null ],
-    [ "nodes", "d8/dbe/a01370.php#a32f76a1b0a2107e3468ff49fd398b0ae", null ],
-    [ "weights", "d8/dbe/a01370.php#a99cf4dedc5270b2ffc388dd771f4564a", null ]
+    [ "Pathfinding", "d8/dbe/a01370.php#aca54568ec2e832b3f08ef6f86c7184f2", null ],
+    [ "~Pathfinding", "d8/dbe/a01370.php#a4cb06bc7729ad6371ad3380e0fd54f51", null ],
+    [ "createPath", "d8/dbe/a01370.php#a9a82c779fba2fba8d5adbd1c22ea8c0d", null ],
+    [ "getPath", "d8/dbe/a01370.php#ac59e95d415c520941c5bac355537df7f", null ],
+    [ "_end", "d8/dbe/a01370.php#a6f42595f214b1d2328d40c7fcf371626", null ],
+    [ "_path", "d8/dbe/a01370.php#afa7ec4aec9e8ed4aba2c3110ca86273f", null ],
+    [ "_problem", "d8/dbe/a01370.php#a8432f285b7015512efbe0a9a47bc76d7", null ],
+    [ "_start", "d8/dbe/a01370.php#a6fc13e2aa513059f91865021b9b13eed", null ]
 ];

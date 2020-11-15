@@ -1,5 +1,5 @@
 <map id="mcd::MyCrypt" name="mcd::MyCrypt">
 <area shape="rect" id="node1" title="A class to test a homemade algorithm for encryption." alt="" coords="18,155,123,181"/>
-<area shape="rect" id="node2" href="$d3/d0b/a01253.php" title="A class to be the parent for every crypt class." alt="" coords="23,80,118,107"/>
-<area shape="rect" id="node3" href="$de/d6c/a01349.php" title="A class to let some other not to be copyable." alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node2" href="$dc/d83/a01254.php" title="A class to be the parent for every crypt class." alt="" coords="23,80,118,107"/>
+<area shape="rect" id="node3" href="$da/d61/a01350.php" title="A class to let some other not to be copyable." alt="" coords="5,5,136,32"/>
 </map>

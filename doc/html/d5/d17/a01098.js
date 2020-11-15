@@ -1,10 +1,11 @@
 var a01098 =
 [
-    [ "t_stack", "d5/d17/a01098.php#aa4c2b6ebb0b904372919f1c9d0e8a7fa", null ],
-    [ "empty", "d5/d17/a01098.php#a7beaba1e56c18f35b6809d8d8f03b52d", null ],
-    [ "pop", "d5/d17/a01098.php#ada85bebc6242159f4ab1284d169d5f94", null ],
-    [ "push", "d5/d17/a01098.php#ac52e7cd746a8da37bc0d9aba1b44a12a", null ],
-    [ "push", "d5/d17/a01098.php#a366f9af743a2aa515c828da000add01a", null ],
-    [ "size", "d5/d17/a01098.php#ac7ec1c5b6ec80e2a561dc78a79b66530", null ],
-    [ "top", "d5/d17/a01098.php#a527628a84ec81233f4e475f986e9d10d", null ]
+    [ "Arguments", "d5/d17/a01098.php#ac6c3e24abf9d442d2a01b601ad3a0968", null ],
+    [ "~Arguments", "d5/d17/a01098.php#a9fd4e17aa2d814f460da6128e98b7519", null ],
+    [ "add", "d5/d17/a01098.php#a0d178470f50f3a3f12b2dab7aa40f004", null ],
+    [ "addProg", "d5/d17/a01098.php#a1eabf4c8408ded2b8deca24d99fd3234", null ],
+    [ "has", "d5/d17/a01098.php#a7710e8ecdb6e5eb86b673765d69df6cf", null ],
+    [ "operator[]", "d5/d17/a01098.php#a5866fa4eb251d0821aa8543228704398", null ],
+    [ "operator[]", "d5/d17/a01098.php#ac56d872fc98d66350596b44230f927fe", null ],
+    [ "print", "d5/d17/a01098.php#a77d29e3346c6b8c49fed9158e1336bd1", null ]
 ];

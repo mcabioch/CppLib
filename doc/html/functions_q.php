@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:34 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('functions_q.php',''); initResizable();
 : <a class="el" href="db/d12/a00268.php#a520f332e78f0efd6952f52b192a60328">mcd::quatuor&lt; T, U, V, W &gt;</a>
 </li>
 <li>queue()
-: <a class="el" href="d8/dbf/a01109.php#a0566f226253ef02ac813bad965f647b9">mcd::queue&lt; T, Container &gt;</a>
+: <a class="el" href="d1/d3d/a01110.php#a0566f226253ef02ac813bad965f647b9">mcd::queue&lt; T, Container &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

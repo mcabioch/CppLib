@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">4.0</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 27 2020 18:49:23 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,17 +92,14 @@ $(document).ready(function(){initNavTree('d6/d1e/a01234.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::SetPrecision Member List</div>  </div>
+<div class="title">mcd::console::ThreadEndlCout Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d6/d1e/a01234.php">mcd::SetPrecision</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d6/d1e/a01234.php">mcd::console::ThreadEndlCout</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d1e/a01234.php#a9d60f714c8c175781dc24118b52fff3c">operator()</a>()</td><td class="entry"><a class="el" href="../../d6/d1e/a01234.php">mcd::SetPrecision</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d1e/a01234.php#a0158a1e008c3abf891b214ea00b53f68">operator()</a>(std::streamsize value)</td><td class="entry"><a class="el" href="../../d6/d1e/a01234.php">mcd::SetPrecision</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d1e/a01234.php#a5a120231654267de5f32512a83c99521">operator&lt;&lt;</a>(std::ostream &amp;os, const SetPrecision &amp;other)</td><td class="entry"><a class="el" href="../../d6/d1e/a01234.php">mcd::SetPrecision</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d1e/a01234.php#a195d160ea0c6118cce9bb50ba66580ed">SetPrecision</a>()</td><td class="entry"><a class="el" href="../../d6/d1e/a01234.php">mcd::SetPrecision</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d1e/a01234.php#af8099a272295dd59817dbee310abe65a">~SetPrecision</a>()</td><td class="entry"><a class="el" href="../../d6/d1e/a01234.php">mcd::SetPrecision</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d1e/a01234.php#a428f6ae4ecd881bbbb2db0c317f4d210">ThreadEndlCout</a>()</td><td class="entry"><a class="el" href="../../d6/d1e/a01234.php">mcd::console::ThreadEndlCout</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d1e/a01234.php#a0eb354777e73153d8afabd8ee1b56657">~ThreadEndlCout</a>()</td><td class="entry"><a class="el" href="../../d6/d1e/a01234.php">mcd::console::ThreadEndlCout</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

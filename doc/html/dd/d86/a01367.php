@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">4.0</span>
+									&#160;<span id="projectnumber">1.6.2.2</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Oct 27 2020 18:49:23 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,20 +92,20 @@ $(document).ready(function(){initNavTree('d8/dbe/a01370.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::PathfindingProblem Member List</div>  </div>
+<div class="title">mcd::Pathfinding Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d8/dbe/a01370.php">mcd::PathfindingProblem</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d8/dbe/a01370.php">mcd::Pathfinding</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#a058cdcc45ae37d3932b328594455c34f">computed</a></td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#a099eeefd81c8fcb6b145679e4e7fb65c">distances</a></td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#a87c634685eea28780ddc10b7aa08af07">nbNodes</a></td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#a32f76a1b0a2107e3468ff49fd398b0ae">nodes</a></td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#af2aa5f359715262ae600422bb49e79af">PathfindingProblem</a>(std::vector&lt; PathfindingNode &gt; nodes, std::map&lt; size_t, std::map&lt; size_t, double64_t &gt; &gt; distances)</td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#a7b56ebc82f1c77cbe1a6e2d6f8f6c3b0">PathfindingProblem</a>(std::vector&lt; PathfindingNode &gt; nodes, std::map&lt; size_t, std::map&lt; size_t, double64_t &gt; &gt; distances, std::map&lt; size_t, std::map&lt; size_t, double64_t &gt; &gt; weights)</td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#a99cf4dedc5270b2ffc388dd771f4564a">weights</a></td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::PathfindingProblem</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#a0bf356ad792ba79df121cedf0501f6f1">~PathfindingProblem</a>()</td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::PathfindingProblem</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#a6f42595f214b1d2328d40c7fcf371626">_end</a></td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#afa7ec4aec9e8ed4aba2c3110ca86273f">_path</a></td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#a8432f285b7015512efbe0a9a47bc76d7">_problem</a></td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#a6fc13e2aa513059f91865021b9b13eed">_start</a></td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#a9a82c779fba2fba8d5adbd1c22ea8c0d">createPath</a>()=0</td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#ac59e95d415c520941c5bac355537df7f">getPath</a>()</td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#aca54568ec2e832b3f08ef6f86c7184f2">Pathfinding</a>(const PathfindingProblem &amp;problem, const PathfindingNode &amp;start, const PathfindingNode &amp;end)</td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::Pathfinding</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/dbe/a01370.php#a4cb06bc7729ad6371ad3380e0fd54f51">~Pathfinding</a>()</td><td class="entry"><a class="el" href="../../d8/dbe/a01370.php">mcd::Pathfinding</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

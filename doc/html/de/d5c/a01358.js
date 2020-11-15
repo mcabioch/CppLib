@@ -1,11 +1,6 @@
 var a01358 =
 [
-    [ "Pathfinding", "de/d5c/a01358.php#aca54568ec2e832b3f08ef6f86c7184f2", null ],
-    [ "~Pathfinding", "de/d5c/a01358.php#a4cb06bc7729ad6371ad3380e0fd54f51", null ],
-    [ "createPath", "de/d5c/a01358.php#a9a82c779fba2fba8d5adbd1c22ea8c0d", null ],
-    [ "getPath", "de/d5c/a01358.php#ac59e95d415c520941c5bac355537df7f", null ],
-    [ "_end", "de/d5c/a01358.php#a6f42595f214b1d2328d40c7fcf371626", null ],
-    [ "_path", "de/d5c/a01358.php#afa7ec4aec9e8ed4aba2c3110ca86273f", null ],
-    [ "_problem", "de/d5c/a01358.php#a8432f285b7015512efbe0a9a47bc76d7", null ],
-    [ "_start", "de/d5c/a01358.php#a6fc13e2aa513059f91865021b9b13eed", null ]
+    [ "Object", "de/d5c/a01358.php#afada17f07dc3064e60e770ca087b3458", null ],
+    [ "~Object", "de/d5c/a01358.php#a57bfdb3ae0305547d547579cb60be57c", null ],
+    [ "printInfos", "de/d5c/a01358.php#a10e38616dd2ab68b7e8e70f4c8a122e1", null ]
 ];

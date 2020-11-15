@@ -1,6 +1,6 @@
 #include "C++/Entity.hpp"
 
-namespace mcd
+namespace mcd::entites
 {
     Entity::Entity(Map* map, Point pt, ContraptionAttr attr) :
         Contraption(map, pt, attr),
@@ -46,4 +46,4 @@ namespace mcd
     }
 
     void Entity::grow() {}
-}   // namespace mcd
+}   // namespace mcd::entites

@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::tests::Test Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 19:28:33 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('db/df2/a01425.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d1/df4/a01422.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,33 +91,518 @@ $(document).ready(function(){initNavTree('db/df2/a01425.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="../../d0/d7d/a01419.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Threadable&lt; C &gt; Member List</div>  </div>
+<div class="title">mcd::tests::Test Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../db/df2/a01425.php#a77d662da66e59d43579e7490d24d72b8">_mutex</a></td><td class="entry"><a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">mutable</span><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/df2/a01425.php#a804393d97a319c38afa593072bd0ead9">hasToStop</a>() const</td><td class="entry"><a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/df2/a01425.php#af6a411164d64b1b04b731f29d54e016a">inUse</a>()</td><td class="entry"><a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/df2/a01425.php#a1eb0985252b04c90761f92432ef4216d">launch</a>()=0</td><td class="entry"><a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/df2/a01425.php#a156911948e5f5d2d5eeb0922ee3bd86d">launched</a>() const</td><td class="entry"><a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/df2/a01425.php#a0b2419ec1119f28dc2440e202f0d2c8e">notInUse</a>()</td><td class="entry"><a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/df2/a01425.php#aede63b72f054d20e35d22153af8313c8">operator=</a>(Threadable&lt; C &gt; &amp;other) noexcept</td><td class="entry"><a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/df2/a01425.php#ab51cdb23e70b6ab97afb529098eb20c0">operator=</a>(Threadable&lt; C &gt; &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/df2/a01425.php#a0351657024f3b0d37b54c08a09a156fa">sleeper</a></td><td class="entry"><a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/df2/a01425.php#a4dd37d54456e167f8b42d30be7076939">stop</a>()</td><td class="entry"><a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/df2/a01425.php#a04bdb4a894312f6671680c2f103b8a63">Threadable</a>()</td><td class="entry"><a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/df2/a01425.php#a29db3ebe9dfbf77bc04967565c0dcf6e">Threadable</a>(Threadable&lt; C &gt; &amp;other)</td><td class="entry"><a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/df2/a01425.php#a4cbceb43796de6c36a5cd4f35a6402cb">Threadable</a>(Threadable&lt; C &gt; &amp;&amp;other)</td><td class="entry"><a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../db/df2/a01425.php#aab98cd8e5cd8832dfd6e82c17d1a689d">~Threadable</a>()</td><td class="entry"><a class="el" href="../../db/df2/a01425.php">mcd::Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A static class to test code.  
+ <a href="../../d1/df4/a01422.php#details">More...</a></p>
+
+<p><code>#include &lt;Test.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ae42256dfd8f198d224e4a877474aa172"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df4/a01422.php#ae42256dfd8f198d224e4a877474aa172">nb</a> ()</td></tr>
+<tr class="memdesc:ae42256dfd8f198d224e4a877474aa172"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of tests executed after a call to run \error Abort the program if it's call before run.  <a href="../../d1/df4/a01422.php#ae42256dfd8f198d224e4a877474aa172">More...</a><br /></td></tr>
+<tr class="separator:ae42256dfd8f198d224e4a877474aa172"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3022d1777e4155985bdc9d7add61e5db"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df4/a01422.php#a3022d1777e4155985bdc9d7add61e5db">success</a> ()</td></tr>
+<tr class="memdesc:a3022d1777e4155985bdc9d7add61e5db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of success after a call to run \error Abort the program if it's call before run.  <a href="../../d1/df4/a01422.php#a3022d1777e4155985bdc9d7add61e5db">More...</a><br /></td></tr>
+<tr class="separator:a3022d1777e4155985bdc9d7add61e5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af853ed85eaea2682f64fb13d73662305"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df4/a01422.php#af853ed85eaea2682f64fb13d73662305">failures</a> ()</td></tr>
+<tr class="memdesc:af853ed85eaea2682f64fb13d73662305"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of fails after a call to run \error Abort the program if it's call before run.  <a href="../../d1/df4/a01422.php#af853ed85eaea2682f64fb13d73662305">More...</a><br /></td></tr>
+<tr class="separator:af853ed85eaea2682f64fb13d73662305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a071aa854651614bcd81581eb26b5cd20"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df4/a01422.php#a071aa854651614bcd81581eb26b5cd20">addSuite</a> (const std::string &amp;name, std::function&lt; void() &gt; func)</td></tr>
+<tr class="memdesc:a071aa854651614bcd81581eb26b5cd20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a function (without arguments and returning void) that contains a group of tests, could be a lambda.  <a href="../../d1/df4/a01422.php#a071aa854651614bcd81581eb26b5cd20">More...</a><br /></td></tr>
+<tr class="separator:a071aa854651614bcd81581eb26b5cd20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92521447188f0264d12256d3d2d8306d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df4/a01422.php#a92521447188f0264d12256d3d2d8306d">run</a> (const std::string &amp;key=&quot;&quot;)</td></tr>
+<tr class="memdesc:a92521447188f0264d12256d3d2d8306d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run all or a group of tests.  <a href="../../d1/df4/a01422.php#a92521447188f0264d12256d3d2d8306d">More...</a><br /></td></tr>
+<tr class="separator:a92521447188f0264d12256d3d2d8306d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b581c6619cbb7660c0c0d509a4a979d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df4/a01422.php#a9b581c6619cbb7660c0c0d509a4a979d">addTest</a> (const Test_struct &amp;test)</td></tr>
+<tr class="memdesc:a9b581c6619cbb7660c0c0d509a4a979d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a test analyze to an array.  <a href="../../d1/df4/a01422.php#a9b581c6619cbb7660c0c0d509a4a979d">More...</a><br /></td></tr>
+<tr class="separator:a9b581c6619cbb7660c0c0d509a4a979d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfd0b19e1a6b68854276138b66f0b757"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df4/a01422.php#abfd0b19e1a6b68854276138b66f0b757">addThrow</a> (const std::string &amp;instr, const std::string &amp;except, const Test_struct &amp;test)</td></tr>
+<tr class="memdesc:abfd0b19e1a6b68854276138b66f0b757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a throw test with addTest.  <a href="../../d1/df4/a01422.php#abfd0b19e1a6b68854276138b66f0b757">More...</a><br /></td></tr>
+<tr class="separator:abfd0b19e1a6b68854276138b66f0b757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79a117fd4376fc9d22a777900375e988"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a79a117fd4376fc9d22a777900375e988"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/df4/a01422.php#a79a117fd4376fc9d22a777900375e988">in</a> (const T &amp;value, const U &amp;array, const Test_struct &amp;test, bool start=false)</td></tr>
+<tr class="memdesc:a79a117fd4376fc9d22a777900375e988"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d1/df4/a01422.php" title="A static class to test code.">Test</a> if a value is or isn't in an array.  <a href="../../d1/df4/a01422.php#a79a117fd4376fc9d22a777900375e988">More...</a><br /></td></tr>
+<tr class="separator:a79a117fd4376fc9d22a777900375e988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7dceee2802839d83c0c345d72418ed5"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:ae7dceee2802839d83c0c345d72418ed5"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/df4/a01422.php#ae7dceee2802839d83c0c345d72418ed5">instance</a> (const U &amp;, const std::string &amp;strObj, const Test_struct &amp;test, bool cmp=true)</td></tr>
+<tr class="memdesc:ae7dceee2802839d83c0c345d72418ed5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d1/df4/a01422.php" title="A static class to test code.">Test</a> if class U is an instance of T or is a child instance of T.  <a href="../../d1/df4/a01422.php#ae7dceee2802839d83c0c345d72418ed5">More...</a><br /></td></tr>
+<tr class="separator:ae7dceee2802839d83c0c345d72418ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af318ef45ad460557a134908d2b733914"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df4/a01422.php#af318ef45ad460557a134908d2b733914">print</a> (std::ostream &amp;os, size_t format=0b00000010|0b00000100|0b00001000)</td></tr>
+<tr class="memdesc:af318ef45ad460557a134908d2b733914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the results of the tests.  <a href="../../d1/df4/a01422.php#af318ef45ad460557a134908d2b733914">More...</a><br /></td></tr>
+<tr class="separator:af318ef45ad460557a134908d2b733914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A static class to test code. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a071aa854651614bcd81581eb26b5cd20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a071aa854651614bcd81581eb26b5cd20">&#9670;&nbsp;</a></span>addSuite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::tests::Test::addSuite </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void() &gt;&#160;</td>
+          <td class="paramname"><em>func</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a function (without arguments and returning void) that contains a group of tests, could be a lambda. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>A name to group the tests and to call in run</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The function containing the group of tests </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a9b581c6619cbb7660c0c0d509a4a979d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b581c6619cbb7660c0c0d509a4a979d">&#9670;&nbsp;</a></span>addTest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::tests::Test::addTest </td>
+          <td>(</td>
+          <td class="paramtype">const Test_struct &amp;&#160;</td>
+          <td class="paramname"><em>test</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a test analyze to an array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">test</td><td>The test to add </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="abfd0b19e1a6b68854276138b66f0b757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfd0b19e1a6b68854276138b66f0b757">&#9670;&nbsp;</a></span>addThrow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::tests::Test::addThrow </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>instr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>except</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Test_struct &amp;&#160;</td>
+          <td class="paramname"><em>test</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a throw test with addTest. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">instr</td><td>The tested code </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">except</td><td>The expected exception </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">test</td><td>The test's analyze </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/df4/a01422_abfd0b19e1a6b68854276138b66f0b757_cgraph.png" border="0" usemap="#ad1/df4/a01422_abfd0b19e1a6b68854276138b66f0b757_cgraph" alt=""/></div>
+<map name="d1/df4/a01422_abfd0b19e1a6b68854276138b66f0b757_cgraph" id="d1/df4/a01422_abfd0b19e1a6b68854276138b66f0b757_cgraph">
+<area shape="rect" title="Add a throw test with addTest." alt="" coords="5,5,188,32"/>
+<area shape="rect" href="../../d1/df4/a01422.php#a9b581c6619cbb7660c0c0d509a4a979d" title="Add a test analyze to an array." alt="" coords="236,5,407,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af853ed85eaea2682f64fb13d73662305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af853ed85eaea2682f64fb13d73662305">&#9670;&nbsp;</a></span>failures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static size_t mcd::tests::Test::failures </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the number of fails after a call to run \error Abort the program if it's call before run. </p>
+<dl class="section return"><dt>Returns</dt><dd>size_t </dd></dl>
+
+</div>
+</div>
+<a id="a79a117fd4376fc9d22a777900375e988"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79a117fd4376fc9d22a777900375e988">&#9670;&nbsp;</a></span>in()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::tests::Test::in </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const U &amp;&#160;</td>
+          <td class="paramname"><em>array</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Test_struct &amp;&#160;</td>
+          <td class="paramname"><em>test</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>start</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../d1/df4/a01422.php" title="A static class to test code.">Test</a> if a value is or isn't in an array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The value to find </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">array</td><td>The array where to search </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">test</td><td>Some test analyze datas </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start</td><td>Set if in test the presence or absence of value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/df4/a01422_a79a117fd4376fc9d22a777900375e988_cgraph.png" border="0" usemap="#ad1/df4/a01422_a79a117fd4376fc9d22a777900375e988_cgraph" alt=""/></div>
+<map name="d1/df4/a01422_a79a117fd4376fc9d22a777900375e988_cgraph" id="d1/df4/a01422_a79a117fd4376fc9d22a777900375e988_cgraph">
+<area shape="rect" title="Test if a value is or isn&#39;t in an array." alt="" coords="5,31,140,57"/>
+<area shape="rect" href="../../d1/df4/a01422.php#a9b581c6619cbb7660c0c0d509a4a979d" title="Add a test analyze to an array." alt="" coords="188,5,359,32"/>
+<area shape="rect" href="../../db/d12/a00268.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string." alt="" coords="237,56,310,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae7dceee2802839d83c0c345d72418ed5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7dceee2802839d83c0c345d72418ed5">&#9670;&nbsp;</a></span>instance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::tests::Test::instance </td>
+          <td>(</td>
+          <td class="paramtype">const U &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>strObj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Test_struct &amp;&#160;</td>
+          <td class="paramname"><em>test</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>cmp</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../d1/df4/a01422.php" title="A static class to test code.">Test</a> if class U is an instance of T or is a child instance of T. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The object of class U </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">strObj</td><td>The string with obj name </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">test</td><td>Some test analyze datas </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cmp</td><td>Set if instance is normal or inverted, <b>true</b> is normal </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/df4/a01422_ae7dceee2802839d83c0c345d72418ed5_cgraph.png" border="0" usemap="#ad1/df4/a01422_ae7dceee2802839d83c0c345d72418ed5_cgraph" alt=""/></div>
+<map name="d1/df4/a01422_ae7dceee2802839d83c0c345d72418ed5_cgraph" id="d1/df4/a01422_ae7dceee2802839d83c0c345d72418ed5_cgraph">
+<area shape="rect" title="Test if class U is an instance of T or is a child instance of T." alt="" coords="5,5,180,32"/>
+<area shape="rect" href="../../d1/df4/a01422.php#a9b581c6619cbb7660c0c0d509a4a979d" title="Add a test analyze to an array." alt="" coords="228,5,399,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae42256dfd8f198d224e4a877474aa172"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae42256dfd8f198d224e4a877474aa172">&#9670;&nbsp;</a></span>nb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static size_t mcd::tests::Test::nb </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the number of tests executed after a call to run \error Abort the program if it's call before run. </p>
+<dl class="section return"><dt>Returns</dt><dd>size_t </dd></dl>
+
+</div>
+</div>
+<a id="af318ef45ad460557a134908d2b733914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af318ef45ad460557a134908d2b733914">&#9670;&nbsp;</a></span>print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::tests::Test::print </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>format</em> = <code>0b00000010|0b00000100|0b00001000</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Print the results of the tests. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">os</td><td>The stream where to write </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">format</td><td>The format of the analyze, default is TEST_FORMAT_ALL </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a92521447188f0264d12256d3d2d8306d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92521447188f0264d12256d3d2d8306d">&#9670;&nbsp;</a></span>run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::tests::Test::run </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em> = <code>&quot;&quot;</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Run all or a group of tests. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The tests group's name, empty for all tests </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a3022d1777e4155985bdc9d7add61e5db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3022d1777e4155985bdc9d7add61e5db">&#9670;&nbsp;</a></span>success()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static size_t mcd::tests::Test::success </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the number of success after a call to run \error Abort the program if it's call before run. </p>
+<dl class="section return"><dt>Returns</dt><dd>size_t </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d6/de1/a00233.php">Test.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d56/a00274.php">tests</a></li><li class="navelem"><a class="el" href="../../d1/df4/a01422.php">Test</a></li>
 		<li class="footer">
 			<?php
 				echo $text;
