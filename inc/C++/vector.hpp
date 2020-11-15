@@ -3,7 +3,7 @@
  *	\file		vector.hpp
  *	\author		Mathias CABIOCH-DELALANDE
  *	\created	Friday September, 27 2019 00:02:47
- *	\modified	October, 08 2020
+ *	\modified	November, 15 2020
  *
  */
 #ifndef HEADER_VECTOR
@@ -24,7 +24,7 @@ namespace mcd
         /* Constructor */
         vector() : std::vector< C >() {}
         vector(const std::initializer_list< C >& v) : std::vector< C >(v) {}
-        /*explicit*/ vector(const std::vector< C >& v) : std::vector< C >(v) {}
+        vector(const std::vector< C >& v) : std::vector< C >(v) {}
 
         /* Operators of vector */
         vector< C >& operator=(const std::initializer_list< C >& v) {
@@ -135,9 +135,9 @@ namespace mcd
         }
 
         /* Others members of vector */
-        /*
+        /*!
          * \brief	Erase an element from a vector on the position pos
-         *		\param		pos			The position to erase
+         *		\param[in]		pos			The position to erase
          */
         void pop(size_t pos = 0) {
             if (pos >= this->size()) { return; }
@@ -145,10 +145,10 @@ namespace mcd
             this->erase(this->begin() + pos);
         }
 
-        /*
+        /*!
          * \brief	Add an element from a vector on the position pos
-         *		\param		obj			The object to add
-         *		\param		pos			The position of the object
+         *		\param[in]		obj			The object to add
+         *		\param[in]		pos			The position of the object
          */
         void push(const C& obj, size_t pos = 0) {
             if (pos >= this->size()) {
@@ -164,6 +164,17 @@ namespace mcd
 
             *this = tmp;
         }
+
+        /*!
+         * \brief	Add an element from a vector on the top position
+         *		\param[in]		obj			The object to add
+         */
+        void push_top(const C& obj) { push(obj, 0); }
+
+        /*!
+         * \brief	Use the std::random_shuffle function to shuffle the vector
+         */
+        void shuffle() { std::random_shuffle(this->begin(), this->end()); }
     };
 }   // namespace mcd
 
