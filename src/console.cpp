@@ -1,6 +1,6 @@
 #include "C++/console.hpp"
 
-namespace mcd::Console
+namespace mcd::console
 {
     /* ThreadCout & ThreadEndlCout variables */
     mutex ThreadCout::_mutex;
@@ -41,4 +41,4 @@ namespace mcd::Console
         for (size_t i = 0; i < size; ++i) { os << caract; }
         os << std::endl;
     }
-}   // namespace mcd::Console
+}   // namespace mcd::console

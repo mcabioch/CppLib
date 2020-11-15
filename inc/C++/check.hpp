@@ -95,7 +95,7 @@ namespace mcd
 {
     using pair_str = std::pair< std::string, std::string >;
 
-    namespace Check
+    namespace check
     {
         /*! \brief	A template class to test if T is a vector */
         template< typename T >
@@ -322,7 +322,7 @@ namespace mcd
         /*!	\brief	Return true if a type has an ostream operator(<<) */
         template< typename T >
         bool isPrintable(const T&) {
-            return Check::has_ostream_operator< T >::value;
+            return check::has_ostream_operator< T >::value;
         }
 
         /*!	\brief	A function that say if a type has an ostream operator(<<) */
@@ -371,7 +371,7 @@ namespace mcd
 #ifndef DOXYGEN_SHOULD_SKIP_THIS
 
 #endif   // DOXYGEN_SHOULD_SKIP_THIS
-    }    // namespace Check
+    }    // namespace check
 }   // namespace mcd
 
 #endif   // HEADER_CPP_CHECK)

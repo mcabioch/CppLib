@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('functions_func_s.php',''); initResizab
 : <a class="el" href="d6/d6e/a01137.php#a51139eafa7f6dacbd7958fa9e8ce664b">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>save()
-: <a class="el" href="db/d1c/a01229.php#a43691704009afbb5f00b2b8e09f2ff02">mcd::Console::Cursor</a>
+: <a class="el" href="db/d1c/a01229.php#a2d7f5ff054303c5974c2bb92cdaa2af5">mcd::console::Cursor</a>
 , <a class="el" href="dc/d2a/a01333.php#a4b402d37424b8fc5a5036ecc78781d6a">mcd::Map</a>
 </li>
 <li>second()
@@ -168,7 +168,7 @@ $(document).ready(function(){initNavTree('functions_func_s.php',''); initResizab
 : <a class="el" href="d3/d7b/a01249.php#a2974b562f55f65a1b992ff849eea43cf">mcd::Contraption</a>
 </li>
 <li>SetPrecision()
-: <a class="el" href="d3/d07/a01241.php#a3e39b2b7e818b9f007634f6a2d718bca">mcd::Console::SetPrecision</a>
+: <a class="el" href="d3/d07/a01241.php#a75f2e148d3eb7a84c8d499367c0eae7a">mcd::console::SetPrecision</a>
 </li>
 <li>setPrivate()
 : <a class="el" href="d6/d16/a01269.php#aa9cb76b3198a8127bc0c771e3eb70b2d">mcd::RSA</a>
@@ -240,6 +240,9 @@ $(document).ready(function(){initNavTree('functions_func_s.php',''); initResizab
 <li>SHA2()
 : <a class="el" href="de/d34/a01261.php#ac0448ebc3e08f664e880fff43cb0f5f1">mcd::SHA2</a>
 </li>
+<li>shuffle()
+: <a class="el" href="da/df7/a01457.php#a43a974122831853dd91af1da065a7c39">mcd::vector&lt; C &gt;</a>
+</li>
 <li>size()
 : <a class="el" href="d9/d17/a01129.php#a2ba3bebe48bb259b18c9b67d57231dfa">mcd::Big</a>
 , <a class="el" href="de/d90/a01313.php#a415f3cd1b8e73f404854f9c5729cf68d">mcd::Json</a>
@@ -267,7 +270,7 @@ $(document).ready(function(){initNavTree('functions_func_s.php',''); initResizab
 : <a class="el" href="de/d85/a01273.php#a09230be2f6ef6b2620dec0023bd1b1a0">mcd::Date</a>
 </li>
 <li>success()
-: <a class="el" href="d4/d20/a01421.php#a2460015b885027e9c03ee911b1466f67">mcd::Tests::Test</a>
+: <a class="el" href="d4/d20/a01421.php#a3022d1777e4155985bdc9d7add61e5db">mcd::tests::Test</a>
 </li>
 </ul>
 </div><!-- contents -->

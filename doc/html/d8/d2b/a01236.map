@@ -1,7 +1,7 @@
-<map id="mcd::Console::ThreadCout" name="mcd::Console::ThreadCout">
-<area shape="rect" id="node1" title="A class to use std::cout thread safe." alt="" coords="5,319,184,345"/>
-<area shape="rect" id="node2" title="STL class." alt="" coords="47,244,142,271"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="28,155,161,196"/>
-<area shape="rect" id="node4" title="STL class." alt="" coords="17,80,172,107"/>
-<area shape="rect" id="node5" title="STL class." alt="" coords="45,5,145,32"/>
+<map id="mcd::console::ThreadCout" name="mcd::console::ThreadCout">
+<area shape="rect" id="node1" title="A class to use std::cout thread safe." alt="" coords="5,319,181,345"/>
+<area shape="rect" id="node2" title="STL class." alt="" coords="46,244,141,271"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="27,155,160,196"/>
+<area shape="rect" id="node4" title="STL class." alt="" coords="16,80,171,107"/>
+<area shape="rect" id="node5" title="STL class." alt="" coords="43,5,143,32"/>
 </map>

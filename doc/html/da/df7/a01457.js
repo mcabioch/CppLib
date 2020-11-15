@@ -12,6 +12,8 @@ var a01457 =
     [ "operator|=", "da/df7/a01457.php#acf021f04fbc720705d300f638b8f2de1", null ],
     [ "pop", "da/df7/a01457.php#a58c2e9df00704c786bfcfcca5a383a0e", null ],
     [ "push", "da/df7/a01457.php#abb5d16922f908bf0ae4422d89c728e90", null ],
+    [ "push_top", "da/df7/a01457.php#a83393673767b1c3cde0242f7147effbc", null ],
+    [ "shuffle", "da/df7/a01457.php#a43a974122831853dd91af1da065a7c39", null ],
     [ "operator&", "da/df7/a01457.php#a1552117c5c07498294173619e4ca5836", null ],
     [ "operator+", "da/df7/a01457.php#a8f261f2319c479f4e714b269bbbbdfa9", null ],
     [ "operator-", "da/df7/a01457.php#aee068ab7887e20606e98299c3671c34a", null ],

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:48 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -105,13 +105,13 @@ $(document).ready(function(){initNavTree('db/d12/a00268.php','../../'); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d9/dd6/a00272"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php">Check</a></td></tr>
+<tr class="memitem:d9/dd6/a00272"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php">check</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d5/d42/a00269"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php">Console</a></td></tr>
+<tr class="memitem:d5/d42/a00269"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php">console</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d9/d2a/a00270"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php">natural</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d0/d19/a00273"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d19/a00273.php">Tests</a></td></tr>
+<tr class="memitem:d0/d19/a00273"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d19/a00273.php">tests</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dd/d86/a00271"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php">this_thread</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -641,10 +641,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a77f16d62ba2ac4c7ad44d4459f149b2e"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a77f16d62ba2ac4c7ad44d4459f149b2e">Q_rsqrt</a> (T number)</td></tr>
 <tr class="memdesc:a77f16d62ba2ac4c7ad44d4459f149b2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the inverse square root with a float precision.  <a href="../../db/d12/a00268.php#a77f16d62ba2ac4c7ad44d4459f149b2e">More...</a><br /></td></tr>
 <tr class="separator:a77f16d62ba2ac4c7ad44d4459f149b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac10f5cb91293579d36d9ea767825d5bb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ac10f5cb91293579d36d9ea767825d5bb"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_pointer&lt; T &gt;::value||<a class="el" href="../../d7/d1c/a01397.php">Check::is_minded_ptr</a>&lt; T &gt;::value &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ac10f5cb91293579d36d9ea767825d5bb">deletePtr</a> (T &amp;pointer)</td></tr>
-<tr class="memdesc:ac10f5cb91293579d36d9ea767825d5bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a pointer.  <a href="../../db/d12/a00268.php#ac10f5cb91293579d36d9ea767825d5bb">More...</a><br /></td></tr>
-<tr class="separator:ac10f5cb91293579d36d9ea767825d5bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ca7d4ec117db95e54663f086d9265f1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a8ca7d4ec117db95e54663f086d9265f1"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_pointer&lt; T &gt;::value||<a class="el" href="../../d7/d1c/a01397.php">check::is_minded_ptr</a>&lt; T &gt;::value &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a8ca7d4ec117db95e54663f086d9265f1">deletePtr</a> (T &amp;pointer)</td></tr>
+<tr class="memdesc:a8ca7d4ec117db95e54663f086d9265f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a pointer.  <a href="../../db/d12/a00268.php#a8ca7d4ec117db95e54663f086d9265f1">More...</a><br /></td></tr>
+<tr class="separator:a8ca7d4ec117db95e54663f086d9265f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25c5de928e67bd9c01f720f39329f04c"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
 <tr class="memitem:a25c5de928e67bd9c01f720f39329f04c"><td class="memTemplItemLeft" align="right" valign="top">C &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a25c5de928e67bd9c01f720f39329f04c">ref</a> (C *obj)</td></tr>
 <tr class="separator:a25c5de928e67bd9c01f720f39329f04c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2157,8 +2157,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ac10f5cb91293579d36d9ea767825d5bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac10f5cb91293579d36d9ea767825d5bb">&#9670;&nbsp;</a></span>deletePtr()</h2>
+<a id="a8ca7d4ec117db95e54663f086d9265f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ca7d4ec117db95e54663f086d9265f1">&#9670;&nbsp;</a></span>deletePtr()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2166,7 +2166,7 @@ Here is the call graph for this function:</div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::enable_if_t&lt; std::is_pointer&lt; T &gt;::value || <a class="el" href="../../d7/d1c/a01397.php">Check::is_minded_ptr</a>&lt; T &gt;::value &gt; mcd::deletePtr </td>
+          <td class="memname">std::enable_if_t&lt; std::is_pointer&lt; T &gt;::value || <a class="el" href="../../d7/d1c/a01397.php">check::is_minded_ptr</a>&lt; T &gt;::value &gt; mcd::deletePtr </td>
           <td>(</td>
           <td class="paramtype">T &amp;&#160;</td>
           <td class="paramname"><em>pointer</em></td><td>)</td>

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('functions_func_c.php',''); initResizab
 : <a class="el" href="d5/d54/a01213.php#ae0aa0853cddce8c1e8c4339eb7016223">mcd::Clock</a>
 </li>
 <li>Cls()
-: <a class="el" href="d8/d53/a01225.php#a88c149b235ae7842439ce4e9f9531476">mcd::Console::Cls</a>
+: <a class="el" href="d8/d53/a01225.php#aaeac6f719b5dc1e0c77c8c55185cfe07">mcd::console::Cls</a>
 </li>
 <li>collides()
 : <a class="el" href="d3/dc4/a01089.php#a013ece6e6c005eaacac8c76ca23330ce">mcd::Animal</a>
@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('functions_func_c.php',''); initResizab
 : <a class="el" href="d3/dc4/a01089.php#a0a1bd6e6440207bf2f281dcca32e7f25">mcd::Animal</a>
 </li>
 <li>Color()
-: <a class="el" href="da/d19/a01217.php#afabf60910f6b7f9753511c6fd11f8d12">mcd::Console::Color</a>
+: <a class="el" href="da/d19/a01217.php#a55ccb3b92bc685b42f0ca5f71cb98559">mcd::console::Color</a>
 </li>
 <li>consolePrint()
 : <a class="el" href="dc/d2a/a01333.php#afc568b008b11652ff93bf281f16f9f86">mcd::Map</a>

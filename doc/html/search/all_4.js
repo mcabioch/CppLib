@@ -19,7 +19,7 @@ var searchData=
   ['decimalpart_158',['decimalPart',['../db/d12/a00268.php#a0598b7abd7e7441f6553f1b486053945',1,'mcd']]],
   ['decrypt_159',['decrypt',['../d3/d0b/a01253.php#a4d131065e81529530b7907ba397af30d',1,'mcd::Crypto::decrypt()'],['../d9/de7/a01257.php#a83018ea2d4b8530ccfe03d58b6bbff9b',1,'mcd::Cesar::decrypt(const std::string &amp;message, int decal)'],['../d9/de7/a01257.php#a3368134737d4f820661e03afbc91b8f1',1,'mcd::Cesar::decrypt(const std::string &amp;message) override'],['../da/dd8/a01265.php#a18850d238fad5966016ef020c05f82ce',1,'mcd::MyCrypt::decrypt(const std::string &amp;str, const std::string &amp;key)'],['../da/dd8/a01265.php#ac1f14b79c663f1347bef0d7ba017449d',1,'mcd::MyCrypt::decrypt(const std::string &amp;str) override'],['../d6/d16/a01269.php#ad831bd26ceeff7ad460bcabcad213155',1,'mcd::RSA::decrypt()']]],
   ['defines_2ehpp_160',['defines.hpp',['../da/d2a/a00086.php',1,'']]],
-  ['deleteptr_161',['deletePtr',['../db/d12/a00268.php#ac10f5cb91293579d36d9ea767825d5bb',1,'mcd']]],
+  ['deleteptr_161',['deletePtr',['../db/d12/a00268.php#a8ca7d4ec117db95e54663f086d9265f1',1,'mcd']]],
   ['denominator_162',['denominator',['../dc/dd5/a01293.php#a5868b5e5c36d3277d651c3fd731ebe84',1,'mcd::Fraction']]],
   ['desc_163',['desc',['../d5/df9/a01441.php#a52f3b03c077b82ded999b5cbd197f1e3',1,'mcd::Tree::desc()'],['../db/d12/a00268.php#a476a24d6aeedfa55efcaee6379946a75acec043bd98e586f6d34ee5a4aefda509',1,'mcd::DESC()']]],
   ['det_164',['det',['../db/dec/a01337.php#ace95025dd985ddaa6c1ed72e8b464a0a',1,'mcd::Matrix']]],

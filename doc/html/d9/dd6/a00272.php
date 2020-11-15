@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::Check Namespace Reference</title>
+		<title>C++: mcd::check Namespace Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('d9/dd6/a00272.php','../../'); initResi
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check Namespace Reference</div>  </div>
+<div class="title">mcd::check Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
@@ -152,18 +152,18 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a13e84a38884d860a4854bdd4a031d218"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a13e84a38884d860a4854bdd4a031d218"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#a13e84a38884d860a4854bdd4a031d218">isPrintable</a> (const T &amp;)</td></tr>
-<tr class="memdesc:a13e84a38884d860a4854bdd4a031d218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if a type has an ostream operator(&lt;&lt;)  <a href="../../d9/dd6/a00272.php#a13e84a38884d860a4854bdd4a031d218">More...</a><br /></td></tr>
-<tr class="separator:a13e84a38884d860a4854bdd4a031d218"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#ab0b2e96bd3f31d823dad478c5f54abf1">printable</a> (const T &amp;in)</td></tr>
-<tr class="memdesc:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that say if a type has an ostream operator(&lt;&lt;)  <a href="../../d9/dd6/a00272.php#ab0b2e96bd3f31d823dad478c5f54abf1">More...</a><br /></td></tr>
-<tr class="separator:ab0b2e96bd3f31d823dad478c5f54abf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf8d542e529942588a927dd0373e17b7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:acf8d542e529942588a927dd0373e17b7"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#acf8d542e529942588a927dd0373e17b7">isPrintable</a> (const T &amp;)</td></tr>
+<tr class="memdesc:acf8d542e529942588a927dd0373e17b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if a type has an ostream operator(&lt;&lt;)  <a href="../../d9/dd6/a00272.php#acf8d542e529942588a927dd0373e17b7">More...</a><br /></td></tr>
+<tr class="separator:acf8d542e529942588a927dd0373e17b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a633865db24ed31d685fd70668cb6a99f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a633865db24ed31d685fd70668cb6a99f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dd6/a00272.php#a633865db24ed31d685fd70668cb6a99f">printable</a> (const T &amp;in)</td></tr>
+<tr class="memdesc:a633865db24ed31d685fd70668cb6a99f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that say if a type has an ostream operator(&lt;&lt;)  <a href="../../d9/dd6/a00272.php#a633865db24ed31d685fd70668cb6a99f">More...</a><br /></td></tr>
+<tr class="separator:a633865db24ed31d685fd70668cb6a99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a13e84a38884d860a4854bdd4a031d218"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13e84a38884d860a4854bdd4a031d218">&#9670;&nbsp;</a></span>isPrintable()</h2>
+<a id="acf8d542e529942588a927dd0373e17b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf8d542e529942588a927dd0373e17b7">&#9670;&nbsp;</a></span>isPrintable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -171,7 +171,7 @@ Functions</h2></td></tr>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool mcd::Check::isPrintable </td>
+          <td class="memname">bool mcd::check::isPrintable </td>
           <td>(</td>
           <td class="paramtype">const T &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -184,8 +184,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ab0b2e96bd3f31d823dad478c5f54abf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0b2e96bd3f31d823dad478c5f54abf1">&#9670;&nbsp;</a></span>printable()</h2>
+<a id="a633865db24ed31d685fd70668cb6a99f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a633865db24ed31d685fd70668cb6a99f">&#9670;&nbsp;</a></span>printable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193,7 +193,7 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void mcd::Check::printable </td>
+          <td class="memname">void mcd::check::printable </td>
           <td>(</td>
           <td class="paramtype">const T &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
@@ -206,10 +206,10 @@ template&lt;typename T &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd6/a00272_ab0b2e96bd3f31d823dad478c5f54abf1_cgraph.png" border="0" usemap="#ad9/dd6/a00272_ab0b2e96bd3f31d823dad478c5f54abf1_cgraph" alt=""/></div>
-<map name="d9/dd6/a00272_ab0b2e96bd3f31d823dad478c5f54abf1_cgraph" id="d9/dd6/a00272_ab0b2e96bd3f31d823dad478c5f54abf1_cgraph">
-<area shape="rect" title="A function that say if a type has an ostream operator(&lt;&lt;)" alt="" coords="5,5,156,32"/>
-<area shape="rect" href="../../d9/dd6/a00272.php#a13e84a38884d860a4854bdd4a031d218" title="Return true if a type has an ostream operator(&lt;&lt;)" alt="" coords="204,5,367,32"/>
+<div class="center"><img src="../../d9/dd6/a00272_a633865db24ed31d685fd70668cb6a99f_cgraph.png" border="0" usemap="#ad9/dd6/a00272_a633865db24ed31d685fd70668cb6a99f_cgraph" alt=""/></div>
+<map name="d9/dd6/a00272_a633865db24ed31d685fd70668cb6a99f_cgraph" id="d9/dd6/a00272_a633865db24ed31d685fd70668cb6a99f_cgraph">
+<area shape="rect" title="A function that say if a type has an ostream operator(&lt;&lt;)" alt="" coords="5,5,152,32"/>
+<area shape="rect" href="../../d9/dd6/a00272.php#acf8d542e529942588a927dd0373e17b7" title="Return true if a type has an ostream operator(&lt;&lt;)" alt="" coords="200,5,359,32"/>
 </map>
 </div>
 
@@ -221,7 +221,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">Check</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">check</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

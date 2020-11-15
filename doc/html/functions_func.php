@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('functions_func.php',''); initResizable
 , <a class="el" href="d5/df9/a01441.php#a20ba766efa9e94d90d156432d6f101b1">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>addColors()
-: <a class="el" href="da/d19/a01217.php#a7faff8f12e3d4bd9ec63422f4716cde8">mcd::Console::Color</a>
+: <a class="el" href="da/d19/a01217.php#a39d1e3b3618a86c29866bd90855bfc8f">mcd::console::Color</a>
 </li>
 <li>addPosition()
 : <a class="el" href="d3/d7b/a01249.php#a7f4fa78c938b90c034ad0fe98a293a3c">mcd::Contraption</a>
@@ -108,13 +108,13 @@ $(document).ready(function(){initNavTree('functions_func.php',''); initResizable
 : <a class="el" href="d1/dfa/a01097.php#a1eabf4c8408ded2b8deca24d99fd3234">mcd::Arguments</a>
 </li>
 <li>addSuite()
-: <a class="el" href="d4/d20/a01421.php#ad42ea83a5e78bd14d0d2af06716dabd3">mcd::Tests::Test</a>
+: <a class="el" href="d4/d20/a01421.php#a071aa854651614bcd81581eb26b5cd20">mcd::tests::Test</a>
 </li>
 <li>addTest()
-: <a class="el" href="d4/d20/a01421.php#ad9e5ce30e83438c731c0b32558087e7e">mcd::Tests::Test</a>
+: <a class="el" href="d4/d20/a01421.php#a9b581c6619cbb7660c0c0d509a4a979d">mcd::tests::Test</a>
 </li>
 <li>addThrow()
-: <a class="el" href="d4/d20/a01421.php#abd689a9285398f98dcf09722ca676070">mcd::Tests::Test</a>
+: <a class="el" href="d4/d20/a01421.php#abfd0b19e1a6b68854276138b66f0b757">mcd::tests::Test</a>
 </li>
 <li>Animal()
 : <a class="el" href="d3/dc4/a01089.php#a25cd44b1a7eaf801cd6238175433ab46">mcd::Animal</a>

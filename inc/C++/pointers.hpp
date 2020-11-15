@@ -11,8 +11,8 @@
 #include "types.hpp"
 
 #ifndef OS_WINDOWS
-#    include <thread>
 #    include <mutex>
+#    include <thread>
 
 namespace mcd
 {
@@ -91,7 +91,7 @@ namespace mcd
 
 namespace mcd
 {
-    namespace Check
+    namespace check
     {
         /*! \brief	A template class to test if T is a std::shared_ptr, a std::unique_ptr or a
          * std::weak_ptr */
@@ -149,29 +149,29 @@ namespace mcd
             const static bool value = true;
         };
 #endif   // DOXYGEN_SHOULD_SKIP_THIS
-    }    // namespace Check
+    }    // namespace check
 
 #ifndef DOXYGEN_SHOULD_SKIP_THIS
     template< typename T >
-    typename std::enable_if_t< Check::is_thread_ptr< T >::value > deleteThreadPtr(T& pointer) {
+    typename std::enable_if_t< check::is_thread_ptr< T >::value > deleteThreadPtr(T& pointer) {
         try {
             if (pointer->joinable()) { pointer->join(); }
         } catch (std::system_error& e) {}
     }
 
     template< typename T >
-    typename std::enable_if_t< !Check::is_thread_ptr< T >::value > deleteThreadPtr(T&) {}
+    typename std::enable_if_t< !check::is_thread_ptr< T >::value > deleteThreadPtr(T&) {}
 #endif /* DOXYGEN_SHOULD_SKIP_THIS */
 
 #ifndef DOXYGEN_SHOULD_SKIP_THIS
     template< typename T >
-    typename std::enable_if_t< Check::is_minded_ptr< T >::value > deleteResetPtr(T& pointer) {
+    typename std::enable_if_t< check::is_minded_ptr< T >::value > deleteResetPtr(T& pointer) {
         pointer = nullptr;
     }
 #endif /* DOXYGEN_SHOULD_SKIP_THIS */
 #ifndef DOXYGEN_SHOULD_SKIP_THIS
     template< typename T >
-    typename std::enable_if_t< !Check::is_minded_ptr< T >::value > deleteResetPtr(T& pointer) {
+    typename std::enable_if_t< !check::is_minded_ptr< T >::value > deleteResetPtr(T& pointer) {
         delete pointer;
         pointer = nullptr;
     }
@@ -187,10 +187,10 @@ namespace mcd
      *it put the pointer to \b nullptr.
      */
     template< typename T >
-    typename std::enable_if_t< std::is_pointer< T >::value || Check::is_minded_ptr< T >::value >
+    typename std::enable_if_t< std::is_pointer< T >::value || check::is_minded_ptr< T >::value >
         deletePtr(T& pointer) {
         if (pointer == nullptr) { return; }
-        if (Check::is_thread_ptr< T >::value) { deleteThreadPtr(pointer); }
+        if (check::is_thread_ptr< T >::value) { deleteThreadPtr(pointer); }
 
         deleteResetPtr(pointer);
     }

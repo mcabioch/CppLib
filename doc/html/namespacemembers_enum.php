@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('namespacemembers_enum.php',''); initRe
 : <a class="el" href="db/d12/a00268.php#a372ef82d72716aed789680d0a84c06d3">mcd</a>
 </li>
 <li>Colors
-: <a class="el" href="d5/d42/a00269.php#aed6098cb7fc6f8fdb1bb05b119c94b9e">mcd::Console</a>
+: <a class="el" href="d5/d42/a00269.php#a70b121b7b00516f28ed61556fa874cb7">mcd::console</a>
 </li>
 <li>Direction
 : <a class="el" href="db/d12/a00268.php#a55fd359a467c1bfe9d2f72c227bb1706">mcd</a>

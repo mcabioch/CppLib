@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::Check::has_istream_operator&lt; T &gt; Class Template Reference</title>
+		<title>C++: mcd::check::has_istream_operator&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d3/d10/a01189.php','../../'); initResi
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../d9/dbb/a01186.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::has_istream_operator&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::check::has_istream_operator&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -108,24 +108,24 @@ $(document).ready(function(){initNavTree('d3/d10/a01189.php','../../'); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6343682f15ad178aa8883b61094b7d2a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/a01189.php#a6343682f15ad178aa8883b61094b7d2a">has_istream_operator</a> ()</td></tr>
-<tr class="separator:a6343682f15ad178aa8883b61094b7d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4381564142a22fed101f4a2b2b7728b4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/a01189.php#a4381564142a22fed101f4a2b2b7728b4">~has_istream_operator</a> ()</td></tr>
-<tr class="separator:a4381564142a22fed101f4a2b2b7728b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f28c0806a9cb6d84ba0465282937135"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/a01189.php#a7f28c0806a9cb6d84ba0465282937135">has_istream_operator</a> ()</td></tr>
+<tr class="separator:a7f28c0806a9cb6d84ba0465282937135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8812dbf6a9132069e2f828b41ec81651"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/a01189.php#a8812dbf6a9132069e2f828b41ec81651">~has_istream_operator</a> ()</td></tr>
+<tr class="separator:a8812dbf6a9132069e2f828b41ec81651"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a4ea6d2bc4fe8e15561698f6ea66d021b"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/a01189.php#a4ea6d2bc4fe8e15561698f6ea66d021b">value</a> = !std::is_same&lt; return_type, dummy_t &gt;::value</td></tr>
-<tr class="separator:a4ea6d2bc4fe8e15561698f6ea66d021b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a331d9deff621d98e27191d8ab101782d"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/a01189.php#a331d9deff621d98e27191d8ab101782d">value</a> = !std::is_same&lt; return_type, dummy_t &gt;::value</td></tr>
+<tr class="separator:a331d9deff621d98e27191d8ab101782d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::has_istream_operator&lt; T &gt;</h3>
+class mcd::check::has_istream_operator&lt; T &gt;</h3>
 
 <p>A template class to test if T has an istream operator. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6343682f15ad178aa8883b61094b7d2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6343682f15ad178aa8883b61094b7d2a">&#9670;&nbsp;</a></span>has_istream_operator()</h2>
+<a id="a7f28c0806a9cb6d84ba0465282937135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f28c0806a9cb6d84ba0465282937135">&#9670;&nbsp;</a></span>has_istream_operator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,7 +136,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/d10/a01189.php">mcd::Check::has_istream_operator</a>&lt; T &gt;::<a class="el" href="../../d3/d10/a01189.php">has_istream_operator</a> </td>
+          <td class="memname"><a class="el" href="../../d3/d10/a01189.php">mcd::check::has_istream_operator</a>&lt; T &gt;::<a class="el" href="../../d3/d10/a01189.php">has_istream_operator</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -152,8 +152,8 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4381564142a22fed101f4a2b2b7728b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4381564142a22fed101f4a2b2b7728b4">&#9670;&nbsp;</a></span>~has_istream_operator()</h2>
+<a id="a8812dbf6a9132069e2f828b41ec81651"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8812dbf6a9132069e2f828b41ec81651">&#9670;&nbsp;</a></span>~has_istream_operator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -164,7 +164,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../d3/d10/a01189.php">mcd::Check::has_istream_operator</a>&lt; T &gt;::~<a class="el" href="../../d3/d10/a01189.php">has_istream_operator</a> </td>
+          <td class="memname">virtual <a class="el" href="../../d3/d10/a01189.php">mcd::check::has_istream_operator</a>&lt; T &gt;::~<a class="el" href="../../d3/d10/a01189.php">has_istream_operator</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -180,8 +180,8 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4ea6d2bc4fe8e15561698f6ea66d021b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ea6d2bc4fe8e15561698f6ea66d021b">&#9670;&nbsp;</a></span>value</h2>
+<a id="a331d9deff621d98e27191d8ab101782d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a331d9deff621d98e27191d8ab101782d">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,7 +192,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr bool <a class="el" href="../../d3/d10/a01189.php">mcd::Check::has_istream_operator</a>&lt; T &gt;::value = !std::is_same&lt; return_type, dummy_t &gt;::value</td>
+          <td class="memname">constexpr bool <a class="el" href="../../d3/d10/a01189.php">mcd::check::has_istream_operator</a>&lt; T &gt;::value = !std::is_same&lt; return_type, dummy_t &gt;::value</td>
         </tr>
       </table>
   </td>
@@ -213,7 +213,7 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">Check</a></li><li class="navelem"><a class="el" href="../../d3/d10/a01189.php">has_istream_operator</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">check</a></li><li class="navelem"><a class="el" href="../../d3/d10/a01189.php">has_istream_operator</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

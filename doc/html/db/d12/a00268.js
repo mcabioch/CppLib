@@ -1,9 +1,9 @@
 var a00268 =
 [
-    [ "Check", "d9/dd6/a00272.php", "d9/dd6/a00272" ],
-    [ "Console", "d5/d42/a00269.php", "d5/d42/a00269" ],
+    [ "check", "d9/dd6/a00272.php", "d9/dd6/a00272" ],
+    [ "console", "d5/d42/a00269.php", "d5/d42/a00269" ],
     [ "natural", "d9/d2a/a00270.php", "d9/d2a/a00270" ],
-    [ "Tests", "d0/d19/a00273.php", "d0/d19/a00273" ],
+    [ "tests", "d0/d19/a00273.php", "d0/d19/a00273" ],
     [ "Animal", "d3/dc4/a01089.php", "d3/dc4/a01089" ],
     [ "Ant", "de/d1c/a01093.php", "de/d1c/a01093" ],
     [ "Arguments", "d1/dfa/a01097.php", "d1/dfa/a01097" ],

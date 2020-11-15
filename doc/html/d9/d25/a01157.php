@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::Check::is_trio&lt; T &gt; Class Template Reference</title>
+		<title>C++: mcd::check::is_trio&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('d9/d25/a01157.php','../../'); initResi
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../d5/d16/a01154.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_trio&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::check::is_trio&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -106,17 +106,17 @@ $(document).ready(function(){initNavTree('d9/d25/a01157.php','../../'); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a35b153eb448f4f520fbab10d63317262"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/a01157.php#a35b153eb448f4f520fbab10d63317262">value</a> = false</td></tr>
-<tr class="separator:a35b153eb448f4f520fbab10d63317262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aead7729c41ce0e6681cf2a5a58724b1c"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/a01157.php#aead7729c41ce0e6681cf2a5a58724b1c">value</a> = false</td></tr>
+<tr class="separator:aead7729c41ce0e6681cf2a5a58724b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_trio&lt; T &gt;</h3>
+class mcd::check::is_trio&lt; T &gt;</h3>
 
 <p>A template class to test if T is a std::pair. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a35b153eb448f4f520fbab10d63317262"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35b153eb448f4f520fbab10d63317262">&#9670;&nbsp;</a></span>value</h2>
+<a id="aead7729c41ce0e6681cf2a5a58724b1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aead7729c41ce0e6681cf2a5a58724b1c">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -127,7 +127,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const bool <a class="el" href="../../d9/d25/a01157.php">mcd::Check::is_trio</a>&lt; T &gt;::value = false</td>
+          <td class="memname">const bool <a class="el" href="../../d9/d25/a01157.php">mcd::check::is_trio</a>&lt; T &gt;::value = false</td>
         </tr>
       </table>
   </td>
@@ -148,7 +148,7 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">Check</a></li><li class="navelem"><a class="el" href="../../d9/d25/a01157.php">is_trio</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">check</a></li><li class="navelem"><a class="el" href="../../d9/d25/a01157.php">is_trio</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

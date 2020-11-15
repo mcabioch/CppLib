@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -103,13 +103,13 @@ $(document).ready(function(){initNavTree('functions_h.php',''); initResizable();
 : <a class="el" href="d1/dfa/a01097.php#a7710e8ecdb6e5eb86b673765d69df6cf">mcd::Arguments</a>
 </li>
 <li>has_istream_operator()
-: <a class="el" href="d3/d10/a01189.php#a6343682f15ad178aa8883b61094b7d2a">mcd::Check::has_istream_operator&lt; T &gt;</a>
+: <a class="el" href="d3/d10/a01189.php#a7f28c0806a9cb6d84ba0465282937135">mcd::check::has_istream_operator&lt; T &gt;</a>
 </li>
 <li>has_ostream_operator()
-: <a class="el" href="de/db5/a01181.php#a62ae1424b1e158747fdc66486da0f519">mcd::Check::has_ostream_operator&lt; T &gt;</a>
+: <a class="el" href="de/db5/a01181.php#a05ef2c0843f85a3a80939610eea77d77">mcd::check::has_ostream_operator&lt; T &gt;</a>
 </li>
 <li>has_size_method()
-: <a class="el" href="dc/d98/a01177.php#a7d782a43bfd471bf7a32ac0dfafe1041">mcd::Check::has_size_method&lt; T &gt;</a>
+: <a class="el" href="dc/d98/a01177.php#aa38792bc7d7a672a0e50e67a9b47a8cb">mcd::check::has_size_method&lt; T &gt;</a>
 </li>
 <li>hasNext()
 : <a class="el" href="d7/d81/a01365.php#a7928f59acfc984899a12b52ab2e5ddca">mcd::Path</a>
@@ -127,7 +127,7 @@ $(document).ready(function(){initNavTree('functions_h.php',''); initResizable();
 : <a class="el" href="d1/d1a/a01285.php#a8022eec71c62bbc06651cf7607d3824a">mcd::Entity</a>
 </li>
 <li>home()
-: <a class="el" href="db/d1c/a01229.php#a93a1257dc789cafba70cc0616122f839">mcd::Console::Cursor</a>
+: <a class="el" href="db/d1c/a01229.php#acf65fe5af6d5a72cbcac5af73f14bc40">mcd::console::Cursor</a>
 </li>
 <li>Hostile()
 : <a class="el" href="d3/d07/a01301.php#a08a1386aff1a9289823113ef90c14927">mcd::Hostile</a>

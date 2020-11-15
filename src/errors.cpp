@@ -4,12 +4,12 @@ namespace mcd
 {
     /* Reinit the console colors */
     void errors_log() {
-        Console::cout << Console::Reinit() << Console::endl;
+        console::cout << console::Reinit() << console::endl;
         exit(-1);
     }
 
-    void warnings_log() { Console::cout << Console::Reinit() << Console::endl; }
+    void warnings_log() { console::cout << console::Reinit() << console::endl; }
 
-    void infos_log() { Console::cout << Console::Reinit() << Console::endl; }
+    void infos_log() { console::cout << console::Reinit() << console::endl; }
     /*****************************/
 }   // namespace mcd

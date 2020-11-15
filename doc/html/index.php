@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -237,7 +237,7 @@ Functions</h2>
 mcd::print_all(Something data, bool change)<br  />
 <a class="el" href="db/d12/a00268.php#a5046a9dfac4629babcb20cf7b914415e" title="Print the size of obj type.">printSize&lt;Type&gt;()</a><br  />
 <a class="el" href="db/d12/a00268.php#a2bb83762638ce787815f3699d67faa92" title="Print the type of obj.">mcd::printType(const C&amp; obj)</a><br  />
-<a class="el" href="d9/dd6/a00272.php#ab0b2e96bd3f31d823dad478c5f54abf1" title="A function that say if a type has an ostream operator(&lt;&lt;)">mcd::Check::printable(const T&amp;)</a><br  />
+mcd::Check::printable(const T&amp;)<br  />
 mcd::removeAccents(std::string str)<br  />
 <a class="el" href="db/d12/a00268.php#a1ddd069f38e7407563a5d8e763d7dc90" title="Create a random string.">mcd::randStr(size_t nb, unsigned short flags)</a></p>
 <h1><a class="anchor" id="upd_sec"></a>

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -147,9 +147,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5bccad40e32efad3b685320434e65201"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a5bccad40e32efad3b685320434e65201">operator^=</a> (const <a class="el" href="../../da/df7/a01457.php">vector</a>&lt; C &gt; &amp;b)</td></tr>
 <tr class="separator:a5bccad40e32efad3b685320434e65201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58c2e9df00704c786bfcfcca5a383a0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a58c2e9df00704c786bfcfcca5a383a0e">pop</a> (size_t pos=0)</td></tr>
+<tr class="memdesc:a58c2e9df00704c786bfcfcca5a383a0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase an element from a vector on the position pos.  <a href="../../da/df7/a01457.php#a58c2e9df00704c786bfcfcca5a383a0e">More...</a><br /></td></tr>
 <tr class="separator:a58c2e9df00704c786bfcfcca5a383a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb5d16922f908bf0ae4422d89c728e90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#abb5d16922f908bf0ae4422d89c728e90">push</a> (const C &amp;obj, size_t pos=0)</td></tr>
+<tr class="memdesc:abb5d16922f908bf0ae4422d89c728e90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an element from a vector on the position pos.  <a href="../../da/df7/a01457.php#abb5d16922f908bf0ae4422d89c728e90">More...</a><br /></td></tr>
 <tr class="separator:abb5d16922f908bf0ae4422d89c728e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83393673767b1c3cde0242f7147effbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a83393673767b1c3cde0242f7147effbc">push_top</a> (const C &amp;obj)</td></tr>
+<tr class="memdesc:a83393673767b1c3cde0242f7147effbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an element from a vector on the top position.  <a href="../../da/df7/a01457.php#a83393673767b1c3cde0242f7147effbc">More...</a><br /></td></tr>
+<tr class="separator:a83393673767b1c3cde0242f7147effbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43a974122831853dd91af1da065a7c39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a01457.php#a43a974122831853dd91af1da065a7c39">shuffle</a> ()</td></tr>
+<tr class="memdesc:a43a974122831853dd91af1da065a7c39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use the std::random_shuffle function to shuffle the vector.  <a href="../../da/df7/a01457.php#a43a974122831853dd91af1da065a7c39">More...</a><br /></td></tr>
+<tr class="separator:a43a974122831853dd91af1da065a7c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -480,6 +488,14 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Erase an element from a vector on the position pos. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>The position to erase </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="abb5d16922f908bf0ae4422d89c728e90"></a>
@@ -517,6 +533,89 @@ template&lt;class C &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Add an element from a vector on the position pos. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The object to add </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>The position of the object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a83393673767b1c3cde0242f7147effbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83393673767b1c3cde0242f7147effbc">&#9670;&nbsp;</a></span>push_top()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../da/df7/a01457.php">mcd::vector</a>&lt; C &gt;::push_top </td>
+          <td>(</td>
+          <td class="paramtype">const C &amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add an element from a vector on the top position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The object to add </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/df7/a01457_a83393673767b1c3cde0242f7147effbc_cgraph.png" border="0" usemap="#ada/df7/a01457_a83393673767b1c3cde0242f7147effbc_cgraph" alt=""/></div>
+<map name="da/df7/a01457_a83393673767b1c3cde0242f7147effbc_cgraph" id="da/df7/a01457_a83393673767b1c3cde0242f7147effbc_cgraph">
+<area shape="rect" title="Add an element from a vector on the top position." alt="" coords="5,5,157,32"/>
+<area shape="rect" href="../../da/df7/a01457.php#abb5d16922f908bf0ae4422d89c728e90" title="Add an element from a vector on the position pos." alt="" coords="205,5,332,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a43a974122831853dd91af1da065a7c39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43a974122831853dd91af1da065a7c39">&#9670;&nbsp;</a></span>shuffle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../da/df7/a01457.php">mcd::vector</a>&lt; C &gt;::shuffle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Use the std::random_shuffle function to shuffle the vector. </p>
 
 </div>
 </div>

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -139,7 +139,7 @@ $(document).ready(function(){initNavTree('functions_func_p.php',''); initResizab
 <li>print()
 : <a class="el" href="d1/dfa/a01097.php#a77d29e3346c6b8c49fed9158e1336bd1">mcd::Arguments</a>
 , <a class="el" href="d6/d6e/a01137.php#a19199d5410d2586642819f9a64bf4f76">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
-, <a class="el" href="d4/d20/a01421.php#ac6b9760deebd8280c822a0d7b6541b13">mcd::Tests::Test</a>
+, <a class="el" href="d4/d20/a01421.php#af318ef45ad460557a134908d2b733914">mcd::tests::Test</a>
 , <a class="el" href="d5/df9/a01441.php#a1e6f8d4ad100be50a970848a0c8437d1">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>printInfos()
@@ -164,12 +164,15 @@ $(document).ready(function(){initNavTree('functions_func_p.php',''); initResizab
 </li>
 <li>push()
 : <a class="el" href="d7/d81/a01365.php#a54d7d03099784e7f2e573ba17ebe499e">mcd::Path</a>
-, <a class="el" href="d8/ded/a01113.php#a7108e587ce260901f5fdac365db13fab">mcd::t_queue&lt; T, Container &gt;</a>
+, <a class="el" href="d8/ded/a01113.php#a7ccba4c88decd735670f069077bce0b0">mcd::t_queue&lt; T, Container &gt;</a>
 , <a class="el" href="de/d1d/a01105.php#ac52e7cd746a8da37bc0d9aba1b44a12a">mcd::t_stack&lt; T, Container &gt;</a>
 , <a class="el" href="da/df7/a01457.php#abb5d16922f908bf0ae4422d89c728e90">mcd::vector&lt; C &gt;</a>
 </li>
+<li>push_top()
+: <a class="el" href="da/df7/a01457.php#a83393673767b1c3cde0242f7147effbc">mcd::vector&lt; C &gt;</a>
+</li>
 <li>put()
-: <a class="el" href="db/d1c/a01229.php#ab51d7a550a76b14c50a10a973200c95c">mcd::Console::Cursor</a>
+: <a class="el" href="db/d1c/a01229.php#a6b7bd469ffa7a8e2cc840af28e68350a">mcd::console::Cursor</a>
 </li>
 <li>putEntity()
 : <a class="el" href="dc/d2a/a01333.php#a8cea2526dc276cce694e31a6053d5522">mcd::Map</a>

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -101,16 +101,16 @@ $(document).ready(function(){initNavTree('functions_func_t.php',''); initResizab
 : <a class="el" href="de/d1d/a01105.php#aa4c2b6ebb0b904372919f1c9d0e8a7fa">mcd::t_stack&lt; T, Container &gt;</a>
 </li>
 <li>testPath()
-: <a class="el" href="dc/d2a/a01333.php#a6cb15e75b82d3d1c16c27696c2bc1e6f">mcd::Map</a>
+: <a class="el" href="dc/d2a/a01333.php#ada7c31df9004ebb9b494f09a6a4a224a">mcd::Map</a>
 </li>
 <li>Threadable()
 : <a class="el" href="db/df2/a01425.php#a04bdb4a894312f6671680c2f103b8a63">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>ThreadCout()
-: <a class="el" href="dc/dab/a01237.php#af71e174b4ce16514eb8c305c17aae74f">mcd::Console::ThreadCout</a>
+: <a class="el" href="dc/dab/a01237.php#a0ab22efba01da7bd7a61446936294cca">mcd::console::ThreadCout</a>
 </li>
 <li>ThreadEndlCout()
-: <a class="el" href="d6/da1/a01233.php#a58fad761e8d57e2e3f39ab002ead3294">mcd::Console::ThreadEndlCout</a>
+: <a class="el" href="d6/da1/a01233.php#a428f6ae4ecd881bbbb2db0c317f4d210">mcd::console::ThreadEndlCout</a>
 </li>
 <li>Time()
 : <a class="el" href="d1/d3b/a01429.php#ac802213e9ca41cc731f14619534e0249">mcd::Time</a>

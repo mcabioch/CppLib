@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('functions_a.php',''); initResizable();
 , <a class="el" href="d5/df9/a01441.php#a20ba766efa9e94d90d156432d6f101b1">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>addColors()
-: <a class="el" href="da/d19/a01217.php#a7faff8f12e3d4bd9ec63422f4716cde8">mcd::Console::Color</a>
+: <a class="el" href="da/d19/a01217.php#a39d1e3b3618a86c29866bd90855bfc8f">mcd::console::Color</a>
 </li>
 <li>addPosition()
 : <a class="el" href="d3/d7b/a01249.php#a7f4fa78c938b90c034ad0fe98a293a3c">mcd::Contraption</a>
@@ -108,13 +108,13 @@ $(document).ready(function(){initNavTree('functions_a.php',''); initResizable();
 : <a class="el" href="d1/dfa/a01097.php#a1eabf4c8408ded2b8deca24d99fd3234">mcd::Arguments</a>
 </li>
 <li>addSuite()
-: <a class="el" href="d4/d20/a01421.php#ad42ea83a5e78bd14d0d2af06716dabd3">mcd::Tests::Test</a>
+: <a class="el" href="d4/d20/a01421.php#a071aa854651614bcd81581eb26b5cd20">mcd::tests::Test</a>
 </li>
 <li>addTest()
-: <a class="el" href="d4/d20/a01421.php#ad9e5ce30e83438c731c0b32558087e7e">mcd::Tests::Test</a>
+: <a class="el" href="d4/d20/a01421.php#a9b581c6619cbb7660c0c0d509a4a979d">mcd::tests::Test</a>
 </li>
 <li>addThrow()
-: <a class="el" href="d4/d20/a01421.php#abd689a9285398f98dcf09722ca676070">mcd::Tests::Test</a>
+: <a class="el" href="d4/d20/a01421.php#abfd0b19e1a6b68854276138b66f0b757">mcd::tests::Test</a>
 </li>
 <li>All
 : <a class="el" href="d9/d5c/a01321.php#a25d94050e8e7f91c7e1f02ddc2af8e95ad58a475f585716dda86e2e0af0570cec">mcd::Logger</a>
@@ -140,11 +140,11 @@ $(document).ready(function(){initNavTree('functions_a.php',''); initResizable();
 <li>ARRAY
 : <a class="el" href="de/d90/a01313.php#a3c35d4f54c782ef8b7898a1641eb4666a49722f0db426d85726e7ed5675e889e4">mcd::Json</a>
 </li>
-<li>ARRIVED
-: <a class="el" href="d3/dea/a01377.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814">mcd::PathfindingException</a>
-</li>
 <li>Arrived()
 : <a class="el" href="d3/dea/a01377.php#a9fcff7a44db764decbb680479144b97b">mcd::PathfindingException</a>
+</li>
+<li>ARRIVED
+: <a class="el" href="d3/dea/a01377.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814">mcd::PathfindingException</a>
 </li>
 <li>asc()
 : <a class="el" href="d5/df9/a01441.php#aaf42d9cae430064e1b52b8cd3e57ee42">mcd::Tree&lt; T &gt;</a>

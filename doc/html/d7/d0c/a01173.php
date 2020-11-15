@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::Check::is_duration&lt; T &gt; Class Template Reference</title>
+		<title>C++: mcd::check::is_duration&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('d7/d0c/a01173.php','../../'); initResi
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../d3/dc7/a01170.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_duration&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::check::is_duration&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -106,17 +106,17 @@ $(document).ready(function(){initNavTree('d7/d0c/a01173.php','../../'); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a344818944230a22a8c7988dd3ba8e2f9"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0c/a01173.php#a344818944230a22a8c7988dd3ba8e2f9">value</a> = false</td></tr>
-<tr class="separator:a344818944230a22a8c7988dd3ba8e2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ff14de10bb1d7c64531101fbef74b5b"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0c/a01173.php#a9ff14de10bb1d7c64531101fbef74b5b">value</a> = false</td></tr>
+<tr class="separator:a9ff14de10bb1d7c64531101fbef74b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class T&gt;<br />
-class mcd::Check::is_duration&lt; T &gt;</h3>
+class mcd::check::is_duration&lt; T &gt;</h3>
 
 <p>A template class to test if T is a chrono::duration. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a344818944230a22a8c7988dd3ba8e2f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a344818944230a22a8c7988dd3ba8e2f9">&#9670;&nbsp;</a></span>value</h2>
+<a id="a9ff14de10bb1d7c64531101fbef74b5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ff14de10bb1d7c64531101fbef74b5b">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -127,7 +127,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const bool <a class="el" href="../../d7/d0c/a01173.php">mcd::Check::is_duration</a>&lt; T &gt;::value = false</td>
+          <td class="memname">const bool <a class="el" href="../../d7/d0c/a01173.php">mcd::check::is_duration</a>&lt; T &gt;::value = false</td>
         </tr>
       </table>
   </td>
@@ -148,7 +148,7 @@ template&lt;class T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">Check</a></li><li class="navelem"><a class="el" href="../../d7/d0c/a01173.php">is_duration</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">check</a></li><li class="navelem"><a class="el" href="../../d7/d0c/a01173.php">is_duration</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

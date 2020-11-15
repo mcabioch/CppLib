@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -136,7 +136,7 @@ $(document).ready(function(){initNavTree('functions_func_o.php',''); initResizab
 </li>
 <li>operator()()
 : <a class="el" href="dd/de4/a01121.php#ab411af4c628ae6ed469f78119eb99de4">mcd::Assert</a>
-, <a class="el" href="d3/d07/a01241.php#ad5d2436f989665365b5da4dd154c07bd">mcd::Console::SetPrecision</a>
+, <a class="el" href="d3/d07/a01241.php#af082d3196dd332150a4ecf0db312c20e">mcd::console::SetPrecision</a>
 , <a class="el" href="dc/d2a/a01333.php#a1809056415a86a4627e0cad3bbb0b3b0">mcd::Map</a>
 , <a class="el" href="db/dec/a01337.php#a895533c348847ed307cafe3d85c8ebf9">mcd::Matrix&lt; C &gt;</a>
 , <a class="el" href="d7/d68/a01413.php#a8b84a9dc967e1210738e3a8bba43e4a4">mcd::RND&lt; T, U &gt;</a>

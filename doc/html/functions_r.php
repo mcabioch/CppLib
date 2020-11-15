@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('functions_r.php',''); initResizable();
 : <a class="el" href="d9/d6e/a01409.php#a23a4eee18708dae4eff05079a345c375">mcd::Referenced&lt; C &gt;</a>
 </li>
 <li>Reinit()
-: <a class="el" href="dd/d3f/a01221.php#a53127e524387d7c4d222ff55985d6f4b">mcd::Console::Reinit</a>
+: <a class="el" href="dd/d3f/a01221.php#a9401ce9fc4468304235d6d2b2b87b7b7">mcd::console::Reinit</a>
 </li>
 <li>reset()
 : <a class="el" href="de/d85/a01273.php#a22f293eaa9698511e9657c60ee1557f7">mcd::Date</a>
@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('functions_r.php',''); initResizable();
 , <a class="el" href="d2/d9b/a01433.php#affd1240db762eb2d3f125bfdda4aa990">mcd::Timer</a>
 </li>
 <li>restore()
-: <a class="el" href="db/d1c/a01229.php#a4b4cb44eb4f5f6f88375fea201f8b988">mcd::Console::Cursor</a>
+: <a class="el" href="db/d1c/a01229.php#a5b1fc7215725e4cd22e95de9530e33ae">mcd::console::Cursor</a>
 </li>
 <li>resume()
 : <a class="el" href="d3/d92/a01393.php#a4670bc4130ffbdd8fd198ab020a7ffe3">mcd::PlayerAbstraction&lt; PlayerParent &gt;</a>
@@ -142,7 +142,7 @@ $(document).ready(function(){initNavTree('functions_r.php',''); initResizable();
 : <a class="el" href="d6/d16/a01269.php#a022907735103df44ce25774a289cede1">mcd::RSA</a>
 </li>
 <li>run()
-: <a class="el" href="d4/d20/a01421.php#ad0540f76b1d762f87f48b1333c499d96">mcd::Tests::Test</a>
+: <a class="el" href="d4/d20/a01421.php#a92521447188f0264d12256d3d2d8306d">mcd::tests::Test</a>
 </li>
 </ul>
 </div><!-- contents -->

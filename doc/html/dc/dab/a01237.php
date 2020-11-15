@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::Console::ThreadCout Class Reference</title>
+		<title>C++: mcd::console::ThreadCout Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('dc/dab/a01237.php','../../'); initResi
 <a href="#friends">Friends</a> &#124;
 <a href="../../d6/d1e/a01234.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Console::ThreadCout Class Reference</div>  </div>
+<div class="title">mcd::console::ThreadCout Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -105,36 +105,36 @@ $(document).ready(function(){initNavTree('dc/dab/a01237.php','../../'); initResi
 
 <p><code>#include &lt;console.hpp&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for mcd::Console::ThreadCout:</div>
+Inheritance diagram for mcd::console::ThreadCout:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d8/d2b/a01236.png" border="0" usemap="#amcd_1_1Console_1_1ThreadCout_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1Console_1_1ThreadCout_inherit__map" id="mcd_1_1Console_1_1ThreadCout_inherit__map">
-<area shape="rect" title="A class to use std::cout thread safe." alt="" coords="5,319,184,345"/>
-<area shape="rect" title="STL class." alt="" coords="47,244,142,271"/>
-<area shape="rect" title="STL class." alt="" coords="28,155,161,196"/>
-<area shape="rect" title="STL class." alt="" coords="17,80,172,107"/>
-<area shape="rect" title="STL class." alt="" coords="45,5,145,32"/>
+<div class="center"><img src="../../d8/d2b/a01236.png" border="0" usemap="#amcd_1_1console_1_1ThreadCout_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1console_1_1ThreadCout_inherit__map" id="mcd_1_1console_1_1ThreadCout_inherit__map">
+<area shape="rect" title="A class to use std::cout thread safe." alt="" coords="5,319,181,345"/>
+<area shape="rect" title="STL class." alt="" coords="46,244,141,271"/>
+<area shape="rect" title="STL class." alt="" coords="27,155,160,196"/>
+<area shape="rect" title="STL class." alt="" coords="16,80,171,107"/>
+<area shape="rect" title="STL class." alt="" coords="43,5,143,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for mcd::Console::ThreadCout:</div>
+Collaboration diagram for mcd::console::ThreadCout:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/dad/a01235.png" border="0" usemap="#amcd_1_1Console_1_1ThreadCout_coll__map" alt="Collaboration graph"/></div>
-<map name="mcd_1_1Console_1_1ThreadCout_coll__map" id="mcd_1_1Console_1_1ThreadCout_coll__map">
-<area shape="rect" title="A class to use std::cout thread safe." alt="" coords="5,319,184,345"/>
-<area shape="rect" title="STL class." alt="" coords="47,244,142,271"/>
-<area shape="rect" title="STL class." alt="" coords="28,155,161,196"/>
-<area shape="rect" title="STL class." alt="" coords="17,80,172,107"/>
-<area shape="rect" title="STL class." alt="" coords="45,5,145,32"/>
+<div class="center"><img src="../../dd/dad/a01235.png" border="0" usemap="#amcd_1_1console_1_1ThreadCout_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1console_1_1ThreadCout_coll__map" id="mcd_1_1console_1_1ThreadCout_coll__map">
+<area shape="rect" title="A class to use std::cout thread safe." alt="" coords="5,319,181,345"/>
+<area shape="rect" title="STL class." alt="" coords="46,244,141,271"/>
+<area shape="rect" title="STL class." alt="" coords="27,155,160,196"/>
+<area shape="rect" title="STL class." alt="" coords="16,80,171,107"/>
+<area shape="rect" title="STL class." alt="" coords="43,5,143,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af71e174b4ce16514eb8c305c17aae74f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/a01237.php#af71e174b4ce16514eb8c305c17aae74f">ThreadCout</a> ()</td></tr>
-<tr class="separator:af71e174b4ce16514eb8c305c17aae74f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a266359516e94d0b37988ded12633c42c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/a01237.php#a266359516e94d0b37988ded12633c42c">~ThreadCout</a> ()</td></tr>
-<tr class="separator:a266359516e94d0b37988ded12633c42c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ab22efba01da7bd7a61446936294cca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/a01237.php#a0ab22efba01da7bd7a61446936294cca">ThreadCout</a> ()</td></tr>
+<tr class="separator:a0ab22efba01da7bd7a61446936294cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00406826de52af9d7753e69e6f674e08"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/a01237.php#a00406826de52af9d7753e69e6f674e08">~ThreadCout</a> ()</td></tr>
+<tr class="separator:a00406826de52af9d7753e69e6f674e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -147,8 +147,8 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to use std::cout thread safe. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af71e174b4ce16514eb8c305c17aae74f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af71e174b4ce16514eb8c305c17aae74f">&#9670;&nbsp;</a></span>ThreadCout()</h2>
+<a id="a0ab22efba01da7bd7a61446936294cca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ab22efba01da7bd7a61446936294cca">&#9670;&nbsp;</a></span>ThreadCout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,7 +157,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::Console::ThreadCout::ThreadCout </td>
+          <td class="memname">mcd::console::ThreadCout::ThreadCout </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -172,8 +172,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a266359516e94d0b37988ded12633c42c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a266359516e94d0b37988ded12633c42c">&#9670;&nbsp;</a></span>~ThreadCout()</h2>
+<a id="a00406826de52af9d7753e69e6f674e08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00406826de52af9d7753e69e6f674e08">&#9670;&nbsp;</a></span>~ThreadCout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182,7 +182,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::Console::ThreadCout::~ThreadCout </td>
+          <td class="memname">virtual mcd::console::ThreadCout::~ThreadCout </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -281,7 +281,7 @@ template&lt;class T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/d42/a00269.php">Console</a></li><li class="navelem"><a class="el" href="../../dc/dab/a01237.php">ThreadCout</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/d42/a00269.php">console</a></li><li class="navelem"><a class="el" href="../../dc/dab/a01237.php">ThreadCout</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -274,7 +274,7 @@ $(document).ready(function(){initNavTree('functions_g.php',''); initResizable();
 : <a class="el" href="d3/dc4/a01089.php#ad3ce2b65cecda053e43eac7421224088">mcd::Animal</a>
 </li>
 <li>goTo()
-: <a class="el" href="db/d1c/a01229.php#a650ac2ee499c377d8dc5810e086ad63e">mcd::Console::Cursor</a>
+: <a class="el" href="db/d1c/a01229.php#a935cee462520735116a963b3df85c5d4">mcd::console::Cursor</a>
 </li>
 <li>goTop()
 : <a class="el" href="d3/dc4/a01089.php#ac70088d58528c2bb5a3bd30bf176f2ea">mcd::Animal</a>

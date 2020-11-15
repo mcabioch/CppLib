@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::Tests::Test Class Reference</title>
+		<title>C++: mcd::tests::Test Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('d4/d20/a01421.php','../../'); initResi
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="../../d4/d3c/a01418.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Tests::Test Class Reference</div>  </div>
+<div class="title">mcd::tests::Test Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -106,44 +106,44 @@ $(document).ready(function(){initNavTree('d4/d20/a01421.php','../../'); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:acfe8416a1f76010757bda8e2c68412ae"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#acfe8416a1f76010757bda8e2c68412ae">nb</a> ()</td></tr>
-<tr class="memdesc:acfe8416a1f76010757bda8e2c68412ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of tests executed after a call to run \error Abort the program if it's call before run.  <a href="../../d4/d20/a01421.php#acfe8416a1f76010757bda8e2c68412ae">More...</a><br /></td></tr>
-<tr class="separator:acfe8416a1f76010757bda8e2c68412ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2460015b885027e9c03ee911b1466f67"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#a2460015b885027e9c03ee911b1466f67">success</a> ()</td></tr>
-<tr class="memdesc:a2460015b885027e9c03ee911b1466f67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of success after a call to run \error Abort the program if it's call before run.  <a href="../../d4/d20/a01421.php#a2460015b885027e9c03ee911b1466f67">More...</a><br /></td></tr>
-<tr class="separator:a2460015b885027e9c03ee911b1466f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8eca6a0ca43bb94945dd97f9d43f8042"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#a8eca6a0ca43bb94945dd97f9d43f8042">failures</a> ()</td></tr>
-<tr class="memdesc:a8eca6a0ca43bb94945dd97f9d43f8042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of fails after a call to run \error Abort the program if it's call before run.  <a href="../../d4/d20/a01421.php#a8eca6a0ca43bb94945dd97f9d43f8042">More...</a><br /></td></tr>
-<tr class="separator:a8eca6a0ca43bb94945dd97f9d43f8042"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad42ea83a5e78bd14d0d2af06716dabd3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#ad42ea83a5e78bd14d0d2af06716dabd3">addSuite</a> (const std::string &amp;name, std::function&lt; void() &gt; func)</td></tr>
-<tr class="memdesc:ad42ea83a5e78bd14d0d2af06716dabd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a function (without arguments and returning void) that contains a group of tests, could be a lambda.  <a href="../../d4/d20/a01421.php#ad42ea83a5e78bd14d0d2af06716dabd3">More...</a><br /></td></tr>
-<tr class="separator:ad42ea83a5e78bd14d0d2af06716dabd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0540f76b1d762f87f48b1333c499d96"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#ad0540f76b1d762f87f48b1333c499d96">run</a> (const std::string &amp;key=&quot;&quot;)</td></tr>
-<tr class="memdesc:ad0540f76b1d762f87f48b1333c499d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run all or a group of tests.  <a href="../../d4/d20/a01421.php#ad0540f76b1d762f87f48b1333c499d96">More...</a><br /></td></tr>
-<tr class="separator:ad0540f76b1d762f87f48b1333c499d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9e5ce30e83438c731c0b32558087e7e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#ad9e5ce30e83438c731c0b32558087e7e">addTest</a> (const Test_struct &amp;test)</td></tr>
-<tr class="memdesc:ad9e5ce30e83438c731c0b32558087e7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a test analyze to an array.  <a href="../../d4/d20/a01421.php#ad9e5ce30e83438c731c0b32558087e7e">More...</a><br /></td></tr>
-<tr class="separator:ad9e5ce30e83438c731c0b32558087e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd689a9285398f98dcf09722ca676070"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#abd689a9285398f98dcf09722ca676070">addThrow</a> (const std::string &amp;instr, const std::string &amp;except, const Test_struct &amp;test)</td></tr>
-<tr class="memdesc:abd689a9285398f98dcf09722ca676070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a throw test with addTest.  <a href="../../d4/d20/a01421.php#abd689a9285398f98dcf09722ca676070">More...</a><br /></td></tr>
-<tr class="separator:abd689a9285398f98dcf09722ca676070"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1361402d9c24abe3aa4e44cce65de4b5"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
-<tr class="memitem:a1361402d9c24abe3aa4e44cce65de4b5"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#a1361402d9c24abe3aa4e44cce65de4b5">in</a> (const T &amp;value, const U &amp;array, const Test_struct &amp;test, bool start=false)</td></tr>
-<tr class="memdesc:a1361402d9c24abe3aa4e44cce65de4b5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d4/d20/a01421.php" title="A static class to test code.">Test</a> if a value is or isn't in an array.  <a href="../../d4/d20/a01421.php#a1361402d9c24abe3aa4e44cce65de4b5">More...</a><br /></td></tr>
-<tr class="separator:a1361402d9c24abe3aa4e44cce65de4b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7602fba793072f87e41fb0df3884ce24"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
-<tr class="memitem:a7602fba793072f87e41fb0df3884ce24"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#a7602fba793072f87e41fb0df3884ce24">instance</a> (const U &amp;, const std::string &amp;strObj, const Test_struct &amp;test, bool cmp=true)</td></tr>
-<tr class="memdesc:a7602fba793072f87e41fb0df3884ce24"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d4/d20/a01421.php" title="A static class to test code.">Test</a> if class U is an instance of T or is a child instance of T.  <a href="../../d4/d20/a01421.php#a7602fba793072f87e41fb0df3884ce24">More...</a><br /></td></tr>
-<tr class="separator:a7602fba793072f87e41fb0df3884ce24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6b9760deebd8280c822a0d7b6541b13"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#ac6b9760deebd8280c822a0d7b6541b13">print</a> (std::ostream &amp;os, size_t format=0b00000010|0b00000100|0b00001000)</td></tr>
-<tr class="memdesc:ac6b9760deebd8280c822a0d7b6541b13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the results of the tests.  <a href="../../d4/d20/a01421.php#ac6b9760deebd8280c822a0d7b6541b13">More...</a><br /></td></tr>
-<tr class="separator:ac6b9760deebd8280c822a0d7b6541b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae42256dfd8f198d224e4a877474aa172"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#ae42256dfd8f198d224e4a877474aa172">nb</a> ()</td></tr>
+<tr class="memdesc:ae42256dfd8f198d224e4a877474aa172"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of tests executed after a call to run \error Abort the program if it's call before run.  <a href="../../d4/d20/a01421.php#ae42256dfd8f198d224e4a877474aa172">More...</a><br /></td></tr>
+<tr class="separator:ae42256dfd8f198d224e4a877474aa172"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3022d1777e4155985bdc9d7add61e5db"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#a3022d1777e4155985bdc9d7add61e5db">success</a> ()</td></tr>
+<tr class="memdesc:a3022d1777e4155985bdc9d7add61e5db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of success after a call to run \error Abort the program if it's call before run.  <a href="../../d4/d20/a01421.php#a3022d1777e4155985bdc9d7add61e5db">More...</a><br /></td></tr>
+<tr class="separator:a3022d1777e4155985bdc9d7add61e5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af853ed85eaea2682f64fb13d73662305"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#af853ed85eaea2682f64fb13d73662305">failures</a> ()</td></tr>
+<tr class="memdesc:af853ed85eaea2682f64fb13d73662305"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of fails after a call to run \error Abort the program if it's call before run.  <a href="../../d4/d20/a01421.php#af853ed85eaea2682f64fb13d73662305">More...</a><br /></td></tr>
+<tr class="separator:af853ed85eaea2682f64fb13d73662305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a071aa854651614bcd81581eb26b5cd20"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#a071aa854651614bcd81581eb26b5cd20">addSuite</a> (const std::string &amp;name, std::function&lt; void() &gt; func)</td></tr>
+<tr class="memdesc:a071aa854651614bcd81581eb26b5cd20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a function (without arguments and returning void) that contains a group of tests, could be a lambda.  <a href="../../d4/d20/a01421.php#a071aa854651614bcd81581eb26b5cd20">More...</a><br /></td></tr>
+<tr class="separator:a071aa854651614bcd81581eb26b5cd20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92521447188f0264d12256d3d2d8306d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#a92521447188f0264d12256d3d2d8306d">run</a> (const std::string &amp;key=&quot;&quot;)</td></tr>
+<tr class="memdesc:a92521447188f0264d12256d3d2d8306d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run all or a group of tests.  <a href="../../d4/d20/a01421.php#a92521447188f0264d12256d3d2d8306d">More...</a><br /></td></tr>
+<tr class="separator:a92521447188f0264d12256d3d2d8306d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b581c6619cbb7660c0c0d509a4a979d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#a9b581c6619cbb7660c0c0d509a4a979d">addTest</a> (const Test_struct &amp;test)</td></tr>
+<tr class="memdesc:a9b581c6619cbb7660c0c0d509a4a979d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a test analyze to an array.  <a href="../../d4/d20/a01421.php#a9b581c6619cbb7660c0c0d509a4a979d">More...</a><br /></td></tr>
+<tr class="separator:a9b581c6619cbb7660c0c0d509a4a979d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfd0b19e1a6b68854276138b66f0b757"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#abfd0b19e1a6b68854276138b66f0b757">addThrow</a> (const std::string &amp;instr, const std::string &amp;except, const Test_struct &amp;test)</td></tr>
+<tr class="memdesc:abfd0b19e1a6b68854276138b66f0b757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a throw test with addTest.  <a href="../../d4/d20/a01421.php#abfd0b19e1a6b68854276138b66f0b757">More...</a><br /></td></tr>
+<tr class="separator:abfd0b19e1a6b68854276138b66f0b757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79a117fd4376fc9d22a777900375e988"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a79a117fd4376fc9d22a777900375e988"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#a79a117fd4376fc9d22a777900375e988">in</a> (const T &amp;value, const U &amp;array, const Test_struct &amp;test, bool start=false)</td></tr>
+<tr class="memdesc:a79a117fd4376fc9d22a777900375e988"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d4/d20/a01421.php" title="A static class to test code.">Test</a> if a value is or isn't in an array.  <a href="../../d4/d20/a01421.php#a79a117fd4376fc9d22a777900375e988">More...</a><br /></td></tr>
+<tr class="separator:a79a117fd4376fc9d22a777900375e988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7dceee2802839d83c0c345d72418ed5"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:ae7dceee2802839d83c0c345d72418ed5"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#ae7dceee2802839d83c0c345d72418ed5">instance</a> (const U &amp;, const std::string &amp;strObj, const Test_struct &amp;test, bool cmp=true)</td></tr>
+<tr class="memdesc:ae7dceee2802839d83c0c345d72418ed5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d4/d20/a01421.php" title="A static class to test code.">Test</a> if class U is an instance of T or is a child instance of T.  <a href="../../d4/d20/a01421.php#ae7dceee2802839d83c0c345d72418ed5">More...</a><br /></td></tr>
+<tr class="separator:ae7dceee2802839d83c0c345d72418ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af318ef45ad460557a134908d2b733914"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a01421.php#af318ef45ad460557a134908d2b733914">print</a> (std::ostream &amp;os, size_t format=0b00000010|0b00000100|0b00001000)</td></tr>
+<tr class="memdesc:af318ef45ad460557a134908d2b733914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the results of the tests.  <a href="../../d4/d20/a01421.php#af318ef45ad460557a134908d2b733914">More...</a><br /></td></tr>
+<tr class="separator:af318ef45ad460557a134908d2b733914"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A static class to test code. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad42ea83a5e78bd14d0d2af06716dabd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad42ea83a5e78bd14d0d2af06716dabd3">&#9670;&nbsp;</a></span>addSuite()</h2>
+<a id="a071aa854651614bcd81581eb26b5cd20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a071aa854651614bcd81581eb26b5cd20">&#9670;&nbsp;</a></span>addSuite()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -152,7 +152,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void mcd::Tests::Test::addSuite </td>
+          <td class="memname">static void mcd::tests::Test::addSuite </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
@@ -188,8 +188,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad9e5ce30e83438c731c0b32558087e7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9e5ce30e83438c731c0b32558087e7e">&#9670;&nbsp;</a></span>addTest()</h2>
+<a id="a9b581c6619cbb7660c0c0d509a4a979d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b581c6619cbb7660c0c0d509a4a979d">&#9670;&nbsp;</a></span>addTest()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -198,7 +198,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void mcd::Tests::Test::addTest </td>
+          <td class="memname">static void mcd::tests::Test::addTest </td>
           <td>(</td>
           <td class="paramtype">const Test_struct &amp;&#160;</td>
           <td class="paramname"><em>test</em></td><td>)</td>
@@ -223,8 +223,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abd689a9285398f98dcf09722ca676070"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd689a9285398f98dcf09722ca676070">&#9670;&nbsp;</a></span>addThrow()</h2>
+<a id="abfd0b19e1a6b68854276138b66f0b757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfd0b19e1a6b68854276138b66f0b757">&#9670;&nbsp;</a></span>addThrow()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -233,7 +233,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void mcd::Tests::Test::addThrow </td>
+          <td class="memname">static void mcd::tests::Test::addThrow </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>instr</em>, </td>
@@ -276,17 +276,17 @@ Static Public Member Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/d20/a01421_abd689a9285398f98dcf09722ca676070_cgraph.png" border="0" usemap="#ad4/d20/a01421_abd689a9285398f98dcf09722ca676070_cgraph" alt=""/></div>
-<map name="d4/d20/a01421_abd689a9285398f98dcf09722ca676070_cgraph" id="d4/d20/a01421_abd689a9285398f98dcf09722ca676070_cgraph">
-<area shape="rect" title="Add a throw test with addTest." alt="" coords="5,5,191,32"/>
-<area shape="rect" href="../../d4/d20/a01421.php#ad9e5ce30e83438c731c0b32558087e7e" title="Add a test analyze to an array." alt="" coords="239,5,413,32"/>
+<div class="center"><img src="../../d4/d20/a01421_abfd0b19e1a6b68854276138b66f0b757_cgraph.png" border="0" usemap="#ad4/d20/a01421_abfd0b19e1a6b68854276138b66f0b757_cgraph" alt=""/></div>
+<map name="d4/d20/a01421_abfd0b19e1a6b68854276138b66f0b757_cgraph" id="d4/d20/a01421_abfd0b19e1a6b68854276138b66f0b757_cgraph">
+<area shape="rect" title="Add a throw test with addTest." alt="" coords="5,5,188,32"/>
+<area shape="rect" href="../../d4/d20/a01421.php#a9b581c6619cbb7660c0c0d509a4a979d" title="Add a test analyze to an array." alt="" coords="236,5,407,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a8eca6a0ca43bb94945dd97f9d43f8042"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8eca6a0ca43bb94945dd97f9d43f8042">&#9670;&nbsp;</a></span>failures()</h2>
+<a id="af853ed85eaea2682f64fb13d73662305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af853ed85eaea2682f64fb13d73662305">&#9670;&nbsp;</a></span>failures()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,7 +295,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static size_t mcd::Tests::Test::failures </td>
+          <td class="memname">static size_t mcd::tests::Test::failures </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -313,8 +313,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a1361402d9c24abe3aa4e44cce65de4b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1361402d9c24abe3aa4e44cce65de4b5">&#9670;&nbsp;</a></span>in()</h2>
+<a id="a79a117fd4376fc9d22a777900375e988"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79a117fd4376fc9d22a777900375e988">&#9670;&nbsp;</a></span>in()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -325,7 +325,7 @@ template&lt;class T , class U &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void mcd::Tests::Test::in </td>
+          <td class="memname">static void mcd::tests::Test::in </td>
           <td>(</td>
           <td class="paramtype">const T &amp;&#160;</td>
           <td class="paramname"><em>value</em>, </td>
@@ -375,18 +375,18 @@ template&lt;class T , class U &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/d20/a01421_a1361402d9c24abe3aa4e44cce65de4b5_cgraph.png" border="0" usemap="#ad4/d20/a01421_a1361402d9c24abe3aa4e44cce65de4b5_cgraph" alt=""/></div>
-<map name="d4/d20/a01421_a1361402d9c24abe3aa4e44cce65de4b5_cgraph" id="d4/d20/a01421_a1361402d9c24abe3aa4e44cce65de4b5_cgraph">
-<area shape="rect" title="Test if a value is or isn&#39;t in an array." alt="" coords="5,31,144,57"/>
-<area shape="rect" href="../../d4/d20/a01421.php#ad9e5ce30e83438c731c0b32558087e7e" title="Add a test analyze to an array." alt="" coords="192,5,367,32"/>
-<area shape="rect" href="../../db/d12/a00268.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string." alt="" coords="243,56,316,83"/>
+<div class="center"><img src="../../d4/d20/a01421_a79a117fd4376fc9d22a777900375e988_cgraph.png" border="0" usemap="#ad4/d20/a01421_a79a117fd4376fc9d22a777900375e988_cgraph" alt=""/></div>
+<map name="d4/d20/a01421_a79a117fd4376fc9d22a777900375e988_cgraph" id="d4/d20/a01421_a79a117fd4376fc9d22a777900375e988_cgraph">
+<area shape="rect" title="Test if a value is or isn&#39;t in an array." alt="" coords="5,31,140,57"/>
+<area shape="rect" href="../../d4/d20/a01421.php#a9b581c6619cbb7660c0c0d509a4a979d" title="Add a test analyze to an array." alt="" coords="188,5,359,32"/>
+<area shape="rect" href="../../db/d12/a00268.php#ae057a7c5042a3cacb444199a2b6b7598" title="Convert in in a string." alt="" coords="237,56,310,83"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a7602fba793072f87e41fb0df3884ce24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7602fba793072f87e41fb0df3884ce24">&#9670;&nbsp;</a></span>instance()</h2>
+<a id="ae7dceee2802839d83c0c345d72418ed5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7dceee2802839d83c0c345d72418ed5">&#9670;&nbsp;</a></span>instance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -397,7 +397,7 @@ template&lt;class T , class U &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void mcd::Tests::Test::instance </td>
+          <td class="memname">static void mcd::tests::Test::instance </td>
           <td>(</td>
           <td class="paramtype">const U &amp;&#160;</td>
           <td class="paramname">, </td>
@@ -447,17 +447,17 @@ template&lt;class T , class U &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/d20/a01421_a7602fba793072f87e41fb0df3884ce24_cgraph.png" border="0" usemap="#ad4/d20/a01421_a7602fba793072f87e41fb0df3884ce24_cgraph" alt=""/></div>
-<map name="d4/d20/a01421_a7602fba793072f87e41fb0df3884ce24_cgraph" id="d4/d20/a01421_a7602fba793072f87e41fb0df3884ce24_cgraph">
-<area shape="rect" title="Test if class U is an instance of T or is a child instance of T." alt="" coords="5,5,183,32"/>
-<area shape="rect" href="../../d4/d20/a01421.php#ad9e5ce30e83438c731c0b32558087e7e" title="Add a test analyze to an array." alt="" coords="231,5,405,32"/>
+<div class="center"><img src="../../d4/d20/a01421_ae7dceee2802839d83c0c345d72418ed5_cgraph.png" border="0" usemap="#ad4/d20/a01421_ae7dceee2802839d83c0c345d72418ed5_cgraph" alt=""/></div>
+<map name="d4/d20/a01421_ae7dceee2802839d83c0c345d72418ed5_cgraph" id="d4/d20/a01421_ae7dceee2802839d83c0c345d72418ed5_cgraph">
+<area shape="rect" title="Test if class U is an instance of T or is a child instance of T." alt="" coords="5,5,180,32"/>
+<area shape="rect" href="../../d4/d20/a01421.php#a9b581c6619cbb7660c0c0d509a4a979d" title="Add a test analyze to an array." alt="" coords="228,5,399,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="acfe8416a1f76010757bda8e2c68412ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfe8416a1f76010757bda8e2c68412ae">&#9670;&nbsp;</a></span>nb()</h2>
+<a id="ae42256dfd8f198d224e4a877474aa172"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae42256dfd8f198d224e4a877474aa172">&#9670;&nbsp;</a></span>nb()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -466,7 +466,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static size_t mcd::Tests::Test::nb </td>
+          <td class="memname">static size_t mcd::tests::Test::nb </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -484,8 +484,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ac6b9760deebd8280c822a0d7b6541b13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6b9760deebd8280c822a0d7b6541b13">&#9670;&nbsp;</a></span>print()</h2>
+<a id="af318ef45ad460557a134908d2b733914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af318ef45ad460557a134908d2b733914">&#9670;&nbsp;</a></span>print()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -494,7 +494,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void mcd::Tests::Test::print </td>
+          <td class="memname">static void mcd::tests::Test::print </td>
           <td>(</td>
           <td class="paramtype">std::ostream &amp;&#160;</td>
           <td class="paramname"><em>os</em>, </td>
@@ -530,8 +530,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ad0540f76b1d762f87f48b1333c499d96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0540f76b1d762f87f48b1333c499d96">&#9670;&nbsp;</a></span>run()</h2>
+<a id="a92521447188f0264d12256d3d2d8306d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92521447188f0264d12256d3d2d8306d">&#9670;&nbsp;</a></span>run()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -540,7 +540,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void mcd::Tests::Test::run </td>
+          <td class="memname">static void mcd::tests::Test::run </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>key</em> = <code>&quot;&quot;</code></td><td>)</td>
@@ -565,8 +565,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a2460015b885027e9c03ee911b1466f67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2460015b885027e9c03ee911b1466f67">&#9670;&nbsp;</a></span>success()</h2>
+<a id="a3022d1777e4155985bdc9d7add61e5db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3022d1777e4155985bdc9d7add61e5db">&#9670;&nbsp;</a></span>success()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -575,7 +575,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static size_t mcd::Tests::Test::success </td>
+          <td class="memname">static size_t mcd::tests::Test::success </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -602,7 +602,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d0/d19/a00273.php">Tests</a></li><li class="navelem"><a class="el" href="../../d4/d20/a01421.php">Test</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d0/d19/a00273.php">tests</a></li><li class="navelem"><a class="el" href="../../d4/d20/a01421.php">Test</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

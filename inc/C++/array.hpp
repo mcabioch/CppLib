@@ -40,7 +40,7 @@ namespace mcd
         return out;
     }
 
-    namespace Console
+    namespace console
     {
 #ifdef DOXYGEN_SHOULD_SKIP_THIS
         /*!
@@ -74,7 +74,7 @@ namespace mcd
          *		\return			void
          */
         template< typename T >
-        typename std::enable_if_t< std::is_array< T >::value && !Check::is_printable< T >::value >
+        typename std::enable_if_t< std::is_array< T >::value && !check::is_printable< T >::value >
             print_r(const T& a) {
             size_t index{0};
 
@@ -84,7 +84,7 @@ namespace mcd
             }
         }
 #endif   // DOXYGEN_SHOULD_SKIP_THIS
-    }    // namespace Console
+    }    // namespace console
 
     /*!
      * \brief	Rewrite a vector array without the value at the given index
@@ -127,7 +127,7 @@ namespace mcd
         return true;
     }
 
-    namespace Console
+    namespace console
     {
 #ifdef DOXYGEN_SHOULD_SKIP_THIS
         /*!
@@ -142,42 +142,42 @@ namespace mcd
         /* print_all function */
         template< typename T >
         typename std::enable_if_t<
-            Check::is_object< T >::value && !Check::is_special_struct< T >::value &&
-            !Check::is_printable< T >::value && !Check::is_minded_ptr< T >::value >
+            check::is_object< T >::value && !check::is_special_struct< T >::value &&
+            !check::is_printable< T >::value && !check::is_minded_ptr< T >::value >
             print_all(const T&, bool = false, const std::string& decal = "");
 
         template< typename T >
-        typename std::enable_if_t< Check::is_object< T >::value &&
-                                   !Check::is_printable< T >::value &&
-                                   !Check::is_minded_ptr< T >::value >
+        typename std::enable_if_t< check::is_object< T >::value &&
+                                   !check::is_printable< T >::value &&
+                                   !check::is_minded_ptr< T >::value >
             print_all(T* data, bool change = false, const std::string& decal = "");
 
         template< typename T >
-        typename std::enable_if_t< Check::is_object< T >::value &&
-                                   Check::is_printable< T >::value &&
-                                   Check::is_minded_ptr< T >::value >
+        typename std::enable_if_t< check::is_object< T >::value &&
+                                   check::is_printable< T >::value &&
+                                   check::is_minded_ptr< T >::value >
             print_all(const T& data, bool change = false, const std::string& decal = "");
 
         template< typename T >
         typename std::enable_if_t<
-            (std::is_fundamental< T >::value || Check::is_string< T >::value) &&
-            Check::is_printable< T >::value && !Check::is_minded_ptr< T >::value >
+            (std::is_fundamental< T >::value || check::is_string< T >::value) &&
+            check::is_printable< T >::value && !check::is_minded_ptr< T >::value >
             print_all(const T& data, bool = false, const std::string& decal = "");
 
         template< typename T >
         typename std::enable_if_t<
-            !std::is_fundamental< T >::value && !Check::is_string< T >::value &&
-            Check::is_printable< T >::value && !Check::is_minded_ptr< T >::value >
+            !std::is_fundamental< T >::value && !check::is_string< T >::value &&
+            check::is_printable< T >::value && !check::is_minded_ptr< T >::value >
             print_all(const T& data, bool = false, const std::string& decal = "");
 
         void print_all(const std::smatch& data, bool change = false, const std::string& decal = "");
 
         template< typename T >
-        typename std::enable_if_t< Check::is_array< T >::value >
+        typename std::enable_if_t< check::is_array< T >::value >
             print_all(T* data, bool change = false, const std::string& decal = "");
 
         template< typename T >
-        typename std::enable_if_t< Check::is_array< T >::value && !Check::is_vector< T >::value >
+        typename std::enable_if_t< check::is_array< T >::value && !check::is_vector< T >::value >
             print_all(const T& data, bool change = false, const std::string& decal = "");
 
         template< typename T >
@@ -206,16 +206,16 @@ namespace mcd
         /* End */
         template< typename T >
         typename std::enable_if_t<
-            Check::is_object< T >::value && !Check::is_special_struct< T >::value &&
-            !Check::is_printable< T >::value && !Check::is_minded_ptr< T >::value >
+            check::is_object< T >::value && !check::is_special_struct< T >::value &&
+            !check::is_printable< T >::value && !check::is_minded_ptr< T >::value >
             print_all(const T&, bool, const std::string& decal) {
             std::cout << decal << "Object" << std::endl;
         }
 
         template< typename T >
-        typename std::enable_if_t< Check::is_object< T >::value &&
-                                   !Check::is_printable< T >::value &&
-                                   !Check::is_minded_ptr< T >::value >
+        typename std::enable_if_t< check::is_object< T >::value &&
+                                   !check::is_printable< T >::value &&
+                                   !check::is_minded_ptr< T >::value >
             print_all(T* data, bool change, const std::string& decal) {
             if (change) {
                 std::cout << decal << "(" << data << ")" << std::endl;
@@ -225,9 +225,9 @@ namespace mcd
         }
 
         template< typename T >
-        typename std::enable_if_t< Check::is_object< T >::value &&
-                                   Check::is_printable< T >::value &&
-                                   Check::is_minded_ptr< T >::value >
+        typename std::enable_if_t< check::is_object< T >::value &&
+                                   check::is_printable< T >::value &&
+                                   check::is_minded_ptr< T >::value >
             print_all(const T& data, bool change, const std::string& decal) {
             if (change) {
                 std::cout << decal << "(" << data << ")" << std::endl;
@@ -238,16 +238,16 @@ namespace mcd
 
         template< typename T >
         typename std::enable_if_t<
-            (std::is_fundamental< T >::value || Check::is_string< T >::value) &&
-            Check::is_printable< T >::value && !Check::is_minded_ptr< T >::value >
+            (std::is_fundamental< T >::value || check::is_string< T >::value) &&
+            check::is_printable< T >::value && !check::is_minded_ptr< T >::value >
             print_all(const T& data, bool, const std::string& decal) {
             std::cout << decal << "'" << data << "'" << std::endl;
         }
 
         template< typename T >
         typename std::enable_if_t<
-            !std::is_fundamental< T >::value && !Check::is_string< T >::value &&
-            Check::is_printable< T >::value && !Check::is_minded_ptr< T >::value >
+            !std::is_fundamental< T >::value && !check::is_string< T >::value &&
+            check::is_printable< T >::value && !check::is_minded_ptr< T >::value >
             print_all(const T& data, bool, const std::string& decal) {
             std::cout << decal << data << std::endl;
         }
@@ -278,7 +278,7 @@ namespace mcd
         }
 
         template< typename T >
-        typename std::enable_if_t< Check::is_array< T >::value >
+        typename std::enable_if_t< check::is_array< T >::value >
             print_all(T* data, bool change, const std::string& decal) {
             if (change) {
                 std::cout << decal << "(" << data << ")[" << data->size() << "]" << std::endl;
@@ -288,7 +288,7 @@ namespace mcd
         }
 
         template< typename T >
-        typename std::enable_if_t< Check::is_array< T >::value && !Check::is_vector< T >::value >
+        typename std::enable_if_t< check::is_array< T >::value && !check::is_vector< T >::value >
             print_all(const T& data, bool change, const std::string& decal) {
             std::cout << decal << "array[" << data.size() << "]" << std::endl;
             size_t i{0};
@@ -321,7 +321,7 @@ namespace mcd
         }
 /**********************/
 #endif   // DOXYGEN_SHOULD_SKIP_THIS
-    }    // namespace Console
+    }    // namespace console
 
     /*!
      * \brief	Convert 2D coords to 1D coords
@@ -351,7 +351,7 @@ namespace mcd
         return array2Dto1D(static_cast< size_t >(pt.x), static_cast< size_t >(pt.y), maxX);
     }
 
-    namespace Console
+    namespace console
     {
         /*!
          * \brief	Print in \a os the 2D vector as a visual 2D array
@@ -409,7 +409,7 @@ namespace mcd
                 os << std::endl;
             }
         }
-    }   // namespace Console
+    }   // namespace console
 
     /*!
      * \class	stack

@@ -256,7 +256,7 @@ namespace mcd
 
             if ((pos.x == static_cast< double64_t >(x)) &&
                 (pos.y == static_cast< double64_t >(y))) {
-                std::cout << Console::Color(Console::Colors::RED_F) << "E";
+                std::cout << console::Color(console::Colors::RED_F) << "E";
                 return true;
             }
         }

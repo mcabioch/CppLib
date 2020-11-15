@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::Check::is_object&lt; T &gt; Class Template Reference</title>
+		<title>C++: mcd::check::is_object&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('de/df7/a01201.php','../../'); initResi
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../d0/d32/a01198.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Check::is_object&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">mcd::check::is_object&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -106,17 +106,17 @@ $(document).ready(function(){initNavTree('de/df7/a01201.php','../../'); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:aba4751c5acee27e01be8c2b8abc0888b"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df7/a01201.php#aba4751c5acee27e01be8c2b8abc0888b">value</a></td></tr>
-<tr class="separator:aba4751c5acee27e01be8c2b8abc0888b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c697edd58e68b8a36052c28e32ccdcc"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df7/a01201.php#a2c697edd58e68b8a36052c28e32ccdcc">value</a></td></tr>
+<tr class="separator:a2c697edd58e68b8a36052c28e32ccdcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
-class mcd::Check::is_object&lt; T &gt;</h3>
+class mcd::check::is_object&lt; T &gt;</h3>
 
 <p>A template class to test if T is an unknown object. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="aba4751c5acee27e01be8c2b8abc0888b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba4751c5acee27e01be8c2b8abc0888b">&#9670;&nbsp;</a></span>value</h2>
+<a id="a2c697edd58e68b8a36052c28e32ccdcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c697edd58e68b8a36052c28e32ccdcc">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -127,7 +127,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const bool <a class="el" href="../../de/df7/a01201.php">mcd::Check::is_object</a>&lt; T &gt;::value</td>
+          <td class="memname">const bool <a class="el" href="../../de/df7/a01201.php">mcd::check::is_object</a>&lt; T &gt;::value</td>
         </tr>
       </table>
   </td>
@@ -136,8 +136,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= !<a class="code" href="../../d8/d02/a01149.php#a0158c050746b586a1c8e800a68968879">is_array&lt; T &gt;::value</a> &amp;&amp; !<a class="code" href="../../d8/d92/a01165.php#af2c46fb3d97ce2190260c2ddcb2d33d4">is_string&lt; T &gt;::value</a> &amp;&amp;</div>
-<div class="line">                                      !<a class="code" href="../../d7/daf/a01169.php#a573e824f7b1584fa564c91c1e5814453">is_smatch&lt; T &gt;::value</a> &amp;&amp; !std::is_fundamental&lt; T &gt;::value</div>
+<b>Initial value:</b><div class="fragment"><div class="line">= !<a class="code" href="../../d8/d02/a01149.php#abc5406d058f8e6f62ca56b4f3e993132">is_array&lt; T &gt;::value</a> &amp;&amp; !<a class="code" href="../../d8/d92/a01165.php#a6ede9c303cc0abd1dd1734dc1ade40a5">is_string&lt; T &gt;::value</a> &amp;&amp;</div>
+<div class="line">                                      !<a class="code" href="../../d7/daf/a01169.php#adea1af67a99838d74cf866af87297e16">is_smatch&lt; T &gt;::value</a> &amp;&amp; !std::is_fundamental&lt; T &gt;::value</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -146,14 +146,14 @@ template&lt;typename T &gt; </div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aa01149_php_a0158c050746b586a1c8e800a68968879"><div class="ttname"><a href="../../d8/d02/a01149.php#a0158c050746b586a1c8e800a68968879">mcd::Check::is_array::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:125</div></div>
-<div class="ttc" id="aa01165_php_af2c46fb3d97ce2190260c2ddcb2d33d4"><div class="ttname"><a href="../../d8/d92/a01165.php#af2c46fb3d97ce2190260c2ddcb2d33d4">mcd::Check::is_string::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:197</div></div>
-<div class="ttc" id="aa01169_php_a573e824f7b1584fa564c91c1e5814453"><div class="ttname"><a href="../../d7/daf/a01169.php#a573e824f7b1584fa564c91c1e5814453">mcd::Check::is_smatch::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:212</div></div>
+<div class="ttc" id="aa01165_php_a6ede9c303cc0abd1dd1734dc1ade40a5"><div class="ttname"><a href="../../d8/d92/a01165.php#a6ede9c303cc0abd1dd1734dc1ade40a5">mcd::check::is_string::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:197</div></div>
+<div class="ttc" id="aa01149_php_abc5406d058f8e6f62ca56b4f3e993132"><div class="ttname"><a href="../../d8/d02/a01149.php#abc5406d058f8e6f62ca56b4f3e993132">mcd::check::is_array::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:125</div></div>
+<div class="ttc" id="aa01169_php_adea1af67a99838d74cf866af87297e16"><div class="ttname"><a href="../../d7/daf/a01169.php#adea1af67a99838d74cf866af87297e16">mcd::check::is_smatch::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:212</div></div>
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">Check</a></li><li class="navelem"><a class="el" href="../../de/df7/a01201.php">is_object</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.php">check</a></li><li class="navelem"><a class="el" href="../../de/df7/a01201.php">is_object</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

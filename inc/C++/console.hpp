@@ -10,7 +10,7 @@
 
 #include "convert.hpp"
 
-namespace mcd::Console
+namespace mcd::console
 {
     /*! \brief	Colors list */
     enum class Colors {
@@ -326,6 +326,6 @@ namespace mcd::Console
      *  \param[in]  os          The output stream where to write the line, defualt is std::cout
      */
     void printLine(std::string caract, size_t size, std::ostream& os = std::cout);
-}   // namespace mcd::Console
+}   // namespace mcd::console
 
 #endif   // HEADER_CPP_CONSOLE

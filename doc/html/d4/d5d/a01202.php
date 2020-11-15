@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,13 +92,13 @@ $(document).ready(function(){initNavTree('de/d61/a01205.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Check::is_special_struct&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::check::is_special_struct&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/d61/a01205.php">mcd::Check::is_special_struct&lt; T &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../de/d61/a01205.php">mcd::check::is_special_struct&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d61/a01205.php#a9347b60a434f2cfd40453cc7856c3918">value</a></td><td class="entry"><a class="el" href="../../de/d61/a01205.php">mcd::Check::is_special_struct&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d61/a01205.php#adb3d78bf0acb5e62f39d063521210081">value</a></td><td class="entry"><a class="el" href="../../de/d61/a01205.php">mcd::check::is_special_struct&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

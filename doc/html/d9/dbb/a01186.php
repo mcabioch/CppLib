@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,15 +92,15 @@ $(document).ready(function(){initNavTree('d3/d10/a01189.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Check::has_istream_operator&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::check::has_istream_operator&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d3/d10/a01189.php">mcd::Check::has_istream_operator&lt; T &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d3/d10/a01189.php">mcd::check::has_istream_operator&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d10/a01189.php#a6343682f15ad178aa8883b61094b7d2a">has_istream_operator</a>()</td><td class="entry"><a class="el" href="../../d3/d10/a01189.php">mcd::Check::has_istream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d10/a01189.php#a4ea6d2bc4fe8e15561698f6ea66d021b">value</a></td><td class="entry"><a class="el" href="../../d3/d10/a01189.php">mcd::Check::has_istream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d10/a01189.php#a4381564142a22fed101f4a2b2b7728b4">~has_istream_operator</a>()</td><td class="entry"><a class="el" href="../../d3/d10/a01189.php">mcd::Check::has_istream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d10/a01189.php#a7f28c0806a9cb6d84ba0465282937135">has_istream_operator</a>()</td><td class="entry"><a class="el" href="../../d3/d10/a01189.php">mcd::check::has_istream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d10/a01189.php#a331d9deff621d98e27191d8ab101782d">value</a></td><td class="entry"><a class="el" href="../../d3/d10/a01189.php">mcd::check::has_istream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d10/a01189.php#a8812dbf6a9132069e2f828b41ec81651">~has_istream_operator</a>()</td><td class="entry"><a class="el" href="../../d3/d10/a01189.php">mcd::check::has_istream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('functions_func_i.php',''); initResizab
 : <a class="el" href="dc/d9e/a01305.php#a1496891d2323d1023ebfd086b84faf8d">mcd::Identifier</a>
 </li>
 <li>in()
-: <a class="el" href="d4/d20/a01421.php#a1361402d9c24abe3aa4e44cce65de4b5">mcd::Tests::Test</a>
+: <a class="el" href="d4/d20/a01421.php#a79a117fd4376fc9d22a777900375e988">mcd::tests::Test</a>
 </li>
 <li>init()
 : <a class="el" href="de/d85/a01273.php#a17a08ca52b3ec69d178a997c07a5ca1c">mcd::Date</a>
@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('functions_func_i.php',''); initResizab
 : <a class="el" href="d5/df9/a01441.php#a53cd621cced254067f1ebac4e2abe8df">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>instance()
-: <a class="el" href="d4/d20/a01421.php#a7602fba793072f87e41fb0df3884ce24">mcd::Tests::Test</a>
+: <a class="el" href="d4/d20/a01421.php#ae7dceee2802839d83c0c345d72418ed5">mcd::tests::Test</a>
 </li>
 <li>inUse()
 : <a class="el" href="db/df2/a01425.php#af6a411164d64b1b04b731f29d54e016a">mcd::Threadable&lt; C &gt;</a>

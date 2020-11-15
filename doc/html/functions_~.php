@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('functions_~.php',''); initResizable();
 
 <h3><a id="index__7E"></a>- ~ -</h3><ul>
 <li>~ has_size_method()
-: <a class="el" href="dc/d98/a01177.php#a7347cf32ea916931725455b99a9dd34a">mcd::Check::has_size_method&lt; T &gt;</a>
+: <a class="el" href="dc/d98/a01177.php#ac1b20696341a76adc3a13da7d6f4b0d0">mcd::check::has_size_method&lt; T &gt;</a>
 </li>
 <li>~Animal()
 : <a class="el" href="d3/dc4/a01089.php#a18d820cdedb08f543b2d3a0fd83e7f72">mcd::Animal</a>
@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('functions_~.php',''); initResizable();
 : <a class="el" href="de/d04/a01209.php#abfcce919bdd2d2001416b72d9ebbf258">mcd::natural::Chromosome</a>
 </li>
 <li>~Color()
-: <a class="el" href="da/d19/a01217.php#ad276e26fc3ba34d385cbe4fbc12aef6c">mcd::Console::Color</a>
+: <a class="el" href="da/d19/a01217.php#ac165219b90060af0a1d899b1caadab6c">mcd::console::Color</a>
 </li>
 <li>~Contraption()
 : <a class="el" href="d3/d7b/a01249.php#a17bb565b03902a28211f8609ac04d01b">mcd::Contraption</a>
@@ -155,10 +155,10 @@ $(document).ready(function(){initNavTree('functions_~.php',''); initResizable();
 : <a class="el" href="dc/d8c/a01297.php#a57128a7a4b82cf0a0ba0b8856bab161a">mcd::natural::Gene</a>
 </li>
 <li>~has_istream_operator()
-: <a class="el" href="d3/d10/a01189.php#a4381564142a22fed101f4a2b2b7728b4">mcd::Check::has_istream_operator&lt; T &gt;</a>
+: <a class="el" href="d3/d10/a01189.php#a8812dbf6a9132069e2f828b41ec81651">mcd::check::has_istream_operator&lt; T &gt;</a>
 </li>
 <li>~has_ostream_operator()
-: <a class="el" href="de/db5/a01181.php#a46e086e27236a65d185a87b1d20b4139">mcd::Check::has_ostream_operator&lt; T &gt;</a>
+: <a class="el" href="de/db5/a01181.php#ac15204b5f1ac95e3bdab7d29779544a3">mcd::check::has_ostream_operator&lt; T &gt;</a>
 </li>
 <li>~Hostile()
 : <a class="el" href="d3/d07/a01301.php#a15a43b724736b8e509e9767231d3c8c6">mcd::Hostile</a>
@@ -227,7 +227,7 @@ $(document).ready(function(){initNavTree('functions_~.php',''); initResizable();
 : <a class="el" href="d6/d16/a01269.php#a9d09972656fd75b2377a173a30692db6">mcd::RSA</a>
 </li>
 <li>~SetPrecision()
-: <a class="el" href="d3/d07/a01241.php#a34991f888fc02e6e319feba46f694707">mcd::Console::SetPrecision</a>
+: <a class="el" href="d3/d07/a01241.php#ace1afba2de5729ff45bcd7386e6c53a8">mcd::console::SetPrecision</a>
 </li>
 <li>~SHA2()
 : <a class="el" href="de/d34/a01261.php#a84db99430c12dfd433432818c954d569">mcd::SHA2</a>
@@ -239,10 +239,10 @@ $(document).ready(function(){initNavTree('functions_~.php',''); initResizable();
 : <a class="el" href="db/df2/a01425.php#aab98cd8e5cd8832dfd6e82c17d1a689d">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>~ThreadCout()
-: <a class="el" href="dc/dab/a01237.php#a266359516e94d0b37988ded12633c42c">mcd::Console::ThreadCout</a>
+: <a class="el" href="dc/dab/a01237.php#a00406826de52af9d7753e69e6f674e08">mcd::console::ThreadCout</a>
 </li>
 <li>~ThreadEndlCout()
-: <a class="el" href="d6/da1/a01233.php#a37cfff56991fa82b716daf1d509cb8de">mcd::Console::ThreadEndlCout</a>
+: <a class="el" href="d6/da1/a01233.php#a0eb354777e73153d8afabd8ee1b56657">mcd::console::ThreadEndlCout</a>
 </li>
 <li>~Time()
 : <a class="el" href="d1/d3b/a01429.php#aef071966b669112898476801bf63bcba">mcd::Time</a>

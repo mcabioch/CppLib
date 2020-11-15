@@ -16,8 +16,8 @@ var a00053 =
     [ "is_special_struct", "de/d61/a01205.php", "de/d61/a01205" ],
     [ "has_method", "dc/dee/a00053.php#a92713af8c651ed158031ed7d3fd15977", null ],
     [ "pair_str", "dc/dee/a00053.php#aba609827ae566c40802bf828ab5a5a3c", null ],
-    [ "isPrintable", "dc/dee/a00053.php#a13e84a38884d860a4854bdd4a031d218", null ],
-    [ "printable", "dc/dee/a00053.php#ab0b2e96bd3f31d823dad478c5f54abf1", null ],
+    [ "isPrintable", "dc/dee/a00053.php#acf8d542e529942588a927dd0373e17b7", null ],
+    [ "printable", "dc/dee/a00053.php#a633865db24ed31d685fd70668cb6a99f", null ],
     [ "sleep_for", "dc/dee/a00053.php#aaa5ef673c6390db3486b12d03a64f8f5", null ],
     [ "yield", "dc/dee/a00053.php#a3a711ec2f858ee16756d8619224624ee", null ]
 ];

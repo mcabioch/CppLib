@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -102,10 +102,10 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.php',''); initRe
 : <a class="el" href="db/d12/a00268.php#a8855b382bd52d4baffe3633dbe8fa3ed">mcd</a>
 </li>
 <li>cout
-: <a class="el" href="d5/d42/a00269.php#a17e973621e86d36834182028f6c350c7">mcd::Console</a>
+: <a class="el" href="d5/d42/a00269.php#ab103cfa2a20b497f890a6fb6c878aa60">mcd::console</a>
 </li>
 <li>endl
-: <a class="el" href="d5/d42/a00269.php#a7d875ddb758ffe29f3df92250eae253d">mcd::Console</a>
+: <a class="el" href="d5/d42/a00269.php#a7f1493d50192cdfabe22dc9f805bdcaa">mcd::console</a>
 </li>
 <li>logger
 : <a class="el" href="db/d12/a00268.php#a46f063faccea2fdafb8e5f33c2ccbc50">mcd</a>
@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.php',''); initRe
 : <a class="el" href="db/d12/a00268.php#a411f86027fee124628ac7aa6358ebf27">mcd</a>
 </li>
 <li>setprecision
-: <a class="el" href="d5/d42/a00269.php#a061e9af30fc21986d960ab612d86f8d6">mcd::Console</a>
+: <a class="el" href="d5/d42/a00269.php#abd902f4be562676df6dacf3c9ed259ee">mcd::console</a>
 </li>
 <li>sha2
 : <a class="el" href="db/d12/a00268.php#aa0ce198f34851e093bbc38dfd975e339">mcd</a>

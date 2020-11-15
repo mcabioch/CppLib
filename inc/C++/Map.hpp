@@ -236,7 +236,7 @@ namespace mcd
          */
         MapMove testPath(Path&          path,
                          bool           show  = false,
-                         Console::Color color = Console::Colors::PURPLE_B);
+                         console::Color color = console::Colors::PURPLE_B);
         /*!
          * \brief	Reset the path's simulation
          *		\param[in]		path		The path to follow

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:48 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -241,7 +241,7 @@ Classes</h2></td></tr>
 Namespaces</h2></td></tr>
 <tr class="memitem:db/d12/a00268"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d5/d42/a00269"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php">mcd::Console</a></td></tr>
+<tr class="memitem:d5/d42/a00269"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php">mcd::console</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -250,10 +250,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ad751f3d04e342cbe86c561683c3bd99c"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad751f3d04e342cbe86c561683c3bd99c">mcd::implode</a> (const std::vector&lt; T &gt; &amp;a, const std::string &amp;glue=&quot;&quot;)</td></tr>
 <tr class="memdesc:ad751f3d04e342cbe86c561683c3bd99c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="../../db/d12/a00268.php#ad751f3d04e342cbe86c561683c3bd99c">More...</a><br /></td></tr>
 <tr class="separator:ad751f3d04e342cbe86c561683c3bd99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ee020187571c7d2815e4f58bb4e1536"><td class="memTemplParams" colspan="2">template&lt;typename Array &gt; </td></tr>
-<tr class="memitem:a0ee020187571c7d2815e4f58bb4e1536"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php#a0ee020187571c7d2815e4f58bb4e1536">mcd::Console::print_r</a> (const Array &amp;a)</td></tr>
-<tr class="memdesc:a0ee020187571c7d2815e4f58bb4e1536"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="../../d5/d42/a00269.php#a0ee020187571c7d2815e4f58bb4e1536">More...</a><br /></td></tr>
-<tr class="separator:a0ee020187571c7d2815e4f58bb4e1536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d3bfa61258ecc1a75733f516ea81097"><td class="memTemplParams" colspan="2">template&lt;typename Array &gt; </td></tr>
+<tr class="memitem:a6d3bfa61258ecc1a75733f516ea81097"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php#a6d3bfa61258ecc1a75733f516ea81097">mcd::console::print_r</a> (const Array &amp;a)</td></tr>
+<tr class="memdesc:a6d3bfa61258ecc1a75733f516ea81097"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="../../d5/d42/a00269.php#a6d3bfa61258ecc1a75733f516ea81097">More...</a><br /></td></tr>
+<tr class="separator:a6d3bfa61258ecc1a75733f516ea81097"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71d86de24ac44a702d65c29bcb96c686"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
 <tr class="memitem:a71d86de24ac44a702d65c29bcb96c686"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a71d86de24ac44a702d65c29bcb96c686">mcd::rewrite</a> (const std::vector&lt; V &gt; &amp;table, unsigned index)</td></tr>
 <tr class="memdesc:a71d86de24ac44a702d65c29bcb96c686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="../../db/d12/a00268.php#a71d86de24ac44a702d65c29bcb96c686">More...</a><br /></td></tr>
@@ -262,10 +262,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ad53bf266a5db5dc112e71ebe3c78946e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad53bf266a5db5dc112e71ebe3c78946e">mcd::contains</a> (const std::vector&lt; T &gt; &amp;table, T value)</td></tr>
 <tr class="memdesc:ad53bf266a5db5dc112e71ebe3c78946e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a vector contains or not something.  <a href="../../db/d12/a00268.php#ad53bf266a5db5dc112e71ebe3c78946e">More...</a><br /></td></tr>
 <tr class="separator:ad53bf266a5db5dc112e71ebe3c78946e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cf3555e3203794f4ce0dbc6f4a17c44"><td class="memTemplParams" colspan="2">template&lt;typename Something &gt; </td></tr>
-<tr class="memitem:a9cf3555e3203794f4ce0dbc6f4a17c44"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php#a9cf3555e3203794f4ce0dbc6f4a17c44">mcd::Console::print_all</a> (const Something &amp;data, bool change=false)</td></tr>
-<tr class="memdesc:a9cf3555e3203794f4ce0dbc6f4a17c44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints approximately everything.  <a href="../../d5/d42/a00269.php#a9cf3555e3203794f4ce0dbc6f4a17c44">More...</a><br /></td></tr>
-<tr class="separator:a9cf3555e3203794f4ce0dbc6f4a17c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa5354eebbe04b0a9bfc29f7155b8d48"><td class="memTemplParams" colspan="2">template&lt;typename Something &gt; </td></tr>
+<tr class="memitem:aaa5354eebbe04b0a9bfc29f7155b8d48"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php#aaa5354eebbe04b0a9bfc29f7155b8d48">mcd::console::print_all</a> (const Something &amp;data, bool change=false)</td></tr>
+<tr class="memdesc:aaa5354eebbe04b0a9bfc29f7155b8d48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints approximately everything.  <a href="../../d5/d42/a00269.php#aaa5354eebbe04b0a9bfc29f7155b8d48">More...</a><br /></td></tr>
+<tr class="separator:aaa5354eebbe04b0a9bfc29f7155b8d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1c42a8b9412d2afa3b486c5e629f752"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#af1c42a8b9412d2afa3b486c5e629f752">mcd::array2Dto1D</a> (size_t x, size_t y, size_t maxX)</td></tr>
 <tr class="memdesc:af1c42a8b9412d2afa3b486c5e629f752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert 2D coords to 1D coords.  <a href="../../db/d12/a00268.php#af1c42a8b9412d2afa3b486c5e629f752">More...</a><br /></td></tr>
 <tr class="separator:af1c42a8b9412d2afa3b486c5e629f752"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -275,14 +275,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a53a33cf86c36584f92495307f8e68a00"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a53a33cf86c36584f92495307f8e68a00">mcd::array2Dto1D</a> (const Point &amp;pt, size_t maxX)</td></tr>
 <tr class="memdesc:a53a33cf86c36584f92495307f8e68a00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert 2D coords to 1D coords.  <a href="../../db/d12/a00268.php#a53a33cf86c36584f92495307f8e68a00">More...</a><br /></td></tr>
 <tr class="separator:a53a33cf86c36584f92495307f8e68a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ab1f58efce64c778ab7fedccc96ae30"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a2ab1f58efce64c778ab7fedccc96ae30"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php#a2ab1f58efce64c778ab7fedccc96ae30">mcd::Console::vector2DPrint</a> (const vector&lt; vector&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
-<tr class="memdesc:a2ab1f58efce64c778ab7fedccc96ae30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print in <em>os</em> the 2D vector as a visual 2D array.  <a href="../../d5/d42/a00269.php#a2ab1f58efce64c778ab7fedccc96ae30">More...</a><br /></td></tr>
-<tr class="separator:a2ab1f58efce64c778ab7fedccc96ae30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d7764157a0bde028915b09e7b6aade2"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a3d7764157a0bde028915b09e7b6aade2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php#a3d7764157a0bde028915b09e7b6aade2">mcd::Console::vector2DPrintInverted</a> (const vector&lt; vector&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout, int shift=0)</td></tr>
-<tr class="memdesc:a3d7764157a0bde028915b09e7b6aade2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print in <em>os</em> the 2D vector as a visual 2D array inverting x and y axis.  <a href="../../d5/d42/a00269.php#a3d7764157a0bde028915b09e7b6aade2">More...</a><br /></td></tr>
-<tr class="separator:a3d7764157a0bde028915b09e7b6aade2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aef993a0cb554fa885596a645ad8b0a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a3aef993a0cb554fa885596a645ad8b0a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php#a3aef993a0cb554fa885596a645ad8b0a">mcd::console::vector2DPrint</a> (const vector&lt; vector&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
+<tr class="memdesc:a3aef993a0cb554fa885596a645ad8b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print in <em>os</em> the 2D vector as a visual 2D array.  <a href="../../d5/d42/a00269.php#a3aef993a0cb554fa885596a645ad8b0a">More...</a><br /></td></tr>
+<tr class="separator:a3aef993a0cb554fa885596a645ad8b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa463dccf66e89fdb6a84bb6d6f9ba29d"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aa463dccf66e89fdb6a84bb6d6f9ba29d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php#aa463dccf66e89fdb6a84bb6d6f9ba29d">mcd::console::vector2DPrintInverted</a> (const vector&lt; vector&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout, int shift=0)</td></tr>
+<tr class="memdesc:aa463dccf66e89fdb6a84bb6d6f9ba29d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print in <em>os</em> the 2D vector as a visual 2D array inverting x and y axis.  <a href="../../d5/d42/a00269.php#aa463dccf66e89fdb6a84bb6d6f9ba29d">More...</a><br /></td></tr>
+<tr class="separator:aa463dccf66e89fdb6a84bb6d6f9ba29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3638871c13207c94b12eb5760dadf6f"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
 <tr class="memitem:af3638871c13207c94b12eb5760dadf6f"><td class="memTemplItemLeft" align="right" valign="top">std::set&lt; std::pair&lt; T, U &gt;, std::function&lt; bool(std::pair&lt; T, U &gt;, std::pair&lt; T, U &gt;) &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#af3638871c13207c94b12eb5760dadf6f">mcd::sortMapValuesAsc</a> (std::map&lt; T, U &gt; array)</td></tr>
 <tr class="separator:af3638871c13207c94b12eb5760dadf6f"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -136,7 +136,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php',''); initRe
 : <a class="el" href="db/d12/a00268.php#a0598b7abd7e7441f6553f1b486053945">mcd</a>
 </li>
 <li>deletePtr()
-: <a class="el" href="db/d12/a00268.php#ac10f5cb91293579d36d9ea767825d5bb">mcd</a>
+: <a class="el" href="db/d12/a00268.php#a8ca7d4ec117db95e54663f086d9265f1">mcd</a>
 </li>
 <li>dist()
 : <a class="el" href="db/d12/a00268.php#a4d75f23c9b03fd2c56324895d0ff3c58">mcd</a>
@@ -224,7 +224,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php',''); initRe
 : <a class="el" href="db/d12/a00268.php#ad3913978376bb08e036a7bf0b21d6b50">mcd</a>
 </li>
 <li>isPrintable()
-: <a class="el" href="d9/dd6/a00272.php#a13e84a38884d860a4854bdd4a031d218">mcd::Check</a>
+: <a class="el" href="d9/dd6/a00272.php#acf8d542e529942588a927dd0373e17b7">mcd::check</a>
 </li>
 </ul>
 
@@ -310,16 +310,16 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php',''); initRe
 : <a class="el" href="db/d12/a00268.php#ad6ca3061a339d883c257105bd831efd1">mcd</a>
 </li>
 <li>print_all()
-: <a class="el" href="d5/d42/a00269.php#a9cf3555e3203794f4ce0dbc6f4a17c44">mcd::Console</a>
+: <a class="el" href="d5/d42/a00269.php#aaa5354eebbe04b0a9bfc29f7155b8d48">mcd::console</a>
 </li>
 <li>print_r()
-: <a class="el" href="d5/d42/a00269.php#a0ee020187571c7d2815e4f58bb4e1536">mcd::Console</a>
+: <a class="el" href="d5/d42/a00269.php#a6d3bfa61258ecc1a75733f516ea81097">mcd::console</a>
 </li>
 <li>printable()
-: <a class="el" href="d9/dd6/a00272.php#ab0b2e96bd3f31d823dad478c5f54abf1">mcd::Check</a>
+: <a class="el" href="d9/dd6/a00272.php#a633865db24ed31d685fd70668cb6a99f">mcd::check</a>
 </li>
 <li>printLine()
-: <a class="el" href="d5/d42/a00269.php#a45ee529c25adecff1046978f105c7a0b">mcd::Console</a>
+: <a class="el" href="d5/d42/a00269.php#aa430ebe71eacf6cfd45ff1313d66cea2">mcd::console</a>
 </li>
 <li>printSize()
 : <a class="el" href="db/d12/a00268.php#a5046a9dfac4629babcb20cf7b914415e">mcd</a>
@@ -469,10 +469,10 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php',''); initRe
 
 <h3><a id="index_v"></a>- v -</h3><ul>
 <li>vector2DPrint()
-: <a class="el" href="d5/d42/a00269.php#a2ab1f58efce64c778ab7fedccc96ae30">mcd::Console</a>
+: <a class="el" href="d5/d42/a00269.php#a3aef993a0cb554fa885596a645ad8b0a">mcd::console</a>
 </li>
 <li>vector2DPrintInverted()
-: <a class="el" href="d5/d42/a00269.php#a3d7764157a0bde028915b09e7b6aade2">mcd::Console</a>
+: <a class="el" href="d5/d42/a00269.php#aa463dccf66e89fdb6a84bb6d6f9ba29d">mcd::console</a>
 </li>
 </ul>
 

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -108,8 +108,8 @@ Inheritance diagram for mcd::PureVirtual:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d82/a01404.png" border="0" usemap="#amcd_1_1PureVirtual_inherit__map" alt="Inheritance graph"/></div>
 <map name="mcd_1_1PureVirtual_inherit__map" id="mcd_1_1PureVirtual_inherit__map">
-<area shape="rect" title="A class to make some other to be abstract class." alt="" coords="21,5,140,32"/>
-<area shape="rect" href="../../db/d1c/a01229.php" title="A class to play with the cursor in the console." alt="" coords="5,80,156,107"/>
+<area shape="rect" title="A class to make some other to be abstract class." alt="" coords="19,5,138,32"/>
+<area shape="rect" href="../../db/d1c/a01229.php" title="A class to play with the cursor in the console." alt="" coords="5,80,152,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">

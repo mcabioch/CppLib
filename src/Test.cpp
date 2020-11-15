@@ -2,7 +2,7 @@
 
 namespace mcd
 {
-    namespace Tests
+    namespace tests
     {
         std::vector< Test_struct >                                      Test::_tests;
         std::map< std::string, std::vector< std::function< void() > > > Test::_funcs;
@@ -61,9 +61,9 @@ namespace mcd
             txt << std::setw(static_cast< int >(mcd::tos(_tests.size()).size())) << i + 1 << ": ";
 
             if (t.expr) {
-                txt << Console::Color(Console::Colors::LIGHT_BLUE_F);
+                txt << console::Color(console::Colors::LIGHT_BLUE_F);
             } else {
-                txt << Console::Color(Console::Colors::RED_F);
+                txt << console::Color(console::Colors::RED_F);
             }
 
             if ((b & TEST_FORMAT_MAX).get() != 0) {
@@ -71,8 +71,8 @@ namespace mcd
             }
 
             txt << t.str;
-            txt << Console::Color(Console::Colors::NORMAL) << std::endl;
+            txt << console::Color(console::Colors::NORMAL) << std::endl;
             return txt;
         }
-    }   // namespace Tests
+    }   // namespace tests
 }   // namespace mcd

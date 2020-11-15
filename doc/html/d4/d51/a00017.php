@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:48 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -397,9 +397,9 @@ line</td>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">try</span> {                                                                                          \</div>
 <div class="line">        assert(EXPR);                                                                              \</div>
-<div class="line">    } <span class="keywordflow">catch</span> (<span class="keyword">const</span> <a class="code" href="../../d6/dc4/a01125.php">mcd::AssertionException</a>&amp; e) {                                                   <a class="code" href="../../d5/d42/a00269.php#a17e973621e86d36834182028f6c350c7">\</a></div>
-<div class="line"><a class="code" href="../../d5/d42/a00269.php#a17e973621e86d36834182028f6c350c7">        std::cout</a> &lt;&lt; <a class="code" href="../../da/d19/a01217.php">mcd::Console::Color</a>(mcd::Console::Colors::LIGHT_YELLOW_F) &lt;&lt; e.<a class="code" href="../../d9/dda/a01289.php#a04d412a2a5c85d9e16d67539134b419f">what</a>()         \</div>
-<div class="line">                  &lt;&lt; <a class="code" href="../../da/d19/a01217.php">mcd::Console::Color</a>(mcd::Console::Colors::NORMAL) &lt;&lt; <a class="code" href="../../d5/d42/a00269.php#a7d875ddb758ffe29f3df92250eae253d">std::endl</a>;               \</div>
+<div class="line">    } <span class="keywordflow">catch</span> (<span class="keyword">const</span> <a class="code" href="../../d6/dc4/a01125.php">mcd::AssertionException</a>&amp; e) {                                                   <a class="code" href="../../d5/d42/a00269.php#ab103cfa2a20b497f890a6fb6c878aa60">\</a></div>
+<div class="line"><a class="code" href="../../d5/d42/a00269.php#ab103cfa2a20b497f890a6fb6c878aa60">        std::cout</a> &lt;&lt; <a class="code" href="../../da/d19/a01217.php">mcd::console::Color</a>(mcd::console::Colors::LIGHT_YELLOW_F) &lt;&lt; e.<a class="code" href="../../d9/dda/a01289.php#a04d412a2a5c85d9e16d67539134b419f">what</a>()         \</div>
+<div class="line">                  &lt;&lt; <a class="code" href="../../da/d19/a01217.php">mcd::console::Color</a>(mcd::console::Colors::NORMAL) &lt;&lt; <a class="code" href="../../d5/d42/a00269.php#a7f1493d50192cdfabe22dc9f805bdcaa">std::endl</a>;               \</div>
 <div class="line">        INSTEAD;                                                                                   \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
@@ -449,9 +449,9 @@ line</td>
 </div><!-- doc-content -->
 <div class="ttc" id="aa01125_php"><div class="ttname"><a href="../../d6/dc4/a01125.php">mcd::AssertionException</a></div><div class="ttdoc">An exception thrown by my assert's implementation.</div><div class="ttdef"><b>Definition:</b> AssertionException.hpp:20</div></div>
 <div class="ttc" id="aa01289_php_a04d412a2a5c85d9e16d67539134b419f"><div class="ttname"><a href="../../d9/dda/a01289.php#a04d412a2a5c85d9e16d67539134b419f">mcd::exception::what</a></div><div class="ttdeci">virtual const char * what() const noexcept</div></div>
-<div class="ttc" id="aa00269_php_a7d875ddb758ffe29f3df92250eae253d"><div class="ttname"><a href="../../d5/d42/a00269.php#a7d875ddb758ffe29f3df92250eae253d">mcd::Console::endl</a></div><div class="ttdeci">ThreadEndlCout endl</div><div class="ttdoc">The thread safe version of std::endl.</div></div>
-<div class="ttc" id="aa01217_php"><div class="ttname"><a href="../../da/d19/a01217.php">mcd::Console::Color</a></div><div class="ttdoc">Change the text color in the console.</div><div class="ttdef"><b>Definition:</b> console.hpp:65</div></div>
-<div class="ttc" id="aa00269_php_a17e973621e86d36834182028f6c350c7"><div class="ttname"><a href="../../d5/d42/a00269.php#a17e973621e86d36834182028f6c350c7">mcd::Console::cout</a></div><div class="ttdeci">ThreadCout cout</div><div class="ttdoc">The thread safe version of std::cout.</div></div>
+<div class="ttc" id="aa00269_php_a7f1493d50192cdfabe22dc9f805bdcaa"><div class="ttname"><a href="../../d5/d42/a00269.php#a7f1493d50192cdfabe22dc9f805bdcaa">mcd::console::endl</a></div><div class="ttdeci">ThreadEndlCout endl</div><div class="ttdoc">The thread safe version of std::endl.</div></div>
+<div class="ttc" id="aa00269_php_ab103cfa2a20b497f890a6fb6c878aa60"><div class="ttname"><a href="../../d5/d42/a00269.php#ab103cfa2a20b497f890a6fb6c878aa60">mcd::console::cout</a></div><div class="ttdeci">ThreadCout cout</div><div class="ttdoc">The thread safe version of std::cout.</div></div>
+<div class="ttc" id="aa01217_php"><div class="ttname"><a href="../../da/d19/a01217.php">mcd::console::Color</a></div><div class="ttdoc">Change the text color in the console.</div><div class="ttdef"><b>Definition:</b> console.hpp:65</div></div>
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

@@ -11,33 +11,33 @@ namespace mcd
                     case Tile::NONE:
                         if (!this->printEntity(j, i)) {
                             std::cout
-                                << Console::Color(Console::Colors::NORMAL, Console::Colors::BOLD)
+                                << console::Color(console::Colors::NORMAL, console::Colors::BOLD)
                                 << "*";
                         }
                         break;
                     case Tile::OBSTACLE:
-                        std::cout << Console::Color(Console::Colors::GREY_B);
+                        std::cout << console::Color(console::Colors::GREY_B);
                         if (!this->printEntity(j, i)) { std::cout << " "; }
                         break;
                     case Tile::GROUND:
-                        std::cout << Console::Color(Console::Colors::GREEN_B);
+                        std::cout << console::Color(console::Colors::GREEN_B);
                         if (!this->printEntity(j, i)) { std::cout << " "; }
                         break;
                     case Tile::ERROR:
                     default:
-                        std::cout << Console::Color(Console::Colors::PURPLE_B);
+                        std::cout << console::Color(console::Colors::PURPLE_B);
                         if (!this->printEntity(j, i)) { std::cout << " "; }
                         break;
                 }
 
-                std::cout << Console::Reinit();
+                std::cout << console::Reinit();
             }
 
             std::cout << std::endl;
         }
     }
 
-    MapMove Map::testPath(Path& path, bool show, Console::Color color) {
+    MapMove Map::testPath(Path& path, bool show, console::Color color) {
         MapMove movement;
 
         Point begin;
@@ -48,17 +48,17 @@ namespace mcd
 
         if (show) {
             if (!this->_printed) {
-                std::cout << Console::Cls();
+                std::cout << console::Cls();
                 this->consolePrint();
 
-                Console::Cursor::put(" ",
+                console::Cursor::put(" ",
                                      begin.y + 1,
                                      begin.x + 1,
-                                     Console::Color(Console::Colors::BLUE_B));
-                Console::Cursor::put(" ",
+                                     console::Color(console::Colors::BLUE_B));
+                console::Cursor::put(" ",
                                      end.y + 1,
                                      end.x + 1,
-                                     Console::Color(Console::Colors::RED_B));
+                                     console::Color(console::Colors::RED_B));
             }
         }
 
@@ -68,7 +68,7 @@ namespace mcd
         if (path.next(node)) {
             coords        = array1Dto2D(node.id, _map[0].size());
             movement.next = true;
-            if (show) { Console::Cursor::put(" ", coords.y + 1, coords.x + 1, color); }
+            if (show) { console::Cursor::put(" ", coords.y + 1, coords.x + 1, color); }
         } else {
             coords = array1Dto2D(node.id, _map[0].size());
             if (dist(coords, end) == 0) { movement.end = true; }

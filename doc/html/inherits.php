@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -128,84 +128,84 @@ $(document).ready(function(){initNavTree('hierarchy.php',''); initResizable(); }
 <area shape="rect" href="d6/d6e/a01137.php" title=" " alt="" coords="5,5,184,76"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_6.png" border="0" usemap="#amcd_1_1Check_1_1has__istream__operator_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1has__istream__operator_3_01T_01_4" id="mcd_1_1Check_1_1has__istream__operator_3_01T_01_4">
-<area shape="rect" href="d3/d10/a01189.php" title="A template class to test if T has an istream operator." alt="" coords="5,5,177,47"/>
+<tr><td><img src="inherit_graph_6.png" border="0" usemap="#amcd_1_1check_1_1has__istream__operator_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1has__istream__operator_3_01T_01_4" id="mcd_1_1check_1_1has__istream__operator_3_01T_01_4">
+<area shape="rect" href="d3/d10/a01189.php" title="A template class to test if T has an istream operator." alt="" coords="5,5,175,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_7.png" border="0" usemap="#amcd_1_1Check_1_1has__ostream__operator_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1has__ostream__operator_3_01T_01_4" id="mcd_1_1Check_1_1has__ostream__operator_3_01T_01_4">
-<area shape="rect" href="de/db5/a01181.php" title="A template class to test if T has an ostream operator." alt="" coords="5,5,181,47"/>
+<tr><td><img src="inherit_graph_7.png" border="0" usemap="#amcd_1_1check_1_1has__ostream__operator_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1has__ostream__operator_3_01T_01_4" id="mcd_1_1check_1_1has__ostream__operator_3_01T_01_4">
+<area shape="rect" href="de/db5/a01181.php" title="A template class to test if T has an ostream operator." alt="" coords="5,5,179,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_8.png" border="0" usemap="#amcd_1_1Check_1_1has__size__method_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1has__size__method_3_01T_01_4" id="mcd_1_1Check_1_1has__size__method_3_01T_01_4">
-<area shape="rect" href="dc/d98/a01177.php" title="Verify if an object has a size method." alt="" coords="5,5,159,47"/>
+<tr><td><img src="inherit_graph_8.png" border="0" usemap="#amcd_1_1check_1_1has__size__method_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1has__size__method_3_01T_01_4" id="mcd_1_1check_1_1has__size__method_3_01T_01_4">
+<area shape="rect" href="dc/d98/a01177.php" title="Verify if an object has a size method." alt="" coords="5,5,156,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_9.png" border="0" usemap="#amcd_1_1Check_1_1is__array_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1is__array_3_01T_01_4" id="mcd_1_1Check_1_1is__array_3_01T_01_4">
-<area shape="rect" href="d8/d02/a01149.php" title="A template class to test if T is an array, a vector or a map." alt="" coords="5,5,184,32"/>
+<tr><td><img src="inherit_graph_9.png" border="0" usemap="#amcd_1_1check_1_1is__array_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1is__array_3_01T_01_4" id="mcd_1_1check_1_1is__array_3_01T_01_4">
+<area shape="rect" href="d8/d02/a01149.php" title="A template class to test if T is an array, a vector or a map." alt="" coords="5,5,181,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_10.png" border="0" usemap="#amcd_1_1Check_1_1is__duration_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1is__duration_3_01T_01_4" id="mcd_1_1Check_1_1is__duration_3_01T_01_4">
-<area shape="rect" href="d7/d0c/a01173.php" title="A template class to test if T is a chrono::duration." alt="" coords="5,5,201,32"/>
+<tr><td><img src="inherit_graph_10.png" border="0" usemap="#amcd_1_1check_1_1is__duration_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1is__duration_3_01T_01_4" id="mcd_1_1check_1_1is__duration_3_01T_01_4">
+<area shape="rect" href="d7/d0c/a01173.php" title="A template class to test if T is a chrono::duration." alt="" coords="5,5,199,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_11.png" border="0" usemap="#amcd_1_1Check_1_1is__minded__ptr_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1is__minded__ptr_3_01T_01_4" id="mcd_1_1Check_1_1is__minded__ptr_3_01T_01_4">
-<area shape="rect" href="d7/d1c/a01397.php" title="A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr." alt="" coords="5,5,165,47"/>
+<tr><td><img src="inherit_graph_11.png" border="0" usemap="#amcd_1_1check_1_1is__minded__ptr_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1is__minded__ptr_3_01T_01_4" id="mcd_1_1check_1_1is__minded__ptr_3_01T_01_4">
+<area shape="rect" href="d7/d1c/a01397.php" title="A template class to test if T is a std::shared_ptr, a std::unique_ptr or a std::weak_ptr." alt="" coords="5,5,163,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_12.png" border="0" usemap="#amcd_1_1Check_1_1is__object_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1is__object_3_01T_01_4" id="mcd_1_1Check_1_1is__object_3_01T_01_4">
-<area shape="rect" href="de/df7/a01201.php" title="A template class to test if T is an unknown object." alt="" coords="5,5,191,32"/>
+<tr><td><img src="inherit_graph_12.png" border="0" usemap="#amcd_1_1check_1_1is__object_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1is__object_3_01T_01_4" id="mcd_1_1check_1_1is__object_3_01T_01_4">
+<area shape="rect" href="de/df7/a01201.php" title="A template class to test if T is an unknown object." alt="" coords="5,5,188,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_13.png" border="0" usemap="#amcd_1_1Check_1_1is__pair_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1is__pair_3_01T_01_4" id="mcd_1_1Check_1_1is__pair_3_01T_01_4">
-<area shape="rect" href="dc/d06/a01153.php" title="A template class to test if T is a std::pair." alt="" coords="5,5,176,32"/>
+<tr><td><img src="inherit_graph_13.png" border="0" usemap="#amcd_1_1check_1_1is__pair_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1is__pair_3_01T_01_4" id="mcd_1_1check_1_1is__pair_3_01T_01_4">
+<area shape="rect" href="dc/d06/a01153.php" title="A template class to test if T is a std::pair." alt="" coords="5,5,173,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_14.png" border="0" usemap="#amcd_1_1Check_1_1is__printable_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1is__printable_3_01T_01_4" id="mcd_1_1Check_1_1is__printable_3_01T_01_4">
-<area shape="rect" href="d4/d10/a01197.php" title="A template class to test if T is printable." alt="" coords="5,5,204,32"/>
+<tr><td><img src="inherit_graph_14.png" border="0" usemap="#amcd_1_1check_1_1is__printable_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1is__printable_3_01T_01_4" id="mcd_1_1check_1_1is__printable_3_01T_01_4">
+<area shape="rect" href="d4/d10/a01197.php" title="A template class to test if T is printable." alt="" coords="5,5,201,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_15.png" border="0" usemap="#amcd_1_1Check_1_1is__quatuor_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1is__quatuor_3_01T_01_4" id="mcd_1_1Check_1_1is__quatuor_3_01T_01_4">
-<area shape="rect" href="dc/d81/a01161.php" title="A template class to test if T is a std::pair." alt="" coords="5,5,199,32"/>
+<tr><td><img src="inherit_graph_15.png" border="0" usemap="#amcd_1_1check_1_1is__quatuor_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1is__quatuor_3_01T_01_4" id="mcd_1_1check_1_1is__quatuor_3_01T_01_4">
+<area shape="rect" href="dc/d81/a01161.php" title="A template class to test if T is a std::pair." alt="" coords="5,5,196,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_16.png" border="0" usemap="#amcd_1_1Check_1_1is__smatch_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1is__smatch_3_01T_01_4" id="mcd_1_1Check_1_1is__smatch_3_01T_01_4">
-<area shape="rect" href="d7/daf/a01169.php" title="A template class to test if T is a string regex match." alt="" coords="5,5,199,32"/>
+<tr><td><img src="inherit_graph_16.png" border="0" usemap="#amcd_1_1check_1_1is__smatch_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1is__smatch_3_01T_01_4" id="mcd_1_1check_1_1is__smatch_3_01T_01_4">
+<area shape="rect" href="d7/daf/a01169.php" title="A template class to test if T is a string regex match." alt="" coords="5,5,196,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_17.png" border="0" usemap="#amcd_1_1Check_1_1is__special__struct_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1is__special__struct_3_01T_01_4" id="mcd_1_1Check_1_1is__special__struct_3_01T_01_4">
-<area shape="rect" href="de/d61/a01205.php" title="A template class to test if T is a special struct." alt="" coords="5,5,164,47"/>
+<tr><td><img src="inherit_graph_17.png" border="0" usemap="#amcd_1_1check_1_1is__special__struct_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1is__special__struct_3_01T_01_4" id="mcd_1_1check_1_1is__special__struct_3_01T_01_4">
+<area shape="rect" href="de/d61/a01205.php" title="A template class to test if T is a special struct." alt="" coords="5,5,161,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_18.png" border="0" usemap="#amcd_1_1Check_1_1is__string_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1is__string_3_01T_01_4" id="mcd_1_1Check_1_1is__string_3_01T_01_4">
-<area shape="rect" href="d8/d92/a01165.php" title="A template class to test if T is a std::string." alt="" coords="5,5,188,32"/>
+<tr><td><img src="inherit_graph_18.png" border="0" usemap="#amcd_1_1check_1_1is__string_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1is__string_3_01T_01_4" id="mcd_1_1check_1_1is__string_3_01T_01_4">
+<area shape="rect" href="d8/d92/a01165.php" title="A template class to test if T is a std::string." alt="" coords="5,5,184,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_19.png" border="0" usemap="#amcd_1_1Check_1_1is__thread__ptr_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1is__thread__ptr_3_01T_01_4" id="mcd_1_1Check_1_1is__thread__ptr_3_01T_01_4">
-<area shape="rect" href="dc/df4/a01401.php" title="A template class to test if T is a std::shared_ptr&lt;thread&gt;, a std::unique_ptr&lt;thread&gt;,..." alt="" coords="5,5,160,47"/>
+<tr><td><img src="inherit_graph_19.png" border="0" usemap="#amcd_1_1check_1_1is__thread__ptr_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1is__thread__ptr_3_01T_01_4" id="mcd_1_1check_1_1is__thread__ptr_3_01T_01_4">
+<area shape="rect" href="dc/df4/a01401.php" title="A template class to test if T is a std::shared_ptr&lt;thread&gt;, a std::unique_ptr&lt;thread&gt;,..." alt="" coords="5,5,156,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_20.png" border="0" usemap="#amcd_1_1Check_1_1is__trio_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1is__trio_3_01T_01_4" id="mcd_1_1Check_1_1is__trio_3_01T_01_4">
-<area shape="rect" href="d9/d25/a01157.php" title="A template class to test if T is a std::pair." alt="" coords="5,5,173,32"/>
+<tr><td><img src="inherit_graph_20.png" border="0" usemap="#amcd_1_1check_1_1is__trio_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1is__trio_3_01T_01_4" id="mcd_1_1check_1_1is__trio_3_01T_01_4">
+<area shape="rect" href="d9/d25/a01157.php" title="A template class to test if T is a std::pair." alt="" coords="5,5,171,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_21.png" border="0" usemap="#amcd_1_1Check_1_1is__vector_3_01T_01_4" alt=""/>
-<map name="mcd_1_1Check_1_1is__vector_3_01T_01_4" id="mcd_1_1Check_1_1is__vector_3_01T_01_4">
-<area shape="rect" href="d9/d65/a01145.php" title="A template class to test if T is a vector." alt="" coords="5,5,192,32"/>
+<tr><td><img src="inherit_graph_21.png" border="0" usemap="#amcd_1_1check_1_1is__vector_3_01T_01_4" alt=""/>
+<map name="mcd_1_1check_1_1is__vector_3_01T_01_4" id="mcd_1_1check_1_1is__vector_3_01T_01_4">
+<area shape="rect" href="d9/d65/a01145.php" title="A template class to test if T is a vector." alt="" coords="5,5,188,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_22.png" border="0" usemap="#amcd_1_1Clock" alt=""/>
@@ -213,30 +213,30 @@ $(document).ready(function(){initNavTree('hierarchy.php',''); initResizable(); }
 <area shape="rect" href="d5/d54/a01213.php" title="A clock to measure the elapsed time." alt="" coords="5,5,95,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_23.png" border="0" usemap="#amcd_1_1Console_1_1Color" alt=""/>
-<map name="mcd_1_1Console_1_1Color" id="mcd_1_1Console_1_1Color">
-<area shape="rect" href="da/d19/a01217.php" title="Change the text color in the console." alt="" coords="5,31,148,57"/>
-<area shape="rect" href="d8/d53/a01225.php" title="Clear the console." alt="" coords="203,5,334,32"/>
-<area shape="rect" href="dd/d3f/a01221.php" title="Reinit the color in the console." alt="" coords="196,56,341,83"/>
+<tr><td><img src="inherit_graph_23.png" border="0" usemap="#amcd_1_1console_1_1Color" alt=""/>
+<map name="mcd_1_1console_1_1Color" id="mcd_1_1console_1_1Color">
+<area shape="rect" href="da/d19/a01217.php" title="Change the text color in the console." alt="" coords="5,31,144,57"/>
+<area shape="rect" href="d8/d53/a01225.php" title="Clear the console." alt="" coords="199,5,327,32"/>
+<area shape="rect" href="dd/d3f/a01221.php" title="Reinit the color in the console." alt="" coords="192,56,335,83"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_24.png" border="0" usemap="#amcd_1_1Console_1_1SetPrecision" alt=""/>
-<map name="mcd_1_1Console_1_1SetPrecision" id="mcd_1_1Console_1_1SetPrecision">
-<area shape="rect" href="d3/d07/a01241.php" title="Change the precision of a std::ostream and save the default value." alt="" coords="5,5,191,32"/>
+<tr><td><img src="inherit_graph_24.png" border="0" usemap="#amcd_1_1console_1_1SetPrecision" alt=""/>
+<map name="mcd_1_1console_1_1SetPrecision" id="mcd_1_1console_1_1SetPrecision">
+<area shape="rect" href="d3/d07/a01241.php" title="Change the precision of a std::ostream and save the default value." alt="" coords="5,5,188,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_25.png" border="0" usemap="#amcd_1_1Console_1_1ThreadCout" alt=""/>
-<map name="mcd_1_1Console_1_1ThreadCout" id="mcd_1_1Console_1_1ThreadCout">
+<tr><td><img src="inherit_graph_25.png" border="0" usemap="#amcd_1_1console_1_1ThreadCout" alt=""/>
+<map name="mcd_1_1console_1_1ThreadCout" id="mcd_1_1console_1_1ThreadCout">
 <area shape="rect" title="STL class." alt="" coords="5,13,105,39"/>
 <area shape="rect" title="STL class." alt="" coords="153,13,308,39"/>
 <area shape="rect" title="STL class." alt="" coords="356,5,489,47"/>
 <area shape="rect" title="STL class." alt="" coords="537,13,632,39"/>
-<area shape="rect" href="dc/dab/a01237.php" title="A class to use std::cout thread safe." alt="" coords="680,13,859,39"/>
+<area shape="rect" href="dc/dab/a01237.php" title="A class to use std::cout thread safe." alt="" coords="680,13,856,39"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_26.png" border="0" usemap="#amcd_1_1Console_1_1ThreadEndlCout" alt=""/>
-<map name="mcd_1_1Console_1_1ThreadEndlCout" id="mcd_1_1Console_1_1ThreadEndlCout">
-<area shape="rect" href="d6/da1/a01233.php" title="A class to use std::endl in ThreadCout." alt="" coords="5,5,211,32"/>
+<tr><td><img src="inherit_graph_26.png" border="0" usemap="#amcd_1_1console_1_1ThreadEndlCout" alt=""/>
+<map name="mcd_1_1console_1_1ThreadEndlCout" id="mcd_1_1console_1_1ThreadEndlCout">
+<area shape="rect" href="d6/da1/a01233.php" title="A class to use std::endl in ThreadCout." alt="" coords="5,5,208,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_27.png" border="0" usemap="#amcd_1_1ConsoleTable" alt=""/>
@@ -380,7 +380,7 @@ $(document).ready(function(){initNavTree('hierarchy.php',''); initResizable(); }
 <tr><td><img src="inherit_graph_50.png" border="0" usemap="#amcd_1_1PureVirtual" alt=""/>
 <map name="mcd_1_1PureVirtual" id="mcd_1_1PureVirtual">
 <area shape="rect" href="d4/d1a/a01405.php" title="A class to make some other to be abstract class." alt="" coords="5,5,124,32"/>
-<area shape="rect" href="db/d1c/a01229.php" title="A class to play with the cursor in the console." alt="" coords="172,5,323,32"/>
+<area shape="rect" href="db/d1c/a01229.php" title="A class to play with the cursor in the console." alt="" coords="172,5,319,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_51.png" border="0" usemap="#amcd_1_1quatuor_3_01T_00_01U_00_01V_00_01W_01_4" alt=""/>
@@ -414,9 +414,9 @@ $(document).ready(function(){initNavTree('hierarchy.php',''); initResizable(); }
 <area shape="rect" href="de/d1d/a01105.php" title="An thread&#45;safe implementation of stack." alt="" coords="395,64,587,91"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_56.png" border="0" usemap="#amcd_1_1Tests_1_1Test" alt=""/>
-<map name="mcd_1_1Tests_1_1Test" id="mcd_1_1Tests_1_1Test">
-<area shape="rect" href="d4/d20/a01421.php" title="A static class to test code." alt="" coords="5,5,125,32"/>
+<tr><td><img src="inherit_graph_56.png" border="0" usemap="#amcd_1_1tests_1_1Test" alt=""/>
+<map name="mcd_1_1tests_1_1Test" id="mcd_1_1tests_1_1Test">
+<area shape="rect" href="d4/d20/a01421.php" title="A static class to test code." alt="" coords="5,5,123,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_57.png" border="0" usemap="#amcd_1_1Threadable_3_01C_01_4" alt=""/>

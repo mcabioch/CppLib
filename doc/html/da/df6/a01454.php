@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -114,6 +114,8 @@ $(document).ready(function(){initNavTree('da/df7/a01457.php','../../'); initResi
   <tr><td class="entry"><a class="el" href="../../da/df7/a01457.php#acf021f04fbc720705d300f638b8f2de1">operator|=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../da/df7/a01457.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../da/df7/a01457.php#a58c2e9df00704c786bfcfcca5a383a0e">pop</a>(size_t pos=0)</td><td class="entry"><a class="el" href="../../da/df7/a01457.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../da/df7/a01457.php#abb5d16922f908bf0ae4422d89c728e90">push</a>(const C &amp;obj, size_t pos=0)</td><td class="entry"><a class="el" href="../../da/df7/a01457.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/df7/a01457.php#a83393673767b1c3cde0242f7147effbc">push_top</a>(const C &amp;obj)</td><td class="entry"><a class="el" href="../../da/df7/a01457.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/df7/a01457.php#a43a974122831853dd91af1da065a7c39">shuffle</a>()</td><td class="entry"><a class="el" href="../../da/df7/a01457.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../da/df7/a01457.php#a92e814868c4f4b6f3d0969b200b35c91">vector</a>()</td><td class="entry"><a class="el" href="../../da/df7/a01457.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../da/df7/a01457.php#a85632a3c79899e1a5a75f7fa6b959815">vector</a>(const std::initializer_list&lt; C &gt; &amp;v)</td><td class="entry"><a class="el" href="../../da/df7/a01457.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../da/df7/a01457.php#aea718ab247c60108c5dd591905174a95">vector</a>(const std::vector&lt; C &gt; &amp;v)</td><td class="entry"><a class="el" href="../../da/df7/a01457.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>

@@ -42,8 +42,8 @@ namespace mcd
     try {                                                                                          \
         assert(EXPR);                                                                              \
     } catch (const mcd::AssertionException& e) {                                                   \
-        std::cout << mcd::Console::Color(mcd::Console::Colors::LIGHT_YELLOW_F) << e.what()         \
-                  << mcd::Console::Color(mcd::Console::Colors::NORMAL) << std::endl;               \
+        std::cout << mcd::console::Color(mcd::console::Colors::LIGHT_YELLOW_F) << e.what()         \
+                  << mcd::console::Color(mcd::console::Colors::NORMAL) << std::endl;               \
         INSTEAD;                                                                                   \
     }
 #define trycatch_assert_1(EXPR) trycatch_assert_2(EXPR, std::function< void() >())

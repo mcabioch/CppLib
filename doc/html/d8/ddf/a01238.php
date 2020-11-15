@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -92,17 +92,17 @@ $(document).ready(function(){initNavTree('d3/d07/a01241.php','../../'); initResi
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mcd::Console::SetPrecision Member List</div>  </div>
+<div class="title">mcd::console::SetPrecision Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d3/d07/a01241.php">mcd::Console::SetPrecision</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d3/d07/a01241.php">mcd::console::SetPrecision</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d07/a01241.php#ad5d2436f989665365b5da4dd154c07bd">operator()</a>()</td><td class="entry"><a class="el" href="../../d3/d07/a01241.php">mcd::Console::SetPrecision</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d07/a01241.php#a2a6149c46d6092fd2c8d719bbd0934e0">operator()</a>(std::streamsize value)</td><td class="entry"><a class="el" href="../../d3/d07/a01241.php">mcd::Console::SetPrecision</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d07/a01241.php#a5a120231654267de5f32512a83c99521">operator&lt;&lt;</a>(std::ostream &amp;os, const SetPrecision &amp;other)</td><td class="entry"><a class="el" href="../../d3/d07/a01241.php">mcd::Console::SetPrecision</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/d07/a01241.php#a3e39b2b7e818b9f007634f6a2d718bca">SetPrecision</a>()</td><td class="entry"><a class="el" href="../../d3/d07/a01241.php">mcd::Console::SetPrecision</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d07/a01241.php#a34991f888fc02e6e319feba46f694707">~SetPrecision</a>()</td><td class="entry"><a class="el" href="../../d3/d07/a01241.php">mcd::Console::SetPrecision</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d07/a01241.php#af082d3196dd332150a4ecf0db312c20e">operator()</a>()</td><td class="entry"><a class="el" href="../../d3/d07/a01241.php">mcd::console::SetPrecision</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d07/a01241.php#a87819cdb250da9a9e9428b143c8201b6">operator()</a>(std::streamsize value)</td><td class="entry"><a class="el" href="../../d3/d07/a01241.php">mcd::console::SetPrecision</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d07/a01241.php#a5a120231654267de5f32512a83c99521">operator&lt;&lt;</a>(std::ostream &amp;os, const SetPrecision &amp;other)</td><td class="entry"><a class="el" href="../../d3/d07/a01241.php">mcd::console::SetPrecision</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/d07/a01241.php#a75f2e148d3eb7a84c8d499367c0eae7a">SetPrecision</a>()</td><td class="entry"><a class="el" href="../../d3/d07/a01241.php">mcd::console::SetPrecision</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d07/a01241.php#ace1afba2de5729ff45bcd7386e6c53a8">~SetPrecision</a>()</td><td class="entry"><a class="el" href="../../d3/d07/a01241.php">mcd::console::SetPrecision</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

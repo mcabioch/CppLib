@@ -11,7 +11,7 @@
 
 #include "C++lib.hpp"
 
-namespace mcd::Tests
+namespace mcd::tests
 {
 #ifndef DOXYGEN_SHOULD_SKIP_THIS
     struct Test_struct {
@@ -170,7 +170,7 @@ namespace mcd::Tests
     };
 
 #define TEST_ADD_TEST(EXPR, STR)                                                                   \
-    mcd::Tests::Test::addTest(                                                                     \
+    mcd::tests::Test::addTest(                                                                     \
         {static_cast< bool >(EXPR), STR, __FILE__, __PRETTY_FUNCTION__, __LINE__})
 
 #define unit_true(EXPR) TEST_ADD_TEST(static_cast< bool >(EXPR), #EXPR)
@@ -182,16 +182,16 @@ namespace mcd::Tests
 #define unit_notEquals(A, B) unit_false(A == B)
 
 #define unit_in(VALUE, ARRAY)                                                                      \
-    mcd::Tests::Test::in(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__})
+    mcd::tests::Test::in(VALUE, ARRAY, {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__})
 
 #define unit_notIn(VALUE, ARRAY)                                                                   \
-    mcd::Tests::Test::in(VALUE,                                                                    \
+    mcd::tests::Test::in(VALUE,                                                                    \
                          ARRAY,                                                                    \
                          {false, #ARRAY, __FILE__, __PRETTY_FUNCTION__, __LINE__},                 \
                          true)
 
 #define TEST_ADD_THROW(INSTR, EXCEPT, EXPR)                                                        \
-    mcd::Tests::Test::addThrow(                                                                    \
+    mcd::tests::Test::addThrow(                                                                    \
         #INSTR,                                                                                    \
         #EXCEPT,                                                                                   \
         {static_cast< bool >(EXPR), "", __FILE__, __PRETTY_FUNCTION__, __LINE__})
@@ -217,17 +217,17 @@ namespace mcd::Tests
     }
 
 #define unit_instance(OBJ, INSTANCE)                                                               \
-    mcd::Tests::Test::instance< INSTANCE >(                                                        \
+    mcd::tests::Test::instance< INSTANCE >(                                                        \
         OBJ,                                                                                       \
         #OBJ,                                                                                      \
         {false, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__})
 
 #define unit_notInstance(OBJ, INSTANCE)                                                            \
-    mcd::Tests::Test::instance< INSTANCE >(                                                        \
+    mcd::tests::Test::instance< INSTANCE >(                                                        \
         OBJ,                                                                                       \
         #OBJ,                                                                                      \
         {false, #INSTANCE, __FILE__, __PRETTY_FUNCTION__, __LINE__},                               \
         false)
-}   // namespace mcd::Tests
+}   // namespace mcd::tests
 
 #endif   // HEADER_CPP_TEST

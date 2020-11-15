@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -124,7 +124,7 @@ $(document).ready(function(){initNavTree('dc/d2a/a01333.php','../../'); initResi
   <tr><td class="entry"><a class="el" href="../../dc/d2a/a01333.php#af75d4f3db3cf7cbba6ae20628ecc2e04">setH</a>(size_t h)</td><td class="entry"><a class="el" href="../../dc/d2a/a01333.php">mcd::Map</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../dc/d2a/a01333.php#adab97ef85198947deb95164f9d240e30">setSize</a>(WorldDimensions dimensions)</td><td class="entry"><a class="el" href="../../dc/d2a/a01333.php">mcd::Map</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../dc/d2a/a01333.php#a46876aaf4ac9bdfe36d24a2e121d4e34">setW</a>(size_t w)</td><td class="entry"><a class="el" href="../../dc/d2a/a01333.php">mcd::Map</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d2a/a01333.php#a6cb15e75b82d3d1c16c27696c2bc1e6f">testPath</a>(Path &amp;path, bool show=false, Console::Color color=Console::Colors::PURPLE_B)</td><td class="entry"><a class="el" href="../../dc/d2a/a01333.php">mcd::Map</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d2a/a01333.php#ada7c31df9004ebb9b494f09a6a4a224a">testPath</a>(Path &amp;path, bool show=false, console::Color color=console::Colors::PURPLE_B)</td><td class="entry"><a class="el" href="../../dc/d2a/a01333.php">mcd::Map</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../dc/d2a/a01333.php#a444967efa4f320d2ddfdd59ba0761b52">~Map</a>()</td><td class="entry"><a class="el" href="../../dc/d2a/a01333.php">mcd::Map</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->

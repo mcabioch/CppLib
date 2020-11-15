@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::Console::ThreadEndlCout Class Reference</title>
+		<title>C++: mcd::console::ThreadEndlCout Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('d6/da1/a01233.php','../../'); initResi
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../d0/d58/a01230.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Console::ThreadEndlCout Class Reference</div>  </div>
+<div class="title">mcd::console::ThreadEndlCout Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -106,16 +106,16 @@ $(document).ready(function(){initNavTree('d6/da1/a01233.php','../../'); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a58fad761e8d57e2e3f39ab002ead3294"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/a01233.php#a58fad761e8d57e2e3f39ab002ead3294">ThreadEndlCout</a> ()</td></tr>
-<tr class="separator:a58fad761e8d57e2e3f39ab002ead3294"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37cfff56991fa82b716daf1d509cb8de"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/a01233.php#a37cfff56991fa82b716daf1d509cb8de">~ThreadEndlCout</a> ()</td></tr>
-<tr class="separator:a37cfff56991fa82b716daf1d509cb8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a428f6ae4ecd881bbbb2db0c317f4d210"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/a01233.php#a428f6ae4ecd881bbbb2db0c317f4d210">ThreadEndlCout</a> ()</td></tr>
+<tr class="separator:a428f6ae4ecd881bbbb2db0c317f4d210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eb354777e73153d8afabd8ee1b56657"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/a01233.php#a0eb354777e73153d8afabd8ee1b56657">~ThreadEndlCout</a> ()</td></tr>
+<tr class="separator:a0eb354777e73153d8afabd8ee1b56657"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to use std::endl in <a class="el" href="../../dc/dab/a01237.php" title="A class to use std::cout thread safe.">ThreadCout</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a58fad761e8d57e2e3f39ab002ead3294"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58fad761e8d57e2e3f39ab002ead3294">&#9670;&nbsp;</a></span>ThreadEndlCout()</h2>
+<a id="a428f6ae4ecd881bbbb2db0c317f4d210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a428f6ae4ecd881bbbb2db0c317f4d210">&#9670;&nbsp;</a></span>ThreadEndlCout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -124,7 +124,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::Console::ThreadEndlCout::ThreadEndlCout </td>
+          <td class="memname">mcd::console::ThreadEndlCout::ThreadEndlCout </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -139,8 +139,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a37cfff56991fa82b716daf1d509cb8de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37cfff56991fa82b716daf1d509cb8de">&#9670;&nbsp;</a></span>~ThreadEndlCout()</h2>
+<a id="a0eb354777e73153d8afabd8ee1b56657"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eb354777e73153d8afabd8ee1b56657">&#9670;&nbsp;</a></span>~ThreadEndlCout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -149,7 +149,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::Console::ThreadEndlCout::~ThreadEndlCout </td>
+          <td class="memname">virtual mcd::console::ThreadEndlCout::~ThreadEndlCout </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -173,7 +173,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/d42/a00269.php">Console</a></li><li class="navelem"><a class="el" href="../../d6/da1/a01233.php">ThreadEndlCout</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/d42/a00269.php">console</a></li><li class="navelem"><a class="el" href="../../d6/da1/a01233.php">ThreadEndlCout</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

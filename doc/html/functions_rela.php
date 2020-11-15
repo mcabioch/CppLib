@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:17 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('functions_rela.php',''); initResizable
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>Cls
-: <a class="el" href="da/d19/a01217.php#a37c42c3a0b8af325e746f536a6a51305">mcd::Console::Color</a>
+: <a class="el" href="da/d19/a01217.php#a37c42c3a0b8af325e746f536a6a51305">mcd::console::Color</a>
 </li>
 </ul>
 
@@ -168,9 +168,9 @@ $(document).ready(function(){initNavTree('functions_rela.php',''); initResizable
 <li>operator&lt;&lt;
 : <a class="el" href="d9/d17/a01129.php#a6d1ae6342e0dd6f689535b21fd46a023">mcd::Big</a>
 , <a class="el" href="d6/d6e/a01137.php#acd2465f87f784cedc37718af0bf50d17">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
-, <a class="el" href="da/d19/a01217.php#a84513fec989f2f817d2b1c5e6989450e">mcd::Console::Color</a>
-, <a class="el" href="d3/d07/a01241.php#a5a120231654267de5f32512a83c99521">mcd::Console::SetPrecision</a>
-, <a class="el" href="dc/dab/a01237.php#a8b27881bbb3b1a50ddf821d8ce62e4d6">mcd::Console::ThreadCout</a>
+, <a class="el" href="da/d19/a01217.php#a84513fec989f2f817d2b1c5e6989450e">mcd::console::Color</a>
+, <a class="el" href="d3/d07/a01241.php#a5a120231654267de5f32512a83c99521">mcd::console::SetPrecision</a>
+, <a class="el" href="dc/dab/a01237.php#a8b27881bbb3b1a50ddf821d8ce62e4d6">mcd::console::ThreadCout</a>
 , <a class="el" href="d1/d31/a01245.php#af23c547bfa2b35d582a6922d425d02f5">mcd::ConsoleTable</a>
 , <a class="el" href="d3/d7b/a01249.php#a763a20bdd6cf99e565f2516d1c4bb161">mcd::Contraption</a>
 , <a class="el" href="de/d85/a01273.php#a1862604492a841a6b98e1a3061d95b96">mcd::Date</a>

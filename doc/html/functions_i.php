@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('functions_i.php',''); initResizable();
 : <a class="el" href="dc/d9e/a01305.php#a1496891d2323d1023ebfd086b84faf8d">mcd::Identifier</a>
 </li>
 <li>in()
-: <a class="el" href="d4/d20/a01421.php#a1361402d9c24abe3aa4e44cce65de4b5">mcd::Tests::Test</a>
+: <a class="el" href="d4/d20/a01421.php#a79a117fd4376fc9d22a777900375e988">mcd::tests::Test</a>
 </li>
 <li>Info
 : <a class="el" href="d9/d5c/a01321.php#a25d94050e8e7f91c7e1f02ddc2af8e95ae7888eab8f157c2bc53e24557f2a8458">mcd::Logger</a>
@@ -121,7 +121,7 @@ $(document).ready(function(){initNavTree('functions_i.php',''); initResizable();
 : <a class="el" href="d5/df9/a01441.php#a53cd621cced254067f1ebac4e2abe8df">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>instance()
-: <a class="el" href="d4/d20/a01421.php#a7602fba793072f87e41fb0df3884ce24">mcd::Tests::Test</a>
+: <a class="el" href="d4/d20/a01421.php#ae7dceee2802839d83c0c345d72418ed5">mcd::tests::Test</a>
 </li>
 <li>INT
 : <a class="el" href="dc/d8c/a01297.php#a29dd9b8ac897a110f7047c2912ebd2e0a644487cee470ea37ef049351feaaca2e">mcd::natural::Gene</a>

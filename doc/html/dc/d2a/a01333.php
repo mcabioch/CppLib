@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -178,9 +178,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a793304f9b5fb060a085ea0653d83e96f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d81/a01365.php">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2a/a01333.php#a793304f9b5fb060a085ea0653d83e96f">dijkstra</a> (<a class="el" href="../../d9/dae/a01453.php">Point</a> origin, <a class="el" href="../../d9/dae/a01453.php">Point</a> dest)</td></tr>
 <tr class="memdesc:a793304f9b5fb060a085ea0653d83e96f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a path between two points.  <a href="../../dc/d2a/a01333.php#a793304f9b5fb060a085ea0653d83e96f">More...</a><br /></td></tr>
 <tr class="separator:a793304f9b5fb060a085ea0653d83e96f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cb15e75b82d3d1c16c27696c2bc1e6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#df/d29/a01329">MapMove</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2a/a01333.php#a6cb15e75b82d3d1c16c27696c2bc1e6f">testPath</a> (<a class="el" href="../../d7/d81/a01365.php">Path</a> &amp;path, bool show=false, <a class="el" href="../../da/d19/a01217.php">Console::Color</a> color=Console::Colors::PURPLE_B)</td></tr>
-<tr class="memdesc:a6cb15e75b82d3d1c16c27696c2bc1e6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test a complete path on the map in the console.  <a href="../../dc/d2a/a01333.php#a6cb15e75b82d3d1c16c27696c2bc1e6f">More...</a><br /></td></tr>
-<tr class="separator:a6cb15e75b82d3d1c16c27696c2bc1e6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada7c31df9004ebb9b494f09a6a4a224a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#df/d29/a01329">MapMove</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2a/a01333.php#ada7c31df9004ebb9b494f09a6a4a224a">testPath</a> (<a class="el" href="../../d7/d81/a01365.php">Path</a> &amp;path, bool show=false, <a class="el" href="../../da/d19/a01217.php">console::Color</a> color=console::Colors::PURPLE_B)</td></tr>
+<tr class="memdesc:ada7c31df9004ebb9b494f09a6a4a224a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test a complete path on the map in the console.  <a href="../../dc/d2a/a01333.php#ada7c31df9004ebb9b494f09a6a4a224a">More...</a><br /></td></tr>
+<tr class="separator:ada7c31df9004ebb9b494f09a6a4a224a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8ecf45b42aed2736d04081639b460f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2a/a01333.php#ac8ecf45b42aed2736d04081639b460f6">resetSim</a> (<a class="el" href="../../d7/d81/a01365.php">Path</a> &amp;path)</td></tr>
 <tr class="memdesc:ac8ecf45b42aed2736d04081639b460f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the path's simulation.  <a href="../../dc/d2a/a01333.php#ac8ecf45b42aed2736d04081639b460f6">More...</a><br /></td></tr>
 <tr class="separator:ac8ecf45b42aed2736d04081639b460f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1069,8 +1069,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a6cb15e75b82d3d1c16c27696c2bc1e6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cb15e75b82d3d1c16c27696c2bc1e6f">&#9670;&nbsp;</a></span>testPath()</h2>
+<a id="ada7c31df9004ebb9b494f09a6a4a224a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada7c31df9004ebb9b494f09a6a4a224a">&#9670;&nbsp;</a></span>testPath()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1090,8 +1090,8 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d19/a01217.php">Console::Color</a>&#160;</td>
-          <td class="paramname"><em>color</em> = <code>Console::Colors::PURPLE_B</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/d19/a01217.php">console::Color</a>&#160;</td>
+          <td class="paramname"><em>color</em> = <code>console::Colors::PURPLE_B</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

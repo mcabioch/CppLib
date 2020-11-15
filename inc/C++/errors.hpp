@@ -30,15 +30,15 @@ namespace mcd
 
 #ifndef DOXYGEN_SHOULD_SKIP_THIS
     template< typename T >
-    void printArguments(Console::Colors color, const std::string& arg, T in, size_t line) {
-        Console::cout << Console::Color(color);
-        Console::cout << Console::Color(Console::Colors::NORMAL, color) << "# ";
-        Console::cout << Console::Color(Console::Colors::BOLD, color) << arg;
-        Console::cout << Console::Color(Console::Colors::NORMAL, color) << ": ";
-        Console::cout << Console::Color(Console::Colors::BOLD, color) << in;
-        Console::cout << Console::Color(Console::Colors::NORMAL, color) << " on line ";
-        Console::cout << Console::Color(Console::Colors::BOLD, color) << line << "\n";
-        Console::cout << Console::Color(Console::Colors::NORMAL, color) << "\t";
+    void printArguments(console::Colors color, const std::string& arg, T in, size_t line) {
+        console::cout << console::Color(color);
+        console::cout << console::Color(console::Colors::NORMAL, color) << "# ";
+        console::cout << console::Color(console::Colors::BOLD, color) << arg;
+        console::cout << console::Color(console::Colors::NORMAL, color) << ": ";
+        console::cout << console::Color(console::Colors::BOLD, color) << in;
+        console::cout << console::Color(console::Colors::NORMAL, color) << " on line ";
+        console::cout << console::Color(console::Colors::BOLD, color) << line << "\n";
+        console::cout << console::Color(console::Colors::NORMAL, color) << "\t";
     }
 #endif   // DOXYGEN_SHOULD_SKIP_THIS
 
@@ -46,7 +46,7 @@ namespace mcd
     void errors_log();
     template< class T, class... Args >
     void errors_log(T in, Args... args) {
-        Console::cout << in;
+        console::cout << in;
         errors_log(args...);
     }
 #endif   // DOXYGEN_SHOULD_SKIP_THIS
@@ -60,7 +60,7 @@ namespace mcd
      */
     template< class T, class... Args >
     void error_log(size_t line, T in, Args... args) {
-        printArguments(Console::Colors::RED_F, " ERR", in, line);
+        printArguments(console::Colors::RED_F, " ERR", in, line);
         errors_log(args...);
     }
 
@@ -68,7 +68,7 @@ namespace mcd
     void warnings_log();
     template< class T, class... Args >
     void warnings_log(T in, Args... args) {
-        Console::cout << in;
+        console::cout << in;
         warnings_log(args...);
     }
 #endif   // DOXYGEN_SHOULD_SKIP_THIS
@@ -82,7 +82,7 @@ namespace mcd
      */
     template< class T, class... Args >
     void warning_log(size_t line, T in, Args... args) {
-        printArguments(Console::Colors::LIGHT_YELLOW_F, "WARN", in, line);
+        printArguments(console::Colors::LIGHT_YELLOW_F, "WARN", in, line);
         warnings_log(args...);
     }
 
@@ -90,7 +90,7 @@ namespace mcd
     void infos_log();
     template< class T, class... Args >
     void infos_log(T in, Args... args) {
-        Console::cout << in;
+        console::cout << in;
         infos_log(args...);
     }
 #endif   // DOXYGEN_SHOULD_SKIP_THIS
@@ -104,7 +104,7 @@ namespace mcd
      */
     template< class T, class... Args >
     void info_log(size_t line, T in, Args... args) {
-        printArguments(Console::Colors::CYAN_F, "INFO", in, line);
+        printArguments(console::Colors::CYAN_F, "INFO", in, line);
         infos_log(args...);
     }
 }   // namespace mcd

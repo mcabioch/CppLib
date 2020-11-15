@@ -1,5 +1,5 @@
-<map id="mcd::Console::Color" name="mcd::Console::Color">
-<area shape="rect" id="node1" title="Change the text color in the console." alt="" coords="81,5,223,32"/>
-<area shape="rect" id="node2" href="$d8/d53/a01225.php" title="Clear the console." alt="" coords="5,80,136,107"/>
-<area shape="rect" id="node3" href="$dd/d3f/a01221.php" title="Reinit the color in the console." alt="" coords="161,80,306,107"/>
+<map id="mcd::console::Color" name="mcd::console::Color">
+<area shape="rect" id="node1" title="Change the text color in the console." alt="" coords="80,5,219,32"/>
+<area shape="rect" id="node2" href="$d8/d53/a01225.php" title="Clear the console." alt="" coords="5,80,133,107"/>
+<area shape="rect" id="node3" href="$dd/d3f/a01221.php" title="Reinit the color in the console." alt="" coords="158,80,301,107"/>
 </map>

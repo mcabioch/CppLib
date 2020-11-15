@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 11:00:16 for C++ by";
+				$text = "Generated on Sun Nov 15 2020 19:05:49 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -149,7 +149,7 @@ $(document).ready(function(){initNavTree('functions_o.php',''); initResizable();
 </li>
 <li>operator()()
 : <a class="el" href="dd/de4/a01121.php#ab411af4c628ae6ed469f78119eb99de4">mcd::Assert</a>
-, <a class="el" href="d3/d07/a01241.php#ad5d2436f989665365b5da4dd154c07bd">mcd::Console::SetPrecision</a>
+, <a class="el" href="d3/d07/a01241.php#af082d3196dd332150a4ecf0db312c20e">mcd::console::SetPrecision</a>
 , <a class="el" href="dc/d2a/a01333.php#a1809056415a86a4627e0cad3bbb0b3b0">mcd::Map</a>
 , <a class="el" href="db/dec/a01337.php#a895533c348847ed307cafe3d85c8ebf9">mcd::Matrix&lt; C &gt;</a>
 , <a class="el" href="d7/d68/a01413.php#a8b84a9dc967e1210738e3a8bba43e4a4">mcd::RND&lt; T, U &gt;</a>
@@ -229,9 +229,9 @@ $(document).ready(function(){initNavTree('functions_o.php',''); initResizable();
 <li>operator&lt;&lt;
 : <a class="el" href="d9/d17/a01129.php#a6d1ae6342e0dd6f689535b21fd46a023">mcd::Big</a>
 , <a class="el" href="d6/d6e/a01137.php#acd2465f87f784cedc37718af0bf50d17">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
-, <a class="el" href="da/d19/a01217.php#a84513fec989f2f817d2b1c5e6989450e">mcd::Console::Color</a>
-, <a class="el" href="d3/d07/a01241.php#a5a120231654267de5f32512a83c99521">mcd::Console::SetPrecision</a>
-, <a class="el" href="dc/dab/a01237.php#a358d316052544257ab9aee6f1fe762dc">mcd::Console::ThreadCout</a>
+, <a class="el" href="da/d19/a01217.php#a84513fec989f2f817d2b1c5e6989450e">mcd::console::Color</a>
+, <a class="el" href="d3/d07/a01241.php#a5a120231654267de5f32512a83c99521">mcd::console::SetPrecision</a>
+, <a class="el" href="dc/dab/a01237.php#a358d316052544257ab9aee6f1fe762dc">mcd::console::ThreadCout</a>
 , <a class="el" href="d1/d31/a01245.php#af23c547bfa2b35d582a6922d425d02f5">mcd::ConsoleTable</a>
 , <a class="el" href="d3/d7b/a01249.php#a763a20bdd6cf99e565f2516d1c4bb161">mcd::Contraption</a>
 , <a class="el" href="de/d85/a01273.php#a1862604492a841a6b98e1a3061d95b96">mcd::Date</a>

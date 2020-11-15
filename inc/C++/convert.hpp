@@ -54,7 +54,7 @@ namespace mcd
      *		\return			Return a string
      */
     template< typename V >
-    typename std::enable_if< Check::is_duration< V >::value, std::string >::type tos(const V& in) {
+    typename std::enable_if< check::is_duration< V >::value, std::string >::type tos(const V& in) {
         std::stringstream out;
 
         out << in.count();
@@ -69,7 +69,7 @@ namespace mcd
      *		\return			Return a string
      */
     template< typename V >
-    typename std::enable_if< !std::is_enum< V >::value && !Check::is_duration< V >::value,
+    typename std::enable_if< !std::is_enum< V >::value && !check::is_duration< V >::value,
                              std::string >::type
         tos(const V& in) {
         std::stringstream out;

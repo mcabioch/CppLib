@@ -9,9 +9,9 @@ var hierarchy =
     [ "mcd::natural::Cell", "de/df6/a01141.php", null ],
     [ "mcd::natural::Chromosome", "de/d04/a01209.php", null ],
     [ "mcd::Clock", "d5/d54/a01213.php", null ],
-    [ "mcd::Console::Color", "da/d19/a01217.php", [
-      [ "mcd::Console::Cls", "d8/d53/a01225.php", null ],
-      [ "mcd::Console::Reinit", "dd/d3f/a01221.php", null ]
+    [ "mcd::console::Color", "da/d19/a01217.php", [
+      [ "mcd::console::Cls", "d8/d53/a01225.php", null ],
+      [ "mcd::console::Reinit", "dd/d3f/a01221.php", null ]
     ] ],
     [ "mcd::ConsoleTable", "d1/d31/a01245.php", null ],
     [ "mcd::Contraption", "d3/d7b/a01249.php", [
@@ -42,9 +42,9 @@ var hierarchy =
     ] ],
     [ "mcd::Fraction", "dc/dd5/a01293.php", null ],
     [ "mcd::natural::Gene", "dc/d8c/a01297.php", null ],
-    [ "mcd::Check::has_istream_operator< T >", "d3/d10/a01189.php", null ],
-    [ "mcd::Check::has_ostream_operator< T >", "de/db5/a01181.php", null ],
-    [ "mcd::Check::has_size_method< T >", "dc/d98/a01177.php", null ],
+    [ "mcd::check::has_istream_operator< T >", "d3/d10/a01189.php", null ],
+    [ "mcd::check::has_ostream_operator< T >", "de/db5/a01181.php", null ],
+    [ "mcd::check::has_size_method< T >", "dc/d98/a01177.php", null ],
     [ "mcd::Hostile", "d3/d07/a01301.php", [
       [ "mcd::Animal", "d3/dc4/a01089.php", null ]
     ] ],
@@ -56,24 +56,24 @@ var hierarchy =
       [ "std::basic_ios< Char >", null, [
         [ "std::basic_ostream< Char >", null, [
           [ "std::ostream", null, [
-            [ "mcd::Console::ThreadCout", "dc/dab/a01237.php", null ]
+            [ "mcd::console::ThreadCout", "dc/dab/a01237.php", null ]
           ] ]
         ] ]
       ] ]
     ] ],
-    [ "mcd::Check::is_array< T >", "d8/d02/a01149.php", null ],
-    [ "mcd::Check::is_duration< T >", "d7/d0c/a01173.php", null ],
-    [ "mcd::Check::is_minded_ptr< T >", "d7/d1c/a01397.php", null ],
-    [ "mcd::Check::is_object< T >", "de/df7/a01201.php", null ],
-    [ "mcd::Check::is_pair< T >", "dc/d06/a01153.php", null ],
-    [ "mcd::Check::is_printable< T >", "d4/d10/a01197.php", null ],
-    [ "mcd::Check::is_quatuor< T >", "dc/d81/a01161.php", null ],
-    [ "mcd::Check::is_smatch< T >", "d7/daf/a01169.php", null ],
-    [ "mcd::Check::is_special_struct< T >", "de/d61/a01205.php", null ],
-    [ "mcd::Check::is_string< T >", "d8/d92/a01165.php", null ],
-    [ "mcd::Check::is_thread_ptr< T >", "dc/df4/a01401.php", null ],
-    [ "mcd::Check::is_trio< T >", "d9/d25/a01157.php", null ],
-    [ "mcd::Check::is_vector< T >", "d9/d65/a01145.php", null ],
+    [ "mcd::check::is_array< T >", "d8/d02/a01149.php", null ],
+    [ "mcd::check::is_duration< T >", "d7/d0c/a01173.php", null ],
+    [ "mcd::check::is_minded_ptr< T >", "d7/d1c/a01397.php", null ],
+    [ "mcd::check::is_object< T >", "de/df7/a01201.php", null ],
+    [ "mcd::check::is_pair< T >", "dc/d06/a01153.php", null ],
+    [ "mcd::check::is_printable< T >", "d4/d10/a01197.php", null ],
+    [ "mcd::check::is_quatuor< T >", "dc/d81/a01161.php", null ],
+    [ "mcd::check::is_smatch< T >", "d7/daf/a01169.php", null ],
+    [ "mcd::check::is_special_struct< T >", "de/d61/a01205.php", null ],
+    [ "mcd::check::is_string< T >", "d8/d92/a01165.php", null ],
+    [ "mcd::check::is_thread_ptr< T >", "dc/df4/a01401.php", null ],
+    [ "mcd::check::is_trio< T >", "d9/d25/a01157.php", null ],
+    [ "mcd::check::is_vector< T >", "d9/d65/a01145.php", null ],
     [ "mcd::Json", "de/d90/a01313.php", null ],
     [ "mcd::Logger", "d9/d5c/a01321.php", null ],
     [ "mcd::Map", "dc/d2a/a01333.php", null ],
@@ -102,7 +102,7 @@ var hierarchy =
     ] ],
     [ "mcd::Point", "d9/dae/a01453.php", null ],
     [ "mcd::PureVirtual", "d4/d1a/a01405.php", [
-      [ "mcd::Console::Cursor", "db/d1c/a01229.php", null ]
+      [ "mcd::console::Cursor", "db/d1c/a01229.php", null ]
     ] ],
     [ "mcd::quatuor< T, U, V, W >", "db/d12/a00268.php#d2/d95/a01449", null ],
     [ "std::queue< T >", null, [
@@ -113,19 +113,19 @@ var hierarchy =
     ] ],
     [ "mcd::Referenced< C >", "d9/d6e/a01409.php", null ],
     [ "mcd::RND< T, U >", "d7/d68/a01413.php", null ],
-    [ "mcd::Console::SetPrecision", "d3/d07/a01241.php", null ],
+    [ "mcd::console::SetPrecision", "d3/d07/a01241.php", null ],
     [ "std::stack< T >", null, [
       [ "mcd::stack< T, Container >", "de/d99/a01101.php", null ],
       [ "mcd::stack< T, std::deque< T > >", "de/d99/a01101.php", [
         [ "mcd::t_stack< T, Container >", "de/d1d/a01105.php", null ]
       ] ]
     ] ],
-    [ "mcd::Tests::Test", "d4/d20/a01421.php", null ],
+    [ "mcd::tests::Test", "d4/d20/a01421.php", null ],
     [ "mcd::Threadable< C >", "db/df2/a01425.php", null ],
     [ "mcd::Threadable< Timer >", "db/df2/a01425.php", [
       [ "mcd::Timer", "d2/d9b/a01433.php", null ]
     ] ],
-    [ "mcd::Console::ThreadEndlCout", "d6/da1/a01233.php", null ],
+    [ "mcd::console::ThreadEndlCout", "d6/da1/a01233.php", null ],
     [ "mcd::Time", "d1/d3b/a01429.php", [
       [ "mcd::DateTime", "d2/d1d/a01277.php", null ]
     ] ],
