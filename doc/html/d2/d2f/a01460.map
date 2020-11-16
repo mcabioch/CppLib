@@ -1,5 +1,5 @@
-<map id="mcd::entites::Vegetal" name="mcd::entites::Vegetal">
-<area shape="rect" id="node1" title="A vegetal." alt="" coords="17,155,163,181"/>
-<area shape="rect" id="node2" href="$d0/d00/a01286.php" title="An entity." alt="" coords="22,80,158,107"/>
-<area shape="rect" id="node3" href="$d4/d22/a01250.php" title="A contraption." alt="" coords="5,5,175,32"/>
+<map id="mcd::entities::Vegetal" name="mcd::entities::Vegetal">
+<area shape="rect" id="node1" title="A vegetal." alt="" coords="17,155,166,181"/>
+<area shape="rect" id="node2" href="$d0/d00/a01286.php" title="An entity." alt="" coords="22,80,161,107"/>
+<area shape="rect" id="node3" href="$d4/d22/a01250.php" title="A contraption." alt="" coords="5,5,177,32"/>
 </map>

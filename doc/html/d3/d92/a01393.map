@@ -1,5 +1,5 @@
-<map id="mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;" name="mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;">
-<area shape="rect" id="node1" title="A player that can be a child from any class." alt="" coords="5,80,211,121"/>
-<area shape="rect" id="node3" href="$d5/d8e/a01390.php" title="A player that can be a child from any class." alt="" coords="39,169,177,211"/>
-<area shape="rect" id="node2" title=" " alt="" coords="59,5,157,32"/>
+<map id="mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;" name="mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;">
+<area shape="rect" id="node1" title="A player that can be a child from any class." alt="" coords="5,80,213,121"/>
+<area shape="rect" id="node3" href="$d5/d8e/a01390.php" title="A player that can be a child from any class." alt="" coords="38,169,181,211"/>
+<area shape="rect" id="node2" title=" " alt="" coords="61,5,158,32"/>
 </map>

@@ -5,7 +5,7 @@ var searchData=
   ['end_177',['end',['../db/d12/a00268.php#a2f707d77cfeffb93eceecea7c25a7cc6',1,'mcd::MapMove::end()'],['../d6/dfe/a01366.php#a3b461b7f35d6914a627e52e20f79f6ce',1,'mcd::Path::end()']]],
   ['endl_178',['endl',['../d9/d2a/a00270.php#a7f1493d50192cdfabe22dc9f805bdcaa',1,'mcd::console']]],
   ['entities_2ehpp_179',['Entities.hpp',['../db/dab/a00089.php',1,'']]],
-  ['entity_180',['Entity',['../d0/d00/a01286.php',1,'mcd::entites::Entity'],['../d0/d00/a01286.php#a8841219c743dc1a119fae8572b099bac',1,'mcd::entites::Entity::Entity()']]],
+  ['entity_180',['Entity',['../d0/d00/a01286.php',1,'mcd::entities::Entity'],['../d0/d00/a01286.php#a7707f7739a8715e73722b162fedf5fdc',1,'mcd::entities::Entity::Entity()']]],
   ['entity_2ehpp_181',['Entity.hpp',['../d1/dc1/a00092.php',1,'']]],
   ['equilibrate_182',['equilibrate',['../d0/de2/a01442.php#a38b40b07bade18a081d80596983dd16c',1,'mcd::Tree']]],
   ['error_183',['Error',['../d5/df4/a01322.php#a25d94050e8e7f91c7e1f02ddc2af8e95a98b026269a3081d4a4801bc7418e1d47',1,'mcd::Logger::Error()'],['../db/d12/a00268.php#a7350be9df9566241dfb80071a89f9edeabb1ca97ec761fc37101737ba0aa2e7c5',1,'mcd::ERROR()']]],

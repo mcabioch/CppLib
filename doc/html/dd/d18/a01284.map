@@ -1,4 +1,4 @@
-<map id="mcd::entites::Entity" name="mcd::entites::Entity">
-<area shape="rect" id="node1" title="An entity." alt="" coords="22,80,158,107"/>
-<area shape="rect" id="node2" href="$d4/d22/a01250.php" title="A contraption." alt="" coords="5,5,175,32"/>
+<map id="mcd::entities::Entity" name="mcd::entities::Entity">
+<area shape="rect" id="node1" title="An entity." alt="" coords="22,80,161,107"/>
+<area shape="rect" id="node2" href="$d4/d22/a01250.php" title="A contraption." alt="" coords="5,5,177,32"/>
 </map>

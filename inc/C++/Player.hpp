@@ -11,7 +11,7 @@
 #include "Identifier.hpp"
 #include "PlayerAbstraction.hpp"
 
-namespace mcd::entites
+namespace mcd::entities
 {
     /*!
      * \class	Player
@@ -48,6 +48,6 @@ namespace mcd::entites
             stream << "'" << std::endl;
         }
     };
-}   // namespace mcd::entites
+}   // namespace mcd::entities
 
 #endif   // HEADER_CPP_PLAYER

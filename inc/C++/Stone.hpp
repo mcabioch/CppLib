@@ -10,7 +10,7 @@
 
 #include "Object.hpp"
 
-namespace mcd::entites
+namespace mcd::entities
 {
     /*!
      * \class	Stone
@@ -48,6 +48,6 @@ namespace mcd::entites
         protected:
         private:
     };
-}   // namespace mcd::entites
+}   // namespace mcd::entities
 
 #endif   // HEADER_CPP_STONE

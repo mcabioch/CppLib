@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -174,7 +174,7 @@ $(document).ready(function(){initNavTree('functions_rela.php',''); initResizable
 , <a class="el" href="d7/d04/a01246.php#af23c547bfa2b35d582a6922d425d02f5">mcd::ConsoleTable</a>
 , <a class="el" href="de/d33/a01274.php#a1862604492a841a6b98e1a3061d95b96">mcd::Date</a>
 , <a class="el" href="d4/d10/a01278.php#af57470a685eee50ced503a3ab380e9ba">mcd::DateTime</a>
-, <a class="el" href="d4/d22/a01250.php#a763a20bdd6cf99e565f2516d1c4bb161">mcd::entites::Contraption</a>
+, <a class="el" href="d4/d22/a01250.php#a763a20bdd6cf99e565f2516d1c4bb161">mcd::entities::Contraption</a>
 , <a class="el" href="d7/d88/a01294.php#a9313ed58249557fab9c0b6ab5e5f977f">mcd::Fraction</a>
 , <a class="el" href="d9/de6/a01314.php#a6b1400a312593beec3776b4f998a7419">mcd::Json</a>
 , <a class="el" href="d2/d4d/a01338.php#a9a3710d279e209fbff51b625690ef630">mcd::Matrix&lt; C &gt;</a>

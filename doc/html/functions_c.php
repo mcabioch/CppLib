@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -114,13 +114,13 @@ $(document).ready(function(){initNavTree('functions_c.php',''); initResizable();
 , <a class="el" href="d8/d15/a01218.php#a37c42c3a0b8af325e746f536a6a51305">mcd::console::Color</a>
 </li>
 <li>collides()
-: <a class="el" href="da/d73/a01090.php#aeb194ab3232b39abc2a3954df30576f4">mcd::entites::Animal</a>
+: <a class="el" href="da/d73/a01090.php#ae82d1318dc23cd8cd1a72d9a4ff302ee">mcd::entities::Animal</a>
 </li>
 <li>collidesCircle()
-: <a class="el" href="da/d73/a01090.php#a93d98ea9f85281e0a6d14de1672d94f2">mcd::entites::Animal</a>
+: <a class="el" href="da/d73/a01090.php#a3bb09039d5e13277c82d298b8682ab45">mcd::entities::Animal</a>
 </li>
 <li>collidesRect()
-: <a class="el" href="da/d73/a01090.php#a44f0fd522d7b2a7aab3531d0f2ca2e72">mcd::entites::Animal</a>
+: <a class="el" href="da/d73/a01090.php#a34fc3f1fd66937bd41bb242616404753">mcd::entities::Animal</a>
 </li>
 <li>Color()
 : <a class="el" href="d8/d15/a01218.php#a55ccb3b92bc685b42f0ca5f71cb98559">mcd::console::Color</a>
@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('functions_c.php',''); initResizable();
 : <a class="el" href="d7/d04/a01246.php#acc7af9ad8f4b7175a82acb2edfce15b2">mcd::ConsoleTable</a>
 </li>
 <li>Contraption()
-: <a class="el" href="d4/d22/a01250.php#a476b12c581fc56e4a86227061878da98">mcd::entites::Contraption</a>
+: <a class="el" href="d4/d22/a01250.php#a85419d652b4dd1521bd1ee52a87fd679">mcd::entities::Contraption</a>
 </li>
 <li>convert()
 : <a class="el" href="d0/de2/a01442.php#a1fc36192abe90cd4c50aecf7a0df3ce1">mcd::Tree&lt; T &gt;</a>
@@ -163,7 +163,7 @@ $(document).ready(function(){initNavTree('functions_c.php',''); initResizable();
 : <a class="el" href="dc/d83/a01254.php#a3f598383428868a9f69502e5de031ea5">mcd::Crypto</a>
 </li>
 <li>cut()
-: <a class="el" href="de/d36/a01462.php#abc978e4813c9d1c27f6100760d727981">mcd::entites::Vegetal</a>
+: <a class="el" href="de/d36/a01462.php#a513de0ca0bcc8087564b437a58529b11">mcd::entities::Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

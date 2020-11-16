@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('annotated.php',''); initResizable(); }
 <tr id="row_0_1_4_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d7/dc5/a01242.php" target="_self">SetPrecision</a></td><td class="desc">Change the precision of a std::ostream and save the default value </td></tr>
 <tr id="row_0_1_5_" class="even"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d8/ddf/a01238.php" target="_self">ThreadCout</a></td><td class="desc">A class to use std::cout thread safe </td></tr>
 <tr id="row_0_1_6_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d6/d1e/a01234.php" target="_self">ThreadEndlCout</a></td><td class="desc">A class to use std::endl in <a class="el" href="d8/ddf/a01238.php" title="A class to use std::cout thread safe.">ThreadCout</a> </td></tr>
-<tr id="row_0_2_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_0_2_" class="arrow" onclick="toggleFolder('0_2_')">&#9660;</span><span class="icona"><span class="icon">N</span></span><a class="el" href="d5/d42/a00269.php" target="_self">entites</a></td><td class="desc"></td></tr>
+<tr id="row_0_2_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_0_2_" class="arrow" onclick="toggleFolder('0_2_')">&#9660;</span><span class="icona"><span class="icon">N</span></span><a class="el" href="d5/d42/a00269.php" target="_self">entities</a></td><td class="desc"></td></tr>
 <tr id="row_0_2_0_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="da/d73/a01090.php" target="_self">Animal</a></td><td class="desc">An animal </td></tr>
 <tr id="row_0_2_1_" class="even"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d6/dea/a01094.php" target="_self">Ant</a></td><td class="desc">An ant </td></tr>
 <tr id="row_0_2_2_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d4/d22/a01250.php" target="_self">Contraption</a></td><td class="desc">A contraption </td></tr>

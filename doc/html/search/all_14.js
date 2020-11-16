@@ -11,7 +11,7 @@ var searchData=
   ['unit_5fnotinstance_738',['unit_notInstance',['../d6/de1/a00233.php#ad118bcf8324d2668994f961ee5019c5b',1,'Test.hpp']]],
   ['unit_5fthrows_739',['unit_throws',['../d6/de1/a00233.php#a4feaf992012b5ed9c7f3abc2219d1b7a',1,'Test.hpp']]],
   ['unit_5ftrue_740',['unit_true',['../d6/de1/a00233.php#a8ed24c910b9c861fde0ee37cc53a26f2',1,'Test.hpp']]],
-  ['untarget_741',['untarget',['../dc/de0/a01302.php#ac4f327b49e5cf1cbc4fb90d81df058df',1,'mcd::entites::Hostile']]],
+  ['untarget_741',['untarget',['../dc/de0/a01302.php#af8950fd68a124f1cfabd86f4f5c77537',1,'mcd::entities::Hostile']]],
   ['up_742',['UP',['../db/d12/a00268.php#ae3ee27656d8eb6e8a09407841cd00898afbaedde498cdead4f2780217646e9ba1',1,'mcd']]],
   ['update_743',['update',['../d3/d53/a01262.php#a2a9dc41a2367f4dabb2c345ee0bf51c6',1,'mcd::SHA2::update()'],['../d1/de7/a01434.php#aa0825ee9a421da67ddac15fd45632d4e',1,'mcd::Timer::update()']]],
   ['updater_744',['updater',['../d1/de7/a01434.php#a51c964a91c78103efb975c00be769073',1,'mcd::Timer']]],

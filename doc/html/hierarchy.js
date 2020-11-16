@@ -14,18 +14,18 @@ var hierarchy =
       [ "mcd::console::Reinit", "de/d7e/a01222.php", null ]
     ] ],
     [ "mcd::ConsoleTable", "d7/d04/a01246.php", null ],
-    [ "mcd::entites::Contraption", "d4/d22/a01250.php", [
-      [ "mcd::entites::Entity", "d0/d00/a01286.php", [
-        [ "mcd::entites::Animal", "da/d73/a01090.php", [
-          [ "mcd::entites::Ant", "d6/dea/a01094.php", null ]
+    [ "mcd::entities::Contraption", "d4/d22/a01250.php", [
+      [ "mcd::entities::Entity", "d0/d00/a01286.php", [
+        [ "mcd::entities::Animal", "da/d73/a01090.php", [
+          [ "mcd::entities::Ant", "d6/dea/a01094.php", null ]
         ] ],
-        [ "mcd::entites::Vegetal", "de/d36/a01462.php", [
-          [ "mcd::entites::Mushroom", "d9/de4/a01346.php", null ],
-          [ "mcd::entites::Plant", "d3/deb/a01386.php", null ]
+        [ "mcd::entities::Vegetal", "de/d36/a01462.php", [
+          [ "mcd::entities::Mushroom", "d9/de4/a01346.php", null ],
+          [ "mcd::entities::Plant", "d3/deb/a01386.php", null ]
         ] ]
       ] ],
-      [ "mcd::entites::Object", "de/d5c/a01358.php", [
-        [ "mcd::entites::Stone", "d4/d3c/a01418.php", null ]
+      [ "mcd::entities::Object", "de/d5c/a01358.php", [
+        [ "mcd::entities::Stone", "d4/d3c/a01418.php", null ]
       ] ]
     ] ],
     [ "mcd::ContraptionAttr", "db/d12/a00268.php#d8/d17/a01282", null ],
@@ -45,11 +45,11 @@ var hierarchy =
     [ "mcd::check::has_istream_operator< T >", "dc/d19/a01190.php", null ],
     [ "mcd::check::has_ostream_operator< T >", "dd/de9/a01182.php", null ],
     [ "mcd::check::has_size_method< T >", "d8/d11/a01178.php", null ],
-    [ "mcd::entites::Hostile", "dc/de0/a01302.php", [
-      [ "mcd::entites::Animal", "da/d73/a01090.php", null ]
+    [ "mcd::entities::Hostile", "dc/de0/a01302.php", [
+      [ "mcd::entities::Animal", "da/d73/a01090.php", null ]
     ] ],
     [ "mcd::Identifier", "d7/d8c/a01306.php", [
-      [ "mcd::entites::Player< PlayerParent >", "d5/d8e/a01390.php", null ]
+      [ "mcd::entities::Player< PlayerParent >", "d5/d8e/a01390.php", null ]
     ] ],
     [ "mcd::IOConfig", "da/d79/a01310.php", null ],
     [ "std::ios_base", null, [
@@ -96,8 +96,8 @@ var hierarchy =
     [ "mcd::PathfindingNode", "da/dab/a01362.php", null ],
     [ "mcd::PathfindingProblem", "de/d9d/a01382.php", null ],
     [ "PlayerParent", null, [
-      [ "mcd::entites::PlayerAbstraction< PlayerParent >", "d6/d2f/a01394.php", [
-        [ "mcd::entites::Player< PlayerParent >", "d5/d8e/a01390.php", null ]
+      [ "mcd::entities::PlayerAbstraction< PlayerParent >", "d6/d2f/a01394.php", [
+        [ "mcd::entities::Player< PlayerParent >", "d5/d8e/a01390.php", null ]
       ] ]
     ] ],
     [ "mcd::Point", "da/df6/a01454.php", null ],

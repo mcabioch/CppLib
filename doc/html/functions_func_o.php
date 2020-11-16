@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('functions_func_o.php',''); initResizab
 
 <h3><a id="index_o"></a>- o -</h3><ul>
 <li>Object()
-: <a class="el" href="de/d5c/a01358.php#afada17f07dc3064e60e770ca087b3458">mcd::entites::Object</a>
+: <a class="el" href="de/d5c/a01358.php#a36ec7abe7591f33eef64ad1cfd761146">mcd::entities::Object</a>
 </li>
 <li>onCompare()
 : <a class="el" href="d0/de2/a01442.php#a279d0472004ed9618dde58fcfd6bb508">mcd::Tree&lt; T &gt;</a>

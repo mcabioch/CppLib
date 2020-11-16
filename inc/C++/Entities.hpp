@@ -18,7 +18,7 @@
 //		#include "Animal.hpp"
 #include "Ant.hpp"
 
-namespace mcd::entites
+namespace mcd::entities
 {}
 
 #endif   // HEADER_CPP_ENTITIES

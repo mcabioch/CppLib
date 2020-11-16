@@ -1,6 +1,6 @@
 #include "C++/Vegetal.hpp"
 
-namespace mcd::entites
+namespace mcd::entities
 {
     Vegetal::Vegetal(Map* map, Point pt, ContraptionAttr attr) : Entity(map, pt, attr) {}
 
@@ -17,4 +17,4 @@ namespace mcd::entites
 
         return nullptr;
     }
-}   // namespace mcd::entites
+}   // namespace mcd::entities

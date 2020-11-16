@@ -10,7 +10,7 @@ var searchData=
   ['log_1214',['log',['../d5/df4/a01322.php#a2cb99172e98a89e45fdcb9b394eea99e',1,'mcd::Logger']]],
   ['log2p_1215',['log2p',['../db/d12/a00268.php#a69d6be0b9d139073dda5e708c76dccdd',1,'mcd']]],
   ['logger_1216',['Logger',['../d5/df4/a01322.php#a189cdd6486b23632d014a2e795ed8e13',1,'mcd::Logger']]],
-  ['lost_1217',['Lost',['../db/d74/a01378.php#a933816a487769eec830729b051d0fbcd',1,'mcd::PathfindingException::Lost()'],['../d6/d2f/a01394.php#a83e2e836f3307aad21dae7c8764d76df',1,'mcd::entites::PlayerAbstraction::lost()']]],
+  ['lost_1217',['Lost',['../db/d74/a01378.php#a933816a487769eec830729b051d0fbcd',1,'mcd::PathfindingException::Lost()'],['../d6/d2f/a01394.php#a94e85d6ad4702ba70f9b836224f3acf4',1,'mcd::entities::PlayerAbstraction::lost()']]],
   ['lowercase_1218',['lowercase',['../db/d12/a00268.php#a0c6d83e8654926ceebd7777a9ada0652',1,'mcd::lowercase(const std::string &amp;str, std::string::iterator begin, std::string::iterator end)'],['../db/d12/a00268.php#a0762354667dfb9f9e539e501399a9a00',1,'mcd::lowercase(const std::string &amp;str)']]],
   ['luhn_1219',['luhn',['../db/d12/a00268.php#a176933d706495ddff7385a68319e7169',1,'mcd']]]
 ];

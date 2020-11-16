@@ -12,8 +12,8 @@ var searchData=
   ['mod_1229',['mod',['../db/d12/a00268.php#af44c5ff8cc0a054f720ed177e7e44265',1,'mcd::mod()'],['../d3/df8/a00155.php#a2de39472765e5120e670072cbc2d8ead',1,'mod():&#160;Matrix_functions.hpp']]],
   ['month_1230',['month',['../de/d33/a01274.php#aeaf4a92c344f8b9d8b88e22cbc710013',1,'mcd::Date']]],
   ['monthweek_1231',['monthWeek',['../de/d33/a01274.php#aa1b8bcad43aa4fa7f5bccf350c348bbf',1,'mcd::Date']]],
-  ['move_1232',['move',['../da/d73/a01090.php#ae8aefd36f653b7da68330d14b4f20108',1,'mcd::entites::Animal::move()'],['../da/d73/a01090.php#ad0df9c0add60b45b913e6e87e69e7231',1,'mcd::entites::Animal::move(Direction dir)']]],
+  ['move_1232',['move',['../da/d73/a01090.php#ae331910c20f59eb1adc088b3fcc72c39',1,'mcd::entities::Animal::move()'],['../da/d73/a01090.php#a6244047eb9a0a0a9499ca32316f9d049',1,'mcd::entities::Animal::move(Direction dir)']]],
   ['moveentity_1233',['moveEntity',['../d4/dd1/a01334.php#a54b56015950d08fd043e0906875519e3',1,'mcd::Map']]],
-  ['mushroom_1234',['Mushroom',['../d9/de4/a01346.php#ad223ab2542aec806627c036cca1d1a23',1,'mcd::entites::Mushroom']]],
+  ['mushroom_1234',['Mushroom',['../d9/de4/a01346.php#ae017da04e4bdd2ec7a18f00fc7944aef',1,'mcd::entities::Mushroom']]],
   ['mycrypt_1235',['MyCrypt',['../d7/d73/a01266.php#ac618fc32b73d9bb13b07bc9db802cbef',1,'mcd::MyCrypt']]]
 ];

@@ -10,7 +10,7 @@
 
 #include "Entities.hpp"
 
-namespace mcd::entites
+namespace mcd::entities
 {
     /*!
      * \class	PlayerAbstraction
@@ -132,6 +132,6 @@ namespace mcd::entites
         double64_t _experience;
         double64_t _experienceMax;
     };
-}   // namespace mcd::entites
+}   // namespace mcd::entities
 
 #endif   // HEADER_CPP_PLAYER_ABSTRACTION

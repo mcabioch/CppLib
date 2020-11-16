@@ -7,7 +7,7 @@ var searchData=
   ['cls_843',['Cls',['../dd/d9e/a01226.php',1,'mcd::console']]],
   ['color_844',['Color',['../d8/d15/a01218.php',1,'mcd::console']]],
   ['consoletable_845',['ConsoleTable',['../d7/d04/a01246.php',1,'mcd']]],
-  ['contraption_846',['Contraption',['../d4/d22/a01250.php',1,'mcd::entites']]],
+  ['contraption_846',['Contraption',['../d4/d22/a01250.php',1,'mcd::entities']]],
   ['contraptionattr_847',['ContraptionAttr',['../db/d12/a00268.php#d8/d17/a01282',1,'mcd']]],
   ['crypto_848',['Crypto',['../dc/d83/a01254.php',1,'mcd']]],
   ['cursor_849',['Cursor',['../d0/d58/a01230.php',1,'mcd::console']]]

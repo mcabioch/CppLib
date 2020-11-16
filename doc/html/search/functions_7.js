@@ -8,9 +8,9 @@ var searchData=
   ['hastostop_1170',['hasToStop',['../dc/de6/a01426.php#a804393d97a319c38afa593072bd0ead9',1,'mcd::Threadable']]],
   ['headers_1171',['headers',['../d7/d04/a01246.php#a1878d602fe475fb47a2aca063e7cb9d6',1,'mcd::ConsoleTable']]],
   ['height_1172',['height',['../d0/de2/a01442.php#a069d03de16fc9d3db25d7ec67ed6811b',1,'mcd::Tree']]],
-  ['hit_1173',['hit',['../d0/d00/a01286.php#a0d8105dd459c8384c215269a89328201',1,'mcd::entites::Entity']]],
+  ['hit_1173',['hit',['../d0/d00/a01286.php#a7a517e59b83d8c02c65d145b99ce9f36',1,'mcd::entities::Entity']]],
   ['home_1174',['home',['../d0/d58/a01230.php#acf65fe5af6d5a72cbcac5af73f14bc40',1,'mcd::console::Cursor']]],
-  ['hostile_1175',['Hostile',['../dc/de0/a01302.php#a42389eba9d32429f68bcc16f2e2ce2a8',1,'mcd::entites::Hostile']]],
+  ['hostile_1175',['Hostile',['../dc/de0/a01302.php#a634ba713e660545c1b265e514105726b',1,'mcd::entities::Hostile']]],
   ['hour_1176',['hour',['../d8/dd0/a01430.php#afc42ec7546725501d6cd8eb069e92a52',1,'mcd::Time']]],
-  ['hurt_1177',['hurt',['../dc/de0/a01302.php#aa13db475ebf08ba49fbcedf4d4685ef5',1,'mcd::entites::Hostile']]]
+  ['hurt_1177',['hurt',['../dc/de0/a01302.php#a1a47c03167233b91560a001e55d169ef',1,'mcd::entities::Hostile']]]
 ];

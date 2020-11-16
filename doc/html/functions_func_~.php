@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -98,10 +98,10 @@ $(document).ready(function(){initNavTree('functions_func_~.php',''); initResizab
 : <a class="el" href="d8/d11/a01178.php#ac1b20696341a76adc3a13da7d6f4b0d0">mcd::check::has_size_method&lt; T &gt;</a>
 </li>
 <li>~Animal()
-: <a class="el" href="da/d73/a01090.php#a9336811644c1c5f5b5cb7acf89b66440">mcd::entites::Animal</a>
+: <a class="el" href="da/d73/a01090.php#a24a4158bd954d5b90b6afa118e062438">mcd::entities::Animal</a>
 </li>
 <li>~Ant()
-: <a class="el" href="d6/dea/a01094.php#acd24a63ea5279fc6db9c9b0bea0dca3a">mcd::entites::Ant</a>
+: <a class="el" href="d6/dea/a01094.php#a51950b83b15fdc4b362124dba3b18265">mcd::entities::Ant</a>
 </li>
 <li>~Arguments()
 : <a class="el" href="d5/d17/a01098.php#a9fd4e17aa2d814f460da6128e98b7519">mcd::Arguments</a>
@@ -131,7 +131,7 @@ $(document).ready(function(){initNavTree('functions_func_~.php',''); initResizab
 : <a class="el" href="d8/d15/a01218.php#ac165219b90060af0a1d899b1caadab6c">mcd::console::Color</a>
 </li>
 <li>~Contraption()
-: <a class="el" href="d4/d22/a01250.php#a24cb6f4176bbff353aa45cab348fab20">mcd::entites::Contraption</a>
+: <a class="el" href="d4/d22/a01250.php#a10da71db71b6c8b1c5acb5f114773a9f">mcd::entities::Contraption</a>
 </li>
 <li>~Crypto()
 : <a class="el" href="dc/d83/a01254.php#a16276f74e2eac6b2174d06361791f056">mcd::Crypto</a>
@@ -143,7 +143,7 @@ $(document).ready(function(){initNavTree('functions_func_~.php',''); initResizab
 : <a class="el" href="d4/d10/a01278.php#aabf1f35c1bad4f58eddd773836bbe766">mcd::DateTime</a>
 </li>
 <li>~Entity()
-: <a class="el" href="d0/d00/a01286.php#a79e29b602150650e1d0e090062da123d">mcd::entites::Entity</a>
+: <a class="el" href="d0/d00/a01286.php#ad9d955ec612cc3f0898808f0caa1d6f3">mcd::entities::Entity</a>
 </li>
 <li>~exception()
 : <a class="el" href="dc/ded/a01290.php#ae32a0816168e0f4ff7ba8d688d839dc8">mcd::exception</a>
@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('functions_func_~.php',''); initResizab
 : <a class="el" href="dd/de9/a01182.php#ac15204b5f1ac95e3bdab7d29779544a3">mcd::check::has_ostream_operator&lt; T &gt;</a>
 </li>
 <li>~Hostile()
-: <a class="el" href="dc/de0/a01302.php#a321ab4f1d49090006824b425f275792c">mcd::entites::Hostile</a>
+: <a class="el" href="dc/de0/a01302.php#ac4d16894567ed67d6bf0e7cb278ac7bc">mcd::entities::Hostile</a>
 </li>
 <li>~Identifier()
 : <a class="el" href="d7/d8c/a01306.php#a87dbdb0f9b391d6a78d61463e8823628">mcd::Identifier</a>
@@ -182,7 +182,7 @@ $(document).ready(function(){initNavTree('functions_func_~.php',''); initResizab
 : <a class="el" href="d2/d4d/a01338.php#a87e5bc598036e554e7fac18328bbb47b">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>~Mushroom()
-: <a class="el" href="d9/de4/a01346.php#a1e12b047b20d3b9fb9704ee9e2281175">mcd::entites::Mushroom</a>
+: <a class="el" href="d9/de4/a01346.php#a0c56802cdeb7f83456aacf6d0df84024">mcd::entities::Mushroom</a>
 </li>
 <li>~MyCrypt()
 : <a class="el" href="d7/d73/a01266.php#a3e5b32554500cf6843d09009fbaafbc9">mcd::MyCrypt</a>
@@ -194,7 +194,7 @@ $(document).ready(function(){initNavTree('functions_func_~.php',''); initResizab
 : <a class="el" href="d7/dc4/a01354.php#a096b44b3d9fe8e567b179ac3d3dbacff">mcd::NotInstantiable</a>
 </li>
 <li>~Object()
-: <a class="el" href="de/d5c/a01358.php#a57bfdb3ae0305547d547579cb60be57c">mcd::entites::Object</a>
+: <a class="el" href="de/d5c/a01358.php#a4938f0dcdbd6b29c397bf9a3b140fefd">mcd::entities::Object</a>
 </li>
 <li>~Path()
 : <a class="el" href="d6/dfe/a01366.php#ae7ac83a2afcba63d1e8f17f314572a7f">mcd::Path</a>
@@ -212,13 +212,13 @@ $(document).ready(function(){initNavTree('functions_func_~.php',''); initResizab
 : <a class="el" href="de/d9d/a01382.php#a0bf356ad792ba79df121cedf0501f6f1">mcd::PathfindingProblem</a>
 </li>
 <li>~Plant()
-: <a class="el" href="d3/deb/a01386.php#a4dbe8f5846eba796f4c0cc23148bad6f">mcd::entites::Plant</a>
+: <a class="el" href="d3/deb/a01386.php#aaa69f1a3016f0cf706c07ed6114b1ebb">mcd::entities::Plant</a>
 </li>
 <li>~Player()
-: <a class="el" href="d5/d8e/a01390.php#ad667622859f627b849773a27a8d03c91">mcd::entites::Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="d5/d8e/a01390.php#afd857959aaa62f4960bae9c9da9f51bf">mcd::entities::Player&lt; PlayerParent &gt;</a>
 </li>
 <li>~PlayerAbstraction()
-: <a class="el" href="d6/d2f/a01394.php#a5b25a947432afa9f436f4c78e68a52ba">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#a9cfa454745dabd8717ffe4a571007f62">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>~PureVirtual()
 : <a class="el" href="dc/d25/a01406.php#acb8cb10e007f7c5f6ac757843a212598">mcd::PureVirtual</a>
@@ -233,7 +233,7 @@ $(document).ready(function(){initNavTree('functions_func_~.php',''); initResizab
 : <a class="el" href="d3/d53/a01262.php#a84db99430c12dfd433432818c954d569">mcd::SHA2</a>
 </li>
 <li>~Stone()
-: <a class="el" href="d4/d3c/a01418.php#ae5c5aa0f7462298aa9a2d158af67e4fc">mcd::entites::Stone</a>
+: <a class="el" href="d4/d3c/a01418.php#ab59d5bbc777245f6d8694086672edd3c">mcd::entities::Stone</a>
 </li>
 <li>~Threadable()
 : <a class="el" href="dc/de6/a01426.php#aab98cd8e5cd8832dfd6e82c17d1a689d">mcd::Threadable&lt; C &gt;</a>
@@ -251,7 +251,7 @@ $(document).ready(function(){initNavTree('functions_func_~.php',''); initResizab
 : <a class="el" href="d0/de2/a01442.php#a44571a01497b2ac582c292c8bad9de33">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>~Vegetal()
-: <a class="el" href="de/d36/a01462.php#ae72ab0de2a60fb8454ec76873fb9c2d5">mcd::entites::Vegetal</a>
+: <a class="el" href="de/d36/a01462.php#a3fd3c74ea7a5594033949f25a744d8f7">mcd::entities::Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

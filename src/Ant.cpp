@@ -1,6 +1,6 @@
 #include "C++/Ant.hpp"
 
-namespace mcd::entites
+namespace mcd::entities
 {
     Ant::Ant(Map* map, Point pt, ContraptionAttr attr) :
         Animal(map, pt, attr), _caste(""), _stone(0), _stoneMax(0) {
@@ -16,4 +16,4 @@ namespace mcd::entites
         stream << "\t\t- Stone : " << _stone << "/" << _stoneMax << std::endl;
         stream << "\t\t- Caste : '" << _caste << "'" << std::endl;
     }
-}   // namespace mcd::entites
+}   // namespace mcd::entities

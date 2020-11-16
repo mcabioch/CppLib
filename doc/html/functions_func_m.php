@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -116,13 +116,13 @@ $(document).ready(function(){initNavTree('functions_func_m.php',''); initResizab
 : <a class="el" href="de/d33/a01274.php#aa1b8bcad43aa4fa7f5bccf350c348bbf">mcd::Date</a>
 </li>
 <li>move()
-: <a class="el" href="da/d73/a01090.php#ae8aefd36f653b7da68330d14b4f20108">mcd::entites::Animal</a>
+: <a class="el" href="da/d73/a01090.php#ae331910c20f59eb1adc088b3fcc72c39">mcd::entities::Animal</a>
 </li>
 <li>moveEntity()
 : <a class="el" href="d4/dd1/a01334.php#a54b56015950d08fd043e0906875519e3">mcd::Map</a>
 </li>
 <li>Mushroom()
-: <a class="el" href="d9/de4/a01346.php#ad223ab2542aec806627c036cca1d1a23">mcd::entites::Mushroom</a>
+: <a class="el" href="d9/de4/a01346.php#ae017da04e4bdd2ec7a18f00fc7944aef">mcd::entities::Mushroom</a>
 </li>
 <li>MyCrypt()
 : <a class="el" href="d7/d73/a01266.php#ac618fc32b73d9bb13b07bc9db802cbef">mcd::MyCrypt</a>

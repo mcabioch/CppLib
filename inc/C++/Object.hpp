@@ -10,7 +10,7 @@
 
 #include "Contraption.hpp"
 
-namespace mcd::entites
+namespace mcd::entities
 {
     /*!
      * \class	Object
@@ -48,6 +48,6 @@ namespace mcd::entites
         protected:
         private:
     };
-}   // namespace mcd::entites
+}   // namespace mcd::entities
 
 #endif   // HEADER_CPP_OBJECT

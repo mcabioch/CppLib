@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::entites::Hostile Class Reference</title>
+		<title>C++: mcd::entities::Hostile Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('dc/de0/a01302.php','../../'); initResi
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d8/d38/a01299.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::entites::Hostile Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">mcd::entities::Hostile Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -105,82 +105,82 @@ $(document).ready(function(){initNavTree('dc/de0/a01302.php','../../'); initResi
 
 <p><code>#include &lt;Hostile.hpp&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for mcd::entites::Hostile:</div>
+Inheritance diagram for mcd::entities::Hostile:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/d07/a01301.png" border="0" usemap="#amcd_1_1entites_1_1Hostile_inherit__map" alt="Inheritance graph"/></div>
-<map name="mcd_1_1entites_1_1Hostile_inherit__map" id="mcd_1_1entites_1_1Hostile_inherit__map">
-<area shape="rect" title="A class to derivate from when the thing can attack." alt="" coords="5,5,148,32"/>
-<area shape="rect" href="../../da/d73/a01090.php" title="An animal." alt="" coords="5,80,148,107"/>
-<area shape="rect" href="../../d6/dea/a01094.php" title="An ant." alt="" coords="15,155,138,181"/>
+<div class="center"><img src="../../d3/d07/a01301.png" border="0" usemap="#amcd_1_1entities_1_1Hostile_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1entities_1_1Hostile_inherit__map" id="mcd_1_1entities_1_1Hostile_inherit__map">
+<area shape="rect" title="A class to derivate from when the thing can attack." alt="" coords="5,5,152,32"/>
+<area shape="rect" href="../../da/d73/a01090.php" title="An animal." alt="" coords="6,80,151,107"/>
+<area shape="rect" href="../../d6/dea/a01094.php" title="An ant." alt="" coords="16,155,141,181"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for mcd::entites::Hostile:</div>
+Collaboration diagram for mcd::entities::Hostile:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d8/dc5/a01300.png" border="0" usemap="#amcd_1_1entites_1_1Hostile_coll__map" alt="Collaboration graph"/></div>
-<map name="mcd_1_1entites_1_1Hostile_coll__map" id="mcd_1_1entites_1_1Hostile_coll__map">
-<area shape="rect" title="A class to derivate from when the thing can attack." alt="" coords="100,288,243,315"/>
-<area shape="rect" title=" " alt="" coords="98,184,245,225"/>
-<area shape="rect" href="../../d0/d00/a01286.php" title="An entity." alt="" coords="22,95,158,121"/>
-<area shape="rect" href="../../d4/d22/a01250.php" title="A contraption." alt="" coords="5,5,175,32"/>
-<area shape="rect" title="STL class." alt="" coords="182,95,323,121"/>
-<area shape="rect" title=" " alt="" coords="233,5,272,32"/>
+<div class="center"><img src="../../d8/dc5/a01300.png" border="0" usemap="#amcd_1_1entities_1_1Hostile_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1entities_1_1Hostile_coll__map" id="mcd_1_1entities_1_1Hostile_coll__map">
+<area shape="rect" title="A class to derivate from when the thing can attack." alt="" coords="99,288,246,315"/>
+<area shape="rect" title=" " alt="" coords="99,184,246,225"/>
+<area shape="rect" href="../../d0/d00/a01286.php" title="An entity." alt="" coords="22,95,161,121"/>
+<area shape="rect" href="../../d4/d22/a01250.php" title="A contraption." alt="" coords="5,5,177,32"/>
+<area shape="rect" title="STL class." alt="" coords="185,95,326,121"/>
+<area shape="rect" title=" " alt="" coords="236,5,275,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a42389eba9d32429f68bcc16f2e2ce2a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a42389eba9d32429f68bcc16f2e2ce2a8">Hostile</a> ()</td></tr>
-<tr class="memdesc:a42389eba9d32429f68bcc16f2e2ce2a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../dc/de0/a01302.php#a42389eba9d32429f68bcc16f2e2ce2a8">More...</a><br /></td></tr>
-<tr class="separator:a42389eba9d32429f68bcc16f2e2ce2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a321ab4f1d49090006824b425f275792c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a321ab4f1d49090006824b425f275792c">~Hostile</a> ()</td></tr>
-<tr class="memdesc:a321ab4f1d49090006824b425f275792c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="../../dc/de0/a01302.php#a321ab4f1d49090006824b425f275792c">More...</a><br /></td></tr>
-<tr class="separator:a321ab4f1d49090006824b425f275792c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcddd84a8ca73e2e2ac9fdc8aa03f484"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#adcddd84a8ca73e2e2ac9fdc8aa03f484">setStrength</a> (<a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> strength)</td></tr>
-<tr class="memdesc:adcddd84a8ca73e2e2ac9fdc8aa03f484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../dc/de0/a01302.php" title="A class to derivate from when the thing can attack.">Hostile</a>'s strength.  <a href="../../dc/de0/a01302.php#adcddd84a8ca73e2e2ac9fdc8aa03f484">More...</a><br /></td></tr>
-<tr class="separator:adcddd84a8ca73e2e2ac9fdc8aa03f484"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bcb86f09c8e8ba4b94b89393f06a9c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a7bcb86f09c8e8ba4b94b89393f06a9c3">setTarget</a> (<a class="el" href="../../d0/d00/a01286.php">Entity</a> *target)</td></tr>
-<tr class="memdesc:a7bcb86f09c8e8ba4b94b89393f06a9c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../dc/de0/a01302.php" title="A class to derivate from when the thing can attack.">Hostile</a>'s strength.  <a href="../../dc/de0/a01302.php#a7bcb86f09c8e8ba4b94b89393f06a9c3">More...</a><br /></td></tr>
-<tr class="separator:a7bcb86f09c8e8ba4b94b89393f06a9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e36f9947b0464f4661313d18224c9f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a1e36f9947b0464f4661313d18224c9f9">getStrength</a> () const</td></tr>
-<tr class="memdesc:a1e36f9947b0464f4661313d18224c9f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Hotsile's strength.  <a href="../../dc/de0/a01302.php#a1e36f9947b0464f4661313d18224c9f9">More...</a><br /></td></tr>
-<tr class="separator:a1e36f9947b0464f4661313d18224c9f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8adeff4efa60e976a3deab87b7b7ed37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d00/a01286.php">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a8adeff4efa60e976a3deab87b7b7ed37">getTarget</a> () const</td></tr>
-<tr class="memdesc:a8adeff4efa60e976a3deab87b7b7ed37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Hotsile's target.  <a href="../../dc/de0/a01302.php#a8adeff4efa60e976a3deab87b7b7ed37">More...</a><br /></td></tr>
-<tr class="separator:a8adeff4efa60e976a3deab87b7b7ed37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1a70a7d13ddb23365c58eaf347851fe"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#ae1a70a7d13ddb23365c58eaf347851fe">printInfos</a> (std::ostream &amp;stream) const</td></tr>
-<tr class="memdesc:ae1a70a7d13ddb23365c58eaf347851fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the infos in the instance of the class in <em>stream</em>.  <a href="../../dc/de0/a01302.php#ae1a70a7d13ddb23365c58eaf347851fe">More...</a><br /></td></tr>
-<tr class="separator:ae1a70a7d13ddb23365c58eaf347851fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa13db475ebf08ba49fbcedf4d4685ef5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#aa13db475ebf08ba49fbcedf4d4685ef5">hurt</a> (<a class="el" href="../../d0/d00/a01286.php">Entity</a> *target=nullptr)</td></tr>
-<tr class="memdesc:aa13db475ebf08ba49fbcedf4d4685ef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hurt the target.  <a href="../../dc/de0/a01302.php#aa13db475ebf08ba49fbcedf4d4685ef5">More...</a><br /></td></tr>
-<tr class="separator:aa13db475ebf08ba49fbcedf4d4685ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab05e964095ba05b2f3030b506146149a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#ab05e964095ba05b2f3030b506146149a">attack</a> (<a class="el" href="../../d0/d00/a01286.php">Entity</a> *target=nullptr)=0</td></tr>
-<tr class="memdesc:ab05e964095ba05b2f3030b506146149a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attack.  <a href="../../dc/de0/a01302.php#ab05e964095ba05b2f3030b506146149a">More...</a><br /></td></tr>
-<tr class="separator:ab05e964095ba05b2f3030b506146149a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4f327b49e5cf1cbc4fb90d81df058df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#ac4f327b49e5cf1cbc4fb90d81df058df">untarget</a> ()</td></tr>
-<tr class="memdesc:ac4f327b49e5cf1cbc4fb90d81df058df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the target to null.  <a href="../../dc/de0/a01302.php#ac4f327b49e5cf1cbc4fb90d81df058df">More...</a><br /></td></tr>
-<tr class="separator:ac4f327b49e5cf1cbc4fb90d81df058df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a634ba713e660545c1b265e514105726b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a634ba713e660545c1b265e514105726b">Hostile</a> ()</td></tr>
+<tr class="memdesc:a634ba713e660545c1b265e514105726b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../dc/de0/a01302.php#a634ba713e660545c1b265e514105726b">More...</a><br /></td></tr>
+<tr class="separator:a634ba713e660545c1b265e514105726b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d16894567ed67d6bf0e7cb278ac7bc"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#ac4d16894567ed67d6bf0e7cb278ac7bc">~Hostile</a> ()</td></tr>
+<tr class="memdesc:ac4d16894567ed67d6bf0e7cb278ac7bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="../../dc/de0/a01302.php#ac4d16894567ed67d6bf0e7cb278ac7bc">More...</a><br /></td></tr>
+<tr class="separator:ac4d16894567ed67d6bf0e7cb278ac7bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d01bac0e07a51f029b94bf66b93b58b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a7d01bac0e07a51f029b94bf66b93b58b">setStrength</a> (<a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> strength)</td></tr>
+<tr class="memdesc:a7d01bac0e07a51f029b94bf66b93b58b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../dc/de0/a01302.php" title="A class to derivate from when the thing can attack.">Hostile</a>'s strength.  <a href="../../dc/de0/a01302.php#a7d01bac0e07a51f029b94bf66b93b58b">More...</a><br /></td></tr>
+<tr class="separator:a7d01bac0e07a51f029b94bf66b93b58b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0bd26022354b9e7e0d23bcc30b37272"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#ac0bd26022354b9e7e0d23bcc30b37272">setTarget</a> (<a class="el" href="../../d0/d00/a01286.php">Entity</a> *target)</td></tr>
+<tr class="memdesc:ac0bd26022354b9e7e0d23bcc30b37272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../dc/de0/a01302.php" title="A class to derivate from when the thing can attack.">Hostile</a>'s strength.  <a href="../../dc/de0/a01302.php#ac0bd26022354b9e7e0d23bcc30b37272">More...</a><br /></td></tr>
+<tr class="separator:ac0bd26022354b9e7e0d23bcc30b37272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad596013f0330a9c7aba7943d3723651"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#aad596013f0330a9c7aba7943d3723651">getStrength</a> () const</td></tr>
+<tr class="memdesc:aad596013f0330a9c7aba7943d3723651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Hotsile's strength.  <a href="../../dc/de0/a01302.php#aad596013f0330a9c7aba7943d3723651">More...</a><br /></td></tr>
+<tr class="separator:aad596013f0330a9c7aba7943d3723651"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a531dff8b732fc744cad70fd71d3fee92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d00/a01286.php">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a531dff8b732fc744cad70fd71d3fee92">getTarget</a> () const</td></tr>
+<tr class="memdesc:a531dff8b732fc744cad70fd71d3fee92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Hotsile's target.  <a href="../../dc/de0/a01302.php#a531dff8b732fc744cad70fd71d3fee92">More...</a><br /></td></tr>
+<tr class="separator:a531dff8b732fc744cad70fd71d3fee92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58a066ffd12938224a6eabdde6477126"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a58a066ffd12938224a6eabdde6477126">printInfos</a> (std::ostream &amp;stream) const</td></tr>
+<tr class="memdesc:a58a066ffd12938224a6eabdde6477126"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the infos in the instance of the class in <em>stream</em>.  <a href="../../dc/de0/a01302.php#a58a066ffd12938224a6eabdde6477126">More...</a><br /></td></tr>
+<tr class="separator:a58a066ffd12938224a6eabdde6477126"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a47c03167233b91560a001e55d169ef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a1a47c03167233b91560a001e55d169ef">hurt</a> (<a class="el" href="../../d0/d00/a01286.php">Entity</a> *target=nullptr)</td></tr>
+<tr class="memdesc:a1a47c03167233b91560a001e55d169ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hurt the target.  <a href="../../dc/de0/a01302.php#a1a47c03167233b91560a001e55d169ef">More...</a><br /></td></tr>
+<tr class="separator:a1a47c03167233b91560a001e55d169ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d6354e48ad575c90faf42a4e318cc27"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a3d6354e48ad575c90faf42a4e318cc27">attack</a> (<a class="el" href="../../d0/d00/a01286.php">Entity</a> *target=nullptr)=0</td></tr>
+<tr class="memdesc:a3d6354e48ad575c90faf42a4e318cc27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attack.  <a href="../../dc/de0/a01302.php#a3d6354e48ad575c90faf42a4e318cc27">More...</a><br /></td></tr>
+<tr class="separator:a3d6354e48ad575c90faf42a4e318cc27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8950fd68a124f1cfabd86f4f5c77537"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#af8950fd68a124f1cfabd86f4f5c77537">untarget</a> ()</td></tr>
+<tr class="memdesc:af8950fd68a124f1cfabd86f4f5c77537"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the target to null.  <a href="../../dc/de0/a01302.php#af8950fd68a124f1cfabd86f4f5c77537">More...</a><br /></td></tr>
+<tr class="separator:af8950fd68a124f1cfabd86f4f5c77537"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aa501022426c51d39447bed39d5e5de37"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d0/d00/a01286.php">Entity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#aa501022426c51d39447bed39d5e5de37">_target</a></td></tr>
-<tr class="separator:aa501022426c51d39447bed39d5e5de37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a517c801a2d2f6751cd8de754f310d2b5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a517c801a2d2f6751cd8de754f310d2b5">_attacked</a></td></tr>
-<tr class="separator:a517c801a2d2f6751cd8de754f310d2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4d84a2ee756506ab72b0a68aa7cc4dd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#ac4d84a2ee756506ab72b0a68aa7cc4dd">_attackedSpec</a></td></tr>
-<tr class="separator:ac4d84a2ee756506ab72b0a68aa7cc4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bb19c39f6d257e3dcfb8ac949c92110"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d0/d00/a01286.php">Entity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a8bb19c39f6d257e3dcfb8ac949c92110">_target</a></td></tr>
+<tr class="separator:a8bb19c39f6d257e3dcfb8ac949c92110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96a8f567a0a6579b0d3f1208b6294764"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a96a8f567a0a6579b0d3f1208b6294764">_attacked</a></td></tr>
+<tr class="separator:a96a8f567a0a6579b0d3f1208b6294764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f7abcf434ad9ff1ef5680c9fcdf5e7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a01302.php#a63f7abcf434ad9ff1ef5680c9fcdf5e7">_attackedSpec</a></td></tr>
+<tr class="separator:a63f7abcf434ad9ff1ef5680c9fcdf5e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to derivate from when the thing can attack. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a42389eba9d32429f68bcc16f2e2ce2a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42389eba9d32429f68bcc16f2e2ce2a8">&#9670;&nbsp;</a></span>Hostile()</h2>
+<a id="a634ba713e660545c1b265e514105726b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a634ba713e660545c1b265e514105726b">&#9670;&nbsp;</a></span>Hostile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::entites::Hostile::Hostile </td>
+          <td class="memname">mcd::entities::Hostile::Hostile </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -192,8 +192,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a321ab4f1d49090006824b425f275792c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a321ab4f1d49090006824b425f275792c">&#9670;&nbsp;</a></span>~Hostile()</h2>
+<a id="ac4d16894567ed67d6bf0e7cb278ac7bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4d16894567ed67d6bf0e7cb278ac7bc">&#9670;&nbsp;</a></span>~Hostile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202,7 +202,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::entites::Hostile::~Hostile </td>
+          <td class="memname">virtual mcd::entities::Hostile::~Hostile </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -220,8 +220,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab05e964095ba05b2f3030b506146149a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab05e964095ba05b2f3030b506146149a">&#9670;&nbsp;</a></span>attack()</h2>
+<a id="a3d6354e48ad575c90faf42a4e318cc27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d6354e48ad575c90faf42a4e318cc27">&#9670;&nbsp;</a></span>attack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230,7 +230,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool mcd::entites::Hostile::attack </td>
+          <td class="memname">virtual bool mcd::entities::Hostile::attack </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d0/d00/a01286.php">Entity</a> *&#160;</td>
           <td class="paramname"><em>target</em> = <code>nullptr</code></td><td>)</td>
@@ -253,12 +253,12 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
 
-<p>Implemented in <a class="el" href="../../da/d73/a01090.php#a9b36d22d0275ba7c2aaedb031bf7d630">mcd::entites::Animal</a>.</p>
+<p>Implemented in <a class="el" href="../../da/d73/a01090.php#a6f547163d2c74065256dae2dcd17a252">mcd::entities::Animal</a>.</p>
 
 </div>
 </div>
-<a id="a1e36f9947b0464f4661313d18224c9f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e36f9947b0464f4661313d18224c9f9">&#9670;&nbsp;</a></span>getStrength()</h2>
+<a id="aad596013f0330a9c7aba7943d3723651"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad596013f0330a9c7aba7943d3723651">&#9670;&nbsp;</a></span>getStrength()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,7 +267,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::entites::Hostile::getStrength </td>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::entities::Hostile::getStrength </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -285,8 +285,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8adeff4efa60e976a3deab87b7b7ed37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8adeff4efa60e976a3deab87b7b7ed37">&#9670;&nbsp;</a></span>getTarget()</h2>
+<a id="a531dff8b732fc744cad70fd71d3fee92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a531dff8b732fc744cad70fd71d3fee92">&#9670;&nbsp;</a></span>getTarget()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,7 +295,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d00/a01286.php">Entity</a>* mcd::entites::Hostile::getTarget </td>
+          <td class="memname"><a class="el" href="../../d0/d00/a01286.php">Entity</a>* mcd::entities::Hostile::getTarget </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -313,14 +313,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa13db475ebf08ba49fbcedf4d4685ef5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa13db475ebf08ba49fbcedf4d4685ef5">&#9670;&nbsp;</a></span>hurt()</h2>
+<a id="a1a47c03167233b91560a001e55d169ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a47c03167233b91560a001e55d169ef">&#9670;&nbsp;</a></span>hurt()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool mcd::entites::Hostile::hurt </td>
+          <td class="memname">bool mcd::entities::Hostile::hurt </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d0/d00/a01286.php">Entity</a> *&#160;</td>
           <td class="paramname"><em>target</em> = <code>nullptr</code></td><td>)</td>
@@ -340,8 +340,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae1a70a7d13ddb23365c58eaf347851fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1a70a7d13ddb23365c58eaf347851fe">&#9670;&nbsp;</a></span>printInfos()</h2>
+<a id="a58a066ffd12938224a6eabdde6477126"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58a066ffd12938224a6eabdde6477126">&#9670;&nbsp;</a></span>printInfos()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -350,7 +350,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void mcd::entites::Hostile::printInfos </td>
+          <td class="memname">virtual void mcd::entities::Hostile::printInfos </td>
           <td>(</td>
           <td class="paramtype">std::ostream &amp;&#160;</td>
           <td class="paramname"><em>stream</em></td><td>)</td>
@@ -373,12 +373,12 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Reimplemented in <a class="el" href="../../d6/dea/a01094.php#a360cd9bb3ecbbdc4681f2777a5b103ef">mcd::entites::Ant</a>, and <a class="el" href="../../da/d73/a01090.php#ac28cb514f889c0a4b7702bed1978e0f1">mcd::entites::Animal</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d6/dea/a01094.php#ab7248992a6bf2618a57a02924265c69a">mcd::entities::Ant</a>, and <a class="el" href="../../da/d73/a01090.php#ab2a69a743db95121455d4ffad09093f9">mcd::entities::Animal</a>.</p>
 
 </div>
 </div>
-<a id="adcddd84a8ca73e2e2ac9fdc8aa03f484"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcddd84a8ca73e2e2ac9fdc8aa03f484">&#9670;&nbsp;</a></span>setStrength()</h2>
+<a id="a7d01bac0e07a51f029b94bf66b93b58b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d01bac0e07a51f029b94bf66b93b58b">&#9670;&nbsp;</a></span>setStrength()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,7 +387,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void mcd::entites::Hostile::setStrength </td>
+          <td class="memname">void mcd::entities::Hostile::setStrength </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td>
           <td class="paramname"><em>strength</em></td><td>)</td>
@@ -412,8 +412,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7bcb86f09c8e8ba4b94b89393f06a9c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bcb86f09c8e8ba4b94b89393f06a9c3">&#9670;&nbsp;</a></span>setTarget()</h2>
+<a id="ac0bd26022354b9e7e0d23bcc30b37272"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0bd26022354b9e7e0d23bcc30b37272">&#9670;&nbsp;</a></span>setTarget()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -422,7 +422,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void mcd::entites::Hostile::setTarget </td>
+          <td class="memname">void mcd::entities::Hostile::setTarget </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d0/d00/a01286.php">Entity</a> *&#160;</td>
           <td class="paramname"><em>target</em></td><td>)</td>
@@ -447,8 +447,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac4f327b49e5cf1cbc4fb90d81df058df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4f327b49e5cf1cbc4fb90d81df058df">&#9670;&nbsp;</a></span>untarget()</h2>
+<a id="af8950fd68a124f1cfabd86f4f5c77537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8950fd68a124f1cfabd86f4f5c77537">&#9670;&nbsp;</a></span>untarget()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -457,7 +457,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void mcd::entites::Hostile::untarget </td>
+          <td class="memname">void mcd::entities::Hostile::untarget </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -476,8 +476,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a517c801a2d2f6751cd8de754f310d2b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a517c801a2d2f6751cd8de754f310d2b5">&#9670;&nbsp;</a></span>_attacked</h2>
+<a id="a96a8f567a0a6579b0d3f1208b6294764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96a8f567a0a6579b0d3f1208b6294764">&#9670;&nbsp;</a></span>_attacked</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -486,7 +486,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool mcd::entites::Hostile::_attacked</td>
+          <td class="memname">bool mcd::entities::Hostile::_attacked</td>
         </tr>
       </table>
   </td>
@@ -498,8 +498,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac4d84a2ee756506ab72b0a68aa7cc4dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4d84a2ee756506ab72b0a68aa7cc4dd">&#9670;&nbsp;</a></span>_attackedSpec</h2>
+<a id="a63f7abcf434ad9ff1ef5680c9fcdf5e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63f7abcf434ad9ff1ef5680c9fcdf5e7">&#9670;&nbsp;</a></span>_attackedSpec</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -508,7 +508,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool mcd::entites::Hostile::_attackedSpec</td>
+          <td class="memname">bool mcd::entities::Hostile::_attackedSpec</td>
         </tr>
       </table>
   </td>
@@ -520,8 +520,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa501022426c51d39447bed39d5e5de37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa501022426c51d39447bed39d5e5de37">&#9670;&nbsp;</a></span>_target</h2>
+<a id="a8bb19c39f6d257e3dcfb8ac949c92110"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bb19c39f6d257e3dcfb8ac949c92110">&#9670;&nbsp;</a></span>_target</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -530,7 +530,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="../../d0/d00/a01286.php">Entity</a> &gt; mcd::entites::Hostile::_target</td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="../../d0/d00/a01286.php">Entity</a> &gt; mcd::entities::Hostile::_target</td>
         </tr>
       </table>
   </td>
@@ -551,7 +551,7 @@ Protected Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/d42/a00269.php">entites</a></li><li class="navelem"><a class="el" href="../../dc/de0/a01302.php">Hostile</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d5/d42/a00269.php">entities</a></li><li class="navelem"><a class="el" href="../../dc/de0/a01302.php">Hostile</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

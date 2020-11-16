@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -249,26 +249,26 @@ $(document).ready(function(){initNavTree('hierarchy.php',''); initResizable(); }
 <area shape="rect" href="db/d12/a00268.php#d8/d17/a01282" title="A struct to define Contraption attributes." alt="" coords="5,5,148,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_29.png" border="0" usemap="#amcd_1_1entites_1_1Hostile" alt=""/>
-<map name="mcd_1_1entites_1_1Hostile" id="mcd_1_1entites_1_1Hostile">
-<area shape="rect" href="d4/d22/a01250.php" title="A contraption." alt="" coords="5,81,175,108"/>
-<area shape="rect" href="d0/d00/a01286.php" title="An entity." alt="" coords="226,56,362,83"/>
-<area shape="rect" href="de/d5c/a01358.php" title="An object." alt="" coords="224,107,364,133"/>
-<area shape="rect" href="da/d73/a01090.php" title="An animal." alt="" coords="415,5,558,32"/>
-<area shape="rect" href="de/d36/a01462.php" title="A vegetal." alt="" coords="413,56,560,83"/>
-<area shape="rect" href="d6/dea/a01094.php" title="An ant." alt="" coords="628,5,751,32"/>
-<area shape="rect" href="d9/de4/a01346.php" title="A mushroom." alt="" coords="608,56,771,83"/>
-<area shape="rect" href="d3/deb/a01386.php" title="A plant." alt="" coords="623,107,755,133"/>
-<area shape="rect" href="d4/d3c/a01418.php" title="A stone." alt="" coords="419,107,555,133"/>
-<area shape="rect" href="dc/de0/a01302.php" title="A class to derivate from when the thing can attack." alt="" coords="223,5,365,32"/>
+<tr><td><img src="inherit_graph_29.png" border="0" usemap="#amcd_1_1entities_1_1Hostile" alt=""/>
+<map name="mcd_1_1entities_1_1Hostile" id="mcd_1_1entities_1_1Hostile">
+<area shape="rect" href="d4/d22/a01250.php" title="A contraption." alt="" coords="5,81,177,108"/>
+<area shape="rect" href="d0/d00/a01286.php" title="An entity." alt="" coords="229,56,368,83"/>
+<area shape="rect" href="de/d5c/a01358.php" title="An object." alt="" coords="227,107,370,133"/>
+<area shape="rect" href="da/d73/a01090.php" title="An animal." alt="" coords="422,5,567,32"/>
+<area shape="rect" href="de/d36/a01462.php" title="A vegetal." alt="" coords="420,56,569,83"/>
+<area shape="rect" href="d6/dea/a01094.php" title="An ant." alt="" coords="638,5,763,32"/>
+<area shape="rect" href="d9/de4/a01346.php" title="A mushroom." alt="" coords="617,56,784,83"/>
+<area shape="rect" href="d3/deb/a01386.php" title="A plant." alt="" coords="633,107,768,133"/>
+<area shape="rect" href="d4/d3c/a01418.php" title="A stone." alt="" coords="425,107,564,133"/>
+<area shape="rect" href="dc/de0/a01302.php" title="A class to derivate from when the thing can attack." alt="" coords="225,5,372,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_30.png" border="0" usemap="#amcd_1_1entites_1_1PlayerAbstraction_3_01PlayerParent_01_4" alt=""/>
-<map name="mcd_1_1entites_1_1PlayerAbstraction_3_01PlayerParent_01_4" id="mcd_1_1entites_1_1PlayerAbstraction_3_01PlayerParent_01_4">
-<area shape="rect" href="d7/d8c/a01306.php" title="A class to store some identify datas." alt="" coords="201,5,306,32"/>
-<area shape="rect" href="d5/d8e/a01390.php" title="A player that can be a child from any class." alt="" coords="404,27,543,69"/>
+<tr><td><img src="inherit_graph_30.png" border="0" usemap="#amcd_1_1entities_1_1PlayerAbstraction_3_01PlayerParent_01_4" alt=""/>
+<map name="mcd_1_1entities_1_1PlayerAbstraction_3_01PlayerParent_01_4" id="mcd_1_1entities_1_1PlayerAbstraction_3_01PlayerParent_01_4">
+<area shape="rect" href="d7/d8c/a01306.php" title="A class to store some identify datas." alt="" coords="202,5,307,32"/>
+<area shape="rect" href="d5/d8e/a01390.php" title="A player that can be a child from any class." alt="" coords="407,27,549,69"/>
 <area shape="rect" title=" " alt="" coords="5,64,103,91"/>
-<area shape="rect" href="d6/d2f/a01394.php" title="A player that can be a child from any class." alt="" coords="151,57,356,98"/>
+<area shape="rect" href="d6/d2f/a01394.php" title="A player that can be a child from any class." alt="" coords="151,57,359,98"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_31.png" border="0" usemap="#amcd_1_1exception" alt=""/>

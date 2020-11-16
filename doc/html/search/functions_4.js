@@ -2,7 +2,7 @@ var searchData=
 [
   ['empty_1084',['empty',['../da/d4e/a01106.php#a7beaba1e56c18f35b6809d8d8f03b52d',1,'mcd::t_stack::empty()'],['../d6/d40/a01114.php#aa3176d64efc60f11b708e10e6ff6e5b1',1,'mcd::t_queue::empty()']]],
   ['enabled_1085',['enabled',['../d2/d4d/a01338.php#ae6b6255f5d5cd9a1684fcdb927978c18',1,'mcd::Matrix']]],
-  ['entity_1086',['Entity',['../d0/d00/a01286.php#a8841219c743dc1a119fae8572b099bac',1,'mcd::entites::Entity']]],
+  ['entity_1086',['Entity',['../d0/d00/a01286.php#a7707f7739a8715e73722b162fedf5fdc',1,'mcd::entities::Entity']]],
   ['equilibrate_1087',['equilibrate',['../d0/de2/a01442.php#a38b40b07bade18a081d80596983dd16c',1,'mcd::Tree']]],
   ['error_5flog_1088',['error_log',['../db/d12/a00268.php#a1a14f66f0c6eba0c77338364977658e1',1,'mcd']]],
   ['eucl_1089',['eucl',['../db/d12/a00268.php#a10764d50321a1ff81cc7cd4a9f7e42bc',1,'mcd']]],

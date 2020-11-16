@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('functions_func_e.php',''); initResizab
 : <a class="el" href="d2/d4d/a01338.php#ae6b6255f5d5cd9a1684fcdb927978c18">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>Entity()
-: <a class="el" href="d0/d00/a01286.php#a8841219c743dc1a119fae8572b099bac">mcd::entites::Entity</a>
+: <a class="el" href="d0/d00/a01286.php#a7707f7739a8715e73722b162fedf5fdc">mcd::entities::Entity</a>
 </li>
 <li>equilibrate()
 : <a class="el" href="d0/de2/a01442.php#a38b40b07bade18a081d80596983dd16c">mcd::Tree&lt; T &gt;</a>

@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -142,13 +142,13 @@ $(document).ready(function(){initNavTree('functions_t.php',''); initResizable();
 : <a class="el" href="d0/de2/a01442.php#a93774d1792effab8a46379c6781729f0">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>turn()
-: <a class="el" href="da/d73/a01090.php#a74240288a6b9d0ae3ec2407805bc8c62">mcd::entites::Animal</a>
+: <a class="el" href="da/d73/a01090.php#a7b9a4a5aec17dca7bbbac35a2a863ff5">mcd::entities::Animal</a>
 </li>
 <li>turnLeft()
-: <a class="el" href="d4/d22/a01250.php#af62a631783e20d0805d813d9fbe9a093">mcd::entites::Contraption</a>
+: <a class="el" href="d4/d22/a01250.php#a5bc8d6c3b30e3dfd16c25093f9cb4cc2">mcd::entities::Contraption</a>
 </li>
 <li>turnRight()
-: <a class="el" href="d4/d22/a01250.php#adc8d2f50785c37a414b5906999c8a3e0">mcd::entites::Contraption</a>
+: <a class="el" href="d4/d22/a01250.php#aeaed192c1dd8f01d6fdd3d2d5a53946f">mcd::entities::Contraption</a>
 </li>
 </ul>
 </div><!-- contents -->

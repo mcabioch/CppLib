@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -123,10 +123,10 @@ $(document).ready(function(){initNavTree('functions_r.php',''); initResizable();
 : <a class="el" href="d0/d58/a01230.php#a5b1fc7215725e4cd22e95de9530e33ae">mcd::console::Cursor</a>
 </li>
 <li>resume()
-: <a class="el" href="d6/d2f/a01394.php#a3a50950ebd7b7d7b8aafc837e2e82fc4">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#ae84821e0607afd8bd876d378b9196639">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>retreive()
-: <a class="el" href="d6/d2f/a01394.php#a16b903c670697eda870a60418d814a02">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#a2765b5f55061bd8c4bb833bdc7466197">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>reverse()
 : <a class="el" href="d6/dfe/a01366.php#a1fb9d6aad58d7817692168eaea307a14">mcd::Path</a>

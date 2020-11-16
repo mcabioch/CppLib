@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('functions_a.php',''); initResizable();
 : <a class="el" href="d8/d15/a01218.php#a39d1e3b3618a86c29866bd90855bfc8f">mcd::console::Color</a>
 </li>
 <li>addPosition()
-: <a class="el" href="d4/d22/a01250.php#a19d6e2cdd63fe936b58298d215319527">mcd::entites::Contraption</a>
+: <a class="el" href="d4/d22/a01250.php#acc36f6140f606b02020c7f3bdd84264e">mcd::entities::Contraption</a>
 </li>
 <li>addProg()
 : <a class="el" href="d5/d17/a01098.php#a1eabf4c8408ded2b8deca24d99fd3234">mcd::Arguments</a>
@@ -123,13 +123,13 @@ $(document).ready(function(){initNavTree('functions_a.php',''); initResizable();
 : <a class="el" href="db/d12/a00268.php#a94df82ca2692e5eeaaab5cc8d801ed5f">mcd::ContraptionAttr</a>
 </li>
 <li>Animal()
-: <a class="el" href="da/d73/a01090.php#a36ed3fa0cc86391119065cdc1fd10c10">mcd::entites::Animal</a>
+: <a class="el" href="da/d73/a01090.php#a7af30eb656c1802c75c95d065a07370b">mcd::entities::Animal</a>
 </li>
 <li>Ant()
-: <a class="el" href="d6/dea/a01094.php#aa5ae8e8d1c69d88652d032bab0ee6590">mcd::entites::Ant</a>
+: <a class="el" href="d6/dea/a01094.php#a89e98bc6097befd384d0e3943c31244e">mcd::entities::Ant</a>
 </li>
 <li>anyObstacle()
-: <a class="el" href="da/d73/a01090.php#a368f50a5960e814706f04ab441318911">mcd::entites::Animal</a>
+: <a class="el" href="da/d73/a01090.php#a4077757e81082c173f22e35a20865dad">mcd::entities::Animal</a>
 </li>
 <li>applyForEach()
 : <a class="el" href="d0/de2/a01442.php#aa1c0e2b0a15c31c48ed5cade92c4ae3d">mcd::Tree&lt; T &gt;</a>
@@ -156,8 +156,8 @@ $(document).ready(function(){initNavTree('functions_a.php',''); initResizable();
 : <a class="el" href="db/d1e/a01126.php#ad93f95c8923581b9ce4e3d28d63a243e">mcd::AssertionException</a>
 </li>
 <li>attack()
-: <a class="el" href="da/d73/a01090.php#a9b36d22d0275ba7c2aaedb031bf7d630">mcd::entites::Animal</a>
-, <a class="el" href="dc/de0/a01302.php#ab05e964095ba05b2f3030b506146149a">mcd::entites::Hostile</a>
+: <a class="el" href="da/d73/a01090.php#a6f547163d2c74065256dae2dcd17a252">mcd::entities::Animal</a>
+, <a class="el" href="dc/de0/a01302.php#a3d6354e48ad575c90faf42a4e318cc27">mcd::entities::Hostile</a>
 </li>
 </ul>
 </div><!-- contents -->

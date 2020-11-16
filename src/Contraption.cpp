@@ -1,6 +1,6 @@
 #include "C++/Contraption.hpp"
 
-namespace mcd::entites
+namespace mcd::entities
 {
     Contraption::Contraption(Map* map, Point pt, ContraptionAttr attr) :
         _map(map), _pt(), _attr(), _level(0) {
@@ -89,4 +89,4 @@ namespace mcd::entites
 
         return stream;
     }
-}   // namespace mcd::entites
+}   // namespace mcd::entities

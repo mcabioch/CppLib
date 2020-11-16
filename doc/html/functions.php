@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,10 +95,10 @@ $(document).ready(function(){initNavTree('functions.php',''); initResizable(); }
 
 <h3><a id="index__5F"></a>- _ -</h3><ul>
 <li>_attacked
-: <a class="el" href="dc/de0/a01302.php#a517c801a2d2f6751cd8de754f310d2b5">mcd::entites::Hostile</a>
+: <a class="el" href="dc/de0/a01302.php#a96a8f567a0a6579b0d3f1208b6294764">mcd::entities::Hostile</a>
 </li>
 <li>_attackedSpec
-: <a class="el" href="dc/de0/a01302.php#ac4d84a2ee756506ab72b0a68aa7cc4dd">mcd::entites::Hostile</a>
+: <a class="el" href="dc/de0/a01302.php#a63f7abcf434ad9ff1ef5680c9fcdf5e7">mcd::entities::Hostile</a>
 </li>
 <li>_chroms
 : <a class="el" href="d3/ddc/a01142.php#ac4bfe0772fac9025654c268c48e6c9b8">mcd::natural::Cell</a>
@@ -107,16 +107,16 @@ $(document).ready(function(){initNavTree('functions.php',''); initResizable(); }
 : <a class="el" href="d2/d4d/a01338.php#a4d1b0de513765c2c8d23c25bbfb67ef2">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>_direction
-: <a class="el" href="da/d73/a01090.php#a02461dfb90d68b5d07cff80f8c6fce5b">mcd::entites::Animal</a>
+: <a class="el" href="da/d73/a01090.php#a4bc562574caadf029aef376b0f4419e0">mcd::entities::Animal</a>
 </li>
 <li>_end
 : <a class="el" href="d8/dbe/a01370.php#a6f42595f214b1d2328d40c7fcf371626">mcd::Pathfinding</a>
 </li>
 <li>_experience
-: <a class="el" href="d6/d2f/a01394.php#ab708b2bd6d4303f29965f903a06d3304">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#ae7b6d091ccca4b8f87e1f79de3f68f4e">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_experienceMax
-: <a class="el" href="d6/d2f/a01394.php#acc70fa2f20e92d7bf3230f1de10be4b5">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#a4232f04abefed40e0ae3581a57cce9ce">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_genes1
 : <a class="el" href="d2/da6/a01210.php#aee71a70b3b97fb62b45ca9ea7d8d8323">mcd::natural::Chromosome</a>
@@ -134,28 +134,28 @@ $(document).ready(function(){initNavTree('functions.php',''); initResizable(); }
 : <a class="el" href="d7/d8c/a01306.php#a6920412818f4d8a4478771fb767a2d07">mcd::Identifier</a>
 </li>
 <li>_init
-: <a class="el" href="d6/d2f/a01394.php#abe5985edd12d80f67185486bcd9f753a">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#a571044540bc7823d4d5f9ab623fdf14d">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_j
 : <a class="el" href="d2/d4d/a01338.php#aa10d441b574ef731f3fb4416761ed8da">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>_losted
-: <a class="el" href="d6/d2f/a01394.php#ab186de0cd69c729d798643a81b914521">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#adf915452859f22029b6430c117c848a0">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_mail
-: <a class="el" href="d6/d2f/a01394.php#ab92c40969f625df21f04be64609c3ede">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#ad16442287c374705e33c405e0174cc23">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_movedD
-: <a class="el" href="da/d73/a01090.php#a499edd077dc21a6088f803ed7733010b">mcd::entites::Animal</a>
+: <a class="el" href="da/d73/a01090.php#a2d7ee4282dacfae71d53aa104225ba03">mcd::entities::Animal</a>
 </li>
 <li>_movedL
-: <a class="el" href="da/d73/a01090.php#a1aa1ad28296856da3ce1c558ce2019ba">mcd::entites::Animal</a>
+: <a class="el" href="da/d73/a01090.php#acb9a99356ae343f2c6d494b10ba997a9">mcd::entities::Animal</a>
 </li>
 <li>_movedR
-: <a class="el" href="da/d73/a01090.php#ac48addecd1d7cf13ac3b038c3017e6ae">mcd::entites::Animal</a>
+: <a class="el" href="da/d73/a01090.php#a3e82d02a8e2731431d3cc08285a94cd1">mcd::entities::Animal</a>
 </li>
 <li>_movedU
-: <a class="el" href="da/d73/a01090.php#acb2226def10051d34a2df9436067073f">mcd::entites::Animal</a>
+: <a class="el" href="da/d73/a01090.php#a74904b87057c689dff0e5d66653aefa6">mcd::entities::Animal</a>
 </li>
 <li>_msg
 : <a class="el" href="dc/ded/a01290.php#a8cffcfc2c1a631bee3154a999bf13bf1">mcd::exception</a>
@@ -164,7 +164,7 @@ $(document).ready(function(){initNavTree('functions.php',''); initResizable(); }
 : <a class="el" href="dc/de6/a01426.php#a77d662da66e59d43579e7490d24d72b8">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>_obstacle
-: <a class="el" href="da/d73/a01090.php#a7a03e5b70c287c82d8c6370b9152a827">mcd::entites::Animal</a>
+: <a class="el" href="da/d73/a01090.php#a9412b6321a04d51a4f1e0bc8f96eb927">mcd::entities::Animal</a>
 </li>
 <li>_password
 : <a class="el" href="d7/d8c/a01306.php#a95d479399de1b046aff00e83210b67ea">mcd::Identifier</a>
@@ -173,7 +173,7 @@ $(document).ready(function(){initNavTree('functions.php',''); initResizable(); }
 : <a class="el" href="d8/dbe/a01370.php#afa7ec4aec9e8ed4aba2c3110ca86273f">mcd::Pathfinding</a>
 </li>
 <li>_paused
-: <a class="el" href="d6/d2f/a01394.php#a73deace93ea6e31f1f09516b1e07d229">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#a72360b878d0fc6a620a50c82e30a4c76">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>_problem
 : <a class="el" href="d8/dbe/a01370.php#a8432f285b7015512efbe0a9a47bc76d7">mcd::Pathfinding</a>
@@ -182,7 +182,7 @@ $(document).ready(function(){initNavTree('functions.php',''); initResizable(); }
 : <a class="el" href="d8/dbe/a01370.php#a6fc13e2aa513059f91865021b9b13eed">mcd::Pathfinding</a>
 </li>
 <li>_target
-: <a class="el" href="dc/de0/a01302.php#aa501022426c51d39447bed39d5e5de37">mcd::entites::Hostile</a>
+: <a class="el" href="dc/de0/a01302.php#a8bb19c39f6d257e3dcfb8ac949c92110">mcd::entities::Hostile</a>
 </li>
 <li>_username
 : <a class="el" href="d7/d8c/a01306.php#a4a002c57b507ef0c744135eacfb82b6f">mcd::Identifier</a>

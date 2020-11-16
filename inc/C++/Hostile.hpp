@@ -10,7 +10,7 @@
 
 #include "Entity.hpp"
 
-namespace mcd::entites
+namespace mcd::entities
 {
     /*!
      * \class	Hostile
@@ -93,6 +93,6 @@ namespace mcd::entites
         private:
         double64_t _strength;
     };
-}   // namespace mcd::entites
+}   // namespace mcd::entities
 
 #endif   // HEADER_CPP_HOSTILE

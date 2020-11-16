@@ -1,5 +1,5 @@
-<map id="mcd::entites::Stone" name="mcd::entites::Stone">
-<area shape="rect" id="node1" title="A stone." alt="" coords="22,155,158,181"/>
-<area shape="rect" id="node2" href="$de/d5c/a01358.php" title="An object." alt="" coords="20,80,160,107"/>
-<area shape="rect" id="node3" href="$d4/d22/a01250.php" title="A contraption." alt="" coords="5,5,175,32"/>
+<map id="mcd::entities::Stone" name="mcd::entities::Stone">
+<area shape="rect" id="node1" title="A stone." alt="" coords="22,155,161,181"/>
+<area shape="rect" id="node2" href="$de/d5c/a01358.php" title="An object." alt="" coords="20,80,163,107"/>
+<area shape="rect" id="node3" href="$d4/d22/a01250.php" title="A contraption." alt="" coords="5,5,177,32"/>
 </map>

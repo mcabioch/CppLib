@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -130,17 +130,17 @@ $(document).ready(function(){initNavTree('functions_func_i.php',''); initResizab
 : <a class="el" href="d4/dd1/a01334.php#a1784239c1be09cc3c9a7a4652292149d">mcd::Map</a>
 </li>
 <li>isInit()
-: <a class="el" href="d6/d2f/a01394.php#a43ee69adf9e63ae8f71a16699b6323bd">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#a268264e7a9a3c1825a132503203cb37f">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 , <a class="el" href="d5/df4/a01322.php#ad8527d935f1fa6c697d792a8f72276e4">mcd::Logger</a>
 </li>
 <li>isLost()
-: <a class="el" href="d6/d2f/a01394.php#a4095220ed3a0268473fb9dfd3c5c9cbd">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#a86786e9d13de129f91845ef44dbcef3d">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>isOnGround()
 : <a class="el" href="d4/dd1/a01334.php#ac5e6be35eea3af084431715595c1138b">mcd::Map</a>
 </li>
 <li>isPaused()
-: <a class="el" href="d6/d2f/a01394.php#ab95816ad378985d8598b58fb57573407">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#afeecca5eae25f4dacb45331d7155cd06">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>isSquare()
 : <a class="el" href="d2/d4d/a01338.php#a3885a9068844517cbbd58cfed57eb5c4">mcd::Matrix&lt; C &gt;</a>

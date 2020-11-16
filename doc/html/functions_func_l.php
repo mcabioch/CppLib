@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('functions_func_l.php',''); initResizab
 : <a class="el" href="d5/df4/a01322.php#a189cdd6486b23632d014a2e795ed8e13">mcd::Logger</a>
 </li>
 <li>lost()
-: <a class="el" href="d6/d2f/a01394.php#a83e2e836f3307aad21dae7c8764d76df">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#a94e85d6ad4702ba70f9b836224f3acf4">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>Lost()
 : <a class="el" href="db/d74/a01378.php#a933816a487769eec830729b051d0fbcd">mcd::PathfindingException</a>

@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -119,19 +119,19 @@ $(document).ready(function(){initNavTree('functions_p.php',''); initResizable();
 : <a class="el" href="de/d9d/a01382.php#af2aa5f359715262ae600422bb49e79af">mcd::PathfindingProblem</a>
 </li>
 <li>pause()
-: <a class="el" href="d6/d2f/a01394.php#adb28529726c63337991f7b5bfe35b10e">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#a82d03476d34e4cfd87a115f8ec0c9bb6">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>pgcd
 : <a class="el" href="d0/d61/a01130.php#aa6a7af66a5c239b2b46979e998c43679">mcd::Big</a>
 </li>
 <li>Plant()
-: <a class="el" href="d3/deb/a01386.php#a4fbf8b5f4db20308899edfde4a1154a4">mcd::entites::Plant</a>
+: <a class="el" href="d3/deb/a01386.php#aaebfaa3150c7b3a6753f4b0a72530c1a">mcd::entities::Plant</a>
 </li>
 <li>Player()
-: <a class="el" href="d5/d8e/a01390.php#a0fa3de5dfa5d8598eba6e6c0e54fd766">mcd::entites::Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="d5/d8e/a01390.php#afc8a29dfe1af25ababdc15766586689c">mcd::entities::Player&lt; PlayerParent &gt;</a>
 </li>
 <li>PlayerAbstraction()
-: <a class="el" href="d6/d2f/a01394.php#a47977a0a11ad6cd2dae46227762c527f">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d2f/a01394.php#ada7bd38d2592efe24f740b41e611c7ff">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>pop()
 : <a class="el" href="d1/d3d/a01110.php#a9c9c5803f41517e0b1b8d75441cd4b09">mcd::queue&lt; T, Container &gt;</a>
@@ -152,18 +152,18 @@ $(document).ready(function(){initNavTree('functions_p.php',''); initResizable();
 , <a class="el" href="d0/de2/a01442.php#a1e6f8d4ad100be50a970848a0c8437d1">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>printInfos()
-: <a class="el" href="da/d73/a01090.php#ac28cb514f889c0a4b7702bed1978e0f1">mcd::entites::Animal</a>
-, <a class="el" href="d6/dea/a01094.php#a360cd9bb3ecbbdc4681f2777a5b103ef">mcd::entites::Ant</a>
-, <a class="el" href="d4/d22/a01250.php#a89257d0016c214bb913dba4d216f658a">mcd::entites::Contraption</a>
-, <a class="el" href="d0/d00/a01286.php#a1b9fbe09aad94b280fdf4fd5df69f857">mcd::entites::Entity</a>
-, <a class="el" href="dc/de0/a01302.php#ae1a70a7d13ddb23365c58eaf347851fe">mcd::entites::Hostile</a>
-, <a class="el" href="d9/de4/a01346.php#af4342d87d2920f9194846952accc9e77">mcd::entites::Mushroom</a>
-, <a class="el" href="de/d5c/a01358.php#a10e38616dd2ab68b7e8e70f4c8a122e1">mcd::entites::Object</a>
-, <a class="el" href="d3/deb/a01386.php#adbd9a3a574ab03d3f7eb0395a03a5995">mcd::entites::Plant</a>
-, <a class="el" href="d5/d8e/a01390.php#adfd6fa261c44c532309163c13ec3a0c3">mcd::entites::Player&lt; PlayerParent &gt;</a>
-, <a class="el" href="d6/d2f/a01394.php#a3d8d09f4b8b3826b8c0378c129ba92d0">mcd::entites::PlayerAbstraction&lt; PlayerParent &gt;</a>
-, <a class="el" href="d4/d3c/a01418.php#a9262e7188780b1530c5a6f29e85f60e3">mcd::entites::Stone</a>
-, <a class="el" href="de/d36/a01462.php#a3bed840df7b84d6a2de16c43ccfb26fc">mcd::entites::Vegetal</a>
+: <a class="el" href="da/d73/a01090.php#ab2a69a743db95121455d4ffad09093f9">mcd::entities::Animal</a>
+, <a class="el" href="d6/dea/a01094.php#ab7248992a6bf2618a57a02924265c69a">mcd::entities::Ant</a>
+, <a class="el" href="d4/d22/a01250.php#ab591d64d5b72801c03cc26a4643a372d">mcd::entities::Contraption</a>
+, <a class="el" href="d0/d00/a01286.php#ad59f6da43899cd3bacbb37d561b68cfa">mcd::entities::Entity</a>
+, <a class="el" href="dc/de0/a01302.php#a58a066ffd12938224a6eabdde6477126">mcd::entities::Hostile</a>
+, <a class="el" href="d9/de4/a01346.php#a56acc2a348b80d07339b466136db148e">mcd::entities::Mushroom</a>
+, <a class="el" href="de/d5c/a01358.php#a8b4fd327a3baf871f43c83579f641382">mcd::entities::Object</a>
+, <a class="el" href="d3/deb/a01386.php#ade8ca4a3bfec850e3bf07de2b9a3237b">mcd::entities::Plant</a>
+, <a class="el" href="d5/d8e/a01390.php#ac2a688bf7b3a2d35c02f8955734fb8e8">mcd::entities::Player&lt; PlayerParent &gt;</a>
+, <a class="el" href="d6/d2f/a01394.php#a4309c73fda2f856f84fff3bff3991e70">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
+, <a class="el" href="d4/d3c/a01418.php#a6542695021e0451c08d44159c6b31a87">mcd::entities::Stone</a>
+, <a class="el" href="de/d36/a01462.php#ad13b20383ae39af86d0d5c40583f3d1c">mcd::entities::Vegetal</a>
 </li>
 <li>privateK
 : <a class="el" href="da/d00/a01270.php#a41496cdf1557d2e3dda4d0f414738af5">mcd::RSA</a>

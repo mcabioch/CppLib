@@ -1,6 +1,6 @@
 #include "C++/Animal.hpp"
 
-namespace mcd::entites
+namespace mcd::entities
 {
     Animal::Animal(Map* map, Point pt, ContraptionAttr attr) :
         Entity(map, pt, attr),
@@ -119,4 +119,4 @@ namespace mcd::entites
                           this->getY(),
                           radius);
     }
-}   // namespace mcd::entites
+}   // namespace mcd::entities

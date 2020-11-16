@@ -57,8 +57,8 @@ var searchData=
   ['trycatch_5fassert_5f1_723',['trycatch_assert_1',['../d4/d51/a00017.php#a03a10d236fc4f20f3112800357d031b8',1,'Assert.hpp']]],
   ['trycatch_5fassert_5f2_724',['trycatch_assert_2',['../d4/d51/a00017.php#aeb5765b3fff243e2890aaa95685cff04',1,'Assert.hpp']]],
   ['trycatch_5fassert_5fx_725',['trycatch_assert_X',['../d4/d51/a00017.php#a5d54e82e2c44992f7970be8337f7c3e9',1,'Assert.hpp']]],
-  ['turn_726',['turn',['../da/d73/a01090.php#a74240288a6b9d0ae3ec2407805bc8c62',1,'mcd::entites::Animal']]],
-  ['turnleft_727',['turnLeft',['../d4/d22/a01250.php#af62a631783e20d0805d813d9fbe9a093',1,'mcd::entites::Contraption']]],
-  ['turnright_728',['turnRight',['../d4/d22/a01250.php#adc8d2f50785c37a414b5906999c8a3e0',1,'mcd::entites::Contraption']]],
+  ['turn_726',['turn',['../da/d73/a01090.php#a7b9a4a5aec17dca7bbbac35a2a863ff5',1,'mcd::entities::Animal']]],
+  ['turnleft_727',['turnLeft',['../d4/d22/a01250.php#a5bc8d6c3b30e3dfd16c25093f9cb4cc2',1,'mcd::entities::Contraption']]],
+  ['turnright_728',['turnRight',['../d4/d22/a01250.php#aeaed192c1dd8f01d6fdd3d2d5a53946f',1,'mcd::entities::Contraption']]],
   ['types_2ehpp_729',['types.hpp',['../d3/d1a/a00251.php',1,'']]]
 ];

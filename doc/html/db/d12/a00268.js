@@ -2,7 +2,7 @@ var a00268 =
 [
     [ "check", "d0/d19/a00273.php", "d0/d19/a00273" ],
     [ "console", "d9/d2a/a00270.php", "d9/d2a/a00270" ],
-    [ "entites", "d5/d42/a00269.php", "d5/d42/a00269" ],
+    [ "entities", "d5/d42/a00269.php", "d5/d42/a00269" ],
     [ "natural", "dd/d86/a00271.php", "dd/d86/a00271" ],
     [ "tests", "dd/d56/a00274.php", "dd/d56/a00274" ],
     [ "Arguments", "d5/d17/a01098.php", "d5/d17/a01098" ],

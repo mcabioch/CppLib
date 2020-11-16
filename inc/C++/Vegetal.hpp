@@ -10,7 +10,7 @@
 
 #include "Entity.hpp"
 
-namespace mcd::entites
+namespace mcd::entities
 {
     /*!
      * \class	Vegetal
@@ -55,6 +55,6 @@ namespace mcd::entites
         protected:
         private:
     };
-}   // namespace mcd::entites
+}   // namespace mcd::entities
 
 #endif   // HEADER_CPP_VEGETAL

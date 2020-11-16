@@ -1,9 +1,9 @@
-<map id="mcd::entites::Entity" name="mcd::entites::Entity">
-<area shape="rect" id="node1" title="An entity." alt="" coords="93,80,229,107"/>
-<area shape="rect" id="node3" href="$da/d73/a01090.php" title="An animal." alt="" coords="5,155,148,181"/>
-<area shape="rect" id="node5" href="$de/d36/a01462.php" title="A vegetal." alt="" coords="173,155,319,181"/>
-<area shape="rect" id="node2" href="$d4/d22/a01250.php" title="A contraption." alt="" coords="76,5,245,32"/>
-<area shape="rect" id="node4" href="$d6/dea/a01094.php" title="An ant." alt="" coords="15,229,138,256"/>
-<area shape="rect" id="node6" href="$d9/de4/a01346.php" title="A mushroom." alt="" coords="163,229,326,256"/>
-<area shape="rect" id="node7" href="$d3/deb/a01386.php" title="A plant." alt="" coords="351,229,483,256"/>
+<map id="mcd::entities::Entity" name="mcd::entities::Entity">
+<area shape="rect" id="node1" title="An entity." alt="" coords="94,80,233,107"/>
+<area shape="rect" id="node3" href="$da/d73/a01090.php" title="An animal." alt="" coords="5,155,151,181"/>
+<area shape="rect" id="node5" href="$de/d36/a01462.php" title="A vegetal." alt="" coords="175,155,325,181"/>
+<area shape="rect" id="node2" href="$d4/d22/a01250.php" title="A contraption." alt="" coords="77,5,249,32"/>
+<area shape="rect" id="node4" href="$d6/dea/a01094.php" title="An ant." alt="" coords="15,229,141,256"/>
+<area shape="rect" id="node6" href="$d9/de4/a01346.php" title="A mushroom." alt="" coords="165,229,332,256"/>
+<area shape="rect" id="node7" href="$d3/deb/a01386.php" title="A plant." alt="" coords="356,229,491,256"/>
 </map>

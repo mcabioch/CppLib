@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -124,19 +124,19 @@ $(document).ready(function(){initNavTree('functions_h.php',''); initResizable();
 : <a class="el" href="d0/de2/a01442.php#a069d03de16fc9d3db25d7ec67ed6811b">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>hit()
-: <a class="el" href="d0/d00/a01286.php#a0d8105dd459c8384c215269a89328201">mcd::entites::Entity</a>
+: <a class="el" href="d0/d00/a01286.php#a7a517e59b83d8c02c65d145b99ce9f36">mcd::entities::Entity</a>
 </li>
 <li>home()
 : <a class="el" href="d0/d58/a01230.php#acf65fe5af6d5a72cbcac5af73f14bc40">mcd::console::Cursor</a>
 </li>
 <li>Hostile()
-: <a class="el" href="dc/de0/a01302.php#a42389eba9d32429f68bcc16f2e2ce2a8">mcd::entites::Hostile</a>
+: <a class="el" href="dc/de0/a01302.php#a634ba713e660545c1b265e514105726b">mcd::entities::Hostile</a>
 </li>
 <li>hour()
 : <a class="el" href="d8/dd0/a01430.php#afc42ec7546725501d6cd8eb069e92a52">mcd::Time</a>
 </li>
 <li>hurt()
-: <a class="el" href="dc/de0/a01302.php#aa13db475ebf08ba49fbcedf4d4685ef5">mcd::entites::Hostile</a>
+: <a class="el" href="dc/de0/a01302.php#a1a47c03167233b91560a001e55d169ef">mcd::entities::Hostile</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -28,7 +28,7 @@ var searchData=
   ['treeascsorter_1428',['treeAscSorter',['../db/d12/a00268.php#aa17a2314efb86933584ae451318a17da',1,'mcd']]],
   ['treedescsorter_1429',['treeDescSorter',['../db/d12/a00268.php#a1865ef6e7eed9ac5fa5b177b3f8dd1e9',1,'mcd']]],
   ['trim_1430',['trim',['../db/d12/a00268.php#aa97708c3c4ad49b7e60d30c66bfad80a',1,'mcd']]],
-  ['turn_1431',['turn',['../da/d73/a01090.php#a74240288a6b9d0ae3ec2407805bc8c62',1,'mcd::entites::Animal']]],
-  ['turnleft_1432',['turnLeft',['../d4/d22/a01250.php#af62a631783e20d0805d813d9fbe9a093',1,'mcd::entites::Contraption']]],
-  ['turnright_1433',['turnRight',['../d4/d22/a01250.php#adc8d2f50785c37a414b5906999c8a3e0',1,'mcd::entites::Contraption']]]
+  ['turn_1431',['turn',['../da/d73/a01090.php#a7b9a4a5aec17dca7bbbac35a2a863ff5',1,'mcd::entities::Animal']]],
+  ['turnleft_1432',['turnLeft',['../d4/d22/a01250.php#a5bc8d6c3b30e3dfd16c25093f9cb4cc2',1,'mcd::entities::Contraption']]],
+  ['turnright_1433',['turnRight',['../d4/d22/a01250.php#aeaed192c1dd8f01d6fdd3d2d5a53946f',1,'mcd::entities::Contraption']]]
 ];

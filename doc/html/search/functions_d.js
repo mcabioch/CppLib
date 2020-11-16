@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['object_1244',['Object',['../de/d5c/a01358.php#afada17f07dc3064e60e770ca087b3458',1,'mcd::entites::Object']]],
+  ['object_1244',['Object',['../de/d5c/a01358.php#a36ec7abe7591f33eef64ad1cfd761146',1,'mcd::entities::Object']]],
   ['oncompare_1245',['onCompare',['../d0/de2/a01442.php#a279d0472004ed9618dde58fcfd6bb508',1,'mcd::Tree']]],
   ['ondelete_1246',['onDelete',['../d0/de2/a01442.php#ad9cda4b45c11828381cde08fa48ae94d',1,'mcd::Tree']]],
   ['operator_20bool_1247',['operator bool',['../d0/d61/a01130.php#ac482f8c9f482ce76ed197faf07d24617',1,'mcd::Big']]],

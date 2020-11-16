@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.2</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Sun Nov 15 2020 20:32:44 for C++ by";
+				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -109,8 +109,8 @@ Inheritance diagram for mcd::Identifier:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/d9e/a01305.png" border="0" usemap="#amcd_1_1Identifier_inherit__map" alt="Inheritance graph"/></div>
 <map name="mcd_1_1Identifier_inherit__map" id="mcd_1_1Identifier_inherit__map">
-<area shape="rect" title="A class to store some identify datas." alt="" coords="22,5,127,32"/>
-<area shape="rect" href="../../d5/d8e/a01390.php" title="A player that can be a child from any class." alt="" coords="5,80,144,121"/>
+<area shape="rect" title="A class to store some identify datas." alt="" coords="24,5,129,32"/>
+<area shape="rect" href="../../d5/d8e/a01390.php" title="A player that can be a child from any class." alt="" coords="5,80,148,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">

@@ -10,7 +10,7 @@
 
 #include "Vegetal.hpp"
 
-namespace mcd::entites
+namespace mcd::entities
 {
     /*!
      * \class	Plant
@@ -48,6 +48,6 @@ namespace mcd::entites
         protected:
         private:
     };
-}   // namespace mcd::entites
+}   // namespace mcd::entities
 
 #endif   // HEADER_CPP_PLANT
