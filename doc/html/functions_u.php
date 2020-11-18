@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,14 +95,14 @@ $(document).ready(function(){initNavTree('functions_u.php',''); initResizable();
 
 <h3><a id="index_u"></a>- u -</h3><ul>
 <li>untarget()
-: <a class="el" href="dc/de0/a01302.php#af8950fd68a124f1cfabd86f4f5c77537">mcd::entities::Hostile</a>
+: <a class="el" href="d6/d07/a01303.php#af8950fd68a124f1cfabd86f4f5c77537">mcd::entities::Hostile</a>
 </li>
 <li>update()
-: <a class="el" href="d3/d53/a01262.php#a2a9dc41a2367f4dabb2c345ee0bf51c6">mcd::SHA2</a>
-, <a class="el" href="d1/de7/a01434.php#aa0825ee9a421da67ddac15fd45632d4e">mcd::Timer</a>
+: <a class="el" href="de/dcb/a01263.php#a2a9dc41a2367f4dabb2c345ee0bf51c6">mcd::SHA2</a>
+, <a class="el" href="d3/d95/a01435.php#aa0825ee9a421da67ddac15fd45632d4e">mcd::Timer</a>
 </li>
 <li>updater()
-: <a class="el" href="d1/de7/a01434.php#a51c964a91c78103efb975c00be769073">mcd::Timer</a>
+: <a class="el" href="d3/d95/a01435.php#a51c964a91c78103efb975c00be769073">mcd::Timer</a>
 </li>
 </ul>
 </div><!-- contents -->

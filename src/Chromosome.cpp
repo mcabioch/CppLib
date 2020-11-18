@@ -2,7 +2,7 @@
 
 namespace mcd
 {
-    namespace natural
+    namespace genetic
     {
         Chromosome::Chromosome(Genes gs1) : _genes1(gs1), _genes2() {
             for (auto& g : _genes1) { _genes2.push_back(g.copy()); }
@@ -83,6 +83,6 @@ namespace mcd
             return Chromosome(gs1, gs2);
         }
 
-    }   // namespace natural
+    }   // namespace genetic
 
 }   // namespace mcd

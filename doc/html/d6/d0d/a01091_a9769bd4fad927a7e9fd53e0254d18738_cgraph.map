@@ -1,0 +1,4 @@
+<map id="mcd::entities::Animal::collides" name="mcd::entities::Animal::collides">
+<area shape="rect" id="node1" title="Verify the collisions between two objects like rectangles." alt="" coords="5,5,151,47"/>
+<area shape="rect" id="node2" href="$d6/d0d/a01091.php#a34fc3f1fd66937bd41bb242616404753" title="Verify the collisions between two objects like rectangles." alt="" coords="199,5,344,47"/>
+</map>

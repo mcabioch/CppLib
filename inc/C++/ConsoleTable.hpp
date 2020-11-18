@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		ConsoleTable.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	August, 16 2018
+ *  \file       ConsoleTable.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 16 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_CONSOLE_TABLE
-#define HEADER_CPP_CONSOLE_TABLE
+#ifndef HEADER_MCD_CONSOLE_TABLE
+#define HEADER_MCD_CONSOLE_TABLE
 
 #include "includes.hpp"
 
@@ -35,4 +36,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_CONSOLE_TABLE
+#endif   // HEADER_MCD_CONSOLE_TABLE

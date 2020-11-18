@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		Fraction.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Monday September, 16 2019 17:05:47
- *	\modified	October, 28 2020
+ *  \file       Fraction.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Monday September, 16 2019 17:05:47
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_FRACTION
-#define HEADER_FRACTION
+#ifndef HEADER_MCD_FRACTION
+#define HEADER_MCD_FRACTION
 
 #include "maths.hpp"
 
@@ -173,4 +173,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_FRACTION
+#endif   // HEADER_MCD_FRACTION

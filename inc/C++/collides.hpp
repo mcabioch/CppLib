@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		collides.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	September, 17 2019
+ *  \file       collides.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    July, 31 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_COLLIDES
-#define HEADER_CPP_COLLIDES
+#ifndef HEADER_MCD_COLLIDES
+#define HEADER_MCD_COLLIDES
 
 #include "Matrix.hpp"
 
@@ -118,4 +119,4 @@ namespace mcd
                               double64_t By);
 }   // namespace mcd
 
-#endif   // HEADER_CPP_COLLIDES
+#endif   // HEADER_MCD_COLLIDES

@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		DateTime.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	October, 28 2020
+ *  \file       DateTime.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 17 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_DATETIME
-#define HEADER_CPP_DATETIME
+#ifndef HEADER_MCD_DATETIME
+#define HEADER_MCD_DATETIME
 
 #include "Date.hpp"
 #include "Time.hpp"
@@ -41,4 +42,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_DATETIME
+#endif   // HEADER_MCD_DATETIME

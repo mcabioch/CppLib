@@ -2,7 +2,7 @@
 
 namespace mcd
 {
-    namespace natural
+    namespace genetic
     {
         int Gene::MutationRate  = 21;
         int Gene::FloatAccuracy = 4;
@@ -112,6 +112,6 @@ namespace mcd
             for (auto& g : in) { out.push_back(g.copy()); }
         }
 
-    }   // namespace natural
+    }   // namespace genetic
 
 }   // namespace mcd

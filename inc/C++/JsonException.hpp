@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		Json.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Sunday November, 24 2019 14:24:00
- *	\modified	October, 25 2020
+ *  \file       Json.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Sunday November, 24 2019 14:24:00
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_JSON_EXCEPTION
-#define HEADER_JSON_EXCEPTION
+#ifndef HEADER_MCD_JSON_EXCEPTION
+#define HEADER_MCD_JSON_EXCEPTION
 
 #include "defines.hpp"
 
@@ -24,4 +24,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_JSON_EXCEPTION
+#endif   // HEADER_MCD_JSON_EXCEPTION

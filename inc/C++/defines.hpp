@@ -1,8 +1,9 @@
 /*!
  *
- *	\file		defines.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	October, 25 2020
+ *  \file       defines.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    January, 19 2019
+ *  \modified   November, 18 2020
  *
  *	\details	- Enable the use of ;
  *					- BDD with bdd\n
@@ -13,8 +14,8 @@
  *					- IOConfig with ioconfig\n
  *
  */
-#ifndef HEADER_CPP_DEFINES
-#define HEADER_CPP_DEFINES
+#ifndef HEADER_MCD_DEFINES
+#define HEADER_MCD_DEFINES
 
 #include "Timer.hpp"
 //#include "bdd.hpp"
@@ -53,4 +54,4 @@ namespace mcd
     enum class Direction { UP = 0, DOWN = 1, RIGHT = 2, LEFT = 3, NONE = 4 };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_DEFINES
+#endif   // HEADER_MCD_DEFINES

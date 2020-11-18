@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Ant.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	August, 17 2018
+ *  \file       Ant.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 17 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_ANT
-#define HEADER_CPP_ANT
+#ifndef HEADER_MCD_ENTITIES_ANT
+#define HEADER_MCD_ENTITIES_ANT
 
 #include "Animal.hpp"
 
@@ -83,4 +84,4 @@ namespace mcd::entities
     };
 }   // namespace mcd::entities
 
-#endif   // HEADER_CPP_ANT
+#endif   // HEADER_MCD_ENTITIES_ANT

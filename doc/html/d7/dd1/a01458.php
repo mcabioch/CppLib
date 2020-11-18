@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:13:51 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -127,11 +127,17 @@ Collaboration diagram for mcd::vector&lt; C &gt;:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a92e814868c4f4b6f3d0969b200b35c91"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd1/a01458.php#a92e814868c4f4b6f3d0969b200b35c91">vector</a> ()</td></tr>
+<tr class="memdesc:a92e814868c4f4b6f3d0969b200b35c91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="../../d7/dd1/a01458.php#a92e814868c4f4b6f3d0969b200b35c91">More...</a><br /></td></tr>
 <tr class="separator:a92e814868c4f4b6f3d0969b200b35c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85632a3c79899e1a5a75f7fa6b959815"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd1/a01458.php#a85632a3c79899e1a5a75f7fa6b959815">vector</a> (const std::initializer_list&lt; C &gt; &amp;v)</td></tr>
+<tr class="memdesc:a85632a3c79899e1a5a75f7fa6b959815"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a vector from an initialize_list {}.  <a href="../../d7/dd1/a01458.php#a85632a3c79899e1a5a75f7fa6b959815">More...</a><br /></td></tr>
 <tr class="separator:a85632a3c79899e1a5a75f7fa6b959815"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea718ab247c60108c5dd591905174a95"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd1/a01458.php#aea718ab247c60108c5dd591905174a95">vector</a> (const std::vector&lt; C &gt; &amp;v)</td></tr>
+<tr class="memdesc:aea718ab247c60108c5dd591905174a95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a vector from a std::vector.  <a href="../../d7/dd1/a01458.php#aea718ab247c60108c5dd591905174a95">More...</a><br /></td></tr>
 <tr class="separator:aea718ab247c60108c5dd591905174a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add784d96e220dad18773cb17ad6cae83"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd1/a01458.php#add784d96e220dad18773cb17ad6cae83">vector</a> (size_t v, C value)</td></tr>
+<tr class="memdesc:add784d96e220dad18773cb17ad6cae83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a vector of size v with value.  <a href="../../d7/dd1/a01458.php#add784d96e220dad18773cb17ad6cae83">More...</a><br /></td></tr>
+<tr class="separator:add784d96e220dad18773cb17ad6cae83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a215cad8226c8f949ff27fcd0e606b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; C &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd1/a01458.php#a2a215cad8226c8f949ff27fcd0e606b8">operator=</a> (const std::initializer_list&lt; C &gt; &amp;v)</td></tr>
 <tr class="separator:a2a215cad8226c8f949ff27fcd0e606b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41342ef4979ab35b4daecfd7ad8c837f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; C &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd1/a01458.php#a41342ef4979ab35b4daecfd7ad8c837f">operator=</a> (const std::vector&lt; C &gt; &amp;v)</td></tr>
@@ -195,7 +201,7 @@ class mcd::vector&lt; C &gt;</h3>
 <p>Add some features to std::vector. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a92e814868c4f4b6f3d0969b200b35c91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92e814868c4f4b6f3d0969b200b35c91">&#9670;&nbsp;</a></span>vector() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e814868c4f4b6f3d0969b200b35c91">&#9670;&nbsp;</a></span>vector() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,10 +225,12 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Default constructor. </p>
+
 </div>
 </div>
 <a id="a85632a3c79899e1a5a75f7fa6b959815"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85632a3c79899e1a5a75f7fa6b959815">&#9670;&nbsp;</a></span>vector() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a85632a3c79899e1a5a75f7fa6b959815">&#9670;&nbsp;</a></span>vector() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,10 +255,12 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Construct a vector from an initialize_list {}. </p>
+
 </div>
 </div>
 <a id="aea718ab247c60108c5dd591905174a95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea718ab247c60108c5dd591905174a95">&#9670;&nbsp;</a></span>vector() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aea718ab247c60108c5dd591905174a95">&#9670;&nbsp;</a></span>vector() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,6 +284,48 @@ template&lt;class C &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Construct a vector from a std::vector. </p>
+
+</div>
+</div>
+<a id="add784d96e220dad18773cb17ad6cae83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add784d96e220dad18773cb17ad6cae83">&#9670;&nbsp;</a></span>vector() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector</a>&lt; C &gt;::<a class="el" href="../../d7/dd1/a01458.php">vector</a> </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">C&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct a vector of size v with value. </p>
 
 </div>
 </div>

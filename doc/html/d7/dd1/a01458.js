@@ -3,6 +3,7 @@ var a01458 =
     [ "vector", "d7/dd1/a01458.php#a92e814868c4f4b6f3d0969b200b35c91", null ],
     [ "vector", "d7/dd1/a01458.php#a85632a3c79899e1a5a75f7fa6b959815", null ],
     [ "vector", "d7/dd1/a01458.php#aea718ab247c60108c5dd591905174a95", null ],
+    [ "vector", "d7/dd1/a01458.php#add784d96e220dad18773cb17ad6cae83", null ],
     [ "operator&=", "d7/dd1/a01458.php#acef3e5f0cf617a16de3d05045f6a21ed", null ],
     [ "operator+=", "d7/dd1/a01458.php#a0ac9b9f19baf217c291e37a190b3e68c", null ],
     [ "operator-=", "d7/dd1/a01458.php#a78502b560831d092c0eaaca67e79d4f4", null ],

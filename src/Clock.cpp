@@ -32,4 +32,13 @@ namespace mcd
             std::chrono::duration_cast< std::chrono::microseconds >(end - m_start).count();
         return static_cast< double64_t >(elapsed);
     }
+
+    namespace clock
+    {
+        void waitFor(double64_t timeInMilliseconds) {
+            Clock c;
+            c.start();
+            while (c.getElapsed() < timeInMilliseconds) {}
+        }
+    }   // namespace clock
 }   // namespace mcd

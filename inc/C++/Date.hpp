@@ -1,8 +1,9 @@
 /*!
  *
- *	\file		Date.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	October, 28 2020
+ *  \file       Date.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 17 2018
+ *  \modified   November, 18 2020
  *
  *	\details	Formats disponibles afin de récupérer la date\n
  *				\%A : Return the complete name of the day\n
@@ -24,8 +25,8 @@
  *				\%y : Return the last 2 numbers of the year\n
  *
  */
-#ifndef HEADER_CPP_DATE
-#define HEADER_CPP_DATE
+#ifndef HEADER_MCD_DATE
+#define HEADER_MCD_DATE
 
 #include "includes.hpp"
 
@@ -81,4 +82,4 @@ namespace mcd
 
 }   // namespace mcd
 
-#endif   // HEADER_CPP_DATE
+#endif   // HEADER_MCD_DATE

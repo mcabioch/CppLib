@@ -1,9 +1,9 @@
 /*!
  *
- *	\file		Matrix_functions.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Sunday September, 15 2019 19:17:03
- *	\modified	September, 26 2019
+ *  \file       Matrix_functions.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Sunday September, 15 2019 19:17:03
+ *  \modified   November, 18 2020
  *
  */
 #ifndef HEADER_MATRIX_FUNCTIONS

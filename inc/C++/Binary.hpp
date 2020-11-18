@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		Binary.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Thursday September, 26 2019 19:42:06
- *	\modified	September, 27 2019
+ *  \file       Binary.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Thursday September, 26 2019 19:42:06
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_BINARY
-#define HEADER_BINARY
+#ifndef HEADER_MCD_BINARY
+#define HEADER_MCD_BINARY
 
 #include "pointers.hpp"
 
@@ -307,4 +307,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_BINARY
+#endif   // HEADER_MCD_BINARY

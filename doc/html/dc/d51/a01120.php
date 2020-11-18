@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::Assert Class Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.1.1</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Nov 13 2020 11:03:54 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('dc/d51/a01120.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('de/de5/a01123.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,129 +91,22 @@ $(document).ready(function(){initNavTree('dc/d51/a01120.php','../../'); initResi
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d6/d8b/a01117.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Assert Class Reference</div>  </div>
+<div class="title">mcd::Assert Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>My assert's implementation.  
- <a href="../../dc/d51/a01120.php#details">More...</a></p>
-
-<p><code>#include &lt;Assert.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ad4dd96d96703a8dd5efcd62ee8d3a78d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d51/a01120.php#ad4dd96d96703a8dd5efcd62ee8d3a78d">Assert</a> ()</td></tr>
-<tr class="memdesc:ad4dd96d96703a8dd5efcd62ee8d3a78d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../dc/d51/a01120.php#ad4dd96d96703a8dd5efcd62ee8d3a78d">More...</a><br /></td></tr>
-<tr class="separator:ad4dd96d96703a8dd5efcd62ee8d3a78d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0abb896db412bab499f6d1bd59d65a10"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d51/a01120.php#a0abb896db412bab499f6d1bd59d65a10">~Assert</a> ()</td></tr>
-<tr class="separator:a0abb896db412bab499f6d1bd59d65a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab411af4c628ae6ed469f78119eb99de4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d51/a01120.php#ab411af4c628ae6ed469f78119eb99de4">operator()</a> (bool expr, const <a class="el" href="../../db/d12/a00268.php#d4/dc5/a01116">AssertionLocationStruct</a> &amp;location, const std::string &amp;msg)</td></tr>
-<tr class="separator:ab411af4c628ae6ed469f78119eb99de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>My assert's implementation. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad4dd96d96703a8dd5efcd62ee8d3a78d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4dd96d96703a8dd5efcd62ee8d3a78d">&#9670;&nbsp;</a></span>Assert()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::Assert::Assert </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The constructor of the class. </p>
-
-</div>
-</div>
-<a id="a0abb896db412bab499f6d1bd59d65a10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0abb896db412bab499f6d1bd59d65a10">&#9670;&nbsp;</a></span>~Assert()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual mcd::Assert::~Assert </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab411af4c628ae6ed469f78119eb99de4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab411af4c628ae6ed469f78119eb99de4">&#9670;&nbsp;</a></span>operator()()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::Assert::operator() </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>expr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#d4/dc5/a01116">AssertionLocationStruct</a> &amp;&#160;</td>
-          <td class="paramname"><em>location</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>msg</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d4/d51/a00017.php">Assert.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../de/de5/a01123.php">mcd::Assert</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../de/de5/a01123.php#ad4dd96d96703a8dd5efcd62ee8d3a78d">Assert</a>()</td><td class="entry"><a class="el" href="../../de/de5/a01123.php">mcd::Assert</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/de5/a01123.php#ab411af4c628ae6ed469f78119eb99de4">operator()</a>(bool expr, const AssertionLocationStruct &amp;location, const std::string &amp;msg)</td><td class="entry"><a class="el" href="../../de/de5/a01123.php">mcd::Assert</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/de5/a01123.php#a0abb896db412bab499f6d1bd59d65a10">~Assert</a>()</td><td class="entry"><a class="el" href="../../de/de5/a01123.php">mcd::Assert</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../dc/d51/a01120.php">Assert</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

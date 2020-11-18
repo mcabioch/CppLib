@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		errors.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\date		November, 13 2020
+ *  \file       errors.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    April, 24 2019
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_ERRORS
-#define HEADER_CPP_ERRORS
+#ifndef HEADER_MCD_ERRORS
+#define HEADER_MCD_ERRORS
 
 #include "console.hpp"
 #include "files.hpp"
@@ -109,4 +110,4 @@ namespace mcd
     }
 }   // namespace mcd
 
-#endif   // HEADER_CPP_ERRORS
+#endif   // HEADER_MCD_ERRORS

@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		NotCopyable.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Monday August, 06 2018 06:55:14
- *	\modified	September, 29 2019
+ *  \file       NotCopyable.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Monday August, 06 2018 06:55:14
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_NOT_COPYABLE
-#define HEADER_CPP_NOT_COPYABLE
+#ifndef HEADER_MCD_NOT_COPYABLE
+#define HEADER_MCD_NOT_COPYABLE
 
 namespace mcd
 {
@@ -36,4 +36,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_NOT_COPYABLE
+#endif   // HEADER_MCD_NOT_COPYABLE

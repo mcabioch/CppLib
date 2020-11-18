@@ -1,6 +1,8 @@
 <map id="mcd::entities::Player&lt; PlayerParent &gt;" name="mcd::entities::Player&lt; PlayerParent &gt;">
-<area shape="rect" id="node1" title="A player that can be a child from any class." alt="" coords="129,169,271,211"/>
-<area shape="rect" id="node2" href="$d6/d2f/a01394.php" title="A player that can be a child from any class." alt="" coords="5,80,213,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="61,5,158,32"/>
-<area shape="rect" id="node4" href="$d7/d8c/a01306.php" title="A class to store some identify datas." alt="" coords="238,87,343,114"/>
+<area shape="rect" id="node1" title="A player that can be a child from any class." alt="" coords="127,291,270,332"/>
+<area shape="rect" id="node2" href="$d2/df5/a01395.php" title="A player that can be a child from any class." alt="" coords="5,200,213,241"/>
+<area shape="rect" id="node3" title=" " alt="" coords="61,96,158,123"/>
+<area shape="rect" id="node4" title="STL class." alt="" coords="216,96,296,123"/>
+<area shape="rect" id="node6" href="$d2/d4c/a01307.php" title="A class to store some identify datas." alt="" coords="238,207,343,234"/>
+<area shape="rect" id="node5" title="STL class." alt="" coords="193,5,319,47"/>
 </map>

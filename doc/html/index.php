@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -255,7 +255,7 @@ November, 27 2019 (1.5.0.0)</h2>
 <p>Adding a class to do some unitary tests in a program.</p>
 <h2><a class="anchor" id="upd_sec_2019114_subsec"></a>
 November, 14 2019 (1.4.1.1)</h2>
-<p>Changing assert behaviour to throw a <a class="el" href="db/d1e/a01126.php" title="An exception thrown by my assert&#39;s implementation.">mcd::AssertionException</a> instead of closing the program.</p>
+<p>Changing assert behaviour to throw a <a class="el" href="d9/d5b/a01127.php" title="An exception thrown by my assert&#39;s implementation.">mcd::AssertionException</a> instead of closing the program.</p>
 <h2><a class="anchor" id="upd_sec_20191109_subsec"></a>
 November, 09 2019 (1.4.0.0)</h2>
 <p>Adding an object to log informations (logger).</p>

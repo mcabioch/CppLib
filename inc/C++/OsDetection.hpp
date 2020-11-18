@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		OsDetection.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Friday October, 04 2019 16:09:57
- *	\modified	Friday October, 04 2019
+ *  \file       OsDetection.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Friday October, 04 2019 16:09:57
+ *  \modified   Friday October, 04 2019
  *
  */
-#ifndef HEADER_OS_DETECTION
-#define HEADER_OS_DETECTION
+#ifndef HEADER_MCD_OS_DETECTION
+#define HEADER_MCD_OS_DETECTION
 
 #if defined(__FreeBSD__) || defined(__NetBSD__) || defined(__OpenBSD__) || defined(__bsdi__) ||    \
     defined(__DragonFly__)
@@ -32,4 +32,4 @@
 
 #include "lowIncludes.hpp"
 
-#endif   // HEADER_OS_DETECTION
+#endif   // HEADER_MCD_OS_DETECTION

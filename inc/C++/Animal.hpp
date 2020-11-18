@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Animal.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	September, 26 2019
+ *  \file       Animal.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 17 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_ANIMAL
-#define HEADER_CPP_ANIMAL
+#ifndef HEADER_MCD_ENTITIES_ANIMAL
+#define HEADER_MCD_ENTITIES_ANIMAL
 
 #include "Hostile.hpp"
 
@@ -238,4 +239,4 @@ namespace mcd::entities
     };
 }   // namespace mcd::entities
 
-#endif   // HEADER_CPP_ANIMAL
+#endif   // HEADER_MCD_ENTITIES_ANIMAL

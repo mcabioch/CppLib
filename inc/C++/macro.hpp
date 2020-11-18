@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		macro.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\date		May, 29 2018
+ *  \file       macro.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    May, 29 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_MACRO
-#define HEADER_CPP_MACRO
+#ifndef HEADER_MCD_MACRO
+#define HEADER_MCD_MACRO
 
 namespace mcd
 {
@@ -23,4 +24,4 @@ namespace mcd
     /*****************************/
 }   // namespace mcd
 
-#endif   // HEADER_CPP_MACRO
+#endif   // HEADER_MCD_MACRO

@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Point Struct Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('d7/dd1/a01458.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('df/dc5/a01455.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,40 +91,380 @@ $(document).ready(function(){initNavTree('d7/dd1/a01458.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
+<a href="../../dd/d1c/a01452.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::vector&lt; C &gt; Member List</div>  </div>
+<div class="title">mcd::Point Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a1552117c5c07498294173619e4ca5836">operator&amp;</a>(const vector&lt; C &gt; &amp;a, const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#acef3e5f0cf617a16de3d05045f6a21ed">operator&amp;=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a8f261f2319c479f4e714b269bbbbdfa9">operator+</a>(const vector&lt; C &gt; &amp;a, const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a0ac9b9f19baf217c291e37a190b3e68c">operator+=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#aee068ab7887e20606e98299c3671c34a">operator-</a>(const vector&lt; C &gt; &amp;a, const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a78502b560831d092c0eaaca67e79d4f4">operator-=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a809579a337d6d0419a28bff79eb2597b">operator&lt;&lt;</a>(std::ostream &amp;os, const vector &amp;other)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a2a215cad8226c8f949ff27fcd0e606b8">operator=</a>(const std::initializer_list&lt; C &gt; &amp;v)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a41342ef4979ab35b4daecfd7ad8c837f">operator=</a>(const std::vector&lt; C &gt; &amp;v)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a3b06b20625099b2c7cdd5ac2c7290558">operator&gt;&gt;</a>(std::istream &amp;is, vector &amp;other)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#af87e40dfdbf6844cacdd3fc5873018b0">operator^</a>(const vector&lt; C &gt; &amp;a, const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a5bccad40e32efad3b685320434e65201">operator^=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a1db1d552fd452960ac62c3d796c0649a">operator|</a>(const vector&lt; C &gt; &amp;a, const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#acf021f04fbc720705d300f638b8f2de1">operator|=</a>(const vector&lt; C &gt; &amp;b)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a58c2e9df00704c786bfcfcca5a383a0e">pop</a>(size_t pos=0)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#abb5d16922f908bf0ae4422d89c728e90">push</a>(const C &amp;obj, size_t pos=0)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a83393673767b1c3cde0242f7147effbc">push_top</a>(const C &amp;obj)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a43a974122831853dd91af1da065a7c39">shuffle</a>()</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a92e814868c4f4b6f3d0969b200b35c91">vector</a>()</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#a85632a3c79899e1a5a75f7fa6b959815">vector</a>(const std::initializer_list&lt; C &gt; &amp;v)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd1/a01458.php#aea718ab247c60108c5dd591905174a95">vector</a>(const std::vector&lt; C &gt; &amp;v)</td><td class="entry"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-</table></div><!-- contents -->
+<p>A struct to define a point in space.  
+ <a href="../../df/dc5/a01455.php#details">More...</a></p>
+
+<p><code>#include &lt;types.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:afd57961d22ce89d783303c0fbbdc4f83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dc5/a01455.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc5/a01455.php#afd57961d22ce89d783303c0fbbdc4f83">top</a> () const</td></tr>
+<tr class="separator:afd57961d22ce89d783303c0fbbdc4f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2beb84069e438adcccfa4b6ed9794c0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dc5/a01455.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc5/a01455.php#a2beb84069e438adcccfa4b6ed9794c0c">bot</a> () const</td></tr>
+<tr class="separator:a2beb84069e438adcccfa4b6ed9794c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91941563ecc020a510832ba8869e5ded"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dc5/a01455.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc5/a01455.php#a91941563ecc020a510832ba8869e5ded">left</a> () const</td></tr>
+<tr class="separator:a91941563ecc020a510832ba8869e5ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a613a9be49ee0cbe55e10e75db1d59faa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dc5/a01455.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc5/a01455.php#a613a9be49ee0cbe55e10e75db1d59faa">right</a> () const</td></tr>
+<tr class="separator:a613a9be49ee0cbe55e10e75db1d59faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8422e469473d1718b8f7a267e0d12019"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a8422e469473d1718b8f7a267e0d12019"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value &amp;&amp;std::is_arithmetic&lt; U &gt;::value, <a class="el" href="../../df/dc5/a01455.php">Point</a> &amp; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/dc5/a01455.php#a8422e469473d1718b8f7a267e0d12019">operator=</a> (const std::pair&lt; T, U &gt; &amp;o)</td></tr>
+<tr class="separator:a8422e469473d1718b8f7a267e0d12019"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeac533b3e4edb1f24bd947e0a96bb5c4"><td class="memTemplParams" colspan="2">template&lt;class T , class U , class V &gt; </td></tr>
+<tr class="memitem:aeac533b3e4edb1f24bd947e0a96bb5c4"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value &amp;&amp;std::is_arithmetic&lt; U &gt;::value &amp;&amp;std::is_arithmetic&lt; V &gt;::value, <a class="el" href="../../df/dc5/a01455.php">Point</a> &amp; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/dc5/a01455.php#aeac533b3e4edb1f24bd947e0a96bb5c4">operator=</a> (const <a class="el" href="../../db/d12/a00268.php#df/d75/a01447">trio</a>&lt; T, U, V &gt; &amp;o)</td></tr>
+<tr class="separator:aeac533b3e4edb1f24bd947e0a96bb5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a924c77d36867a18d5a52767ff246ebfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc5/a01455.php#a924c77d36867a18d5a52767ff246ebfc">x</a> = 0</td></tr>
+<tr class="separator:a924c77d36867a18d5a52767ff246ebfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab339ac0efa2259051dc1ac0637d2c9a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc5/a01455.php#ab339ac0efa2259051dc1ac0637d2c9a8">y</a> = 0</td></tr>
+<tr class="separator:ab339ac0efa2259051dc1ac0637d2c9a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a010288cb5febefa70329d35a726c7291"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc5/a01455.php#a010288cb5febefa70329d35a726c7291">z</a> = 0</td></tr>
+<tr class="separator:a010288cb5febefa70329d35a726c7291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a177528c8a1eee37fcda25a89084b8ed6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc5/a01455.php#a177528c8a1eee37fcda25a89084b8ed6">operator==</a> (const <a class="el" href="../../df/dc5/a01455.php">Point</a> &amp;a, const <a class="el" href="../../df/dc5/a01455.php">Point</a> &amp;b)</td></tr>
+<tr class="separator:a177528c8a1eee37fcda25a89084b8ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56d3ecc223a30b7947a8a5e3776083e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc5/a01455.php#a56d3ecc223a30b7947a8a5e3776083e3">operator!=</a> (const <a class="el" href="../../df/dc5/a01455.php">Point</a> &amp;a, const <a class="el" href="../../df/dc5/a01455.php">Point</a> &amp;b) noexcept</td></tr>
+<tr class="separator:a56d3ecc223a30b7947a8a5e3776083e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55681886ec7c5d7c0210fa0611bc84ea"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc5/a01455.php#a55681886ec7c5d7c0210fa0611bc84ea">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../df/dc5/a01455.php">Point</a> &amp;a)</td></tr>
+<tr class="separator:a55681886ec7c5d7c0210fa0611bc84ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A struct to define a point in space. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2beb84069e438adcccfa4b6ed9794c0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2beb84069e438adcccfa4b6ed9794c0c">&#9670;&nbsp;</a></span>bot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc5/a01455.php">Point</a> mcd::Point::bot </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91941563ecc020a510832ba8869e5ded"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91941563ecc020a510832ba8869e5ded">&#9670;&nbsp;</a></span>left()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc5/a01455.php">Point</a> mcd::Point::left </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8422e469473d1718b8f7a267e0d12019"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8422e469473d1718b8f7a267e0d12019">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value &amp;&amp; std::is_arithmetic&lt; U &gt;::value, <a class="el" href="../../df/dc5/a01455.php">Point</a>&amp; &gt; mcd::Point::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const std::pair&lt; T, U &gt; &amp;&#160;</td>
+          <td class="paramname"><em>o</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeac533b3e4edb1f24bd947e0a96bb5c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeac533b3e4edb1f24bd947e0a96bb5c4">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U , class V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value &amp;&amp; std::is_arithmetic&lt; U &gt;::value &amp;&amp; std::is_arithmetic&lt; V &gt;::value, <a class="el" href="../../df/dc5/a01455.php">Point</a>&amp; &gt; mcd::Point::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d12/a00268.php#df/d75/a01447">trio</a>&lt; T, U, V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>o</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a613a9be49ee0cbe55e10e75db1d59faa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a613a9be49ee0cbe55e10e75db1d59faa">&#9670;&nbsp;</a></span>right()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc5/a01455.php">Point</a> mcd::Point::right </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd57961d22ce89d783303c0fbbdc4f83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd57961d22ce89d783303c0fbbdc4f83">&#9670;&nbsp;</a></span>top()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc5/a01455.php">Point</a> mcd::Point::top </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a56d3ecc223a30b7947a8a5e3776083e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56d3ecc223a30b7947a8a5e3776083e3">&#9670;&nbsp;</a></span>operator!=</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../df/dc5/a01455.php">Point</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../df/dc5/a01455.php">Point</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55681886ec7c5d7c0210fa0611bc84ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55681886ec7c5d7c0210fa0611bc84ea">&#9670;&nbsp;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../df/dc5/a01455.php">Point</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a177528c8a1eee37fcda25a89084b8ed6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a177528c8a1eee37fcda25a89084b8ed6">&#9670;&nbsp;</a></span>operator==</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../df/dc5/a01455.php">Point</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../df/dc5/a01455.php">Point</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a924c77d36867a18d5a52767ff246ebfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a924c77d36867a18d5a52767ff246ebfc">&#9670;&nbsp;</a></span>x</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Point::x = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>X position </p>
+
+</div>
+</div>
+<a id="ab339ac0efa2259051dc1ac0637d2c9a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab339ac0efa2259051dc1ac0637d2c9a8">&#9670;&nbsp;</a></span>y</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Point::y = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Y position </p>
+
+</div>
+</div>
+<a id="a010288cb5febefa70329d35a726c7291"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a010288cb5febefa70329d35a726c7291">&#9670;&nbsp;</a></span>z</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Point::z = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Z position </p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="../../d3/d1a/a00251.php">types.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../df/dc5/a01455.php">Point</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

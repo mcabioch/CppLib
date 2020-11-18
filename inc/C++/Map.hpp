@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		Map.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	July, 29 2018 14:27:51
- *	\modified	November, 13 2020
+ *  \file       Map.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    July, 29 2018 14:27:51
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_MAP
-#define HEADER_CPP_MAP
+#ifndef HEADER_MCD_MAP
+#define HEADER_MCD_MAP
 
 #include "PathfindingAlgorithms.hpp"
 
@@ -286,4 +286,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_MAP
+#endif   // HEADER_MCD_MAP

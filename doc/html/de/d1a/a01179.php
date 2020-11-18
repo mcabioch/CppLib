@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::check::has_size_method&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('dd/de9/a01182.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('de/d1a/a01179.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,22 +91,127 @@ $(document).ready(function(){initNavTree('dd/de9/a01182.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="../../d3/d32/a01176.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::check::has_ostream_operator&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::check::has_size_method&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dd/de9/a01182.php">mcd::check::has_ostream_operator&lt; T &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/de9/a01182.php#a05ef2c0843f85a3a80939610eea77d77">has_ostream_operator</a>()</td><td class="entry"><a class="el" href="../../dd/de9/a01182.php">mcd::check::has_ostream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/de9/a01182.php#af36f2c4b347387c5a90bf148b05bc04c">value</a></td><td class="entry"><a class="el" href="../../dd/de9/a01182.php">mcd::check::has_ostream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/de9/a01182.php#ac15204b5f1ac95e3bdab7d29779544a3">~has_ostream_operator</a>()</td><td class="entry"><a class="el" href="../../dd/de9/a01182.php">mcd::check::has_ostream_operator&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>Verify if an object has a size method.  
+ <a href="../../de/d1a/a01179.php#details">More...</a></p>
+
+<p><code>#include &lt;check.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aa38792bc7d7a672a0e50e67a9b47a8cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1a/a01179.php#aa38792bc7d7a672a0e50e67a9b47a8cb">has_size_method</a> ()</td></tr>
+<tr class="separator:aa38792bc7d7a672a0e50e67a9b47a8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1b20696341a76adc3a13da7d6f4b0d0"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1a/a01179.php#ac1b20696341a76adc3a13da7d6f4b0d0">~ has_size_method</a> ()</td></tr>
+<tr class="separator:ac1b20696341a76adc3a13da7d6f4b0d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a5c410a099dcfd580d150caf61018b963"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1a/a01179.php#a5c410a099dcfd580d150caf61018b963">value</a> = std::is_same&lt; decltype(test&lt; T &gt;(0)), yes &gt;::value</td></tr>
+<tr class="separator:a5c410a099dcfd580d150caf61018b963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class mcd::check::has_size_method&lt; T &gt;</h3>
+
+<p>Verify if an object has a size method. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa38792bc7d7a672a0e50e67a9b47a8cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa38792bc7d7a672a0e50e67a9b47a8cb">&#9670;&nbsp;</a></span>has_size_method()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d1a/a01179.php">mcd::check::has_size_method</a>&lt; T &gt;::<a class="el" href="../../de/d1a/a01179.php">has_size_method</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1b20696341a76adc3a13da7d6f4b0d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1b20696341a76adc3a13da7d6f4b0d0">&#9670;&nbsp;</a></span>~ has_size_method()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../de/d1a/a01179.php">mcd::check::has_size_method</a>&lt; T &gt;::~ <a class="el" href="../../de/d1a/a01179.php">has_size_method</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5c410a099dcfd580d150caf61018b963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c410a099dcfd580d150caf61018b963">&#9670;&nbsp;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool <a class="el" href="../../de/d1a/a01179.php">mcd::check::has_size_method</a>&lt; T &gt;::value = std::is_same&lt; decltype(test&lt; T &gt;(0)), yes &gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../dc/dee/a00053.php">check.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d0/d19/a00273.php">check</a></li><li class="navelem"><a class="el" href="../../de/d1a/a01179.php">has_size_method</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

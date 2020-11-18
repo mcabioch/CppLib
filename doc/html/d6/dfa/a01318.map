@@ -1,4 +1,5 @@
-<map id="mcd::Object" name="mcd::Object">
-<area shape="rect" id="node1" title="An object." alt="" coords="20,80,113,107"/>
-<area shape="rect" id="node2" href="$de/d16/a01228.php" title="A contraption." alt="" coords="5,5,128,32"/>
+<map id="mcd::JsonException" name="mcd::JsonException">
+<area shape="rect" id="node1" title="A class to throw Json exceptions." alt="" coords="5,155,147,181"/>
+<area shape="rect" id="node2" href="$d4/da0/a01291.php" title="A class to call custom exceptions." alt="" coords="21,80,131,107"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="24,5,128,32"/>
 </map>

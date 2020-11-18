@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		convert.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	October, 02 2019
+ *  \file       convert.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 15 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_CONVERT
-#define HEADER_CPP_CONVERT
+#ifndef HEADER_MCD_CONVERT
+#define HEADER_MCD_CONVERT
 
 #ifndef OS_WINDOWS
 #    include <type_traits>
@@ -236,4 +237,4 @@ namespace mcd
     }
 }   // namespace mcd
 
-#endif   // HEADER_CPP_CONVERT
+#endif   // HEADER_MCD_CONVERT

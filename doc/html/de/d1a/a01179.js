@@ -1,6 +1,6 @@
 var a01179 =
 [
-    [ "has_istream_operator", "de/d1a/a01179.php#a6343682f15ad178aa8883b61094b7d2a", null ],
-    [ "~has_istream_operator", "de/d1a/a01179.php#a4381564142a22fed101f4a2b2b7728b4", null ],
-    [ "value", "de/d1a/a01179.php#a4ea6d2bc4fe8e15561698f6ea66d021b", null ]
+    [ "has_size_method", "de/d1a/a01179.php#aa38792bc7d7a672a0e50e67a9b47a8cb", null ],
+    [ "~ has_size_method", "de/d1a/a01179.php#ac1b20696341a76adc3a13da7d6f4b0d0", null ],
+    [ "value", "de/d1a/a01179.php#a5c410a099dcfd580d150caf61018b963", null ]
 ];

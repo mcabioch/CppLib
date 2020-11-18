@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,7 +93,8 @@ $(document).ready(function(){initNavTree('d9/d39/a00257.php','../../'); initResi
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">vector.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -210,20 +211,43 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd1/a01458.php">mcd::vector&lt; C &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add some features to std::vector.  <a href="../../d7/dd1/a01458.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3b/a01459.php">mcd::vector&lt; C &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add some features to std::vector.  <a href="../../d6/d3b/a01459.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:db/d12/a00268"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php">mcd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a7b0db3328f52b96e9e135888db3fcf3b"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a7b0db3328f52b96e9e135888db3fcf3b"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a7b0db3328f52b96e9e135888db3fcf3b">mcd::max</a> (const vector&lt; C &gt; &amp;v)</td></tr>
+<tr class="memdesc:a7b0db3328f52b96e9e135888db3fcf3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the index of the maximum value in the vector.  <a href="../../db/d12/a00268.php#a7b0db3328f52b96e9e135888db3fcf3b">More...</a><br /></td></tr>
+<tr class="separator:a7b0db3328f52b96e9e135888db3fcf3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f73b2e5a4d4534d9896fd5167d58fb9"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a2f73b2e5a4d4534d9896fd5167d58fb9"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a2f73b2e5a4d4534d9896fd5167d58fb9">mcd::min</a> (const vector&lt; C &gt; &amp;v)</td></tr>
+<tr class="memdesc:a2f73b2e5a4d4534d9896fd5167d58fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the index of the minimum value in the vector.  <a href="../../db/d12/a00268.php#a2f73b2e5a4d4534d9896fd5167d58fb9">More...</a><br /></td></tr>
+<tr class="separator:a2f73b2e5a4d4534d9896fd5167d58fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a849378e969aeeafb4680926e7dec8892"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a849378e969aeeafb4680926e7dec8892"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a849378e969aeeafb4680926e7dec8892">mcd::count</a> (const vector&lt; C &gt; &amp;v, const C &amp;value)</td></tr>
+<tr class="memdesc:a849378e969aeeafb4680926e7dec8892"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of occurence of the value in the vector.  <a href="../../db/d12/a00268.php#a849378e969aeeafb4680926e7dec8892">More...</a><br /></td></tr>
+<tr class="separator:a849378e969aeeafb4680926e7dec8892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6299a0a4cb021eca2a76cb4194ee03f"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:ac6299a0a4cb021eca2a76cb4194ee03f"><td class="memTemplItemLeft" align="right" valign="top">C&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ac6299a0a4cb021eca2a76cb4194ee03f">mcd::mean</a> (const vector&lt; C &gt; &amp;array)</td></tr>
+<tr class="memdesc:ac6299a0a4cb021eca2a76cb4194ee03f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mean of the vector content.  <a href="../../db/d12/a00268.php#ac6299a0a4cb021eca2a76cb4194ee03f">More...</a><br /></td></tr>
+<tr class="separator:ac6299a0a4cb021eca2a76cb4194ee03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c1636f1b771c5fe96ac1345dab7f286"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a6c1636f1b771c5fe96ac1345dab7f286"><td class="memTemplItemLeft" align="right" valign="top">vector&lt; C &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a6c1636f1b771c5fe96ac1345dab7f286">mcd::mean</a> (const vector&lt; vector&lt; C &gt; &gt; &amp;array)</td></tr>
+<tr class="memdesc:a6c1636f1b771c5fe96ac1345dab7f286"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a vector of the means of the vectors contents.  <a href="../../db/d12/a00268.php#a6c1636f1b771c5fe96ac1345dab7f286">More...</a><br /></td></tr>
+<tr class="separator:a6c1636f1b771c5fe96ac1345dab7f286"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Created : Friday September, 27 2019 00:02:47 </dd>
 <dd>
-Last modification : November, 15 2020 </dd></dl>
+Last modification : November, 17 2020 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->

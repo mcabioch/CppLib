@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		Pathfinding.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	July, 30 2018 09:09:52
- *	\modified	August, 15 2018
+ *  \file       Pathfinding.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    July, 30 2018 09:09:52
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_PATHFINDING
-#define HEADER_CPP_PATHFINDING
+#ifndef HEADER_MCD_PATHFINDING
+#define HEADER_MCD_PATHFINDING
 
 #include "PathfindingProblem.hpp"
 
@@ -54,4 +54,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_PATHFINDING
+#endif   // HEADER_MCD_PATHFINDING

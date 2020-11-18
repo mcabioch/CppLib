@@ -1,10 +1,10 @@
 var a00270 =
 [
-    [ "Cls", "dd/d9e/a01226.php", "dd/d9e/a01226" ],
-    [ "Color", "d8/d15/a01218.php", "d8/d15/a01218" ],
-    [ "Cursor", "d0/d58/a01230.php", "d0/d58/a01230" ],
-    [ "Reinit", "de/d7e/a01222.php", "de/d7e/a01222" ],
-    [ "SetPrecision", "d7/dc5/a01242.php", "d7/dc5/a01242" ],
-    [ "ThreadCout", "d8/ddf/a01238.php", "d8/ddf/a01238" ],
-    [ "ThreadEndlCout", "d6/d1e/a01234.php", "d6/d1e/a01234" ]
+    [ "Cls", "d9/da8/a01227.php", "d9/da8/a01227" ],
+    [ "Color", "d5/d39/a01219.php", "d5/d39/a01219" ],
+    [ "Cursor", "d0/d88/a01231.php", "d0/d88/a01231" ],
+    [ "Reinit", "d7/ddd/a01223.php", "d7/ddd/a01223" ],
+    [ "SetPrecision", "d8/db0/a01243.php", "d8/db0/a01243" ],
+    [ "ThreadCout", "d7/dbf/a01239.php", "d7/dbf/a01239" ],
+    [ "ThreadEndlCout", "dd/dad/a01235.php", "dd/dad/a01235" ]
 ];

@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		cryptage.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	September, 24 2019
+ *  \file       cryptage.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 17 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_CRYPTAGE
-#define HEADER_CPP_CRYPTAGE
+#ifndef HEADER_MCD_CRYPTAGE
+#define HEADER_MCD_CRYPTAGE
 
 #include "defines.hpp"
 
@@ -287,4 +288,4 @@ namespace mcd
     extern MyCrypt mycrypt;
 }   // namespace mcd
 
-#endif   // HEADER_CPP_CRYPTAGE
+#endif   // HEADER_MCD_CRYPTAGE

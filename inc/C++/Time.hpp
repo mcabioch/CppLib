@@ -1,8 +1,9 @@
 /*!
  *
- *	\file		Time.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	October, 28 2020
+ *  \file       Time.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 17 2018
+ *  \modified   November, 18 2020
  *
  *	\details	Formats disponibles afin de récupérer l'heure\n
  *				\%H : Return the number of hours of the day between 00 and 24\n
@@ -18,8 +19,8 @@
  *				\%p : Return am or pm\n
  *
  */
-#ifndef HEADER_CPP_TIME
-#define HEADER_CPP_TIME
+#ifndef HEADER_MCD_TIME
+#define HEADER_MCD_TIME
 
 #include "includes.hpp"
 
@@ -67,4 +68,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_TIME
+#endif   // HEADER_MCD_TIME

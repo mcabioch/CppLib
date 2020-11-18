@@ -1,5 +1,25 @@
 var a01395 =
 [
-    [ "Referenced", "d2/df5/a01395.php#a23a4eee18708dae4eff05079a345c375", null ],
-    [ "_her", "d2/df5/a01395.php#a3aadcf63bff72dd8c87f4c1d7a3bd240", null ]
+    [ "PlayerAbstraction", "d2/df5/a01395.php#ada7bd38d2592efe24f740b41e611c7ff", null ],
+    [ "~PlayerAbstraction", "d2/df5/a01395.php#a9cfa454745dabd8717ffe4a571007f62", null ],
+    [ "getExperience", "d2/df5/a01395.php#a012aa35f27bfdb8052deaebd77dda626", null ],
+    [ "getExperienceMax", "d2/df5/a01395.php#a91bd38849aa5b5903b43379788da57d7", null ],
+    [ "getMail", "d2/df5/a01395.php#a5f02f2db54c8de06ef0bbb61d45ae7a9", null ],
+    [ "isInit", "d2/df5/a01395.php#a268264e7a9a3c1825a132503203cb37f", null ],
+    [ "isLost", "d2/df5/a01395.php#a86786e9d13de129f91845ef44dbcef3d", null ],
+    [ "isPaused", "d2/df5/a01395.php#afeecca5eae25f4dacb45331d7155cd06", null ],
+    [ "lost", "d2/df5/a01395.php#a94e85d6ad4702ba70f9b836224f3acf4", null ],
+    [ "pause", "d2/df5/a01395.php#a82d03476d34e4cfd87a115f8ec0c9bb6", null ],
+    [ "printInfos", "d2/df5/a01395.php#a4309c73fda2f856f84fff3bff3991e70", null ],
+    [ "resume", "d2/df5/a01395.php#ae84821e0607afd8bd876d378b9196639", null ],
+    [ "retreive", "d2/df5/a01395.php#a2765b5f55061bd8c4bb833bdc7466197", null ],
+    [ "setExperience", "d2/df5/a01395.php#a48155c21ce7158164ea13882afcf0d89", null ],
+    [ "setExperienceMax", "d2/df5/a01395.php#aced7dfe51456584e0d64825cdb975b19", null ],
+    [ "setMail", "d2/df5/a01395.php#a76eda950b57bf41f056dab6c7130df77", null ],
+    [ "_experience", "d2/df5/a01395.php#ae7b6d091ccca4b8f87e1f79de3f68f4e", null ],
+    [ "_experienceMax", "d2/df5/a01395.php#a4232f04abefed40e0ae3581a57cce9ce", null ],
+    [ "_init", "d2/df5/a01395.php#a571044540bc7823d4d5f9ab623fdf14d", null ],
+    [ "_losted", "d2/df5/a01395.php#adf915452859f22029b6430c117c848a0", null ],
+    [ "_mail", "d2/df5/a01395.php#ad16442287c374705e33c405e0174cc23", null ],
+    [ "_paused", "d2/df5/a01395.php#a72360b878d0fc6a620a50c82e30a4c76", null ]
 ];

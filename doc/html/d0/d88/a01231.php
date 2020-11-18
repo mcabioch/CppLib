@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::console::Cursor Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('d6/d1e/a01234.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d0/d88/a01231.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,21 +91,296 @@ $(document).ready(function(){initNavTree('d6/d1e/a01234.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="../../de/d16/a01228.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::console::ThreadEndlCout Member List</div>  </div>
+<div class="title">mcd::console::Cursor Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d6/d1e/a01234.php">mcd::console::ThreadEndlCout</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d1e/a01234.php#a428f6ae4ecd881bbbb2db0c317f4d210">ThreadEndlCout</a>()</td><td class="entry"><a class="el" href="../../d6/d1e/a01234.php">mcd::console::ThreadEndlCout</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d1e/a01234.php#a0eb354777e73153d8afabd8ee1b56657">~ThreadEndlCout</a>()</td><td class="entry"><a class="el" href="../../d6/d1e/a01234.php">mcd::console::ThreadEndlCout</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to play with the cursor in the console.  
+ <a href="../../d0/d88/a01231.php#details">More...</a></p>
+
+<p><code>#include &lt;console.hpp&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for mcd::console::Cursor:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/d58/a01230.png" border="0" usemap="#amcd_1_1console_1_1Cursor_inherit__map" alt="Inheritance graph"/></div>
+<map name="mcd_1_1console_1_1Cursor_inherit__map" id="mcd_1_1console_1_1Cursor_inherit__map">
+<area shape="rect" title="A class to play with the cursor in the console." alt="" coords="5,80,152,107"/>
+<area shape="rect" href="../../d8/d31/a01407.php" title="A class to make some other to be abstract class." alt="" coords="19,5,138,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for mcd::console::Cursor:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d1c/a01229.png" border="0" usemap="#amcd_1_1console_1_1Cursor_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1console_1_1Cursor_coll__map" id="mcd_1_1console_1_1Cursor_coll__map">
+<area shape="rect" title="A class to play with the cursor in the console." alt="" coords="5,80,152,107"/>
+<area shape="rect" href="../../d8/d31/a01407.php" title="A class to make some other to be abstract class." alt="" coords="19,5,138,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a935cee462520735116a963b3df85c5d4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a935cee462520735116a963b3df85c5d4"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d88/a01231.php#a935cee462520735116a963b3df85c5d4">goTo</a> (T x, T y)</td></tr>
+<tr class="memdesc:a935cee462520735116a963b3df85c5d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go to an x/y position.  <a href="../../d0/d88/a01231.php#a935cee462520735116a963b3df85c5d4">More...</a><br /></td></tr>
+<tr class="separator:a935cee462520735116a963b3df85c5d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d7f5ff054303c5974c2bb92cdaa2af5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d88/a01231.php#a2d7f5ff054303c5974c2bb92cdaa2af5">save</a> ()</td></tr>
+<tr class="memdesc:a2d7f5ff054303c5974c2bb92cdaa2af5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the actual cursor position.  <a href="../../d0/d88/a01231.php#a2d7f5ff054303c5974c2bb92cdaa2af5">More...</a><br /></td></tr>
+<tr class="separator:a2d7f5ff054303c5974c2bb92cdaa2af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b1fc7215725e4cd22e95de9530e33ae"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d88/a01231.php#a5b1fc7215725e4cd22e95de9530e33ae">restore</a> ()</td></tr>
+<tr class="memdesc:a5b1fc7215725e4cd22e95de9530e33ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore the cursor's saved position.  <a href="../../d0/d88/a01231.php#a5b1fc7215725e4cd22e95de9530e33ae">More...</a><br /></td></tr>
+<tr class="separator:a5b1fc7215725e4cd22e95de9530e33ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf65fe5af6d5a72cbcac5af73f14bc40"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d88/a01231.php#acf65fe5af6d5a72cbcac5af73f14bc40">home</a> ()</td></tr>
+<tr class="memdesc:acf65fe5af6d5a72cbcac5af73f14bc40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the restore member.  <a href="../../d0/d88/a01231.php#acf65fe5af6d5a72cbcac5af73f14bc40">More...</a><br /></td></tr>
+<tr class="separator:acf65fe5af6d5a72cbcac5af73f14bc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7425e2f516feeb283ad6d8a889333a71"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7425e2f516feeb283ad6d8a889333a71"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d88/a01231.php#a7425e2f516feeb283ad6d8a889333a71">put</a> (const std::string &amp;str, T x, T y, const <a class="el" href="../../d5/d39/a01219.php">Color</a> &amp;color=mcd::console::Colors::NORMAL)</td></tr>
+<tr class="memdesc:a7425e2f516feeb283ad6d8a889333a71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write something to the given position.  <a href="../../d0/d88/a01231.php#a7425e2f516feeb283ad6d8a889333a71">More...</a><br /></td></tr>
+<tr class="separator:a7425e2f516feeb283ad6d8a889333a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_methods_a01407"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a01407')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d8/d31/a01407.php">mcd::PureVirtual</a></td></tr>
+<tr class="memitem:ab67f25d69c1686f95be6fbfcc4ac4663 inherit pub_methods_a01407"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d31/a01407.php#ab67f25d69c1686f95be6fbfcc4ac4663">PureVirtual</a> ()</td></tr>
+<tr class="memdesc:ab67f25d69c1686f95be6fbfcc4ac4663 inherit pub_methods_a01407"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d8/d31/a01407.php#ab67f25d69c1686f95be6fbfcc4ac4663">More...</a><br /></td></tr>
+<tr class="separator:ab67f25d69c1686f95be6fbfcc4ac4663 inherit pub_methods_a01407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb8cb10e007f7c5f6ac757843a212598 inherit pub_methods_a01407"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d31/a01407.php#acb8cb10e007f7c5f6ac757843a212598">~PureVirtual</a> ()</td></tr>
+<tr class="separator:acb8cb10e007f7c5f6ac757843a212598 inherit pub_methods_a01407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1885fa694cc2d28cb55186fb3b53615d inherit pub_methods_a01407"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d31/a01407.php#a1885fa694cc2d28cb55186fb3b53615d">PureVirtualMethod</a> () final=0</td></tr>
+<tr class="separator:a1885fa694cc2d28cb55186fb3b53615d inherit pub_methods_a01407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to play with the cursor in the console. </p>
+<p>This class allow you to move, save and restore the cursor position </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a935cee462520735116a963b3df85c5d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a935cee462520735116a963b3df85c5d4">&#9670;&nbsp;</a></span>goTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::console::Cursor::goTo </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Go to an x/y position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The y position</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="acf65fe5af6d5a72cbcac5af73f14bc40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf65fe5af6d5a72cbcac5af73f14bc40">&#9670;&nbsp;</a></span>home()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::console::Cursor::home </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Alias for the restore member. </p>
+<pre class="fragment">\return         void
+</pre> <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/d88/a01231_acf65fe5af6d5a72cbcac5af73f14bc40_cgraph.png" border="0" usemap="#ad0/d88/a01231_acf65fe5af6d5a72cbcac5af73f14bc40_cgraph" alt=""/></div>
+<map name="d0/d88/a01231_acf65fe5af6d5a72cbcac5af73f14bc40_cgraph" id="d0/d88/a01231_acf65fe5af6d5a72cbcac5af73f14bc40_cgraph">
+<area shape="rect" title="Alias for the restore member." alt="" coords="5,5,152,47"/>
+<area shape="rect" href="../../d0/d88/a01231.php#a5b1fc7215725e4cd22e95de9530e33ae" title="Restore the cursor&#39;s saved position." alt="" coords="200,5,347,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7425e2f516feeb283ad6d8a889333a71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7425e2f516feeb283ad6d8a889333a71">&#9670;&nbsp;</a></span>put()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::console::Cursor::put </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d5/d39/a01219.php">Color</a> &amp;&#160;</td>
+          <td class="paramname"><em>color</em> = <code>mcd::console::Colors::NORMAL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write something to the given position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The string to put in the ostream</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position of the string </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The y position of the string </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>The color of the string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/d88/a01231_a7425e2f516feeb283ad6d8a889333a71_cgraph.png" border="0" usemap="#ad0/d88/a01231_a7425e2f516feeb283ad6d8a889333a71_cgraph" alt=""/></div>
+<map name="d0/d88/a01231_a7425e2f516feeb283ad6d8a889333a71_cgraph" id="d0/d88/a01231_a7425e2f516feeb283ad6d8a889333a71_cgraph">
+<area shape="rect" title="Write something to the given position." alt="" coords="5,78,179,105"/>
+<area shape="rect" href="../../d0/d88/a01231.php#a935cee462520735116a963b3df85c5d4" title="Go to an x/y position." alt="" coords="227,5,373,47"/>
+<area shape="rect" href="../../d0/d88/a01231.php#a5b1fc7215725e4cd22e95de9530e33ae" title="Restore the cursor&#39;s saved position." alt="" coords="227,71,373,112"/>
+<area shape="rect" href="../../d0/d88/a01231.php#a2d7f5ff054303c5974c2bb92cdaa2af5" title="Save the actual cursor position." alt="" coords="227,136,373,177"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5b1fc7215725e4cd22e95de9530e33ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b1fc7215725e4cd22e95de9530e33ae">&#9670;&nbsp;</a></span>restore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::console::Cursor::restore </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Restore the cursor's saved position. </p>
+<pre class="fragment">\return         void
+</pre> 
+</div>
+</div>
+<a id="a2d7f5ff054303c5974c2bb92cdaa2af5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d7f5ff054303c5974c2bb92cdaa2af5">&#9670;&nbsp;</a></span>save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mcd::console::Cursor::save </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save the actual cursor position. </p>
+<pre class="fragment">\return         void
+</pre> 
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../de/de1/a00065.php">console.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/d2a/a00270.php">console</a></li><li class="navelem"><a class="el" href="../../d0/d88/a01231.php">Cursor</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

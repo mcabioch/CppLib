@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Object.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	August, 17 2018
+ *  \file       Object.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 17 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_OBJECT
-#define HEADER_CPP_OBJECT
+#ifndef HEADER_MCD_ENTITIES_OBJECT
+#define HEADER_MCD_ENTITIES_OBJECT
 
 #include "Contraption.hpp"
 
@@ -50,4 +51,4 @@ namespace mcd::entities
     };
 }   // namespace mcd::entities
 
-#endif   // HEADER_CPP_OBJECT
+#endif   // HEADER_MCD_ENTITIES_OBJECT

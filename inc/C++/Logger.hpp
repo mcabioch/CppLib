@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		Logger.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Saturday November, 09 2019 17:01:15
- *	\modified	October, 04 2020
+ *  \file       Logger.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Saturday November, 09 2019 17:01:15
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_LOGGER
-#define HEADER_LOGGER
+#ifndef HEADER_MCD_LOGGER
+#define HEADER_MCD_LOGGER
 
 #include "C++lib.hpp"
 
@@ -76,8 +76,8 @@ namespace mcd
          * \param[in]	args	The different parts of the message
          * \throw		std::logic_error		Throws if the logger is not
          * initiated
-         * \throw		std::ios_base::failure		Throws if it's impossible to open the
-         * file \return		void
+         * \throw		std::ios_base::failure		Throws if it's impossible to open
+         * the file \return		void
          */
         template< class... Args >
         void log(Level level, int line, const std::string& file, Args... args) {
@@ -228,4 +228,4 @@ namespace mcd
 #define debug_logs(...) logs(mcd::Logger::Debug, __VA_ARGS__)
 }   // namespace mcd
 
-#endif   // HEADER_LOGGER
+#endif   // HEADER_MCD_LOGGER

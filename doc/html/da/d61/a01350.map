@@ -1,8 +1,8 @@
-<map id="mcd::Player&lt; PlayerParent &gt;" name="mcd::Player&lt; PlayerParent &gt;">
-<area shape="rect" id="node1" title="A player that can be a child from any class." alt="" coords="67,291,257,317"/>
-<area shape="rect" id="node2" href="$d2/d3f/a01356.php" title="A player that can be a child from any class." alt="" coords="5,200,164,241"/>
-<area shape="rect" id="node3" title=" " alt="" coords="36,96,133,123"/>
-<area shape="rect" id="node4" title="STL class." alt="" coords="179,96,259,123"/>
-<area shape="rect" id="node6" href="$d8/d0d/a01280.php" title="A class to store some identify datas." alt="" coords="188,207,293,234"/>
-<area shape="rect" id="node5" title="STL class." alt="" coords="156,5,283,47"/>
+<map id="mcd::NotCopyable" name="mcd::NotCopyable">
+<area shape="rect" id="node1" title="A class to let some other not to be copyable." alt="" coords="167,5,297,32"/>
+<area shape="rect" id="node2" href="$d7/d88/a01255.php" title="A class to be the parent for every crypt class." alt="" coords="185,80,279,107"/>
+<area shape="rect" id="node3" href="$dd/d42/a01259.php" title="A class to use the cesar algorithm for encryption." alt="" coords="5,155,96,181"/>
+<area shape="rect" id="node4" href="$d4/d41/a01267.php" title="A class to test a homemade algorithm for encryption." alt="" coords="121,155,226,181"/>
+<area shape="rect" id="node5" href="$dd/d39/a01271.php" title="A class to use the RSA algorithm for encryption." alt="" coords="249,155,332,181"/>
+<area shape="rect" id="node6" href="$de/dcb/a01263.php" title="An implementation of sha256 encryption." alt="" coords="356,155,447,181"/>
 </map>

@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		PathfindingDijkstra.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	July, 30 2018 11:12:40
- *	\modified	September, 26 2019
+ *  \file       PathfindingDijkstra.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    July, 30 2018 11:12:40
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_PATHFINDING_DIJKSTRA
-#define HEADER_CPP_PATHFINDING_DIJKSTRA
+#ifndef HEADER_MCD_PATHFINDING_DIJKSTRA
+#define HEADER_MCD_PATHFINDING_DIJKSTRA
 
 #include "Pathfinding.hpp"
 
@@ -51,4 +51,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_PATHFINDING_DIJKSTRA
+#endif   // HEADER_MCD_PATHFINDING_DIJKSTRA

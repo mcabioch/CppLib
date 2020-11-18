@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::IOConfig Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('d9/de6/a01314.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('de/d69/a01311.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,39 +91,84 @@ $(document).ready(function(){initNavTree('d9/de6/a01314.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d1/d56/a01308.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::Json Member List</div>  </div>
+<div class="title">mcd::IOConfig Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d9/de6/a01314.php">mcd::Json</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a3c35d4f54c782ef8b7898a1641eb4666a49722f0db426d85726e7ed5675e889e4">ARRAY</a> enum value</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a915790021b9c9f20ac2ea225baecf489">get</a>() const</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/de6/a01314.php#aa7c169d27c4e904b13ad8ca6fd184109">Json</a>()</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/de6/a01314.php#ad95d9afd2d3392fe080bf50958ec6464">Json</a>(const Json &amp;other) noexcept</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a17143d6387d6cacd7408b40d90278203">Json</a>(const Json &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a3c35d4f54c782ef8b7898a1641eb4666">JsonType</a> enum name</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a3c35d4f54c782ef8b7898a1641eb4666ae19fd5ef0dc672cdc7cfb36136c6d19e">NONE</a> enum value</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a3c35d4f54c782ef8b7898a1641eb4666a9ba4796f99bbe8254dac0ab0035292f5">NUMBER</a> enum value</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a3c35d4f54c782ef8b7898a1641eb4666a02bcb429af87b535c2b0a35707bf7f4d">OBJECT</a> enum value</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a6b1400a312593beec3776b4f998a7419">operator&lt;&lt;</a>(std::ostream &amp;os, const Json &amp;js)</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/de6/a01314.php#ac2afe8da3954c9e84cc97674a0194d03">operator=</a>(const Json &amp;other) noexcept</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a4e9c27bf8d0e1fa81ff8da964bd6a729">operator=</a>(const Json &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a03e32be5b88c0a40797b0ed39c9bdcba">operator==</a>(const Json &amp;a, const Json &amp;b) noexcept</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/de6/a01314.php#af146512243e74e908084f7751a8ffdf4">operator[]</a>(int index)</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a719db725a687aedc671dbd88ba853c45">operator[]</a>(const std::string &amp;index)</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/de6/a01314.php#ad537515267c98725dc1a77cc2e28467a">parse</a>(const std::string &amp;data)</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a269d5572a1b6fdfa1da58b7b89dbe8b3">parseFile</a>(const std::string &amp;filename)</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a415f3cd1b8e73f404854f9c5729cf68d">size</a>()</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a3c35d4f54c782ef8b7898a1641eb4666a2951db03ec2449efc8d28b4cbdea94d3">STRING</a> enum value</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/de6/a01314.php#a970b92e7933d91f9cc8672572e3dacf4">~Json</a>()</td><td class="entry"><a class="el" href="../../d9/de6/a01314.php">mcd::Json</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to configure inputs and outputs.  
+ <a href="../../de/d69/a01311.php#details">More...</a></p>
+
+<p><code>#include &lt;IOConfig.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a8638a62e7967b56a444ee42d3ea55878"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d69/a01311.php#a8638a62e7967b56a444ee42d3ea55878">IOConfig</a> ()</td></tr>
+<tr class="memdesc:a8638a62e7967b56a444ee42d3ea55878"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../de/d69/a01311.php#a8638a62e7967b56a444ee42d3ea55878">More...</a><br /></td></tr>
+<tr class="separator:a8638a62e7967b56a444ee42d3ea55878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a34fca3d338ef0498db6353ac5ece6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d69/a01311.php#ad6a34fca3d338ef0498db6353ac5ece6">~IOConfig</a> ()</td></tr>
+<tr class="separator:ad6a34fca3d338ef0498db6353ac5ece6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to configure inputs and outputs. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a8638a62e7967b56a444ee42d3ea55878"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8638a62e7967b56a444ee42d3ea55878">&#9670;&nbsp;</a></span>IOConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::IOConfig::IOConfig </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+
+</div>
+</div>
+<a id="ad6a34fca3d338ef0498db6353ac5ece6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a34fca3d338ef0498db6353ac5ece6">&#9670;&nbsp;</a></span>~IOConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::IOConfig::~IOConfig </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../df/d6a/a00119.php">IOConfig.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../de/d69/a01311.php">IOConfig</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

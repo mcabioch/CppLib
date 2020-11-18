@@ -1,6 +1,7 @@
-<map id="mcd::t_stack&lt; T, Container &gt;" name="mcd::t_stack&lt; T, Container &gt;">
-<area shape="rect" id="node1" title="An thread&#45;safe implementation of stack." alt="" coords="5,276,197,303"/>
-<area shape="rect" id="node2" href="$d6/d0d/a01091.php" title=" " alt="" coords="36,185,167,227"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="34,5,158,47"/>
-<area shape="rect" id="node4" href="$d6/d0d/a01091.php" title="An implementation of std::stack." alt="" coords="117,96,299,123"/>
+<map id="mcd::entities::Ant" name="mcd::entities::Ant">
+<area shape="rect" id="node1" title="An ant." alt="" coords="111,229,237,256"/>
+<area shape="rect" id="node2" href="$d6/d0d/a01091.php" title="An animal." alt="" coords="101,155,247,181"/>
+<area shape="rect" id="node3" href="$d7/da4/a01287.php" title="An entity." alt="" coords="22,80,161,107"/>
+<area shape="rect" id="node4" href="$dc/dc2/a01251.php" title="A contraption." alt="" coords="5,5,177,32"/>
+<area shape="rect" id="node5" href="$d6/d07/a01303.php" title="A class to derivate from when the thing can attack." alt="" coords="185,80,331,107"/>
 </map>

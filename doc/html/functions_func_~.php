@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,163 +95,163 @@ $(document).ready(function(){initNavTree('functions_func_~.php',''); initResizab
 
 <h3><a id="index__7E"></a>- ~ -</h3><ul>
 <li>~ has_size_method()
-: <a class="el" href="d8/d11/a01178.php#ac1b20696341a76adc3a13da7d6f4b0d0">mcd::check::has_size_method&lt; T &gt;</a>
+: <a class="el" href="de/d1a/a01179.php#ac1b20696341a76adc3a13da7d6f4b0d0">mcd::check::has_size_method&lt; T &gt;</a>
 </li>
 <li>~Animal()
-: <a class="el" href="da/d73/a01090.php#a24a4158bd954d5b90b6afa118e062438">mcd::entities::Animal</a>
+: <a class="el" href="d6/d0d/a01091.php#a24a4158bd954d5b90b6afa118e062438">mcd::entities::Animal</a>
 </li>
 <li>~Ant()
-: <a class="el" href="d6/dea/a01094.php#a51950b83b15fdc4b362124dba3b18265">mcd::entities::Ant</a>
+: <a class="el" href="de/d6d/a01095.php#a51950b83b15fdc4b362124dba3b18265">mcd::entities::Ant</a>
 </li>
 <li>~Arguments()
-: <a class="el" href="d5/d17/a01098.php#a9fd4e17aa2d814f460da6128e98b7519">mcd::Arguments</a>
+: <a class="el" href="d6/dbc/a01099.php#a9fd4e17aa2d814f460da6128e98b7519">mcd::Arguments</a>
 </li>
 <li>~Assert()
-: <a class="el" href="db/d32/a01122.php#a0abb896db412bab499f6d1bd59d65a10">mcd::Assert</a>
+: <a class="el" href="de/de5/a01123.php#a0abb896db412bab499f6d1bd59d65a10">mcd::Assert</a>
 </li>
 <li>~AssertionException()
-: <a class="el" href="db/d1e/a01126.php#a8583b92f139f554fca4e9ef10851b9b6">mcd::AssertionException</a>
+: <a class="el" href="d9/d5b/a01127.php#a8583b92f139f554fca4e9ef10851b9b6">mcd::AssertionException</a>
 </li>
 <li>~Big()
-: <a class="el" href="d0/d61/a01130.php#aff6ef43d1ad143b805150718c0f75c84">mcd::Big</a>
+: <a class="el" href="d8/d84/a01131.php#aff6ef43d1ad143b805150718c0f75c84">mcd::Big</a>
 </li>
 <li>~Binary()
-: <a class="el" href="d0/d39/a01138.php#a82e77a879b8106937ac550807afcf2da">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d5/d3e/a01139.php#a82e77a879b8106937ac550807afcf2da">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>~Cell()
-: <a class="el" href="d3/ddc/a01142.php#ac7ee113d57e8f75bca4eaa9b3455001a">mcd::natural::Cell</a>
+: <a class="el" href="db/db2/a01143.php#ac7ee113d57e8f75bca4eaa9b3455001a">mcd::natural::Cell</a>
 </li>
 <li>~Cesar()
-: <a class="el" href="da/da1/a01258.php#a65a181afa9b857412b3a317b725e1331">mcd::Cesar</a>
+: <a class="el" href="dd/d42/a01259.php#a65a181afa9b857412b3a317b725e1331">mcd::Cesar</a>
 </li>
 <li>~Chromosome()
-: <a class="el" href="d2/da6/a01210.php#abfcce919bdd2d2001416b72d9ebbf258">mcd::natural::Chromosome</a>
+: <a class="el" href="d1/d34/a01211.php#abfcce919bdd2d2001416b72d9ebbf258">mcd::natural::Chromosome</a>
 </li>
 <li>~Color()
-: <a class="el" href="d8/d15/a01218.php#ac165219b90060af0a1d899b1caadab6c">mcd::console::Color</a>
+: <a class="el" href="d5/d39/a01219.php#ac165219b90060af0a1d899b1caadab6c">mcd::console::Color</a>
 </li>
 <li>~Contraption()
-: <a class="el" href="d4/d22/a01250.php#a10da71db71b6c8b1c5acb5f114773a9f">mcd::entities::Contraption</a>
+: <a class="el" href="dc/dc2/a01251.php#a10da71db71b6c8b1c5acb5f114773a9f">mcd::entities::Contraption</a>
 </li>
 <li>~Crypto()
-: <a class="el" href="dc/d83/a01254.php#a16276f74e2eac6b2174d06361791f056">mcd::Crypto</a>
+: <a class="el" href="d7/d88/a01255.php#a16276f74e2eac6b2174d06361791f056">mcd::Crypto</a>
 </li>
 <li>~Date()
-: <a class="el" href="de/d33/a01274.php#acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5">mcd::Date</a>
+: <a class="el" href="d3/d42/a01275.php#acdbfc0cfe70b2cd0a6d70bf2a0e1b6c5">mcd::Date</a>
 </li>
 <li>~DateTime()
-: <a class="el" href="d4/d10/a01278.php#aabf1f35c1bad4f58eddd773836bbe766">mcd::DateTime</a>
+: <a class="el" href="d9/de7/a01279.php#aabf1f35c1bad4f58eddd773836bbe766">mcd::DateTime</a>
 </li>
 <li>~Entity()
-: <a class="el" href="d0/d00/a01286.php#ad9d955ec612cc3f0898808f0caa1d6f3">mcd::entities::Entity</a>
+: <a class="el" href="d7/da4/a01287.php#ad9d955ec612cc3f0898808f0caa1d6f3">mcd::entities::Entity</a>
 </li>
 <li>~exception()
-: <a class="el" href="dc/ded/a01290.php#ae32a0816168e0f4ff7ba8d688d839dc8">mcd::exception</a>
+: <a class="el" href="d4/da0/a01291.php#ae32a0816168e0f4ff7ba8d688d839dc8">mcd::exception</a>
 </li>
 <li>~Fraction()
-: <a class="el" href="d7/d88/a01294.php#abf0eeef8a5b118feaad630e084c15d8e">mcd::Fraction</a>
+: <a class="el" href="d2/d68/a01295.php#abf0eeef8a5b118feaad630e084c15d8e">mcd::Fraction</a>
 </li>
 <li>~Gene()
-: <a class="el" href="d4/d34/a01298.php#a57128a7a4b82cf0a0ba0b8856bab161a">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#a57128a7a4b82cf0a0ba0b8856bab161a">mcd::natural::Gene</a>
 </li>
 <li>~has_istream_operator()
-: <a class="el" href="dc/d19/a01190.php#a8812dbf6a9132069e2f828b41ec81651">mcd::check::has_istream_operator&lt; T &gt;</a>
+: <a class="el" href="d1/d0d/a01191.php#a8812dbf6a9132069e2f828b41ec81651">mcd::check::has_istream_operator&lt; T &gt;</a>
 </li>
 <li>~has_ostream_operator()
-: <a class="el" href="dd/de9/a01182.php#ac15204b5f1ac95e3bdab7d29779544a3">mcd::check::has_ostream_operator&lt; T &gt;</a>
+: <a class="el" href="dc/d2d/a01183.php#ac15204b5f1ac95e3bdab7d29779544a3">mcd::check::has_ostream_operator&lt; T &gt;</a>
 </li>
 <li>~Hostile()
-: <a class="el" href="dc/de0/a01302.php#ac4d16894567ed67d6bf0e7cb278ac7bc">mcd::entities::Hostile</a>
+: <a class="el" href="d6/d07/a01303.php#ac4d16894567ed67d6bf0e7cb278ac7bc">mcd::entities::Hostile</a>
 </li>
 <li>~Identifier()
-: <a class="el" href="d7/d8c/a01306.php#a87dbdb0f9b391d6a78d61463e8823628">mcd::Identifier</a>
+: <a class="el" href="d2/d4c/a01307.php#a87dbdb0f9b391d6a78d61463e8823628">mcd::Identifier</a>
 </li>
 <li>~IOConfig()
-: <a class="el" href="da/d79/a01310.php#ad6a34fca3d338ef0498db6353ac5ece6">mcd::IOConfig</a>
+: <a class="el" href="de/d69/a01311.php#ad6a34fca3d338ef0498db6353ac5ece6">mcd::IOConfig</a>
 </li>
 <li>~Json()
-: <a class="el" href="d9/de6/a01314.php#a970b92e7933d91f9cc8672572e3dacf4">mcd::Json</a>
+: <a class="el" href="d2/d8e/a01315.php#a970b92e7933d91f9cc8672572e3dacf4">mcd::Json</a>
 </li>
 <li>~Logger()
-: <a class="el" href="d5/df4/a01322.php#a9b43e0ba2ab53c8a6758b20d3f828f96">mcd::Logger</a>
+: <a class="el" href="db/da8/a01323.php#a9b43e0ba2ab53c8a6758b20d3f828f96">mcd::Logger</a>
 </li>
 <li>~Map()
-: <a class="el" href="d4/dd1/a01334.php#a444967efa4f320d2ddfdd59ba0761b52">mcd::Map</a>
+: <a class="el" href="d4/d04/a01335.php#a444967efa4f320d2ddfdd59ba0761b52">mcd::Map</a>
 </li>
 <li>~Matrix()
-: <a class="el" href="d2/d4d/a01338.php#a87e5bc598036e554e7fac18328bbb47b">mcd::Matrix&lt; C &gt;</a>
+: <a class="el" href="dd/d6e/a01339.php#a87e5bc598036e554e7fac18328bbb47b">mcd::Matrix&lt; C &gt;</a>
 </li>
 <li>~Mushroom()
-: <a class="el" href="d9/de4/a01346.php#a0c56802cdeb7f83456aacf6d0df84024">mcd::entities::Mushroom</a>
+: <a class="el" href="df/d96/a01347.php#a0c56802cdeb7f83456aacf6d0df84024">mcd::entities::Mushroom</a>
 </li>
 <li>~MyCrypt()
-: <a class="el" href="d7/d73/a01266.php#a3e5b32554500cf6843d09009fbaafbc9">mcd::MyCrypt</a>
+: <a class="el" href="d4/d41/a01267.php#a3e5b32554500cf6843d09009fbaafbc9">mcd::MyCrypt</a>
 </li>
 <li>~NotCopyable()
-: <a class="el" href="da/d61/a01350.php#a5efcd02383468e37e9c960f3d6f9d14c">mcd::NotCopyable</a>
+: <a class="el" href="d1/dcd/a01351.php#a5efcd02383468e37e9c960f3d6f9d14c">mcd::NotCopyable</a>
 </li>
 <li>~NotInstantiable()
-: <a class="el" href="d7/dc4/a01354.php#a096b44b3d9fe8e567b179ac3d3dbacff">mcd::NotInstantiable</a>
+: <a class="el" href="d8/d4e/a01355.php#a096b44b3d9fe8e567b179ac3d3dbacff">mcd::NotInstantiable</a>
 </li>
 <li>~Object()
-: <a class="el" href="de/d5c/a01358.php#a4938f0dcdbd6b29c397bf9a3b140fefd">mcd::entities::Object</a>
+: <a class="el" href="dc/d4b/a01359.php#a4938f0dcdbd6b29c397bf9a3b140fefd">mcd::entities::Object</a>
 </li>
 <li>~Path()
-: <a class="el" href="d6/dfe/a01366.php#ae7ac83a2afcba63d1e8f17f314572a7f">mcd::Path</a>
+: <a class="el" href="dd/d86/a01367.php#ae7ac83a2afcba63d1e8f17f314572a7f">mcd::Path</a>
 </li>
 <li>~Pathfinding()
-: <a class="el" href="d8/dbe/a01370.php#a4cb06bc7729ad6371ad3380e0fd54f51">mcd::Pathfinding</a>
+: <a class="el" href="d6/d4d/a01371.php#a4cb06bc7729ad6371ad3380e0fd54f51">mcd::Pathfinding</a>
 </li>
 <li>~PathfindingDijkstra()
-: <a class="el" href="d2/dff/a01374.php#aae9b7cf4f57d826b9f7e65d9410b572e">mcd::PathfindingDijkstra</a>
+: <a class="el" href="d5/df5/a01375.php#aae9b7cf4f57d826b9f7e65d9410b572e">mcd::PathfindingDijkstra</a>
 </li>
 <li>~PathfindingException()
-: <a class="el" href="db/d74/a01378.php#a22d196716aa61adb8fa0e0d48320c9ab">mcd::PathfindingException</a>
+: <a class="el" href="d0/d9b/a01379.php#a22d196716aa61adb8fa0e0d48320c9ab">mcd::PathfindingException</a>
 </li>
 <li>~PathfindingProblem()
-: <a class="el" href="de/d9d/a01382.php#a0bf356ad792ba79df121cedf0501f6f1">mcd::PathfindingProblem</a>
+: <a class="el" href="de/dfe/a01383.php#a0bf356ad792ba79df121cedf0501f6f1">mcd::PathfindingProblem</a>
 </li>
 <li>~Plant()
-: <a class="el" href="d3/deb/a01386.php#aaa69f1a3016f0cf706c07ed6114b1ebb">mcd::entities::Plant</a>
+: <a class="el" href="d9/d40/a01387.php#aaa69f1a3016f0cf706c07ed6114b1ebb">mcd::entities::Plant</a>
 </li>
 <li>~Player()
-: <a class="el" href="d5/d8e/a01390.php#afd857959aaa62f4960bae9c9da9f51bf">mcd::entities::Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/dbc/a01391.php#afd857959aaa62f4960bae9c9da9f51bf">mcd::entities::Player&lt; PlayerParent &gt;</a>
 </li>
 <li>~PlayerAbstraction()
-: <a class="el" href="d6/d2f/a01394.php#a9cfa454745dabd8717ffe4a571007f62">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d2/df5/a01395.php#a9cfa454745dabd8717ffe4a571007f62">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>~PureVirtual()
-: <a class="el" href="dc/d25/a01406.php#acb8cb10e007f7c5f6ac757843a212598">mcd::PureVirtual</a>
+: <a class="el" href="d8/d31/a01407.php#acb8cb10e007f7c5f6ac757843a212598">mcd::PureVirtual</a>
 </li>
 <li>~RSA()
-: <a class="el" href="da/d00/a01270.php#a9d09972656fd75b2377a173a30692db6">mcd::RSA</a>
+: <a class="el" href="dd/d39/a01271.php#a9d09972656fd75b2377a173a30692db6">mcd::RSA</a>
 </li>
 <li>~SetPrecision()
-: <a class="el" href="d7/dc5/a01242.php#ace1afba2de5729ff45bcd7386e6c53a8">mcd::console::SetPrecision</a>
+: <a class="el" href="d8/db0/a01243.php#ace1afba2de5729ff45bcd7386e6c53a8">mcd::console::SetPrecision</a>
 </li>
 <li>~SHA2()
-: <a class="el" href="d3/d53/a01262.php#a84db99430c12dfd433432818c954d569">mcd::SHA2</a>
+: <a class="el" href="de/dcb/a01263.php#a84db99430c12dfd433432818c954d569">mcd::SHA2</a>
 </li>
 <li>~Stone()
-: <a class="el" href="d4/d3c/a01418.php#ab59d5bbc777245f6d8694086672edd3c">mcd::entities::Stone</a>
+: <a class="el" href="d0/d7d/a01419.php#ab59d5bbc777245f6d8694086672edd3c">mcd::entities::Stone</a>
 </li>
 <li>~Threadable()
-: <a class="el" href="dc/de6/a01426.php#aab98cd8e5cd8832dfd6e82c17d1a689d">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="db/d78/a01427.php#aab98cd8e5cd8832dfd6e82c17d1a689d">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>~ThreadCout()
-: <a class="el" href="d8/ddf/a01238.php#a00406826de52af9d7753e69e6f674e08">mcd::console::ThreadCout</a>
+: <a class="el" href="d7/dbf/a01239.php#a00406826de52af9d7753e69e6f674e08">mcd::console::ThreadCout</a>
 </li>
 <li>~ThreadEndlCout()
-: <a class="el" href="d6/d1e/a01234.php#a0eb354777e73153d8afabd8ee1b56657">mcd::console::ThreadEndlCout</a>
+: <a class="el" href="dd/dad/a01235.php#a0eb354777e73153d8afabd8ee1b56657">mcd::console::ThreadEndlCout</a>
 </li>
 <li>~Time()
-: <a class="el" href="d8/dd0/a01430.php#aef071966b669112898476801bf63bcba">mcd::Time</a>
+: <a class="el" href="d7/d8b/a01431.php#aef071966b669112898476801bf63bcba">mcd::Time</a>
 </li>
 <li>~Tree()
-: <a class="el" href="d0/de2/a01442.php#a44571a01497b2ac582c292c8bad9de33">mcd::Tree&lt; T &gt;</a>
+: <a class="el" href="d6/d65/a01443.php#a44571a01497b2ac582c292c8bad9de33">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>~Vegetal()
-: <a class="el" href="de/d36/a01462.php#a3fd3c74ea7a5594033949f25a744d8f7">mcd::entities::Vegetal</a>
+: <a class="el" href="d7/d42/a01463.php#a3fd3c74ea7a5594033949f25a744d8f7">mcd::entities::Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

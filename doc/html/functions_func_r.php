@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,47 +95,47 @@ $(document).ready(function(){initNavTree('functions_func_r.php',''); initResizab
 
 <h3><a id="index_r"></a>- r -</h3><ul>
 <li>Referenced()
-: <a class="el" href="d8/d01/a01410.php#a23a4eee18708dae4eff05079a345c375">mcd::Referenced&lt; C &gt;</a>
+: <a class="el" href="db/d99/a01411.php#a23a4eee18708dae4eff05079a345c375">mcd::Referenced&lt; C &gt;</a>
 </li>
 <li>Reinit()
-: <a class="el" href="de/d7e/a01222.php#a9401ce9fc4468304235d6d2b2b87b7b7">mcd::console::Reinit</a>
+: <a class="el" href="d7/ddd/a01223.php#a9401ce9fc4468304235d6d2b2b87b7b7">mcd::console::Reinit</a>
 </li>
 <li>reset()
-: <a class="el" href="de/d33/a01274.php#a22f293eaa9698511e9657c60ee1557f7">mcd::Date</a>
-, <a class="el" href="d5/df4/a01322.php#a9351097884f74c914c92bd982e70d159">mcd::Logger</a>
-, <a class="el" href="d6/dfe/a01366.php#a6941e224d3239f1c5aeda5b309aa5c81">mcd::Path</a>
-, <a class="el" href="d8/dd0/a01430.php#a94d4610fef5db9db60ca31d7d64230dc">mcd::Time</a>
+: <a class="el" href="d3/d42/a01275.php#a22f293eaa9698511e9657c60ee1557f7">mcd::Date</a>
+, <a class="el" href="db/da8/a01323.php#a9351097884f74c914c92bd982e70d159">mcd::Logger</a>
+, <a class="el" href="dd/d86/a01367.php#a6941e224d3239f1c5aeda5b309aa5c81">mcd::Path</a>
+, <a class="el" href="d7/d8b/a01431.php#a94d4610fef5db9db60ca31d7d64230dc">mcd::Time</a>
 </li>
 <li>resetSim()
-: <a class="el" href="d4/dd1/a01334.php#ac8ecf45b42aed2736d04081639b460f6">mcd::Map</a>
+: <a class="el" href="d4/d04/a01335.php#ac8ecf45b42aed2736d04081639b460f6">mcd::Map</a>
 </li>
 <li>restart()
-: <a class="el" href="d5/d32/a01214.php#a3008b7b555fb4e6c3415aec152b5de2d">mcd::Clock</a>
-, <a class="el" href="d1/de7/a01434.php#affd1240db762eb2d3f125bfdda4aa990">mcd::Timer</a>
+: <a class="el" href="da/d3f/a01215.php#a3008b7b555fb4e6c3415aec152b5de2d">mcd::Clock</a>
+, <a class="el" href="d3/d95/a01435.php#affd1240db762eb2d3f125bfdda4aa990">mcd::Timer</a>
 </li>
 <li>restore()
-: <a class="el" href="d0/d58/a01230.php#a5b1fc7215725e4cd22e95de9530e33ae">mcd::console::Cursor</a>
+: <a class="el" href="d0/d88/a01231.php#a5b1fc7215725e4cd22e95de9530e33ae">mcd::console::Cursor</a>
 </li>
 <li>resume()
-: <a class="el" href="d6/d2f/a01394.php#ae84821e0607afd8bd876d378b9196639">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d2/df5/a01395.php#ae84821e0607afd8bd876d378b9196639">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>retreive()
-: <a class="el" href="d6/d2f/a01394.php#a2765b5f55061bd8c4bb833bdc7466197">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
+: <a class="el" href="d2/df5/a01395.php#a2765b5f55061bd8c4bb833bdc7466197">mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;</a>
 </li>
 <li>reverse()
-: <a class="el" href="d6/dfe/a01366.php#a1fb9d6aad58d7817692168eaea307a14">mcd::Path</a>
+: <a class="el" href="dd/d86/a01367.php#a1fb9d6aad58d7817692168eaea307a14">mcd::Path</a>
 </li>
 <li>right()
-: <a class="el" href="da/df6/a01454.php#a613a9be49ee0cbe55e10e75db1d59faa">mcd::Point</a>
+: <a class="el" href="df/dc5/a01455.php#a613a9be49ee0cbe55e10e75db1d59faa">mcd::Point</a>
 </li>
 <li>RND()
-: <a class="el" href="d8/df1/a01414.php#a9d494692c2cb71271b80547507e5ec7f">mcd::RND&lt; T, U &gt;</a>
+: <a class="el" href="de/d70/a01415.php#a9d494692c2cb71271b80547507e5ec7f">mcd::RND&lt; T, U &gt;</a>
 </li>
 <li>RSA()
-: <a class="el" href="da/d00/a01270.php#a022907735103df44ce25774a289cede1">mcd::RSA</a>
+: <a class="el" href="dd/d39/a01271.php#a022907735103df44ce25774a289cede1">mcd::RSA</a>
 </li>
 <li>run()
-: <a class="el" href="d1/df4/a01422.php#a92521447188f0264d12256d3d2d8306d">mcd::tests::Test</a>
+: <a class="el" href="d9/ddc/a01423.php#a92521447188f0264d12256d3d2d8306d">mcd::tests::Test</a>
 </li>
 </ul>
 </div><!-- contents -->

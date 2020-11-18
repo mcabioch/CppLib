@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		PlayerAbstraction.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	September, 26 2019
+ *  \file       PlayerAbstraction.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 17 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_PLAYER_ABSTRACTION
-#define HEADER_CPP_PLAYER_ABSTRACTION
+#ifndef HEADER_MCD_ENTITIES_PLAYER_ABSTRACTION
+#define HEADER_MCD_ENTITIES_PLAYER_ABSTRACTION
 
 #include "Entities.hpp"
 
@@ -134,4 +135,4 @@ namespace mcd::entities
     };
 }   // namespace mcd::entities
 
-#endif   // HEADER_CPP_PLAYER_ABSTRACTION
+#endif   // HEADER_MCD_ENTITIES_PLAYER_ABSTRACTION

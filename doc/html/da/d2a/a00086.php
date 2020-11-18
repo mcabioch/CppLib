@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -245,9 +245,9 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:d8/d17/a01282"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d8/d17/a01282">mcd::ContraptionAttr</a></td></tr>
-<tr class="memdesc:d8/d17/a01282"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define <b>Contraption</b> attributes.  <a href="../../db/d12/a00268.php#d8/d17/a01282">More...</a><br /></td></tr>
-<tr class="separator:d8/d17/a01282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d5/da7/a01283"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d5/da7/a01283">mcd::ContraptionAttr</a></td></tr>
+<tr class="memdesc:d5/da7/a01283"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define <b>Contraption</b> attributes.  <a href="../../db/d12/a00268.php#d5/da7/a01283">More...</a><br /></td></tr>
+<tr class="separator:d5/da7/a01283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -301,8 +301,8 @@ Enumerations</h2></td></tr>
 </li>
 </ul>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="d8/d17/a01282" id="d8/d17/a01282"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d8/d17/a01282">&#9670;&nbsp;</a></span>mcd::ContraptionAttr</h2>
+<a name="d5/da7/a01283" id="d5/da7/a01283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d5/da7/a01283">&#9670;&nbsp;</a></span>mcd::ContraptionAttr</h2>
 
 <div class="memitem">
 <div class="memproto">

@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		Path.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	July, 29 2018 16:12:40
- *	\modified	October, 28 2020
+ *  \file       Path.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    July, 29 2018 16:12:40
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_MAP_PATH
-#define HEADER_CPP_MAP_PATH
+#ifndef HEADER_MCD_MAP_PATH
+#define HEADER_MCD_MAP_PATH
 
 #include "includes.hpp"
 
@@ -117,4 +117,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_MAP_PATH
+#endif   // HEADER_MCD_MAP_PATH

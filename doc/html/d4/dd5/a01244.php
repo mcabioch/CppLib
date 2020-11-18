@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::ConsoleTable Class Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.1.1</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Nov 13 2020 11:03:54 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('d4/dd5/a01244.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('dd/d95/a01247.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,175 +91,24 @@ $(document).ready(function(){initNavTree('d4/dd5/a01244.php','../../'); initResi
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#friends">Friends</a> &#124;
-<a href="../../d3/d07/a01241.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::ConsoleTable Class Reference</div>  </div>
+<div class="title">mcd::ConsoleTable Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to print a table in the console.  
- <a href="../../d4/dd5/a01244.php#details">More...</a></p>
-
-<p><code>#include &lt;ConsoleTable.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:acc7af9ad8f4b7175a82acb2edfce15b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd5/a01244.php#acc7af9ad8f4b7175a82acb2edfce15b2">ConsoleTable</a> ()</td></tr>
-<tr class="separator:acc7af9ad8f4b7175a82acb2edfce15b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1878d602fe475fb47a2aca063e7cb9d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd5/a01244.php#a1878d602fe475fb47a2aca063e7cb9d6">headers</a> (std::vector&lt; std::string &gt; h)</td></tr>
-<tr class="separator:a1878d602fe475fb47a2aca063e7cb9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadce47b475851c9d585ee9c21b2cb1ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd5/a01244.php#aadce47b475851c9d585ee9c21b2cb1ac">lines</a> (std::vector&lt; std::vector&lt; std::string &gt; &gt; ls)</td></tr>
-<tr class="separator:aadce47b475851c9d585ee9c21b2cb1ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3669c41beda1b667738b6e7c42663b29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd5/a01244.php#a3669c41beda1b667738b6e7c42663b29">line</a> (std::vector&lt; std::string &gt; l)</td></tr>
-<tr class="separator:a3669c41beda1b667738b6e7c42663b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:af23c547bfa2b35d582a6922d425d02f5"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd5/a01244.php#af23c547bfa2b35d582a6922d425d02f5">operator&lt;&lt;</a> (std::ostream &amp;str, <a class="el" href="../../d4/dd5/a01244.php">ConsoleTable</a> &amp;t)</td></tr>
-<tr class="separator:af23c547bfa2b35d582a6922d425d02f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to print a table in the console. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="acc7af9ad8f4b7175a82acb2edfce15b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc7af9ad8f4b7175a82acb2edfce15b2">&#9670;&nbsp;</a></span>ConsoleTable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mcd::ConsoleTable::ConsoleTable </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1878d602fe475fb47a2aca063e7cb9d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1878d602fe475fb47a2aca063e7cb9d6">&#9670;&nbsp;</a></span>headers()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::ConsoleTable::headers </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
-          <td class="paramname"><em>h</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3669c41beda1b667738b6e7c42663b29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3669c41beda1b667738b6e7c42663b29">&#9670;&nbsp;</a></span>line()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::ConsoleTable::line </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
-          <td class="paramname"><em>l</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aadce47b475851c9d585ee9c21b2cb1ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadce47b475851c9d585ee9c21b2cb1ac">&#9670;&nbsp;</a></span>lines()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mcd::ConsoleTable::lines </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td>
-          <td class="paramname"><em>ls</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d4/dd5/a01244_aadce47b475851c9d585ee9c21b2cb1ac_cgraph.png" border="0" usemap="#ad4/dd5/a01244_aadce47b475851c9d585ee9c21b2cb1ac_cgraph" alt=""/></div>
-<map name="d4/dd5/a01244_aadce47b475851c9d585ee9c21b2cb1ac_cgraph" id="d4/dd5/a01244_aadce47b475851c9d585ee9c21b2cb1ac_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,148,47"/>
-<area shape="rect" href="../../d4/dd5/a01244.php#a3669c41beda1b667738b6e7c42663b29" title=" " alt="" coords="196,13,359,39"/>
-</map>
-</div>
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="af23c547bfa2b35d582a6922d425d02f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af23c547bfa2b35d582a6922d425d02f5">&#9670;&nbsp;</a></span>operator&lt;&lt;</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/dd5/a01244.php">ConsoleTable</a> &amp;&#160;</td>
-          <td class="paramname"><em>t</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../da/d24/a00068.php">ConsoleTable.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../dd/d95/a01247.php">mcd::ConsoleTable</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d95/a01247.php#acc7af9ad8f4b7175a82acb2edfce15b2">ConsoleTable</a>()</td><td class="entry"><a class="el" href="../../dd/d95/a01247.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d95/a01247.php#a1878d602fe475fb47a2aca063e7cb9d6">headers</a>(std::vector&lt; std::string &gt; h)</td><td class="entry"><a class="el" href="../../dd/d95/a01247.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d95/a01247.php#a3669c41beda1b667738b6e7c42663b29">line</a>(std::vector&lt; std::string &gt; l)</td><td class="entry"><a class="el" href="../../dd/d95/a01247.php">mcd::ConsoleTable</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d95/a01247.php#aadce47b475851c9d585ee9c21b2cb1ac">lines</a>(std::vector&lt; std::vector&lt; std::string &gt; &gt; ls)</td><td class="entry"><a class="el" href="../../dd/d95/a01247.php">mcd::ConsoleTable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d95/a01247.php#af23c547bfa2b35d582a6922d425d02f5">operator&lt;&lt;</a>(std::ostream &amp;str, ConsoleTable &amp;t)</td><td class="entry"><a class="el" href="../../dd/d95/a01247.php">mcd::ConsoleTable</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d4/dd5/a01244.php">ConsoleTable</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

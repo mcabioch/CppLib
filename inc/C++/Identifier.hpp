@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Identifier.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	September, 26 2019
+ *  \file       Identifier.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 15 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_IDENTIFIER
-#define HEADER_CPP_IDENTIFIER
+#ifndef HEADER_MCD_IDENTIFIER
+#define HEADER_MCD_IDENTIFIER
 
 #include "C++.hpp"
 
@@ -66,4 +67,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_IDENTIFIER
+#endif   // HEADER_MCD_IDENTIFIER

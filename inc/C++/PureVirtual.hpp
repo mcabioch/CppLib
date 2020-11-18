@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		PureVirtual.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Saturday August, 11 2018 12:06:08
- *	\modified	September, 24 2019
+ *  \file       PureVirtual.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Saturday August, 11 2018 12:06:08
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_PURE_VIRTUAL
-#define HEADER_PURE_VIRTUAL
+#ifndef HEADER_MCD_PURE_VIRTUAL
+#define HEADER_MCD_PURE_VIRTUAL
 
 namespace mcd
 {
@@ -27,4 +27,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_PURE_VIRTUAL
+#endif   // HEADER_MCD_PURE_VIRTUAL

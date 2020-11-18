@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		console.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	November, 13 2020
+ *  \file       console.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    April, 24 2019
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_CONSOLE
-#define HEADER_CPP_CONSOLE
+#ifndef HEADER_MCD_CONSOLE
+#define HEADER_MCD_CONSOLE
 
 #include "convert.hpp"
 
@@ -212,7 +213,10 @@ namespace mcd::console
          *		\return			void
          */
         template< typename T >
-        static void put(const std::string& str, T x, T y, const Color& color = 0) {
+        static void put(const std::string& str,
+                        T                  x,
+                        T                  y,
+                        const Color&       color = mcd::console::Colors::NORMAL) {
             Cursor::save();
 
             Cursor::goTo(x, y);
@@ -328,4 +332,4 @@ namespace mcd::console
     void printLine(std::string caract, size_t size, std::ostream& os = std::cout);
 }   // namespace mcd::console
 
-#endif   // HEADER_CPP_CONSOLE
+#endif   // HEADER_MCD_CONSOLE

@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		types.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	November, 09 2019
+ *  \file       types.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 14 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_TYPES
-#define HEADER_CPP_TYPES
+#ifndef HEADER_MCD_TYPES
+#define HEADER_MCD_TYPES
 
 #include "Big.hpp"
 #include "PureVirtual.hpp"
@@ -215,4 +216,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_TYPES
+#endif   // HEADER_MCD_TYPES

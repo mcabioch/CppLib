@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		time.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\date		October, 03 2019
+ *  \file       time.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 14 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_TIME_FUNC
-#define HEADER_CPP_TIME_FUNC
+#ifndef HEADER_MCD_TIME_FUNC
+#define HEADER_MCD_TIME_FUNC
 
 #include "strptime.h"
 
@@ -53,4 +54,4 @@ namespace mcd
     void nanoSleep(size_t duration);
 }   // namespace mcd
 
-#endif   // HEADER_CPP_TIME_FUNCS
+#endif   // HEADER_MCD_TIME_FUNCS

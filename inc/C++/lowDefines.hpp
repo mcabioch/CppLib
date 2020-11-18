@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		lowDefines.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Sunday October, 25 2020 18:40:52
- *	\modified	November, 01 2020
+ *  \file       lowDefines.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Sunday October, 25 2020 18:40:52
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_LOW_DEFINES
-#define HEADER_LOW_DEFINES
+#ifndef HEADER_MCD_LOW_DEFINES
+#define HEADER_MCD_LOW_DEFINES
 
 #include "OsDetection.hpp"
 
@@ -73,4 +73,4 @@ namespace mcd
     typename ArrayType::const_iterator cend() const { return end(); }
 }   // namespace mcd
 
-#endif   // HEADER_LOW_DEFINES
+#endif   // HEADER_MCD_LOW_DEFINES

@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		Assert.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Wednesday November, 13 2019 11:22:08
- *	\modified	November, 13 2020
+ *  \file       Assert.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Wednesday November, 13 2019 11:22:08
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_ASSERT
-#define HEADER_ASSERT
+#ifndef HEADER_MCD_ASSERT
+#define HEADER_MCD_ASSERT
 
 #include "AssertionException.hpp"
 
@@ -53,4 +53,4 @@ namespace mcd
     trycatch_assert_X(__VA_ARGS__, trycatch_assert_2(__VA_ARGS__), trycatch_assert_1(__VA_ARGS__), )
 }   // namespace mcd
 
-#endif   // HEADER_ASSERT
+#endif   // HEADER_MCD_ASSERT

@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		string.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	September, 25 2019
+ *  \file       string.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    October, 12 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_STRING
-#define HEADER_CPP_STRING
+#ifndef HEADER_MCD_STRING
+#define HEADER_MCD_STRING
 
 #ifndef OS_WINDOWS
 #    include <locale>
@@ -102,10 +103,10 @@ namespace mcd
      *		\param[in]		str				The string to treat
      *		\param[in]		from			The string to replace
      *		\param[in]		to				The string to use to replace
-     *		\param[in]		regex			\b true or \b false, \b true if \a from is
-     *a regex
-     *		\param[in]		word			\b true or \b false, \b true if only have to replace
-     *complete
+     *		\param[in]		regex			\b true or \b false, \b true if \a
+     *from
+     *is a regex \param[in]		word			\b true or \b false, \b true if only
+     *have to replace complete
      *words and not some parts \param[in]		insensitive		\b true or \b false
      *
      *		\return			Return the changed string
@@ -154,4 +155,4 @@ namespace mcd
     std::string removeAccents(const std::string& str);
 }   // namespace mcd
 
-#endif   // HEADER_CPP_STRING
+#endif   // HEADER_MCD_STRING

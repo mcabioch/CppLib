@@ -1,4 +1,5 @@
-<map id="mcd::Timer" name="mcd::Timer">
-<area shape="rect" id="node2" href="$dc/d51/a01120.php" title="mcd::Threadable\&lt; Timer \&gt;" alt="" coords="5,95,181,121"/>
-<area shape="rect" id="node3" href="$dc/d51/a01120.php" title="A class to let another one to be threadable with update() member in a thread. " alt="" coords="17,5,170,32"/>
+<map id="mcd::AssertionException" name="mcd::AssertionException">
+<area shape="rect" id="node1" title="An exception thrown by my assert&#39;s implementation." alt="" coords="5,155,173,181"/>
+<area shape="rect" id="node2" href="$d4/da0/a01291.php" title="A class to call custom exceptions." alt="" coords="34,80,145,107"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="37,5,141,32"/>
 </map>

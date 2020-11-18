@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Entities.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\date		June, 12 2018
+ *  \file       Entities.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    June, 12 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_ENTITIES
-#define HEADER_CPP_ENTITIES
+#ifndef HEADER_MCD_ENTITIES_ENTITIES
+#define HEADER_MCD_ENTITIES_ENTITIES
 
 //#include "Contraption.hpp"
 //	#include "Object.hpp"
@@ -21,4 +22,4 @@
 namespace mcd::entities
 {}
 
-#endif   // HEADER_CPP_ENTITIES
+#endif   // HEADER_MCD_ENTITIES_ENTITIES

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -183,10 +183,10 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a49c8e33d55da52fabdb3f09f2fd3e5b2">mcd::operator==</a> (const Big &amp;a, const Big &amp;b) noexcept</td></tr>
-<tr class="memdesc:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <a class="el" href="../../d0/d61/a01130.php" title="A new huge arithmetic variable.">Big</a>.  <a href="../../db/d12/a00268.php#a49c8e33d55da52fabdb3f09f2fd3e5b2">More...</a><br /></td></tr>
+<tr class="memdesc:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <a class="el" href="../../d8/d84/a01131.php" title="A new huge arithmetic variable.">Big</a>.  <a href="../../db/d12/a00268.php#a49c8e33d55da52fabdb3f09f2fd3e5b2">More...</a><br /></td></tr>
 <tr class="separator:a49c8e33d55da52fabdb3f09f2fd3e5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72149c6d15e16114c649ecb03aec7f81"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a72149c6d15e16114c649ecb03aec7f81">mcd::operator&lt;</a> (const Big &amp;a, const Big &amp;b) noexcept</td></tr>
-<tr class="memdesc:a72149c6d15e16114c649ecb03aec7f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <a class="el" href="../../d0/d61/a01130.php" title="A new huge arithmetic variable.">Big</a>.  <a href="../../db/d12/a00268.php#a72149c6d15e16114c649ecb03aec7f81">More...</a><br /></td></tr>
+<tr class="memdesc:a72149c6d15e16114c649ecb03aec7f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <a class="el" href="../../d8/d84/a01131.php" title="A new huge arithmetic variable.">Big</a>.  <a href="../../db/d12/a00268.php#a72149c6d15e16114c649ecb03aec7f81">More...</a><br /></td></tr>
 <tr class="separator:a72149c6d15e16114c649ecb03aec7f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

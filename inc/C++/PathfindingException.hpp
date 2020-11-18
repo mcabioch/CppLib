@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		PathfindingException.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	July, 30 2018 09:25:28
- *	\modified	September, 25 2019
+ *  \file       PathfindingException.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    July, 30 2018 09:25:28
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_PATHFINDING_EXCEPTION
-#define HEADER_CPP_PATHFINDING_EXCEPTION
+#ifndef HEADER_MCD_PATHFINDING_EXCEPTION
+#define HEADER_MCD_PATHFINDING_EXCEPTION
 
 #include "includes.hpp"
 
@@ -44,4 +44,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_PATHFINDING_EXCEPTION
+#endif   // HEADER_MCD_PATHFINDING_EXCEPTION

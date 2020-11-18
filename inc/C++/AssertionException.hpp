@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		AssertionException.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Wednesday November, 13 2019 11:20:22
- *	\modified	October, 24 2020
+ *  \file       AssertionException.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Wednesday November, 13 2019 11:20:22
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_ASSERTION_EXCEPTION
-#define HEADER_ASSERTION_EXCEPTION
+#ifndef HEADER_MCD_ASSERTION_EXCEPTION
+#define HEADER_MCD_ASSERTION_EXCEPTION
 
 #include "defines.hpp"
 
@@ -27,4 +27,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_ASSERTION_EXCEPTION
+#endif   // HEADER_MCD_ASSERTION_EXCEPTION

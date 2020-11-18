@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,16 +95,16 @@ $(document).ready(function(){initNavTree('functions_y.php',''); initResizable();
 
 <h3><a id="index_y"></a>- y -</h3><ul>
 <li>y
-: <a class="el" href="da/df6/a01454.php#ab339ac0efa2259051dc1ac0637d2c9a8">mcd::Point</a>
+: <a class="el" href="df/dc5/a01455.php#ab339ac0efa2259051dc1ac0637d2c9a8">mcd::Point</a>
 </li>
 <li>year()
-: <a class="el" href="de/d33/a01274.php#a30f0e5cc134d8da80f4b68aad4f92674">mcd::Date</a>
+: <a class="el" href="d3/d42/a01275.php#a30f0e5cc134d8da80f4b68aad4f92674">mcd::Date</a>
 </li>
 <li>yearDay()
-: <a class="el" href="de/d33/a01274.php#a9af5d47e5785c0c16217e5b4914bc9a0">mcd::Date</a>
+: <a class="el" href="d3/d42/a01275.php#a9af5d47e5785c0c16217e5b4914bc9a0">mcd::Date</a>
 </li>
 <li>yearWeek()
-: <a class="el" href="de/d33/a01274.php#a211971964081aac6bf13b0c670307b54">mcd::Date</a>
+: <a class="el" href="d3/d42/a01275.php#a211971964081aac6bf13b0c670307b54">mcd::Date</a>
 </li>
 </ul>
 </div><!-- contents -->

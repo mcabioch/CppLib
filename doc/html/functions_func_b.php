@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,16 +95,16 @@ $(document).ready(function(){initNavTree('functions_func_b.php',''); initResizab
 
 <h3><a id="index_b"></a>- b -</h3><ul>
 <li>back()
-: <a class="el" href="d6/d40/a01114.php#a13305f6ee7ad6fc7836d5676f03dcab5">mcd::t_queue&lt; T, Container &gt;</a>
+: <a class="el" href="df/dd5/a01115.php#a13305f6ee7ad6fc7836d5676f03dcab5">mcd::t_queue&lt; T, Container &gt;</a>
 </li>
 <li>Big()
-: <a class="el" href="d0/d61/a01130.php#a9bf22e73a5a3631f06200da9a86e926b">mcd::Big</a>
+: <a class="el" href="d8/d84/a01131.php#a9bf22e73a5a3631f06200da9a86e926b">mcd::Big</a>
 </li>
 <li>Binary()
-: <a class="el" href="d0/d39/a01138.php#a29b9b7a89bae0c41f0ff5933406b8f4d">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d5/d3e/a01139.php#a29b9b7a89bae0c41f0ff5933406b8f4d">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>bot()
-: <a class="el" href="da/df6/a01454.php#a2beb84069e438adcccfa4b6ed9794c0c">mcd::Point</a>
+: <a class="el" href="df/dc5/a01455.php#a2beb84069e438adcccfa4b6ed9794c0c">mcd::Point</a>
 </li>
 </ul>
 </div><!-- contents -->

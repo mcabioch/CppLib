@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Clock.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	August, 19 2018
+ *  \file       Clock.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 19 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_CLOCK
-#define HEADER_CPP_CLOCK
+#ifndef HEADER_MCD_CLOCK
+#define HEADER_MCD_CLOCK
 
 #include "includes.hpp"
 
@@ -39,11 +40,11 @@ namespace mcd
 
         /* Others */
         /*!
-         * \details Start the clock
+         * \brief Start the clock
          */
         void start();
         /*!
-         * \details Restart the clock
+         * \brief Restart the clock
          */
         void restart();
 
@@ -51,6 +52,15 @@ namespace mcd
         std::chrono::high_resolution_clock::time_point m_start;
         bool                                           started;
     };
+
+    namespace clock
+    {
+        /*!
+         * \brief Wait for a time
+         *  \param[in]  timeInMilliseconds      The time to wait for in milliseconds
+         */
+        void waitFor(double64_t timeInMilliseconds);
+    }   // namespace clock
 }   // namespace mcd
 
-#endif   // HEADER_CPP_CLOCK
+#endif   // HEADER_MCD_CLOCK

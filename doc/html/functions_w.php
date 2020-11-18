@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -99,19 +99,19 @@ $(document).ready(function(){initNavTree('functions_w.php',''); initResizable();
 , <a class="el" href="db/d12/a00268.php#a5e12726e58baa05036bc160c31d08016">mcd::WorldDimensions</a>
 </li>
 <li>Warn
-: <a class="el" href="d5/df4/a01322.php#a25d94050e8e7f91c7e1f02ddc2af8e95a97b60120ff602c7d5050124927962f79">mcd::Logger</a>
+: <a class="el" href="db/da8/a01323.php#a25d94050e8e7f91c7e1f02ddc2af8e95a97b60120ff602c7d5050124927962f79">mcd::Logger</a>
 </li>
 <li>weekDay()
-: <a class="el" href="de/d33/a01274.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
+: <a class="el" href="d3/d42/a01275.php#a9a96b0ddfd20e6cc5da855b70be4c1f1">mcd::Date</a>
 </li>
 <li>weight
 : <a class="el" href="db/d12/a00268.php#ae9c3c7c184c194240178a2cf11f24566">mcd::Node&lt; T &gt;</a>
 </li>
 <li>weights
-: <a class="el" href="de/d9d/a01382.php#a99cf4dedc5270b2ffc388dd771f4564a">mcd::PathfindingProblem</a>
+: <a class="el" href="de/dfe/a01383.php#a99cf4dedc5270b2ffc388dd771f4564a">mcd::PathfindingProblem</a>
 </li>
 <li>what()
-: <a class="el" href="dc/ded/a01290.php#a04d412a2a5c85d9e16d67539134b419f">mcd::exception</a>
+: <a class="el" href="d4/da0/a01291.php#a04d412a2a5c85d9e16d67539134b419f">mcd::exception</a>
 </li>
 </ul>
 </div><!-- contents -->

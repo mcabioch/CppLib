@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::PathfindingNode Struct Reference</title>
+		<title>C++: Member List</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.1.1</span>
+									&#160;<span id="projectnumber">1.6.2.3</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Fri Nov 13 2020 11:03:54 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('d9/d79/a01360.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('dd/d8b/a01363.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,132 +91,22 @@ $(document).ready(function(){initNavTree('d9/d79/a01360.php','../../'); initResi
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#friends">Friends</a> &#124;
-<a href="../../df/d10/a01357.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::PathfindingNode Struct Reference</div>  </div>
+<div class="title">mcd::PathfindingNode Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A node for the path.  
- <a href="../../d9/d79/a01360.php#details">More...</a></p>
-
-<p><code>#include &lt;Path.hpp&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ac252a8bf89c83a96e63604fdb8eb144b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d79/a01360.php#ac252a8bf89c83a96e63604fdb8eb144b">id</a></td></tr>
-<tr class="separator:ac252a8bf89c83a96e63604fdb8eb144b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:af8e324237235cd148492d82eadf94e0c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d79/a01360.php#af8e324237235cd148492d82eadf94e0c">operator==</a> (const <a class="el" href="../../d9/d79/a01360.php">PathfindingNode</a> &amp;a, const <a class="el" href="../../d9/d79/a01360.php">PathfindingNode</a> &amp;b)</td></tr>
-<tr class="separator:af8e324237235cd148492d82eadf94e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accb5b160fd3f52084b8b83c8dddaae93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d79/a01360.php#accb5b160fd3f52084b8b83c8dddaae93">operator&lt;</a> (const <a class="el" href="../../d9/d79/a01360.php">PathfindingNode</a> &amp;a, const <a class="el" href="../../d9/d79/a01360.php">PathfindingNode</a> &amp;b)</td></tr>
-<tr class="separator:accb5b160fd3f52084b8b83c8dddaae93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A node for the path. </p>
-</div><h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="accb5b160fd3f52084b8b83c8dddaae93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accb5b160fd3f52084b8b83c8dddaae93">&#9670;&nbsp;</a></span>operator&lt;</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator&lt; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d9/d79/a01360.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d9/d79/a01360.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af8e324237235cd148492d82eadf94e0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8e324237235cd148492d82eadf94e0c">&#9670;&nbsp;</a></span>operator==</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d9/d79/a01360.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d9/d79/a01360.php">PathfindingNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac252a8bf89c83a96e63604fdb8eb144b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac252a8bf89c83a96e63604fdb8eb144b">&#9670;&nbsp;</a></span>id</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t mcd::PathfindingNode::id</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../db/dd9/a00179.php">Path.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../dd/d8b/a01363.php">mcd::PathfindingNode</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d8b/a01363.php#ac252a8bf89c83a96e63604fdb8eb144b">id</a></td><td class="entry"><a class="el" href="../../dd/d8b/a01363.php">mcd::PathfindingNode</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d8b/a01363.php#accb5b160fd3f52084b8b83c8dddaae93">operator&lt;</a>(const PathfindingNode &amp;a, const PathfindingNode &amp;b)</td><td class="entry"><a class="el" href="../../dd/d8b/a01363.php">mcd::PathfindingNode</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d8b/a01363.php#af8e324237235cd148492d82eadf94e0c">operator==</a>(const PathfindingNode &amp;a, const PathfindingNode &amp;b)</td><td class="entry"><a class="el" href="../../dd/d8b/a01363.php">mcd::PathfindingNode</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d9/d79/a01360.php">PathfindingNode</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

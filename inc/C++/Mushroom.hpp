@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Mushroom.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	August, 17 2018
+ *  \file       Mushroom.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 17 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_MUSHROOM
-#define HEADER_CPP_MUSHROOM
+#ifndef HEADER_MCD_ENTITIES_MUSHROOM
+#define HEADER_MCD_ENTITIES_MUSHROOM
 
 #include "Vegetal.hpp"
 
@@ -50,4 +51,4 @@ namespace mcd::entities
     };
 }   // namespace mcd::entities
 
-#endif   // HEADER_CPP_MUSHROOM
+#endif   // HEADER_MCD_ENTITIES_MUSHROOM

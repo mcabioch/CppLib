@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Args.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\date		November, 13 2019
+ *  \file       Args.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    November, 13 2019
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_ARGS
-#define HEADER_CPP_ARGS
+#ifndef HEADER_MCD_ARGS
+#define HEADER_MCD_ARGS
 
 #include "Threadable.hpp"
 
@@ -108,4 +109,4 @@ namespace mcd
     extern Arguments arguments;
 }   // namespace mcd
 
-#endif   // HEADER_CPP_ARGS
+#endif   // HEADER_MCD_ARGS

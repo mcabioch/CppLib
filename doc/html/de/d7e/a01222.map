@@ -1,4 +1,4 @@
-<map id="mcd::Cls" name="mcd::Cls">
-<area shape="rect" id="node1" title="Clear the console." alt="" coords="11,80,86,107"/>
-<area shape="rect" id="node2" href="$d8/df3/a01216.php" title="Change the text color in the console." alt="" coords="5,5,92,32"/>
+<map id="mcd::console::Reinit" name="mcd::console::Reinit">
+<area shape="rect" id="node1" title="Reinit the color in the console." alt="" coords="5,80,148,107"/>
+<area shape="rect" id="node2" href="$d5/d39/a01219.php" title="Change the text color in the console." alt="" coords="7,5,146,32"/>
 </map>

@@ -1,6 +1,6 @@
 var a00271 =
 [
-    [ "Cell", "d3/ddc/a01142.php", "d3/ddc/a01142" ],
-    [ "Chromosome", "d2/da6/a01210.php", "d2/da6/a01210" ],
-    [ "Gene", "d4/d34/a01298.php", "d4/d34/a01298" ]
+    [ "Cell", "db/db2/a01143.php", "db/db2/a01143" ],
+    [ "Chromosome", "d1/d34/a01211.php", "d1/d34/a01211" ],
+    [ "Gene", "d8/d38/a01299.php", "d8/d38/a01299" ]
 ];

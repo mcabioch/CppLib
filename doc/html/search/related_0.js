@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['cls_1690',['Cls',['../d8/d15/a01218.php#a37c42c3a0b8af325e746f536a6a51305',1,'mcd::console::Color']]]
+  ['cls_1696',['Cls',['../d5/d39/a01219.php#a37c42c3a0b8af325e746f536a6a51305',1,'mcd::console::Color']]]
 ];

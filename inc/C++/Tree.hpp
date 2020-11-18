@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Tree.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\date		October, 25 2020
+ *  \file       Tree.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    July, 25 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_TREE
-#define HEADER_CPP_TREE
+#ifndef HEADER_MCD_TREE
+#define HEADER_MCD_TREE
 
 #include "lowDefines.hpp"
 
@@ -642,4 +643,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_TREE
+#endif   // HEADER_MCD_TREE

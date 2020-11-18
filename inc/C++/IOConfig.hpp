@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		IOConfig.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Saturday January, 19 2019 17:09:41
- *	\modified	September, 24 2019
+ *  \file       IOConfig.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Saturday January, 19 2019 17:09:41
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_IOCONFIG
-#define HEADER_IOCONFIG
+#ifndef HEADER_MCD_IOCONFIG
+#define HEADER_MCD_IOCONFIG
 
 #include "includes.hpp"
 
@@ -57,4 +57,4 @@ namespace mcd
     // }
 }   // namespace mcd
 
-#endif   // HEADER_IOCONFIG
+#endif   // HEADER_MCD_IOCONFIG

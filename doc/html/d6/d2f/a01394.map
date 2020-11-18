@@ -1,6 +1,5 @@
-<map id="mcd::Timer" name="mcd::Timer">
-<area shape="rect" id="node1" title="A timer to do something at the end." alt="" coords="49,260,137,287"/>
-<area shape="rect" id="node2" href="$d0/d36/a01388.php" title=" " alt="" coords="5,184,181,211"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="51,5,135,32"/>
-<area shape="rect" id="node4" href="$d0/d36/a01388.php" title="A class to let another one to be threadable with update() member in a thread." alt="" coords="145,95,298,121"/>
+<map id="mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;" name="mcd::entities::PlayerAbstraction&lt; PlayerParent &gt;">
+<area shape="rect" id="node1" title="A player that can be a child from any class." alt="" coords="5,80,213,121"/>
+<area shape="rect" id="node3" href="$dc/dbc/a01391.php" title="A player that can be a child from any class." alt="" coords="38,169,181,211"/>
+<area shape="rect" id="node2" title=" " alt="" coords="61,5,158,32"/>
 </map>

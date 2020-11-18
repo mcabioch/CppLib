@@ -1,25 +1,15 @@
 var a01379 =
 [
-    [ "PlayerAbstraction", "d0/d9b/a01379.php#acd7472274e5fd10845893208d604617f", null ],
-    [ "~PlayerAbstraction", "d0/d9b/a01379.php#abde0c45c79e9cb030711f77d73fdc5a8", null ],
-    [ "getExperience", "d0/d9b/a01379.php#af4b6c4845dcc12c9feed1910e7de9334", null ],
-    [ "getExperienceMax", "d0/d9b/a01379.php#a3d9f0332994725fceb7f785fd83e1802", null ],
-    [ "getMail", "d0/d9b/a01379.php#ada35a68939571761734d82bf83e6c634", null ],
-    [ "isInit", "d0/d9b/a01379.php#abdb489c22b76cb09daefb8f05b2f515c", null ],
-    [ "isLost", "d0/d9b/a01379.php#ae441783e58a888696f8dc24f4cdfcce5", null ],
-    [ "isPaused", "d0/d9b/a01379.php#a81a1ea7b3b306b10af787c353c92cc2e", null ],
-    [ "lost", "d0/d9b/a01379.php#a7582710c11a7b92d9912f414a5296975", null ],
-    [ "pause", "d0/d9b/a01379.php#a57f10ce6fa33a36671c750dd68dc1a13", null ],
-    [ "printInfos", "d0/d9b/a01379.php#ac6d60013def2f34160fda9a990cf2da5", null ],
-    [ "resume", "d0/d9b/a01379.php#a4670bc4130ffbdd8fd198ab020a7ffe3", null ],
-    [ "retreive", "d0/d9b/a01379.php#ac4a98e2f186ed9702f90362a158a9f2f", null ],
-    [ "setExperience", "d0/d9b/a01379.php#a368cb45cbd8f4bcd470628f4d0783b07", null ],
-    [ "setExperienceMax", "d0/d9b/a01379.php#a7e2dc719465b4100436d08def34378f4", null ],
-    [ "setMail", "d0/d9b/a01379.php#ac6441d9b85821e4e20639fe5082795a5", null ],
-    [ "_experience", "d0/d9b/a01379.php#ae561b7817c64610317799205afa306cd", null ],
-    [ "_experienceMax", "d0/d9b/a01379.php#a3800d1590d75f762d41be6349556707d", null ],
-    [ "_init", "d0/d9b/a01379.php#abffa7d0ae3461370c932f0732367c93b", null ],
-    [ "_losted", "d0/d9b/a01379.php#aee72e21c73d5bbf23c831514cd6cd58b", null ],
-    [ "_mail", "d0/d9b/a01379.php#ad9199142db686c7745b21429e7061823", null ],
-    [ "_paused", "d0/d9b/a01379.php#a005074efa352510f2dc316404195946c", null ]
+    [ "PathfindingErrorCode", "d0/d9b/a01379.php#a699cc4df8cc94d467e7372072d230b58", [
+      [ "NONE", "d0/d9b/a01379.php#a699cc4df8cc94d467e7372072d230b58a953fb2c2f911816df4bea409b251899d", null ],
+      [ "ARRIVED", "d0/d9b/a01379.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814", null ],
+      [ "LOST", "d0/d9b/a01379.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995", null ],
+      [ "OTHER", "d0/d9b/a01379.php#a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982", null ]
+    ] ],
+    [ "PathfindingException", "d0/d9b/a01379.php#ac73bb217b98d679eaab9fe9fe4e5c9b0", null ],
+    [ "~PathfindingException", "d0/d9b/a01379.php#a22d196716aa61adb8fa0e0d48320c9ab", null ],
+    [ "PathfindingException", "d0/d9b/a01379.php#a71da44443282ca94d2c9e10a9be0dafc", null ],
+    [ "Arrived", "d0/d9b/a01379.php#a9fcff7a44db764decbb680479144b97b", null ],
+    [ "getErrorCode", "d0/d9b/a01379.php#a922e8cbd5025f4f17e45889055df165c", null ],
+    [ "Lost", "d0/d9b/a01379.php#a933816a487769eec830729b051d0fbcd", null ]
 ];

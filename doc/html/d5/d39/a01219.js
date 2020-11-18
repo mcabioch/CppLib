@@ -1,8 +1,12 @@
 var a01219 =
 [
-    [ "goTo", "d5/d39/a01219.php#a191575f00626575e84455dfae871f502", null ],
-    [ "home", "d5/d39/a01219.php#a75615abf8f124c460b9b163868c89b7e", null ],
-    [ "put", "d5/d39/a01219.php#a2ca0b4e7146c9b27b2396c2ba114c923", null ],
-    [ "restore", "d5/d39/a01219.php#a6f731b973f917b6c2f3a04267f12c851", null ],
-    [ "save", "d5/d39/a01219.php#ab58627fbfed0b6cabd5030943113e5e5", null ]
+    [ "Color", "d5/d39/a01219.php#a55ccb3b92bc685b42f0ca5f71cb98559", null ],
+    [ "~Color", "d5/d39/a01219.php#ac165219b90060af0a1d899b1caadab6c", null ],
+    [ "Color", "d5/d39/a01219.php#a79c795ec63433d6f1e5232e50247fee1", null ],
+    [ "addColors", "d5/d39/a01219.php#aeb7871eb7a31894377812891127efe18", null ],
+    [ "addColors", "d5/d39/a01219.php#af572e71933160dc857fcb6f91e94ba5c", null ],
+    [ "addColors", "d5/d39/a01219.php#a25e220411eca07870e3146530deefdf6", null ],
+    [ "addColors", "d5/d39/a01219.php#a39d1e3b3618a86c29866bd90855bfc8f", null ],
+    [ "Cls", "d5/d39/a01219.php#a37c42c3a0b8af325e746f536a6a51305", null ],
+    [ "operator<<", "d5/d39/a01219.php#a84513fec989f2f817d2b1c5e6989450e", null ]
 ];

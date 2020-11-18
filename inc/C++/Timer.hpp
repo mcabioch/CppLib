@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Timer.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	August, 17 2018
+ *  \file       Timer.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 17 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_TIMER
-#define HEADER_CPP_TIMER
+#ifndef HEADER_MCD_TIMER
+#define HEADER_MCD_TIMER
 
 #include "Threadable.hpp"
 
@@ -39,4 +40,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_TIMER
+#endif   // HEADER_MCD_TIMER

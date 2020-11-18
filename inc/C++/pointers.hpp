@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		pointers.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	October, 03 2019
+ *  \file       pointers.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    April, 15 2019
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_POINTERS
-#define HEADER_CPP_POINTERS
+#ifndef HEADER_MCD_POINTERS
+#define HEADER_MCD_POINTERS
 
 #include "types.hpp"
 
@@ -196,4 +197,4 @@ namespace mcd
     }
 }   // namespace mcd
 
-#endif   // HEADER_CPP_POINTERS
+#endif   // HEADER_MCD_POINTERS

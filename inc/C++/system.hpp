@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		system.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	November, 13 2020
+ *  \file       system.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    April, 24 2019
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_SYSTEM
-#define HEADER_CPP_SYSTEM
+#ifndef HEADER_MCD_SYSTEM
+#define HEADER_MCD_SYSTEM
 
 #include "errors.hpp"
 
@@ -19,4 +20,4 @@ namespace mcd
     void servLog(const std::string& str, bool server = false, const std::string& name = "Server");
 }   // namespace mcd
 
-#endif   // HEADER_CPP_SYSTEM
+#endif   // HEADER_MCD_SYSTEM

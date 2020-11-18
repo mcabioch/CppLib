@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		files.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	August, 19 2018
+ *  \file       files.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 19 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_FILES
-#define HEADER_CPP_FILES
+#ifndef HEADER_MCD_FILES
+#define HEADER_MCD_FILES
 
 #include "convert.hpp"
 
@@ -60,4 +61,4 @@ namespace mcd
     extern std::ofstream writer;
 }   // namespace mcd
 
-#endif   // HEADER_CPP_FILES
+#endif   // HEADER_MCD_FILES

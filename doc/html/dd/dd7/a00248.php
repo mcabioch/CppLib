@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -203,11 +203,11 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:d5/dd0/a01438"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d5/dd0/a01438">mcd::Node&lt; T &gt;</a></td></tr>
-<tr class="memdesc:d5/dd0/a01438"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a node for the tree.  <a href="../../db/d12/a00268.php#d5/dd0/a01438">More...</a><br /></td></tr>
-<tr class="separator:d5/dd0/a01438"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de2/a01442.php">mcd::Tree&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a binary tree.  <a href="../../d0/de2/a01442.php#details">More...</a><br /></td></tr>
+<tr class="memitem:d7/dfd/a01439"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#d7/dfd/a01439">mcd::Node&lt; T &gt;</a></td></tr>
+<tr class="memdesc:d7/dfd/a01439"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a node for the tree.  <a href="../../db/d12/a00268.php#d7/dfd/a01439">More...</a><br /></td></tr>
+<tr class="separator:d7/dfd/a01439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d65/a01443.php">mcd::Tree&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a binary tree.  <a href="../../d6/d65/a01443.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -256,8 +256,8 @@ Functions</h2></td></tr>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>October, 25 2020 </dd></dl>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="d5/dd0/a01438" id="d5/dd0/a01438"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d5/dd0/a01438">&#9670;&nbsp;</a></span>mcd::Node</h2>
+<a name="d7/dfd/a01439" id="d7/dfd/a01439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d7/dfd/a01439">&#9670;&nbsp;</a></span>mcd::Node</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,7 +274,7 @@ struct mcd::Node&lt; T &gt;</h3>
 </div><div class="dynheader">
 Collaboration diagram for mcd::Node&lt; T &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dc/d85/a01436.png" border="0" usemap="#amcd_1_1Node_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d9/db0/a01437.png" border="0" usemap="#amcd_1_1Node_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="mcd_1_1Node_3_01T_01_4_coll__map" id="mcd_1_1Node_3_01T_01_4_coll__map">
 <area shape="rect" title="A struct to define a node for the tree." alt="" coords="5,95,124,121"/>
 <area shape="rect" title=" " alt="" coords="45,5,84,32"/>
@@ -289,13 +289,13 @@ initialized</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a6f748c14098cdfeed1d14abc39a7f07a"></a><a class="el" href="../../db/d12/a00268.php#d5/dd0/a01438">Node</a>&lt; T &gt; *</td>
+<a id="a6f748c14098cdfeed1d14abc39a7f07a"></a><a class="el" href="../../db/d12/a00268.php#d7/dfd/a01439">Node</a>&lt; T &gt; *</td>
 <td class="fieldname">
 left</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a47bcfc49a031b3ddb4d563978c2500c6"></a><a class="el" href="../../db/d12/a00268.php#d5/dd0/a01438">Node</a>&lt; T &gt; *</td>
+<a id="a47bcfc49a031b3ddb4d563978c2500c6"></a><a class="el" href="../../db/d12/a00268.php#d7/dfd/a01439">Node</a>&lt; T &gt; *</td>
 <td class="fieldname">
 right</td>
 <td class="fielddoc">

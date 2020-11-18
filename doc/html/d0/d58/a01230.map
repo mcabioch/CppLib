@@ -1,4 +1,4 @@
-<map id="mcd::Crypto" name="mcd::Crypto">
-<area shape="rect" id="node1" title="A class to be the parent for every crypt class." alt="" coords="23,80,118,107"/>
-<area shape="rect" id="node2" href="$d7/d41/a01312.php" title="A class to let some other not to be copyable." alt="" coords="5,5,136,32"/>
+<map id="mcd::console::Cursor" name="mcd::console::Cursor">
+<area shape="rect" id="node1" title="A class to play with the cursor in the console." alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node2" href="$d8/d31/a01407.php" title="A class to make some other to be abstract class." alt="" coords="19,5,138,32"/>
 </map>

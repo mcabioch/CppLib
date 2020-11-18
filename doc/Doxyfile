@@ -13,7 +13,7 @@ PROJECT_NAME           = "C++"
 # y : When something is added in an existing file
 # z : When changes are made in an existing file
 #---------------------------------------------------------------------------
-PROJECT_NUMBER         = 1.6.2.3
+PROJECT_NUMBER         = 1.6.3.0
 PROJECT_BRIEF          = "My own C++ features"
 PROJECT_LOGO           =
 OUTPUT_DIRECTORY       = /home/mathias/Bureau/Algo/C++Tests/C++/doc

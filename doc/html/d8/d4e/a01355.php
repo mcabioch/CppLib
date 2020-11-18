@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::NotInstantiable Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('de/d5c/a01358.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d8/d4e/a01355.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,51 +91,120 @@ $(document).ready(function(){initNavTree('de/d5c/a01358.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d0/d85/a01352.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::entities::Object Member List</div>  </div>
+<div class="title">mcd::NotInstantiable Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/d5c/a01358.php">mcd::entities::Object</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#acc36f6140f606b02020c7f3bdd84264e">addPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a85419d652b4dd1521bd1ee52a87fd679">Contraption</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a3f4c9042e02afd788ae9d85acf20052b">getA</a>() const</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a16e99f20863135ef76dfc5ccdf2d8abe">getAttributes</a>() const</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#aced0d79ae051252a284564011c160209">getH</a>() const</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a8d4e4c386cc49e846fd020daef8a658f">getLevel</a>() const</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#af1ff377ffec9a23a48f1027f44b8c179">getMap</a>() const</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d22/a01250.php#abdbc5e081cbb8ef9c90e28b465667547">getPosition</a>() const</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a08c01cb019bf5a95570fa5bfa1816199">getRelativeZ</a>(Contraption &amp;obj)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d22/a01250.php#aeae65e7fde9dfe4768b12bb47cb85ab1">getW</a>() const</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#ace341c3547b28413a498d4636faa4001">getX</a>() const</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d22/a01250.php#ab40b859d6ddad83f970f9c7db20df69a">getY</a>() const</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a58a292f91863b435c4fcd47068b0f90b">getZ</a>() const</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d5c/a01358.php#a36ec7abe7591f33eef64ad1cfd761146">Object</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../de/d5c/a01358.php">mcd::entities::Object</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d5c/a01358.php#a8b4fd327a3baf871f43c83579f641382">printInfos</a>(std::ostream &amp;stream) const override</td><td class="entry"><a class="el" href="../../de/d5c/a01358.php">mcd::entities::Object</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d22/a01250.php#adc08dc79707f5997a051fd7c08ab4c21">sender</a>(std::string, vector_str)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a9028288b2c59abb380dc1706a4c900d3">setA</a>(double64_t angle)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d22/a01250.php#aa3a23ec9608be9f7d21488f627b03430">setAttributes</a>(ContraptionAttr attr)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#aa04207e6fd524e3b8c250d706af42678">setAttributes</a>(double64_t w, double64_t h, double64_t angle=0)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a639f08fd97ce8a864861421880d5fbee">setH</a>(double64_t h)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a5d03260c786828f44604eea187faed92">setLevel</a>(size_t level)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a9b69141be53f3c47a40c9729f020aec1">setMap</a>(Map *map)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a61b5df2404c36a455a3e4916109cef11">setPosition</a>(Point pt)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d22/a01250.php#ac6a07fb591792dd2f708e54a7bd8f63b">setPosition</a>(double64_t x, double64_t y, double64_t z=0)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a8d0bcf125e62b3cd768c2ea286b35002">setW</a>(double64_t w)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d22/a01250.php#aaa887092fd5542948b843726ffb78cb9">setX</a>(double64_t x)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a09b2b2845afe85413f21c5f8aa3abe42">setY</a>(double64_t y)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a600417286b248b32d1dcc81702277111">setZ</a>(double64_t z)</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a5bc8d6c3b30e3dfd16c25093f9cb4cc2">turnLeft</a>()</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d22/a01250.php#aeaed192c1dd8f01d6fdd3d2d5a53946f">turnRight</a>()</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d22/a01250.php#a10da71db71b6c8b1c5acb5f114773a9f">~Contraption</a>()</td><td class="entry"><a class="el" href="../../d4/d22/a01250.php">mcd::entities::Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d5c/a01358.php#a4938f0dcdbd6b29c397bf9a3b140fefd">~Object</a>()</td><td class="entry"><a class="el" href="../../de/d5c/a01358.php">mcd::entities::Object</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>Let a class being only an abstract class.  
+ <a href="../../d8/d4e/a01355.php#details">More...</a></p>
+
+<p><code>#include &lt;NotInstantiable.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a760ca4c32c24cf2b4c4c2ef07b51f997"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4e/a01355.php#a760ca4c32c24cf2b4c4c2ef07b51f997">NotInstantiable</a> ()</td></tr>
+<tr class="memdesc:a760ca4c32c24cf2b4c4c2ef07b51f997"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d8/d4e/a01355.php#a760ca4c32c24cf2b4c4c2ef07b51f997">More...</a><br /></td></tr>
+<tr class="separator:a760ca4c32c24cf2b4c4c2ef07b51f997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a096b44b3d9fe8e567b179ac3d3dbacff"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4e/a01355.php#a096b44b3d9fe8e567b179ac3d3dbacff">~NotInstantiable</a> ()</td></tr>
+<tr class="separator:a096b44b3d9fe8e567b179ac3d3dbacff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19c59f78b217426061641970c9f11022"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4e/a01355.php#a19c59f78b217426061641970c9f11022">notInstantiable</a> () final=0</td></tr>
+<tr class="separator:a19c59f78b217426061641970c9f11022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Let a class being only an abstract class. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a760ca4c32c24cf2b4c4c2ef07b51f997"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a760ca4c32c24cf2b4c4c2ef07b51f997">&#9670;&nbsp;</a></span>NotInstantiable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::NotInstantiable::NotInstantiable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The constructor of the class. </p>
+
+</div>
+</div>
+<a id="a096b44b3d9fe8e567b179ac3d3dbacff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a096b44b3d9fe8e567b179ac3d3dbacff">&#9670;&nbsp;</a></span>~NotInstantiable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mcd::NotInstantiable::~NotInstantiable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a19c59f78b217426061641970c9f11022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19c59f78b217426061641970c9f11022">&#9670;&nbsp;</a></span>notInstantiable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void mcd::NotInstantiable::notInstantiable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d5/dcb/a00170.php">NotInstantiable.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d8/d4e/a01355.php">NotInstantiable</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

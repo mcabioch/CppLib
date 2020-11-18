@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		Big.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	August, 01 2018 10:15:16
- *	\modified	October, 25 2020
+ *  \file       Big.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 01 2018 10:15:16
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_BIG
-#define HEADER_BIG
+#ifndef HEADER_MCD_BIG
+#define HEADER_MCD_BIG
 
 #include "lowDefines.hpp"
 
@@ -229,4 +229,4 @@ namespace mcd
 #include "Big_Maths.hpp"
 #include "Big_Operator.hpp"
 
-#endif   // HEADER_BIG
+#endif   // HEADER_MCD_BIG

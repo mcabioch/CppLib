@@ -1,9 +1,9 @@
 /*!
  *
- *	\file		MatrixException.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Sunday November, 01 2020 19:05:50
- *	\modified	Sunday November, 01 2020
+ *  \file       MatrixException.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Sunday November, 01 2020 19:05:50
+ *  \modified   Sunday November, 01 2020
  *
  */
 #ifndef HEADER_MATRIX_EXCEPTION

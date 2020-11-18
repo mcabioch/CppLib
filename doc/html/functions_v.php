@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,39 +95,39 @@ $(document).ready(function(){initNavTree('functions_v.php',''); initResizable();
 
 <h3><a id="index_v"></a>- v -</h3><ul>
 <li>value
-: <a class="el" href="dc/d19/a01190.php#a331d9deff621d98e27191d8ab101782d">mcd::check::has_istream_operator&lt; T &gt;</a>
-, <a class="el" href="dd/de9/a01182.php#af36f2c4b347387c5a90bf148b05bc04c">mcd::check::has_ostream_operator&lt; T &gt;</a>
-, <a class="el" href="d8/d11/a01178.php#a5c410a099dcfd580d150caf61018b963">mcd::check::has_size_method&lt; T &gt;</a>
-, <a class="el" href="d2/d7b/a01150.php#abc5406d058f8e6f62ca56b4f3e993132">mcd::check::is_array&lt; T &gt;</a>
-, <a class="el" href="da/dfb/a01174.php#a9ff14de10bb1d7c64531101fbef74b5b">mcd::check::is_duration&lt; T &gt;</a>
-, <a class="el" href="da/de3/a01398.php#aff70feb3e5edb30ae2da2cef6b143050">mcd::check::is_minded_ptr&lt; T &gt;</a>
-, <a class="el" href="d4/d5d/a01202.php#a2c697edd58e68b8a36052c28e32ccdcc">mcd::check::is_object&lt; T &gt;</a>
-, <a class="el" href="d5/d16/a01154.php#a9472e28f114b77cc3153ffc8d8f1e22b">mcd::check::is_pair&lt; T &gt;</a>
-, <a class="el" href="d0/d32/a01198.php#ab4bbd73b61525d7fad1382a0526fe57f">mcd::check::is_printable&lt; T &gt;</a>
-, <a class="el" href="d4/d13/a01162.php#a7a705037a3a5261728af10be1a077032">mcd::check::is_quatuor&lt; T &gt;</a>
-, <a class="el" href="d3/dc7/a01170.php#adea1af67a99838d74cf866af87297e16">mcd::check::is_smatch&lt; T &gt;</a>
-, <a class="el" href="dc/d9e/a01206.php#adb3d78bf0acb5e62f39d063521210081">mcd::check::is_special_struct&lt; T &gt;</a>
-, <a class="el" href="dc/dee/a01166.php#a6ede9c303cc0abd1dd1734dc1ade40a5">mcd::check::is_string&lt; T &gt;</a>
-, <a class="el" href="d0/dc7/a01402.php#a0f0708182c01e65ff83fc1f1c4f1d631">mcd::check::is_thread_ptr&lt; T &gt;</a>
-, <a class="el" href="df/db5/a01158.php#aead7729c41ce0e6681cf2a5a58724b1c">mcd::check::is_trio&lt; T &gt;</a>
-, <a class="el" href="de/d07/a01146.php#a6b656e6fb832b24bcc36d1062556127b">mcd::check::is_vector&lt; T &gt;</a>
+: <a class="el" href="d1/d0d/a01191.php#a331d9deff621d98e27191d8ab101782d">mcd::check::has_istream_operator&lt; T &gt;</a>
+, <a class="el" href="dc/d2d/a01183.php#af36f2c4b347387c5a90bf148b05bc04c">mcd::check::has_ostream_operator&lt; T &gt;</a>
+, <a class="el" href="de/d1a/a01179.php#a5c410a099dcfd580d150caf61018b963">mcd::check::has_size_method&lt; T &gt;</a>
+, <a class="el" href="de/df1/a01151.php#abc5406d058f8e6f62ca56b4f3e993132">mcd::check::is_array&lt; T &gt;</a>
+, <a class="el" href="d6/df2/a01175.php#a9ff14de10bb1d7c64531101fbef74b5b">mcd::check::is_duration&lt; T &gt;</a>
+, <a class="el" href="d6/d64/a01399.php#aff70feb3e5edb30ae2da2cef6b143050">mcd::check::is_minded_ptr&lt; T &gt;</a>
+, <a class="el" href="da/d1f/a01203.php#a2c697edd58e68b8a36052c28e32ccdcc">mcd::check::is_object&lt; T &gt;</a>
+, <a class="el" href="db/d07/a01155.php#a9472e28f114b77cc3153ffc8d8f1e22b">mcd::check::is_pair&lt; T &gt;</a>
+, <a class="el" href="d0/d5a/a01199.php#ab4bbd73b61525d7fad1382a0526fe57f">mcd::check::is_printable&lt; T &gt;</a>
+, <a class="el" href="d6/d27/a01163.php#a7a705037a3a5261728af10be1a077032">mcd::check::is_quatuor&lt; T &gt;</a>
+, <a class="el" href="d2/d22/a01171.php#adea1af67a99838d74cf866af87297e16">mcd::check::is_smatch&lt; T &gt;</a>
+, <a class="el" href="d5/dad/a01207.php#adb3d78bf0acb5e62f39d063521210081">mcd::check::is_special_struct&lt; T &gt;</a>
+, <a class="el" href="d7/dd6/a01167.php#a6ede9c303cc0abd1dd1734dc1ade40a5">mcd::check::is_string&lt; T &gt;</a>
+, <a class="el" href="da/d06/a01403.php#a0f0708182c01e65ff83fc1f1c4f1d631">mcd::check::is_thread_ptr&lt; T &gt;</a>
+, <a class="el" href="d7/de8/a01159.php#aead7729c41ce0e6681cf2a5a58724b1c">mcd::check::is_trio&lt; T &gt;</a>
+, <a class="el" href="d8/ddb/a01147.php#a6b656e6fb832b24bcc36d1062556127b">mcd::check::is_vector&lt; T &gt;</a>
 </li>
 <li>Value()
-: <a class="el" href="d3/ddc/a01142.php#a01bc934ac059453792f6783b0e919dd1">mcd::natural::Cell</a>
-, <a class="el" href="d2/da6/a01210.php#a2dced15a099be338addf44cb4d8a60f2">mcd::natural::Chromosome</a>
-, <a class="el" href="d4/d34/a01298.php#a1c76cb1011260b0ad8495d1e591057ba">mcd::natural::Gene</a>
+: <a class="el" href="db/db2/a01143.php#a01bc934ac059453792f6783b0e919dd1">mcd::natural::Cell</a>
+, <a class="el" href="d1/d34/a01211.php#a2dced15a099be338addf44cb4d8a60f2">mcd::natural::Chromosome</a>
+, <a class="el" href="d8/d38/a01299.php#a1c76cb1011260b0ad8495d1e591057ba">mcd::natural::Gene</a>
 </li>
 <li>Values()
-: <a class="el" href="d2/da6/a01210.php#a9d228fb25de487c350f4416dbc5ff8e2">mcd::natural::Chromosome</a>
+: <a class="el" href="d1/d34/a01211.php#a9d228fb25de487c350f4416dbc5ff8e2">mcd::natural::Chromosome</a>
 </li>
 <li>values
 : <a class="el" href="db/d12/a00268.php#a56cd61aea5d46ecf42aa3959086b7d96">mcd::Node&lt; T &gt;</a>
 </li>
 <li>vector()
-: <a class="el" href="d7/dd1/a01458.php#aea718ab247c60108c5dd591905174a95">mcd::vector&lt; C &gt;</a>
+: <a class="el" href="d6/d3b/a01459.php#add784d96e220dad18773cb17ad6cae83">mcd::vector&lt; C &gt;</a>
 </li>
 <li>Vegetal()
-: <a class="el" href="de/d36/a01462.php#afa2aa7c9afb8aa3c0122baebab0b2e44">mcd::entities::Vegetal</a>
+: <a class="el" href="d7/d42/a01463.php#afa2aa7c9afb8aa3c0122baebab0b2e44">mcd::entities::Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

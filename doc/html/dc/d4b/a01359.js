@@ -1,6 +1,6 @@
 var a01359 =
 [
-    [ "PathfindingDijkstra", "dc/d4b/a01359.php#a8e8246fb84c8dd3bf9e522f3fca7b39e", null ],
-    [ "~PathfindingDijkstra", "dc/d4b/a01359.php#aae9b7cf4f57d826b9f7e65d9410b572e", null ],
-    [ "createPath", "dc/d4b/a01359.php#a7b2872207d45871fcbcfa01e216090dd", null ]
+    [ "Object", "dc/d4b/a01359.php#a36ec7abe7591f33eef64ad1cfd761146", null ],
+    [ "~Object", "dc/d4b/a01359.php#a4938f0dcdbd6b29c397bf9a3b140fefd", null ],
+    [ "printInfos", "dc/d4b/a01359.php#a8b4fd327a3baf871f43c83579f641382", null ]
 ];

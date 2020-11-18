@@ -1,15 +1,15 @@
 var a00140 =
 [
-    [ "WorldDimensions", "db/d12/a00268.php#d1/d54/a01326", [
+    [ "WorldDimensions", "db/d12/a00268.php#d4/d2c/a01327", [
       [ "h", "db/d12/a00268.php#abe35d460277b28d79aa0261fd58b89da", null ],
       [ "w", "db/d12/a00268.php#a5e12726e58baa05036bc160c31d08016", null ],
       [ "z", "db/d12/a00268.php#a6e818e561922fa511658e15bec5fa55d", null ]
     ] ],
-    [ "MapMove", "db/d12/a00268.php#d5/d78/a01330", [
+    [ "MapMove", "db/d12/a00268.php#dc/d8e/a01331", [
       [ "end", "db/d12/a00268.php#a2f707d77cfeffb93eceecea7c25a7cc6", null ],
       [ "next", "db/d12/a00268.php#a61ee478b9a87acbd0fb2299f867a1bea", null ]
     ] ],
-    [ "Map", "d4/dd1/a01334.php", "d4/dd1/a01334" ],
+    [ "Map", "d4/d04/a01335.php", "d4/d04/a01335" ],
     [ "MapArray", "d5/db1/a00140.php#aeb393906487fbd42d8ae5f6831423fbb", null ],
     [ "MapLine", "d5/db1/a00140.php#abc72a1c83ec918a79447dfa996951da3", null ],
     [ "Tile", "d5/db1/a00140.php#a7350be9df9566241dfb80071a89f9ede", [

@@ -1,8 +1,9 @@
 /*!
  *
- *	\file		includes.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	November, 14 2019
+ *  \file       includes.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    April, 15 2019
+ *  \modified   November, 18 2020
  *
  *	\details	- Include ;
  *					- iostream\n
@@ -41,8 +42,8 @@
  *					- cstdint\n
  *
  */
-#ifndef HEADER_CPP_INCLUDES
-#define HEADER_CPP_INCLUDES
+#ifndef HEADER_MCD_INCLUDES
+#define HEADER_MCD_INCLUDES
 
 #include "NotCopyable.hpp"
 #include "NotInstantiable.hpp"
@@ -57,4 +58,4 @@
 namespace mcd
 {}
 
-#endif   // HEADER_CPP_INCLUDES
+#endif   // HEADER_MCD_INCLUDES

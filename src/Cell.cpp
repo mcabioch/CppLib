@@ -2,7 +2,7 @@
 
 namespace mcd
 {
-    namespace natural
+    namespace genetic
     {
         Cell::Cell(Chromosomes chroms) : _chroms(chroms) {}
 
@@ -35,6 +35,6 @@ namespace mcd
             return _chroms.at(chromosomeIndex).Value(str, geneNumber);
         }
 
-    }   // namespace natural
+    }   // namespace genetic
 
 }   // namespace mcd

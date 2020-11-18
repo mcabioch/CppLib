@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		maths.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	November, 13 2020
+ *  \file       maths.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 14 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_MATHS
-#define HEADER_CPP_MATHS
+#ifndef HEADER_MCD_MATHS
+#define HEADER_MCD_MATHS
 
 #include "Binary.hpp"
 
@@ -387,4 +388,4 @@ namespace mcd
     }
 }   // namespace mcd
 
-#endif   // HEADER_CPP_MATHS
+#endif   // HEADER_MCD_MATHS

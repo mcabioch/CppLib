@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		NotInstantiable.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Sunday September, 29 2019 11:20:17
- *	\modified	Sunday September, 29 2019
+ *  \file       NotInstantiable.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Sunday September, 29 2019 11:20:17
+ *  \modified   Sunday September, 29 2019
  *
  */
-#ifndef HEADER_CPP_NOT_INSTANTIABLE
-#define HEADER_CPP_NOT_INSTANTIABLE
+#ifndef HEADER_MCD_NOT_INSTANTIABLE
+#define HEADER_MCD_NOT_INSTANTIABLE
 
 namespace mcd
 {
@@ -27,4 +27,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_NOT_INSTANTIABLE
+#endif   // HEADER_MCD_NOT_INSTANTIABLE

@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Threadable.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	October, 03 2019
+ *  \file       Threadable.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 17 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_THREADABLE
-#define HEADER_CPP_THREADABLE
+#ifndef HEADER_MCD_THREADABLE
+#define HEADER_MCD_THREADABLE
 
 #include "includes.hpp"
 
@@ -172,4 +173,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_THREADABLE
+#endif   // HEADER_MCD_THREADABLE

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -183,22 +183,22 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a164a9c100a128e971c6becd38fe7db82"><td class="memItemLeft" align="right" valign="top">Big&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a164a9c100a128e971c6becd38fe7db82">mcd::operator++</a> (Big &amp;in, int) noexcept</td></tr>
-<tr class="memdesc:a164a9c100a128e971c6becd38fe7db82"><td class="mdescLeft">&#160;</td><td class="mdescRight">++<a class="el" href="../../d0/d61/a01130.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#a164a9c100a128e971c6becd38fe7db82">More...</a><br /></td></tr>
+<tr class="memdesc:a164a9c100a128e971c6becd38fe7db82"><td class="mdescLeft">&#160;</td><td class="mdescRight">++<a class="el" href="../../d8/d84/a01131.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#a164a9c100a128e971c6becd38fe7db82">More...</a><br /></td></tr>
 <tr class="separator:a164a9c100a128e971c6becd38fe7db82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd0ec761914252fc66c1180845c1fb36"><td class="memItemLeft" align="right" valign="top">Big &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#afd0ec761914252fc66c1180845c1fb36">mcd::operator++</a> (Big &amp;in) noexcept</td></tr>
 <tr class="memdesc:afd0ec761914252fc66c1180845c1fb36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Big++.  <a href="../../db/d12/a00268.php#afd0ec761914252fc66c1180845c1fb36">More...</a><br /></td></tr>
 <tr class="separator:afd0ec761914252fc66c1180845c1fb36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69988c1c7ee2ad5814c297f749588e78"><td class="memItemLeft" align="right" valign="top">Big&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a69988c1c7ee2ad5814c297f749588e78">mcd::operator--</a> (Big &amp;in, int) noexcept</td></tr>
-<tr class="memdesc:a69988c1c7ee2ad5814c297f749588e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">&ndash;<a class="el" href="../../d0/d61/a01130.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#a69988c1c7ee2ad5814c297f749588e78">More...</a><br /></td></tr>
+<tr class="memdesc:a69988c1c7ee2ad5814c297f749588e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">&ndash;<a class="el" href="../../d8/d84/a01131.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#a69988c1c7ee2ad5814c297f749588e78">More...</a><br /></td></tr>
 <tr class="separator:a69988c1c7ee2ad5814c297f749588e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad41a22ed7df2868dc7c42872004fc957"><td class="memItemLeft" align="right" valign="top">Big &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ad41a22ed7df2868dc7c42872004fc957">mcd::operator--</a> (Big &amp;in) noexcept</td></tr>
-<tr class="memdesc:ad41a22ed7df2868dc7c42872004fc957"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d0/d61/a01130.php" title="A new huge arithmetic variable.">Big</a>&ndash;.  <a href="../../db/d12/a00268.php#ad41a22ed7df2868dc7c42872004fc957">More...</a><br /></td></tr>
+<tr class="memdesc:ad41a22ed7df2868dc7c42872004fc957"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d8/d84/a01131.php" title="A new huge arithmetic variable.">Big</a>&ndash;.  <a href="../../db/d12/a00268.php#ad41a22ed7df2868dc7c42872004fc957">More...</a><br /></td></tr>
 <tr class="separator:ad41a22ed7df2868dc7c42872004fc957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68941be2cb0a91ce0a75b0992c772e19"><td class="memItemLeft" align="right" valign="top">Big&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#a68941be2cb0a91ce0a75b0992c772e19">mcd::operator+</a> (const Big &amp;in) noexcept</td></tr>
-<tr class="memdesc:a68941be2cb0a91ce0a75b0992c772e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">+<a class="el" href="../../d0/d61/a01130.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#a68941be2cb0a91ce0a75b0992c772e19">More...</a><br /></td></tr>
+<tr class="memdesc:a68941be2cb0a91ce0a75b0992c772e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">+<a class="el" href="../../d8/d84/a01131.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#a68941be2cb0a91ce0a75b0992c772e19">More...</a><br /></td></tr>
 <tr class="separator:a68941be2cb0a91ce0a75b0992c772e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa34a809adea5c0391ccc070f4b6fac4b"><td class="memItemLeft" align="right" valign="top">Big&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aa34a809adea5c0391ccc070f4b6fac4b">mcd::operator-</a> (const Big &amp;in) noexcept</td></tr>
-<tr class="memdesc:aa34a809adea5c0391ccc070f4b6fac4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">-<a class="el" href="../../d0/d61/a01130.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#aa34a809adea5c0391ccc070f4b6fac4b">More...</a><br /></td></tr>
+<tr class="memdesc:aa34a809adea5c0391ccc070f4b6fac4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">-<a class="el" href="../../d8/d84/a01131.php" title="A new huge arithmetic variable.">Big</a>  <a href="../../db/d12/a00268.php#aa34a809adea5c0391ccc070f4b6fac4b">More...</a><br /></td></tr>
 <tr class="separator:aa34a809adea5c0391ccc070f4b6fac4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

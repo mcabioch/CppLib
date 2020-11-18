@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		vector.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Friday September, 27 2019 00:02:47
- *	\modified	November, 15 2020
+ *  \file       vector.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Friday September, 27 2019 00:02:47
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_VECTOR
-#define HEADER_VECTOR
+#ifndef HEADER_MCD_VECTOR
+#define HEADER_MCD_VECTOR
 
 #include "arraysIncludes.hpp"
 
@@ -22,9 +22,16 @@ namespace mcd
         /* Members of vector */
         public:
         /* Constructor */
+        /*! \brief  Default constructor */
         vector() : std::vector< C >() {}
+        /*! \brief  Construct a vector from an initialize_list {} */
         vector(const std::initializer_list< C >& v) : std::vector< C >(v) {}
+        /*! \brief  Construct a vector from a std::vector */
         vector(const std::vector< C >& v) : std::vector< C >(v) {}
+        /*! \brief  Construct a vector of size v with value */
+        explicit vector(size_t v, C value) : std::vector< C >() {
+            for (size_t i = 0; i < v; ++i) { this->push_back(value); }
+        }
 
         /* Operators of vector */
         vector< C >& operator=(const std::initializer_list< C >& v) {
@@ -247,6 +254,96 @@ namespace mcd
          */
         void shuffle() { std::random_shuffle(this->begin(), this->end()); }
     };
+
+    /*!
+     * \brief   Return the index of the maximum value in the vector
+     *  \param[in]      v          The vector to check
+     *  \return         Return a size_t index.
+     */
+    template< class C >
+    size_t max(const vector< C >& v) {
+        if (!v.size() || v.size() == 1) { return 0; }
+
+        size_t index = 0;
+        C      value = v[0];
+
+        for (size_t i = 1; i < v.size(); ++i) {
+            if (v[i] > value) {
+                value = v[i];
+                index = i;
+            }
+        }
+
+        return index;
+    }
+
+    /*!
+     * \brief   Return the index of the minimum value in the vector
+     *  \param[in]      v          The vector to check
+     *  \return         Return a size_t index.
+     */
+    template< class C >
+    size_t min(const vector< C >& v) {
+        if (!v.size() || v.size() == 1) { return 0; }
+
+        size_t index = 0;
+        C      value = v[0];
+
+        for (size_t i = 1; i < v.size(); ++i) {
+            if (v[i] < value) {
+                value = v[i];
+                index = i;
+            }
+        }
+
+        return index;
+    }
+
+    /*!
+     * \brief   Return the number of occurence of the value in the vector
+     *  \param[in]      v              The vector to check
+     *  \param[in]      value          The value to look for
+     *  \return         Return a size_t
+     */
+    template< class C >
+    size_t count(const vector< C >& v, const C& value) {
+        if (!v.size()) { return 0; }
+
+        size_t occure = 0;
+
+        for (const auto& val : v) {
+            if (val == value) { occure++; }
+        }
+
+        return occure;
+    }
+
+    /*!
+     * \brief   Return the mean of the vector content
+     *  \param[in]      array              The vector to check
+     *  \return         Return the mean in the type of the vector
+     */
+    template< class C >
+    C mean(const vector< C >& array) {
+        C out = 0;
+
+        for (const auto& value : array) { out += value; }
+        out /= static_cast< C >(array.size());
+
+        return out;
+    }
+    /*!
+     * \brief   Return a vector of the means of the vectors contents
+     *  \param[in]      array              The vector to check
+     */
+    template< class C >
+    vector< C > mean(const vector< vector< C > >& array) {
+        vector< C > out;
+
+        for (const auto& value : array) { out.push_back(mean(value)); }
+
+        return out;
+    }
 }   // namespace mcd
 
-#endif   // HEADER_VECTOR
+#endif   // HEADER_MCD_VECTOR

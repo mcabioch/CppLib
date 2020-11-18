@@ -1,6 +1,9 @@
-<map id="mcd::exception" name="mcd::exception">
-<area shape="rect" id="node1" title="A class to call custom exceptions." alt="" coords="42,185,153,212"/>
-<area shape="rect" id="node2" title="STL class." alt="" coords="5,96,109,123"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="133,96,213,123"/>
-<area shape="rect" id="node4" title="STL class." alt="" coords="110,5,237,47"/>
+<map id="mcd::entities::Entity" name="mcd::entities::Entity">
+<area shape="rect" id="node1" title="An entity." alt="" coords="94,80,233,107"/>
+<area shape="rect" id="node3" href="$d6/d0d/a01091.php" title="An animal." alt="" coords="5,155,151,181"/>
+<area shape="rect" id="node5" href="$d7/d42/a01463.php" title="A vegetal." alt="" coords="175,155,325,181"/>
+<area shape="rect" id="node2" href="$dc/dc2/a01251.php" title="A contraption." alt="" coords="77,5,249,32"/>
+<area shape="rect" id="node4" href="$de/d6d/a01095.php" title="An ant." alt="" coords="15,229,141,256"/>
+<area shape="rect" id="node6" href="$df/d96/a01347.php" title="A mushroom." alt="" coords="165,229,332,256"/>
+<area shape="rect" id="node7" href="$d9/d40/a01387.php" title="A plant." alt="" coords="356,229,491,256"/>
 </map>

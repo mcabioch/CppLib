@@ -1,5 +1,4 @@
-<map id="mcd::PathfindingException" name="mcd::PathfindingException">
-<area shape="rect" id="node1" title="All exceptions that could be thrown by the pathfinding algorithm." alt="" coords="5,155,184,181"/>
-<area shape="rect" id="node2" href="$d8/d17/a01282.php" title="A class to call custom exceptions." alt="" coords="39,80,150,107"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="43,5,147,32"/>
+<map id="mcd::Path" name="mcd::Path">
+<area shape="rect" id="node1" title="A class to manage a path computed by the map." alt="" coords="39,109,122,136"/>
+<area shape="rect" id="node2" href="$dd/d8b/a01363.php" title="A node for the path." alt="" coords="5,5,156,32"/>
 </map>

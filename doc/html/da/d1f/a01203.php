@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::check::is_object&lt; T &gt; Class Template Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('dc/d9e/a01206.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('da/d1f/a01203.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,20 +91,69 @@ $(document).ready(function(){initNavTree('dc/d9e/a01206.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="../../dc/dcc/a01200.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::check::is_special_struct&lt; T &gt; Member List</div>  </div>
+<div class="title">mcd::check::is_object&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/d9e/a01206.php">mcd::check::is_special_struct&lt; T &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d9e/a01206.php#adb3d78bf0acb5e62f39d063521210081">value</a></td><td class="entry"><a class="el" href="../../dc/d9e/a01206.php">mcd::check::is_special_struct&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<p>A template class to test if T is an unknown object.  
+ <a href="../../da/d1f/a01203.php#details">More...</a></p>
+
+<p><code>#include &lt;check.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a2c697edd58e68b8a36052c28e32ccdcc"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1f/a01203.php#a2c697edd58e68b8a36052c28e32ccdcc">value</a></td></tr>
+<tr class="separator:a2c697edd58e68b8a36052c28e32ccdcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class mcd::check::is_object&lt; T &gt;</h3>
+
+<p>A template class to test if T is an unknown object. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2c697edd58e68b8a36052c28e32ccdcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c697edd58e68b8a36052c28e32ccdcc">&#9670;&nbsp;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool <a class="el" href="../../da/d1f/a01203.php">mcd::check::is_object</a>&lt; T &gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= !<a class="code" href="../../de/df1/a01151.php#abc5406d058f8e6f62ca56b4f3e993132">is_array&lt; T &gt;::value</a> &amp;&amp; !<a class="code" href="../../d7/dd6/a01167.php#a6ede9c303cc0abd1dd1734dc1ade40a5">is_string&lt; T &gt;::value</a> &amp;&amp;</div>
+<div class="line">                                      !<a class="code" href="../../d2/d22/a01171.php#adea1af67a99838d74cf866af87297e16">is_smatch&lt; T &gt;::value</a> &amp;&amp; !std::is_fundamental&lt; T &gt;::value</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../dc/dee/a00053.php">check.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aa01167_php_a6ede9c303cc0abd1dd1734dc1ade40a5"><div class="ttname"><a href="../../d7/dd6/a01167.php#a6ede9c303cc0abd1dd1734dc1ade40a5">mcd::check::is_string::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:197</div></div>
+<div class="ttc" id="aa01151_php_abc5406d058f8e6f62ca56b4f3e993132"><div class="ttname"><a href="../../de/df1/a01151.php#abc5406d058f8e6f62ca56b4f3e993132">mcd::check::is_array::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:125</div></div>
+<div class="ttc" id="aa01171_php_adea1af67a99838d74cf866af87297e16"><div class="ttname"><a href="../../d2/d22/a01171.php#adea1af67a99838d74cf866af87297e16">mcd::check::is_smatch::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:212</div></div>
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../d0/d19/a00273.php">check</a></li><li class="navelem"><a class="el" href="../../da/d1f/a01203.php">is_object</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

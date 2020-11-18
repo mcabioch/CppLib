@@ -1,5 +1,4 @@
-<map id="mcd::Vegetal" name="mcd::Vegetal">
-<area shape="rect" id="node1" title="A vegetal." alt="" coords="17,155,116,181"/>
-<area shape="rect" id="node2" href="$dd/d18/a01284.php" title="An entity." alt="" coords="22,80,111,107"/>
-<area shape="rect" id="node3" href="$da/de0/a01248.php" title="A contraption." alt="" coords="5,5,128,32"/>
+<map id="mcd::vector&lt; C &gt;" name="mcd::vector&lt; C &gt;">
+<area shape="rect" id="node1" title="Add some features to std::vector." alt="" coords="5,80,131,107"/>
+<area shape="rect" id="node2" title="STL class." alt="" coords="9,5,127,32"/>
 </map>

@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -314,6 +314,9 @@ $(document).ready(function(){initNavTree('namespacemembers.php',''); initResizab
 </li>
 <li>max()
 : <a class="el" href="db/d12/a00268.php#a50e5370a188b7230c0dce47cc746f533">mcd</a>
+</li>
+<li>mean()
+: <a class="el" href="db/d12/a00268.php#ac6299a0a4cb021eca2a76cb4194ee03f">mcd</a>
 </li>
 <li>microSleep()
 : <a class="el" href="db/d12/a00268.php#a773d8ead6e35e10f86f4285f3f79ecb9">mcd</a>
@@ -616,6 +619,9 @@ $(document).ready(function(){initNavTree('namespacemembers.php',''); initResizab
 
 
 <h3><a id="index_w"></a>- w -</h3><ul>
+<li>waitFor()
+: <a class="el" href="dd/d56/a00274.php#aafc710deb82779d9101ddddd8db0d56c">mcd::clock</a>
+</li>
 <li>warning_log()
 : <a class="el" href="db/d12/a00268.php#ac625de83fcace96567aecd1363297776">mcd</a>
 </li>

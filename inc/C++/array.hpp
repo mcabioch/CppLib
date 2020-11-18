@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		array.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	November, 14 2020
+ *  \file       array.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    April, 24 2019
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_ARRAY
-#define HEADER_CPP_ARRAY
+#ifndef HEADER_MCD_ARRAY
+#define HEADER_MCD_ARRAY
 
 #include "check.hpp"
 #include "sorting.hpp"
@@ -557,4 +558,4 @@ namespace mcd
 
 }   // namespace mcd
 
-#endif   // HEADER_CPP_ARRAY
+#endif   // HEADER_MCD_ARRAY

@@ -1,8 +1,9 @@
 /*!
  *
- *	\file		strptime.h
- *	\author		contributed to The NetBSD Foundation by Klaus Klein
- *	\modified	October, 02 2019
+ *  \file       strptime.h
+ *  \author     contributed to The NetBSD Foundation by Klaus Klein
+ *  \created    October, 02 2019
+ *  \modified   November, 18 2020
  *	\brief		Used to replace strptime function when compiling for Windows
  *	\details	Copyright (c) 1997, 1998, 2005, 2008 The NetBSD Foundation, Inc.\n
  * All rights reserved.
@@ -53,10 +54,10 @@
         { ; }
 #    define TM_YEAR_BASE (1900)
 
+#    include <conio.h>
 #    include <ctype.h>
 #    include <string.h>
 #    include <time.h>
-#    include <conio.h>
 
 #    ifdef __cplusplus
 extern "C"

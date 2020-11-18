@@ -1,0 +1,6 @@
+<map id="mcd::console::Cursor::put" name="mcd::console::Cursor::put">
+<area shape="rect" id="node1" title="Write something to the given position." alt="" coords="5,78,179,105"/>
+<area shape="rect" id="node2" href="$d0/d58/a01230.php#a935cee462520735116a963b3df85c5d4" title="Go to an x/y position." alt="" coords="227,5,373,47"/>
+<area shape="rect" id="node3" href="$d0/d58/a01230.php#a5b1fc7215725e4cd22e95de9530e33ae" title="Restore the cursor&#39;s saved position." alt="" coords="227,71,373,112"/>
+<area shape="rect" id="node4" href="$d0/d58/a01230.php#a2d7f5ff054303c5974c2bb92cdaa2af5" title="Save the actual cursor position." alt="" coords="227,136,373,177"/>
+</map>

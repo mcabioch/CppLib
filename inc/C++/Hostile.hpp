@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Hostile.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	August, 15 2018
+ *  \file       Hostile.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 15 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_HOSTILE
-#define HEADER_CPP_HOSTILE
+#ifndef HEADER_MCD_ENTITIES_HOSTILE
+#define HEADER_MCD_ENTITIES_HOSTILE
 
 #include "Entity.hpp"
 
@@ -95,4 +96,4 @@ namespace mcd::entities
     };
 }   // namespace mcd::entities
 
-#endif   // HEADER_CPP_HOSTILE
+#endif   // HEADER_MCD_ENTITIES_HOSTILE

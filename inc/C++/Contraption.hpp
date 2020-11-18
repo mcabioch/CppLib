@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Contraption.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	August, 17 2018
+ *  \file       Contraption.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 17 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_CONTRAPTION
-#define HEADER_CPP_CONTRAPTION
+#ifndef HEADER_MCD_ENTITIES_CONTRAPTION
+#define HEADER_MCD_ENTITIES_CONTRAPTION
 
 #include "C++.hpp"
 
@@ -209,4 +210,4 @@ namespace mcd::entities
     };
 }   // namespace mcd::entities
 
-#endif   // HEADER_CPP_CONTRAPTION
+#endif   // HEADER_MCD_ENTITIES_CONTRAPTION

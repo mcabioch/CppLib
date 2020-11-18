@@ -1,6 +1,6 @@
 var a00128 =
 [
-    [ "Logger", "d5/df4/a01322.php", "d5/df4/a01322" ],
+    [ "Logger", "db/da8/a01323.php", "db/da8/a01323" ],
     [ "debug_log", "d1/d88/a00128.php#a46d5e25a59c0c1ab0d7e8fc3812454a0", null ],
     [ "debug_logs", "d1/d88/a00128.php#a4e44394dedcf599237302e670d0fbd30", null ],
     [ "logReset", "d1/d88/a00128.php#af7722e7b54e502ab2abf9327c2b80168", null ],

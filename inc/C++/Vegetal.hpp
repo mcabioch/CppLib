@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Vegetal.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	August, 17 2018
+ *  \file       Vegetal.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 17 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_VEGETAL
-#define HEADER_CPP_VEGETAL
+#ifndef HEADER_MCD_ENTITIES_VEGETAL
+#define HEADER_MCD_ENTITIES_VEGETAL
 
 #include "Entity.hpp"
 
@@ -57,4 +58,4 @@ namespace mcd::entities
     };
 }   // namespace mcd::entities
 
-#endif   // HEADER_CPP_VEGETAL
+#endif   // HEADER_MCD_ENTITIES_VEGETAL

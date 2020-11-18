@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -103,26 +103,26 @@ $(document).ready(function(){initNavTree('d9/d2a/a00270.php','../../'); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a01226.php">Cls</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the console.  <a href="../../dd/d9e/a01226.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da8/a01227.php">Cls</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the console.  <a href="../../d9/da8/a01227.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d15/a01218.php">Color</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the text color in the console.  <a href="../../d8/d15/a01218.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d39/a01219.php">Color</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the text color in the console.  <a href="../../d5/d39/a01219.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d58/a01230.php">Cursor</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with the cursor in the console.  <a href="../../d0/d58/a01230.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d88/a01231.php">Cursor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with the cursor in the console.  <a href="../../d0/d88/a01231.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d7e/a01222.php">Reinit</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../de/d7e/a01222.php" title="Reinit the color in the console.">Reinit</a> the color in the console.  <a href="../../de/d7e/a01222.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddd/a01223.php">Reinit</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d7/ddd/a01223.php" title="Reinit the color in the console.">Reinit</a> the color in the console.  <a href="../../d7/ddd/a01223.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dc5/a01242.php">SetPrecision</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the precision of a std::ostream and save the default value.  <a href="../../d7/dc5/a01242.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db0/a01243.php">SetPrecision</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the precision of a std::ostream and save the default value.  <a href="../../d8/db0/a01243.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/ddf/a01238.php">ThreadCout</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::cout thread safe.  <a href="../../d8/ddf/a01238.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dbf/a01239.php">ThreadCout</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::cout thread safe.  <a href="../../d7/dbf/a01239.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d1e/a01234.php">ThreadEndlCout</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::endl in <a class="el" href="../../d8/ddf/a01238.php" title="A class to use std::cout thread safe.">ThreadCout</a>.  <a href="../../d6/d1e/a01234.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a01235.php">ThreadEndlCout</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use std::endl in <a class="el" href="../../d7/dbf/a01239.php" title="A class to use std::cout thread safe.">ThreadCout</a>.  <a href="../../dd/dad/a01235.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -193,11 +193,11 @@ Functions</h2></td></tr>
 <tr class="memdesc:aaa5354eebbe04b0a9bfc29f7155b8d48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints approximately everything.  <a href="../../d9/d2a/a00270.php#aaa5354eebbe04b0a9bfc29f7155b8d48">More...</a><br /></td></tr>
 <tr class="separator:aaa5354eebbe04b0a9bfc29f7155b8d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3aef993a0cb554fa885596a645ad8b0a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a3aef993a0cb554fa885596a645ad8b0a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#a3aef993a0cb554fa885596a645ad8b0a">vector2DPrint</a> (const <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
+<tr class="memitem:a3aef993a0cb554fa885596a645ad8b0a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#a3aef993a0cb554fa885596a645ad8b0a">vector2DPrint</a> (const <a class="el" href="../../d6/d3b/a01459.php">vector</a>&lt; <a class="el" href="../../d6/d3b/a01459.php">vector</a>&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout)</td></tr>
 <tr class="memdesc:a3aef993a0cb554fa885596a645ad8b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print in <em>os</em> the 2D vector as a visual 2D array.  <a href="../../d9/d2a/a00270.php#a3aef993a0cb554fa885596a645ad8b0a">More...</a><br /></td></tr>
 <tr class="separator:a3aef993a0cb554fa885596a645ad8b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa463dccf66e89fdb6a84bb6d6f9ba29d"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aa463dccf66e89fdb6a84bb6d6f9ba29d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#aa463dccf66e89fdb6a84bb6d6f9ba29d">vector2DPrintInverted</a> (const <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout, int shift=0)</td></tr>
+<tr class="memitem:aa463dccf66e89fdb6a84bb6d6f9ba29d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#aa463dccf66e89fdb6a84bb6d6f9ba29d">vector2DPrintInverted</a> (const <a class="el" href="../../d6/d3b/a01459.php">vector</a>&lt; <a class="el" href="../../d6/d3b/a01459.php">vector</a>&lt; T &gt; &gt; values, int autosize=0, std::ostream &amp;os=std::cout, int shift=0)</td></tr>
 <tr class="memdesc:aa463dccf66e89fdb6a84bb6d6f9ba29d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print in <em>os</em> the 2D vector as a visual 2D array inverting x and y axis.  <a href="../../d9/d2a/a00270.php#aa463dccf66e89fdb6a84bb6d6f9ba29d">More...</a><br /></td></tr>
 <tr class="separator:aa463dccf66e89fdb6a84bb6d6f9ba29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa430ebe71eacf6cfd45ff1313d66cea2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#aa430ebe71eacf6cfd45ff1313d66cea2">printLine</a> (std::string caract, size_t size, std::ostream &amp;os=std::cout)</td></tr>
@@ -206,13 +206,13 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ab103cfa2a20b497f890a6fb6c878aa60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/ddf/a01238.php">ThreadCout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#ab103cfa2a20b497f890a6fb6c878aa60">cout</a></td></tr>
+<tr class="memitem:ab103cfa2a20b497f890a6fb6c878aa60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dbf/a01239.php">ThreadCout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#ab103cfa2a20b497f890a6fb6c878aa60">cout</a></td></tr>
 <tr class="memdesc:ab103cfa2a20b497f890a6fb6c878aa60"><td class="mdescLeft">&#160;</td><td class="mdescRight">The thread safe version of std::cout.  <a href="../../d9/d2a/a00270.php#ab103cfa2a20b497f890a6fb6c878aa60">More...</a><br /></td></tr>
 <tr class="separator:ab103cfa2a20b497f890a6fb6c878aa60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f1493d50192cdfabe22dc9f805bdcaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d1e/a01234.php">ThreadEndlCout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#a7f1493d50192cdfabe22dc9f805bdcaa">endl</a></td></tr>
+<tr class="memitem:a7f1493d50192cdfabe22dc9f805bdcaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dad/a01235.php">ThreadEndlCout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#a7f1493d50192cdfabe22dc9f805bdcaa">endl</a></td></tr>
 <tr class="memdesc:a7f1493d50192cdfabe22dc9f805bdcaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The thread safe version of std::endl.  <a href="../../d9/d2a/a00270.php#a7f1493d50192cdfabe22dc9f805bdcaa">More...</a><br /></td></tr>
 <tr class="separator:a7f1493d50192cdfabe22dc9f805bdcaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd902f4be562676df6dacf3c9ed259ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dc5/a01242.php">SetPrecision</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#abd902f4be562676df6dacf3c9ed259ee">setprecision</a></td></tr>
+<tr class="memitem:abd902f4be562676df6dacf3c9ed259ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/db0/a01243.php">SetPrecision</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a00270.php#abd902f4be562676df6dacf3c9ed259ee">setprecision</a></td></tr>
 <tr class="separator:abd902f4be562676df6dacf3c9ed259ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -406,7 +406,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname">void mcd::console::vector2DPrint </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; T &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/d3b/a01459.php">vector</a>&lt; <a class="el" href="../../d6/d3b/a01459.php">vector</a>&lt; T &gt; &gt;&#160;</td>
           <td class="paramname"><em>values</em>, </td>
         </tr>
         <tr>
@@ -453,7 +453,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname">void mcd::console::vector2DPrintInverted </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; <a class="el" href="../../d7/dd1/a01458.php">vector</a>&lt; T &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/d3b/a01459.php">vector</a>&lt; <a class="el" href="../../d6/d3b/a01459.php">vector</a>&lt; T &gt; &gt;&#160;</td>
           <td class="paramname"><em>values</em>, </td>
         </tr>
         <tr>
@@ -506,7 +506,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/ddf/a01238.php">ThreadCout</a> mcd::console::cout</td>
+          <td class="memname"><a class="el" href="../../d7/dbf/a01239.php">ThreadCout</a> mcd::console::cout</td>
         </tr>
       </table>
   </td>
@@ -530,7 +530,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d1e/a01234.php">ThreadEndlCout</a> mcd::console::endl</td>
+          <td class="memname"><a class="el" href="../../dd/dad/a01235.php">ThreadEndlCout</a> mcd::console::endl</td>
         </tr>
       </table>
   </td>
@@ -554,7 +554,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/dc5/a01242.php">SetPrecision</a> mcd::console::setprecision</td>
+          <td class="memname"><a class="el" href="../../d8/db0/a01243.php">SetPrecision</a> mcd::console::setprecision</td>
         </tr>
       </table>
   </td>

@@ -1,8 +1,8 @@
 var a01231 =
 [
-    [ "SetPrecision", "d0/d88/a01231.php#a195d160ea0c6118cce9bb50ba66580ed", null ],
-    [ "~SetPrecision", "d0/d88/a01231.php#af8099a272295dd59817dbee310abe65a", null ],
-    [ "operator()", "d0/d88/a01231.php#a9d60f714c8c175781dc24118b52fff3c", null ],
-    [ "operator()", "d0/d88/a01231.php#a0158a1e008c3abf891b214ea00b53f68", null ],
-    [ "operator<<", "d0/d88/a01231.php#a5a120231654267de5f32512a83c99521", null ]
+    [ "goTo", "d0/d88/a01231.php#a935cee462520735116a963b3df85c5d4", null ],
+    [ "home", "d0/d88/a01231.php#acf65fe5af6d5a72cbcac5af73f14bc40", null ],
+    [ "put", "d0/d88/a01231.php#a7425e2f516feeb283ad6d8a889333a71", null ],
+    [ "restore", "d0/d88/a01231.php#a5b1fc7215725e4cd22e95de9530e33ae", null ],
+    [ "save", "d0/d88/a01231.php#a2d7f5ff054303c5974c2bb92cdaa2af5", null ]
 ];

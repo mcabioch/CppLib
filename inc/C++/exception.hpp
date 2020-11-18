@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		exception.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Saturday October, 24 2020 13:36:33
- *	\modified	Saturday October, 24 2020
+ *  \file       exception.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Saturday October, 24 2020 13:36:33
+ *  \modified   Saturday October, 24 2020
  *
  */
-#ifndef HEADER_CPP_EXCEPTION
-#define HEADER_CPP_EXCEPTION
+#ifndef HEADER_MCD_EXCEPTION
+#define HEADER_MCD_EXCEPTION
 
 #include <exception>
 #include <stdexcept>
@@ -73,4 +73,4 @@ namespace mcd
     };
 }   // namespace mcd
 
-#endif   // HEADER_CPP_EXCEPTION
+#endif   // HEADER_MCD_EXCEPTION

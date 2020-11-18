@@ -1,12 +1,13 @@
 /*!
  *
- *	\file		Player.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\modified	August, 17 2018
+ *  \file       Player.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    August, 17 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_PLAYER
-#define HEADER_CPP_PLAYER
+#ifndef HEADER_MCD_ENTITIES_PLAYER
+#define HEADER_MCD_ENTITIES_PLAYER
 
 #include "Identifier.hpp"
 #include "PlayerAbstraction.hpp"
@@ -50,4 +51,4 @@ namespace mcd::entities
     };
 }   // namespace mcd::entities
 
-#endif   // HEADER_CPP_PLAYER
+#endif   // HEADER_MCD_ENTITIES_PLAYER

@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		lowIncludes.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Friday October, 04 2019 16:16:49
- *	\modified	Friday October, 04 2019
+ *  \file       lowIncludes.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Friday October, 04 2019 16:16:49
+ *  \modified   Friday October, 04 2019
  *
  */
-#ifndef HEADER_LOW_INCLUDES
-#define HEADER_LOW_INCLUDES
+#ifndef HEADER_MCD_LOW_INCLUDES
+#define HEADER_MCD_LOW_INCLUDES
 
 #include <algorithm>
 #include <cmath>
@@ -21,4 +21,4 @@
 #include <utility>
 #include <vector>
 
-#endif   // HEADER_LOW_INCLUDES
+#endif   // HEADER_MCD_LOW_INCLUDES

@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		RND.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	May, 29 2018
- *  \modified   November, 15 2020
+ *  \file       RND.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    May, 29 2018
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_CPP_RND
-#define HEADER_CPP_RND
+#ifndef HEADER_MCD_RND
+#define HEADER_MCD_RND
 
 #include <random>
 
@@ -33,6 +33,19 @@ namespace mcd
             U dist(a, b);
             return dist(gen);
         }
+
+#if 0
+        /*!
+         * \brief	Set the seed of the random generator
+         *		\param[in]		seed	The seed to use in the generator
+         */
+        void setSeed(long unsigned int seed) { gen.seed(seed); }
+
+        /*!
+         * \brief	Reset the seed of the random generator
+         */
+        void resetSeed() { setSeed(rd()); }
+#endif
 
         private:
         std::random_device rd;
@@ -79,4 +92,4 @@ namespace mcd
     extern Rnd rnd;
 }   // namespace mcd
 
-#endif   // HEADER_CPP_RND
+#endif   // HEADER_MCD_RND

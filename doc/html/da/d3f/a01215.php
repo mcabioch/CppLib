@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: Member List</title>
+		<title>C++: mcd::Clock Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('d8/d15/a01218.php','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('da/d3f/a01215.php','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,28 +91,206 @@ $(document).ready(function(){initNavTree('d8/d15/a01218.php','../../'); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="../../dc/db6/a01212.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::console::Color Member List</div>  </div>
+<div class="title">mcd::Clock Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d15/a01218.php#a25e220411eca07870e3146530deefdf6">addColors</a>(int color)</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d15/a01218.php#a39d1e3b3618a86c29866bd90855bfc8f">addColors</a>(int color, Args... args)</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d15/a01218.php#aeb7871eb7a31894377812891127efe18">addColors</a>(const Colors &amp;color)</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d15/a01218.php#af572e71933160dc857fcb6f91e94ba5c">addColors</a>(const Colors &amp;color, Args... args)</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d15/a01218.php#a37c42c3a0b8af325e746f536a6a51305">Cls</a> class</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d15/a01218.php#a55ccb3b92bc685b42f0ca5f71cb98559">Color</a>(const std::string &amp;color)</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d15/a01218.php#a79c795ec63433d6f1e5232e50247fee1">Color</a>(Colors color, Args... args)</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d15/a01218.php#a84513fec989f2f817d2b1c5e6989450e">operator&lt;&lt;</a>(std::ostream &amp;stream, Color const &amp;c)</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d15/a01218.php#ac165219b90060af0a1d899b1caadab6c">~Color</a>()</td><td class="entry"><a class="el" href="../../d8/d15/a01218.php">mcd::console::Color</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>A clock to measure the elapsed time.  
+ <a href="../../da/d3f/a01215.php#details">More...</a></p>
+
+<p><code>#include &lt;Clock.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ae0aa0853cddce8c1e8c4339eb7016223"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3f/a01215.php#ae0aa0853cddce8c1e8c4339eb7016223">Clock</a> ()</td></tr>
+<tr class="separator:ae0aa0853cddce8c1e8c4339eb7016223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ce94671d48c1f42862771174c86810"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3f/a01215.php#a47ce94671d48c1f42862771174c86810">getElapsed</a> ()</td></tr>
+<tr class="memdesc:a47ce94671d48c1f42862771174c86810"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get time elapsed.  <a href="../../da/d3f/a01215.php#a47ce94671d48c1f42862771174c86810">More...</a><br /></td></tr>
+<tr class="separator:a47ce94671d48c1f42862771174c86810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276d9d978a8670e8354cac2b589c60ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3f/a01215.php#a276d9d978a8670e8354cac2b589c60ce">getStart</a> () const</td></tr>
+<tr class="memdesc:a276d9d978a8670e8354cac2b589c60ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the time start.  <a href="../../da/d3f/a01215.php#a276d9d978a8670e8354cac2b589c60ce">More...</a><br /></td></tr>
+<tr class="separator:a276d9d978a8670e8354cac2b589c60ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b787edba50392a8f18995a6ae6dc9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3f/a01215.php#a25b787edba50392a8f18995a6ae6dc9e">start</a> ()</td></tr>
+<tr class="memdesc:a25b787edba50392a8f18995a6ae6dc9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the clock.  <a href="../../da/d3f/a01215.php#a25b787edba50392a8f18995a6ae6dc9e">More...</a><br /></td></tr>
+<tr class="separator:a25b787edba50392a8f18995a6ae6dc9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3008b7b555fb4e6c3415aec152b5de2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3f/a01215.php#a3008b7b555fb4e6c3415aec152b5de2d">restart</a> ()</td></tr>
+<tr class="memdesc:a3008b7b555fb4e6c3415aec152b5de2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restart the clock.  <a href="../../da/d3f/a01215.php#a3008b7b555fb4e6c3415aec152b5de2d">More...</a><br /></td></tr>
+<tr class="separator:a3008b7b555fb4e6c3415aec152b5de2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a9714489f034bfffabff995741d899513"><td class="memItemLeft" align="right" valign="top">std::chrono::high_resolution_clock::time_point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3f/a01215.php#a9714489f034bfffabff995741d899513">m_start</a></td></tr>
+<tr class="separator:a9714489f034bfffabff995741d899513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20216632ae0d7b1504060826edfdd062"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3f/a01215.php#a20216632ae0d7b1504060826edfdd062">started</a></td></tr>
+<tr class="separator:a20216632ae0d7b1504060826edfdd062"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A clock to measure the elapsed time. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ae0aa0853cddce8c1e8c4339eb7016223"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0aa0853cddce8c1e8c4339eb7016223">&#9670;&nbsp;</a></span>Clock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mcd::Clock::Clock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a47ce94671d48c1f42862771174c86810"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ce94671d48c1f42862771174c86810">&#9670;&nbsp;</a></span>getElapsed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Clock::getElapsed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get time elapsed. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return time elapsed since the clock started in microseconds </dd></dl>
+
+</div>
+</div>
+<a id="a276d9d978a8670e8354cac2b589c60ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a276d9d978a8670e8354cac2b589c60ce">&#9670;&nbsp;</a></span>getStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">double64_t</a> mcd::Clock::getStart </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the time start. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return the start time since last clock start in microseconds </dd></dl>
+
+</div>
+</div>
+<a id="a3008b7b555fb4e6c3415aec152b5de2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3008b7b555fb4e6c3415aec152b5de2d">&#9670;&nbsp;</a></span>restart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Clock::restart </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Restart the clock. </p>
+
+</div>
+</div>
+<a id="a25b787edba50392a8f18995a6ae6dc9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25b787edba50392a8f18995a6ae6dc9e">&#9670;&nbsp;</a></span>start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mcd::Clock::start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start the clock. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9714489f034bfffabff995741d899513"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9714489f034bfffabff995741d899513">&#9670;&nbsp;</a></span>m_start</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::chrono::high_resolution_clock::time_point mcd::Clock::m_start</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20216632ae0d7b1504060826edfdd062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20216632ae0d7b1504060826edfdd062">&#9670;&nbsp;</a></span>started</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcd::Clock::started</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d3/d8b/a00059.php">Clock.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../da/d3f/a01215.php">Clock</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

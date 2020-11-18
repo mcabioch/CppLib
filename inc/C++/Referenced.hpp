@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		Referenced.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	July, 26 2018 08:47:36
- *	\modified	September, 26 2019
+ *  \file       Referenced.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    July, 26 2018 08:47:36
+ *  \modified   November, 18 2020
  *
  */
-#ifndef HEADER_REFERENCED
-#define HEADER_REFERENCED
+#ifndef HEADER_MCD_REFERENCED
+#define HEADER_MCD_REFERENCED
 
 #include "includes.hpp"
 
@@ -40,4 +40,4 @@ namespace mcd
     }
 }   // namespace mcd
 
-#endif   // HEADER_REFERENCED
+#endif   // HEADER_MCD_REFERENCED

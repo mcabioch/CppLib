@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Mon Nov 16 2020 10:12:13 for C++ by";
+				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,28 +95,28 @@ $(document).ready(function(){initNavTree('functions_func_n.php',''); initResizab
 
 <h3><a id="index_n"></a>- n -</h3><ul>
 <li>Name()
-: <a class="el" href="d4/d34/a01298.php#ae75e8789e328d8ffa258b201849d6a44">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#ae75e8789e328d8ffa258b201849d6a44">mcd::natural::Gene</a>
 </li>
 <li>nb()
-: <a class="el" href="d1/df4/a01422.php#ae42256dfd8f198d224e4a877474aa172">mcd::tests::Test</a>
+: <a class="el" href="d9/ddc/a01423.php#ae42256dfd8f198d224e4a877474aa172">mcd::tests::Test</a>
 </li>
 <li>next()
-: <a class="el" href="d6/dfe/a01366.php#ac24764eca1f5c6a54322d4a19d4ac68f">mcd::Path</a>
+: <a class="el" href="dd/d86/a01367.php#ac24764eca1f5c6a54322d4a19d4ac68f">mcd::Path</a>
 </li>
 <li>NotCopyable()
-: <a class="el" href="da/d61/a01350.php#aa40da048522b578e9c2cc9f73c1a0d92">mcd::NotCopyable</a>
+: <a class="el" href="d1/dcd/a01351.php#aa40da048522b578e9c2cc9f73c1a0d92">mcd::NotCopyable</a>
 </li>
 <li>NotInstantiable()
-: <a class="el" href="d7/dc4/a01354.php#a760ca4c32c24cf2b4c4c2ef07b51f997">mcd::NotInstantiable</a>
+: <a class="el" href="d8/d4e/a01355.php#a760ca4c32c24cf2b4c4c2ef07b51f997">mcd::NotInstantiable</a>
 </li>
 <li>notInstantiable()
-: <a class="el" href="d7/dc4/a01354.php#a19c59f78b217426061641970c9f11022">mcd::NotInstantiable</a>
+: <a class="el" href="d8/d4e/a01355.php#a19c59f78b217426061641970c9f11022">mcd::NotInstantiable</a>
 </li>
 <li>notInUse()
-: <a class="el" href="dc/de6/a01426.php#a0b2419ec1119f28dc2440e202f0d2c8e">mcd::Threadable&lt; C &gt;</a>
+: <a class="el" href="db/d78/a01427.php#a0b2419ec1119f28dc2440e202f0d2c8e">mcd::Threadable&lt; C &gt;</a>
 </li>
 <li>numerator()
-: <a class="el" href="d7/d88/a01294.php#a17e4466c06be8e1bff20fe204d4ff110">mcd::Fraction</a>
+: <a class="el" href="d2/d68/a01295.php#a17e4466c06be8e1bff20fe204d4ff110">mcd::Fraction</a>
 </li>
 </ul>
 </div><!-- contents -->

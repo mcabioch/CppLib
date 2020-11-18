@@ -1,13 +1,13 @@
 /*!
  *
- *	\file		Test.hpp
- *	\author		Mathias CABIOCH-DELALANDE
- *	\created	Wednesday November, 27 2019 23:32:26
- *	\modified	November, 13 2020
+ *  \file       Test.hpp
+ *  \author     Mathias CABIOCH-DELALANDE
+ *  \created    Wednesday November, 27 2019 23:32:26
+ November, 18 2020
  *
  */
-#ifndef HEADER_CPP_TEST
-#define HEADER_CPP_TEST
+#ifndef HEADER_MCD_TEST
+#define HEADER_MCD_TEST
 
 #include "C++lib.hpp"
 
@@ -230,4 +230,4 @@ namespace mcd::tests
         false)
 }   // namespace mcd::tests
 
-#endif   // HEADER_CPP_TEST
+#endif   // HEADER_MCD_TEST
