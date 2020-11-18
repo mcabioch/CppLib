@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['cell_1048',['Cell',['../db/db2/a01143.php#ae5097d9d7e1fc380e39fe9639ba794c8',1,'mcd::natural::Cell']]],
+  ['cell_1048',['Cell',['../db/db2/a01143.php#a7bbb3aeba2f7c46c6a125142cb76c9fb',1,'mcd::genetic::Cell']]],
   ['cesar_1049',['Cesar',['../dd/d42/a01259.php#a01dc2192c075a4cbed0a72a9c35e1a4b',1,'mcd::Cesar']]],
-  ['chromosome_1050',['Chromosome',['../d1/d34/a01211.php#adba79a0781609c28900d7a9b68b2a38f',1,'mcd::natural::Chromosome']]],
+  ['chromosome_1050',['Chromosome',['../d1/d34/a01211.php#a6a8a2b9c5dc9b20ab381537dd4eb814e',1,'mcd::genetic::Chromosome']]],
   ['clear_1051',['clear',['../d4/d04/a01335.php#ab8a3794bcdcff4ad8875c6799eb4ab58',1,'mcd::Map']]],
   ['clock_1052',['Clock',['../da/d3f/a01215.php#ae0aa0853cddce8c1e8c4339eb7016223',1,'mcd::Clock']]],
   ['cls_1053',['Cls',['../d9/da8/a01227.php#aaeac6f719b5dc1e0c77c8c55185cfe07',1,'mcd::console::Cls']]],
@@ -20,7 +20,7 @@ var searchData=
   ['contains_1065',['contains',['../db/d12/a00268.php#ad53bf266a5db5dc112e71ebe3c78946e',1,'mcd']]],
   ['contraption_1066',['Contraption',['../dc/dc2/a01251.php#a85419d652b4dd1521bd1ee52a87fd679',1,'mcd::entities::Contraption']]],
   ['convert_1067',['convert',['../d6/d65/a01443.php#a1fc36192abe90cd4c50aecf7a0df3ce1',1,'mcd::Tree']]],
-  ['copy_1068',['copy',['../db/db2/a01143.php#aeb549302dbb6442103933d2a17361580',1,'mcd::natural::Cell::copy()'],['../d1/d34/a01211.php#ab0def08172e265c3850983190d353f7c',1,'mcd::natural::Chromosome::copy()'],['../d8/d38/a01299.php#af2f9b44131d9874e8b2d27566f8f5bf0',1,'mcd::natural::Gene::copy()']]],
+  ['copy_1068',['copy',['../db/db2/a01143.php#a32c13557203d97ef7c75a194f8673830',1,'mcd::genetic::Cell::copy()'],['../d1/d34/a01211.php#a8b1df7d685e6f49558c4c6e260547777',1,'mcd::genetic::Chromosome::copy()'],['../d8/d38/a01299.php#a0105c4d4734abb6fbcb9acff959b7852',1,'mcd::genetic::Gene::copy()']]],
   ['count_1069',['count',['../db/d12/a00268.php#a95be8eb46f76298e1218183421d13825',1,'mcd::count(const std::string &amp;text, char c)'],['../db/d12/a00268.php#a849378e969aeeafb4680926e7dec8892',1,'mcd::count(const vector&lt; C &gt; &amp;v, const C &amp;value)']]],
   ['create_1070',['create',['../d6/d65/a01443.php#a09e92db6995261c4f6bfd7ce10bf8d2f',1,'mcd::Tree']]],
   ['createpath_1071',['createPath',['../d6/d4d/a01371.php#a9a82c779fba2fba8d5adbd1c22ea8c0d',1,'mcd::Pathfinding::createPath()'],['../d5/df5/a01375.php#a7b2872207d45871fcbcfa01e216090dd',1,'mcd::PathfindingDijkstra::createPath()']]],

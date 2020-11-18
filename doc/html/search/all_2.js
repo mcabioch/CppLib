@@ -19,6 +19,6 @@ var searchData=
   ['blue_5fb_86',['BLUE_B',['../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a19995eb9ec42ffbe11647f8090e9f4fe',1,'mcd::console']]],
   ['blue_5ff_87',['BLUE_F',['../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7aaac26079ece66386f4c2cf268d474795',1,'mcd::console']]],
   ['bold_88',['BOLD',['../d9/d2a/a00270.php#a70b121b7b00516f28ed61556fa874cb7a2909dd0e0336f10b6da9735b859a3d19',1,'mcd::console']]],
-  ['bool_89',['BOOL',['../d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0aa91e524760eeac3e25168c3c4fd16c64',1,'mcd::natural::Gene']]],
+  ['bool_89',['BOOL',['../d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafaa0409ed75b17d7f967926d3443d0eed5',1,'mcd::genetic::Gene']]],
   ['bot_90',['bot',['../df/dc5/a01455.php#a2beb84069e438adcccfa4b6ed9794c0c',1,'mcd::Point']]]
 ];

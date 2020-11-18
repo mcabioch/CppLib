@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -158,7 +158,7 @@ $(document).ready(function(){initNavTree('classes.php',''); initResizable(); });
 <td valign="top"><a class="el" href="d7/dbf/a01239.php">ThreadCout</a> (<a class="el" href="d9/d2a/a00270.php">mcd::console</a>)&#160;&#160;&#160;</td>
 </tr>
 <tr><td valign="top"><a class="el" href="d8/d84/a01131.php">Big</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="d8/d38/a01299.php">Gene</a> (<a class="el" href="dd/d86/a00271.php">mcd::natural</a>)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="d8/d38/a01299.php">Gene</a> (<a class="el" href="dd/d86/a00271.php">mcd::genetic</a>)&#160;&#160;&#160;</td>
 <td valign="top"><a class="el" href="d1/d72/a01319.php">JsonException</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 <td valign="top"><a class="el" href="de/dfe/a01383.php">PathfindingProblem</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 <td valign="top"><a class="el" href="dd/dad/a01235.php">ThreadEndlCout</a> (<a class="el" href="d9/d2a/a00270.php">mcd::console</a>)&#160;&#160;&#160;</td>
@@ -188,7 +188,7 @@ $(document).ready(function(){initNavTree('classes.php',''); initResizable(); });
 <td valign="top"><a class="el" href="df/dc5/a01455.php">Point</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 <td valign="top"><a class="el" href="db/d12/a00268.php#df/d75/a01447">trio</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="db/db2/a01143.php">Cell</a> (<a class="el" href="dd/d86/a00271.php">mcd::natural</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="db/db2/a01143.php">Cell</a> (<a class="el" href="dd/d86/a00271.php">mcd::genetic</a>)&#160;&#160;&#160;</td>
 <td valign="top"><a class="el" href="de/d1a/a01179.php">has_size_method</a> (<a class="el" href="d0/d19/a00273.php">mcd::check</a>)&#160;&#160;&#160;</td>
 <td valign="top"><a class="el" href="d8/d31/a01407.php">PureVirtual</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_v"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;v&#160;&#160;</div></td></tr></table>
@@ -200,7 +200,7 @@ $(document).ready(function(){initNavTree('classes.php',''); initResizable(); });
 <td rowspan="2" valign="bottom"><a name="letter_q"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;q&#160;&#160;</div></td></tr></table>
 </td>
 </tr>
-<tr><td valign="top"><a class="el" href="d1/d34/a01211.php">Chromosome</a> (<a class="el" href="dd/d86/a00271.php">mcd::natural</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="d1/d34/a01211.php">Chromosome</a> (<a class="el" href="dd/d86/a00271.php">mcd::genetic</a>)&#160;&#160;&#160;</td>
 <td rowspan="2" valign="bottom"><a name="letter_i"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;i&#160;&#160;</div></td></tr></table>
 </td>
 <td valign="top"><a class="el" href="db/d12/a00268.php#dc/d8e/a01331">MapMove</a> (<a class="el" href="db/d12/a00268.php">mcd</a>)&#160;&#160;&#160;</td>

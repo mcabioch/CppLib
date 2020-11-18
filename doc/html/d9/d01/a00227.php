@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:41 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -228,7 +228,9 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Used to replace strptime function when compiling for Windows. </p>
 <dl class="section author"><dt>Author</dt><dd>contributed to The NetBSD Foundation by Klaus Klein </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : October, 02 2019  Copyright (c) 1997, 1998, 2005, 2008 The NetBSD Foundation, Inc.<br  />
+<dl class="section date"><dt>Date</dt><dd>Created : October, 02 2019 </dd>
+<dd>
+Last modification : November, 18 2020  Copyright (c) 1997, 1998, 2005, 2008 The NetBSD Foundation, Inc.<br  />
  All rights reserved.</dd></dl>
 <p>This code was contributed to The NetBSD Foundation by Klaus Klein. Heavily optimised by David Laight</p>
 <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p><ol type="1">

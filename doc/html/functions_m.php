@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -132,7 +132,7 @@ $(document).ready(function(){initNavTree('functions_m.php',''); initResizable();
 : <a class="el" href="df/d96/a01347.php#ae017da04e4bdd2ec7a18f00fc7944aef">mcd::entities::Mushroom</a>
 </li>
 <li>MutationRate
-: <a class="el" href="d8/d38/a01299.php#aea82298faeb2f83a45c7ca43558c0390">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#aefe63728d1618bcaa242d9192a2ceb5d">mcd::genetic::Gene</a>
 </li>
 <li>MyCrypt()
 : <a class="el" href="d4/d41/a01267.php#ac618fc32b73d9bb13b07bc9db802cbef">mcd::MyCrypt</a>

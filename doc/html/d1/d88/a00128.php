@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:41 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -263,7 +263,7 @@ Variables</h2></td></tr>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Created : Saturday November, 09 2019 17:01:15 </dd>
 <dd>
-Last modification : October, 04 2020 </dd></dl>
+Last modification : November, 18 2020 </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a46d5e25a59c0c1ab0d7e8fc3812454a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a46d5e25a59c0c1ab0d7e8fc3812454a0">&#9670;&nbsp;</a></span>debug_log</h2>

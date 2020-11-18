@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:41 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -264,7 +264,7 @@ Enumerations</h2></td></tr>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Created : July, 29 2018 14:27:51 </dd>
 <dd>
-Last modification : November, 13 2020 </dd></dl>
+Last modification : November, 18 2020 </dd></dl>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="d4/d2c/a01327" id="d4/d2c/a01327"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#d4/d2c/a01327">&#9670;&nbsp;</a></span>mcd::WorldDimensions</h2>

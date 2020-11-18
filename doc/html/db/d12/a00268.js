@@ -3,7 +3,7 @@ var a00268 =
     [ "check", "d0/d19/a00273.php", "d0/d19/a00273" ],
     [ "console", "d9/d2a/a00270.php", "d9/d2a/a00270" ],
     [ "entities", "d5/d42/a00269.php", "d5/d42/a00269" ],
-    [ "natural", "dd/d86/a00271.php", "dd/d86/a00271" ],
+    [ "genetic", "dd/d86/a00271.php", "dd/d86/a00271" ],
     [ "tests", "d3/d5e/a00275.php", "d3/d5e/a00275" ],
     [ "Arguments", "d6/dbc/a01099.php", "d6/dbc/a01099" ],
     [ "Assert", "de/de5/a01123.php", "de/de5/a01123" ],

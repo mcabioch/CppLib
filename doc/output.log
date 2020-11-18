@@ -3,15 +3,15 @@
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:41: warning: Found unknown command '\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:51: warning: Found unknown command '\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:61: warning: Found unknown command '\error'
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/files.hpp:23: warning: documented empty return type of mcd::fileFormat
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/types.hpp:158: warning: documented empty return type of mcd::printType
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/string.hpp:60: warning: documented empty return type of mcd::trim
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Args.hpp:91: warning: documented empty return type of mcd::Arguments::print
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/files.hpp:24: warning: documented empty return type of mcd::fileFormat
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/types.hpp:159: warning: documented empty return type of mcd::printType
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/string.hpp:61: warning: documented empty return type of mcd::trim
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Args.hpp:92: warning: documented empty return type of mcd::Arguments::print
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Binary.hpp:264: warning: documented empty return type of mcd::Binary< T, typename std::enable_if_t< std::is_arithmetic< T >::value, void > >::print
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Binary.hpp:47: warning: documented empty return type of mcd::Binary< T, typename std::enable_if_t< std::is_arithmetic< T >::value, void > >::s_print
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Identifier.hpp:46: warning: documented empty return type of mcd::Identifier::setId
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Identifier.hpp:38: warning: documented empty return type of mcd::Identifier::setPassword
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Identifier.hpp:31: warning: documented empty return type of mcd::Identifier::setUsername
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Identifier.hpp:47: warning: documented empty return type of mcd::Identifier::setId
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Identifier.hpp:39: warning: documented empty return type of mcd::Identifier::setPassword
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Identifier.hpp:32: warning: documented empty return type of mcd::Identifier::setUsername
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Logger.hpp:49: warning: documented empty return type of mcd::Logger::init
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Logger.hpp:83: warning: documented empty return type of mcd::Logger::log
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Logger.hpp:56: warning: documented empty return type of mcd::Logger::reset
@@ -22,15 +22,15 @@
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Map.hpp:79: warning: documented empty return type of mcd::Map::setW
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Matrix.hpp:115: warning: documented empty return type of mcd::Matrix::GaussJordan
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Path.hpp:69: warning: documented empty return type of mcd::Path::push
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:257: warning: documented empty return type of mcd::RSA::setPrivate
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:250: warning: documented empty return type of mcd::RSA::setPublic
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:160: warning: documented empty return type of mcd::SHA2::final
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:146: warning: documented empty return type of mcd::SHA2::transform
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:153: warning: documented empty return type of mcd::SHA2::update
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:237: warning: documented empty return type of mcd::Tree::add
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:162: warning: documented empty return type of mcd::Tree::applyForEach
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:222: warning: documented empty return type of mcd::Tree::create
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:176: warning: documented empty return type of mcd::Tree::insert
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:258: warning: documented empty return type of mcd::RSA::setPrivate
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:251: warning: documented empty return type of mcd::RSA::setPublic
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:161: warning: documented empty return type of mcd::SHA2::final
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:147: warning: documented empty return type of mcd::SHA2::transform
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/cryptage.hpp:154: warning: documented empty return type of mcd::SHA2::update
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:238: warning: documented empty return type of mcd::Tree::add
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:163: warning: documented empty return type of mcd::Tree::applyForEach
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:223: warning: documented empty return type of mcd::Tree::create
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Tree.hpp:177: warning: documented empty return type of mcd::Tree::insert
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/vector.hpp:181: warning: argument 'in' of command @param is not found in the argument list of mcd::vector< C >::operator<<(std::ostream &os, const vector &other)
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/vector.hpp:181: warning: argument 'out' of command @param is not found in the argument list of mcd::vector< C >::operator<<(std::ostream &os, const vector &other)
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/vector.hpp:187: warning: The following parameter of mcd::vector::operator<<(std::ostream &os, const vector &other) is not documented:
@@ -39,82 +39,82 @@
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/vector.hpp:194: warning: argument 'out' of command @param is not found in the argument list of mcd::vector< C >::operator>>(std::istream &is, vector &other)
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/vector.hpp:200: warning: The following parameter of mcd::vector::operator>>(std::istream &is, vector &other) is not documented:
   parameter 'is'
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:53: warning: documented empty return type of mcd::console::print_r
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:364: warning: documented empty return type of mcd::console::vector2DPrint
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:384: warning: The following parameter of mcd::console::vector2DPrintInverted(const vector< vector< T > > values, int autosize=0, std::ostream &os=std::cout, int shift=0) is not documented:
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:54: warning: documented empty return type of mcd::console::print_r
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:365: warning: documented empty return type of mcd::console::vector2DPrint
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:385: warning: The following parameter of mcd::console::vector2DPrintInverted(const vector< vector< T > > values, int autosize=0, std::ostream &os=std::cout, int shift=0) is not documented:
   parameter 'shift'
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:384: warning: documented empty return type of mcd::console::vector2DPrintInverted
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:118: warning: documented empty return type of mcd::console::Color::addColors
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:128: warning: documented empty return type of mcd::console::Color::addColors
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:96: warning: documented empty return type of mcd::console::Color::addColors
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:106: warning: documented empty return type of mcd::console::Color::addColors
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:181: warning: documented empty return type of mcd::console::Cursor::goTo
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:215: warning: documented empty return type of mcd::console::Cursor::put
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:144: warning: documented empty return type of mcd::entities::Animal::anyObstacle
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:174: warning: documented empty return type of mcd::entities::Animal::goBot
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:159: warning: documented empty return type of mcd::entities::Animal::goLeft
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:164: warning: documented empty return type of mcd::entities::Animal::goRight
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:169: warning: documented empty return type of mcd::entities::Animal::goTop
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:196: warning: documented empty return type of mcd::entities::Animal::move
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:203: warning: documented empty return type of mcd::entities::Animal::move
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:153: warning: documented empty return type of mcd::entities::Animal::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:48: warning: documented empty return type of mcd::entities::Animal::setFood
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:55: warning: documented empty return type of mcd::entities::Animal::setFoodMax
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:71: warning: documented empty return type of mcd::entities::Animal::setSpecialAttack
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:63: warning: documented empty return type of mcd::entities::Animal::setSpecies
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:40: warning: documented empty return type of mcd::entities::Animal::setSpeed
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:182: warning: documented empty return type of mcd::entities::Animal::turn
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:75: warning: documented empty return type of mcd::entities::Ant::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:40: warning: documented empty return type of mcd::entities::Ant::setCaste
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:48: warning: documented empty return type of mcd::entities::Ant::setStone
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:55: warning: documented empty return type of mcd::entities::Ant::setStoneMax
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:187: warning: documented empty return type of mcd::entities::Contraption::addPosition
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:169: warning: documented empty return type of mcd::entities::Contraption::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:110: warning: documented empty return type of mcd::entities::Contraption::setA
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:79: warning: documented empty return type of mcd::entities::Contraption::setAttributes
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:88: warning: documented empty return type of mcd::entities::Contraption::setAttributes
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:103: warning: documented empty return type of mcd::entities::Contraption::setH
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:126: warning: documented empty return type of mcd::entities::Contraption::setLevel
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:118: warning: documented empty return type of mcd::entities::Contraption::setMap
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:49: warning: documented empty return type of mcd::entities::Contraption::setPosition
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:40: warning: documented empty return type of mcd::entities::Contraption::setPosition
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:96: warning: documented empty return type of mcd::entities::Contraption::setW
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:57: warning: documented empty return type of mcd::entities::Contraption::setX
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:64: warning: documented empty return type of mcd::entities::Contraption::setY
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:71: warning: documented empty return type of mcd::entities::Contraption::setZ
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:192: warning: documented empty return type of mcd::entities::Contraption::turnLeft
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:197: warning: documented empty return type of mcd::entities::Contraption::turnRight
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:145: warning: documented empty return type of mcd::entities::Entity::grow
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:156: warning: documented empty return type of mcd::entities::Entity::hit
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:140: warning: documented empty return type of mcd::entities::Entity::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:61: warning: documented empty return type of mcd::entities::Entity::setAge
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:47: warning: documented empty return type of mcd::entities::Entity::setDamages
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:40: warning: documented empty return type of mcd::entities::Entity::setLife
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:69: warning: documented empty return type of mcd::entities::Entity::setReborn
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:91: warning: documented empty return type of mcd::entities::Entity::setRegen
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:54: warning: documented empty return type of mcd::entities::Entity::setResistance
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:76: warning: documented empty return type of mcd::entities::Entity::setTimeActReborn
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:98: warning: documented empty return type of mcd::entities::Entity::setTimeActRegen
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:83: warning: documented empty return type of mcd::entities::Entity::setTimePrecReborn
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:105: warning: documented empty return type of mcd::entities::Entity::setTimePrecRegen
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:64: warning: documented empty return type of mcd::entities::Hostile::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:34: warning: documented empty return type of mcd::entities::Hostile::setStrength
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:41: warning: documented empty return type of mcd::entities::Hostile::setTarget
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:85: warning: documented empty return type of mcd::entities::Hostile::untarget
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Mushroom.hpp:46: warning: documented empty return type of mcd::entities::Mushroom::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Object.hpp:46: warning: documented empty return type of mcd::entities::Object::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Plant.hpp:46: warning: documented empty return type of mcd::entities::Plant::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Player.hpp:43: warning: documented empty return type of mcd::entities::Player::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:107: warning: documented empty return type of mcd::entities::PlayerAbstraction::lost
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:91: warning: documented empty return type of mcd::entities::PlayerAbstraction::pause
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:81: warning: documented empty return type of mcd::entities::PlayerAbstraction::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:96: warning: documented empty return type of mcd::entities::PlayerAbstraction::resume
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:112: warning: documented empty return type of mcd::entities::PlayerAbstraction::retreive
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:54: warning: documented empty return type of mcd::entities::PlayerAbstraction::setExperience
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:61: warning: documented empty return type of mcd::entities::PlayerAbstraction::setExperienceMax
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:46: warning: documented empty return type of mcd::entities::PlayerAbstraction::setMail
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Stone.hpp:46: warning: documented empty return type of mcd::entities::Stone::printInfos
-/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Vegetal.hpp:46: warning: documented empty return type of mcd::entities::Vegetal::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/array.hpp:385: warning: documented empty return type of mcd::console::vector2DPrintInverted
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:119: warning: documented empty return type of mcd::console::Color::addColors
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:129: warning: documented empty return type of mcd::console::Color::addColors
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:97: warning: documented empty return type of mcd::console::Color::addColors
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:107: warning: documented empty return type of mcd::console::Color::addColors
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:182: warning: documented empty return type of mcd::console::Cursor::goTo
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/console.hpp:216: warning: documented empty return type of mcd::console::Cursor::put
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:145: warning: documented empty return type of mcd::entities::Animal::anyObstacle
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:175: warning: documented empty return type of mcd::entities::Animal::goBot
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:160: warning: documented empty return type of mcd::entities::Animal::goLeft
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:165: warning: documented empty return type of mcd::entities::Animal::goRight
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:170: warning: documented empty return type of mcd::entities::Animal::goTop
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:197: warning: documented empty return type of mcd::entities::Animal::move
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:204: warning: documented empty return type of mcd::entities::Animal::move
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:154: warning: documented empty return type of mcd::entities::Animal::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:49: warning: documented empty return type of mcd::entities::Animal::setFood
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:56: warning: documented empty return type of mcd::entities::Animal::setFoodMax
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:72: warning: documented empty return type of mcd::entities::Animal::setSpecialAttack
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:64: warning: documented empty return type of mcd::entities::Animal::setSpecies
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:41: warning: documented empty return type of mcd::entities::Animal::setSpeed
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Animal.hpp:183: warning: documented empty return type of mcd::entities::Animal::turn
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:76: warning: documented empty return type of mcd::entities::Ant::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:41: warning: documented empty return type of mcd::entities::Ant::setCaste
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:49: warning: documented empty return type of mcd::entities::Ant::setStone
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Ant.hpp:56: warning: documented empty return type of mcd::entities::Ant::setStoneMax
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:188: warning: documented empty return type of mcd::entities::Contraption::addPosition
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:170: warning: documented empty return type of mcd::entities::Contraption::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:111: warning: documented empty return type of mcd::entities::Contraption::setA
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:80: warning: documented empty return type of mcd::entities::Contraption::setAttributes
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:89: warning: documented empty return type of mcd::entities::Contraption::setAttributes
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:104: warning: documented empty return type of mcd::entities::Contraption::setH
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:127: warning: documented empty return type of mcd::entities::Contraption::setLevel
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:119: warning: documented empty return type of mcd::entities::Contraption::setMap
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:50: warning: documented empty return type of mcd::entities::Contraption::setPosition
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:41: warning: documented empty return type of mcd::entities::Contraption::setPosition
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:97: warning: documented empty return type of mcd::entities::Contraption::setW
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:58: warning: documented empty return type of mcd::entities::Contraption::setX
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:65: warning: documented empty return type of mcd::entities::Contraption::setY
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:72: warning: documented empty return type of mcd::entities::Contraption::setZ
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:193: warning: documented empty return type of mcd::entities::Contraption::turnLeft
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Contraption.hpp:198: warning: documented empty return type of mcd::entities::Contraption::turnRight
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:146: warning: documented empty return type of mcd::entities::Entity::grow
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:157: warning: documented empty return type of mcd::entities::Entity::hit
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:141: warning: documented empty return type of mcd::entities::Entity::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:62: warning: documented empty return type of mcd::entities::Entity::setAge
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:48: warning: documented empty return type of mcd::entities::Entity::setDamages
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:41: warning: documented empty return type of mcd::entities::Entity::setLife
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:70: warning: documented empty return type of mcd::entities::Entity::setReborn
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:92: warning: documented empty return type of mcd::entities::Entity::setRegen
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:55: warning: documented empty return type of mcd::entities::Entity::setResistance
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:77: warning: documented empty return type of mcd::entities::Entity::setTimeActReborn
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:99: warning: documented empty return type of mcd::entities::Entity::setTimeActRegen
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:84: warning: documented empty return type of mcd::entities::Entity::setTimePrecReborn
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Entity.hpp:106: warning: documented empty return type of mcd::entities::Entity::setTimePrecRegen
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:65: warning: documented empty return type of mcd::entities::Hostile::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:35: warning: documented empty return type of mcd::entities::Hostile::setStrength
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:42: warning: documented empty return type of mcd::entities::Hostile::setTarget
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Hostile.hpp:86: warning: documented empty return type of mcd::entities::Hostile::untarget
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Mushroom.hpp:47: warning: documented empty return type of mcd::entities::Mushroom::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Object.hpp:47: warning: documented empty return type of mcd::entities::Object::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Plant.hpp:47: warning: documented empty return type of mcd::entities::Plant::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Player.hpp:44: warning: documented empty return type of mcd::entities::Player::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:108: warning: documented empty return type of mcd::entities::PlayerAbstraction::lost
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:92: warning: documented empty return type of mcd::entities::PlayerAbstraction::pause
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:82: warning: documented empty return type of mcd::entities::PlayerAbstraction::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:97: warning: documented empty return type of mcd::entities::PlayerAbstraction::resume
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:113: warning: documented empty return type of mcd::entities::PlayerAbstraction::retreive
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:55: warning: documented empty return type of mcd::entities::PlayerAbstraction::setExperience
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:62: warning: documented empty return type of mcd::entities::PlayerAbstraction::setExperienceMax
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/PlayerAbstraction.hpp:47: warning: documented empty return type of mcd::entities::PlayerAbstraction::setMail
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Stone.hpp:47: warning: documented empty return type of mcd::entities::Stone::printInfos
+/home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Vegetal.hpp:47: warning: documented empty return type of mcd::entities::Vegetal::printInfos
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:41: warning: Found unknown command '\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:51: warning: Found unknown command '\error'
 /home/mathias/Bureau/Algo/C++Tests/C++/inc/C++/Test.hpp:61: warning: Found unknown command '\error'

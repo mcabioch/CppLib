@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('functions_l.php',''); initResizable();
 : <a class="el" href="dd/d95/a01247.php#aadce47b475851c9d585ee9c21b2cb1ac">mcd::ConsoleTable</a>
 </li>
 <li>LISTED
-: <a class="el" href="d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0a4015002ac12a4c3852ba72131800aa26">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa6d72a97560ad38d3fc76ebbdbabdc2d2">mcd::genetic::Gene</a>
 </li>
 <li>load()
 : <a class="el" href="d4/d04/a01335.php#aaaa0863e1b2dfa4b35f6b5582d26798c">mcd::Map</a>

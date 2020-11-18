@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::natural::Cell Class Reference</title>
+		<title>C++: mcd::genetic::Cell Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('db/db2/a01143.php','../../'); initResi
 <a href="#friends">Friends</a> &#124;
 <a href="../../dc/d64/a01140.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::natural::Cell Class Reference</div>  </div>
+<div class="title">mcd::genetic::Cell Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -106,40 +106,40 @@ $(document).ready(function(){initNavTree('db/db2/a01143.php','../../'); initResi
 
 <p><code>#include &lt;Cell.hpp&gt;</code></p>
 <div class="dynheader">
-Collaboration diagram for mcd::natural::Cell:</div>
+Collaboration diagram for mcd::genetic::Cell:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../de/df6/a01141.png" border="0" usemap="#amcd_1_1natural_1_1Cell_coll__map" alt="Collaboration graph"/></div>
-<map name="mcd_1_1natural_1_1Cell_coll__map" id="mcd_1_1natural_1_1Cell_coll__map">
-<area shape="rect" title="A cell with chromosomes." alt="" coords="113,467,239,493"/>
-<area shape="rect" title=" " alt="" coords="83,377,269,404"/>
-<area shape="rect" href="../../d1/d34/a01211.php" title="A double group of genes." alt="" coords="22,288,202,315"/>
+<div class="center"><img src="../../de/df6/a01141.png" border="0" usemap="#amcd_1_1genetic_1_1Cell_coll__map" alt="Collaboration graph"/></div>
+<map name="mcd_1_1genetic_1_1Cell_coll__map" id="mcd_1_1genetic_1_1Cell_coll__map">
+<area shape="rect" title="A cell with chromosomes." alt="" coords="113,467,241,493"/>
+<area shape="rect" title=" " alt="" coords="84,377,271,404"/>
+<area shape="rect" href="../../d1/d34/a01211.php" title="A double group of genes." alt="" coords="21,288,203,315"/>
 <area shape="rect" title=" " alt="" coords="43,184,181,211"/>
-<area shape="rect" href="../../d8/d38/a01299.php" title="A gene that represent a caracteristic." alt="" coords="5,95,139,121"/>
-<area shape="rect" title="STL class." alt="" coords="173,95,289,121"/>
-<area shape="rect" title=" " alt="" coords="211,5,250,32"/>
+<area shape="rect" href="../../d8/d38/a01299.php" title="A gene that represent a caracteristic." alt="" coords="5,95,141,121"/>
+<area shape="rect" title="STL class." alt="" coords="174,95,290,121"/>
+<area shape="rect" title=" " alt="" coords="213,5,251,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae5097d9d7e1fc380e39fe9639ba794c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a01143.php#ae5097d9d7e1fc380e39fe9639ba794c8">Cell</a> (<a class="el" href="../../dd/d86/a00271.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a> chroms)</td></tr>
-<tr class="memdesc:ae5097d9d7e1fc380e39fe9639ba794c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../db/db2/a01143.php#ae5097d9d7e1fc380e39fe9639ba794c8">More...</a><br /></td></tr>
-<tr class="separator:ae5097d9d7e1fc380e39fe9639ba794c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7ee113d57e8f75bca4eaa9b3455001a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a01143.php#ac7ee113d57e8f75bca4eaa9b3455001a">~Cell</a> ()</td></tr>
-<tr class="separator:ac7ee113d57e8f75bca4eaa9b3455001a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01bc934ac059453792f6783b0e919dd1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a01143.php#a01bc934ac059453792f6783b0e919dd1">Value</a> (std::string str, size_t chromosomeIndex, size_t geneNumber) const</td></tr>
-<tr class="separator:a01bc934ac059453792f6783b0e919dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a749b7cda25492926ad8bffcbf9d79c3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a01143.php">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a01143.php#a749b7cda25492926ad8bffcbf9d79c3e">operator+=</a> (const <a class="el" href="../../db/db2/a01143.php">Cell</a> &amp;c1)</td></tr>
-<tr class="memdesc:a749b7cda25492926ad8bffcbf9d79c3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do the crossover for each <a class="el" href="../../d1/d34/a01211.php" title="A double group of genes.">Chromosome</a> between the 2 Cells.  <a href="../../db/db2/a01143.php#a749b7cda25492926ad8bffcbf9d79c3e">More...</a><br /></td></tr>
-<tr class="separator:a749b7cda25492926ad8bffcbf9d79c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb549302dbb6442103933d2a17361580"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a01143.php">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a01143.php#aeb549302dbb6442103933d2a17361580">copy</a> () const</td></tr>
-<tr class="memdesc:aeb549302dbb6442103933d2a17361580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="../../db/db2/a01143.php" title="A cell with chromosomes.">Cell</a> applying some potential mutations.  <a href="../../db/db2/a01143.php#aeb549302dbb6442103933d2a17361580">More...</a><br /></td></tr>
-<tr class="separator:aeb549302dbb6442103933d2a17361580"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bbb3aeba2f7c46c6a125142cb76c9fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a01143.php#a7bbb3aeba2f7c46c6a125142cb76c9fb">Cell</a> (<a class="el" href="../../dd/d86/a00271.php#aee886c080102ea9c98ab235a2edd614e">Chromosomes</a> chroms)</td></tr>
+<tr class="memdesc:a7bbb3aeba2f7c46c6a125142cb76c9fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../db/db2/a01143.php#a7bbb3aeba2f7c46c6a125142cb76c9fb">More...</a><br /></td></tr>
+<tr class="separator:a7bbb3aeba2f7c46c6a125142cb76c9fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1691955acd2bc92e70050bd3d339ee1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a01143.php#ac1691955acd2bc92e70050bd3d339ee1">~Cell</a> ()</td></tr>
+<tr class="separator:ac1691955acd2bc92e70050bd3d339ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a292f7fbaa31c3754b52158effddf3ba9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a01143.php#a292f7fbaa31c3754b52158effddf3ba9">Value</a> (std::string str, size_t chromosomeIndex, size_t geneNumber) const</td></tr>
+<tr class="separator:a292f7fbaa31c3754b52158effddf3ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb850561787debc3e65480e44e2b3759"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a01143.php">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a01143.php#afb850561787debc3e65480e44e2b3759">operator+=</a> (const <a class="el" href="../../db/db2/a01143.php">Cell</a> &amp;c1)</td></tr>
+<tr class="memdesc:afb850561787debc3e65480e44e2b3759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do the crossover for each <a class="el" href="../../d1/d34/a01211.php" title="A double group of genes.">Chromosome</a> between the 2 Cells.  <a href="../../db/db2/a01143.php#afb850561787debc3e65480e44e2b3759">More...</a><br /></td></tr>
+<tr class="separator:afb850561787debc3e65480e44e2b3759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32c13557203d97ef7c75a194f8673830"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a01143.php">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a01143.php#a32c13557203d97ef7c75a194f8673830">copy</a> () const</td></tr>
+<tr class="memdesc:a32c13557203d97ef7c75a194f8673830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="../../db/db2/a01143.php" title="A cell with chromosomes.">Cell</a> applying some potential mutations.  <a href="../../db/db2/a01143.php#a32c13557203d97ef7c75a194f8673830">More...</a><br /></td></tr>
+<tr class="separator:a32c13557203d97ef7c75a194f8673830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ac4bfe0772fac9025654c268c48e6c9b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d86/a00271.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a01143.php#ac4bfe0772fac9025654c268c48e6c9b8">_chroms</a></td></tr>
-<tr class="separator:ac4bfe0772fac9025654c268c48e6c9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82118d1799f89bc8ccd20c0ae674c66d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d86/a00271.php#aee886c080102ea9c98ab235a2edd614e">Chromosomes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a01143.php#a82118d1799f89bc8ccd20c0ae674c66d">_chroms</a></td></tr>
+<tr class="separator:a82118d1799f89bc8ccd20c0ae674c66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -156,16 +156,16 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A cell with chromosomes. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae5097d9d7e1fc380e39fe9639ba794c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5097d9d7e1fc380e39fe9639ba794c8">&#9670;&nbsp;</a></span>Cell()</h2>
+<a id="a7bbb3aeba2f7c46c6a125142cb76c9fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bbb3aeba2f7c46c6a125142cb76c9fb">&#9670;&nbsp;</a></span>Cell()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::natural::Cell::Cell </td>
+          <td class="memname">mcd::genetic::Cell::Cell </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d86/a00271.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/d86/a00271.php#aee886c080102ea9c98ab235a2edd614e">Chromosomes</a>&#160;</td>
           <td class="paramname"><em>chroms</em></td><td>)</td>
           <td></td>
         </tr>
@@ -182,8 +182,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ac7ee113d57e8f75bca4eaa9b3455001a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7ee113d57e8f75bca4eaa9b3455001a">&#9670;&nbsp;</a></span>~Cell()</h2>
+<a id="ac1691955acd2bc92e70050bd3d339ee1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1691955acd2bc92e70050bd3d339ee1">&#9670;&nbsp;</a></span>~Cell()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,7 +192,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::natural::Cell::~Cell </td>
+          <td class="memname">virtual mcd::genetic::Cell::~Cell </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -208,14 +208,14 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aeb549302dbb6442103933d2a17361580"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb549302dbb6442103933d2a17361580">&#9670;&nbsp;</a></span>copy()</h2>
+<a id="a32c13557203d97ef7c75a194f8673830"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32c13557203d97ef7c75a194f8673830">&#9670;&nbsp;</a></span>copy()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/db2/a01143.php">Cell</a> mcd::natural::Cell::copy </td>
+          <td class="memname"><a class="el" href="../../db/db2/a01143.php">Cell</a> mcd::genetic::Cell::copy </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -227,14 +227,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a749b7cda25492926ad8bffcbf9d79c3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a749b7cda25492926ad8bffcbf9d79c3e">&#9670;&nbsp;</a></span>operator+=()</h2>
+<a id="afb850561787debc3e65480e44e2b3759"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb850561787debc3e65480e44e2b3759">&#9670;&nbsp;</a></span>operator+=()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/db2/a01143.php">Cell</a> mcd::natural::Cell::operator+= </td>
+          <td class="memname"><a class="el" href="../../db/db2/a01143.php">Cell</a> mcd::genetic::Cell::operator+= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../db/db2/a01143.php">Cell</a> &amp;&#160;</td>
           <td class="paramname"><em>c1</em></td><td>)</td>
@@ -247,14 +247,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a01bc934ac059453792f6783b0e919dd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01bc934ac059453792f6783b0e919dd1">&#9670;&nbsp;</a></span>Value()</h2>
+<a id="a292f7fbaa31c3754b52158effddf3ba9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a292f7fbaa31c3754b52158effddf3ba9">&#9670;&nbsp;</a></span>Value()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double mcd::natural::Cell::Value </td>
+          <td class="memname">double mcd::genetic::Cell::Value </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>str</em>, </td>
@@ -429,8 +429,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac4bfe0772fac9025654c268c48e6c9b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4bfe0772fac9025654c268c48e6c9b8">&#9670;&nbsp;</a></span>_chroms</h2>
+<a id="a82118d1799f89bc8ccd20c0ae674c66d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82118d1799f89bc8ccd20c0ae674c66d">&#9670;&nbsp;</a></span>_chroms</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -439,7 +439,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d86/a00271.php#a188924fe6c7007fd322ebe9ece4bb4b6">Chromosomes</a> mcd::natural::Cell::_chroms</td>
+          <td class="memname"><a class="el" href="../../dd/d86/a00271.php#aee886c080102ea9c98ab235a2edd614e">Chromosomes</a> mcd::genetic::Cell::_chroms</td>
         </tr>
       </table>
   </td>
@@ -460,7 +460,7 @@ Friends</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d86/a00271.php">natural</a></li><li class="navelem"><a class="el" href="../../db/db2/a01143.php">Cell</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d86/a00271.php">genetic</a></li><li class="navelem"><a class="el" href="../../db/db2/a01143.php">Cell</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

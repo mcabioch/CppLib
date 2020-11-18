@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -137,7 +137,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">                <a class="code" href="../../db/d07/a01155.php#a9472e28f114b77cc3153ffc8d8f1e22b">is_pair&lt; T &gt;::value</a> || <a class="code" href="../../d7/de8/a01159.php#aead7729c41ce0e6681cf2a5a58724b1c">is_trio&lt; T &gt;::value</a> || <a class="code" href="../../d6/d27/a01163.php#a7a705037a3a5261728af10be1a077032">is_quatuor&lt; T &gt;::value</a></div>
+<div class="line">            <a class="code" href="../../db/d07/a01155.php#a9472e28f114b77cc3153ffc8d8f1e22b">is_pair&lt; T &gt;::value</a> || <a class="code" href="../../d7/de8/a01159.php#aead7729c41ce0e6681cf2a5a58724b1c">is_trio&lt; T &gt;::value</a> || <a class="code" href="../../d6/d27/a01163.php#a7a705037a3a5261728af10be1a077032">is_quatuor&lt; T &gt;::value</a></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -146,9 +146,9 @@ template&lt;typename T &gt; </div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aa01163_php_a7a705037a3a5261728af10be1a077032"><div class="ttname"><a href="../../d6/d27/a01163.php#a7a705037a3a5261728af10be1a077032">mcd::check::is_quatuor::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:182</div></div>
-<div class="ttc" id="aa01159_php_aead7729c41ce0e6681cf2a5a58724b1c"><div class="ttname"><a href="../../d7/de8/a01159.php#aead7729c41ce0e6681cf2a5a58724b1c">mcd::check::is_trio::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:167</div></div>
-<div class="ttc" id="aa01155_php_a9472e28f114b77cc3153ffc8d8f1e22b"><div class="ttname"><a href="../../db/d07/a01155.php#a9472e28f114b77cc3153ffc8d8f1e22b">mcd::check::is_pair::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:152</div></div>
+<div class="ttc" id="aa01163_php_a7a705037a3a5261728af10be1a077032"><div class="ttname"><a href="../../d6/d27/a01163.php#a7a705037a3a5261728af10be1a077032">mcd::check::is_quatuor::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:174</div></div>
+<div class="ttc" id="aa01159_php_aead7729c41ce0e6681cf2a5a58724b1c"><div class="ttname"><a href="../../d7/de8/a01159.php#aead7729c41ce0e6681cf2a5a58724b1c">mcd::check::is_trio::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:159</div></div>
+<div class="ttc" id="aa01155_php_a9472e28f114b77cc3153ffc8d8f1e22b"><div class="ttname"><a href="../../db/d07/a01155.php#a9472e28f114b77cc3153ffc8d8f1e22b">mcd::check::is_pair::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:144</div></div>
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

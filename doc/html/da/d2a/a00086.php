@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:41 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -265,6 +265,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ab3aa994c4b6d9eccce0cf840e6c0a731"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ab3aa994c4b6d9eccce0cf840e6c0a731">mcd::map_str</a> = std::map&lt; std::string, std::string &gt;</td></tr>
 <tr class="memdesc:ab3aa994c4b6d9eccce0cf840e6c0a731"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias.  <a href="../../db/d12/a00268.php#ab3aa994c4b6d9eccce0cf840e6c0a731">More...</a><br /></td></tr>
 <tr class="separator:ab3aa994c4b6d9eccce0cf840e6c0a731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4778b7c485c0afadf690bbd6c02a23b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ab4778b7c485c0afadf690bbd6c02a23b">mcd::pair_str</a> = std::pair&lt; std::string, std::string &gt;</td></tr>
+<tr class="memdesc:ab4778b7c485c0afadf690bbd6c02a23b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias.  <a href="../../db/d12/a00268.php#ab4778b7c485c0afadf690bbd6c02a23b">More...</a><br /></td></tr>
+<tr class="separator:ab4778b7c485c0afadf690bbd6c02a23b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -282,7 +285,9 @@ Enumerations</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : October, 25 2020</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Created : January, 19 2019 </dd>
+<dd>
+Last modification : November, 18 2020</dd></dl>
 <ul>
 <li>Enable the use of ;<ul>
 <li>BDD with bdd<br  />

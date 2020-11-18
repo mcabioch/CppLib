@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('functions_eval.php',''); initResizable
 : <a class="el" href="d0/d9b/a01379.php#a699cc4df8cc94d467e7372072d230b58aa230dcfca5a342a5c42c16a4e73b2814">mcd::PathfindingException</a>
 </li>
 <li>BOOL
-: <a class="el" href="d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0aa91e524760eeac3e25168c3c4fd16c64">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafaa0409ed75b17d7f967926d3443d0eed5">mcd::genetic::Gene</a>
 </li>
 <li>Debug
 : <a class="el" href="db/da8/a01323.php#a25d94050e8e7f91c7e1f02ddc2af8e95a8a3e3b4dccd41544fac18f0f339ba68e">mcd::Logger</a>
@@ -114,16 +114,16 @@ $(document).ready(function(){initNavTree('functions_eval.php',''); initResizable
 : <a class="el" href="db/da8/a01323.php#a25d94050e8e7f91c7e1f02ddc2af8e95a3b0278ed2e63ab59b05883c3943c73cf">mcd::Logger</a>
 </li>
 <li>FLOAT
-: <a class="el" href="d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0ae7b17b5d887f18544b1ca0f51244e8c4">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa9112634199bb5fed6dd8a509b1618628">mcd::genetic::Gene</a>
 </li>
 <li>Info
 : <a class="el" href="db/da8/a01323.php#a25d94050e8e7f91c7e1f02ddc2af8e95ae7888eab8f157c2bc53e24557f2a8458">mcd::Logger</a>
 </li>
 <li>INT
-: <a class="el" href="d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0a644487cee470ea37ef049351feaaca2e">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa701889b572c1004fbaf3c87a0c9f05f3">mcd::genetic::Gene</a>
 </li>
 <li>LISTED
-: <a class="el" href="d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0a4015002ac12a4c3852ba72131800aa26">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa6d72a97560ad38d3fc76ebbdbabdc2d2">mcd::genetic::Gene</a>
 </li>
 <li>LOST
 : <a class="el" href="d0/d9b/a01379.php#a699cc4df8cc94d467e7372072d230b58a435f7106806d5ce5f7746963f0605995">mcd::PathfindingException</a>
@@ -145,13 +145,13 @@ $(document).ready(function(){initNavTree('functions_eval.php',''); initResizable
 : <a class="el" href="d0/d9b/a01379.php#a699cc4df8cc94d467e7372072d230b58a4a49678a71d5baef014ce968c4503982">mcd::PathfindingException</a>
 </li>
 <li>RANGED_FLOAT
-: <a class="el" href="d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0a31801000c46cfa54c27b6f7bcef2afa5">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa42406aee71ab856de244913ab29bd543">mcd::genetic::Gene</a>
 </li>
 <li>RANGED_INT
-: <a class="el" href="d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0a30cd035484abb297f1f5503dd95b94fd">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa13532c0c3df4a8f8344bcde21c4834f2">mcd::genetic::Gene</a>
 </li>
 <li>STATIC
-: <a class="el" href="d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0a11190a1a9c9f6f59c60d10762eb91896">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa7b69981960c85d8443f944dcd8dff3ee">mcd::genetic::Gene</a>
 </li>
 <li>STRING
 : <a class="el" href="d2/d8e/a01315.php#a3c35d4f54c782ef8b7898a1641eb4666a2951db03ec2449efc8d28b4cbdea94d3">mcd::Json</a>

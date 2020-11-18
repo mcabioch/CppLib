@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:41 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -231,7 +231,7 @@ Macros</h2></td></tr>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Created : Sunday October, 25 2020 18:40:52 </dd>
 <dd>
-Last modification : November, 01 2020 </dd></dl>
+Last modification : November, 18 2020 </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="acdc796107ba68a6a3ce4567f35e7b57e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acdc796107ba68a6a3ce4567f35e7b57e">&#9670;&nbsp;</a></span>AUTO_OPERATOR_DIFF</h2>
@@ -448,7 +448,7 @@ Last modification : November, 01 2020 </dd></dl>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aa00131_php_a983517eb99d86ddbcbe73c34d18fdeb5"><div class="ttname"><a href="../../d7/d06/a00131.php#a983517eb99d86ddbcbe73c34d18fdeb5">AUTO_OPERATOR_GREATER</a></div><div class="ttdeci">#define AUTO_OPERATOR_GREATER(Type)</div><div class="ttdoc">A define to add operator &gt; using == and &lt;.</div><div class="ttdef"><b>Definition:</b> lowDefines.hpp:20</div></div>
-<div class="ttc" id="aa00268_php_ae8c157fea2d3cba9a23a3ff2878cc08e"><div class="ttname"><a href="../../db/d12/a00268.php#ae8c157fea2d3cba9a23a3ff2878cc08e">mcd::operator&gt;</a></div><div class="ttdeci">bool operator&gt;(const trio&lt; T, U, V &gt; &amp;a, const trio&lt; T, U, V &gt; &amp;b)</div><div class="ttdef"><b>Definition:</b> types.hpp:46</div></div>
+<div class="ttc" id="aa00268_php_ae8c157fea2d3cba9a23a3ff2878cc08e"><div class="ttname"><a href="../../db/d12/a00268.php#ae8c157fea2d3cba9a23a3ff2878cc08e">mcd::operator&gt;</a></div><div class="ttdeci">bool operator&gt;(const trio&lt; T, U, V &gt; &amp;a, const trio&lt; T, U, V &gt; &amp;b)</div><div class="ttdef"><b>Definition:</b> types.hpp:47</div></div>
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

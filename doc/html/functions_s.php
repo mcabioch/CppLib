@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -271,7 +271,7 @@ $(document).ready(function(){initNavTree('functions_s.php',''); initResizable();
 , <a class="el" href="d3/d95/a01435.php#a489644a70b400f78d63ad3449ffae846">mcd::Timer</a>
 </li>
 <li>STATIC
-: <a class="el" href="d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0a11190a1a9c9f6f59c60d10762eb91896">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa7b69981960c85d8443f944dcd8dff3ee">mcd::genetic::Gene</a>
 </li>
 <li>Stone()
 : <a class="el" href="d0/d7d/a01419.php#acd33b02d396e6a17c8caebe1b5f27c74">mcd::entities::Stone</a>

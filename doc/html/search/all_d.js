@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name_441',['Name',['../d8/d38/a01299.php#ae75e8789e328d8ffa258b201849d6a44',1,'mcd::natural::Gene']]],
+  ['name_441',['Name',['../d8/d38/a01299.php#ad6b451e751384f748e7623bcc888329f',1,'mcd::genetic::Gene']]],
   ['nanosleep_442',['nanoSleep',['../db/d12/a00268.php#a5b2e0c30451ea35d0cc5eb9badea5be0',1,'mcd']]],
   ['nb_443',['nb',['../d9/ddc/a01423.php#ae42256dfd8f198d224e4a877474aa172',1,'mcd::tests::Test']]],
   ['nbnodes_444',['nbNodes',['../de/dfe/a01383.php#a87c634685eea28780ddc10b7aa08af07',1,'mcd::PathfindingProblem']]],

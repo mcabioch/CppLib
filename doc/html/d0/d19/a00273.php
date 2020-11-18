@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('d0/d19/a00273.php','../../'); initResi
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">mcd::check Namespace Reference</div>  </div>
@@ -150,6 +151,11 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template class to test if T is a vector.  <a href="../../d8/ddb/a01147.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:acbb02f98d6089f04e6450692a0d35221"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d19/a00273.php#acbb02f98d6089f04e6450692a0d35221">pair_str</a> = std::pair&lt; std::string, std::string &gt;</td></tr>
+<tr class="separator:acbb02f98d6089f04e6450692a0d35221"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:acf8d542e529942588a927dd0373e17b7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -161,6 +167,21 @@ Functions</h2></td></tr>
 <tr class="memdesc:a633865db24ed31d685fd70668cb6a99f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that say if a type has an ostream operator(&lt;&lt;)  <a href="../../d0/d19/a00273.php#a633865db24ed31d685fd70668cb6a99f">More...</a><br /></td></tr>
 <tr class="separator:a633865db24ed31d685fd70668cb6a99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="acbb02f98d6089f04e6450692a0d35221"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbb02f98d6089f04e6450692a0d35221">&#9670;&nbsp;</a></span>pair_str</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d0/d19/a00273.php#acbb02f98d6089f04e6450692a0d35221">mcd::check::pair_str</a> = typedef std::pair&lt; std::string, std::string &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="acf8d542e529942588a927dd0373e17b7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acf8d542e529942588a927dd0373e17b7">&#9670;&nbsp;</a></span>isPrintable()</h2>

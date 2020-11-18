@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -449,7 +449,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php',''); initRe
 : <a class="el" href="db/d12/a00268.php#a21f9e69f4ccff705b65007a1ac7063ef">mcd</a>
 </li>
 <li>transfer()
-: <a class="el" href="dd/d86/a00271.php#a81eb139ff8493e715a8efce3fda3155f">mcd::natural</a>
+: <a class="el" href="dd/d86/a00271.php#a9b48db18b101f7f460aeb9cdfa923027">mcd::genetic</a>
 </li>
 <li>treeAscSorter()
 : <a class="el" href="db/d12/a00268.php#aa17a2314efb86933584ae451318a17da">mcd</a>

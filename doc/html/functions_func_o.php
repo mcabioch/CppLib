@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -164,9 +164,9 @@ $(document).ready(function(){initNavTree('functions_func_o.php',''); initResizab
 : <a class="el" href="d8/d84/a01131.php#a71c734bca411504941a7a5a611b8e285">mcd::Big</a>
 , <a class="el" href="d5/d3e/a01139.php#a968c3515ac59bc3455944f89db13fcb0">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 , <a class="el" href="d2/d68/a01295.php#a76f6e7a0b34f33d8d53bc993b7c0ac89">mcd::Fraction</a>
+, <a class="el" href="db/db2/a01143.php#afb850561787debc3e65480e44e2b3759">mcd::genetic::Cell</a>
+, <a class="el" href="d1/d34/a01211.php#a268b4a8ea3c6b526f5e8f1b2b310a705">mcd::genetic::Chromosome</a>
 , <a class="el" href="dd/d6e/a01339.php#a726c8287d0230d12145c7817a48370ae">mcd::Matrix&lt; C &gt;</a>
-, <a class="el" href="db/db2/a01143.php#a749b7cda25492926ad8bffcbf9d79c3e">mcd::natural::Cell</a>
-, <a class="el" href="d1/d34/a01211.php#af78f3653fd09e326bf53699b972329d3">mcd::natural::Chromosome</a>
 , <a class="el" href="d6/d3b/a01459.php#a0ac9b9f19baf217c291e37a190b3e68c">mcd::vector&lt; C &gt;</a>
 </li>
 <li>operator-()
@@ -179,7 +179,7 @@ $(document).ready(function(){initNavTree('functions_func_o.php',''); initResizab
 </li>
 <li>operator-=()
 : <a class="el" href="d8/d84/a01131.php#aa11404d0af642fa7e89fc484445200d5">mcd::Big</a>
-, <a class="el" href="d5/d3e/a01139.php#a0a6198f933e2d8f262467aa5171baf7a">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+, <a class="el" href="d5/d3e/a01139.php#a510a7dc88fb5822d4f2d79162c2709cc">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 , <a class="el" href="d2/d68/a01295.php#a455683f59112555055fc6c5686a9621a">mcd::Fraction</a>
 , <a class="el" href="dd/d6e/a01339.php#a502cfc9cc8f10aa5ca5a5e1194932ad0">mcd::Matrix&lt; C &gt;</a>
 , <a class="el" href="d6/d3b/a01459.php#a78502b560831d092c0eaaca67e79d4f4">mcd::vector&lt; C &gt;</a>
@@ -211,7 +211,7 @@ $(document).ready(function(){initNavTree('functions_func_o.php',''); initResizab
 : <a class="el" href="d8/d84/a01131.php#adc8b04536591da50d9c9342a5eccaf42">mcd::Big</a>
 , <a class="el" href="d4/da0/a01291.php#ab86ac60ef49f2bf978faa24588b32ced">mcd::exception</a>
 , <a class="el" href="d2/d8e/a01315.php#ac2afe8da3954c9e84cc97674a0194d03">mcd::Json</a>
-, <a class="el" href="df/dc5/a01455.php#aeac533b3e4edb1f24bd947e0a96bb5c4">mcd::Point</a>
+, <a class="el" href="df/dc5/a01455.php#a8422e469473d1718b8f7a267e0d12019">mcd::Point</a>
 , <a class="el" href="db/d78/a01427.php#aede63b72f054d20e35d22153af8313c8">mcd::Threadable&lt; C &gt;</a>
 , <a class="el" href="d6/d3b/a01459.php#a2a215cad8226c8f949ff27fcd0e606b8">mcd::vector&lt; C &gt;</a>
 </li>
@@ -231,7 +231,7 @@ $(document).ready(function(){initNavTree('functions_func_o.php',''); initResizab
 : <a class="el" href="d5/d3e/a01139.php#a8a8d08b67d142a871bdbf2d2d6b6b02a">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>operator[]()
-: <a class="el" href="d6/dbc/a01099.php#ac56d872fc98d66350596b44230f927fe">mcd::Arguments</a>
+: <a class="el" href="d6/dbc/a01099.php#a5866fa4eb251d0821aa8543228704398">mcd::Arguments</a>
 , <a class="el" href="d2/d8e/a01315.php#af146512243e74e908084f7751a8ffdf4">mcd::Json</a>
 </li>
 <li>operator^()
@@ -242,7 +242,7 @@ $(document).ready(function(){initNavTree('functions_func_o.php',''); initResizab
 , <a class="el" href="d6/d3b/a01459.php#a5bccad40e32efad3b685320434e65201">mcd::vector&lt; C &gt;</a>
 </li>
 <li>operator|()
-: <a class="el" href="d5/d3e/a01139.php#adc6ba7b8a523f0cdaabb5fd70451fcf8">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
+: <a class="el" href="d5/d3e/a01139.php#ac394285a67ebaf2d21f0740b1451403d">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>operator|=()
 : <a class="el" href="d5/d3e/a01139.php#a94f4f75fd082e9e4f06f1bab865ea79d">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>

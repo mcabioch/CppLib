@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('functions_func_g.php',''); initResizab
 
 <h3><a id="index_g"></a>- g -</h3><ul>
 <li>Gene()
-: <a class="el" href="d8/d38/a01299.php#afac2f9fde459a7a311c2a19078f0cc95">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#aabe845b78c5b640827cea98f892e6b2c">mcd::genetic::Gene</a>
 </li>
 <li>get()
 : <a class="el" href="d5/d3e/a01139.php#ac47df1759fc5e2a1c2b4113401fc3ee9">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>

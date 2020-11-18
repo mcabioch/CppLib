@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -119,13 +119,13 @@ $(document).ready(function(){initNavTree('functions_~.php',''); initResizable();
 : <a class="el" href="d5/d3e/a01139.php#a82e77a879b8106937ac550807afcf2da">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a>
 </li>
 <li>~Cell()
-: <a class="el" href="db/db2/a01143.php#ac7ee113d57e8f75bca4eaa9b3455001a">mcd::natural::Cell</a>
+: <a class="el" href="db/db2/a01143.php#ac1691955acd2bc92e70050bd3d339ee1">mcd::genetic::Cell</a>
 </li>
 <li>~Cesar()
 : <a class="el" href="dd/d42/a01259.php#a65a181afa9b857412b3a317b725e1331">mcd::Cesar</a>
 </li>
 <li>~Chromosome()
-: <a class="el" href="d1/d34/a01211.php#abfcce919bdd2d2001416b72d9ebbf258">mcd::natural::Chromosome</a>
+: <a class="el" href="d1/d34/a01211.php#aa1ee29bc5737528140061f13cc52fd82">mcd::genetic::Chromosome</a>
 </li>
 <li>~Color()
 : <a class="el" href="d5/d39/a01219.php#ac165219b90060af0a1d899b1caadab6c">mcd::console::Color</a>
@@ -152,7 +152,7 @@ $(document).ready(function(){initNavTree('functions_~.php',''); initResizable();
 : <a class="el" href="d2/d68/a01295.php#abf0eeef8a5b118feaad630e084c15d8e">mcd::Fraction</a>
 </li>
 <li>~Gene()
-: <a class="el" href="d8/d38/a01299.php#a57128a7a4b82cf0a0ba0b8856bab161a">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#a5b2b6c1cead79601c24ea60629b3c5f3">mcd::genetic::Gene</a>
 </li>
 <li>~has_istream_operator()
 : <a class="el" href="d1/d0d/a01191.php#a8812dbf6a9132069e2f828b41ec81651">mcd::check::has_istream_operator&lt; T &gt;</a>

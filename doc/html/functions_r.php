@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,10 +95,10 @@ $(document).ready(function(){initNavTree('functions_r.php',''); initResizable();
 
 <h3><a id="index_r"></a>- r -</h3><ul>
 <li>RANGED_FLOAT
-: <a class="el" href="d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0a31801000c46cfa54c27b6f7bcef2afa5">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa42406aee71ab856de244913ab29bd543">mcd::genetic::Gene</a>
 </li>
 <li>RANGED_INT
-: <a class="el" href="d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0a30cd035484abb297f1f5503dd95b94fd">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa13532c0c3df4a8f8344bcde21c4834f2">mcd::genetic::Gene</a>
 </li>
 <li>Referenced()
 : <a class="el" href="db/d99/a01411.php#a23a4eee18708dae4eff05079a345c375">mcd::Referenced&lt; C &gt;</a>

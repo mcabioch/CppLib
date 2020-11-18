@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -141,8 +141,8 @@ $(document).ready(function(){initNavTree('functions_rela.php',''); initResizable
 </li>
 <li>operator+
 : <a class="el" href="d8/d84/a01131.php#ad475b8459ee2ea450eecbc0b2a49f221">mcd::Big</a>
-, <a class="el" href="db/db2/a01143.php#a27089d4be7e4f07bf6c1943c59b3bf47">mcd::natural::Cell</a>
-, <a class="el" href="d1/d34/a01211.php#abed91ce31a251621eff0ec618c9d95e2">mcd::natural::Chromosome</a>
+, <a class="el" href="db/db2/a01143.php#a27089d4be7e4f07bf6c1943c59b3bf47">mcd::genetic::Cell</a>
+, <a class="el" href="d1/d34/a01211.php#abed91ce31a251621eff0ec618c9d95e2">mcd::genetic::Chromosome</a>
 , <a class="el" href="d6/d3b/a01459.php#a8f261f2319c479f4e714b269bbbbdfa9">mcd::vector&lt; C &gt;</a>
 </li>
 <li>operator++
@@ -176,11 +176,11 @@ $(document).ready(function(){initNavTree('functions_rela.php',''); initResizable
 , <a class="el" href="d9/de7/a01279.php#af57470a685eee50ced503a3ab380e9ba">mcd::DateTime</a>
 , <a class="el" href="dc/dc2/a01251.php#a763a20bdd6cf99e565f2516d1c4bb161">mcd::entities::Contraption</a>
 , <a class="el" href="d2/d68/a01295.php#a9313ed58249557fab9c0b6ab5e5f977f">mcd::Fraction</a>
+, <a class="el" href="db/db2/a01143.php#a3b03e2ae2aae5a47673ad2bdb55375ce">mcd::genetic::Cell</a>
+, <a class="el" href="d1/d34/a01211.php#a76b305eaa6cc1a513e64de3459e3b550">mcd::genetic::Chromosome</a>
+, <a class="el" href="d8/d38/a01299.php#aadb0dff1f1d91e1b0b2c7a382de48eb8">mcd::genetic::Gene</a>
 , <a class="el" href="d2/d8e/a01315.php#a6b1400a312593beec3776b4f998a7419">mcd::Json</a>
 , <a class="el" href="dd/d6e/a01339.php#a9a3710d279e209fbff51b625690ef630">mcd::Matrix&lt; C &gt;</a>
-, <a class="el" href="db/db2/a01143.php#a3b03e2ae2aae5a47673ad2bdb55375ce">mcd::natural::Cell</a>
-, <a class="el" href="d1/d34/a01211.php#a76b305eaa6cc1a513e64de3459e3b550">mcd::natural::Chromosome</a>
-, <a class="el" href="d8/d38/a01299.php#aadb0dff1f1d91e1b0b2c7a382de48eb8">mcd::natural::Gene</a>
 , <a class="el" href="df/dc5/a01455.php#a55681886ec7c5d7c0210fa0611bc84ea">mcd::Point</a>
 , <a class="el" href="d7/d8b/a01431.php#aa153c7e397eda8644c840a97f6036c5b">mcd::Time</a>
 , <a class="el" href="d6/d3b/a01459.php#a809579a337d6d0419a28bff79eb2597b">mcd::vector&lt; C &gt;</a>
@@ -193,11 +193,11 @@ $(document).ready(function(){initNavTree('functions_rela.php',''); initResizable
 : <a class="el" href="d8/d84/a01131.php#a5eed09966f2142f9d979e7be4643c06a">mcd::Big</a>
 , <a class="el" href="d3/d42/a01275.php#a9cfaaa2dd5867578b32c02fd8bc16339">mcd::Date</a>
 , <a class="el" href="d9/de7/a01279.php#a15ab62ed982a1d04015c4e94597e225e">mcd::DateTime</a>
+, <a class="el" href="db/db2/a01143.php#a368f58787c40f58441c7eea56a420a82">mcd::genetic::Cell</a>
+, <a class="el" href="d1/d34/a01211.php#a1803f44b93c73c5cf0f3d8204eac3c9e">mcd::genetic::Chromosome</a>
+, <a class="el" href="d8/d38/a01299.php#abfba7cb01e60aeda7477a3b504d4ed57">mcd::genetic::Gene</a>
 , <a class="el" href="d2/d8e/a01315.php#a03e32be5b88c0a40797b0ed39c9bdcba">mcd::Json</a>
 , <a class="el" href="dd/d6e/a01339.php#a9114b65a5cd73102b02f5ede2c290177">mcd::Matrix&lt; C &gt;</a>
-, <a class="el" href="db/db2/a01143.php#a368f58787c40f58441c7eea56a420a82">mcd::natural::Cell</a>
-, <a class="el" href="d1/d34/a01211.php#a1803f44b93c73c5cf0f3d8204eac3c9e">mcd::natural::Chromosome</a>
-, <a class="el" href="d8/d38/a01299.php#abfba7cb01e60aeda7477a3b504d4ed57">mcd::natural::Gene</a>
 , <a class="el" href="dd/d8b/a01363.php#af8e324237235cd148492d82eadf94e0c">mcd::PathfindingNode</a>
 , <a class="el" href="df/dc5/a01455.php#a177528c8a1eee37fcda25a89084b8ed6">mcd::Point</a>
 , <a class="el" href="d7/d8b/a01431.php#a7f236759032a4630990af05bd6c8530b">mcd::Time</a>
@@ -212,9 +212,9 @@ $(document).ready(function(){initNavTree('functions_rela.php',''); initResizable
 </li>
 <li>operator&gt;&gt;
 : <a class="el" href="d8/d84/a01131.php#a91ce80d3959e1d2a891e58c940c8631b">mcd::Big</a>
-, <a class="el" href="db/db2/a01143.php#a4e8b664ca85bee0d335569bc95a513e8">mcd::natural::Cell</a>
-, <a class="el" href="d1/d34/a01211.php#a9a437c818c1b78544066972a94410efc">mcd::natural::Chromosome</a>
-, <a class="el" href="d8/d38/a01299.php#a2614d14b993a651c047de4bf36f7aef2">mcd::natural::Gene</a>
+, <a class="el" href="db/db2/a01143.php#a4e8b664ca85bee0d335569bc95a513e8">mcd::genetic::Cell</a>
+, <a class="el" href="d1/d34/a01211.php#a9a437c818c1b78544066972a94410efc">mcd::genetic::Chromosome</a>
+, <a class="el" href="d8/d38/a01299.php#a2614d14b993a651c047de4bf36f7aef2">mcd::genetic::Gene</a>
 , <a class="el" href="d6/d3b/a01459.php#a3b06b20625099b2c7cdd5ac2c7290558">mcd::vector&lt; C &gt;</a>
 </li>
 <li>operator^

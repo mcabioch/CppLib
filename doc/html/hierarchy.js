@@ -6,8 +6,8 @@ var hierarchy =
     [ "mcd::Big", "d8/d84/a01131.php", null ],
     [ "mcd::Binary< T, Enable >", "db/d12/a00268.php#de/de4/a01135", null ],
     [ "mcd::Binary< T, typename std::enable_if_t< std::is_arithmetic< T >::value, void > >", "d5/d3e/a01139.php", null ],
-    [ "mcd::natural::Cell", "db/db2/a01143.php", null ],
-    [ "mcd::natural::Chromosome", "d1/d34/a01211.php", null ],
+    [ "mcd::genetic::Cell", "db/db2/a01143.php", null ],
+    [ "mcd::genetic::Chromosome", "d1/d34/a01211.php", null ],
     [ "mcd::Clock", "da/d3f/a01215.php", null ],
     [ "mcd::console::Color", "d5/d39/a01219.php", [
       [ "mcd::console::Cls", "d9/da8/a01227.php", null ],
@@ -41,7 +41,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "mcd::Fraction", "d2/d68/a01295.php", null ],
-    [ "mcd::natural::Gene", "d8/d38/a01299.php", null ],
+    [ "mcd::genetic::Gene", "d8/d38/a01299.php", null ],
     [ "mcd::check::has_istream_operator< T >", "d1/d0d/a01191.php", null ],
     [ "mcd::check::has_ostream_operator< T >", "dc/d2d/a01183.php", null ],
     [ "mcd::check::has_size_method< T >", "de/d1a/a01179.php", null ],

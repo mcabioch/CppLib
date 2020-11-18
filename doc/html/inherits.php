@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -286,49 +286,49 @@ $(document).ready(function(){initNavTree('hierarchy.php',''); initResizable(); }
 <area shape="rect" href="d2/d68/a01295.php" title="A class to manage fractions." alt="" coords="5,5,108,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_33.png" border="0" usemap="#amcd_1_1IOConfig" alt=""/>
+<tr><td><img src="inherit_graph_33.png" border="0" usemap="#amcd_1_1genetic_1_1Cell" alt=""/>
+<map name="mcd_1_1genetic_1_1Cell" id="mcd_1_1genetic_1_1Cell">
+<area shape="rect" href="db/db2/a01143.php" title="A cell with chromosomes." alt="" coords="5,5,133,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_34.png" border="0" usemap="#amcd_1_1genetic_1_1Chromosome" alt=""/>
+<map name="mcd_1_1genetic_1_1Chromosome" id="mcd_1_1genetic_1_1Chromosome">
+<area shape="rect" href="d1/d34/a01211.php" title="A double group of genes." alt="" coords="5,5,188,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_35.png" border="0" usemap="#amcd_1_1genetic_1_1Gene" alt=""/>
+<map name="mcd_1_1genetic_1_1Gene" id="mcd_1_1genetic_1_1Gene">
+<area shape="rect" href="d8/d38/a01299.php" title="A gene that represent a caracteristic." alt="" coords="5,5,141,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_36.png" border="0" usemap="#amcd_1_1IOConfig" alt=""/>
 <map name="mcd_1_1IOConfig" id="mcd_1_1IOConfig">
 <area shape="rect" href="de/d69/a01311.php" title="A class to configure inputs and outputs." alt="" coords="5,5,112,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_34.png" border="0" usemap="#amcd_1_1Json" alt=""/>
+<tr><td><img src="inherit_graph_37.png" border="0" usemap="#amcd_1_1Json" alt=""/>
 <map name="mcd_1_1Json" id="mcd_1_1Json">
 <area shape="rect" href="d2/d8e/a01315.php" title="A class to manage Json formatted data." alt="" coords="5,5,88,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_35.png" border="0" usemap="#amcd_1_1Logger" alt=""/>
+<tr><td><img src="inherit_graph_38.png" border="0" usemap="#amcd_1_1Logger" alt=""/>
 <map name="mcd_1_1Logger" id="mcd_1_1Logger">
 <area shape="rect" href="db/da8/a01323.php" title="A class to log some messages." alt="" coords="5,5,100,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_36.png" border="0" usemap="#amcd_1_1Map" alt=""/>
+<tr><td><img src="inherit_graph_39.png" border="0" usemap="#amcd_1_1Map" alt=""/>
 <map name="mcd_1_1Map" id="mcd_1_1Map">
 <area shape="rect" href="d4/d04/a01335.php" title="A class to manage a map and that implement some pathfinding algorithms." alt="" coords="5,5,85,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_37.png" border="0" usemap="#amcd_1_1MapMove" alt=""/>
+<tr><td><img src="inherit_graph_40.png" border="0" usemap="#amcd_1_1MapMove" alt=""/>
 <map name="mcd_1_1MapMove" id="mcd_1_1MapMove">
 <area shape="rect" href="db/d12/a00268.php#dc/d8e/a01331" title="A struct to know informations about th movement of something in the map." alt="" coords="5,5,117,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_38.png" border="0" usemap="#amcd_1_1Matrix_3_01C_01_4" alt=""/>
+<tr><td><img src="inherit_graph_41.png" border="0" usemap="#amcd_1_1Matrix_3_01C_01_4" alt=""/>
 <map name="mcd_1_1Matrix_3_01C_01_4" id="mcd_1_1Matrix_3_01C_01_4">
 <area shape="rect" href="dd/d6e/a01339.php" title="A class to represent matrix." alt="" coords="5,5,131,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_39.png" border="0" usemap="#amcd_1_1natural_1_1Cell" alt=""/>
-<map name="mcd_1_1natural_1_1Cell" id="mcd_1_1natural_1_1Cell">
-<area shape="rect" href="db/db2/a01143.php" title="A cell with chromosomes." alt="" coords="5,5,131,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_40.png" border="0" usemap="#amcd_1_1natural_1_1Chromosome" alt=""/>
-<map name="mcd_1_1natural_1_1Chromosome" id="mcd_1_1natural_1_1Chromosome">
-<area shape="rect" href="d1/d34/a01211.php" title="A double group of genes." alt="" coords="5,5,185,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_41.png" border="0" usemap="#amcd_1_1natural_1_1Gene" alt=""/>
-<map name="mcd_1_1natural_1_1Gene" id="mcd_1_1natural_1_1Gene">
-<area shape="rect" href="d8/d38/a01299.php" title="A gene that represent a caracteristic." alt="" coords="5,5,139,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_42.png" border="0" usemap="#amcd_1_1Node_3_01T_01_4" alt=""/>

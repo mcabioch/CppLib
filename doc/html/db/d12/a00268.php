@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:41 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -113,7 +113,7 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d5/d42/a00269"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.php">entities</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dd/d86/a00271"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php">natural</a></td></tr>
+<tr class="memitem:dd/d86/a00271"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d86/a00271.php">genetic</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d3/d5e/a00275"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5e/a00275.php">tests</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -282,9 +282,6 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aba609827ae566c40802bf828ab5a5a3c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aba609827ae566c40802bf828ab5a5a3c">pair_str</a> = std::pair&lt; std::string, std::string &gt;</td></tr>
-<tr class="memdesc:aba609827ae566c40802bf828ab5a5a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias.  <a href="../../db/d12/a00268.php#aba609827ae566c40802bf828ab5a5a3c">More...</a><br /></td></tr>
-<tr class="separator:aba609827ae566c40802bf828ab5a5a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac34b1d11dd4820f0cfdee1e16a1c275"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aac34b1d11dd4820f0cfdee1e16a1c275">VI</a> = std::vector&lt; int &gt;</td></tr>
 <tr class="memdesc:aac34b1d11dd4820f0cfdee1e16a1c275"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias.  <a href="../../db/d12/a00268.php#aac34b1d11dd4820f0cfdee1e16a1c275">More...</a><br /></td></tr>
 <tr class="separator:aac34b1d11dd4820f0cfdee1e16a1c275"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -294,6 +291,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ab3aa994c4b6d9eccce0cf840e6c0a731"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ab3aa994c4b6d9eccce0cf840e6c0a731">map_str</a> = std::map&lt; std::string, std::string &gt;</td></tr>
 <tr class="memdesc:ab3aa994c4b6d9eccce0cf840e6c0a731"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias.  <a href="../../db/d12/a00268.php#ab3aa994c4b6d9eccce0cf840e6c0a731">More...</a><br /></td></tr>
 <tr class="separator:ab3aa994c4b6d9eccce0cf840e6c0a731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4778b7c485c0afadf690bbd6c02a23b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#ab4778b7c485c0afadf690bbd6c02a23b">pair_str</a> = std::pair&lt; std::string, std::string &gt;</td></tr>
+<tr class="memdesc:ab4778b7c485c0afadf690bbd6c02a23b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias.  <a href="../../db/d12/a00268.php#ab4778b7c485c0afadf690bbd6c02a23b">More...</a><br /></td></tr>
+<tr class="separator:ab4778b7c485c0afadf690bbd6c02a23b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc72a1c83ec918a79447dfa996951da3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#abc72a1c83ec918a79447dfa996951da3">MapLine</a> = std::vector&lt; <a class="el" href="../../db/d12/a00268.php#a7350be9df9566241dfb80071a89f9ede">Tile</a> &gt;</td></tr>
 <tr class="separator:abc72a1c83ec918a79447dfa996951da3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb393906487fbd42d8ae5f6831423fbb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aeb393906487fbd42d8ae5f6831423fbb">MapArray</a> = std::vector&lt; <a class="el" href="../../db/d12/a00268.php#abc72a1c83ec918a79447dfa996951da3">MapLine</a> &gt;</td></tr>
@@ -1239,14 +1239,14 @@ z</td>
 
 </div>
 </div>
-<a id="aba609827ae566c40802bf828ab5a5a3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba609827ae566c40802bf828ab5a5a3c">&#9670;&nbsp;</a></span>pair_str</h2>
+<a id="ab4778b7c485c0afadf690bbd6c02a23b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4778b7c485c0afadf690bbd6c02a23b">&#9670;&nbsp;</a></span>pair_str</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::pair&lt; std::string, std::string &gt; <a class="el" href="../../db/d12/a00268.php#aba609827ae566c40802bf828ab5a5a3c">mcd::pair_str</a></td>
+          <td class="memname">using <a class="el" href="../../db/d12/a00268.php#ab4778b7c485c0afadf690bbd6c02a23b">mcd::pair_str</a> = typedef std::pair&lt; std::string, std::string &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4633,7 +4633,7 @@ template&lt;class C &gt; </div>
     <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The string to treat </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">from</td><td>The string to replace </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">to</td><td>The string to use to replace </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">regex</td><td><b>true</b> or <b>false</b>, <b>true</b> if <em>from</em> is a regex </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">regex</td><td><b>true</b> or <b>false</b>, <b>true</b> if <em>from</em> is a regex</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td><b>true</b> or <b>false</b>, <b>true</b> if only have to replace complete words and not some parts</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">insensitive</td><td><b>true</b> or <b>false</b> <pre class="fragment">    \return         Return the changed string
 </pre> </td></tr>

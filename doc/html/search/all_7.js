@@ -1,11 +1,11 @@
 var searchData=
 [
   ['gaussjordan_207',['GaussJordan',['../dd/d6e/a01339.php#a9b0f04cced69a887b46bddde8e3f3c0a',1,'mcd::Matrix::GaussJordan()'],['../d3/df8/a00155.php#a9b0f04cced69a887b46bddde8e3f3c0a',1,'GaussJordan():&#160;Matrix_functions.hpp']]],
-  ['gene_208',['Gene',['../d8/d38/a01299.php',1,'mcd::natural::Gene'],['../d8/d38/a01299.php#afac2f9fde459a7a311c2a19078f0cc95',1,'mcd::natural::Gene::Gene(std::string name, GeneType type=GeneType::FLOAT, double value=0, double mini=0, double maxi=0, std::vector&lt; double &gt; list={})'],['../d8/d38/a01299.php#aef9707ac6796358b612094b0ebc35402',1,'mcd::natural::Gene::Gene(const Gene &amp;g)']]],
+  ['gene_208',['Gene',['../d8/d38/a01299.php',1,'mcd::genetic::Gene'],['../d8/d38/a01299.php#aabe845b78c5b640827cea98f892e6b2c',1,'mcd::genetic::Gene::Gene(std::string name, GeneType type=GeneType::FLOAT, double value=0, double mini=0, double maxi=0, std::vector&lt; double &gt; list={})'],['../d8/d38/a01299.php#a8ddc5d0f26ea7baa3e4b0a7e3660c7ea',1,'mcd::genetic::Gene::Gene(const Gene &amp;g)']]],
   ['gene_2ehpp_209',['Gene.hpp',['../df/d98/a00107.php',1,'']]],
   ['generate_5fiterators_210',['GENERATE_ITERATORS',['../d7/d06/a00131.php#adf3d20aa957d03b79d774e80ab0507ed',1,'lowDefines.hpp']]],
-  ['genes_211',['Genes',['../dd/d86/a00271.php#aed19377fb7721df1a451d93af0c19950',1,'mcd::natural']]],
-  ['genetype_212',['GeneType',['../d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0',1,'mcd::natural::Gene']]],
+  ['genes_211',['Genes',['../dd/d86/a00271.php#a558590aa4062bed1dd3e130a2170254e',1,'mcd::genetic']]],
+  ['genetype_212',['GeneType',['../d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8baf',1,'mcd::genetic::Gene']]],
   ['get_213',['get',['../d9/d10/a01103.php#ac779733da952e8cfda80b14655a07172',1,'mcd::stack::get()'],['../d3/de1/a01111.php#a148295001e6effa1aa1217af766e021f',1,'mcd::queue::get()'],['../d5/d3e/a01139.php#ac47df1759fc5e2a1c2b4113401fc3ee9',1,'mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;::get()'],['../d3/d42/a01275.php#a8573428b5d4557473120c24e1e52d543',1,'mcd::Date::get()'],['../d9/de7/a01279.php#a7b25df777f0b2b3ac2396538eb3ca028',1,'mcd::DateTime::get()'],['../d2/d8e/a01315.php#a915790021b9c9f20ac2ea225baecf489',1,'mcd::Json::get()'],['../d4/d04/a01335.php#a04a6f229a4697e8945922ed23b52f7d6',1,'mcd::Map::get()'],['../d7/d8b/a01431.php#af9360f3323012f2572ffb3f8924fca62',1,'mcd::Time::get()']]],
   ['geta_214',['getA',['../dc/dc2/a01251.php#a3f4c9042e02afd788ae9d85acf20052b',1,'mcd::entities::Contraption']]],
   ['getage_215',['getAge',['../d7/da4/a01287.php#ae1b32dc79003f9d2f02ffa990acb3ccd',1,'mcd::entities::Entity']]],

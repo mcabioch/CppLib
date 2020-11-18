@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:41 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -268,7 +268,7 @@ Variables</h2></td></tr>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Created : Wednesday November, 13 2019 11:22:08 </dd>
 <dd>
-Last modification : November, 13 2020 </dd></dl>
+Last modification : November, 18 2020 </dd></dl>
 </div><hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="d0/d02/a01119" id="d0/d02/a01119"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#d0/d02/a01119">&#9670;&nbsp;</a></span>mcd::AssertionLocationStruct</h2>
@@ -451,7 +451,7 @@ line</td>
 <div class="ttc" id="aa00270_php_ab103cfa2a20b497f890a6fb6c878aa60"><div class="ttname"><a href="../../d9/d2a/a00270.php#ab103cfa2a20b497f890a6fb6c878aa60">mcd::console::cout</a></div><div class="ttdeci">ThreadCout cout</div><div class="ttdoc">The thread safe version of std::cout.</div></div>
 <div class="ttc" id="aa01291_php_a04d412a2a5c85d9e16d67539134b419f"><div class="ttname"><a href="../../d4/da0/a01291.php#a04d412a2a5c85d9e16d67539134b419f">mcd::exception::what</a></div><div class="ttdeci">virtual const char * what() const noexcept</div></div>
 <div class="ttc" id="aa00270_php_a7f1493d50192cdfabe22dc9f805bdcaa"><div class="ttname"><a href="../../d9/d2a/a00270.php#a7f1493d50192cdfabe22dc9f805bdcaa">mcd::console::endl</a></div><div class="ttdeci">ThreadEndlCout endl</div><div class="ttdoc">The thread safe version of std::endl.</div></div>
-<div class="ttc" id="aa01219_php"><div class="ttname"><a href="../../d5/d39/a01219.php">mcd::console::Color</a></div><div class="ttdoc">Change the text color in the console.</div><div class="ttdef"><b>Definition:</b> console.hpp:65</div></div>
+<div class="ttc" id="aa01219_php"><div class="ttname"><a href="../../d5/d39/a01219.php">mcd::console::Color</a></div><div class="ttdoc">Change the text color in the console.</div><div class="ttdef"><b>Definition:</b> console.hpp:66</div></div>
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

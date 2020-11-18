@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.8.20"/>
-		<title>C++: mcd::natural::Gene Class Reference</title>
+		<title>C++: mcd::genetic::Gene Class Reference</title>
 		<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../../jquery.js"></script>
 		<script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d8/d38/a01299.php','../../'); initResi
 <a href="#friends">Friends</a> &#124;
 <a href="../../d4/d64/a01296.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mcd::natural::Gene Class Reference</div>  </div>
+<div class="title">mcd::genetic::Gene Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -109,46 +109,46 @@ $(document).ready(function(){initNavTree('d8/d38/a01299.php','../../'); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a29dd9b8ac897a110f7047c2912ebd2e0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0">GeneType</a> { <br />
-&#160;&#160;<a class="el" href="../../d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0ae7b17b5d887f18544b1ca0f51244e8c4">FLOAT</a>, 
-<a class="el" href="../../d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0a644487cee470ea37ef049351feaaca2e">INT</a>, 
-<a class="el" href="../../d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0aa91e524760eeac3e25168c3c4fd16c64">BOOL</a>, 
-<a class="el" href="../../d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0a30cd035484abb297f1f5503dd95b94fd">RANGED_INT</a>, 
+<tr class="memitem:aab74f29d676323712ddd3a6b0b5e8baf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8baf">GeneType</a> { <br />
+&#160;&#160;<a class="el" href="../../d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa9112634199bb5fed6dd8a509b1618628">FLOAT</a>, 
+<a class="el" href="../../d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa701889b572c1004fbaf3c87a0c9f05f3">INT</a>, 
+<a class="el" href="../../d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafaa0409ed75b17d7f967926d3443d0eed5">BOOL</a>, 
+<a class="el" href="../../d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa13532c0c3df4a8f8344bcde21c4834f2">RANGED_INT</a>, 
 <br />
-&#160;&#160;<a class="el" href="../../d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0a31801000c46cfa54c27b6f7bcef2afa5">RANGED_FLOAT</a>, 
-<a class="el" href="../../d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0a4015002ac12a4c3852ba72131800aa26">LISTED</a>, 
-<a class="el" href="../../d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0a11190a1a9c9f6f59c60d10762eb91896">STATIC</a>
+&#160;&#160;<a class="el" href="../../d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa42406aee71ab856de244913ab29bd543">RANGED_FLOAT</a>, 
+<a class="el" href="../../d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa6d72a97560ad38d3fc76ebbdbabdc2d2">LISTED</a>, 
+<a class="el" href="../../d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa7b69981960c85d8443f944dcd8dff3ee">STATIC</a>
 <br />
  }</td></tr>
-<tr class="separator:a29dd9b8ac897a110f7047c2912ebd2e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:aab74f29d676323712ddd3a6b0b5e8baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afac2f9fde459a7a311c2a19078f0cc95"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#afac2f9fde459a7a311c2a19078f0cc95">Gene</a> (std::string name, <a class="el" href="../../d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0">GeneType</a> type=GeneType::FLOAT, double value=0, double mini=0, double maxi=0, std::vector&lt; double &gt; list={})</td></tr>
-<tr class="memdesc:afac2f9fde459a7a311c2a19078f0cc95"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d8/d38/a01299.php#afac2f9fde459a7a311c2a19078f0cc95">More...</a><br /></td></tr>
-<tr class="separator:afac2f9fde459a7a311c2a19078f0cc95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57128a7a4b82cf0a0ba0b8856bab161a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#a57128a7a4b82cf0a0ba0b8856bab161a">~Gene</a> ()</td></tr>
-<tr class="separator:a57128a7a4b82cf0a0ba0b8856bab161a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef9707ac6796358b612094b0ebc35402"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#aef9707ac6796358b612094b0ebc35402">Gene</a> (const <a class="el" href="../../d8/d38/a01299.php">Gene</a> &amp;g)</td></tr>
-<tr class="separator:aef9707ac6796358b612094b0ebc35402"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc86646db1f38e98d7d1d21236debe9d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#acc86646db1f38e98d7d1d21236debe9d">Value</a> () const</td></tr>
-<tr class="separator:acc86646db1f38e98d7d1d21236debe9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae75e8789e328d8ffa258b201849d6a44"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#ae75e8789e328d8ffa258b201849d6a44">Name</a> () const</td></tr>
-<tr class="separator:ae75e8789e328d8ffa258b201849d6a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c76cb1011260b0ad8495d1e591057ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#a1c76cb1011260b0ad8495d1e591057ba">Value</a> (const double &amp;value)</td></tr>
-<tr class="separator:a1c76cb1011260b0ad8495d1e591057ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2f9b44131d9874e8b2d27566f8f5bf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d38/a01299.php">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#af2f9b44131d9874e8b2d27566f8f5bf0">copy</a> () const</td></tr>
-<tr class="memdesc:af2f9b44131d9874e8b2d27566f8f5bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="../../d8/d38/a01299.php" title="A gene that represent a caracteristic.">Gene</a> applying some potential mutations.  <a href="../../d8/d38/a01299.php#af2f9b44131d9874e8b2d27566f8f5bf0">More...</a><br /></td></tr>
-<tr class="separator:af2f9b44131d9874e8b2d27566f8f5bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabe845b78c5b640827cea98f892e6b2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#aabe845b78c5b640827cea98f892e6b2c">Gene</a> (std::string name, <a class="el" href="../../d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8baf">GeneType</a> type=GeneType::FLOAT, double value=0, double mini=0, double maxi=0, std::vector&lt; double &gt; list={})</td></tr>
+<tr class="memdesc:aabe845b78c5b640827cea98f892e6b2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="../../d8/d38/a01299.php#aabe845b78c5b640827cea98f892e6b2c">More...</a><br /></td></tr>
+<tr class="separator:aabe845b78c5b640827cea98f892e6b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b2b6c1cead79601c24ea60629b3c5f3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#a5b2b6c1cead79601c24ea60629b3c5f3">~Gene</a> ()</td></tr>
+<tr class="separator:a5b2b6c1cead79601c24ea60629b3c5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ddc5d0f26ea7baa3e4b0a7e3660c7ea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#a8ddc5d0f26ea7baa3e4b0a7e3660c7ea">Gene</a> (const <a class="el" href="../../d8/d38/a01299.php">Gene</a> &amp;g)</td></tr>
+<tr class="separator:a8ddc5d0f26ea7baa3e4b0a7e3660c7ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afee7770f18f2ee1e2e550bc17f328c25"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#afee7770f18f2ee1e2e550bc17f328c25">Value</a> () const</td></tr>
+<tr class="separator:afee7770f18f2ee1e2e550bc17f328c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6b451e751384f748e7623bcc888329f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#ad6b451e751384f748e7623bcc888329f">Name</a> () const</td></tr>
+<tr class="separator:ad6b451e751384f748e7623bcc888329f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d0a2b0313c72a3f89759c1b3a3a4bd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#a2d0a2b0313c72a3f89759c1b3a3a4bd0">Value</a> (const double &amp;value)</td></tr>
+<tr class="separator:a2d0a2b0313c72a3f89759c1b3a3a4bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0105c4d4734abb6fbcb9acff959b7852"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d38/a01299.php">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#a0105c4d4734abb6fbcb9acff959b7852">copy</a> () const</td></tr>
+<tr class="memdesc:a0105c4d4734abb6fbcb9acff959b7852"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="../../d8/d38/a01299.php" title="A gene that represent a caracteristic.">Gene</a> applying some potential mutations.  <a href="../../d8/d38/a01299.php#a0105c4d4734abb6fbcb9acff959b7852">More...</a><br /></td></tr>
+<tr class="separator:a0105c4d4734abb6fbcb9acff959b7852"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:aea82298faeb2f83a45c7ca43558c0390"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#aea82298faeb2f83a45c7ca43558c0390">MutationRate</a></td></tr>
-<tr class="memdesc:aea82298faeb2f83a45c7ca43558c0390"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mutation rate in using of copy method. It's one over <em>MutationRate</em>.  <a href="../../d8/d38/a01299.php#aea82298faeb2f83a45c7ca43558c0390">More...</a><br /></td></tr>
-<tr class="separator:aea82298faeb2f83a45c7ca43558c0390"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a956e43802a33c93c589c52568f12f6d1"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#a956e43802a33c93c589c52568f12f6d1">FloatAccuracy</a></td></tr>
-<tr class="memdesc:a956e43802a33c93c589c52568f12f6d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define the maximum number after the comma for a float value. Default is 4.  <a href="../../d8/d38/a01299.php#a956e43802a33c93c589c52568f12f6d1">More...</a><br /></td></tr>
-<tr class="separator:a956e43802a33c93c589c52568f12f6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefe63728d1618bcaa242d9192a2ceb5d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#aefe63728d1618bcaa242d9192a2ceb5d">MutationRate</a></td></tr>
+<tr class="memdesc:aefe63728d1618bcaa242d9192a2ceb5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mutation rate in using of copy method. It's one over <em>MutationRate</em>.  <a href="../../d8/d38/a01299.php#aefe63728d1618bcaa242d9192a2ceb5d">More...</a><br /></td></tr>
+<tr class="separator:aefe63728d1618bcaa242d9192a2ceb5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f70c26c849ce20de51e3853561f234b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/a01299.php#a1f70c26c849ce20de51e3853561f234b">FloatAccuracy</a></td></tr>
+<tr class="memdesc:a1f70c26c849ce20de51e3853561f234b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define the maximum number after the comma for a float value. Default is 4.  <a href="../../d8/d38/a01299.php#a1f70c26c849ce20de51e3853561f234b">More...</a><br /></td></tr>
+<tr class="separator:a1f70c26c849ce20de51e3853561f234b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -164,38 +164,38 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A gene that represent a caracteristic. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a29dd9b8ac897a110f7047c2912ebd2e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29dd9b8ac897a110f7047c2912ebd2e0">&#9670;&nbsp;</a></span>GeneType</h2>
+<a id="aab74f29d676323712ddd3a6b0b5e8baf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab74f29d676323712ddd3a6b0b5e8baf">&#9670;&nbsp;</a></span>GeneType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0">mcd::natural::Gene::GeneType</a></td>
+          <td class="memname">enum <a class="el" href="../../d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8baf">mcd::genetic::Gene::GeneType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a29dd9b8ac897a110f7047c2912ebd2e0ae7b17b5d887f18544b1ca0f51244e8c4"></a>FLOAT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a29dd9b8ac897a110f7047c2912ebd2e0a644487cee470ea37ef049351feaaca2e"></a>INT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a29dd9b8ac897a110f7047c2912ebd2e0aa91e524760eeac3e25168c3c4fd16c64"></a>BOOL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a29dd9b8ac897a110f7047c2912ebd2e0a30cd035484abb297f1f5503dd95b94fd"></a>RANGED_INT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a29dd9b8ac897a110f7047c2912ebd2e0a31801000c46cfa54c27b6f7bcef2afa5"></a>RANGED_FLOAT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a29dd9b8ac897a110f7047c2912ebd2e0a4015002ac12a4c3852ba72131800aa26"></a>LISTED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a29dd9b8ac897a110f7047c2912ebd2e0a11190a1a9c9f6f59c60d10762eb91896"></a>STATIC&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aab74f29d676323712ddd3a6b0b5e8bafa9112634199bb5fed6dd8a509b1618628"></a>FLOAT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab74f29d676323712ddd3a6b0b5e8bafa701889b572c1004fbaf3c87a0c9f05f3"></a>INT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab74f29d676323712ddd3a6b0b5e8bafaa0409ed75b17d7f967926d3443d0eed5"></a>BOOL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab74f29d676323712ddd3a6b0b5e8bafa13532c0c3df4a8f8344bcde21c4834f2"></a>RANGED_INT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab74f29d676323712ddd3a6b0b5e8bafa42406aee71ab856de244913ab29bd543"></a>RANGED_FLOAT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab74f29d676323712ddd3a6b0b5e8bafa6d72a97560ad38d3fc76ebbdbabdc2d2"></a>LISTED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab74f29d676323712ddd3a6b0b5e8bafa7b69981960c85d8443f944dcd8dff3ee"></a>STATIC&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="afac2f9fde459a7a311c2a19078f0cc95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afac2f9fde459a7a311c2a19078f0cc95">&#9670;&nbsp;</a></span>Gene() <span class="overload">[1/2]</span></h2>
+<a id="aabe845b78c5b640827cea98f892e6b2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabe845b78c5b640827cea98f892e6b2c">&#9670;&nbsp;</a></span>Gene() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::natural::Gene::Gene </td>
+          <td class="memname">mcd::genetic::Gene::Gene </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>name</em>, </td>
@@ -203,7 +203,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0">GeneType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8baf">GeneType</a>&#160;</td>
           <td class="paramname"><em>type</em> = <code>GeneType::FLOAT</code>, </td>
         </tr>
         <tr>
@@ -253,8 +253,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a57128a7a4b82cf0a0ba0b8856bab161a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57128a7a4b82cf0a0ba0b8856bab161a">&#9670;&nbsp;</a></span>~Gene()</h2>
+<a id="a5b2b6c1cead79601c24ea60629b3c5f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b2b6c1cead79601c24ea60629b3c5f3">&#9670;&nbsp;</a></span>~Gene()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -263,7 +263,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual mcd::natural::Gene::~Gene </td>
+          <td class="memname">virtual mcd::genetic::Gene::~Gene </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -278,14 +278,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="aef9707ac6796358b612094b0ebc35402"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef9707ac6796358b612094b0ebc35402">&#9670;&nbsp;</a></span>Gene() <span class="overload">[2/2]</span></h2>
+<a id="a8ddc5d0f26ea7baa3e4b0a7e3660c7ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ddc5d0f26ea7baa3e4b0a7e3660c7ea">&#9670;&nbsp;</a></span>Gene() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">mcd::natural::Gene::Gene </td>
+          <td class="memname">mcd::genetic::Gene::Gene </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d8/d38/a01299.php">Gene</a> &amp;&#160;</td>
           <td class="paramname"><em>g</em></td><td>)</td>
@@ -297,14 +297,14 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af2f9b44131d9874e8b2d27566f8f5bf0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2f9b44131d9874e8b2d27566f8f5bf0">&#9670;&nbsp;</a></span>copy()</h2>
+<a id="a0105c4d4734abb6fbcb9acff959b7852"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0105c4d4734abb6fbcb9acff959b7852">&#9670;&nbsp;</a></span>copy()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/d38/a01299.php">Gene</a> mcd::natural::Gene::copy </td>
+          <td class="memname"><a class="el" href="../../d8/d38/a01299.php">Gene</a> mcd::genetic::Gene::copy </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -316,14 +316,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ae75e8789e328d8ffa258b201849d6a44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae75e8789e328d8ffa258b201849d6a44">&#9670;&nbsp;</a></span>Name()</h2>
+<a id="ad6b451e751384f748e7623bcc888329f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6b451e751384f748e7623bcc888329f">&#9670;&nbsp;</a></span>Name()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string mcd::natural::Gene::Name </td>
+          <td class="memname">std::string mcd::genetic::Gene::Name </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -333,14 +333,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="acc86646db1f38e98d7d1d21236debe9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc86646db1f38e98d7d1d21236debe9d">&#9670;&nbsp;</a></span>Value() <span class="overload">[1/2]</span></h2>
+<a id="afee7770f18f2ee1e2e550bc17f328c25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afee7770f18f2ee1e2e550bc17f328c25">&#9670;&nbsp;</a></span>Value() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double mcd::natural::Gene::Value </td>
+          <td class="memname">double mcd::genetic::Gene::Value </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -350,14 +350,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a1c76cb1011260b0ad8495d1e591057ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c76cb1011260b0ad8495d1e591057ba">&#9670;&nbsp;</a></span>Value() <span class="overload">[2/2]</span></h2>
+<a id="a2d0a2b0313c72a3f89759c1b3a3a4bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d0a2b0313c72a3f89759c1b3a3a4bd0">&#9670;&nbsp;</a></span>Value() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void mcd::natural::Gene::Value </td>
+          <td class="memname">void mcd::genetic::Gene::Value </td>
           <td>(</td>
           <td class="paramtype">const double &amp;&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
@@ -483,8 +483,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a956e43802a33c93c589c52568f12f6d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a956e43802a33c93c589c52568f12f6d1">&#9670;&nbsp;</a></span>FloatAccuracy</h2>
+<a id="a1f70c26c849ce20de51e3853561f234b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f70c26c849ce20de51e3853561f234b">&#9670;&nbsp;</a></span>FloatAccuracy</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -493,7 +493,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int mcd::natural::Gene::FloatAccuracy</td>
+          <td class="memname">int mcd::genetic::Gene::FloatAccuracy</td>
         </tr>
       </table>
   </td>
@@ -507,8 +507,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="aea82298faeb2f83a45c7ca43558c0390"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea82298faeb2f83a45c7ca43558c0390">&#9670;&nbsp;</a></span>MutationRate</h2>
+<a id="aefe63728d1618bcaa242d9192a2ceb5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefe63728d1618bcaa242d9192a2ceb5d">&#9670;&nbsp;</a></span>MutationRate</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -517,7 +517,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int mcd::natural::Gene::MutationRate</td>
+          <td class="memname">int mcd::genetic::Gene::MutationRate</td>
         </tr>
       </table>
   </td>
@@ -540,7 +540,7 @@ Friends</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d86/a00271.php">natural</a></li><li class="navelem"><a class="el" href="../../d8/d38/a01299.php">Gene</a></li>
+		<li class="navelem"><a class="el" href="../../db/d12/a00268.php">mcd</a></li><li class="navelem"><a class="el" href="../../dd/d86/a00271.php">genetic</a></li><li class="navelem"><a class="el" href="../../d8/d38/a01299.php">Gene</a></li>
 		<li class="footer">
 			<?php
 				echo $text;

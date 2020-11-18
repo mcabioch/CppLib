@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -137,7 +137,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= !<a class="code" href="../../de/df1/a01151.php#abc5406d058f8e6f62ca56b4f3e993132">is_array&lt; T &gt;::value</a> &amp;&amp; !<a class="code" href="../../d7/dd6/a01167.php#a6ede9c303cc0abd1dd1734dc1ade40a5">is_string&lt; T &gt;::value</a> &amp;&amp;</div>
-<div class="line">                                      !<a class="code" href="../../d2/d22/a01171.php#adea1af67a99838d74cf866af87297e16">is_smatch&lt; T &gt;::value</a> &amp;&amp; !std::is_fundamental&lt; T &gt;::value</div>
+<div class="line">                                  !<a class="code" href="../../d2/d22/a01171.php#adea1af67a99838d74cf866af87297e16">is_smatch&lt; T &gt;::value</a> &amp;&amp; !std::is_fundamental&lt; T &gt;::value</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -146,9 +146,9 @@ template&lt;typename T &gt; </div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aa01167_php_a6ede9c303cc0abd1dd1734dc1ade40a5"><div class="ttname"><a href="../../d7/dd6/a01167.php#a6ede9c303cc0abd1dd1734dc1ade40a5">mcd::check::is_string::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:197</div></div>
-<div class="ttc" id="aa01151_php_abc5406d058f8e6f62ca56b4f3e993132"><div class="ttname"><a href="../../de/df1/a01151.php#abc5406d058f8e6f62ca56b4f3e993132">mcd::check::is_array::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:125</div></div>
-<div class="ttc" id="aa01171_php_adea1af67a99838d74cf866af87297e16"><div class="ttname"><a href="../../d2/d22/a01171.php#adea1af67a99838d74cf866af87297e16">mcd::check::is_smatch::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:212</div></div>
+<div class="ttc" id="aa01167_php_a6ede9c303cc0abd1dd1734dc1ade40a5"><div class="ttname"><a href="../../d7/dd6/a01167.php#a6ede9c303cc0abd1dd1734dc1ade40a5">mcd::check::is_string::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:189</div></div>
+<div class="ttc" id="aa01151_php_abc5406d058f8e6f62ca56b4f3e993132"><div class="ttname"><a href="../../de/df1/a01151.php#abc5406d058f8e6f62ca56b4f3e993132">mcd::check::is_array::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:117</div></div>
+<div class="ttc" id="aa01171_php_adea1af67a99838d74cf866af87297e16"><div class="ttname"><a href="../../d2/d22/a01171.php#adea1af67a99838d74cf866af87297e16">mcd::check::is_smatch::value</a></div><div class="ttdeci">static const bool value</div><div class="ttdef"><b>Definition:</b> check.hpp:204</div></div>
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

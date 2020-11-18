@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -105,8 +105,8 @@ This inheritance list is sorted roughly, but not completely, alphabetically:</di
 <tr id="row_3_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d8/d84/a01131.php" target="_self">mcd::Big</a></td><td class="desc">A new huge arithmetic variable </td></tr>
 <tr id="row_4_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="db/d12/a00268.php#de/de4/a01135" target="_self">mcd::Binary&lt; T, Enable &gt;</a></td><td class="desc">A class to manage binary values easily </td></tr>
 <tr id="row_5_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d5/d3e/a01139.php" target="_self">mcd::Binary&lt; T, typename std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, void &gt; &gt;</a></td><td class="desc"></td></tr>
-<tr id="row_6_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="db/db2/a01143.php" target="_self">mcd::natural::Cell</a></td><td class="desc">A cell with chromosomes </td></tr>
-<tr id="row_7_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d1/d34/a01211.php" target="_self">mcd::natural::Chromosome</a></td><td class="desc">A double group of genes </td></tr>
+<tr id="row_6_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="db/db2/a01143.php" target="_self">mcd::genetic::Cell</a></td><td class="desc">A cell with chromosomes </td></tr>
+<tr id="row_7_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d1/d34/a01211.php" target="_self">mcd::genetic::Chromosome</a></td><td class="desc">A double group of genes </td></tr>
 <tr id="row_8_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="da/d3f/a01215.php" target="_self">mcd::Clock</a></td><td class="desc">A clock to measure the elapsed time </td></tr>
 <tr id="row_9_"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_9_" class="arrow" onclick="toggleFolder('9_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d5/d39/a01219.php" target="_self">mcd::console::Color</a></td><td class="desc">Change the text color in the console </td></tr>
 <tr id="row_9_0_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d9/da8/a01227.php" target="_self">mcd::console::Cls</a></td><td class="desc">Clear the console </td></tr>
@@ -131,7 +131,7 @@ This inheritance list is sorted roughly, but not completely, alphabetically:</di
 <tr id="row_14_0_2_" style="display:none;"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d3/da4/a01343.php" target="_self">mcd::MatrixException</a></td><td class="desc">A class to throw some exceptions for a <a class="el" href="dd/d6e/a01339.php" title="A class to represent matrix.">Matrix</a> instance </td></tr>
 <tr id="row_14_0_3_" style="display:none;"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d0/d9b/a01379.php" target="_self">mcd::PathfindingException</a></td><td class="desc">All exceptions that could be thrown by the pathfinding algorithm </td></tr>
 <tr id="row_15_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d2/d68/a01295.php" target="_self">mcd::Fraction</a></td><td class="desc">A class to manage fractions </td></tr>
-<tr id="row_16_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d8/d38/a01299.php" target="_self">mcd::natural::Gene</a></td><td class="desc">A gene that represent a caracteristic </td></tr>
+<tr id="row_16_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d8/d38/a01299.php" target="_self">mcd::genetic::Gene</a></td><td class="desc">A gene that represent a caracteristic </td></tr>
 <tr id="row_17_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d1/d0d/a01191.php" target="_self">mcd::check::has_istream_operator&lt; T &gt;</a></td><td class="desc">A template class to test if T has an istream operator </td></tr>
 <tr id="row_18_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="dc/d2d/a01183.php" target="_self">mcd::check::has_ostream_operator&lt; T &gt;</a></td><td class="desc">A template class to test if T has an ostream operator </td></tr>
 <tr id="row_19_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="de/d1a/a01179.php" target="_self">mcd::check::has_size_method&lt; T &gt;</a></td><td class="desc">Verify if an object has a size method </td></tr>

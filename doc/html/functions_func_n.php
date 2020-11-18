@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('functions_func_n.php',''); initResizab
 
 <h3><a id="index_n"></a>- n -</h3><ul>
 <li>Name()
-: <a class="el" href="d8/d38/a01299.php#ae75e8789e328d8ffa258b201849d6a44">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#ad6b451e751384f748e7623bcc888329f">mcd::genetic::Gene</a>
 </li>
 <li>nb()
 : <a class="el" href="d9/ddc/a01423.php#ae42256dfd8f198d224e4a877474aa172">mcd::tests::Test</a>

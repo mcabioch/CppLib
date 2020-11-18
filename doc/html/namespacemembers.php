@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('namespacemembers.php',''); initResizab
 : <a class="el" href="db/d12/a00268.php#a8855b382bd52d4baffe3633dbe8fa3ed">mcd</a>
 </li>
 <li>Chromosomes
-: <a class="el" href="dd/d86/a00271.php#a188924fe6c7007fd322ebe9ece4bb4b6">mcd::natural</a>
+: <a class="el" href="dd/d86/a00271.php#aee886c080102ea9c98ab235a2edd614e">mcd::genetic</a>
 </li>
 <li>collidesC()
 : <a class="el" href="db/d12/a00268.php#ace8a4328114062b56cf578ad92df821f">mcd</a>
@@ -229,7 +229,7 @@ $(document).ready(function(){initNavTree('namespacemembers.php',''); initResizab
 
 <h3><a id="index_g"></a>- g -</h3><ul>
 <li>Genes
-: <a class="el" href="dd/d86/a00271.php#aed19377fb7721df1a451d93af0c19950">mcd::natural</a>
+: <a class="el" href="dd/d86/a00271.php#a558590aa4062bed1dd3e130a2170254e">mcd::genetic</a>
 </li>
 <li>getall()
 : <a class="el" href="db/d12/a00268.php#a2b44ab9ee6b692aa036d6f7d0285e909">mcd</a>
@@ -391,7 +391,8 @@ $(document).ready(function(){initNavTree('namespacemembers.php',''); initResizab
 
 <h3><a id="index_p"></a>- p -</h3><ul>
 <li>pair_str
-: <a class="el" href="db/d12/a00268.php#aba609827ae566c40802bf828ab5a5a3c">mcd</a>
+: <a class="el" href="d0/d19/a00273.php#acbb02f98d6089f04e6450692a0d35221">mcd::check</a>
+, <a class="el" href="db/d12/a00268.php#ab4778b7c485c0afadf690bbd6c02a23b">mcd</a>
 </li>
 <li>pgcd()
 : <a class="el" href="db/d12/a00268.php#a0f3f4e24615446479ff59ce15ce61cde">mcd</a>
@@ -566,7 +567,7 @@ $(document).ready(function(){initNavTree('namespacemembers.php',''); initResizab
 : <a class="el" href="db/d12/a00268.php#a21f9e69f4ccff705b65007a1ac7063ef">mcd</a>
 </li>
 <li>transfer()
-: <a class="el" href="dd/d86/a00271.php#a81eb139ff8493e715a8efce3fda3155f">mcd::natural</a>
+: <a class="el" href="dd/d86/a00271.php#a9b48db18b101f7f460aeb9cdfa923027">mcd::genetic</a>
 </li>
 <li>TREE_DIRECTION
 : <a class="el" href="db/d12/a00268.php#ae3ee27656d8eb6e8a09407841cd00898">mcd</a>

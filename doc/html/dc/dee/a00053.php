@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:41 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -287,9 +287,8 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aba609827ae566c40802bf828ab5a5a3c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a00268.php#aba609827ae566c40802bf828ab5a5a3c">mcd::pair_str</a> = std::pair&lt; std::string, std::string &gt;</td></tr>
-<tr class="memdesc:aba609827ae566c40802bf828ab5a5a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias.  <a href="../../db/d12/a00268.php#aba609827ae566c40802bf828ab5a5a3c">More...</a><br /></td></tr>
-<tr class="separator:aba609827ae566c40802bf828ab5a5a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbb02f98d6089f04e6450692a0d35221"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d19/a00273.php#acbb02f98d6089f04e6450692a0d35221">mcd::check::pair_str</a> = std::pair&lt; std::string, std::string &gt;</td></tr>
+<tr class="separator:acbb02f98d6089f04e6450692a0d35221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -310,7 +309,9 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Last modification : November, 12 2019 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Created : April, 14 2018 </dd>
+<dd>
+Last modification : November, 18 2020 </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a92713af8c651ed158031ed7d3fd15977"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a92713af8c651ed158031ed7d3fd15977">&#9670;&nbsp;</a></span>has_method</h2>

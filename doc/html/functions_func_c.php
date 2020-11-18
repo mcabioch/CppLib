@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,13 +95,13 @@ $(document).ready(function(){initNavTree('functions_func_c.php',''); initResizab
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>Cell()
-: <a class="el" href="db/db2/a01143.php#ae5097d9d7e1fc380e39fe9639ba794c8">mcd::natural::Cell</a>
+: <a class="el" href="db/db2/a01143.php#a7bbb3aeba2f7c46c6a125142cb76c9fb">mcd::genetic::Cell</a>
 </li>
 <li>Cesar()
 : <a class="el" href="dd/d42/a01259.php#a01dc2192c075a4cbed0a72a9c35e1a4b">mcd::Cesar</a>
 </li>
 <li>Chromosome()
-: <a class="el" href="d1/d34/a01211.php#adba79a0781609c28900d7a9b68b2a38f">mcd::natural::Chromosome</a>
+: <a class="el" href="d1/d34/a01211.php#a6a8a2b9c5dc9b20ab381537dd4eb814e">mcd::genetic::Chromosome</a>
 </li>
 <li>clear()
 : <a class="el" href="d4/d04/a01335.php#ab8a3794bcdcff4ad8875c6799eb4ab58">mcd::Map</a>
@@ -137,9 +137,9 @@ $(document).ready(function(){initNavTree('functions_func_c.php',''); initResizab
 : <a class="el" href="d6/d65/a01443.php#a1fc36192abe90cd4c50aecf7a0df3ce1">mcd::Tree&lt; T &gt;</a>
 </li>
 <li>copy()
-: <a class="el" href="db/db2/a01143.php#aeb549302dbb6442103933d2a17361580">mcd::natural::Cell</a>
-, <a class="el" href="d1/d34/a01211.php#ab0def08172e265c3850983190d353f7c">mcd::natural::Chromosome</a>
-, <a class="el" href="d8/d38/a01299.php#af2f9b44131d9874e8b2d27566f8f5bf0">mcd::natural::Gene</a>
+: <a class="el" href="db/db2/a01143.php#a32c13557203d97ef7c75a194f8673830">mcd::genetic::Cell</a>
+, <a class="el" href="d1/d34/a01211.php#a8b1df7d685e6f49558c4c6e260547777">mcd::genetic::Chromosome</a>
+, <a class="el" href="d8/d38/a01299.php#a0105c4d4734abb6fbcb9acff959b7852">mcd::genetic::Gene</a>
 </li>
 <li>create()
 : <a class="el" href="d6/d65/a01443.php#a09e92db6995261c4f6bfd7ce10bf8d2f">mcd::Tree&lt; T &gt;</a>

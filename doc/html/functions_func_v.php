@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -95,12 +95,12 @@ $(document).ready(function(){initNavTree('functions_func_v.php',''); initResizab
 
 <h3><a id="index_v"></a>- v -</h3><ul>
 <li>Value()
-: <a class="el" href="db/db2/a01143.php#a01bc934ac059453792f6783b0e919dd1">mcd::natural::Cell</a>
-, <a class="el" href="d1/d34/a01211.php#a2dced15a099be338addf44cb4d8a60f2">mcd::natural::Chromosome</a>
-, <a class="el" href="d8/d38/a01299.php#a1c76cb1011260b0ad8495d1e591057ba">mcd::natural::Gene</a>
+: <a class="el" href="db/db2/a01143.php#a292f7fbaa31c3754b52158effddf3ba9">mcd::genetic::Cell</a>
+, <a class="el" href="d1/d34/a01211.php#a2df472bc4ec846a07de0ed25b3e5d69a">mcd::genetic::Chromosome</a>
+, <a class="el" href="d8/d38/a01299.php#a2d0a2b0313c72a3f89759c1b3a3a4bd0">mcd::genetic::Gene</a>
 </li>
 <li>Values()
-: <a class="el" href="d1/d34/a01211.php#a9d228fb25de487c350f4416dbc5ff8e2">mcd::natural::Chromosome</a>
+: <a class="el" href="d1/d34/a01211.php#a1de2f9e687d9a38bf46df75cba211157">mcd::genetic::Chromosome</a>
 </li>
 <li>vector()
 : <a class="el" href="d6/d3b/a01459.php#a85632a3c79899e1a5a75f7fa6b959815">mcd::vector&lt; C &gt;</a>

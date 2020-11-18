@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['cell_842',['Cell',['../db/db2/a01143.php',1,'mcd::natural']]],
+  ['cell_842',['Cell',['../db/db2/a01143.php',1,'mcd::genetic']]],
   ['cesar_843',['Cesar',['../dd/d42/a01259.php',1,'mcd']]],
-  ['chromosome_844',['Chromosome',['../d1/d34/a01211.php',1,'mcd::natural']]],
+  ['chromosome_844',['Chromosome',['../d1/d34/a01211.php',1,'mcd::genetic']]],
   ['clock_845',['Clock',['../da/d3f/a01215.php',1,'mcd']]],
   ['cls_846',['Cls',['../d9/da8/a01227.php',1,'mcd::console']]],
   ['color_847',['Color',['../d5/d39/a01219.php',1,'mcd::console']]],

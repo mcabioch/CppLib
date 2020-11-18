@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('namespacemembers_type.php',''); initRe
 <div class="contents">
 &#160;<ul>
 <li>Chromosomes
-: <a class="el" href="dd/d86/a00271.php#a188924fe6c7007fd322ebe9ece4bb4b6">mcd::natural</a>
+: <a class="el" href="dd/d86/a00271.php#aee886c080102ea9c98ab235a2edd614e">mcd::genetic</a>
 </li>
 <li>double32_t
 : <a class="el" href="db/d12/a00268.php#a6982966fec37b802e584caec858e2e29">mcd</a>
@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('namespacemembers_type.php',''); initRe
 : <a class="el" href="db/d12/a00268.php#adda27badcbfcfc854854c6ab094cf34e">mcd</a>
 </li>
 <li>Genes
-: <a class="el" href="dd/d86/a00271.php#aed19377fb7721df1a451d93af0c19950">mcd::natural</a>
+: <a class="el" href="dd/d86/a00271.php#a558590aa4062bed1dd3e130a2170254e">mcd::genetic</a>
 </li>
 <li>map_str
 : <a class="el" href="db/d12/a00268.php#ab3aa994c4b6d9eccce0cf840e6c0a731">mcd</a>
@@ -120,7 +120,8 @@ $(document).ready(function(){initNavTree('namespacemembers_type.php',''); initRe
 : <a class="el" href="db/d12/a00268.php#a0d3d39a7992ee9e893a83ab18066f79d">mcd</a>
 </li>
 <li>pair_str
-: <a class="el" href="db/d12/a00268.php#aba609827ae566c40802bf828ab5a5a3c">mcd</a>
+: <a class="el" href="d0/d19/a00273.php#acbb02f98d6089f04e6450692a0d35221">mcd::check</a>
+, <a class="el" href="db/d12/a00268.php#ab4778b7c485c0afadf690bbd6c02a23b">mcd</a>
 </li>
 <li>quatuor_str
 : <a class="el" href="db/d12/a00268.php#a3efdc3dde9fecbe97dcf74de1df3165d">mcd</a>

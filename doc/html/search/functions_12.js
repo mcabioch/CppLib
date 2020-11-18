@@ -21,7 +21,7 @@ var searchData=
   ['tost_1426',['tost',['../db/d12/a00268.php#a917e4be62e6930b138038ae16ebc7904',1,'mcd']]],
   ['tou_1427',['tou',['../db/d12/a00268.php#a818831d2e74dbfa3be2150c38a9afa31',1,'mcd']]],
   ['tov_1428',['tov',['../db/d12/a00268.php#a21f9e69f4ccff705b65007a1ac7063ef',1,'mcd']]],
-  ['transfer_1429',['transfer',['../dd/d86/a00271.php#a81eb139ff8493e715a8efce3fda3155f',1,'mcd::natural']]],
+  ['transfer_1429',['transfer',['../dd/d86/a00271.php#a9b48db18b101f7f460aeb9cdfa923027',1,'mcd::genetic']]],
   ['transform_1430',['transform',['../de/dcb/a01263.php#a74c404cd90d7d9331818f2eea6f1f7d2',1,'mcd::SHA2']]],
   ['transposed_1431',['transposed',['../dd/d6e/a01339.php#a942e3d418da2bacad3193d82411e2cfc',1,'mcd::Matrix']]],
   ['tree_1432',['Tree',['../d6/d65/a01443.php#a93774d1792effab8a46379c6781729f0',1,'mcd::Tree']]],

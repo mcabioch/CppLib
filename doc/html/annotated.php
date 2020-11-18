@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -136,7 +136,7 @@ $(document).ready(function(){initNavTree('annotated.php',''); initResizable(); }
 <tr id="row_0_2_9_" class="even"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d2/df5/a01395.php" target="_self">PlayerAbstraction</a></td><td class="desc">A player that can be a child from any class </td></tr>
 <tr id="row_0_2_10_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d0/d7d/a01419.php" target="_self">Stone</a></td><td class="desc">A stone </td></tr>
 <tr id="row_0_2_11_" class="even"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d7/d42/a01463.php" target="_self">Vegetal</a></td><td class="desc">A vegetal </td></tr>
-<tr id="row_0_3_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_0_3_" class="arrow" onclick="toggleFolder('0_3_')">&#9660;</span><span class="icona"><span class="icon">N</span></span><a class="el" href="dd/d86/a00271.php" target="_self">natural</a></td><td class="desc"></td></tr>
+<tr id="row_0_3_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_0_3_" class="arrow" onclick="toggleFolder('0_3_')">&#9660;</span><span class="icona"><span class="icon">N</span></span><a class="el" href="dd/d86/a00271.php" target="_self">genetic</a></td><td class="desc"></td></tr>
 <tr id="row_0_3_0_" class="even"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="db/db2/a01143.php" target="_self">Cell</a></td><td class="desc">A cell with chromosomes </td></tr>
 <tr id="row_0_3_1_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d1/d34/a01211.php" target="_self">Chromosome</a></td><td class="desc">A double group of genes </td></tr>
 <tr id="row_0_3_2_" class="even"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d8/d38/a01299.php" target="_self">Gene</a></td><td class="desc">A gene that represent a caracteristic </td></tr>

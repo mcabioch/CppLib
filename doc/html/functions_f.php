@@ -27,7 +27,7 @@
 						<tr style="height: 56px;">
 							<td id="projectalign" style="padding-left: 0.5em;">
 								<div id="projectname">C++
-									&#160;<span id="projectnumber">1.6.2.3</span>
+									&#160;<span id="projectnumber">1.6.3.0</span>
 								</div>
 								<div id="projectbrief">My own C++ features</div>
 							</td>
@@ -36,7 +36,7 @@
 				</table>
 			</div>
 			<?php
-				$text = "Generated on Tue Nov 17 2020 15:27:34 for C++ by";
+				$text = "Generated on Wed Nov 18 2020 14:47:42 for C++ by";
 				$text = substr($text, 0, sizeof($text) - 4);
 				$tmp = substr($text, 17);
 				$tmp = substr($tmp, 0, strpos($tmp, " for"));
@@ -114,10 +114,10 @@ $(document).ready(function(){initNavTree('functions_f.php',''); initResizable();
 , <a class="el" href="db/d12/a00268.php#a487ffcf658abecf75319593df922b7bf">mcd::trio&lt; T, U, V &gt;</a>
 </li>
 <li>FLOAT
-: <a class="el" href="d8/d38/a01299.php#a29dd9b8ac897a110f7047c2912ebd2e0ae7b17b5d887f18544b1ca0f51244e8c4">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#aab74f29d676323712ddd3a6b0b5e8bafa9112634199bb5fed6dd8a509b1618628">mcd::genetic::Gene</a>
 </li>
 <li>FloatAccuracy
-: <a class="el" href="d8/d38/a01299.php#a956e43802a33c93c589c52568f12f6d1">mcd::natural::Gene</a>
+: <a class="el" href="d8/d38/a01299.php#a1f70c26c849ce20de51e3853561f234b">mcd::genetic::Gene</a>
 </li>
 <li>Fraction()
 : <a class="el" href="d2/d68/a01295.php#aff15244127221e0d190260b62caef134">mcd::Fraction</a>
